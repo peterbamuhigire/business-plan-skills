@@ -21,8 +21,16 @@ Provide industry-specific context, benchmarks, and best practices to tailor busi
 | **Restaurant & Food Service** | `restaurant/` | Food/beverage/labour cost controls, menu engineering, restaurant types, startup costs, licensing, financial benchmarks |
 | **Agriculture & Agribusiness** | `agriculture/` | Enterprise budgets, crop planning, farm financial management, agribusiness value chain, marketing channels, organic certification |
 | **Retail & Shop Management** | `retail/` | Startup costs by format, retail financial management, Strategic Profit Model, inventory/merchandising, site selection, retail analytics/KPIs, marketing/promotion |
-
-*More industries will be added over time.*
+| **Food Processing** | `food-processing/` | Value-addition to agricultural products: dairy, bakery, beverages, spices, oils, cereals, fruits/vegetables, meat/fish processing. 46 UNDP business profiles with investment benchmarks |
+| **Livestock, Aquaculture & Farming** | `livestock-aquaculture/` | Poultry, piggery, dairy, cattle, aquaculture, apiculture, horticulture, agri-inputs. 22 UNDP business profiles |
+| **Light Manufacturing** | `manufacturing-light/` | Plastics/rubber, paper/stationery, metal products, crafts/decorative, recycling, electronics. 49 UNDP business profiles |
+| **Textiles, Fashion & Leather** | `textiles-fashion/` | Garments, leather goods/footwear, natural fibre products, accessories/jewellery. 25 UNDP business profiles |
+| **Chemicals & Cosmetics** | `chemicals-cosmetics/` | Cleaning products, personal care/cosmetics, paints/inks, pest control, petroleum products. 18 UNDP business profiles |
+| **Construction & Building Materials** | `construction-building-materials/` | Bricks/blocks, tiles/finishing, metal fabrication, wood/timber, construction services. 13 UNDP business profiles |
+| **Hospitality & Tourism** | `hospitality-tourism/` | Food service, bars/entertainment, budget accommodation, hotels/lodges. 10 UNDP business profiles |
+| **Services** | `services/` | Vehicle services, cleaning/maintenance, tech/digital, personal care, equipment repair, fuel distribution. 10 UNDP business profiles |
+| **Mining & Extractives** | `mining-extractives/` | Stone quarrying, mineral extraction, lime/chalk, oil & gas support services. 4 UNDP business profiles |
+| **Education & Social Enterprise** | `education-social/` | Private education, health/medical products, hygiene products. 4 UNDP business profiles |
 
 ## Industry Guide Structure
 
