@@ -1,6 +1,6 @@
 ---
 name: marketing-sales-strategy
-description: Generate the marketing and sales strategy section covering the marketing mix (4Ps/7Ps), pricing strategy, distribution channels, promotional plan, sales process, customer acquisition funnel, digital channel strategy, guerrilla tactics, and revenue model. Use when building or reviewing go-to-market strategies, marketing plans, channel strategies, or marketing budget allocation. Incorporates Farris's marketing metrics, Kotler's Marketing 6.0 evolution, Levinson's guerrilla marketing, growth marketing AARRR framework, Palo Alto's On Target methodology, Jarvis's 85 small business marketing tactics, and Schiffman's sales methodology (PIPA sequence, four-step sales process, pipeline ratios, relationship selling levels).
+description: Generate the marketing and sales strategy section covering the marketing mix (4Ps/7Ps), pricing strategy, distribution channels, promotional plan, sales process, customer acquisition funnel, digital channel strategy, guerrilla tactics, and revenue model. Use when building or reviewing go-to-market strategies, marketing plans, channel strategies, or marketing budget allocation. Incorporates Farris's marketing metrics, Kotler's Marketing 6.0 evolution, Levinson's guerrilla marketing, growth marketing AARRR framework, Palo Alto's On Target methodology, Jarvis's 85 small business marketing tactics, Schiffman's sales methodology (PIPA sequence, four-step sales process, pipeline ratios, relationship selling levels), Keenan's Gap Selling (problem-centric discovery, current state/future state gap analysis), Kazanjy's founder-led selling stages, and Goliger's sales scaling blueprint (ICP, sales models, team building, compensation, sales velocity).
 ---
 
 # Marketing & Sales Strategy Skill
@@ -201,6 +201,22 @@ Every marketing plan must address all three levers simultaneously:
 
 ## Sales Process
 
+### Gap Selling Principle (Keenan)
+
+Every sale exists in the **gap** between the customer's current state (problems, costs, frustrations) and their desired future state (outcomes, capabilities, emotions). The bigger the gap, the more urgency to buy and the less price-sensitive the customer.
+
+```
+CURRENT STATE ──── THE GAP (your sale) ──── FUTURE STATE
+```
+
+For each customer segment, define:
+- **Current state**: facts, problems, business impact, root cause, emotional impact
+- **Future state**: desired outcomes, new capabilities, success metrics
+- **Gap size**: quantified difference (monetary where possible)
+- **Gap validation**: is the gap big enough to drive action? (price should be < 20-30% of gap value)
+
+Your real competition is almost never another vendor — it is the **status quo** (what the customer already does). Most deals are lost to "no decision."
+
 ### B2C Sales Funnel
 
 ```
@@ -317,6 +333,27 @@ PHASE 3 — URGENCY
 
 **Core principle**: People buy on emotion and justify logically. Emotional and logical reasons to buy must overwhelm significant reasons not to buy. See `references/persuasion-sales-process.md` for the complete framework including qualification checklists, objection handling scripts, closing strategies, and referral systems.
 
+## Founder-Led Selling Stages (Kazanjy)
+
+For startups, the sales team must evolve through stages — skipping stages causes failure:
+
+| Stage | Team | Exit Criteria |
+|---|---|---|
+| **1. Founder only** | Founder selling alone | 20-30 customers acquired and getting value |
+| **2. Founder + SDR + 2 AEs** | First sales hires | AEs closing at founder's rate |
+| **3. Sales manager + team** | Dedicated sales leader | Repeatable hiring and quota attainment |
+| **4. VP Sales + scaled team** | Executive leadership | Predictable revenue engine |
+
+**Anti-pattern:** Hiring a VP Sales or "sales guy" at Stage 1. No one understands the product and market like the founder. The staffing plan must show stage-appropriate hiring.
+
+### Sales Velocity Formula (Goliger)
+
+```
+Sales Velocity = (Opportunities x Win Rate x Avg Deal Size) / Avg Sales Cycle (days)
+```
+
+Track this metric to measure pipeline health and forecast revenue capacity.
+
 ## Key Marketing Metrics (Farris)
 
 ### Performance Dashboard
@@ -344,10 +381,12 @@ PHASE 3 — URGENCY
 8. For small businesses: apply Jarvis's three growth levers, alliance strategy, PR plan, and communication calendar
 9. Allocate marketing budget by channel with ROI expectations
 10. Define retention and upsell strategy including customer review process and complaint handling
-11. Design the sales process appropriate to business type (B2C funnel, B2B Schiffman four-step process, Jarvis service selling, or Wes Lee persuasion)
-12. For B2B: define the PIPA first meeting structure, pipeline ratios, prospecting cadence, and relationship progression targets
-13. Set measurable KPIs for each channel and funnel stage
-14. Include marketing evaluation system with test-and-measure discipline
+11. **Define the gap** for each customer segment (current state → future state, quantified)
+12. Design the sales process appropriate to business type (B2C funnel, B2B Schiffman four-step process, Jarvis service selling, Gap Selling discovery, or Wes Lee persuasion)
+13. For B2B: define the PIPA first meeting structure, pipeline ratios, prospecting cadence, and relationship progression targets
+14. For startups: identify founder-led selling stage, plan sales team scaling progression, define ICP
+15. Set measurable KPIs for each channel and funnel stage (including sales velocity)
+16. Include marketing evaluation system with test-and-measure discipline
 
 ## Quality Criteria
 
@@ -366,6 +405,9 @@ PHASE 3 — URGENCY
 - PR and expert positioning plan is defined for profile building
 - Marketing evaluation system includes test-and-measure processes
 - Metrics dashboard covers acquisition, retention, and revenue
+- Gap analysis quantifies the current state → future state gap for each customer segment
+- Startup sales plans show stage-appropriate team scaling (not jumping from founder to VP Sales)
+- Sales velocity formula is calculated for pipeline forecasting
 - All cost assumptions are stated and traceable
 
 ## References
@@ -376,3 +418,5 @@ PHASE 3 — URGENCY
 - **Persuasion and sales process**: See `references/persuasion-sales-process.md` for Wes Lee's 10-step professional persuasion sales process, 3-phase sales framework (Involvement/Qualify & Magnify/Urgency), WPNID qualification framework, 11 client thought patterns, 5-step objection transformation process, test closing techniques, closing strategies, referral systems, and customer psychology/buying triggers
 - **Small business marketing tactics**: See `references/small-business-marketing-tactics.md` for Jarvis's 9-step marketing plan framework, three growth levers, niche selection criteria, USP development process, alliance and joint venture strategy, referral systems, PR and press release formula, expert positioning, cold call framework, proposal structure, communication calendar template, CRM discipline, marketing evaluation checklists, and low-cost high-impact tactic rankings
 - **Sales strategy and methodology**: See `references/sales-strategy-schiffman.md` for Schiffman's four-step sales process, PIPA first meeting sequence, do-based questioning framework, prospecting and cold calling methodology (nine principles), pipeline ratio tracking, relationship selling levels (seller/supplier/vendor/partner), fallback prospect recycling, verification step, preliminary proposal technique, "does this make sense" closing approach, and sales process checklists
+- **Gap selling methodology**: See `references/gap-selling-methodology.md` for Keenan's problem-centric selling framework, nine truth bombs of selling, current state/future state gap analysis, five-layer discovery question framework, gap equation, objection reframing through discovery, gap prospecting message templates, and sales forecast validation using gap analysis
+- **Startup sales playbook and scaling**: See `references/startup-sales-scaling.md` for Kazanjy's four founder-led selling stages, Goliger's ICP definition framework, buyer psychographics, sales model selection (direct/inside/channel/self-serve), sales narrative structure, prospecting sequences, demo best practices, sales velocity formula, sales team hiring sequence, compensation structures, scaling stages from zero to UGX 5B+, customer success as revenue driver, health scoring, and sales outsourcing decision framework
