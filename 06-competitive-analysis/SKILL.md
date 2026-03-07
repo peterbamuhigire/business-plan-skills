@@ -143,3 +143,5 @@ Never compete on the incumbent's terms. Instead:
 
 - **Competitive metrics and share analysis**: See `references/competitive-metrics.md` for market share calculations, concentration analysis, brand development indices, and competitive benchmarking formulas from Farris
 - **Positioning and differentiation**: See `references/positioning-strategy.md` for guerrilla positioning tactics, value-based differentiation frameworks, perceptual mapping, and blue ocean positioning approaches
+- **Competitive strategy tools**: See `references/competitive-strategy-tools.md` for competitor analysis framework, competitive position rating (0-5 scale), strategy maps, strategic gap analysis, generic strategies, value chain analysis, strategy evaluation tests, competitive life cycle, and Blue Ocean Strategy from Evans, Harris & Lenox, and Fahey & Randall
+- **Strategy Choice Cascade**: See `references/strategy-cascade-framework.md` for the five-question strategy cascade, five strategy traps, where-to-play and how-to-win choices, activity system mapping, strategy logic flow, reverse engineering strategic choices, and cascade-to-business-plan mapping from Lafley & Martin

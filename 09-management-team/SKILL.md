@@ -56,3 +56,7 @@ Role in this venture: [Specific responsibilities]
 - Org chart is realistic for current stage (not over-structured)
 - Hiring plan aligns with financial projections and growth timeline
 - Advisory board members add genuine strategic value
+
+## References
+
+- [Leadership & Greatness Frameworks](references/leadership-greatness-frameworks.md) — Level 5 Leadership, First Who Then What, Hedgehog Concept, Stockdale Paradox, Culture of Discipline, Flywheel, and Technology Accelerator frameworks from *Good to Great* by Jim Collins, with practical application guidance for each business plan section

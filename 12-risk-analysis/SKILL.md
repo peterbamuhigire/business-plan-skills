@@ -60,3 +60,7 @@ Generate an honest risk assessment that builds investor confidence through trans
 - Contingency plans include trigger conditions ("if X happens, we do Y")
 - Analysis is honest — investors distrust plans with no acknowledged risks
 - Key person risk is addressed with succession or knowledge-sharing plans
+
+## References
+
+- **Strategic risk and scenario planning**: See `references/strategic-risk-scenarios.md` for Suns & Clouds risk chart, risk containment strategies (avoid/transfer/reduce/accept), scenario planning methodology, hypothesis testing for strategy, risk-reward evaluation, risk mitigation plan template, and sensitivity analysis from Evans, Harris & Lenox, and Fahey & Randall

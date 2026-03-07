@@ -52,3 +52,8 @@ Stage: [development / launched / mature]
 - Differentiators are specific and defensible (not "better quality")
 - Pricing rationale connects to value delivered
 - R&D pipeline shows forward thinking without over-promising
+
+## References
+
+- **Value chain and core competencies**: See `references/value-chain-competencies.md` for value chain design, core competency identification (Prahalad), capabilities analysis, small business strategy (SWOT/niche), stakeholder value mapping, capability gap analysis, and VRIO resource-based strategy from Fahey & Randall, Harris & Lenox, and Evans
+- **Pricing strategy**: See `references/pricing-strategy.md` for the Five Ways to Grow framework, cost-plus critique, Value Scales model, Price Triangle, Gold/Silver/Bronze tiered packaging, bundling and cross-selling, discount/volume breakeven tables, pricing psychology (anchoring, decoy, charm pricing), directional pricing, competitive pricing, implementing price changes (A/B/C customer grading), and a condensed pricing action checklist — from Hill (Kogan Page, 2013)
