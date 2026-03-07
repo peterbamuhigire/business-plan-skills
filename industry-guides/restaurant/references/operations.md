@@ -2,6 +2,8 @@
 
 > Source: *The Upstart Guide to Owning and Managing a Restaurant*, 2nd Edition, by Roy S. Alonzo (Kaplan Publishing, 2007).
 
+> Figures adapted to Ugandan context (UGX). Percentages and ratios from the source are universal.
+
 ## Start-Up Expense Categories
 
 1. **Initial planning:** accounting/legal resources, market research, G&A expenses (phone, copying, transport), consulting, design, cost estimating
@@ -80,56 +82,56 @@ Analyse needs based on:
 **Kitchen:**
 | Equipment | Typical Cost Range |
 |---|---|
-| Walk-in refrigerator | $7,100 |
-| Reach-in freezer (stainless, with racks) | $3,725 |
-| Automatic dishwasher | $12,300 |
-| Twin basket fryers (2) | $7,450 |
-| Convection oven | $5,450 |
-| Restaurant ranges (2) | $4,850 |
-| Fire protection hood and exhaust system | $10,000 |
-| Broiler | $2,800 |
-| Food mixer (20 qt) | $3,175 |
-| Coffee urn | $2,100 |
-| Ice maker (600 lb capacity) | $3,000 |
-| Griddle (3') | $3,500 |
-| Conveyor toaster | $1,725 |
-| Stainless prep tables (2) | $800 |
-| Garbage disposer | $300 |
-| 40 cu ft refrigerators (2) | $4,475 |
+| Walk-in refrigerator | UGX 35,000,000 |
+| Reach-in freezer (stainless, with racks) | UGX 18,000,000 |
+| Automatic dishwasher | UGX 60,000,000 |
+| Twin basket fryers (2) | UGX 36,000,000 |
+| Convection oven | UGX 26,500,000 |
+| Restaurant ranges (2) | UGX 23,500,000 |
+| Fire protection hood and exhaust system | UGX 48,500,000 |
+| Broiler | UGX 13,500,000 |
+| Food mixer (20 qt) | UGX 15,400,000 |
+| Coffee urn | UGX 10,200,000 |
+| Ice maker (600 lb capacity) | UGX 14,600,000 |
+| Griddle (3') | UGX 17,000,000 |
+| Conveyor toaster | UGX 8,400,000 |
+| Stainless prep tables (2) | UGX 3,900,000 |
+| Garbage disposer | UGX 1,500,000 |
+| 40 cu ft refrigerators (2) | UGX 21,700,000 |
 
 **Bar:**
 | Equipment | Typical Cost Range |
 |---|---|
-| Remote 6-keg beer refrigerator | $2,500 |
-| Direct draw 3-keg beer box with taps | $2,100 |
-| Cocktail stations (2) | $1,800 |
-| Bar sinks with speed racks (2) | $1,500 |
-| Post-mix soda dispensing (2) | $2,000 |
-| Three-door bar refrigerator | $2,400 |
-| Glass froster (120 mug capacity) | $1,200 |
-| Beer bottle cooler (4') | $900 |
-| Front bar (20') with top and foot rail | $4,020 |
-| Back bar with cabinets (14') | $2,038 |
+| Remote 6-keg beer refrigerator | UGX 12,100,000 |
+| Direct draw 3-keg beer box with taps | UGX 10,200,000 |
+| Cocktail stations (2) | UGX 8,700,000 |
+| Bar sinks with speed racks (2) | UGX 7,300,000 |
+| Post-mix soda dispensing (2) | UGX 9,700,000 |
+| Three-door bar refrigerator | UGX 11,700,000 |
+| Glass froster (120 mug capacity) | UGX 5,800,000 |
+| Beer bottle cooler (4') | UGX 4,400,000 |
+| Front bar (20') with top and foot rail | UGX 19,500,000 |
+| Back bar with cabinets (14') | UGX 9,900,000 |
 
 **Dining Room:**
 | Equipment | Typical Cost Range |
 |---|---|
-| Chairs (100) | $12,500 |
-| Booths (8, 4') | $4,013 |
-| Tables for 4 with bases (12) | $2,388 |
-| Tables for 2 with bases (10) | $1,750 |
-| Bar stools, upholstered (15) | $3,901 |
-| Large screen TVs (2) | $5,500 |
-| POS system/cash register | $3,250 |
+| Chairs (100) | UGX 25,000,000 |
+| Booths (8, 4') | UGX 16,000,000 |
+| Tables for 4 with bases (12) | UGX 9,600,000 |
+| Tables for 2 with bases (10) | UGX 7,000,000 |
+| Bar stools, upholstered (15) | UGX 11,700,000 |
+| Large screen TVs (2) | UGX 8,000,000 |
+| POS system/cash register | UGX 12,000,000 |
 
 **Leasehold Improvements:**
 | Category | Cost |
 |---|---|
-| HVAC | $41,000 |
-| Electrical | $22,000 |
-| Plumbing | $21,000 |
-| Carpeting, floor tile, related | $46,000 |
-| **Total** | **$130,000** |
+| HVAC | UGX 20,000,000 |
+| Electrical | UGX 11,000,000 |
+| Plumbing | UGX 10,500,000 |
+| Carpeting, floor tile, related | UGX 10,500,000 |
+| **Total** | **UGX 52,000,000** |
 
 ### Buy vs. Lease Equipment
 - Consider available capital, tax implications, and equipment lifecycle
@@ -139,7 +141,7 @@ Analyse needs based on:
 ## Purchasing and Inventory Control
 
 ### Purchasing Principles
-- Purchasing dollars are "high-powered" -- if netting 10% profit, it takes $10 in additional sales to compensate for every $1 lost through poor purchasing
+- Purchasing shillings are "high-powered" -- if netting 10% profit, it takes UGX 10 in additional sales to compensate for every UGX 1 lost through poor purchasing
 - Buy the right quantities, grades, and ripeness stage
 - Avoid slow-moving items (money on shelves gathers dust, not interest)
 - Cross-check prices with multiple vendors
@@ -191,11 +193,11 @@ Requires only three things:
 3. Record of sales
 
 ```
-Beginning inventory     $5,900
-Plus: Purchases         $16,500
-Total                   $22,400
-Less: Ending inventory  $6,400
-Cost of food sold       $16,000
+Beginning inventory     UGX 2,400,000
+Plus: Purchases         UGX 6,800,000
+Total                   UGX 9,200,000
+Less: Ending inventory  UGX 2,600,000
+Cost of food sold       UGX 6,600,000
 ```
 
 ### Control Loop Summary
@@ -210,38 +212,38 @@ Cost of food sold       $16,000
 
 ## Staffing Model
 
-### Sample Staff for 152-Seat Restaurant (~$1.19M annual sales)
+### Sample Staff for 152-Seat Restaurant (~UGX 490M annual sales)
 
 **11 full-time + 19 part-time employees, averaging 755 hours/week**
 
 | Position | Type | Weekly Pay |
 |---|---|---|
 | **Kitchen** | | |
-| Head Chef & Manager (Partner) | Salary | $866 |
-| Sous Chef (Partner) | Salary | $726 |
-| Rounds Person | FT, 40 hrs | $400 ($10.00/hr) |
-| Broiler Person | PT, 24 hrs | $234 ($9.75/hr) |
-| Salad & Dessert Maker | PT, 36 hrs | $324 ($9.00/hr) |
-| Cook's Helper | PT, 24 hrs | $204 ($8.50/hr) |
-| General Kitchen/Dishwasher | PT, 33 hrs | $280.50 ($8.50/hr) |
-| Dishwasher | FT, 37 hrs | $296 ($8.00/hr) |
-| Dishwasher | FT, 40 hrs | $320 ($8.00/hr) |
+| Head Chef & Manager (Partner) | Salary | UGX 692,000 |
+| Sous Chef (Partner) | Salary | UGX 577,000 |
+| Rounds Person | FT, 40 hrs | UGX 200,000 (UGX 5,000/hr) |
+| Broiler Person | PT, 24 hrs | UGX 108,000 (UGX 4,500/hr) |
+| Salad & Dessert Maker | PT, 36 hrs | UGX 144,000 (UGX 4,000/hr) |
+| Cook's Helper | PT, 24 hrs | UGX 84,000 (UGX 3,500/hr) |
+| General Kitchen/Dishwasher | PT, 33 hrs | UGX 99,000 (UGX 3,000/hr) |
+| Dishwasher | FT, 37 hrs | UGX 92,500 (UGX 2,500/hr) |
+| Dishwasher | FT, 40 hrs | UGX 100,000 (UGX 2,500/hr) |
 | **Dining Room** | | |
-| AM Head Waitperson | PT, 36 hrs | $153 ($4.25/hr) |
-| AM Waitpersons (5 PT) | 16-24 hrs each | $50.40-$75.60 ($3.15/hr + tips) |
-| PM Head Waitperson | PT, 36 hrs | $144 ($4.00/hr) |
-| PM Waitpersons (5 PT) | 16-24 hrs each | $50.40-$75.60 ($3.15/hr + tips) |
+| AM Head Waitperson | PT, 36 hrs | UGX 108,000 (UGX 3,000/hr) |
+| AM Waitpersons (5 PT) | 16-24 hrs each | UGX 40,000-60,000 (UGX 2,500/hr + tips) |
+| PM Head Waitperson | PT, 36 hrs | UGX 108,000 (UGX 3,000/hr) |
+| PM Waitpersons (5 PT) | 16-24 hrs each | UGX 40,000-60,000 (UGX 2,500/hr + tips) |
 | **Bar** | | |
-| AM Head Bartender | FT, 40 hrs | $360 ($9.00/hr) |
-| PM Head Bartender | FT, 40 hrs | $320 ($8.00/hr) |
-| Bartender PT (2) | 22-31 hrs | $154-$217 ($7.00/hr) |
+| AM Head Bartender | FT, 40 hrs | UGX 200,000 (UGX 5,000/hr) |
+| PM Head Bartender | FT, 40 hrs | UGX 180,000 (UGX 4,500/hr) |
+| Bartender PT (2) | 22-31 hrs | UGX 77,000-108,500 (UGX 3,500/hr) |
 | **Other** | | |
-| Office Manager (Partner) | Salary | $765 |
-| AM Hostess | PT, 21 hrs | $168 ($8.00/hr) |
-| PM Hostess | PT, 21 hrs | $168 ($8.00/hr) |
-| Maintenance & Cleaning | PT, 21 hrs | $168 ($8.00/hr) |
-| **Total weekly payroll** | | **$6,847.50** |
-| **Annual payroll** (x 52) | | **$356,070** |
+| Office Manager (Partner) | Salary | UGX 577,000 |
+| AM Hostess | PT, 21 hrs | UGX 63,000 (UGX 3,000/hr) |
+| PM Hostess | PT, 21 hrs | UGX 63,000 (UGX 3,000/hr) |
+| Maintenance & Cleaning | PT, 21 hrs | UGX 52,500 (UGX 2,500/hr) |
+| **Total weekly payroll** | | **UGX 2,825,000** |
+| **Annual payroll** (x 52) | | **UGX 147,000,000** |
 | **Payroll as % of sales** | | **30.0%** |
 
 ### Chef Job Description (Key Responsibilities)
@@ -285,11 +287,10 @@ Cost of food sold       $16,000
 3. **Let** the employee do it under supervision
 4. **Check back** periodically to ensure continued proper performance
 
-### Tip Reporting Requirements (IRS)
-- Employees receiving $20+/month in tips must report monthly to employer
-- Large establishments (10+ employees on typical day, food/bev consumed on premises): allocate tips if total reported < 8% of gross sales
-- Report allocated amount on W-2
-- File Form 8027 annually regardless
+### Tip Reporting Requirements
+- Employees receiving tips above the statutory threshold must report monthly to employer
+- Large establishments (10+ employees on typical day, food/bev consumed on premises): allocate tips if total reported falls below 8% of gross sales
+- Ensure compliance with Uganda Revenue Authority requirements for all staff compensation
 
 ## Sanitation and Food Safety
 
@@ -299,7 +300,6 @@ Hazard Analysis and Critical Control Point -- FDA preventive programme:
 - Identifies critical points where hazards may occur
 - Recommends measures for each critical point
 - Specifies minimum cooking times and temperatures
-- NRA's **ServSafe** programme implements HACCP for restaurants
 
 ### Key Temperature Standards
 - Hot foods held above **140 F**
@@ -340,7 +340,6 @@ Hazard Analysis and Critical Control Point -- FDA preventive programme:
 - Post policies on table tents, menus, wine lists
 - Check ID of anyone who doesn't appear at least 30 years old
 - Maintain incident log at bar
-- Send servers to TIPS programme or equivalent
 - No happy hours encouraging excessive consumption
 - Offer free coffee to departing customers
 - Arrange safe transportation when needed

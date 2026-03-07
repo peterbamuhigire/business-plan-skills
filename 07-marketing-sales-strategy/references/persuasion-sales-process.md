@@ -308,7 +308,7 @@ After the 5-step process, layer these techniques:
 | **Outweigh with value** | "Can't we agree that receiving X, Y, Z is more important than this concern?" | Shifts weight of comparison |
 | **Explain through** | Walk them through the solution logically | "You'll have a team dedicated to your needs, saving you those five days..." |
 | **Tactful denial** | Challenge the objection with competitive evidence | "It doesn't cost too much when you compare our competition and the benefits you receive." |
-| **Reduce to daily cost** | Break down the investment to its smallest unit | "$100/year = $8.33/month = $0.27/day. Are you going to let [pain] continue over $0.27 a day?" |
+| **Reduce to daily cost** | Break down the investment to its smallest unit | "UGX 370,000/year = UGX 31,000/month = UGX 1,000/day. Are you going to let [pain] continue over UGX 1,000 a day?" |
 | **Gain agreement and test close** | "By doing X, that would solve the problem, wouldn't it?" | If yes, proceed to test close. If no, dig deeper (back to step d). |
 
 ##### Pre-framing Objections

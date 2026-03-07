@@ -24,7 +24,7 @@ Sets the stage by conveying: the business name, the market opportunity, and why 
 > [Company Name] is [what it does] serving [target market]. [Market size or problem statement that creates urgency]. [One sentence of traction or validation.]
 
 **Example:**
-> GreenHarvest Technologies is an agri-tech company deploying AI-powered crop monitoring systems for smallholder farmers across East Africa. The continent's $280B agriculture sector loses an estimated 30% of crop yield to preventable diseases each year. Since our pilot launch in January 2026, we have deployed monitoring systems across 1,200 farms in three Kenyan counties.
+> GreenHarvest Technologies is an agri-tech company deploying AI-powered crop monitoring systems for smallholder farmers across East Africa. The continent's UGX 1,036T agriculture sector loses an estimated 30% of crop yield to preventable diseases each year. Since our pilot launch in January 2026, we have deployed monitoring systems across 1,200 farms in three Kenyan counties.
 
 ### Paragraph 2: Approach and Business Model
 
@@ -101,10 +101,10 @@ AI integration or technology advantage (2026 standard).
 [PARAGRAPH 3 — RESULTS: 3-5 sentences + optional bullet list]
 Current traction: customers, revenue, partnerships.
 Financial highlights (use bullets):
-  - Year 1 projected revenue: $X
+  - Year 1 projected revenue: UGX X
   - Gross margin: X%
   - Break-even: Month X
-  - Year 3 projected revenue: $X
+  - Year 3 projected revenue: UGX X
 Key milestones achieved and upcoming.
 
 [PARAGRAPH 4 — THE ASK: 3-4 sentences]
@@ -126,7 +126,7 @@ Clear call to action.
 
 ### Strong Opening (After)
 
-> "FarmGuard's AI-powered disease detection system identified crop blight 14 days earlier than traditional scouting methods across 1,200 pilot farms in Kenya — preventing an estimated $3.2M in crop losses during its first growing season. We are raising $1.5M to expand to 15,000 farms across East Africa by Q4 2027."
+> "FarmGuard's AI-powered disease detection system identified crop blight 14 days earlier than traditional scouting methods across 1,200 pilot farms in Kenya — preventing an estimated UGX 11.8B in crop losses during its first growing season. We are raising UGX 5.5B to expand to 15,000 farms across East Africa by Q4 2027."
 
 **Strengths:** Active voice, specific numbers, concrete achievement, clear ask, creates urgency.
 
@@ -137,11 +137,11 @@ Clear call to action.
 ### Strong Financial Summary (After)
 
 > **Financial Highlights:**
-> - Year 1 revenue: $840,000 (validated by 14 signed contracts)
-> - Year 2 revenue: $2.4M (based on 60% customer growth rate)
+> - Year 1 revenue: UGX 3.1B (validated by 14 signed contracts)
+> - Year 2 revenue: UGX 8.9B (based on 60% customer growth rate)
 > - Gross margin: 72% (SaaS delivery, minimal variable costs)
 > - Break-even: Month 18
-> - Year 3 projected revenue: $5.1M at 68% gross margin
+> - Year 3 projected revenue: UGX 18.9B at 68% gross margin
 
 ## 5. Self-Assessment Checklist
 

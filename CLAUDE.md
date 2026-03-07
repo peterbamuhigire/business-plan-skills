@@ -30,3 +30,20 @@ This is a collection of Claude Code skills for generating bankable business plan
 - Financial projections need explicit assumptions — never fabricate numbers
 - Market data must be sourced or clearly flagged as estimates
 - Each section should cross-reference related sections for consistency
+
+### Currency and Localisation
+
+- **Default context: Uganda (UGX)**. All examples, costs, and financial projections should use Ugandan Shillings (UGX) unless the user specifies a different country
+- When reference materials quote USD figures, convert to UGX at a realistic rate (approx. UGX 3,700 per $1 as of 2026) and adjust for local economic realities — do not simply multiply by the exchange rate. Account for differences in:
+  - Labour costs (significantly lower in Uganda)
+  - Land/rent costs (varies by location — Kampala vs rural)
+  - Input costs (some imported inputs may be more expensive)
+  - Market prices and consumer purchasing power
+- Use local regulatory context (URA tax requirements, KCCA/district licensing, UNBS standards, NEMA environmental permits)
+- Reference local institutions: Bank of Uganda, Uganda Development Bank, microfinance institutions, SACCOs
+
+### Source Referencing
+
+- Cite reference books where they add credibility to the business plan: financial benchmarks, regulatory frameworks, pricing methodologies, industry statistics
+- Format: parenthetical (Author, Year) on first use; full bibliographic details in the appendices
+- Do NOT cite for generic advice, the user's own data, or derived projections

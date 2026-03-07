@@ -2,9 +2,11 @@
 
 > Source: *The Upstart Guide to Owning and Managing a Restaurant*, 2nd Edition, by Roy S. Alonzo (Kaplan Publishing, 2007).
 
+> Figures adapted to Ugandan context (UGX). Percentages and ratios from the source are universal.
+
 ## Income Statement Structure (Percentage of Total Sales)
 
-Based on the book's sample restaurant (The Harborside Restaurant and Lounge, ~$1.17M annual sales):
+Based on the book's sample restaurant (The Harborside Restaurant and Lounge, ~UGX 480M annual sales):
 
 | Line Item | % of Total Sales | Notes |
 |---|---|---|
@@ -36,51 +38,51 @@ Based on the book's sample restaurant (The Harborside Restaurant and Lounge, ~$1
 
 ## Sample Business Plan Financials (The Checkered Flag Steak House)
 
-A 152-seat restaurant (90 dining + 30 bar + 32 patio) with ~$1.19M projected annual sales:
+A 152-seat restaurant (90 dining + 30 bar + 32 patio) with ~UGX 490M projected annual sales:
 
 ### Start-Up Cost Breakdown
 
 | Category | Amount | % of Total |
 |---|---|---|
-| Working capital (cash) | $92,500 | 18.5% |
-| Leasehold improvements | $130,000 | 26.0% |
-| Licences | $36,000 | 7.2% |
-| Beginning inventories (food, bev, supplies) | $38,000 | 7.6% |
-| Furniture, fixtures, and equipment | $133,500 | 26.7% |
-| Opening expenses (insurance, permits, training, advertising, grand opening) | $70,000 | 14.0% |
-| **Total start-up investment** | **$500,000** | **100%** |
+| Working capital (cash) | UGX 37M | 18.5% |
+| Leasehold improvements | UGX 52M | 26.0% |
+| Licences | UGX 14.4M | 7.2% |
+| Beginning inventories (food, bev, supplies) | UGX 15.2M | 7.6% |
+| Furniture, fixtures, and equipment | UGX 53.4M | 26.7% |
+| Opening expenses (insurance, permits, training, advertising, grand opening) | UGX 28M | 14.0% |
+| **Total start-up investment** | **UGX 200M** | **100%** |
 
 ### Funding Structure
-- Partners' equity: $250,000 (50%)
-- Bank loan: $250,000 (50%), 15-year term at 12% fixed
+- Partners' equity: UGX 100M (50%)
+- Bank loan: UGX 100M (50%), 15-year term at 12% fixed
 - Debt-to-equity ratio: 1:1
-- Collateral: deed of trust on $475,000 home
+- Collateral: deed of trust on UGX 190M property
 
 ### Projected Income Statement (Year 1)
 
 | Line Item | Amount | % of Sales |
 |---|---|---|
-| Food sales | $866,437 | 73.0% |
-| Beverage sales | $320,463 | 27.0% |
-| **Total sales** | **$1,186,900** | **100.0%** |
-| Food cost | $285,924 | 24.1%* |
-| Beverage cost | $73,706 | 6.2%* |
-| **Total cost of sales** | **$359,630** | **30.3%** |
-| **Gross profit** | **$827,270** | **69.7%** |
-| Payroll | $356,070 | 30.0% |
-| Employee benefits | $48,663 | 4.1% |
-| Direct operating expenses | $54,597 | 4.6% |
-| Advertising and promotion | $21,364 | 1.8% |
-| Music and entertainment | $11,667 | 1.0% |
-| Utilities | $36,794 | 3.1% |
-| Admin. and general | $29,673 | 2.5% |
-| Repairs and maintenance | $17,804 | 1.5% |
-| **Total controllable expenses** | **$576,632** | **48.6%** |
-| **Profit before occupancy** | **$250,638** | **21.1%** |
-| Occupancy costs (total) | $68,833 | 5.8% |
-| Interest | $5,834 | 0.5% |
-| Depreciation | $23,334 | 2.0% |
-| **Net profit** | **$152,637** | **12.8%** |
+| Food sales | UGX 357.7M | 73.0% |
+| Beverage sales | UGX 132.3M | 27.0% |
+| **Total sales** | **UGX 490M** | **100.0%** |
+| Food cost | UGX 118.0M | 24.1%* |
+| Beverage cost | UGX 30.4M | 6.2%* |
+| **Total cost of sales** | **UGX 148.5M** | **30.3%** |
+| **Gross profit** | **UGX 341.5M** | **69.7%** |
+| Payroll | UGX 147.0M | 30.0% |
+| Employee benefits | UGX 20.1M | 4.1% |
+| Direct operating expenses | UGX 22.5M | 4.6% |
+| Advertising and promotion | UGX 8.8M | 1.8% |
+| Music and entertainment | UGX 4.8M | 1.0% |
+| Utilities | UGX 15.2M | 3.1% |
+| Admin. and general | UGX 12.3M | 2.5% |
+| Repairs and maintenance | UGX 7.4M | 1.5% |
+| **Total controllable expenses** | **UGX 238.1M** | **48.6%** |
+| **Profit before occupancy** | **UGX 103.4M** | **21.1%** |
+| Occupancy costs (total) | UGX 28.4M | 5.8% |
+| Interest | UGX 2.5M | 0.5% |
+| Depreciation | UGX 9.6M | 2.0% |
+| **Net profit** | **UGX 62.9M** | **12.8%** |
 
 *Note: Food cost as % of food sales = 33.0%; Beverage cost as % of beverage sales = 23.0%. The percentages shown are of total sales.*
 
@@ -88,39 +90,39 @@ A 152-seat restaurant (90 dining + 30 bar + 32 patio) with ~$1.19M projected ann
 
 | Meal Period | Customers/Week | Avg Guest Check | Weekly Sales |
 |---|---|---|---|
-| Lunch | 585 | $11.45 | $6,698 |
-| Dinner | 455 | $30.40 | $13,832 |
-| Bar only | 255 | $9.00 | $2,295 |
-| **Total** | **1,295** | | **$22,825** |
+| Lunch | 585 | UGX 15,000 | UGX 8,775,000 |
+| Dinner | 455 | UGX 40,000 | UGX 18,200,000 |
+| Bar only | 255 | UGX 12,000 | UGX 3,060,000 |
+| **Total** | **1,295** | | **UGX 30,035,000** |
 
-Annual sales = 52 weeks x $22,825 = **$1,186,900**
+Annual sales = 52 weeks x UGX 30,035,000 = **UGX 490M** (rounding applied across line items)
 
 ### Daily Break-Even Analysis
 
 | Component | Amount |
 |---|---|
 | **Monthly fixed costs** | |
-| Rent | $4,200 |
-| Salaries | $10,214 |
-| Utilities | $3,325 |
-| Insurance | $2,758 |
-| Taxes | $3,047 |
-| Depreciation | $1,945 |
-| **Total monthly fixed costs** | **$25,489** |
-| **Daily fixed costs** (/ 30 days) | **$850** |
+| Rent | UGX 2,500,000 |
+| Salaries | UGX 4,200,000 |
+| Utilities | UGX 1,400,000 |
+| Insurance | UGX 850,000 |
+| Taxes | UGX 1,250,000 |
+| Depreciation | UGX 800,000 |
+| **Total monthly fixed costs** | **UGX 11,000,000** |
+| **Daily fixed costs** (/ 30 days) | **UGX 367,000** |
 | **Daily variable costs** | |
-| Food (1 day's supply) | $794 |
-| Liquor (1 day's supply) | $205 |
-| Additional staff essential to sales | $649 |
-| **Total daily variable costs** | **$1,648** |
-| **Daily sales volume to break even** | **$2,498** |
+| Food (1 day's supply) | UGX 330,000 |
+| Liquor (1 day's supply) | UGX 85,000 |
+| Additional staff essential to sales | UGX 268,000 |
+| **Total daily variable costs** | **UGX 683,000** |
+| **Daily sales volume to break even** | **UGX 1,050,000** |
 
 ## Key Financial Ratios and Formulas
 
 ### Food Cost Percentage
 ```
 Cost of food sold / Food sales = Food cost %
-$25,521 / $72,918 = 35%
+UGX 10,530,000 / UGX 30,086,000 = 35%
 ```
 - **Typical range for table service:** 30% to 40%
 - Restaurants preparing from scratch: lower food cost, higher labour cost
@@ -128,26 +130,26 @@ $25,521 / $72,918 = 35%
 
 ### Simple Food Cost Calculation (Small Restaurant)
 ```
-Beginning inventory          $5,900
-Plus: Purchases              $16,500
-Total                        $22,400
-Less: Ending inventory       $6,400
-Cost of food sold            $16,000
+Beginning inventory          UGX 2,400,000
+Plus: Purchases              UGX 6,800,000
+Total                        UGX 9,200,000
+Less: Ending inventory       UGX 2,600,000
+Cost of food sold            UGX 6,600,000
 
-$16,000 / $45,000 (food sales) = 35.6% food cost
+UGX 6,600,000 / UGX 18,540,000 (food sales) = 35.6% food cost
 ```
 
 ### Pouring Cost Percentage (Beverages)
 ```
 Cost of beverages sold / Beverage sales = Pouring cost %
-$5,347 / $24,306 = 22%
+UGX 2,200,000 / UGX 10,020,000 = 22%
 ```
 - **Typical range:** 20% to 30%
 
 ### Labour Cost Percentage
 ```
 (Payroll + Employee benefits) / Total sales = Labour cost %
-($27,681 + $4,739) / $97,225 = 33.3%
+(UGX 11,400,000 + UGX 1,955,000) / UGX 40,107,000 = 33.3%
 ```
 - Includes both payroll and benefits
 - Varies by style of service, seasonal sales swings, use of convenience foods, labour market conditions
@@ -155,33 +157,33 @@ $5,347 / $24,306 = 22%
 ### Net Profit Percentage
 ```
 Net profit / Total sales = Net profit %
-$102,455 / $1,166,700 = 8.8%
+UGX 42,260,000 / UGX 480,920,000 = 8.8%
 ```
 
 ### Rate of Return on Investment
 ```
 Net profit / Investment = ROI
-$102,455 / $500,000 = 20.5%
+UGX 42,260,000 / UGX 200,000,000 = 21.1%
 ```
 
 ### Current Ratio
 ```
 Current assets / Current liabilities = Current ratio
-$102,600 / $48,646 = 2.1:1
+UGX 42,300,000 / UGX 20,070,000 = 2.1:1
 ```
 - **Benchmark:** at least 2:1 is considered adequate
 
 ### Acid Test Ratio
 ```
 (Cash + Accounts receivable + Marketable securities) / Current liabilities
-($46,400 + $3,800 + $21,000) / $48,646 = 1.5:1
+(UGX 19,140,000 + UGX 1,570,000 + UGX 8,660,000) / UGX 20,070,000 = 1.5:1
 ```
 - **Benchmark:** 1:1 is considered acceptable
 
 ### Working Capital
 ```
 Current assets - Current liabilities = Working capital
-$102,600 - $48,646 = $53,954
+UGX 42,300,000 - UGX 20,070,000 = UGX 22,230,000
 ```
 
 ### Average Guest Check
@@ -189,9 +191,9 @@ $102,600 - $48,646 = $53,954
 Total sales / # of guests served = Average guest check
 ```
 Calculate separately by meal period for meaningful tracking:
-- Lunch: $305,250 / 33,000 = $9.25
-- Dinner: $556,010 / 23,660 = $23.50
-- Bar only: $146,300 / 16,700 = $8.76
+- Lunch: UGX 125,880,000 / 33,000 = UGX 3,815 (canteen/budget lunch)
+- Dinner: UGX 229,200,000 / 23,660 = UGX 9,690 (casual dinner)
+- Bar only: UGX 60,300,000 / 16,700 = UGX 3,611
 
 ### Seat Turnover Ratio
 ```
@@ -216,16 +218,16 @@ Bar only: 16,700 / 60 / 365 = 0.8 times/day
 Sample weekly payroll analysis:
 | Week | Sales | Covers | Employees | Hours | Payroll | Covers/Emp | Sales/Emp | Sales/Hr |
 |---|---|---|---|---|---|---|---|---|
-| Jun 2 | $20,500 | 2,344 | 18 | 730 | $2,550 | 130 | $1,139 | $28.08 |
-| Jun 9 | $18,640 | 2,110 | 19 | 750 | $2,458 | 111 | $981 | $24.85 |
-| Jun 16 | $16,580 | 2,045 | 20 | 790 | $2,556 | 102 | $825 | $20.98 |
-| Jun 23 | $15,850 | 2,084 | 21 | 805 | $2,610 | 99 | $755 | $19.69 |
-| Jun 30 | $20,950 | 2,550 | 21 | 848 | $2,706 | 121 | $998 | $24.71 |
+| Jun 2 | UGX 8,450,000 | 2,344 | 18 | 730 | UGX 1,050,000 | 130 | UGX 469,444 | UGX 11,575 |
+| Jun 9 | UGX 7,685,000 | 2,110 | 19 | 750 | UGX 1,013,000 | 111 | UGX 404,474 | UGX 10,247 |
+| Jun 16 | UGX 6,837,000 | 2,045 | 20 | 790 | UGX 1,053,000 | 102 | UGX 341,850 | UGX 8,654 |
+| Jun 23 | UGX 6,535,000 | 2,084 | 21 | 805 | UGX 1,076,000 | 99 | UGX 311,190 | UGX 8,118 |
+| Jun 30 | UGX 8,636,000 | 2,550 | 21 | 848 | UGX 1,115,000 | 121 | UGX 411,238 | UGX 10,184 |
 
 ### Customer Lifetime Value (Illustrative)
-A regular customer who brings a guest once a week and spends $50/visit:
-- Annual value: ~$2,600
-- 10-year value: ~$26,000
+A regular customer who brings a guest once a week and spends UGX 65,000/visit:
+- Annual value: ~UGX 3,380,000
+- 10-year value: ~UGX 33,800,000
 - Losing such a customer represents significant revenue loss
 
 ## Balance Sheet Structure (Sample)
@@ -233,20 +235,20 @@ A regular customer who brings a guest once a week and spends $50/visit:
 | Assets | Amount | Liabilities & Net Worth | Amount |
 |---|---|---|---|
 | **Current Assets** | | **Current Liabilities** | |
-| Cash on hand | $9,400 | Accounts payable | $23,000 |
-| Cash in bank | $37,000 | Taxes collected | $8,500 |
-| Accounts receivable | $3,800 | Accrued expenses | $13,645 |
-| Food inventory | $9,500 | Current portion of LT loan | $3,501 |
-| Beverage inventory | $6,800 | **Total current liabilities** | **$48,646** |
-| Supplies inventory | $2,600 | | |
-| Marketable securities | $21,000 | **Long-term loan (12%)** | $118,354 |
-| Prepaid expenses | $12,500 | | |
-| **Total current assets** | **$102,600** | **Partners' equity** | **$200,500** |
+| Cash on hand | UGX 3,880,000 | Accounts payable | UGX 9,490,000 |
+| Cash in bank | UGX 15,260,000 | Taxes collected | UGX 3,510,000 |
+| Accounts receivable | UGX 1,570,000 | Accrued expenses | UGX 5,630,000 |
+| Food inventory | UGX 3,920,000 | Current portion of LT loan | UGX 1,440,000 |
+| Beverage inventory | UGX 2,800,000 | **Total current liabilities** | **UGX 20,070,000** |
+| Supplies inventory | UGX 1,070,000 | | |
+| Marketable securities | UGX 8,660,000 | **Long-term loan (12%)** | **UGX 48,840,000** |
+| Prepaid expenses | UGX 5,140,000 | | |
+| **Total current assets** | **UGX 42,300,000** | **Partners' equity** | **UGX 82,740,000** |
 | **Fixed Assets** | | | |
-| FF&E (net of depreciation) | $116,900 | | |
-| Leasehold improvements (net) | $148,000 | | |
-| **Total fixed assets** | **$264,900** | | |
-| **Total Assets** | **$367,500** | **Total Liab. & Net Worth** | **$367,500** |
+| FF&E (net of depreciation) | UGX 48,230,000 | | |
+| Leasehold improvements (net) | UGX 61,120,000 | | |
+| **Total fixed assets** | **UGX 109,350,000** | | |
+| **Total Assets** | **UGX 151,650,000** | **Total Liab. & Net Worth** | **UGX 151,650,000** |
 
 ## Menu Pricing Methods
 
@@ -255,15 +257,15 @@ A regular customer who brings a guest once a week and spends $50/visit:
 Food Cost % + All Other Costs % + Desired Profit % = 100% (Selling Price)
 Example: x + 56.7% + 10.0% = 100%  -->  x = 33.3% food cost
 Selling price = Raw food cost / Food cost %
-$3.50 / 0.333 = $10.51 --> round to $10.50
+UGX 4,500 / 0.333 = UGX 13,514 --> round to UGX 13,500
 ```
 
 ### Method 2: Percentage Markup on Cost
 ```
 Selling price = Cost of ingredients / Food cost %
-$4.05 / 0.333 = $12.16 --> round to $12.25
+UGX 5,200 / 0.333 = UGX 15,616 --> round to UGX 15,500
 ```
-WARNING: Using an arbitrary food cost % (e.g., 39% instead of the 33.3% derived from actual costs) can underprice items by $1.75+ per entree.
+WARNING: Using an arbitrary food cost % (e.g., 39% instead of the 33.3% derived from actual costs) can underprice items by UGX 2,000+ per entree.
 
 ### Method 3: Charging What the Market Will Bear
 - Works when first with a unique concept in strong demand, no competition
@@ -278,38 +280,38 @@ WARNING: Using an arbitrary food cost % (e.g., 39% instead of the 33.3% derived 
 **Wine -- Flexible Markup System:**
 | Wine | Cost | Markup | Price | Gross Profit |
 |---|---|---|---|---|
-| Wine A | $12.50 | 100% | $25.00 | $12.50 |
-| Wine B | $32.00 | 50% | $48.00 | $16.00 |
-Higher-cost wines use smaller markup % but yield larger dollar profit.
+| Wine A | UGX 70,000 | 100% | UGX 140,000 | UGX 70,000 |
+| Wine B | UGX 180,000 | 50% | UGX 270,000 | UGX 90,000 |
+Higher-cost wines use smaller markup % but yield larger shilling profit.
 
 **Draught Beer:**
 ```
-Half-barrel keg = $75.00, contains 1,920 oz
-Cost per ounce = $0.039
-14-oz goblet (12.2 oz beer + 1" head) = $0.48
-Marked up 5x (20% pouring cost): $0.48 x 5 = $2.40 --> $2.50
-Profit per half-barrel: (157 glasses x $2.50) - $75.00 = $317.50
+Half-barrel keg = UGX 350,000, contains 1,920 oz
+Cost per ounce = UGX 182
+14-oz goblet (12.2 oz beer + 1" head) = UGX 2,220
+Marked up 5x (20% pouring cost): UGX 2,220 x 5 = UGX 11,100 --> UGX 11,000
+Profit per half-barrel: (157 glasses x UGX 11,000) - UGX 350,000 = UGX 1,377,000
 ```
 
 **Mixed Drinks:**
 ```
-750ml bottle ($13.50) = 25.4 oz - 1.4 oz spillage = 24 salable oz
+750ml bottle (UGX 75,000) = 25.4 oz - 1.4 oz spillage = 24 salable oz
 Standard pour = 1.5 oz --> 16 drinks per bottle
-Sales yield: $13.50 / 0.20 (pouring cost %) = $67.50
-Price per drink: $67.50 / 16 = $4.22
-Add $0.25-$0.50 "kicker" for garnishes/mixers
-Final price: $4.50 to $6.75+ depending on adjustments
+Sales yield: UGX 75,000 / 0.20 (pouring cost %) = UGX 375,000
+Price per drink: UGX 375,000 / 16 = UGX 23,438
+Add UGX 1,500-UGX 3,000 "kicker" for garnishes/mixers
+Final price: UGX 25,000 to UGX 35,000+ depending on adjustments
 ```
 
 ## Luncheon Special Pricing Example
 ```
-Roll & butter         $0.27
-Breast of chicken     $1.12
-Choice of potato      $0.45
-Demi-salad & dressing $0.49
-Cup of soup           $0.50
-Vegetable             $0.42
-Total food cost       $3.25
+Roll & butter         UGX 350
+Breast of chicken     UGX 1,440
+Choice of potato      UGX 580
+Demi-salad & dressing UGX 630
+Cup of soup           UGX 640
+Vegetable             UGX 540
+Total food cost       UGX 4,180
 
-$3.25 / 0.32 (32% food cost) = $10.16 --> round to $10.25
+UGX 4,180 / 0.32 (32% food cost) = UGX 13,063 --> round to UGX 13,000
 ```

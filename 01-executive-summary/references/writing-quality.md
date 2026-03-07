@@ -36,7 +36,7 @@ Passive verbs kill prose. They drain energy, sound evasive, and obscure responsi
 
 | Passive (avoid) | Active (use) |
 |---|---|
-| Revenue of $2.4M was generated | We generated $2.4M in revenue |
+| Revenue of UGX 8.9B was generated | We generated UGX 8.9B in revenue |
 | A survey was done by the research division | The research division surveyed |
 | It can be concluded that costs are rising | Costs are rising |
 | The market is being disrupted by AI | AI is disrupting the market |
@@ -68,7 +68,7 @@ Replace vague qualifiers with concrete data. A tree is an oak, a sapling, or a f
 
 | Vague (avoid) | Specific (use) |
 |---|---|
-| a significant market | a $4.2B addressable market |
+| a significant market | a UGX 15.5T addressable market |
 | strong growth | 34% year-over-year growth |
 | experienced team | 47 combined years in fintech |
 | competitive pricing | 30% below market average |

@@ -86,23 +86,23 @@ Every business plan should include a one-page marketing plan covering:
 
 | Weapon | Monthly Cost | Expected Impact |
 |---|---|---|
-| Email newsletter | $0-50 | High (owned audience, direct access) |
-| Blog / Content marketing | $0 (time cost) | High (SEO, authority, lead generation) |
-| Social media presence | $0 (time cost) | Medium (brand awareness, engagement) |
-| Google Business Profile | $0 | High (local search visibility) |
-| YouTube channel | $0 (time cost) | Medium-High (trust building, tutorials) |
-| WhatsApp Business | $0 | High (especially in emerging markets) |
-| Online directory listings | $0-20 | Low-Medium (citation building) |
+| Email newsletter | UGX 0-185,000 | High (owned audience, direct access) |
+| Blog / Content marketing | UGX 0 (time cost) | High (SEO, authority, lead generation) |
+| Social media presence | UGX 0 (time cost) | Medium (brand awareness, engagement) |
+| Google Business Profile | UGX 0 | High (local search visibility) |
+| YouTube channel | UGX 0 (time cost) | Medium-High (trust building, tutorials) |
+| WhatsApp Business | UGX 0 | High (especially in emerging markets) |
+| Online directory listings | UGX 0-75,000 | Low-Medium (citation building) |
 
 ### Medium-Cost Weapons
 
 | Weapon | Monthly Cost | Expected Impact |
 |---|---|---|
-| Social media advertising | $200-2000 | Medium-High (targeted reach) |
-| Google Ads | $500-5000 | High (intent-based traffic) |
-| Email automation tool | $20-200 | High (nurture at scale) |
-| Webinars / Online events | $50-200 | Medium (lead generation, authority) |
-| Podcast (guest or own) | $50-100 | Medium (long-form trust building) |
+| Social media advertising | UGX 500,000-5M | Medium-High (targeted reach) |
+| Google Ads | UGX 1M-15M | High (intent-based traffic) |
+| Email automation tool | UGX 75,000-500,000 | High (nurture at scale) |
+| Webinars / Online events | UGX 185,000-750,000 | Medium (lead generation, authority) |
+| Podcast (guest or own) | UGX 185,000-370,000 | Medium (long-form trust building) |
 
 ## 4. Education-Based Marketing
 
@@ -322,4 +322,4 @@ Rate each 1-10 to evaluate any offer:
 - Selling sizzle without steak is a scam — always deliver genuine value
 - Negative information spreads faster than positive — delight, do not just satisfy
 - Higher price can generate more sales than lower price (perceived value)
-- Prices ending in 7 or 9 outperform other endings ($97 outsold $99 by 2x)
+- Prices ending in 7 or 9 outperform other endings (e.g. UGX 97,000 outsold UGX 99,000 by 2x)

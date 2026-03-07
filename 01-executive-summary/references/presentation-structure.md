@@ -104,7 +104,7 @@ Break complex information into digestible groups (Bradbury's "chunking"):
 - **Primacy effect** — Readers remember what comes first. Lead with your strongest point.
 - **Recency effect** — Readers remember what comes last. Close with the call to action.
 - **Rule of three** — Group supporting arguments in threes for maximum retention.
-- **Concrete over abstract** — "$2.4M revenue in 18 months" beats "strong revenue growth potential."
+- **Concrete over abstract** — "UGX 8.9B revenue in 18 months" beats "strong revenue growth potential."
 - **Show, don't tell** — "We signed 14 enterprise contracts in Q1" beats "We have strong market traction."
 
 ## 4. Visual Communication Principles

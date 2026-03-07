@@ -18,7 +18,7 @@ Comprehensive customer measurement formulas from Farris's "Marketing Metrics," g
 CLV = Average purchase value x Purchase frequency per year x Average customer lifespan (years)
 ```
 
-**Example:** $50 average order x 4 purchases/year x 5 years = $1,000 CLV
+**Example:** UGX 185,000 average order x 4 purchases/year x 5 years = UGX 3.7M CLV
 
 ### Contractual CLV (Subscription businesses)
 
@@ -66,7 +66,7 @@ Where:
 For small businesses without extensive data:
 
 ```
-Step 1: Average sale amount = $X
+Step 1: Average sale amount = UGX X
 Step 2: Number of transactions per year = Y
 Step 3: Annual revenue per customer = X x Y
 Step 4: Average customer relationship in years = Z

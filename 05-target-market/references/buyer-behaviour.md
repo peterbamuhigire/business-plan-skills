@@ -158,9 +158,9 @@ B2B purchases typically involve multiple stakeholders:
 
 | Deal Size | Typical Sales Cycle | Touchpoints Needed |
 |---|---|---|
-| < $5,000 | 1-4 weeks | 3-5 touchpoints |
-| $5,000-$50,000 | 1-3 months | 7-12 touchpoints |
-| $50,000-$500,000 | 3-9 months | 15-25 touchpoints |
-| > $500,000 | 6-18 months | 25+ touchpoints |
+| < UGX 18.5M | 1-4 weeks | 3-5 touchpoints |
+| UGX 18.5M-185M | 1-3 months | 7-12 touchpoints |
+| UGX 185M-1.85B | 3-9 months | 15-25 touchpoints |
+| > UGX 1.85B | 6-18 months | 25+ touchpoints |
 
 Map persona buying timelines to these benchmarks when estimating CAC and conversion rates.

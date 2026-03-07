@@ -297,7 +297,7 @@ The most common reason first meetings fail is the "product dump" — reciting a 
 - They assume they know what the prospect needs
 - They try to "cover everything" in the first meeting
 
-The copier salesman cautionary tale: A salesperson delivered a 20-minute uninterrupted product monologue, then tried to close — without ever asking what business the prospect was in. He was trying to sell a $15,000 copier without knowing what it would be used for.
+The copier salesman cautionary tale: A salesperson delivered a 20-minute uninterrupted product monologue, then tried to close — without ever asking what business the prospect was in. He was trying to sell a UGX 55M copier without knowing what it would be used for.
 
 **Rule:** The amount of information you take IN during the first meeting should always exceed the amount you send OUT.
 

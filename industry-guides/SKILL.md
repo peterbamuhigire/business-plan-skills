@@ -19,6 +19,8 @@ Provide industry-specific context, benchmarks, and best practices to tailor busi
 | Industry | Sub-directory | Key Focus Areas |
 |---|---|---|
 | **Restaurant & Food Service** | `restaurant/` | Food/beverage/labour cost controls, menu engineering, restaurant types, startup costs, licensing, financial benchmarks |
+| **Agriculture & Agribusiness** | `agriculture/` | Enterprise budgets, crop planning, farm financial management, agribusiness value chain, marketing channels, organic certification |
+| **Retail & Shop Management** | `retail/` | Startup costs by format, retail financial management, Strategic Profit Model, inventory/merchandising, site selection, retail analytics/KPIs, marketing/promotion |
 
 *More industries will be added over time.*
 
@@ -50,6 +52,23 @@ When an industry guide is active, it modifies the output of core skills:
 | 08-operations-plan | Industry-standard processes, equipment, staffing models |
 | 10-financial-projections | Industry benchmarks for revenue, costs, margins, break-even |
 | 12-risk-analysis | Industry-specific risks, failure rates, regulatory risks |
+
+## Source Referencing in Business Plans
+
+When generating the final business plan, cite the underlying reference books where they add credibility:
+
+- **Financial benchmarks and ratios** — cite the source when presenting industry-standard percentages, cost structures, or financial targets (e.g., "Industry benchmarks indicate a target food cost of 30-35% of food sales (Dittmer & Keefe, 2009)")
+- **Regulatory and compliance frameworks** — cite when referencing specific standards (e.g., HACCP, Uniform System of Accounts, organic certification standards)
+- **Market data and industry statistics** — cite when presenting market size, growth rates, or industry structure data
+- **Pricing and costing methodologies** — cite when applying specific pricing formulas or costing methods (e.g., contribution margin pricing, enterprise budgeting)
+- **Operational best practices** — cite when recommending specific management systems or benchmarks
+
+Do NOT cite sources for:
+- Generic business advice that is common knowledge
+- The user's own market research or primary data
+- Financial projections derived from the user's specific numbers
+
+Format citations as parenthetical references: (Author, Year) on first use. Include a "Sources and References" section in the appendices listing all cited works with full bibliographic details.
 
 ## Quality Criteria
 

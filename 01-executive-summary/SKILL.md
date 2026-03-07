@@ -51,9 +51,9 @@ The opening sentence is the "lead" — the lure that grabs the reader. If it is 
 
 ### Force and Clarity
 
-- **Active voice always.** "We generated $2.4M in Year 1 revenue" not "Revenue of $2.4M was generated." Passive verbs drain energy and sound evasive (NIBM).
+- **Active voice always.** "We generated UGX 8.9B in Year 1 revenue" not "Revenue of UGX 8.9B was generated." Passive verbs drain energy and sound evasive (NIBM).
 - **Positive language.** State what IS, not what ISN'T. "We reduced costs by 40%" not "We did not fail to reduce costs."
-- **Be specific.** Replace vague qualifiers with concrete data. "A significant market" becomes "$4.2B addressable market growing at 12% CAGR."
+- **Be specific.** Replace vague qualifiers with concrete data. "A significant market" becomes "UGX 15.5T addressable market growing at 12% CAGR."
 - **Average sentence length: 17-20 words.** Comprehension drops sharply beyond 25 words per sentence (NIBM research).
 - **Prune ruthlessly.** Every word must pull its weight. Eliminate zero-words, needless intensifiers, and pompous phrasing.
 

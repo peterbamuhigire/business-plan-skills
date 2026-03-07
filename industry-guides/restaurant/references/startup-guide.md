@@ -2,6 +2,8 @@
 ## Source: "Start Your Own Restaurant and More" (Entrepreneur Press, 4th Ed., 2012)
 ## Author: Jacquelyn Lynn
 
+> Figures adapted to Ugandan context (UGX). Percentages and ratios from the source are universal.
+
 ---
 
 ## 1. RESTAURANT TYPES AND FORMATS
@@ -35,42 +37,34 @@
 - Many centre on a theme incorporated into menus and decor
 
 **Ethnic Restaurants**
-- Significant share of the US restaurant market
+- Significant share of the restaurant market
 - Range from quick-service to upscale
-- Three most popular: Italian, Mexican, Chinese
-- Also popular: Indian, Thai, Caribbean, English, French, German, Japanese, Korean, Mediterranean, Vietnamese
+- Popular cuisines include: Indian, Chinese, Italian, Ethiopian, and fusion concepts
 
 ### Pizzeria
-- **Industry size**: $36-38 billion annual sales; 65,000-75,000 pizza restaurants plus ~10,000 Italian restaurants in the US
-- **Pizza consumption**: 3+ billion pizzas sold in the US annually, another 2 billion worldwide
+- **Pizza consumption**: A growing segment in urban Uganda, with both local and international chains expanding
 - **Operator stats**: 74% have dining rooms, 94% serve appetizers, 56% serve pasta/salads, 48% serve beer, 38% serve wine
-- Popular toppings: pepperoni is #1 (beyond cheese); two-thirds prefer meat toppings, one-third prefer vegetarian
-- Kids aged 3-11 prefer pizza for lunch and dinner above all other foods
+- Popular toppings: pepperoni is most common (beyond cheese); two-thirds prefer meat toppings, one-third prefer vegetarian
 - Many to-go stores also deliver, finding revenue from delivery substantial
 
 ### Sandwich Shop/Delicatessen
 - Can be differentiated by the foods they serve
 - Turnover is key -- must capitalise on a few peak periods (especially lunch) per day
-- Competition from other quick-service outlets, chains like Subway, supermarket delis
+- Competition from other quick-service outlets and supermarket delis
 - Can quickly change menus to adapt to current tastes (health trends, low-carb)
 - Many adding delivery and catering to sit-down and takeout operations
 
 ### Coffeehouse
-- Coffee ranks second only to petroleum in global trade dollars
-- 400+ billion cups consumed yearly worldwide; most popular beverage globally
-- 50%+ of US adult population drinks coffee daily (150+ million daily drinkers)
-- ~17% of US adult population consumes gourmet/specialty coffee beverages
-- Average purchase: $3-$5 per customer
+- Coffee is one of the most widely consumed beverages globally
+- Average purchase: UGX 5,000-UGX 15,000 per customer
 - Successful coffeehouses serve up to 500 customers per day with up to 5 customer turnovers during lunch hour
 - Profit margins on coffee/espresso drinks are "extremely high" -- product is 95%+ water
-- People will linger for an hour sipping a $2 coffee, but huge margins mean even low-volume operations can profit if run correctly
-- Coffee replacing alcohol as social beverage of choice in many situations
+- People will linger for an hour sipping a UGX 5,000 coffee, but huge margins mean even low-volume operations can profit if run correctly
 - At least 30% of total sales should be in coffee (high-volume coffee sales offset food prep costs)
 
 ### Bakery
 - "Bread only" retail bakeries have almost disappeared; today's bakeries offer cakes, scones, bagels, coffee drinks, sometimes full menus
 - Market is extremely competitive; need differentiation
-- By 1850 there were 2,000+ commercial bakeries in the US
 - Can sell wholesale, retail, or both
 - Easier for wholesale baker to transition to retail than the reverse
 - Budget 35% of weekly gross income for inventory; more than half goes to flour
@@ -90,70 +84,70 @@
 ## 2. STARTUP COSTS AND CAPITAL REQUIREMENTS
 
 ### Restaurant (Full-Service)
-- **Heavy production equipment**: $30,000-$45,000
-- **Small production items** (ladles, tongs, pans, etc.): $1,200-$2,700
-- **Service kitchen equipment** (prep/steam table, toaster, heat lamps, microwave, beverage centre): $11,000-$20,000
-- **Dishwashing equipment**: machine $2,000-$25,000; full installation $5,000-$25,000
-- **Walk-in refrigerator/freezer**: $3,000-$8,000
-- **Receiving area equipment** (scale, breakdown table, shelving): $2,000-$4,000
-- **Bar**: $5,000-$9,000 for the bar itself; $12,000-$22,000 for bar equipment
-- **Dinnerware** (complete set): $2,000-$4,000
-- **First year inventory**: food $12,000-$85,000; beverages $3,500-$25,000; paper products $700-$2,000
-- **Ventilation**: $175-$450 per linear foot for hood/grease filter; $20-$50 per linear foot for ductwork
+- **Heavy production equipment**: UGX 55M-UGX 85M
+- **Small production items** (ladles, tongs, pans, etc.): UGX 2.2M-UGX 5M
+- **Service kitchen equipment** (prep/steam table, toaster, heat lamps, microwave, beverage centre): UGX 20M-UGX 37M
+- **Dishwashing equipment**: machine UGX 4M-UGX 46M; full installation UGX 9M-UGX 46M
+- **Walk-in refrigerator/freezer**: UGX 5.5M-UGX 15M
+- **Receiving area equipment** (scale, breakdown table, shelving): UGX 4M-UGX 7M
+- **Bar**: UGX 9M-UGX 17M for the bar itself; UGX 22M-UGX 40M for bar equipment
+- **Dinnerware** (complete set): UGX 4M-UGX 7M
+- **First year inventory**: food UGX 22M-UGX 155M; beverages UGX 6.5M-UGX 46M; paper products UGX 1.3M-UGX 4M
+- **Ventilation**: UGX 320,000-UGX 820,000 per linear foot for hood/grease filter; UGX 37,000-UGX 92,000 per linear foot for ductwork
 
 ### Pizzeria
-- **Total startup range**: $70,000-$1.5 million (depending on type and resources)
-- **New equipment**: $60,000-$125,000
-- **Dinnerware** (full-service): $2,500-$4,000
+- **Total startup range**: UGX 100M-UGX 500M+ (depending on type and resources)
+- **New equipment**: UGX 110M-UGX 230M
+- **Dinnerware** (full-service): UGX 4.5M-UGX 7M
 
 ### Sandwich Shop/Delicatessen
-- **Service kitchen equipment**: $12,000-$20,000
-- **Preparation kitchen** (heavy production): $30,000-$45,000
-- **Cookware and miscellaneous**: $1,200-$2,500
-- **Dining area** (tables/chairs): $300-$6,000
-- **Dinnerware**: up to $3,000
-- **Dishwashing (sink only)**: $600-$2,000
-- **Dishwashing (full machine setup)**: $6,500-$20,000
-- **Walk-in refrigerator/freezer** (if needed): $7,000-$10,000
-- **Receiving/storage equipment** (small operation): under $1,500
-- **Refrigerated display cases**: $1,600 (used) to $9,000+ (new)
-- **Opening inventory**: $9,000-$12,000; full food/beverage inventory should turn over every ~2 weeks
-- **Bread-baking equipment** (if making own bread): $20,000-$150,000
+- **Service kitchen equipment**: UGX 22M-UGX 37M
+- **Preparation kitchen** (heavy production): UGX 55M-UGX 85M
+- **Cookware and miscellaneous**: UGX 2.2M-UGX 4.5M
+- **Dining area** (tables/chairs): UGX 1M-UGX 11M
+- **Dinnerware**: up to UGX 5.5M
+- **Dishwashing (sink only)**: UGX 1.1M-UGX 4M
+- **Dishwashing (full machine setup)**: UGX 12M-UGX 37M
+- **Walk-in refrigerator/freezer** (if needed): UGX 13M-UGX 18M
+- **Receiving/storage equipment** (small operation): under UGX 3M
+- **Refrigerated display cases**: UGX 3M (used) to UGX 17M+ (new)
+- **Opening inventory**: UGX 17M-UGX 22M; full food/beverage inventory should turn over every ~2 weeks
+- **Bread-baking equipment** (if making own bread): UGX 37M-UGX 275M
 
 ### Coffeehouse
-- **Total facility**: $20,000-$200,000+ (depending on conversion vs. new build)
-- **Equipment costs**: $12,000-$70,000+
-- **Espresso machines** (two-group): $3,000-$9,000
-- **Commercial coffeemakers**: $300-$1,200 each
-- **Coffee grinder**: $700-$1,300 (or lease for $20-$35/month)
-- **Initial coffee inventory**: $4,000-$9,000
-- **Initial accessories inventory**: $1,700-$5,500
-- **Starting coffee bean inventory**: 400-700 pounds
+- **Total facility**: UGX 20M-UGX 80M+ (depending on conversion vs. new build)
+- **Equipment costs**: UGX 12M-UGX 50M+
+- **Espresso machines** (two-group): UGX 5.5M-UGX 17M
+- **Commercial coffeemakers**: UGX 550,000-UGX 2.2M each
+- **Coffee grinder**: UGX 1.3M-UGX 2.4M (or lease for UGX 40,000-UGX 65,000/month)
+- **Initial coffee inventory**: UGX 7M-UGX 17M
+- **Initial accessories inventory**: UGX 3M-UGX 10M
+- **Starting coffee bean inventory**: 180-320 kg
 
 ### Bakery
-- **Facility total**: $20,000-$200,000+
-- **High-volume automated equipment** (minimum): $50,000+
-- **Used equipment packages**: starting under $25,000
-- **Rounders**: $4,000-$9,000
-- **Dough dividers**: $2,600-$10,000
-- **Proofers**: $3,000-$60,000
-- **Ovens**: $15,000-$26,000+
-- **Pans** (100-200 needed): $2,500-$5,000+
+- **Facility total**: UGX 20M-UGX 100M+
+- **High-volume automated equipment** (minimum): UGX 50M+
+- **Used equipment packages**: starting under UGX 25M
+- **Rounders**: UGX 7M-UGX 17M
+- **Dough dividers**: UGX 5M-UGX 18M
+- **Proofers**: UGX 5.5M-UGX 110M
+- **Ovens**: UGX 28M-UGX 48M+
+- **Pans** (100-200 needed): UGX 4.5M-UGX 9M+
 
 ### Catering
 - Most flexible entry cost; can start by renting existing commercial kitchen
-- One operator (Jim Amaral, Borealis Breads) started with just $10,000 borrowed from family/friends
-- Another (Scott Redler, Timberline Steakhouse) invested $24,000 of own money plus investors
+- Operators have started with as little as UGX 15M-UGX 40M borrowed from family/friends
+- Others have invested UGX 40M-UGX 90M of own money plus investors
 
 ### Food Trucks
-- **Used truck**: from ~$30,000
-- **New fully-equipped truck**: up to $100,000
+- **Used truck**: from ~UGX 30M
+- **New fully-equipped truck**: up to UGX 50M
 
 ### Carts and Kiosks
-- **New cart**: $3,000-$5,000+
+- **New cart**: UGX 3M-UGX 8M+
 - **Cart lease**: 8-12% of new price per month
-- **New kiosk**: $10,000+
-- **Mall cart space**: $400/month (class C mall, off-peak) to $4,000-$5,000/month (class A mall, December)
+- **New kiosk**: UGX 10M+
+- **Mall cart space**: UGX 500,000/month (off-peak) to UGX 5M/month (prime location, peak season)
 
 ---
 
@@ -198,7 +192,7 @@
 - Carts and kiosks (lower entry cost, test concepts)
 - Food trucks (lower overhead, can be moved if location underperforms)
 - Pop-up restaurants (temporary, non-traditional venues, test concepts)
-- Bump-outs (extension of convenience store or gas station space)
+- Bump-outs (extension of convenience store or petrol station space)
 - Dual-branding/co-branding (two brands in one location)
 
 ---
@@ -251,15 +245,15 @@
 - If payroll exceeds 35% of gross sales, cut costs or increase sales
 
 ### Salary Benchmarks
-- **Seasoned restaurant manager**: $35,000-$55,000/year plus percentage of sales
-- **Entry-level manager**: $28,000-$32,000/year
-- **Chefs**: $1,300-$1,800/week (sometimes more)
-- **Cooks (experienced, complex menu)**: $575-$650/week
-- **Dishwashers**: minimum wage to minimum wage + $1.50/hour
-- **Servers**: minimum wage for tipped employees (lower than standard minimum wage) or slightly above; tips are primary income
-- **Baristas** (coffeehouse): $7.50-$10.50/hour plus tips
-- **Baker/manager** (experienced): $900-$1,300+/week
-- **Sandwich shop/deli employees**: 50 cents to $2.00 above minimum wage
+- **Seasoned restaurant manager**: UGX 1.5M-UGX 3M/month
+- **Entry-level manager**: UGX 800,000-UGX 1.2M/month
+- **Chefs**: UGX 1.5M-UGX 3M/month (sometimes more)
+- **Cooks (experienced, complex menu)**: UGX 500,000-UGX 800,000/month
+- **Dishwashers**: UGX 200,000-UGX 350,000/month
+- **Servers**: UGX 200,000-UGX 400,000/month base; tips are primary income
+- **Baristas** (coffeehouse): UGX 3,000-UGX 5,000/hour plus tips
+- **Baker/manager** (experienced): UGX 1.2M-UGX 2.5M/month
+- **Sandwich shop/deli employees**: UGX 250,000-UGX 450,000/month
 
 ### Server Staffing Ratios
 - With runners supporting servers: limit each server to 25 seats/covers
@@ -318,7 +312,7 @@ Mixer, slicer, preparation sinks, hand-washing sinks, portion scale, food cutter
 **Service Kitchen**:
 Prep and steam table, toaster, heat lamps, microwave oven, utensil rack, roll warmer, sandwich table, coffeemaker, ice machine, beverage stand, soda system, ice cream cabinet, water station
 
-**Anti-fatigue Mats**: $30-$65 for a good 3x5-foot mat; place in all areas where employees stand for long periods
+**Anti-fatigue Mats**: UGX 110,000-UGX 240,000 for a good 3x5-foot mat; place in all areas where employees stand for long periods
 
 ### Buying Used Equipment
 - Look for ads in newspapers, trade publications, online
@@ -336,14 +330,14 @@ Prep and steam table, toaster, heat lamps, microwave oven, utensil rack, roll wa
 3. **Liquor licence** (full) or **beer-and-wine licence**: Required if serving alcohol. Beer-and-wine licence is easier to obtain than full liquor licence
 4. **Fire department permit**: Required for occupancy and fire safety compliance
 5. **Sign permit**: Required by many municipalities for exterior signage
-6. **County permit**: May be required depending on jurisdiction
-7. **State licences**: Various state-level requirements
+6. **County/district permit**: May be required depending on jurisdiction
+7. **National licences**: Various national-level requirements
 8. **Zoning compliance**: Check that your planned location is zoned for food-service use
-9. **Music licences**: Required if playing copyrighted music (through ASCAP, BMI, or SESAC)
-10. **Federal menu nutrition labelling**: Required for chains with 20+ locations; many states/local governments require it for all
+9. **Music licences**: Required if playing copyrighted music
+10. **Menu nutrition labelling**: Increasingly required for larger chains
 
 ### Alcohol/Liquor Liability
-- "Dramshop laws" impose special liability on those selling/serving alcoholic beverages
+- Laws impose special liability on those selling/serving alcoholic beverages
 - Steps to take: train staff on responsible service, check IDs, refuse service to intoxicated patrons
 - Consider liquor liability insurance
 
@@ -363,7 +357,7 @@ Prep and steam table, toaster, heat lamps, microwave oven, utensil rack, roll wa
 ### Key Marketing Approaches
 - **Word-of-mouth**: Most powerful marketing tool; great service creates positive word-of-mouth, poor service creates devastating negative word-of-mouth
 - **Social media**: Maintain active presence; respond to online reviews
-- **Community involvement**: Restaurant owners receive ~75 requests/year from community groups; donate to ~35 projects. Most important reason: giving back; half cite image boost; 40% cite employee recruitment benefit
+- **Community involvement**: Restaurant owners receive many requests from community groups; donate to selected projects. Most important reason: giving back; half cite image boost; 40% cite employee recruitment benefit
 - **Public relations**: Build strong relationships with local media
 - **Coupons**: Among the most popular marketing tools for food-service businesses
 - **Trade shows**: Effective for wholesale and catering operations
@@ -393,10 +387,8 @@ Prep and steam table, toaster, heat lamps, microwave oven, utensil rack, roll wa
 ## 9. FINANCIAL BENCHMARKS
 
 ### Industry-Level Statistics
-- Restaurant industry share of the food dollar: 49%
-- Restaurant industry sales equal 4% of US GDP
-- US food-service operations: grown from 155,000 (40 years ago) to nearly 960,000
-- Restaurant industry is the nation's second-largest private employer
+- Restaurant industry represents a significant share of the food spend
+- Restaurant industry is a major private employer
 
 ### Profit Margins
 - **Food items**: Net profit 8-20% depending on the item
@@ -415,7 +407,7 @@ Prep and steam table, toaster, heat lamps, microwave oven, utensil rack, roll wa
 - Menu price = ~3x food cost (covers food, labour, overhead, plus profit)
 - Net profit on food: 8-20%
 - Net profit on drinks: up to 60%+
-- Reducing expenses by $5,000 = same bottom-line result as increasing sales by $50,000 (at 10% net profit margin)
+- Reducing expenses by UGX 5M = same bottom-line result as increasing sales by UGX 50M (at 10% net profit margin)
 
 ### Cost Reduction Strategies
 - Reduce portions (use smaller plates so customers don't notice)
@@ -429,9 +421,9 @@ Prep and steam table, toaster, heat lamps, microwave oven, utensil rack, roll wa
 - Seek co-op promotional support from vendors
 
 ### Customer Value Benchmarks
-- If average check is $25/person and customer visits 25 times/year = $625/year or $3,000+ over 5 years
+- If average check is UGX 25,000/person and customer visits 25 times/year = UGX 625,000/year or UGX 3M+ over 5 years
 - Each customer who brings a friend doubles their value
-- Every 10 seconds saved serving drive-thru customers = $1,000 in incremental sales
+- Every 10 seconds saved serving drive-thru customers = UGX 1,000 in incremental sales
 
 ### Key Financial Statements
 1. Profit and Loss (P&L) statement -- monthly, quarterly, or annually
@@ -440,10 +432,10 @@ Prep and steam table, toaster, heat lamps, microwave oven, utensil rack, roll wa
 - Review all three at least monthly
 
 ### Sources of Startup Funds
-1. Personal resources (savings, retirement accounts, real estate equity, personal credit)
+1. Personal resources (savings, real estate equity, personal credit)
 2. Family and friends (put everything in writing)
 3. Partners (written partnership agreement essential)
-4. Government programmes (SBA and special programmes for women, minorities, veterans)
+4. Government programmes (special programmes for women, youth, veterans)
 - Most investors want to see owner's own money at risk alongside theirs
 
 ---
@@ -488,39 +480,6 @@ Prep and steam table, toaster, heat lamps, microwave oven, utensil rack, roll wa
 
 ---
 
-## APPENDIX: HOURS OF OPERATION BY TYPE
+## Related References
 
-| Type | Typical Hours |
-|------|--------------|
-| Quick-service | 10:30/11 AM - 9-11 PM (some serve breakfast from 6 AM; some open 24h) |
-| Family-style | 6 AM - 9 PM (specialise in breakfast) |
-| Casual-dining | 11 AM - 10/11 PM (weekends until midnight/1 AM) |
-| Upscale (dinner only) | 4:30/5 PM - 9/10 PM |
-| Full-service (split shift) | Lunch: 11 AM - 2 PM; Dinner: 4:30 - 9 PM |
-| Sandwich shop | 10/11 AM - 6/8 PM |
-| Pizzeria | 10/11 AM - 11 PM/midnight |
-| Commercial bakery | 2-3 AM start (some 24h) |
-| Retail bakery/coffeehouse | Early morning (to capture breakfast crowd) |
-| Caterer office | 8/9 AM - 5 PM (event work spans all hours) |
-
-## APPENDIX: CUSTOMER DEMOGRAPHICS
-
-| Segment | Key Characteristics | Restaurant Preferences |
-|---------|-------------------|----------------------|
-| Gen Y (born 1980-2000) | 75M+ strong, most ethnically diverse, $118/week disposable income | Low prices, fast-food, burger franchises (25%), pizza (12%), tech-friendly |
-| Gen X (born 1965-1979) | Strong family values, value-focused | Quick-service, midscale, buffets/salad bars |
-| Baby Boomers (born 1946-1964) | Largest US population segment, affluent professionals | Upscale, family-friendly, formal dining |
-| Empty Nesters (early 50s-64) | Highest per-capita and discretionary income | Upscale, focused on excellent service and food |
-| Seniors (65+) | Generally fixed incomes | Family-style, reasonable prices, early-bird specials, senior menus |
-
-## APPENDIX: DINING BEHAVIOUR STATISTICS
-- Lunch is the most popular meal to eat away from home
-- 40-50% of sit-down customers arrive in pairs
-- 30% come alone or in parties of three
-- 20% come in groups of four or more
-- 66% of adults visit a restaurant on their own or someone else's birthday (most popular occasion)
-- 38% dine out for Mother's Day
-- 28% dine out for Valentine's Day
-- Off-premises consumption on the rise: 21% purchase one or more such meals daily; 26% every other day
-- 75% of restaurant-goers ask for alternative preparation methods, off-menu orders, substitutions
-- 47% of adults say they would patronise food trucks
+- **Hours of operation, customer demographics, and dining behaviour**: Appendices moved to the main `guide.md` industry overview
