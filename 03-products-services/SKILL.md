@@ -37,6 +37,29 @@ Revenue model: [how it generates income]
 Stage: [development / launched / mature]
 ```
 
+### Technology Build Strategy
+
+For products/services requiring technology systems, evaluate the build strategy (Dennis et al., 2021):
+
+| Strategy | When to choose | Key consideration |
+|---|---|---|
+| **Custom build** | Unique competitive advantage, in-house skills available | Highest control, longest timeline |
+| **Buy (packaged)** | Common business need, speed critical | Faster deployment, vendor dependency |
+| **Outsource** | Non-core function, skills gap | Focus on core business, loss of direct control |
+
+For each technology decision, document:
+- Which strategy was chosen and why
+- Feasibility assessment (technical, economic, organisational)
+- Integration requirements with existing systems
+
+### Feasibility Assessment for New Products
+
+Before committing to product development, assess three dimensions (Dennis et al., 2021):
+
+1. **Technical feasibility** — Can we build it? Rate: technology familiarity, project size, system compatibility
+2. **Economic feasibility** — Should we build it? Calculate: development costs, operational costs, NPV, ROI, break-even timeline
+3. **Organisational feasibility** — Will users adopt it? Assess: strategic alignment, champion existence, stakeholder readiness
+
 ## Generation Process
 
 1. Ask for: list of products/services, target customers, industry
@@ -59,3 +82,4 @@ Stage: [development / launched / mature]
 - **Pricing strategy**: See `references/pricing-strategy.md` for the Five Ways to Grow framework, cost-plus critique, Value Scales model, Price Triangle, Gold/Silver/Bronze tiered packaging, bundling and cross-selling, discount/volume breakeven tables, pricing psychology (anchoring, decoy, charm pricing), directional pricing, competitive pricing, implementing price changes (A/B/C customer grading), and a condensed pricing action checklist — from Hill (Kogan Page, 2013)
 - **Product development lifecycle**: See `references/product-development-lifecycle.md` for the Value-Driven Product Development (VDPD) 7-stage process, idea validation, customer discovery interviews, persona building, proof of concept, prototyping, MVP vs. prototype distinction, launch checklist, Marketing Quadfecta, CAC benchmarks, innovation types (product/process/position/paradigm), dynamic capabilities framework, funding by stage, and Business Model Canvas integration — from Bates (2024) and Tidd & Bessant (Wiley, 2013)
 - **Product management frameworks**: See `references/product-management-frameworks.md` for Product Owner stances model, customer value layers, feature-to-outcome mapping, product vision template, roadmap types (goal-oriented, now-next-later, user story map, visual, Gantt), innovation sources (inside-out/outside-in), Truth Curve experiment selection, hypothesis template, 8 scaling strategies, pricing alignment check, and Key Value Areas (KVAs) — from Verwijs, Overeem & Lennartz (Scrum.org, 2023)
+- **Technology strategy and feasibility**: Build/buy/outsource decision framework, three-dimensional feasibility analysis (technical/economic/organisational), and NPV/ROI methodology — from Dennis, Wixom & Tegarden (Wiley, 2021)

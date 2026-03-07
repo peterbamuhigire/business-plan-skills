@@ -66,6 +66,41 @@ Quarter-end review:
 |---|-----------|------------|-------|--------------|----------------|--------|
 | 1 | [Name] | [Date] | [Who] | [What] | [How measured] | Planned |
 
+### Work Breakdown Structure (WBS)
+
+Decompose each phase into a hierarchical task structure (Dennis et al., 2021):
+
+| Field | Description |
+|---|---|
+| Task name | Descriptive action item |
+| Duration | Estimated days (use PERT: (Optimistic + 4×Likely + Pessimistic) ÷ 6) |
+| Dependencies | Predecessor task IDs |
+| Owner | Person assigned |
+| Deliverables | Tangible outputs |
+| Status | Planned / In Progress / Complete |
+
+Identify the **critical path** — the longest sequence of dependent tasks. Any delay on a critical-path task delays the entire project.
+
+### Change Management Tracks
+
+Every implementation requires four parallel tracks (Page, 2015):
+
+1. **Change management** — Impact analysis, rollout strategy, sponsor engagement
+2. **Testing** — Validate processes and tools work as designed before go-live
+3. **Communication** — Sequence: clients first → stakeholders → process workers. Develop FAQs for anticipated concerns
+4. **Training** — Use Know-Absorb-Apply hierarchy for learning objectives. Focus on doing the job, not just using the system
+
+### Conversion Strategy Selection
+
+Choose a go-live approach based on risk tolerance (Dennis et al., 2021):
+
+| Strategy | Risk | Cost | Best for |
+|---|---|---|---|
+| Direct cutover | Highest | Lowest | Simple systems, forced deadlines |
+| Parallel | Lowest | Highest | Mission-critical operations |
+| Phased | Moderate | Moderate | Large, complex systems |
+| Pilot | Moderate | Moderate | Multi-location businesses |
+
 ## Generation Process
 
 1. Ask for: launch date (planned), team capacity, funding timeline, key constraints
@@ -84,3 +119,9 @@ Quarter-end review:
 - 90-day game plans are actionable at the weekly level
 - Go/no-go gates prevent premature scaling
 - Timeline aligns with funding runway (section 11) and hiring plan (section 09)
+- Change management plan addresses communication, training, and stakeholder adoption
+- Critical path is identified and monitored
+
+## References
+
+- **Implementation and change management**: See `references/implementation-change-management.md` for three-phase implementation model, four parallel implementation tracks (change management/testing/communication/training), WBS structure, Gantt/PERT guidelines, PERT estimation formula, critical path analysis, conversion strategies, 4-step change management plan, adopter distribution model, 9 factors for successful change, and scope management — from Page (AMACOM, 2015) and Dennis, Wixom & Tegarden (Wiley, 2021)

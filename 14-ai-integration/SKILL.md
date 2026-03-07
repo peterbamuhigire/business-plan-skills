@@ -70,6 +70,35 @@ Payback period: X months
 - **Transparency** — How AI decisions are explained to stakeholders
 - **Compliance** — Relevant AI regulations (EU AI Act, local laws)
 
+### Process Automation Readiness
+
+Before automating any process, assess readiness using the BPM principle: redesign first, automate second — "don't pave the cow path" (Dumas et al., 2013).
+
+**Automation decision criteria** — automate when a process scores high on:
+- Volume (high repetitions), Standardisation (low variability), Rule-based (codifiable decisions), Data availability (digital inputs), Error impact (costly mistakes), Speed requirement (fast turnaround needed)
+
+**Leave manual when**: complex judgement required, low volume, high variability, or human touch adds customer value.
+
+**Automation maturity levels**:
+
+| Level | Description | Example |
+|---|---|---|
+| Manual | Paper-based, no IT | Handwritten records |
+| IT-supported | Standalone apps | Spreadsheets, email |
+| IT-enabled | Integrated systems, manual coordination | ERP, CRM |
+| BPMS-managed | Automated flow, some manual tasks | Workflow routing |
+| Fully automated | Minimal human involvement | Straight-through processing |
+
+### Build vs Buy vs Outsource
+
+For each technology component, evaluate (Dennis et al., 2021):
+
+| Strategy | Best when | Risk |
+|---|---|---|
+| Custom build | Unique need, in-house skills, time flexible | High (long timeline) |
+| Packaged software | Common need, short timeframe | Medium (vendor dependency) |
+| Outsource | Non-core function, skills gap | Medium (loss of control) |
+
 ## Generation Process
 
 1. Ask for: industry, current tech stack, team size, pain points, budget constraints
@@ -88,3 +117,7 @@ Payback period: X months
 - Implementation is phased — not "AI everything on day one"
 - Governance section addresses data privacy and bias
 - Human oversight is maintained for critical decisions
+
+## References
+
+- **Process automation readiness**: See `references/process-automation-readiness.md` for automation levels spectrum, automation decision framework (6 criteria), automation readiness checklist, BPMS components and architecture, task types in process automation, decision tables, 9 steps to executable processes, build/buy/outsource decision framework, and the "redesign before automating" principle — from Dumas et al. (Springer, 2013) and Dennis, Wixom & Tegarden (Wiley, 2021)

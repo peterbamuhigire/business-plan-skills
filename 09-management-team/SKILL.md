@@ -40,6 +40,26 @@ Role in this venture: [Specific responsibilities]
 - **Commitment** — Full-time dedication, skin in the game
 - **Coachability** — Willingness to learn and adapt
 
+### Team Development Awareness
+
+When describing team-building plans, reference Tuckman's stages (Dennis et al., 2021):
+
+1. **Forming** — Getting to know each other, learning expectations
+2. **Storming** — Conflict over control, direction, roles (normal and necessary)
+3. **Norming** — Establishing norms, relationships solidify
+4. **Performing** — Team works productively toward goals
+5. **Adjourning** — Transition after project/phase completion
+
+Investors value founders who understand that team conflict (storming) is a natural stage, not a failure signal. Show how the team navigates disagreements constructively.
+
+### Change Management Capability
+
+For businesses implementing new systems or processes, demonstrate the team's ability to drive adoption (Dennis et al., 2021):
+
+- **Stakeholder analysis**: Assess personal costs/benefits of changes for each group
+- **Adopter distribution**: Plan for ~25% ready adopters, ~50% reluctant (follow the flow), ~25% resistant
+- **Strategy**: Support ready adopters as internal champions; focus training on the 20% of functions used 80% of the time
+
 ## Generation Process
 
 1. Ask for: founder names, backgrounds, team size, key roles filled/unfilled
@@ -60,3 +80,4 @@ Role in this venture: [Specific responsibilities]
 ## References
 
 - [Leadership & Greatness Frameworks](references/leadership-greatness-frameworks.md) — Level 5 Leadership, First Who Then What, Hedgehog Concept, Stockdale Paradox, Culture of Discipline, Flywheel, and Technology Accelerator frameworks from *Good to Great* by Jim Collins, with practical application guidance for each business plan section
+- [Team Development and Change Management](references/team-change-management.md) — Tuckman's stages, jelled team characteristics, stakeholder analysis for change, adopter distribution model, change adoption strategies (informational vs political), training methods comparison, and ethical considerations for technology adoption — from Dennis, Wixom & Tegarden (Wiley, 2021)

@@ -92,6 +92,39 @@ AMBER: 1-2 KPIs off by 10-25%, corrective action initiated
 RED: Any KPI off by >25% or cash runway < 3 months
 ```
 
+### 6. Continuous Improvement Cycle
+
+Integrate the Evaluate-Test-Assess-Execute cycle for ongoing process improvement (Page, 2015):
+
+**Evaluate** (spend majority of time here):
+- Review customer/client needs against scope definition
+- Compare metrics to baseline — identify trends
+- Verify process workers follow documented processes
+- Assess whether internal controls eliminate errors
+- Evaluate third-party vendor/supplier performance
+
+**Test** — Implement changes on a small scale to validate before full rollout
+
+**Assess** — Review test data, benchmark against industry standards, decide whether to proceed
+
+**Execute** — Deploy across the organisation with communication, training, and updated impact analysis
+
+### Continuous Improvement Schedule Template
+
+| Business Process | Review Metrics | Client Needs | Internal Controls | Process Compliance | Vendor Evaluation |
+|---|---|---|---|---|---|
+| [Process A] | Monthly | Quarterly | Monthly | Quarterly | Annually |
+
+### Process Metrics Framework (Three Perspectives)
+
+Complement financial/customer/operational KPIs with process-specific metrics (Page, 2015):
+
+- **Effectiveness** — Does the process produce desired results? (quality, customer satisfaction)
+- **Efficiency** — Does it minimise resources and cycle time? (cost per transaction, CTE)
+- **Adaptability** — Can it respond to changing needs? (time to implement changes, % non-standard cases handled)
+
+Each process should have at least one metric from each perspective.
+
 ## Generation Process
 
 1. Extract key metrics from all plan sections (04, 07, 08, 10, 13)
@@ -109,3 +142,5 @@ RED: Any KPI off by >25% or cash runway < 3 months
 - Reporting cadence is practical for the team size
 - Early warning triggers are actionable
 - Every KPI has a clear owner
+- Process metrics cover all three perspectives: effectiveness, efficiency, and adaptability (Page, 2015)
+- Continuous improvement cycle is scheduled with specific frequencies per process

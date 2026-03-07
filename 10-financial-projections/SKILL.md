@@ -44,6 +44,21 @@ Every projection must state its assumption:
 - Working capital requirements
 - Tax rates and obligations
 
+### Process Costing for Operational Budgets
+
+When projecting staffing and operational costs, use process-based costing (Page, 2015):
+
+1. **FTE calculation**: Adjusted Annual Hours = 2,080 − Vacation − Sick − Holidays; FTE = Total Annual Process Hours ÷ Adjusted Hours
+2. **People cost**: (Annual Salary × FTE) × (1 + Employee Benefit Rate)
+3. **Tool cost**: Software/licence costs apportioned by FTE usage
+4. **Overhead cost**: People Cost × Overhead Rate
+5. **Cost per transaction**: Total Process Cost ÷ Annual Volume
+
+For technology investments, apply the three-dimensional feasibility framework (Dennis et al., 2021):
+- **Technical feasibility** — Can we build/deploy it? (familiarity, size, compatibility risks)
+- **Economic feasibility** — Should we invest? (NPV, ROI, break-even analysis over 3–5 years)
+- **Organisational feasibility** — Will the team adopt it? (strategic alignment, champion, user readiness)
+
 ### Revenue Model Templates
 
 - **Product sales:** Units x Price = Revenue
@@ -72,3 +87,7 @@ Every projection must state its assumption:
 - Projections show a credible path to profitability
 - No hockey-stick growth without clear justification
 - Assumptions are conservative-to-moderate, not optimistic
+
+## References
+
+- **Process costing and feasibility analysis**: See `references/process-costing-feasibility.md` for FTE calculation formulas, three-component process costing (people/tools/overhead), cost per transaction, hard vs soft savings, three-dimensional feasibility analysis (technical/economic/organisational), NPV/ROI/break-even methodology, and cost-benefit spreadsheet structure — from Page (AMACOM, 2015) and Dennis, Wixom & Tegarden (Wiley, 2021)

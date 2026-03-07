@@ -43,6 +43,29 @@ Generate an honest risk assessment that builds investor confidence through trans
 - **Transfer** — Shift risk to third party (insurance, outsourcing)
 - **Accept** — Acknowledge and monitor (for low-impact risks)
 
+### Process Risk Identification
+
+For operational risks, walk through each core process activity asking "What can go wrong?" (Page, 2015). Document findings in an internal controls table before developing solutions — identify all risks first, solve second.
+
+Use root cause analysis to move beyond symptoms to underlying causes:
+- **Ishikawa (Fishbone) diagram** — Brainstorm causes across the 6 Ms: Man (people/skills), Method (process design), Machine (equipment/systems), Material (inputs/data), Measurement (metrics/feedback), Milieu (environment/culture) (Dumas et al., 2013)
+- **5 Whys** — For each identified cause, ask "Why?" repeatedly until reaching a root cause that, if eliminated, would prevent recurrence
+- **Pareto analysis** — Focus on the vital 20% of causes responsible for 80% of issues
+
+### Issue Register
+
+For complex operational risks, maintain a structured issue register:
+
+| Field | Description |
+|---|---|
+| Issue ID | Unique identifier |
+| Issue name | Short descriptive name |
+| Impact dimension | Time / Cost / Quality / Flexibility affected |
+| Quantitative impact | Estimated magnitude (e.g., "adds 3 days to cycle time") |
+| Root causes | Underlying causes identified via Ishikawa/5 Whys |
+| Suggested improvements | Potential solutions with trade-off assessment |
+| Priority | High/Medium/Low based on impact and feasibility |
+
 ## Generation Process
 
 1. Ask for: industry, business stage, key dependencies, known concerns
@@ -64,3 +87,4 @@ Generate an honest risk assessment that builds investor confidence through trans
 ## References
 
 - **Strategic risk and scenario planning**: See `references/strategic-risk-scenarios.md` for Suns & Clouds risk chart, risk containment strategies (avoid/transfer/reduce/accept), scenario planning methodology, hypothesis testing for strategy, risk-reward evaluation, risk mitigation plan template, and sensitivity analysis from Evans, Harris & Lenox, and Fahey & Randall
+- **Process risk and root cause analysis**: See `references/process-risk-root-cause.md` for Ishikawa (fishbone) diagram methodology, 5 Whys technique, Pareto analysis (80/20 rule), internal controls framework ("what can go wrong?" walkthrough), issue register template, and process-related risk categories mapped to Devil's Quadrangle — from Dumas et al. (Springer, 2013) and Page (AMACOM, 2015)

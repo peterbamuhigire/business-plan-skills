@@ -30,7 +30,7 @@ Score each dimension 1-10, with defined criteria:
 | 9 | **Scalability** | 6% | Can the business grow 10x without breaking? |
 | 10 | **Risk awareness** | 4% | Honest risk assessment with mitigation plans |
 | 11 | **Clarity of ask** | 4% | Specific funding need with clear use of funds |
-| 12 | **AI & operational efficiency** | 4% | Smart use of technology and automation |
+| 12 | **AI & operational efficiency** | 4% | Smart use of technology and automation; process maturity level (Dumas et al., 2013) |
 
 ### Scoring Scale
 
@@ -50,6 +50,20 @@ Score each dimension 1-10, with defined criteria:
 | 6.5-7.9 | **Nearly Ready** | Address flagged weaknesses, then submit |
 | 5.0-6.4 | **Needs Work** | Significant revision required before submission |
 | Below 5.0 | **Not Ready** | Fundamental rethinking needed |
+
+### Process Maturity Assessment (Supplementary)
+
+When scoring dimensions 9 (Scalability) and 12 (AI & operational efficiency), assess the business's process maturity level (Dumas et al., 2013):
+
+| Level | Rating | Score Guidance |
+|---|---|---|
+| Level 1 — Initial | Ad-hoc, hero-dependent | Scalability: max 4/10; AI: max 3/10 |
+| Level 2 — Repeatable | Key processes documented | Scalability: max 6/10; AI: max 5/10 |
+| Level 3 — Defined | All processes standardised and measured | Scalability: 6-8/10; AI: 6-7/10 |
+| Level 4 — Managed | Quantitative monitoring, SLAs | Scalability: 7-9/10; AI: 7-8/10 |
+| Level 5 — Optimised | Continuous improvement culture | Scalability: 8-10/10; AI: 8-10/10 |
+
+A business cannot score highly on scalability without documented, standardised processes. Process maturity is a prerequisite for sustainable growth.
 
 ## Scoring Output Format
 

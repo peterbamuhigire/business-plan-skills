@@ -93,6 +93,29 @@ Next quarter preview:
 - Key shift: [What changes based on learnings]
 ```
 
+### 7. Process Improvement Integration
+
+Each quarterly game plan should include at least one process improvement objective using the BPI methodology (Page, 2015):
+
+1. **Select process** — Use the process prioritisation matrix (Impact × Implementation feasibility × Current State × Value) to choose which process to improve this quarter
+2. **Scope** — Define boundaries using the 8-section Scope Definition Document (process name, owner, description, scope, responsibilities, client needs, stakeholders, measurements of success)
+3. **Map and analyse** — Document as-is process, estimate time and cost, apply improvement techniques
+4. **Implement** — Use four parallel tracks: change management, testing, communication, training
+5. **Measure** — Compare improved metrics to baseline
+
+### Process Prioritisation for Quarterly Focus
+
+Score candidate processes on four weighted criteria (Page, 2015):
+
+| Category | Weight | Criteria |
+|---|---|---|
+| Impact | ~35% | Number affected, management level affected |
+| Implementation | ~30% | Time to market, funding required, timing |
+| Current State | ~20% | Customer satisfaction, pain level, process documentation |
+| Value | ~15% | Expected benefit/return |
+
+Select the highest-scoring process for this quarter's improvement focus.
+
 ## The King Method: Core Principles
 
 1. **One objective per quarter** — Focus beats breadth
