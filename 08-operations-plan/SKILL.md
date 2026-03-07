@@ -64,3 +64,8 @@ Quality check: [How quality is verified]
 - Technology choices are justified (not just trendy)
 - Scalability plan shows how operations handle 2x, 5x, 10x growth
 - Staffing plan aligns with financial projections in section 10
+
+## References
+
+- **Product development lifecycle**: See `../03-products-services/references/product-development-lifecycle.md` for VDPD process, prototyping, MVP development, manufacturing considerations, and innovation strategy (incremental vs. radical) — from Bates and Tidd & Bessant
+- **Product management frameworks**: See `../03-products-services/references/product-management-frameworks.md` for product scaling strategies (8 approaches), experimentation techniques, and Key Value Areas for operational metrics — from Verwijs et al
