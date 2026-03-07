@@ -1,63 +1,135 @@
 ---
 name: target-market
-description: Generate the target market section with customer personas, market segmentation, buyer behaviour analysis, customer acquisition cost estimates, and lifetime value projections. Defines exactly who the customer is and how they buy.
+description: Generate the target market section with customer personas, market segmentation, buyer behaviour analysis, customer acquisition cost estimates, and lifetime value projections. Defines exactly who the customer is and how they buy. Use when building or reviewing target market sections, creating customer personas, calculating CLV/CAC ratios, or validating customer segment choices. Incorporates Farris's customer profitability metrics, Kotler's generational analysis, and growth marketing acquisition frameworks.
 ---
 
 # Target Market & Customer Analysis Skill
 
 Generate detailed customer profiles that prove the business understands exactly who will buy and why.
 
-## What to Generate
+## Required Elements
 
-### Required Elements
-
-1. **Primary target segment** — The core customer group
-2. **Secondary segments** — Additional markets to pursue
-3. **Customer personas** (2-4 personas) — Detailed buyer profiles
-4. **Segmentation criteria** — How the market is divided
+1. **Primary target segment** — The core customer group with quantified size
+2. **Secondary segments** — Additional markets to pursue in priority order
+3. **Customer personas** (2-4) — Detailed buyer profiles using template below
+4. **Segmentation criteria** — Multi-dimensional market division (minimum 3 dimensions)
 5. **Buyer behaviour** — How customers discover, evaluate, and purchase
-6. **Customer pain points** — Specific problems they need solved
+6. **Customer pain points** — Specific, validated problems they need solved
 7. **Purchase drivers** — What triggers a buying decision
-8. **Customer acquisition cost (CAC)** — Estimated cost to acquire one customer
-9. **Customer lifetime value (CLV)** — Projected revenue per customer over time
-10. **CLV:CAC ratio** — Must be >3:1 for bankability
+8. **Generational profile** — Where target customers sit on Kotler's generational spectrum
+9. **Customer acquisition cost (CAC)** — Estimated cost per channel
+10. **Customer lifetime value (CLV)** — Projected revenue per customer over time
+11. **CLV:CAC ratio** — Must exceed 3:1 for bankability
+12. **Customer profitability analysis** — Segment-level profitability ranking
 
-### Customer Persona Template
+## Customer Persona Template
 
 For each persona:
 
 ```
 Name: [Representative name]
 Demographics: [Age, gender, income, location, education]
+Generation: [Baby Boomer / Gen X / Millennial / Gen Z / Gen Alpha]
 Role/Title: [If B2B]
-Goals: [What they want to achieve]
-Pain points: [Frustrations with current solutions]
+Goals: [What they want to achieve — be specific]
+Pain points: [Frustrations with current solutions — quantify impact]
 Buying behaviour: [How they research and purchase]
-Decision criteria: [What matters most — price, quality, speed, trust]
+Digital maturity: [Analogue / Digitising / Digital-first / AI-augmented]
+Decision criteria: [Ranked: price, quality, speed, trust, values alignment]
 Preferred channels: [Where they spend time, how to reach them]
-Objections: [Why they might NOT buy]
+Objections: [Why they might NOT buy — and how to address each]
+Estimated CLV: [Projected lifetime revenue from this persona]
 ```
 
-### Segmentation Approaches
+## Segmentation Framework
+
+Apply minimum three dimensions from:
 
 - **Demographic** — Age, income, education, family size
-- **Geographic** — Region, urban/rural, climate
-- **Psychographic** — Lifestyle, values, attitudes
-- **Behavioural** — Usage rate, loyalty, purchase occasion
+- **Geographic** — Region, urban/rural, climate, market access
+- **Psychographic** — Lifestyle, values, attitudes, personality
+- **Behavioural** — Usage rate, loyalty status, purchase occasion, benefits sought
 - **Firmographic** (B2B) — Industry, company size, revenue, decision-making structure
+- **Technographic** — Technology adoption level, digital channel preference, device usage
+
+### Generational Targeting (Kotler 6.0)
+
+If target market includes Gen Z (born 1997-2012) or Gen Alpha (born 2013+), the plan must address:
+- Social media as primary discovery channel
+- Content authenticity over polished corporate messaging
+- Personalisation capabilities in product and experience
+- Values alignment (sustainability, diversity, ethics)
+- Mobile-first and potentially immersive (AR/VR) experiences
+
+## Customer Economics
+
+### CLV Calculation
+
+```
+Simple CLV = Average purchase value x Purchase frequency x Customer lifespan
+
+Full CLV = (Average revenue per customer per period x Gross margin %)
+           / Customer churn rate
+
+CLV with discount rate = Sum of [Margin x Retention rate^t / (1 + Discount rate)^t]
+                         for t = 1 to expected lifespan
+```
+
+### CAC Calculation
+
+```
+CAC = Total sales and marketing spend / Number of new customers acquired
+
+Channel-specific CAC:
+  Paid ads CAC = Ad spend on channel / Customers acquired from channel
+  Content CAC = Content production cost / Customers attributed to content
+  Referral CAC = Referral incentive cost / Referred customers converted
+```
+
+### CLV:CAC Benchmarks
+
+| Ratio | Interpretation | Action |
+|---|---|---|
+| < 1:1 | Losing money on every customer | Unsustainable — fix immediately |
+| 1:1 - 3:1 | Marginal economics | Optimise acquisition or increase retention |
+| 3:1 - 5:1 | Healthy unit economics | Bankable — investors expect this range |
+| > 5:1 | Strong but potentially under-investing | Consider increasing acquisition spend |
+
+### Customer Profitability Metrics (Farris)
+
+Rank customer segments by profitability:
+
+```
+Customer Profit = Revenue from customer - Cost to serve customer
+
+Customer Profitability % = Customer Profit / Revenue from customer x 100
+```
+
+Apply the 80/20 rule: identify whether top 20% of customers generate 80% of profit. Flag segments where cost-to-serve exceeds revenue.
 
 ## Generation Process
 
 1. Ask for: product/service type, B2B or B2C, geography, price point
-2. Define primary and secondary segments
-3. Build 2-4 detailed personas
-4. Map the buyer journey from awareness to purchase
-5. Estimate CAC and CLV with explicit assumptions
-6. Calculate CLV:CAC ratio
+2. Define primary and secondary segments using 3+ dimensions
+3. Identify generational profile and digital maturity of target customers
+4. Build 2-4 detailed personas with specific CLV estimates
+5. Map the buyer journey from awareness to purchase to advocacy
+6. Calculate CAC per channel with explicit assumptions
+7. Calculate CLV using appropriate formula for the business model
+8. Validate CLV:CAC ratio against benchmarks
+9. Rank segments by customer profitability
 
 ## Quality Criteria
 
 - Personas feel like real people, not demographic averages
-- Segmentation uses multiple criteria (not just demographics)
+- Segmentation uses minimum three criteria (not just demographics)
 - CAC and CLV are calculated with stated assumptions
-- CLV:CAC ratio is realistic and defensible
+- CLV:CAC ratio exceeds 3:1 or explains the path to achieving it
+- Generational characteristics are addressed if targeting Gen Z/Alpha
+- Customer profitability analysis identifies most and least profitable segments
+- Buyer journey maps specific touchpoints, not generic funnels
+
+## References
+
+- **Customer profitability metrics**: See `references/customer-metrics.md` for CLV models, CAC calculations, retention economics, and customer profitability formulas from Farris and growth marketing frameworks
+- **Buyer behaviour and personas**: See `references/buyer-behaviour.md` for generational buying patterns, digital maturity assessment, education-based marketing triggers, and the AARRR funnel applied to customer acquisition
