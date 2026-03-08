@@ -11,13 +11,19 @@ Every business plan produced by this skills suite must include:
 1. A **Digital Marketing Strategy** — how the business will use digital channels to reach customers, generate leads, and convert sales
 2. An **AI Marketing Integration** section — how AI tools will be embedded in the marketing and sales process
 
-This skill generates both sections. It draws on six primary reference frameworks:
+This skill generates both sections. It draws on eight primary reference frameworks:
+
+**Strategy and cross-channel frameworks:**
 - **McDonald, Wilson, Chaffey** (Marketing Plans, 9th ed) — POEM model, RACE framework, 6 digital channels, IMC, omnichannel, measurement → `references/marketing-plans-chaffey.md`
 - **Bodnar and Cohen** (B2B Social Media Book) — ROI formula, COCA/TLV, 5-step lead generation, 10-4-1 rule → `references/b2b-social-media.md`
 - **Robinson** (Digital Marketing Playbook 2023) — 7 channel tactics, SMART goals, analytics → `references/digital-marketing-playbook.md`
 - **Kotler, Kartajaya, Setiawan** (Marketing 6.0) — metamarketing, phygital natives, 5 micro-trends, immersive CX, Gen Z/Alpha characteristics → `references/marketing-60-kotler.md`
 - **Lamplugh** (AI Marketing Playbook, 2nd ed) — AI tools by function: chatbots, personalisation, email automation, SEO, content, lead scoring → `references/ai-marketing-playbook.md`
 - **Keshwani** (55 Digital Marketing Masterpieces) — campaign frameworks, storytelling, UGC, viral video, influencer, retargeting, 5-point campaign analysis → `references/digital-marketing-campaigns.md`
+
+**Platform-specific references:**
+- **Marshall and Yu** (Definitive Guide to TikTok Advertising) — 80/20 content strategy, Power Triangle, Why/How/What framework, 15-second video structure, Spark Ads, TikTok metrics, campaign setup → `references/tiktok-advertising.md`
+- **Geddes** (Advanced Google AdWords) — buying funnel keyword matching, Quality Score, campaign structure, ad copy, landing pages, match types, bidding strategy → `references/google-ads.md`
 
 ---
 
@@ -235,7 +241,52 @@ Present the digital marketing budget as a table:
 
 ---
 
-### 2.9 Phygital Customer Profile and Generational Context
+### 2.9 Platform-Specific Ad Strategy
+
+For businesses planning paid digital advertising, provide platform-specific guidance for each relevant channel. Do not include all platforms — select based on the business type, target audience, and budget.
+
+**Google Search Ads** — include when:
+- The business serves customers who actively search for the product/service (plumbers, lawyers, schools, cleaning services, hardware)
+- There is clear purchase-intent search volume for the category in the target city
+- Budget allows: minimum UGX 25,000–50,000/day to gather meaningful data
+
+Apply the buying funnel keyword framework (Geddes, 2014): classify keywords by funnel stage (awareness → consideration → purchase); weight budget toward purchase-intent keywords; assign each ad group one tight topic; match landing page to ad copy precisely.
+
+Include:
+- 3–5 core keyword themes with match types
+- Quality Score optimisation actions (tight ad groups, keyword in headline, relevant landing page)
+- Campaign budget allocation and CPA target
+- Conversion events to track (WhatsApp click, call, form, purchase)
+
+**TikTok Ads** — include when:
+- Primary target audience is aged 18–35
+- The business has or can create short video content (any business can)
+- Budget allows: minimum UGX 75,000/day ($20) per ad group
+- The business already has a proven offer or existing funnel (TikTok amplifies; it does not validate)
+
+Apply the Why/How/What framework (Marshall and Yu, 2022): plan at least one video in each category; structure 15-second ads with Hook (0–5s) → Pain/Solution (5–10s) → CTA (10–15s); repurpose existing best-performing content from Facebook or WhatsApp first.
+
+Include:
+- Content plan: 3 Why + 3 How + 3 What videos for launch
+- Ad format: In-Feed Ads for all; Spark Ads if organic posts already performing
+- Campaign objective selection (Video Views / Traffic / Conversions / Lead Gen)
+- Metrics to track: video completion rate, engagement rate, CPA, ROAS
+
+**Platform decision table — use to select which platforms to include:**
+
+| Business Type | Primary Platform | Secondary | Skip |
+|--------------|----------------|-----------|------|
+| Local services (cleaning, plumbing, events) | Google Search | Facebook | TikTok (lower intent) |
+| Food / restaurant / hospitality | Facebook + Instagram | TikTok | Google (lower search volume) |
+| Retail / fashion / beauty | TikTok + Instagram | Facebook | Google (browse-driven, not search) |
+| B2B services | LinkedIn + Google Search | Facebook | TikTok |
+| Agriculture / FMCG / rural | Facebook (WhatsApp integration) | Google | TikTok (lower rural penetration) |
+| Youth-focused / education / fitness | TikTok | Instagram | Google (awareness stage) |
+| eCommerce (online store) | Facebook + Google Shopping | TikTok | — |
+
+---
+
+### 2.10 Phygital Customer Profile and Generational Context
 
 If the business serves younger customers (under 35), apply the phygital natives framework (Kotler, Kartajaya, and Setiawan, 2023):
 
@@ -261,7 +312,7 @@ Online discovery (TikTok/Facebook) → Physical visit or WhatsApp → Mobile Mon
 
 ---
 
-### 2.10 Campaign Strategy
+### 2.11 Campaign Strategy
 
 For each major campaign planned in Year 1, apply the 5-point campaign framework (Keshwani, 2023):
 
@@ -294,7 +345,7 @@ For each major campaign planned in Year 1, apply the 5-point campaign framework 
 
 ---
 
-### 2.11 KPIs and Measurement Dashboard
+### 2.12 KPIs and Measurement Dashboard
 
 Define the 6–10 metrics that will be reviewed monthly:
 
@@ -390,6 +441,8 @@ For business plan use, cite as follows (first use):
 - Kotler, Kartajaya, and Setiawan's (2023) phygital natives framework
 - Lamplugh's (2024) AI marketing implementation roadmap
 - Keshwani's (2023) five-point campaign analysis framework
+- Marshall and Yu's (2022) Why/How/What video framework and Power Triangle
+- Geddes' (2014) Quality Score and buying funnel keyword framework
 
 Full references for the appendix:
 - McDonald, M., Wilson, H., and Chaffey, D. (2024) *Marketing Plans: Profitable Strategies in the Digital Age*, 9th Edition. Hoboken, NJ: Wiley.
@@ -398,3 +451,5 @@ Full references for the appendix:
 - Kotler, P., Kartajaya, H., and Setiawan, I. (2023) *Marketing 6.0: The Future Is Immersive*. Hoboken, NJ: Wiley.
 - Lamplugh, M. (2024) *The AI Marketing Playbook: Concepts, Methods, Applications*, 2nd Edition. Boston, MA: Mercury Learning and Information.
 - Keshwani, A. (2023) *55 Digital Marketing Masterpieces: Inspiring Your Next Winning Campaign*. Bangalore: The Write Order Publications.
+- Marshall, P. and Yu, D. (2022) *The Definitive Guide to TikTok Advertising: How to Access 1 Billion People in 10 Minutes*. Chicago, IL: Perry Marshall & Associates.
+- Geddes, B. (2014) *Advanced Google AdWords*, 3rd Edition. Indianapolis, IN: Wiley/Sybex.
