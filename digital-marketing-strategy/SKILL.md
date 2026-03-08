@@ -11,10 +11,13 @@ Every business plan produced by this skills suite must include:
 1. A **Digital Marketing Strategy** — how the business will use digital channels to reach customers, generate leads, and convert sales
 2. An **AI Marketing Integration** section — how AI tools will be embedded in the marketing and sales process
 
-This skill generates both sections. It draws on three primary reference frameworks:
+This skill generates both sections. It draws on six primary reference frameworks:
 - **McDonald, Wilson, Chaffey** (Marketing Plans, 9th ed) — POEM model, RACE framework, 6 digital channels, IMC, omnichannel, measurement → `references/marketing-plans-chaffey.md`
 - **Bodnar and Cohen** (B2B Social Media Book) — ROI formula, COCA/TLV, 5-step lead generation, 10-4-1 rule → `references/b2b-social-media.md`
 - **Robinson** (Digital Marketing Playbook 2023) — 7 channel tactics, SMART goals, analytics → `references/digital-marketing-playbook.md`
+- **Kotler, Kartajaya, Setiawan** (Marketing 6.0) — metamarketing, phygital natives, 5 micro-trends, immersive CX, Gen Z/Alpha characteristics → `references/marketing-60-kotler.md`
+- **Lamplugh** (AI Marketing Playbook, 2nd ed) — AI tools by function: chatbots, personalisation, email automation, SEO, content, lead scoring → `references/ai-marketing-playbook.md`
+- **Keshwani** (55 Digital Marketing Masterpieces) — campaign frameworks, storytelling, UGC, viral video, influencer, retargeting, 5-point campaign analysis → `references/digital-marketing-campaigns.md`
 
 ---
 
@@ -232,7 +235,66 @@ Present the digital marketing budget as a table:
 
 ---
 
-### 2.9 KPIs and Measurement Dashboard
+### 2.9 Phygital Customer Profile and Generational Context
+
+If the business serves younger customers (under 35), apply the phygital natives framework (Kotler, Kartajaya, and Setiawan, 2023):
+
+**Assess which customer cohort the business primarily serves:**
+
+| Cohort | Birth Years | Digital Behaviour | Content Preference | EA Marketing Implication |
+|--------|------------|------------------|-------------------|--------------------------|
+| Gen X | 1965–1980 | Internet-adopter | Email, Facebook, WhatsApp | Trust professional tone; value reliability |
+| Millennials (Gen Y) | 1981–1996 | Digital-confident | Facebook, Instagram, YouTube | Value sustainability + social proof |
+| Gen Z | 1997–2012 | Digital-native (phygital) | TikTok, Instagram, YouTube Shorts | Authenticity, short-form video, community |
+| Gen Alpha | 2013+ | AI/Metaverse native | TikTok, gaming, AI chat | Immersive, interactive, hyper-personal |
+
+**For Gen Z and Gen Alpha audiences, apply these content principles:**
+- Lead with authenticity: raw, unfiltered content > polished corporate ads
+- Short-form video first (first 3 seconds must hook; add captions — 60%+ watch without sound)
+- Community-based channels (WhatsApp groups, Facebook Groups) convert better than paid feed ads
+- Show values alignment: sustainability, local employment, DEI — in proof, not slogans
+- Pragmatic messaging: show price and value clearly; avoid hype and unverifiable claims
+- Experience over product: market what the product enables (lifestyle, outcome), not just its features
+
+**Phygital loop mapping:** For businesses serving phygital native customers, map the phygital customer journey:
+Online discovery (TikTok/Facebook) → Physical visit or WhatsApp → Mobile Money payment → UGC creation (WhatsApp Status/TikTok) → Peer referral (WhatsApp group) → Repeat cycle
+
+---
+
+### 2.10 Campaign Strategy
+
+For each major campaign planned in Year 1, apply the 5-point campaign framework (Keshwani, 2023):
+
+| Element | Detail |
+|---------|--------|
+| **Problem Statement** | What specific business challenge does this campaign solve? |
+| **Process** | Which channel, creative approach, and tactic will be used? |
+| **Expected Result** | Quantified outcome (X leads, X% reach increase, X new customers) |
+| **What Should Work Most** | The primary mechanism driving the result (storytelling? social proof? offer?) |
+| **Success Metric** | How will success be measured and tracked? |
+
+**Campaign type selection guide:**
+
+| Business Goal | Recommended Campaign Type | Primary Channel |
+|--------------|--------------------------|----------------|
+| Build brand awareness | Storytelling / founder video | Facebook organic + TikTok |
+| Generate leads quickly | Lead generation offer + paid ad | Facebook Ads + WhatsApp |
+| Build social proof | UGC testimonial campaign | Google Reviews + Facebook posts |
+| Reach new audiences | Micro-influencer partnership | Instagram + WhatsApp referral |
+| Retain existing customers | Loyalty email/WhatsApp sequence | WhatsApp broadcast + Email |
+| Re-engage lost prospects | Retargeting campaign | Meta Pixel retargeting |
+| B2B lead generation | Content marketing + LinkedIn | Blog + LinkedIn + Email |
+
+**Storytelling content types (by effectiveness for EA SMEs):**
+1. **Founder story** — why you started, what problem you solve, who you serve
+2. **Customer transformation** — before/after, real client (with permission), specific numbers
+3. **Behind-the-scenes** — production process, team, quality control, sourcing
+4. **Educational how-to** — teach something useful; establishes authority
+5. **Community impact** — jobs created, local suppliers, environmental practice
+
+---
+
+### 2.11 KPIs and Measurement Dashboard
 
 Define the 6–10 metrics that will be reviewed monthly:
 
@@ -325,8 +387,14 @@ For business plan use, cite as follows (first use):
 - McDonald, Wilson, and Chaffey's (2024) POEM framework
 - Bodnar and Cohen's (2012) ROI formula: (TLV − COCA) ÷ COCA
 - Robinson's (2023) seven-channel digital marketing model
+- Kotler, Kartajaya, and Setiawan's (2023) phygital natives framework
+- Lamplugh's (2024) AI marketing implementation roadmap
+- Keshwani's (2023) five-point campaign analysis framework
 
 Full references for the appendix:
 - McDonald, M., Wilson, H., and Chaffey, D. (2024) *Marketing Plans: Profitable Strategies in the Digital Age*, 9th Edition. Hoboken, NJ: Wiley.
 - Bodnar, K. and Cohen, J.L. (2012) *The B2B Social Media Book*. Hoboken, NJ: Wiley.
 - Robinson, D. (2023) *The Digital Marketing Playbook for 2023*. Self-published.
+- Kotler, P., Kartajaya, H., and Setiawan, I. (2023) *Marketing 6.0: The Future Is Immersive*. Hoboken, NJ: Wiley.
+- Lamplugh, M. (2024) *The AI Marketing Playbook: Concepts, Methods, Applications*, 2nd Edition. Boston, MA: Mercury Learning and Information.
+- Keshwani, A. (2023) *55 Digital Marketing Masterpieces: Inspiring Your Next Winning Campaign*. Bangalore: The Write Order Publications.
