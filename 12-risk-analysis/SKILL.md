@@ -84,7 +84,24 @@ For complex operational risks, maintain a structured issue register:
 - Analysis is honest — investors distrust plans with no acknowledged risks
 - Key person risk is addressed with succession or knowledge-sharing plans
 
+### Startup-Specific Risk Factors
+
+For new ventures, actively check for the 9 Deadly Sins (Blank & Dorf, 2012) — the most common startup failure modes:
+
+1. Assuming "I know what the customer wants" without validation
+2. Building features without customer feedback
+3. Fixating on launch date over learning
+4. Executing an untested plan
+5. Static plans in dynamic markets
+6. Hiring senior executives before finding a business model
+7. Marketing to a plan without testing
+8. **Premature scaling** — the #1 startup failure mode (hiring/spending before validation)
+9. Management by crisis instead of systematic discovery
+
+Use the **Assumptions Tracking Template** to quantify risk: classify each assumption as Minor/Major/Critical, calculate Risk Score = (Minor×1) + (Major×5) + (Critical×25), target below 100 (Alam). See `references/startup-risk-frameworks.md`.
+
 ## References
 
 - **Strategic risk and scenario planning**: See `references/strategic-risk-scenarios.md` for Suns & Clouds risk chart, risk containment strategies (avoid/transfer/reduce/accept), scenario planning methodology, hypothesis testing for strategy, risk-reward evaluation, risk mitigation plan template, and sensitivity analysis from Evans, Harris & Lenox, and Fahey & Randall
 - **Process risk and root cause analysis**: See `references/process-risk-root-cause.md` for Ishikawa (fishbone) diagram methodology, 5 Whys technique, Pareto analysis (80/20 rule), internal controls framework ("what can go wrong?" walkthrough), issue register template, and process-related risk categories mapped to Devil's Quadrangle — from Dumas et al. (Springer, 2013) and Page (AMACOM, 2015)
+- **Startup risk frameworks**: See `references/startup-risk-frameworks.md` for 9 Deadly Sins of New Product Introduction, premature scaling risk assessment, Assumptions Tracking Template with Risk Score formula, reversible vs. irreversible decisions framework, and technology vs. market risk distinction — from Blank & Dorf (2012) and Alam

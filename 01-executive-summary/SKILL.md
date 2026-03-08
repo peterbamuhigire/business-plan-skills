@@ -118,6 +118,32 @@ If any question cannot be answered clearly from the summary alone, revise.
 - Is every sentence in active voice with concrete language?
 - Has the summary been revised at least once for clarity and brevity?
 
+### Elevator Pitch Integration
+
+For investor-facing summaries, structure the core proposition using these proven templates:
+
+**60-Second Pitch** (Nager et al, 2011): 4 timed segments —
+- 5-10 sec: Who are you?
+- 10-20 sec: What problem does your product solve?
+- 10-20 sec: What is your solution?
+- 5-10 sec: What do you need? (team/funding)
+
+**Short Elevator Pitch** (Alam): "For [customer], we provide [solution], to [need + insight]. Currently [alternatives] lack [advantage]. Without this, [impact of inaction]."
+
+**Long Elevator Pitch** (Alam, adds investor-facing elements): short version + TAM, initial target segment, go-to-market channel, growth rate, pricing, USP, team, traction, funding ask with equity stake.
+
+### Venture Type Framing
+
+Frame the executive summary appropriately for the venture type (Blank & Dorf, 2012):
+
+| Type | Focus | Investor Expectation |
+|---|---|---|
+| Small business | Lifestyle, cash flow, local market | Steady returns, loan repayment |
+| Scalable startup | Growth, market capture, exit | 10×+ return, equity stake |
+| Buyable startup | Build to sell (acquisition target) | Quick flip, modest return |
+| Large company venture | New division, innovation lab | Strategic value, internal ROI |
+| Social enterprise | Impact + sustainability | Blended return (social + financial) |
+
 ## Common Mistakes to Avoid
 
 - Writing the executive summary first (it must be written last)

@@ -129,7 +129,25 @@ Apply the 80/20 rule: identify whether top 20% of customers generate 80% of prof
 - Customer profitability analysis identifies most and least profitable segments
 - Buyer journey maps specific touchpoints, not generic funnels
 
+### Problem Recognition Scale
+
+Segment target customers by pain level to prioritise acquisition efforts (Blank & Dorf, 2012):
+
+| Level | Customer State | Segment Value |
+|---|---|---|
+| **Latent** | Have the problem, don't know it | Low — must educate first |
+| **Passive** | Know the problem, not motivated | Medium — need a trigger event |
+| **Active** | Searching for a solution | High — ready to evaluate |
+| **Vision** | Built a workaround, will pay for better | Highest — earlyvangelists |
+
+Focus initial targeting on Active and Vision-level customers. See `references/customer-discovery-archetypes.md`.
+
+### B2B Customer Types
+
+In business-to-business contexts, map all six types within the buying organisation (Blank & Dorf, 2012): End Users, Influencers, Recommenders, Economic Buyers, Decision-Makers, and Saboteurs. Each requires a different engagement approach. See `references/customer-discovery-archetypes.md`.
+
 ## References
 
 - **Customer profitability metrics**: See `references/customer-metrics.md` for CLV models, CAC calculations, retention economics, and customer profitability formulas from Farris and growth marketing frameworks
 - **Buyer behaviour and personas**: See `references/buyer-behaviour.md` for generational buying patterns, digital maturity assessment, education-based marketing triggers, and the AARRR funnel applied to customer acquisition
+- **Customer discovery archetypes**: See `references/customer-discovery-archetypes.md` for Customer Archetype framework with Day-in-the-Life analysis, Problem Recognition Scale for segmentation, six B2B customer types, three-tier stakeholder mapping, empathy-based interview methodology (8-category guide), Empathy Map synthesis, persona template, and current journey mapping — from Blank & Dorf (2012), Cooper & Vlaskovits (2010), and Alam

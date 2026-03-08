@@ -96,9 +96,23 @@ Identify where the target industry sits and where it is heading — this signals
 - Regulatory risks are acknowledged honestly
 - Market share metrics are defined for this specific industry
 
+### Market Type Classification
+
+Before sizing the market, classify its type — this changes everything about strategy, spending, and timeline (Blank & Dorf, 2012):
+
+| Type | Definition | Revenue Curve |
+|---|---|---|
+| **Existing market** | Known customers, known competitors | Predictable growth via share capture |
+| **New market** | No existing category | Slow adoption, 3-7 years to scale |
+| **Re-segmented** | Niche or low-cost in existing market | Moderate, segment-dependent |
+| **Clone market** | Proven model from another country | Depends on local adaptation |
+
+Use the cost-of-entry thresholds to assess competitive feasibility: 74%+ = monopoly (avoid head-on), 41%+ = market leader (re-segment instead), <26% = fragmented (easiest entry). See `references/market-type-entry-analysis.md`.
+
 ## References
 
 - **Market metrics and formulas**: See `references/market-metrics.md` for comprehensive market measurement formulas, market share calculations, and industry analysis metrics from Farris
 - **Industry trend analysis**: See `references/industry-trends.md` for trend identification frameworks, digital transformation indicators, and phygital marketing evolution from Kotler 6.0
 - **Marketing research methodology**: See `references/marketing-research-methodology.md` for the complete marketing research process, secondary data evaluation criteria, research design selection (exploratory/descriptive/causal), sampling methods with sample size formulas, statistical analysis techniques for market analysis, and research report formatting from Hair, Ortinau & Harrison
 - **Market strategy frameworks**: See `references/market-strategy-frameworks.md` for market sizing methods (6 methods including marketcrafting), HOOF demand forecasting, Porter's Five Forces with rating methodology, Value Net framework (complementors and cooperative dynamics), PESTEL environmental analysis, industry life cycle (S-curve phases), customer buying criteria (E2-P2-R2), and key success factor derivation from Evans, Harris & Lenox, and Fahey & Randall
+- **Market type and entry analysis**: See `references/market-type-entry-analysis.md` for four market types (existing/new/re-segmented/clone), cost-of-entry thresholds from military OR (74%/41%/26% rules), revenue growth curves by market type, bottom-up vs. top-down estimation, Business Context Map (6-sector environmental scan), and market segmentation criteria — from Blank & Dorf (2012), Cooper & Vlaskovits (2010), and Alam

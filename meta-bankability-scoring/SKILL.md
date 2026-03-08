@@ -26,9 +26,9 @@ Score each dimension 1-10, with defined criteria:
 | 5 | **Revenue model strength** | 8% | Scalable, recurring, predictable revenue |
 | 6 | **Financial viability** | 12% | Realistic projections, clear path to profit |
 | 7 | **Team capability** | 12% | Right people with relevant track record |
-| 8 | **Traction & validation** | 8% | Evidence of market demand (customers, revenue, LOIs) |
+| 8 | **Traction & validation** | 8% | Evidence of market demand — earlyvangelists, preselling, product-market fit (Sean Ellis 40% threshold) |
 | 9 | **Scalability** | 6% | Can the business grow 10x without breaking? |
-| 10 | **Risk awareness** | 4% | Honest risk assessment with mitigation plans |
+| 10 | **Risk awareness** | 4% | Honest risk assessment with mitigation plans; Assumptions Tracking with Risk Score <100 (Alam) |
 | 11 | **Clarity of ask** | 4% | Specific funding need with clear use of funds |
 | 12 | **AI & operational efficiency** | 4% | Smart use of technology and automation; process maturity level (Dumas et al., 2013) |
 

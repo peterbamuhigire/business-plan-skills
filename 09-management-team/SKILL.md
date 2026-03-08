@@ -77,6 +77,21 @@ For businesses implementing new systems or processes, demonstrate the team's abi
 - Hiring plan aligns with financial projections and growth timeline
 - Advisory board members add genuine strategic value
 
+### Advisory Board Structure
+
+Include an advisory board with four types of advisors (Blank & Dorf, 2012):
+
+| Type | Role | What They Provide |
+|---|---|---|
+| **Sales/Marketing advisor** | Guide customer acquisition strategy | Channel expertise, customer introductions |
+| **Industry advisor** | Deep domain knowledge | Market insights, credibility, connections |
+| **Technical advisor** | Technology and product guidance | Architecture decisions, technical hiring |
+| **CEO/Founder advisor** | Strategic and leadership counsel | Fundraising guidance, governance, scaling wisdom |
+
+### Founders Must Lead Discovery
+
+In early-stage ventures, founders must personally lead customer discovery and validation — this cannot be delegated to hired executives (Blank & Dorf, 2012). Show in the management section that the founding team is directly engaged with customers, not just managing from behind a desk.
+
 ## References
 
 - [Leadership & Greatness Frameworks](references/leadership-greatness-frameworks.md) — Level 5 Leadership, First Who Then What, Hedgehog Concept, Stockdale Paradox, Culture of Discipline, Flywheel, and Technology Accelerator frameworks from *Good to Great* by Jim Collins, with practical application guidance for each business plan section

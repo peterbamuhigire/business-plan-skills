@@ -88,6 +88,21 @@ For technology investments, apply the three-dimensional feasibility framework (D
 - No hockey-stick growth without clear justification
 - Assumptions are conservative-to-moderate, not optimistic
 
+### Startup-Specific Financial Metrics
+
+For early-stage ventures, supplement traditional financial statements with startup metrics (Blank & Dorf, 2012):
+
+- **Cash burn rate** and months of cash remaining (the master metric)
+- **Customer acquisition cost (CAC)** and customer lifetime value (LTV)
+- **LTV:CAC ratio** (target >3:1)
+- **Conversion rates** through the sales funnel
+- **Revenue growth rate** (month-over-month)
+
+Use the **One-Minute Business Model** as a quick feasibility check: Revenue per unit − Cost per unit = Profit per unit; Target revenue ÷ Profit per unit = Units needed (Kagan, 2024). If the monthly unit target seems achievable, build the detailed projections.
+
+When projections don't work, adjust the **Six Revenue Dials**: average order value, frequency, price point, customer type, product line, and add-on services (Kagan, 2024). See `references/startup-financial-metrics.md`.
+
 ## References
 
 - **Process costing and feasibility analysis**: See `references/process-costing-feasibility.md` for FTE calculation formulas, three-component process costing (people/tools/overhead), cost per transaction, hard vs soft savings, three-dimensional feasibility analysis (technical/economic/organisational), NPV/ROI/break-even methodology, and cost-benefit spreadsheet structure — from Page (AMACOM, 2015) and Dennis, Wixom & Tegarden (Wiley, 2021)
+- **Startup financial metrics**: See `references/startup-financial-metrics.md` for Metrics That Matter framework (3 worked examples by channel type), One-Minute Business Model, Six Revenue Dials, Freedom Number, burn rate guidelines by stage, and revenue curves by market type — from Blank & Dorf (2012) and Kagan (2024)

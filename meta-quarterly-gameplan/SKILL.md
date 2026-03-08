@@ -134,6 +134,23 @@ Select the highest-scoring process for this quarter's improvement focus.
 6. Allocate resources and budget
 7. Create quarter-end review template
 
+### 8. Weekly Accountability System
+
+Use a structured Sunday (P)review to maintain momentum (Kagan, 2024):
+
+- **Every Sunday, 15 minutes**: review past week's goals, assess progress, set next week's priorities
+- **Send to accountability buddy** — they must reply AND call out missed commitments
+- **Organised by goal categories** matching quarterly objectives
+
+### 9. Marketing Experiment Cycles
+
+Each quarter should include at least one marketing experiment cycle (Kagan, 2024):
+
+1. Create a list of 3-5 marketing experiments with expected vs. actual sales
+2. Run each experiment for 30 days
+3. At month-end: double down on what works, kill what doesn't
+4. Carry the winning experiments into the next month
+
 ## Quality Criteria
 
 - Quarterly objective is singular and measurable
@@ -141,3 +158,4 @@ Select the highest-scoring process for this quarter's improvement focus.
 - Every action has an owner — no shared ownership
 - Resource requirements are realistic for team capacity
 - Review template is honest — captures failures, not just successes
+- Weekly accountability system is in place (Sunday reviews with buddy)
