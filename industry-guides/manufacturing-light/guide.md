@@ -86,8 +86,34 @@ Power invertors, acrylic sheets, spindle tapes, and zinc sulphate production. Hi
 
 ## References
 
-- **UNDP business profiles**: See `references/undp-business-profiles-consolidated.md` for 49 investment profiles (rubber, plastics, paper, metal, crafts, recycling, electronics) with inflation-adjusted capital figures from Thankaraju
-- **Additional manufacturing opportunities**: See `references/startup-manufacturing-ideas.md` for manufacturing categories not covered by UNDP profiles — liquid soap and detergent, furniture (wood/steel), aluminium doors and windows, polyurethane foam, barbed wire, PVC cable assembly, ceiling fan assembly, incense sticks, honey processing, mouthwash, toothpaste, and the 20 Golden Rules for manufacturing business from Thankaraju (2018)
+### UNDP Business Profiles (49 profiles — individual files)
+Each profile covers: capital investment, annual revenue, profit margin, production capacity, equipment, and market. Source: UNDP Uganda Compendium Vol. 2 (adjusted to March 2026 USD ×1.27).
+
+**Plastics and rubber:** `expanded-pet-pre-foams.md`, `plastic-bricks.md`, `buckets.md`, `plastic-containers.md`, `plastic-ropes.md`, `printed-shopping-bags.md`, `acrylic-sheets.md`, `rubber-bands.md`, `rubber-washers.md`, `rubber-moulded-products.md`, `rubber-erasers.md`, `rubber-balloons.md`, `rubber-adhesive.md`, `natural-rubber-adhesives.md`, `plastic-bottle-caps.md`, `lldpe-mailing-covers.md`, `recycling-plastics.md`
+
+**Paper, stationery, and printing:** `exercise-books.md`, `paper-envelopes.md`, `carbon-paper.md`, `serviettes.md`, `pencils.md`, `ball-pen-refills.md`, `coloured-wax-crayons.md`, `hand-made-paper.md`, `cardboard-cartons.md`, `screen-printing-unit.md`, `spindle-tapes.md`
+
+**Metal products and hardware:** `wire-nails.md`, `bolts-and-nuts.md`, `metallic-fasteners.md`, `aluminium-powder.md`, `brass-and-bronze-castings.md`, `cement-brick-making.md`
+
+**Crafts, decorative, and specialty:** `wax-candles.md`, `artists-colours.md`, `horn-buttons.md`, `toothbrush-making.md`, `decoration-of-glass-wares.md`, `brass-ware-flower-vases.md`, `synthetic-gem-cutting.md`, `bone-china.md`, `paint-brushes.md`, `spectacle-frames.md`
+
+**Electronics and industrial:** `power-invertors.md`, `acrylic-sheets.md`, `zinc-sulphate-production.md`, `silver-extraction-from-wastes.md`
+
+See `references/business-profiles-consolidated.md` for a single-page summary of all 49 profiles.
+
+### Additional Manufacturing Business References (individual files)
+Manufacturing opportunities beyond the UNDP profiles — from Thankaraju (2018), expanded and EA-adapted:
+
+- **`liquid-soap-detergent.md`** — Liquid soap and detergent powder: surfactant chemistry, UNBS certification, capital $8k–$50k, institutional market strategy
+- **`wooden-furniture.md`** — Wooden furniture manufacturing: timber types, full machinery list, capital $3k–$150k, pricing benchmarks, school tender market
+- **`steel-furniture.md`** — Steel furniture fabrication: sheet metal process, powder coating, capital $10k–$40k, institutional demand
+- **`aluminium-doors-windows.md`** — Aluminium fabrication workshop: profile cutting and glazing, capital $8k–$25k, construction sector supply
+- **`polyurethane-foam.md`** — Foam manufacturing: chemical inputs (polyol/TDI), capital $50k–$150k, NEMA hazard requirements
+- **`barbed-wire.md`** — Barbed wire: wire drawing and barbing process, capital $20k–$60k, galvanising
+- **`pvc-cable-assembly.md`** — PVC cable assembly: extrusion process, UNBS US/IEC 60227, capital $30k–$100k, REA electrification demand
+- **`ceiling-fan-assembly.md`** — Fan assembly from SKD components: UNBS US 386, capital $10k–$30k, BUBU policy advantage
+- **`incense-sticks.md`** — Agarbatti / incense sticks: rolling process, capital $2k–$8k, religious and mosquito-repellent markets
+- **`honey-processing.md`** — Honey processing and bottling: extraction, filtration, UNBS US 792, capital $5k–$20k, export potential
 
 ## Cross-References
 
