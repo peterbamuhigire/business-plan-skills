@@ -336,6 +336,248 @@ ASF is the single greatest threat to Uganda pig farming. **There is no vaccine a
 
 ---
 
+---
+
+## Record-Keeping Apps for Pig Farm Management
+
+Manual paper records work for small farms, but digital apps offer automated reporting, multi-user access, and offline capability — all relevant for Ugandan pig farmers operating in areas with intermittent internet. The following apps are available on Android (Google Play Store) and suitable for farms using smartphones running Android 6.0 or later.
+
+### App Comparison
+
+**My Piggery Manager**
+
+The most comprehensive option reviewed. Designed specifically for pig farm management.
+
+| Feature | Detail |
+|---------|--------|
+| Flock organisation | Organises pigs by stage: breeders, piglets, growers, finishers |
+| Breeding records | Records mating dates, expected farrowing dates, litter sizes |
+| Health records | Logs treatments, vaccinations, and health events per individual animal |
+| Feed management | Feed inventory tracking with cost per animal |
+| Financial reporting | Income and expense tracking with profit/loss summary |
+| Offline capability | Fully functional without internet; syncs to cloud when connected |
+| Availability | Google Play Store (Android) and App Store (iOS) |
+
+**Pig Farm Records App**
+
+| Feature | Detail |
+|---------|--------|
+| Core records | Breeding dates, farrowing, feeding, and financial entries |
+| Animal profiles | Individual profiles per pig with medical and weight records |
+| Vaccination tracking | Built-in vaccination schedule management |
+| Offline capability | Offline with automatic syncing |
+| Availability | Google Play Store |
+
+**Pig Farmer App**
+
+| Feature | Detail |
+|---------|--------|
+| Core records | Event tracking — breeding, farrowing, weaning, vaccinations, weight gain |
+| Animal profiles | Detailed profiles with health treatment and feed schedule history |
+| Movement records | Tracks which pen or location each pig has occupied |
+| Availability | Google Play Store |
+
+**PigProX — Pig Farm Manager**
+
+Suited to larger, more complex operations with mixed breeding and commercial production.
+
+| Feature | Detail |
+|---------|--------|
+| Herd control | Full herd management for breeders and producers |
+| Core records | Breeding, farrowing, litter sizes, weaning, weights, treatments |
+| Identification | Digital profiles linked to ear tags or painted numbers |
+| Availability | Google Play Store |
+
+**LIVESTOCKER Lite — Pig**
+
+Best for smallholder operations running 3–20 sows.
+
+| Feature | Detail |
+|---------|--------|
+| Design | Lightweight, user-friendly interface suited to first-time app users |
+| Core records | Breeding, farrowing, vaccination, and weight tracking |
+| Animal profiles | Individual animal records |
+| Availability | Google Play Store |
+
+### What Digital Apps Replace and What They Do Not
+
+Apps replace paper ledgers and make retrieval, calculation, and reporting faster. They do not replace the discipline of entering data at the time of the event. A digital app with incomplete data is no better than a blank notebook.
+
+Apps are particularly useful for:
+- Calculating farrowing dates automatically (114 days from mating date)
+- Sending reminders for vaccination due dates
+- Generating a profit/loss summary without manual arithmetic
+- Sharing records with a vet or extension officer without transporting a physical ledger
+
+**Offline functionality is the key selection criterion for Uganda.** All five apps above claim offline capability — verify this before relying on the app in a rural farm setting where 4G coverage is inconsistent.
+
+**WhatsApp backup method (no-app alternative):** For farmers who prefer paper records, photograph each completed page of the farm register at the end of each day and send to a dedicated WhatsApp group (yourself as sole member). This creates a time-stamped digital backup with no data entry required.
+
+---
+
+## Free-Range vs. Confined Pig Farming
+
+This section addresses the trade-off between free-range and confined systems, building on the FBT deep litter system and mobile pig tractor approaches already described in the Housing section above.
+
+### Definitions
+
+- **Confined / intensive:** Pigs housed in a permanent pen (FBT or concrete slab) at all times; all feed and water provided in the pen.
+- **Semi-intensive:** Pigs housed in a pen but with access to an outdoor paddock for part of the day; supplementary forage.
+- **Free-range:** Pigs access a larger outdoor area — paddock, pasture, or garden — and obtain a significant portion of their diet through foraging. A version of this is the mobile pig tractor described in the Housing section.
+- **Scavenger / village system:** Pigs roam freely and largely feed themselves — the traditional system in rural Uganda. Very low productivity; not suitable for commercial production.
+
+### Benefits of Free-Range Systems
+
+**Animal welfare and behaviour**
+
+Free-range systems allow pigs to express natural behaviours including rooting, foraging, and social grouping. This reduces stress levels, lowers aggression, and minimises the behavioural problems (tail-biting, ear-chewing, belly-nosing) that are common in overcrowded confined systems. Well-managed free-range pigs have measurably lower cortisol levels — this translates to better growth and reproductive performance.
+
+**Meat quality**
+
+Pork from outdoor-raised pigs is typically leaner, with a better fat profile (higher omega-3 fatty acids from fresh vegetation and invertebrates), and often preferred by discerning buyers. Free-range pork also tends to have lower antibiotic residue levels because healthier animals require fewer treatments — increasingly important as Kampala's urban middle class becomes more conscious of food quality.
+
+**Disease management**
+
+Counter-intuitively, well-managed free-range systems can have lower respiratory disease incidence than overcrowded confinement, because fresh air dilutes airborne pathogens and reduces ammonia buildup. Pigs also develop stronger immune systems through moderate environmental challenge.
+
+**Feed cost reduction**
+
+Foraging supplements commercial feed. During the rainy season in Uganda — when grass, legumes, sweet potato vines, and insects are abundant — foraging pigs can reduce their commercial feed intake by 15–30%. The mobile pig tractor system (AfrII/RAMA-BC approach) is the most systematic way to capture this benefit: move the unit daily onto fresh vegetation.
+
+**Soil improvement**
+
+Rotational systems where pigs move through paddocks deposit manure directly onto land, replacing synthetic fertiliser. This is the core logic of the integrated rotation described in the Housing section: cattle → pigs → chickens → crop.
+
+**Market premium access**
+
+In Kampala and secondary towns, a small but growing segment of buyers will pay a premium for "free-range" pork — particularly hotels, upmarket restaurants, and expatriate consumers. Pricing 15–25% above standard pork is achievable with the right market positioning.
+
+### Challenges of Free-Range Systems
+
+**Land requirement**
+
+Adequate space for rotational grazing is the primary constraint. A minimum of 0.5 acres per 10 pigs is the practical starting point for a meaningful free-range system; 1+ acre per 10 pigs is better. For peri-urban piggeries in Wakiso, Mukono, or Mpigi districts, land of this size is expensive and may not be available.
+
+**Growth rate variability**
+
+Unlike confined pigs receiving a carefully formulated ration twice daily, free-range pigs have variable feed intake depending on forage availability, season, and competition within the group. This means less predictable time-to-market weight. A confined Landrace × Camborough pig reaches 90 kg in 5–6 months on AfrII rations; a comparable free-range pig may take 6–8 months due to higher energy expenditure from movement.
+
+**Predation**
+
+Uganda's free-range pig farmers face losses to feral dogs (the primary predator), monitor lizards preying on piglets, and occasionally snakes. Fencing must be pig-proof and predator-resistant: minimum 1.2m high weld mesh or chain link with a 30 cm buried apron to prevent digging. Electric fencing (solar-powered) is the most cost-effective solution for larger paddocks at UGX 800,000–1,500,000 per 200m perimeter run.
+
+**Disease and parasite exposure**
+
+Outdoor pigs are exposed to a wider range of environmental pathogens including helminths (roundworm, whipworm), liver flukes in wet areas, and mud-borne organisms. Deworming frequency must increase to every 6–8 weeks rather than every 3 months for confined pigs. African Swine Fever (ASF) risk also increases if pigs range near areas where wild bush pigs or warthogs are present — these species are known ASF reservoirs.
+
+**Containment**
+
+Pigs are intelligent and persistent escape artists. If fencing has gaps, they will find them. An escaped pig in a Ugandan village causes crop damage and community conflict that can be disproportionately costly relative to the pig's value. Never allow free-range pigs to be unsupervised until you are certain the fencing is secure.
+
+**Weather exposure**
+
+Uganda's two rainy seasons (March–May, October–December) bring prolonged heavy rain. Outdoor pigs without adequate shelter suffer chilling and pneumonia risk, particularly suckling piglets and weaners. A simple shade/shelter structure is mandatory in any free-range paddock — even a thatched roof on poles suffices.
+
+**Labour intensity**
+
+Monitoring pigs in a paddock requires more daily attention than checking pigs in a pen. Fencing must be inspected daily. Pasture must be rested and rotated. Additional labour costs partially offset the feed savings from foraging.
+
+### Practical Recommendation for Uganda
+
+| Farm Type | System Recommendation |
+|-----------|----------------------|
+| Commercial piggery (3–20 sows, peri-urban) | FBT confined system; mobile pig tractor option for land available adjacent to farm |
+| Smallholder integrated farm (crop + livestock, rural) | Semi-intensive: FBT pen + daily paddock access for growers; retain sows and piglets in pen |
+| Large-scale (50+ sows, rural with land) | Rotational free-range with electric fencing; combine with FBT for farrowing and early weaner phases |
+| ASF-endemic area (Northern Uganda risk zones) | Confined FBT system only — outdoor exposure to bush pigs is unacceptable risk |
+
+---
+
+## Overcrowding Risks in Pig Farming
+
+Overcrowding is one of the most common management mistakes in Ugandan pig farming, typically arising when a profitable first cycle encourages farmers to add more pigs without expanding pen space. The consequences are serious and compound: overcrowded pigs perform worse, get sick more often, and are harder to manage — creating a downward spiral that is difficult to reverse.
+
+### Disease Transmission
+
+Overcrowded pens create the ideal conditions for pathogen amplification and spread.
+
+**Respiratory diseases** are the most immediate risk. Pigs in overcrowded conditions inhale high concentrations of airborne bacteria and viruses. Respiratory diseases including swine influenza, Porcine Reproductive and Respiratory Syndrome (PRRS), and Mycoplasma pneumonia are significantly more prevalent in densely packed pens. Ammonia from concentrated urine and faeces (which accumulates faster in overcrowded FBT beds that cannot keep up with waste volume) irritates the respiratory tract, creating entry points for secondary bacterial infection.
+
+**Gastrointestinal pathogens** including Salmonella and E. coli accumulate in faeces-contaminated feed troughs, water nipples, and bedding when pig density is high. Pig-to-pig oral transmission of intestinal pathogens is rapid at close quarters.
+
+**Quarantine becomes impossible.** When a sick pig is identified in an overcrowded pen, there is nowhere to isolate it within the pen structure. By the time the farmer builds or identifies an isolation pen, the pathogen has already spread to pen-mates. In an ASF outbreak, this delay is catastrophic — the entire herd is exposed before the diagnosis is confirmed.
+
+### Air Quality Problems
+
+Each pig produces approximately 15–25 litres of urine per day and a significant volume of faeces. In an FBT system at correct stocking density, the microbial bed manages this waste volume without odour accumulation. At twice the stocking density, the bed is overwhelmed: moisture exceeds the FBT bed's buffering capacity, the fermentation balance shifts, and ammonia production rises sharply.
+
+**Ammonia above 25 ppm** causes eye and respiratory tract irritation in pigs; above 50 ppm causes measurable respiratory disease. At high overcrowding, ammonia in an enclosed Uganda pig pen can exceed 100 ppm during the night (when ventilation is lowest). Chronic ammonia exposure weakens immune function — making pigs more vulnerable to every other disease on the list.
+
+**Practical test:** If you cannot stand in the pig pen for more than 2 minutes without your eyes watering, the ammonia level is too high for the pigs living there.
+
+### Behavioural Issues and Stress
+
+Pigs are social animals with established dominance hierarchies. When space is adequate, these hierarchies are stable and conflicts are mild. In overcrowded conditions:
+
+- **Tail-biting** becomes a serious problem. Pigs bite each other's tails out of stress, boredom, and competition for resources. A bitten tail bleeds and quickly attracts more biting — escalating to a serious wound that requires veterinary treatment and creates an infection risk.
+- **Ear-chewing and flank-biting** follow similar dynamics.
+- **Chronic stress** from overcrowding elevates cortisol levels. Elevated cortisol suppresses the immune system, reduces feed conversion efficiency, and in sows, disrupts reproductive cycling. An overcrowded breeding pen is a breeding failure waiting to happen.
+- **Dominant pigs monopolise feeders** — lighter, more subordinate pigs cannot eat adequate rations. The result is a split flock: some pigs grow normally while others fall behind, extending the feeding period and increasing the overall feed cost per kg of pork produced.
+
+### Growth Performance Decline
+
+The performance impact of overcrowding is measurable:
+
+| Metric | Adequate Space | Overcrowded (50%+ above target density) |
+|--------|---------------|----------------------------------------|
+| Daily weight gain | 400–600 g/day | 250–400 g/day |
+| Feed conversion ratio (FCR) | 3.0–3.5 | 4.0–5.0+ |
+| Days to market weight (90 kg) | 160–180 days | 200–240 days |
+| Medication costs | Baseline | 1.5–3× higher |
+| Mortality (growing period) | 2–5% | 8–15%+ |
+
+The feed wasted feeding stress-elevated maintenance costs (the pig is burning energy on cortisol-driven restlessness rather than growth) is invisible on a day-to-day basis but devastating over a 6-month cycle. An overcrowded pen typically costs more per kg of pork produced than a correctly stocked pen of half the size.
+
+### Space Requirements: Minimum Standards for Uganda
+
+These standards apply to FBT pen and concrete slab systems. For the mobile pig tractor, the tractor footprint serves as the pen; move daily.
+
+| Animal Category | Minimum Floor Area per Pig | Notes |
+|-----------------|---------------------------|-------|
+| Piglets (to 8 weeks) | 0.15–0.20 m² | In creep area adjacent to sow; the sow's space is counted separately |
+| Weaners (8 weeks – 25 kg) | 0.20–0.35 m² | — |
+| Growers (25–55 kg) | 0.35–0.55 m² | — |
+| Finishers (55–90 kg) | 0.55–0.75 m² | — |
+| Dry sow (non-pregnant) | 1.2–1.8 m² | — |
+| Sow + litter (farrowing pen) | 5.0–6.5 m² total | Farrowing rail mandatory to prevent piglet crushing |
+| Boar | 6.0–8.0 m² | Boars need space to move; confined boar deteriorates rapidly |
+
+**For the standard FBT pen (4m × 4m = 16 m²):**
+- Maximum: 10–15 growing pigs (finishers at upper end of range need the lower end of stocking)
+- For 1 sow + litter: this pen is adequate
+- Do NOT place 20+ growing pigs in this pen size — it is a common mistake that generates the problems described above
+
+### Biosecurity and Environmental Consequences of Overcrowding
+
+- **Implementing biosecurity is physically difficult in a crowded pen.** Footbaths cannot be placed effectively; visitors cannot navigate the space without touching pigs; separating a sick pig for treatment requires moving other pigs first.
+- **Waste management collapses.** The FBT bed requires a specific weight of waste per m² to function correctly. At twice the stocking density, the bed is overwhelmed, the fermentation balance fails, and the pen becomes a conventional slurry pen — defeating the primary advantage of the FBT system.
+- **Environmental contamination:** In Uganda, many piggeries are located near watercourses or on slopes. Overcrowded pen effluent that overflows the pen perimeter contaminates groundwater and streams — creating a regulatory risk (NEMA) and a community relations problem.
+
+### Early Warning Signs of Overcrowding
+
+Monitor for these signals before performance fully declines:
+
+1. Visible tail injuries on multiple pigs
+2. Pigs showing continuous aggression at feeders
+3. Ammonia odour detectable on entering the pen
+4. Litter in FBT bed consistently wet and compacted despite turning
+5. Uneven growth — some pigs significantly smaller than pen-mates of the same age
+6. Lay rate of respiratory coughing or sneezing in the pen
+
+**Corrective action:** If any three of these signals are present simultaneously, reduce stocking density within one week — transfer the excess pigs to a temporary holding pen, sell smaller animals, or accelerate marketing of the heaviest finishers.
+
+---
+
 ## Cross-References
 
 - Beekeeping: `references/beekeeping.md` — Complementary enterprise on same land

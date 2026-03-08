@@ -268,3 +268,429 @@ Certification body in Uganda: Uganda Organic Certification (UgoCert). Cost and t
 - Damerow, G. (2010) *Storey's Guide to Raising Chickens*, 3rd Edition. North Adams, MA: Storey Publishing.
 - UGX pricing, local breed suitability, EA vaccination schedules, and market sizing are this project's additions based on Uganda agricultural market conditions as of 2026.
 - Feed prices and egg market prices are indicative; verify current prices with local suppliers and Uganda Poultry Farmers Association (UPFA).
+
+---
+
+## 9. Farm Records Management
+
+Good record-keeping is the difference between a guessed farm and a managed farm. Without records, a farmer cannot identify early disease signals, calculate true profitability, prove compliance to buyers or lenders, or make informed decisions on flock replacement and feed adjustment.
+
+### 9.1 The Eight Record Types Every Poultry Farm Needs
+
+**1. Flock Inventory Records**
+
+Track every change in bird numbers so you can calculate mortality rate at any point in the flock cycle.
+
+| Field | What to Record |
+|-------|---------------|
+| Date | Day of event |
+| Event type | Purchase / hatch / sale / transfer / death / cull |
+| Quantity | Number of birds affected |
+| Running total | Birds present after event |
+| Notes | Cause of death if known; buyer name if sold |
+
+**Mortality rate formula:** (Deaths ÷ Starting flock) × 100. A mortality rate rising above 1–2% per week signals a health problem that needs investigation before it escalates.
+
+**2. Feed Usage Records**
+
+Track feed consumption daily or weekly.
+
+| Field | What to Record |
+|-------|---------------|
+| Date | Day or week |
+| Feed type | Starter / grower / layer / finisher |
+| Quantity used (kg) | Bags opened or kg weighed |
+| Supplier and batch | For traceability if quality issues arise |
+| Cost (UGX) | Total cost for the period |
+
+**Feed conversion ratio (FCR) check:** Divide total feed used (kg) by total weight gain (kg, for broilers) or divide total feed used by dozens of eggs produced (for layers). Benchmark: 4 lbs feed per dozen eggs; 2 lbs feed per 1 lb broiler weight gain. A rising FCR indicates a feeding, health, or management problem.
+
+**3. Egg Production Records**
+
+Essential for layer operations. Record daily without gaps.
+
+| Field | What to Record |
+|-------|---------------|
+| Date | Each collection time |
+| Total eggs collected | Combined from all nest boxes |
+| Damaged/broken eggs | Separate count (do not count as saleable) |
+| Lay rate (%) | (Eggs collected ÷ hens present) × 100 |
+| Observations | Any unusual behaviour, shell quality issues |
+
+**Why this matters:** A sudden 10% drop in lay rate on an otherwise normal day is often the first indicator of disease, nutritional deficiency, or a predator disturbance the previous night. Records make this visible; guessing does not.
+
+**4. Health and Treatment Records**
+
+| Field | What to Record |
+|-------|---------------|
+| Date | Day of event |
+| Disease/symptom | Signs observed |
+| Birds affected | Number and pen/batch |
+| Treatment given | Drug name, dose, route of administration |
+| Veterinarian consulted | Name and contact |
+| Outcome | Recovery / deaths / ongoing |
+| Withdrawal period | Date after which treated birds/eggs can be sold |
+
+**Regulatory note (Uganda):** Veterinary medicines used in food-producing animals require a withdrawal period before the meat or eggs can enter commerce. Record this date and do not sell before it expires. URA/MAAIF inspectors may request these records during compliance checks.
+
+**5. Breeding and Hatchery Records** *(for operations producing their own chicks)*
+
+| Field | What to Record |
+|-------|---------------|
+| Mating pair or flock | Breed / strain of male and female |
+| Eggs set (date and number) | — |
+| Fertile eggs (candling result) | Number and % fertility |
+| Hatch date | — |
+| Chicks hatched | Count and quality assessment |
+| Hatch rate (%) | (Chicks hatched ÷ eggs set) × 100 |
+
+Target: Hatch rate above 80%. Consistent rates below 70% indicate problems with male fertility, egg storage, or incubator management.
+
+**6. Financial Records**
+
+Maintain a simple income and expense ledger. A notebook with two columns (Income / Expenditure) per week is sufficient at small scale; a phone-based spreadsheet (Google Sheets or Excel) is better for farms with more than 500 birds.
+
+*Expenses to track:*
+- Day-old chick purchase cost
+- Feed (by type and quantity)
+- Vaccines and medications
+- Bedding materials
+- Labour (wages, casual labour)
+- Equipment repairs and maintenance
+- Utilities (electricity for lighting, water)
+- Transport (delivery of feed, collection of product)
+- Licensing and regulatory fees
+
+*Income to track:*
+- Egg sales (quantity × price; note buyer for each batch)
+- Live bird sales (weight × price)
+- Spent litter / manure sales
+- Any other income
+
+**Monthly profit check:** Total income − Total expenses = Net profit (or loss). Do this every month without fail. Many farms discover they are running at a loss only after exhausting their working capital.
+
+**7. Environmental Records**
+
+| Parameter | Target Range | Frequency |
+|-----------|-------------|-----------|
+| House temperature | 21–27°C for adults; 32–35°C for chicks week 1 | Twice daily |
+| Humidity | 50–70% | Daily |
+| Ammonia smell | None detectable at bird height | Daily check |
+| Litter condition | Dry, friable, not caked | Weekly |
+| Ventilation | Air movement without drafts | Daily observation |
+
+**Practical EA note:** In Uganda, chick brooding temperature is the most commonly managed environmental variable. Use a thermometer in the brooder area. If chicks huddle tightly under the heat source, it is too cold; if they spread to the edges and avoid the heat source, it is too hot. Adjust the heat lamp height accordingly.
+
+**8. Sales and Marketing Records**
+
+| Field | What to Record |
+|-------|---------------|
+| Date | — |
+| Buyer name and contact | Build a verified customer list |
+| Product sold | Eggs (trays) / live birds (kg) / chicks |
+| Quantity | — |
+| Price per unit (UGX) | — |
+| Total received (UGX) | — |
+| Payment method | Cash / mobile money (MTN/Airtel) |
+| Outstanding balance | If credit was extended |
+
+**Customer list value:** A farm with 20 regular buyers is far more resilient than one that sells to whoever appears on market day. Build the list proactively; contact buyers before each harvest cycle.
+
+### 9.2 Record-Keeping Tools for Ugandan Farms
+
+**Paper-based (most farms under 500 birds):**
+- A4 ledger book with pre-drawn columns (available from Aristoc, Bookpoint, or any stationery shop in Kampala for UGX 8,000–15,000)
+- One book per record type, or one book divided into sections
+- Keep the book in a dry place; date every entry; never erase — cross out errors and write the correct figure
+
+**Digital (recommended for 500+ birds):**
+- **My Poultry Manager** (Android / iOS): Digitised flock inventory, production, health, and financial records with offline access and automated reporting. Well-suited to Ugandan conditions where internet access is inconsistent.
+- **Google Sheets on smartphone:** Free, flexible, syncs when Wi-Fi available. Useful for farms that need custom record formats.
+- **WhatsApp record backup:** Take a photo of each paper record page at the end of the week and send to a dedicated WhatsApp group (farm owner as sole member). Creates a backup without requiring internet at the time of recording.
+
+**Best practices regardless of method:**
+- Record data at the time it happens — not recalled at the end of the day
+- Train all staff on what to record and how; make it part of the daily routine
+- Review records weekly; compare against previous week and against targets
+- Back up digital data monthly (email a copy to yourself or save to Google Drive)
+
+---
+
+## 10. Flooring Options for the Poultry House
+
+Floor type determines hygiene management burden, disease risk, bird welfare, and construction cost. Choose based on your scale, management capacity, and budget.
+
+### 10.1 Flooring Types Compared
+
+**Concrete Floor**
+
+The standard for modern commercial operations.
+
+*Advantages:*
+- Durable; 20+ year lifespan with minimal maintenance
+- Easy to disinfect thoroughly between flock cycles (pressure wash + disinfectant)
+- Repels burrowing pests (rats, mice) — critical in Uganda where rodents carry Salmonella and can undermine earthen floors
+- Manages water runoff effectively when properly sloped (1:50 gradient towards a drain)
+
+*Disadvantages:*
+- Hard on birds' feet and legs without adequate bedding (litter must be 6–10 cm deep)
+- Risk of footpad dermatitis (FPD) and breast blisters in broilers if litter is thin or wet
+- High installation cost: approximately UGX 800,000–1,500,000 per 100 m² (Kampala region, 2026)
+- Becomes slippery when wet — add texture (broomed finish) during construction
+
+*Best for:* Commercial layer or broiler farms with regular all-in/all-out management. Worth the investment for operations above 1,000 birds.
+
+**Deep Litter on Earthen (Soil) Floor**
+
+The most common system for smallholder and medium-scale farms across Uganda.
+
+*Advantages:*
+- No construction cost beyond levelling the floor
+- Warm and soft for birds — reduces leg injuries, especially for chicks
+- Natural microbial fermentation in the litter suppresses pathogens when managed correctly (same principle as the FBT pig system)
+- Litter materials (sawdust, rice husks, dry grass, coffee husks) are widely available and low cost across Uganda
+
+*Disadvantages:*
+- Cannot be disinfected as thoroughly as concrete between flock cycles — disease organisms (Coccidiosis, Marek's Disease) can persist in soil
+- Absorbs moisture readily; if litter becomes wet (from drinker spills or poor drainage), Coccidiosis risk rises sharply and ammonia levels spike
+- Susceptible to rodent burrowing (rats tunnel under the walls)
+- Requires regular litter maintenance: stir weekly, top up, remove wet patches promptly
+
+*Litter depth and material guide:*
+
+| Material | Availability in Uganda | Recommended Depth | Notes |
+|----------|----------------------|-------------------|-------|
+| Sawdust (wood shavings) | Good (timber yards, sawmills) | 8–10 cm | Best moisture absorption; avoid sawdust from treated timber |
+| Rice husks | Excellent in eastern Uganda (Tororo, Iganga region) | 10–12 cm | Good insulation; slightly lower absorption than sawdust |
+| Coffee husks | Excellent in Masaka, Mukono, Iganga | 10 cm | Good; ensure no mould before use |
+| Dry grass / straw | Widely available rural areas | 12–15 cm | Higher labour to maintain; breaks down faster |
+| Dry banana leaves (chopped) | Western Uganda banana regions | 10 cm | Acceptable; chop to 5–10 cm pieces to prevent clumping |
+
+*Best for:* Smallholder flocks under 500 birds; farms starting up with limited capital. Graduate to concrete when reinvesting profits.
+
+**Slatted or Raised Plastic Flooring**
+
+A modern system where birds stand on a raised plastic grid; droppings fall through to a pit or collection area below.
+
+*Advantages:*
+- Droppings fall through, keeping birds dry and clean — dramatically reduces ammonia exposure and coccidiosis risk
+- Reduces litter material needs and litter management labour
+- Plastic slats are corrosion-resistant, lightweight, and easy to pressure-wash
+- Particularly effective for broiler production in high-humidity areas
+
+*Disadvantages:*
+- High initial cost: plastic slatted flooring systems cost approximately UGX 2,000–4,000 per m² (imported; check Kampala agri-suppliers)
+- Plastic becomes brittle under prolonged UV exposure — shaded houses essential
+- Incorrect gap sizing (too wide) causes foot and leg injuries; source from suppliers with poultry-specific specifications
+- Birds require an acclimatisation period (2–3 days) when transferred from litter to slats
+
+*Best for:* Commercial broiler operations where disease pressure and litter management are major bottlenecks. Also useful for brooder houses for the first 2 weeks.
+
+**Wooden Slatted Floor**
+
+*Advantages:*
+- Similar droppings-separation benefit to plastic slats at lower material cost
+- Timber is locally available in Uganda; can be constructed by a local carpenter
+
+*Disadvantages:*
+- Absorbs moisture over time — rots, harbours mites and parasites (red mite lives in wood grain)
+- High termite risk in Uganda — treat all timber with approved wood preservative (avoid chemicals toxic to poultry)
+- Splinter risk if boards dry unevenly; requires regular inspection and sanding
+- Lifespan: 2–5 years before replacement needed, versus 10+ years for plastic
+
+*Best for:* Small breeder operations or brooder rings as a low-cost alternative; not recommended as the primary floor for a growing/finishing house.
+
+**Wire Mesh Floor**
+
+*Advantages:*
+- Excellent drainage and droppings separation
+- Promotes airflow — useful in hot, humid Ugandan lowland conditions
+- Easy to clean; reduces disease buildup
+
+*Disadvantages:*
+- Causes foot injuries and footpad sores — particularly damaging for heavy broilers
+- Unsuitable for birds over 1 kg body weight
+- Sharp wire edges or broken mesh sections cause serious wounds
+- Birds show discomfort and reluctance to walk; welfare concern
+
+*Best for:* Battery cage layer systems (cages have separate wire-floor specifications); brooder cages for chicks in the first 1–2 weeks only. Not recommended as an open-floor system for growing birds.
+
+**Expanded Metal / Perforated Sheet Floor**
+
+*Advantages:*
+- Durable and rust-resistant (use galvanised or coated sheet)
+- Supports heavier birds better than wire mesh without sagging
+- Good drainage; easier to clean than timber
+
+*Disadvantages:*
+- Highest cost of all flooring types — fabrication plus support frame adds up
+- Surface texture must be checked (smooth perforations preferred; sharp edges cause cuts)
+- Requires a strong support frame with regular inspection
+
+*Best for:* Specialist breeder or broiler parent stock operations at commercial scale. Not typically cost-justified for standard layer or commercial broiler operations in Uganda.
+
+### 10.2 Decision Guide for Uganda Conditions
+
+| Farm Type | Recommended Flooring | Rationale |
+|-----------|---------------------|-----------|
+| Smallholder layers (under 200 birds) | Earthen floor + deep litter | Lowest cost; adequate with good management |
+| Medium layer farm (200–1,000 birds) | Concrete + deep litter | Enables proper disinfection between cycles |
+| Commercial broilers (1,000+ birds/cycle) | Concrete + deep litter OR plastic slats | Biosecurity and disease management at scale |
+| Brooder house (chicks 0–3 weeks) | Concrete + litter, or plastic slats | Keep chicks dry and warm; prevent coccidiosis |
+| Battery cage layers | Wire floor within cage (per cage spec) | Birds never contact own droppings |
+
+**Key principles regardless of floor type:**
+1. Ensure no standing water anywhere in the house — slope floors, clear drains, fix drinker leaks immediately
+2. Maintain litter depth: top up rather than waiting for litter to pack thin
+3. Remove and replace all litter between flock cycles — do not reuse old litter without composting it first
+4. Rodent-proof the floor perimeter: lay a concrete apron 30 cm wide around the outside base of all walls
+
+---
+
+## 11. Comprehensive Vaccination Schedule
+
+The §6.2 table above gives the core framework. This section provides expanded guidance on each disease, including Uganda-specific availability and administration notes.
+
+### 11.1 Priority Vaccines for Uganda Poultry
+
+**Newcastle Disease (NCD) — Highest Priority**
+
+Newcastle Disease is the single greatest infectious threat to poultry in Uganda. Unvaccinated flocks can lose 80–100% of birds within a week of exposure. The virus is endemic across Uganda and spreads through wild birds, equipment, clothing, and airborne particles.
+
+| Parameter | Detail |
+|-----------|--------|
+| Disease agent | Paramyxovirus type 1 |
+| Clinical signs | Coughing, sneezing, greenish diarrhoea, twisted neck (torticollis), sudden death |
+| Vaccine type | Live attenuated (Lasota strain or F strain) |
+| First dose | Day 7–10 via eye drop (1 drop per bird) |
+| Second dose | Day 21–28 via drinking water |
+| Boosters | Every 6–8 weeks throughout flock life |
+| Administration (water) | Remove water 2 hours before; mix vaccine in cool, chlorine-free water; give in the morning; ensure all birds drink within 2 hours |
+| Uganda availability | Available from MAAIF district veterinary offices, NaLIRRI, and agrovets (e.g., UGACHICK, Africhoice). Keep refrigerated 2–8°C. |
+| Cost (Uganda 2026) | Approximately UGX 500–800 per bird per vaccination cycle |
+
+**Gumboro / Infectious Bursal Disease (IBD)**
+
+| Parameter | Detail |
+|-----------|--------|
+| Disease agent | Birnavirus; attacks the bursa of Fabricius |
+| Clinical signs | Ruffled feathers, whitish diarrhoea, huddling, sudden drop in activity at 3–6 weeks |
+| Consequence if missed | Permanent immune suppression — birds become susceptible to all other infections |
+| Vaccine type | Live intermediate strain |
+| First dose | Day 14–21 via drinking water or eye drop |
+| Second dose | Day 28–35 |
+| Uganda availability | Available at major agrovets; keep refrigerated |
+| Critical note | Do not vaccinate for Gumboro before Day 14 — maternal antibodies from the breeding flock will neutralise the vaccine if given too early |
+
+**Marek's Disease**
+
+| Parameter | Detail |
+|-----------|--------|
+| Disease agent | Herpesvirus |
+| Clinical signs | Progressive leg/wing paralysis, tumours (internal organs, skin), eye lesions |
+| Consequence | No treatment; birds that develop clinical signs do not recover |
+| Vaccine timing | Day 1 at hatchery — subcutaneous injection |
+| Uganda availability | Applied by hatcheries (UGACHICK, Kenchic Uganda, NAGRC&DB) at the time of chick production. If purchasing day-old chicks, confirm with the hatchery that Marek's vaccination was administered. |
+| Note | Protection is conferred before exposure; cannot vaccinate after exposure occurs |
+
+**Fowl Pox**
+
+| Parameter | Detail |
+|-----------|--------|
+| Disease agent | Avipoxvirus |
+| Clinical signs | Scabby lesions on comb, wattles, eyelids (dry pox); diphtheritic membrane in throat (wet pox — more dangerous) |
+| Vaccine type | Live virus via wing-web method (two-pronged needle dipped in vaccine, stabbed through the wing web) |
+| Age at vaccination | 6–8 weeks |
+| Confirmation of take | A small swelling or scab appears at the prick site 5–8 days after vaccination — confirms successful inoculation |
+| Uganda availability | Available from agrovets; store at 2–8°C |
+| EA note | Fowl pox is spread by mosquitoes — farms near wetlands or stagnant water face higher exposure risk. Consider applying petroleum jelly (Vaseline) to combs and wattles during high-mosquito seasons as an additional barrier |
+
+**Infectious Bronchitis (IB)**
+
+| Parameter | Detail |
+|-----------|--------|
+| Disease agent | Coronavirus (avian) |
+| Clinical signs | Coughing, sneezing, rattling breathing; egg production drops; misshapen or thin-shelled eggs |
+| Vaccine type | Live (H120 strain most widely available) |
+| Administration | Eye drops or drinking water |
+| Timing | Day 1–14 |
+| Booster | Every 6–8 weeks |
+| Uganda note | Multiple IB strains circulate; the H120 vaccine covers the most common strains but may not cover all field strains. If repeated IB outbreaks occur despite vaccination, consult a veterinary virologist about strain-matching |
+
+**Avian Influenza (AI / Bird Flu)**
+
+| Parameter | Detail |
+|-----------|--------|
+| Disease agent | Influenza A (various subtypes; H5N1 is highly pathogenic) |
+| Clinical signs (HPAI) | Sudden death with few preceding signs; swollen head, cyanosis, bloody discharge |
+| Vaccine status in Uganda | AI vaccination policy is determined by the Government of Uganda (MAAIF). As of 2026, vaccination is not routinely recommended for commercial flocks due to trade and surveillance implications — consult the district veterinary officer for current policy |
+| Prevention | Biosecurity is the primary defence: prevent contact with wild birds and wild bird droppings; report sudden unexplained deaths immediately to district vet |
+
+**Fowl Cholera (Pasteurellosis)**
+
+| Parameter | Detail |
+|-----------|--------|
+| Disease agent | *Pasteurella multocida* (bacterial) |
+| Clinical signs | Sudden death (peracute); or swollen joints, lameness, chronic respiratory signs (chronic form) |
+| Vaccine type | Bacterin (killed bacteria); injection |
+| Administration | Every 3–6 months in endemic areas |
+| Prevention | Rodent control, clean equipment, quarantine new birds |
+| Uganda availability | Less commonly stocked than viral vaccines — order in advance from major veterinary suppliers |
+
+**Infectious Laryngotracheitis (ILT)**
+
+| Parameter | Detail |
+|-----------|--------|
+| Disease agent | Herpesvirus |
+| Clinical signs | Coughing, gasping, bloodstained mucus, head-shaking |
+| Vaccine type | Live attenuated; eye drops or spray |
+| Age | 4 weeks and older |
+| Uganda note | ILT is less prevalent in Uganda than NCD, Gumboro, or Fowl Pox, but outbreaks occur. Vaccinate if the disease has been confirmed in your area. The virus can become latent in recovered birds and reactivate under stress — maintain strong biosecurity even in vaccinated flocks |
+
+**Coccidiosis**
+
+| Parameter | Detail |
+|-----------|--------|
+| Disease agent | *Eimeria* spp. (protozoan parasite) |
+| Clinical signs | Bloody or watery diarrhoea, huddling, weight loss, sudden mortality in young chicks |
+| Vaccine type | Live oocysts administered to day-old chicks (via drinking water or spray) |
+| Alternatively | Anticoccidial drugs (Amprolium, Toltrazuril) added to water during high-risk periods |
+| Uganda availability | Coccidiosis vaccine (e.g., Paracox) available from major agrovets but expensive — UGX 15,000–25,000 per 1,000-dose vial |
+| EA note | Coccidiosis is endemic in Uganda. Earthen-floored houses with wet litter are the highest-risk environment. The most cost-effective control for smallholder farms is strict litter management (keep dry) and anticoccidial medication at 2–3 weeks of age rather than vaccination |
+
+### 11.2 Consolidated Vaccination Schedule by Age
+
+| Bird Age | Vaccine | Method | Notes |
+|----------|---------|--------|-------|
+| Day 1 (at hatchery) | Marek's Disease | Subcutaneous injection | Applied by hatchery; confirm before purchase |
+| Day 1–7 | Coccidiosis (if vaccinating) | Drinking water / spray | Alternative: anticoccidial medication at Day 14 |
+| Day 7–10 | Newcastle Disease (1st dose) | Eye drop (1 drop per bird) | Most critical vaccination; do not skip |
+| Day 14–21 | Gumboro / IBD (1st dose) | Drinking water or eye drop | Not before Day 14 |
+| Day 14 | Infectious Bronchitis (if local pressure) | Eye drop or water | Optional depending on local disease history |
+| Day 21–28 | Newcastle Disease (2nd dose) | Drinking water | Remove water 2 hours before |
+| Day 28–35 | Gumboro / IBD (2nd dose) | Drinking water | — |
+| Day 42–56 (6–8 weeks) | Fowl Pox | Wing-web stab | Confirm take at Day 50–64 |
+| Every 6–8 weeks (ongoing) | Newcastle Disease booster | Drinking water | Do not allow this to lapse |
+| Every 6 months | Fowl Cholera (if endemic area) | Injection | Consult district vet |
+| As directed by vet | Infectious Laryngotracheitis | Eye drop or spray | Only if ILT confirmed in area |
+
+### 11.3 Vaccine Storage and Handling — Uganda-Specific Guidance
+
+- **Cold chain is critical:** All live poultry vaccines must be stored at 2–8°C from manufacture to use. A power outage that raises the temperature even for a few hours can render a vaccine ineffective without any visible sign of damage.
+- **Practical cold chain for rural farms:** Insulated cool box (same type used for transporting day-old chicks) with ice packs. Vaccines should go from the agrovet's refrigerator into the cool box and be used within 4–6 hours. Do not store opened vials.
+- **Water quality for drinking-water administration:** Use cool, clean water with no chlorine. If using treated town water, draw it the evening before and leave uncovered overnight to allow chlorine to off-gas, or use borehole water.
+- **Disinfect equipment before use:** Wash syringes and droppers with hot water only (not disinfectant — residual disinfectant kills the live vaccine organisms).
+- **Dose accuracy:** Mixing 1,000-dose vials for a flock of 200 birds is wasteful and expensive. Buy the dose size closest to your flock size. Unused, reconstituted live vaccine cannot be re-stored.
+- **Record every vaccination:** Date, vaccine name and batch number, flock size vaccinated, method, and who administered it. This record is required if a disease outbreak occurs and you need to demonstrate compliance to a veterinarian or insurance provider.
+
+### 11.4 When Vaccination Fails
+
+Vaccination failure does not always mean the vaccine was bad. Common causes:
+
+| Cause | Diagnosis Clue | Remedy |
+|-------|---------------|--------|
+| Cold chain broken | Vaccine appeared normal but flock develops disease on schedule | Source vaccines only from refrigerated outlets; use a thermometer in your cool box |
+| Maternal antibody interference (Gumboro too early) | IBD outbreak despite vaccination | Delay Gumboro vaccine to Day 18–21; repeat programme |
+| Wrong strain | Disease outbreak despite vaccination; lab test confirms different virus strain | Consult MAAIF or NaLIRRI for strain-specific advice |
+| Immune suppression at time of vaccination | Flock was stressed, overcrowded, or had another active infection | Vaccinate only healthy, well-nourished birds |
+| Missed birds during administration | Some birds show disease while others remain healthy | Improve vaccination technique; for water vaccination, ensure all birds are thirsty and drinking |
