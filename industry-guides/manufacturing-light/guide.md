@@ -84,8 +84,12 @@ Power invertors, acrylic sheets, spindle tapes, and zinc sulphate production. Hi
 | Skilled labour shortage | Medium — trained machine operators, quality inspectors | On-the-job training, vocational institute partnerships |
 | Fire and safety hazards | Medium — chemicals, plastics, metal work | Insurance, safety training, fire suppression equipment |
 
+## References
+
+- **UNDP business profiles**: See `references/undp-business-profiles-consolidated.md` for 49 investment profiles (rubber, plastics, paper, metal, crafts, recycling, electronics) with inflation-adjusted capital figures from Thankaraju
+- **Additional manufacturing opportunities**: See `references/startup-manufacturing-ideas.md` for manufacturing categories not covered by UNDP profiles — liquid soap and detergent, furniture (wood/steel), aluminium doors and windows, polyurethane foam, barbed wire, PVC cable assembly, ceiling fan assembly, incense sticks, honey processing, mouthwash, toothpaste, and the 20 Golden Rules for manufacturing business from Thankaraju (2018)
+
 ## Cross-References
 
 - Financial projections: `/10-financial-projections` for manufacturing cost modelling
 - Operations planning: `/08-operations-plan` for production process design
-- UNDP business profiles: `references/undp-business-profiles.md` for indicative investment figures
