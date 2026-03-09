@@ -824,9 +824,72 @@ Meta has integrated generative AI tools across its advertising and content platf
 
 ---
 
+## §15. Facebook Monetisation for Content Creators and Media Businesses (Willis, 2024)
+
+This section covers Facebook's built-in monetisation tools — relevant for businesses that produce substantial content on Facebook (media pages, education platforms, entertainment accounts, large community group operators). For most EA SMEs, the primary revenue strategy remains using Facebook to generate leads and sales for the core business. These tools become relevant once a Page reaches significant scale.
+
+### In-Stream Ads (Facebook Video Monetisation)
+
+Facebook's In-Stream Ads programme allows content creators and media businesses to earn advertising revenue from videos published on their Facebook Page.
+
+**How it works:** Facebook inserts short advertisements into videos (before, during, or after). The content creator receives a share of the ad revenue based on the number of views and the advertisers' bids. Revenue is deposited into a connected bank account or PayPal account.
+
+**Eligibility requirements (Willis, 2024; verified at time of publication):**
+- Page must have at least 10,000 followers
+- At least 600,000 total minutes viewed in the last 60 days
+- At least 5 active video uploads or 5 live streams in the last 60 days
+- Content must comply with Facebook's Partner Monetisation Policies
+- Page must be in an eligible country (check Meta's current eligibility list — Uganda was not on the original list; verify current status)
+
+**EA consideration:** Eligibility requirements are substantial. This monetisation stream is realistic for established media pages, faith-based organisations with large followings, entertainment channels, and news pages — not for typical SME marketing pages. For creators who qualify, it is a genuine passive income stream once content reaches sufficient scale (Willis, 2024).
+
+**Video format requirements for In-Stream eligibility:**
+- Videos must be at least 3 minutes long (unlike Reels, which are short-form)
+- Higher-quality, longer content performs better for ad revenue
+- Live streams lasting 4+ minutes also qualify
+
+### Fan Subscriptions (Exclusive Membership Content)
+
+Fan Subscriptions allow Page owners to offer exclusive content to followers who pay a monthly subscription fee — creating a direct, recurring income stream from the most loyal audience members.
+
+**How it works:** Subscribers (called "supporters") pay a monthly fee set by the creator (from approximately $1.99 to $9.99/month or equivalent). In return, they receive: exclusive posts and videos, a supporter badge that appears next to their name in comments, access to a members-only Facebook Group, and direct interactions such as subscriber-only live streams (Willis, 2024).
+
+**Eligibility requirements:**
+- Page must have at least 10,000 followers or 250+ return viewers
+- Page must meet Facebook's Partner Monetisation Policies
+- Available in selected countries (check Meta's current eligible country list)
+
+**Content strategy for Fan Subscriptions:**
+- Define a clear "supporter tier" value proposition: what exclusive access do subscribers get that non-subscribers do not?
+- Exclusive content examples: early access to products, behind-the-scenes production videos, weekly Q&A sessions, educational masterclasses, monthly consultation calls
+- Consistency is essential — subscribers expect regular exclusive content
+
+**EA application:** For professional service businesses (lawyers, accountants, consultants, coaches, doctors), Fan Subscriptions could monetise expertise directly. A financial literacy page or agricultural advice channel could charge a monthly fee for premium content. The model is analogous to Patreon but operated within Facebook. Revenue in UGX at UGX 3,700/USD: even 50 subscribers at $4.99/month generates ~UGX 923,000/month (~$249) — meaningful supplementary income for a content-heavy business (Willis, 2024).
+
+### Facebook Stars (Live Stream Tipping)
+
+Facebook Stars is a tipping mechanism for live streams. Viewers purchase Stars (virtual currency) and send them to a creator during a live stream. Each Star equals $0.01 in revenue to the creator.
+
+**How it applies:** Most relevant for entertainment businesses, events businesses, musicians, motivational speakers, and coaches who run regular Facebook Live sessions. A live event business that streams behind-the-scenes content could earn supplementary income through Stars.
+
+**Eligibility:** Similar to Fan Subscriptions — Page scale requirements apply.
+
+### Connecting Monetisation to the EA Business Strategy
+
+For most EA SME Pages, Facebook monetisation tools are not a primary income strategy — they are a supplementary benefit of building a large, engaged audience for other marketing purposes. The sequence is:
+
+1. Build the Page and audience (Sections §2–§4 of this guide) as a marketing tool for the core business
+2. Once the Page crosses 10,000+ engaged followers, evaluate monetisation tools as an additional income layer
+3. Do not optimise content for monetisation before optimising for customer acquisition — monetisation follows audience, audience follows value
+
+**The passive income opportunity:** Businesses that achieve large Facebook followings through consistent content marketing can effectively turn their marketing cost centre into a partial revenue generator — ads revenue or subscription income offsetting the cost of content creation (Willis, 2024).
+
+---
+
 ## Source Notes
 
 - Rouhiainen, L. (2021) *101 Facebook Marketing Tips and Strategies for Small Businesses*. Digital edition. Note: Original published 2016; 2021 edition referenced here. Some UI details (Power Editor → Ads Manager, audience vocabulary, Page formats) have since evolved. Core principles — customer avatar, funnel design, custom/lookalike audiences, ad testing discipline, Messenger strategy, WhatsApp integration — remain fully valid.
+- Willis, T. (2024) *Social Media Marketing in 2024: Mastering Facebook, Instagram, TikTok, Make Passive Income and More*. Self-published. Content drawn from Chapter 3 (Facebook monetisation: In-Stream Ads, Fan Subscriptions, Stars) and Chapter 6 (passive income framework). The 2024 publication date makes this the most current reference in this file for monetisation topics.
 - 2026 updates applied throughout: Meta AI tools, Advantage+ Audience, Reels algorithm prioritisation, new Page experience, click-to-WhatsApp ad format, Meta Business Suite inbox consolidation.
 - EA-specific content (UGX budgets, mobile money integration, Luganda code-switching, community group tactics, Marketplace strategy) is this project's addition based on local market context.
 - Exchange rate used: UGX 3,700 per USD (March 2026 approximation).

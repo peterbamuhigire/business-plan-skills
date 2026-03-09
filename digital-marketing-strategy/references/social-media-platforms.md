@@ -221,6 +221,8 @@ Influencer marketing on Instagram works because followers trust creators they fe
 
 **Spark Ads alternative:** Rather than paying for a traditional influencer post, negotiate to run a Spark Ad (Meta's equivalent) on their content — this allows you to pay for reach to their audience while keeping the content on their profile. This is more cost-effective and feels more authentic because it comes from a trusted creator's account.
 
+**Account takeovers (Willis, 2024):** A less common but high-impact collaboration format where an influencer takes control of your Instagram account for 24–48 hours — posting Stories, going Live, and publishing content in their authentic style. Takeovers work well for product launches, behind-the-scenes events, or reaching a new audience segment. The influencer brings their credibility and audience curiosity to your channel; you gain organic followers from their audience who follow along. Brief the creator clearly on: brand tone, what not to show or discuss, required disclosures, and content approval flow.
+
 ---
 
 ### Instagram Ads (Meta Ads Manager)
@@ -852,7 +854,280 @@ This schedule requires approximately 5–8 hours per week of content creation �
 
 ---
 
-## Platform Selection Summary for EA SMEs
+## Part 8: Passive Income from Social Media (Willis, 2024)
+
+This section covers passive income strategies for social media — relevant for two types of readers:
+1. **EA content creators and influencers** who are building an audience and want to monetise it
+2. **EA business owners** who want to understand how their social media investment can generate income beyond direct sales — and who want to understand the motivations of the influencers they might collaborate with
+
+The frameworks below draw primarily from Willis (2024), Chapter 6, which provides the most comprehensive and current treatment of social media passive income strategies in this reference library.
+
+> Passive income from social media is not passive in setup — it requires consistent content creation and audience building. The "passive" element is that once content and systems are established, revenue continues flowing without proportional ongoing effort. An e-book written once can sell for years; an affiliate link in a pinned post earns commission indefinitely.
+
+---
+
+### §8.1 Platform Monetisation: Built-In Revenue Tools
+
+Each major platform offers native monetisation features. These require meeting eligibility thresholds (typically scale-based) but generate income directly within the platform.
+
+**Facebook built-in monetisation:**
+
+| Feature | How It Works | Eligibility Threshold | EA Realism |
+|---------|-------------|----------------------|------------|
+| In-Stream Ads | Facebook inserts ads into videos; creator earns a share | 10,000 followers; 600,000 min viewed; 5+ active videos/60 days | Realistic for established media pages and community channels |
+| Fan Subscriptions | Followers pay a monthly fee for exclusive content | 10,000 followers or 250 return viewers | Realistic for coaches, educators, and entertainment pages |
+| Facebook Stars | Viewers send virtual tips during live streams | 1,000 followers + live stream capability | Supplementary income for active live streamers |
+
+**Instagram built-in monetisation:**
+
+| Feature | How It Works | Eligibility Threshold | EA Realism |
+|---------|-------------|----------------------|------------|
+| Subscriptions | Followers pay monthly for exclusive content (Stories, Lives, posts) | Eligible creator account; country availability varies | Growing availability; check Meta's current list |
+| Instagram Badges | Viewers purchase Badges during Instagram Live to support creator | 10,000 followers + Live access | Small supplementary income during live sessions |
+| IGTV/Reels bonus programmes | Meta periodically runs bonus programmes paying creators per play | Invitation only; programme availability varies | Intermittent; not reliable income |
+| Instagram Shopping | Sell physical products via shoppable posts and Stories | Business account + approved Instagram Shop | Highly relevant for EA product businesses |
+
+**TikTok built-in monetisation:**
+
+| Feature | How It Works | Eligibility Threshold | EA Realism |
+|---------|-------------|----------------------|------------|
+| Creator Fund / Creativity Programme | Pay per 1,000 views based on engagement quality | 10,000 followers; 100,000 views/30 days; eligible country | EA countries not all eligible; low per-view rate ($0.02–0.04/1,000 views) |
+| TikTok Live Gifts | Viewers send virtual gifts (convertible to cash) during live streams | 1,000 followers | Available in more markets; supplementary income |
+| TikTok Shop | Sell products directly through TikTok videos and Live | Business account + TikTok Shop-eligible country | Expanding in East Africa; monitor availability |
+| Creator Marketplace | Brand collaboration platform connecting creators with brands | 50,000–100,000 followers typically required for relevant deals | Realistic at scale for EA creators |
+
+**YouTube built-in monetisation (cross-reference: `youtube-marketing.md`):**
+
+| Feature | How It Works | Eligibility Threshold | EA Realism |
+|---------|-------------|----------------------|------------|
+| YouTube Partner Programme (AdSense) | Ads run on videos; creator earns revenue share | 1,000 subscribers + 4,000 watch hours in 12 months | Achievable; RPM in EA lower than US but real income at scale |
+| Channel Memberships | Viewers pay monthly for perks | 500 subscribers (threshold changed in 2023) | Realistic for established channels with loyal communities |
+| Super Chat / Super Thanks | Viewers tip during live streams or on videos | YPP membership required | Supplementary income |
+| YouTube Shopping | Tag products in videos | YPP + product catalogue | Growing availability |
+
+**Key principle (Willis, 2024):** Platform monetisation features require scale first. The strategic sequence is: build audience through consistent, valuable content → reach eligibility thresholds → activate monetisation features. Attempting to monetise before the audience exists yields minimal returns and can compromise content authenticity.
+
+---
+
+### §8.2 Affiliate Marketing: Commission from Promoting Others' Products
+
+Affiliate marketing is the most accessible passive income strategy for social media creators at any follower count — because it requires no product creation, minimal upfront investment, and scales with audience size.
+
+**How affiliate marketing works (Willis, 2024):**
+1. A creator joins an affiliate programme and receives a unique tracking link
+2. The creator promotes the product authentically in their content (video, post, bio link, story)
+3. When a viewer clicks the link and makes a purchase, the creator earns a commission
+4. Commission rates vary: 1–10% for physical products, 20–50% for digital products
+
+**Major affiliate programmes (Willis, 2024):**
+
+| Programme | Category | Commission Rate | Payment Threshold | EA Accessibility |
+|-----------|---------|----------------|------------------|-----------------|
+| Amazon Associates | Physical goods, electronics, books | 1–10% (varies by category) | $10 minimum | Available; but primarily USD markets |
+| ShareASale | Diverse merchants (fashion, software, home) | Varies by merchant | $50 minimum | Available globally |
+| Commission Junction (CJ) | Large brands, software, travel | Varies | $50 minimum | Available globally |
+| ClickBank | Digital products, e-books, courses | 20–75% | $10 minimum | Strong for digital products |
+| Jumia Affiliate | East African e-commerce | 3–11% | KES/UGX equivalent | Directly relevant for EA creators |
+| Kilimall Affiliate | East African e-commerce | Varies | Platform-specific | Kenya, Uganda, Nigeria |
+| Software/SaaS tools | Tech tools (Canva, Shopify, Mailchimp, etc.) | 20–30% recurring | Platform-specific | Available globally; relevant for business/tech audiences |
+
+**EA affiliate strategy (Willis, 2024; EA-adapted):**
+
+International affiliate programmes present payment logistics challenges for EA creators — PayPal availability, bank transfer minimums, and currency conversion all add friction. Practical approaches:
+- **Prioritise EA-based programmes** (Jumia, Kilimall) where payment in local currency is straightforward
+- **Software and SaaS affiliates** (Canva Pro, Shopify, email marketing tools) typically pay via PayPal or Payoneer — accessible to creators with those accounts
+- **Digital product affiliates** (ClickBank, Gumroad revenue share) offer the highest commission rates and are payment-accessible
+
+**Content integration for affiliate marketing:**
+- YouTube: affiliate links in video description (highest-converting placement for tutorial/review content)
+- Instagram: Linktree or link-in-bio tool aggregating multiple affiliate links; "swipe up" in Stories (for accounts with link sticker access)
+- Facebook: affiliate links in posts, pinned post with curated recommendations
+- TikTok: link in bio (TikTok restricts direct affiliate links in video captions)
+- Blog: product review posts with affiliate links throughout — the highest converting format for affiliate income
+
+**Disclosure requirement:** All affiliate relationships must be disclosed to maintain audience trust and comply with advertising standards. Use clear language: "This post contains affiliate links. I earn a small commission if you purchase through these links, at no extra cost to you."
+
+---
+
+### §8.3 Sponsored Posts and Brand Deals
+
+Sponsored posts involve brands paying creators to produce content that features or promotes their product or service. Unlike affiliate marketing (commission-based), sponsored posts involve a fixed payment negotiated upfront.
+
+**Building the foundation for brand deals (Willis, 2024):**
+1. **Build your brand:** Establish a clear niche (food, agriculture, fashion, fitness, business) and maintain consistent content quality. Brands pay for access to specific, engaged audiences — not just follower counts
+2. **Track your metrics:** Maintain a media kit showing: follower count, engagement rate, average views per post, audience demographics (age, location, gender). A Ugandan creator with 8,000 highly engaged followers in the agribusiness niche is more valuable to an agri-input company than a general lifestyle creator with 50,000 followers
+3. **Reach out proactively:** Identify brands whose products your audience already uses. Send a professional email with your media kit and a specific collaboration proposal
+
+**Influencer marketing platforms for brand discovery (Willis, 2024):**
+- **AspireIQ** (now Aspire): Brand-creator marketplace; primarily US brands but expanding
+- **FameBit** (acquired by Google/YouTube): YouTube-focused brand deals
+- **Influencity**: Analytics-based influencer discovery; used by brand managers
+- For EA markets: direct outreach to EA brands, local agencies, and brand managers on LinkedIn is more practical than global influencer platforms
+
+**Pricing guidance for EA creators:**
+Rates vary by platform, niche, follower count, and engagement rate. General benchmarks for EA markets (2024–2026):
+
+| Tier | Followers | Instagram Feed Post | Instagram Story | TikTok Video | Facebook Post |
+|------|-----------|--------------------|-----------------|-----------|----|
+| Nano | 1,000–10,000 | $20–80 | $10–30 | $20–60 | $15–40 |
+| Micro | 10,000–50,000 | $80–400 | $30–100 | $60–250 | $40–150 |
+| Mid-tier | 50,000–200,000 | $400–1,500 | $100–400 | $250–800 | $150–500 |
+| Macro | 200,000+ | $1,500+ | $400+ | $800+ | $500+ |
+
+Note: engagement rate matters more than follower count. A 5% engagement rate commands a premium over a 1% engagement rate, regardless of follower number. Always negotiate based on engagement, not just audience size.
+
+**Content authenticity rule:** Only promote products you genuinely use or can authentically endorse. A single sponsored post that feels inauthentic can permanently damage audience trust — which is the creator's most valuable asset. Clearly disclose: "Paid partnership with [Brand]" or "Ad" label as required (Willis, 2024).
+
+---
+
+### §8.4 Digital Products: Create Once, Sell Indefinitely
+
+Digital products are the highest-margin passive income stream because they have zero physical production cost, zero inventory, zero shipping, and unlimited distribution. Once created, the same product sells repeatedly without additional work.
+
+**Types of digital products (Willis, 2024):**
+
+| Product Type | Creation Effort | Platform | Price Range | EA Business Fit |
+|-------------|----------------|---------|------------|----------------|
+| E-book (PDF guide) | Medium (20–80 hours) | Gumroad, Selar, Amazon KDP | $5–30 | High — practical guides for local markets (farming, business, cooking, health) |
+| Online course (video) | High (40–200 hours) | Teachable, Thinkific, Udemy, Skillshare | $30–500 | High — vocational skills, business skills, agri-extension |
+| Printable templates | Low-medium (10–30 hours) | Etsy, Gumroad | $3–25 | Medium — business templates, planners, worksheets |
+| Lightroom presets | Low (5–20 hours) | Gumroad, own website | $10–50 | Niche — photographers and creative content creators |
+| Stock photos/videos | Variable | Shutterstock, Adobe Stock, Pond5 | Per download | Relevant for professional photographers; EA landscapes, wildlife, people |
+| Spreadsheet templates | Low (10–20 hours) | Gumroad, Etsy | $5–30 | High — business finance trackers, project management, farm records |
+| Membership/community | Ongoing | Patreon, Substack, own platform | $5–50/month | High — expert communities, industry groups, learning cohorts |
+
+**EA-specific digital product opportunities:**
+
+The most viable digital products for EA creators are those addressing knowledge gaps in local markets (Willis, 2024; EA-adapted):
+- **Farming guides:** Poultry management manual, crop disease identification guide, market pricing tracker
+- **Business guides:** How to register a business in Uganda, SACCO loan application guide, export documentation
+- **Vocational skills:** Tailoring patterns, hair braiding tutorials, phone repair basics
+- **Financial literacy:** Budget templates, savings challenge trackers, investment primers (Ugandan context)
+- **Language and culture:** Luganda phrase guides, Swahili business conversation guides
+
+**Payment platforms accessible in EA:**
+- **Selar** (selar.co): Nigerian platform widely used by EA creators; supports local payment methods and mobile money; accepts M-Pesa, Airtel Money
+- **Gumroad:** International platform; requires PayPal or Stripe for withdrawal — accessible but involves currency conversion
+- **Payhip:** UK platform; supports global payments; widely used by African digital product creators
+- **Own website + Flutterwave/Paystack:** For creators who want full control; supports EA mobile money and card payments
+
+**Pricing digital products in EA markets:**
+Price to perceived value, not to production cost. A $5 guide that saves a farmer UGX 200,000 in mistakes is worth buying. Test prices: start at a moderate price point, offer a limited-time launch discount, then raise to full price as testimonials accumulate. Avoid pricing too low — underpricing signals low quality (Willis, 2024).
+
+---
+
+### §8.5 YouTube Monetisation Paths (Cross-Platform Passive Income)
+
+YouTube is the most robust platform for passive income because content is permanently indexed and searchable — a video published in 2024 can earn revenue in 2030. Combined with YouTube's multiple monetisation streams, it is the creator economy's highest long-term value platform.
+
+**YouTube Partner Programme (YPP) — Passive Ad Revenue:**
+- Eligibility: 1,000 subscribers + 4,000 watch hours in 12 months (or 500 subscribers + 3 public videos on Shorts)
+- Revenue: Google/YouTube places ads on videos; creator receives 55% of ad revenue
+- RPM (Revenue per 1,000 views) in Uganda/Kenya: typically $0.50–$2.00 — lower than US ($5–$20) due to advertiser demand
+- At 100,000 views/month at $1.00 RPM: ~$100/month (~UGX 370,000) — supplementary, not primary income at EA scale (Willis, 2024)
+- RPM increases with higher-value content niches (finance, technology, business) and audience in higher-CPM markets (US, UK, Australia)
+
+**Channel Memberships:**
+- Subscribers pay monthly (tiers typically $1.99–$9.99) for exclusive content
+- Perks: custom badge, exclusive videos, members-only community tab, early access
+- Best suited to channels with a tight, loyal community (education, skills, niche hobby content)
+
+**Super Chat, Super Thanks, Super Stickers:**
+- Viewers pay to have their comment highlighted during a live stream (Super Chat) or on a regular video (Super Thanks)
+- Direct supplementary income during high-engagement events (live Q&A, product launch, community events)
+
+**Affiliate marketing via YouTube descriptions:**
+- The most accessible YouTube monetisation for new channels (no eligibility threshold)
+- Tutorial and review videos convert exceptionally well: "How to set up a poultry house" with affiliate links to suppliers
+- Include affiliate disclosure in video and description
+
+**Brand-sponsored YouTube videos:**
+- Once a channel reaches 5,000–10,000 subscribers in a defined niche, brands approach directly for sponsored content
+- Sponsored videos are integrated within the creator's regular content style: brief mention (15–60 seconds) + sponsored call-to-action
+- Rates for EA channels: $50–500+ per video depending on niche, audience quality, and brand budget
+
+---
+
+### §8.6 Subscription Platforms: Patreon and Alternatives
+
+Subscription platforms allow creators to earn recurring monthly income directly from their most dedicated audience members — bypassing platform algorithms and advertising dependency.
+
+**Patreon:**
+- Creators set multiple membership tiers at different price points ($1–$50+/month)
+- Each tier offers specific perks: early access to content, exclusive posts, Q&A access, physical merchandise, community membership
+- Patreon takes 5–12% of revenue depending on plan; creator receives the rest
+- Payment: Payoneer or PayPal (accessible in EA with some setup)
+- Best suited to: podcasters, writers, artists, educators, coaches with engaged communities
+
+**Substack (for writers and newsletter creators):**
+- Newsletter platform with free and paid tiers
+- Free subscribers receive regular newsletters; paid subscribers ($5–10/month) receive additional content
+- Substack takes 10% of subscription revenue
+- EA opportunity: business newsletters, agricultural updates, legal/regulatory briefings, industry news
+
+**Buy Me a Coffee / Ko-fi:**
+- Simpler one-time "tip" platforms where followers make one-off payments to support creators
+- Lower recurring commitment than Patreon; suitable for creators whose audience prefers occasional support over monthly commitment
+- EA payment access: via PayPal or Stripe
+
+**EA subscription platform consideration:**
+Building a paying subscriber base in EA requires demonstrating exceptional consistent value — the content must be genuinely exclusive and clearly worth the monthly fee. The strongest models in EA are likely to be:
+- Agricultural advisory services (farmers paying monthly for expert crop and market advice)
+- Business advisory (entrepreneurs paying for regular business analysis, templates, and Q&A access)
+- Skills development (monthly video lessons in a vocational skill with community support)
+
+---
+
+### §8.7 Building Multiple Income Streams: The Portfolio Approach
+
+The most resilient passive income strategy combines several streams, so that no single platform change or algorithm update eliminates all income (Willis, 2024).
+
+**The income diversification matrix:**
+
+| Income Stream | Setup Effort | Ongoing Effort | Platform Risk | Revenue Ceiling |
+|--------------|-------------|---------------|--------------|-----------------|
+| Platform ad revenue (YouTube/Facebook) | Low-medium | Low | High (algorithm dependent) | Medium |
+| Affiliate marketing | Low | Low | Medium | Medium |
+| Sponsored posts/brand deals | Medium | Medium | Low (relationship-based) | High |
+| Digital product sales | High (upfront) | Low | Low (if on own platform) | High |
+| Subscription/membership | High (upfront) | Medium | Low-medium | High (recurring) |
+| Freelance services | Low | High | Low | Medium (time-bound) |
+
+**Recommended build sequence for EA creators (Willis, 2024; EA-adapted):**
+
+**Phase 1 — Foundation (Months 1–6):**
+- Focus 100% on content quality and audience growth
+- Start affiliate marketing immediately (zero threshold, supplementary income from day one)
+- Build your email list even before it converts — email is your owned audience
+
+**Phase 2 — First Product (Months 6–12):**
+- Create one digital product based on the most common question your audience asks you
+- Price it, promote it to your existing audience, collect testimonials
+- Revenue reinvested into better content production
+
+**Phase 3 — Diversification (Year 2+):**
+- Reach platform monetisation thresholds and activate built-in features
+- Pursue brand deals proactively with a polished media kit
+- Launch a Patreon or newsletter subscription for premium content
+- Scale the digital product that performed best in Phase 2
+
+**The owned-first principle (Willis, 2024):** Social media platforms are rented channels — algorithms change, policies change, accounts can be suspended. Build your business on owned assets: email list, website, digital products sold through your own platform. Social media is the acquisition channel; your email list and product catalogue are the durable business assets.
+
+**EA income scenario — realistic Year 2 creator (Willis, 2024; EA-adapted):**
+
+A Ugandan agricultural content creator with 20,000 YouTube subscribers, 15,000 Facebook followers, and 8,000 TikTok followers after 18 months of consistent content:
+
+| Income Stream | Monthly (approximate) |
+|--------------|----------------------|
+| YouTube AdSense (100,000 views at $0.80 RPM) | ~$80 (UGX 296,000) |
+| Affiliate commissions (agri-inputs, Jumia) | ~$60 (UGX 222,000) |
+| Digital product sales (farming guide at $8, 20 sales/month) | ~$160 (UGX 592,000) |
+| 1–2 sponsored posts per month | ~$150–300 (UGX 555,000–1,110,000) |
+| **Total** | **~$450–600/month (UGX 1.7M–2.2M)** |
+
+This income supplements (and may eventually replace) the creator's primary agricultural business income — and is genuinely passive once the content library and products are established.
+
+---
 
 | Business Type | Primary Platform | Secondary | Skip (Initially) |
 |---------------|-----------------|-----------|-----------------|
@@ -877,7 +1152,8 @@ This schedule requires approximately 5–8 hours per week of content creation �
 
 - Social Media Marketing 2021-22: Beginner's Guide to Making Money Online. Become a Successful Influencer Through Youtube, Twitter, Facebook, Instagram and LinkedIn Algorithms. Start Your Passive Income. Digital Business Academy, 2021. Multi-author compilation.
 - Kane, Allan (2021). Social Media Marketing and Online Business 2021: 6 Books in 1. Self-published. Content specifically drawn from the Instagram Marketing 2021 and passive income sections.
-- Note: Both books reflect platform features and statistics as of 2020–2021. Platform interfaces, algorithm details, follower thresholds, and ad pricing have been updated to reflect 2026 realities. EA-specific applications, UGX pricing, local platform penetration data, and regulatory context are this project's additions.
+- Willis, Tony (2024). *Social Media Marketing in 2024: Mastering Facebook, Instagram, TikTok, Make Passive Income and More*. Self-published. The 2024 publication date makes this the most current source in this file. Content drawn from: Chapter 4 (Instagram growth hacks), Chapter 6 (passive income framework — affiliate programmes, digital products, platform monetisation, subscriptions), Chapter 7 (AI/chatbot integration, emerging platforms), Chapter 9 (analytics tools: Hootsuite, Sprout Social, Brandwatch). Part 8 of this file (Passive Income from Social Media) draws primarily from Willis Chapter 6.
+- Note: The 2021-era books reflect platform features and statistics as of 2020–2021. Platform interfaces, algorithm details, follower thresholds, and ad pricing have been updated to reflect 2026 realities where known. Willis (2024) provides current monetisation programme details — verify specific thresholds and eligible country lists directly on each platform as these change frequently. EA-specific applications, UGX pricing, local platform penetration data, and regulatory context are this project's additions.
 - Instagram Shopping setup requirements reflect Meta's 2026 Commerce Manager process; verify current requirements as Meta updates these policies frequently.
 - LinkedIn profile character limits and algorithm behaviour reflect 2026 observation; LinkedIn updates its algorithm regularly.
 - Podcast platform landscape: Spotify's acquisition of Anchor (now Spotify for Podcasters) completed 2019; Anchor branding may still appear in some contexts.

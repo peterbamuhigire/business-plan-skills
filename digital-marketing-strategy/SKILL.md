@@ -27,6 +27,7 @@ This skill generates both sections. It draws on eight primary reference framewor
 - **Mathew, Jack** (YouTube Marketing 2021) — channel setup/optimisation, YouTube SEO, algorithm signals (CTR/AVD/watch time), video types, monetisation (YPP/brand deals/lead gen), YouTube Ads, EA adaptations (Luganda/Swahili niches, mobile-first, RPM context) → `references/youtube-marketing.md`
 - **Rouhiainen** (101 Facebook Marketing Tips) — Page optimisation, organic content strategy, Facebook Groups, Reels/Stories, ad campaign structure, click-to-WhatsApp ads, lead gen forms, Facebook Shop, Messenger automation, Meta AI tools 2026, EA low-budget strategy (UGX 5,000/day), content calendar → `references/facebook-marketing.md`
 - **Multi-author + Kane** (Social Media Marketing 2021-22; Social Media Marketing and Online Business 2021) — Instagram (profile/Reels/Shopping/micro-influencers), Twitter/X (EA role/threads), LinkedIn (B2B lead gen/personal brand), Podcasting (EA first-mover), Blogging/SEO (long-tail EA keywords), content repurposing (Content Factory model), creator economics (6 monetisation streams) → `references/social-media-platforms.md`
+- **Willis** (Social Media Marketing in 2024) — Facebook monetisation tools (In-Stream Ads, Fan Subscriptions, Facebook Stars), TikTok organic growth (algorithm signals, Promote feature, Creator Marketplace, Creator Fund, live streams), Instagram account takeovers, and the most comprehensive passive income framework in this library: affiliate programmes (Amazon Associates, ShareASale, CJ, Jumia), digital product types and EA platforms (Selar, Gumroad, Payhip), YouTube monetisation paths, Patreon/Substack subscription models, income diversification portfolio, EA income scenario → `references/facebook-marketing.md` (§15), `references/tiktok-advertising.md` (organic/creator section), `references/social-media-platforms.md` (Part 8)
 
 ---
 
@@ -447,6 +448,7 @@ For business plan use, cite as follows (first use):
 - Marshall and Yu's (2022) Why/How/What video framework and Power Triangle
 - Geddes' (2014) Quality Score and buying funnel keyword framework
 - Mathew's (2021) YouTube SEO framework, video type taxonomy, and monetisation paths
+- Willis's (2024) passive income framework and platform monetisation tools
 
 Full references for the appendix:
 - McDonald, M., Wilson, H., and Chaffey, D. (2024) *Marketing Plans: Profitable Strategies in the Digital Age*, 9th Edition. Hoboken, NJ: Wiley.
@@ -461,3 +463,4 @@ Full references for the appendix:
 - Rouhiainen, L. (2021) *101 Facebook Marketing Tips and Strategies for Small Businesses*. Self-published.
 - Various authors (2021) *Social Media Marketing 2021-22: Beginners Guide to Making Money Online*. Self-published.
 - Kane, A. (2021) *Social Media Marketing and Online Business 2021: Beyond 2020 Rise to the Top of the Main eCommerce Platforms*. Self-published.
+- Willis, T. (2024) *Social Media Marketing in 2024: Mastering Facebook, Instagram, TikTok, Make Passive Income and More*. Self-published.
