@@ -190,7 +190,26 @@
 
 ---
 
-## 10. Citation Format
+## 10. Validated African Business Risk Patterns (Sardanis)
+
+Andrew Sardanis operated businesses across 20+ African countries for 25 years (ITM group, Meridien BIAO bank). His practical experience validates several risk patterns directly relevant to Uganda:
+
+| Risk Pattern | What Happened | Uganda Implication |
+|---|---|---|
+| **Currency remittance delays** | African businesses paid in local currency; central banks held hard currency but lacked FX to remit — payments delayed months or years | Build FX buffer in projections; for import-dependent businesses, secure forward-payment terms |
+| **Government/parastatal payment risk** | Governments and parastatals consistently slow to pay suppliers; MTN-scale patience required | Charge premium for government contracts; require deposits; restrict credit limits |
+| **Import competition destroying local enterprise** | Free market policies allowed cheap imports to undercut local manufacturers unable to compete on scale | Assess the competitive threat from regional/Chinese imports before launching manufacturing; focus on fresh/perishable goods or services that cannot be cheaply imported |
+| **Over-expansion failure** | ITM acquired a troubled banking network (BIAO) spread across multiple countries; "impossible to resuscitate an African group that has been in trouble over several years and is spread over several borders" | Avoid acquiring distressed businesses; test each new location before committing capital; organic growth < acquisition |
+| **Delegation/barony risk** | Delegated managers built personal empires, allied with local power brokers, became unremovable | Rotate managers across locations; maintain financial oversight independent of local manager; set clear performance metrics visible to headquarters |
+| **Colonial banking exclusion** | Major banks focused on multinationals; local SMEs and mass market ignored | Uganda's mass market remains underserved by formal financial services — opportunity for businesses that serve it, but also means customers may lack credit history or banking access |
+
+**Key Sardanis insight:** The mass African market "was crying for service but was deliberately ignored." Businesses that serve it with local staff and appropriate products can build loyal customers and government goodwill. Those that ignore it in favour of only formal/large clients miss the dominant segment.
+
+> Source: (Sardanis, *A Venture in Africa*, I.B. Tauris, 2007)
+
+---
+
+## 11. Citation Format
 
 - CPI/inflation data: (UBOS, *Consumer Price Index February 2026*)
 - Labour/income data: (UBOS, *National Labour Force Survey 2021*)
