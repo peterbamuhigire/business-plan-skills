@@ -59,6 +59,28 @@ For technology investments, apply the three-dimensional feasibility framework (D
 - **Economic feasibility** — Should we invest? (NPV, ROI, break-even analysis over 3–5 years)
 - **Organisational feasibility** — Will the team adopt it? (strategic alignment, champion, user readiness)
 
+### Budgeting Fundamentals
+
+**The limiting budget factor** determines what gets built first (ILM):
+- New/cash-constrained business → **cash budget first**
+- Established business → **sales budget first** (everything else follows from revenue)
+- Production-constrained → **production budget first**
+
+**Variance analysis:** Compare actuals to budget monthly. Label variances as Favourable (F) or Adverse (A). Investigate both — adverse variances need corrective action; favourable variances may indicate short cuts or lessons to capture.
+
+**Flexible budgets:** Separate fixed and variable costs so monthly reviews compare "what should we have spent at this actual volume" not "what did we budget at planned volume." See `references/budgeting-forecasting.md`.
+
+### Forecast vs. Target vs. Plan
+
+Keep these distinct in the assumptions document (Morlidge):
+- **Forecast** = what you think will happen (inform decisions; update as conditions change)
+- **Target** = what you want to happen (set ambition; fixed)
+- **Plan** = actions to bridge target and forecast (execution roadmap)
+
+Revenue projections contain both: treat costs as engineering estimates (forecasts), treat revenue as targets-with-a-plan. Never anchor cost assumptions to revenue targets.
+
+**Driver-based modelling:** Identify 5–10 key drivers (transactions, customers, utilisation rate, price per unit) and derive all other line items from them. This makes assumptions explicit, enables instant scenario analysis, and prevents inconsistencies across statements.
+
 ### Revenue Model Templates
 
 - **Product sales:** Units x Price = Revenue
@@ -104,6 +126,7 @@ When projections don't work, adjust the **Six Revenue Dials**: average order val
 
 ## References
 
+- **Budgeting and forecasting best practices**: See `references/budgeting-forecasting.md` for the budget definition and types (sales/cash/production), limiting budget factor, budgetary control and variance analysis (favourable/adverse), flexible budgets (adjusting for activity level), standard costing, performance measurement framework, financial and non-financial KPIs, benchmarking types; PLUS forecast vs. prediction vs. target vs. plan distinctions, TARAC/CARAT qualities of a good forecast, 7 symptoms of forecasting disease, rolling forecasts vs. annual budgets, driver-based modelling, demand vs. sales distinction, judgmental bias types, and a cash budget template — from ILM/Elsevier (2003), Morlidge & Player (Wiley, 2010), and Vandeput (Manning, 2023). **Read when building budget structure, variance tables, or reviewing forecasting assumptions.**
 - **Process costing and feasibility analysis**: See `references/process-costing-feasibility.md` for FTE calculation formulas, three-component process costing (people/tools/overhead), cost per transaction, hard vs soft savings, three-dimensional feasibility analysis (technical/economic/organisational), NPV/ROI/break-even methodology, and cost-benefit spreadsheet structure — from Page (AMACOM, 2015) and Dennis, Wixom & Tegarden (Wiley, 2021)
 - **Startup financial metrics**: See `references/startup-financial-metrics.md` for Metrics That Matter framework (3 worked examples by channel type), One-Minute Business Model, Six Revenue Dials, Freedom Number, burn rate guidelines by stage, and revenue curves by market type — from Blank & Dorf (2012) and Kagan (2024)
 - **Uganda wage and cost benchmarks (2025–26)**: See `references/uganda-wage-cost-benchmarks.md` for median monthly earnings (UGX 200,000 cash; UGX 260,000 cash+in-kind), inflation rates by expenditure category, key commodity/energy price changes, household spending patterns, poverty line thresholds, and a default assumptions template (exchange rates, tax rates, NSSF, lending rates) — from UBOS (NLFS 2021, UNHS 2023/24, CPI Feb 2026, KEI Q1 2025/26). **Read this file whenever setting salary assumptions, input cost escalation rates, or building the assumptions document for Uganda financial projections.**
