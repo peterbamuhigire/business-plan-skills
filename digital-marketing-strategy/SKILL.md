@@ -435,6 +435,12 @@ After generating this section, note that:
 
 ---
 
+## References
+
+- **Brand as media company**: See `references/brand-as-media-company.md` for the three pillars of social business (People/Process/Platforms), five content narrative inputs → hero narrative, brand tone of voice, content tiers by channel (Tier 1 Hero/Tier 2 Hub/Tier 3 Hygiene), converged media execution model (Paid/Owned/Earned interdependence), employee and customer advocacy programmes, minimum viable content governance, and EA context (WhatsApp as Tier 3, Facebook as Tier 2) — from Brito (*Your Brand, The Next Media Company*, Pearson, 2013). **Read when building the brand content narrative or structuring multi-channel content operations.**
+
+---
+
 ## Citation Format
 
 For business plan use, cite as follows (first use):
@@ -462,5 +468,6 @@ Full references for the appendix:
 - Mathew, J. (2021) *YouTube Marketing 2021: Do YouTuber's Secrets for Business with the Beginner's Guide to Growing Your Social Video Channel a Money Machine*. Self-published.
 - Rouhiainen, L. (2021) *101 Facebook Marketing Tips and Strategies for Small Businesses*. Self-published.
 - Various authors (2021) *Social Media Marketing 2021-22: Beginners Guide to Making Money Online*. Self-published.
+- Brito, M. (2013) *Your Brand, The Next Media Company: How a Social Business Strategy Enables Better Content, Smarter Marketing, and Deeper Customer Relationships*. Indianapolis, IN: Que Biz-Tech/Pearson.
 - Kane, A. (2021) *Social Media Marketing and Online Business 2021: Beyond 2020 Rise to the Top of the Main eCommerce Platforms*. Self-published.
 - Willis, T. (2024) *Social Media Marketing in 2024: Mastering Facebook, Instagram, TikTok, Make Passive Income and More*. Self-published.

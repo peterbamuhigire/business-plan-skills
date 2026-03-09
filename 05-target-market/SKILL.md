@@ -148,6 +148,7 @@ In business-to-business contexts, map all six types within the buying organisati
 
 ## References
 
+- **The Underdog Principles — small business competitive advantage**: See `references/underdog-principles-kaza.md` for the Positioning/Proximity/Purpose framework (why focused markets beat mass markets), consultative business case framework (5-question investment test), the 10–15% borrowing rule, purpose drift warning signs, and the technology trap (automation destroying human connection) — from Kaza (*Unconvention*, Ideapress, 2025). **Read when defining the target niche, justifying premium pricing to a focused segment, or advising a founder on purpose alignment.**
 - **Customer profitability metrics**: See `references/customer-metrics.md` for CLV models, CAC calculations, retention economics, and customer profitability formulas from Farris and growth marketing frameworks
 - **Buyer behaviour and personas**: See `references/buyer-behaviour.md` for generational buying patterns, digital maturity assessment, education-based marketing triggers, and the AARRR funnel applied to customer acquisition
 - **Customer discovery archetypes**: See `references/customer-discovery-archetypes.md` for Customer Archetype framework with Day-in-the-Life analysis, Problem Recognition Scale for segmentation, six B2B customer types, three-tier stakeholder mapping, empathy-based interview methodology (8-category guide), Empathy Map synthesis, persona template, and current journey mapping — from Blank & Dorf (2012), Cooper & Vlaskovits (2010), and Alam
