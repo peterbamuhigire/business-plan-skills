@@ -578,6 +578,315 @@ Monitor for these signals before performance fully declines:
 
 ---
 
+## Pig Housing Design Principles
+
+The FBT deep litter pen described above is the recommended housing system for Uganda. This section adds the full layout reference — covering pen types beyond the basic growing pen, dimensional standards, drainage, ventilation, and flooring — for farmers designing a complete multi-pen facility.
+
+### Pen Type Reference
+
+A complete commercial piggery facility requires at least four distinct pen types, each with different dimensional and management requirements.
+
+| Pen Type | Purpose | Recommended Floor Area | Notes |
+|----------|---------|----------------------|-------|
+| Farrowing pen | Sow + litter from 5 days before birth to weaning | 5.5–7.0 m² total (minimum 1.6m × 2.4m sow area) | Farrowing rail mandatory; see below |
+| Nursery pen | Weaners from weaning to 25 kg (8–12 weeks) | 0.20–0.30 m² per pig; group sizes of 10–15 | Maintain at 28–30°C (warmer than grower pens) |
+| Grower/finisher pen | 25 kg to 90 kg market weight | 0.55–0.75 m² per finisher pig | Standard FBT 4m × 4m pen; 10–12 finishers maximum |
+| Boar pen | Single adult boar (may double as mating pen) | 6.0–8.0 m² minimum; 3.0m × 3.0m preferred | Solid partition walls to 1.2m to prevent fence-line fighting |
+| Hospital / isolation pen | Sick, injured, or newly arrived animals | 4.0–6.0 m² per animal; locate downwind from main herd | Separate entrance; never share tools with main herd |
+
+**Hospital pen rule:** Every piggery with 3+ sows must have at least one permanent isolation pen. Buying a pig, discovering it is sick two days later, and having nowhere to separate it is one of the most common routes to a whole-herd disease event in Uganda.
+
+### Farrowing Pen and Farrowing Rail
+
+The farrowing pen is the highest-risk environment on the farm. Most piglet deaths occur in the first 72 hours of life from crushing, chilling, or starvation.
+
+**Farrowing rail (anti-crushing bar):**
+- A horizontal steel pipe or 100mm × 100mm hardwood timber fixed to all four walls at 20–25 cm above the floor and 20–25 cm away from the wall
+- Creates a protected zone between the wall and the rail where piglets can shelter and the sow's body cannot press them against the wall when she lies down
+- Reduces crushing mortality from a typical 10–15% to 3–5% of litter
+- Construction cost: UGX 80,000–150,000 in steel pipe per pen; negligible in hardwood if timber is available locally
+
+**Creep area within the farrowing pen:**
+- A 1.0m × 1.0m corner section, enclosed by a low board (20 cm high) that piglets can cross but the sow cannot
+- Place a 100-watt heat lamp (or locally available infrared bulb) over the creep area: target temperature 30–32°C for the first two weeks
+- Place creep feed in the creep area from day 7 to stimulate early feed intake before weaning
+
+**Farrowing crate (alternative to free farrowing pen):**
+- A metal or hardwood frame that restricts the sow's lateral movement while allowing piglets to access teats from the sides
+- Standard crate: 0.65m wide × 2.1m long for the sow; flanked by 0.5m piglet lanes on each side; total structure approximately 1.65m × 2.1m
+- Reduces crushing further but requires fabrication (UGX 300,000–600,000 per crate in Kampala) and raises animal welfare concerns for extended use
+- **Uganda recommendation:** Free farrowing pen with farrowing rail and creep area is adequate for most smallholder to medium operations; farrowing crates are most justified in operations with high-value exotic breeding sows where each litter carries significant financial weight
+
+### Drainage Design
+
+Poor drainage is the most common construction fault in Ugandan piggeries. Standing liquid in a pen:
+- Overwhelms the FBT bed's moisture-buffering capacity
+- Creates a breeding ground for E. coli, Salmonella, and parasitic larvae
+- Generates ammonia faster than the bed microbes can decompose it
+
+**Drainage standards:**
+
+| Element | Specification |
+|---------|--------------|
+| Floor slope (concrete slab pens) | 2–3% gradient toward the drainage channel (2–3 cm fall per 1 metre of floor length) |
+| Floor slope (FBT pens) | Minimal floor slope needed — the bed absorbs liquids; focus drainage slope on external pen apron |
+| Drainage channel (internal) | 15–20 cm wide × 10 cm deep; V-profile or U-profile in concrete |
+| External channel (pen perimeter) | 30 cm wide × 20 cm deep; leads to a covered collection sump |
+| Collection sump | 1.0m × 1.0m × 1.5m deep; covered; piped overflow to a planted buffer strip or biogas digester |
+| Pen apron (outside entrance) | Concrete apron 1.5m wide × full pen width; slopes away from pen at 3% |
+
+**Uganda-specific note:** On clay soils common in Wakiso, Mukono, and Luwero districts, drainage channels can block within weeks if not maintained. Inspect and clear channels weekly. Line earthen collection sumps with stone or brick to prevent collapse.
+
+### Ventilation
+
+Pigs generate large quantities of heat, moisture, and ammonia. Inadequate ventilation is a direct cause of respiratory disease and reduced growth — particularly in the confined, humid conditions of Uganda's rainy seasons.
+
+**Natural ventilation principles for Uganda's tropical climate:**
+
+- Pen orientation: align the long axis of the building East–West so that prevailing winds (which blow broadly North–South in Uganda) pass through the open sides across the full pen width
+- Side wall height: 1.0–1.2m solid wall (brick or block), then open mesh or spaced timber above to the roof line; this provides shade at pig level while allowing air exchange above
+- Ridge vent or open ridge: roof peak left open 15–20 cm on both sides to allow hot air rising from the pen to escape upward (stack effect ventilation)
+- Minimum air exchange target: 6–8 air changes per hour in growing pens; 8–10 in farrowing pens
+- **Simple test:** Light a stick of incense inside the pen and observe smoke movement. Smoke should drift steadily toward an opening within 30–60 seconds. Stagnant smoke indicates inadequate ventilation — a design problem, not a weather problem
+
+**Mechanical ventilation (larger operations):**
+- Required when pen width exceeds 10m and natural cross-ventilation cannot reach the centre of the building
+- Exhaust fans (1 per 50–80 m² of pen floor area) mounted at pig head height on the downwind wall; fresh air inlets on the upwind wall
+- Fan sizing: approximately 0.5 m³/minute per 10 kg of pig body weight in the pen at maximum stocking
+- **Temperature thresholds:** Adult pigs experience heat stress above 27°C and reduce feed intake (and therefore growth) significantly above 30°C. Piglets require 30–32°C in the creep area. These two requirements mean temperature zoning within a building is important: warm creep area + cooler main pen airflow
+
+**Practical warning for Uganda:** Enclosing pens with heavy tarpaulins or polythene sheets during cold nights is a common practice — but it eliminates ventilation almost entirely. If overnight temperatures require closing pen sides, use sacks or hessian which allow some air movement, or install a simple hinged panel that can be partially opened.
+
+### Flooring: Concrete Slab vs. FBT Deep Litter
+
+| Criterion | Concrete Slab | FBT Deep Litter |
+|-----------|--------------|----------------|
+| Construction cost per 4m × 4m pen | UGX 5,000,000–7,000,000 (concrete, formwork, curing) | UGX 4,000,000–4,500,000 (shallower foundation, bedding materials) |
+| Daily labour requirement | High — manure must be removed daily by hand | Low — turn bed twice weekly; spray IMO weekly |
+| Water consumption | High — sluicing requires 100–200 litres/pen/day | Low — no sluicing; bed absorbs moisture |
+| Foot health | Concrete causes lameness and foot sores if wet or rough | Bedding cushions feet; lameness rare in correctly managed FBT |
+| Cold protection | None — pigs lie on cold concrete | Bed generates heat (40–60°C internally); warms pigs from below |
+| Odour and fly control | Poor without daily removal | Excellent — fermentation suppresses both |
+| By-product revenue | None | Finished compost: UGX 500–1,000/kg |
+| Risk | Sluiced effluent requires drainage infrastructure; NEMA risk if discharged to waterway | Bed can fail if overstocked, under-turned, or wrong C:N ratio |
+| Best application | Farrowing pens (hygiene-critical; easy-clean concrete with rubber mat for sow comfort) | Growing, finishing, boar pens |
+
+**Uganda best practice:** Use FBT for all growing and finishing pens; use a clean concrete slab with rubber mat bedding in the farrowing pen where hygiene control matters most during piglet birth.
+
+---
+
+## Pig Breed Selection
+
+The existing Breeds section above records the AfrII-recommended Landrace × Camborough cross for Uganda. This section provides a broader comparative reference covering all commercially relevant breeds, with Uganda availability notes.
+
+### Breed Comparison Table
+
+| Breed | Origin | Growth Rate | FCR | Litter Size (born alive) | Disease Resistance | Uganda Availability | Recommended Use |
+|-------|--------|------------|-----|--------------------------|-------------------|--------------------|--------------------|
+| **Large White (Yorkshire)** | United Kingdom | High (700–900 g/day) | 2.5–2.8 | 10–12 | Good | Widely available (NAGRC&DB, commercial farms) | Commercial dam or sire line; most versatile breed for Uganda conditions |
+| **Landrace** | Denmark | High (650–850 g/day) | 2.6–2.9 | 10–13 | Moderate | Available (NAGRC&DB, Wakiso/Mukono farms) | Primary dam line; exceptional bacon conformation; backbone of AfrII Uganda recommendation |
+| **Camborough** | Commercial line (PIC genetics) | Very high (800–1,000 g/day) | 2.3–2.6 | 12–14+ | High | NAGRC&DB and select multiplier farms | Top commercial sow line; AfrII first choice for Uganda; 10+ piglets/litter average |
+| **Duroc** | United States | High (750–900 g/day) | 2.6–3.0 | 9–11 | Very high | Limited — specialist farms in Kampala region | Terminal sire for premium pork; superior marbling and flavour for high-end restaurants/hotels |
+| **Hampshire** | England | Moderate–high (600–800 g/day) | 2.8–3.2 | 9–11 | Good | Rare in Uganda | Lean carcass; suits health-conscious urban market; forages well in semi-intensive systems |
+| **Pietrain** | Belgium | Moderate (550–700 g/day) | 2.8–3.3 | 9–10 | Low — stress-susceptible | Very rare in Uganda | Terminal sire for lean meat crossbreeding only; handle carefully; not suitable as primary breed for smallholders |
+| **Berkshire** | England | Moderate (550–700 g/day) | 3.0–3.5 | 8–10 | Good | Rare in Uganda | Niche premium/gourmet pork; higher fat marbling preferred by some restaurant buyers |
+| **Local / village pig** | East Africa (indigenous) | Low (150–250 g/day) | 5.0–7.0 | 6–8 | High — robust to local conditions | Ubiquitous in rural Uganda | Subsistence and scavenger systems only; not viable for commercial production |
+
+**FCR note:** Lower FCR = more efficient. A pig with FCR 2.5 produces 1 kg of body weight gain from 2.5 kg of feed; a pig with FCR 5.0 requires twice as much feed for the same gain. Over a 6-month cycle, the difference in feed cost between a FCR 2.6 Camborough and a local breed at FCR 6.0 exceeds UGX 400,000 per pig at current maize bran prices.
+
+### Uganda Availability: Key Sources
+
+- **NAGRC&DB (National Animal Genetic Resources Centre and Data Bank), Entebbe/Nagalama:** The primary government multiplier farm. Stocks Large White, Landrace, and Camborough breeding lines. Contact via Ministry of Agriculture, Animal Industry and Fisheries (MAAIF) extension officers or directly at Nagalama, Mukono district.
+- **Private commercial farms:** Established pig farms in Wakiso, Mukono, and Mpigi districts sell breeding stock. Verify that the seller's herd is registered and that animals come with health records and known pedigree.
+- **Sector associations:** The Uganda Pork Producers and Processors Association (UPPPA) can advise on reputable certified breeders. Buying from an unknown trader at a livestock market without health documentation carries high disease-introduction risk.
+
+### Which Crossbreed Performs Best in Uganda?
+
+The **Landrace × Camborough F1 cross** remains the AfrII-recommended standard for Uganda's commercial pig sector. The rationale:
+
+1. **Hybrid vigour:** F1 crosses outperform either purebred parent in growth rate, feed efficiency, and litter size by 5–15% — a well-documented biological effect
+2. **Camborough's litter size advantage** (12–14 piglets) significantly improves income per sow per cycle over Local or Hampshire alternatives
+3. **Landrace's body length** gives a good lean-to-fat ratio suited to Uganda's pork joint market (customers prefer pork without excessive fat cover)
+4. **Large White** is a reliable, widely available alternative to Camborough where Camborough stock cannot be sourced — slightly lower litter size, similar growth performance
+
+**For farmers targeting premium/hotel markets:** A Landrace or Large White dam × Duroc terminal sire cross adds marbling and flavour. Source Duroc semen from NAGRC&DB AI programme if live boars unavailable.
+
+**Avoid:** Pietrain as a primary breed unless you have experience managing stress-susceptible animals. Stress-susceptible (Halothane-positive) Pietrain pigs develop Porcine Stress Syndrome (PSS) — muscle trembling, collapse, and sudden death from handling — which creates serious management and welfare problems for smallholders.
+
+---
+
+## Common Pig Farming Mistakes
+
+The following mistakes are well-documented across East Africa and Uganda specifically. Each carries a quantifiable consequence — the fix column gives actionable corrective action.
+
+### Mistake 1: ASF Biosecurity Failures
+
+**What happens:** Farmer allows visitors into pig pens without disinfection protocols, buys pigs at livestock markets without quarantine, or allows pigs to range where bush pigs and warthogs are present.
+
+**Consequence:** African Swine Fever entry into the herd. There is no vaccine, no treatment, and no recovery. Mortality approaches 100%. A 3-sow operation loses UGX 30–60 million in breeding stock, piglets, and future revenue in a single outbreak. The pen must remain empty for 3 months post-cull.
+
+**Fix:**
+- Footbath with Virukill or quicklime at every pen entrance — not optional, not only on market days
+- All new animals quarantined in the isolation pen for **21 days** before any contact with the herd
+- Stop animal-source protein in feed (waste meat, blood meal) immediately if ASF is reported within 50 km
+- Never allow pigs to range near forested areas, wetlands, or communities where bush pigs are present
+- Register with the district veterinary officer — you want to be on the notification list when ASF is confirmed in your sub-county
+
+### Mistake 2: Buying Gilts (Young Female Pigs) Too Young
+
+**What happens:** Farmer buys a gilt at 3–4 months old to save money, breeds her at first oestrus (which may occur at 5–6 months), and she farrows her first litter at 7–8 months — before she has finished her own growth.
+
+**Consequence:** First litter is small (6–8 piglets vs. expected 10–12) because the gilt's body diverts nutrients to her own growth in competition with the developing foetuses. Piglets are lighter and have higher mortality. The gilt's future reproductive performance is often permanently compromised because early breeding stresses her skeletal development and body condition reserves.
+
+**Fix:**
+- Never breed a gilt below 90 kg live weight and before 7–8 months of age (whichever comes last)
+- Target first breeding at 120–130 kg — this is achievable on good nutrition by 8–9 months for Landrace × Camborough
+- Weigh or estimate weight using the girth-length formula before allowing boar access
+- If buying a gilt, ask the seller for the date of birth and count the months yourself — a small gilt offered cheaply is cheap for a reason
+
+### Mistake 3: Poor Record Keeping
+
+**What happens:** Farmer relies on memory for breeding dates, vaccination schedules, feed costs, and individual pig performance. No written or digital records are maintained.
+
+**Consequence:** Cannot calculate the actual cost of production per kg of pork, so cannot know whether the farm is profitable or loss-making. Misses vaccination windows, leading to preventable disease. Cannot predict farrowing dates accurately (114 days from mating), so the farrowing pen is not prepared in time — increasing piglet losses. Cannot identify which sow is underperforming (small litters, poor mothering) and should be culled.
+
+**Fix:**
+- At minimum: one exercise book with columns for Animal ID, Event Type, Date, Action Taken, Next Action Date
+- Record every mating date the day it happens — this is the single most important entry because it drives the entire production calendar
+- Use the My Piggery Manager or LIVESTOCKER Lite apps (see Record-Keeping Apps section) if you have an Android smartphone
+- Monthly: calculate feed cost per pig, count animals by stage, record any deaths with cause
+
+### Mistake 4: Overcrowding
+
+**What happens:** A profitable first cycle encourages the farmer to add more pigs to the same pen without expanding pen space. The pen that worked well at 12 finishers now holds 20.
+
+**Consequence:** See the full Overcrowding Risks section above. In summary: tail-biting, respiratory disease, ammonia accumulation, FBT bed failure, and a documented decline in daily weight gain from 400–600 g to 250–400 g per day — extending the feeding period by 6–10 weeks and increasing total feed cost per pig sold.
+
+**Fix:**
+- Maintain minimum space standards (see Space Requirements table in the Overcrowding section)
+- If you want to increase pig numbers, build another pen first — then stock it
+- The standard 4m × 4m FBT pen has a maximum capacity of 10–12 finishing pigs; this is not a guideline, it is a ceiling
+
+### Mistake 5: Feeding Kitchen Waste and Unprocessed Swill
+
+**What happens:** Farmer supplements commercial feed with kitchen scraps, market waste, restaurant leftovers, or raw meat offcuts — often believing this reduces feed costs.
+
+**Consequence (disease):** Uncooked meat and bone waste (swill) is one of the primary transmission routes for African Swine Fever and Foot and Mouth Disease in Uganda. A single meal of ASF-contaminated pork offcuts can infect an entire herd. Raw meat waste also introduces Salmonella and Trichinella — the latter is a pig-to-human zoonosis of public health significance.
+
+**Consequence (performance):** Kitchen waste and market scraps have highly variable nutritional content. A pig cannot perform to FCR targets on an inconsistent diet — growth rates become unpredictable and sorting pigs for market weight becomes unreliable.
+
+**Legal note:** The feeding of unprocessed meat and bone meal to pigs is prohibited under Uganda's Animal Diseases Act. MAAIF extension officers have authority to issue compliance notices. In practice, enforcement is inconsistent — but an ASF outbreak traceable to swill feeding on your farm creates serious liability with neighbours who lose their herds.
+
+**Fix:**
+- If using any food waste, it must be heat-treated (boiled at 100°C for 30 minutes minimum) before feeding — this is the legal standard in most East African jurisdictions, though Uganda's enforcement is variable
+- Vegetable and crop by-products (sweet potato vines, cassava peels, maize cobs, banana peels) are safe to feed raw; animal-source waste is not
+- The feed cost savings from swill feeding are almost always smaller than they appear once disease risk, variable growth rates, and lost batch uniformity are accounted for
+
+### Mistake 6: Neglecting Stage-Specific Nutrition
+
+**What happens:** Farmer uses a single feed formulation or a single commercial feed product for all pigs regardless of age and physiological stage — giving finisher ration to a lactating sow, or creep-stage ration to a 70 kg grower.
+
+**Consequence:** Lactating sows underfed in protein produce less milk — litter survival and weaner weights decline. Pregnant sows over-conditioned (too fat at farrowing) have longer, more difficult farrowings and increased piglet mortality. Growers on low-protein finisher ration gain weight slowly and convert feed poorly. Overall profitability declines silently.
+
+**Fix:**
+- Follow the stage-specific feeding table in the Feeding section above
+- If mixing your own feed, formulate four separate blends: creep, weaner, grower, finisher
+- If using commercial feed, read the label — commercial brands have stage-specific products; using the wrong one is a cost that exceeds the price difference between products
+
+---
+
+## Feed Quality and True Cost of Feeding
+
+Feed represents approximately 70% of operating costs in a piggery. The instinct to reduce feed cost by purchasing cheaper feed is understandable — but frequently counterproductive. This section explains why, and how to evaluate feed quality without laboratory equipment.
+
+### The False Economy of Cheap Feed
+
+A farmer comparing two maize bran products — one at UGX 300/kg and one at UGX 450/kg — might conclude that the cheaper product saves UGX 150/kg. The correct comparison is **cost per kilogram of pig weight gained**, not cost per kilogram of feed.
+
+**Example calculation:**
+
+| Parameter | Quality Feed | Cheap Feed |
+|-----------|-------------|------------|
+| Feed cost | UGX 450/kg | UGX 300/kg |
+| Feed conversion ratio (FCR) | 3.2 | 4.8 |
+| Feed required to produce 1 kg of gain | 3.2 kg | 4.8 kg |
+| Feed cost per kg of gain | UGX 1,440 | UGX 1,440 |
+| Days to reach 90 kg market weight | 170 days | 220 days |
+| Additional fixed costs (50 extra days): housing, labour, water, vaccines | — | UGX 35,000–60,000/pig |
+| Mortality risk during extended feeding period | Baseline | Higher |
+| **True cost per pig at sale weight** | Lower | Higher despite cheaper feed |
+
+The arithmetic changes when FCR diverges. Poor-quality feed forces pigs to eat more to gain the same weight — eliminating the price advantage entirely and adding the hidden cost of a longer production cycle.
+
+### Aflatoxin and Mycotoxin Risk
+
+Uganda's humid climate, seasonal rains, and common practice of drying maize on the ground create conditions where **aflatoxin** (produced by the fungus *Aspergillus flavus* and *Aspergillus parasiticus*) and other mycotoxins accumulate in maize, cassava, and groundnut products.
+
+Cheap feed is disproportionately likely to contain high mycotoxin loads because:
+- It uses grain that failed moisture testing or was rejected by formal buyers
+- It is stored in non-sealed conditions where mould can continue growing
+- There is no incentive for the seller to test or disclose contamination levels
+
+**Consequences for pigs:**
+
+| Mycotoxin Level | Effect on Pigs |
+|----------------|----------------|
+| Low (chronic) | Reduced feed intake, poor growth, immune suppression — looks like "poor doer" syndrome |
+| Moderate | Liver damage, reproductive failure in sows (small or resorbed litters), jaundice |
+| High (acute) | Sudden death, haemorrhage, death of entire batch |
+| Zearalenone specifically | Oestrogenic effects — causes vulvar swelling in gilts, false heat, reproductive confusion |
+
+**Mycotoxin binders:** Add a commercial mycotoxin binder (bentonite clay, activated charcoal, or commercial binder such as Mycofix, Toxfin, or similar products available at Kampala agrochemical stockists) at 1–2 kg per tonne of feed as a routine precaution when using locally sourced maize or cassava meal. Cost: approximately UGX 5,000–12,000 per 50 kg bag of binder. This adds roughly UGX 500–1,200 per tonne of finished feed — a small insurance cost against reproductive losses that could cost UGX 2–5 million per affected sow.
+
+### Nutritional Density vs. Cost per Kg
+
+High-moisture or high-fibre ingredients appear cheaper per kilogram but deliver fewer digestible nutrients per kilogram. A 10 kg bucket of wet cassava peels at UGX 200/kg delivers far fewer megajoules of metabolisable energy than 10 kg of dry maize bran at UGX 300/kg.
+
+**When evaluating any feed ingredient, ask:**
+1. What is the dry matter percentage? (Wet ingredients are mostly water)
+2. What is the crude protein percentage? (Minimum 16% for growers; 13% for finishers)
+3. What is the energy density? (Maize-based diets: target 12–14 MJ/kg metabolisable energy for growers)
+
+Without laboratory access, use trusted reference values (the AfrII Uganda formulations in the Feeding section above are based on locally measured ingredient values) and proportion your mix accordingly.
+
+### How to Evaluate Feed Quality Without a Laboratory
+
+These are practical field assessments that do not require any equipment:
+
+**Visual inspection:**
+- Colour: Maize bran should be cream to light yellow — dark brown, grey, or patchy colour suggests mould damage or heat degradation
+- Uniformity: Commercial feeds should be uniform in particle size and colour; variable particle size suggests poor mixing or adulteration with low-grade fillers
+- No visible mould growth — discard any bag with visible mould patches immediately; mycotoxins produced by the mould remain in the feed even if you remove the mouldy clumps
+- Insect infestation: Weevils in stored grain indicate moisture entry and mould risk; sieve the grain and dry it before use
+
+**Smell test:**
+- Fresh maize bran smells faintly sweet and earthy — acceptable
+- A musty, sour, or ammonia-like smell indicates mould or protein degradation — reject
+- Rancid or "off" oil smell in commercial pellets indicates lipid oxidation from improper storage or overheating during pelleting — reduces palatability and vitamin A/E content
+
+**Weight test (for commercial feed pellets):**
+- Fill a standard 1-litre measure with pellets and weigh; quality dense pellets typically weigh 600–700 g/litre
+- Pellets that weigh substantially less are high in air-filled filler (rice hulls, sawdust, or low-density fibre) — less nutritional density per kg
+
+**Water test (for pellets):**
+- Drop a pellet in water; a good-quality pellet holds its shape for 30–60 seconds before slowly dispersing
+- A pellet that dissolves within 10 seconds indicates poor binding — the pellet will break up in the wet conditions of a pig feeder, causing excessive wastage
+
+**Animal response:**
+- Pigs are sensitive to palatability. If pigs at a full feed trough are eating reluctantly, walking away, rooting under feed, or showing reduced appetite, the feed quality may be the cause — especially if they were eating eagerly from the previous batch
+- A sudden drop in daily weight gain (measured by the girth-length formula every 2–3 weeks) that does not correspond to disease or stocking changes is a flag for feed quality investigation
+
+### Practical Feed Purchasing Rules for Uganda
+
+1. **Buy from established millers** — maize-based feed from large mills (Ugachick, Nile Agro, and similar) is more consistently quality-controlled than feed from small local mixers, though it costs more
+2. **Never buy the cheapest available bag without asking why it is cheap** — legitimate reasons include bulk purchase and end-of-season clearance; illegitimate reasons include poor-quality grain, expired premix, or underweight bags
+3. **Weigh your bags on arrival** — a 50 kg bag should weigh 50 kg; short-weighted bags are common from informal suppliers and represent an immediate 5–10% price disadvantage relative to the stated cost
+4. **Rotate stock, first-in first-out** — do not allow feed to sit in storage for more than 4 weeks in Uganda's climate; mould growth accelerates after the second week in humid conditions
+5. **Store feed elevated off the ground** on wooden pallets, in a dry room with adequate ventilation; never store feed in direct contact with a concrete floor (moisture wicks upward through the slab)
+6. **Maintain a 30-day feed buffer stock** (see Key Risks table) but rotate it actively — buffer stock that sits unused becomes the highest mycotoxin-risk feed in your store
+
+---
+
 ## Cross-References
 
 - Beekeeping: `references/beekeeping.md` — Complementary enterprise on same land

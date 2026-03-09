@@ -16,6 +16,11 @@
 - Bivatec, *Goat Farming vs Cattle Farming* (bivatec.com, 2024)
 - Bivatec, *Step-by-Step Guide to Profitable Goat Farming* (bivatec.com, 2024)
 - Bivatec, *Best Goat Farming Apps for Record Keeping* (bivatec.com, 2024)
+- Bivatec, *Hygiene and Biosecurity on a Goat Farm* (bivatec.com, 2024)
+- Bivatec, *What Are the Essential Vaccinations for Goats* (bivatec.com, 2024)
+- Bivatec, *Mastering Goat Nutrition* (bivatec.com, 2024)
+- Bivatec, *Goats: The Perfect Livestock for Your Small Farm* (bivatec.com, 2024)
+- Bivatec, *Raising Goats for Meat: A Farmer's Step-by-Step Guide* (bivatec.com, 2024)
 
 > Uganda's goat herd stands at 16 million animals (MAAIF/UBOS 2021) and is growing at 1.7–1.8% per year. Despite this scale, the market remains largely informal and dominated by middlemen. Goat milk fetches UGX 5,000–8,000 per litre — compared with UGX 1,000–2,500 for cow milk — making dairy goat production one of the highest-margin livestock enterprises available to smallholder farmers. A well-managed goat enterprise is suited to both rural and peri-urban settings and can serve meat, dairy, breeding stock, and skin markets simultaneously.
 
@@ -198,6 +203,51 @@ Choosing the right system determines capital requirements, profitability, and ma
 
 ---
 
+## Goats for Smallholder and Resource-Poor Farmers
+
+Goats are uniquely suited to small plots and low-capital farming systems. The following data points are relevant when structuring a business plan for entry-level or household-scale goat enterprises (Bivatec, 2024).
+
+### Land Efficiency Advantage
+
+- Goats require **only one-third of the space per animal compared to cattle** — a plot too small to support one cow can support three goats with equivalent or higher economic return
+- Goats consume **3–5% of their body weight in dry matter daily**, enabling higher stocking densities on limited acreage
+- This land efficiency makes goats the default livestock choice for smallholder farmers, peri-urban homesteads, and households with fragmented land holdings
+
+### Household Food Security Integration
+
+- A single dairy doe producing 1.5–2 litres per day provides **a meaningful daily protein and calcium supplement** for household members — particularly children and HIV-positive individuals for whom goat milk is often medically recommended
+- Goat meat (chevon) can be consumed on-farm at key household events (illness, celebration, school fees crises) without the financial shock of slaughtering a large animal — the smaller carcass size matches household consumption without the waste risk associated with cattle
+- Kids and culled animals serve as a **living savings account** — liquid assets that can be converted to cash within days of a financial emergency, functioning similarly to a SACCO emergency withdrawal
+- Manure from even 2–3 goats can supply adequate organic fertiliser for a household vegetable garden, reducing purchased input costs
+
+### Minimal Land Models
+
+- **Tethering model (1–5 animals):** tether goats on roadsides, field margins, and fallow plots during the day; house at night; requires no dedicated pasture land
+- **Zero-grazing model (peri-urban):** all feed brought to the animal; requires only a small pen (1.5 m² per doe); suitable for Kampala suburbs, market town plots, and school campuses — see Hydroponic Green Fodder section for feed production strategy
+- **Mixed crop-livestock model:** integrate goats with banana, coffee, or horticultural plots; goats graze the understorey, weeds, and prunings; manure fertilises the crops — the two enterprises lower each other's input costs
+
+### Complementary Crops and Integration
+
+- **Napier grass borders:** plant Napier grass along farm boundaries and terraces — provides a wind-break, prevents soil erosion, and yields 4–5 tonnes of green fodder per 500 m² per season
+- **Fodder trees as living fences:** Calliandra, Leucaena, Moringa, and mulberry planted as farm boundary hedges provide shade, privacy fencing, and a daily supply of high-protein browse without consuming any crop area
+- **Sweet potato:** dual purpose — tubers for household consumption or sale; vines as high-quality goat fodder or silage raw material (see Sweet Potato Vine Silage section for financial benchmarks)
+- **Banana/plantain integration:** goats readily consume banana peels, rejected fruits, and dry banana leaves — turning crop waste into animal feed; in return, goat manure fertilises banana stools, reducing urea requirement
+
+### Global Market Context
+
+- Global goat milk production exceeded **19.4 million metric tons in 2020** (FAO), reflecting strong and growing international demand (Bivatec, 2024)
+- Global goat meat demand is projected at a **4.5% compound annual growth rate (CAGR) from 2021 to 2026**, driven by diaspora communities in developed markets and rising incomes in East Africa, South Asia, and the Middle East — Uganda's proximity to Gulf export markets is a structural advantage
+- These growth trends support investment in quality improvement and breed upgrading, with a clear long-term trajectory for premium pricing
+
+### Weed and Invasive Vegetation Control
+
+In addition to food production, goats provide a land management service. Selective grazing by goats suppresses invasive species and weedy scrub that encroach on cultivated land. In Uganda's context:
+- Goats are effective at clearing *Lantana camara* (tick harbourage weed), *Chromolaena odorata* (Siam weed), and various thorny scrub species from fallow land before replanting
+- A controlled goat browsing programme can reduce chemical herbicide costs and prepare abandoned plots for cultivation within 1–2 seasons
+- This dual role — food production and land clearance — improves the economic case for keeping goats even where milk and meat markets are not yet established
+
+---
+
 ## Breed Selection
 
 ### Local Ugandan Breeds
@@ -345,6 +395,11 @@ Goats are browsers, not grazers. They naturally select **over 60% of their daily
 
 This browser behaviour means goats can thrive on land that is unsuitable for cattle or sheep, but it also means they need access to diverse vegetation — **a monoculture grass paddock alone is insufficient**.
 
+**Browse plants with specific benefits:**
+- Tannin-rich browse species — including blackberry, mulberry, willow, and many Acacia species — have a natural anthelmintic (anti-worm) effect; incorporating these plants into your browsing area provides passive parasite suppression and reduces reliance on chemical dewormers (Bivatec, 2024)
+- Mulberry (*Morus* spp.) leaves: high protein (15–23% CP), palatable, and widely available in Uganda; an excellent dry-season supplement
+- Moringa/horseradish leaves: exceptionally high in protein and micronutrients; can be grown on farm boundaries or as a living fence
+
 ### Daily Dry Matter Intake
 
 | Category | Intake rate |
@@ -403,6 +458,24 @@ This browser behaviour means goats can thrive on land that is unsuitable for cat
 - Mix thoroughly; shape into rectangular or circular blocks with a central hole for hanging
 - Allow to harden for 4–5 days; offer for goats to lick once per day
 - Mineral licks should be available **at all times** in addition to the lick block
+
+### Mineral Requirements, Deficiency Signs, and Supplementation Guidance
+
+Minerals play a critical role in goat health, reproduction, and production. Both deficiency and over-supplementation cause serious problems — the goal is balance, not maximum supplementation (Bivatec, 2024).
+
+| Mineral | Role | Signs of deficiency | Over-supplementation risk | Uganda notes |
+|---------|------|--------------------|--------------------------|-|
+| **Copper (Cu)** | Coat quality; immune function; reproductive performance; hoof integrity | Faded, dull, or bleached coat; poor growth; anaemia; reduced fertility; hoof problems and lameness | Copper toxicity in sheep (fatal) — NEVER give goat mineral supplements to sheep | Uganda soils are often copper-deficient; supplement goats with a goat-specific mineral mix; do NOT use sheep minerals on goats or vice versa |
+| **Selenium (Se)** | Muscle development; immune function; reproductive health | White Muscle Disease — kids born weak or suddenly weak; poor growth; digestive and respiratory failure | Selenium toxicity (narrow margin between deficiency and toxicity) | Selenium deficiency common in Uganda's volcanic soils; prophylactic injection of pregnant does 3–4 weeks before kidding is essential |
+| **Zinc (Zn)** | Hoof strength; skin and coat; reproductive function | Hoof softening and overgrowth; increased susceptibility to hoof rot; rough, scaly skin; poor libido in bucks | Generally less toxic at typical supplementation levels | Include in a balanced goat mineral premix |
+| **Calcium (Ca) / Phosphorus (P) ratio** | Bone structure; lactation; nerve and muscle function | Rickets in kids (soft, bowed bones; difficulty standing); poor milk yield; milk fever in does after kidding | Excess Ca relative to P impairs absorption of both; excess P without Ca causes urinary calculi (stone disease) in bucks and wethers | Maintain a Ca:P ratio of approximately 2:1 in the total ration; concentrate feeds (maize-heavy) are high in P and low in Ca — always supplement with limestone or dicalcium phosphate |
+| **Vitamin E** | Works with selenium; muscle and reproductive health | See White Muscle Disease (selenium + Vit E combined deficiency) | Rare | Most green forages supply adequate Vit E; deficiency common when feeding stored dry feed with no green supplement |
+
+**Key principles:**
+- Use a **goat-specific mineral supplement** (not a general livestock mineral) — mineral requirements differ significantly between species
+- **Avoid copper-containing mineral supplements in sheep** — sheep are far more sensitive to copper than goats; excess copper causes fatal haemolysis
+- Provide a **loose mineral supplement or salt lick continuously** — free-choice access allows animals to self-regulate intake
+- A home-made lick block (see recipe below) supplements macro-minerals; a commercial premix is needed for trace elements (selenium, copper, zinc) at correct concentrations
 
 ### Kid Feeding Table (weight-based — JICA/Kyakuwa Farm)
 
@@ -485,6 +558,17 @@ These four targeted feeding interventions significantly improve productivity and
 **Indigenous fodder trees and shrubs (Uganda):** Moringa/horseradish (leaves); pigeon peas (leaves, twigs, seeds); mulberry (leaves, fruits); avocado (leaves, seeds); guava (leaves, fruits); fig/back-cloth tree (*Ficus* spp., leaves); Albizia (leaves); Acacia (leaves, pods); Mexican sunflower/*Tithonia diversifolia* (young shoots, leaves); bitter leaf/*Vernonia amygdalina*; cassava (leaves, young shoots — limit quantity due to HCN); Sesbania/riverbean (leaves); jackfruit (leaves, twigs, seeds).
 
 **Uganda crop residues:** Sweet potato vines, maize stover, cassava peels and leaves, banana peels, banana leaves, bean husks, pineapple residues, water melon peels.
+
+**Anti-nutritional factors in common East African feeds:**
+
+| Feed | Anti-nutritional factor | Effect if overfed | Safe inclusion rate |
+|------|------------------------|------------------|---------------------|
+| Cassava leaves and peels | Hydrocyanic acid (HCN) / cyanogenic glycosides | Cyanide poisoning; respiratory distress; convulsions | Limit to <30% of total green fodder; wilting or sun-drying reduces HCN by 50–80% |
+| Raw soybean meal (unprocessed) | Trypsin inhibitors; urease | Inhibits protein digestion; reduces growth | Use heat-treated soybean meal only; commercial soybean cake is safe |
+| Cotton seed cake | Gossypol | Reduced fertility in bucks; heart damage at high doses | Limit to <20% of concentrate mix; avoid feeding to young kids |
+| Leucaena (*Leucaena leucocephala*) | Mimosine | Hair loss; goitre; reduced growth | Limit to <30% of total forage; supplement with cobalt or iodine if using heavily |
+| Immature or wilted sorghum | Dhurrin (cyanogenic) | Cyanide poisoning | Allow sorghum to mature fully before cutting; avoid feeding wilted cuttings |
+| Fresh legume fodder (Desmodium, Lablab) | Saponins; tannins; phytates | Bloat if fed in excess without roughage | Limit leguminous fodder to 1–2% of body weight daily; always offer dry roughage alongside wet legumes |
 
 ### Hydroponic Green Fodder
 
@@ -647,13 +731,26 @@ Cull does that have:
 
 | Disease | Frequency | Notes |
 |---------|-----------|-------|
-| Clostridium perfringens (Pulpy Kidney and Enterotoxaemia) | Twice per year | Vaccinate does 3 weeks before parturition |
+| Clostridium perfringens / CD&T (Pulpy Kidney, Enterotoxaemia, Tetanus) | Twice per year | Primary course: first dose at 6–8 weeks of age; booster 3–4 weeks later. Pregnant does: vaccinate 4–6 weeks before kidding to transfer immunity via colostrum. Annual booster for all adults. |
 | PPR (Peste des Petits Ruminants) | Once per year (some protocols: once every 3 years after first dose) | After 3 months of age; no effective treatment if contracted |
 | FMD (Foot and Mouth Disease) | Once per year | After 4 months of age |
 | CCPP (Contagious Caprine Pleuropneumonia) | Once every 3 years | Death rate up to 100% if unvaccinated |
-| Haemorrhagic Septicaemia (Pasteurellosis) | 1–2 months before hot/wet season | Part of annual cocktail vaccine |
+| Haemorrhagic Septicaemia (Pasteurellosis / Pneumonia) | 1–2 months before hot/wet season; annual | Primary course: first dose at 3–4 weeks of age; booster 3–4 weeks later. Part of annual cocktail vaccine. Particularly important for intensively managed flocks and young kids. |
 | Brucella melitensis | Once; all does and bucks before first mating | Prevents abortion; boil milk before use |
+| Caseous Lymphadenitis (CL / Abscess — *Corynebacterium pseudotuberculosis*) | Annual in at-risk herds | Primary course: kids in infected herds at 3 months of age; booster 3–4 weeks later. Adults: annual vaccination in herds with confirmed CL history. Note: not all CL vaccines are specifically labelled for goats — confirm with your veterinary practitioner. Uganda availability: consult DVO; may require special order. Abscesses are highly contagious — burn or bury all pus material. |
+| Rabies | Annual | Initial dose: 3–6 months of age; annual boosters thereafter. Prioritise in areas with known rabies in dogs or wildlife. Uganda: rabies is endemic — vaccination is advisable for valuable breeding stock near settlements. |
+| Chlamydia / Campylobacter (Abortion vaccines) | Annual; before breeding season | Vaccinate breeding does before mating to prevent infectious abortions. Uganda availability: limited; consult MAAIF or DVO regarding availability of locally registered products. |
+| Foot Rot (*Dichelobacter nodosus*) | Annual in high-risk environments | Recommended in herds with persistent foot rot problems or wet/muddy grazing conditions. Combine with foot trimming, footbaths, and dry housing. |
+| Johne's Disease (*Mycobacterium avium* paratuberculosis) | Once in early life in endemic areas | Vaccinate kids at birth or in early life where Johne's Disease has been confirmed in the herd. No vaccine is effective for already-infected adults; no cure — cull affected animals. |
 | Others (anthrax in endemic areas, blue tongue) | As per veterinary practitioner guidance | Based on local disease profile |
+
+**Goat vaccination administration notes (Bivatec, 2024):**
+- Most goat vaccines are administered subcutaneously (through the skin)
+- Vaccinate only healthy animals — vaccinating sick animals is ineffective and wasteful
+- Minimise animal stress on vaccination day — stress impairs immune response
+- Store vaccines according to manufacturer instructions; most require refrigeration at 2°C–8°C
+- Record every vaccination in the medicine record (date, animal ID, product name, batch number, dose, next due date)
+- Consider using a farm management app to set automated reminders for booster and annual vaccination dates
 
 #### Drenching and Prophylactic Treatments
 
@@ -751,10 +848,12 @@ Biosecurity is the single highest-impact investment a goat or sheep farmer can m
 ### 4. Regular Cleaning and Disinfection
 
 - Remove manure from pens **daily**
+- **Weekly disinfection** of pens, feeders, and water troughs with approved disinfectants — remove all soiled bedding before applying disinfectant; allow surfaces to dry before reintroducing animals (Bivatec, 2024)
 - Full pen cleaning and disinfection: after shearing/clipping, after manure removal, and whenever an animal dies, aborts, or gives birth in the pen
-- Dispose of manure in a designated compost manure pit (not near water sources or feed storage)
+- Dispose of manure in a designated compost manure pit (not near water sources or feed storage); composted goat manure is a valuable, nutrient-rich fertiliser — use on your own fodder plots or sell to neighbouring market gardeners
 - Water and feed troughs: clean and disinfect regularly; design to prevent animals defecating into them
 - All farm utensils cleaned and disinfected between uses
+- Ensure housing has proper drainage and airflow to keep pens dry — damp conditions accelerate bacterial and parasitic challenge
 
 ### 5. Bedding
 
@@ -783,9 +882,10 @@ Biosecurity is the single highest-impact investment a goat or sheep farmer can m
 ### 8. Dead Animal Disposal
 
 - Remove dead animals from pens as soon as possible
-- Dispose by incineration (preferred) or deep burial (minimum 1.5–2 m underground with quicklime)
+- Dispose by incineration (preferred) or deep burial — bury at least **1.8 m (6 feet) deep**, away from water sources and grazing areas; cover with quicklime before back-filling to prevent scavenging and pathogen spread (Bivatec, 2024)
 - Do NOT open carcasses of animals suspected of anthrax
 - Do NOT allow dogs, cats, or scavengers access to carcasses
+- Record all mortalities with date, animal ID, suspected cause, and disposal method
 
 ### 9. Visitor Management
 
@@ -940,6 +1040,92 @@ These evidence-based management practices increase per-doe milk output and are r
 | Feed record | Feed type; source; cost; quantity per day; protein and fat content |
 | Mortality record | Animal ID; breed; sex; age; date; cause of death |
 | Financial record | Monthly income by product type; monthly costs by category; running profit/loss |
+
+---
+
+## Meat Goat Production: Finishing, Slaughter, and By-Products
+
+### Target Slaughter Weights and Growth Benchmarks
+
+| Animal type | Target live weight at slaughter | Typical age | Dressed carcass yield | Notes |
+|-------------|-------------------------------|-------------|----------------------|-------|
+| Local Ugandan breed kid (unimproved) | 15–20 kg | 9–12 months | 40–45% of live weight | Slow-growing; acceptable quality for informal market |
+| Mubende × Boer F1 cross | 28–35 kg | 8–10 months | 44–48% | Most common commercial target in Uganda; higher carcass quality |
+| Boer cross (F2/F3) | 35–45 kg | 7–9 months | 46–50% | Preferred for abattoir and hotel market; commands price premium |
+| Pure Boer (where available) | 40–55 kg | 6–8 months | 48–52% | Highest growth rate; requires higher nutrition input |
+| Savanna cross | 35–50 kg | 8–10 months | 45–50% | White meat; suits Gulf export market demand |
+
+**Key relationships:**
+- Buck:doe ratio for controlled breeding: 1 buck per 25–30 does (Bivatec, 2024)
+- A good meat buck can mate 3 does within 30 minutes during peak season
+- Castrated males (wethers) finish faster and produce better carcass fat distribution than intact males; for premium butchery or hotel markets, wethers are preferred
+
+### Finishing Rations for Meat Goats
+
+Finishing — the final 6–8 weeks before slaughter — is the critical phase for carcass quality. The goal is to deposit intramuscular fat (marbling) and achieve uniform conformation.
+
+**Standard Uganda finishing ration (per animal per day):**
+
+| Feed component | Quantity | Role |
+|---------------|----------|------|
+| Good-quality hay or dried Napier grass | 1.0–1.5 kg (ad libitum) | Maintains rumen health; prevents acidosis |
+| Maize grain (cracked or rolled) | 0.3–0.5 kg | Primary energy source for fat deposition |
+| Cotton seed cake or soybean meal | 0.1–0.15 kg | Protein support for muscle development |
+| Molasses (optional) | 50–100 ml | Palatability; additional energy |
+| Mineral salt lick | Ad libitum | Mineral balance |
+| Clean water | Ad libitum | Non-negotiable — water restriction reduces growth by 15–25% |
+
+**Finishing principles:**
+- Introduce concentrate gradually over 7–10 days to prevent rumen acidosis and bloat
+- Maintain roughage (hay or dry grass) at all times — never switch to a pure grain diet
+- Target a finishing period of 6–8 weeks; longer than 10 weeks on high concentrate results in excess fat and poor market reception
+- Monitor body condition score weekly during finishing — a score of 3.0–3.5 at slaughter indicates optimal finish
+
+### Slaughter Options and Quality Factors
+
+**Formal abattoir slaughter:**
+- Required for animals entering the hotel, restaurant, and supermarket supply chain
+- Provides a health certificate and veterinary inspection, which is mandatory for export
+- Minimum requirements: MAAIF veterinary inspection; animal movement permit; ante-mortem inspection by meat inspector
+- Uganda's formal abattoirs: NAGRIC (Kampala); licensed district abattoirs; privately operated facilities in Gulu, Mbarara, and Jinja
+- Typically requires minimum batch sizes — negotiate as a farmer group to meet volume thresholds
+- Abattoir charges (Uganda 2026 estimates): UGX 5,000–15,000 per animal (slaughter fee); transport from farm additional
+
+**Farm slaughter (informal market):**
+- Legal for personal consumption and direct sale to individual consumers
+- No formal inspection; buyer assumes quality risk
+- Suited to local community sales, Eid al-Adha and Christmas direct orders, and on-farm restaurant customers
+- Requires clean water supply, a raised hanging point, and basic butchery tools
+- Risks: no disease certification; cannot enter formal supply chains; no traceability
+
+**Carcass grading factors (informal Uganda market):**
+- **Conformation:** broad, well-muscled back and hindquarters; deep chest; indicates high yield
+- **Fat cover:** light, even fat layer is desirable; excessive fat is wasteful and reduces buyer price; no visible fat (too lean) also reduces price
+- **Age:** younger animals (under 12 months) produce more tender meat; teeth examination confirms age
+- **Health history:** buyers increasingly ask about vaccination and deworming history — a health record book increases buyer confidence and allows price negotiation
+- **Live weight presented at market:** heavier animals in good condition command proportionally higher prices; buyers at Eid prefer uniform batches
+
+### By-Product Utilisation
+
+No part of a slaughtered goat need be wasted. By-product revenue can add UGX 10,000–35,000 per animal to overall returns.
+
+| By-product | Value/use | Uganda notes |
+|-----------|-----------|-------------|
+| **Hide/skin** | Sold to tanneries or leather workshops | Mubende goat skin commands UGX 15,000–35,000 per skin (tannery grade) due to its hard, glossy quality; handle carefully — cuts or abrasions reduce value significantly; salt the skin immediately after removal if not delivering to tannery within 24 hours |
+| **Offal (liver, heart, kidneys, lungs, tripe)** | Sold separately to butcheries, rolex stands, or direct consumers | Offal typically sells at UGX 3,000–8,000 per set in urban markets; clean thoroughly; high food safety risk — sell fresh or consume immediately |
+| **Blood** | Sold to blood meal processors or used in compost | Blood meal is a high-nitrogen organic fertiliser; small quantities can be added to the compost manure pit |
+| **Manure (pen accumulation)** | Composted and applied to fodder plots or sold | See Markets and Distribution section; UGX 2,000–5,000 per bag |
+| **Head and trotters** | Sold to urban roasting vendors (*nyama choma* stalls) | Popular with local consumers; minimal processing required |
+| **Intestine casing** | Used for sausage production by butcheries | Clean, scrape, and salt; sell to artisan butcheries |
+| **Bone** | Bone meal production or sold to bone traders | Limited local market in Uganda; worth bundling with offal for restaurant buyers |
+
+**Skin handling protocol:**
+1. Remove skin immediately after slaughter — delays cause heat damage and bacterial spoilage
+2. Stretch and peg on a flat surface or wooden frame; avoid folding
+3. Remove all flesh and fat with a fleshing blade — residual flesh causes rot
+4. Apply fine salt liberally to the flesh side; rub in thoroughly
+5. Stack salted skins flesh-to-flesh; cover to prevent fly access
+6. Deliver to tannery within 48–72 hours or store in a cool, dry place for up to 2 weeks
 
 ---
 
@@ -1387,6 +1573,6 @@ Where:
 
 ---
 
-*Primary sources: Benda/NAGRC&DB (Goat Rearing for Wealth and Improved Livelihoods); Kabirizi/Kyakuwa Farm (Sustainable Goat Production Enterprise Manual, April 2023); JICA/District Livestock Service Gorkha (Goat Farming Technical Manual); MAAIF Uganda (Guidelines for Infection Prevention and Appropriate Antimicrobial Use in the Animal Sector: Goat and Sheep Farming, 2020). Financial estimates based on Kyakuwa Farm operational benchmarks; capital cost estimates are indicative for Uganda conditions 2026.*
+*Primary sources: Benda/NAGRC&DB (Goat Rearing for Wealth and Improved Livelihoods); Kabirizi/Kyakuwa Farm (Sustainable Goat Production Enterprise Manual, April 2023); JICA/District Livestock Service Gorkha (Goat Farming Technical Manual); MAAIF Uganda (Guidelines for Infection Prevention and Appropriate Antimicrobial Use in the Animal Sector: Goat and Sheep Farming, 2020). Supplementary sources: Bivatec — Hygiene and Biosecurity on a Goat Farm; Essential Vaccinations for Goats; Mastering Goat Nutrition; Goats: The Perfect Livestock for Your Small Farm; Raising Goats for Meat: A Farmer's Step-by-Step Guide (all bivatec.com, 2024). Financial estimates based on Kyakuwa Farm operational benchmarks; capital cost estimates are indicative for Uganda conditions 2026.*
 
 *Supplementary sources (sheep farming, decision frameworks, digital tools): Bivatec (bivatec.com): Sheep vs Goats: Which Is More Profitable?; Sheep Farming Guide for Beginners; Vaccination and Deworming Schedule for Sheep; How to Feed Sheep for Maximum Weight Gain; How to Start a Profitable Sheep Farm; Meat vs Dairy Goats: Which Is More Profitable?; How to Improve Milk Production in Dairy Goats; Goat Farming vs Cattle Farming; Step-by-Step Guide to Profitable Goat Farming; Best Goat Farming Apps for Record Keeping (all 2024).*
