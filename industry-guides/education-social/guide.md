@@ -4,7 +4,13 @@ Industry-specific context for generating bankable education and social enterpris
 
 ## Industry Overview
 
-Uganda's young and growing population — with a median age under 16 — creates enormous demand for education and health services. The Universal Primary Education (UPE) programme has dramatically increased primary school enrolment, which in turn feeds demand for secondary school places. Private schools, particularly those targeting middle-class families willing to pay for quality education, fill a critical gap left by overstretched government institutions.
+Uganda's young and growing population — **45.9 million people (NPHC 2024)** with 52% aged 0–17 — creates enormous demand for education and health services. The Universal Primary Education (UPE) programme has pushed primary school Gross Enrolment Ratio to **120%** (UNHS 2023/24), but secondary GER remains low at **34%** (NER 23%), signalling strong unmet demand for secondary schooling. Private schools targeting middle-class families willing to pay for quality education fill a critical gap left by overstretched government institutions.
+
+**Key education statistics (UNHS 2023/24, UBOS):**
+- Average household expenditure on secondary education: **UGX 2,254,695/learner/year** nationally
+- Kampala: **UGX 3,753,000/learner/year** (highest); Teso/Elgon: ~UGX 1,376,000 (lowest)
+- **13%** of persons aged 15+ have no formal education — adult literacy market opportunity
+- **23%** of children not in school report fees as the barrier — affordability is the primary constraint
 
 In the health and hygiene sector, local manufacturing of essential products — first aid kits, disposable syringes, and sanitary towels — addresses both import substitution and social impact goals. These businesses combine commercial viability with measurable social outcomes, making them attractive to impact investors, development finance institutions, and social enterprise funds.
 

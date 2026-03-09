@@ -4,9 +4,11 @@ Industry-specific context for generating bankable agricultural business plans. C
 
 ## Industry Overview
 
-Agriculture contributes approximately 4.6% of GDP in developed economies and significantly more in developing countries (e.g., 24% in Uganda). The food and agricultural value chain — from input suppliers through producers, processors, distributors, and retailers — employs 8-10% of the workforce in developed nations and up to 70% in agricultural economies.
+Agriculture contributes approximately 4.6% of GDP in developed economies and significantly more in developing countries. In Uganda, **36% of the workforce is employed in agriculture** and the sector grew **4.8% in FY2023** and **3.1% in Q1 2025/26** (UBOS KEI). Food and beverages account for **44.2% of household expenditure** in Uganda (UNHS 2023/24). The food and agricultural value chain — from input suppliers through producers, processors, distributors, and retailers — employs up to 70% of the workforce in agricultural economies.
 
-**Key insight:** As economies develop, the percentage of labour in agriculture falls, farm sizes increase, and consumers spend a smaller share of income on food. In developed markets, consumers spend 5-12% of income on food; in developing markets, 25-35%.
+**Uganda-specific:** As of NPHC 2024, **33% of households remain in the subsistence economy**, of which 75% rely on subsistence agriculture. Uganda's NDP III Agro-Industrialisation Programme targets transformation from subsistence to market-oriented farming. Cash crop growing grew +7% in Q1 2025/26.
+
+**Key insight:** As economies develop, the percentage of labour in agriculture falls, farm sizes increase, and consumers spend a smaller share of income on food. In developed markets, consumers spend 5–12% of income on food; in Uganda/EA developing markets, households spend 35–45%.
 
 ## Agricultural Business Types
 
@@ -162,3 +164,4 @@ Net Enterprise Profit = Contribution Margin - Fixed Costs
 - **Poultry management**: See `references/poultry-management.md` for breed selection (layers, broilers, dual-purpose), housing and space standards, feeding by stage, lighting and flock replacement economics, egg grading and marketing, biosecurity, vaccination schedules, and EA production benchmarks from Damerow
 - **Direct marketing channels**: See `references/market-farming-direct-sales.md` for farmers market operations, CSA model and share pricing, restaurant and institutional sales, U-pick and agritourism, multi-channel diversification, and EA market farm income scenarios from Byczynski
 - **Market gardening (intensive small-scale)**: See `references/market-gardening.md` for the micro-farm business model, permanent raised bed system (30" × 18" paths), appropriate tools (broadfork, wheel hoe, seeders), succession planting, season extension (low tunnels, hoophouses), compost-based fertility, and EA setup costs from Fortier
+- **Uganda agricultural statistics (2021–26)**: See `references/uganda-agricultural-statistics.md` for official Uganda data — agriculture GDP growth rates, subsistence economy prevalence (NPHC 2024), crop seeding rates (UHIS-AAS 2021/22), livestock production zones, commodity price changes (CPI Feb 2026), agricultural finance landscape (SACCOs, UDB, ACF), NDP III programme context, and rainfall/climate risk — from UBOS and World Bank. **Read this file for Uganda agriculture business plans.**
