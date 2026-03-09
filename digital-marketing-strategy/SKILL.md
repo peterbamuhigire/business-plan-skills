@@ -24,6 +24,9 @@ This skill generates both sections. It draws on eight primary reference framewor
 **Platform-specific references:**
 - **Marshall and Yu** (Definitive Guide to TikTok Advertising) — 80/20 content strategy, Power Triangle, Why/How/What framework, 15-second video structure, Spark Ads, TikTok metrics, campaign setup → `references/tiktok-advertising.md`
 - **Geddes** (Advanced Google AdWords) — buying funnel keyword matching, Quality Score, campaign structure, ad copy, landing pages, match types, bidding strategy → `references/google-ads.md`
+- **Mathew, Jack** (YouTube Marketing 2021) — channel setup/optimisation, YouTube SEO, algorithm signals (CTR/AVD/watch time), video types, monetisation (YPP/brand deals/lead gen), YouTube Ads, EA adaptations (Luganda/Swahili niches, mobile-first, RPM context) → `references/youtube-marketing.md`
+- **Rouhiainen** (101 Facebook Marketing Tips) — Page optimisation, organic content strategy, Facebook Groups, Reels/Stories, ad campaign structure, click-to-WhatsApp ads, lead gen forms, Facebook Shop, Messenger automation, Meta AI tools 2026, EA low-budget strategy (UGX 5,000/day), content calendar → `references/facebook-marketing.md`
+- **Multi-author + Kane** (Social Media Marketing 2021-22; Social Media Marketing and Online Business 2021) — Instagram (profile/Reels/Shopping/micro-influencers), Twitter/X (EA role/threads), LinkedIn (B2B lead gen/personal brand), Podcasting (EA first-mover), Blogging/SEO (long-tail EA keywords), content repurposing (Content Factory model), creator economics (6 monetisation streams) → `references/social-media-platforms.md`
 
 ---
 
@@ -443,6 +446,7 @@ For business plan use, cite as follows (first use):
 - Keshwani's (2023) five-point campaign analysis framework
 - Marshall and Yu's (2022) Why/How/What video framework and Power Triangle
 - Geddes' (2014) Quality Score and buying funnel keyword framework
+- Mathew's (2021) YouTube SEO framework, video type taxonomy, and monetisation paths
 
 Full references for the appendix:
 - McDonald, M., Wilson, H., and Chaffey, D. (2024) *Marketing Plans: Profitable Strategies in the Digital Age*, 9th Edition. Hoboken, NJ: Wiley.
@@ -453,3 +457,7 @@ Full references for the appendix:
 - Keshwani, A. (2023) *55 Digital Marketing Masterpieces: Inspiring Your Next Winning Campaign*. Bangalore: The Write Order Publications.
 - Marshall, P. and Yu, D. (2022) *The Definitive Guide to TikTok Advertising: How to Access 1 Billion People in 10 Minutes*. Chicago, IL: Perry Marshall & Associates.
 - Geddes, B. (2014) *Advanced Google AdWords*, 3rd Edition. Indianapolis, IN: Wiley/Sybex.
+- Mathew, J. (2021) *YouTube Marketing 2021: Do YouTuber's Secrets for Business with the Beginner's Guide to Growing Your Social Video Channel a Money Machine*. Self-published.
+- Rouhiainen, L. (2021) *101 Facebook Marketing Tips and Strategies for Small Businesses*. Self-published.
+- Various authors (2021) *Social Media Marketing 2021-22: Beginners Guide to Making Money Online*. Self-published.
+- Kane, A. (2021) *Social Media Marketing and Online Business 2021: Beyond 2020 Rise to the Top of the Main eCommerce Platforms*. Self-published.
