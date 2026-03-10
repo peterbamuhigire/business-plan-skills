@@ -126,6 +126,7 @@ Most Ugandan banks require collateral worth 125–150% of the loan value. The pl
 **What needs to be built:**
 - Collateral section in `11-funding-request/SKILL.md` covering types, valuation, and how to present limited collateral (with compensating factors)
 - Guidance on collateral alternatives: credit guarantee schemes (Uganda Credit Guarantee Scheme, USSIA guarantee fund), character lending, group guarantees
+- **2025 update:** The Stamp Duty (Amendment) Bill 2025 (effective 1 July 2025) reduces stamp duty on mortgage deeds and agreement/memoranda to **NIL** (previously 0.5% of loan value for mortgage deeds; UGX 15,000 for agreements). This reduces the upfront cost of borrowing and should be noted in the collateral section of any plan targeting a bank loan (KPMG, 2025).
 
 ---
 
@@ -136,21 +137,46 @@ Most Ugandan banks require collateral worth 125–150% of the loan value. The pl
 **What is missing:**
 `10-financial-projections/SKILL.md` generates P&L projections but contains no Uganda-specific tax guidance. A Ugandan bank or URA-registered accountant will immediately check:
 
-| Tax | Rate | Notes |
-|---|---|---|
-| **Corporate Income Tax** | 30% of taxable profit | Applicable to companies; sole traders pay personal income tax |
-| **VAT** | 18% | Mandatory registration if turnover > UGX 150M/year; input VAT recoverable |
-| **PAYE** | Graduated: 0% to 40% | Employer obligation; monthly URA remittance |
-| **Withholding Tax (WHT)** | 6% on service payments to residents | Applied when paying professional services, rent, contractors |
-| **Presumptive Tax** | Fixed amounts by turnover band | For businesses below UGX 150M with no records |
-| **Import Duty / EAC CET** | Varies by HS code | Relevant for imported machinery and inputs |
-| **NSSF Contribution** | 10% employer + 5% employee | Mandatory for employers with ≥5 employees |
+### Core Uganda Tax Rates (ITA Cap.340 and VATA Cap.349)
 
-**Currently:** The skill mentions tax as a line item but provides no rates, no computation methodology, and no distinction between corporate vs. sole trader taxation. A projection that uses wrong tax rates will be rejected by any accountant reviewing the plan.
+| Tax | Rate | Threshold / Notes |
+|---|---|---|
+| **Corporate Income Tax** | 30% of taxable profit | Companies and trustees; charged annually on chargeable income |
+| **Individual Income Tax (PAYE)** | Graduated 0%–40% — see bands below | Employer withholds monthly; remits to URA by 15th of following month |
+| **VAT** | 18% | Mandatory registration if turnover ≥ UGX 150M/year; input VAT on business purchases is recoverable |
+| **Rental Tax** | 20% of net rental income (individuals); 30% (companies) | Separate from income tax; applies to rental property income |
+| **WHT — goods and services** | 6% | Designated payers (government, large companies) withhold from supplier payments ≥ UGX 1M per contract |
+| **WHT — professional fees** | 6% (s.118A) | Withheld by payer; credited against payee's annual tax |
+| **WHT — asset disposal** | 10% (s.118B) | Applied when purchasing business assets; final tax in some cases |
+| **WHT — dividends (resident)** | 15% (unlisted companies); 10% (listed on USE) | Withheld by paying company; credited to shareholder |
+| **Presumptive Tax** | Flat amounts by turnover band | For businesses with gross turnover < UGX 150M/year who do not opt into normal assessment; final tax |
+| **Import Duty / EAC CET** | Varies by HS code (0%, 10%, 25% main tiers) | Relevant for imported machinery and inputs; plant and machinery often at 0% under EAC CET Ch.84/85 |
+| **NSSF Contribution** | 10% employer + 5% employee = 15% of gross wage | Mandatory for employers with ≥5 employees; remit by 15th of following month |
+
+### PAYE Bands — Resident Individuals (Third Schedule, ITA Cap.340)
+
+These are the annual chargeable income bands. Employers compute PAYE monthly using 1/12 of the annual thresholds.
+
+| Annual Chargeable Income | Monthly Equivalent | Tax Payable |
+|---|---|---|
+| Not exceeding UGX 2,820,000 | Up to UGX 235,000/month | **0%** |
+| UGX 2,820,001 – 4,020,000 | UGX 235,001 – 335,000/month | 10% of the excess over UGX 2,820,000 |
+| UGX 4,020,001 – 4,920,000 | UGX 335,001 – 410,000/month | UGX 120,000 + 20% of the excess over UGX 4,020,000 |
+| UGX 4,920,001 – 120,000,000 | UGX 410,001 – 10,000,000/month | UGX 300,000 + 30% of the excess over UGX 4,920,000 |
+| Exceeding UGX 120,000,000 | Above UGX 10,000,000/month | UGX 34,824,000 + 40% of the excess over UGX 120,000,000 |
+
+**Planning implication:** Most SME employees earn below UGX 410,000/month — at or below the 0% or 10% band. PAYE becomes significant only for management and professional staff. Projections must model this correctly rather than applying a flat payroll tax percentage.
+
+**Sole trader vs company:** A sole trader pays individual income tax (bands above) on business profit. A private limited company pays 30% corporate tax. For profits below ~UGX 15M/year, sole trader tax can be lower; above that, corporate structure is often more efficient. Business plans must state the legal structure and apply the correct tax regime.
+
+**Currently:** The skill table lists "Graduated: 0% to 40%" for PAYE (no bands) and omits rental tax, WHT on dividends, and WHT on asset disposals entirely. It does not distinguish sole trader vs. company tax treatment.
 
 **What needs to be built:**
-- `10-financial-projections/references/uganda-tax-framework.md` — tax rates, computation examples, registration thresholds, and how to present taxes in projected financial statements
-- A tax schedule template showing PAYE, VAT, corporate tax, and NSSF as separate line items
+- `10-financial-projections/references/uganda-tax-framework.md` — authoritative rates (sourced to ITA Cap.340), PAYE computation examples, VAT mechanics, WHT obligations, NSSF formula, presumptive tax bands, and the 2025 amendments that affect business plan projections
+- A tax schedule template showing PAYE, VAT, corporate tax, and NSSF as separate clearly-labelled line items in projected financials
+- Guidance on when to use sole trader vs. company tax treatment in projections
+
+*Sources: Income Tax Act Cap.340, ss.4–8, Third Schedule (Okuja, Onyango & Co. Advocates); Value Added Tax Act Cap.349, s.5.*
 
 ---
 
@@ -226,3 +252,76 @@ Any business applying to UDB, ACF, World Bank facilities, IFC, or EU grants must
 **What needs to be built:**
 - An ESMP section in `11-funding-request/SKILL.md` noting when it is required
 - A lightweight ESMP template in references for businesses that need development finance
+
+---
+
+## GAP C8: No Awareness of 2025 Uganda Tax Amendments
+
+**Severity:** HIGH — affects projection accuracy for all plans from FY 2025/26 onwards.
+
+**What is missing:**
+The KPMG *Tax (Amendment) Bills, 2025* analysis (April 2025) describes significant amendments effective **1 July 2025** that affect business plan financial projections. None of these appear anywhere in the skills suite.
+
+### Amendment 1: Three-Year Income Tax Exemption for New Citizen Businesses
+
+**Proposed by:** Income Tax (Amendment) Bill 2025
+
+New businesses established by Ugandan citizens after 1 July 2025 are exempt from income tax for **three years**, provided:
+- Investment capital does not exceed **UGX 500 million**
+- The citizen (or an associate) has not previously benefited from this exemption
+- The taxpayer files annual tax returns with required business information (s.147)
+
+**Planning implication:** For a new SME with capital under UGX 500M, financial projections for Years 1–3 should show **zero income tax liability**. Including a 30% corporate tax charge in Year 1–3 projections for a qualifying business is incorrect and may actually *understate* projected net profit, disadvantaging the applicant. The skill must prompt the plan author to check eligibility and apply this exemption in financial models.
+
+**Caveat:** This remains a proposed amendment as of April 2025; plans should note that exemption is conditional on presidential assent and filing compliance.
+
+### Amendment 2: New Import Costs (External Trade Amendment Bill 2025)
+
+Effective 1 July 2025, all goods imported from outside the EAC for home use attract two new levies:
+
+| Levy | Rate | Basis |
+|---|---|---|
+| Infrastructure levy | 1.5% | Of customs value |
+| Import declaration fee | 1.0% | Of customs value |
+| **Total new cost** | **2.5%** | On top of existing customs duty and EAC CET |
+
+**Exceptions:** Plant and machinery under EAC CET Chapters 84–85 are exempt from both levies. Most production equipment qualifies. Consumer goods, finished products, and raw materials do not.
+
+**Planning implication:** Capital expenditure budgets for imported machinery require no adjustment (Ch.84/85 exempt). However, businesses importing raw materials, packaging, or consumables from outside EAC must add 2.5% to their per-unit input cost. This can materially affect the gross margin if not modelled.
+
+### Amendment 3: Stamp Duty on Mortgage Deeds → NIL
+
+See Gap C4. The elimination of stamp duty on mortgage deeds (previously 0.5% of loan value) reduces the all-in cost of bank borrowing and should be reflected in the funding request section's cost-of-finance calculations.
+
+### Amendment 4: EFRIS Compliance (Electronic Fiscal Receipting and Invoicing)
+
+The Tax Procedures Code Amendment 2025 doubles penalties for non-compliance with the Electronic Fiscal Receipting and Invoicing Solution (EFRIS):
+- Previous penalty: tax due on goods/services, or UGX 6–8M (whichever higher)
+- New penalty: **double the tax due** on goods or services
+
+**Planning implication:** Any business plan projecting VAT-registered status must include EFRIS setup costs (hardware/software for electronic receipting) and compliance procedures. The risk section must note the penalty exposure.
+
+### Amendment 5: TIN = NIN/BRN — Licensing Gate
+
+From 1 July 2025, local authorities and government institutions **cannot issue any business licence** unless the applicant holds a National Identification Number (NIN, for individuals) or Business Registration Number (BRN, from URSB, for companies). These are now the tax identification numbers.
+
+**Planning implication:** The implementation timeline and operations plan must include NIN/BRN acquisition as a prerequisite step before any licence application. Plans that assume immediate licensing on Day 1 without addressing registration are non-compliant.
+
+### Amendment 6: VAT Anti-Fragmentation Rule
+
+URA can now re-characterise separate import consignments as an aggregate consignment for determining VAT registration liability. If the aggregate exceeds UGX 150M, the importer must register for VAT.
+
+**Planning implication:** Businesses that deliberately split import orders to stay below the UGX 150M VAT threshold face enforcement risk under this rule. Operations plans should not rely on consignment splitting as a VAT avoidance strategy.
+
+**Currently:** None of these amendments exist anywhere in the skills suite. Plans generated for businesses starting after July 2025 using current skills will routinely:
+- Overstate tax costs (by applying income tax to businesses that qualify for the 3-year exemption)
+- Understate import costs (by omitting the 1.5% + 1.0% levies on non-machinery imports)
+- Omit EFRIS setup costs and risk
+- Omit NIN/BRN as a licensing prerequisite
+
+**What needs to be built:**
+- `10-financial-projections/references/uganda-tax-framework.md` must include a "2025 Amendments" section with planning guidance for each amendment above (covered in Task 4 of this plan)
+- `13-implementation-timeline/SKILL.md` should be updated to include NIN/BRN registration as a mandatory pre-step
+- `12-risk-analysis/SKILL.md` should add EFRIS non-compliance and import cost escalation as standard risk items for VAT-registered businesses
+
+*Source: KPMG, Tax (Amendment) Bills, 2025 — A KPMG Analysis, April 2025 (East Africa).*
