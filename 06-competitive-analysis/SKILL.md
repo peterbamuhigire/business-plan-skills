@@ -1,6 +1,6 @@
 ---
 name: competitive-analysis
-description: Generate the competitive analysis section with competitor profiles, SWOT analysis, competitive matrix, differentiation strategy, market share positioning, and sustainable competitive advantage (moat). Proves the business can win against alternatives. Use when building or reviewing competitive analysis sections, benchmarking against competitors, or defining market positioning. Incorporates Farris's competitive metrics, guerrilla positioning strategy, and value-based differentiation frameworks.
+description: Generate the competitive analysis section with competitor profiles, SWOT analysis, competitive matrix, differentiation strategy, market share positioning, and sustainable competitive advantage (moat). Proves the business can win against alternatives. Use when building or reviewing competitive analysis sections, benchmarking against competitors, or defining market positioning. Incorporates Farris's competitive metrics, guerrilla positioning strategy, value-based differentiation frameworks, Teece's business model vs strategy distinction (business model = architecture of value creation and capture; strategy = how the model is made difficult to imitate), and Kaza's four differentiation types (aesthetic experience, social experience, boundary interactions, purposeful experiences).
 ---
 
 # Competitive Analysis Skill
@@ -139,9 +139,48 @@ Never compete on the incumbent's terms. Instead:
 - Positioning is distinct — clear blue water between this business and alternatives
 - Guerrilla strategy is included for startups and small businesses
 
+## Business Model vs Strategy Analysis (Teece)
+
+When assessing competitive position, distinguish between the business model and the competitive strategy — they are related but not the same (Teece, 2010):
+
+| Dimension | Business Model | Competitive Strategy |
+|---|---|---|
+| **What it answers** | How does the business create and capture value? | How does the business win against rivals? |
+| **Replicability** | Can be copied — the model alone is not an advantage | Explicitly about making the model hard to imitate |
+| **Investor question** | "Is this business viable?" | "Can this business stay ahead?" |
+
+**Application:** For each competitor in the analysis, assess:
+1. Do they share the same business model as us? (If yes, strategy must differentiate us)
+2. What makes our version of the model harder to replicate? (IP, relationships, data, speed, community)
+3. Can a competitor adopt our model quickly, or do we have complementary assets (brand, supplier relationships, regulatory approvals, distribution) that they cannot easily acquire?
+
+**Value capture mechanisms** that create durable competitive advantage (Teece, 2010):
+- Intellectual property (patents, trademarks, trade secrets)
+- Complementary assets — distribution networks, customer relationships, manufacturing capacity
+- First-mover switching costs (customers embedded in our platform or processes)
+- Network effects (value increases as more users join)
+- Complexity and tacit knowledge embedded in processes not visible to competitors
+
+## Differentiation Analysis (Kaza)
+
+Beyond standard competitive dimensions, assess differentiation across four experience layers (Kaza, 2025):
+
+| Layer | What It Covers | Competitive Question |
+|---|---|---|
+| **Aesthetic experience** | How the product/service looks, feels, smells, sounds | Does our delivery experience itself differentiate us? |
+| **Social experience** | How customers feel being associated with our brand | Does buying from us signal something about who they are? |
+| **Boundary interactions** | Packaging, delivery, follow-up, receipts, after-sale service — the edges | Are we better at the *edges* of the offering, not just the core? |
+| **Purposeful experiences** | Every touchpoint designed to serve a specific customer feeling | Is there a consistent emotional through-line across all interactions? |
+
+**The signature touch principle:** Small businesses can outcompete on the boundary interactions that large competitors standardise out of existence. Identify 2-3 signature touches specific to this business (e.g., personalised follow-up, handwritten note, proactive update before the customer asks).
+
+**Narrow specialisation as competitive moat:** A business that commits to one offering, one process, or one customer type achieves operational excellence and a clear customer promise that broad-market competitors cannot match. Document the deliberate trade-offs the business makes — what it chooses NOT to do is as strategically significant as what it does.
+
 ## References
 
 - **Competitive metrics and share analysis**: See `references/competitive-metrics.md` for market share calculations, concentration analysis, brand development indices, and competitive benchmarking formulas from Farris
 - **Positioning and differentiation**: See `references/positioning-strategy.md` for guerrilla positioning tactics, value-based differentiation frameworks, perceptual mapping, and blue ocean positioning approaches
 - **Competitive strategy tools**: See `references/competitive-strategy-tools.md` for competitor analysis framework, competitive position rating (0-5 scale), strategy maps, strategic gap analysis, generic strategies, value chain analysis, strategy evaluation tests, competitive life cycle, and Blue Ocean Strategy from Evans, Harris & Lenox, and Fahey & Randall
 - **Strategy Choice Cascade**: See `references/strategy-cascade-framework.md` for the five-question strategy cascade, five strategy traps, where-to-play and how-to-win choices, activity system mapping, strategy logic flow, reverse engineering strategic choices, and cascade-to-business-plan mapping from Lafley & Martin
+- **Business model vs strategy distinction, value capture mechanisms, business model archetypes**: See `../03-products-services/references/business-models-innovation-teece.md` for Teece's full framework
+- **Differentiation types and signature touch principle**: See `../07-marketing-sales-strategy/references/small-business-unconventional-strategy.md` for Kaza's four differentiation layers and case studies

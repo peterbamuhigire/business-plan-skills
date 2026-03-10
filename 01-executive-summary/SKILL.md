@@ -132,6 +132,22 @@ For investor-facing summaries, structure the core proposition using these proven
 
 **Long Elevator Pitch** (Alam, adds investor-facing elements): short version + TAM, initial target segment, go-to-market channel, growth rate, pricing, USP, team, traction, funding ask with equity stake.
 
+### Brand Story Narrative Test (Brito)
+
+Before finalising the business concept paragraph, apply the Hero Narrative test (Brito, 2013):
+
+**The simplification test:** If you cannot explain the brand story in one sentence to someone who has never heard of the business, it is not yet clear enough.
+
+The business concept paragraph should answer: *"What is the one story this brand tells, consistently, across every channel?"* — not the tagline, not the mission statement, but the narrative that demonstrates how the business relates to the lives of its customers.
+
+**Four-step narrative construction:**
+1. State the customer's world *before* the business existed (the problem state)
+2. Describe the specific change the business creates (the transformation)
+3. Quantify that transformation where possible (time saved, money kept, outcome achieved)
+4. Name who this is for (the customer, as specifically as possible)
+
+**Test:** Read your business concept paragraph aloud. If it could describe any business in the sector, it is not specific enough. It should be impossible to confuse this business with a competitor after reading two sentences.
+
 ### Venture Type Framing
 
 Frame the executive summary appropriately for the venture type (Blank & Dorf, 2012):
@@ -159,3 +175,4 @@ Frame the executive summary appropriately for the venture type (Blank & Dorf, 20
 - **Writing quality and revision process**: See `references/writing-quality.md` for detailed writing standards, revision workflow, and word-economy rules
 - **Persuasion and presentation techniques**: See `references/presentation-structure.md` for audience analysis, persuasive structuring, and visual communication principles
 - **Proposal summarisation patterns**: See `references/proposal-patterns.md` for examples and templates of effective executive summaries for funding proposals
+- **Brand story and Hero Narrative framework**: See `../07-marketing-sales-strategy/references/social-business-brand-strategy.md` for Brito's nine-input content narrative framework, Hero Narrative simplification test, converged media model (paid/earned/owned), and content governance principles — applicable when writing the business concept paragraph and brand positioning statement

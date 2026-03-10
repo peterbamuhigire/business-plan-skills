@@ -1,6 +1,6 @@
 ---
 name: operations-plan
-description: Generate the operations plan section covering business processes, supply chain, facilities, technology infrastructure, quality control, staffing requirements, and key operational metrics. Shows how the business runs day-to-day.
+description: Generate the operations plan section covering business processes, supply chain, facilities, technology infrastructure, quality control, staffing requirements, and key operational metrics. Shows how the business runs day-to-day. Incorporates Dumas et al.'s BPM lifecycle and Devil's Quadrangle trade-offs, Page's process redesign techniques, and Kaza's small business operational efficiency framework (bottleneck identification and subordination, capacity utilisation optimisation, owner-as-bottleneck diagnosis, and the asset utilisation principle — finding revenue-generating uses for underutilised capacity during off-peak periods).
 ---
 
 # Operations Plan Skill
@@ -98,9 +98,52 @@ Rate the business's operational maturity (target Level 3+ for investor confidenc
 - Scalability plan shows how operations handle 2x, 5x, 10x growth
 - Staffing plan aligns with financial projections in section 10
 
+### Small Business Operational Efficiency (Kaza)
+
+For SME operations plans, apply the bottleneck framework from Kaza's analysis of 20,000+ small businesses:
+
+**Step 1 — Identify the bottleneck:**
+Ask: When the business is at capacity, where does work stack up? What one step, if faster, would allow the business to serve more customers? Is the *owner* the bottleneck — the person without whom nothing moves?
+
+**Step 2 — Subordinate everything else:**
+Once the bottleneck is identified, every other part of the operation should be structured to keep the bottleneck running at optimal capacity. Do not invest in non-bottleneck improvements — they will not increase overall output.
+
+**Step 3 — Optimise utilisation (not 100%):**
+Sustained 100% utilisation leads to quality degradation and staff burnout. Target optimal utilisation — high enough to be profitable, low enough to maintain quality and service standards.
+
+**Step 4 — Monetise underutilised assets:**
+Identify assets (space, equipment, staff time) that are underutilised during off-peak hours and create revenue streams from them. Examples:
+- A restaurant's dining space used for morning business meetings
+- A salon using after-hours capacity for evening workshops
+- A logistics vehicle used for delivery services on return journeys
+
+**Owner-as-bottleneck diagnostic** — common in Ugandan SMEs:
+
+| Symptom | Underlying issue | Solution |
+|---|---|---|
+| Nothing progresses when owner travels | All decisions centralised | Document decisions; delegate authority |
+| Owner works 12+ hours daily but growth is flat | Owner is in the bottleneck role | Hire or train to relieve the constraint |
+| Business cannot quote without owner | No pricing authority delegated | Create pricing guidelines; train staff |
+| Customer service depends on owner's relationships | Proximity not systematised | Build CRM; train staff on relationship protocols |
+
+**Capacity utilisation planning template:**
+
+```
+Peak capacity: [units/clients per day at maximum]
+Target utilisation rate: [70–85% for most businesses]
+Current utilisation: [actual current rate]
+Bottleneck stage: [which step limits throughput]
+Bottleneck relief plan: [hire / automate / streamline / outsource]
+Underutilised assets: [what sits idle and when]
+Asset monetisation idea: [revenue from idle capacity]
+```
+
+(Kaza, 2025)
+
 ## References
 
 - **Product development lifecycle**: See `../03-products-services/references/product-development-lifecycle.md` for VDPD process, prototyping, MVP development, manufacturing considerations, and innovation strategy (incremental vs. radical) — from Bates and Tidd & Bessant
 - **Product management frameworks**: See `../03-products-services/references/product-management-frameworks.md` for product scaling strategies (8 approaches), experimentation techniques, and Key Value Areas for operational metrics — from Verwijs et al
 - **Business process management**: See `references/business-process-management.md` for BPM lifecycle, Devil's Quadrangle performance trade-offs, value-added analysis, improvement technique wheel (SALT filter), 29 redesign heuristics, process maturity assessment, process metrics (CTE, Little's Law), scope definition, and process landscape mapping — from Dumas et al. (Springer, 2013) and Page (AMACOM, 2015)
 - **Uganda operations context**: See `references/uganda-operations-context.md` for Uganda-specific operational infrastructure: power supply and backup (UMEME/UEDCL transition, UGX 720–900/kWh grid tariff, generator and solar benchmarks), water supply (NWSC tariffs, borehole costs), Employment Act 2006 provisions (NSSF 15%, leave entitlements, redundancy pay, work permits), logistics and supply chain (Mombasa corridor lead times, SGR, cold chain), UNBS mandatory certification and EFRIS compliance, land tenure types (customary vs. registered), industrial parks (Namanve), and digital payment infrastructure (32M mobile money accounts, WhatsApp Business, EFRIS integration) — from IFC (2022), RSM/Baker Tilly (2025), NRC/Amanya (2025), and World Business Journal (2025)
+- **Small business bottleneck analysis, capacity utilisation, asset monetisation**: See `../07-marketing-sales-strategy/references/small-business-unconventional-strategy.md` (Chapter 9) for Kaza's operational efficiency framework
