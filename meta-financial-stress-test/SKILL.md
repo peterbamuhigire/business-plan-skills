@@ -1,6 +1,6 @@
 ---
 name: meta-financial-stress-test
-description: Analytical meta-skill that stress-tests financial projections through sensitivity analysis, scenario modelling (base/optimistic/pessimistic), break-even stress testing, and Monte Carlo simulation logic. Ensures the financial plan survives adversity and investor scrutiny.
+description: Analytical meta-skill that stress-tests financial projections through sensitivity analysis, four-scenario modelling (optimistic/base/pessimistic/extreme), break-even stress testing, DSCR stress test, and early warning dashboard. Calibrated to Uganda's actual economic history. Ensures the financial plan survives adversity and investor scrutiny.
 ---
 
 # Financial Stress Test Meta-Skill
@@ -13,14 +13,23 @@ Invoke AFTER section 10 (Financial Projections) is complete. This skill takes th
 
 ## What to Generate
 
-### 1. Three-Scenario Model
+### 1. Four-Scenario Model
 
-**Base case** — Most likely outcome using moderate assumptions
-**Optimistic case** — Best realistic outcome (not fantasy)
-**Pessimistic case** — Worst realistic outcome (not apocalypse)
+**Every stress test must produce four scenarios — not three.** The four-scenario model gives lenders confidence that the business has been honestly tested.
+
+| Scenario | Revenue Adjustment | Cost Adjustment |
+|---|---|---|
+| **Optimistic** | +20 to +30% vs. base | −5% (efficiency gains) |
+| **Base case** | 0% (the projection as written) | 0% |
+| **Pessimistic** | −15 to −25% | +10 to +15% |
+| **Extreme / Tail risk** | −35 to −50% | +20 to +30% |
+
+**Rule:** The pessimistic scenario must be grounded in a plausible real-world event. Use calibrated shocks from Uganda's actual economic history — see `references/stress-test-methodology.md`. A −20% shock that cites "exchange rate depreciation + fuel cost increase" is credible; an unexplained −20% is not.
+
+For each scenario, document explicit assumptions (revenue growth, gross margin, fixed costs, exchange rate, fuel cost, interest rate, repayment start). See the Scenario Assumption Table format in `references/stress-test-methodology.md`.
 
 For each scenario, adjust:
-- Revenue growth rate (+/- 20-30%)
+- Revenue growth rate (use calibrated magnitudes from reference file)
 - Customer acquisition cost (+/- 25%)
 - Churn rate (+/- 50%)
 - Operating costs (+/- 15%)
@@ -87,8 +96,14 @@ Produce a stress test report with:
 
 ## Quality Criteria
 
-- Scenarios are realistic, not extreme (pessimistic ≠ catastrophic)
+- Four scenarios produced (optimistic, base, pessimistic, extreme) — three is insufficient
+- Pessimistic scenario cites a specific, plausible Uganda risk event (e.g., "COVID-equivalent lockdown", "UGX 4,200/$ depreciation", "fuel cost +40%")
 - Sensitivity analysis identifies the 2-3 variables that matter most
 - Cash flow stress tests include realistic shock scenarios
-- Early warning triggers are specific and actionable
+- Early warning triggers are specific (revenue amount, DSCR level, cash reserve weeks) and actionable
+- DSCR stress test shows all four scenarios with pass/fail against 1.25x bank minimum
 - Recommendations are practical, not just "reduce costs"
+
+## References
+
+- `references/stress-test-methodology.md` — Calibrated Uganda historical shock data (COVID-19 by sector, FX depreciation 2021–23, fuel shock 2022, LGBTQ law 2023 economic fallout, coffee price cycle, regional security disruptions), sector-specific shock factors (agriculture/hospitality/retail/manufacturing), four-scenario framework, Scenario Assumption Table, DSCR Stress Test table, Breakeven Sensitivity Analysis table, Early Warning Dashboard (Green/Amber/Red triggers with specific UGX thresholds)

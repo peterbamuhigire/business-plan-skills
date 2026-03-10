@@ -100,8 +100,25 @@ For new ventures, actively check for the 9 Deadly Sins (Blank & Dorf, 2012) — 
 
 Use the **Assumptions Tracking Template** to quantify risk: classify each assumption as Minor/Major/Critical, calculate Risk Score = (Minor×1) + (Major×5) + (Critical×25), target below 100 (Alam). See `references/startup-risk-frameworks.md`.
 
+### Uganda-Specific Regulatory Risks (Standard Inclusions)
+
+Every Uganda business plan risk analysis must include the following regulatory risks as standard items — they affect most businesses and carry significant financial penalties:
+
+| Risk | Description | Impact if Materialised | Mitigation |
+|---|---|---|---|
+| **EFRIS non-compliance** | Failure to issue electronic fiscal receipts via URA's EFRIS system | UGX 8,000,000/month fine for not using EFRIS; UGX 6,000,000/month for not issuing e-receipts | Register for EFRIS before trading; train all sales staff; integrate EFRIS into POS system |
+| **NIN/BRN licensing gate** | From 2025, individual NIN (for individuals) and BRN (for companies) are required before any licence can be issued | Inability to obtain trading licence, bank account, or government contracts | Ensure all directors have valid National IDs from NIRA; obtain BRN from URSB before applying for any licence |
+| **Import cost escalation** | 2025 Finance Act introduced 1.5% Import Declaration Fee + 1.0% Railway Development Levy on CIF value of all imports | 2.5% additional cost on all imported inputs, equipment, raw materials | Prioritise local sourcing; factor import levies into COGS calculations; investigate EAC origin preferences |
+| **VAT anti-fragmentation** | URA now treats artificially split transactions as single supplies for VAT threshold purposes | Unexpectedly crossing UGX 150M VAT threshold; back-taxes + penalties | Do not artificially split invoices; seek tax advice before approaching threshold |
+| **Late EFRIS filing** | Late submission of EFRIS reports | UGX 200,000 or 2% of tax liability per month, whichever is higher | Calendar automated EFRIS submissions; use URA-integrated accounting software |
+| **EUDR compliance** (coffee, cocoa, timber exporters) | EU Deforestation Regulation — effective December 31, 2025 | Loss of EU market access (67% of Uganda's coffee market) | Register farm GPS coordinates; obtain GlobalG.A.P. certification; implement supply chain traceability |
+| **NSSF default** | Failure to remit employee social security contributions (5% employee + 10% employer) | Fine up to UGX 10M + up to 6 months imprisonment | Set up automatic NSSF payment schedule; treat NSSF as a fixed cost |
+
+For import-dependent businesses, also model the exchange rate depreciation scenario (see `meta-financial-stress-test/references/stress-test-methodology.md`) — UGX 4,200/$ pessimistic, UGX 4,800/$ extreme scenario.
+
 ## References
 
+- **Global trade risks 2025**: See `references/global-trade-risks-2025.md` for 2025 US tariff policy and AGOA uncertainty, Suez Canal/Red Sea shipping disruptions (+2–3 weeks transit, +15–25% freight cost), EU Deforestation Regulation (EUDR) compliance requirements, DRC instability and western Uganda trade corridor disruptions, global commodity price risks (coffee, gold, petroleum), and East African inflation context by country
 - **Strategic risk and scenario planning**: See `references/strategic-risk-scenarios.md` for Suns & Clouds risk chart, risk containment strategies (avoid/transfer/reduce/accept), scenario planning methodology, hypothesis testing for strategy, risk-reward evaluation, risk mitigation plan template, and sensitivity analysis from Evans, Harris & Lenox, and Fahey & Randall
 - **Process risk and root cause analysis**: See `references/process-risk-root-cause.md` for Ishikawa (fishbone) diagram methodology, 5 Whys technique, Pareto analysis (80/20 rule), internal controls framework ("what can go wrong?" walkthrough), issue register template, and process-related risk categories mapped to Devil's Quadrangle — from Dumas et al. (Springer, 2013) and Page (AMACOM, 2015)
 - **Startup risk frameworks**: See `references/startup-risk-frameworks.md` for 9 Deadly Sins of New Product Introduction, premature scaling risk assessment, Assumptions Tracking Template with Risk Score formula, reversible vs. irreversible decisions framework, and technology vs. market risk distinction — from Blank & Dorf (2012) and Alam

@@ -135,6 +135,24 @@ Each process should have at least one metric from each perspective.
 6. Create early warning system with trigger thresholds
 7. Assign ownership for every KPI
 
+## Funder Reporting Obligations
+
+The M&E framework must incorporate reporting obligations tied to the funding source. These are contractual, not optional.
+
+**For bank loans (commercial banks, UDB, ACF):** Lenders attach performance covenants to loans. Typical covenant monitoring requirements include:
+- DSCR ≥ 1.25x — monitored quarterly; report to bank annually or upon request
+- Current ratio ≥ 1.0x — monitored quarterly
+- Quarterly management accounts (unaudited) to lending institution
+- Annual audited accounts within 6 months of financial year end
+- Insurance certificates on pledged collateral — renewed annually
+- NSSF and URA compliance certificates upon request
+
+**For development partner grants:** Quarterly narrative reports + quarterly financial reports against approved budget are typically required. Report formats vary by donor but generally include: activities completed, outputs achieved (with beneficiary counts disaggregated by gender), budget vs. actual variance explanation, risks encountered, and plans for next quarter. See `references/funder-reporting-requirements.md` for standard templates.
+
+**For impact investors:** Double-bottom-line KPIs — financial performance PLUS social/environmental indicators (jobs created, women employed, smallholders reached, CO₂ reduced). See `references/funder-reporting-requirements.md` for sector-specific impact metrics.
+
+Identify the funder type BEFORE designing the M&E framework, and embed the relevant reporting obligations into the review cadence.
+
 ## Quality Criteria
 
 - KPIs are specific and measurable (not "improve customer satisfaction")
@@ -144,3 +162,8 @@ Each process should have at least one metric from each perspective.
 - Every KPI has a clear owner
 - Process metrics cover all three perspectives: effectiveness, efficiency, and adaptability (Page, 2015)
 - Continuous improvement cycle is scheduled with specific frequencies per process
+- Funder reporting obligations are integrated into the review calendar
+
+## References
+
+- `references/funder-reporting-requirements.md` — Commercial bank covenant monitoring (DSCR, current ratio, insurance), mandatory bank reporting schedule, UDB and ACF reporting (ESMP semi-annual monitoring report template), development partner grant quarterly narrative and financial report templates, impact investor double-bottom-line KPIs by sector (agriculture, clean energy, education, health, housing, financial inclusion), Government of Uganda annual filing calendar

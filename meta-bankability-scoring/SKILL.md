@@ -118,3 +118,102 @@ Priority Actions (ranked by impact on overall score):
 - Feedback is constructive and actionable, not just criticism
 - Recommendations are prioritised by impact on overall score
 - Scoring is calibrated — a 7 means the same thing across dimensions
+
+---
+
+## Bank Loan Readiness Mode (Uganda / East Africa)
+
+**When to use:** When the primary funder is a Ugandan commercial bank, DFI (UDB, ACF), or microfinance institution — not an equity investor.
+
+Invoke this mode when the user says "bank loan", "UDB", "Centenary", "dfcu", "Stanbic", or similar.
+
+### Bank Loan Readiness Checklist (CAMPARI Framework)
+
+Score each item YES / PARTIAL / NO. A plan is not bank-ready until all critical items score YES or PARTIAL with a clear path to YES.
+
+**CHARACTER (Who is this borrower?)**
+- [ ] Director CVs included with full employment and business history (§09, Appendix)
+- [ ] NIN confirmed for all directors (§02)
+- [ ] No adverse credit history disclosed (or disclosed with explanation)
+- [ ] Character references from respected community members included (Appendix)
+- [ ] Business registered with URSB and TIN/BRN held (§02)
+
+**ABILITY (Can they run this business?)**
+- [ ] Management team has direct sector experience (§09)
+- [ ] If no sector experience: compensated by advisory board, hired expertise, or training plan
+- [ ] Professional qualifications listed where applicable (ICPAU, ULS, UMC, ERB) (§09)
+- [ ] Operations plan demonstrates operational competence (§08)
+
+**MEANS (Can they afford to service the debt?)**
+- [ ] DSCR ≥ 1.25x calculated from projections (§10, §11) — **CRITICAL**
+- [ ] Owner equity contribution ≥ 20% of total project cost (§11)
+- [ ] Personal net worth statements for all directors included (Appendix)
+- [ ] Cash flow projections show positive operating cash flow within 12 months
+
+**PURPOSE (Is the loan for a legitimate productive use?)**
+- [ ] Specific purpose stated — not vague "working capital" (§11)
+- [ ] Use of funds itemised to individual line items (§11)
+- [ ] Loan purpose aligns with the business's stated operations (§08)
+
+**AMOUNT (Is the loan amount correctly sized?)**
+- [ ] Loan amount equals sum of use-of-funds items (§11) — check via `consistency-audit.md`
+- [ ] Loan is not excessive relative to business revenue (loan ≤ 3× annual revenue for SME)
+- [ ] Loan structure matches purpose (term loan for capex; overdraft for working capital)
+
+**REPAYMENT (Will they repay?)**
+- [ ] Repayment source clearly identified (specific revenue stream) (§11)
+- [ ] Loan repayment schedule included (Appendix)
+- [ ] DSCR stress-tested under pessimistic scenario (meta-financial-stress-test)
+- [ ] Break-even month identified and precedes loan repayment start (§10)
+
+**INSURANCE (What security is offered?)**
+- [ ] Primary collateral identified with estimated value (§11) — **CRITICAL**
+- [ ] Collateral coverage ≥ 125% of loan amount (§11)
+- [ ] Collateral documentation listed (Appendix — land title, logbook, etc.)
+- [ ] Insurance on collateral assets included in operating budget (§08, §12)
+- [ ] If collateral is insufficient: compensating factors named (UCGS, group guarantee, character lending)
+
+### Bank Loan Readiness Score
+
+```
+BANK LOAN READINESS ASSESSMENT
+
+CAMPARI Score:
+  Character:   [X/5 items] — [READY / PARTIAL / NOT READY]
+  Ability:     [X/4 items] — [READY / PARTIAL / NOT READY]
+  Means:       [X/4 items] — [READY / PARTIAL / NOT READY]
+  Purpose:     [X/3 items] — [READY / PARTIAL / NOT READY]
+  Amount:      [X/3 items] — [READY / PARTIAL / NOT READY]
+  Repayment:   [X/4 items] — [READY / PARTIAL / NOT READY]
+  Insurance:   [X/5 items] — [READY / PARTIAL / NOT READY]
+
+CRITICAL CHECKS (must be YES to submit):
+  ✓/✗ DSCR ≥ 1.25x: [Yes/No] — calculated as [X] / [X] = [X.Xx]
+  ✓/✗ Collateral ≥ 125%: [Yes/No] — [UGX X collateral / UGX X loan = X%]
+  ✓/✗ Business registered + TIN held: [Yes/No]
+  ✓/✗ Specific purpose stated with itemised use of funds: [Yes/No]
+
+OVERALL BANK LOAN READINESS:
+  [SUBMIT] All critical items pass; CAMPARI ≥ 75% complete
+  [REVISE] One or more critical items fail — do not submit yet
+  [NOT READY] Multiple critical failures — major revision required
+
+TOP 3 ACTIONS BEFORE SUBMISSION:
+1. [Most critical gap] — fix in [§X]
+2. [Second gap] — fix in [§X]
+3. [Third gap] — fix in [§X]
+```
+
+### Consistency Audit (run before scoring)
+
+Before running the Bank Loan Readiness assessment, run the consistency audit from:
+`meta-bankability-scoring/references/consistency-audit.md`
+
+A plan that fails ≥ 3 consistency checks should be revised before scoring — inconsistencies undermine all other scoring dimensions.
+
+## References
+
+- `references/consistency-audit.md` — 12-point cross-section consistency checker
+- `references/lender-criteria-uganda.md` — Formal credit criteria mapped to Uganda bank standards (created when Doing Business Uganda PDF extraction is complete)
+- `10-financial-projections/references/uganda-tax-framework.md` — Tax rates for financial projection verification
+- `11-funding-request/references/credit-assessment-frameworks.md` — 5 Cs and CAMPARI detail

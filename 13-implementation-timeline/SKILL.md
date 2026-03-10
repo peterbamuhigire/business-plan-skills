@@ -20,11 +20,30 @@ Generate an actionable implementation plan that converts the business strategy i
 7. **Progress metrics** — How to measure milestone completion
 8. **Go/no-go decision points** — Gates between phases
 
+### Pre-Phase 0: Regulatory Compliance Gate (Uganda)
+
+Before Phase 1 can begin, all regulatory foundations must be in place. These are not optional and cannot be done in parallel with operations — they are legal prerequisites.
+
+**NIN/BRN gate (2025 requirement):** From 2025, a company TIN cannot be issued without a valid NIN (National ID from NIRA) for individual directors, or BRN (Business Registration Number from URSB) for companies. Without a TIN, no trading licence can be issued, no bank account opened in the company's name, and no government contracts signed.
+
+**Mandatory pre-launch checklist (Uganda):**
+- [ ] All directors have valid National IDs (NIN from NIRA)
+- [ ] URSB registration complete — Business Name Certificate or Certificate of Incorporation obtained
+- [ ] TIN registered with URA (free; requires NIN/BRN)
+- [ ] Trading licence obtained from KCCA (Kampala) or local council (upcountry)
+- [ ] NSSF registration (mandatory if employing staff; voluntary for self-employed)
+- [ ] EFRIS registration with URA (for VAT-registered businesses or those approaching the UGX 150M threshold)
+- [ ] Sector-specific licences obtained (UNBS, NEMA, NDA, UTB, UCC, BoU — as applicable to the sector)
+- [ ] Business bank account opened in the company name
+- [ ] Tax Compliance Certificate (TCC) from URA — required for government tenders
+
+Include these as explicit Week 1–4 tasks in the Phase 1 game plan. Flag which licences have processing times of 7–14 days and must be applied for immediately.
+
 ### Phase Framework
 
 **Phase 1: Foundation (Months 1-3)**
-- Legal setup, team assembly, product development kickoff
-- Key deliverable: MVP or service framework ready
+- Legal setup (see Pre-Phase 0 above), team assembly, product development kickoff
+- Key deliverable: All licences in place + MVP or service framework ready
 
 **Phase 2: Launch (Months 4-6)**
 - Market entry, first customers, initial marketing
