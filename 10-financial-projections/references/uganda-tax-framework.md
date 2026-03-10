@@ -1,6 +1,8 @@
 # Uganda Tax Framework for Business Plan Financial Projections
 
-*Sources: Income Tax Act Cap.340 (Okuja, Onyango & Co. Advocates); Value Added Tax Act Cap.349; KPMG, Tax (Amendment) Bills, 2025 — A KPMG Analysis, April 2025 (East Africa).*
+*Sources: Income Tax Act Cap.340 (Okuja, Onyango & Co. Advocates, reproduced from Laws of Uganda 2000 as amended); Value Added Tax Act Cap.349 (same source); Excise Duty Act 2014; Stamp Duty Act 2014; Income Tax (Transfer Pricing) Regulations 2011; KPMG, Tax (Amendment) Bills, 2025 — A KPMG Analysis, April 2025 (East Africa).*
+
+*Statutory note: The handbook used is a private reproduction by a former URA employee/tax consultant. Exact figures should be verified against URA's official publications before submission to banks or courts.*
 
 This reference file provides the tax rates, computation methodology, and planning guidance needed to produce credible financial projections for a Ugandan business. Every projected P&L, cash flow statement, and balance sheet must reflect these obligations correctly.
 
