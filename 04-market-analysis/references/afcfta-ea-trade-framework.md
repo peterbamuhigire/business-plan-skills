@@ -4,6 +4,8 @@
 
 Source: EAC Treaty and Common External Tariff; AfCFTA ratification records; Uganda World Business Journal 2025 (WBJAC International); UNCTAD AfCFTA assessment 2023; NRC Self-Employment Guide Uganda 2025.
 
+**See also:** `eac-trade-data-2024.md` — companion file with 2024–2025 trade performance data, Uganda export potential by sector (AfCFTA), EAC supply chain integration benchmarks, and One-Stop Border Post impact data.
+
 ---
 
 ## 1. Africa Continental Free Trade Area (AfCFTA)
