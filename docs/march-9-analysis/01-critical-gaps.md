@@ -171,12 +171,13 @@ These are the annual chargeable income bands. Employers compute PAYE monthly usi
 
 **Currently:** The skill table lists "Graduated: 0% to 40%" for PAYE (no bands) and omits rental tax, WHT on dividends, and WHT on asset disposals entirely. It does not distinguish sole trader vs. company tax treatment.
 
-**What needs to be built:**
-- `10-financial-projections/references/uganda-tax-framework.md` — authoritative rates (sourced to ITA Cap.340), PAYE computation examples, VAT mechanics, WHT obligations, NSSF formula, presumptive tax bands, and the 2025 amendments that affect business plan projections
-- A tax schedule template showing PAYE, VAT, corporate tax, and NSSF as separate clearly-labelled line items in projected financials
-- Guidance on when to use sole trader vs. company tax treatment in projections
+**Status: RESOLVED (10 March 2026).** `10-financial-projections/references/uganda-tax-framework.md` has been created and fully populated from the Income Tax Act Cap.340, Value Added Tax Act Cap.349, Excise Duty Act 2014, Stamp Duty Act 2014, and Transfer Pricing Regulations 2011 (all sourced via Okuja, Onyango & Co. Advocates). It covers all 20 statutory areas including exact PAYE bands, presumptive tax tables, depreciation schedules, WHT rates, VAT schedules, excise and stamp duty tables, penalties, filing deadlines, transfer pricing rules, and 2025 amendments with planning implications.
 
-*Sources: Income Tax Act Cap.340, ss.4–8, Third Schedule (Okuja, Onyango & Co. Advocates); Value Added Tax Act Cap.349, s.5.*
+**Remaining actions:**
+- `10-financial-projections/SKILL.md` should be updated to reference `uganda-tax-framework.md` explicitly and prompt the plan author to check the 2025 new-citizen exemption and import levy
+- A tax schedule template (PAYE, VAT, corporate tax, NSSF as separate line items) should be added to `10-financial-projections/references/financial-model-templates.md` when that file is built (see Gap C6)
+
+*Sources: Income Tax Act Cap.340 (ITA), Value Added Tax Act Cap.349 (VATA), Excise Duty Act 2014, Stamp Duty Act 2014, Income Tax (Transfer Pricing) Regulations 2011 — all reproduced by Okuja, Onyango & Co. Advocates; KPMG, Tax (Amendment) Bills, 2025, April 2025 (East Africa).*
 
 ---
 
@@ -319,9 +320,8 @@ URA can now re-characterise separate import consignments as an aggregate consign
 - Omit EFRIS setup costs and risk
 - Omit NIN/BRN as a licensing prerequisite
 
-**What needs to be built:**
-- `10-financial-projections/references/uganda-tax-framework.md` must include a "2025 Amendments" section with planning guidance for each amendment above (covered in Task 4 of this plan)
-- `13-implementation-timeline/SKILL.md` should be updated to include NIN/BRN registration as a mandatory pre-step
-- `12-risk-analysis/SKILL.md` should add EFRIS non-compliance and import cost escalation as standard risk items for VAT-registered businesses
+**Status: PARTIALLY RESOLVED (10 March 2026).** `10-financial-projections/references/uganda-tax-framework.md` now contains a full 2025 Amendments section (§§10–11 of that file) covering all six amendments above with planning guidance. Remaining actions:
+- `13-implementation-timeline/SKILL.md` — add NIN/BRN registration as a mandatory pre-step in the pre-launch phase
+- `12-risk-analysis/SKILL.md` — add EFRIS non-compliance and 2.5% import levy escalation as standard risk items for VAT-registered and import-dependent businesses
 
 *Source: KPMG, Tax (Amendment) Bills, 2025 — A KPMG Analysis, April 2025 (East Africa).*
