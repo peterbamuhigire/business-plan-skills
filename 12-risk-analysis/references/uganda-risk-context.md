@@ -209,7 +209,59 @@ Andrew Sardanis operated businesses across 20+ African countries for 25 years (I
 
 ---
 
-## 11. Citation Format
+## 11. Private Sector Investment Climate Risks (IFC/World Bank CPSD, 2022)
+
+*Source: IFC/World Bank, "Creating Markets in Uganda: Growth through the Private Sector and Trade" (Country Private Sector Diagnostic, February 2022). Cite as (IFC/World Bank, 2022).*
+
+These risks are structural investment climate risks validated by IFC diagnostic analysis. They affect bankability assessments and sector-specific business risk registers.
+
+### Institutional and Governance Risks
+| Risk Factor | Evidence | Business Implication |
+|---|---|---|
+| Corruption | 41% of respondents paid a bribe (East Africa Bribery Index 2017) — up from 2.6% in 2013 | Budget for compliance costs; document all transactions; avoid sectors with high regulatory exposure |
+| Weak competition framework | Uganda ranked 116th/141 in competition indicators; no competition law | Risk of market dominated by connected players; price undercutting by protected incumbents |
+| Government arrears to private sector | Domestic arrears reached 3.1% of GDP (FY2017) | Government contracts carry payment delay risk; require deposits or shorter credit terms |
+| PPP framework immaturity | PPP Act 2015 enacted but PPP Unit understaffed; capacity uneven | PPP arrangements risky for SMEs; prefer commercial arrangements |
+
+### Financial System Risks for SMEs
+| Risk Factor | Data | Mitigation |
+|---|---|---|
+| Credit access: general | Credit to private sector: 14.2% of GDP (vs Kenya 32%) | Plan capital funding mix to avoid heavy bank dependence |
+| Credit access: agribusiness | Only 6% of small-scale agribusinesses have credit access (vs 44.1% Kenya) | Agri-business plans must show strong alternative funding and working capital plan |
+| Interest rate burden | 19.26% avg lending rate (FY2019/20); real rate after 2.9% inflation = ~16% | Model debt servicing carefully; DSCR threshold 1.25x becomes tight at high rates |
+| SME lending share | Only 10–25% of bank lending to SMEs | Most SMEs effectively locked out of bank credit without strong collateral or DFI support |
+
+### Sector-Specific Investment Risks (IFC CPSD)
+
+#### Agribusiness Risks
+- **Kenya market ban risk:** Kenya banned Ugandan dairy (2019), sugar/sugarcane (2020), maize/fish/poultry (2021) — over 90% of formal dairy exports went to Kenya; exports collapsed. Any agribusiness plan targeting Kenyan market must flag this bilateral trade risk.
+- **Cold chain gaps:** Significant cold storage and temperature-controlled logistics deficit. Perishable goods face high post-harvest loss rates and cost-of-cold-storage risk.
+- **Fisheries sustainability:** Wild catch stocks depleting; IUU (illegal, unreported, unregulated) fishing estimated >10% of informal exports. Aquaculture investment requires biosecurity and feed quality management.
+- **Fertiliser use:** Uganda's fertiliser use is 1.2 kg/ha — among lowest in Sub-Saharan Africa. Yield gap is wide. Agriculture businesses dependent on smallholder supply face productivity floor risk.
+- **Climate ranking:** Uganda ranked 166th/182 on Notre Dame Global Adaptation Initiative (ND-GAIN) Index — extreme vulnerability to climate change; least prepared in the region.
+
+#### Energy Risks (for energy-dependent businesses)
+- **Electricity access:** 44% of enterprises turned customers away due to unreliable power; 30% of enterprises and 50% of manufacturers lack electricity access.
+- **Off-grid solar:** 50% default rate on pay-as-you-go solar (industry estimate) — relevant for PAYG solar businesses.
+- **Electricity prices:** Uganda's electricity cost is among the highest in the peer group — factor into industrial/manufacturing energy budgets.
+- **Mini-grid risk:** Cost-reflective tariffs without subsidy exceed US$0.50/kWh — unaffordable without subsidy support.
+
+#### Housing and Construction Risks
+- **Land titling:** Overlapping and incomplete land registry; 70%+ land under customary tenure; corruption in land registration.
+- **Mortgage finance inaccessibility:** Only 11.5% of households can afford mortgage-financed housing. Housing finance market very thin.
+- **Non-construction costs:** 57% of total housing development cost in Uganda is non-construction-related — developer overhead, compliance, land, VAT. Construction cost 51% higher than Pretoria equivalent.
+- **Professional skills emigration:** Architects, engineers, quantity surveyors are mobile and prone to out-migration — relevant for construction project timelines and quality.
+
+### Trade Logistics Risks
+- Uganda's Logistics Performance Index has been declining since 2016 — now behind Rwanda and Lao PDR
+- Border delays, high transport costs, documentation requirements raise compliance cost for exporters
+- Quality standards enforcement gap: Uganda acknowledged in 2018 that most horticulture products fell short of EU standards
+- Products subject to interception: pests, pesticide residue, poor packaging — major risk for export-oriented food businesses
+- Road quality: second lowest in peer group; less than 30% of Kampala road network paved
+
+---
+
+## 12. Citation Format
 
 - CPI/inflation data: (UBOS, *Consumer Price Index February 2026*)
 - Labour/income data: (UBOS, *National Labour Force Survey 2021*)
@@ -217,3 +269,4 @@ Andrew Sardanis operated businesses across 20+ African countries for 25 years (I
 - GDP/exchange rate: (UBOS, *Key Economic Indicators*, 139th Issue, December 2025)
 - Population/sector data: (UBOS, *National Population and Housing Census 2024*)
 - Economic outlook: (World Bank, *Uganda Economic Update*, December 2023)
+- Private sector investment climate: (IFC/World Bank, *Creating Markets in Uganda: Growth through the Private Sector and Trade*, February 2022)

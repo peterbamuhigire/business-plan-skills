@@ -154,5 +154,6 @@ group guarantee, crop/produce as security, invoice discounting arrangement]
 ## References
 
 - `references/credit-assessment-frameworks.md` — 5 Cs of Credit (Character, Capacity, Capital, Conditions, Collateral) and CAMPARI framework detail
+- `references/women-financing-uganda.md` — Gender-specific financing constraints and solutions: 50% capital gap vs male peers; 84% of rural land under unregistered customary tenure (no collateral); "missing middle" between microfinance and commercial bank; psychometric credit scoring as collateral alternative; Uganda-specific funding sources (UDB, aBi Finance, WEF, UNCDF, SACCOs); evidence that larger loans (+40% profits, +55% employment in Ethiopia) outperform microfinance; mobile savings for household/business separation; SACCO access pathways; sensitivity analysis on UDB concessional vs commercial rates — Source: World Bank/IFC (2022). **Read when the business owner is a woman, or when standard collateral requirements cannot be met.**
 - `meta-bankability-scoring/SKILL.md` — Bank Loan Readiness Mode with full CAMPARI checklist (28 items) and consistency audit
 - `meta-bankability-scoring/references/consistency-audit.md` — 12-point cross-section consistency checker; run before submitting to any lender
