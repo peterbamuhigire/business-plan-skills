@@ -337,3 +337,97 @@ Current Liabilities:
 | Forgetting import levy additions on consumables | Non-machinery imports from outside EAC now carry 2.5% additional cost |
 | Applying individual tax rates to a company | Companies pay flat 30%; individuals pay graduated rates |
 | Computing PAYE at a flat percentage | PAYE is graduated; compute band by band for each employee's salary level |
+
+---
+
+## 13. 2025 Amendment Detail Tables
+*Source: KPMG Uganda, Tax (Amendment) Bills, 2025 — A KPMG Analysis, April 2025*
+
+All amendments proposed to take effect **1 July 2025**, subject to presidential assent in current form.
+
+### 13.1 Stamp Duty Changes — Schedule 2, Stamp Duty Act Cap.339
+
+| Instrument | 2024/25 Duty | 2025/26 Duty |
+|------------|-------------|-------------|
+| Agreement or memorandum of an agreement (Item 5) | UGX 15,000 | **NIL** |
+| Mortgage deed — of total value (Item 42a) | 0.5% of total value | **NIL** |
+| Collateral/auxiliary/additional/substituted security where principal is already stamped (Item 42b) | UGX 15,000 | **NIL** |
+| Mortgage of a crop (Item 43) | UGX 15,000 | **NIL** |
+
+**Business plan implication:** A bank loan of UGX 200M previously attracted a mortgage deed stamp duty of UGX 1,000,000 (0.5%). That cost is now eliminated. Update cost-of-borrowing calculations for any plan seeking a secured bank loan.
+
+Agricultural businesses using crop collateral (coffee, cotton, sugarcane) benefit from the Item 43 change — crop mortgage instruments now attract no stamp duty.
+
+### 13.2 Excise Duty Rate Changes — Schedule 2, Excise Duty Act Cap.336
+
+| Item | 2024/25 Rate | 2025/26 Rate |
+|------|-------------|-------------|
+| Cigarettes (soft cap) — locally manufactured | UGX 55,000 per 1,000 sticks | UGX 65,000 per 1,000 sticks |
+| Cigarettes (soft cap) — imported | UGX 75,000 per 1,000 sticks | UGX 150,000 per 1,000 sticks |
+| Cigarettes (hinge lid) — locally manufactured | UGX 80,000 per 1,000 sticks | UGX 90,000 per 1,000 sticks |
+| Cigarettes (hinge lid) — imported | UGX 100,000 per 1,000 sticks | UGX 200,000 per 1,000 sticks |
+| Beer (≥75% local raw material content excl. water) | 30% or UGX 650/litre (higher) | **30% or UGX 900/litre** (higher) |
+| Beer from barley grown and malted in Uganda | 30% or UGX 950/litre (higher) | **Repealed** (consolidated into standard local-content category) |
+| Fruit juice/vegetable juice (exception threshold) | Exempt if ≥30% local pulp | Exempt if **≥50% local pulp** |
+| Motor spirit (petrol) | UGX 1,550/litre | **UGX 1,650/litre** |
+| Gas oil (automotive diesel) | UGX 1,230/litre | **UGX 1,380/litre** |
+| Plastic sacks and bags (HS 3923.21.00 and 3923.29.00, excl. vacuum packaging) | Not applicable | **New: 2.5% or USD 70/tonne** (whichever higher) |
+
+**Business plan implications:**
+- **Fuel costs:** Transport and logistics budgets must absorb petrol +UGX 100/litre and diesel +UGX 150/litre. For a business running a delivery vehicle consuming 200 litres/month diesel, operating cost rises by UGX 360,000/month (UGX 4.32M/year).
+- **Beverage manufacturers:** Beer producers should check which excise category applies post-repeal of the "barley malted in Uganda" category. Juice producers must source >50% of pulp locally to maintain exemption (up from 30%).
+- **Plastic packaging:** New levy on polythene sacks/bags makes imported plastic packaging more expensive; reinforces shift to alternative packaging.
+- **Excise duty remission on damaged/expired goods (new):** Businesses liable for excise duty may now apply to the Commissioner to remit duty paid on damaged, expired, or obsolete goods. Application must include: proof of duty payment, delivery documentation, competent authority damage report (for damaged goods). Commissioner may apply refund against outstanding excise duty or (on written request) against other undisputed tax liabilities.
+
+### 13.3 VAT Exemption Changes — Schedule 3, VAT Act Cap.344
+
+**New exemptions added:**
+- Biomass pellets (newly exempt — to promote renewable energy use)
+- Solar lanterns and raw materials for solar lantern manufacture (wording clarified — "composite" replaced with "solar")
+- Textile sector: wet processing operations, cotton lint, artificial fibres, polyester staple fibre, viscose rayon fibre, yarn (other than cotton yarn), textile dyes and chemicals, garment accessories, textile machinery spare parts, industrial consumables for textile production, textile manufacturing machinery and equipment (drafting corrected — provisions previously misread due to missing punctuation)
+
+**Exemption removed:**
+- Supply of billets for further value addition in Uganda: **exemption repealed** (was encouraging billet imports; removal protects local billet producers)
+
+**Zero-rating extended:**
+- Supply of aircraft (not just leasing) now zero-rated — zero rating previously applied only to aircraft leasing
+
+**Business plan implications:**
+- Textile and garment manufacturers: confirm full list of exempt inputs with a tax adviser — the restored exemption covers a wide range of inputs and reduces effective VAT cost substantially
+- Renewable energy businesses: biomass pellet producers benefit from lower input costs
+- Billet importers and steel fabricators using imported billets: factor in the 18% VAT now applicable to billet supply
+
+### 13.4 External Trade Changes — External Trade Act Cap.69
+
+**1.5% Infrastructure Levy (expanded scope):**
+- Previously applied only to selected dutiable items from outside EAC
+- From 1 July 2025: applies to **all goods imported for home use from outside EAC**
+- Basis: customs value (CIF)
+- **Exempt:** Fifth Schedule EAC goods (PWD equipment, mosquito nets, seeds, agricultural inputs, education materials, emergency relief, diagnostic equipment, etc.); plant and machinery under EAC CET Chapters 84 and 85; goods under special government operating frameworks
+
+**1.0% Import Declaration Fee (entirely new):**
+- No import declaration fees previously existed
+- From 1 July 2025: 1% of customs value on all goods imported for home use
+- **Same exemptions** as the infrastructure levy above
+
+**Export Levies (new — effective 1 July 2025):**
+
+| Commodity | Export Levy |
+|-----------|------------|
+| Wheat bran | USD 10 per metric tonne |
+| Cotton cake | USD 10 per metric tonne |
+| Maize bran | USD 10 per metric tonne |
+
+Purpose: discourage raw export of animal feed by-products; encourage domestic value addition. Relevant for poultry feed, dairy, and livestock feed businesses that procure these locally — export levy makes them available at lower domestic prices relative to export parity.
+
+**Tax Procedures Code — Penalty Waiver Window:**
+- Interest and penalties on principal tax liabilities outstanding as at **30 June 2024** are fully waived if the principal is paid by **30 June 2026**
+- Pro-rata waiver applies if only part of the principal is paid
+- Businesses with historic URA arrears should assess whether to use this window before 30 June 2026
+
+**NIN/BRN as TIN — Licensing Gate (effective from commencement):**
+- Individual TIN = National Identification Number (NIN) from NIRA
+- Non-individual TIN = Business Registration Number (BRN) from URSB
+- **All local authorities, government institutions, and regulatory bodies are directed not to issue any licence or business authorisation to any individual or company without a NIN or BRN**
+- This means: business registration (BRN from URSB) is now an absolute prerequisite for any operating licence
+- Implementation timeline for any business plan must include BRN acquisition before licence applications
