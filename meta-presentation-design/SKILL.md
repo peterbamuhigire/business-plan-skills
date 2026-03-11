@@ -238,6 +238,19 @@ Remove everything that doesn't directly support the headline:
 - Label the most important data point directly on the chart
 - Source every external data point (small text, bottom of slide)
 
+#### Dress Up Numbers — Make Data Vivid (Gallo/Jobs)
+
+Raw figures mean nothing without context. The presenter who translates numbers into vivid comparisons the audience already understands is the one remembered.
+
+| Raw figure | Dressed up |
+|---|---|
+| "Year 3 EBITDA: UGX 840M" | "By Year 3, this business generates the equivalent of two management salaries every week — from operations alone." |
+| "The market is worth UGX 4.2 trillion" | "Uganda's poultry market is larger than the national road maintenance budget — and growing faster." |
+| "Collateral value: UGX 180M on a UGX 120M loan" | "Every UGX 100 we borrow is secured by UGX 150 in registered property." |
+| "We create 23 direct jobs" | "We create 23 jobs — that is 23 families moved off subsistence income in the first 18 months." |
+
+**Rule:** Find the comparison. Make the number specific. Connect it to a reference frame the audience already holds. This technique requires no design skill and can be deployed verbally even if the projector fails.
+
 #### The "Glanceable Test" (Duarte)
 Hold the slide at arm's length for 3 seconds. If the key message is not immediately clear, the slide has too much information or too little visual hierarchy. Redesign.
 
@@ -296,6 +309,28 @@ A founder who knows their business and can speak about it naturally, with convic
 - The STAR moment — confirm timing and phrasing
 - The ask — exact words for the closing request
 - Physical warm-up: voice, posture, breathing
+
+### The 2–4 Minute Attention Cycle (Edwards)
+
+Audiences do not sustain attention continuously — they reset approximately every 2–4 minutes. A presenter who delivers content linearly, without engineering re-engagement, will lose the room regardless of content quality.
+
+**The technique:** After completing the first draft of any presentation, go back through it and insert an attention-gaining device at every 2–4 minute interval. A device can be:
+- A shift in voice inflection or volume
+- A rhetorical question directed at the audience
+- A new visual or prop introduced
+- A deliberate movement (stepping forward, moving to a different position)
+- A pause of 3–4 seconds followed by a restatement of the key point
+- Inviting a brief audience response
+
+This is a **designed, repeatable technique** — not a personality trait. Clients who feel they "lack presence" usually lack engineered re-engagement points, not charisma. Coach it explicitly: mark the intervals in the speaker notes.
+
+### The Confirm Findings Opening (Anthony)
+
+Begin the pitch by demonstrating you understand the funder's specific criteria — before making any claims about your business:
+
+> "We understand that Centenary Bank's SME lending criteria require a DSCR of at least 1.25× and collateral coverage of 125%. This presentation shows how this business meets both thresholds."
+
+In a context where almost every pitch presents a generic plan with no evidence of having studied the lender's actual requirements, this technique signals serious preparation and immediately repositions the presenter as a peer, not a supplicant. It is free, requires no production, and works for any funder type. Coach clients to research the funder's stated criteria before every meeting.
 
 ### The Co-Creation Principle (HBR / Elsbach Research)
 
