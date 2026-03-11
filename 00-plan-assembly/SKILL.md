@@ -14,6 +14,11 @@ Invoke AFTER:
 - `meta-bankability-scoring` has been run and score is ≥ 6.5
 - `meta-plan-consistency` check has been run with no critical inconsistencies
 - Financial projections have been stress-tested (`meta-financial-stress-test`)
+- `meta-due-diligence` Mode C has been run — all 15 sections pass DD audit (score ≥ 3.5 for bank; ≥ 4.0 for equity/DFI)
+
+**After plan assembly, also prepare:**
+- Presentation deck using `meta-presentation-design` — every submitted plan should be accompanied by a deck
+- Pitch preparation using `meta-pitch-preparation` — client must be ready to defend the plan in person
 
 ## Step 1: Identify the Funder Type
 
@@ -238,3 +243,6 @@ Before handing over the document, verify:
 - `references/covering-letter-templates.md` — Extended covering letter variants
 - `15-appendices/references/document-templates.md` — Director CV template, net worth statement, loan repayment schedule template
 - `11-funding-request/references/credit-assessment-frameworks.md` — 5 Cs / CAMPARI for self-check
+- `meta-due-diligence/SKILL.md` — Run Mode C (plan DD audit) before submission; every material claim must pass the 15-section verification table; data room structure for investor submissions
+- `meta-presentation-design/SKILL.md` — Build the accompanying slide deck after plan assembly; 13-slide master template; client coaching protocol for delivery
+- `meta-pitch-preparation/SKILL.md` — Frame and delivery preparation; run alongside meta-presentation-design to prepare client for the live pitch
