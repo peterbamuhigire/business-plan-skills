@@ -132,6 +132,22 @@ For investor-facing summaries, structure the core proposition using these proven
 
 **Long Elevator Pitch** (Alam, adds investor-facing elements): short version + TAM, initial target segment, go-to-market channel, growth rate, pricing, USP, team, traction, funding ask with equity stake.
 
+### Pyramid Structure Test (Minto)
+
+Before finalising the executive summary, apply the Pyramid Principle test (Minto, 2010):
+
+**The SCQA check:** Does the opening paragraph follow Situation → Complication → Question → Answer?
+- *Situation*: What the reader already knows to be true about the industry/business
+- *Complication*: What changed or what gap exists that creates urgency
+- *Question*: What the reader needs answered (implicitly or explicitly)
+- *Answer*: The governing thought — your main point, stated first
+
+**The 30-second test:** Can a reader extract the governing thought and all Key Line points in under 30 seconds? If not, restructure. The executive summary is already the pyramid in compressed form — the opening paragraph IS the top box, the bullet headings ARE the Key Line.
+
+**Blank assertion test:** Replace any "three reasons" or "five objectives" statements with the actual insight those points collectively imply. "We have three competitive advantages" → "Our cost structure is 40% below competitors because we own the supply chain."
+
+See `references/pyramid-principle.md` for the full framework including MECE grouping rules, deductive vs. inductive structure, and the problem-definition framework (R1/R2) that maps directly onto the Situation/Complication logic.
+
 ### Brand Story Narrative Test (Brito)
 
 Before finalising the business concept paragraph, apply the Hero Narrative test (Brito, 2013):
@@ -176,3 +192,4 @@ Frame the executive summary appropriately for the venture type (Blank & Dorf, 20
 - **Persuasion and presentation techniques**: See `references/presentation-structure.md` for audience analysis, persuasive structuring, and visual communication principles
 - **Proposal summarisation patterns**: See `references/proposal-patterns.md` for examples and templates of effective executive summaries for funding proposals
 - **Brand story and Hero Narrative framework**: See `../07-marketing-sales-strategy/references/social-business-brand-strategy.md` for Brito's nine-input content narrative framework, Hero Narrative simplification test, converged media model (paid/earned/owned), and content governance principles — applicable when writing the business concept paragraph and brand positioning statement
+- **Pyramid Principle — structure and logic**: See `references/pyramid-principle.md` for Minto's full framework: SCQA opening formula, pyramid rules (MECE groupings, three logical orders, deductive vs. inductive), the 30-second test, intellectually blank assertion errors, and the problem-definition framework (R1/R2 → Q → A) — the structural backbone for executive summaries, proposals, and any document where the purpose is to present thinking clearly

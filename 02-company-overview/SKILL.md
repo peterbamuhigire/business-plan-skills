@@ -28,13 +28,36 @@ Generate a comprehensive company description that establishes who the business i
 
 **Established:** Focus on track record, growth trajectory, pivots and lessons learned, and current market position.
 
+## Mission and Vision Methodology — The Golden Circle
+
+Use the Golden Circle framework (Sinek, 2009) to write compelling, authentic mission and vision statements. See `references/mission-vision-why.md` for the full framework. Key principles:
+
+**Three layers — always write from inside out:**
+- **WHY** (inner): The belief or cause — why the business exists beyond making money. "We believe that [people / community / world] deserves [something currently missing or wrong]."
+- **HOW** (middle): The values and approach that bring the WHY to life — expressed as verb phrases, not nouns (e.g., "we always listen before we advise", not "integrity").
+- **WHAT** (outer): The products/services — proof of the WHY, not the reason for it.
+
+**Common mistakes to avoid:**
+- Mission statements that are only WHAT ("We sell quality flour") — no belief, no inspiration
+- Generic virtue lists ("quality, innovation, integrity") — not actionable, not differentiating
+- Profit as the WHY ("to become the leading provider by 2030") — results are not purpose
+
+**Discovering the WHY (for startups):** Ask the founder: *Why did you start this? What problem could you not ignore? What would be lost in your community if this business did not exist?* The WHY comes from looking backwards at formative experience, not forwards at market opportunity.
+
+**The Celery Test:** Every product, partnership, hire, or strategic decision should prove the WHY. If a decision cannot be connected to the stated WHY, it is either a short-term exception or the WHY is not yet clear.
+
+**Uganda/East Africa context:** Compelling WHYs in this market often draw on Ubuntu values (collective wellbeing), family legacy, community uplift, or closing inequality gaps in access to services. These are not platitudes — they are genuine motivators for most Ugandan founders and resonate with both commercial lenders (CAMPARI Character element) and development funders.
+
 ## Generation Process
 
 1. Ask for: business name, industry, country, founding date, legal structure
-2. Draft mission and vision — keep them distinct (mission = present purpose, vision = future aspiration)
-3. Build the narrative arc from founding to current state
-4. List milestones chronologically
-5. Document ownership and legal details
+2. Discover the WHY using founder questions (see above); draft WHY statement first
+3. Draft HOW as 3–5 verb-based principles; draft mission combining WHY + HOW + WHAT proof
+4. Draft vision as the future-state realisation of the WHY
+5. Apply the Celery Test to confirm all products/services prove the WHY
+6. Build the narrative arc from founding to current state
+7. List milestones chronologically
+8. Document ownership and legal details
 
 ## Uganda-Specific Legal Structure Guidance
 
@@ -50,11 +73,16 @@ State in the Company Overview: legal structure, URSB registration number, TIN, t
 ## Reference Files
 
 - `references/doing-business-uganda.md` — Business registration, legal structures, employment law, investment licensing, banking, economic overview (RSM Eastern Africa 2026; Baker Tilly 2024)
+- `references/mission-vision-why.md` — Golden Circle framework (Sinek, 2009): WHY/HOW/WHAT methodology, Celery Test, mission statement templates, Uganda/East Africa application guidance
 
 ## Quality Criteria
 
-- Mission statement is specific (not generic platitudes)
-- Vision is ambitious but credible
+- Mission statement leads with WHY (belief/purpose), not WHAT (product) or profit
+- WHY is authentic to the founder's experience — not written for funders, but resonant with them
+- HOW principles are expressed as verb phrases, not nouns
+- WHAT (products/services) is described as proof of the WHY, not the other way around
+- Vision is ambitious but credible — describes a transformed future state
+- All products and strategic choices pass the Celery Test against the stated WHY
 - Ownership structure is transparent — no ambiguity for investors
 - History demonstrates learning and adaptability
 - Legal structure is explicitly stated and consistent with the tax regime used in financial projections

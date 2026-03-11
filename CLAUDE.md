@@ -42,6 +42,27 @@ This is a collection of Claude Code skills for generating bankable business plan
 - Use local regulatory context (URA tax requirements, KCCA/district licensing, UNBS standards, NEMA environmental permits)
 - Reference local institutions: Bank of Uganda, Uganda Development Bank, microfinance institutions, SACCOs
 
+### Multi-Country Plans (Non-Uganda)
+
+When a `country-context/{country-name}.md` file exists in the repo, **use it as the regulatory and financial context for all plan sections**:
+
+1. **Currency** — use the currency code and exchange rates from Section 1 (replace UGX with local currency)
+2. **Tax rates** — use Section 4 (replace Uganda PAYE bands, 30% corporate tax, 18% VAT, EFRIS references)
+3. **Regulatory bodies** — use Section 5 (replace KCCA, URA, UNBS, NEMA with local equivalents)
+4. **Banking context** — use Section 6 (replace Centenary Bank, Stanbic, UDB with local institutions)
+5. **Salary benchmarks** — use Section 7 (replace Uganda wage bands)
+6. **Risk context** — use Section 9 (replace Uganda-specific risks table in Section 12 skill)
+
+**Universal frameworks always apply regardless of country:**
+- CAMPARI, DSCR ≥ 1.25×, TAM/SAM/SOM methodology
+- DCF/WACC/CAPM valuation, revenue multiples, Damodaran rules
+- Pyramid Principle / SCQA (Minto), MECE / issue trees (Rasiel)
+- Sales methodology (Schiffman, Keenan, gap selling)
+- Risk assessment (COSO ERM, Bowtie, MECE risk register)
+- All marketing frameworks (AARRR, 4Ps/7Ps, Kotler, Golden Circle)
+
+If no country file exists, Uganda defaults apply. To create a file for a new country, use `country-context/template.md`.
+
 ### Source Referencing
 
 - Cite reference books where they add credibility to the business plan: financial benchmarks, regulatory frameworks, pricing methodologies, industry statistics

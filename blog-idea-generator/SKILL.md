@@ -239,3 +239,19 @@ Before finalising:
 - [ ] Narrative briefs are compelling — they make you want to write the article
 
 After writing, verify line count is under 500: wc -l blog-idea-generator/SKILL.md
+
+---
+
+## Business Plan Blog Ideas (Pre-Built Bank)
+
+When generating blog posts about **business planning, entrepreneurship, management, or plan-writing**, first consult the pre-built idea bank before running the full ideation process:
+
+**`references/book-derived-blog-ideas.md`** — 20 original, book-sourced post ideas (4 per Tier 1 book + 4 cross-book ideas). Each idea includes: angle, target reader, hook sentence, source reference file, and recommended format. Derived from: Minto (Pyramid Principle), Rasiel (McKinsey Way), Damodaran (Valuation), Feld & Mendelson (Venture Deals), Agrawal et al. (Prediction Machines), Sinek (Start with Why).
+
+**When to use this bank:**
+- Client is a business consultant, coach, accountant, or financial adviser
+- Website covers entrepreneurship, business planning, funding, or strategy
+- Content calendar needs authority-builder or thought-leadership pieces
+- Audience is entrepreneurs, SME owners, or plan writers
+
+**Each idea in the bank maps directly to a reference file** — so the blog writer can draw on deep, sourced content rather than generic advice. Reference the specific file listed in the "Draw from" field of each idea when writing the article.
