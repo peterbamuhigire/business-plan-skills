@@ -217,3 +217,4 @@ A plan that fails ≥ 3 consistency checks should be revised before scoring — 
 - `references/lender-criteria-uganda.md` — Formal credit criteria mapped to Uganda bank standards (created when Doing Business Uganda PDF extraction is complete)
 - `10-financial-projections/references/uganda-tax-framework.md` — Tax rates for financial projection verification
 - `11-funding-request/references/credit-assessment-frameworks.md` — 5 Cs and CAMPARI detail
+- `meta-sustainability/SKILL.md` — Sustainability Readiness Score (SRS); for DFI/impact investor plans, run Mode C audit and confirm SRS ≥ 1.6/2.0 before CAMPARI scoring; social licence to operate (community opposition risk) is a CAMPARI Character factor; environmental non-compliance is a CAMPARI Conditions factor

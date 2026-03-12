@@ -10,7 +10,8 @@ Convert a completed set of business plan sections into a submission-ready docume
 ## When to Use
 
 Invoke AFTER:
-- All 15 sections (01-executive-summary through 15-appendices) are drafted
+- All 16 sections (01-executive-summary through 16-sustainability-strategy) are drafted
+- `meta-sustainability` Mode C audit has been run — Sustainability Readiness Score ≥ 1.2/2.0 (commercial bank) or ≥ 1.6/2.0 (DFI/impact investor)
 - `meta-bankability-scoring` has been run and score is ≥ 6.5
 - `meta-plan-consistency` check has been run with no critical inconsistencies
 - Financial projections have been stress-tested (`meta-financial-stress-test`)
@@ -137,6 +138,7 @@ Redirect to `11b-grant-proposal/SKILL.md` — grant applications use a completel
 13. Implementation timeline (§13)
 14. AI/technology integration (§14)
 15. Appendices (§15) — supporting documents
+16. Sustainability strategy (§16) — required for DFI; recommended for all plans
 
 **Note:** Some Ugandan banks request the Executive Summary last (after appendices) as a one-page summary. If the bank provides a template or checklist, follow it exactly.
 
@@ -242,6 +244,7 @@ Before handing over the document, verify:
 - `references/submission-guide.md` — Funder-specific submission requirements and contact details
 - `references/covering-letter-templates.md` — Extended covering letter variants
 - `15-appendices/references/document-templates.md` — Director CV template, net worth statement, loan repayment schedule template
+- `meta-sustainability/SKILL.md` — Sustainability pre-screen (Mode A) and audit (Mode C); Sustainability Readiness Score thresholds for commercial bank (≥1.2/2.0) and DFI/impact investor (≥1.6/2.0); run Mode C before assembly
 - `11-funding-request/references/credit-assessment-frameworks.md` — 5 Cs / CAMPARI for self-check
 - `meta-due-diligence/SKILL.md` — Run Mode C (plan DD audit) before submission; every material claim must pass the 15-section verification table; data room structure for investor submissions
 - `meta-presentation-design/SKILL.md` — Build the accompanying slide deck after plan assembly; 13-slide master template; client coaching protocol for delivery

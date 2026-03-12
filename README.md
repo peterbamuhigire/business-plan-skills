@@ -2,7 +2,7 @@
 
 A modular collection of Claude Code skills for generating, validating, and delivering bankable business plans. Each section of a professional business plan is a standalone skill — invoke individually or chain to produce a complete investor-ready document.
 
-**38 skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
+**40 skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
 
 ---
 
@@ -92,6 +92,7 @@ Invoke in order (02 → 15, then 01 last) to produce a complete plan.
 | 13 | `13-implementation-timeline` | Gantt, milestones, Pre-Phase 0 regulatory gate, 90-day sprints |
 | 14 | `14-ai-integration` | AI utilisation map, 6D model, Three Horizons, automation ROI |
 | 15 | `15-appendices` | Supporting documents, Uganda bank submission checklist, templates |
+| 16 | `16-sustainability-strategy` | Mandatory from 2026: sustainability vision, SDGs, climate adaptation, circular economy, social impact KPIs |
 
 ### Pitch and Presentation Skills
 
@@ -105,6 +106,7 @@ Invoke in order (02 → 15, then 01 last) to produce a complete plan.
 
 | Skill Directory | What It Does |
 |---|---|
+| `meta-sustainability` | Mandatory sustainability pre-screen (Mode A) and audit (Mode C); Sustainability Readiness Score (5 dimensions); sector materialities; SDG alignment; IFC Performance Standards compliance for DFI applications |
 | `meta-bankability-scoring` | CAMPARI 28-item checklist; bank loan readiness scoring; 12-point cross-section consistency audit |
 | `meta-financial-stress-test` | 4-scenario stress model, Uganda historical shocks, DSCR stress test, Early Warning Dashboard |
 | `meta-market-validation` | Validates market claims against real data; MECE issue trees; flags unsupported assumptions |
