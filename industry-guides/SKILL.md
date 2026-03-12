@@ -22,6 +22,7 @@ Provide industry-specific context, benchmarks, and best practices to tailor busi
 | **Agriculture & Agribusiness** | `agriculture/` | Enterprise budgets, crop planning, farm financial management, agribusiness value chain, marketing channels, organic certification |
 | **Retail & Shop Management** | `retail/` | Startup costs by format, retail financial management, Strategic Profit Model, inventory/merchandising, site selection, retail analytics/KPIs, marketing/promotion |
 | **Food Processing** | `food-processing/` | Value-addition to agricultural products: dairy, bakery, beverages, spices, oils, cereals, fruits/vegetables, meat/fish processing. 46 UNDP business profiles with investment benchmarks |
+| **Dairy Farming** | `dairy-farming/` | Market structure, 5 production systems with economic benchmarks, regional milksheds, climate-smart feed and manure innovations, startup planning framework, soil nutrient management, value chain actors, financial benchmarks by scale |
 | **Livestock, Aquaculture & Farming** | `livestock-aquaculture/` | Poultry, piggery, dairy, cattle, aquaculture, apiculture, horticulture, agri-inputs. 22 UNDP business profiles |
 | **Light Manufacturing** | `manufacturing-light/` | Plastics/rubber, paper/stationery, metal products, crafts/decorative, recycling, electronics. 49 UNDP business profiles |
 | **Textiles, Fashion & Leather** | `textiles-fashion/` | Garments, leather goods/footwear, natural fibre products, accessories/jewellery. 25 UNDP business profiles |
