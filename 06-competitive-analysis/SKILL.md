@@ -139,6 +139,27 @@ Never compete on the incumbent's terms. Instead:
 - Positioning is distinct — clear blue water between this business and alternatives
 - Guerrilla strategy is included for startups and small businesses
 
+## Porter's Five Forces Industry Analysis
+*(Porter, M.E., 1980)*
+
+Apply Porter's Five Forces to establish the **structural attractiveness** of the industry before detailing individual competitors. Five Forces explains *why* an industry is profitable or not — competitor analysis explains *who* the players are. Both are required for a complete competitive analysis.
+
+| Force | Key Questions | Assessment |
+|-------|--------------|------------|
+| **Competitive Rivalry** | How many competitors? How intense is price competition? How differentiated is the industry? Is growth slow (zero-sum) or fast? | High / Medium / Low |
+| **Threat of New Entrants** | Are barriers to entry high? Capital requirements? Regulatory licences? Economies of scale? Brand loyalty requirements? | High / Medium / Low |
+| **Supplier Power** | How many suppliers? Are inputs commoditised or specialised? How easy to switch suppliers? Do suppliers pose a forward-integration threat? | High / Medium / Low |
+| **Buyer Power** | How concentrated are buyers? Are they price-sensitive? Can they backward-integrate? Do they have full information on alternatives? | High / Medium / Low |
+| **Threat of Substitutes** | Can customers meet the same need a different way? Are substitutes improving in price-performance? What is the switching cost? | High / Medium / Low |
+
+**Five Forces summary:** State whether the industry is **structurally attractive** (most forces Low = favourable; above-average returns sustainable) or **structurally unattractive** (most forces High = unfavourable; competition erodes returns to minimum). Then explain how this business's competitive strategy addresses the most unfavourable forces.
+
+**Strategic group analysis:** Once Five Forces are assessed at the industry level, map competitors into **strategic groups** — clusters of firms following similar strategies. Within-group rivalry is most intense; between-group competition is moderated by mobility barriers. Identify which group this business belongs to and what barriers protect it.
+
+**Cross-reference:** `references/competitive-strategy-porter.md` for the full Five Forces framework with assessment questions and Uganda/EA examples. `references/industry-structure-porter.md` (in `04-market-analysis/`) for strategic group mapping and industry evolution analysis. `meta-due-diligence/references/osint-business-intelligence.md` for methodology on gathering competitor intelligence in low-data EA markets.
+
+---
+
 ## Business Model vs Strategy Analysis (Teece)
 
 When assessing competitive position, distinguish between the business model and the competitive strategy — they are related but not the same (Teece, 2010):
@@ -180,6 +201,9 @@ Beyond standard competitive dimensions, assess differentiation across four exper
 
 - **Competitive metrics and share analysis**: See `references/competitive-metrics.md` for market share calculations, concentration analysis, brand development indices, and competitive benchmarking formulas from Farris
 - **Positioning and differentiation**: See `references/positioning-strategy.md` for guerrilla positioning tactics, value-based differentiation frameworks, perceptual mapping, and blue ocean positioning approaches
+- **Porter's Five Forces and competitive strategy**: See `references/competitive-strategy-porter.md` for the full Five Forces framework with Uganda/EA examples, three generic strategies (cost leadership, differentiation, focus), the four-component competitor analysis framework (future goals, current strategy, assumptions, capabilities), market signals, and strategic groups — from Porter (1980)
+- **Industry structure, strategic groups, and industry evolution**: See `../04-market-analysis/references/industry-structure-porter.md` for strategic group mapping methodology, mobility barriers, industry evolution driving forces, and the product life cycle critique — from Porter (1980)
+- **Competitor intelligence methodology**: See `../meta-due-diligence/references/osint-business-intelligence.md` for the 5-layer OSINT framework for gathering competitor intelligence in low-data EA markets — physical surveys, digital footprint analysis, supplier/distributor conversations, and red flag registers
 - **Competitive strategy tools**: See `references/competitive-strategy-tools.md` for competitor analysis framework, competitive position rating (0-5 scale), strategy maps, strategic gap analysis, generic strategies, value chain analysis, strategy evaluation tests, competitive life cycle, and Blue Ocean Strategy from Evans, Harris & Lenox, and Fahey & Randall
 - **Strategy Choice Cascade**: See `references/strategy-cascade-framework.md` for the five-question strategy cascade, five strategy traps, where-to-play and how-to-win choices, activity system mapping, strategy logic flow, reverse engineering strategic choices, and cascade-to-business-plan mapping from Lafley & Martin
 - **Business model vs strategy distinction, value capture mechanisms, business model archetypes**: See `../03-products-services/references/business-models-innovation-teece.md` for Teece's full framework

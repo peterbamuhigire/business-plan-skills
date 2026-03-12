@@ -109,8 +109,33 @@ Before sizing the market, classify its type — this changes everything about st
 
 Use the cost-of-entry thresholds to assess competitive feasibility: 74%+ = monopoly (avoid head-on), 41%+ = market leader (re-segment instead), <26% = fragmented (easiest entry). See `references/market-type-entry-analysis.md`.
 
+## Industry Structure Analysis (Porter)
+
+Beyond market sizing, assess the **structural attractiveness** of the industry using Porter's analytical frameworks:
+
+### Industry Lifecycle Stage (Porter's critique of the Product Life Cycle)
+Rather than mechanically applying the standard introduction → growth → maturity → decline model (which Porter shows is unreliable), identify the **driving forces** that are actively changing industry structure:
+
+| Driving Force | How to Assess It |
+|--------------|-----------------|
+| Long-run growth rate change | Is the market growing, plateauing, or declining? What is causing it? |
+| Changes in buyer segments | Are new buyer types entering? Are existing buyers becoming more sophisticated? |
+| Product or process innovation | Is technology changing what buyers expect or how firms can serve them? |
+| Entry or exit of major firms | Are new entrants or large firms reshaping the competitive landscape? |
+| Input cost changes | Are input costs shifting in ways that favour some competitors over others? |
+| Regulatory change | Is regulation creating or removing entry barriers? |
+
+### Strategic Group Mapping
+Cluster competitors into **strategic groups** — firms following similar strategies along key dimensions (price position, quality, geographic coverage, vertical integration, brand investment). This reveals:
+- Which firms are *direct* competitors (same strategic group) vs. indirect (different group)
+- Whether any strategic position is unoccupied — and whether this is an opportunity or a structural impossibility
+- Which group is in the most structurally attractive position (faces weakest Five Forces)
+
+**Cross-reference:** `references/industry-structure-porter.md` for the complete framework including strategic dimensions, mobility barriers, industry evolution driving forces, and Uganda/EA application notes.
+
 ## References
 
+- **Industry structure, strategic groups, and industry evolution**: See `references/industry-structure-porter.md` for strategic group mapping methodology, dimensions of competitive strategy, mobility barriers, industry evolution driving forces, product life cycle critique, and Uganda/EA application notes — from Porter (1980)
 - **Market metrics and formulas**: See `references/market-metrics.md` for comprehensive market measurement formulas, market share calculations, and industry analysis metrics from Farris
 - **Industry trend analysis**: See `references/industry-trends.md` for trend identification frameworks, digital transformation indicators, and phygital marketing evolution from Kotler 6.0
 - **Marketing research methodology**: See `references/marketing-research-methodology.md` for the complete marketing research process, secondary data evaluation criteria, research design selection (exploratory/descriptive/causal), sampling methods with sample size formulas, statistical analysis techniques for market analysis, and research report formatting from Hair, Ortinau & Harrison

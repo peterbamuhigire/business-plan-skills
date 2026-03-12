@@ -140,8 +140,42 @@ Asset monetisation idea: [revenue from idle capacity]
 
 (Kaza, 2025)
 
+## Value Chain Analysis (Porter)
+
+For businesses that need to explain *where* competitive advantage comes from in operational terms, use Porter's value chain framework. The value chain disaggregates the firm into nine strategically relevant activities and reveals the structural sources of cost advantage and differentiation.
+
+### The Nine Activities (brief reference)
+
+**Primary activities** (directly involved in product creation and delivery):
+1. Inbound Logistics — receiving, storing, distributing inputs
+2. Operations — transforming inputs into the final product
+3. Outbound Logistics — collecting, storing, distributing finished goods
+4. Marketing & Sales — enabling buyers to purchase and inducing them to do so
+5. Service — maintaining or enhancing product value after sale
+
+**Support activities** (enabling the primary activities):
+6. Procurement — purchasing inputs used across all activities
+7. Technology Development — know-how and procedures embedded in each activity
+8. Human Resource Management — recruiting, training, compensation firmwide
+9. Firm Infrastructure — general management, finance, accounting, legal, quality
+
+### Applying Value Chain to the Operations Plan
+
+In the operations plan, use the value chain to:
+- Identify **which primary activities create the most value** and deserve the most operational investment
+- Explain **which activities are the primary cost drivers** — and how management will control them
+- Show **where differentiation is created** — which specific activities make this business unique to buyers
+- Describe **key linkages** — pairs of activities that must be coordinated to achieve quality or cost objectives
+
+### Key Cost Drivers (Porter's 10 structural factors)
+
+The most important cost drivers for Uganda/EA SMEs are typically: **scale** (reaching efficient volume), **learning** (cost reduction as cumulative output grows), **location** (labour cost, access to inputs), **discretionary policies** (quality standards, service levels, process choices), and **institutional factors** (regulatory compliance cost: EFRIS, UNBS, NIN/BRN).
+
+**Cross-reference:** `references/value-chain-porter.md` for the full framework including all 10 cost drivers, differentiation/uniqueness drivers, competitive scope analysis, and a Uganda/EA application section with industry-by-industry examples.
+
 ## References
 
+- **Value chain and competitive advantage**: See `references/value-chain-porter.md` for the full value chain framework (9 activities), value system (supplier/channel/buyer linkages), 10 structural cost drivers, differentiation/uniqueness drivers, competitive scope, and Uganda/EA application notes — from Porter (1985)
 - **Product development lifecycle**: See `../03-products-services/references/product-development-lifecycle.md` for VDPD process, prototyping, MVP development, manufacturing considerations, and innovation strategy (incremental vs. radical) — from Bates and Tidd & Bessant
 - **Product management frameworks**: See `../03-products-services/references/product-management-frameworks.md` for product scaling strategies (8 approaches), experimentation techniques, and Key Value Areas for operational metrics — from Verwijs et al
 - **Business process management**: See `references/business-process-management.md` for BPM lifecycle, Devil's Quadrangle performance trade-offs, value-added analysis, improvement technique wheel (SALT filter), 29 redesign heuristics, process maturity assessment, process metrics (CTE, Little's Law), scope definition, and process landscape mapping — from Dumas et al. (Springer, 2013) and Page (AMACOM, 2015)
