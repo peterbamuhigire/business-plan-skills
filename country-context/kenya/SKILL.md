@@ -248,7 +248,19 @@ Detailed reference data: `references/kenya-investment-climate.md`
 - IMF *Article IV Consultation Kenya 2024*
 - EAC Secretariat trade data 2024
 
-**Detailed reference file:** `country-context/kenya/references/kenya-investment-climate.md`
+**Detailed reference files:**
+- `country-context/kenya/references/kenya-investment-climate.md` — FDI rules, EPZ/SEZ tax incentives, trade agreements, IP regime, labour law, detailed tax tables
+
+**Live metrics files:**
+
+| File | Purpose | Columns |
+|------|---------|---------|
+| `references/economic-metrics.csv` | Latest snapshot — 100 metrics | category, metric, value, unit, data_date, source |
+| `references/economic-metrics-history.csv` | Append-only time series — all historical runs | scraped_date, category, metric, value, unit, data_date, source |
+
+Run `python tools/scrape_metrics.py kenya` to refresh.
+
+**For Claude:** Read `economic-metrics-history.csv` to identify trends before generating projections. Quote `scraped_date` and `data_date` when citing metrics in plan sections.
 
 ---
 

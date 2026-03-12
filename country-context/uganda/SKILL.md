@@ -204,7 +204,20 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 
 ---
 
-## 10. Data Sources
+## 10. Live Metrics Files
+
+| File | Purpose | Columns |
+|------|---------|---------|
+| `references/economic-metrics.csv` | Latest snapshot — 100 metrics | category, metric, value, unit, data_date, source |
+| `references/economic-metrics-history.csv` | Append-only time series — all historical runs | scraped_date, category, metric, value, unit, data_date, source |
+
+Run `python tools/scrape_metrics.py uganda` to refresh (updates both files).
+
+**For Claude:** When generating financial projections or market analysis, read `economic-metrics-history.csv` to identify trends (e.g., GDP growth trajectory, inflation direction, lending rate movement). Quote the `scraped_date` and `data_date` when citing metrics in the plan.
+
+---
+
+## 12. Data Sources
 
 - UBOS (Uganda Bureau of Statistics) — ubos.org
 - Bank of Uganda — bou.or.ug
@@ -217,7 +230,7 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 
 ---
 
-## 11. Plan Author Notes
+## 13. Plan Author Notes
 
 ```
 Default country: Uganda
