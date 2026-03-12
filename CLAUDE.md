@@ -44,7 +44,7 @@ This is a collection of Claude Code skills for generating bankable business plan
 
 ### Multi-Country Plans (Non-Uganda)
 
-When a `country-context/{country-name}.md` file exists in the repo, **use it as the regulatory and financial context for all plan sections**:
+When a `country-context/{country-name}/SKILL.md` file exists in the repo, **use it as the regulatory and financial context for all plan sections**:
 
 1. **Currency** — use the currency code and exchange rates from Section 1 (replace UGX with local currency)
 2. **Tax rates** — use Section 4 (replace Uganda PAYE bands, 30% corporate tax, 18% VAT, EFRIS references)
@@ -61,7 +61,7 @@ When a `country-context/{country-name}.md` file exists in the repo, **use it as 
 - Risk assessment (COSO ERM, Bowtie, MECE risk register)
 - All marketing frameworks (AARRR, 4Ps/7Ps, Kotler, Golden Circle)
 
-If no country file exists, Uganda defaults apply. To create a file for a new country, use `country-context/template.md`.
+If no country file exists, Uganda defaults apply. To create a file for a new country, copy `country-context/template.md` to `country-context/{country-name}/SKILL.md`. See `country-context/INDEX.md` for available countries.
 
 ### Source Referencing
 

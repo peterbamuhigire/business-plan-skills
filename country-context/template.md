@@ -1,16 +1,20 @@
 ---
 name: country-context-template
-description: Fill in this template for any non-Uganda country context. Save the completed file as country-context/{country-name}.md. When a country file is present, all business plan skills will use it instead of Uganda defaults.
+description: Fill in this template for any new country context. Save the completed file as country-context/{country-name}/SKILL.md. When a country SKILL.md is present, all business plan skills will use it instead of Uganda defaults.
 ---
 
 # Country Context File
 ## Instructions
 
-Copy this file to `country-context/{country-name}.md` (e.g., `country-context/kenya.md`, `country-context/canada.md`, `country-context/fiji.md`).
+Copy this file to `country-context/{country-name}/SKILL.md` (e.g., `country-context/tanzania/SKILL.md`).
+
+Create `country-context/{country-name}/references/` for detailed reference data files.
 
 Fill in every field based on your research. Mark any field you cannot source as `[ESTIMATE — verify]`.
 
 When this file is present, Claude will use it as the regulatory and financial context for all plan sections. Uganda defaults apply only when no country file exists.
+
+**See also:** `INDEX.md` for the list of completed country contexts.
 
 ---
 
