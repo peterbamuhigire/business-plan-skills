@@ -527,3 +527,47 @@ Uganda currently sits in the **"high commodities" GVC category** — exporting p
 - Input sourcing: local sourcing counts toward the 35% EAC Rules of Origin threshold for zero-tariff export
 - Processing: any washing, grading, packaging, or transformation adds value and improves RVC participation
 - Export markets: identify which markets treat your product category as "Category A" (non-sensitive) under AfCFTA tariff schedules
+
+---
+
+## 7. Tanzania FYDP III Trade Targets (2021/22–2025/26)
+
+Source: Government of Tanzania, *National Five-Year Development Plan 2021/22–2025/26 (FYDP III)*, June 2021.
+
+Tanzania has set ambitious trade targets as part of its final Vision 2025 plan. These signal where regional supply chain opportunities will concentrate.
+
+### 7.1 Tanzania Export Targets
+
+| Indicator | 2019/20 Baseline | 2025/26 Target |
+|-----------|-----------------|----------------|
+| Exports / GDP (%) | 16.1% | **28.0%** |
+| Manufactured goods in exports (%) | 35% | 40% |
+| Services in exports (%) | 45% | 50% |
+| **Exports to EAC (% of total exports)** | 7% | **15%** |
+| — Of which manufactured goods | 10.8% | 14% |
+| **Exports to SADC (% of total exports)** | 14% | **30%** |
+| Imports / GDP (%) | 17.9% | 13% (import substitution target) |
+
+### 7.2 Key Sector Export Targets
+
+| Sector | Baseline 2019/20 | Target 2025/26 |
+|--------|-----------------|----------------|
+| Agriculture exports / total exports (%) | 13% | **19%** |
+| Manufacturing contribution to total exports (%) | 16.9% | **24%** |
+| Mining foreign exchange earnings (USD million) | 2,997 | **5,505** |
+| Tourism earnings (USD billion) | 2.6 | **6.0** |
+| Tourist arrivals | 1,527,230 | **5,000,000** |
+
+### 7.3 Implications for Regional Business Plans
+
+**Tanzania as export market:** FYDP III targets doubling EAC imports from current 7.5% to 11% of total imports. Tanzania is the **2nd-largest EAC economy** and growing fastest regionally. For Ugandan exporters, Tanzania is a high-priority market (9.8% of Tanzania's intra-Africa exports go to Uganda; Tanzania purchases Ugandan-origin goods).
+
+**Tanzania DSM Port as gateway:** With SGR operational (DSM–Dodoma since May 2025, extending to Mwanza/Kigoma), Tanzania is consolidating its role as the EAC's primary ocean gateway for Uganda, Rwanda, Burundi, and DRC. Logistics businesses, warehousing, and transit services will benefit.
+
+**FYDP III industrialisation push creates input demand:**
+- Mkulazi sugar plant (250,000 tonnes/yr) + Mchuchuma coal/steel — regional raw material and equipment supply opportunities
+- Manufacturing sector targeting 2× employment share (6.75% → 12.8%) — creates industrial inputs demand
+- Irrigation expansion: 694,715 → 1,200,000 hectares — pump, pipe, seed, agronomy services demand
+- 1,000+ TVET centres planned for skills — training equipment, curriculum materials
+
+**Tanzania SEZ locations (new EPZs planned):** Singida/Manyoni, Pwani, Kigoma, Tanga, Manyara, Mara, Ruvuma. Business plans targeting Tanzania should note proximity to relevant SEZ when identifying location advantages.

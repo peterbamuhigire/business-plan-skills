@@ -1,6 +1,6 @@
 ---
 name: country-context-tanzania
-description: Tanzania country context for business plan generation. Covers currency (TZS), tax rates (TRA/EFD), regulatory bodies (TIC, BRELA, NEMC, TBS, BOT, TCRA), banking (Bank of Tanzania, CRDB, NMB, mobile money 54.6M accounts), labour market, macro data (Budget Execution Report Q1 2025/26, Afrexim 2025, AfDB CSP 2025, IMF Report July 2025, KNBS). Load this file when generating a Tanzania business plan.
+description: Tanzania country context for business plan generation. Covers currency (TZS), tax rates (TRA/EFD), regulatory bodies (TIC, BRELA, NEMC, TBS, BOT, TCRA), banking (Bank of Tanzania, CRDB, NMB, mobile money 54.6M accounts), labour market, macro data (Budget Execution Report Q1 2025/26, Afrexim 2025, AfDB CSP 2025, IMF Report July 2025). Also includes FYDP III (National Five-Year Development Plan 2021/22–2025/26) with sector targets, flagship projects, and investment opportunities. Load this file when generating a Tanzania business plan.
 ---
 
 # Tanzania Country Context
@@ -20,6 +20,7 @@ Universal frameworks always apply: CAMPARI, DSCR ≥ 1.25×, Minto Pyramid, Rasi
 **Detailed reference files:**
 - `references/tanzania-investment-climate.md` — TIC investment data, Tanzania Investment Act 2022, SEZ/EPZ, OSFC registration process, trade agreements, financial sector detail, risk summary
 - `references/tanzania-demographics-education.md` — Norad/AfDB: population (69M, 2.9% growth), age structure, fertility, labour market, education enrolment, LAYS, higher education system
+- `references/tanzania-fydp3-development-plan.md` — **FYDP III (2021/22–2025/26)**: national plan targets; 17 flagship projects (SGR, JNHPP, EACOP, LNG, Mchuchuma, SEZs); sector targets (agriculture, manufacturing, mining, tourism, construction, ICT, financial services); macroeconomic targets (GDP 8%, GNI $3,000, FDI $7.98B); doing business reform targets; TZS 114.8 trillion resource envelope; SWOC analysis; 15 key business opportunities
 
 **Live metrics file:** `references/economic-metrics.csv` — run `python tools/scrape_metrics.py tanzania` to populate.
 
@@ -305,6 +306,7 @@ Universal frameworks always apply: CAMPARI, DSCR ≥ 1.25×, Minto Pyramid, Rasi
 **Detailed reference files:**
 - `country-context/tanzania/references/tanzania-investment-climate.md`
 - `country-context/tanzania/references/tanzania-demographics-education.md`
+- `country-context/tanzania/references/tanzania-fydp3-development-plan.md`
 
 ---
 
@@ -313,8 +315,10 @@ Universal frameworks always apply: CAMPARI, DSCR ≥ 1.25×, Minto Pyramid, Rasi
 ```
 Country: Tanzania
 Completed by: Business Plan Skills project
-Date completed: 12 March 2026
-Sources: 7 PDFs — Budget Execution Report Q1 FY2025/26, Afrexim Sept 2025, AfDB Oct 2025, IMF July 2025, Norad May 2025, TIC Q3 2024/25 Bulletin, EA Market Assessment 2025
+Date last updated: 13 March 2026
+Sources: 8 PDFs — Budget Execution Report Q1 FY2025/26, Afrexim Sept 2025, AfDB Oct 2025,
+  IMF July 2025, Norad May 2025, TIC Q3 2024/25 Bulletin, EA Market Assessment 2025,
+  FYDP III (National 5-Year Development Plan 2021/22–2025/26, GoT June 2021, 352 pp.)
 Conservative planning rate: TZS 2,700/USD (Afrexim projects TZS 2,964 by end-2025; Q1 2025 actual TZS 2,459)
 Estimated fields (verify with TRA):
   - PAYE bands: source documents confirmed collections but did not tabulate bands
@@ -327,4 +331,8 @@ Known data gaps:
   - Detailed PAYE band table: request from TRA (tra.go.tz)
   - NSSF/PSSSF rates: check NSSF website (nssf.or.tz)
   - Full WHT schedule: TRA website or Income Tax Act 2004 (Cap. 332)
+FYDP III note: The plan's 2019/20 macroeconomic baseline is now superseded by 2025 actuals.
+  Use FYDP III targets as the government strategic direction; use 2025 sources (Budget, Afrexim,
+  AfDB, IMF) for current state. GDP growth has tracked 5.6–6.3% vs 8% target.
+  FDI target ($7.98B by 2026) is highly aspirational vs recent $1.17B baseline.
 ```
