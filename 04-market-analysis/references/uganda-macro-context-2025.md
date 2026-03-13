@@ -327,12 +327,78 @@
 
 ---
 
+---
+
+## 15. World Bank Economic Update — December 2025 (Key Findings)
+
+*Source: World Bank. (2025). Uganda Economic Update, December 2025: Cultivating Prosperity through Agro-Industrialisation.*
+
+### GDP and Sector Performance
+| Indicator | FY25 | FY26 (forecast) | FY27 (forecast) |
+|---|---|---|---|
+| Real GDP growth | **6.3%** | 6.4% | **9.8%** (oil) |
+| GDP per capita growth | 3.3% | — | — |
+| Agriculture growth | **6.6%** | — | — |
+| Industry growth | **7.0%** (construction +12.2%) | — | — |
+| Services growth | **5.4%** | — | — |
+
+- Agriculture = **24% of GDP** | **68% of labour force** | **35% of exports**
+
+### Export Surge FY25
+- Total exports: **+29.9%** (USD 3.2B increase)
+- **Coffee: USD 2 billion** — Uganda became **Africa's largest coffee exporter** (May 2025, 47,607 tons)
+- **Gold: USD 4.2 billion** (+41%, price-driven)
+- Cocoa: doubled (+USD 0.4B)
+- Tourism/travel services: +16%, reaching **USD 1.6 billion** (exceeding pre-pandemic peak)
+- Three commodities (coffee, gold, cocoa) = **two-thirds of product exports** (record high)
+
+### Fiscal and Debt Position
+- Fiscal deficit: **6.1% of GDP** (FY25), widened from 4.8% (FY24); FY26 target: 3.9%
+- Public debt: **51.3% of GDP** (FY25); domestic 24.9%, foreign 26.4%
+- **Interest payments: 28.1% of tax revenues** (crowding out social and investment spending)
+- Tax revenues: 13.2% of GDP (vs regional average 16%)
+
+### Current Account and FX
+- Current account deficit: **–6.4% of GDP** (FY25) — improved from –7.9% (FY24)
+- FX rate Oct 2025: **UGX 3,463.9/$1** (shilling appreciated 2–3%)
+- FX reserves: improving trajectory
+
+### Private Sector Credit
+- Private sector credit: **12.6% of GDP** — well below SSA average (27.2%) and regional peers (23.6%)
+- Commercial lending rates: ~18.5% (constraining investment)
+- Credit growth: 10% (FY25); agriculture share persistently low
+
+### Oil Pipeline Progress (Transformational Risk/Opportunity)
+| Component | Completion (Oct 2025) | Note |
+|---|---|---|
+| Tilenga (TotalEnergies) | 60% | 190,000 bpd capacity |
+| Kingfisher (CNOOC) | 74% | 40,000 bpd capacity |
+| EACOP (pipeline) | 62–75% | 1,445 km to Tanga port |
+| **First oil** | **July 2026 (baseline)** | Oil exports Q1 2027 |
+
+Total oil sector investment: **USD 11+ billion** (upstream + transport)
+
+### Employment and Jobs Gap
+- **Annual job creation needed:** 700,000+ (to absorb new labour market entrants)
+- **Formal jobs created annually:** ~75,000 — gap of ~625,000 jobs/year
+- NDP IV target: 208,409–983,396 new jobs/year; 35.6% from agro-processing
+- Agriculture employs 68% of labour force but value per worker is among lowest in SSA
+
+### Agro-Industrialisation Investment Data
+- Agro-processing: 65% of manufacturing output; **USD 13.24B value**; 400,000 jobs
+- SME processor ROI: **USD 2.86 GDP per USD 1 invested**; 1.2 jobs per USD 1,000 spent
+- Government target: agro-industrialisation to contribute **USD 20B/year by 2040**
+
+---
+
 ## Citation Format
 
 For business plans:
 - **UBOS statistics:** (Uganda Bureau of Statistics [UBOS], *[publication name]*, [year])
-- **World Bank data:** (World Bank, *Uganda Economic Update*, December 2023)
+- **World Bank (Dec 2025):** (World Bank, *Uganda Economic Update: Cultivating Prosperity through Agro-Industrialisation*, December 2025)
+- **World Bank (Jun 2023):** (World Bank, *Uganda Economic Update: Leveraging Tourism for Inclusive Growth*, June 2023)
 - **CPI/inflation data:** (UBOS, *Consumer Price Index February 2026*)
 - **Population data:** (UBOS, *National Population and Housing Census 2024*)
 - **Poverty/income data:** (UBOS, *Uganda National Household Survey 2023/24*, May 2025)
-- **Labour data:** (UBOS, *National Labour Force Survey 2021*)
+- **Labour data:** (UBOS, *National Labour Force Survey 2021*, June 2023)
+- **Agriculture:** (UBOS, *Annual Agricultural Survey 2021/22*, 2023)

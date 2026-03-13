@@ -226,7 +226,68 @@ Uganda is on the cusp of a demographic transition — a **one-time window** that
 
 ---
 
+---
+
+## 13. UNHS 2023/24 — Updated Survey Data (UBOS)
+
+*Source: Uganda Bureau of Statistics. (2025). Uganda National Household Survey 2023/24. Kampala: UBOS.*
+
+### Poverty Update (replacing 2019/20 figures)
+| Location | Poverty Rate | Child Poverty Rate |
+|---|---|---|
+| **National** | **16%** | 18.5% |
+| Rural | 19.4% | 21.4% |
+| Urban | 10.3% | 12.9% |
+| Eastern | 22.5% | — |
+| Northern | 27.7% | — |
+| Western | 10.0% | — |
+| Central | 6.6% | — |
+| Kampala | 1.1% | 1.6% |
+| Karamoja | **74.2%** | **77.7%** |
+| Ankole | 3.2% | 3.6% |
+
+**Poverty gap (P1):** 4.2% nationally; Karamoja 31.5%; Northern 8.3%; Central 1.6%
+**Gini coefficient:** **0.382** (2023/24), down from 0.413 (2019/20) — inequality falling.
+
+### Bottom 40% Share by Sub-Region (2023/24)
+Karamoja 88.5% | Bukedi 61.4% | Teso 60.2% | West Nile 51.6% | Lango 51.7% | Busoga 50.1% | Acholi 50.3% | Buganda North 27.0% | Ankole 19.6% | Kampala 6.9%
+
+### Detailed Household Expenditure Shares
+| Category | National | Rural | Urban | Kampala |
+|---|---|---|---|---|
+| Food & non-alcoholic beverages | **44.2%** | 52.3% | 35.5% | 26.6% |
+| Housing, water, electricity, gas | **15.9%** | 13.8% | 18.1% | 21.5% |
+| Education | **8.5%** | 6.8% | 10.3% | 11.0% |
+| Transport | **6.2%** | 4.8% | 7.7% | 8.3% |
+| Restaurants and hotels | 5.6% | 4.3% | 6.9% | — |
+| Health | 4.8% | 5.1% | 4.4% | — |
+| Communication | 2.9% | 2.1% | 3.9% | — |
+| Clothing and footwear | 2.3% | — | — | — |
+
+**Mean per capita consumption (2016/17 prices):** UGX 130,950/month nationally
+
+### Female-Headed Households (2023/24)
+- **30.9% nationally** female-headed (31.8% urban, 30.3% rural)
+- Karamoja: **54.1%** — only sub-region with majority female-headed households
+- Female-headed HHs: average size 4 persons; elderly (65+) present in 20.2%
+
+### Household Enterprise Sector
+- 32.4% of population operate a non-crop household enterprise (down from 2019/20)
+  - Northern region: 40.7% (highest); Western: 26.6% (lowest)
+- Enterprise types: Trade 50%, Manufacturing 17%
+- 35% located at home; **77% funded by own savings**
+
+### Healthcare (2023/24)
+- **21%** of population ill in past month (up from 19% in 2019/20)
+- **82%** sought care; private clinics 54%, government 27%
+- Distance: 78% within 3 km of health facility
+- Median OOP monthly spend: **UGX 32,000** (range: UGX 17,000 West Nile – UGX 70,000 Kampala)
+
+---
+
 ## Citation
 World Bank / Government of Uganda. (2025). *Uganda Human Capital Development and Growth Review (UHCDGR)*. Washington, DC: World Bank Group.
 
-Supporting data: Uganda National Population and Housing Census (UNPHC 2024); Uganda National Household Survey (UNHS 2019/20); Uganda Bureau of Statistics Labour Force Survey (NLFS 2021); Uganda National Examinations Board — National Assessment of Progress in Education (NAPE 2023); Demographic and Health Surveys (UDHS); World Bank World Development Indicators (WDI).
+Uganda Bureau of Statistics (UBOS). (2025). *Uganda National Household Survey 2023/24*. Kampala: UBOS.
+
+Supporting data: Uganda National Population and Housing Census (UNPHC 2024); Uganda Bureau of Statistics Labour Force Survey (NLFS 2021); Uganda National Examinations Board — National Assessment of Progress in Education (NAPE 2023); Demographic and Health Surveys (UDHS); World Bank World Development Indicators (WDI).

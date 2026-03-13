@@ -228,7 +228,72 @@ The World Bank (2025) identifies three priority areas for Uganda's labour market
 
 ---
 
-## Citation
-World Bank / Government of Uganda. (2025). *Uganda Human Capital Development and Growth Review (UHCDGR)*, Chapter 6: Maximising Human Capital Utilisation in the Labour Market. Washington, DC: World Bank Group.
+---
 
-Supporting data: Uganda Bureau of Statistics (UBOS) — Labour Force Survey (LFS) 2021; Uganda Household Panel Survey (UHPS) 2019; Uganda National Population and Housing Census (UNPHC) 2024; Kampala Informal Sector Survey 2016; Global Entrepreneurship Monitor (GEM) 2014.
+## 13. NLFS 2021 — Direct Survey Data (UBOS, disseminated June 2023)
+
+### Working-Age Population and Labour Force
+- **Working-age population (14–64):** 23,494,000 — Male 11,388,000 | Female 12,106,000
+- **In labour force:** 20,485,000 (87.2% LFPR)
+- **In employment:** 9,996,000 (48.8% of WAP) — Male 5,906,000 | Female 4,090,000
+- **Urban employment rate:** 63.5% | **Rural:** 42.6%
+
+### Youth Labour Underutilisation (18–30 years) — Composite Measures
+| Measure | Rate |
+|---|---|
+| LU1: Unemployment | 16.5% |
+| LU2: Unemployment + time-related underemployment | 29% |
+| LU3: Unemployment + potential labour force | 38% |
+| **LU4: Composite labour underutilisation** | **48%** |
+
+- Youth activity status: 36.5% employed; 16.4% in education; 5.8% in both; **41.2% NEET**
+- Urban youth: transition to stable employment better (33.8% NEET vs 45.1% rural)
+
+### Youth Unemployment by Sub-Region
+| Sub-Region | Youth Unemployment Rate |
+|---|---|
+| Kampala | **41.1%** |
+| West Nile | 22.0% |
+| Karamoja | 19.8% |
+| Lango | 18.1% |
+| Busoga | 10.9% |
+| Kigezi | 7.0% |
+| Bunyoro | 1.5% |
+
+### Time-Related Underemployment
+- **42.9% of informal employees** earn less than two-thirds of national median (UGX 168,000/month)
+  - Urban: 49.4% | Rural: 39%
+- Public sector workers are paradoxically the most underemployed by hours (69.8%)
+
+### Wage Data (NLFS 2021)
+| Employment Type | Median Monthly Earnings | Male | Female |
+|---|---|---|---|
+| **Formal** | UGX 600,000 | UGX 600,000 | UGX 250,000 |
+| **Informal** | UGX 168,000 | UGX 200,000 | UGX 140,000 |
+
+- Formal workers earn **3.6× informal workers** — median vs. median
+- **80% of informal employees** have no workplace benefits; 83.2% have no pension
+
+### Informal Sector Structure
+- **95% of informal enterprises** not registered with URSB
+- **75%** do not keep books of accounts
+- **79.6–81%** of contracts are oral/verbal agreements
+- Over-education mismatch: **48.2%** of employed are over-educated for their role (worsening trend)
+
+### Child Labour (5–17 years)
+- **40%** involved in child labour (excluding household chores)
+- **43%** including household chores; 68.5% in agriculture
+- Primary cause in 2021: **57%** school closures due to COVID-19
+
+### Digital Access Among Youth (18–30)
+- Any ICT device: **82.7%** | Internet use: **19.3%** (M 23.1%, F 16.1%)
+- Bank/MDI account: only **8.2%** of youth have one; **88.6%** are unbanked
+
+---
+
+## Citation
+World Bank / Government of Uganda. (2025). *Uganda Human Capital Development and Growth Review (UHCDGR)*, Chapter 6. Washington, DC: World Bank Group.
+
+Uganda Bureau of Statistics (UBOS). (2023). *National Labour Force Survey 2021 — Thematic Reports* (disseminated 1 June 2023). Kampala: UBOS.
+
+Supporting data: Uganda Household Panel Survey (UHPS) 2019; Uganda National Population and Housing Census (UNPHC) 2024; Kampala Informal Sector Survey 2016; Global Entrepreneurship Monitor (GEM) 2014.
