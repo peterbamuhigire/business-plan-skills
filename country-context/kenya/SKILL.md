@@ -250,6 +250,9 @@ Detailed reference data: `references/kenya-investment-climate.md`
 
 **Detailed reference files:**
 - `country-context/kenya/references/kenya-investment-climate.md` — FDI rules, EPZ/SEZ tax incentives, trade agreements, IP regime, labour law, detailed tax tables
+- `country-context/kenya/references/kenya-credit-pricing-2025.md` — CBK revised RBCPM (August 2025): KESONIA formula, full bank lending rate table (38 banks, Dec 2024–May 2025), SME rate benchmarks, DSCR planning guidance
+- `country-context/kenya/references/kenya-bank-loan-standards.md` — Kenya bank loan application standards: all required sections, document checklist, security requirements, references (Family Bank + NCBA forms)
+- `country-context/kenya/references/kenya-mining-sector.md` — Kenya Mining Investment Handbook 2024/25: sector overview (0.7% GDP → 4–10% target), 40+ minerals including niobium/REEs at Mrima Hills (KES 5.4–8.18T value), gold (1.2M+ oz JORC), titanium sands (Base Titanium USD 2B from USD 350M capex), licensing procedures (12-point requirements, 25-year duration, 70/20/10 royalty split), SEZ tax regime (10% corporate tax 10 years, 150% IDA), legal protections (FIPA, ICSID, MIGA). **Read when writing a Kenya mining or extractive sector business plan, or sizing the minerals investment opportunity.**
 
 **Live metrics files:**
 
