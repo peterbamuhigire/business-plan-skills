@@ -1,6 +1,6 @@
 ---
 name: marketing-sales-strategy
-description: Generate the marketing and sales strategy section covering the marketing mix (4Ps/7Ps), pricing strategy, distribution channels, promotional plan, sales process, customer acquisition funnel, digital channel strategy, guerrilla tactics, and revenue model. Use when building or reviewing go-to-market strategies, marketing plans, channel strategies, or marketing budget allocation. Incorporates Farris's marketing metrics, Kotler's Marketing 6.0 evolution, Levinson's guerrilla marketing, growth marketing AARRR framework, Palo Alto's On Target methodology, Jarvis's 85 small business marketing tactics, Schiffman's sales methodology (PIPA sequence, four-step sales process, pipeline ratios, relationship selling levels), Keenan's Gap Selling (problem-centric discovery, current state/future state gap analysis), Kazanjy's founder-led selling stages, Goliger's sales scaling blueprint (ICP, sales models, team building, compensation, sales velocity), Brito's social business and brand content strategy (paid/earned/owned media, Hero Narrative, content governance), and Kaza's Unconvention small business framework (Underdog Principles, differentiation, value-based pricing, loyalty, Land and Expand upselling).
+description: Generate the marketing and sales strategy section covering the marketing mix (4Ps/7Ps), pricing strategy, distribution channels, promotional plan, sales process, customer acquisition funnel, digital channel strategy, guerrilla tactics, and revenue model. Use when building or reviewing go-to-market strategies, marketing plans, channel strategies, or marketing budget allocation. Incorporates Farris's marketing metrics, Kotler's Marketing 6.0 evolution, Levinson's guerrilla marketing, growth marketing AARRR framework, Palo Alto's On Target methodology, Jarvis's 85 small business marketing tactics, Schiffman's sales methodology (PIPA sequence, four-step sales process, pipeline ratios, relationship selling levels), Keenan's Gap Selling (problem-centric discovery, current state/future state gap analysis), Kazanjy's founder-led selling stages, Goliger's sales scaling blueprint (ICP, sales models, team building, compensation, sales velocity), Brito's social business and brand content strategy (paid/earned/owned media, Hero Narrative, content governance), Kaza's Unconvention small business framework (Underdog Principles, differentiation, value-based pricing, loyalty, Land and Expand upselling), and Miller's StoryBrand SB7 Framework (customer-as-hero, three-level problem, guide positioning, plan, CTA, stakes, success vision, identity transformation, one-liner, marketing roadmap).
 ---
 
 # Marketing & Sales Strategy Skill
@@ -369,6 +369,55 @@ Track this metric to measure pipeline health and forecast revenue capacity.
 | **Share of voice** | Brand ad spend / Category ad spend x 100 | > Market share |
 | **CAC payback** | CAC / Monthly margin per customer | < 12 months |
 
+## StoryBrand Messaging Framework (Miller, 2017)
+
+Before building a marketing plan, every business needs a clear message. Confusing messaging kills marketing spend. Use the StoryBrand SB7 Framework to create the BrandScript that drives all copy, website, and campaign work.
+
+### The One-Liner (Most Important Piece of Copy)
+
+> "We help [CHARACTER] who [PROBLEM] [ACHIEVE RESULT / TRANSFORMATION]."
+
+Every business plan must include a one-liner. Test: can anyone on the team repeat it in 30 seconds? Does a stranger understand the offer immediately?
+
+### The BrandScript Structure
+
+| Module | What to Define |
+|---|---|
+| **Character** | One clear desire the customer has (connected to survival: money, time, status, meaning, belonging) |
+| **Problem** | Villain + External problem + Internal problem (frustration/shame) + Philosophical problem ("it's wrong that…") |
+| **Guide** | Empathy statement + Authority proof (testimonials, stats, awards, logos) |
+| **Plan** | 3–4 step process plan + optional agreement plan (commitments that reduce purchase risk) |
+| **Direct CTA** | One clear action: "Buy Now", "Schedule a Call", "Apply Today" |
+| **Transitional CTA** | Lead generator: free guide, checklist, or tool in exchange for email |
+| **Failure** | 3 consequences of not buying (loss aversion: losing hurts twice as much as gaining feels good) |
+| **Success** | Specific before/after: what the customer has, feels, experiences, and their new status |
+| **Transform** | From [current identity] → To [aspirational identity] |
+
+### Positioning Test
+
+Customers ask two subconscious questions when encountering a brand: *"Can I trust this?"* (answered by empathy) and *"Can I respect this?"* (answered by authority). Both must be answered within seconds.
+
+**Brand-as-hero vs. brand-as-guide:** If the marketing talks primarily about the company's achievements, awards, history, or passion — it is positioned as the hero. Flip it: make those achievements proof that the guide can help the customer win.
+
+### StoryBrand Marketing Roadmap
+
+Five website non-negotiables:
+1. Offer above the fold (passes the grunt test in 5 seconds)
+2. Obvious direct CTA (contrasting colour, repeated)
+3. Images of successful customers (not buildings or team selfies)
+4. Bite-sized breakdown of products/services
+5. Minimal words — cut ruthlessly
+
+Email nurture sequence:
+- Every 3 nurturing emails → 1 offer email
+- Nurture formula: problem → plan to solve it → life after resolution
+- Offer formula: problem → your product → transformation → direct CTA
+
+Testimonials of transformation (5-question framework):
+1. What was your problem before? 2. What did you discover? 3. What specific result did you get? 4. What would you tell someone hesitating? 5. How has your life/business changed?
+
+See `references/storybrand-framework.md` for the complete BrandScript template, Uganda villain examples, aspirational identity table, before/after grid, and blog angles.
+
 ## Generation Process
 
 1. Ask for: business model (B2B/B2C/D2C), price point, primary channels, budget range
@@ -387,6 +436,8 @@ Track this metric to measure pipeline health and forecast revenue capacity.
 14. For startups: identify founder-led selling stage, plan sales team scaling progression, define ICP
 15. Set measurable KPIs for each channel and funnel stage (including sales velocity)
 16. Include marketing evaluation system with test-and-measure discipline
+17. **Create a StoryBrand BrandScript one-liner** — one clear sentence: "We help [character] who [problem] [achieve result]"
+18. **Write the messaging foundation** — confirm the BrandScript is complete: villain, external/internal/philosophical problems, guide empathy + authority, plan, direct + transitional CTA, failure stakes, success vision, and identity transformation arc
 
 ## Quality Criteria
 
@@ -409,6 +460,11 @@ Track this metric to measure pipeline health and forecast revenue capacity.
 - Startup sales plans show stage-appropriate team scaling (not jumping from founder to VP Sales)
 - Sales velocity formula is calculated for pipeline forecasting
 - All cost assumptions are stated and traceable
+- StoryBrand one-liner is present and passes the 30-second repeat test
+- Brand is positioned as the guide, not the hero — customer is the hero
+- BrandScript covers all three problem levels (external, internal, philosophical)
+- Marketing copy identifies the villain and speaks to the internal frustration, not just the external fix
+- Identity transformation arc is defined (From → To)
 
 ## References
 
@@ -425,4 +481,5 @@ Track this metric to measure pipeline health and forecast revenue capacity.
 - **Unconventional small business strategy**: See `references/small-business-unconventional-strategy.md` for the Underdog Principles framework (Positioning/Proximity/Purpose), differentiation through experience (aesthetic/social/boundary interactions), value-based pricing step-by-step, Customer Decision Journey mapping, CAC analysis, Trust Equation (credibility/reliability/intimacy/self-orientation), Land and Expand upsell/cross-sell framework, bottleneck analysis, capacity utilisation, and redefining success — from Kaza (Ideapress, 2025). **Read when advising on differentiation strategy, pricing, customer loyalty, upselling, or operational efficiency for small businesses.**
 - **Growth strategy framework — Seven Degrees of Freedom (Umbrex, 2025)**: See `references/growth-strategy-playbook.md` for the complete Umbrex Growth Strategy Playbook — growth mandate archetypes (protect/accelerate/expand/transform), time horizons (now/next/later), growth ambition scorecard (North Star + KPI tree), growth engine diagnosis (baseline decomposition, unit economics heatmap, cohort analysis, customer journey mapping, competitive context, constraint heatmap), McKinsey Seven Degrees of Freedom framework with degree briefs and proof standards, structured option generation methodology (ideation session design, mini-option format, one-page option memo template, confidence labels, quality gate), core growth options (pricing/packaging/leakage removal, lifecycle NRR levers, channel performance, commercial productivity), adjacent growth options (segment/channel adjacencies, geographic expansion, offer extension), option evaluation framework and portfolio design principles, test-and-learn stage-gate model, growth operating system governance, stakeholder alignment, and Uganda/EA adaptations (pricing architecture, mobile money, EAC regional expansion). **Read when building a growth strategy, generating growth options, evaluating which markets/segments/channels to pursue, or designing a growth-led business plan section.**
 - **Customer retention strategy and economics (Umbrex, 2025)**: See `references/customer-retention-playbook.md` for the complete Umbrex Customer Retention Playbook — retention economics (GRR, NRR, LTV/CAC, CAC payback, logo churn), 10-step stakeholder alignment, 5-tier retention segmentation (structural/economic/behavioural/relationship/strategic), Ideal Customer Profile (ICP) 5-pillar framework, High-Value Account (HVA) template, 2×2 prioritisation matrix (Grow/Protect/Nurture/Streamline quadrants), customer journey mapping (5-stage spine), onboarding best practices, NPS/CSAT design, health score model, early warning indicators, 3-tier risk playbook (Watch/At-Risk/Critical), escalation path (Stages 1–4 with SLAs), Value Realization Framework, SMART KPI and Success Plan template, QBR 10-step guide, account coverage models (Pod/Named Portfolio/Tech-Touch), renewal pipeline process, upsell 11-step guide, cross-sell playbook, customer advocacy programme framework, and Uganda/EA adaptations. **Read when designing retention strategy, onboarding processes, renewal management, account segmentation, customer health scoring, or cross-sell/upsell programmes for any business plan.**
+- **StoryBrand SB7 Framework**: See `references/storybrand-framework.md` for the complete BrandScript (character/problem/guide/plan/CTA/failure/success/transformation), one-liner formula, villain framework, three levels of conflict (external/internal/philosophical), guide positioning (empathy + authority), identity transformation table, before/after grid, StoryBrand Marketing Roadmap (website 5-step, lead generator, email nurture + offer sequence, transformation testimonials), Uganda/EA villain and aspirational identity examples, and 5 blog angles — from Miller (HarperCollins, 2017). **Read when building any marketing message, brand positioning, website copy, email campaign, or one-liner for any business.**
 - **Sustainability marketing and green positioning**: See `references/sustainability-marketing-positioning.md` for three sustainability marketing archetypes (Communicative/Opportunistic/Transformational), the three-layer purpose test, anti-greenwashing patterns table, five Uganda/EA green market segments (premium urban, institutional buyers, export markets, development partner supply chains, mass market), sustainability marketing channels, premium pricing framework (organic 20–40% premium evidence), and EUDR export compliance alert (deforestation-free requirement for coffee, cocoa, timber exporters from December 2025) — Source: Leleux & van der Kaaij (2019) and Sustainability Today (2022). **Read when building a sustainability-differentiated brand, targeting premium or export markets, or verifying green marketing claims against greenwashing standards.**

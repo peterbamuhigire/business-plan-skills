@@ -48,6 +48,42 @@ Use the Golden Circle framework (Sinek, 2009) to write compelling, authentic mis
 
 **Uganda/East Africa context:** Compelling WHYs in this market often draw on Ubuntu values (collective wellbeing), family legacy, community uplift, or closing inequality gaps in access to services. These are not platitudes — they are genuine motivators for most Ugandan founders and resonate with both commercial lenders (CAMPARI Character element) and development funders.
 
+## Entrepreneur Within Framework (Gerber)
+
+Apply this framework when writing the company overview for any founder-led business. See `references/awakening-entrepreneur-gerber.md` for the full framework.
+
+### Founder Dimension Profile
+
+Identify which of the four entrepreneurial dimensions dominates the founding team and which are missing:
+
+| Dimension | Strength | Risk if absent |
+|---|---|---|
+| **Dreamer** | Original vision, sees what others miss | No differentiation — copycat business |
+| **Thinker** | Business model, financial logic, systems design | Investor scrutiny fails, projections unsound |
+| **Storyteller** | Enrols customers, employees, investors | Cannot raise capital or attract talent |
+| **Leader** | Execution, accountability, standards | Vision dies in implementation |
+
+**Note the gap:** If a founder is a strong Dreamer/Storyteller but a weak Thinker, the overview should acknowledge a finance/systems advisory hire. If strong Thinker but weak Storyteller, the marketing section must compensate with a structured communication plan.
+
+### Dream → Vision → Purpose → Mission Test
+
+Before writing the overview narrative, confirm the founder can answer each level:
+- **Dream:** What does the world look like when this business works exactly as envisioned?
+- **Vision:** What specific kind of company will create that world?
+- **Purpose:** Why does this matter beyond profit — who is served?
+- **Mission:** What specific steps, by when, with what resources?
+
+**Personal vs Impersonal Dream diagnostic:** Ask — *"If the business hits its financial targets, and then what?"* A personal-dream founder answers with consumption (house, travel, retirement). An impersonal-dream founder answers with expansion (more people served, a bigger problem tackled). Impersonal dreams sustain investor confidence in growth ventures; personal dreams are legitimate for lifestyle businesses but should be framed accordingly.
+
+### Business Stage Assessment
+
+State the current stage (Gerber's three-stage framework):
+- **Stage 1 — Getting Your House in Order:** Basic systems absent; owner-dependent; key-man risk high
+- **Stage 2 — Growing Your Business:** Core systems in place; delegation becoming possible; management layer forming
+- **Stage 3 — Getting Free of Your Business:** Business operates independently of the owner; transferable, bankable, scalable
+
+Most first-time loan applicants are Stage 1. Show the Stage 1 → Stage 2 transition plan enabled by the funding being requested.
+
 ## Generation Process
 
 1. Ask for: business name, industry, country, founding date, legal structure
@@ -55,9 +91,12 @@ Use the Golden Circle framework (Sinek, 2009) to write compelling, authentic mis
 3. Draft HOW as 3–5 verb-based principles; draft mission combining WHY + HOW + WHAT proof
 4. Draft vision as the future-state realisation of the WHY
 5. Apply the Celery Test to confirm all products/services prove the WHY
-6. Build the narrative arc from founding to current state
-7. List milestones chronologically
-8. Document ownership and legal details
+6. Assess the founder against the Four Dimensions (Gerber); note gaps
+7. Apply the Dream → Vision → Purpose → Mission test
+8. Identify the business's current Stage (1/2/3) and describe the transition plan
+9. Build the narrative arc from founding to current state
+10. List milestones chronologically
+11. Document ownership and legal details
 
 ## Uganda-Specific Legal Structure Guidance
 
@@ -74,6 +113,7 @@ State in the Company Overview: legal structure, URSB registration number, TIN, t
 
 - `references/doing-business-uganda.md` — Business registration, legal structures, employment law, investment licensing, banking, economic overview (RSM Eastern Africa 2026; Baker Tilly 2024)
 - `references/mission-vision-why.md` — Golden Circle framework (Sinek, 2009): WHY/HOW/WHAT methodology, Celery Test, mission statement templates, Uganda/East Africa application guidance
+- `references/awakening-entrepreneur-gerber.md` — E-Myth / Fatal Assumption; Five Realities; Four Dimensions (Dreamer/Thinker/Storyteller/Leader); Personal vs Impersonal Dream; Dream → Vision → Purpose → Mission cascade; Ten Pillars; Seven Centers of Management Attention; Three Stages of Owner Transformation; Business Model (Visual/Emotional/Functional/Financial); Leader's 10 Core Beliefs + 10 Operating Standards; Golden Pyramid Strategy (10 steps); Uganda/EA application notes — Gerber (2008)
 
 ## Quality Criteria
 
@@ -83,6 +123,10 @@ State in the Company Overview: legal structure, URSB registration number, TIN, t
 - WHAT (products/services) is described as proof of the WHY, not the other way around
 - Vision is ambitious but credible — describes a transformed future state
 - All products and strategic choices pass the Celery Test against the stated WHY
+- Founder Dimension profile is noted — missing dimensions are addressed in advisory or hiring plan
+- Dream → Vision → Purpose → Mission cascade is traceable — no stage is skipped
+- Business stage (1/2/3) is stated with a transition plan to the next stage
+- Company overview conveys an impersonal dream — the world this business exists to change
 - Ownership structure is transparent — no ambiguity for investors
 - History demonstrates learning and adaptability
 - Legal structure is explicitly stated and consistent with the tax regime used in financial projections

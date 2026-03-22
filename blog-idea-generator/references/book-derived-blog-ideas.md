@@ -1,6 +1,6 @@
 ---
-source: Synthesised from Tier 1 book extractions (March 2026)
-books: Minto (2002), Rasiel (1999), Damodaran (2011), Feld & Mendelson (2019), Agrawal et al. (2018), Sinek (2009)
+source: Synthesised from Tier 1 + StoryBrand + Gerber + Horowitz book extractions (March 2026)
+books: Minto (2002), Rasiel (1999), Damodaran (2011), Feld & Mendelson (2019), Agrawal et al. (2018), Sinek (2009), Miller (2017), Gerber (2008), Horowitz (2014)
 purpose: Blog post ideas derived from business book content — for business planning, entrepreneurship, management, and plan-writing topics
 ---
 
@@ -200,6 +200,123 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Hook:** "Your business was growing. Then it started to feel like a job. That is not a motivation problem. It is a WHY problem."
 **Draw from:** `mission-vision-why.md` — The Split section, purpose drift (cross-reference Kaza's objective function)
 **Format:** Diagnostic + recovery guide
+
+---
+
+## From Miller — *Building a StoryBrand*
+
+### B-SB-01 — Why Your Ugandan Business Website Is Losing Customers (And How to Fix It This Week)
+**Angle:** Most small business websites make the customer work too hard to understand what's on offer. The StoryBrand SB7 Framework — applied in one afternoon — can transform a confusing website into a converting one.
+**Target reader:** SME owners who have a website but aren't getting enquiries from it
+**Hook:** "You spent UGX 3 million on a website. But in 5 seconds, a visitor can't tell you what you do or why they should care. Here is the five-point fix."
+**Draw from:** `storybrand-framework.md` — grunt test, 5 website non-negotiables, images of success, above-the-fold offer
+**Format:** Practical checklist with before/after examples
+
+### B-SB-02 — The One Sentence That Will Grow Your Business: How to Write a StoryBrand One-Liner
+**Angle:** The StoryBrand one-liner replaces rambling elevator pitches with a single sentence that immediately communicates who you serve, what problem you solve, and what transformation you offer. Most businesses don't have one.
+**Target reader:** Entrepreneurs at pitch stage, business owners who struggle to explain what they do
+**Hook:** "Ask ten business owners what they do and nine will give you a rambling two-minute answer that leaves you none the wiser. One sentence fixes this."
+**Draw from:** `storybrand-framework.md` — one-liner formula, Uganda examples, BrandScript
+**Format:** Step-by-step how-to with six Uganda worked examples
+
+### B-SB-03 — Stop Being the Hero of Your Own Story: The Counter-Intuitive Marketing Shift That Doubles Revenue
+**Angle:** When businesses position themselves as the hero ("we are the leading provider of…"), customers tune out. Positioning the brand as the guide — and the customer as the hero — creates instant connection.
+**Target reader:** Founders and marketing managers who write brand-centric copy
+**Hook:** "Every time you say 'we are the best', a customer hears: 'this is about them, not me.' Here is how to flip the script."
+**Draw from:** `storybrand-framework.md` — customer-as-hero principle, brand-as-guide positioning, empathy + authority
+**Format:** Narrative + before/after copy rewrite examples
+
+### B-SB-04 — The Villain in Your Customer's Story (And Why Naming It Doubles Engagement)
+**Angle:** Every brand's best marketing names the specific villain causing the customer's problem — not symptoms, but root causes. Identification with a villain creates urgency and emotional resonance.
+**Target reader:** Marketing-stage businesses, entrepreneurs who feel their messaging isn't landing
+**Hook:** "Your customer isn't just looking for a product. They are looking for a weapon to defeat something that is making their life harder. Do you know what that thing is?"
+**Draw from:** `storybrand-framework.md` — villain framework (4 criteria), three levels of conflict, Uganda sector villain examples table
+**Format:** Illustrated framework with Uganda sector examples (agriculture, financial services, education, food processing)
+
+### B-SB-05 — What Banks Really Want to Hear (The Internal Problem Nobody Talks About)
+**Angle:** Loan applicants focus entirely on external problems (I need capital). Banks respond to internal problems (I want a borrower who is competent, credible, and committed). Framing a loan application using StoryBrand's three-level problem structure transforms it.
+**Target reader:** Entrepreneurs seeking bank loans or DFI funding
+**Hook:** "The reason your loan was rejected isn't in your financials. It's in how you made the loan officer feel about your competence."
+**Draw from:** `storybrand-framework.md` — internal/philosophical problem levels, guide positioning (authority proof for loan applications), CAMPARI link
+**Format:** Story + checklist
+
+---
+
+## From Horowitz — *The Hard Thing About Hard Things*
+
+### B-HOR-01 — The Struggle: What Every Ugandan Entrepreneur Goes Through (And How to Survive It)
+**Angle:** Horowitz's concept of "the Struggle" — the period when the product has problems, the market hasn't materialised, employees are leaving, and self-doubt becomes self-hatred — is universal. But almost nobody writes about it honestly. This post names it, normalises it, and gives the five things that actually help.
+**Target reader:** Entrepreneurs currently in difficulty; early-stage founders who expected building to feel easier; investors who want to understand founder psychology
+**Hook:** "You started the business full of excitement. Now you wake up at 3am and your guts are boiling. You are in the Struggle. Every great founder has been here. Here is how they got out."
+**Draw from:** `hard-things-horowitz.md` — The Struggle section, five survival techniques, "I didn't quit" conclusion
+**Format:** Honest personal narrative with 5-point framework; Uganda business examples
+
+### B-HOR-02 — Peacetime CEO vs Wartime CEO: Which One Are You Running Right Now?
+**Angle:** Most management advice is written for peacetime — when the company is growing and has market advantage. But most Ugandan SMEs are in wartime: fighting for every customer, managing payment delays, competing against undercutting informal operators. The Peacetime/Wartime framework changes how you lead, manage conflict, and make decisions.
+**Target reader:** SME owners and managers; founders preparing their first leadership team
+**Hook:** "You keep reading management books about building consensus, avoiding conflict, and empowering people. Meanwhile, your competitor just dropped their prices by 30%. Those books are not written for you. This one is."
+**Draw from:** `hard-things-horowitz.md` — Peacetime CEO vs Wartime CEO contrasting behaviours table; Uganda application notes
+**Format:** Framework explainer with contrasting behaviours table; Uganda-specific examples for each behaviour
+
+### B-HOR-03 — How to Make Someone Redundant and Keep Your Company's Soul
+**Angle:** Most Ugandan business owners have never had to retrench employees. When they do, they often do it badly — causing long-lasting damage to culture, reputation, and morale. Horowitz's 5-step framework (derived from conducting three consecutive large layoffs and still achieving a $1.6B exit) is the most practical guide available.
+**Target reader:** Business owners facing economic pressure; managers who have never done a retrenchment
+**Hook:** "You've never had to let someone go. Now the business needs to cut costs and you have to. How you do this in the next two weeks will determine whether your remaining team ever trusts you again."
+**Draw from:** `hard-things-horowitz.md` — Layoffs Done Right (5-step process); Uganda Employment Act 2006 cross-reference; culture continuity principle
+**Format:** Step-by-step guide with Uganda legal requirements (Employment Act 2006, severance, consultation) integrated at each step
+
+### B-HOR-04 — Why Your Best People Are Leaving (And It Isn't the Salary)
+**Angle:** Horowitz's "People, Products, Profits — In That Order" principle describes what a genuinely good place to work feels like, and why the difference between a good and bad organisation matters most when things go wrong. Most East African businesses focus on products and profits while treating people as a cost — and wonder why they can't retain talent.
+**Target reader:** Business owners struggling with staff turnover; HR managers; founders scaling from 5 to 25 employees
+**Hook:** "Your competitor pays exactly the same. But they keep their people and you keep losing them. The difference is not money. The difference is whether your organisation is a good place to work — and here is what that actually means."
+**Draw from:** `hard-things-horowitz.md` — A Good Place to Work section; People/Products/Profits hierarchy; being a good company is an end in itself
+**Format:** Diagnostic (good vs bad organisation contrasted in detail) + 5 changes to make this month
+
+### B-HOR-05 — The Two Types of CEO (And Which One You Need to Hire Next)
+**Angle:** Horowitz's "Ones and Twos" framework explains one of the most predictable business failure modes: a visionary founding CEO (a One) who never builds execution systems (Two skills), resulting in a chaotic organisation that outperforms in vision but underperforms in reliability. Understanding this distinction helps you hire a COO, a deputy, or develop yourself.
+**Target reader:** Founders building their first management team; business owners considering their first senior hire; investors evaluating CEO quality
+**Hook:** "You are brilliant at seeing where the market is going. You are terrible at making sure things actually get done. This is not a personal failing. It is the most common founder CEO pattern in the world. Here is what to do about it."
+**Draw from:** `hard-things-horowitz.md` — Ones and Twos section; succession implications; Uganda application (most Ugandan founders are Ones deficient in Two skills)
+**Format:** Framework with self-assessment checklist; what to hire for (and what not to); how to develop your weaker dimension
+
+---
+
+## From Gerber — *Awakening the Entrepreneur Within*
+
+### B-GER-01 — Are You Running a Business or Creating the World's Worst Job?
+**Angle:** Gerber's Fatal Assumption — that technical skill equals business skill — is the root cause of most small business failure. The distinction between working *in* your business and working *on* your business is the most valuable shift an East African entrepreneur can make.
+**Target reader:** Skilled tradespeople, practitioners, and professionals who have started or are considering starting a business
+**Hook:** "You are an excellent baker. You opened a bakery. Now you work harder than you ever did for someone else, for less money, with no holidays. This is not bad luck. It is the Fatal Assumption."
+**Draw from:** `awakening-entrepreneur-gerber.md` — Fatal Assumption, technician vs entrepreneur, worst job in the world
+**Format:** Diagnostic essay with self-assessment checklist (am I a technician or an entrepreneur?)
+
+### B-GER-02 — Your Dream Is Too Small. Here Is Why It Will Disappoint You.
+**Angle:** Personal dreams — the house, the car, the income target — always disappoint because they end. Gerber's impersonal dream framework shows how the most enduring businesses are built around a problem in the world, not a goal for the founder.
+**Target reader:** Entrepreneurs feeling demotivated or questioning why they started; founders who have hit their income targets and feel flat
+**Hook:** "You hit the number. You bought the house. And you woke up on a Tuesday feeling nothing. That is not an ingratitude problem. It is a dream problem."
+**Draw from:** `awakening-entrepreneur-gerber.md` — Personal Dream vs Impersonal Dream, impersonal dream examples (McDonald's, Manny Espinosa)
+**Format:** Reflective essay with three Uganda founder examples (one personal dream, one impersonal dream, one transition)
+
+### B-GER-03 — The Four People You Need to Start a Business (They're All Inside You)
+**Angle:** Gerber's Four Dimensions — Dreamer, Thinker, Storyteller, Leader — explain why some businesses launch brilliantly but collapse in execution, and others execute well but never inspire anyone. Most founders are strong in one dimension and weak in three.
+**Target reader:** Aspiring and early-stage entrepreneurs; founders building co-founder teams or advisory boards
+**Hook:** "The reason your business is stalling has nothing to do with capital, competition, or the economy. It has everything to do with which of the four people inside you is running the show."
+**Draw from:** `awakening-entrepreneur-gerber.md` — Four Dimensions section (all four in detail), five Leader skills
+**Format:** Self-assessment framework with four dimension profiles and team-building implications
+
+### B-GER-04 — Build One Perfect Practice, Then Build It 100 Times: The Golden Pyramid Explained
+**Angle:** Gerber's Golden Pyramid Strategy shows that any business can become an enterprise — without capital, connections, or prior experience — by perfecting one practice in one niche, then systematising and replicating it. The McDonald's model applied to any Uganda SME.
+**Target reader:** SME owners who want to scale but don't know where to start; entrepreneurs feeling stuck at 5–10 employees
+**Hook:** "McDonald's is not a restaurant. It is one hamburger restaurant, done once, perfectly, and then replicated 40,000 times. What is your one hamburger?"
+**Draw from:** `awakening-entrepreneur-gerber.md` — Golden Pyramid Strategy (all 10 steps), Trading Zone, one Customer Category, Client Fulfilment System design
+**Format:** Step-by-step how-to with Uganda SME examples for each of the 10 steps
+
+### B-GER-05 — The Three Stages of Business Freedom (And Which Stage You Are In)
+**Angle:** Gerber's three-stage owner transformation — Getting Your House in Order → Growing Your Business → Getting Free of Your Business — provides a clear map for any founder. Most Uganda SME loan rejections are Stage 1 problems, not financial problems.
+**Target reader:** SME owners preparing for growth funding; founders who feel trapped in their own business
+**Hook:** "Your bank rejected your loan. Not because your numbers were wrong. Because your business cannot survive without you — and the loan officer knew it in five minutes."
+**Draw from:** `awakening-entrepreneur-gerber.md` — Three Stages of Owner Transformation, Seven Centers of Management Attention, systems vs people
+**Format:** Diagnostic guide with stage-identification checklist and stage-transition action plan for each stage
 
 ---
 

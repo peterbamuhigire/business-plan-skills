@@ -92,6 +92,37 @@ Include an advisory board with four types of advisors (Blank & Dorf, 2012):
 
 In early-stage ventures, founders must personally lead customer discovery and validation — this cannot be delegated to hired executives (Blank & Dorf, 2012). Show in the management section that the founding team is directly engaged with customers, not just managing from behind a desk.
 
+### Founder Dimension Profile and Leader Assessment (Gerber)
+
+Use the Four Dimensions framework (Gerber, 2008) to assess the founding team's completeness and the leader's execution readiness. See `references/awakening-entrepreneur-gerber.md` for full detail.
+
+**Dimension assessment (state which dimension dominates each founder):**
+
+| Founder | Dominant Dimension | Weakest Dimension | Gap Coverage |
+|---|---|---|---|
+| [Name] | [Dreamer/Thinker/Storyteller/Leader] | [Dimension] | [How gap is filled] |
+
+**Leader's 10 Core Beliefs (use as evaluation criteria for the COO / key executive hire):**
+A business leader must be enthralled with the Dream, not merely supportive of it. Evaluate candidate leaders against:
+1. Leads with Purpose; commits to the Mission absolutely
+2. Once committed, does not alter commitment until the result is achieved
+3. Creates and lives by clear operating standards
+4. Creates and commits to clear operating results
+5. Surrounds themselves with Mission believers
+6–10. Recruits people committed to the standards, results, and faithful to their commitments
+
+**Leader's 10 Operating Standards (execution discipline for senior hires):**
+Evaluate whether the candidate leader can:
+- Produce results with little or no capital, information, or prior experience
+- Inspire people without money or obvious incentives
+- Manage people without blame — correcting without making people wrong
+- Communicate the Dream so that 90% of people they speak with buy into it
+- Replicate successes and rise above failures systematically
+
+**The Fatal Assumption risk:** The management section must explicitly address whether the business currently depends on a single individual for any critical function. Where it does, name the system or hire that removes that dependency.
+
+*Cite as:* (Gerber, *Awakening the Entrepreneur Within*, 2008)
+
 ### Founder Purpose Statement (Kaza)
 
 Every management team section should include a founder purpose statement — not a mission statement, but an honest account of *why this business, for this founder, at this time*. This matters to investors and lenders because purpose-aligned founders build more durable businesses and are more likely to navigate setbacks without abandoning the venture.
@@ -130,4 +161,6 @@ A strong purpose statement answers:
 - [EAC Common Market Framework](../04-market-analysis/references/eac-common-market-framework.md) — Cross-border hiring and EAC market expansion context: free movement of workers (Art. 10, no work permit fees for EAC nationals), mutual recognition of qualifications (EAQFHE 2015), right of establishment for EAC companies in other Partner States (Art. 13), posting of staff to regional branches, overlapping EAC/IGAD memberships and broader Horn of Africa talent pool, sector-specific value chain integration (dairy, maize, tourism), Uganda's structural position in regional value chains, and pitfalls (informal market competition, progressive implementation, elite capture) — EAC Common Market Protocol (2009), Daly et al. / IGC (2016), IOM / BRMM (2022). **Read when the business has regional ambitions, is hiring EAC nationals, or is considering cross-border expansion.**
 - [Founder Purpose and Objective Function](../07-marketing-sales-strategy/references/small-business-unconventional-strategy.md) — Kaza's framework for aligning the business model with the founder's life goals: Positioning/Proximity/Purpose principles, objective function by life stage, purpose drift warning (founder recreates the conditions they escaped), consultative business case framework, 10–15% borrowing rule, and periodic business review checklist — from *Unconvention: A Small Business Strategy Guide* (Kaza, Ideapress Publishing, 2025). **Read when writing the founder narrative, management purpose section, or when a founder is transitioning from employment or building around lifestyle goals.**
 - [Uganda Labour Market 2025](references/uganda-labour-market-2025.md) — World Bank (2025) analysis of Uganda's labour market: total working-age population 23.5M with only 10M in paid work; NEET youth 5.25 million (women 52%, men 28%); underemployment up 4× (2011–2019); wage returns by education (tertiary earns 7× vs no education; high-skilled occupations 4× low-skilled median); skills mismatch (25% of high-skill jobs held by primary-educated; 10% of low-skill workers are degree holders); firm survival (Uganda formal firms live 15 years vs Kenya 22); owner education = performance (secondary-educated owners 2× more productive, 50%+ revenue growth vs 32% for undereducated owners); sectoral employment (50% non-market agriculture; services 25% and growing); migration (0.78M Ugandans abroad; remittances US$1.4B = 3% GDP); refugee labour pool (1.7M hosted); Uganda's value added per worker lowest in SSA; indicative salary bands (UGX 200,000–10M+) and employer cost multiplier (×1.10–1.15). Sources: World Bank UHCDGR 2025, UBOS NLFS 2021, UNPHC 2024, GEM 2014. **Read when building hiring plans, sizing HR costs, discussing skills gap analysis, benchmarking compensation, or addressing management capability and workforce development in any Uganda business plan.**
+- **Hard Things About Hard Things**: See `references/hard-things-horowitz.md` — Horowitz's comprehensive framework for leading through crisis: The Struggle (how to survive it), CEO transparency (3 reasons to tell it like it is), layoffs done right (5-step process), firing executives (preparation + conversation), People/Products/Profits hierarchy (what a good place to work means), why CEOs must train (Grove's leverage calculation), minimising politics (right kind of ambition, formal processes), Peacetime CEO vs Wartime CEO (contrasting behaviours table), Ones and Twos (CEO types and succession), Three Leadership Attributes (Jobs/Campbell/Grove), managing CEO psychology, Accountability vs Creativity Paradox, feedback keys, hiring for strength not weakness, Uganda/EA application notes. Source: Horowitz (HarperBusiness, 2014). **Read when writing the CEO profile, assessing leadership quality, building HR processes, addressing crisis readiness, or advising on management team structure.**
+- **E-Myth, Fatal Assumption, and Four Dimensions**: See `references/awakening-entrepreneur-gerber.md` — or `../02-company-overview/references/awakening-entrepreneur-gerber.md` — for Gerber's full framework: technician vs entrepreneur distinction, Four Dimensions of the Entrepreneurial Personality (Dreamer/Thinker/Storyteller/Leader), Leader's 10 Core Beliefs, 10 Operating Standards, Three Stages of Owner Transformation, Seven Centers of Management Attention, and Golden Pyramid Strategy. **Read when assessing founder readiness, writing leader profiles, evaluating key executive hires, or describing the management development plan.**
 - **Values-based management and cultural moat**: See `references/values-based-management-berkshire.md` for Berkshire's cultural moat framework — culture as competitive advantage, BERKSHIRE values acronym (Budget-conscious/Earnest/Reputation/Kinship/Self-starters/Hands-off/Investor savvy/Rudimentary/Eternal), decentralisation model, moat typology (natural monopoly/customer relationships/brand/float), succession planning (Marmon Group template, James J. Hill test), shareholder culture and long-term orientation, float mechanics and non-insurance analogues, and Uganda/EA application (owner-as-bottleneck, key-man threshold, DFI investor orientation) — from Cunningham (Columbia University Press, 2014). **Read when articulating management culture, addressing succession readiness, or structuring the founder narrative for equity investors and DFIs.**

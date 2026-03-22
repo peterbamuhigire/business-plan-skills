@@ -148,6 +148,23 @@ Before finalising the executive summary, apply the Pyramid Principle test (Minto
 
 See `references/pyramid-principle.md` for the full framework including MECE grouping rules, deductive vs. inductive structure, and the problem-definition framework (R1/R2) that maps directly onto the Situation/Complication logic.
 
+### StoryBrand One-Liner Test (Miller)
+
+Before finalising the executive summary, confirm that the business concept can be compressed into a StoryBrand one-liner (Miller, 2017):
+
+> "We help [CHARACTER] who [PROBLEM] [ACHIEVE RESULT / TRANSFORMATION]."
+
+**The test:** Read the one-liner aloud to someone unfamiliar with the business. Can they immediately explain who this is for, what problem it solves, and what transformation it delivers? If not, the executive summary's opening paragraph will also fail to land.
+
+**Common failure pattern:** Executive summaries that lead with the company name, founding year, and product description — rather than the customer's problem and the transformation on offer. The one-liner forces customer-centric framing from the first sentence.
+
+**Application to the executive summary hook:** The opening sentence of the executive summary should contain the essence of the one-liner — stated in narrative form rather than template form.
+
+*Bad:* "KisaFarm Limited is a poultry processing company established in 2022 in Kampala, Uganda."
+*Better:* "Every week, 40,000 Kampala households buy chicken from a street vendor because no affordable, safe, packaged option exists — KisaFarm is changing that."
+
+See `../07-marketing-sales-strategy/references/storybrand-framework.md` for the full BrandScript template, three-level problem framework (external/internal/philosophical), guide positioning, and identity transformation arc.
+
 ### Brand Story Narrative Test (Brito)
 
 Before finalising the business concept paragraph, apply the Hero Narrative test (Brito, 2013):

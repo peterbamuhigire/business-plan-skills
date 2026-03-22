@@ -158,6 +158,21 @@ Analyse the draft brief and generate **5–7 follow-up questions**. These are no
 
 ---
 
+## Dreaming Room Supplement (for early-stage / pre-vision founders)
+
+When Phase 1 answers reveal a founder at the Dream stage — where the business idea is not yet fully formed, or where the mission and vision feel vague or generic — use these supplementary questions *before* Phase 2, drawn from Gerber's Dreaming Room process (Gerber, 2008):
+
+1. *What does the world look like when your business works exactly as you envision — 10 years from now?*
+2. *Who is the one person whose life your business most changes? Describe them specifically.*
+3. *What is broken in this market that your business is determined to fix?*
+4. *If your business grew to 100 locations, what would be the same in every single one?*
+5. *What would be lost in the world if your business did not exist?*
+6. *Are you building this business to create a better job for yourself — or to build something that works without you?*
+
+**Diagnostic:** Founders who cannot answer Question 4 (what stays the same at scale) are Technicians with an idea, not yet Entrepreneurs with a system. The business plan will need to address this explicitly in the company overview and management sections — and the implementation timeline must include a systems-building phase.
+
+See `02-company-overview/references/awakening-entrepreneur-gerber.md` for the full Four Dimensions framework and Dream → Vision → Purpose → Mission cascade.
+
 ## Default Context
 
 Unless the client specifies otherwise:
