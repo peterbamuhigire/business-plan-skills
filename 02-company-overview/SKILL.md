@@ -84,6 +84,40 @@ State the current stage (Gerber's three-stage framework):
 
 Most first-time loan applicants are Stage 1. Show the Stage 1 → Stage 2 transition plan enabled by the funding being requested.
 
+## Business Identity and USP Tools (Pinskey)
+
+Before writing the company overview narrative, confirm the business has its core identity elements in place. Use as a quick-audit checklist. See `references/inbound-pr-self-promotion.md` for full detail.
+
+### Business Name Test
+
+The business name is the first marketing tool. Apply the two-question test:
+1. Can 10 people who don't know the founder guess what the business does from the name alone?
+2. Does it work as a domain name, social media handle, and sign?
+
+For businesses with limited marketing budgets, a **descriptive name** (tells exactly what you do) outperforms an **evocative name** (creates an image but requires explanation). If the name is already fixed and fails the test, the company overview must open with a strong positioning statement that compensates.
+
+### USP Development (4 Steps)
+
+1. List every benefit the product or service provides
+2. Identify which benefits are unique — competitors either cannot or do not claim them
+3. Select the benefit that matters most to the target client
+4. Express it in a single sentence
+
+**Positioning statement formula (Edwards):**
+> "I help [specific client type] who struggle with [specific problem] to [specific outcome] without [common fear or obstacle]."
+
+Uganda examples:
+- "We help Kampala SME owners preparing for their first bank loan to build a bankable business plan — without wasting months on formats the bank won't accept."
+- "The only veterinary service in Wakiso district that comes to your farm — no transport costs, no lost production time."
+
+### Mission Statement Formulas (Pinskey)
+
+**Mission:** "[Company name] exists to [primary activity] for [client type] so that they can [outcome achieved]."
+
+**Vision:** "By [year], [company name] will be [measurable position] in [market] recognised for [core quality]."
+
+**Pinskey's test:** Read both aloud to a stranger. If they ask "what does that mean?", rewrite them.
+
 ## Generation Process
 
 1. Ask for: business name, industry, country, founding date, legal structure
@@ -114,6 +148,7 @@ State in the Company Overview: legal structure, URSB registration number, TIN, t
 - `references/doing-business-uganda.md` — Business registration, legal structures, employment law, investment licensing, banking, economic overview (RSM Eastern Africa 2026; Baker Tilly 2024)
 - `references/mission-vision-why.md` — Golden Circle framework (Sinek, 2009): WHY/HOW/WHAT methodology, Celery Test, mission statement templates, Uganda/East Africa application guidance
 - `references/awakening-entrepreneur-gerber.md` — E-Myth / Fatal Assumption; Five Realities; Four Dimensions (Dreamer/Thinker/Storyteller/Leader); Personal vs Impersonal Dream; Dream → Vision → Purpose → Mission cascade; Ten Pillars; Seven Centers of Management Attention; Three Stages of Owner Transformation; Business Model (Visual/Emotional/Functional/Financial); Leader's 10 Core Beliefs + 10 Operating Standards; Golden Pyramid Strategy (10 steps); Uganda/EA application notes — Gerber (2008)
+- `../07-marketing-sales-strategy/references/inbound-pr-self-promotion.md` — Business naming test (descriptive vs evocative); 4-step USP development process; positioning statement formula ("I help [type] who struggle with [problem]…"); mission and vision statement formulas; Uganda USP examples — Pinskey (1997); Edwards & Douglas (1991)
 
 ## Quality Criteria
 

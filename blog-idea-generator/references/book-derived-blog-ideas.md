@@ -1,6 +1,6 @@
 ---
-source: Synthesised from Tier 1 + StoryBrand + Gerber + Horowitz book extractions (March 2026)
-books: Minto (2002), Rasiel (1999), Damodaran (2011), Feld & Mendelson (2019), Agrawal et al. (2018), Sinek (2009), Miller (2017), Gerber (2008), Horowitz (2014)
+source: Synthesised from Tier 1 + StoryBrand + Gerber + Horowitz + Advertising/PR/Self-Promotion book extractions (March 2026)
+books: Minto (2002), Rasiel (1999), Damodaran (2011), Feld & Mendelson (2019), Agrawal et al. (2018), Sinek (2009), Miller (2017), Gerber (2008), Horowitz (2014), Hahn & Mangun (2003), Edwards & Douglas (1991), Pinskey (1997)
 purpose: Blog post ideas derived from business book content — for business planning, entrepreneurship, management, and plan-writing topics
 ---
 
@@ -485,3 +485,99 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Hook:** "What is the one thing you need your investor to remember about your business? If you cannot say it in one sentence, your presentation is not ready."
 **Draw from:** `presentation-secrets-jobs-gallo.md` — the One Thing, Twitter-friendly headlines, Rule of Three, STAR moments
 **Format:** Practical exercise + before/after examples from Uganda business contexts
+
+---
+
+## From Hahn — *Do It Yourself Advertising and Promotion*
+
+### B-HAH-01 — Why Every Ugandan Business Ad Fails at the Headline (And How to Fix It in 10 Minutes)
+**Angle:** Hahn's Five-Step Message Hierarchy (AIDA + Conviction) shows that most small business ads fail at step one — a weak or feature-led headline. Numbers, the word "you", and specific promises outperform vague boasts in every split test ever run.
+**Target reader:** SME owners who advertise in newspapers, on radio, or via WhatsApp; business plan consultants building promotional plans
+**Hook:** "You paid UGX 400,000 for a full-page ad in a newspaper. The headline said: 'Quality Service from Experienced Professionals.' Nobody called. Here is exactly why — and what to write instead."
+**Draw from:** `diy-advertising-copywriting.md` — Five-Step Message Hierarchy, headline tactics, "so what?" test, Benefit-Feature-Proof structure
+**Format:** Before/after ad rewrite guide with five Uganda business examples
+
+### B-HAH-02 — The WhatsApp Sales Message Framework: AIDA + Conviction Applied to East Africa's Favourite Channel
+**Angle:** Hahn's direct mail architecture — envelope (open), letter (sell), brochure (prove), order form (act) — maps directly onto WhatsApp message sequences. The same psychology applies. Most businesses send one-message "blasts" and wonder why nobody buys.
+**Target reader:** SME owners using WhatsApp for sales; mobile-first marketers
+**Hook:** "Your WhatsApp broadcast reaches 847 people. Three replied. Here is the five-step message sequence that would have converted 30."
+**Draw from:** `diy-advertising-copywriting.md` — Direct Mail Package Architecture, Uganda/WhatsApp/SMS equivalents table, Direct Mail Letter checklist (PS rule)
+**Format:** Step-by-step WhatsApp sequence template with Uganda product/service examples
+
+### B-HAH-03 — How to Write a Radio Ad for a Ugandan SME (The 75-Word Rule and What Comes Before It)
+**Angle:** FM radio reaches 73% of Ugandan adults vs. 30% for television. Yet most SME radio ads are written by sales reps at the station — with no understanding of the AIDA structure, the name-three-times rule, or the single-message discipline.
+**Target reader:** SME owners considering or using radio advertising; marketing managers
+**Hook:** "The station's sales rep wrote your ad. They mentioned your business name once, listed six services, and used background music that drowned your phone number. Here is how to write it yourself."
+**Draw from:** `diy-advertising-copywriting.md` — Radio Script Checklist, 75/150 word rule, Uganda FM station table, AIDA + Conviction applied to broadcast
+**Format:** Step-by-step radio script template with 30-second and 60-second examples
+
+### B-HAH-04 — Test Before You Spend: The Five-Level Marketing Test Hierarchy Every Ugandan SME Can Use
+**Angle:** Hahn's testing hierarchy — list first, offer second, headline third, format fourth, copy last — prevents the most common and expensive SME marketing mistake: changing the wrong variable, concluding "marketing doesn't work," and stopping. Facebook Ads now make this affordable for UGX 20,000–50,000 test budgets.
+**Target reader:** SME owners about to spend on marketing campaigns; entrepreneurs writing marketing budgets in their business plans
+**Hook:** "You ran the ad. It didn't work. So you changed the design and ran it again. It still didn't work. The problem was never the design — it was the offer. Here is how to find the real problem first."
+**Draw from:** `diy-advertising-copywriting.md` — Testing Hierarchy (5 levels with response swing %), break-even formula, Uganda Facebook micro-testing note
+**Format:** Diagnostic framework + step-by-step test design guide with UGX budget examples
+
+---
+
+## From Edwards & Douglas — *Getting Business to Come to You*
+
+### B-EDW-01 — The Marketing Pyramid: Why Your Business Keeps Paying for Ads Instead of Earning Referrals
+**Angle:** Edwards & Douglas's Marketing Pyramid shows that word-of-mouth referrals convert at the highest rate for the lowest cost — yet most businesses invest their entire budget at the bottom of the pyramid (paid ads). The strategic implication: invest first in what's at the top.
+**Target reader:** Service business owners; consultants; freelancers; professional practices
+**Hook:** "You spent UGX 2 million on Facebook ads last month. How many referrals did you ask for? The most effective marketing tool in your business costs nothing — and you are ignoring it."
+**Draw from:** `inbound-pr-self-promotion.md` — Marketing Pyramid (pull model), daily marketing rhythm, referral machine introduction
+**Format:** Framework explainer + self-audit (where does your marketing budget sit on the pyramid?)
+
+### B-EDW-02 — Build a Referral Machine: The Four-Step System That Turns Happy Clients Into Your Sales Team
+**Angle:** Edwards & Douglas's Referral Machine systematises word-of-mouth into a repeatable process: identify sources, make referring easy, acknowledge every referral, close the loop. Most Ugandan businesses rely on accidental referrals. This makes them deliberate.
+**Target reader:** Service businesses; consultants; any business where trust is the primary purchase trigger
+**Hook:** "Your three best clients know twenty people who need exactly what you offer. None of them have referred anyone to you. Not because they don't value your work — because you never asked them how."
+**Draw from:** `inbound-pr-self-promotion.md` — Referral Machine (4 steps), Uganda trust culture note, relationship maintenance tactics
+**Format:** Step-by-step implementation guide with templates (referral request script, acknowledgement note, loop-closing message)
+
+### B-EDW-03 — Write One Article, Get Six Months of Business: The Article Marketing Loop Explained
+**Angle:** The Article Marketing Loop (write → publish → reprint → mail → speak → testimonials → repeat) is the most efficient marketing system for expert-based businesses. One article in The Monitor or CEO East Africa generates speaking enquiries, client calls, and media follow-up for months.
+**Target reader:** Consultants, coaches, professional service providers; any business where expertise is the product
+**Hook:** "One contributor to a Kenyan business journal sent reprints of a single article to 200 people. Within 60 days she had 756 enquiries and UGX 55 million in new business. The article cost her three hours."
+**Draw from:** `inbound-pr-self-promotion.md` — Article Marketing Loop (7 steps), Uganda publication targets, speaking platform sequence, success metric
+**Format:** Step-by-step how-to with Uganda publication list and reprint distribution checklist
+
+### B-EDW-04 — Stop Being Everything to Everyone: The Niche Specialist Strategy for Ugandan Professionals
+**Angle:** The "generalist trap" is one of the most common and costly positioning errors in Uganda's professional services market. Edwards & Douglas's niche selection framework — four criteria, one positioning statement formula — shows how to escape it and charge more.
+**Target reader:** Consultants, accountants, lawyers, architects, HR specialists; any professional who says "I serve anyone"
+**Hook:** "There are 400 accounting firms in Kampala. One of them is 'the accountant for NGOs.' Her waiting list is three months. The other 399 are fighting for the same clients on price. Which one do you want to be?"
+**Draw from:** `inbound-pr-self-promotion.md` — Niche Specialist Positioning (generalist trap, 4 criteria, positioning statement formula), Uganda examples (NGO accountant, manufacturing lawyer)
+**Format:** Self-assessment + positioning statement builder with 8 Uganda professional service examples
+
+---
+
+## From Pinskey — *101 Ways to Promote Yourself*
+
+### B-PIN-01 — 101 Ways Is Too Many. Here Are the 12 That Work for Ugandan SMEs.
+**Angle:** Pinskey's 101 tactics span five decades and four continents. Distilled for the Uganda/East Africa context: the 12 that require no budget, work in low-digital environments, and compound over time. Month-by-month action plan included.
+**Target reader:** SME owners with no dedicated marketing budget; entrepreneurs in the pre-revenue or early-revenue phase
+**Hook:** "You don't need 101 tactics. You need 12 — done consistently over 90 days. Here is the shortlist."
+**Draw from:** `inbound-pr-self-promotion.md` — 90-day Low-Budget Promotion Plan, bulletin board marketing, postcard campaigns, networking follow-up system, joint ventures, article marketing
+**Format:** Curated 12-tactic guide with Month 1/2/3 action plan and Uganda-specific notes
+
+### B-PIN-02 — The Picture Business Card: The Simplest Networking Upgrade You Are Not Using
+**Angle:** Adding a professional photo to a business card increases recall by 40–60% (Pinskey's consulting data). It is standard practice in real estate, financial services, and consulting in developed markets. It is almost entirely absent from Ugandan professional services — a ready-made differentiator.
+**Target reader:** Consultants, coaches, sales professionals, lawyers, accountants — anyone who attends networking events
+**Hook:** "You hand someone your business card. They go home with 12 cards. Two weeks later, they remember two people. The two with photos."
+**Draw from:** `inbound-pr-self-promotion.md` — Picture business card (Way 6); business card rules; self-promotion identity tools; networking follow-up
+**Format:** Practical how-to with design specifications, photo guidelines, and back-of-card content options
+
+### B-PIN-03 — How to Get On the Radio (For Free) and Become the Expert Your Market Calls First
+**Angle:** KFM, Capital FM, CBS, Radio One, and Uganda's 200+ vernacular FM stations all carry business and lifestyle talk shows that actively seek knowledgeable guests. Getting booked is simpler than any advertising campaign — and more credible.
+**Target reader:** Consultants, professional service providers, entrepreneurs who want to build expert positioning
+**Hook:** "The radio host has a 45-minute slot to fill every morning. They are desperately looking for someone knowledgeable who won't bore listeners. That person could be you. Here is exactly how to get booked."
+**Draw from:** `inbound-pr-self-promotion.md` — Radio interview process (Way 66), Uganda FM station table, speaking platform sequence, media kit contents, TV interview principles
+**Format:** Step-by-step pitch guide with a template one-page pitch letter and Uganda station list
+
+### B-PIN-04 — Send One Press Release a Month. Most Ugandan Businesses Send Zero.
+**Angle:** Pinskey's press release structure (inverted pyramid, 250 words, local angle, quote from principal) is a free tool that generates media coverage, website traffic, and third-party credibility. Almost no Uganda SME uses it systematically. The Uganda market is under-saturated with newsworthy small business stories.
+**Target reader:** SME owners who have never sent a press release; entrepreneurs who feel they have "nothing newsworthy" to announce
+**Hook:** "You opened a new branch. You won a contract. You hired your 10th employee. You reached one year in business. Every one of these is a press release. Did you send one?"
+**Draw from:** `inbound-pr-self-promotion.md` — Press Release Structure (5-paragraph template), newsworthiness criteria (6 triggers), 7 "when to send" occasions, Uganda local angle examples, calendar listing tactic
+**Format:** Template-based how-to with five complete Uganda press release examples
