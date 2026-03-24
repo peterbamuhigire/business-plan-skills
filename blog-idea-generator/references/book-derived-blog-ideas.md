@@ -1,6 +1,6 @@
 ---
-source: Synthesised from Tier 1 + StoryBrand + Gerber + Horowitz + Advertising/PR/Self-Promotion + Ashley book extractions (March 2026)
-books: Minto (2002), Rasiel (1999), Damodaran (2011), Feld & Mendelson (2019), Agrawal et al. (2018), Sinek (2009), Miller (2017), Gerber (2008), Horowitz (2014), Hahn & Mangun (2003), Edwards & Douglas (1991), Pinskey (1997), Ashley (2003)
+source: Synthesised from Tier 1 + StoryBrand + Gerber + Horowitz + Advertising/PR/Self-Promotion + Ashley + Fleisher & Bensoussan book extractions (March 2026)
+books: Minto (2002), Rasiel (1999), Damodaran (2011), Feld & Mendelson (2019), Agrawal et al. (2018), Sinek (2009), Miller (2017), Gerber (2008), Horowitz (2014), Hahn & Mangun (2003), Edwards & Douglas (1991), Pinskey (1997), Ashley (2003), Fleisher & Bensoussan (2007)
 purpose: Blog post ideas derived from business book content — for business planning, entrepreneurship, management, and plan-writing topics
 ---
 
@@ -627,3 +627,101 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Hook:** "You hired someone on a verbal agreement. Three months later, they dispute their salary. A one-page offer letter would have prevented this entirely."
 **Draw from:** `../00-plan-assembly/references/commercial-correspondence-ashley.md` — Personnel correspondence; job offer structure; CV and application standards
 **Format:** Template offer letter + Employment Act 2006 compliance checklist
+
+---
+
+## From Fleisher & Bensoussan — *Business and Competitive Analysis: Effective Application of New and Classic Methods*
+
+### B-FLB-01 — Why Your Business Plan's Competitive Analysis Is Probably Wrong
+**Angle:** Most Ugandan business plans list "Direct competitors: none" or name only one or two large formal businesses. Fleisher & Bensoussan's Nine Forces model reveals the informal sector, substitute products, government policy, and technology as competitive forces most plans miss entirely.
+**Target reader:** Uganda SME owner preparing a first business plan; bank loan applicant who has been told their plan is weak
+**Hook:** "You listed three competitors. Your bank listed nine forces. Who do you think is doing better analysis?"
+**Draw from:** `../06-competitive-analysis/references/competitive-analysis-methods-fleisher.md` — Nine Forces model; driving forces; FAROUT framework; informal competition notes; Uganda adaptation section
+**Format:** Myth-busting listicle with Nine Forces applied to a Uganda case study
+
+---
+
+### B-FLB-02 — How to Profile a Competitor When They Have No Website, No Accounts, and No LinkedIn
+**Angle:** In Uganda and East Africa, most competitors are private, informal, or deliberately opaque. This post adapts Fleisher & Bensoussan's competitor profiling methodology for a low-data environment — physical observation, job listing analysis, supplier conversations, social media scanning, and customer debrief.
+**Target reader:** Uganda entrepreneur assessing a new market; consultant conducting competitive analysis for a client
+**Hook:** "Your biggest competitor has no website, no published accounts, and no LinkedIn profile. Here is how to profile them anyway."
+**Draw from:** `../06-competitive-analysis/references/competitive-analysis-methods-fleisher.md` — Competitor profiling; win/loss analysis; shadowing; Uganda OSINT notes; informal competition framing
+**Format:** How-to guide with 7-step competitor research process for low-data markets
+
+---
+
+### B-FLB-03 — Win/Loss Analysis: The Intelligence System Most Uganda Businesses Never Build
+**Angle:** Systematic post-sales debriefs — structured conversations with both customers you won and customers you lost — produce the most actionable competitive intelligence available. Yet almost no Uganda SME does this. This post provides a simple 5-question win/loss conversation guide adapted for relationship-based East African business culture.
+**Target reader:** Uganda sales manager or business owner in a B2B service business (construction, professional services, agri-business)
+**Hook:** "You lost the contract. You moved on. But that lost deal was worth more as intelligence than the next ten cold calls combined."
+**Draw from:** `../06-competitive-analysis/references/competitive-analysis-methods-fleisher.md` — Win/Loss Analysis methodology; 7-step interview process; Uganda relationship culture adaptation; FAROUT summary
+**Format:** System-building guide with downloadable 5-question win/loss conversation template
+
+---
+
+### B-FLB-04 — The One Assumption That Can Sink Your Business Plan (And How to Find It)
+**Angle:** Every business plan rests on a "linchpin assumption" — the single belief that, if wrong, makes everything else collapse. Most founders don't know what theirs is. Fleisher & Bensoussan's Linchpin Analysis combined with Analysis of Competing Hypotheses gives a structured method for identifying and stress-testing it.
+**Target reader:** Business plan author; entrepreneur preparing for investor or bank pitch; consultant reviewing a client plan
+**Hook:** "Every plan has one assumption holding everything else up. If an investor finds it before you do, the meeting ends early."
+**Draw from:** `../06-competitive-analysis/references/competitive-analysis-methods-fleisher.md` — Linchpin Analysis; Analysis of Competing Hypotheses; FAROUT framework; connection to meta-bankability-scoring
+**Format:** Diagnostic framework post with worked Uganda example (maize processing business whose linchpin assumption is reliable aggregation from smallholders)
+
+---
+
+### B-FLB-05 — Benchmarking for Uganda SMEs: How to Set Performance Targets Without Copying a Business You Can't Reach
+**Angle:** Benchmarking is not just for multinationals. Uganda SMEs can benchmark against regional leaders (Kenya, Rwanda), sector association standards, and development institution data (IFC, UBOS) to set meaningful targets. This post explains the four types of benchmarking and which one is right for each stage of business.
+**Target reader:** Uganda SME owner wanting to set professional performance targets; business plan author writing an operations or financials section
+**Hook:** "Your bank wants KPIs. You don't know what 'good' looks like in your industry. Benchmarking finds the standard — even when your competitor won't share it."
+**Draw from:** `../06-competitive-analysis/references/competitive-analysis-methods-fleisher.md` — Benchmarking Analysis; four benchmarking types; Uganda/EA data sources; limitations (copycat syndrome); CSF analysis connection
+**Format:** Guide with four-type benchmarking taxonomy + Uganda data source table by industry
+
+---
+
+### B-FLB-06 — War Gaming Your Business Strategy: A One-Day Exercise for Uganda Entrepreneurs
+**Angle:** War gaming — where team members role-play as competitors, customers, and regulators — is the most powerful strategic stress-test most small businesses have never heard of. This post adapts Fleisher & Bensoussan's 6-step war gaming process into a simplified one-day workshop for Uganda SMEs preparing for market entry or a major business decision.
+**Target reader:** Uganda entrepreneur about to launch a new product or enter a new segment; management team preparing an annual strategy review
+**Hook:** "Before you launch, spend one day trying to beat yourself. Your competitors will spend the next year doing exactly that."
+**Draw from:** `../06-competitive-analysis/references/competitive-analysis-methods-fleisher.md` — War Gaming 6-step process; shadowing; Indications and Warning; Uganda adaptation notes
+**Format:** Workshop guide with half-day agenda, team composition instructions, and 5 questions each team must answer
+
+### B-CAD-01 — PESTLE vs Porter's Five Forces: Which One Does Your Business Plan Actually Need?
+**Angle:** Many Uganda entrepreneurs confuse these two tools or treat them as interchangeable. Cadle clarifies the difference: PESTLE scans the macro-environment (Political, Economic, Socio-cultural, Technological, Legal, Environmental) while Porter's Five Forces analyses industry structure (rivals, new entrants, substitutes, buyers, suppliers). The real insight: used together, they give a complete picture. Used alone, each leaves dangerous gaps.
+**Target reader:** SME owner writing their first business plan; business plan consultant explaining the tools to a client
+**Hook:** "You've done a PESTLE. You've done a Five Forces. But did you know they're answering completely different questions — and your plan needs both?"
+**Draw from:** `../meta-market-validation/references/business-analysis-techniques-cadle.md` — Chapter 1 tools (Tools 1–2), Uganda/EA Application Notes section
+**Format:** Explainer with side-by-side comparison table + Uganda worked example (e.g. maize milling business)
+
+### B-CAD-02 — What Is a SWOT Analysis Really For? (Most People Use It Wrong)
+**Angle:** SWOT is the world's most used — and most misused — strategy tool. Cadle's insight: SWOT is a synthesis tool, not an analysis tool. It summarises findings from PESTLE (opportunities and threats) and the Resource Audit (strengths and weaknesses). The TOWS extension then generates strategic options: SO, ST, WO, WT strategies. Most Uganda business plans list SWOT items without linking them to strategy — this post shows the right way.
+**Target reader:** Entrepreneur who has "done SWOT" but doesn't know what to do with it; plan writer who wants to add analytical rigour
+**Hook:** "A SWOT with four boxes and bullet points is decoration. A SWOT connected to your PESTLE and Resource Audit — and extended to TOWS — is a strategy."
+**Draw from:** `../meta-market-validation/references/business-analysis-techniques-cadle.md` — Tool 6 (SWOT/TOWS), Tool 1 (PESTLE), Tool 4 (Resource Audit)
+**Format:** How-to guide with before/after SWOT examples + TOWS strategy matrix template
+
+### B-CAD-03 — The One Tool That Reveals Whether Your Business Strategy Will Actually Work: McKinsey's 7-S Model
+**Angle:** Many Uganda businesses have a strategy on paper that fails in practice because they never checked whether the organisation is actually capable of executing it. McKinsey's 7-S model (Strategy, Structure, Systems, Shared Values, Staff, Skills, Style) checks alignment across all seven elements. Changing one S forces changes in the others — which is why strategy implementations fail when organisations only change one or two.
+**Target reader:** Growing SME owner who has a new strategy but keeps hitting implementation walls; business plan consultant designing the implementation section
+**Hook:** "You changed the strategy. You didn't change the systems, the skills, or the management style. That's why it didn't work."
+**Draw from:** `../meta-market-validation/references/business-analysis-techniques-cadle.md` — Tool 8 (McKinsey 7-S), Tool 9 (Four-View Model), Strategy Implementation section
+**Format:** Diagnostic checklist (7-S alignment test) + Uganda case study framing
+
+### B-CAD-04 — How to Map Your Business Processes (Even If You've Never Done It Before)
+**Angle:** Most Uganda SMEs operate from the founder's tacit knowledge — nothing is written down. Banks and investors want to see that the business is systemised, not founder-dependent. Swimlane process diagrams are the accessible, visual format that documents who does what, in what sequence, and where handoffs happen. This post shows how to create one for any type of business using everyday tools (paper, PowerPoint, or free online tools).
+**Target reader:** SME owner preparing for a bank loan or investor pitch; operations manager formalising an informal business
+**Hook:** "Your business runs because you know how it works. A bank or investor doesn't — and they won't lend to something they can't understand without you in the room."
+**Draw from:** `../meta-market-validation/references/business-analysis-techniques-cadle.md` — Tool 37 (Business Process Modelling/Swimlanes), Tool 35 (Organisation Diagram), Tool 40 (Gap Analysis), Uganda/EA Application Notes
+**Format:** Step-by-step tutorial with a simple Uganda business example (e.g. salon, school meals catering, or hardware shop) + free tool recommendations
+
+### B-CAD-05 — Before You Write the Business Plan: The 72-Tool Analytical Toolkit That Consultants Use
+**Angle:** Professional business analysts use a structured toolkit of 72 techniques — organised by analytical stage — to investigate businesses, understand stakeholders, model processes, and evaluate options. Most of these tools apply directly to business plan writing. This post maps the most relevant tools to each section of a bankable business plan, giving entrepreneurs a systematic approach to analysis rather than guessing what to include.
+**Target reader:** Serious entrepreneur preparing a comprehensive business plan; consultant looking to upgrade their analytical methodology
+**Hook:** "A surgeon doesn't walk into theatre without knowing which instruments to use. A business analyst — or a plan writer — shouldn't either."
+**Draw from:** `../meta-market-validation/references/business-analysis-techniques-cadle.md` — Business Plan Application Table, Authors' Eleven Essential Tools, Overview section
+**Format:** Reference guide with a tool-to-section mapping table + "start here" recommendation for first-time plan writers
+
+### B-CAD-06 — CBA vs NPV vs Payback: Which Financial Evaluation Method Should Your Business Plan Use?
+**Angle:** Cadle distinguishes three investment appraisal techniques that every business case should include: Payback Period (the most intuitive — how quickly is the investment recovered?), Net Present Value using DCF (the theoretically correct method — what is the project worth today?), and Internal Rate of Return (at what return rate does the investment break even?). Most Uganda business plans use payback only — which bankers find insufficient. This post explains all three and when to use each.
+**Target reader:** Entrepreneur building a business case for a bank loan or DFI investment; accountant or consultant advising on financial projections
+**Hook:** "Your banker calculates NPV. You calculated payback. You're speaking different financial languages — and yours is the simpler one."
+**Draw from:** `../meta-market-validation/references/business-analysis-techniques-cadle.md` — Tool 47 (Investment Appraisal), Tool 44 (CBA), Tool 46 (Risk Analysis); cross-reference `../11-funding-request/references/business-valuation-methods.md`
+**Format:** Explainer with three worked examples using the same UGX figures + decision table (which method for which audience)
