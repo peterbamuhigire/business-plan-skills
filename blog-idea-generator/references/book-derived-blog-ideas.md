@@ -1,6 +1,6 @@
 ---
-source: Synthesised from Tier 1 + StoryBrand + Gerber + Horowitz + Advertising/PR/Self-Promotion + Ashley + Fleisher & Bensoussan book extractions (March 2026)
-books: Minto (2002), Rasiel (1999), Damodaran (2011), Feld & Mendelson (2019), Agrawal et al. (2018), Sinek (2009), Miller (2017), Gerber (2008), Horowitz (2014), Hahn & Mangun (2003), Edwards & Douglas (1991), Pinskey (1997), Ashley (2003), Fleisher & Bensoussan (2007)
+source: Synthesised from Tier 1 + StoryBrand + Gerber + Horowitz + Advertising/PR/Self-Promotion + Ashley + Fleisher & Bensoussan + Writing Quality book extractions (March 2026)
+books: Minto (2002), Rasiel (1999), Damodaran (2011), Feld & Mendelson (2019), Agrawal et al. (2018), Sinek (2009), Miller (2017), Gerber (2008), Horowitz (2014), Hahn & Mangun (2003), Edwards & Douglas (1991), Pinskey (1997), Ashley (2003), Fleisher & Bensoussan (2007), Cadle, Paul & Turner (2010), Hood (n.d.), Shiach (n.d.), Geffner (1998), Rubie & Provost (1997)
 purpose: Blog post ideas derived from business book content — for business planning, entrepreneurship, management, and plan-writing topics
 ---
 
@@ -725,3 +725,120 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Hook:** "Your banker calculates NPV. You calculated payback. You're speaking different financial languages — and yours is the simpler one."
 **Draw from:** `../meta-market-validation/references/business-analysis-techniques-cadle.md` — Tool 47 (Investment Appraisal), Tool 44 (CBA), Tool 46 (Risk Analysis); cross-reference `../11-funding-request/references/business-valuation-methods.md`
 **Format:** Explainer with three worked examples using the same UGX figures + decision table (which method for which audience)
+
+
+---
+
+## From Hood, Shiach, Geffner, Rubie and Provost -- Writing Quality Books
+
+### B-HOD-01
+- **Angle:** Why your Ugandan business plan reads like a university essay
+- **Target reader:** Ugandan entrepreneur submitting to a bank
+- **Hook:** The same writing style that earned you an A is quietly killing your loan application.
+- **Draw from:** writing-quality/references/words-at-work-hood.md
+- **Format:** Before/after rewrite + Plain English checklist
+
+### B-HOD-02
+- **Angle:** The reversed triangle -- give bankers the answer first, not last
+- **Target reader:** Business owners and proposal writers across East Africa
+- **Hook:** Academic writing builds to the conclusion. Bankers are too busy.
+- **Draw from:** writing-quality/references/words-at-work-hood.md
+- **Format:** Explainer with three real-world examples
+
+### B-HOD-03
+- **Angle:** Ten phrases that make business writing sound bureaucratic -- and their plain replacements
+- **Target reader:** Anyone writing professional documents in Uganda
+- **Hook:** If you have ever written pursuant to our earlier discussion in an email, this is for you.
+- **Draw from:** writing-quality/references/words-at-work-hood.md
+- **Format:** Table with explanation of why each phrase fails
+
+### B-HOD-04
+- **Angle:** The executive summary is the only part of your report anyone will read
+- **Target reader:** Business owners preparing reports for boards or banks
+- **Hook:** Only 10-15 percent of reports are read in full. Your executive summary is your entire argument.
+- **Draw from:** writing-quality/references/words-at-work-hood.md
+- **Format:** Step-by-step guide with annotated template
+
+### B-SHI-01
+- **Angle:** Your business plan executive summary is pure waffle -- here is the test and the fix
+- **Target reader:** Ugandan entrepreneurs preparing bank or investor documents
+- **Hook:** If your executive summary could describe any business, it describes no business at all.
+- **Draw from:** writing-quality/references/essay-writing-shiach.md
+- **Format:** Waffle diagnosis tool + rewrite examples
+
+### B-SHI-02
+- **Angle:** The paragraph formula that makes any business plan argument more convincing
+- **Target reader:** Business plan writers and consultants across East Africa
+- **Hook:** One key sentence. Two to four sentences of evidence. One closing sentence. Every paragraph. Every time.
+- **Draw from:** writing-quality/references/essay-writing-shiach.md
+- **Format:** Step-by-step guide with before/after paragraph rewrites
+
+### B-SHI-03
+- **Angle:** The 15 linking phrases that make your business writing sound logical and controlled
+- **Target reader:** Anyone writing funding proposals or business plans in English
+- **Hook:** The difference between writing that flows and writing that jumps is how you connect the ideas.
+- **Draw from:** writing-quality/references/essay-writing-shiach.md
+- **Format:** Reference table by function with business-writing examples
+
+### B-SHI-04
+- **Angle:** How to write a business plan conclusion that actually closes the deal
+- **Target reader:** Entrepreneurs at the funding-request stage
+- **Hook:** Most business plans end with a whimper. A strong conclusion delivers a verdict.
+- **Draw from:** writing-quality/references/essay-writing-shiach.md
+- **Format:** Three annotated conclusion examples
+
+### B-GEF-01
+- **Angle:** Why your business plan sounds like a government form -- and how to fix it
+- **Target reader:** Ugandan entrepreneur preparing a bank loan application
+- **Hook:** Your plan says please find enclosed herewith. The loan officer has already moved on.
+- **Draw from:** writing-quality/references/business-english-geffner.md
+- **Format:** Before/after examples + expressions-to-avoid checklist
+
+### B-GEF-02
+- **Angle:** The four-point editing test every business plan must pass before going to the bank
+- **Target reader:** Business plan consultants and SME owners
+- **Hook:** A one-page checklist that has rescued more loan applications than any financial ratio.
+- **Draw from:** writing-quality/references/business-english-geffner.md
+- **Format:** Checklist article with worked examples
+
+### B-GEF-03
+- **Angle:** Positive or negative -- the framing choice that changes how lenders read your risk section
+- **Target reader:** Entrepreneurs and consultants writing the risk analysis section
+- **Hook:** You have to disclose the risks. Here is how to do it without killing the deal.
+- **Draw from:** writing-quality/references/business-english-geffner.md
+- **Format:** Side-by-side comparison article
+
+### B-GEF-04
+- **Angle:** Bullet points are lying to your business plan -- the parallelism problem
+- **Target reader:** Anyone writing or reviewing business plans
+- **Hook:** Your bullet list mixes nouns, verbs, and clauses. The reader does not know why it feels wrong, but it does.
+- **Draw from:** writing-quality/references/business-english-geffner.md
+- **Format:** Grammar tutorial with business plan examples
+
+### B-RUB-01
+- **Angle:** Your business plan is missing a protagonist -- why lenders read plans and feel nothing
+- **Target reader:** Ugandan entrepreneurs and consultants preparing bank submissions
+- **Hook:** Lenders fund the plans they remember. They remember the ones with a person at the centre.
+- **Draw from:** writing-quality/references/storytelling-rubie-provost.md
+- **Format:** Framework article with before/after executive summary comparison
+
+### B-RUB-02
+- **Angle:** The high-concept hook -- how to summarise your business in one sentence
+- **Target reader:** SME owners preparing investor pitches and bank proposals
+- **Hook:** If you cannot say what your business does and why it matters in one sentence, you are not ready to pitch.
+- **Draw from:** writing-quality/references/storytelling-rubie-provost.md
+- **Format:** Tutorial with ten worked example hooks for Ugandan businesses
+
+### B-RUB-03
+- **Angle:** Show, do not tell -- the market research principle that separates fundable plans from rejected ones
+- **Target reader:** Business plan writers and market researchers
+- **Hook:** A statistic is forgotten in a week. A named customer story is remembered in a year.
+- **Draw from:** writing-quality/references/storytelling-rubie-provost.md
+- **Format:** Comparison article with worked examples from Ugandan sectors
+
+### B-RUB-04
+- **Angle:** The origin story your business plan is hiding -- and why the bank wants to read it
+- **Target reader:** First-generation Ugandan entrepreneurs nervous about personal background
+- **Hook:** You think your story is too ordinary to matter. The investor thinks it is the only part that cannot be fabricated.
+- **Draw from:** writing-quality/references/storytelling-rubie-provost.md
+- **Format:** Personal narrative analysis + how-to guide
