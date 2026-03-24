@@ -1,6 +1,6 @@
 ---
-source: Synthesised from Tier 1 + StoryBrand + Gerber + Horowitz + Advertising/PR/Self-Promotion book extractions (March 2026)
-books: Minto (2002), Rasiel (1999), Damodaran (2011), Feld & Mendelson (2019), Agrawal et al. (2018), Sinek (2009), Miller (2017), Gerber (2008), Horowitz (2014), Hahn & Mangun (2003), Edwards & Douglas (1991), Pinskey (1997)
+source: Synthesised from Tier 1 + StoryBrand + Gerber + Horowitz + Advertising/PR/Self-Promotion + Ashley book extractions (March 2026)
+books: Minto (2002), Rasiel (1999), Damodaran (2011), Feld & Mendelson (2019), Agrawal et al. (2018), Sinek (2009), Miller (2017), Gerber (2008), Horowitz (2014), Hahn & Mangun (2003), Edwards & Douglas (1991), Pinskey (1997), Ashley (2003)
 purpose: Blog post ideas derived from business book content — for business planning, entrepreneurship, management, and plan-writing topics
 ---
 
@@ -581,3 +581,49 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Hook:** "You opened a new branch. You won a contract. You hired your 10th employee. You reached one year in business. Every one of these is a press release. Did you send one?"
 **Draw from:** `inbound-pr-self-promotion.md` — Press Release Structure (5-paragraph template), newsworthiness criteria (6 triggers), 7 "when to send" occasions, Uganda local angle examples, calendar listing tactic
 **Format:** Template-based how-to with five complete Uganda press release examples
+
+---
+
+## From Ashley — *Oxford Handbook of Commercial Correspondence*
+
+### B-ASH-01 — How to Write a Covering Letter That Gets Your Loan Approved
+**Angle:** Uganda banks receive plans without covering letters, or with covering letters that begin "Please find attached…" Ashley's letter-structure principles applied to a bank loan submission: block style, correct salutation, DSCR prominent in paragraph two, collateral stated explicitly.
+**Target reader:** Uganda SME owner applying for their first bank loan
+**Hook:** "The loan officer opens your envelope. There is no covering letter. Your plan goes to the bottom of the pile. Here is what should have been on page one."
+**Draw from:** `../00-plan-assembly/references/commercial-correspondence-ashley.md` — Professional letter structure; salutation/close rules; Uganda/EA notes; loan request structure
+**Format:** Template-based how-to with annotated example covering letter
+
+### B-ASH-02 — CIF, FOB, or DDP? The Incoterms Every Ugandan Importer Must Know
+**Angle:** Most Ugandan importers quote "CIF Mombasa" without knowing what it means for their risk exposure, insurance liability, or inland haulage costs. The full Incoterms 2000 table explained for the Uganda/EA context, with worked cost examples.
+**Target reader:** Importer, trader, manufacturer sourcing materials internationally
+**Hook:** "You paid CIF Mombasa. The goods arrived damaged at the port. Who pays? If you don't know, you're not the first Ugandan importer to find out the hard way."
+**Draw from:** `../00-plan-assembly/references/commercial-correspondence-ashley.md` — Incoterms 2000 quick-reference table; CIF/FOB/DDP/EXW explained; Uganda context
+**Format:** Explainer with decision table (which Incoterm for which situation) + worked cost example
+
+### B-ASH-03 — How to Write a Complaint Letter That Gets Results — Without Burning the Relationship
+**Angle:** Ashley's principles for commercial complaints: passive/impersonal language; no fault/blame words; immediate filing; solution-focused closing. Applied to Uganda's relationship-maintenance business culture.
+**Target reader:** SME owner who has received damaged goods, wrong delivery, or an overcharged invoice
+**Hook:** "Your supplier delivered the wrong order. You have two options: a complaint letter that gets your money back and preserves the relationship, or one that achieves neither. Here is the difference."
+**Draw from:** `../00-plan-assembly/references/commercial-correspondence-ashley.md` — Complaints and adjustments; passive/impersonal structures; debit/credit notes; Uganda relationship framing
+**Format:** Before/after letter comparison + complaint template
+
+### B-ASH-04 — Letters of Credit vs Mobile Money: Choosing the Right Payment Method for Your Business
+**Angle:** From mobile money to bills of exchange to letters of credit — a plain-language guide to Uganda's payment methods mapped to business type, transaction size, and risk appetite.
+**Target reader:** Exporter, manufacturer, established importer
+**Hook:** "You've been paid by mobile money for three years. Now a Kenyan buyer wants to pay by letter of credit. Do you know how to handle it?"
+**Draw from:** `../00-plan-assembly/references/commercial-correspondence-ashley.md` — Payment methods table; bill of exchange mechanics; letter of credit; Uganda/EA notes
+**Format:** Decision table + plain-English explanation of L/C process
+
+### B-ASH-05 — The Right Way to Request a Bank Overdraft (Template Included)
+**Angle:** Ashley's loan/overdraft request letter structure adapted for Uganda: state purpose, amount, evidence of need, collateral, repayment, and request a meeting. The letter that opens the door to a credit conversation.
+**Target reader:** SME owner needing working capital who has never formally written to a bank
+**Hook:** "A bank manager receives your loan request by WhatsApp. A competitor sends a professional letter with audited accounts and a repayment plan. Who gets the meeting?"
+**Draw from:** `../00-plan-assembly/references/commercial-correspondence-ashley.md` — Banking correspondence; overdraft/loan request structure; bank approval/decline conventions
+**Format:** Annotated template letter + tips on what the bank actually reads first
+
+### B-ASH-06 — How to Write a Job Offer Letter That Protects Your Business
+**Angle:** Ashley's personnel correspondence standards for job offers — what must be included (post, salary, start date, probation, acceptance deadline) and why. Connected to Uganda Employment Act 2006 requirements.
+**Target reader:** Growing SME hiring its first formal employee; owner-manager replacing a key staff member
+**Hook:** "You hired someone on a verbal agreement. Three months later, they dispute their salary. A one-page offer letter would have prevented this entirely."
+**Draw from:** `../00-plan-assembly/references/commercial-correspondence-ashley.md` — Personnel correspondence; job offer structure; CV and application standards
+**Format:** Template offer letter + Employment Act 2006 compliance checklist

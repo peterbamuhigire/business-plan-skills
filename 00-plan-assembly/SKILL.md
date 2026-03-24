@@ -241,6 +241,7 @@ Before handing over the document, verify:
 
 ## References
 
+- `references/commercial-correspondence-ashley.md` — Professional letter structure (block style, salutation/close rules, courtesy title table), email/fax standards, content and style principles (length, sequence, planning template), and Uganda/EA application notes for all covering letter types — Source: Ashley (OUP, 2003). **Read when drafting any covering letter or formal business letter; the salutation and complimentary close tables are the authoritative reference for all plan correspondence.**
 - `references/submission-guide.md` — Funder-specific submission requirements and contact details
 - `references/covering-letter-templates.md` — Extended covering letter variants
 - `15-appendices/references/document-templates.md` — Director CV template, net worth statement, loan repayment schedule template
