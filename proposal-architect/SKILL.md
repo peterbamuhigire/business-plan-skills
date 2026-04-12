@@ -242,8 +242,35 @@ Before drafting, think through:
 - What is the single strongest theme to run through the proposal?
 - What methodology or approach will score highest on evaluation criteria?
 - What risks must the proposal address proactively?
+- What commercial or strategic value should the client expect if this proposal is accepted?
 
 Share this thinking with the consultant. Agree on the positioning before drafting.
+
+### 6a.1 High-value proposal framing
+
+For strategic, advisory, transformation, operational improvement, or other large-value bids, build a clear transformation thesis before drafting:
+
+1. **Why now** — what makes change urgent for the client?
+2. **What changes** — what measurable improvement will the client see?
+3. **Why this team** — what proof makes the proposal credible?
+4. **How risk is controlled** — what reduces delivery risk from day one?
+
+Where relevant, show capability across these transformation pillars:
+- leadership
+- culture
+- people
+- systems
+- IQ
+- EQ
+- flexibility
+- fearlessness
+
+If the assignment is tied to growth, match the proposal to the client's lifecycle stage:
+- launch / early traction
+- scaling / repeatability
+- mature / optimisation and defence
+
+For high-value bids, include a visible first-90-days mobilisation logic.
 
 ### 6b. Section drafting
 
@@ -257,6 +284,7 @@ For each section:
 - Address evaluation criteria directly — name the criterion if helpful
 - Use concrete language: numbers, timelines, named methodologies, specific outputs
 - Avoid filler phrases: "we are pleased to submit", "we have extensive experience"
+- Make commercial value legible: revenue upside, efficiency gain, risk reduction, cycle-time improvement, or retention impact
 
 **Do not pad.** A tight, confident proposal beats a long, vague one.
 
@@ -422,6 +450,10 @@ pandoc sections/01-executive-summary.md \
 6. **Confidentiality** — proposals are in `/proposals/` which is gitignored.
    Never commit proposal content to the shared repo.
 
+7. **Value visibility** — high-value proposals should show the business case, not only the workplan.
+
+8. **First-90-days control** — serious buyers want to know how delivery starts; show mobilisation, governance, and early wins where relevant.
+
 ---
 
 ## Quick Reference: Folder Purposes
@@ -435,3 +467,9 @@ pandoc sections/01-executive-summary.md \
 | `assets/` | Charts, diagrams, logos, photos |
 | `drafts/` | Scratch writing, brainstorm dumps, iteration versions |
 | `submissions/` | Final compiled DOCX files ready for client delivery |
+
+---
+
+## Reference Files
+
+- `references/high-value-proposal-strategy.md` — use for transformation, growth, advisory, or operational-improvement proposals that need a clear change thesis, measurable client value, and a credible first-90-days mobilisation plan

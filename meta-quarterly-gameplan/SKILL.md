@@ -116,6 +116,28 @@ Score candidate processes on four weighted criteria (Page, 2015):
 
 Select the highest-scoring process for this quarter's improvement focus.
 
+### 8. Transformation Control Points
+
+For larger growth or transformation quarters, review execution through these eight lenses:
+- leadership
+- culture
+- people
+- systems
+- IQ
+- EQ
+- flexibility
+- fearlessness
+
+Turn them into practical review questions:
+- who is leading and deciding?
+- what behaviour change is required?
+- which skills or roles are missing?
+- which systems are constraining progress?
+- what analysis or data is needed?
+- what trust, morale, or stakeholder issue must be managed?
+- where must the plan adapt without losing focus?
+- what bold decision is being avoided?
+
 ## The King Method: Core Principles
 
 1. **One objective per quarter** — Focus beats breadth
@@ -133,6 +155,7 @@ Select the highest-scoring process for this quarter's improvement focus.
 5. Assign ownership for every item
 6. Allocate resources and budget
 7. Create quarter-end review template
+8. If the quarter includes process redesign or AI enablement, apply question -> delete -> simplify -> accelerate -> automate
 
 ### 8. Weekly Accountability System
 
@@ -142,7 +165,17 @@ Use a structured Sunday (P)review to maintain momentum (Kagan, 2024):
 - **Send to accountability buddy** — they must reply AND call out missed commitments
 - **Organised by goal categories** matching quarterly objectives
 
-### 9. Marketing Experiment Cycles
+### 9. Algorithm-Based Improvement Sequence
+
+When the quarterly objective includes operational improvement or AI enablement, use this order:
+
+1. Question the requirement
+2. Delete unnecessary steps
+3. Simplify and optimise
+4. Accelerate cycle time
+5. Automate last
+
+### 10. Marketing Experiment Cycles
 
 Each quarter should include at least one marketing experiment cycle (Kagan, 2024):
 
@@ -159,3 +192,5 @@ Each quarter should include at least one marketing experiment cycle (Kagan, 2024
 - Resource requirements are realistic for team capacity
 - Review template is honest — captures failures, not just successes
 - Weekly accountability system is in place (Sunday reviews with buddy)
+- Quarterly plan identifies the real execution constraint, not just the activity list
+- Process-improvement quarters follow question -> delete -> simplify -> accelerate -> automate
