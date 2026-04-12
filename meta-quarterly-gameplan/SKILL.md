@@ -23,6 +23,15 @@ Success metric: [How we know we achieved it]
 Why this matters now: [Connection to annual plan]
 ```
 
+Before finalising the objective, map it to the Balanced Scorecard perspective it most directly advances:
+
+- Financial
+- Customer / Market
+- Internal Process
+- Learning / Capability
+
+Every quarter should still have one objective, but that objective must be traceable to the annual strategy map.
+
 ### 2. Monthly Breakdown
 
 **Month 1: Foundation**
@@ -63,6 +72,17 @@ Team capacity: X person-hours available
 Key tools/resources needed: [List]
 External dependencies: [List with expected delivery dates]
 ```
+
+### 5A. Quarter Strategy Map
+
+Add a mini strategy map for the quarter:
+
+- capability or system changes required
+- process improvements expected
+- customer or market result targeted
+- financial effect expected
+
+This prevents the quarter from collapsing into a task list with no strategic logic.
 
 ### 6. Quarter-End Review Template
 
@@ -184,13 +204,31 @@ Each quarter should include at least one marketing experiment cycle (Kagan, 2024
 3. At month-end: double down on what works, kill what doesn't
 4. Carry the winning experiments into the next month
 
+### 11. Scorecard Review Gate
+
+At the end of every month, classify the quarter by Balanced Scorecard status:
+
+- Green - objective and leading indicators on track
+- Amber - one major leading indicator off track; corrective action required
+- Red - objective at risk; trigger a replanning session within five working days
+
+Review both:
+
+- lagging outcomes achieved so far
+- leading indicators that predict whether the quarter will still land
+
 ## Quality Criteria
 
 - Quarterly objective is singular and measurable
+- Quarterly objective is linked to a scorecard perspective and strategy map
 - Weekly actions are specific enough to execute (not "work on marketing")
-- Every action has an owner — no shared ownership
+- Every action has an owner - no shared ownership
 - Resource requirements are realistic for team capacity
 - Review template is honest — captures failures, not just successes
 - Weekly accountability system is in place (Sunday reviews with buddy)
 - Quarterly plan identifies the real execution constraint, not just the activity list
 - Process-improvement quarters follow question -> delete -> simplify -> accelerate -> automate
+
+## References
+
+- `references/quarterly-strategy-map.md` - quarterly objective selection, strategy-map linkage, KPI-cascade design, and review-gate logic based on Balanced Scorecard practice

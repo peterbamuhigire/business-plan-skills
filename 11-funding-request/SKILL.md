@@ -1,172 +1,145 @@
----
+﻿---
 name: funding-request
-description: Generate the funding request section for Uganda/East Africa context — bank loans, DFI funding, equity, grants, or combinations. Covers capital ask, use of funds, DSCR calculation, collateral statement, CAMPARI alignment, and investor/lender terms. Calibrated to Ugandan bank and development finance institution requirements.
+description: Generate the funding request section for Uganda/East Africa context covering bank loans, DFI funding, equity, grants, or combinations. Use for capital ask, use of funds, DSCR logic, collateral statement, CAMPARI alignment, investor terms, and valuation-linked funding strategy.
 ---
 
-# Funding Request & Use of Funds Skill
+# Funding Request and Use of Funds Skill
 
-Generate the section that tells lenders or investors exactly what you need, what you will do with it, and why they should fund you.
+Generate the section that tells lenders or investors exactly what is being requested, how it will be used, and why the request is financeable.
 
 ## Funder Type Identification
 
-Before drafting this section, identify the primary funder type — this determines the entire format and content:
+Identify the primary funder first:
 
 | Funder Type | Primary Concern | What They Want to See |
 |---|---|---|
-| **Ugandan commercial bank** (Stanbic, ABSA, Centenary, Equity, dfcu, HFB) | Repayment security | DSCR ≥ 1.25x; collateral ≥ 125% of loan; CAMPARI compliance |
-| **Development Finance Institution** (UDB, ACF) | Development impact + viability | Social/economic impact; jobs created; sector alignment; DSCR |
-| **Microfinance / SACCO** | Cash flow; group character | Mobile money/bank statements; group guarantee; track record |
-| **Equity investor** (angel, VC, PE) | Return on investment | Growth potential; exit route; valuation; traction |
-| **Development partner grant** (USAID, EU, GIZ) | Programme objectives | LogFrame; beneficiaries; Theory of Change — use `11b-grant-proposal` skill |
-| **Government programme** (YLP, PDM, Emyooga) | Youth/women/poverty | Eligibility criteria; sector; group membership |
+| Ugandan commercial bank | Repayment security | DSCR >= 1.25x; collateral >= 125%; CAMPARI compliance |
+| DFI | Development impact plus viability | jobs, sector fit, safeguards, DSCR |
+| Microfinance / SACCO | Cash flow and character | transaction history, guarantees, repayment realism |
+| Equity investor | Return on investment | growth, valuation, dilution, exit, traction |
+| Development partner grant | Programme objectives | use `11b-grant-proposal` |
+| Government programme | Eligibility and social criteria | beneficiary fit, sector, group status |
 
-**Most Uganda SME plans target commercial bank or DFI funding. The Uganda Bank Loan section below is the default.**
+Default for Uganda SME plans: commercial bank or DFI.
 
----
-
-## Uganda Bank Loan Mode (Default for Uganda Plans)
+## Bank Loan Mode
 
 ### Required Elements
 
-1. **Funding amount** — Exact amount in UGX (not a range)
-2. **Loan type** — Term loan (for capital expenditure), overdraft/working capital facility, or LPO/invoice financing
-3. **Use of funds** — Itemised to individual line items; must match §13 implementation budget exactly
-4. **Loan term and repayment** — Proposed term in months; grace period request (if any); repayment source identified
-5. **DSCR calculation** — Debt Service Coverage Ratio from §10 projections: EBITDA ÷ Annual Debt Service ≥ 1.25x
-6. **Owner equity contribution** — The owner's co-investment; minimum 20% of total project cost
-7. **Collateral** — Primary collateral with estimated market value; coverage ratio (collateral value ÷ loan amount ≥ 125%)
-8. **Security documents** — What documents exist (land title, motor vehicle logbook, debenture, personal guarantee)
-9. **Compensating factors** — If collateral is weak: UCGS (Uganda Credit Guarantee Scheme), group guarantee, strong character references
+1. Exact funding amount in UGX
+2. Facility type: term loan, working-capital line, overdraft, asset finance, or invoice finance
+3. Itemised use of funds tied exactly to Section 13 implementation budget
+4. Proposed term, grace period, and repayment source
+5. DSCR from Section 10 projections
+6. Owner equity contribution
+7. Collateral and coverage ratio
+8. Security documents available
+9. Compensating factors if collateral is weak
 
-### Use of Funds Format (Bank Version)
+### Bank Use-of-Funds Format
 
-| Line Item | Amount (UGX) | % of Loan | Purpose |
+| Line Item | Amount (UGX) | % of Facility | Purpose |
 |---|---|---|---|
-| [Equipment/Asset 1] | [X] | X% | [Specific item, supplier, quantity] |
-| [Equipment/Asset 2] | [X] | X% | [Specific item] |
-| [Civil works/renovation] | [X] | X% | [Location, scope] |
-| [Working capital] | [X] | X% | [Months of operating costs covered] |
-| [Other — specify] | [X] | X% | [Purpose] |
-| **TOTAL LOAN REQUEST** | **[X]** | **100%** | |
-| *Owner equity contribution* | *[X]* | — | *Own funds / existing assets* |
-| **TOTAL PROJECT COST** | **[X]** | | |
-
-*Note: Total loan + owner equity = total project cost. Loan amount must equal sum of line items. Verify via `meta-bankability-scoring/references/consistency-audit.md` before submitting.*
+| [Asset / spend item] | [X] | [X%] | [specific use] |
+| [Asset / spend item] | [X] | [X%] | [specific use] |
+| Working capital | [X] | [X%] | [months covered] |
+| Total facility request | [X] | 100% | |
+| Owner equity contribution | [X] | - | own funds or existing assets |
+| Total project cost | [X] | | |
 
 ### DSCR Statement
 
-```
-DEBT SERVICE COVERAGE RATIO (DSCR)
+State:
 
-Annual EBITDA (from §10 financial projections, Year 1): UGX ___________
-Annual loan repayment (principal + interest):           UGX ___________
-DSCR = EBITDA ÷ Annual Debt Service = ___ / ___ = X.Xx
-
-Bank minimum requirement: 1.25x
-[Our DSCR of X.Xx exceeds / falls below] the minimum.
-
-[If below 1.25x: Explain the mitigation — e.g., "Owner will inject UGX X additional equity in Q2
-to strengthen debt service coverage" or "Revenue ramps in Q3 once equipment is fully deployed;
-Year 2 DSCR projects at 1.45x"]
-```
+- EBITDA or cash available for debt service
+- annual debt service
+- DSCR result
+- whether the plan clears the 1.25x threshold
+- mitigation if Year 1 is weak
 
 ### Collateral Statement
 
-```
-PRIMARY COLLATERAL
+State:
 
-Asset type:          [Land / Building / Vehicle / Machinery / Debenture / Personal guarantee]
-Description:         [LRV/Block/Plot; vehicle reg; machinery model and serial no.]
-Estimated value:     UGX ___________
-Valuation basis:     [Market comparison / Professional valuation by [Firm], [Date]]
-Coverage ratio:      [Collateral value] / [Loan amount] = ___% (minimum required: 125%)
-Documentation:       [Land title / Logbook / Valuation report — available for inspection]
-
-[If applicable] SECONDARY COLLATERAL / COMPENSATING FACTORS:
-[List additional security or mitigants: personal guarantee of directors, UCGS application,
-group guarantee, crop/produce as security, invoice discounting arrangement]
-```
-
----
+- asset type
+- description and ownership
+- estimated value
+- valuation basis
+- coverage ratio
+- documents available
 
 ## Equity Investor Mode
 
 ### Required Elements
 
-1. **Funding amount** — Exact amount being raised
-2. **Funding type** — Equity, convertible note, SAFE, or combination
-3. **Use of funds** — Detailed allocation with percentages
-4. **Current capitalisation table** — Existing ownership and investment history
-5. **Valuation basis** — How the company is valued and methodology used
-6. **Investment terms** — What the investor receives (equity %, interest rate, conversion terms)
-7. **Milestones funded** — What this capital will achieve (tied to section 13)
-8. **Runway** — How long the funding lasts at projected burn rate
-9. **Future funding needs** — Anticipated subsequent rounds
-10. **Exit strategy** — How investors realise returns (acquisition, IPO, buyback, dividends)
+1. Exact amount being raised
+2. Instrument type: equity, convertible note, SAFE, or combination
+3. Detailed use of funds
+4. Current cap table
+5. Valuation basis
+6. Investment terms
+7. Milestones funded
+8. Runway created
+9. Future funding needs
+10. Exit strategy
 
-### Exit Strategy Options
+### Mandatory Valuation Step
 
-- **Acquisition** — Sale to strategic buyer or PE firm
-- **IPO** — Public listing (typically for larger ventures)
-- **Management buyout** — Founders buy back investor shares
-- **Dividend/profit sharing** — Ongoing returns from profits
-- **Secondary sale** — Investor sells stake to another investor
+For every equity, convertible, SAFE, strategic-investor, acquisition, or blended-finance case, run `meta-valuation` before finalising this section.
 
-### Use of Funds Breakdown Format
+Minimum outputs required from `meta-valuation`:
+
+- valuation purpose and audience
+- base, upside, and downside range
+- method used and why it fits the stage
+- implied pre-money and post-money values
+- ownership / dilution consequence
+- sanity-check commentary on comparables and assumptions
+
+### Equity Use-of-Funds Format
 
 | Category | Amount | % of Total | Purpose |
 |---|---|---|---|
-| Product development | $X | X% | [Specific deliverables] |
-| Marketing & sales | $X | X% | [Specific campaigns/hires] |
-| Operations | $X | X% | [Equipment, facilities] |
-| Working capital | $X | X% | [Cash reserve for operations] |
-| Team/hiring | $X | X% | [Specific roles] |
-
-### Exit Strategy Options
-
-- **Acquisition** — Sale to strategic buyer or PE firm
-- **IPO** — Public listing (typically for larger ventures)
-- **Management buyout** — Founders buy back investor shares
-- **Dividend/profit sharing** — Ongoing returns from profits
-- **Secondary sale** — Investor sells stake to another investor
+| Product / service build | [X] | [X%] | [deliverables] |
+| Commercial growth | [X] | [X%] | [channels / hires] |
+| Operations | [X] | [X%] | [equipment / systems] |
+| Working capital | [X] | [X%] | [runway support] |
+| Team / capability build | [X] | [X%] | [roles / training] |
 
 ## Generation Process
 
-1. Identify funder type — this determines the format (see table above)
-2. **For bank loans:** Ask for loan amount, purpose, collateral available, owner equity contribution, proposed term
-3. **For equity:** Ask for amount, funding type, current valuation (if any), existing investors
-4. Build detailed use-of-funds table itemised to individual line items; cross-reference §13 budget
-5. **For bank loans:** Calculate DSCR from §10 projections; calculate collateral coverage ratio; run consistency check
-6. **For equity:** Calculate runway at projected burn rate; define investment terms; present exit strategy
-7. Before finalising, verify numbers against `meta-bankability-scoring/references/consistency-audit.md`
+1. Identify the funder type
+2. For debt: gather amount, purpose, term, collateral, and owner contribution
+3. For equity: gather amount, instrument, current cap table, and milestone target
+4. Build the detailed use-of-funds table and tie it to Section 13
+5. For debt: calculate DSCR and collateral coverage
+6. For equity: calculate runway, define terms, and state exit logic
+7. For equity or blended capital: integrate `meta-valuation` output into the ask and terms
+8. Verify consistency against `meta-bankability-scoring/references/consistency-audit.md`
 
 ## Quality Criteria
 
-- Ask is specific — single amount, not a range
-- Every item in the use-of-funds table is a line item (not "working capital: 30%")
-- Use of funds total = loan amount (consistency check)
-- Use of funds aligns with implementation timeline (section 13)
-- **For bank loans:** DSCR ≥ 1.25x; collateral coverage ≥ 125%; repayment source identified
-- **For bank loans:** Run `meta-bankability-scoring` Bank Loan Readiness Mode before submitting
-- **For equity:** Runway extends beyond next major milestone; exit strategy is realistic for sector and size
-- Valuation methodology is defensible
+- Ask is specific and single-point, not a range
+- Use of funds is line-item based and totals correctly
+- Use of funds aligns with implementation timing
+- For bank loans: DSCR >= 1.25x, collateral >= 125%, repayment source identified
+- For bank loans: run `meta-bankability-scoring` before submission
+- For equity: runway reaches the next major milestone and exit logic is realistic
+- For equity: valuation comes from `meta-valuation`, not unsupported negotiation positioning
 
 ## References
 
-- **Banking correspondence and loan application standards**: See `../00-plan-assembly/references/commercial-correspondence-ashley.md` (Sections 9 and 6) for overdraft/loan request letter structure (purpose → amount → evidence → security → repayment → meeting request), bank approval/decline letter conventions, bill-of-exchange mechanics (drawer/drawee, sight vs term draft, discounting, endorsing), letter-of-credit concepts (documentary credit, irrevocable L/C, shipping documents), payment method comparison table, and Uganda/EA notes (BOU foreign exchange rules, tier-1 bank L/C facilitation, post-dated cheques) — Source: Ashley (OUP, 2003). **Read when drafting the banking relationship narrative, explaining trade finance mechanisms, or writing the loan application covering letter.**
-- **PE/investor value creation plan framework (Umbrex, 2025)**: See `references/value-creation-plan-primer.md` for the complete Umbrex Value Creation Plan Primer — investment thesis to VCP translation; value baseline and as-is trajectory construction; equity story (4 pillars + 3 archetypes); financial targets linked to MOIC/IRR; value creation levers (growth/margin/capital/multiple expansion); initiative portfolio design (object/population/mechanism/evidence); governance model (3-layer + decision rights); people and incentive design; risk management with upside/base/downside scenarios; first 100 days priorities; exit preparation and quality-of-earnings checklist; Uganda/EA adaptations. **Read when structuring any equity investment proposal, designing a PE-ready business case, or linking operating targets to investor return logic.**
-- `references/business-valuation-methods.md` — Three valuation approaches (intrinsic/DCF, relative/multiples, options-based); full DCF framework with WACC/CAPM formulas; terminal value mechanics (stable growth perpetuity, ROIC > WACC condition); worked DCF example in UGX for Uganda food processing company; revenue multiples (P/E, EV/EBITDA, EV/Revenue, P/Book, PEG) with comparable company analysis; pre-revenue startup valuation (survival-adjusted DCF, forward multiples, VC/angel method) with UGX worked examples; 10 valuation mistakes; 7 sanity checks; Damodaran's 10 Rules; Uganda/East Africa context (country risk premium 4–6%, illiquidity discount 25–35%, thin comparables workarounds); Valuation Method Selector table — Source: Damodaran (Wiley). **Read for any equity investor round, business sale, DFI funding request, or when a valuation figure must be defended.**
-- `references/credit-assessment-frameworks.md` — 5 Cs of Credit (Character, Capacity, Capital, Conditions, Collateral) and CAMPARI framework detail
-- `references/women-financing-uganda.md` — Gender-specific financing constraints and solutions: 50% capital gap vs male peers; 84% of rural land under unregistered customary tenure (no collateral); "missing middle" between microfinance and commercial bank; psychometric credit scoring as collateral alternative; Uganda-specific funding sources (UDB, aBi Finance, WEF, UNCDF, SACCOs); evidence that larger loans (+40% profits, +55% employment in Ethiopia) outperform microfinance; mobile savings for household/business separation; SACCO access pathways; sensitivity analysis on UDB concessional vs commercial rates — Source: World Bank/IFC (2022). **Read when the business owner is a woman, or when standard collateral requirements cannot be met.**
-- `references/equity-term-sheets.md` — Complete equity term sheet reference: economics vs control, pre/post-money valuation, option pool shuffle, liquidation preference (worked examples with 4 scenarios), anti-dilution (full ratchet vs broad-based weighted average), cap table construction, founder vesting (4-year/1-year cliff, single vs double trigger), drag-along/tag-along/pro-rata rights, convertible notes and SAFEs (discount, valuation cap, conversion mechanics), board composition and protective provisions, negotiation priorities, Uganda/East Africa investor landscape — Source: Feld & Mendelson (2019). **Read for any equity investor round, angel funding, or impact investor engagement.**
-- `meta-bankability-scoring/SKILL.md` — Bank Loan Readiness Mode with full CAMPARI checklist (28 items) and consistency audit
-- `meta-bankability-scoring/references/consistency-audit.md` — 12-point cross-section consistency checker; run before submitting to any lender
-- `references/esmp-template.md` — IFC/UDB-compliant Environmental and Social Management Plan template: risk tiering (Category A/B/C), environmental screening checklist, social screening (labour/community/gender), mitigation plan table, common mitigations by Uganda business type (agri-processing, poultry, hospitality, construction, healthcare, transport), monitoring indicators, NEMA/NSSF/Employment Act compliance references, grievance mechanism template, ESMS Lite for Category C businesses, and Uganda legal instrument reference table. **Complete before submitting to UDB, IFC, AfDB, or any DFI that applies IFC Performance Standards. Budget ESMP implementation costs in §10 and §11.**
-- `references/uganda-banking-sector-2025.md` — Uganda Banking Sector Report 2023 + DFCU Access to Finance case study: 32 supervised financial institutions (28/32 profitable), total bank assets UGX 49.5T, net loans UGX 20.5T, customer deposits UGX 34.1T, NPL ratio, lending rates by institution, SME credit access gaps (private sector credit only 14.2% of GDP vs Kenya 44%), DFCU/Norfund blended finance model for SME lending. **Read when benchmarking Uganda bank lending conditions, selecting the right lender for a specific business type, or explaining the access-to-finance landscape in the funding request narrative.**
-- `references/uganda-banking-loan-framework.md` — Uganda commercial bank lending practices: interest rates (spreads 15–20%, lending at 20–28%), collateral requirements, loan types (fixed term, revolving, agricultural, group), Stanbic personal loan application process and documentation checklist, salary domicile requirement, default triggers; UDB development finance (NPL ratio exceeded 37% pre-2012; 6-stage credit value chain); Centenary Bank rural lending (causes of default: bad habit 32%, natural calamities 26%, misappropriation 24%, high rates 16%); loan recovery mechanisms (aggressive vs non-aggressive; legal channels; BOU NPL classification standards). **Read when structuring a Uganda bank loan request, advising on collateral, or explaining the lender's perspective to a client.**
-- `references/uganda-financial-sector-regulatory.md` — Complete regulatory map of Uganda's financial sector: BOU-supervised Tier I–III institutions (capital requirements, authorised activities, licensed entities); UMRA-supervised Tier IV (NDTMIs, SACCOs, money lenders, digital lending guidelines 2024); Capital Markets Authority and USE (MIMS/GEMS/FISMS listing criteria, disclosure obligations, board governance rules); borrower protections (no compound interest, no expense charges, court reopening powers); financing channel selector table (matching business need to appropriate regulatory tier); all primary and secondary legislation with citations. **Read when advising on financing channel selection, regulatory compliance, or alternative funding options beyond commercial banks.**
-- `references/msme-financing-options-ea.md` — MSME financing lifecycle by business maturity (start-up to scale-up); grants (up to USD 5k, UNCDF/aBi/UDB sources); community finance and SACCOs (USD 5k–100k); short-term bank loans (USD 10k–5M; 3-year track record requirement); long-term secured loans (>USD 100k; 125% collateral rule; guarantee schemes); equity rounds (angel/VC/patient capital; dilution risk; exit mechanics); six-question financing-request structure; key accounting ratios (quick ratio >1.2×, gearing <4×, interest cover >2.5×, DSCR >2.5×, asset productivity >4×); Uganda/EAC source table (UDB, aBi, Centenary, UNCDF, Novastar, Katalyst). **Read when advising on financing type selection for any MSME or startup, or when drafting the financing needs assessment in a business plan.**
-- `references/africa-infrastructure-financing.md` — AUC/OECD (2025) Africa infrastructure financing data: USD 155B annual need vs USD 83B actual (USD 72B gap); WACC 13% in Africa vs 10% Asia vs 8% OECD; three financing scenarios (USD 90B/133B/159B); infrastructure ROI by density ratio (Uganda medium 110, Kenya/Tanzania high 142); East Africa +6.0pp GDP growth potential from closing the gap; ODA trends (declining USD 16.6B → USD 14.8B); domestic resource mobilisation, PPP models, blended finance structures. **Read when the business requires infrastructure investment, is applying for DFI/blended finance, or needs to benchmark cost of capital against African peers.**
-- `meta-pitch-preparation/SKILL.md` — Prepare the live presentation of this section; STRONG method frame for bank meetings; DSCR and collateral coverage must be stated with confidence; Q&A preparation for the 10 hardest questions any credit officer will ask
-- `meta-due-diligence/SKILL.md` — Mode A (DD readiness): every figure in this section must survive investor DD; build the data room before presenting to equity or DFI funders
-- `meta-presentation-design/SKILL.md` — Slide 10 (financials), Slide 12 (the ask), and Slide 13 (use of funds) design standards; the ask slide must state exact amount, terms, and next step
+- `../meta-valuation/SKILL.md` - required for all equity, convertible, SAFE, strategic-investor, and blended-finance asks
+- `references/business-valuation-methods.md` - repo-specific valuation methods and East Africa adjustments
+- `references/equity-term-sheets.md` - term-sheet mechanics and cap-table implications
+- `references/credit-assessment-frameworks.md` - 5 Cs and CAMPARI
+- `references/women-financing-uganda.md` - collateral constraints and alternative pathways
+- `references/esmp-template.md` - safeguards and ESMP requirements for DFI cases
+- `references/uganda-banking-sector-2025.md` - lending context and pricing benchmarks
+- `references/uganda-banking-loan-framework.md` - Uganda bank underwriting practice
+- `references/uganda-financial-sector-regulatory.md` - financing-channel selection and compliance
+- `references/msme-financing-options-ea.md` - financing fit by stage and business maturity
+- `references/africa-infrastructure-financing.md` - relevant for infrastructure, PPP, and blended-finance cases
+- `meta-bankability-scoring/SKILL.md` - bank readiness scoring and consistency checks
+- `meta-due-diligence/SKILL.md` - DD readiness before investor or DFI outreach
+- `meta-presentation-design/SKILL.md` - ask-slide and use-of-funds presentation standards

@@ -13,7 +13,16 @@ Invoke AFTER the plan is complete and scored. This skill creates the operational
 
 ## What to Generate
 
-### 1. KPI Dashboard
+### 1. Balanced Scorecard and KPI Dashboard
+
+Build the dashboard using Balanced Scorecard logic first, then populate with KPIs. Every KPI should sit inside one of four perspectives:
+
+- **Financial** - what success looks like to owners, lenders, and investors
+- **Customer / Market** - what target customers must experience
+- **Internal Process** - what operations must excel at
+- **Learning / Capability** - what people, systems, and capabilities must improve
+
+Do not start with a random KPI list. Start with strategy, then cascade measures.
 
 Define KPIs for each business function:
 
@@ -57,6 +66,17 @@ Threshold: [Minimum acceptable value]
 Owner: [Who is responsible]
 Action if below threshold: [What to do]
 ```
+
+### Strategy Map Requirement
+
+Before locking the KPI dashboard, produce a one-page strategy map:
+
+1. Learning / capability enablers
+2. Internal process improvements those enablers unlock
+3. Customer outcomes those process improvements should create
+4. Financial outcomes expected from those customer outcomes
+
+Each KPI should have a visible causal path to the next perspective.
 
 ### 2. Reporting Framework
 
@@ -125,15 +145,34 @@ Complement financial/customer/operational KPIs with process-specific metrics (Pa
 
 Each process should have at least one metric from each perspective.
 
+### KPI Design Rules
+
+Apply these rules before approving any KPI set:
+
+- pair **leading indicators** with **lagging indicators**
+- keep each KPI SMART and decision-relevant
+- avoid vanity metrics with no owner or threshold
+- define the exact data source before using the KPI
+- separate outcome KPIs from activity KPIs
+- limit the core scorecard to the few measures that management will actually review
+
+Use a practical default:
+
+- 3-5 KPIs per Balanced Scorecard perspective
+- 12-16 core KPIs total
+- more detail in supporting reports, not the headline dashboard
+
 ## Generation Process
 
-1. Extract key metrics from all plan sections (04, 07, 08, 10, 13)
-2. Define 15-20 KPIs across all business functions
-3. Set targets aligned with financial projections
-4. Build reporting templates for each cadence
-5. Design review meeting structure
-6. Create early warning system with trigger thresholds
-7. Assign ownership for every KPI
+1. Identify the strategic objective and funding context
+2. Build the strategy map across the four Balanced Scorecard perspectives
+3. Extract key metrics from plan sections 04, 07, 08, 10, 13, and 16
+4. Define 12-16 core KPIs plus support metrics
+5. Set baseline, target, threshold, frequency, and owner for every KPI
+6. Pair leading and lagging indicators for each major objective
+7. Build reporting templates for each cadence
+8. Design review meeting structure and escalation paths
+9. Create the early warning system with trigger thresholds
 
 ## Funder Reporting Obligations
 
@@ -156,16 +195,19 @@ Identify the funder type BEFORE designing the M&E framework, and embed the relev
 ## Quality Criteria
 
 - KPIs are specific and measurable (not "improve customer satisfaction")
+- Scorecard begins with strategy map logic, not a disconnected metric list
 - Targets align with financial projections in section 10
 - Reporting cadence is practical for the team size
 - Early warning triggers are actionable
 - Every KPI has a clear owner
+- Leading and lagging indicators are balanced
 - Process metrics cover all three perspectives: effectiveness, efficiency, and adaptability (Page, 2015)
 - Continuous improvement cycle is scheduled with specific frequencies per process
 - Funder reporting obligations are integrated into the review calendar
 
 ## References
 
-- `references/funder-reporting-requirements.md` — Commercial bank covenant monitoring (DSCR, current ratio, insurance), mandatory bank reporting schedule, UDB and ACF reporting (ESMP semi-annual monitoring report template), development partner grant quarterly narrative and financial report templates, impact investor double-bottom-line KPIs by sector (agriculture, clean energy, education, health, housing, financial inclusion), Government of Uganda annual filing calendar
+- `references/balanced-scorecard-kpi.md` - Balanced Scorecard perspectives, strategy mapping, KPI-cascade logic, and leading/lagging-indicator design from Kaplan, Krause, and Arora
+- `references/funder-reporting-requirements.md` - Commercial bank covenant monitoring (DSCR, current ratio, insurance), mandatory bank reporting schedule, UDB and ACF reporting (ESMP semi-annual monitoring report template), development partner grant quarterly narrative and financial report templates, impact investor double-bottom-line KPIs by sector (agriculture, clean energy, education, health, housing, financial inclusion), Government of Uganda annual filing calendar
 - `meta-sustainability/references/sustainability-indicators-measurement.md` — Six indicator types (descriptive/performance/efficiency/policy effectiveness/welfare/sentinel), DPSIR framework with Uganda examples, composite indices, 5-step KPI-building process with common failure modes, 8-row minimum viable KPI set for Uganda SMEs, monitoring system design, and external audit requirements for DFI loans >UGX 200M — Source: Hak, Moldan & Dahl (SCOPE/Island Press, 2007). **Read when designing the sustainability KPI dashboard and embedding environmental/social indicators into the M&E framework.**
 - `16-sustainability-strategy/SKILL.md` — Sustainability KPI dashboard (7-row format with baseline, Year 1 and Year 3 targets); sustainability KPIs must be integrated into the M&E framework alongside financial KPIs

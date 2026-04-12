@@ -1,78 +1,60 @@
-# Gap Analysis
+﻿# Gap Analysis
 
 ## Critical Gaps
 
 ### 1. Governance and ownership depth are still not strong enough
-`02-company-overview` has improved, but this remains one of the thinnest critical sections relative to investor scrutiny. The suite still lacks enough structure on:
-- founder agreements
-- vesting
-- board design
+`02-company-overview` remains one of the thinnest core sections relative to investor and DFI scrutiny. The suite still needs stronger structure on:
+- shareholder agreements
+- vesting and founder lock-in
+- board design and reserved matters
 - decision rights
 - family-business governance
-- governance for larger debt and DFI applications
+- beneficial ownership and conflict-of-interest controls
 
-This weakens investor confidence and raises execution-risk concerns.
+This is now the single most important remaining core-section weakness.
 
-### 2. Valuation is under-integrated
-Valuation references exist, so the old "no valuation" gap is partly closed. The remaining problem is integration:
-- no dedicated valuation workflow
-- no mandatory valuation path for equity cases
-- no consistent bridge from business model and projections to valuation conclusion
+### 2. Primary research and evidence protocols are still not deep enough
+The suite is stronger on synthesis and valuation, but investor-grade market proof still depends too much on operator improvisation. It still needs more explicit tooling for:
+- interview guides by sector
+- survey instruments
+- observation protocols
+- customer-proof packaging for appendices
+- source hierarchy and claim-labelling standards
 
-This keeps the system strong for debt, but less mature for equity.
-
-### 3. Consulting-grade synthesis is not yet enforced
-The repo contains many excellent frameworks, but the operating standard is not yet consistently:
-- BLUF / pyramid-first
-- hypothesis-driven
-- MECE across all analytical sections
-- chart-and-footnote disciplined
-
-This is the biggest gap between "very strong business-plan engine" and "top-tier consulting engine".
+### 3. End-to-end orchestration is still not opinionated enough
+The suite is more integrated than before, but it still lacks one mandatory end-to-end operating path that forces intake, validation, section drafting, synthesis, stress testing, evidence mapping, and assembly in the correct order.
 
 ## High Gaps
 
-### 4. Primary market research protocols are still not deep enough
-`meta-market-validation` is good, but the suite still lacks a more explicit standard toolkit for:
-- sample interview guides by sector
-- survey instruments
-- observation protocols
-- field validation evidence formatting for appendices
+### 4. Governance-grade appendix architecture still needs expansion
+`15-appendices` improved materially through evidence-matrix and data-room logic, but larger-ticket investor and DFI cases still need stronger default packs for:
+- board materials
+- shareholder documentation
+- legal and compliance packs
+- management incentive and governance evidence
 
-Without this, investor-grade market proof still depends too much on the operator improvising.
+### 5. Section 10 still needs deeper working-capital mechanics
+The financial layer is stronger, but there is still room to deepen:
+- receivables, payables, and inventory days
+- cash conversion cycle logic
+- current ratio, quick ratio, and interest cover interpretation
+- lender-style covenant commentary by deal type
 
-### 5. Workflow orchestration remains too manual
-The system is modular, which is a strength, but it still lacks a stronger "opinionated path" for:
-- complete plan generation
-- sequencing validation, drafting, stress testing, bankability scoring, appendices, and pitch
-- locking a governing thesis and key assumptions across all sections
-
-This creates real consistency risk in practice.
-
-### 6. Appendix and evidence architecture are still weaker than the analytical core
-`15-appendices` is functional, but it is not yet as strong as the rest of the suite in:
-- DD-grade evidence mapping
-- appendix architecture for investor decks vs banks vs DFIs
-- documentary standards for higher-ticket funding
+### 6. Multi-country maturity is still uneven
+Uganda remains excellent and Kenya/Tanzania improve the regional picture, but the overall engine is still not broad enough for a true multi-country claim.
 
 ## Medium Gaps
 
 ### 7. Some sector coverage remains missing
-The suite is strong on many sectors, but important categories remain thin or absent:
+Still thin or absent:
 - healthcare / clinics
 - real estate / property
 - transport / logistics
-- ICT / software / startup archetypes
+- software / startup archetypes
 - renewable energy
 
-### 8. Working capital and ratio analysis could be stronger in Section 10
-This is now a refinement issue, not a foundational weakness. The missing lift is:
-- receivables, payables, inventory, cash conversion cycle
-- current ratio / quick ratio / interest coverage benchmarking
-- lender-style ratio interpretation
+### 8. Audience modes can still be sharper
+Bank, equity, DFI, strategic-partner, and grant outputs are better differentiated than before, but the repo can still tighten default mode-switching across all sections.
 
-### 9. Multi-country readiness is real but not yet broad
-Kenya and Tanzania now exist. That materially improves the suite. But it still needs:
-- Rwanda
-- country-file maturity checks
-- better systematic fallback logic across every section
+### 9. Consistency checks are stronger but not yet automated
+The system now has better procedural checks, but explicit automation or structured state management would still improve repeatability.

@@ -1,136 +1,100 @@
-# Recommendations
+﻿# Recommendations
 
-## Skill-Level Improvements
+## Highest-Priority Next Moves
 
 ### `02-company-overview`
 Add:
 - shareholder agreement basics
-- founder vesting
-- governance maturity by stage
-- board / advisory architecture
-- family-business governance
-- beneficial ownership and conflicts-of-interest logic
+- vesting and founder retention logic
+- board / advisory architecture by stage
+- beneficial ownership disclosure
+- conflict-of-interest controls
+- family-business governance patterns
 
-This is the highest-leverage core-section upgrade.
+### `meta-primary-research`
+Create a dedicated skill for:
+- sector interview guides
+- survey templates
+- observation protocols
+- customer validation evidence packaging
+- source hierarchy and claim-labelling standards
+
+This is now the highest-leverage new skill still missing.
+
+### End-to-end orchestration
+Create one mandatory orchestration layer that enforces this sequence:
+1. intake
+2. country context
+3. market validation
+4. section drafting
+5. financial build
+6. valuation where needed
+7. consulting synthesis
+8. stress testing and bankability scoring
+9. appendices and evidence matrix
+10. assembly and presentation prep
+
+## Skill-Level Improvements
 
 ### `10-financial-projections`
-Add:
-- working capital mechanics
-- receivables / payables / inventory days
-- current ratio, quick ratio, interest cover, debt-to-equity
-- explicit lender benchmarking table
-- simple DCF / IRR / NPV hooks for equity and larger projects
-
-### `11-funding-request`
-Promote valuation from reference status to workflow status:
-- debt mode
-- equity mode
-- blended / DFI mode
-
-Require a valuation pathway for any equity request.
+Deepen:
+- receivables, payables, and inventory assumptions
+- cash conversion cycle logic
+- current ratio, quick ratio, interest cover, and covenant commentary
+- sector-specific modelling expectations
 
 ### `15-appendices`
-Expand to include:
-- DD room map
-- appendix-by-funder-type architecture
-- evidence matrix linking each major claim to appendix support
-- board / shareholder / legal pack requirements for larger transactions
+Further expand to include:
+- investor and DFI data-room packs
+- governance and shareholder document packs
+- legal and compliance evidence bundles by funder type
 
 ### `04-market-analysis`, `05-target-market`, `06-competitive-analysis`
 Enforce:
-- hypothesis statement at the top
-- MECE decomposition
-- conclusion-first section structure
-- stronger evidence standards for customer proof and competitor economics
+- explicit hypothesis statement at the top
+- evidence hierarchy labels
+- conclusion-first structure
+- stronger customer-proof and competitor-economics requirements
 
-### `meta-quarterly-gameplan`
-Continue expansion. It is better now, but still not at flagship depth. This skill should become the execution bridge between strategy and funded performance.
+### Country context coverage
+Prioritise:
+- Rwanda
+- country maturity checks for existing files
+- cleaner fallback logic across all plan sections
 
-## New Skills To Create
+## New Skills Already Added In This Revision
 
-### 1. `meta-investor-narrative`
-Purpose:
-- unify governing thesis across the whole plan
-- define the one- to three-line investment case
-- enforce BLUF and section hierarchy
+### `meta-consulting-synthesis`
+Implemented to enforce:
+- governing thesis
+- issue-tree logic
+- hypothesis-driven reasoning
+- audience-specific decision framing
 
-This would close a major consulting-quality gap.
-
-### 2. `meta-valuation`
-Purpose:
-- DCF
-- multiples
-- pre-revenue methods
-- valuation sanity checks
-- bridge from projections to investment terms
-
-This is needed to raise equity-readiness materially.
-
-### 3. `meta-consulting-synthesis`
-Purpose:
-- Pyramid Principle
-- MECE issue trees
-- hypothesis-driven storylines
-- chart logic
-- evidence and footnote discipline
-
-This would move the suite much closer to McKinsey/Bain output style.
-
-### 4. `meta-primary-research`
-Purpose:
-- sector-specific interview guides
-- survey templates
-- focus group protocols
-- field observation templates
-- evidence packaging for appendices
-
-### 5. `meta-deal-structuring`
-Purpose:
-- debt vs equity vs grant vs blended finance selection
-- indicative term logic
-- concessional vs commercial capital comparisons
-- sequencing of funding asks
+### `meta-valuation`
+Implemented to enforce:
+- valuation method selection
+- scenario-based ranges
+- dilution logic
+- translation from projections into investor terms
 
 ## System-Level Improvements
 
-### 1. Add a mandatory orchestration path
-Create or strengthen an end-to-end skill that enforces:
-1. intake
-2. country context
-3. idea validation / market validation
-4. section drafting
-5. financial build
-6. stress testing
-7. bankability scoring
-8. appendices
-9. pitch preparation
-
-### 2. Enforce a governing thesis
-Every full plan should begin with a central investment thesis and all sections should answer it. This is currently possible, but not guaranteed.
-
-### 3. Standardise output patterns
-Require, across major sections:
-- opening conclusion sentence
-- 3-5 key messages
-- evidence / source note expectation
-- cross-reference line where needed
-
-### 4. Strengthen consistency automation
-The repo already has consistency tooling in principle. Extend it so that:
+### Consistency automation
+Introduce lightweight structured state or reference tables so that:
 - key numbers
 - legal structure
 - funding ask
+- milestones
 - team claims
 - market sizing assumptions
 
-are explicitly checked across sections.
+can be checked automatically across sections.
 
-### 5. Add maturity tiers by plan type
-Different outputs need different standards:
+### Maturity tiers by plan type
+Make standards explicit for:
 - SME bank loan plan
 - equity investor plan
 - DFI / impact-investor plan
 - grant proposal
 - strategic partner proposal
-
-The suite should become more explicit about which standards are mandatory in each mode.

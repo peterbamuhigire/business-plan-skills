@@ -22,8 +22,9 @@ Generate rigorous, transparent financial projections that withstand investor scr
 6. **Revenue model** — How revenue is generated, pricing x volume
 7. **Cost structure** — Fixed vs. variable costs breakdown
 8. **Unit economics** — Revenue per unit, cost per unit, contribution margin
-9. **Financial ratios** — Gross margin %, net margin %, burn rate, runway
-10. **Sensitivity analysis** — How projections change with key variable shifts (detailed in meta-financial-stress-test)
+9. **Financial ratios** - Gross margin %, net margin %, burn rate, runway, current ratio, quick ratio, interest cover, debt-to-equity where relevant
+10. **Sensitivity analysis** - How projections change with key variable shifts (detailed in meta-financial-stress-test)
+11. **Valuation bridge** - For equity, blended-finance, or strategic-partnership cases, identify the inputs that `meta-valuation` will use: free cash flow, growth, margins, reinvestment, and terminal assumptions
 
 ### Financial Projection Framework
 
@@ -43,6 +44,7 @@ Every projection must state its assumption:
 - Capital expenditure schedule
 - Working capital requirements
 - Tax rates and obligations
+- Cost of capital or return hurdle when equity valuation will be required
 
 ### Process Costing for Operational Budgets
 
@@ -97,8 +99,9 @@ Revenue projections contain both: treat costs as engineering estimates (forecast
 4. Generate income statement, cash flow, and balance sheet
 5. Calculate break-even point
 6. Document every assumption
-7. Compute key financial ratios
-8. Flag areas requiring sensitivity analysis
+7. Compute key financial ratios and covenant-style checks
+8. Build the valuation bridge when Section 11 involves equity or blended capital
+9. Flag areas requiring sensitivity analysis
 
 ## Quality Criteria (Rogoff's Bankability Standards)
 
@@ -109,6 +112,8 @@ Revenue projections contain both: treat costs as engineering estimates (forecast
 - Projections show a credible path to profitability
 - No hockey-stick growth without clear justification
 - Assumptions are conservative-to-moderate, not optimistic
+- Working-capital assumptions are explicit, not buried in balancing figures
+- When equity is involved, the model is ready for `meta-valuation` rather than forcing valuation to be guessed later
 
 ### Startup-Specific Financial Metrics
 
