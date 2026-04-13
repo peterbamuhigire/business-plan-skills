@@ -9,6 +9,55 @@ description: >
 
 # Proposal Architect
 
+## Use When
+
+- Use when this skill is the primary workflow for the requested task.
+- Use when creating, reviewing, or improving this skill's main artifact.
+- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+
+## Do Not Use When
+
+- Do not use when another section or meta-skill is the primary owner of the task.
+- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
+- Do not use for provider-specific UI behaviour; keep the workflow portable.
+
+## Required Inputs
+
+- Business, client, or proposal context relevant to this skill
+- Country, audience, funder, or user context where relevant
+- Available assumptions, evidence, constraints, and dependencies
+- Adjacent section outputs where consistency matters
+
+## Workflow
+
+1. Clarify the objective, audience, and scope for this skill.
+2. Gather the minimum required inputs and note any missing assumptions.
+3. Read the referenced materials only as needed.
+4. Produce or revise the artifact using the skill-specific method below.
+5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
+6. Flag unresolved gaps, assumptions, or follow-up work.
+
+## Quality Bar
+
+- Output is specific, decision-useful, and not generic
+- Assumptions are explicit where relevant
+- Claims align with the rest of the plan, proposal, or workflow
+- Wording is structured, concise, and audience-appropriate
+
+## Anti-Patterns
+
+- Generic filler that could describe any business or situation
+- Hidden assumptions or unsupported claims
+- Contradictions with financials, implementation, risk, or audience requirements
+- Provider-specific operating assumptions embedded in the portable workflow
+
+## Outputs
+
+- The primary artifact or analysis owned by this skill
+- Any key assumptions, open questions, and cross-skill dependencies
+
+
+
 ## When to Invoke
 
 Invoke this skill whenever a consultant says any of the following (or similar):
@@ -19,7 +68,7 @@ Invoke this skill whenever a consultant says any of the following (or similar):
 - "Let's build a proposal for [client]"
 - "Continue working on [proposal name]"
 
-Do NOT wait for an explicit skill invocation — if the intent is clearly proposal work,
+Do NOT wait for an explicit skill invocation  if the intent is clearly proposal work,
 invoke this skill automatically before doing anything else.
 
 ---
@@ -73,7 +122,7 @@ If it already exists:
 
 Ask the consultant:
 
-> "Are you starting a **new proposal**, or continuing work on an **existing one**?"
+> "Are you starting a **new proposal**, or continuing work on an **existing one**Section "
 
 **If continuing:** List all subdirectories in `/proposals/` (excluding `index.md`).
 Ask which one to open. Load its `research/opportunity-analysis.md` and `sections/` for
@@ -87,19 +136,19 @@ context, then ask what to work on next. Skip to the relevant phase.
 
 Ask each question in sequence. Wait for the answer before asking the next.
 
-1. **Proposal name** — e.g. "Solar Mini-Grid Feasibility Study for MEMD"
+1. **Proposal name**  e.g. "Solar Mini-Grid Feasibility Study for MEMD"
    Convert to a directory slug: lowercase, hyphens, no special characters.
    Example: `solar-mini-grid-feasibility-memd`
 
-2. **Client / organisation** — who is issuing the opportunity?
+2. **Client / organisation**  who is issuing the opportunitySection 
 
-3. **Sector** — e.g. Energy, Health, Agriculture, Education, Infrastructure, Finance
+3. **Sector**  e.g. Energy, Health, Agriculture, Education, Infrastructure, Finance
 
-4. **Submission deadline** — date and time if known
+4. **Submission deadline**  date and time if known
 
-5. **Output type** — does the client require:
+5. **Output type**  does the client require:
    - (A) A **single combined** proposal document (technical + financial together), or
-   - (B) **Separate** technical and financial envelopes/documents?
+   - (B) **Separate** technical and financial envelopes/documentsSection 
 
 Once all answers are collected:
 
@@ -237,12 +286,12 @@ This is the creative engine of the skill. Invoke superpowers fully.
 ### 6a. Positioning brainstorm
 
 Before drafting, think through:
-- What is the client's real problem, beneath the stated requirements?
-- What differentiates this team / organisation from likely competitors?
-- What is the single strongest theme to run through the proposal?
-- What methodology or approach will score highest on evaluation criteria?
-- What risks must the proposal address proactively?
-- What commercial or strategic value should the client expect if this proposal is accepted?
+- What is the client's real problem, beneath the stated requirementsSection 
+- What differentiates this team / organisation from likely competitorsSection 
+- What is the single strongest theme to run through the proposalSection 
+- What methodology or approach will score highest on evaluation criteriaSection 
+- What risks must the proposal address proactivelySection 
+- What commercial or strategic value should the client expect if this proposal is acceptedSection 
 
 Share this thinking with the consultant. Agree on the positioning before drafting.
 
@@ -250,10 +299,10 @@ Share this thinking with the consultant. Agree on the positioning before draftin
 
 For strategic, advisory, transformation, operational improvement, or other large-value bids, build a clear transformation thesis before drafting:
 
-1. **Why now** — what makes change urgent for the client?
-2. **What changes** — what measurable improvement will the client see?
-3. **Why this team** — what proof makes the proposal credible?
-4. **How risk is controlled** — what reduces delivery risk from day one?
+1. **Why now**  what makes change urgent for the clientSection 
+2. **What changes**  what measurable improvement will the client seeSection 
+3. **Why this team**  what proof makes the proposal credibleSection 
+4. **How risk is controlled**  what reduces delivery risk from day oneSection 
 
 Where relevant, show capability across these transformation pillars:
 - leadership
@@ -281,7 +330,7 @@ If the client did not specify sections, use the default plan below.
 
 For each section:
 - Open with a strong, client-focused statement (not a generic introduction)
-- Address evaluation criteria directly — name the criterion if helpful
+- Address evaluation criteria directly  name the criterion if helpful
 - Use concrete language: numbers, timelines, named methodologies, specific outputs
 - Avoid filler phrases: "we are pleased to submit", "we have extensive experience"
 - Make commercial value legible: revenue upside, efficiency gain, risk reduction, cycle-time improvement, or retention impact
@@ -432,27 +481,27 @@ pandoc sections/01-executive-summary.md \
 
 ## Guiding Principles
 
-1. **Compliance first** — a non-compliant proposal is disqualified regardless of quality.
+1. **Compliance first**  a non-compliant proposal is disqualified regardless of quality.
    Always check mandatory requirements before being creative.
 
-2. **Evaluate-criteria-driven writing** — every paragraph should earn marks.
+2. **Evaluate-criteria-driven writing**  every paragraph should earn marks.
    If it does not address a criterion, question whether it belongs.
 
-3. **Specificity wins** — "we will conduct 12 community consultations across 4 districts
+3. **Specificity wins**  "we will conduct 12 community consultations across 4 districts
    between weeks 3 and 6" beats "we will engage stakeholders comprehensively".
 
-4. **Client language** — mirror the client's terminology. If they call it a "workplan",
+4. **Client language**  mirror the client's terminology. If they call it a "workplan",
    do not call it an "implementation schedule".
 
-5. **Financial–narrative alignment** — the budget must match what the methodology
+5. **Financialnarrative alignment**  the budget must match what the methodology
    describes. Reviewers cross-check this. Discrepancies cost marks and credibility.
 
-6. **Confidentiality** — proposals are in `/proposals/` which is gitignored.
+6. **Confidentiality**  proposals are in `/proposals/` which is gitignored.
    Never commit proposal content to the shared repo.
 
-7. **Value visibility** — high-value proposals should show the business case, not only the workplan.
+7. **Value visibility**  high-value proposals should show the business case, not only the workplan.
 
-8. **First-90-days control** — serious buyers want to know how delivery starts; show mobilisation, governance, and early wins where relevant.
+8. **First-90-days control**  serious buyers want to know how delivery starts; show mobilisation, governance, and early wins where relevant.
 
 ---
 
@@ -460,7 +509,7 @@ pandoc sections/01-executive-summary.md \
 
 | Folder | Contents |
 |--------|---------|
-| `sections/` | Narrative .md files — one per proposal section |
+| `sections/` | Narrative .md files  one per proposal section |
 | `terms/` | All client-issued materials: RFP, TOR, template, advert |
 | `sheets/` | Structured/tabular work: budgets, timelines, staffing |
 | `research/` | Opportunity analysis, sector notes, competitor intelligence |
@@ -472,4 +521,4 @@ pandoc sections/01-executive-summary.md \
 
 ## Reference Files
 
-- `references/high-value-proposal-strategy.md` — use for transformation, growth, advisory, or operational-improvement proposals that need a clear change thesis, measurable client value, and a credible first-90-days mobilisation plan
+- `references/high-value-proposal-strategy.md`  use for transformation, growth, advisory, or operational-improvement proposals that need a clear change thesis, measurable client value, and a credible first-90-days mobilisation plan

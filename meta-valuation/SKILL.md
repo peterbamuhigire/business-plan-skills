@@ -5,6 +5,58 @@ description: Meta-skill for valuing a business and linking projections to invest
 
 # Valuation Meta-Skill
 
+## Use When
+
+- Use when a business case needs a defensible view of value rather than a hand-waved number.
+- Use for equity raises, acquisitions, strategic partnerships, or blended-finance structuring.
+- Use when Section 11 needs valuation-backed ownership or term logic.
+
+## Do Not Use When
+
+- Do not use before the financial model is stable enough to support valuation inputs.
+- Do not use a single-point valuation when scenario thinking is required.
+- Do not confuse valuation with pricing the deal politically; start with economics first.
+
+## Required Inputs
+
+- Financial projections and key assumptions
+- Business stage, sector, and transaction context
+- Country and capital-market context where relevant
+- Any existing comparables, cap-table, or prior valuation expectations
+
+## Workflow
+
+1. Define the valuation question and deal context.
+2. Select the primary method and a sanity-check method.
+3. Translate the operating model into value drivers.
+4. Run downside, base, and upside cases.
+5. Convert value into ownership, dilution, or funding-structure implications.
+6. Flag the assumptions that matter most and where more evidence is needed.
+
+## Quality Bar
+
+- The method fits the business stage and transaction type.
+- The valuation is scenario-based, not fake precision.
+- Value is tied to operating economics and risk.
+- The result is usable in funding negotiations and the plan narrative.
+
+## Anti-Patterns
+
+- Using TAM as if it were value.
+- Presenting a valuation with no method logic or scenario range.
+- Using comparables with no adjustment for growth, quality, or context.
+- Ignoring dilution and milestone implications.
+
+## Outputs
+
+- Valuation summary
+- Assumptions table
+- Downside, base, and upside range
+- Term or dilution implications
+- Caveats and evidence gaps
+
+
+
 Use this skill when Section 10 and Section 11 need a valuation conclusion instead of a generic funding ask.
 
 ## Objective
@@ -97,10 +149,10 @@ For blended or structured finance:
 
 ## Mandatory Sanity Checks
 
-- Does the implied multiple look credible for the sector and geography?
-- Does the valuation imply a growth rate the market analysis can support?
-- Does the ownership being offered make sense for the milestone funded?
-- Does the exit or repayment logic remain credible under downside conditions?
+- Does the implied multiple look credible for the sector and geographySection 
+- Does the valuation imply a growth rate the market analysis can supportSection 
+- Does the ownership being offered make sense for the milestone fundedSection 
+- Does the exit or repayment logic remain credible under downside conditionsSection 
 
 ## Output Format
 

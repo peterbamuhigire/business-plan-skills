@@ -1,9 +1,60 @@
-﻿---
+---
 name: funding-request
 description: Generate the funding request section for Uganda/East Africa context covering bank loans, DFI funding, equity, grants, or combinations. Use for capital ask, use of funds, DSCR logic, collateral statement, CAMPARI alignment, investor terms, and valuation-linked funding strategy.
 ---
 
 # Funding Request and Use of Funds Skill
+
+## Use When
+
+- Use when translating the business case into a specific ask to a bank, investor, DFI, or other capital provider.
+- Use when the plan must show exact use of funds, repayment logic, ownership consequences, or term logic.
+- Use when the funding ask needs to align tightly with implementation and financial projections.
+
+## Do Not Use When
+
+- Do not use before the financial model and implementation budget are stable enough to support a real ask.
+- Do not use a debt-style ask for an equity case or vice versa.
+- Do not use a generic funding paragraph when the audience expects a structured ask.
+
+## Required Inputs
+
+- Funder type and desired instrument
+- Final or near-final projections, DSCR logic, and implementation budget
+- Collateral, equity contribution, cap-table, or valuation information as relevant
+- Milestones funded and intended next step for the capital provider
+
+## Workflow
+
+1. Identify the capital provider and the funding instrument.
+2. Tie the ask to the implementation plan and the financial model.
+3. Build the use-of-funds table at line-item level.
+4. For debt, show repayment source, DSCR, and collateral logic.
+5. For equity or blended capital, show valuation, dilution, milestone, and exit logic.
+6. Reconcile the funding section against appendices, financials, and timelines.
+
+## Quality Bar
+
+- The ask is exact, not vague.
+- The use of funds is traceable to real execution needs.
+- Debt asks are serviceable and equity asks are valuation-defensible.
+- The section reads like a real capital request, not a placeholder.
+
+## Anti-Patterns
+
+- Asking for a rounded headline amount with no line-item logic.
+- Mixing debt and equity language without clarifying the instrument.
+- Presenting valuation as negotiation posture instead of analytical output.
+- Leaving the capital provider to infer how the money will be used.
+
+## Outputs
+
+- Funding request section
+- Use-of-funds table
+- Debt or equity logic tailored to the audience
+- Any unresolved term, collateral, or valuation issues
+
+
 
 Generate the section that tells lenders or investors exactly what is being requested, how it will be used, and why the request is financeable.
 

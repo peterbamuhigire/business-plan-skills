@@ -1,9 +1,58 @@
 ---
 name: meta-sustainability
-description: Mandatory sustainability pre-screen and audit for all business plans. Ensures all plans meet environmental and social baseline standards before assembly. Scores the business on a 5-dimension Sustainability Readiness Score (Environmental, Social, Strategy, Circular Economy, Governance). Threshold: ≥4.0 for commercial bank submission, ≥6.0 for DFI/impact investor. Includes sector-specific sustainability requirements for Uganda/East Africa and alignment with IFC Performance Standards. Non-negotiable: all business plans must demonstrate environmental and social sustainability — not as an add-on but as a design standard.
+description: Run sustainability pre-screening and audit workflows so plans meet environmental, social, governance, and funder-readiness standards.
 ---
 
 # meta-sustainability
+
+## Use When
+
+- Use when this skill is the primary workflow for the requested task.
+- Use when creating, reviewing, or improving this skill's main artifact.
+- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+
+## Do Not Use When
+
+- Do not use when another section or meta-skill is the primary owner of the task.
+- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
+- Do not use for provider-specific UI behaviour; keep the workflow portable.
+
+## Required Inputs
+
+- Business, client, or proposal context relevant to this skill
+- Country, audience, funder, or user context where relevant
+- Available assumptions, evidence, constraints, and dependencies
+- Adjacent section outputs where consistency matters
+
+## Workflow
+
+1. Clarify the objective, audience, and scope for this skill.
+2. Gather the minimum required inputs and note any missing assumptions.
+3. Read the referenced materials only as needed.
+4. Produce or revise the artifact using the skill-specific method below.
+5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
+6. Flag unresolved gaps, assumptions, or follow-up work.
+
+## Quality Bar
+
+- Output is specific, decision-useful, and not generic
+- Assumptions are explicit where relevant
+- Claims align with the rest of the plan, proposal, or workflow
+- Wording is structured, concise, and audience-appropriate
+
+## Anti-Patterns
+
+- Generic filler that could describe any business or situation
+- Hidden assumptions or unsupported claims
+- Contradictions with financials, implementation, risk, or audience requirements
+- Provider-specific operating assumptions embedded in the portable workflow
+
+## Outputs
+
+- The primary artifact or analysis owned by this skill
+- Any key assumptions, open questions, and cross-skill dependencies
+
+
 
 Mandatory sustainability pre-screen, integration guide, and audit tool for all business plans in this suite. Run this skill at the start of every engagement (Mode A), reference it during drafting (Mode B), and use it as a final gate before submission (Mode C).
 
@@ -13,16 +62,16 @@ Mandatory sustainability pre-screen, integration guide, and audit tool for all b
 
 Business plans that ignore environmental and social sustainability face three concrete risks: **regulatory risk** (NEMA permit rejections, UDB compliance requirements), **reputational risk** (community opposition, media exposure, customer attrition), and **lender/investor rejection** (IFC Performance Standards, UDB Environmental and Social Policy, aBi Finance eligibility criteria, UNCDF requirements all mandate environmental and social due diligence).
 
-Uganda contributes less than 0.1% of global GHG emissions. The correct climate framing for Ugandan businesses is **ADAPTATION** — building resilience to rainfall variability, prolonged drought, flooding, and temperature shifts — rather than mitigation. Businesses that embed climate adaptation into their operating model are more resilient, not merely more responsible.
+Uganda contributes less than 0.1% of global GHG emissions. The correct climate framing for Ugandan businesses is **ADAPTATION**  building resilience to rainfall variability, prolonged drought, flooding, and temperature shifts  rather than mitigation. Businesses that embed climate adaptation into their operating model are more resilient, not merely more responsible.
 
-Sustainability is a competitive advantage, not a cost centre: eco-efficient operations carry lower resource bills; strong community relations provide a licence to operate; green credentials unlock concessional finance. Frontrunner companies that embed sustainability into core strategy outperform industry peers by 16–25% on operational eco-efficiency (Leleux & van der Kaaij, 2019). Every business plan in this suite must treat sustainability as a design standard from Day 1.
+Sustainability is a competitive advantage, not a cost centre: eco-efficient operations carry lower resource bills; strong community relations provide a licence to operate; green credentials unlock concessional finance. Frontrunner companies that embed sustainability into core strategy outperform industry peers by 1625% on operational eco-efficiency (Leleux & van der Kaaij, 2019). Every business plan in this suite must treat sustainability as a design standard from Day 1.
 
 ---
 
 ## Three Operating Modes
 
 ### Mode A: Pre-Screen Gate
-Run **before writing the business plan** — ideally at the `00-plan-assembly` stage. Identifies sustainability design requirements so they are built in from the outset, not retrofitted. Produces a sector-specific sustainability brief for the plan author.
+Run **before writing the business plan**  ideally at the `00-plan-assembly` stage. Identifies sustainability design requirements so they are built in from the outset, not retrofitted. Produces a sector-specific sustainability brief for the plan author.
 
 ### Mode B: Section Integration
 Embedded sustainability guidance appears in sections **03** (Products & Services), **07** (Marketing & Sales), **08** (Operations), **12** (Risk Analysis), and **14** (AI Integration) during the drafting process. Each of those SKILL.md files carries sustainability checkpoints. When Mode B is active, cross-reference the relevant materialities identified in Mode A.
@@ -34,12 +83,12 @@ Run **after all sections are drafted**, before final assembly. Generates the Sus
 
 ## Sustainability Readiness Score (SRS)
 
-Five dimensions, each scored **0–2**:
+Five dimensions, each scored **02**:
 - **0** = Absent or not considered
-- **1** = Partially addressed — mentioned but lacking specifics, budget, or accountability
-- **2** = Fully integrated — substantive, budgeted, measurable, and assigned to a responsible person
+- **1** = Partially addressed  mentioned but lacking specifics, budget, or accountability
+- **2** = Fully integrated  substantive, budgeted, measurable, and assigned to a responsible person
 
-| Dimension | Weight | Score (0–2) | Weighted Score |
+| Dimension | Weight | Score (02) | Weighted Score |
 |---|---|---|---|
 | Environmental | 25% | | |
 | Social | 25% | | |
@@ -53,7 +102,7 @@ Five dimensions, each scored **0–2**:
 **Environmental (25%)**
 - Waste management plan documented with disposal method and responsible party
 - Water and energy efficiency measures specified (targets, not intentions)
-- Emissions and pollution controls in place (air, water, soil — sector-dependent)
+- Emissions and pollution controls in place (air, water, soil  sector-dependent)
 - NEMA compliance pathway confirmed: category A, B, or C; EIA certificate if required
 - Climate adaptation measures identified and budgeted
 
@@ -65,14 +114,14 @@ Five dimensions, each scored **0–2**:
 - Customer and product safety standards met (UNBS, NDA, or sector equivalent)
 
 **Strategy (20%)**
-- Sustainability embedded in the mission or vision statement — not as a footnote
-- 2–3 SDGs identified as most relevant; specific targets articulated
+- Sustainability embedded in the mission or vision statement  not as a footnote
+- 23 SDGs identified as most relevant; specific targets articulated
 - Materiality identified: the key sustainability issue for this specific sector and business model
-- Sustainability positions the business distinctively — not a generic CSR statement
+- Sustainability positions the business distinctively  not a generic CSR statement
 
 **Circular Economy (15%)**
 - Waste reduction or reuse mechanisms designed into operations
-- By-product valorisation considered (e.g., manure → biogas; husks → briquettes)
+- By-product valorisation considered (e.g., manure  biogas; husks  briquettes)
 - Packaging reduction or switch to biodegradable materials where applicable
 - Supply chain sustainability assessed (primary supplier practices)
 
@@ -86,13 +135,13 @@ Five dimensions, each scored **0–2**:
 
 | Score | Meaning | Submission Pathway |
 |---|---|---|
-| ≥ 1.6 / 2.0 (= 8.0/10) | High sustainability integration | DFI / impact investor submission ready |
-| ≥ 1.2 / 2.0 (= 6.0/10) | Adequate sustainability integration | Commercial bank submission ready |
-| < 1.2 / 2.0 | Sustainability gaps too significant | Return to design — address gaps before submission |
+|  1.6 / 2.0 (= 8.0/10) | High sustainability integration | DFI / impact investor submission ready |
+|  1.2 / 2.0 (= 6.0/10) | Adequate sustainability integration | Commercial bank submission ready |
+| < 1.2 / 2.0 | Sustainability gaps too significant | Return to design  address gaps before submission |
 
 ---
 
-## Sector-Specific Sustainability Materialities — Uganda
+## Sector-Specific Sustainability Materialities  Uganda
 
 | Sector | Primary Environmental Materiality | Primary Social Materiality | Key SDGs |
 |---|---|---|---|
@@ -121,23 +170,23 @@ Run this 12-item checklist **before drafting begins**. Record answers in the pla
 
 3. **NEMA category**: Confirm whether the business falls under NEMA Category A (full EIA required), Category B (environmental audit required), or Category C (self-certification sufficient). See the National Environment Act 2019 thresholds.
 
-4. **EIA certificate requirement**: Does this business require an Environmental Impact Assessment certificate before construction or commencement of operations? If yes, build EIA timeline and cost into Section 13 (Implementation) and Section 10 (Financial Projections).
+4. **EIA certificate requirement**: Does this business require an Environmental Impact Assessment certificate before construction or commencement of operationsSection  If yes, build EIA timeline and cost into Section 13 (Implementation) and Section 10 (Financial Projections).
 
-5. **Water and effluent**: Does the business abstract surface or groundwater, or discharge any effluent? If yes, a National Water and Sewerage Corporation or NES permit is required. Note abstraction volumes and discharge standards.
+5. **Water and effluent**: Does the business abstract surface or groundwater, or discharge any effluentSection  If yes, a National Water and Sewerage Corporation or NES permit is required. Note abstraction volumes and discharge standards.
 
-6. **Land acquisition or resettlement**: Does the business require land acquisition, lease of community land, or displacement of current occupants or users? If yes, a Resettlement Action Plan is mandatory for any DFI application.
+6. **Land acquisition or resettlement**: Does the business require land acquisition, lease of community land, or displacement of current occupants or usersSection  If yes, a Resettlement Action Plan is mandatory for any DFI application.
 
-7. **Employment**: Will the business employ workers, including casual, seasonal, or contracted staff? If yes, Employment Act 2006 compliance (contracts, leave, grievance procedures) and NSSF registration are mandatory from Day 1.
+7. **Employment**: Will the business employ workers, including casual, seasonal, or contracted staffSection  If yes, Employment Act 2006 compliance (contracts, leave, grievance procedures) and NSSF registration are mandatory from Day 1.
 
-8. **Food, health, and product safety**: Does the business handle food, medicines, cosmetics, or any consumer product subject to standards regulation? If yes, UNBS certification (food) or NDA registration (pharmaceuticals/medical devices) must be built into the pre-opening compliance plan.
+8. **Food, health, and product safety**: Does the business handle food, medicines, cosmetics, or any consumer product subject to standards regulationSection  If yes, UNBS certification (food) or NDA registration (pharmaceuticals/medical devices) must be built into the pre-opening compliance plan.
 
-9. **Vulnerable groups**: Does the product or service disproportionately affect women, youth, children, persons with disabilities, or refugee communities? If yes, positive targeting (SDG 5, 10) or safeguarding obligations apply.
+9. **Vulnerable groups**: Does the product or service disproportionately affect women, youth, children, persons with disabilities, or refugee communitiesSection  If yes, positive targeting (SDG 5, 10) or safeguarding obligations apply.
 
-10. **SDG alignment**: Which 2–3 SDGs are most directly relevant to this business? Be specific: not merely "SDG 8 Decent Work" but "SDG 8.3 — promote decent job creation and support micro and small enterprises."
+10. **SDG alignment**: Which 23 SDGs are most directly relevant to this businessSection  Be specific: not merely "SDG 8 Decent Work" but "SDG 8.3  promote decent job creation and support micro and small enterprises."
 
-11. **Climate adaptation priority**: What is the single most important climate adaptation measure for this business? Examples: drought-resistant input sourcing, flood-proof storage design, diversified crop or product mix, rainwater harvesting.
+11. **Climate adaptation priority**: What is the single most important climate adaptation measure for this businessSection  Examples: drought-resistant input sourcing, flood-proof storage design, diversified crop or product mix, rainwater harvesting.
 
-12. **ESMP requirement**: Is an Environmental and Social Management Plan (ESMP) required? Required for all UDB and DFI applications. Strongly recommended for any commercial bank loan above UGX 200M. If yes, use the template at `11-funding-request/references/esmp-template.md`.
+12. **ESMP requirement**: Is an Environmental and Social Management Plan (ESMP) requiredSection  Required for all UDB and DFI applications. Strongly recommended for any commercial bank loan above UGX 200M. If yes, use the template at `11-funding-request/references/esmp-template.md`.
 
 ---
 
@@ -147,16 +196,16 @@ Run this section-by-section verification table after all sections are drafted.
 
 | Plan Section | Sustainability Check | Pass / Fail |
 |---|---|---|
-| 02 Company Overview | Sustainability embedded in mission or vision — not bolted on as a footnote? | |
-| 03 Products & Services | Sustainable design principles applied to product or service? Circular economy opportunities considered? | |
-| 07 Marketing & Sales | Any green marketing claims substantiated with evidence? No greenwashing? | |
-| 08 Operations | Waste, water, and energy efficiency measures documented with targets? | |
-| 09 Management Team | Named sustainability champion identified with clear accountability? | |
-| 10 Financial Projections | Sustainability capex and opex budgeted (NEMA fees, ESMP costs, eco-efficiency investment)? | |
-| 12 Risk Analysis | Environmental and social risks included in the risk matrix with mitigation measures? | |
-| 13 Implementation | Sustainability milestones (NEMA, EIA, ESMP, NSSF) included in Gantt chart? | |
-| 14 AI Integration | AI energy use and data privacy considerations addressed? | |
-| 16 Sustainability Strategy | Dedicated sustainability section present in the plan? | |
+| 02 Company Overview | Sustainability embedded in mission or vision  not bolted on as a footnoteSection  | |
+| 03 Products & Services | Sustainable design principles applied to product or serviceSection  Circular economy opportunities consideredSection  | |
+| 07 Marketing & Sales | Any green marketing claims substantiated with evidenceSection  No greenwashingSection  | |
+| 08 Operations | Waste, water, and energy efficiency measures documented with targetsSection  | |
+| 09 Management Team | Named sustainability champion identified with clear accountabilitySection  | |
+| 10 Financial Projections | Sustainability capex and opex budgeted (NEMA fees, ESMP costs, eco-efficiency investment)Section  | |
+| 12 Risk Analysis | Environmental and social risks included in the risk matrix with mitigation measuresSection  | |
+| 13 Implementation | Sustainability milestones (NEMA, EIA, ESMP, NSSF) included in Gantt chartSection  | |
+| 14 AI Integration | AI energy use and data privacy considerations addressedSection  | |
+| 16 Sustainability Strategy | Dedicated sustainability section present in the planSection  | |
 
 After completing the table, calculate the SRS using the scoring framework above. If any Pass/Fail item scores Fail, it must be corrected before submission.
 
@@ -181,14 +230,14 @@ The six SDGs most relevant to Uganda small and medium enterprises:
 
 The following reference files support this skill:
 
-- **`references/sustainability-strategy-framework.md`** — Vectoring framework, Four Archetypes, Materiality Matrix, Business Case for Sustainability, Circular Economy principles, SDG integration, Six Capitals. Source: Leleux & van der Kaaij (2019), *Winning Sustainability Strategies*.
+- **`references/sustainability-strategy-framework.md`**  Vectoring framework, Four Archetypes, Materiality Matrix, Business Case for Sustainability, Circular Economy principles, SDG integration, Six Capitals. Source: Leleux & van der Kaaij (2019), *Winning Sustainability Strategies*.
 
-- **`references/sustainability-indicators-measurement.md`** — Indicator types (descriptive, performance, efficiency), PSR and DPSIR frameworks, headline vs aggregated indices, KPI selection guide. Source: Hak, Moldan & Dahl (2007), *Sustainability Indicators*.
+- **`references/sustainability-indicators-measurement.md`**  Indicator types (descriptive, performance, efficiency), PSR and DPSIR frameworks, headline vs aggregated indices, KPI selection guide. Source: Hak, Moldan & Dahl (2007), *Sustainability Indicators*.
 
-- **`references/sustainability-decisions-policy.md`** — Quadruple Bottom Line (QBL), reform vs transformation, seven decision criteria, spillover and rebound effects, stakeholder deliberation. Sources: Dietz (2023); Waite (2023).
+- **`references/sustainability-decisions-policy.md`**  Quadruple Bottom Line (QBL), reform vs transformation, seven decision criteria, spillover and rebound effects, stakeholder deliberation. Sources: Dietz (2023); Waite (2023).
 
-- **`11-funding-request/references/esmp-template.md`** — IFC/UDB-compliant Environmental and Social Management Plan template for DFI applications.
+- **`11-funding-request/references/esmp-template.md`**  IFC/UDB-compliant Environmental and Social Management Plan template for DFI applications.
 
-- **`16-sustainability-strategy/SKILL.md`** — Full sustainability strategy section generation (Section 16 of the business plan).
+- **`16-sustainability-strategy/SKILL.md`**  Full sustainability strategy section generation (Section 16 of the business plan).
 
-- **`meta-bankability-scoring/SKILL.md`** — CAMPARI compliance framework, which includes social licence to operate as a scoring dimension.
+- **`meta-bankability-scoring/SKILL.md`**  CAMPARI compliance framework, which includes social licence to operate as a scoring dimension.

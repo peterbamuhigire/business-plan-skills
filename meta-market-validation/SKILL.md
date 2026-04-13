@@ -5,11 +5,60 @@ description: Dual-mode meta-skill for (A) pre-plan field validation of business 
 
 # Market Validation Meta-Skill
 
+## Use When
+
+- Use when this skill is the primary workflow for the requested task.
+- Use when creating, reviewing, or improving this skill's main artifact.
+- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+
+## Do Not Use When
+
+- Do not use when another section or meta-skill is the primary owner of the task.
+- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
+- Do not use for provider-specific UI behaviour; keep the workflow portable.
+
+## Required Inputs
+
+- Business, client, or proposal context relevant to this skill
+- Country, audience, funder, or user context where relevant
+- Available assumptions, evidence, constraints, and dependencies
+- Adjacent section outputs where consistency matters
+
+## Workflow
+
+1. Clarify the objective, audience, and scope for this skill.
+2. Gather the minimum required inputs and note any missing assumptions.
+3. Read the referenced materials only as needed.
+4. Produce or revise the artifact using the skill-specific method below.
+5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
+6. Flag unresolved gaps, assumptions, or follow-up work.
+
+## Quality Bar
+
+- Output is specific, decision-useful, and not generic
+- Assumptions are explicit where relevant
+- Claims align with the rest of the plan, proposal, or workflow
+- Wording is structured, concise, and audience-appropriate
+
+## Anti-Patterns
+
+- Generic filler that could describe any business or situation
+- Hidden assumptions or unsupported claims
+- Contradictions with financials, implementation, risk, or audience requirements
+- Provider-specific operating assumptions embedded in the portable workflow
+
+## Outputs
+
+- The primary artifact or analysis owned by this skill
+- Any key assumptions, open questions, and cross-skill dependencies
+
+
+
 ## When to Use
 
-**Mode A — Pre-Plan Field Validation:** Before writing the business plan. Use when the entrepreneur has an idea but hasn't yet validated it with real customers. Guides systematic assumption-testing.
+**Mode A  Pre-Plan Field Validation:** Before writing the business plan. Use when the entrepreneur has an idea but hasn't yet validated it with real customers. Guides systematic assumption-testing.
 
-**Mode B — Post-Plan Claim Auditing:** After sections 04-07 are complete. Reviews market claims and flags unsupported assertions before investors do.
+**Mode B  Post-Plan Claim Auditing:** After sections 04-07 are complete. Reviews market claims and flags unsupported assertions before investors do.
 
 Both modes can be used sequentially: validate first, write the plan, then audit the plan.
 
@@ -19,7 +68,7 @@ Both modes can be used sequentially: validate first, write the plan, then audit 
 
 "A startup is a temporary organisation in search of a scalable, repeatable, profitable business model" (Blank & Dorf, 2012). Business plans are collections of untested hypotheses. Customer Development converts hypotheses into facts through systematic testing.
 
-**The 14th rule:** There are no facts inside your building — get outside.
+**The 14th rule:** There are no facts inside your building  get outside.
 
 ### Step 1: Classify the Venture's Problem Recognition Level
 
@@ -44,36 +93,36 @@ Find customers with all five characteristics (Blank & Dorf, 2012):
 ### Step 3: Map Stakeholders
 
 Use three concentric rings (Alam):
-- **Target** — 1-3 primary beneficiaries/users
-- **Connected** — payers, implementers, gatekeepers who directly influence
-- **Influenced** — community, regulators, adjacent businesses indirectly affected
+- **Target**  1-3 primary beneficiaries/users
+- **Connected**  payers, implementers, gatekeepers who directly influence
+- **Influenced**  community, regulators, adjacent businesses indirectly affected
 
 ### Step 4: Conduct Empathy-Based Research
 
-Follow the 8-category interview guide (Alam): Introduction → Jobs to Be Done → Customers → Challenges → Aspirations → Stories → Emotions → Conclusion.
+Follow the 8-category interview guide (Alam): Introduction  Jobs to Be Done  Customers  Challenges  Aspirations  Stories  Emotions  Conclusion.
 
 Key engagement rules:
-- Ask "why?" repeatedly
+- Ask "whySection " repeatedly
 - Encourage stories ("Tell me about the last time...")
 - Look for inconsistencies between words and actions
-- Embrace silence — don't fill pauses
+- Embrace silence  don't fill pauses
 - Never suggest solutions during the interview
 
-Build Empathy Maps: Observations → Interpretations → Insights. See `references/empathy-validation-tools.md`.
+Build Empathy Maps: Observations  Interpretations  Insights. See `references/empathy-validation-tools.md`.
 
 ### Step 5: Apply Rapid Validation
 
 Use Kagan's Golden Rule: **Find 3 paying customers in 48 hours.**
 
 Three validation methods:
-1. **Direct preselling** — use the LOT framework (Listen-Options-Transition)
-2. **Marketplaces** — post on Facebook Marketplace, local forums, WhatsApp groups
-3. **Landing pages** — simple page with price and buy button
+1. **Direct preselling**  use the LOT framework (Listen-Options-Transition)
+2. **Marketplaces**  post on Facebook Marketplace, local forums, WhatsApp groups
+3. **Landing pages**  simple page with price and buy button
 
 Structure offers using the Price + Benefit + Time formula:
 > "For [price], I will [benefit] in [time]."
 
-When rejected, use the 4-question script: Why not? → Who else? → What would make it a no-brainer? → What would you pay?
+When rejected, use the 4-question script: Why notSection   Who elseSection   What would make it a no-brainerSection   What would you paySection 
 
 See `references/rapid-validation-methods.md`.
 
@@ -82,9 +131,9 @@ See `references/rapid-validation-methods.md`.
 Use the Assumptions Tracking Template (Alam):
 - Classify each assumption as Minor / Major / Critical
 - Assign owner and due date
-- Track status: New → In Progress → Validated / Disproved
+- Track status: New  In Progress  Validated / Disproved
 
-Calculate Risk Score: `(Minor × 1) + (Major × 5) + (Critical × 25)`. Target: below 100.
+Calculate Risk Score: `(Minor  1) + (Major  5) + (Critical  25)`. Target: below 100.
 
 ### Step 7: Test the Solution (MVP)
 
@@ -96,7 +145,7 @@ Follow the MVP Evolution Model (Cooper & Vlaskovits, 2010):
 | MVP 2 | Demo / prototype | Test solution approach | Commitment |
 | MVP 3 | Working product | Test willingness to pay | Money |
 
-Evaluate each capability using the BFCE framework (Alam): Better (quality)? Faster (efficiency)? Cheaper (cost)? Easier (experience)?
+Evaluate each capability using the BFCE framework (Alam): Better (quality)Section  Faster (efficiency)Section  Cheaper (cost)Section  Easier (experience)Section 
 
 ### Step 8: Measure Product-Market Fit
 
@@ -105,14 +154,14 @@ Three-criteria test (Cooper & Vlaskovits, 2010):
 2. Cost of acquisition < revenue per customer
 3. Sufficient evidence market is large enough
 
-**Sean Ellis 40% Rule:** If ≥40% of users say they'd be "very disappointed" without the product, you have product-market fit.
+**Sean Ellis 40% Rule:** If 40% of users say they'd be "very disappointed" without the product, you have product-market fit.
 
 ### Step 9: Pivot or Proceed
 
 Apply the three-question test (Blank & Dorf, 2012):
-1. **Can it scale?** — $1 in acquisition produces > $1 in revenue?
-2. **Is there a repeatable sales roadmap?** — Can others replicate the sales process?
-3. **Is the funnel predictable?** — Can you forecast conversion at each stage?
+1. **Can it scaleSection **  $1 in acquisition produces > $1 in revenueSection 
+2. **Is there a repeatable sales roadmapSection **  Can others replicate the sales processSection 
+3. **Is the funnel predictableSection **  Can you forecast conversion at each stageSection 
 
 If any answer is no, pivot (change one or more Business Model Canvas boxes) and return to Step 4. See `references/customer-development-process.md` for pivot methodology.
 
@@ -120,7 +169,7 @@ If any answer is no, pivot (change one or more Business Model Canvas boxes) and 
 
 Before writing the business plan, the entrepreneur should have validated:
 
-- [ ] The problem exists and is painful (not a vitamin — a painkiller)
+- [ ] The problem exists and is painful (not a vitamin  a painkiller)
 - [ ] Target customers are identifiable and reachable
 - [ ] At least 3 customers have paid or committed to pay
 - [ ] Pricing is based on value-based testing, not guesswork
@@ -140,47 +189,47 @@ Audit the market-facing sections of the business plan (sections 04-07) to ensure
 ### What to Validate
 
 #### 1. Market Size Validation
-- Is TAM calculated using credible methodology (bottom-up preferred)?
-- Is SAM a logical subset of TAM with clear narrowing criteria?
-- Is SOM realistic (typically 1-5% of SAM for startups)?
-- Are market size sources cited and current (within 2 years)?
-- Does bottom-up calculation align with top-down?
-- What is the market type: existing, new, re-segmented, or clone? (Blank & Dorf, 2012)
+- Is TAM calculated using credible methodology (bottom-up preferred)Section 
+- Is SAM a logical subset of TAM with clear narrowing criteriaSection 
+- Is SOM realistic (typically 1-5% of SAM for startups)Section 
+- Are market size sources cited and current (within 2 years)Section 
+- Does bottom-up calculation align with top-downSection 
+- What is the market type: existing, new, re-segmented, or cloneSection  (Blank & Dorf, 2012)
 
 #### 2. Growth Rate Validation
-- Are growth projections supported by historical data?
-- Is the cited CAGR from a reputable source?
-- Are growth assumptions consistent with the market type? (New markets take 3-7 years; existing markets grow incrementally)
-- Is the business growing faster than the market? If so, why?
+- Are growth projections supported by historical dataSection 
+- Is the cited CAGR from a reputable sourceSection 
+- Are growth assumptions consistent with the market typeSection  (New markets take 3-7 years; existing markets grow incrementally)
+- Is the business growing faster than the marketSection  If so, whySection 
 
 #### 3. Customer Assumption Validation
-- Are customer personas based on research or assumptions?
-- Were earlyvangelists identified and interviewed?
-- Is the CAC estimate grounded in comparable data?
-- Is the CLV calculation realistic given churn assumptions?
-- Is the CLV:CAC ratio defensible (>3:1)?
-- Has the Problem Recognition Scale been assessed?
+- Are customer personas based on research or assumptionsSection 
+- Were earlyvangelists identified and interviewedSection 
+- Is the CAC estimate grounded in comparable dataSection 
+- Is the CLV calculation realistic given churn assumptionsSection 
+- Is the CLV:CAC ratio defensible (>3:1)Section 
+- Has the Problem Recognition Scale been assessedSection 
 
 #### 4. Competitive Positioning Validation
-- Are all relevant competitors identified (direct, indirect, substitutes)?
-- Is the market type acknowledged, and does competitive strategy match?
-- Are competitive advantages genuinely sustainable?
-- Are competitor weaknesses based on evidence, not wishful thinking?
-- Has cost-of-entry been assessed? (74%+ = monopoly, 41%+ = leader, 26%+ = unstable, <26% = open; Blank & Dorf, 2012)
+- Are all relevant competitors identified (direct, indirect, substitutes)Section 
+- Is the market type acknowledged, and does competitive strategy matchSection 
+- Are competitive advantages genuinely sustainableSection 
+- Are competitor weaknesses based on evidence, not wishful thinkingSection 
+- Has cost-of-entry been assessedSection  (74%+ = monopoly, 41%+ = leader, 26%+ = unstable, <26% = open; Blank & Dorf, 2012)
 
 #### 5. Pricing Validation
-- Is pricing consistent with the value proposition?
-- Was pricing tested with real customers (value-based approach)?
-- How does pricing compare to competitors and workarounds?
-- Does the pricing model support the revenue projections?
-- Have the Six Revenue Dials been considered? (Kagan, 2024)
+- Is pricing consistent with the value propositionSection 
+- Was pricing tested with real customers (value-based approach)Section 
+- How does pricing compare to competitors and workaroundsSection 
+- Does the pricing model support the revenue projectionsSection 
+- Have the Six Revenue Dials been consideredSection  (Kagan, 2024)
 
 #### 6. Validation Evidence Check (new)
-- Did the plan authors conduct Customer Development activities?
-- Is there evidence of customer interviews, surveys, or preselling?
-- Are assumptions documented with validation status?
-- Is the Risk Score reported and acceptable?
-- Has product-market fit been measured?
+- Did the plan authors conduct Customer Development activitiesSection 
+- Is there evidence of customer interviews, surveys, or presellingSection 
+- Are assumptions documented with validation statusSection 
+- Is the Risk Score reported and acceptableSection 
+- Has product-market fit been measuredSection 
 
 ### Claim-by-Claim Output Format
 
@@ -192,7 +241,7 @@ Source: [Where it appears in the plan]
 Evidence: [Supporting data found]
 Validation Method Used: [Interview / Preselling / Survey / Secondary research / None]
 Status: VALIDATED / NEEDS EVIDENCE / UNSUPPORTED / CONTRADICTED
-Action: [What to do — cite source, conduct research, revise claim]
+Action: [What to do  cite source, conduct research, revise claim]
 ```
 
 ### Validation Summary Dashboard
@@ -232,7 +281,7 @@ Action: [What to do — cite source, conduct research, revise claim]
 ## Quality Criteria
 
 - Every factual claim is assessed, not just the obvious ones
-- Validation is objective — does not rubber-stamp weak claims
+- Validation is objective  does not rubber-stamp weak claims
 - The 9 Deadly Sins are actively checked for (Blank & Dorf, 2012)
 - Premature scaling warnings are flagged aggressively
 - Suggested validation methods are practical and affordable for the Ugandan context
@@ -241,9 +290,9 @@ Action: [What to do — cite source, conduct research, revise claim]
 
 ## References
 
-- `references/customer-development-process.md` — Blank/Dorf's 4-step Customer Development, 14 rules, 9 Deadly Sins, pivot methodology, Business Model Canvas as scorecard
-- `references/customer-discovery-steps.md` — Cooper/Vlaskovits' 8-step Customer Discovery, C-P-S hypotheses, Funnel Matrix, Value Path, Business Ecosystem Mapping, outreach templates, MVP Evolution Model, product-market fit measurement
-- `references/rapid-validation-methods.md` — Kagan's Golden Rule, LOT framework, Dream Ten List, Price+Benefit+Time formula, Rejection Script, validation methods, One-Minute Business Model, Six Revenue Dials, Content Circle Framework
-- `references/empathy-validation-tools.md` — Alam's Transform3+1, stakeholder mapping, empathy research, persona template, journey mapping, BFCE framework, user testing methodology, Assumptions Tracking, Risk Score formula, elevator pitch templates
-- `references/mckinsey-problem-solving.md` — McKinsey's MECE principle (Mutually Exclusive, Collectively Exhaustive) with worked examples; issue tree construction and branching rules; hypothesis-driven analysis (Initial Hypothesis method, three-step generation, insurance leakage anecdote); 80/20 rule as diagnostic jump-start; key drivers framework; fact-based analysis; Forces at Work four-category environmental scan (suppliers/customers/competitors/substitutes); elevator test; presentation structure (one message per chart, prewiring); 10 common analysis mistakes — Source: Rasiel (McGraw-Hill). **Read when structuring any analytical section (market analysis, competitive analysis, risk), when building issue trees, or when auditing claims for MECE compliance and fact-based support.**
-- **72-tool business analysis toolkit**: See `references/business-analysis-techniques-cadle.md` for all 72 BA tools grouped by stage (strategy, investigation, stakeholder analysis, process modelling, options evaluation, change management), a business plan application table mapping each category to plan sections, and Uganda/EA contextualisation notes — Source: Cadle, Paul & Turner (BCS, 2010). **Read when structuring a market investigation, designing stakeholder analysis, building process models for the operations plan, evaluating options with CBA/NPV, or auditing a plan's analytical rigour against a structured toolkit.**
+- `references/customer-development-process.md`  Blank/Dorf's 4-step Customer Development, 14 rules, 9 Deadly Sins, pivot methodology, Business Model Canvas as scorecard
+- `references/customer-discovery-steps.md`  Cooper/Vlaskovits' 8-step Customer Discovery, C-P-S hypotheses, Funnel Matrix, Value Path, Business Ecosystem Mapping, outreach templates, MVP Evolution Model, product-market fit measurement
+- `references/rapid-validation-methods.md`  Kagan's Golden Rule, LOT framework, Dream Ten List, Price+Benefit+Time formula, Rejection Script, validation methods, One-Minute Business Model, Six Revenue Dials, Content Circle Framework
+- `references/empathy-validation-tools.md`  Alam's Transform3+1, stakeholder mapping, empathy research, persona template, journey mapping, BFCE framework, user testing methodology, Assumptions Tracking, Risk Score formula, elevator pitch templates
+- `references/mckinsey-problem-solving.md`  McKinsey's MECE principle (Mutually Exclusive, Collectively Exhaustive) with worked examples; issue tree construction and branching rules; hypothesis-driven analysis (Initial Hypothesis method, three-step generation, insurance leakage anecdote); 80/20 rule as diagnostic jump-start; key drivers framework; fact-based analysis; Forces at Work four-category environmental scan (suppliers/customers/competitors/substitutes); elevator test; presentation structure (one message per chart, prewiring); 10 common analysis mistakes  Source: Rasiel (McGraw-Hill). **Read when structuring any analytical section (market analysis, competitive analysis, risk), when building issue trees, or when auditing claims for MECE compliance and fact-based support.**
+- **72-tool business analysis toolkit**: See `references/business-analysis-techniques-cadle.md` for all 72 BA tools grouped by stage (strategy, investigation, stakeholder analysis, process modelling, options evaluation, change management), a business plan application table mapping each category to plan sections, and Uganda/EA contextualisation notes  Source: Cadle, Paul & Turner (BCS, 2010). **Read when structuring a market investigation, designing stakeholder analysis, building process models for the operations plan, evaluating options with CBA/NPV, or auditing a plan's analytical rigour against a structured toolkit.**

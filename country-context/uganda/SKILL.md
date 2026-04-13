@@ -5,7 +5,56 @@ description: Uganda country context for business plan generation. Default countr
 
 # Uganda Country Context
 
-Uganda is the **default country** for this skills suite. All core skills (01–15) apply Uganda defaults automatically. This file provides a consolidated reference.
+## Use When
+
+- Use when this skill is the primary workflow for the requested task.
+- Use when creating, reviewing, or improving this skill's main artifact.
+- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+
+## Do Not Use When
+
+- Do not use when another section or meta-skill is the primary owner of the task.
+- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
+- Do not use for provider-specific UI behaviour; keep the workflow portable.
+
+## Required Inputs
+
+- Business, client, or proposal context relevant to this skill
+- Country, audience, funder, or user context where relevant
+- Available assumptions, evidence, constraints, and dependencies
+- Adjacent section outputs where consistency matters
+
+## Workflow
+
+1. Clarify the objective, audience, and scope for this skill.
+2. Gather the minimum required inputs and note any missing assumptions.
+3. Read the referenced materials only as needed.
+4. Produce or revise the artifact using the skill-specific method below.
+5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
+6. Flag unresolved gaps, assumptions, or follow-up work.
+
+## Quality Bar
+
+- Output is specific, decision-useful, and not generic
+- Assumptions are explicit where relevant
+- Claims align with the rest of the plan, proposal, or workflow
+- Wording is structured, concise, and audience-appropriate
+
+## Anti-Patterns
+
+- Generic filler that could describe any business or situation
+- Hidden assumptions or unsupported claims
+- Contradictions with financials, implementation, risk, or audience requirements
+- Provider-specific operating assumptions embedded in the portable workflow
+
+## Outputs
+
+- The primary artifact or analysis owned by this skill
+- Any key assumptions, open questions, and cross-skill dependencies
+
+
+
+Uganda is the **default country** for this skills suite. All core skills (0115) apply Uganda defaults automatically. This file provides a consolidated reference.
 
 ---
 
@@ -28,20 +77,20 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 
 | Indicator | Value |
 |-----------|-------|
-| GDP (nominal) | ~USD 50–55 billion (FY2024/25 estimate) |
-| GDP per capita | ~USD 1,100–1,200 |
+| GDP (nominal) | ~USD 5055 billion (FY2024/25 estimate) |
+| GDP per capita | ~USD 1,1001,200 |
 | Real GDP growth | 6.3% (FY2024/25); Q1 2025/26: 4.8% |
-| GDP growth forecast | 6–7% medium-term (UBOS/IMF) |
-| Inflation (headline) | 3–5% (2025); food inflation leads |
+| GDP growth forecast | 67% medium-term (UBOS/IMF) |
+| Inflation (headline) | 35% (2025); food inflation leads |
 | Population | 45.9 million (NPHC 2024); Kampala: 1.797 million |
 | Major economic sectors | Agriculture (22%), services (50%), industry (28%) |
 | Primary data source | UBOS (ubos.org) |
 | Secondary source | Bank of Uganda (bou.or.ug); IMF Article IV |
 
 **Reference files with deeper macro data:**
-- `04-market-analysis/references/uganda-macro-context-2025.md` — GDP, inflation, exchange rates, labour, trade (UBOS 2025)
-- `04-market-analysis/references/uganda-human-capital-2025.md` — HCI, demographics, Vision 2040 (World Bank 2025)
-- `05-target-market/references/uganda-consumer-demographics-2025.md` — generational segments, income quintiles, regional profiles
+- `04-market-analysis/references/uganda-macro-context-2025.md`  GDP, inflation, exchange rates, labour, trade (UBOS 2025)
+- `04-market-analysis/references/uganda-human-capital-2025.md`  HCI, demographics, Vision 2040 (World Bank 2025)
+- `05-target-market/references/uganda-consumer-demographics-2025.md`  generational segments, income quintiles, regional profiles
 
 ---
 
@@ -49,17 +98,17 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 
 | Element | Detail |
 |---------|--------|
-| Company registry | Uganda Registration Services Bureau (URSB) — ursb.go.ug |
+| Company registry | Uganda Registration Services Bureau (URSB)  ursb.go.ug |
 | Online registration | OBRS portal (One-Stop Business Registration Service) |
 | Primary legal structures | Private limited company (most common SME); sole proprietorship; partnership; public company; BCC (cooperative) |
 | Most common SME structure | **Private Limited Company** (Ltd) |
-| Registration cost | From UGX 90,000–250,000 depending on share capital |
-| Timeline | 2–5 business days (online); delays possible |
+| Registration cost | From UGX 90,000250,000 depending on share capital |
+| Timeline | 25 business days (online); delays possible |
 | **NIN/BRN gate (2025)** | National Identification Number (NIN) required before TIN, trading licence, and bank account. Business Registration Number (BRN) from URSB required first |
 | Foreign ownership | 100% foreign ownership generally permitted; some sectors restricted (e.g., broadcasting, fishing in specific areas) |
 | Annual compliance | Annual return to URSB; audited accounts (threshold-based) |
 
-**Reference file:** `02-company-overview/references/doing-business-uganda.md` — RSM/Baker Tilly 2025: legal structures, OBRS, employment law
+**Reference file:** `02-company-overview/references/doing-business-uganda.md`  RSM/Baker Tilly 2025: legal structures, OBRS, employment law
 
 ---
 
@@ -68,21 +117,21 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 | Tax | Rate / Rule |
 |-----|-------------|
 | **Corporate income tax** | 30% (Income Tax Act Cap. 340) |
-| Small business turnover tax | 1% of gross turnover; threshold UGX 50M–150M/year |
+| Small business turnover tax | 1% of gross turnover; threshold UGX 50M150M/year |
 | **VAT** | **18%**; registration threshold: UGX 150 million/year |
-| VAT filing | Monthly (via EFRIS — Electronic Fiscal Receipting and Invoicing System) |
+| VAT filing | Monthly (via EFRIS  Electronic Fiscal Receipting and Invoicing System) |
 | **EFRIS penalties** | UGX 8 million/month for non-compliance; mandatory for all VAT-registered businesses |
-| **PAYE bands** | 0% (0–UGX 235,000/month); 10% (UGX 235,001–335,000); 20% (UGX 335,001–410,000); 30% (above UGX 410,000) |
+| **PAYE bands** | 0% (0UGX 235,000/month); 10% (UGX 235,001335,000); 20% (UGX 335,001410,000); 30% (above UGX 410,000) |
 | NSSF | Employer: 10%; Employee: 5%; total 15% of gross salary |
-| WHT — dividends | 15% (resident); 15% (non-resident) |
-| WHT — consultancy fees | 6% (resident) |
-| WHT — rent | 15% (commercial property) |
-| WHT — interest | 15% |
+| WHT  dividends | 15% (resident); 15% (non-resident) |
+| WHT  consultancy fees | 6% (resident) |
+| WHT  rent | 15% (commercial property) |
+| WHT  interest | 15% |
 | Import duty | EAC Common External Tariff; 0%, 10%, 25% bands |
-| Tax authority | URA (Uganda Revenue Authority) — ura.go.ug |
+| Tax authority | URA (Uganda Revenue Authority)  ura.go.ug |
 | Tax Compliance Certificate | Required for government tenders, bank account opening, licence renewal |
 
-**Reference file:** `10-financial-projections/references/uganda-tax-framework.md` — full ITA Cap.340 table, PAYE bands, WHT, EFRIS, 2025 amendments
+**Reference file:** `10-financial-projections/references/uganda-tax-framework.md`  full ITA Cap.340 table, PAYE bands, WHT, EFRIS, 2025 amendments
 
 ---
 
@@ -91,23 +140,23 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 | Sector | Body |
 |--------|------|
 | Business licensing | KCCA (Kampala); District Local Government (outside Kampala) |
-| Environmental | NEMA (National Environment Management Authority) — nema.go.ug |
-| Food safety / quality standards | UNBS (Uganda National Bureau of Standards) — unbs.go.ug |
+| Environmental | NEMA (National Environment Management Authority)  nema.go.ug |
+| Food safety / quality standards | UNBS (Uganda National Bureau of Standards)  unbs.go.ug |
 | Health sector | NDA (National Drug Authority); MoH |
-| Financial services — banking | Bank of Uganda (BoU) |
-| Financial services — insurance | Insurance Regulatory Authority (IRA) |
+| Financial services  banking | Bank of Uganda (BoU) |
+| Financial services  insurance | Insurance Regulatory Authority (IRA) |
 | Microfinance | MDIs regulated by BoU; SACCOs under MFPED/cooperative department |
 | Telecommunications | UCC (Uganda Communications Commission) |
 | Energy | ERA (Electricity Regulatory Authority) |
 | Labour / employment | MoGLSD (Ministry of Gender, Labour and Social Development) |
 | Immigration / work permits | DIA (Directorate of Citizenship and Immigration Control) |
 | Agriculture inputs / seeds | MAAIF; NSCS (National Seed Certification Service) |
-| Intellectual property | URSB (trademarks, patents, copyright) — ursb.go.ug; ARIPO |
+| Intellectual property | URSB (trademarks, patents, copyright)  ursb.go.ug; ARIPO |
 | Competition | CSBAG (limited role); no standalone competition authority |
 
 **Reference files:**
-- `02-company-overview/SKILL.md` — full regulatory checklist
-- `10-financial-projections/references/uganda-ip-framework.md` — URSB trademark/patent process, ARIPO, fees
+- `02-company-overview/SKILL.md`  full regulatory checklist
+- `10-financial-projections/references/uganda-ip-framework.md`  URSB trademark/patent process, ARIPO, fees
 
 ---
 
@@ -115,21 +164,21 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 
 | Element | Detail |
 |---------|--------|
-| Central bank | Bank of Uganda (BoU) — bou.or.ug |
-| Policy rate (CBR) | 9.75–10.5% range (2025) |
-| Commercial lending rate | 18–25% UGX (typical SME); USD loans 10–14% |
+| Central bank | Bank of Uganda (BoU)  bou.or.ug |
+| Policy rate (CBR) | 9.7510.5% range (2025) |
+| Commercial lending rate | 1825% UGX (typical SME); USD loans 1014% |
 | Major commercial banks | Stanbic Uganda, Equity Bank, DFCU, Centenary Bank, Absa Uganda, KCB Uganda, Co-operative Bank, Standard Chartered |
-| Development finance | Uganda Development Bank (UDB) — udb.co.ug; concessional rates 12–15%; up to UGX 10B |
+| Development finance | Uganda Development Bank (UDB)  udb.co.ug; concessional rates 1215%; up to UGX 10B |
 | Agri-financing | aBi Finance (grants + loans for agribusiness); USAID DCA facilities |
 | Microfinance / SACCOs | Pride Microfinance, Finance Trust Bank; thousands of SACCOs |
 | Mobile money | MTN MoMo (largest), Airtel Money; ~80% of transactions by volume |
 | Credit reference | CRB Africa; Compuscan |
 | SME credit access | ~6% of SMEs have formal bank credit (IFC CPSD 2022) |
-| DSCR minimum | ≥ 1.25× (standard bank requirement) |
+| DSCR minimum |  1.25 (standard bank requirement) |
 
 **Reference files:**
-- `11-funding-request/references/women-financing-uganda.md` — missing middle, UDB/aBi/WEF/UNCDF, psychometric scoring
-- `11-funding-request/references/equity-term-sheets.md` — equity fundraising, VC/angel landscape in Uganda/EA
+- `11-funding-request/references/women-financing-uganda.md`  missing middle, UDB/aBi/WEF/UNCDF, psychometric scoring
+- `11-funding-request/references/equity-term-sheets.md`  equity fundraising, VC/angel landscape in Uganda/EA
 
 ---
 
@@ -142,12 +191,12 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 | NEET (youth not in employment, education, training) | 5.25 million (women 52%, men 28%) |
 | Minimum wage | No national minimum wage in Uganda (sector-specific only in some gazetted industries) |
 | Typical salary bands (Kampala, 2025) | |
-| — Unskilled / casual | UGX 200,000–400,000/month |
-| — Semi-skilled / clerical | UGX 400,000–800,000/month |
-| — Technical / skilled | UGX 800,000–2,000,000/month |
-| — Professional / management | UGX 2,000,000–6,000,000/month |
-| — Senior management | UGX 6,000,000–15,000,000+/month |
-| Employer cost multiplier | × 1.10–1.15 of gross salary (NSSF 10% + miscellaneous) |
+|  Unskilled / casual | UGX 200,000400,000/month |
+|  Semi-skilled / clerical | UGX 400,000800,000/month |
+|  Technical / skilled | UGX 800,0002,000,000/month |
+|  Professional / management | UGX 2,000,0006,000,000/month |
+|  Senior management | UGX 6,000,00015,000,000+/month |
+| Employer cost multiplier |  1.101.15 of gross salary (NSSF 10% + miscellaneous) |
 | Key labour law | Employment Act 2006 (Cap. 219); NSSF Act |
 | Annual leave | 21 working days/year |
 | Notice period | 1 month (minimum) |
@@ -155,8 +204,8 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 | Non-EAC work permits | Class G work permit via DIA; minimum capital threshold |
 
 **Reference files:**
-- `09-management-team/references/uganda-labour-market-2025.md` — wage returns, NEET, salary bands, employer cost multiplier (World Bank 2025)
-- `09-management-team/references/women-entrepreneurship-uganda.md` — gender profit gap, land rights, sector mobility (World Bank 2022)
+- `09-management-team/references/uganda-labour-market-2025.md`  wage returns, NEET, salary bands, employer cost multiplier (World Bank 2025)
+- `09-management-team/references/women-entrepreneurship-uganda.md`  gender profit gap, land rights, sector mobility (World Bank 2022)
 
 ---
 
@@ -177,9 +226,9 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 | SME credit gap | UGX 8.7 trillion (IFC 2022) |
 
 **Reference files:**
-- `04-market-analysis/references/uganda-private-sector-markets.md` — IFC CPSD 2022: SME credit, fertiliser, housing deficit
-- `04-market-analysis/references/eac-trade-data-2024.md` — Uganda +22% exports 2024; AfCFTA potential US$178M
-- `04-market-analysis/references/eac-common-market-framework.md` — seven freedoms, RVC opportunities
+- `04-market-analysis/references/uganda-private-sector-markets.md`  IFC CPSD 2022: SME credit, fertiliser, housing deficit
+- `04-market-analysis/references/eac-trade-data-2024.md`  Uganda +22% exports 2024; AfCFTA potential US$178M
+- `04-market-analysis/references/eac-common-market-framework.md`  seven freedoms, RVC opportunities
 
 ---
 
@@ -194,13 +243,13 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 | Import levy exposure | EAC tariff bands change; USD-denominated inputs exposed to UGX depreciation |
 | Land tenure | Customary land (84%); disputes common in rural projects |
 | EUDR (deforestation) | EU Deforestation Regulation affects coffee, cocoa, timber, rubber exporters from 2025 |
-| Electricity reliability | Load shedding risk; backup power adds 15–20% to operating costs in some areas |
-| Exchange rate | UGX historically depreciates 5–10%/year vs USD; plan at UGX 3,700/$1 |
+| Electricity reliability | Load shedding risk; backup power adds 1520% to operating costs in some areas |
+| Exchange rate | UGX historically depreciates 510%/year vs USD; plan at UGX 3,700/$1 |
 | Uganda-specific risk table | See `12-risk-analysis/references/uganda-risk-context.md` |
 
 **Reference files:**
-- `12-risk-analysis/references/global-trade-risks-2025.md` — EUDR, EAC tariff changes, currency risk
-- `meta-financial-stress-test/references/stress-test-methodology.md` — Uganda historical shocks, 4-scenario framework
+- `12-risk-analysis/references/global-trade-risks-2025.md`  EUDR, EAC tariff changes, currency risk
+- `meta-financial-stress-test/references/stress-test-methodology.md`  Uganda historical shocks, 4-scenario framework
 
 ---
 
@@ -208,8 +257,8 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 
 | File | Purpose | Columns |
 |------|---------|---------|
-| `references/economic-metrics.csv` | Latest snapshot — 100 metrics | category, metric, value, unit, data_date, source |
-| `references/economic-metrics-history.csv` | Append-only time series — all historical runs | scraped_date, category, metric, value, unit, data_date, source |
+| `references/economic-metrics.csv` | Latest snapshot  100 metrics | category, metric, value, unit, data_date, source |
+| `references/economic-metrics-history.csv` | Append-only time series  all historical runs | scraped_date, category, metric, value, unit, data_date, source |
 
 Run `python tools/scrape_metrics.py uganda` to refresh (updates both files).
 
@@ -219,8 +268,8 @@ Run `python tools/scrape_metrics.py uganda` to refresh (updates both files).
 
 ## 12. Data Sources
 
-- UBOS (Uganda Bureau of Statistics) — ubos.org
-- Bank of Uganda — bou.or.ug
+- UBOS (Uganda Bureau of Statistics)  ubos.org
+- Bank of Uganda  bou.or.ug
 - IFC CPSD Uganda 2022
 - World Bank Uganda Human Capital Development Report 2025
 - RSM/Baker Tilly *Doing Business in Uganda* 2025

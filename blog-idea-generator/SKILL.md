@@ -5,6 +5,55 @@ description: Generate 15-25 targeted blog post ideas with 200-word summaries for
 
 # Blog Idea Generator
 
+## Use When
+
+- Use when this skill is the primary workflow for the requested task.
+- Use when creating, reviewing, or improving this skill's main artifact.
+- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+
+## Do Not Use When
+
+- Do not use when another section or meta-skill is the primary owner of the task.
+- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
+- Do not use for provider-specific UI behaviour; keep the workflow portable.
+
+## Required Inputs
+
+- Business, client, or proposal context relevant to this skill
+- Country, audience, funder, or user context where relevant
+- Available assumptions, evidence, constraints, and dependencies
+- Adjacent section outputs where consistency matters
+
+## Workflow
+
+1. Clarify the objective, audience, and scope for this skill.
+2. Gather the minimum required inputs and note any missing assumptions.
+3. Read the referenced materials only as needed.
+4. Produce or revise the artifact using the skill-specific method below.
+5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
+6. Flag unresolved gaps, assumptions, or follow-up work.
+
+## Quality Bar
+
+- Output is specific, decision-useful, and not generic
+- Assumptions are explicit where relevant
+- Claims align with the rest of the plan, proposal, or workflow
+- Wording is structured, concise, and audience-appropriate
+
+## Anti-Patterns
+
+- Generic filler that could describe any business or situation
+- Hidden assumptions or unsupported claims
+- Contradictions with financials, implementation, risk, or audience requirements
+- Provider-specific operating assumptions embedded in the portable workflow
+
+## Outputs
+
+- The primary artifact or analysis owned by this skill
+- Any key assumptions, open questions, and cross-skill dependencies
+
+
+
 Generate 15-25 targeted blog post ideas, each presented as a 200-word hybrid summary with narrative brief + structured specs. The system adapts its ideation methods to the specific client and available information.
 
 **Read `references/ideation-frameworks.md`** for the full 20-method library and selection logic.
@@ -20,13 +69,13 @@ Generate 15-25 targeted blog post ideas, each presented as a 200-word hybrid sum
 Read every available file to build a complete picture:
 
 1. `docs/en/company-profile.md` (and all enabled language versions)
-2. `docs/en/services.md` — service offerings, target customers
-3. `docs/en/pages.md` — existing website pages and content
-4. `docs/sector-brief.md` — industry context (if present)
-5. `docs/style-brief.md` — brand voice and tone
-6. `blog-writer/references/topic-ideas.md` — existing topics (avoid duplicates)
-7. `src/pages/en/blog/` — existing articles (avoid overlap)
-8. All other `docs/en/` files — testimonials, FAQ, portfolio, about-story
+2. `docs/en/services.md`  service offerings, target customers
+3. `docs/en/pages.md`  existing website pages and content
+4. `docs/sector-brief.md`  industry context (if present)
+5. `docs/style-brief.md`  brand voice and tone
+6. `blog-writer/references/topic-ideas.md`  existing topics (avoid duplicates)
+7. `src/pages/en/blog/`  existing articles (avoid overlap)
+8. All other `docs/en/` files  testimonials, FAQ, portfolio, about-story
 
 Extract and note:
 - What the business does (core services, products)
@@ -43,14 +92,14 @@ After reading docs, ask targeted questions to fill gaps. Ask one at a time. Skip
 
 **Core questions (ask what's missing):**
 
-1. **Audience specifics** — "Who is your ideal reader? (Job title, company size, industry, location)"
-2. **Top pain points** — "What are the top 3 problems your customers face that your business solves?"
-3. **Content goals** — "What should readers DO after reading? (Contact you, book a demo, understand a concept?)"
-4. **Competitor landscape** — "Name 2-3 competitors. What topics do they cover?"
-5. **Unique knowledge** — "What do you know that competitors don't? What's your unfair advantage?"
-6. **Customer questions** — "What questions do customers ask most before buying?"
-7. **Content gaps** — "Topics you've wanted to write about but haven't?"
-8. **Context/audience** — any additional context the user provides (specific themes, campaigns, seasonal needs)
+1. **Audience specifics**  "Who is your ideal readerSection  (Job title, company size, industry, location)"
+2. **Top pain points**  "What are the top 3 problems your customers face that your business solvesSection "
+3. **Content goals**  "What should readers DO after readingSection  (Contact you, book a demo, understand a conceptSection )"
+4. **Competitor landscape**  "Name 2-3 competitors. What topics do they coverSection "
+5. **Unique knowledge**  "What do you know that competitors don'tSection  What's your unfair advantageSection "
+6. **Customer questions**  "What questions do customers ask most before buyingSection "
+7. **Content gaps**  "Topics you've wanted to write about but haven'tSection "
+8. **Context/audience**  any additional context the user provides (specific themes, campaigns, seasonal needs)
 
 If the user provides additional context (audience details, campaign goals, seasonal focus), incorporate it into the assessment.
 
@@ -62,7 +111,7 @@ Score each dimension to determine which ideation methods will work best:
 
 | Dimension | Rich (3) | Moderate (2) | Sparse (1) |
 |-----------|----------|--------------|------------|
-| **Client docs** | Detailed company-profile, services, testimonials, stories | Basic company-profile and services | Minimal — just a business name and description |
+| **Client docs** | Detailed company-profile, services, testimonials, stories | Basic company-profile and services | Minimal  just a business name and description |
 | **Competitor visibility** | Named competitors with active blogs | Competitors named but blogs unknown | No competitor info |
 | **Audience specificity** | Named segments with pain points | General audience description | Vague ("businesses") |
 | **Industry dynamism** | Active news cycle, regulations, trends | Moderate change rate | Stable/static industry |
@@ -79,14 +128,14 @@ Based on the assessment, select 5-7 methods from the 20-method library. **Always
 
 | Method | Best When | Min Score |
 |--------|-----------|-----------|
-| 1. Category Drilldown | Always | — (always include) |
-| 2. Buyer Awareness Stages | Always | — (always include) |
-| 3. Pain Point Mining | Client docs ≥ 2 or customer interaction ≥ 2 | — |
-| 4. Competitor Gap Analysis | Competitor visibility ≥ 2 | Competitor 2+ |
-| 5. Customer Question Mapping | Customer interaction ≥ 2 | Customer 2+ |
+| 1. Category Drilldown | Always |  (always include) |
+| 2. Buyer Awareness Stages | Always |  (always include) |
+| 3. Pain Point Mining | Client docs  2 or customer interaction  2 |  |
+| 4. Competitor Gap Analysis | Competitor visibility  2 | Competitor 2+ |
+| 5. Customer Question Mapping | Customer interaction  2 | Customer 2+ |
 | 6. They Ask, You Answer | Customer interaction = 3 | Customer 3 |
 | 7. Amazon/Review Mining | Product-based business | Client docs 2+ |
-| 8. Spin-Off Posts | Existing content ≥ 2 | Content 2+ |
+| 8. Spin-Off Posts | Existing content  2 | Content 2+ |
 | 9. Media Mashup | Brand voice is informal/creative | Client docs 2+ |
 | 10. Highlight Good/Bad | Industry has notable examples | Industry 2+ |
 | 11. How-To/Tutorial Mining | Product/service has teachable processes | Client docs 2+ |
@@ -95,7 +144,7 @@ Based on the assessment, select 5-7 methods from the 20-method library. **Always
 | 14. Newsjacking/Trends | Industry dynamism = 3 | Industry 3 |
 | 15. Use Any Object | Need creative/lateral ideas | Any (creative fallback) |
 | 16. Curated Roundups | Industry has notable resources | Industry 2+ |
-| 17. Prediction Posts | Industry dynamism ≥ 2 | Industry 2+ |
+| 17. Prediction Posts | Industry dynamism  2 | Industry 2+ |
 | 18. Jargon/Glossary | Technical niche with newcomer audience | Audience 2+ |
 | 19. Contrarian/Negative | Audience is sophisticated | Audience 3 |
 | 20. Topic-Category Matrix | Need high volume quickly | Any (volume fallback) |
@@ -116,12 +165,12 @@ Remove any idea that fails:
 
 | Filter | Test |
 |--------|------|
-| **High-value goal** | Does this help the reader make/save money, reduce risk, save time, or gain advantage? |
-| **Unique angle** | Does this require knowledge that isn't commonly available? |
-| **So-what test** | Would the target reader care enough to click? |
-| **Longevity** | Will this still be relevant in 12 months? |
-| **No overlap** | Not already published or in existing topic-ideas.md? |
-| **Searchable** | Would someone type this into a search engine? |
+| **High-value goal** | Does this help the reader make/save money, reduce risk, save time, or gain advantageSection  |
+| **Unique angle** | Does this require knowledge that isn't commonly availableSection  |
+| **So-what test** | Would the target reader care enough to clickSection  |
+| **Longevity** | Will this still be relevant in 12 monthsSection  |
+| **No overlap** | Not already published or in existing topic-ideas.mdSection  |
+| **Searchable** | Would someone type this into a search engineSection  |
 
 ### Tier Classification
 
@@ -142,19 +191,19 @@ For each approved idea, produce a summary in this exact format:
 
 [3-4 sentence narrative brief: What this article is about, who it serves,
 why it matters now, and the unique angle that makes it worth reading. This
-paragraph should make someone want to write — and read — this article. It
+paragraph should make someone want to write  and read  this article. It
 captures the creative direction and emotional tone.]
 
-- **Audience:** [specific reader segment — job title, industry, company size]
+- **Audience:** [specific reader segment  job title, industry, company size]
 - **Buyer Stage:** [Awareness / Consideration / Decision]
 - **Format:** [How-to / Case study / List / Opinion / Guide / Story / Comparison / Interview / Roundup / FAQ]
-- **Angle:** [the specific twist that differentiates from competitors — 1 sentence]
+- **Angle:** [the specific twist that differentiates from competitors  1 sentence]
 - **Key Points:**
-  1. [what the article must cover — specific enough to outline from]
+  1. [what the article must cover  specific enough to outline from]
   2. [second key point]
   3. [third key point]
-  4. [fourth key point — optional]
-  5. [fifth key point — optional]
+  4. [fourth key point  optional]
+  5. [fifth key point  optional]
 - **CTA Goal:** [what action the reader should take after reading]
 - **SEO Keywords:** [primary keyword], [secondary keyword]
 - **Tier:** [1: SEO driver / 2: Authority builder / 3: Thought leadership]
@@ -163,11 +212,11 @@ captures the creative direction and emotional tone.]
 
 ### Summary Quality Rules
 
-- The narrative must read like a creative brief — not a dry description
+- The narrative must read like a creative brief  not a dry description
 - Key points must be specific enough to outline section headings from
 - Keywords must be realistic long-tail phrases someone would search
 - The angle must be genuinely different from what a Google search would surface
-- Every title must pass the 4 U's test (see `sales-copywriting/references/headline-mastery.md`): Useful, Unique, Urgent, Ultra-specific — score 3+ on at least 3 dimensions
+- Every title must pass the 4 U's test (see `sales-copywriting/references/headline-mastery.md`): Useful, Unique, Urgent, Ultra-specific  score 3+ on at least 3 dimensions
 
 ---
 
@@ -176,10 +225,10 @@ captures the creative direction and emotional tone.]
 ### Present to the User
 
 Show ideas grouped by tier with full summaries. After presenting, ask:
-- Which ideas excite you most?
-- Any ideas to remove or modify?
-- Any topics you expected but don't see?
-- Any specific campaigns or seasonal needs to address?
+- Which ideas excite you mostSection 
+- Any ideas to remove or modifySection 
+- Any topics you expected but don't seeSection 
+- Any specific campaigns or seasonal needs to addressSection 
 
 Refine based on feedback. The user's input overrides the assessment.
 
@@ -190,7 +239,7 @@ Refine based on feedback. The user's input overrides the assessment.
 Save the final approved list to `blog-writer/references/topic-ideas.md`:
 
 ```markdown
-# Blog Topic Ideas — [Client Name]
+# Blog Topic Ideas  [Client Name]
 
 Generated: YYYY-MM-DD
 Methods used: [list of methods applied]
@@ -216,7 +265,7 @@ Content categories: [list]
 ...
 ```
 
-If the file already exists, merge new ideas — don't overwrite existing topics. Mark previously written topics as `[PUBLISHED]`.
+If the file already exists, merge new ideas  don't overwrite existing topics. Mark previously written topics as `[PUBLISHED]`.
 
 ---
 
@@ -236,7 +285,7 @@ Before finalising:
 - [ ] At least 2 ideas based on real customer questions (if data available)
 - [ ] Content calendar covers at least 6 months at 2 articles/month
 - [ ] All SEO keywords are realistic long-tail phrases
-- [ ] Narrative briefs are compelling — they make you want to write the article
+- [ ] Narrative briefs are compelling  they make you want to write the article
 
 After writing, verify line count is under 500: wc -l blog-idea-generator/SKILL.md
 
@@ -246,7 +295,7 @@ After writing, verify line count is under 500: wc -l blog-idea-generator/SKILL.m
 
 When generating blog posts about **business planning, entrepreneurship, management, or plan-writing**, first consult the pre-built idea bank before running the full ideation process:
 
-**`references/book-derived-blog-ideas.md`** — 106 original, book-sourced post ideas. Each idea includes: angle, target reader, hook sentence, source reference file, and recommended format. Derived from: Minto (Pyramid Principle), Rasiel (McKinsey Way), Damodaran (Valuation), Feld & Mendelson (Venture Deals), Agrawal et al. (Prediction Machines), Sinek (Start with Why), Miller (Building a StoryBrand), Gerber (Awakening the Entrepreneur Within — Fatal Assumption, impersonal dream, Four Dimensions, Golden Pyramid), Horowitz (Hard Thing About Hard Things — The Struggle, Peacetime/Wartime CEO, layoffs, people first, Ones and Twos), Hahn & Mangun (DIY Advertising — AIDA+Conviction hierarchy, direct mail, radio scripts, testing framework), Edwards & Douglas (Getting Business to Come to You — Marketing Pyramid, Referral Machine, Article Marketing Loop, niche positioning), Pinskey (101 Ways to Promote Yourself — picture business cards, radio guesting, press releases, self-promotion system), Ashley (Oxford Handbook of Commercial Correspondence — bank covering letters, Incoterms, complaints, payment methods, letters of credit, job offer letters), Fleisher & Bensoussan (Business and Competitive Analysis — Nine Forces, competitor profiling, win/loss analysis, benchmarking, war gaming, linchpin analysis), Cadle, Paul & Turner (Business Analysis Techniques — PESTLE vs Porter's Five Forces, SWOT/TOWS correctly used, McKinsey 7-S implementation check, swimlane process modelling, 72-tool analytical toolkit, CBA/NPV/payback compared), Hood (Words at Work — plain English, reversed triangle, report structure), Shiach (How to Write Essays — argument structure, paragraph formula, transitions), Geffner (Business English — Four Cs, parallelism, positive framing, expressions to avoid), and Rubie & Provost (How to Tell a Story — Provost Paragraph, high-concept hook, show vs tell, protagonist principle).
+**`references/book-derived-blog-ideas.md`**  106 original, book-sourced post ideas. Each idea includes: angle, target reader, hook sentence, source reference file, and recommended format. Derived from: Minto (Pyramid Principle), Rasiel (McKinsey Way), Damodaran (Valuation), Feld & Mendelson (Venture Deals), Agrawal et al. (Prediction Machines), Sinek (Start with Why), Miller (Building a StoryBrand), Gerber (Awakening the Entrepreneur Within  Fatal Assumption, impersonal dream, Four Dimensions, Golden Pyramid), Horowitz (Hard Thing About Hard Things  The Struggle, Peacetime/Wartime CEO, layoffs, people first, Ones and Twos), Hahn & Mangun (DIY Advertising  AIDA+Conviction hierarchy, direct mail, radio scripts, testing framework), Edwards & Douglas (Getting Business to Come to You  Marketing Pyramid, Referral Machine, Article Marketing Loop, niche positioning), Pinskey (101 Ways to Promote Yourself  picture business cards, radio guesting, press releases, self-promotion system), Ashley (Oxford Handbook of Commercial Correspondence  bank covering letters, Incoterms, complaints, payment methods, letters of credit, job offer letters), Fleisher & Bensoussan (Business and Competitive Analysis  Nine Forces, competitor profiling, win/loss analysis, benchmarking, war gaming, linchpin analysis), Cadle, Paul & Turner (Business Analysis Techniques  PESTLE vs Porter's Five Forces, SWOT/TOWS correctly used, McKinsey 7-S implementation check, swimlane process modelling, 72-tool analytical toolkit, CBA/NPV/payback compared), Hood (Words at Work  plain English, reversed triangle, report structure), Shiach (How to Write Essays  argument structure, paragraph formula, transitions), Geffner (Business English  Four Cs, parallelism, positive framing, expressions to avoid), and Rubie & Provost (How to Tell a Story  Provost Paragraph, high-concept hook, show vs tell, protagonist principle).
 
 **When to use this bank:**
 - Client is a business consultant, coach, accountant, or financial adviser
@@ -254,4 +303,4 @@ When generating blog posts about **business planning, entrepreneurship, manageme
 - Content calendar needs authority-builder or thought-leadership pieces
 - Audience is entrepreneurs, SME owners, or plan writers
 
-**Each idea in the bank maps directly to a reference file** — so the blog writer can draw on deep, sourced content rather than generic advice. Reference the specific file listed in the "Draw from" field of each idea when writing the article.
+**Each idea in the bank maps directly to a reference file**  so the blog writer can draw on deep, sourced content rather than generic advice. Reference the specific file listed in the "Draw from" field of each idea when writing the article.

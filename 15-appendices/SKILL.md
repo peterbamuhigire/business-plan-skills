@@ -1,9 +1,60 @@
-﻿---
+---
 name: appendices
-description: Generate the appendices section: a structured collection of supporting documents, data tables, legal documents, technical specifications, and evidence that back up claims made throughout the business plan.
+description: "Generate the appendices section: a structured collection of supporting documents, data tables, legal documents, technical specifications, and evidence that back up claims made throughout the business plan."
 ---
 
 # Appendices Skill
+
+## Use When
+
+- Use when supporting evidence needs to be assembled behind the main plan or proposal.
+- Use when a bank, investor, DFI, or partner will expect documentary backup for the main claims.
+- Use when the work needs an evidence matrix or data-room style appendix structure.
+
+## Do Not Use When
+
+- Do not use as a dumping ground for unrelated material.
+- Do not use before the main body claims are stable enough to map to evidence.
+- Do not use appendices to hide core logic that should be visible in the main plan.
+
+## Required Inputs
+
+- Completed or near-complete main sections
+- All available supporting documents, exhibits, and datasets
+- Audience type and likely due-diligence expectations
+- The high-stakes claims, figures, and legal or financial assertions that need proof
+
+## Workflow
+
+1. Identify which main-plan claims require documentary support.
+2. Organise the evidence into logical appendix or data-room categories.
+3. Build the evidence matrix linking claims to proof.
+4. Standardise the naming, order, and purpose of each appendix item.
+5. Reconcile the appendix pack against the main document and the audience's DD expectations.
+6. Flag missing or weak evidence that still needs to be obtained.
+
+## Quality Bar
+
+- Every material claim in the main plan can be traced to evidence or a labelled estimate.
+- The appendix structure is easy for a lender or investor to navigate.
+- Financial tables match the summary numbers exactly.
+- Missing documents are visible rather than silently omitted.
+
+## Anti-Patterns
+
+- Treating appendices as miscellaneous storage.
+- Including documents with no clear link to the main decision case.
+- Leaving unsupported claims unlabelled.
+- Presenting appendix evidence that contradicts the main body.
+
+## Outputs
+
+- Appendix structure or data-room map
+- Evidence matrix
+- Ordered appendix list with purpose and section reference
+- A gap list of missing support documents
+
+
 
 Generate a well-organised appendices section that provides the supporting evidence investors need without cluttering the main plan.
 

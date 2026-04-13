@@ -1,32 +1,81 @@
 ---
 name: ai-integration
-description: Generate the AI integration and efficiency section — a 2026-era mandatory addition to business plans. Maps how the business uses AI to automate workflows, reduce overhead, scale operations, and maintain competitive advantage. Covers AI tool stack, cost-benefit analysis, implementation roadmap, and governance.
+description: Generate the AI integration and efficiency section  a 2026-era mandatory addition to business plans. Maps how the business uses AI to automate workflows, reduce overhead, scale operations, and maintain competitive advantage. Covers AI tool stack, cost-benefit analysis, implementation roadmap, and governance.
 ---
 
 # AI Integration & Efficiency Skill
 
-Generate a practical AI utilisation plan that demonstrates the business is AI-smart — a competitive requirement in 2026.
+## Use When
+
+- Use when this skill is the primary workflow for the requested task.
+- Use when creating, reviewing, or improving this skill's main artifact.
+- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+
+## Do Not Use When
+
+- Do not use when another section or meta-skill is the primary owner of the task.
+- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
+- Do not use for provider-specific UI behaviour; keep the workflow portable.
+
+## Required Inputs
+
+- Business, client, or proposal context relevant to this skill
+- Country, audience, funder, or user context where relevant
+- Available assumptions, evidence, constraints, and dependencies
+- Adjacent section outputs where consistency matters
+
+## Workflow
+
+1. Clarify the objective, audience, and scope for this skill.
+2. Gather the minimum required inputs and note any missing assumptions.
+3. Read the referenced materials only as needed.
+4. Produce or revise the artifact using the skill-specific method below.
+5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
+6. Flag unresolved gaps, assumptions, or follow-up work.
+
+## Quality Bar
+
+- Output is specific, decision-useful, and not generic
+- Assumptions are explicit where relevant
+- Claims align with the rest of the plan, proposal, or workflow
+- Wording is structured, concise, and audience-appropriate
+
+## Anti-Patterns
+
+- Generic filler that could describe any business or situation
+- Hidden assumptions or unsupported claims
+- Contradictions with financials, implementation, risk, or audience requirements
+- Provider-specific operating assumptions embedded in the portable workflow
+
+## Outputs
+
+- The primary artifact or analysis owned by this skill
+- Any key assumptions, open questions, and cross-skill dependencies
+
+
+
+Generate a practical AI utilisation plan that demonstrates the business is AI-smart  a competitive requirement in 2026.
 
 ## Why This Section Exists
 
-Investors in 2026 expect businesses to articulate their AI strategy. A business plan without an AI section signals either ignorance or inefficiency. This is not about being trendy — it is about demonstrating operational intelligence.
+Investors in 2026 expect businesses to articulate their AI strategy. A business plan without an AI section signals either ignorance or inefficiency. This is not about being trendy  it is about demonstrating operational intelligence.
 
 ## What to Generate
 
 ### Required Elements
 
-1. **AI readiness assessment** — Current state of AI adoption
-2. **Workflow automation inventory** — Processes that AI can handle or augment
-3. **AI tool stack** — Specific tools, platforms, and APIs the business will use
-4. **Cost-benefit analysis** — AI investment vs. labour savings and efficiency gains
-5. **Implementation roadmap** — Phased AI adoption plan
-6. **Team AI competency** — Training needs and hiring for AI skills
-7. **Data strategy** — What data the business collects and how AI uses it
-8. **AI governance and ethics** — Responsible AI use policies
-9. **Competitive AI advantage** — How AI creates differentiation
-10. **Risk and limitations** — What AI cannot do and human oversight requirements
-11. **Process-redesign-first logic** — What is removed, simplified, or accelerated before automation
-12. **CX impact** — How AI improves the end-to-end customer and employee experience
+1. **AI readiness assessment**  Current state of AI adoption
+2. **Workflow automation inventory**  Processes that AI can handle or augment
+3. **AI tool stack**  Specific tools, platforms, and APIs the business will use
+4. **Cost-benefit analysis**  AI investment vs. labour savings and efficiency gains
+5. **Implementation roadmap**  Phased AI adoption plan
+6. **Team AI competency**  Training needs and hiring for AI skills
+7. **Data strategy**  What data the business collects and how AI uses it
+8. **AI governance and ethics**  Responsible AI use policies
+9. **Competitive AI advantage**  How AI creates differentiation
+10. **Risk and limitations**  What AI cannot do and human oversight requirements
+11. **Process-redesign-first logic**  What is removed, simplified, or accelerated before automation
+12. **CX impact**  How AI improves the end-to-end customer and employee experience
 
 ### Workflow Automation Inventory Template
 
@@ -36,14 +85,14 @@ Investors in 2026 expect businesses to articulate their AI strategy. A business 
 
 ### AI Tool Categories to Evaluate
 
-- **Customer service** — Chatbots, ticket routing, sentiment analysis
-- **Marketing** — Content generation, ad optimisation, personalisation
-- **Sales** — Lead scoring, CRM automation, proposal generation
-- **Operations** — Inventory forecasting, scheduling, quality inspection
-- **Finance** — Invoice processing, expense categorisation, fraud detection
-- **HR** — Resume screening, onboarding automation, performance analytics
-- **Product** — Feature prioritisation, user behaviour analysis, testing
-- **Development** — Code generation, testing, documentation (Claude Code, etc.)
+- **Customer service**  Chatbots, ticket routing, sentiment analysis
+- **Marketing**  Content generation, ad optimisation, personalisation
+- **Sales**  Lead scoring, CRM automation, proposal generation
+- **Operations**  Inventory forecasting, scheduling, quality inspection
+- **Finance**  Invoice processing, expense categorisation, fraud detection
+- **HR**  Resume screening, onboarding automation, performance analytics
+- **Product**  Feature prioritisation, user behaviour analysis, testing
+- **Development**  Code generation, testing, documentation (Claude Code, etc.)
 
 ### Cost-Benefit Analysis Format
 
@@ -66,17 +115,17 @@ Payback period: X months
 
 ### AI Governance Framework
 
-- **Data privacy** — What data AI accesses and how it is protected
-- **Bias monitoring** — How outputs are checked for fairness
-- **Human oversight** — Which decisions require human approval
-- **Transparency** — How AI decisions are explained to stakeholders
-- **Compliance** — Relevant AI regulations (EU AI Act, local laws)
+- **Data privacy**  What data AI accesses and how it is protected
+- **Bias monitoring**  How outputs are checked for fairness
+- **Human oversight**  Which decisions require human approval
+- **Transparency**  How AI decisions are explained to stakeholders
+- **Compliance**  Relevant AI regulations (EU AI Act, local laws)
 
 ### Process Automation Readiness
 
-Before automating any process, assess readiness using the BPM principle: redesign first, automate second — "don't pave the cow path" (Dumas et al., 2013).
+Before automating any process, assess readiness using the BPM principle: redesign first, automate second  "don't pave the cow path" (Dumas et al., 2013).
 
-**Automation decision criteria** — automate when a process scores high on:
+**Automation decision criteria**  automate when a process scores high on:
 - Volume (high repetitions), Standardisation (low variability), Rule-based (codifiable decisions), Data availability (digital inputs), Error impact (costly mistakes), Speed requirement (fast turnaround needed)
 
 **Leave manual when**: complex judgement required, low volume, high variability, or human touch adds customer value.
@@ -165,7 +214,7 @@ Do not treat tool subscriptions as transformation.
 - Automation opportunities are specific to this business, not generic AI hype
 - Tool recommendations are current and available (not vapourware)
 - Cost-benefit analysis uses realistic numbers
-- Implementation is phased — not "AI everything on day one"
+- Implementation is phased  not "AI everything on day one"
 - Governance section addresses data privacy and bias
 - Human oversight is maintained for critical decisions
 - Process redesign happens before automation
@@ -175,9 +224,9 @@ Do not treat tool subscriptions as transformation.
 
 ## References
 
-- **Process automation readiness**: See `references/process-automation-readiness.md` for automation levels spectrum, automation decision framework (6 criteria), automation readiness checklist, BPMS components and architecture, task types in process automation, decision tables, 9 steps to executable processes, build/buy/outsource decision framework, and the "redesign before automating" principle — from Dumas et al. (Springer, 2013) and Dennis, Wixom & Tegarden (Wiley, 2021)
-- **AI Economics Framework**: See `references/ai-economics-framework.md` for the core economics of AI adoption — the prediction-as-cheap-input thesis, the seven-component anatomy of a decision (input data, training data, prediction, judgment, action, outcome, feedback), what becomes more valuable as prediction gets cheap (judgment, data, action capacity), the workflow redesign principle (reengineering before automating), the AI Canvas tool, tool vs. transformation modes of adoption, stakes-based risk framework (recoverable vs. catastrophic errors), the new human-machine division of labour (known knowns/unknowns taxonomy), first-mover vs. fast-follower timing strategy, Uganda/East Africa-specific AI tools table, and a full AI Strategy Checklist for business plan writers — from Agrawal, Gans & Goldfarb, *Prediction Machines* (Harvard Business Review Press, 2022, updated edition); includes worked examples for customer service, inventory, marketing, finance, and quality control in the Uganda context
-- **Uganda ICT IP Guidelines**: See `references/uganda-ict-ip-guidelines.md` for the complete IP framework for technology and digital businesses in Uganda — covering copyright duration (50 years for software), trademark registration (renewable in 10-year blocks), patent and utility model terms, trade secret protection for algorithms, data protection obligations under the Data Protection and Privacy Act 2019, open source licensing strategy, source code escrow, IP ownership in commissioned software contracts, URSB registration process, international protection via WIPO/ARIPO/Berne Convention, MoICT&NG's roles (IP guidance, incentivisation, commercialisation, monitoring, landscape analysis, capacity building), revenue sharing structure (25% to government for MoICT&NG-funded innovations), and NDA/assignment/revenue-sharing agreement templates — from MoICT&NG, Uganda ICT IP Guidelines Version 1, January 2025
-- **Digital innovation strategy**: See `references/digital-innovation-strategy.md` for the 6D cyclical strategy model (Discover/Detect/Diagnose/Direct/Deliver/Dexterity), Strategy Nucleus (five-layer purpose architecture), Three Horizons multimodalism (H1 exploitative/H2 extending/H3 exploratory — simultaneous not sequential), Doblin's 10 Types of Innovation (configuration/offering/experience domains), Blue Ocean Strategy five-step process, VRIN analysis framework, Design Thinking five steps, Transform Loop (Scan/Prioritise/Learn/Experiment/Plan/Build), Transformation Backlog priority matrix, Industry 4.0 maturity ladder (digitisation → digitalisation → digital transformation), and Uganda/EA application including East African AI ecosystem (Farmbetter, Apollo, JUMO, M-KOPA) — from Digital Business Strategy (2024) and Palfreyman (2020). **Read when designing the AI strategy section, mapping innovation types, assessing competitive uniqueness of digital assets, or building a digital transformation roadmap.**
+- **Process automation readiness**: See `references/process-automation-readiness.md` for automation levels spectrum, automation decision framework (6 criteria), automation readiness checklist, BPMS components and architecture, task types in process automation, decision tables, 9 steps to executable processes, build/buy/outsource decision framework, and the "redesign before automating" principle  from Dumas et al. (Springer, 2013) and Dennis, Wixom & Tegarden (Wiley, 2021)
+- **AI Economics Framework**: See `references/ai-economics-framework.md` for the core economics of AI adoption  the prediction-as-cheap-input thesis, the seven-component anatomy of a decision (input data, training data, prediction, judgment, action, outcome, feedback), what becomes more valuable as prediction gets cheap (judgment, data, action capacity), the workflow redesign principle (reengineering before automating), the AI Canvas tool, tool vs. transformation modes of adoption, stakes-based risk framework (recoverable vs. catastrophic errors), the new human-machine division of labour (known knowns/unknowns taxonomy), first-mover vs. fast-follower timing strategy, Uganda/East Africa-specific AI tools table, and a full AI Strategy Checklist for business plan writers  from Agrawal, Gans & Goldfarb, *Prediction Machines* (Harvard Business Review Press, 2022, updated edition); includes worked examples for customer service, inventory, marketing, finance, and quality control in the Uganda context
+- **Uganda ICT IP Guidelines**: See `references/uganda-ict-ip-guidelines.md` for the complete IP framework for technology and digital businesses in Uganda  covering copyright duration (50 years for software), trademark registration (renewable in 10-year blocks), patent and utility model terms, trade secret protection for algorithms, data protection obligations under the Data Protection and Privacy Act 2019, open source licensing strategy, source code escrow, IP ownership in commissioned software contracts, URSB registration process, international protection via WIPO/ARIPO/Berne Convention, MoICT&NG's roles (IP guidance, incentivisation, commercialisation, monitoring, landscape analysis, capacity building), revenue sharing structure (25% to government for MoICT&NG-funded innovations), and NDA/assignment/revenue-sharing agreement templates  from MoICT&NG, Uganda ICT IP Guidelines Version 1, January 2025
+- **Digital innovation strategy**: See `references/digital-innovation-strategy.md` for the 6D cyclical strategy model (Discover/Detect/Diagnose/Direct/Deliver/Dexterity), Strategy Nucleus (five-layer purpose architecture), Three Horizons multimodalism (H1 exploitative/H2 extending/H3 exploratory  simultaneous not sequential), Doblin's 10 Types of Innovation (configuration/offering/experience domains), Blue Ocean Strategy five-step process, VRIN analysis framework, Design Thinking five steps, Transform Loop (Scan/Prioritise/Learn/Experiment/Plan/Build), Transformation Backlog priority matrix, Industry 4.0 maturity ladder (digitisation  digitalisation  digital transformation), and Uganda/EA application including East African AI ecosystem (Farmbetter, Apollo, JUMO, M-KOPA)  from Digital Business Strategy (2024) and Palfreyman (2020). **Read when designing the AI strategy section, mapping innovation types, assessing competitive uniqueness of digital assets, or building a digital transformation roadmap.**
 - **Algorithmic AI transformation**: See `references/algorithmic-ai-transformation.md` for McNeill's five-step algorithm (question requirements, delete steps, simplify, accelerate, automate last), the "entire customer experience" lens, Francis Goh's CX-led AI adoption logic, AI literacy and adoption requirements, and ROI metrics that matter. **Read when a client wants AI efficiency but the real issue may be process design, service quality, or organisational adoption.**
-- **AI for sustainability and circular economy**: See `references/ai-sustainability-tools.md` for 10-row AI tools table (Uganda feasibility and cost), AI-powered sustainability KPI monitoring (energy, water, cold chain, waste), circular economy AI applications (demand forecasting, predictive maintenance, by-product matching), 5-core minimum KPI set, cost-benefit template for AI sustainability investment, and highest-ROI AI sustainability tools for Uganda SMEs (solar monitoring, cold chain, EUDR traceability, GPS fleet tracking) — Source: Kumar et al. (CRC, 2025); Hak et al. (SCOPE/Island Press, 2007); Agrawal et al. (HBR Press, 2022). **Read when incorporating sustainability monitoring, circular economy optimisation, or EUDR/traceability compliance into the AI integration section.**
+- **AI for sustainability and circular economy**: See `references/ai-sustainability-tools.md` for 10-row AI tools table (Uganda feasibility and cost), AI-powered sustainability KPI monitoring (energy, water, cold chain, waste), circular economy AI applications (demand forecasting, predictive maintenance, by-product matching), 5-core minimum KPI set, cost-benefit template for AI sustainability investment, and highest-ROI AI sustainability tools for Uganda SMEs (solar monitoring, cold chain, EUDR traceability, GPS fleet tracking)  Source: Kumar et al. (CRC, 2025); Hak et al. (SCOPE/Island Press, 2007); Agrawal et al. (HBR Press, 2022). **Read when incorporating sustainability monitoring, circular economy optimisation, or EUDR/traceability compliance into the AI integration section.**

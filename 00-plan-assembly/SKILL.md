@@ -1,9 +1,61 @@
-﻿---
+---
 name: plan-assembly
 description: Final assembly skill that converts completed business-plan sections into a submission-ready package. Generates the covering letter, table of contents, required attachments checklist, and submission format guidance calibrated to the specific funder type.
 ---
 
 # Plan Assembly and Submission Skill
+
+## Use When
+
+- Use after the core sections and the main meta checks are complete.
+- Use when the work needs to become a submission-ready package rather than a set of draft sections.
+- Use when the final deliverable must be tailored to a specific funder or audience.
+
+## Do Not Use When
+
+- Do not use before synthesis, financial stress testing, and due-diligence review are complete.
+- Do not use as a substitute for fixing weak sections.
+- Do not assemble a final package while major numerical contradictions remain unresolved.
+
+## Required Inputs
+
+- Completed or near-complete plan sections
+- Funder type and submission mode
+- Final funding ask, financials, and appendix evidence set
+- Results from synthesis, bankability, DD, stress-test, and valuation workflows where relevant
+
+## Workflow
+
+1. Confirm the plan has passed the required prerequisite skills.
+2. Identify the primary recipient and submission context.
+3. Assemble the document in the correct order for that audience.
+4. Generate the covering letter, attachment checklist, and final TOC.
+5. Reconcile the final package against the funding ask, appendices, and page references.
+6. Produce the final pre-submission issue list if anything still blocks handover.
+
+## Quality Bar
+
+- The assembled package reads like one submission, not stitched drafts.
+- The covering letter, plan, and appendices all point to the same funding story.
+- The package is tailored to the reader's decision criteria.
+- Final checks catch numerical, structural, and documentary errors before submission.
+
+## Anti-Patterns
+
+- Assembling a pack before the numbers have stabilised.
+- Using one generic package for bank, investor, DFI, and grant audiences.
+- Leaving appendix evidence disconnected from the claims in the main body.
+- Treating formatting as assembly while ignoring submission logic.
+
+## Outputs
+
+- Submission-ready package structure
+- Covering letter
+- Attachment checklist
+- Final TOC and packaging order
+- Final pre-submission issue list if needed
+
+
 
 Convert a completed set of business-plan sections into a submission-ready document package. This skill is the last step before presenting to any funder.
 
@@ -24,7 +76,7 @@ After plan assembly, also prepare:
 
 ## Step 1: Identify the Funder Type
 
-Ask: who is the primary recipient of this business plan?
+Ask: who is the primary recipient of this business planSection 
 
 | Funder Type | Orientation | Key Difference |
 |---|---|---|

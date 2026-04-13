@@ -1,9 +1,58 @@
 ---
 name: east-african-english
-description: Language and tone standard for all written content. Enforces authentic East African English as used in Uganda, Kenya, and Tanzania — formal, clear, respectful, British-influenced, and professionally courteous. Apply to every piece of text generated for the website.
+description: Language and tone standard for all written content. Enforces authentic East African English as used in Uganda, Kenya, and Tanzania  formal, clear, respectful, British-influenced, and professionally courteous. Apply to every piece of text generated for the website.
 ---
 
-# East African English — Language & Tone Skill
+# East African English  Language & Tone Skill
+
+## Use When
+
+- Use when this skill is the primary workflow for the requested task.
+- Use when creating, reviewing, or improving this skill's main artifact.
+- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+
+## Do Not Use When
+
+- Do not use when another section or meta-skill is the primary owner of the task.
+- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
+- Do not use for provider-specific UI behaviour; keep the workflow portable.
+
+## Required Inputs
+
+- Business, client, or proposal context relevant to this skill
+- Country, audience, funder, or user context where relevant
+- Available assumptions, evidence, constraints, and dependencies
+- Adjacent section outputs where consistency matters
+
+## Workflow
+
+1. Clarify the objective, audience, and scope for this skill.
+2. Gather the minimum required inputs and note any missing assumptions.
+3. Read the referenced materials only as needed.
+4. Produce or revise the artifact using the skill-specific method below.
+5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
+6. Flag unresolved gaps, assumptions, or follow-up work.
+
+## Quality Bar
+
+- Output is specific, decision-useful, and not generic
+- Assumptions are explicit where relevant
+- Claims align with the rest of the plan, proposal, or workflow
+- Wording is structured, concise, and audience-appropriate
+
+## Anti-Patterns
+
+- Generic filler that could describe any business or situation
+- Hidden assumptions or unsupported claims
+- Contradictions with financials, implementation, risk, or audience requirements
+- Provider-specific operating assumptions embedded in the portable workflow
+
+## Outputs
+
+- The primary artifact or analysis owned by this skill
+- Any key assumptions, open questions, and cross-skill dependencies
+
+
 
 All website copy, headings, calls to action, descriptions, and microcopy must follow this style guide. This is the foundational language standard applied before and during every content-writing step.
 
@@ -50,7 +99,7 @@ Never use month-first American format (February 17, 2026).
 
 When the client is based in a specific country, adjust the tone slightly:
 
-### Uganda — Warm and Relational
+### Uganda  Warm and Relational
 
 - Very polite and appreciative
 - Frequent use of "kindly"
@@ -59,7 +108,7 @@ When the client is based in a specific country, adjust the tone slightly:
 > We highly appreciate your support in this matter.
 > Kindly be informed that the funds have been received.
 
-### Kenya — Confident and Business-Oriented
+### Kenya  Confident and Business-Oriented
 
 - Efficient and practical
 - Clear timelines and expectations
@@ -68,7 +117,7 @@ When the client is based in a specific country, adjust the tone slightly:
 > Please share the signed agreement by Friday, 21 February 2026.
 > The project remains on schedule.
 
-### Tanzania — Calm and Measured
+### Tanzania  Calm and Measured
 
 - Formal and slightly conservative
 - Respectful and patient rhythm
@@ -77,16 +126,16 @@ When the client is based in a specific country, adjust the tone slightly:
 > We kindly request your guidance on the next steps.
 > The matter is under review, and we shall revert shortly.
 
-When no specific country is indicated, use the **neutral East African style** — a balanced blend of all three.
+When no specific country is indicated, use the **neutral East African style**  a balanced blend of all three.
 
 ## Courteous Phrases to Use
 
 These are natural and expected in East African business English:
 
-- Kindly find attached…
-- We kindly request…
-- Please be advised that…
-- We would like to inform you…
+- Kindly find attached...
+- We kindly request...
+- Please be advised that...
+- We would like to inform you...
 - Thank you for your continued support.
 - We look forward to your response.
 - We appreciate your partnership.
@@ -100,7 +149,7 @@ Use simple, professional vocabulary:
 
 - facilitate, implement, undertake, liaise, coordinate
 - engage, support, enhance, review, confirm
-- advise, revert (meaning "respond" — widely accepted in East Africa)
+- advise, revert (meaning "respond"  widely accepted in East Africa)
 - significant, important, strategic, beneficial, valuable
 
 ### Words and Phrases to Avoid
@@ -137,7 +186,7 @@ Instead of abbreviations, write in full:
 ### Use Full, Balanced Sentences
 
 - No fragments or telegram-style copy
-- Moderate length — not too short, not too complex
+- Moderate length  not too short, not too complex
 - Logical structure with clear subject-verb-object order
 
 Good:
@@ -190,7 +239,7 @@ Often followed by:
 
 > We look forward to your favourable response.
 
-## Reference Paragraph — Neutral East African Business Style
+## Reference Paragraph  Neutral East African Business Style
 
 Use this as a benchmark for tone and rhythm:
 
@@ -198,7 +247,7 @@ Use this as a benchmark for tone and rhythm:
 
 ## When This Skill Applies
 
-- **All visible website text** — headings, body copy, service descriptions, about pages, CTAs
+- **All visible website text**  headings, body copy, service descriptions, about pages, CTAs
 - **Meta descriptions and SEO text**
 - **Alt text for images** (clear, descriptive, respectful)
 - **Error messages and form labels** (polite, never terse)

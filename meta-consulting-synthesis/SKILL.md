@@ -5,6 +5,58 @@ description: Meta-skill for converting completed business-plan sections into a c
 
 # Consulting Synthesis Meta-Skill
 
+## Use When
+
+- Use after the analytical sections exist but before final assembly or presentation.
+- Use when a plan feels sectionally strong but not yet thesis-driven.
+- Use when the work needs McKinsey-style governing logic, issue trees, and decision framing.
+
+## Do Not Use When
+
+- Do not use before the core sections contain enough substance to synthesise.
+- Do not use as a substitute for fixing factual weaknesses in the underlying analysis.
+- Do not use to polish prose before the governing argument is clear.
+
+## Required Inputs
+
+- Draft or final core plan sections
+- Target audience and decision type
+- Key numbers, risks, and ask
+- Any known contradictions, objections, or weak evidence areas
+
+## Workflow
+
+1. Define the decision the document must help the reader make.
+2. Write the top-line governing thesis.
+3. Break the case into MECE branches and hypotheses.
+4. Rebuild the storyline around evidence, implications, and remaining proof burdens.
+5. Surface contradictions and gaps across sections.
+6. Produce the rewrite priorities and audience-specific close.
+
+## Quality Bar
+
+- The document reads as one investment or decision case, not stitched sections.
+- The top-line thesis is explicit and supportable.
+- Headings and opening lines make conclusions clear.
+- Contradictions are exposed and resolved rather than buried.
+
+## Anti-Patterns
+
+- Treating synthesis as copy-editing.
+- Listing topics instead of building a key line of reasons.
+- Carrying multiple competing theses through the same document.
+- Hiding the hardest objections instead of addressing them.
+
+## Outputs
+
+- Governing thesis
+- Key line or investment case
+- Issue tree and contradiction list
+- Rewrite priorities
+- Audience-specific closing recommendation
+
+
+
 Use this skill after the analytical sections are drafted and before final assembly, presentation design, or final executive-summary polishing.
 
 ## Objective

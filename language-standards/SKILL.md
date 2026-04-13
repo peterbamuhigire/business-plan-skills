@@ -1,9 +1,58 @@
 ---
 name: language-standards
-description: Language and tone standards for all written content across 3 languages — English (British, East African), French (Francophone African), and Kiswahili (East African standard). Enforces authentic, culturally appropriate, professional communication in each language. Apply throughout all content generation steps.
+description: Language and tone standards for all written content across 3 languages  English (British, East African), French (Francophone African), and Kiswahili (East African standard). Enforces authentic, culturally appropriate, professional communication in each language. Apply throughout all content generation steps.
 ---
 
-# Language Standards — Multi-Language Tone & Grammar
+# Language Standards  Multi-Language Tone & Grammar
+
+## Use When
+
+- Use when this skill is the primary workflow for the requested task.
+- Use when creating, reviewing, or improving this skill's main artifact.
+- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+
+## Do Not Use When
+
+- Do not use when another section or meta-skill is the primary owner of the task.
+- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
+- Do not use for provider-specific UI behaviour; keep the workflow portable.
+
+## Required Inputs
+
+- Business, client, or proposal context relevant to this skill
+- Country, audience, funder, or user context where relevant
+- Available assumptions, evidence, constraints, and dependencies
+- Adjacent section outputs where consistency matters
+
+## Workflow
+
+1. Clarify the objective, audience, and scope for this skill.
+2. Gather the minimum required inputs and note any missing assumptions.
+3. Read the referenced materials only as needed.
+4. Produce or revise the artifact using the skill-specific method below.
+5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
+6. Flag unresolved gaps, assumptions, or follow-up work.
+
+## Quality Bar
+
+- Output is specific, decision-useful, and not generic
+- Assumptions are explicit where relevant
+- Claims align with the rest of the plan, proposal, or workflow
+- Wording is structured, concise, and audience-appropriate
+
+## Anti-Patterns
+
+- Generic filler that could describe any business or situation
+- Hidden assumptions or unsupported claims
+- Contradictions with financials, implementation, risk, or audience requirements
+- Provider-specific operating assumptions embedded in the portable workflow
+
+## Outputs
+
+- The primary artifact or analysis owned by this skill
+- Any key assumptions, open questions, and cross-skill dependencies
+
+
 
 All website copy, headings, calls to action, descriptions, and microcopy must follow this style guide for their respective language. This is a cross-cutting standard applied throughout every content-writing step.
 
@@ -18,14 +67,14 @@ All website copy, headings, calls to action, descriptions, and microcopy must fo
 
 ---
 
-# ENGLISH (en) — British English, East African Professional Standard
+# ENGLISH (en)  British English, East African Professional Standard
 
 ## Core Characteristics
 
 1. **British English spelling** throughout.
-2. **East African tone** — formal, respectful, professionally courteous (Uganda, Kenya, Tanzania blend).
+2. **East African tone**  formal, respectful, professionally courteous (Uganda, Kenya, Tanzania blend).
 3. **Measured and confident** without arrogance or dramatic language.
-4. **Logical sentence structure** — no fragments or telegram-style copy.
+4. **Logical sentence structure**  no fragments or telegram-style copy.
 
 ## British English Spelling
 
@@ -52,25 +101,25 @@ Always use British spelling:
 - **Date format**: 17 February 2026 (or 17th February 2026)
 - **Never**: February 17, 2026 (American format)
 - **Numbers**: Use commas for thousands: 1,000; 100,000
-- **Currency**: £ for GBP, $ for USD, €, or regional (specify in design-tokens.md)
+- **Currency**:  for GBP, $ for USD, , or regional (specify in design-tokens.md)
 
 ## Tone by East African Country Context
 
 Adjust tone slightly based on client location:
 
-### Uganda — Warm and Relational
+### Uganda  Warm and Relational
 - Very polite and appreciative
 - Frequent use of "kindly"
 - Emphasis on harmony and goodwill
 - Example: "We highly appreciate your support in this matter. Kindly be informed that the funds have been received."
 
-### Kenya — Confident and Business-Oriented
+### Kenya  Confident and Business-Oriented
 - Efficient and practical
 - Clear timelines and expectations
 - Professional firmness
 - Example: "Please share the signed agreement by Friday, 21 February 2026. The project remains on schedule."
 
-### Tanzania — Calm and Measured
+### Tanzania  Calm and Measured
 - Formal and conservative
 - Respectful and patient rhythm
 - Influenced by Kiswahili sentence patterns
@@ -83,10 +132,10 @@ Use when no specific country is indicated. Balanced blend of all three.
 
 Natural and expected in East African business English:
 
-- Kindly find attached…
-- We kindly request…
-- Please be advised that…
-- We would like to inform you…
+- Kindly find attached...
+- We kindly request...
+- Please be advised that...
+- We would like to inform you...
 - Thank you for your continued support.
 - We look forward to your response.
 - We appreciate your partnership.
@@ -122,34 +171,34 @@ Instead of abbreviations, write in full: "Please respond as soon as possible."
 
 ### Assertive Language (All Languages)
 
-Hedging language communicates uncertainty. If you're not sure you're any good, how can prospects be? Replace weak phrasing with confident, assertive alternatives:
+Hedging language communicates uncertainty. If you're not sure you're any good, how can prospects beSection  Replace weak phrasing with confident, assertive alternatives:
 
 | Hedging (weak) | Assertive (strong) |
 |---------------|-------------------|
 | Feel free to reach out | Contact me / Get in touch |
-| In case you're interested | Interested? Contact me |
+| In case you're interested | InterestedSection  Contact me |
 | Perhaps we can work together | Let's work together |
-| Maybe we're a good fit | Add a "Who is this for?" section |
+| Maybe we're a good fit | Add a "Who is this forSection " section |
 | We might be able to help | We can help |
 | It could potentially improve | It improves |
 
-This applies across all three languages. In French: "N'hésitez pas à nous contacter" is acceptable (culturally standard), but avoid excessive hedging like "Il serait éventuellement possible de...". In Kiswahili: use direct invitations ("Wasiliana nasi" not "Labda unaweza kuwasiliana nasi").
+This applies across all three languages. In French: "N'hesitez pas a nous contacter" is acceptable (culturally standard), but avoid excessive hedging like "Il serait eventuellement possible de...". In Kiswahili: use direct invitations ("Wasiliana nasi" not "Labda unaweza kuwasiliana nasi").
 
 ### Condescending Phrases Ban (All Languages)
 
 Never use these patterns in any language:
-- **"Research suggests that..."** — Which research? What niche? What size businesses? Too vague to be credible. Only cite research if it features your target audience and their specific problems.
-- **"If you're a business owner..."** / "Si vous êtes un entrepreneur..." / "Kama wewe ni mfanyabiashara..." — If you know your audience IS business owners, address them directly. Don't do the "if" dance.
+- **"Research suggests that..."**  Which researchSection  What nicheSection  What size businessesSection  Too vague to be credible. Only cite research if it features your target audience and their specific problems.
+- **"If you're a business owner..."** / "Si vous etes un entrepreneur..." / "Kama wewe ni mfanyabiashara..."  If you know your audience IS business owners, address them directly. Don't do the "if" dance.
 
 ### AI Language Avoidance (All Languages)
 
 AI-generated text has recognisable vocabulary and patterns. Every piece of content must pass as entirely human-written.
 
-**Tier 1 — Banned words (instant AI tells):** delve, tapestry, landscape (as metaphor), multifaceted, testament, realm, harness, leverage, synergy, embark, navigate (as metaphor), foster, beacon, forge, unleash, pivotal, paramount, robust, vibrant, bolster, seamless, holistic, curate, resonate, underscore, showcase
+**Tier 1  Banned words (instant AI tells):** delve, tapestry, landscape (as metaphor), multifaceted, testament, realm, harness, leverage, synergy, embark, navigate (as metaphor), foster, beacon, forge, unleash, pivotal, paramount, robust, vibrant, bolster, seamless, holistic, curate, resonate, underscore, showcase
 
-**Tier 2 — Overused by AI (use sparingly, never in headlines):** compelling, captivating, cutting-edge, game-changer, revolutionary, transformative, innovative, streamline, empower, unparalleled, elevate, ignite, safeguard, enduring, seamless, holistic, curate, resonate, underscore, showcase
+**Tier 2  Overused by AI (use sparingly, never in headlines):** compelling, captivating, cutting-edge, game-changer, revolutionary, transformative, innovative, streamline, empower, unparalleled, elevate, ignite, safeguard, enduring, seamless, holistic, curate, resonate, underscore, showcase
 
-**Tier 3 — Flagged in combination (fine alone, AI-tell together):** crucial, facilitate, enhance, ensure, enable, encourage, essential, navigate, compelling, drive, embodies, emphasises. Rule: no more than one Tier 3 word per paragraph.
+**Tier 3  Flagged in combination (fine alone, AI-tell together):** crucial, facilitate, enhance, ensure, enable, encourage, essential, navigate, compelling, drive, embodies, emphasises. Rule: no more than one Tier 3 word per paragraph.
 
 **Banned phrases:** "In today's fast-paced world", "It's important to note", "In the realm of", "Embark on a journey", "Game-changer", "Treasure trove", "Digital landscape", "Ever-evolving", "Not only X but also Y" (overused), "X isn't just Y; it's Z", "From X to Y, [subject] has..." (listicle pattern), "Whether you're [X] or [Y]..." (false inclusivity)
 
@@ -174,20 +223,20 @@ Apply respectful tone to buttons and UI text:
 
 ---
 
-# FRENCH (fr) — Francophone African Professional Standard
+# FRENCH (fr)  Francophone African Professional Standard
 
 ## Core Characteristics
 
-1. **Formal francophone African French** — not Québécois, not Belgian variants.
-2. **Respectful and courteous** — professionalism with warmth.
+1. **Formal francophone African French**  not Quebecois, not Belgian variants.
+2. **Respectful and courteous**  professionalism with warmth.
 3. **Standard French grammar and conventions**.
-4. **Vous (formal)** throughout all professional communication — never "tu".
-5. **Culturally appropriate** for Côte d'Ivoire, Cameroon, Senegal, DRC, Gabon.
+4. **Vous (formal)** throughout all professional communication  never "tu".
+5. **Culturally appropriate** for Cote d'Ivoire, Cameroon, Senegal, DRC, Gabon.
 
 ## French Spelling and Grammar
 
 Use standard French orthography:
-- Accent marks required: é, è, ê, ë, à, ù, ç, œ, æ
+- Accent marks required: e, e, e, e, a, u, c, , 
 - Double-check diacritical marks (many African translators omit them)
 - UTF-8 encoding mandatory
 
@@ -197,9 +246,9 @@ Use standard French orthography:
 
 **Rules for any text containing apostrophes (e.g. French `d'`, `l'`, `n'`, `qu'`; Swahili `ng'`):**
 1. **Use double-quoted strings** for any JS string literal that contains an apostrophe: `"d'excellence"` not `'d\'excellence'`
-2. **Never use `\u2019` escape sequences** — Astro's template compiler may not handle them correctly
-3. **Never use backslash-escaped apostrophes** (`\'`) in JSX template expressions — they work in frontmatter JS but fail in template JSX
-4. **HTML text content is fine** — apostrophes in regular HTML `<p>d'excellence</p>` work without escaping
+2. **Never use `\u2019` escape sequences**  Astro's template compiler may not handle them correctly
+3. **Never use backslash-escaped apostrophes** (`\'`) in JSX template expressions  they work in frontmatter JS but fail in template JSX
+4. **HTML text content is fine**  apostrophes in regular HTML `<p>d'excellence</p>` work without escaping
 5. For JSX expression strings that need both `"` and `'`, use template literals: `` `string with ' and "` ``
 
 ### Verb Conjugation
@@ -209,67 +258,67 @@ Use standard French orthography:
 
 ### Gender Agreement
 All adjectives and past participles must agree with gender:
-- "La page est complétée" (feminine)
-- "Le service est complété" (masculine)
-- "Les pages sont complétées" (feminine plural)
+- "La page est completee" (feminine)
+- "Le service est complete" (masculine)
+- "Les pages sont completees" (feminine plural)
 
 ## French Dates and Numbers
 
-- **Date format**: 17 février 2026 (or 17 février 2026)
-- **Month names**: Lowercase (février, not Février)
+- **Date format**: 17 fevrier 2026 (or 17 fevrier 2026)
+- **Month names**: Lowercase (fevrier, not Fevrier)
 - **Numbers**: Use space or period for thousands: 1 000 or 1.000 (not 1,000)
 - **Decimal separator**: Comma (not period): 3,14 (not 3.14)
-- **Currency**: Franc CFA (FCFA), Euro (€), or specified in design-tokens.md
+- **Currency**: Franc CFA (FCFA), Euro (), or specified in design-tokens.md
 
 ## Formal Registers and Politeness
 
 ### Standard Openings
 - Madame, Monsieur,
-- Chère Madame, Cher Monsieur,
+- Chere Madame, Cher Monsieur,
 - Greetings,
 
 ### Standard Closings
 - Cordialement, (warm, professional)
 - Respectueusement, (respectful)
 - Avec mes meilleures salutations,
-- Veuillez agréer l'expression de nos salutations distinguées.
+- Veuillez agreer l'expression de nos salutations distinguees.
 
 ### Courtesy Phrases (French)
 
-- Nous vous prions de…
-- Veuillez… (imperative form with "vous")
+- Nous vous prions de...
+- Veuillez... (imperative form with "vous")
 - Merci de votre attention.
-- Nous apprécions votre partenariat.
-- N'hésitez pas à nous contacter.
+- Nous apprecions votre partenariat.
+- N'hesitez pas a nous contacter.
 - Nous vous remercions de votre soutien continu.
-- Nous attendons avec intérêt votre réponse.
-- Si vous avez besoin de précisions supplémentaires, veuillez nous contacter.
+- Nous attendons avec interet votre reponse.
+- Si vous avez besoin de precisions supplementaires, veuillez nous contacter.
 
 ## French Vocabulary Standards
 
 ### Preferred Professional Terms
-- Faciliter, mettre en œuvre, entreprendre, coordonner
-- Engager, soutenir, améliorer, examiner, confirmer
+- Faciliter, mettre en uvre, entreprendre, coordonner
+- Engager, soutenir, ameliorer, examiner, confirmer
 - Conseiller, informer, communiquer
-- Significatif, important, stratégique, bénéfique, précieux
+- Significatif, important, strategique, benefique, precieux
 
 ### Words to Avoid (Marketing Hype)
 
 | Avoid | Use Instead |
 |-------|-------------|
-| révolutionnaire | innovant |
-| "game-changing" | stratégique |
+| revolutionnaire | innovant |
+| "game-changing" | strategique |
 | incroyable | remarquable |
-| génial | excellent |
-| dingue | étonnant |
-| Libérez le pouvoir | Activez la capacité |
+| genial | excellent |
+| dingue | etonnant |
+| Liberez le pouvoir | Activez la capacite |
 
 ### Francophone African Terminology
 
 Use terms understood across francophone Africa (not Canada-specific, not France-specific):
 - Budget (not "subvention")
 - Entreprise (company, not "compagnie")
-- Personnel (staff, not "employés" alone)
+- Personnel (staff, not "employes" alone)
 - Client (customer/client, standard everywhere)
 - Formation (training, widely used)
 
@@ -278,21 +327,21 @@ Use terms understood across francophone Africa (not Canada-specific, not France-
 | English | French (Formal) |
 |---------|-----------------|
 | Sign Up | S'inscrire |
-| Register | Créer un compte |
+| Register | Creer un compte |
 | Contact Us | Nous contacter |
 | Learn More | En savoir plus |
 | Submit | Soumettre |
-| Download | Télécharger |
+| Download | Telecharger |
 | Place Your Order | Passer votre commande |
 | Get Started | Commencer maintenant |
 
 ## French-Specific Considerations
 
 ### In-Country Reviewer Required
-All French content must be reviewed by a native francophone speaker from the target market (Côte d'Ivoire, Cameroon, Senegal, DRC, Gabon). Send for review before publishing.
+All French content must be reviewed by a native francophone speaker from the target market (Cote d'Ivoire, Cameroon, Senegal, DRC, Gabon). Send for review before publishing.
 
 ### Text Expansion
-French is typically 20–40% longer than English. Design for 1.3x expansion:
+French is typically 2040% longer than English. Design for 1.3x expansion:
 - Buttons must accommodate longer labels
 - Navigation items must wrap gracefully
 - Form labels must not overlap fields
@@ -301,19 +350,19 @@ French is typically 20–40% longer than English. Design for 1.3x expansion:
 Avoid country-specific terms unless relevant:
 - Use neutral francophone African vocabulary
 - Avoid France-centric references
-- Avoid Canadian (Québécois) terminology
+- Avoid Canadian (Quebecois) terminology
 
 ---
 
-# KISWAHILI (sw) — East African Standard
+# KISWAHILI (sw)  East African Standard
 
 ## Core Characteristics
 
-1. **Standard East African Kiswahili** — not regional dialects (Mombasa, Zanzibar variants).
+1. **Standard East African Kiswahili**  not regional dialects (Mombasa, Zanzibar variants).
 2. **Formal/respectful register** throughout professional communication.
-3. **Humble and relationship-focused** — Swahili culture emphasizes harmony.
+3. **Humble and relationship-focused**  Swahili culture emphasizes harmony.
 4. **UTF-8 encoding** for proper character rendering.
-5. **Simple sentence structure** — Kiswahili clarity values straightforward expression.
+5. **Simple sentence structure**  Kiswahili clarity values straightforward expression.
 
 ## Kiswahili Grammar and Structure
 
@@ -339,7 +388,7 @@ Use formal register in all professional communication:
 ## Kiswahili Dates and Numbers
 
 - **Date format**: Februari 17, 2026 (or 17 Februari 2026)
-- **Month names**: English borrowed (Januari, Februari) — no Kiswahili equivalents universally understood
+- **Month names**: English borrowed (Januari, Februari)  no Kiswahili equivalents universally understood
 - **Day of week**: Jumapili (Sunday), Jumatatu (Monday), Jumanne (Tuesday), etc.
 - **Numbers**: Use spaces for thousands: 1 000 (not 1,000)
 - **Currency**: Shilingi (Sh, KES for Kenya), or specified in design-tokens.md
@@ -347,17 +396,17 @@ Use formal register in all professional communication:
 ## Kiswahili Courtesy and Formality
 
 ### Standard Openings (Business)
-- Habari yako?  (How are you? — formal)
-- Tunataka kuwashukuru…  (We want to thank you…)
-- Tunakuomba… (We kindly request…)
+- Habari yakoSection   (How are youSection   formal)
+- Tunataka kuwashukuru...  (We want to thank you...)
+- Tunakuomba... (We kindly request...)
 
 ### Respectful Phrases (Kiswahili)
 
-- **Tafadhali** (please — polite request)
+- **Tafadhali** (please  polite request)
 - **Asante sana** (thank you very much)
 - **Karibu sana** (welcome, you're welcome)
-- **Pole pole** (take it easy, go slowly — suggests respect/patience)
-- **Haba na haba hujaza kibaba** (little by little fills the measure — patience/humility)
+- **Pole pole** (take it easy, go slowly  suggests respect/patience)
+- **Haba na haba hujaza kibaba** (little by little fills the measure  patience/humility)
 - **Tunataka kuwajua** (We want to know / We would like to learn)
 - **Tutakurejea** (We will respond to you)
 - **Tukikubali** (If we may, with your permission)
@@ -384,7 +433,7 @@ Use formal register in all professional communication:
 - **Lengo** (goal, objective)
 
 ### Words to Avoid (Too Colloquial)
-- Slang/sheng — use formal Kiswahili
+- Slang/sheng  use formal Kiswahili
 - Hyperbolic marketing words
 - English insertions without Kiswahili alternative available
 
@@ -407,7 +456,7 @@ Use formal register in all professional communication:
 All Kiswahili content must be reviewed by a native Kiswahili speaker from East Africa (Kenya, Tanzania, or Uganda). Regional variants exist; ensure reviewer is from target market.
 
 ### Text Expansion
-Kiswahili is typically 10–30% longer than English. Design for 1.2x expansion:
+Kiswahili is typically 1030% longer than English. Design for 1.2x expansion:
 - Buttons must flex for longer labels
 - Navigation items must wrap gracefully
 - Form labels must have clear spacing
@@ -429,7 +478,7 @@ Kiswahili communication culture emphasizes relationships:
 
 # When This Skill Applies
 
-This skill is **cross-cutting** — it applies throughout all content generation:
+This skill is **cross-cutting**  it applies throughout all content generation:
 
 - **All visible website text**: headings, body copy, service descriptions, about pages, CTAs
 - **Meta descriptions and SEO text**
@@ -464,7 +513,7 @@ Before publishing any page, verify:
 Before publishing in any language, assign review:
 
 - **English**: East African professional (optional native review; standards in this guide)
-- **French**: Native francophone speaker from Côte d'Ivoire, Cameroon, Senegal, DRC, or Gabon
+- **French**: Native francophone speaker from Cote d'Ivoire, Cameroon, Senegal, DRC, or Gabon
 - **Kiswahili**: Native Kiswahili speaker from Kenya, Tanzania, or Uganda
 
 All translations reviewed by in-country professionals before publishing.

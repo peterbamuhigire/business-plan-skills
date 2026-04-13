@@ -5,22 +5,71 @@ description: Generate the target market section with customer personas, market s
 
 # Target Market & Customer Analysis Skill
 
+## Use When
+
+- Use when this skill is the primary workflow for the requested task.
+- Use when creating, reviewing, or improving this skill's main artifact.
+- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+
+## Do Not Use When
+
+- Do not use when another section or meta-skill is the primary owner of the task.
+- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
+- Do not use for provider-specific UI behaviour; keep the workflow portable.
+
+## Required Inputs
+
+- Business, client, or proposal context relevant to this skill
+- Country, audience, funder, or user context where relevant
+- Available assumptions, evidence, constraints, and dependencies
+- Adjacent section outputs where consistency matters
+
+## Workflow
+
+1. Clarify the objective, audience, and scope for this skill.
+2. Gather the minimum required inputs and note any missing assumptions.
+3. Read the referenced materials only as needed.
+4. Produce or revise the artifact using the skill-specific method below.
+5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
+6. Flag unresolved gaps, assumptions, or follow-up work.
+
+## Quality Bar
+
+- Output is specific, decision-useful, and not generic
+- Assumptions are explicit where relevant
+- Claims align with the rest of the plan, proposal, or workflow
+- Wording is structured, concise, and audience-appropriate
+
+## Anti-Patterns
+
+- Generic filler that could describe any business or situation
+- Hidden assumptions or unsupported claims
+- Contradictions with financials, implementation, risk, or audience requirements
+- Provider-specific operating assumptions embedded in the portable workflow
+
+## Outputs
+
+- The primary artifact or analysis owned by this skill
+- Any key assumptions, open questions, and cross-skill dependencies
+
+
+
 Generate detailed customer profiles that prove the business understands exactly who will buy and why.
 
 ## Required Elements
 
-1. **Primary target segment** — The core customer group with quantified size
-2. **Secondary segments** — Additional markets to pursue in priority order
-3. **Customer personas** (2-4) — Detailed buyer profiles using template below
-4. **Segmentation criteria** — Multi-dimensional market division (minimum 3 dimensions)
-5. **Buyer behaviour** — How customers discover, evaluate, and purchase
-6. **Customer pain points** — Specific, validated problems they need solved
-7. **Purchase drivers** — What triggers a buying decision
-8. **Generational profile** — Where target customers sit on Kotler's generational spectrum
-9. **Customer acquisition cost (CAC)** — Estimated cost per channel
-10. **Customer lifetime value (CLV)** — Projected revenue per customer over time
-11. **CLV:CAC ratio** — Must exceed 3:1 for bankability
-12. **Customer profitability analysis** — Segment-level profitability ranking
+1. **Primary target segment**  The core customer group with quantified size
+2. **Secondary segments**  Additional markets to pursue in priority order
+3. **Customer personas** (2-4)  Detailed buyer profiles using template below
+4. **Segmentation criteria**  Multi-dimensional market division (minimum 3 dimensions)
+5. **Buyer behaviour**  How customers discover, evaluate, and purchase
+6. **Customer pain points**  Specific, validated problems they need solved
+7. **Purchase drivers**  What triggers a buying decision
+8. **Generational profile**  Where target customers sit on Kotler's generational spectrum
+9. **Customer acquisition cost (CAC)**  Estimated cost per channel
+10. **Customer lifetime value (CLV)**  Projected revenue per customer over time
+11. **CLV:CAC ratio**  Must exceed 3:1 for bankability
+12. **Customer profitability analysis**  Segment-level profitability ranking
 
 ## Customer Persona Template
 
@@ -31,13 +80,13 @@ Name: [Representative name]
 Demographics: [Age, gender, income, location, education]
 Generation: [Baby Boomer / Gen X / Millennial / Gen Z / Gen Alpha]
 Role/Title: [If B2B]
-Goals: [What they want to achieve — be specific]
-Pain points: [Frustrations with current solutions — quantify impact]
+Goals: [What they want to achieve  be specific]
+Pain points: [Frustrations with current solutions  quantify impact]
 Buying behaviour: [How they research and purchase]
 Digital maturity: [Analogue / Digitising / Digital-first / AI-augmented]
 Decision criteria: [Ranked: price, quality, speed, trust, values alignment]
 Preferred channels: [Where they spend time, how to reach them]
-Objections: [Why they might NOT buy — and how to address each]
+Objections: [Why they might NOT buy  and how to address each]
 Estimated CLV: [Projected lifetime revenue from this persona]
 ```
 
@@ -45,12 +94,12 @@ Estimated CLV: [Projected lifetime revenue from this persona]
 
 Apply minimum three dimensions from:
 
-- **Demographic** — Age, income, education, family size
-- **Geographic** — Region, urban/rural, climate, market access
-- **Psychographic** — Lifestyle, values, attitudes, personality
-- **Behavioural** — Usage rate, loyalty status, purchase occasion, benefits sought
-- **Firmographic** (B2B) — Industry, company size, revenue, decision-making structure
-- **Technographic** — Technology adoption level, digital channel preference, device usage
+- **Demographic**  Age, income, education, family size
+- **Geographic**  Region, urban/rural, climate, market access
+- **Psychographic**  Lifestyle, values, attitudes, personality
+- **Behavioural**  Usage rate, loyalty status, purchase occasion, benefits sought
+- **Firmographic** (B2B)  Industry, company size, revenue, decision-making structure
+- **Technographic**  Technology adoption level, digital channel preference, device usage
 
 ### Generational Targeting (Kotler 6.0)
 
@@ -90,9 +139,9 @@ Channel-specific CAC:
 
 | Ratio | Interpretation | Action |
 |---|---|---|
-| < 1:1 | Losing money on every customer | Unsustainable — fix immediately |
+| < 1:1 | Losing money on every customer | Unsustainable  fix immediately |
 | 1:1 - 3:1 | Marginal economics | Optimise acquisition or increase retention |
-| 3:1 - 5:1 | Healthy unit economics | Bankable — investors expect this range |
+| 3:1 - 5:1 | Healthy unit economics | Bankable  investors expect this range |
 | > 5:1 | Strong but potentially under-investing | Consider increasing acquisition spend |
 
 ### Customer Profitability Metrics (Farris)
@@ -135,10 +184,10 @@ Segment target customers by pain level to prioritise acquisition efforts (Blank 
 
 | Level | Customer State | Segment Value |
 |---|---|---|
-| **Latent** | Have the problem, don't know it | Low — must educate first |
-| **Passive** | Know the problem, not motivated | Medium — need a trigger event |
-| **Active** | Searching for a solution | High — ready to evaluate |
-| **Vision** | Built a workaround, will pay for better | Highest — earlyvangelists |
+| **Latent** | Have the problem, don't know it | Low  must educate first |
+| **Passive** | Know the problem, not motivated | Medium  need a trigger event |
+| **Active** | Searching for a solution | High  ready to evaluate |
+| **Vision** | Built a workaround, will pay for better | Highest  earlyvangelists |
 
 Focus initial targeting on Active and Vision-level customers. See `references/customer-discovery-archetypes.md`.
 
@@ -148,10 +197,10 @@ In business-to-business contexts, map all six types within the buying organisati
 
 ## References
 
-- **The Underdog Principles — small business competitive advantage**: See `references/underdog-principles-kaza.md` for the Positioning/Proximity/Purpose framework (why focused markets beat mass markets), consultative business case framework (5-question investment test), the 10–15% borrowing rule, purpose drift warning signs, and the technology trap (automation destroying human connection) — from Kaza (*Unconvention*, Ideapress, 2025). **Read when defining the target niche, justifying premium pricing to a focused segment, or advising a founder on purpose alignment.**
+- **The Underdog Principles  small business competitive advantage**: See `references/underdog-principles-kaza.md` for the Positioning/Proximity/Purpose framework (why focused markets beat mass markets), consultative business case framework (5-question investment test), the 1015% borrowing rule, purpose drift warning signs, and the technology trap (automation destroying human connection)  from Kaza (*Unconvention*, Ideapress, 2025). **Read when defining the target niche, justifying premium pricing to a focused segment, or advising a founder on purpose alignment.**
 - **Customer profitability metrics**: See `references/customer-metrics.md` for CLV models, CAC calculations, retention economics, and customer profitability formulas from Farris and growth marketing frameworks
 - **Buyer behaviour and personas**: See `references/buyer-behaviour.md` for generational buying patterns, digital maturity assessment, education-based marketing triggers, and the AARRR funnel applied to customer acquisition
-- **Customer discovery archetypes**: See `references/customer-discovery-archetypes.md` for Customer Archetype framework with Day-in-the-Life analysis, Problem Recognition Scale for segmentation, six B2B customer types, three-tier stakeholder mapping, empathy-based interview methodology (8-category guide), Empathy Map synthesis, persona template, and current journey mapping — from Blank & Dorf (2012), Cooper & Vlaskovits (2010), and Alam
-- **ICP, segmentation, and retention economics (Umbrex, 2025)**: See `../07-marketing-sales-strategy/references/customer-retention-playbook.md` for the 5-tier retention segmentation framework (structural/economic/behavioural/relationship/strategic), Ideal Customer Profile (ICP) 5-pillar validation checklist, High-Value Account (HVA) scoring template, 2×2 prioritisation matrix, and retention economics metrics (GRR, NRR, LTV/CAC, CAC payback). **Read when segmenting customers beyond firmographics, scoring ICP fit, or calculating CLV/CAC with investor-grade metric definitions.**
+- **Customer discovery archetypes**: See `references/customer-discovery-archetypes.md` for Customer Archetype framework with Day-in-the-Life analysis, Problem Recognition Scale for segmentation, six B2B customer types, three-tier stakeholder mapping, empathy-based interview methodology (8-category guide), Empathy Map synthesis, persona template, and current journey mapping  from Blank & Dorf (2012), Cooper & Vlaskovits (2010), and Alam
+- **ICP, segmentation, and retention economics (Umbrex, 2025)**: See `../07-marketing-sales-strategy/references/customer-retention-playbook.md` for the 5-tier retention segmentation framework (structural/economic/behavioural/relationship/strategic), Ideal Customer Profile (ICP) 5-pillar validation checklist, High-Value Account (HVA) scoring template, 22 prioritisation matrix, and retention economics metrics (GRR, NRR, LTV/CAC, CAC payback). **Read when segmenting customers beyond firmographics, scoring ICP fit, or calculating CLV/CAC with investor-grade metric definitions.**
 - **Advanced TAM/SAM/SOM methodology (Umbrex, 2025)**: See `../04-market-analysis/references/market-sizing-methodology.md` for precise TAM/SAM/SOM definitions and funnel logic, 8 market boundary principles, bottom-up penetration modelling, SOM reasonableness rules, Rogers' diffusion model for adoption S-curves, and a Uganda TAM/SAM/SOM template in UGX. **Read when building customer market size estimates or cross-checking SOM figures from a customer-base perspective.**
-- **Uganda consumer demographics (World Bank, 2025)**: See `references/uganda-consumer-demographics-2025.md` for Uganda-specific consumer market data — population 46M (>50% under-18, growing >3%/year, 104M projected by 2060); generational segments (Gen Z ~10–12M, Millennials ~8–10M); NEET youth 5.25M (the "aspiring but income-constrained" segment); income quintile profiles (Q1–Q5) with access patterns for health, education, financial services, and FMCG; urban/rural split (Kampala 1.797M; rural pop +54% by 2030); education literacy gap (57% of P6 pupils below literacy minimum — design for low-literacy consumers); NCD-driven health product demand (NCDs rising to 37.3% of DALYs); social protection transfer recipients (2.4–3M) as emerging consumers; aspiration-versus-reality gap (youth want professional careers but 88% lack qualifications — "affordable aspiration" brand positioning); regional market characteristics (Central/Western/Eastern/Northern/Karamoja); key market sizing numbers (working for pay 10M; annual new labour force 1.1–1.2M; multidimensional poverty 41.2%). Sources: World Bank UHCDGR 2025, UNPHC 2024, UBOS UNHS 2019/20, NAPE 2023. **Read when building consumer personas, sizing the Uganda consumer market, determining price-point strategy, or selecting customer channels for any Uganda-based consumer or B2B business plan.**
+- **Uganda consumer demographics (World Bank, 2025)**: See `references/uganda-consumer-demographics-2025.md` for Uganda-specific consumer market data  population 46M (>50% under-18, growing >3%/year, 104M projected by 2060); generational segments (Gen Z ~1012M, Millennials ~810M); NEET youth 5.25M (the "aspiring but income-constrained" segment); income quintile profiles (Q1Q5) with access patterns for health, education, financial services, and FMCG; urban/rural split (Kampala 1.797M; rural pop +54% by 2030); education literacy gap (57% of P6 pupils below literacy minimum  design for low-literacy consumers); NCD-driven health product demand (NCDs rising to 37.3% of DALYs); social protection transfer recipients (2.43M) as emerging consumers; aspiration-versus-reality gap (youth want professional careers but 88% lack qualifications  "affordable aspiration" brand positioning); regional market characteristics (Central/Western/Eastern/Northern/Karamoja); key market sizing numbers (working for pay 10M; annual new labour force 1.11.2M; multidimensional poverty 41.2%). Sources: World Bank UHCDGR 2025, UNPHC 2024, UBOS UNHS 2019/20, NAPE 2023. **Read when building consumer personas, sizing the Uganda consumer market, determining price-point strategy, or selecting customer channels for any Uganda-based consumer or B2B business plan.**

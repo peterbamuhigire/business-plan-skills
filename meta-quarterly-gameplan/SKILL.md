@@ -5,6 +5,55 @@ description: Operational meta-skill that converts the annual business plan into 
 
 # Quarterly Game Plan Meta-Skill
 
+## Use When
+
+- Use when this skill is the primary workflow for the requested task.
+- Use when creating, reviewing, or improving this skill's main artifact.
+- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+
+## Do Not Use When
+
+- Do not use when another section or meta-skill is the primary owner of the task.
+- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
+- Do not use for provider-specific UI behaviour; keep the workflow portable.
+
+## Required Inputs
+
+- Business, client, or proposal context relevant to this skill
+- Country, audience, funder, or user context where relevant
+- Available assumptions, evidence, constraints, and dependencies
+- Adjacent section outputs where consistency matters
+
+## Workflow
+
+1. Clarify the objective, audience, and scope for this skill.
+2. Gather the minimum required inputs and note any missing assumptions.
+3. Read the referenced materials only as needed.
+4. Produce or revise the artifact using the skill-specific method below.
+5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
+6. Flag unresolved gaps, assumptions, or follow-up work.
+
+## Quality Bar
+
+- Output is specific, decision-useful, and not generic
+- Assumptions are explicit where relevant
+- Claims align with the rest of the plan, proposal, or workflow
+- Wording is structured, concise, and audience-appropriate
+
+## Anti-Patterns
+
+- Generic filler that could describe any business or situation
+- Hidden assumptions or unsupported claims
+- Contradictions with financials, implementation, risk, or audience requirements
+- Provider-specific operating assumptions embedded in the portable workflow
+
+## Outputs
+
+- The primary artifact or analysis owned by this skill
+- Any key assumptions, open questions, and cross-skill dependencies
+
+
+
 Transform the annual business plan into focused 90-day execution sprints. Based on Jan B. King's principle that annual plans fail without quarterly translation into concrete action.
 
 ## When to Use
@@ -15,7 +64,7 @@ Invoke to generate the current quarter's game plan. Can be re-invoked each quart
 
 ### 1. Quarterly Objective
 
-One clear objective for the quarter — the single most important outcome:
+One clear objective for the quarter  the single most important outcome:
 
 ```
 Q[X] 20XX Objective: [Clear, measurable statement]
@@ -51,7 +100,7 @@ Every quarter should still have one objective, but that objective must be tracea
 
 ### 3. Weekly Action Plan
 
-| Week | Key Actions | Owner | Deliverable | Done? |
+| Week | Key Actions | Owner | Deliverable | DoneSection  |
 |------|-------------|-------|-------------|-------|
 | 1 | [Actions] | [Who] | [Output] | [ ] |
 | 2 | [Actions] | [Who] | [Output] | [ ] |
@@ -106,7 +155,7 @@ Key learnings:
 2. [Insight]
 
 Carry-forward items:
-1. [Incomplete item → next quarter]
+1. [Incomplete item  next quarter]
 
 Next quarter preview:
 - Objective: [Draft Q+1 objective]
@@ -117,11 +166,11 @@ Next quarter preview:
 
 Each quarterly game plan should include at least one process improvement objective using the BPI methodology (Page, 2015):
 
-1. **Select process** — Use the process prioritisation matrix (Impact × Implementation feasibility × Current State × Value) to choose which process to improve this quarter
-2. **Scope** — Define boundaries using the 8-section Scope Definition Document (process name, owner, description, scope, responsibilities, client needs, stakeholders, measurements of success)
-3. **Map and analyse** — Document as-is process, estimate time and cost, apply improvement techniques
-4. **Implement** — Use four parallel tracks: change management, testing, communication, training
-5. **Measure** — Compare improved metrics to baseline
+1. **Select process**  Use the process prioritisation matrix (Impact  Implementation feasibility  Current State  Value) to choose which process to improve this quarter
+2. **Scope**  Define boundaries using the 8-section Scope Definition Document (process name, owner, description, scope, responsibilities, client needs, stakeholders, measurements of success)
+3. **Map and analyse**  Document as-is process, estimate time and cost, apply improvement techniques
+4. **Implement**  Use four parallel tracks: change management, testing, communication, training
+5. **Measure**  Compare improved metrics to baseline
 
 ### Process Prioritisation for Quarterly Focus
 
@@ -149,22 +198,22 @@ For larger growth or transformation quarters, review execution through these eig
 - fearlessness
 
 Turn them into practical review questions:
-- who is leading and deciding?
-- what behaviour change is required?
-- which skills or roles are missing?
-- which systems are constraining progress?
-- what analysis or data is needed?
-- what trust, morale, or stakeholder issue must be managed?
-- where must the plan adapt without losing focus?
-- what bold decision is being avoided?
+- who is leading and decidingSection 
+- what behaviour change is requiredSection 
+- which skills or roles are missingSection 
+- which systems are constraining progressSection 
+- what analysis or data is neededSection 
+- what trust, morale, or stakeholder issue must be managedSection 
+- where must the plan adapt without losing focusSection 
+- what bold decision is being avoidedSection 
 
 ## The King Method: Core Principles
 
-1. **One objective per quarter** — Focus beats breadth
-2. **Weekly accountability** — If it is not in the weekly plan, it does not happen
-3. **Owner for everything** — No action item without a name attached
-4. **Monthly checkpoints** — Course-correct before it is too late
-5. **Honest reviews** — What did not work matters more than what did
+1. **One objective per quarter**  Focus beats breadth
+2. **Weekly accountability**  If it is not in the weekly plan, it does not happen
+3. **Owner for everything**  No action item without a name attached
+4. **Monthly checkpoints**  Course-correct before it is too late
+5. **Honest reviews**  What did not work matters more than what did
 
 ## Generation Process
 
@@ -182,7 +231,7 @@ Turn them into practical review questions:
 Use a structured Sunday (P)review to maintain momentum (Kagan, 2024):
 
 - **Every Sunday, 15 minutes**: review past week's goals, assess progress, set next week's priorities
-- **Send to accountability buddy** — they must reply AND call out missed commitments
+- **Send to accountability buddy**  they must reply AND call out missed commitments
 - **Organised by goal categories** matching quarterly objectives
 
 ### 9. Algorithm-Based Improvement Sequence
@@ -224,7 +273,7 @@ Review both:
 - Weekly actions are specific enough to execute (not "work on marketing")
 - Every action has an owner - no shared ownership
 - Resource requirements are realistic for team capacity
-- Review template is honest — captures failures, not just successes
+- Review template is honest  captures failures, not just successes
 - Weekly accountability system is in place (Sunday reviews with buddy)
 - Quarterly plan identifies the real execution constraint, not just the activity list
 - Process-improvement quarters follow question -> delete -> simplify -> accelerate -> automate

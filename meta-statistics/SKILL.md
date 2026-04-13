@@ -1,14 +1,64 @@
 ---
 name: meta-statistics
-description: Statistical rigour skill for business plans and strategies. Use when generating any section that includes numbers, percentages, growth rates, market sizes, survey results, forecasts, comparisons, or financial projections. Ensures all statistics are correctly computed, properly presented, visually effective, and verifiably sourced. Covers: descriptive statistics, data visualisation, sampling design, confidence intervals, regression forecasting, growth rate calculation, and verifiability standards. Apply to Sections 04 (Market Analysis), 05 (Target Market), 06 (Competitive Analysis), 07 (Marketing/Sales), 10 (Financial Projections), and any section citing external data.
+description: Apply statistical rigour to business-plan numbers, forecasts, charts, survey results, market sizing, and comparative analysis.
 ---
+
+# Meta Statistics
+
+## Use When
+
+- Use when this skill is the primary workflow for the requested task.
+- Use when creating, reviewing, or improving this skill's main artifact.
+- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+
+## Do Not Use When
+
+- Do not use when another section or meta-skill is the primary owner of the task.
+- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
+- Do not use for provider-specific UI behaviour; keep the workflow portable.
+
+## Required Inputs
+
+- Business, client, or proposal context relevant to this skill
+- Country, audience, funder, or user context where relevant
+- Available assumptions, evidence, constraints, and dependencies
+- Adjacent section outputs where consistency matters
+
+## Workflow
+
+1. Clarify the objective, audience, and scope for this skill.
+2. Gather the minimum required inputs and note any missing assumptions.
+3. Read the referenced materials only as needed.
+4. Produce or revise the artifact using the skill-specific method below.
+5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
+6. Flag unresolved gaps, assumptions, or follow-up work.
+
+## Quality Bar
+
+- Output is specific, decision-useful, and not generic
+- Assumptions are explicit where relevant
+- Claims align with the rest of the plan, proposal, or workflow
+- Wording is structured, concise, and audience-appropriate
+
+## Anti-Patterns
+
+- Generic filler that could describe any business or situation
+- Hidden assumptions or unsupported claims
+- Contradictions with financials, implementation, risk, or audience requirements
+- Provider-specific operating assumptions embedded in the portable workflow
+
+## Outputs
+
+- The primary artifact or analysis owned by this skill
+- Any key assumptions, open questions, and cross-skill dependencies
+
 
 ## Overview
 
 This skill transforms raw numbers into credible, decision-quality evidence. Every figure in a business plan must be:
-1. **Correctly computed** — right method for the data type
-2. **Properly presented** — chart/table chosen for the message, not decoration
-3. **Verifiably sourced** — primary source cited, or flagged as estimate with basis
+1. **Correctly computed**  right method for the data type
+2. **Properly presented**  chart/table chosen for the message, not decoration
+3. **Verifiably sourced**  primary source cited, or flagged as estimate with basis
 
 Source books: Anderson et al. *Essentials of Statistics for Business and Economics* (7th ed., Cengage 2013); Keller *Statistics for Management and Economics* (9th abbrev. ed., Cengage 2011).
 
@@ -18,32 +68,32 @@ Source books: Anderson et al. *Essentials of Statistics for Business and Economi
 
 | Plan Section | Primary Statistic | Method | Reference |
 |---|---|---|---|
-| 04 Market Analysis | TAM/SAM/SOM sizing | Frequency tables + totals from sourced data | See `statistics-for-business-plans.md §Market Sizing` |
-| 04 Market Analysis | Market growth trend | **Geometric mean** (not arithmetic) | `§Growth Rates` |
-| 05 Target Market | Customer segment profiles | Descriptive stats + bar/stacked bar charts | `§Descriptive Stats` |
-| 06 Competitive Analysis | Competitor positioning | Scatter diagram (2 axes: price × quality) | `§Chart Selection` |
-| 07 Marketing/Sales | Customer survey results | Confidence intervals + sample design | `§Sampling & CIs` |
-| 10 Financial Projections | Revenue forecasting | Regression (if 3+ years historical data exist) | `§Regression` |
-| 10 Financial Projections | Risk comparison across markets | **Coefficient of variation** | `§Variability` |
-| 10 Financial Projections | Multi-year growth rate | **Geometric mean** (CAGR) | `§Growth Rates` |
+| 04 Market Analysis | TAM/SAM/SOM sizing | Frequency tables + totals from sourced data | See `statistics-for-business-plans.md Market Sizing` |
+| 04 Market Analysis | Market growth trend | **Geometric mean** (not arithmetic) | `Growth Rates` |
+| 05 Target Market | Customer segment profiles | Descriptive stats + bar/stacked bar charts | `Descriptive Stats` |
+| 06 Competitive Analysis | Competitor positioning | Scatter diagram (2 axes: price  quality) | `Chart Selection` |
+| 07 Marketing/Sales | Customer survey results | Confidence intervals + sample design | `Sampling & CIs` |
+| 10 Financial Projections | Revenue forecasting | Regression (if 3+ years historical data exist) | `Regression` |
+| 10 Financial Projections | Risk comparison across markets | **Coefficient of variation** | `Variability` |
+| 10 Financial Projections | Multi-year growth rate | **Geometric mean** (CAGR) | `Growth Rates` |
 
 ---
 
-## 1. Growth Rates — Always Use Geometric Mean
+## 1. Growth Rates  Always Use Geometric Mean
 
-**Rule:** Any multi-period growth rate (revenue CAGR, population growth, market expansion) must use the geometric mean — never the arithmetic mean.
+**Rule:** Any multi-period growth rate (revenue CAGR, population growth, market expansion) must use the geometric mean  never the arithmetic mean.
 
 **Why it matters:** Arithmetic mean of annual returns *overstates* true compounded growth.
-- Year 1: +100%, Year 2: −50% → Arithmetic mean = +25% (misleading: you broke even)
-- Geometric mean = 0% (correct: $100 → $200 → $100)
+- Year 1: +100%, Year 2: 50%  Arithmetic mean = +25% (misleading: you broke even)
+- Geometric mean = 0% (correct: $100  $200  $100)
 
 **Formula:**
 ```
-CAGR = (End Value / Start Value)^(1/n) − 1
-Geometric Mean = ⁿ√(x₁ × x₂ × ... × xₙ)
+CAGR = (End Value / Start Value)^(1/n)  1
+Geometric Mean = n(x1  x2  ...  xn)
 ```
 
-**When to cite:** "Revenue grew at a CAGR of 18.4% over 5 years (geometric mean of annual growth rates, 2019–2024)."
+**When to cite:** "Revenue grew at a CAGR of 18.4% over 5 years (geometric mean of annual growth rates, 20192024)."
 
 ---
 
@@ -51,7 +101,7 @@ Geometric Mean = ⁿ√(x₁ × x₂ × ... × xₙ)
 
 Use **standard deviation** to describe spread within one variable. Use **coefficient of variation (CV)** to compare variability across variables with different scales or units.
 
-**CV formula:** `CV = (s ÷ x̄) × 100%`
+**CV formula:** `CV = (s  x)  100%`
 
 **Business plan application:**
 - Compare revenue stability of two product lines: Line A (mean UGX 45M/month, CV = 8%) is more predictable than Line B (mean UGX 120M/month, CV = 31%)
@@ -64,7 +114,7 @@ Use **standard deviation** to describe spread within one variable. Use **coeffic
 
 ## 3. Chart and Table Selection
 
-Read `references/statistics-for-business-plans.md §Chart Selection` for the full decision table. Summary:
+Read `references/statistics-for-business-plans.md Chart Selection` for the full decision table. Summary:
 
 | Message / Data Type | Chart |
 |---|---|
@@ -76,18 +126,18 @@ Read `references/statistics-for-business-plans.md §Chart Selection` for the ful
 | Multiple KPIs on one screen | Dashboard (bar + line + KPI card) |
 
 **Hard rules from Anderson et al. (2013):**
-- Never use 3D charts — adds visual noise, distorts magnitudes
+- Never use 3D charts  adds visual noise, distorts magnitudes
 - Axis must start at zero when comparing absolute values
 - Label axes with units (UGX millions, % market share)
-- Maximum 5–6 pie slices; use "Other" for remainder
-- Use direct labels (percentages on slices) — not a separate legend
+- Maximum 56 pie slices; use "Other" for remainder
+- Use direct labels (percentages on slices)  not a separate legend
 
 ---
 
 ## 4. Data Visualisation Best Practices (Section 2.5, Anderson et al.)
 
 1. Give the chart a clear, concise title that states the conclusion or key fact
-2. Keep displays simple — remove all decoration that carries no information
+2. Keep displays simple  remove all decoration that carries no information
 3. Label every axis with the variable name and unit of measure
 4. Use colours that are clearly distinguishable (not red/orange/brown together)
 5. Scale axis from zero unless explicitly noting a truncated axis
@@ -102,12 +152,12 @@ When the plan includes a primary customer survey or field research, document the
 
 | Population Type | Method | Minimum Sample |
 |---|---|---|
-| Homogeneous (single industry/area) | Simple random sampling | n ≥ 30 |
-| Heterogeneous (multiple segments) | Stratified random sampling | n ≥ 30 per stratum |
-| Geographically dispersed, cost-sensitive | Cluster sampling | Varies; see `§Sampling` |
+| Homogeneous (single industry/area) | Simple random sampling | n  30 |
+| Heterogeneous (multiple segments) | Stratified random sampling | n  30 per stratum |
+| Geographically dispersed, cost-sensitive | Cluster sampling | Varies; see `Sampling` |
 
 **Sample size for confidence interval:**
-`n = (z²× σ²) / E²`  where E = desired margin of error, z = 1.96 for 95% CI
+`n = (z2 2) / E2`  where E = desired margin of error, z = 1.96 for 95% CI
 
 ---
 
@@ -115,12 +165,12 @@ When the plan includes a primary customer survey or field research, document the
 
 When the plan cites a survey finding ("70% of customers prefer X"), always attach a confidence interval.
 
-**Formula (proportion):** `p̂ ± 1.96 × √[p̂(1−p̂)/n]`
+**Formula (proportion):** `p  1.96  [p(1p)/n]`
 
 **Example (n=150, 70% preference):**
-`CI = 0.70 ± 1.96 × √(0.70×0.30/150) = 0.70 ± 0.073 = [62.7%, 77.3%]`
+`CI = 0.70  1.96  (0.700.30/150) = 0.70  0.073 = [62.7%, 77.3%]`
 
-**Write-up:** "70% of surveyed customers (n=150) reported preference for X [95% CI: 63–77%] (primary survey, March 2026)."
+**Write-up:** "70% of surveyed customers (n=150) reported preference for X [95% CI: 6377%] (primary survey, March 2026)."
 
 ---
 
@@ -129,14 +179,14 @@ When the plan cites a survey finding ("70% of customers prefer X"), always attac
 Use simple or multiple linear regression when 3+ years of historical data exist.
 
 **Decision rules:**
-- One driver (e.g., population → sales): simple regression `ŷ = b₀ + b₁x`
+- One driver (e.g., population  sales): simple regression `y = b0 + b1x`
 - Multiple drivers (population + income + competition): multiple regression
-- Use **adjusted R²** (not R²) to decide whether additional variables improve the model
+- Use **adjusted R2** (not R2) to decide whether additional variables improve the model
 - Only predict within the observed range of x (no extrapolation beyond data)
 
-**Reporting standard:** "A simple linear regression of monthly revenue on customer base (R² = 0.87, p < 0.001, n=36 months) projects revenue of UGX 82M at a customer base of 2,400."
+**Reporting standard:** "A simple linear regression of monthly revenue on customer base (R2 = 0.87, p < 0.001, n=36 months) projects revenue of UGX 82M at a customer base of 2,400."
 
-See `references/statistics-for-business-plans.md §Regression` for worked examples.
+See `references/statistics-for-business-plans.md Regression` for worked examples.
 
 ---
 
@@ -146,13 +196,13 @@ Every statistic in the plan must pass this three-question test:
 
 | Question | Standard |
 |---|---|
-| **Source?** | Named source (UBOS, World Bank, primary survey) with date |
-| **Method?** | State if geometric mean, CV, regression, or raw secondary data |
-| **Reproducible?** | A reader with the same data could arrive at the same figure |
+| **SourceSection ** | Named source (UBOS, World Bank, primary survey) with date |
+| **MethodSection ** | State if geometric mean, CV, regression, or raw secondary data |
+| **ReproducibleSection ** | A reader with the same data could arrive at the same figure |
 
 **Flagging estimates:**
 - Sourced fact: "(UBOS, 2024)"
-- Derived calculation: "(calculated from UBOS 2024 data; geometric mean 2019–2024)"
+- Derived calculation: "(calculated from UBOS 2024 data; geometric mean 20192024)"
 - Acknowledged estimate: "(author estimate based on industry benchmarks; see assumptions)"
 
 **Never acceptable:** Unsourced percentages, rounded numbers without basis, growth rates without stating the method.
@@ -161,6 +211,6 @@ Every statistic in the plan must pass this three-question test:
 
 ## References
 
-- `references/statistics-for-business-plans.md` — Full decision tables, formulas, worked Uganda/EA examples, chart selection guide, data type definitions
+- `references/statistics-for-business-plans.md`  Full decision tables, formulas, worked Uganda/EA examples, chart selection guide, data type definitions
 - Anderson, D.R., Sweeney, D.J., Williams, T.A., Camm, J.D. & Cochran, J.J. (2013). *Essentials of Statistics for Business and Economics* (7th ed.). Cengage Learning.
 - Keller, G. (2011). *Statistics for Management and Economics, Abbreviated* (9th ed.). Cengage Learning.

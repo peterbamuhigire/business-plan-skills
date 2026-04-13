@@ -5,6 +5,55 @@ description: Operational meta-skill that converts the business plan into a livin
 
 # Monitoring & Evaluation (M&E) Meta-Skill
 
+## Use When
+
+- Use when this skill is the primary workflow for the requested task.
+- Use when creating, reviewing, or improving this skill's main artifact.
+- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+
+## Do Not Use When
+
+- Do not use when another section or meta-skill is the primary owner of the task.
+- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
+- Do not use for provider-specific UI behaviour; keep the workflow portable.
+
+## Required Inputs
+
+- Business, client, or proposal context relevant to this skill
+- Country, audience, funder, or user context where relevant
+- Available assumptions, evidence, constraints, and dependencies
+- Adjacent section outputs where consistency matters
+
+## Workflow
+
+1. Clarify the objective, audience, and scope for this skill.
+2. Gather the minimum required inputs and note any missing assumptions.
+3. Read the referenced materials only as needed.
+4. Produce or revise the artifact using the skill-specific method below.
+5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
+6. Flag unresolved gaps, assumptions, or follow-up work.
+
+## Quality Bar
+
+- Output is specific, decision-useful, and not generic
+- Assumptions are explicit where relevant
+- Claims align with the rest of the plan, proposal, or workflow
+- Wording is structured, concise, and audience-appropriate
+
+## Anti-Patterns
+
+- Generic filler that could describe any business or situation
+- Hidden assumptions or unsupported claims
+- Contradictions with financials, implementation, risk, or audience requirements
+- Provider-specific operating assumptions embedded in the portable workflow
+
+## Outputs
+
+- The primary artifact or analysis owned by this skill
+- Any key assumptions, open questions, and cross-skill dependencies
+
+
+
 Convert the business plan from a static document into an active management tool with measurable KPIs, reporting cadences, and accountability structures.
 
 ## When to Use
@@ -91,7 +140,7 @@ Each KPI should have a visible causal path to the next perspective.
 
 **Monthly review agenda (60 minutes):**
 1. KPI dashboard review (15 min)
-2. Variance analysis — what missed target and why (15 min)
+2. Variance analysis  what missed target and why (15 min)
 3. Milestone progress update (10 min)
 4. Decisions and resource allocation (10 min)
 5. Action items for next month (10 min)
@@ -118,16 +167,16 @@ Integrate the Evaluate-Test-Assess-Execute cycle for ongoing process improvement
 
 **Evaluate** (spend majority of time here):
 - Review customer/client needs against scope definition
-- Compare metrics to baseline — identify trends
+- Compare metrics to baseline  identify trends
 - Verify process workers follow documented processes
 - Assess whether internal controls eliminate errors
 - Evaluate third-party vendor/supplier performance
 
-**Test** — Implement changes on a small scale to validate before full rollout
+**Test**  Implement changes on a small scale to validate before full rollout
 
-**Assess** — Review test data, benchmark against industry standards, decide whether to proceed
+**Assess**  Review test data, benchmark against industry standards, decide whether to proceed
 
-**Execute** — Deploy across the organisation with communication, training, and updated impact analysis
+**Execute**  Deploy across the organisation with communication, training, and updated impact analysis
 
 ### Continuous Improvement Schedule Template
 
@@ -139,9 +188,9 @@ Integrate the Evaluate-Test-Assess-Execute cycle for ongoing process improvement
 
 Complement financial/customer/operational KPIs with process-specific metrics (Page, 2015):
 
-- **Effectiveness** — Does the process produce desired results? (quality, customer satisfaction)
-- **Efficiency** — Does it minimise resources and cycle time? (cost per transaction, CTE)
-- **Adaptability** — Can it respond to changing needs? (time to implement changes, % non-standard cases handled)
+- **Effectiveness**  Does the process produce desired resultsSection  (quality, customer satisfaction)
+- **Efficiency**  Does it minimise resources and cycle timeSection  (cost per transaction, CTE)
+- **Adaptability**  Can it respond to changing needsSection  (time to implement changes, % non-standard cases handled)
 
 Each process should have at least one metric from each perspective.
 
@@ -179,16 +228,16 @@ Use a practical default:
 The M&E framework must incorporate reporting obligations tied to the funding source. These are contractual, not optional.
 
 **For bank loans (commercial banks, UDB, ACF):** Lenders attach performance covenants to loans. Typical covenant monitoring requirements include:
-- DSCR ≥ 1.25x — monitored quarterly; report to bank annually or upon request
-- Current ratio ≥ 1.0x — monitored quarterly
+- DSCR  1.25x  monitored quarterly; report to bank annually or upon request
+- Current ratio  1.0x  monitored quarterly
 - Quarterly management accounts (unaudited) to lending institution
 - Annual audited accounts within 6 months of financial year end
-- Insurance certificates on pledged collateral — renewed annually
+- Insurance certificates on pledged collateral  renewed annually
 - NSSF and URA compliance certificates upon request
 
 **For development partner grants:** Quarterly narrative reports + quarterly financial reports against approved budget are typically required. Report formats vary by donor but generally include: activities completed, outputs achieved (with beneficiary counts disaggregated by gender), budget vs. actual variance explanation, risks encountered, and plans for next quarter. See `references/funder-reporting-requirements.md` for standard templates.
 
-**For impact investors:** Double-bottom-line KPIs — financial performance PLUS social/environmental indicators (jobs created, women employed, smallholders reached, CO₂ reduced). See `references/funder-reporting-requirements.md` for sector-specific impact metrics.
+**For impact investors:** Double-bottom-line KPIs  financial performance PLUS social/environmental indicators (jobs created, women employed, smallholders reached, CO2 reduced). See `references/funder-reporting-requirements.md` for sector-specific impact metrics.
 
 Identify the funder type BEFORE designing the M&E framework, and embed the relevant reporting obligations into the review cadence.
 
@@ -209,5 +258,5 @@ Identify the funder type BEFORE designing the M&E framework, and embed the relev
 
 - `references/balanced-scorecard-kpi.md` - Balanced Scorecard perspectives, strategy mapping, KPI-cascade logic, and leading/lagging-indicator design from Kaplan, Krause, and Arora
 - `references/funder-reporting-requirements.md` - Commercial bank covenant monitoring (DSCR, current ratio, insurance), mandatory bank reporting schedule, UDB and ACF reporting (ESMP semi-annual monitoring report template), development partner grant quarterly narrative and financial report templates, impact investor double-bottom-line KPIs by sector (agriculture, clean energy, education, health, housing, financial inclusion), Government of Uganda annual filing calendar
-- `meta-sustainability/references/sustainability-indicators-measurement.md` — Six indicator types (descriptive/performance/efficiency/policy effectiveness/welfare/sentinel), DPSIR framework with Uganda examples, composite indices, 5-step KPI-building process with common failure modes, 8-row minimum viable KPI set for Uganda SMEs, monitoring system design, and external audit requirements for DFI loans >UGX 200M — Source: Hak, Moldan & Dahl (SCOPE/Island Press, 2007). **Read when designing the sustainability KPI dashboard and embedding environmental/social indicators into the M&E framework.**
-- `16-sustainability-strategy/SKILL.md` — Sustainability KPI dashboard (7-row format with baseline, Year 1 and Year 3 targets); sustainability KPIs must be integrated into the M&E framework alongside financial KPIs
+- `meta-sustainability/references/sustainability-indicators-measurement.md`  Six indicator types (descriptive/performance/efficiency/policy effectiveness/welfare/sentinel), DPSIR framework with Uganda examples, composite indices, 5-step KPI-building process with common failure modes, 8-row minimum viable KPI set for Uganda SMEs, monitoring system design, and external audit requirements for DFI loans >UGX 200M  Source: Hak, Moldan & Dahl (SCOPE/Island Press, 2007). **Read when designing the sustainability KPI dashboard and embedding environmental/social indicators into the M&E framework.**
+- `16-sustainability-strategy/SKILL.md`  Sustainability KPI dashboard (7-row format with baseline, Year 1 and Year 3 targets); sustainability KPIs must be integrated into the M&E framework alongside financial KPIs
