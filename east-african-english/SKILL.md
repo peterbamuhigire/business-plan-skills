@@ -5,52 +5,57 @@ description: Language and tone standard for all written content. Enforces authen
 
 # East African English  Language & Tone Skill
 
+## Overview
+
+Use this skill as the English-language tone layer for East African audiences. It keeps written output clear, professional, culturally natural, and aligned with the British-influenced business English used across Uganda, Kenya, and Tanzania.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when writing English content for East African readers or clients.
+- Use when tone must sound local, professional, and credible rather than imported or overly Americanised.
+- Use as a language overlay on top of another skill that owns the artifact.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use as a substitute for content strategy or factual accuracy.
+- Do not flatten local tone into stiff textbook formalism.
+- Do not override a client's established voice without reason.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Draft text or content task
+- Target country or audience within East Africa where relevant
+- Brand or client tone expectations
+- Any terminology that must remain fixed
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify the reader, purpose, and expected level of formality.
+2. Draft or revise the text into authentic East African professional English.
+3. Keep the tone respectful, clear, and commercially credible.
+4. Reconcile spelling, idiom, and formality with the target market.
+5. Remove imported phrasing that feels culturally off-tone.
+6. Flag where the voice requirement conflicts with other style constraints.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The language feels natural to East African professional readers.
+- Tone is respectful and clear without becoming stiff.
+- British spelling and regional conventions are applied consistently where appropriate.
+- The wording supports trust and readability.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Uncritical use of American corporate phrasing.
+- Artificially “local” slang that reduces professionalism.
+- Over-formal bureaucratic prose that hides the message.
+- Inconsistent spelling or register within the same artifact.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- East African English-aligned copy or edits
+- Tone corrections and language-consistency improvements
+- Any unresolved voice or localisation questions
 
 
 

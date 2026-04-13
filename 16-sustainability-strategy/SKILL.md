@@ -5,52 +5,57 @@ description: Generate the sustainability strategy section for business plans  th
 
 # Section 16: Sustainability Strategy
 
+## Overview
+
+Generate Section 16 of the business plan: the sustainability strategy. Use this skill to show how the business manages environmental and social risk, adapts to local realities, and turns sustainability into durable operational advantage.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when drafting or revising the sustainability strategy section for lenders, DFIs, donors, or impact-sensitive investors.
+- Use when climate, environmental, labour, or community effects materially affect viability or funding access.
+- Use when the plan needs a coherent sustainability narrative rather than scattered ESG references.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use to add cosmetic ESG language with no operational relevance.
+- Do not treat sustainability as mitigation-only if it also shapes growth, resilience, or financing access.
+- Do not copy SDG language without linking it to business activity and measurable outcomes.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Business model, sector context, operating footprint, and material environmental or social impacts
+- Country, regulatory, lender, or donor requirements affecting sustainability expectations
+- Available data on resource use, labour practices, community impact, and resilience measures
+- Adjacent sections on operations, risk, implementation, finance, and monitoring
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify the business's most material environmental and social issues.
+2. Translate those issues into strategy, controls, and measurable commitments.
+3. Show how sustainability affects resilience, compliance, financing, and value creation.
+4. Attach accountable owners, KPIs, and investment implications.
+5. Reconcile the section with operations, implementation, risk, and financial assumptions.
+6. Flag any major evidence or control gaps that would matter in diligence.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The strategy focuses on the business's material issues, not generic ESG boilerplate.
+- Environmental and social commitments are tied to operations and measurable targets.
+- Climate adaptation and community realities fit the local context.
+- The section improves fundability and operational credibility.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Treating sustainability as branding instead of operational design.
+- Copying SDGs, IFC language, or policies without business-specific translation.
+- Making commitments with no owner, budget, or measurement logic.
+- Sustainability claims that contradict the risk, operations, or financing sections.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A finished or revised Section 16 sustainability strategy
+- Materiality, KPI, and accountability logic for environmental and social performance
+- Explicit assumptions and diligence gaps for follow-up
 
 
 

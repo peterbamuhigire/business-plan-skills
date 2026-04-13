@@ -5,52 +5,57 @@ description: Generate the products and services section detailing the value prop
 
 # Products & Services Skill
 
+## Overview
+
+Generate Section 03 of the business plan: the products and services section. Use this skill to explain what the business offers, why customers care, how delivery works, and what makes the offer commercially defensible.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when drafting or revising the products and services section for a plan, proposal, or investor document.
+- Use when the business needs a clear value proposition, offer structure, and delivery explanation.
+- Use when later pricing, marketing, operations, or financial sections depend on precise offer definitions.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use for detailed market sizing, channel strategy, or financial modelling beyond what supports the offer definition.
+- Do not invent features, IP, or regulatory status that the client has not established.
+- Do not describe offerings in jargon that hides the real customer benefit.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Product or service list, customer problem, and intended outcomes
+- Delivery model, pricing logic, development stage, and key dependencies
+- Country or regulatory context where licences, standards, or IP matter
+- Adjacent section drafts that must stay consistent with the offer definition
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. List each offer clearly in customer language before adding detail.
+2. Map features to benefits, customer pain points, and commercial value.
+3. Explain delivery, production, suppliers, and compliance requirements where relevant.
+4. Distinguish current offers from pipeline or aspirational offers.
+5. Reconcile the section with pricing, operations, IP, and market claims elsewhere in the plan.
+6. Flag any missing validation, capability, or compliance facts that weaken the offer narrative.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- A reader can understand what is sold, to whom, and why it matters.
+- Benefits are clearer than feature lists, and claims are commercially believable.
+- Delivery and compliance logic match the operating reality of the business.
+- The section creates a usable basis for pricing, marketing, operations, and projections.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Feature-heavy descriptions with no customer or revenue logic.
+- Mixing live offers, prototypes, and future ideas as if they are equally mature.
+- Unsupported claims of uniqueness, IP protection, or regulatory clearance.
+- Copying reference frameworks instead of writing the actual offer narrative.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A finished or revised Section 03 products and services draft
+- Explicit assumptions, dependencies, and unresolved product questions
+- Cross-skill notes for pricing, marketing, operations, risk, and finance
 
 
 

@@ -5,52 +5,57 @@ description: Run sustainability pre-screening and audit workflows so plans meet 
 
 # meta-sustainability
 
+## Overview
+
+Use this meta-skill to pre-screen, integrate, and audit sustainability across the suite. It acts as the sustainability gate before drafting, during drafting, and before final sign-off so environmental and social issues are handled systematically.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use at the start of an engagement to identify sustainability design requirements.
+- Use during drafting when sustainability issues affect products, operations, risk, or funding.
+- Use before finalisation to audit whether the plan meets sustainability and funder-readiness expectations.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use as a cosmetic ESG overlay detached from the business model.
+- Do not replace the dedicated sustainability section when that artifact is required.
+- Do not assume all sectors face the same sustainability issues.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Business model, sector, geography, and operating footprint
+- Funder, lender, or compliance context affecting sustainability requirements
+- Available information on environmental, labour, community, and governance issues
+- Any related section drafts that need sustainability integration or audit
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Determine whether the task is pre-screening, in-draft integration, or final audit.
+2. Identify the business's most material sustainability issues.
+3. Map those issues to the relevant sections, controls, and funding requirements.
+4. Check whether the plan's claims are measurable, owned, and operationally realistic.
+5. Reconcile sustainability logic with risk, operations, finance, and implementation.
+6. Flag any missing controls, evidence, or funder-readiness gaps.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- Sustainability work is materiality-led, not boilerplate-led.
+- Findings translate into design, control, or funding implications.
+- Environmental and social claims are evidence-aware and measurable.
+- The output improves both resilience and fundability.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Applying the same sustainability checklist to every sector.
+- Writing ESG language with no operational consequence.
+- Ignoring labour, community, or adaptation issues while focusing only on optics.
+- Letting sustainability commitments drift away from budget and ownership.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A sustainability pre-screen, integration map, or audit result
+- Materiality-driven findings and section-level implications
+- Any unresolved funder-readiness or control gaps
 
 
 

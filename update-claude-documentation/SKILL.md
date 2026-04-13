@@ -1,56 +1,61 @@
 ---
 name: update-claude-documentation
-description: "Update project documentation files (README.md, PROJECT_BRIEF.md, TECH_STACK.md, ARCHITECTURE.md, docs/API.md, docs/DATABASE.md, CLAUDE.md) when significant changes occur. Use for feature additions, architecture changes, dependency updates, API/database modifications. Ensures consistency across all docs."
+description: "Update project documentation files such as README.md, PROJECT_BRIEF.md, TECH_STACK.md, ARCHITECTURE.md, docs/API.md, docs/DATABASE.md, CLAUDE.md, and AGENTS.md when significant changes occur. Use for feature additions, architecture changes, dependency updates, API or database modifications, and repo-instruction updates."
 ---
 
 # Update Claude Documentation
 
+## Overview
+
+Use this skill to keep repository documentation consistent after meaningful changes. It covers general project docs plus agent-facing instruction surfaces such as `CLAUDE.md` and `AGENTS.md`, so the repo stays coherent for both Claude Code and Codex.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when significant code, architecture, workflow, or instruction changes affect repository documentation.
+- Use when updating agent-facing docs must stay aligned with user-facing and developer-facing docs.
+- Use when multiple documentation files need a coordinated refresh after a change.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use for trivial typo fixes or isolated wording changes that do not affect system understanding.
+- Do not update one doc in isolation when the same change alters the shared narrative elsewhere.
+- Do not keep documentation scoped only to one agent surface if the change affects both.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- The actual code, workflow, or structure change that occurred
+- The set of documentation files potentially affected
+- Any breaking changes, migration notes, or new conventions
+- Existing docs whose terminology or examples must stay aligned
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify the change and the audiences it affects.
+2. Map the change to the documentation files that must be updated.
+3. Read the affected files before editing any of them.
+4. Update the most specific technical docs first, then the higher-level summaries and instruction files.
+5. Check terminology, examples, and workflow guidance for consistency across docs.
+6. Flag any remaining documentation debt or unresolved ambiguity.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The same change is reflected consistently across all affected docs.
+- Agent-facing docs and user-facing docs describe the same reality.
+- Terminology, paths, versions, and examples stay aligned.
+- Documentation becomes clearer, not just longer.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Updating only one documentation file for a multi-surface change.
+- Letting `CLAUDE.md` and `AGENTS.md` drift apart on shared conventions.
+- Keeping stale examples after changing APIs, file paths, or workflows.
+- Using documentation to paper over unresolved implementation ambiguity.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- Updated documentation set across the affected files
+- Explicit notes on any deferred doc work
+- Cross-file consistency between general docs and agent instruction surfaces
 
 
 

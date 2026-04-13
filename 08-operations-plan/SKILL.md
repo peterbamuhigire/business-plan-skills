@@ -5,52 +5,57 @@ description: Generate the operations plan section covering business processes, s
 
 # Operations Plan Skill
 
+## Overview
+
+Generate Section 08 of the business plan: the operations plan. Use this skill to show how the business delivers its offer reliably, economically, and at a scale that matches the strategy.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when drafting or revising the operations plan for a business plan, proposal, or lender document.
+- Use when the business must prove it can fulfil demand, manage inputs, and maintain quality.
+- Use when facilities, staffing, supply chain, technology, or delivery processes are material to viability.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use for abstract strategy with no process or resource detail.
+- Do not describe ideal-state operations that the business cannot support.
+- Do not treat operations as a dump for organisational facts better handled elsewhere.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Offer definition, delivery model, target volumes, and service expectations
+- Supplier, facility, staffing, technology, and process information
+- Country or regulatory context where licences, standards, or infrastructure matter
+- Adjacent sections on products, team, implementation, finance, and risk
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Map the end-to-end operating model from input to delivery and support.
+2. Identify the critical processes, assets, staffing, and supplier dependencies.
+3. Show how quality, throughput, and customer experience are controlled.
+4. Explain what scales, what breaks, and what must be strengthened as demand grows.
+5. Reconcile the operating model with implementation timing and financial assumptions.
+6. Flag weak points in capacity, compliance, or process reliability.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- A reader can see how the business actually delivers the offer.
+- Operational claims match the staffing, facilities, and cost base in the plan.
+- Process and quality controls are specific enough to inspire confidence.
+- The section shows an executable operating model, not an aspiration.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Listing equipment or departments without explaining the workflow.
+- Assuming suppliers, staff, or systems will scale automatically.
+- Ignoring bottlenecks, quality risk, or customer handoff failures.
+- Operational promises that contradict budget, timeline, or team capacity.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A finished or revised Section 08 operations plan
+- Process, resource, and scaling logic linked to the wider plan
+- Explicit operating assumptions, constraints, and risk dependencies
 
 
 

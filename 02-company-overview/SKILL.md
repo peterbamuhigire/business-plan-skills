@@ -5,52 +5,57 @@ description: Generate the company overview section covering mission, vision, val
 
 # Company Overview Skill
 
+## Overview
+
+Generate Section 02 of the business plan: the company overview. Use this skill to define who the business is, why it exists, how it is structured, and why the reader should regard it as credible.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when drafting or revising the company overview section of a business plan, proposal, or investor document.
+- Use when the business needs a clear mission, vision, ownership, legal structure, and origin story.
+- Use when later sections need a stable identity baseline for consistency.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use for the executive summary, product detail, or management-depth sections unless they directly affect company identity.
+- Do not invent legal, ownership, or registration facts that the client has not provided.
+- Do not turn this section into a generic mission-statement exercise with no commercial relevance.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Business name, founding stage, country, legal structure, and operating location
+- Founder story, ownership details, key milestones, and current business stage
+- Audience context where relevant: bank, investor, DFI, grant, or partner
+- Any adjacent section drafts whose claims must align with the company identity narrative
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Confirm the legal, commercial, and audience context for the business.
+2. Establish the founder's WHY, company identity, and current development stage.
+3. Draft the mission, vision, ownership, history, and milestones using the methods below.
+4. Check that legal structure, licensing logic, and tax assumptions align with country context and financial sections.
+5. Tighten the section so it reads as a credible business identity statement, not a motivational essay.
+6. Flag any missing registration, ownership, or governance facts that later sections will depend on.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The section states what the business is, why it exists, and how it is set up without vagueness.
+- Mission, vision, and ownership logic are specific and commercially believable.
+- Legal and structural claims are consistent with the country context and financial model.
+- The narrative strengthens credibility rather than reading like generic branding copy.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Generic mission, vision, and values that could describe any SME.
+- History sections that romanticise the founder but never clarify the business model.
+- Ownership or legal claims that conflict with the funding, tax, or governance sections.
+- Copying theory from references instead of converting it into a company-specific narrative.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A finished or revised Section 02 company overview
+- Explicit assumptions or unresolved identity, ownership, or registration gaps
+- Cross-skill notes for management, operations, funding, and financial consistency
 
 
 

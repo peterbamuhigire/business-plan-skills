@@ -5,52 +5,57 @@ description: Three-mode presentation skill for (A) designing the business plan s
 
 # Business Plan Presentation Design Skill
 
+## Overview
+
+Use this meta-skill to turn a business case into an effective presentation artifact and delivery plan. It covers slide structure, narrative pacing, visual standards, rehearsal, and presentation-audit logic.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when designing or auditing a presentation deck tied to a business plan or proposal.
+- Use when coaching delivery, slide flow, or executive presentation quality.
+- Use after the pitch frame is stable enough to visualise.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use before the core story and ask are clear.
+- Do not use visual polish to hide weak strategic thinking.
+- Do not treat deck design as independent from the presenter's delivery.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Presentation objective, audience, and time limit
+- Core business case, pitch frame, and final ask
+- Any existing deck, brand constraints, or design preferences
+- Evidence, visuals, and numbers that must appear on slides
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Confirm the presentation context, duration, and audience expectations.
+2. Translate the core argument into a slide-level narrative sequence.
+3. Design or audit slides for clarity, emphasis, and evidence density.
+4. Align delivery coaching with the final slide structure.
+5. Reconcile visuals, spoken cues, and numbers with the underlying plan.
+6. Flag slides or delivery habits that weaken persuasion.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- Slides make the argument easier to understand, not harder.
+- The deck supports the presenter's narrative and timing constraints.
+- Evidence appears where it matters most.
+- Visual and verbal delivery stay aligned.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Overcrowded slides that force the presenter to read.
+- Decorative design with weak message hierarchy.
+- Mismatched deck tone for the audience type.
+- Slide claims that do not match the plan or pitch script.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A presentation deck structure, design direction, or audit result
+- Delivery and rehearsal guidance tied to the deck
+- Any unresolved presentation weaknesses to fix
 
 
 

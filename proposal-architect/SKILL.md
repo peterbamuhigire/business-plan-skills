@@ -9,52 +9,57 @@ description: >
 
 # Proposal Architect
 
+## Overview
+
+Use this skill as the orchestration layer for proposal, bid, tender, and RFP-response work. It owns the end-to-end proposal workflow from qualification and structure through drafting and final document assembly.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when starting or continuing a proposal, tender, bid, or RFP response.
+- Use when multiple proposal sections, compliance requirements, and final assembly must be coordinated.
+- Use when the output is a client-facing proposal rather than a standard business plan.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use for standalone plan sections or live pitch prep unless they are part of proposal work.
+- Do not treat proposal drafting as a generic writing exercise detached from evaluation criteria.
+- Do not proceed to drafting before clarifying the opportunity, buyer, and win logic.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- RFP, tender, or proposal brief where available
+- Client, buyer, sector, and decision context
+- Core solution, delivery model, pricing logic, and evidence base
+- Any format, compliance, or compilation requirements
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Confirm the opportunity, buyer, and proposal win condition.
+2. Break down the requirements into proposal sections and evidence needs.
+3. Draft the response around buyer priorities, differentiation, and compliance.
+4. Reconcile pricing, delivery, staffing, and risk claims across sections.
+5. Assemble the final package in the required format.
+6. Flag unresolved compliance, evidence, or packaging risks before submission.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The proposal is responsive to the buyer's evaluation logic.
+- Compliance, solution design, and commercial terms align.
+- The narrative distinguishes the bidder clearly.
+- Final assembly preserves consistency and submission-readiness.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Writing a polished document that does not answer the brief.
+- Burying differentiators or win themes under generic capability language.
+- Letting pricing, methodology, and staffing contradict each other.
+- Treating final compilation as an afterthought.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A managed proposal workflow and finished proposal artefact
+- Section ownership, evidence needs, and compliance notes
+- Final assembly risks and open questions
 
 
 

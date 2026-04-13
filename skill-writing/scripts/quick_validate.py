@@ -1,17 +1,29 @@
 #!/usr/bin/env python3
-"""
-Quick validation script for skills - minimal version
-"""
+"""Quick validation script for skills."""
 
 import sys
-import os
 import re
-import yaml
 from pathlib import Path
 
+import yaml
+
+
+REQUIRED_HEADINGS = {
+    "use when",
+    "do not use when",
+    "required inputs",
+    "workflow",
+    "quality bar",
+    "anti-patterns",
+    "outputs",
+}
+
+WARNING_PLACEHOLDER = "Use when this skill is the primary workflow for the requested task."
+
 def validate_skill(skill_path):
-    """Basic validation of a skill"""
+    """Validate a skill and return (ok, message)."""
     skill_path = Path(skill_path)
+    warnings = []
 
     # Check SKILL.md exists
     skill_md = skill_path / 'SKILL.md'
@@ -19,7 +31,7 @@ def validate_skill(skill_path):
         return False, "SKILL.md not found"
 
     # Read and validate frontmatter
-    content = skill_md.read_text()
+    content = skill_md.read_text(encoding="utf-8")
     if not content.startswith('---'):
         return False, "No YAML frontmatter found"
 
@@ -39,14 +51,14 @@ def validate_skill(skill_path):
         return False, f"Invalid YAML in frontmatter: {e}"
 
     # Define allowed properties
-    ALLOWED_PROPERTIES = {'name', 'description', 'license', 'allowed-tools', 'metadata'}
+    allowed_properties = {'name', 'description'}
 
     # Check for unexpected properties (excluding nested keys under metadata)
-    unexpected_keys = set(frontmatter.keys()) - ALLOWED_PROPERTIES
+    unexpected_keys = set(frontmatter.keys()) - allowed_properties
     if unexpected_keys:
         return False, (
             f"Unexpected key(s) in SKILL.md frontmatter: {', '.join(sorted(unexpected_keys))}. "
-            f"Allowed properties are: {', '.join(sorted(ALLOWED_PROPERTIES))}"
+            f"Allowed properties are: {', '.join(sorted(allowed_properties))}"
         )
 
     # Check required fields
@@ -83,7 +95,35 @@ def validate_skill(skill_path):
         if len(description) > 1024:
             return False, f"Description is too long ({len(description)} characters). Maximum is 1024 characters."
 
-    return True, "Skill is valid!"
+    body = content[match.end():]
+    headings = {h.strip().lower() for h in re.findall(r"^##\s+(.+)$", body, re.MULTILINE)}
+    missing_headings = sorted(REQUIRED_HEADINGS - headings)
+    if missing_headings:
+        return False, (
+            "Missing required section heading(s): "
+            + ", ".join(missing_headings)
+        )
+
+    if WARNING_PLACEHOLDER in body:
+        warnings.append(
+            "placeholder scaffold text still present; replace generic guidance with skill-specific instructions"
+        )
+
+    line_count = len(content.splitlines())
+    if line_count > 500:
+        warnings.append(
+            f"SKILL.md is {line_count} lines; preferred maximum is 500 lines"
+        )
+
+    if "## Overview" not in body:
+        warnings.append("missing Overview section")
+
+    if "## References" not in body and "references/" in body:
+        warnings.append("references are mentioned inline but there is no dedicated References section")
+
+    if warnings:
+        return True, "Skill is valid with warnings: " + "; ".join(warnings)
+    return True, "Skill is valid."
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:

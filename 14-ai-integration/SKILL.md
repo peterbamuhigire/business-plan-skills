@@ -5,52 +5,57 @@ description: Generate the AI integration and efficiency section  a 2026-era mand
 
 # AI Integration & Efficiency Skill
 
+## Overview
+
+Generate Section 14 of the business plan: the AI integration and efficiency section. Use this skill to show where AI materially improves economics, speed, quality, or scalability, and where human control must remain.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when drafting or revising the AI integration section of a modern business plan.
+- Use when the business wants to show credible automation, augmentation, and process redesign opportunities.
+- Use when investors or operators need to see the commercial logic, governance, and limits of AI adoption.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use to bolt trend language onto a business that has no realistic AI use case.
+- Do not recommend automation before understanding the underlying process and economics.
+- Do not imply that AI removes the need for ownership, controls, or customer trust.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Current workflows, pain points, data availability, and technology baseline
+- Budget, team capability, and implementation constraints
+- Customer, regulatory, and risk context affecting AI feasibility
+- Adjacent sections on operations, finance, implementation, and sustainability
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify the processes where AI could change cost, speed, quality, or customer experience.
+2. Redesign the process first, then test whether AI is the right next lever.
+3. Select practical tools, capabilities, and rollout phases.
+4. Quantify costs, savings, and control requirements.
+5. Reconcile AI recommendations with operations, staffing, risk, and budget.
+6. Flag weak assumptions, missing data, or governance gaps.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- AI use cases are specific to the business and commercially justified.
+- Tool, data, and governance recommendations are realistic.
+- Human review boundaries are clear for high-stakes decisions.
+- The section reads as an execution plan, not AI theatre.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Listing fashionable tools without mapping them to business processes.
+- Assuming AI savings without baseline labour or error-cost estimates.
+- Ignoring adoption, data quality, or customer-trust issues.
+- Presenting AI as a substitute for operational discipline.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A finished or revised Section 14 AI integration strategy
+- Prioritised use cases, economics, and governance boundaries
+- Explicit assumptions and dependencies for implementation follow-up
 
 
 

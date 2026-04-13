@@ -5,52 +5,57 @@ description: Language and tone standards for all written content across 3 langua
 
 # Language Standards  Multi-Language Tone & Grammar
 
+## Overview
+
+Use this skill as the multilingual language-governance layer for the repository. It keeps English, French, and Kiswahili content professional, culturally appropriate, and internally consistent across translated or multi-language outputs.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when content is being created or reviewed across more than one supported language.
+- Use when translation quality, tone consistency, or cultural fit matter.
+- Use as a language overlay on top of another content skill.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use as a substitute for core strategy, structure, or factual accuracy.
+- Do not force identical phrasing across languages when natural usage differs.
+- Do not let localisation drift into meaning changes.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Source text or content brief
+- Target language or set of languages
+- Audience, country, and cultural context
+- Any fixed terminology, brand language, or compliance phrasing
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify the target language, audience, and purpose of the content.
+2. Apply the relevant language-specific standards and tone rules.
+3. Preserve meaning while adapting phrasing for natural local usage.
+4. Keep terminology and brand cues consistent across languages.
+5. Reconcile multilingual outputs with the source content and site structure.
+6. Flag terms or nuances that require human confirmation.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The language feels natural to its target audience.
+- Meaning stays consistent across languages.
+- Tone matches the brand and region.
+- Terminology is controlled and repeatable.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Word-for-word translation that sounds unnatural.
+- Letting one language version drift strategically from the others.
+- Mixing registers or regional variants unintentionally.
+- Ignoring culture-specific connotations in business language.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- Language-standard-compliant content or edits across the supported languages
+- Terminology and tone corrections
+- Any localisation questions requiring follow-up
 
 
 

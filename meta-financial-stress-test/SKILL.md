@@ -5,52 +5,57 @@ description: Analytical meta-skill that stress-tests financial projections throu
 
 # Financial Stress Test Meta-Skill
 
+## Overview
+
+Use this meta-skill to challenge a financial model under adverse conditions. It stress-tests assumptions, scenarios, break-even resilience, and debt-service capacity so the plan can survive scrutiny and bad conditions, not just base-case optimism.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use after financial projections are materially complete.
+- Use when lenders, investors, or internal reviewers need downside analysis.
+- Use when resilience under uncertainty matters as much as the headline forecast.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use before the baseline model exists.
+- Do not present stress cases as precision forecasts; they are decision tests.
+- Do not use stress scenarios to hide a fundamentally broken base model.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Baseline projections and core financial assumptions
+- Funding structure, debt terms, and repayment expectations where relevant
+- Key commercial drivers such as price, volume, cost, and working-capital assumptions
+- Any country or sector context that shapes plausible shocks
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Confirm the base case and the assumptions most likely to break.
+2. Build adverse and comparative scenarios around the key financial drivers.
+3. Test break-even, liquidity, margin, and DSCR resilience under stress.
+4. Interpret which assumptions are fatal, manageable, or optimistic.
+5. Reconcile the findings with the narrative, risk section, and funding ask.
+6. Flag weaknesses that need redesign rather than explanation.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- Stress scenarios are plausible and decision-relevant.
+- The analysis shows which levers matter most.
+- Findings translate into financing or operating implications.
+- The output makes the plan more credible, not merely more complex.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Performing sensitivity analysis on trivial variables while ignoring core drivers.
+- Presenting only mild downside cases.
+- Stress-testing numbers that are already inconsistent in the base model.
+- Failing to connect stress outcomes to actual management responses.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A stress-tested financial view with scenarios and key sensitivities
+- Clear resilience findings and management implications
+- Any assumptions or structural weaknesses needing correction
 
 
 

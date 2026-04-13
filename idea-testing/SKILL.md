@@ -5,52 +5,57 @@ description: Test business ideas and risky assumptions before building them usin
 
 # Idea Testing
 
+## Overview
+
+Use this skill to test a business idea or major assumption before heavy execution. It structures experiments, evidence review, and decision rules so the team can persevere, pivot, or stop with discipline.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when a business idea, offer, or market hypothesis still needs proof.
+- Use when risky assumptions should be tested before building, funding, or scaling.
+- Use when the outcome should be an experiment plan or validation decision.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use after decisive evidence already exists unless re-testing is needed.
+- Do not mistake opinion gathering for disciplined validation.
+- Do not continue testing forever when a clear decision threshold has been crossed.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Idea, hypothesis, or risky assumption to test
+- Target customer and context
+- Available evidence, resources, and time constraints
+- Decision threshold for what counts as validation or failure
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Define the exact assumption or idea being tested.
+2. Choose the lightest credible experiment that can produce signal.
+3. Set success, failure, and learning criteria before running the test.
+4. Capture results and interpret them honestly.
+5. Decide whether to persevere, pivot, or stop.
+6. Flag what still remains unvalidated.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The test targets a real assumption, not a vague ambition.
+- Success criteria are observable and decision-useful.
+- The experiment is proportionate to the risk and stage.
+- Outcomes lead to a clear next decision.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Testing too many hypotheses at once.
+- Running expensive experiments before cheap ones.
+- Redefining success after seeing weak results.
+- Confusing interest or compliments with willingness to pay or adopt.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A validation plan, experiment set, or decision memo
+- Clear pass, fail, or pivot criteria
+- Remaining unknowns and follow-up tests
 
 
 ## Overview

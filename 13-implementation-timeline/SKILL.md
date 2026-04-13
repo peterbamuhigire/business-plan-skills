@@ -5,52 +5,57 @@ description: Generate the implementation timeline with phased milestones, Gantt-
 
 # Implementation Timeline & Milestones Skill
 
+## Overview
+
+Generate Section 13 of the business plan: the implementation timeline. Use this skill to turn strategy into sequenced execution with milestones, owners, dependencies, and measurable progress checkpoints.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when drafting or revising the implementation timeline and milestones section.
+- Use when the business needs a phased rollout, launch plan, or 90-day execution logic.
+- Use when funders or operators need to see who does what, by when, and in what order.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use before the operating model, funding needs, and strategic priorities are at least broadly defined.
+- Do not create a calendar-shaped wish list with no ownership or dependencies.
+- Do not ignore regulatory or capability gates that determine whether execution can start.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Strategic priorities, operating model, and near-term commercial objectives
+- Resource constraints, funding availability, and team ownership assumptions
+- Country or regulatory context that affects launch or compliance timing
+- Adjacent plan sections on operations, finance, risk, and monitoring
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Confirm the business objective the timeline must deliver first.
+2. Break execution into logical phases with gates, owners, and dependencies.
+3. Attach milestones, resource needs, and measurable completion criteria.
+4. Check that timing aligns with regulatory, staffing, and funding reality.
+5. Reconcile the timeline with operations, cash flow, and risk assumptions.
+6. Flag any blocking dependency that threatens the schedule.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The sequence is executable, not merely aspirational.
+- Owners, dates, and dependencies are explicit enough to manage.
+- The timeline fits available capacity and capital.
+- Milestones show decision points, not just activity lists.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Timelines with no owners or no gating logic.
+- Parallelising work that is legally or operationally sequential.
+- Ignoring procurement, licensing, hiring, or capital-availability constraints.
+- Milestones that cannot be measured or verified.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A phased implementation timeline with milestones and owners
+- Explicit dependencies, assumptions, and go/no-go points
+- Cross-skill notes for finance, operations, monitoring, and risk
 
 
 

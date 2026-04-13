@@ -5,52 +5,57 @@ description: Uganda country context for business plan generation. Default countr
 
 # Uganda Country Context
 
+## Overview
+
+Use this skill as the default country layer for the suite. It provides the regulatory, financial, labour, and macroeconomic context that the core plan skills should assume when no other country file is loaded.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when the business is based in Uganda or no other country context has been specified.
+- Use when currency, tax, regulation, labour, banking, or risk assumptions need Uganda defaults.
+- Use alongside section skills so they use the correct local context.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use when a different country context file should govern the work.
+- Do not mix Uganda assumptions into a non-Uganda plan unless comparing markets explicitly.
+- Do not treat country context as a substitute for section-specific analysis.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Confirmation that Uganda is the governing market or fallback default
+- The section or workflow that needs local context
+- Any sector, funder, or regulatory nuance that affects how Uganda defaults are applied
+- Adjacent sections whose assumptions must stay synchronised
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Confirm that Uganda should be the active context for the current task.
+2. Pull only the country facts needed for the section being written.
+3. Replace generic defaults with Uganda-specific currency, regulation, labour, and financing context.
+4. Reconcile the local assumptions with the business model and funder type.
+5. Keep terminology and institutions consistent across the plan.
+6. Flag any case where Uganda defaults are inadequate or sector nuance is missing.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- Uganda defaults are applied consistently across the relevant sections.
+- Local institutions, tax logic, and currency assumptions match the plan.
+- Country context improves realism without crowding out section ownership.
+- Deviations from the default are explicit.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Mixing Uganda and non-Uganda assumptions in the same plan.
+- Using local acronyms or institutions inconsistently.
+- Treating macro context as proof of demand without section-level evidence.
+- Copying country reference content directly into final prose.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- Uganda-specific assumptions for the active workflow
+- Clear local substitutions for currency, tax, regulation, banking, and labour context
+- Any caveats or gaps requiring sector-specific follow-up
 
 
 

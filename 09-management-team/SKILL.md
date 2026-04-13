@@ -5,52 +5,57 @@ description: Generate the management team section with team biographies, organis
 
 # Management Team & Organisation Skill
 
+## Overview
+
+Generate Section 09 of the business plan: the management and team section. Use this skill to show who is responsible for execution, where the team is strong, and how leadership gaps will be managed.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when drafting or revising the management team section for lenders, investors, grant funders, or partners.
+- Use when the business needs founder bios, governance clarity, hiring logic, or a leadership credibility case.
+- Use when team quality is material to the reader's confidence in execution.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use to repeat the company story instead of showing execution capacity.
+- Do not inflate biographies or titles beyond what the evidence supports.
+- Do not hide skill gaps that a funder or investor will immediately notice.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Founder and management bios, roles, ownership, and reporting lines
+- Current staffing, future hiring needs, advisors, and governance arrangements
+- Audience context where leadership credibility standards differ
+- Adjacent section outputs that rely on specific people, capabilities, or oversight
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Establish who leads the business today and what each person is accountable for.
+2. Convert experience into execution-relevant evidence, not vanity credentials.
+3. Map governance, advisors, and hiring needs to the scale of the business.
+4. Surface capability gaps and show how they will be closed.
+5. Reconcile leadership claims with operations, implementation, and financial assumptions.
+6. Flag key-person risk or governance weaknesses that affect bankability.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The section makes clear who will execute the plan and why they are credible.
+- Bios are relevant, concise, and linked to business needs.
+- Governance and hiring logic are proportional to the business stage.
+- Team gaps are explicit and responsibly managed.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- CV-style biography dumps with no link to execution.
+- Hiding dependence on one founder or one technical expert.
+- Presenting advisors as substitutes for operating leadership.
+- Team claims that conflict with payroll, timeline, or operational reality.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A finished or revised Section 09 management team draft
+- Team structure, governance notes, and hiring-gap analysis
+- Explicit leadership assumptions and execution risks for follow-up
 
 
 

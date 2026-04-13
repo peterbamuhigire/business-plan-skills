@@ -5,52 +5,57 @@ description: Unified pitch deck skill that sequences meta-pitch-preparation  met
 
 # Pitch Deck Skill
 
+## Overview
+
+Use this skill as the orchestration layer for live presentation work. It sequences `meta-pitch-preparation` and `meta-presentation-design` so the deck, spoken frame, and Q&A preparation stay aligned.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when the user asks for a pitch deck, investor deck, bank presentation, or live proposal deck.
+- Use when both deck structure and spoken delivery matter.
+- Use when a completed or near-complete plan must be converted into a persuasive presentation workflow.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use if the task is only deck design polish or only speaking rehearsal; call the more specific meta-skill directly.
+- Do not use before the core business case is stable enough to present.
+- Do not treat this as a substitute for fixing weak underlying strategy or numbers.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Audience type and presentation context
+- Core business-plan sections or equivalent business-case material
+- Funding ask, commercial logic, and key supporting evidence
+- Any time, slide-count, or format constraints
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Confirm the pitch type and the decision the audience must make.
+2. Run the framing and message strategy through `meta-pitch-preparation`.
+3. Translate that frame into slides and delivery structure through `meta-presentation-design`.
+4. Reconcile the deck with the written plan and the final ask.
+5. Stress-test likely objections and Q&A gaps.
+6. Flag any weakness in the underlying case that presentation work cannot solve.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The deck and spoken narrative reinforce the same core argument.
+- Slide structure matches audience psychology and time constraints.
+- The ask is clear, credible, and easy to repeat.
+- Presentation polish does not outrun the quality of the business case.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Designing slides before deciding what the audience needs to believe.
+- Treating the deck as a condensed business plan.
+- Hiding weak economics behind visual polish.
+- Mixing investor, lender, and donor logic in the same presentation without intent.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A coordinated pitch-deck workflow and output path
+- Clear handoffs to the two underlying meta-skills
+- Open questions and presentation risks to address before pitch day
 
 
 

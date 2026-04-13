@@ -5,52 +5,57 @@ description: Specialist skill for writing grant funding applications to developm
 
 # Grant Proposal Skill
 
+## Overview
+
+Generate the grant proposal workflow and grant-specific funding narrative. Use this skill when the business case must be framed around beneficiaries, outcomes, accountability, and post-grant sustainability rather than lender repayment or investor returns.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when preparing a grant application, concept note, or donor-facing funding request.
+- Use when the reader's primary concern is impact, beneficiary value, compliance, and accountability.
+- Use when a business or social enterprise needs Theory of Change, LogFrame, impact logic, or budget narrative support.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use for standard bank-loan or investor-funding narratives unless there is a genuine grant component.
+- Do not treat a grant proposal as a softened business plan with impact language added on top.
+- Do not invent beneficiaries, outcomes, or monitoring capability that the organisation cannot substantiate.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Grant funder type, programme objectives, geography, and eligibility context
+- Problem statement, beneficiary profile, delivery model, and implementation capacity
+- Budget logic, co-funding assumptions, and post-grant sustainability plan
+- Any evidence or adjacent drafts needed to support impact, safeguards, and accountability claims
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify the grant type, evaluation logic, and non-negotiable donor requirements.
+2. Reframe the case around beneficiaries, outcomes, and funder priorities.
+3. Build the narrative, budget logic, Theory of Change, and implementation accountability.
+4. Check that outputs, outcomes, indicators, and reporting commitments are internally consistent.
+5. Reconcile the grant narrative with any underlying business-plan sections.
+6. Flag missing evidence, partnerships, or compliance risks that weaken eligibility.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The proposal answers the funder's mission, not just the applicant's needs.
+- Beneficiaries, outcomes, and delivery logic are specific and measurable.
+- Budget, activities, and impact claims reconcile cleanly.
+- Sustainability after the grant period is credible.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Reusing loan-language around repayment, collateral, or investor ROI as the core pitch.
+- Writing impact claims with no measurement, baseline, or accountability plan.
+- Treating beneficiaries as a vague audience rather than a defined target group.
+- Hiding delivery, procurement, or reporting constraints.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A grant-specific narrative, structure, and supporting grant artefacts
+- Clear assumptions, eligibility questions, and evidence gaps
+- Cross-skill notes for implementation, monitoring, risk, and budgeting
 
 
 

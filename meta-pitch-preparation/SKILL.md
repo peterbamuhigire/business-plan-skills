@@ -5,52 +5,57 @@ description: Dual-purpose pitch preparation meta-skill for (A) preparing yoursel
 
 # Pitch Preparation Meta-Skill
 
+## Overview
+
+Use this meta-skill to prepare the spoken strategy for a live pitch. It helps the presenter decide what the audience must believe, how the argument should be framed, and how likely objections should be handled.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when preparing for an investor, lender, donor, client, or board pitch.
+- Use when coaching a client through a live presentation or defence.
+- Use when a deck exists or will exist, but the message strategy still needs work.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use as a substitute for fixing weak economics, weak evidence, or weak strategy.
+- Do not jump straight to slide design if the spoken frame is still unclear.
+- Do not use for written-only proposals with no live presentation component.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Audience type, decision context, and time available
+- Core business case, funding ask, and key supporting evidence
+- Known objections, sensitivities, and presentation constraints
+- Any existing deck, notes, or related plan sections
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify the pitch type and the audience's primary question.
+2. Build the persuasive frame, governing thought, and sequencing logic.
+3. Prepare the opening, evidence flow, ask, and likely Q&A.
+4. Reconcile the spoken case with the underlying plan and numbers.
+5. Tighten the pitch for brevity, clarity, and psychological impact.
+6. Flag any weakness that will fail in a live setting.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The presenter can state the case clearly, quickly, and convincingly.
+- Framing matches the audience's incentives and objections.
+- The spoken logic is consistent with the written plan.
+- Q&A preparation addresses real pressure points.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Presenting information without controlling the frame.
+- Memorising lines instead of understanding the argument structure.
+- Using one pitch style for investors, lenders, donors, and buyers alike.
+- Letting the live story drift away from the actual evidence.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A prepared pitch frame, message strategy, and rehearsal plan
+- Anticipated Q&A and objection-handling notes
+- Open issues to resolve before presenting
 
 
 

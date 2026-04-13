@@ -5,52 +5,57 @@ description: Industry-specific reference guides that tailor business plan genera
 
 # Industry Guides Skill
 
+## Overview
+
+Use this skill as the sector-context layer for plan writing. It routes the agent to the correct industry sub-guide so section skills use realistic operating assumptions, benchmarks, and constraints for the business at hand.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when a business plan, proposal, or pitch needs industry-specific benchmarks and operating context.
+- Use when the sector materially changes margins, processes, regulation, or success factors.
+- Use alongside core section skills to inject sector realism.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use as a substitute for the core section skill that owns the main artifact.
+- Do not assume a sector guide is authoritative for every geography without checking the country context.
+- Do not copy raw reference material into a plan without translating it into the client's business reality.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Target industry or sub-sector
+- Business model, scale, geography, and intended audience
+- Any adjacent sections whose assumptions need sector grounding
+- Known constraints or differentiators that affect which benchmarks are relevant
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify the closest industry guide that matches the client's actual operating model.
+2. Read the guide and only the reference files needed for the current section.
+3. Extract the sector assumptions that materially change the draft.
+4. Reconcile those assumptions with country context and audience expectations.
+5. Apply the sector logic to the owning section skill.
+6. Flag where the available guide is only a partial fit.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- Sector context materially improves realism.
+- Benchmarks are used as ranges and decision aids, not as fabricated facts.
+- Industry guidance aligns with the country and funding context.
+- The integration makes the plan more specific, not more verbose.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Picking a broad sector label when a more specific guide exists.
+- Applying guide assumptions mechanically without checking scale or business model.
+- Using sector benchmarks that contradict the plan's own economics.
+- Treating reference text as publishable plan prose.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A sector-informed input layer for the owning section skill
+- Explicit benchmark assumptions and caveats
+- Pointers to the most relevant guide and reference files
 
 
 

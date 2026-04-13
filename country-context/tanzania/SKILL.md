@@ -5,52 +5,57 @@ description: Tanzania country context for business plan generation. Covers curre
 
 # Tanzania Country Context
 
+## Overview
+
+Use this skill when Tanzania is the governing market for the plan. It swaps the suite's Uganda defaults for Tanzania-specific currency, tax, regulatory, labour, banking, and macroeconomic context.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when the business is based in Tanzania or the Tanzanian market is the active planning context.
+- Use when section skills need Tanzanian currency, tax, regulatory, or banking assumptions.
+- Use when adapting a Uganda-default workflow to Tanzania without rewriting the full suite.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use if another country context should govern the work.
+- Do not blend Tanzanian assumptions into a Uganda-default plan without making that switch explicit.
+- Do not use country context as a replacement for section-specific commercial analysis.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Confirmation that Tanzania is the governing market
+- The plan section or workflow requiring localisation
+- Any funder, sector, or region-specific nuance affecting Tanzanian assumptions
+- Adjacent sections that must stay aligned after the context switch
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Confirm that Tanzania should replace the suite's Uganda defaults.
+2. Pull only the Tanzania-specific facts needed for the current section.
+3. Substitute Tanzanian institutions, currency, tax logic, labour context, and banking assumptions.
+4. Reconcile the local context with the business model and audience expectations.
+5. Keep the new assumptions consistent across the plan.
+6. Flag any area where the Tanzania context needs deeper sector-specific evidence.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- Tanzania replaces Uganda defaults cleanly and consistently.
+- Local institutions, rates, and terminology are used correctly.
+- Country context sharpens the draft without overwhelming section ownership.
+- Any uncertainty or proxy assumption is explicit.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Mixing Tanzania and Uganda assumptions in the same section.
+- Naming local regulators or tax systems inconsistently.
+- Treating country context as evidence of product-market fit.
+- Copying raw reference content into the client-facing draft.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- Tanzania-specific localisation inputs for the active workflow
+- Clear substitutions for currency, tax, regulation, labour, and banking context
+- Any open questions or caveats for follow-up
 
 
 

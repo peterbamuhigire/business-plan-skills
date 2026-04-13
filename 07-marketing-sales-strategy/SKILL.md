@@ -5,52 +5,57 @@ description: Generate the marketing and sales strategy section for a bankable bu
 
 # Marketing & Sales Strategy Skill
 
+## Overview
+
+Generate Section 07 of the business plan: the marketing and sales strategy. Use this skill to show how the business will create demand, convert demand into revenue, and retain customers at sustainable economics.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when drafting or revising the marketing and sales strategy section.
+- Use when the business needs a concrete route from market awareness to repeat revenue.
+- Use when customer acquisition, channel mix, pricing, and retention logic must be made explicit.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use without a clear offer and target customer baseline.
+- Do not present a list of channels without conversion logic, budget discipline, or metrics.
+- Do not rely on awareness tactics alone as a substitute for sales process design.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Product or service definition, target market, and competitive position
+- Pricing model, channel constraints, sales model, and budget assumptions
+- Country and audience context affecting buyer behaviour and media channels
+- Any evidence on existing traction, acquisition costs, retention, or conversion rates
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Confirm the customer, offer, and commercial objective this strategy must serve.
+2. Build the positioning, channel mix, and acquisition logic for the selected segments.
+3. Define the sales process from lead generation to close, repeat purchase, and referral.
+4. Attach budgets, KPIs, and expected economics to the plan.
+5. Reconcile the strategy with capacity, pricing, and financial projections.
+6. Flag where the plan depends on untested channel or conversion assumptions.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The strategy explains how leads are acquired, converted, retained, and measured.
+- Channel recommendations fit the customer, budget, and country context.
+- Sales logic and acquisition economics are commercially believable.
+- The section supports the revenue model instead of sitting beside it.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Lists of social media channels with no buyer logic or budget.
+- Sales strategies that assume demand appears without outreach, process, or ownership.
+- Retention claims with no service, support, or loyalty mechanism behind them.
+- Marketing costs or growth assumptions that conflict with the projections.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A finished or revised Section 07 marketing and sales strategy
+- Channel, funnel, retention, and KPI logic tied to revenue assumptions
+- Explicit commercial assumptions and follow-up questions for testing
 
 
 

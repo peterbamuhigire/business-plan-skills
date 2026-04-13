@@ -5,52 +5,57 @@ description: Apply statistical rigour to business-plan numbers, forecasts, chart
 
 # Meta Statistics
 
+## Overview
+
+Use this meta-skill to apply statistical discipline to business-plan evidence. It helps choose the right method, summary, chart, or inference so numbers support decision-making rather than decorative credibility.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when market sizing, survey results, forecasts, or comparative metrics need statistical rigour.
+- Use when a chart, rate, trend, or average could be misleading if calculated badly.
+- Use when the plan needs defensible quantitative presentation.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use to create false precision from weak data.
+- Do not apply advanced methods when the data does not support them.
+- Do not use statistics to decorate claims that remain strategically weak.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- The dataset, figures, or claim being analysed
+- The decision or message the numbers need to support
+- Data quality, sample size, and sourcing context
+- Any adjacent sections that rely on the same metrics
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify what decision or claim the numbers must support.
+2. Check whether the data quality and structure fit the intended method.
+3. Apply the simplest sound statistical treatment that answers the question.
+4. Present the result using the right summary or chart.
+5. Reconcile the statistic with the surrounding commercial narrative.
+6. Flag weak data, weak sampling, or over-interpretation risks.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The chosen method fits the data and question.
+- Results are interpretable by the intended audience.
+- Charts and metrics clarify rather than distort.
+- Any uncertainty or estimate basis is explicit.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Using averages where distributions matter more.
+- Plotting charts that make the wrong comparison easy.
+- Presenting regression or inference without adequate data.
+- Treating estimated data as measured fact.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- Statistically sound summaries, methods, or visualisation guidance
+- Corrected metrics or interpretation notes
+- Any data-quality caveats affecting confidence
 
 
 ## Overview

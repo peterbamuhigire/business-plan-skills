@@ -5,52 +5,57 @@ description: Generate the risk analysis section with risk identification, probab
 
 # Risk Analysis & Mitigation Skill
 
+## Overview
+
+Generate Section 12 of the business plan: the risk analysis. Use this skill to surface the risks that actually matter, assess their implications honestly, and show that management has credible mitigation logic.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when drafting or revising the risk analysis section for lenders, investors, grant funders, or internal review.
+- Use when the business needs a transparent assessment of market, operational, financial, regulatory, or team risk.
+- Use when mitigation and contingency planning are material to credibility.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use to produce a cosmetic risk table that avoids the real vulnerabilities.
+- Do not bury severe risks behind vague language or optimistic tone.
+- Do not present mitigation steps that the business cannot execute.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Core business model, funding logic, implementation plan, and operating assumptions
+- Country, sector, and regulatory context shaping the main risk environment
+- Known dependencies on people, suppliers, technology, licences, or external markets
+- Adjacent plan sections whose claims create or mitigate material risks
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify the major risk categories from the actual business model and context.
+2. Prioritise the highest-consequence and highest-likelihood risks.
+3. State mitigation actions, contingencies, and ownership clearly.
+4. Check that risk treatment aligns with implementation, operations, and funding capacity.
+5. Reconcile the risk section with projections, compliance, and team realities.
+6. Flag residual risks that should remain visible to the reader.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The section identifies the real threats to viability rather than generic business risks.
+- Likelihood, impact, and mitigation logic are proportionate and believable.
+- Risk language builds confidence through honesty, not through denial.
+- Material residual risks remain explicit.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Risk registers full of low-signal generic items.
+- Claiming strong mitigation where no budget, owner, or process exists.
+- Hiding regulatory, concentration, or founder-dependence risk.
+- Risk statements that contradict the financial model or implementation plan.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A finished or revised Section 12 risk analysis
+- A prioritised risk register with mitigation and contingency logic
+- Residual-risk notes and dependencies for funding or diligence review
 
 
 

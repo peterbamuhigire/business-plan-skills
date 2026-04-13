@@ -5,52 +5,57 @@ description: Raises the quality of all text output in the business plan suite  m
 
 # Writing Quality
 
+## Overview
+
+Use this skill as the language-quality layer for the suite. It sharpens clarity, structure, persuasiveness, and narrative force across business-plan and proposal writing without changing the underlying commercial logic.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when drafting, revising, or polishing business-plan prose.
+- Use when the content is directionally correct but the writing is weak, bloated, or unconvincing.
+- Use alongside section skills when language quality materially affects credibility.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use to invent missing evidence or strategy.
+- Do not improve style in a way that softens necessary precision.
+- Do not replace section-specific logic with generic polished wording.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Draft text to improve
+- Audience and document context
+- Any non-negotiable facts, figures, or terminology
+- Adjacent sections where tone or phrasing must stay consistent
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify what the reader must understand and decide.
+2. Tighten the prose around that purpose using the rules below.
+3. Remove ambiguity, filler, and passive evasion.
+4. Improve flow, emphasis, and narrative sequence without distorting meaning.
+5. Reconcile language choices with the intended audience and document type.
+6. Flag where the draft is weak because the underlying thinking is weak.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The writing is clearer, tighter, and more persuasive.
+- Meaning stays intact while readability improves.
+- The prose supports decision-making rather than sounding merely polished.
+- Tone matches the document and audience.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Replacing precision with vague eloquence.
+- Polishing unsupported claims instead of fixing them.
+- Letting sentence craft overpower logic and structure.
+- Applying one tone uniformly across all audiences.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- Improved draft language with stronger clarity and persuasion
+- Notes on structural or evidence issues the prose cannot solve
+- A sharper language baseline for adjacent section work
 
 
 

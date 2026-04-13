@@ -5,52 +5,57 @@ description: Operational meta-skill that converts the annual business plan into 
 
 # Quarterly Game Plan Meta-Skill
 
+## Overview
+
+Use this meta-skill to turn annual strategy into focused 90-day execution. It narrows the plan into a quarterly objective, accountable actions, and short-cycle review discipline.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when converting a completed plan into quarterly execution sprints.
+- Use when leadership needs a practical 90-day operating plan rather than an annual narrative.
+- Use when accountability, cadence, and execution focus have started to drift.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use before the annual priorities and constraints are clear.
+- Do not create a quarterly plan that tries to advance every objective at once.
+- Do not treat this as a project list with no success metric or review rhythm.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Annual plan priorities and current-quarter context
+- Team capacity, resource constraints, and timing assumptions
+- Any scorecards, KPIs, or implementation milestones already defined
+- Operational realities that affect quarterly sequencing
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify the single most important objective for the quarter.
+2. Break that objective into the few accountable actions that matter most.
+3. Sequence work weekly and assign ownership and review checkpoints.
+4. Reconcile the game plan with annual goals, cash limits, and operating constraints.
+5. Define how progress and slippage will be reviewed.
+6. Flag overload, dependency, or priority-conflict risks.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The quarter has one dominant objective and a manageable action set.
+- Owners, cadence, and success measures are clear.
+- The plan is realistic for the available capacity.
+- Review discipline is built in from the start.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Quarterly plans that simply restate the annual plan.
+- Too many priorities and no forcing function.
+- Actions with no owners or no review points.
+- Game plans that ignore cash, staffing, or dependency constraints.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A focused 90-day game plan
+- Ownership, review cadence, and success measures
+- Any constraints or dependency risks requiring leadership attention
 
 
 

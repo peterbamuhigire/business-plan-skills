@@ -5,52 +5,57 @@ description: Copywriting and content creation standards for website pages, blog 
 
 # Content Writing Skill
 
+## Overview
+
+Use this skill as the general copywriting and editing standard for websites and marketing content. It applies structure, clarity, persuasion, and scannability across page copy, blog text, and other website content.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when drafting or editing website copy of any kind.
+- Use when the task needs stronger headlines, flow, readability, or persuasive structure.
+- Use as a cross-cutting writing standard alongside more specific content skills.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use to invent missing strategy, positioning, or proof.
+- Do not override a more specific skill that already owns the artifact.
+- Do not confuse polished copy with message clarity or business logic.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Draft copy or a clear content brief
+- Audience, page purpose, and conversion goal
+- Brand, language, and tone context
+- Any adjacent pages or content whose wording must stay aligned
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify what the page or piece of content must achieve.
+2. Clarify the reader, promise, and next action.
+3. Draft or revise the copy for clarity, persuasion, and scanability.
+4. Reconcile tone and terminology with the brand and surrounding content.
+5. Tighten weak sections, headlines, and transitions.
+6. Flag where better inputs or stronger evidence are needed.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The copy is clear, useful, and conversion-aware.
+- Headlines and structure make the content easy to navigate.
+- Tone matches the intended audience and brand.
+- The writing supports the business goal of the page.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Vague marketing language with no concrete meaning.
+- Long paragraphs that hide the main point.
+- Writing that sounds polished but says nothing new.
+- Copy choices that conflict with other live pages.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- Improved or newly drafted website copy
+- Stronger headings, flow, and calls to action
+- Any messaging gaps that need strategic clarification
 
 
 

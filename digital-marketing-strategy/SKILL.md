@@ -5,52 +5,57 @@ description: Generate the digital marketing strategy and AI strategy sections fo
 
 # Digital Marketing Strategy Skill
 
+## Overview
+
+Use this skill to design the digital marketing layer of a business plan or growth plan. It covers channels, online acquisition logic, and AI-assisted marketing workflows where those materially affect growth.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when a plan needs a digital marketing strategy, online channel plan, or AI-assisted marketing workflow.
+- Use when digital acquisition and digital presence are meaningful parts of the go-to-market model.
+- Use when the standard marketing section needs deeper digital detail.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use without a defined offer, audience, and commercial objective.
+- Do not confuse a channel list with a strategy.
+- Do not force digital channels into a model where they are not economically relevant.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Offer, audience, and business goal
+- Existing online presence, channel constraints, and budget assumptions
+- Geography and language context affecting digital behaviour
+- Any wider marketing, sales, or AI-integration assumptions
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify the audience, channels, and digital objectives that matter.
+2. Select the most relevant online acquisition and retention paths.
+3. Define content, paid, social, search, and automation roles where appropriate.
+4. Reconcile the digital plan with budget, operations, and sales capacity.
+5. Integrate AI-assisted marketing only where it improves execution materially.
+6. Flag weak channel assumptions or capability gaps.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The digital plan is commercially grounded and channel-specific.
+- Channel choices match the audience and budget reality.
+- AI usage is practical, not ornamental.
+- Digital activity connects back to measurable growth outcomes.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Recommending every major digital channel at once.
+- Assuming online demand without proof of audience behaviour.
+- Treating AI tooling as strategy.
+- Digital spend assumptions that do not reconcile with projections.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A digital marketing strategy and channel plan
+- AI-assisted marketing recommendations where justified
+- Explicit assumptions, metrics, and capability gaps
 
 
 

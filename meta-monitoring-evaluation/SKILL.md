@@ -5,52 +5,57 @@ description: Operational meta-skill that converts the business plan into a livin
 
 # Monitoring & Evaluation (M&E) Meta-Skill
 
+## Overview
+
+Use this meta-skill after the plan is built to convert it into a measurable management system. It defines KPIs, reporting rhythms, ownership, and review structures so the plan can be run, not just written.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when translating a completed or near-complete plan into execution monitoring.
+- Use when funders, management, or boards need KPI dashboards and reporting logic.
+- Use when accountability and review cadence matter as much as strategy design.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use before the strategy, operations, and financial model are stable enough to measure.
+- Do not create KPI lists with no clear strategic owner or review cadence.
+- Do not confuse monitoring with retrospective narrative reporting only.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Completed or near-complete plan sections
+- Strategic goals, operating model, and financial targets
+- Audience requirements for reporting or accountability
+- Any existing scorecards, templates, or funder indicators
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify the decisions the monitoring system must support.
+2. Build the scorecard and KPI structure from strategy, not from random metrics.
+3. Assign ownership, frequency, thresholds, and review cadence.
+4. Reconcile indicators with the plan's financial, operational, and impact logic.
+5. Make reporting usable for managers, funders, and accountability structures.
+6. Flag metrics that are impossible to measure or easy to game.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- KPIs reflect strategy and operating reality.
+- Metrics, thresholds, and owners are clear enough to manage.
+- Reporting cadence matches the business rhythm.
+- The system can be used without constant reinterpretation.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- KPI dashboards disconnected from strategy.
+- Too many indicators and no real decision logic.
+- Measures with no owner, no cadence, or no data source.
+- Reporting frameworks that conflict with financial or operational definitions.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A measurable M&E framework, dashboard, and review structure
+- KPI ownership and reporting cadence
+- Any monitoring gaps or data-collection risks
 
 
 

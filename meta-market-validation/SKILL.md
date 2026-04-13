@@ -5,52 +5,57 @@ description: Dual-mode meta-skill for (A) pre-plan field validation of business 
 
 # Market Validation Meta-Skill
 
+## Overview
+
+Use this meta-skill to validate or audit market claims. It supports both pre-plan field validation and post-draft evidence review so market logic is grounded in real customer signal rather than narrative convenience.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use before writing when market assumptions still need field validation.
+- Use after drafting when market claims need an evidence audit.
+- Use when the plan's credibility depends on proving demand and customer behaviour.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use to launder speculation into “validated” language.
+- Do not treat desk research alone as customer validation.
+- Do not keep validating forever when a clear decision can already be made.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Business idea, offer, and target-customer assumptions
+- Existing market evidence, customer conversations, or draft claims
+- Country, sector, and channel context where behaviour matters
+- Adjacent market, target-market, and sales sections where consistency matters
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Decide whether the task is pre-plan validation or post-plan auditing.
+2. Identify the market assumptions or claims that matter most.
+3. Gather or test evidence against those claims.
+4. Distinguish validated findings from hypotheses and weak signals.
+5. Reconcile the results with the plan's narrative and numbers.
+6. Flag unsupported claims that should be revised or removed.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The output clearly separates evidence from assumption.
+- Validation work is targeted at decisions that matter.
+- Weak claims are surfaced rather than buried.
+- Findings improve the plan's credibility and focus.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Using anecdote as proof of market demand.
+- Auditing market claims without checking their financial implications.
+- Equating interest with purchasing behaviour.
+- Leaving unsupported claims in place because they “sound strategic”.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A validation plan, evidence audit, or market-claim review
+- Clear distinction between validated facts and open assumptions
+- Recommended revisions or next tests
 
 
 

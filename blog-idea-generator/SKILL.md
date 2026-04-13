@@ -5,52 +5,57 @@ description: Generate 15-25 targeted blog post ideas with 200-word summaries for
 
 # Blog Idea Generator
 
+## Overview
+
+Use this skill to generate a strong blog-topic pipeline grounded in the client's business, audience, and existing content. It is the ideation layer for website content programmes, not the article-writing layer.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when the user wants blog topic ideas, editorial angles, or a content pipeline.
+- Use when populating or refreshing a topic backlog such as `topic-ideas.md`.
+- Use when existing website content should inform what gets written next.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use for writing the full article; hand off to the blog-writing workflow.
+- Do not generate topics without checking for duplication against existing content.
+- Do not produce generic SEO clichés unrelated to the client's expertise.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Client website, services, audience, and positioning context
+- Existing blog or content inventory
+- Any language, SEO, or campaign priorities
+- Constraints on tone, geography, or commercial focus
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Read the available site and content context before ideating.
+2. Identify the most relevant audience problems, search intents, and expertise angles.
+3. Generate topic ideas using the most appropriate ideation methods.
+4. Filter out duplicates, weak angles, and topics the client cannot credibly own.
+5. Package the ideas with enough structure to support article drafting.
+6. Flag gaps in source context that limit topic quality.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- Topics are specific, relevant, and commercially useful.
+- Ideas align with the client's expertise and audience needs.
+- The list balances search demand, brand authority, and variety.
+- Each idea is developed enough to brief a writer.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- Generic “top 10 tips” ideas with no differentiation.
+- Repeating existing articles under slightly different titles.
+- Generating topics disconnected from the client's services or credibility.
+- Prioritising volume over quality and relevance.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A ranked or grouped list of blog ideas with usable briefs
+- Notes on content gaps, duplicates, or strategic opportunities
+- Any assumptions needing confirmation before writing begins
 
 
 

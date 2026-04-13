@@ -5,52 +5,57 @@ description: Generate SEO-optimised, bilingual blog articles with featured image
 
 # Blog Writer  Article Generation Skill
 
+## Overview
+
+Use this skill to write and publish a full blog article workflow, including topic development, article drafting, on-page structure, and website integration where the project supports it. It owns the article artifact, not just the idea stage.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when the user asks for a blog article, blog post, or publishable long-form website content.
+- Use when the task includes article structure, SEO, and website content integration.
+- Use when an approved topic needs to become a finished article.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use for raw idea generation without committing to article production.
+- Do not write on topics the client cannot credibly support with expertise or examples.
+- Do not prioritise SEO formulas over usefulness, voice, and trustworthiness.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Topic, audience, and commercial purpose of the article
+- Client voice, service context, and existing site structure
+- Language, SEO, and publishing requirements
+- Any related assets, references, or prior article ideas
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Read the client and site context before drafting.
+2. Confirm the article angle, audience intent, and outcome the article should create.
+3. Draft the article with strong structure, human voice, and useful specificity.
+4. Apply SEO, design, and publishing integration requirements where relevant.
+5. Reconcile the article with brand voice, existing content, and site structure.
+6. Flag unsupported claims, weak sourcing, or missing assets.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The article is useful, credible, and publishable.
+- Voice feels human and specific to the client.
+- SEO and site-integration needs are met without degrading readability.
+- The article advances brand authority or demand generation.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- AI-sounding filler and recycled content patterns.
+- Writing for search engines instead of readers.
+- Publishing claims or case-study language the client cannot support.
+- Copying a visual or editorial pattern that conflicts with the existing site.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A finished article draft and related publishing updates where applicable
+- SEO and structural elements needed for publication
+- Any assumptions, sourcing gaps, or media dependencies
 
 
 

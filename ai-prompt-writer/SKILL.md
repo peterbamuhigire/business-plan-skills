@@ -5,52 +5,57 @@ description: Generate ready-to-use prompts for external AI tools and training gu
 
 # AI Prompt Writer
 
+## Overview
+
+Use this skill to generate ready-to-use prompts or prompt-writing guidance for external AI tools. It is a utility layer for structured prompting, not a substitute for doing the underlying strategic or writing work inside this repository.
+
 ## Use When
 
-- Use when this skill is the primary workflow for the requested task.
-- Use when creating, reviewing, or improving this skill's main artifact.
-- Use when this output must align with adjacent sections, assumptions, or audience requirements.
+- Use when the user needs a prompt for ChatGPT, Claude, Gemini, Midjourney, Sora, or another external AI tool.
+- Use when training a team to write better prompts for recurring workflows.
+- Use when the output should be a prompt package rather than the final artifact itself.
 
 ## Do Not Use When
 
-- Do not use when another section or meta-skill is the primary owner of the task.
-- Do not use when the required inputs are unavailable and cannot be stated transparently as assumptions.
-- Do not use for provider-specific UI behaviour; keep the workflow portable.
+- Do not use when the task can be completed directly inside the current workflow without a prompt handoff.
+- Do not use vague prompting to cover for weak task definition.
+- Do not assume one prompt format works equally well across all tools.
 
 ## Required Inputs
 
-- Business, client, or proposal context relevant to this skill
-- Country, audience, funder, or user context where relevant
-- Available assumptions, evidence, constraints, and dependencies
-- Adjacent section outputs where consistency matters
+- Target AI tool or tool category
+- Intended task, output format, and audience
+- Brand, country, or business context where relevant
+- Any must-include constraints, style rules, or source material
 
 ## Workflow
 
-1. Clarify the objective, audience, and scope for this skill.
-2. Gather the minimum required inputs and note any missing assumptions.
-3. Read the referenced materials only as needed.
-4. Produce or revise the artifact using the skill-specific method below.
-5. Reconcile the output with adjacent sections, numbers, risks, and evidence.
-6. Flag unresolved gaps, assumptions, or follow-up work.
+1. Identify the target tool, task, and output type.
+2. Clarify the audience, context, and constraints that the prompt must encode.
+3. Choose the right prompt structure for that tool and task.
+4. Draft the prompt so it is specific, testable, and easy to reuse.
+5. Reconcile the prompt with any brand, business, or quality constraints.
+6. Flag missing context that will weaken results.
 
 ## Quality Bar
 
-- Output is specific, decision-useful, and not generic
-- Assumptions are explicit where relevant
-- Claims align with the rest of the plan, proposal, or workflow
-- Wording is structured, concise, and audience-appropriate
+- The prompt is specific enough to drive high-quality output.
+- Instructions fit the target tool rather than a generic AI abstraction.
+- Constraints, audience, and quality requirements are explicit.
+- The prompt can be reused or taught without further explanation.
 
 ## Anti-Patterns
 
-- Generic filler that could describe any business or situation
-- Hidden assumptions or unsupported claims
-- Contradictions with financials, implementation, risk, or audience requirements
-- Provider-specific operating assumptions embedded in the portable workflow
+- One-line generic prompts with no context or constraints.
+- Prompt templates that mix incompatible tool expectations.
+- Using prompt polish to avoid clarifying the real task.
+- Handing off sensitive or high-stakes work without review instructions.
 
 ## Outputs
 
-- The primary artifact or analysis owned by this skill
-- Any key assumptions, open questions, and cross-skill dependencies
+- A ready-to-use prompt or prompt set
+- Optional training guidance or prompt-writing pattern
+- Any assumptions or missing context the user should resolve
 
 
 
