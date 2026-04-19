@@ -23,6 +23,8 @@ This is a collection of Claude Code skills for generating bankable business plan
 - Marketing sections follow Palo Alto's On Target framework
 - Implementation/M&E follows Jan B. King's game plan methodology
 - AI integration section is mandatory for 2026-era plans
+- Pricing discipline follows Kennedy/Marrs *No B.S. Price Strategy* — use `meta-pricing-strategy` skill + `book-extractions/kennedy-no-bs-price-strategy-extraction.md`. Never accept a plan with cost-plus or competitor-match pricing without running the 9 Failures audit and the 5 Propositions stack.
+- Sales and go-to-market copy apply Kennedy + Brunson direct-response frameworks — see `book-extractions/kennedy-no-bs-sales-success-extraction.md`, `kennedy-ultimate-sales-letter-extraction.md`, and `brunson-dotcomsecrets-ignite-extraction.md`.
 
 ### When Generating Plan Content
 

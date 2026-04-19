@@ -13,6 +13,7 @@ A modular collection of Claude Code skills for generating, validating, and deliv
 | Write a complete business plan | `01` through `15` (in order) |
 | Write a specific section | Invoke the numbered skill directly |
 | Validate an existing plan | `meta-bankability-scoring` |
+| Upgrade pricing / defend premium positioning | `meta-pricing-strategy` |
 | Stress-test the financials | `meta-financial-stress-test` |
 | Validate the market claims | `meta-market-validation` |
 | Convert the plan to action | `meta-quarterly-gameplan` |
@@ -48,10 +49,14 @@ Built on 30+ primary sources across strategy, finance, marketing, and management
 - Feld & Mendelson (2019) — Equity term sheets, cap tables, liquidation preference
 - Agrawal, Gans & Goldfarb (2022) — AI economics, prediction machines
 
-**Marketing and pitch:**
+**Marketing, pricing, and pitch:**
 - Klaff (2011) — *Pitch Anything* (STRONG method, frame control)
 - McGowan (2014) — *Pitch Perfect* (Hook-Meat-Payoff, delivery)
 - Gallo (2010), Duarte (2012) — presentation design standards
+- Kennedy & Marrs (2011) — *No B.S. Price Strategy* (9 price failures, 5 Propositions, Triangle of Preeminence, niche pricing, competing with free)
+- Kennedy (2004) — *No B.S. Sales Success* (23 strategies, 6-step process, takeaway selling, positioning-not-prospecting)
+- Kennedy (2000) — *The Ultimate Sales Letter* (28-step system, Power of a Sequence, Creative P.S.)
+- Brunson (2013) — *DotComSecrets Ignite* (Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution, Perfect Webinar)
 
 **Strategy and innovation:**
 - Teece (2010) — Business model vs strategy, dynamic capabilities
@@ -113,6 +118,7 @@ Invoke in order (02 → 15, then 01 last) to produce a complete plan.
 | `meta-monitoring-evaluation` | Converts plan into KPI dashboard, M&E framework, funder reporting obligations |
 | `meta-quarterly-gameplan` | Converts annual strategy into 90-day action sprints |
 | `meta-due-diligence` | DD readiness, outbound OSINT competitor intelligence, plan DD audit; data room structure |
+| `meta-pricing-strategy` | Audit and upgrade pricing strategy using Kennedy/Marrs *No B.S. Price Strategy*: 9 price failures, 5 Propositions, Triangle of Preeminence (Lycka), niche pricing lift, quid pro quo discounting, competing with free |
 
 ### Content and Marketing Skills
 
@@ -135,6 +141,17 @@ Invoke in order (02 → 15, then 01 last) to produce a complete plan.
 | `skill-writing` | Guide for authoring and extending skills in this suite |
 | `skill-safety-audit` | Safety validation for new or modified skills |
 | `update-claude-documentation` | Documentation maintenance workflow |
+
+### Book Extractions
+
+Primary-source reference material stored in `book-extractions/`. Read these when a skill references them; they carry the detailed frameworks, scripts, and Uganda/EA adaptation notes.
+
+| File | What It Contains |
+|---|---|
+| `kennedy-no-bs-price-strategy-extraction.md` | Kennedy/Marrs 9 Failures, 5 Propositions, Triangle of Preeminence, Hawaiian Fisherman, niche pricing, association principle, discount discipline, competing with free |
+| `kennedy-no-bs-sales-success-extraction.md` | Kennedy 23 Strategies, Positioning-Not-Prospecting, 6-Step Sales Process, Takeaway Selling, Proof hierarchy |
+| `kennedy-ultimate-sales-letter-extraction.md` | 28-step long-form system, Power of a Sequence, Hidden Benefit, Damaging Admission, Creative P.S. |
+| `brunson-dotcomsecrets-ignite-extraction.md` | Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution (35 beats), OTO Bump, Perfect Webinar, Soap Opera + Seinfeld |
 
 ### Country Context
 
