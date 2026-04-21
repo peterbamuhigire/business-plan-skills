@@ -176,6 +176,7 @@ State which downstream skills are ready to engage and in what order, based on th
 - If a bank loan proposal is the primary document: prioritise `10-financial-projections`, `11-funding-request`, and `12-risk-analysis` first.
 - If a grant application: begin with `11b-grant-proposal` and cross-reference `13-implementation-timeline`.
 - If significant gaps remain: complete Phase 2 before engaging any section skill.
+- If digitisation, systems redesign, channel modernisation, or platform strategy is central: run `meta-digital-transformation` before finalising Sections 07, 08, 10, 13, and 14.
 
 ---
 
@@ -206,6 +207,19 @@ Analyse the draft brief and generate **57 follow-up questions**. These are not s
 2. Update Section 11 (Consultant Assessment) to reflect the complete picture.
 3. Update Section 12 (Recommended Next Steps) with a confirmed sequence of downstream skills.
 4. State explicitly: **"This brief is finalised. It is ready to hand off to the following skills:"**  then list the specific skills by name.
+
+## Digital Readiness Supplement
+
+When the business is digitally enabled, digitally exposed, operationally inefficient, omni-channel, or likely to need systems investment, ask these additional questions before handoff:
+
+1. What systems do you currently use to run the business  for sales, customer records, accounting, stock, delivery, production, reporting, or staff coordinationSection 
+2. Where are the biggest delays, manual tasks, double-entry tasks, or quality failures in the current workflowSection 
+3. Which customer interactions already happen through digital channels  website, WhatsApp, social media, email, marketplace platforms, mobile app, or POSSection 
+4. What useful data do you currently collect, and what do you wish you could measure but cannot todaySection 
+5. Are there any planned technology investments  website rebuild, CRM, ERP, e-commerce, automation, AI, mobile app, or new equipment with softwareSection 
+6. What budget, skills, or trust constraints might limit digitisation or automationSection 
+
+If these answers reveal a material digital-transformation question, route to `meta-digital-transformation` before or alongside `14-ai-integration`.
 
 ---
 

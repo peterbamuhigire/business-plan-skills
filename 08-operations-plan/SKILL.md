@@ -77,6 +77,7 @@ Generate a detailed operations plan that demonstrates the business can deliver o
 10. **Scalability plan**  How operations scale with growth
 11. **Cycle-time improvement logic**  How the business reduces delay before adding more cost
 12. **Customer-experience operations**  How operations support the full buying, delivery, and support journey
+13. **Digitisation and systems layer**  Which workflows stay manual, which are digitised, which tools support them, and why
 
 ### Process Documentation Format
 
@@ -171,12 +172,14 @@ Rate the business's operational maturity (target Level 3+ for investor confidenc
 7. Set operational KPIs with targets
 8. Identify which requirements can be questioned, deleted, simplified, or accelerated before any automation spend is proposed
 9. Map where operational design affects the customer experience directly
+10. State which operational data must be captured to manage quality, throughput, stock, service, and owner visibility
 
 ## Quality Criteria
 
 - Processes are specific enough to execute, not just described at a high level
 - Supply chain risks are identified with mitigation plans
 - Technology choices are justified (not just trendy)
+- Digitisation choices are proportional to the business stage and remove a real bottleneck
 - Scalability plan shows how operations handle 2x, 5x, 10x growth
 - Staffing plan aligns with financial projections in section 10
 - Operations plan shows where delay is removed before new tools are added
@@ -266,6 +269,7 @@ The most important cost drivers for Uganda/EA SMEs are typically: **scale** (rea
 - **Product management frameworks**: See `../03-products-services/references/product-management-frameworks.md` for product scaling strategies (8 approaches), experimentation techniques, and Key Value Areas for operational metrics  from Verwijs et al
 - **Business process management**: See `references/business-process-management.md` for BPM lifecycle, Devil's Quadrangle performance trade-offs, value-added analysis, improvement technique wheel (SALT filter), 29 redesign heuristics, process maturity assessment, process metrics (CTE, Little's Law), scope definition, and process landscape mapping  from Dumas et al. (Springer, 2013) and Page (AMACOM, 2015)
 - **Hypergrowth operations redesign**: See `references/hypergrowth-operations-algorithm.md` for McNeill's five-step redesign sequence (question, delete, simplify, accelerate, automate last), the whole-customer-experience operating lens, urgency and accountability practices, and dogfooding discipline. **Read when the operations challenge is speed, complexity, or customer friction rather than pure capacity shortage.**
+- **Digital operating-model redesign**: See `../book-extractions/rogers-digital-transformation-playbook-extraction.md`, `../book-extractions/molenaar-demand-driven-business-strategy-extraction.md`, and `../meta-digital-transformation/SKILL.md` when deciding whether the real operational move is workflow digitisation, data capture, platform participation, or subscription/service redesign rather than more headcount or paper process.
 - **Uganda operations context**: See `references/uganda-operations-context.md` for Uganda-specific operational infrastructure: power supply and backup (UMEME/UEDCL transition, UGX 720900/kWh grid tariff, generator and solar benchmarks), water supply (NWSC tariffs, borehole costs), Employment Act 2006 provisions (NSSF 15%, leave entitlements, redundancy pay, work permits), logistics and supply chain (Mombasa corridor lead times, SGR, cold chain), UNBS mandatory certification and EFRIS compliance, land tenure types (customary vs. registered), industrial parks (Namanve), and digital payment infrastructure (32M mobile money accounts, WhatsApp Business, EFRIS integration)  from IFC (2022), RSM/Baker Tilly (2025), NRC/Amanya (2025), and World Business Journal (2025)
 - **Small business bottleneck analysis, capacity utilisation, asset monetisation**: See `../07-marketing-sales-strategy/references/small-business-unconventional-strategy.md` (Chapter 9) for Kaza's operational efficiency framework
 - **Sustainable operations, lean green, and circular economy in Uganda**: See `references/sustainable-operations-framework.md` for the Quadruple Bottom Line operational test, SURF Framework (Sustainability Utilisation of Resources), 8 Lean Green waste types mapped to environmental impact, Industry 4.0 sustainability tools by Uganda SME feasibility, sustainable supply chain 5-question checklist, water and energy management with Uganda costs and payback periods, waste hierarchy with organic valorisation data, and worker wellbeing minimum standards under Employment Act 2006  Source: Waite (Routledge, 2023) and Kumar et al. (CRC, 2025). **Read when writing the sustainability subsection of the operations plan, specifying resource efficiency targets, or incorporating circular economy practices into operations.**

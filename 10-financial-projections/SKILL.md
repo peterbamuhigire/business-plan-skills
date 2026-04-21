@@ -77,6 +77,7 @@ Generate rigorous, transparent financial projections that withstand investor scr
 9. **Financial ratios** - Gross margin %, net margin %, burn rate, runway, current ratio, quick ratio, interest cover, debt-to-equity where relevant
 10. **Sensitivity analysis** - How projections change with key variable shifts (detailed in meta-financial-stress-test)
 11. **Valuation bridge** - For equity, blended-finance, or strategic-partnership cases, identify the inputs that `meta-valuation` will use: free cash flow, growth, margins, reinvestment, and terminal assumptions
+12. **Initiative-level business case** - For any major technology, expansion, or process investment, state the incremental cost, benefit, timing, and downside if it underdelivers
 
 ### Financial Projection Framework
 
@@ -154,6 +155,7 @@ Revenue projections contain both: treat costs as engineering estimates (forecast
 7. Compute key financial ratios and covenant-style checks
 8. Build the valuation bridge when Section 11 involves equity or blended capital
 9. Flag areas requiring sensitivity analysis
+10. For material initiatives, compare base case, preferred option, and do-nothing or low-investment alternative
 
 ## Quality Criteria (Rogoff's Bankability Standards)
 
@@ -166,6 +168,7 @@ Revenue projections contain both: treat costs as engineering estimates (forecast
 - Assumptions are conservative-to-moderate, not optimistic
 - Working-capital assumptions are explicit, not buried in balancing figures
 - When equity is involved, the model is ready for `meta-valuation` rather than forcing valuation to be guessed later
+- Major capex, systems, or digitisation bets show incremental economics rather than being buried in a lump-sum use-of-funds line
 
 ### Startup-Specific Financial Metrics
 
@@ -185,6 +188,7 @@ When projections don't work, adjust the **Six Revenue Dials**: average order val
 
 - **Budgeting and forecasting best practices**: See `references/budgeting-forecasting.md` for the budget definition and types (sales/cash/production), limiting budget factor, budgetary control and variance analysis (favourable/adverse), flexible budgets (adjusting for activity level), standard costing, performance measurement framework, financial and non-financial KPIs, benchmarking types; PLUS forecast vs. prediction vs. target vs. plan distinctions, TARAC/CARAT qualities of a good forecast, 7 symptoms of forecasting disease, rolling forecasts vs. annual budgets, driver-based modelling, demand vs. sales distinction, judgmental bias types, and a cash budget template  from ILM/Elsevier (2003), Morlidge & Player (Wiley, 2010), and Vandeput (Manning, 2023). **Read when building budget structure, variance tables, or reviewing forecasting assumptions.**
 - **Process costing and feasibility analysis**: See `references/process-costing-feasibility.md` for FTE calculation formulas, three-component process costing (people/tools/overhead), cost per transaction, hard vs soft savings, three-dimensional feasibility analysis (technical/economic/organisational), NPV/ROI/break-even methodology, and cost-benefit spreadsheet structure  from Page (AMACOM, 2015) and Dennis, Wixom & Tegarden (Wiley, 2021)
+- **Business-case discipline for major investments**: See `../book-extractions/haines-how-to-create-a-business-case-extraction.md` for incremental benefit logic, option comparison, do-nothing case, payback/NPV framing, and one-variable sensitivity analysis. **Read when the financial model includes major digitisation, automation, market-entry, or capacity-expansion spend.**
 - **Startup financial metrics**: See `references/startup-financial-metrics.md` for Metrics That Matter framework (3 worked examples by channel type), One-Minute Business Model, Six Revenue Dials, Freedom Number, burn rate guidelines by stage, and revenue curves by market type  from Blank & Dorf (2012) and Kagan (2024)
 - **Uganda wage and cost benchmarks (202526)**: See `references/uganda-wage-cost-benchmarks.md` for median monthly earnings (UGX 200,000 cash; UGX 260,000 cash+in-kind), inflation rates by expenditure category, key commodity/energy price changes, household spending patterns, poverty line thresholds, and a default assumptions template (exchange rates, tax rates, NSSF, lending rates)  from UBOS (NLFS 2021, UNHS 2023/24, CPI Feb 2026, KEI Q1 2025/26). **Read this file whenever setting salary assumptions, input cost escalation rates, or building the assumptions document for Uganda financial projections.**
 - **Uganda tax framework (ITA Cap.340 + 2025 amendments)**: See `references/uganda-tax-framework.md` for the complete Uganda tax system  corporate income tax (30%, with worked P&L example), PAYE bands and monthly computation example, VAT (18%, UGX 150M threshold, EFRIS compliance), WHT rates by payment type (6 Sched., 7 types), presumptive tax for turnovers <UGX 150M, rental income tax, NSSF (15% total), import duties and 2025 levies (1.5%+1.0% on CIF), the six 2025 amendments checklist, and tax schedule templates for all three financial statements. Also covers KPMG 2025 excise/stamp duty changes, export levies, and penalty waiver window. **Read for every Uganda financial projection  use the PAYE bands, corporate tax rate, and EFRIS compliance requirements. Do not estimate tax rates from memory.**

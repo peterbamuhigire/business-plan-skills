@@ -258,7 +258,16 @@ Each quarter should include at least one marketing experiment cycle (Kagan, 2024
 3. At month-end: double down on what works, kill what doesn't
 4. Carry the winning experiments into the next month
 
-### 11. Scorecard Review Gate
+### 11. Benefits-Realisation Check
+
+If the quarter includes a major investment or digital initiative, add a short business-case audit:
+
+- what benefit was expected this quarter
+- what actually happened
+- what assumption broke or held
+- what decision follows: continue, fix, rescope, or stop
+
+### 12. Scorecard Review Gate
 
 At the end of every month, classify the quarter by Balanced Scorecard status:
 
@@ -282,6 +291,7 @@ Review both:
 - Weekly accountability system is in place (Sunday reviews with buddy)
 - Quarterly plan identifies the real execution constraint, not just the activity list
 - Process-improvement quarters follow question -> delete -> simplify -> accelerate -> automate
+- Material initiatives include a benefits-realisation review rather than assuming progress from activity alone
 
 ## References
 

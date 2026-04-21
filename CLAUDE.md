@@ -23,8 +23,11 @@ This is a collection of Claude Code skills for generating bankable business plan
 - Marketing sections follow Palo Alto's On Target framework
 - Implementation/M&E follows Jan B. King's game plan methodology
 - AI integration section is mandatory for 2026-era plans
+- When digitisation or technology modernisation is a material part of the plan, run `meta-digital-transformation` before or alongside `14-ai-integration` so the plan covers customer networks, data, process redesign, business-model change, and investment logic rather than AI tooling alone.
 - Pricing discipline follows Kennedy/Marrs *No B.S. Price Strategy* — use `meta-pricing-strategy` skill + `book-extractions/kennedy-no-bs-price-strategy-extraction.md`. Never accept a plan with cost-plus or competitor-match pricing without running the 9 Failures audit and the 5 Propositions stack.
 - Sales and go-to-market copy apply Kennedy + Brunson direct-response frameworks — see `book-extractions/kennedy-no-bs-sales-success-extraction.md`, `kennedy-ultimate-sales-letter-extraction.md`, and `brunson-dotcomsecrets-ignite-extraction.md`.
+- Attraction, conversion, retention, and referral logic should be explicit in serious go-to-market sections; use `book-extractions/kennedy-magnetic-marketing-extraction.md` when the plan has channels but no commercial system.
+- Major systems, digitisation, expansion, or automation recommendations should survive a business-case test — problem, options, do-nothing case, incremental economics, timing, and sensitivity. Use `book-extractions/haines-how-to-create-a-business-case-extraction.md`.
 
 ### When Generating Plan Content
 

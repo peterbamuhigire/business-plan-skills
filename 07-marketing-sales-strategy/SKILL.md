@@ -81,6 +81,9 @@ Generate a comprehensive go-to-market strategy that shows exactly how the busine
 9. **Marketing budget**  Allocation by channel with expected ROI
 10. **Customer retention strategy**  Loyalty, support, upsell, referral programmes
 11. **Key metrics and KPIs**  Dashboard of marketing performance indicators
+12. **Attraction-conversion-retention system**  How prospects become leads, customers, repeat buyers, and referrers
+13. **Lead generation magnet or equivalent hand-raiser**  The first low-friction offer that earns permission to follow up
+14. **Narrow-market focus**  The sharpest viable audience or beachhead segment the business can credibly win first
 
 ## Marketing Evolution Positioning (Kotler 6.0)
 
@@ -496,6 +499,7 @@ See `references/storybrand-framework.md` for the complete BrandScript template, 
 19. **Create a StoryBrand BrandScript one-liner**  one clear sentence: "We help [character] who [problem] [achieve result]"
 20. **Write the messaging foundation**  confirm the BrandScript is complete: villain, external/internal/philosophical problems, guide empathy + authority, plan, direct + transitional CTA, failure stakes, success vision, and identity transformation arc
 21. Position the strategy against the business and customer lifecycle, growth ownership model, and macro conditions
+22. Specify the attraction engine, conversion sequence, retention cadence, and referral trigger rather than stopping at channel selection
 
 ## Quality Criteria
 
@@ -514,6 +518,7 @@ See `references/storybrand-framework.md` for the complete BrandScript template, 
 - PR and expert positioning plan is defined for profile building
 - Marketing evaluation system includes test-and-measure processes
 - Metrics dashboard covers acquisition, retention, and revenue
+- Attraction, conversion, retention, and referral logic are all explicit and commercially believable
 - Gap analysis quantifies the current state  future state gap for each customer segment
 - Startup sales plans show stage-appropriate team scaling (not jumping from founder to VP Sales)
 - Sales velocity formula is calculated for pipeline forecasting
@@ -552,3 +557,5 @@ See `references/storybrand-framework.md` for the complete BrandScript template, 
 - **Competitive intelligence for marketing  win/loss, shadowing, CSF, corporate reputation**: See `../06-competitive-analysis/references/competitive-analysis-methods-fleisher.md` for Win/Loss Analysis (structured post-sales debriefs to diagnose why deals are won or lost  adapted for Uganda's relationship-based sales culture), Shadowing (competitor shadow market plan methodology), Critical Success Factors Analysis (8 identification techniques for CSFs that drive customer decision-making), Corporate Reputation Analysis (Reputation Quotient, media monitoring, stakeholder perception mapping), and Competitive Positioning Analysis  Source: Fleisher & Bensoussan (FT Press, 2007). **Read when diagnosing a declining win rate, building a competitive marketing intelligence programme, or establishing what customers actually value in this industry.**
 - **Inbound marketing, PR, and self-promotion**: See `references/inbound-pr-self-promotion.md` for Edwards & Douglas's Marketing Pyramid (pull model  invest from word-of-mouth down), Referral Machine (4-step system), Networking Follow-Up System (card sorting, 90-day calendar), Article Marketing Loop (7-step write-publish-speak cycle), speaking as a marketing strategy (free-to-fee sequence with Uganda venues), press release inverted pyramid structure (5 paragraphs + newsworthiness criteria), feature story pitch (100-word letter rule, media kit contents), niche specialist positioning (generalist trap + positioning statement formula), special reports (5 "how-to" headline triggers), newsletter system (60/20/20 content formula), joint ventures and strategic alliances, relationship maintenance tactics, self-promotion identity tools (USP, naming, picture business card), daily marketing rhythm ("marketing hour"), Uganda/EA synthesis table, and combined 90-day low-budget promotion plan  Edwards, Edwards & Douglas (1991); Pinskey (1997). **Read when building an inbound marketing strategy, planning a PR or media campaign, designing a referral system, or creating a self-promotion plan for a service business.**
 - **Kennedy/Brunson direct-response frameworks**: See `../book-extractions/kennedy-no-bs-sales-success-extraction.md` (23 Strategies, 6-Step Sales Process, Takeaway Selling, Positioning-Not-Prospecting, Lead Generation via "Welcome Guest Process"), `../book-extractions/kennedy-ultimate-sales-letter-extraction.md` (28-step long-form, Power of a Sequence, Creative P.S., Hidden Benefit), and `../book-extractions/brunson-dotcomsecrets-ignite-extraction.md` (Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution 35-beat script, Perfect Webinar, Soap Opera + Seinfeld email sequences). **Read when building the sales section for a direct-response-driven business — info-products, coaching, masterminds, high-ticket services, info-marketing, e-commerce funnels, webinar-driven offers. Pair with `meta-pricing-strategy` for the pricing side of the same frameworks.**
+- **Magnetic marketing system design**: See `../book-extractions/kennedy-magnetic-marketing-extraction.md` for the Message-Market-Media triangle, lead generation magnet discipline, attraction-conversion-retention architecture, micro-agreement sequencing, and systematic referral logic. **Read when a plan has channels but lacks a commercial system.**
+- **Niche-first startup positioning**: See `../book-extractions/godin-startup-school-extraction.md` for narrow-market focus, remarkability, tribe logic, and anti-generic positioning. **Read when the offering sounds broad, undifferentiated, or aimed at "everyone".**

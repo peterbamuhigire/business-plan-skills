@@ -73,6 +73,7 @@ Generate an actionable implementation plan that converts the business strategy i
 6. **Resource requirements**  People, money, and tools needed per phase
 7. **Progress metrics**  How to measure milestone completion
 8. **Go/no-go decision points**  Gates between phases
+9. **Scope lock and change control**  What is in scope for each phase and how material changes are approved
 
 ### Pre-Phase 0: Regulatory Compliance Gate (Uganda)
 
@@ -183,6 +184,7 @@ Choose a go-live approach based on risk tolerance (Dennis et al., 2021):
 5. Map dependencies between milestones
 6. Assign ownership for every milestone
 7. Define go/no-go gates between phases
+8. State which milestone deliverables require formal acceptance and which changes trigger replanning
 
 ## Quality Criteria
 
@@ -194,8 +196,10 @@ Choose a go-live approach based on risk tolerance (Dennis et al., 2021):
 - Timeline aligns with funding runway (section 11) and hiring plan (section 09)
 - Change management plan addresses communication, training, and stakeholder adoption
 - Critical path is identified and monitored
+- Scope creep risks and change-control rules are explicit when implementation complexity is high
 
 ## References
 
 - **PE-grade initiative portfolio design and governance (Umbrex, 2025)**: See `../11-funding-request/references/value-creation-plan-primer.md` for initiative portfolio design framework (object/population/mechanism/evidence dimensions), scope and objective-setting methodology, impact estimation (addressable base  driver change  adoption curve  leakage), sequencing constraints (data/systems/people/cash/commercial timing/operating stability), decision gates, three-layer governance model (workstream/enterprise/board), forum design principles, reporting cadence and dashboards, escalation ladder, risk scenarios (base/upside/downside) with triggers and contingencies, and first 100 days prioritisation. **Read when designing the implementation governance structure, sequencing initiatives, or building the operating cadence for any investor or lender-facing plan.**
 - **Implementation and change management**: See `references/implementation-change-management.md` for three-phase implementation model, four parallel implementation tracks (change management/testing/communication/training), WBS structure, Gantt/PERT guidelines, PERT estimation formula, critical path analysis, conversion strategies, 4-step change management plan, adopter distribution model, 9 factors for successful change, and scope management  from Page (AMACOM, 2015) and Dennis, Wixom & Tegarden (Wiley, 2021)
+- **Project charter, scope, and change control**: See `../book-extractions/project-management-integration-scope-extraction.md` for objective vs scope vs deliverable distinctions, charter discipline, WBS thinking, acceptance criteria, and scope-creep control. **Read when the implementation plan covers major buildouts, system deployments, or multi-stakeholder execution.**

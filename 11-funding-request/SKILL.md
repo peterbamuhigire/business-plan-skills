@@ -167,6 +167,7 @@ Minimum outputs required from `meta-valuation`:
 6. For equity: calculate runway, define terms, and state exit logic
 7. For equity or blended capital: integrate `meta-valuation` output into the ask and terms
 8. Verify consistency against `meta-bankability-scoring/references/consistency-audit.md`
+9. Where material technology, systems, or expansion spend is requested, include a short business-case rationale: problem solved, option chosen, expected benefit, timing, and downside controls
 
 ## Quality Criteria
 
@@ -177,6 +178,7 @@ Minimum outputs required from `meta-valuation`:
 - For bank loans: run `meta-bankability-scoring` before submission
 - For equity: runway reaches the next major milestone and exit logic is realistic
 - For equity: valuation comes from `meta-valuation`, not unsupported negotiation positioning
+- Material technology and expansion line items are justified by execution logic and incremental benefit, not by vague modernisation language
 
 ## References
 
@@ -191,6 +193,7 @@ Minimum outputs required from `meta-valuation`:
 - `references/uganda-financial-sector-regulatory.md` - financing-channel selection and compliance
 - `references/msme-financing-options-ea.md` - financing fit by stage and business maturity
 - `references/africa-infrastructure-financing.md` - relevant for infrastructure, PPP, and blended-finance cases
+- `../book-extractions/haines-how-to-create-a-business-case-extraction.md` - use when the ask includes a major system, automation, capacity, or market-entry investment that needs clearer option logic and incremental benefits
 - `meta-bankability-scoring/SKILL.md` - bank readiness scoring and consistency checks
 - `meta-due-diligence/SKILL.md` - DD readiness before investor or DFI outreach
 - `meta-presentation-design/SKILL.md` - ask-slide and use-of-funds presentation standards

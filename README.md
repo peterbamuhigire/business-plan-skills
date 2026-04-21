@@ -2,7 +2,7 @@
 
 A modular collection of Claude Code skills for generating, validating, and delivering bankable business plans. Each section of a professional business plan is a standalone skill — invoke individually or chain to produce a complete investor-ready document.
 
-**40 skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
+**41 skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
 
 ---
 
@@ -15,6 +15,7 @@ A modular collection of Claude Code skills for generating, validating, and deliv
 | Validate an existing plan | `meta-bankability-scoring` |
 | Upgrade pricing / defend premium positioning | `meta-pricing-strategy` |
 | Stress-test the financials | `meta-financial-stress-test` |
+| Build a digitisation / digital-transformation roadmap | `meta-digital-transformation` |
 | Validate the market claims | `meta-market-validation` |
 | Convert the plan to action | `meta-quarterly-gameplan` |
 | Create a pitch deck | `pitch-deck` (orchestrates `meta-pitch-preparation` + `meta-presentation-design`) |
@@ -63,6 +64,11 @@ Built on 30+ primary sources across strategy, finance, marketing, and management
 - Mangematin et al. (2017) — 4V business model framework
 - Digital Business Strategy (2024) — 6D model, Three Horizons, Doblin 10 types
 - Cunningham (2014) — *Berkshire Beyond Buffett* (culture as moat)
+- Rogers (2016) — five domains of digital transformation: customers, competition, data, innovation, value
+- Molenaar (2022) — demand-driven strategy, value networks, product-as-a-service, digital leadership
+- *Business Models for E-Commerce* — demand-side, supply-side, collaborative, and transaction-model design
+- Haines (2022) — business-case discipline for major investments, options, incremental economics, and benefits audit
+- Kennedy and Walsh-Phillips (2018) — attraction, conversion, retention, lead magnets, and referral systems
 
 **Uganda / East Africa context:**
 - IFC/World Bank: CPSD Uganda (2022), Human Capital Review (2025)
@@ -115,6 +121,7 @@ Invoke in order (02 → 15, then 01 last) to produce a complete plan.
 | `meta-bankability-scoring` | CAMPARI 28-item checklist; bank loan readiness scoring; 12-point cross-section consistency audit |
 | `meta-financial-stress-test` | 4-scenario stress model, Uganda historical shocks, DSCR stress test, Early Warning Dashboard |
 | `meta-market-validation` | Validates market claims against real data; MECE issue trees; flags unsupported assumptions |
+| `meta-digital-transformation` | Diagnoses digital maturity, prioritises digitisation and business-model modernisation, and links technology choices to customer value, operations, data, and business-case logic |
 | `meta-monitoring-evaluation` | Converts plan into KPI dashboard, M&E framework, funder reporting obligations |
 | `meta-quarterly-gameplan` | Converts annual strategy into 90-day action sprints |
 | `meta-due-diligence` | DD readiness, outbound OSINT competitor intelligence, plan DD audit; data room structure |
@@ -152,6 +159,14 @@ Primary-source reference material stored in `book-extractions/`. Read these when
 | `kennedy-no-bs-sales-success-extraction.md` | Kennedy 23 Strategies, Positioning-Not-Prospecting, 6-Step Sales Process, Takeaway Selling, Proof hierarchy |
 | `kennedy-ultimate-sales-letter-extraction.md` | 28-step long-form system, Power of a Sequence, Hidden Benefit, Damaging Admission, Creative P.S. |
 | `brunson-dotcomsecrets-ignite-extraction.md` | Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution (35 beats), OTO Bump, Perfect Webinar, Soap Opera + Seinfeld |
+| `kennedy-magnetic-marketing-extraction.md` | Message-Market-Media triangle, attraction-conversion-retention system, lead magnets, follow-up sequencing, retention and referral discipline |
+| `godin-startup-school-extraction.md` | Narrow-market focus, remarkability, tribe logic, anti-generic positioning |
+| `business-models-ecommerce-extraction.md` | Digital transaction models, supply-side and collaborative commerce, revenue and cost logic for e-commerce |
+| `rogers-digital-transformation-playbook-extraction.md` | Five domains of digital transformation, customer networks, platforms, data assets, rapid experimentation, value adaptation |
+| `molenaar-demand-driven-business-strategy-extraction.md` | Demand-driven redesign, outside-in logic, value networks, network effects, product-as-a-service |
+| `haines-how-to-create-a-business-case-extraction.md` | Business-case framing, option analysis, do-nothing case, incremental economics, sensitivity, benefits audit |
+| `practical-small-business-guides-extraction.md` | Practical SME controls, owner bottlenecks, customer experience, branding basics, proportionate digital adoption |
+| `project-management-integration-scope-extraction.md` | Objective/scope/deliverable discipline, project charter logic, WBS, change control, scope-creep prevention |
 
 ### Country Context
 
@@ -201,6 +216,12 @@ Use the pitch-deck skill to build an investor pitch deck from this business plan
 
 ```
 Use the idea-testing skill to evaluate whether this business idea is worth developing into a full plan
+```
+
+### Build a digitisation roadmap for an existing business
+
+```
+Use the meta-digital-transformation skill to identify the most practical ways this business should digitise its sales, operations, and customer experience over the next 12 months
 ```
 
 ---

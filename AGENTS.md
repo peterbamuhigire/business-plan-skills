@@ -68,6 +68,10 @@ When execution systems matter, also load:
 - `meta-monitoring-evaluation`
 - `meta-quarterly-gameplan`
 
+When the plan or strategy must explain how the business should digitise, modernise its model, or use technology intelligently beyond a narrow AI section, also load:
+
+- `meta-digital-transformation`
+
 When preparing decks or presentations, also load:
 
 - `meta-pitch-preparation`
@@ -81,6 +85,7 @@ When preparing decks or presentations, also load:
 - Proposal work: `proposal-architect` plus any relevant sector or funding skills
 - Pitch or deck work: `meta-pitch-preparation` + `meta-presentation-design`
 - Execution planning: `meta-monitoring-evaluation` + `meta-quarterly-gameplan`
+- Digital-first or technology-modernisation strategy: baseline flow + `meta-digital-transformation` + `14-ai-integration` where AI is materially relevant
 
 ## Core Rules
 
@@ -90,6 +95,8 @@ When preparing decks or presentations, also load:
 - Keep `SKILL.md` concise. Move frameworks, examples, and long teaching content into `references/`.
 - Keep skills declarative, workflow-first, and tool-agnostic.
 - Use British English spelling where natural for the repo.
+- Any recommendation to digitise, automate, launch a platform, or buy major systems must show customer logic, operating logic, and investment logic - not trend language alone.
+- Prefer SMART, context-fit, realistically staged digitisation over all-at-once transformation promises.
 
 ## Done Means
 
@@ -102,6 +109,7 @@ A high-stakes output is not complete unless:
 - risks are decision-relevant
 - appendices or evidence support the major claims
 - the output matches the audience mode: bank, investor, DFI, grant, or strategic partner
+- the digital strategy, if included, is commercially justified, operationally realistic, and integrated with the business model rather than bolted on
 
 ## Verification
 
