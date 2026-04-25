@@ -2,7 +2,9 @@
 
 ## Project Structure
 
-This is a collection of Claude Code skills for generating bankable business plans. Each folder is a self-contained skill with a `SKILL.md` and optional `references/` directory.
+This is a collection of Claude Code skills for generating bankable business plans. Active skills live under `skills/<skill-name>/SKILL.md`; each skill folder is self-contained with optional `references/`.
+
+The repository root should contain project documentation plus `docs/`, `skills/`, and `projects/` where relevant. Keep `docs/`, `.git`, `tools/`, and unrelated non-skill operational directories at root unless the directory itself is an actual skill with its own root `SKILL.md`.
 
 ### Naming Conventions
 

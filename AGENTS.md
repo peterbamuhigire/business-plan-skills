@@ -4,23 +4,23 @@
 
 This repository is a dual-surface skills suite for generating bankable, investor-grade business plans, proposals, pitch materials, and execution frameworks.
 
-The portable unit is the skill directory:
+The portable unit is the skill directory under `skills/`:
 
-- `SKILL.md` is the canonical shared instruction surface for both Codex and Claude Code
-- `references/` stores deeper frameworks, examples, checklists, and long-form material
+- `skills/<skill-name>/SKILL.md` is the canonical shared instruction surface for both Codex and Claude Code
+- `skills/<skill-name>/references/` stores deeper frameworks, examples, checklists, and long-form material
 - `AGENTS.md` stores repo-wide orchestration, routing, constraints, and verification expectations
 
 ## Current Layout
 
-Skills currently live at the repository root as skill directories such as:
+Skills live under `skills/` as skill directories such as:
 
-- `00-client-intake`
-- `01-executive-summary`
-- `10-financial-projections`
-- `meta-consulting-synthesis`
-- `meta-valuation`
+- `skills/00-client-intake`
+- `skills/01-executive-summary`
+- `skills/10-financial-projections`
+- `skills/meta-consulting-synthesis`
+- `skills/meta-valuation`
 
-Do not assume a `/skills` subtree exists. In this repo, the root-level skill directories are the active skill surface.
+Root should contain project documentation plus `docs/`, `skills/`, and `projects/` where relevant. Leave `docs/`, `projects/`, `.git`, `tools/`, and other non-skill operational directories at root unless the directory itself is an actual skill with its own root `SKILL.md`.
 
 ## Canonical Authoring Standard
 
@@ -46,8 +46,8 @@ Use this shared structure inside skills whenever possible:
 
 For the canonical template and migration rules, see:
 
-- `skill-writing/references/dual-compatible-skill-template.md`
-- `skill-writing/references/dual-surface-migration-rules.md`
+- `skills/skill-writing/references/dual-compatible-skill-template.md`
+- `skills/skill-writing/references/dual-surface-migration-rules.md`
 
 ## Default Baseline
 
@@ -115,7 +115,7 @@ A high-stakes output is not complete unless:
 
 Before treating significant skill changes as complete:
 
-- validate new skills with `python skill-writing/scripts/quick_validate.py <skill-dir>`
+- validate new skills with `python skills/skill-writing/scripts/quick_validate.py skills/<skill-name>`
 - update references when the workflow changes materially
 - update evaluation docs if repository capability materially changes
 - prefer spot verification of modified skills and routing dependencies

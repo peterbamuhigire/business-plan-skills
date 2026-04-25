@@ -2,7 +2,7 @@
 
 A modular collection of Claude Code skills for generating, validating, and delivering bankable business plans. Each section of a professional business plan is a standalone skill — invoke individually or chain to produce a complete investor-ready document.
 
-**41 skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
+**48 skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
 
 ---
 
@@ -79,6 +79,8 @@ Built on 30+ primary sources across strategy, finance, marketing, and management
 ---
 
 ## Skill Directory
+
+Skills live under `skills/<skill-name>/SKILL.md`. Tables below list skill names; the filesystem path is always `skills/<skill-name>/`.
 
 ### Core Plan Sections
 
@@ -230,75 +232,43 @@ Use the meta-digital-transformation skill to identify the most practical ways th
 
 ```
 business-plan-skills/
-├── 00-plan-assembly/          # Plan assembly and funder identification
-├── 01-executive-summary/      # Section 01 — Executive Summary
-├── 02-company-overview/       # Section 02 — Company Overview
-│   └── references/            # Mission/vision, legal structures, Uganda doing business
-├── 03-products-services/      # Section 03 — Products & Services
-│   └── references/            # Business models, pricing strategy, product lifecycle
-├── 04-market-analysis/        # Section 04 — Market Analysis
-│   └── references/            # Uganda macro, IFC/World Bank data, trade frameworks
-├── 05-target-market/          # Section 05 — Target Market
-│   └── references/            # Consumer demographics, segmentation
-├── 06-competitive-analysis/   # Section 06 — Competitive Analysis
-│   └── references/            # Porter, Ohmae, Teece, competitive metrics
-├── 07-marketing-sales-strategy/  # Section 07 — Marketing & Sales
-│   └── references/            # Kotler 6.0, social media, small business strategy
-├── 08-operations-plan/        # Section 08 — Operations Plan
-│   └── references/            # BPM lifecycle, value chain, Uganda operations
-├── 09-management-team/        # Section 09 — Management Team
-│   └── references/            # Leadership, Berkshire culture, Uganda labour market
-├── 10-financial-projections/  # Section 10 — Financial Projections
-│   └── references/            # Uganda tax, financial templates, IP framework
-├── 11-funding-request/        # Section 11 — Funding Request
-│   └── references/            # Valuation, term sheets, ESMP template
-├── 11b-grant-proposal/        # Grant proposals (LogFrame, Theory of Change)
-├── 12-risk-analysis/          # Section 12 — Risk Analysis
-│   └── references/            # Uganda risk context, global trade risks, COSO
-├── 13-implementation-timeline/ # Section 13 — Implementation Timeline
-├── 14-ai-integration/         # Section 14 — AI Integration
-│   └── references/            # AI economics, digital innovation strategy
-├── 15-appendices/             # Section 15 — Appendices
-│   └── references/            # Document templates, bank submission checklist
-├── pitch-deck/                # Unified pitch deck skill (deck + delivery)
-├── meta-pitch-preparation/    # Pitch strategy and frame control
-│   └── references/            # Klaff STRONG method, McGowan Pitch Perfect
-├── meta-presentation-design/  # Slide design and delivery coaching
-│   └── references/            # Duarte, Gallo, Edwards, HBR presentation standards
-├── meta-bankability-scoring/  # CAMPARI scoring and consistency audit
-├── meta-due-diligence/        # DD readiness and OSINT competitor intelligence
-├── meta-financial-stress-test/ # Scenario modelling and stress testing
-├── meta-market-validation/    # Market claim validation and MECE analysis
-├── meta-monitoring-evaluation/ # KPI dashboard and M&E frameworks
-├── meta-quarterly-gameplan/   # 90-day action sprint planning
-├── industry-guides/           # 13+ sector-specific reference guides
-├── blog-idea-generator/       # Blog post idea generation
-├── blog-writer/               # Blog post writing
-├── content-writing/           # Business content writing
-├── digital-marketing-strategy/ # Digital channel strategy
-├── idea-testing/              # Business idea rapid validation
-├── proposal-architect/        # Client proposal writing
-├── east-african-english/      # Language and tone standards
-├── language-standards/        # Cross-language writing quality
-├── country-context/           # Country data overrides (template + country files)
-├── skill-writing/             # Guide for authoring skills
-├── skill-safety-audit/        # Safety validation for skills
-├── update-claude-documentation/ # Documentation maintenance
-└── CLAUDE.md                  # Project-wide authoring instructions
+|-- README.md                  # Project overview and usage
+|-- AGENTS.md                  # Agent operating guide
+|-- CLAUDE.md                  # Claude Code project instructions
+|-- docs/                      # Project documentation and historical analysis
+|-- projects/                  # Optional project workspaces, if present
+|-- skills/                    # Active skill repository
+|   |-- 00-plan-assembly/
+|   |   |-- SKILL.md
+|   |   `-- references/
+|   |-- 01-executive-summary/
+|   |   |-- SKILL.md
+|   |   `-- references/
+|   |-- ...
+|   `-- skill-writing/
+|       |-- SKILL.md
+|       |-- references/
+|       `-- scripts/
+|-- country-context/           # Country data overrides and country-specific skills
+|-- book-extractions/          # Primary-source reference material
+|-- blog-posts/                # Draft and published blog content
+|-- proposals/                 # Proposal outputs or working material
+`-- tools/                     # Operational tooling, not a skill directory
 ```
 
----
+Root should contain project documentation plus `docs/`, `skills/`, and `projects/` where relevant. Active skills should not live at the repository root; each active skill belongs at `skills/<skill-name>/SKILL.md`.
 
+---
 ## Authoring Standards
 
 Every skill follows this structure:
 
 ```
-skill-name/
-├── SKILL.md              # Required: YAML frontmatter (name, description) + skill content
-└── references/           # Optional: supporting methodology, data tables, templates
-    ├── framework-name.md # Each reference file covers one source or framework
-    └── ...
+skills/skill-name/
+|-- SKILL.md              # Required: YAML frontmatter (name, description) + skill content
+`-- references/           # Optional: supporting methodology, data tables, templates
+    |-- framework-name.md # Each reference file covers one source or framework
+    `-- ...
 ```
 
 **SKILL.md rules:**
@@ -315,10 +285,10 @@ skill-name/
 - Generic names — no source prefix (e.g., `beef-butchery.md`, not `kenya-beef-butchery.md`)
 - Before writing a new file, check whether an existing file covers the same source
 
-See `skill-writing/SKILL.md` for full authoring guidelines.
+See `skills/skill-writing/SKILL.md` for full authoring guidelines.
 
 ---
 
 ## Licence
 
-See individual skill folders for licence information.
+See individual skill folders under `skills/` for licence information.
