@@ -79,7 +79,8 @@ Generate a detailed operations plan that demonstrates the business can deliver o
 12. **Customer-experience operations**  How operations support the full buying, delivery, and support journey
 13. **Digitisation and systems layer**  Which workflows stay manual, which are digitised, which tools support them, and why
 14. **Industrial production and inventory logic**  For manufacturing, processing, warehousing, wholesale, logistics, and distribution businesses, show MRP-style material planning, capacity, scheduling, storage, material handling, quality, and resource-efficiency assumptions.
-15. **Digital service delivery and DevOps logic**  For SaaS, software, platform, managed IT, hosting, or app businesses, show how software moves from change request to production, how releases are controlled, how incidents are handled, and how reliability is measured.
+15. **Logistics network and transportation logic**  For import, export, distribution, delivery, fleet, wholesale, retail, agriculture aggregation, and physical-goods businesses, show the logistics network, inventory service level, transport mode, carrier or fleet model, route assumptions, documentation controls, reverse logistics, and exception workflows.
+16. **Digital service delivery and DevOps logic**  For SaaS, software, platform, managed IT, hosting, or app businesses, show how software moves from change request to production, how releases are controlled, how incidents are handled, and how reliability is measured.
 
 ### Process Documentation Format
 
@@ -109,6 +110,7 @@ Quality check: [How quality is verified]
 - Inventory days by raw materials, WIP, finished goods, packaging, and spares where relevant
 - Production yield, scrap, rework, setup/changeover time, and practical capacity utilisation for manufacturing businesses
 - Warehouse storage utilisation, pick accuracy, inventory accuracy, dock-to-stock time, and order fulfilment cycle time for distribution-heavy businesses
+- On-time pickup, on-time delivery, OTIF, transport cost per order/unit/km, load utilisation, route adherence, freight claims, damage rate, backorder rate, stockout rate, and carrier or fleet scorecard for logistics-heavy businesses
 - Energy intensity, water intensity, waste cost, and recovered by-product value for resource-intensive operations
 
 ### Business Process Management Framework
@@ -181,7 +183,8 @@ Rate the business's operational maturity (target Level 3+ for investor confidenc
 9. Map where operational design affects the customer experience directly
 10. State which operational data must be captured to manage quality, throughput, stock, service, and owner visibility
 11. For industrial businesses, test sales volume against material availability, batch size, work-centre capacity, storage capacity, lead times, and cash tied in stock before accepting the forecast.
-12. For software or SaaS businesses, test the growth plan against release capacity, deployment risk, monitoring coverage, incident response, support load, cloud cost, backup/restore readiness, and security controls before accepting the forecast.
+12. For logistics, import/export, wholesale, retail, and distribution-heavy businesses, test the revenue forecast against network design, replenishment frequency, safety stock, warehouse space, route capacity, carrier reliability, fleet downtime, customs or border lead time, reverse logistics, and transportation cost.
+13. For software or SaaS businesses, test the growth plan against release capacity, deployment risk, monitoring coverage, incident response, support load, cloud cost, backup/restore readiness, and security controls before accepting the forecast.
 
 ## Quality Criteria
 
@@ -195,6 +198,7 @@ Rate the business's operational maturity (target Level 3+ for investor confidenc
 - Customer-facing operating moments are explicit, not hidden inside back-office descriptions
 - Process owners and escalation points are clear for critical workflows
 - For industrial plans, the operations section names the bottleneck, states the practical capacity calculation, explains inventory policy, and reconciles yield/scrap assumptions with the financial model.
+- For logistics-heavy plans, the operations section names the network design, inventory service-level policy, transport mode and carrier/fleet model, route assumptions, documentation controls, exception handling, and transport cost logic.
 - For software and SaaS plans, the operations section explains the delivery pipeline, release control, rollback posture, observability, incident response, security checks, cloud cost logic, and the operating maturity stage appropriate to the business.
 
 ### Small Business Operational Efficiency (Kaza)
@@ -286,4 +290,5 @@ The most important cost drivers for Uganda/EA SMEs are typically: **scale** (rea
 - **Small business bottleneck analysis, capacity utilisation, asset monetisation**: See `../07-marketing-sales-strategy/references/small-business-unconventional-strategy.md` (Chapter 9) for Kaza's operational efficiency framework
 - **Sustainable operations, lean green, and circular economy in Uganda**: See `references/sustainable-operations-framework.md` for the Quadruple Bottom Line operational test, SURF Framework (Sustainability Utilisation of Resources), 8 Lean Green waste types mapped to environmental impact, Industry 4.0 sustainability tools by Uganda SME feasibility, sustainable supply chain 5-question checklist, water and energy management with Uganda costs and payback periods, waste hierarchy with organic valorisation data, and worker wellbeing minimum standards under Employment Act 2006  Source: Waite (Routledge, 2023) and Kumar et al. (CRC, 2025). **Read when writing the sustainability subsection of the operations plan, specifying resource efficiency targets, or incorporating circular economy practices into operations.**
 - **Industrial production, inventory, warehousing, MRP, scheduling, facilities, and green manufacturing**: See `../../book-extractions/industrial-production-inventory-planning-extraction.md` for material-requirements planning, master scheduling, safety stock, lot sizing, pegging, factory capacity, setup/changeover, warehouse slotting, material handling, quality traceability, and resource-efficiency metrics. **Read when the business manufactures, processes, warehouses, distributes, exports physical goods, or carries material inventory risk.**
+- **Logistics network design, inventory service levels, transportation, carrier/fleet strategy, and trade documentation**: See `../../book-extractions/cltd-logistics-inventory-transportation-extraction.md` for CLTD-derived planning rules covering network design, inventory policy, transportation execution, 3PL/4PL/LLP models, Incoterms/customs controls, reverse logistics, and logistics KPIs. **Read when the business imports, exports, warehouses, distributes, delivers, aggregates agricultural output, operates a fleet, uses carriers, or carries meaningful stockout/backorder risk.**
 - **Business process modelling, gap analysis, value proposition, and organisation modelling toolkit**: See `../meta-market-validation/references/business-analysis-techniques-cadle.md` (Chapter 4 tools: 3340) for structured descriptions of Value Proposition Analysis (Tool 33), Value Chain Analysis (Tool 34), Organisation Diagram (Tool 35), Business Event Analysis (Tool 36), Business Process Modelling/Swimlanes (Tool 37), Business Rules Analysis (Tool 38), Decision Tables (Tool 39), and Gap Analysis (Tool 40)  including as-is/to-be methodology, swimlane notation, and Uganda application notes for documenting informal operations  Source: Cadle, Paul & Turner (BCS, 2010). **Read when designing or documenting business processes for the operations plan, especially when formalising a previously undocumented informal business.**
