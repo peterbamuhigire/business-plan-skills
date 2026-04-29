@@ -60,6 +60,9 @@ Profit margins in the sector typically range from 10–40%, with higher margins 
 4. **Packaging and branding** — Shelf life, consumer appeal, and regulatory compliance all depend on appropriate packaging. Invest in design and materials.
 5. **Production consistency** — Standardised recipes, quality testing, and batch records build buyer confidence and enable scaling.
 6. **Market access** — Supermarket listings, institutional contracts (schools, hospitals, hotels), and export certifications (EAC, COMESA) drive volume.
+7. **Batch planning and FEFO control** — Perishable inputs and finished goods require demand-led batch sizes, expiry-aware storage, first-expiry-first-out picking, and production scheduling that minimises spoilage.
+8. **Yield and mass-balance discipline** — Food processing plans should show expected input-to-output yield, moisture or trimming loss, by-products, waste, and rework; unexplained yield assumptions weaken gross-margin credibility.
+9. **Resource intensity management** — Water, energy, heat, cooling, cleaning cycles, and effluent often drive cost and compliance risk; track them per kg, litre, bottle, tray, or batch.
 
 ## Regulatory Requirements (Uganda)
 
@@ -84,8 +87,27 @@ Profit margins in the sector typically range from 10–40%, with higher margins 
 | **Competition from imports** | Cheaper or better-branded alternatives from Kenya, South Africa, Asia | Quality differentiation, local sourcing narrative, cost efficiency |
 | **Regulatory non-compliance** | Product seizure, fines, reputational damage | Proactive UNBS engagement, regular testing, documentation |
 | **Limited shelf life** | Restricted distribution radius and retail returns | Appropriate preservatives/packaging, production scheduling to demand |
+| **Batch size mismatch** | Overstock, expired product, stockouts on fast movers | Demand-led batch planning, MOQ review, frozen short-term production schedule |
+| **Yield loss and rework** | Gross margin erosion and quality risk | Recipe standards, in-process checks, mass-balance tracking |
+| **Cold-chain or storage congestion** | Spoilage and customer rejection | Bin/zone plan, cold-store capacity model, FEFO, dispatch staging discipline |
 
 ## Financial Benchmarks
+
+## Production and Inventory Planning Standards
+
+Every serious food-processing plan should include:
+
+- raw-material seasonality and procurement calendar;
+- recipe or formulation by product family;
+- expected yield, by-product, waste, and moisture-loss assumptions;
+- safety stock for critical inputs and packaging;
+- batch size and production frequency by SKU;
+- cold-store, dry-store, quarantine, returns, and dispatch staging capacity;
+- expiry tracking and FEFO picking procedure;
+- incoming, in-process, and finished-product quality tests;
+- water, energy, effluent, and cleaning-cycle controls.
+
+For deeper operations and financial modelling, use `../../../book-extractions/industrial-production-inventory-planning-extraction.md`.
 
 The `references/undp-business-profiles.md` file contains 50+ indicative business profiles from the UNDP Uganda Compendium with capital requirements, revenue projections, and margin estimates. These provide starting points for financial modelling but should be validated against current market conditions.
 

@@ -50,6 +50,9 @@ Power invertors, acrylic sheets, spindle tapes, and zinc sulphate production. Hi
 5. **Power Supply** — Electricity costs and reliability significantly affect operations. Budget for generators or solar backup
 6. **Working Capital Management** — Manufacturing ties up capital in raw materials and finished goods inventory; plan cash flow carefully
 7. **Product Differentiation** — Compete on quality, branding, customer service, and delivery reliability rather than price alone
+8. **MRP and Production Scheduling Discipline** — Translate sales orders and forecasts into material requirements, batch plans, work-centre schedules, and reorder triggers so the business does not overbuy, stock out, or promise impossible delivery dates
+9. **Factory Flow and Material Handling** — Design the workshop around receiving, inspection, storage, production, WIP movement, packing, staging, and dispatch; minimise double handling, congestion, unsafe movement, and excessive travel distance
+10. **Resource Efficiency** — Track energy per unit, water per unit where relevant, scrap percentage, rework percentage, and recovered waste value; these metrics feed both gross margin and sustainability credibility
 
 ## Typical Cost Structures
 
@@ -83,6 +86,22 @@ Power invertors, acrylic sheets, spindle tapes, and zinc sulphate production. Hi
 | Regulatory compliance costs | Medium — certification, environmental permits | Budget for compliance; build into pricing |
 | Skilled labour shortage | Medium — trained machine operators, quality inspectors | On-the-job training, vocational institute partnerships |
 | Fire and safety hazards | Medium — chemicals, plastics, metal work | Insurance, safety training, fire suppression equipment |
+| Capacity/scheduling mismatch | Medium-High — late orders, overtime, quality shortcuts | Practical capacity model, setup/changeover allowance, production calendar |
+| Inventory policy failure | Medium-High — stockouts or cash trapped in slow stock | Reorder point, safety stock, MOQ discipline, ABC/XYZ review |
+
+## Industrial Planning Standards for Business Plans
+
+For light manufacturing plans, include:
+
+- bill of materials or input list for each core product;
+- material lead times, minimum order quantities, and safety-stock assumptions;
+- practical machine or work-centre capacity after setup, maintenance, and breaks;
+- batch size, production sequence, and changeover assumptions;
+- factory layout logic for raw materials, WIP, finished goods, and dispatch staging;
+- quality checkpoints and non-conformance procedure;
+- energy, scrap, rework, and waste metrics per product family.
+
+Cross-reference `../../../book-extractions/industrial-production-inventory-planning-extraction.md` when the plan needs deeper MRP, scheduling, warehouse, or green manufacturing logic.
 
 ## References
 

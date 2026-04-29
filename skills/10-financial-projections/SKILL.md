@@ -96,6 +96,8 @@ Every projection must state its assumption:
 - Hiring timeline and salary costs
 - Capital expenditure schedule
 - Working capital requirements
+- Inventory buildup by raw materials, work in process, finished goods, packaging, and spares where applicable
+- Production yield, scrap, rework, setup/changeover, and practical capacity assumptions for manufacturing or processing businesses
 - Tax rates and obligations
 - Cost of capital or return hurdle when equity valuation will be required
 
@@ -144,6 +146,19 @@ Revenue projections contain both: treat costs as engineering estimates (forecast
 - **Marketplace:** GMV x Commission rate = Revenue
 - **Advertising:** Impressions x CPM / 1000 = Revenue
 
+### Industrial and Inventory-Heavy Financial Modelling
+
+For manufacturing, food processing, fabrication, wholesale, logistics, and distribution businesses, add an operations-linked cost schedule:
+
+1. **Material plan:** units sold -> units produced -> gross material requirement -> net purchase requirement after usable stock and supplier lead times.
+2. **Inventory days:** model separate days-on-hand for raw materials, packaging, WIP, finished goods, spares, and slow-moving stock.
+3. **Yield and scrap:** convert input quantities into saleable output using expected yield; show scrap, rework, and quality rejection as cost lines, not hidden margin leakage.
+4. **Capacity cost:** tie labour, overtime, maintenance, utilities, and equipment leases to practical capacity, setup/changeover, and planned utilisation.
+5. **Warehouse and logistics cost:** include storage rent, handling labour, racking, cold chain, pick/pack, distribution staging, freight, and returns handling.
+6. **Green production economics:** model energy per unit, water per unit, waste disposal, by-product recovery, and resource-efficiency capex where relevant.
+
+If a projected sales volume exceeds practical production or warehouse capacity, either add capex/hiring/timeline assumptions or reduce the forecast.
+
 ## Generation Process
 
 1. Ask for: business model, pricing, expected customer count, major costs, funding stage
@@ -156,6 +171,7 @@ Revenue projections contain both: treat costs as engineering estimates (forecast
 8. Build the valuation bridge when Section 11 involves equity or blended capital
 9. Flag areas requiring sensitivity analysis
 10. For material initiatives, compare base case, preferred option, and do-nothing or low-investment alternative
+11. For industrial businesses, reconcile production volume, material purchases, inventory buildup, capacity, yield, and working capital before calculating DSCR or funding need.
 
 ## Quality Criteria (Rogoff's Bankability Standards)
 
@@ -196,3 +212,4 @@ When projections don't work, adjust the **Six Revenue Dials**: average order val
 - **Financial model templates**: See `references/financial-model-templates.md` for ready-to-use Uganda financial statement templates  monthly income statement (with NSSF, VAT, provisional tax rows), annual summary (Years 13), monthly cash flow (with Uganda VAT/PAYE/NSSF timing rules), balance sheet (with ITA Sixth Schedule depreciation rates: plant 40%, vehicles 35%, computers 40%, furniture 20%, buildings 5%), key ratios dashboard (DSCR, current ratio, gross margin with bank compliance check), break-even analysis template, and a complete financial assumptions document template. **Use this as the structural skeleton for all Section 10 financial statements  do not invent your own row structure.**
 - **Uganda IP framework**: See `references/uganda-ip-framework.md` for the IP protection process relevant to financial planning  IP as a balance sheet asset and loan collateral, trademark registration (URSB, 7+10yr, Nice Classification, UGX 175,000 total fee), patent (20yr), utility model (10yr), industrial design (15yr), copyright (automatic, life+50yr), ARIPO regional protection (19 African countries), trade secret via NDA. **Read when assessing whether IP should appear on the balance sheet or be disclosed as a business asset to lenders.**
 - **Statistical rigour for financial projections**: Use `meta-statistics` skill when computing or presenting growth rates, revenue forecasts, or comparative financial metrics. Key rules: use geometric mean (CAGR formula) for all multi-year growth rates; use coefficient of variation to compare revenue-line volatility; use regression if  3 years historical data exist; report adjusted R2 and significance (p-value) for any regression-based forecast. See `meta-statistics/references/statistics-for-business-plans.md Regression` and `Growth Rates` for worked Uganda examples and citation templates.
+- **Industrial production and inventory model link**: See `../../book-extractions/industrial-production-inventory-planning-extraction.md` when modelling manufacturing, food processing, warehousing, logistics, wholesale, or any business with material stock risk. Use it to structure raw-material consumption, MRP-style purchasing, safety stock, WIP, yield/scrap, capacity, warehousing, and resource-efficiency assumptions.

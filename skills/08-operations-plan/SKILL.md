@@ -78,6 +78,7 @@ Generate a detailed operations plan that demonstrates the business can deliver o
 11. **Cycle-time improvement logic**  How the business reduces delay before adding more cost
 12. **Customer-experience operations**  How operations support the full buying, delivery, and support journey
 13. **Digitisation and systems layer**  Which workflows stay manual, which are digitised, which tools support them, and why
+14. **Industrial production and inventory logic**  For manufacturing, processing, warehousing, wholesale, logistics, and distribution businesses, show MRP-style material planning, capacity, scheduling, storage, material handling, quality, and resource-efficiency assumptions.
 
 ### Process Documentation Format
 
@@ -103,6 +104,10 @@ Quality check: [How quality is verified]
 - Inventory turnover (if applicable)
 - Uptime/availability (for tech/SaaS)
 - Cost per unit produced/delivered
+- Inventory days by raw materials, WIP, finished goods, packaging, and spares where relevant
+- Production yield, scrap, rework, setup/changeover time, and practical capacity utilisation for manufacturing businesses
+- Warehouse storage utilisation, pick accuracy, inventory accuracy, dock-to-stock time, and order fulfilment cycle time for distribution-heavy businesses
+- Energy intensity, water intensity, waste cost, and recovered by-product value for resource-intensive operations
 
 ### Business Process Management Framework
 
@@ -173,6 +178,7 @@ Rate the business's operational maturity (target Level 3+ for investor confidenc
 8. Identify which requirements can be questioned, deleted, simplified, or accelerated before any automation spend is proposed
 9. Map where operational design affects the customer experience directly
 10. State which operational data must be captured to manage quality, throughput, stock, service, and owner visibility
+11. For industrial businesses, test sales volume against material availability, batch size, work-centre capacity, storage capacity, lead times, and cash tied in stock before accepting the forecast.
 
 ## Quality Criteria
 
@@ -185,6 +191,7 @@ Rate the business's operational maturity (target Level 3+ for investor confidenc
 - Operations plan shows where delay is removed before new tools are added
 - Customer-facing operating moments are explicit, not hidden inside back-office descriptions
 - Process owners and escalation points are clear for critical workflows
+- For industrial plans, the operations section names the bottleneck, states the practical capacity calculation, explains inventory policy, and reconciles yield/scrap assumptions with the financial model.
 
 ### Small Business Operational Efficiency (Kaza)
 
@@ -273,4 +280,5 @@ The most important cost drivers for Uganda/EA SMEs are typically: **scale** (rea
 - **Uganda operations context**: See `references/uganda-operations-context.md` for Uganda-specific operational infrastructure: power supply and backup (UMEME/UEDCL transition, UGX 720900/kWh grid tariff, generator and solar benchmarks), water supply (NWSC tariffs, borehole costs), Employment Act 2006 provisions (NSSF 15%, leave entitlements, redundancy pay, work permits), logistics and supply chain (Mombasa corridor lead times, SGR, cold chain), UNBS mandatory certification and EFRIS compliance, land tenure types (customary vs. registered), industrial parks (Namanve), and digital payment infrastructure (32M mobile money accounts, WhatsApp Business, EFRIS integration)  from IFC (2022), RSM/Baker Tilly (2025), NRC/Amanya (2025), and World Business Journal (2025)
 - **Small business bottleneck analysis, capacity utilisation, asset monetisation**: See `../07-marketing-sales-strategy/references/small-business-unconventional-strategy.md` (Chapter 9) for Kaza's operational efficiency framework
 - **Sustainable operations, lean green, and circular economy in Uganda**: See `references/sustainable-operations-framework.md` for the Quadruple Bottom Line operational test, SURF Framework (Sustainability Utilisation of Resources), 8 Lean Green waste types mapped to environmental impact, Industry 4.0 sustainability tools by Uganda SME feasibility, sustainable supply chain 5-question checklist, water and energy management with Uganda costs and payback periods, waste hierarchy with organic valorisation data, and worker wellbeing minimum standards under Employment Act 2006  Source: Waite (Routledge, 2023) and Kumar et al. (CRC, 2025). **Read when writing the sustainability subsection of the operations plan, specifying resource efficiency targets, or incorporating circular economy practices into operations.**
+- **Industrial production, inventory, warehousing, MRP, scheduling, facilities, and green manufacturing**: See `../../book-extractions/industrial-production-inventory-planning-extraction.md` for material-requirements planning, master scheduling, safety stock, lot sizing, pegging, factory capacity, setup/changeover, warehouse slotting, material handling, quality traceability, and resource-efficiency metrics. **Read when the business manufactures, processes, warehouses, distributes, exports physical goods, or carries material inventory risk.**
 - **Business process modelling, gap analysis, value proposition, and organisation modelling toolkit**: See `../meta-market-validation/references/business-analysis-techniques-cadle.md` (Chapter 4 tools: 3340) for structured descriptions of Value Proposition Analysis (Tool 33), Value Chain Analysis (Tool 34), Organisation Diagram (Tool 35), Business Event Analysis (Tool 36), Business Process Modelling/Swimlanes (Tool 37), Business Rules Analysis (Tool 38), Decision Tables (Tool 39), and Gap Analysis (Tool 40)  including as-is/to-be methodology, swimlane notation, and Uganda application notes for documenting informal operations  Source: Cadle, Paul & Turner (BCS, 2010). **Read when designing or documenting business processes for the operations plan, especially when formalising a previously undocumented informal business.**
