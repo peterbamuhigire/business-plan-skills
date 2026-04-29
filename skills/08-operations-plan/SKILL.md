@@ -79,6 +79,7 @@ Generate a detailed operations plan that demonstrates the business can deliver o
 12. **Customer-experience operations**  How operations support the full buying, delivery, and support journey
 13. **Digitisation and systems layer**  Which workflows stay manual, which are digitised, which tools support them, and why
 14. **Industrial production and inventory logic**  For manufacturing, processing, warehousing, wholesale, logistics, and distribution businesses, show MRP-style material planning, capacity, scheduling, storage, material handling, quality, and resource-efficiency assumptions.
+15. **Digital service delivery and DevOps logic**  For SaaS, software, platform, managed IT, hosting, or app businesses, show how software moves from change request to production, how releases are controlled, how incidents are handled, and how reliability is measured.
 
 ### Process Documentation Format
 
@@ -103,6 +104,7 @@ Quality check: [How quality is verified]
 - Defect/error rate
 - Inventory turnover (if applicable)
 - Uptime/availability (for tech/SaaS)
+- Deployment frequency, change lead time, change failure rate, mean time to restore service, incident severity count, and support tickets caused by defects or downtime for software businesses
 - Cost per unit produced/delivered
 - Inventory days by raw materials, WIP, finished goods, packaging, and spares where relevant
 - Production yield, scrap, rework, setup/changeover time, and practical capacity utilisation for manufacturing businesses
@@ -179,6 +181,7 @@ Rate the business's operational maturity (target Level 3+ for investor confidenc
 9. Map where operational design affects the customer experience directly
 10. State which operational data must be captured to manage quality, throughput, stock, service, and owner visibility
 11. For industrial businesses, test sales volume against material availability, batch size, work-centre capacity, storage capacity, lead times, and cash tied in stock before accepting the forecast.
+12. For software or SaaS businesses, test the growth plan against release capacity, deployment risk, monitoring coverage, incident response, support load, cloud cost, backup/restore readiness, and security controls before accepting the forecast.
 
 ## Quality Criteria
 
@@ -192,6 +195,7 @@ Rate the business's operational maturity (target Level 3+ for investor confidenc
 - Customer-facing operating moments are explicit, not hidden inside back-office descriptions
 - Process owners and escalation points are clear for critical workflows
 - For industrial plans, the operations section names the bottleneck, states the practical capacity calculation, explains inventory policy, and reconciles yield/scrap assumptions with the financial model.
+- For software and SaaS plans, the operations section explains the delivery pipeline, release control, rollback posture, observability, incident response, security checks, cloud cost logic, and the operating maturity stage appropriate to the business.
 
 ### Small Business Operational Efficiency (Kaza)
 
@@ -277,6 +281,7 @@ The most important cost drivers for Uganda/EA SMEs are typically: **scale** (rea
 - **Business process management**: See `references/business-process-management.md` for BPM lifecycle, Devil's Quadrangle performance trade-offs, value-added analysis, improvement technique wheel (SALT filter), 29 redesign heuristics, process maturity assessment, process metrics (CTE, Little's Law), scope definition, and process landscape mapping  from Dumas et al. (Springer, 2013) and Page (AMACOM, 2015)
 - **Hypergrowth operations redesign**: See `references/hypergrowth-operations-algorithm.md` for McNeill's five-step redesign sequence (question, delete, simplify, accelerate, automate last), the whole-customer-experience operating lens, urgency and accountability practices, and dogfooding discipline. **Read when the operations challenge is speed, complexity, or customer friction rather than pure capacity shortage.**
 - **Digital operating-model redesign**: See `../book-extractions/rogers-digital-transformation-playbook-extraction.md`, `../book-extractions/molenaar-demand-driven-business-strategy-extraction.md`, and `../meta-digital-transformation/SKILL.md` when deciding whether the real operational move is workflow digitisation, data capture, platform participation, or subscription/service redesign rather than more headcount or paper process.
+- **DevOps operating model for software and SaaS businesses**: See `../../book-extractions/devops-operating-model-extraction.md` for CI/CD, release management, observability, incident response, IaC, DevSecOps, PHP/LAMP operations, cloud-native maturity, and business-plan translation of DevOps capabilities. **Read when the business sells software, runs a platform, hosts customer workloads, depends on digital service uptime, or needs a credible technology operations plan.**
 - **Uganda operations context**: See `references/uganda-operations-context.md` for Uganda-specific operational infrastructure: power supply and backup (UMEME/UEDCL transition, UGX 720900/kWh grid tariff, generator and solar benchmarks), water supply (NWSC tariffs, borehole costs), Employment Act 2006 provisions (NSSF 15%, leave entitlements, redundancy pay, work permits), logistics and supply chain (Mombasa corridor lead times, SGR, cold chain), UNBS mandatory certification and EFRIS compliance, land tenure types (customary vs. registered), industrial parks (Namanve), and digital payment infrastructure (32M mobile money accounts, WhatsApp Business, EFRIS integration)  from IFC (2022), RSM/Baker Tilly (2025), NRC/Amanya (2025), and World Business Journal (2025)
 - **Small business bottleneck analysis, capacity utilisation, asset monetisation**: See `../07-marketing-sales-strategy/references/small-business-unconventional-strategy.md` (Chapter 9) for Kaza's operational efficiency framework
 - **Sustainable operations, lean green, and circular economy in Uganda**: See `references/sustainable-operations-framework.md` for the Quadruple Bottom Line operational test, SURF Framework (Sustainability Utilisation of Resources), 8 Lean Green waste types mapped to environmental impact, Industry 4.0 sustainability tools by Uganda SME feasibility, sustainable supply chain 5-question checklist, water and energy management with Uganda costs and payback periods, waste hierarchy with organic valorisation data, and worker wellbeing minimum standards under Employment Act 2006  Source: Waite (Routledge, 2023) and Kumar et al. (CRC, 2025). **Read when writing the sustainability subsection of the operations plan, specifying resource efficiency targets, or incorporating circular economy practices into operations.**

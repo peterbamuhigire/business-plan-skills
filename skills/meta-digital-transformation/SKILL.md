@@ -37,7 +37,8 @@ Use this meta-skill when a business plan or strategy needs a serious answer to t
 3. Identify digitisation opportunities across channel, process, data, service, and business-model layers.
 4. Test whether the right move is workflow digitisation, platform participation, platform creation, subscription/access model, or simple systems discipline.
 5. Prioritise options using practical business-case logic: value created, cost, risk, adoption burden, and time to benefit.
-6. Produce a phased roadmap with owners, KPIs, dependencies, and handoffs to `14-ai-integration`, `10-financial-projections`, `11-funding-request`, and `13-implementation-timeline` as needed.
+6. For software, SaaS, platform, or cloud-dependent businesses, assess DevOps maturity: release path, pipeline discipline, observability, incident response, security checks, backup/restore, and cloud cost control.
+7. Produce a phased roadmap with owners, KPIs, dependencies, and handoffs to `14-ai-integration`, `10-financial-projections`, `11-funding-request`, and `13-implementation-timeline` as needed.
 
 ## Quality Bar
 
@@ -45,6 +46,7 @@ Use this meta-skill when a business plan or strategy needs a serious answer to t
 - Digital choices fit the business stage, market context, and team capability.
 - Data, channel, and process implications are explicit.
 - Major technology bets have option logic, cost logic, and staged rollout discipline.
+- Software and platform recommendations include operating capability, not just build features: delivery process, monitoring, support, incident learning, and security ownership.
 
 ## Anti-Patterns
 
@@ -62,8 +64,9 @@ Use this meta-skill when a business plan or strategy needs a serious answer to t
 
 ## References
 
-- `../book-extractions/rogers-digital-transformation-playbook-extraction.md` - five-domain strategy lens: customers, competition, data, innovation, value
-- `../book-extractions/molenaar-demand-driven-business-strategy-extraction.md` - demand-driven redesign, outside-in thinking, value networks, platform logic, and product-as-a-service options
-- `../book-extractions/business-models-ecommerce-extraction.md` - digital transaction models, revenue logic, and supply-side/collaborative digitisation
-- `../book-extractions/haines-how-to-create-a-business-case-extraction.md` - options, do-nothing case, incremental economics, and sensitivity logic for major digital investments
+- `../../book-extractions/rogers-digital-transformation-playbook-extraction.md` - five-domain strategy lens: customers, competition, data, innovation, value
+- `../../book-extractions/molenaar-demand-driven-business-strategy-extraction.md` - demand-driven redesign, outside-in thinking, value networks, platform logic, and product-as-a-service options
+- `../../book-extractions/business-models-ecommerce-extraction.md` - digital transaction models, revenue logic, and supply-side/collaborative digitisation
+- `../../book-extractions/haines-how-to-create-a-business-case-extraction.md` - options, do-nothing case, incremental economics, and sensitivity logic for major digital investments
+- `../../book-extractions/devops-operating-model-extraction.md` - DevOps, CI/CD, release, observability, incident response, PHP/LAMP, cloud-native, and digital service reliability patterns for technology businesses
 - `../14-ai-integration/SKILL.md` - use after the broader digital strategy is clear and the AI layer must be specified
