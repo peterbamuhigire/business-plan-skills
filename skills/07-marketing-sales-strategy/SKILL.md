@@ -84,6 +84,7 @@ Generate a comprehensive go-to-market strategy that shows exactly how the busine
 12. **Attraction-conversion-retention system**  How prospects become leads, customers, repeat buyers, and referrers
 13. **Lead generation magnet or equivalent hand-raiser**  The first low-friction offer that earns permission to follow up
 14. **Narrow-market focus**  The sharpest viable audience or beachhead segment the business can credibly win first
+15. **Growth system and experimentation logic**  The acquisition, activation, retention, referral, revenue, and product-learning loops that turn marketing from campaigns into a repeatable growth engine.
 
 ## Marketing Evolution Positioning (Kotler 6.0)
 
@@ -500,6 +501,7 @@ See `references/storybrand-framework.md` for the complete BrandScript template, 
 20. **Write the messaging foundation**  confirm the BrandScript is complete: villain, external/internal/philosophical problems, guide empathy + authority, plan, direct + transitional CTA, failure stakes, success vision, and identity transformation arc
 21. Position the strategy against the business and customer lifecycle, growth ownership model, and macro conditions
 22. Specify the attraction engine, conversion sequence, retention cadence, and referral trigger rather than stopping at channel selection
+23. For product-led, SaaS, AI, platform, or digital businesses, define the growth loop, event data model, experiment cadence, activation metric, retention cohort, and product-qualified lead logic before accepting revenue assumptions.
 
 ## Quality Criteria
 
@@ -523,6 +525,8 @@ See `references/storybrand-framework.md` for the complete BrandScript template, 
 - Startup sales plans show stage-appropriate team scaling (not jumping from founder to VP Sales)
 - Sales velocity formula is calculated for pipeline forecasting
 - Lifecycle fit, growth ownership, and macro-condition adaptation are explicit
+- Growth is presented as a system of loops, tests, metrics, and owners, not as a pile of campaign ideas
+- Product-led or AI-enabled growth claims identify the user behaviour, data signal, experiment, and metric that will prove the claim
 - All cost assumptions are stated and traceable
 - StoryBrand one-liner is present and passes the 30-second repeat test
 - Brand is positioned as the guide, not the hero  customer is the hero
@@ -559,3 +563,4 @@ See `references/storybrand-framework.md` for the complete BrandScript template, 
 - **Kennedy/Brunson direct-response frameworks**: See `../book-extractions/kennedy-no-bs-sales-success-extraction.md` (23 Strategies, 6-Step Sales Process, Takeaway Selling, Positioning-Not-Prospecting, Lead Generation via "Welcome Guest Process"), `../book-extractions/kennedy-ultimate-sales-letter-extraction.md` (28-step long-form, Power of a Sequence, Creative P.S., Hidden Benefit), and `../book-extractions/brunson-dotcomsecrets-ignite-extraction.md` (Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution 35-beat script, Perfect Webinar, Soap Opera + Seinfeld email sequences). **Read when building the sales section for a direct-response-driven business — info-products, coaching, masterminds, high-ticket services, info-marketing, e-commerce funnels, webinar-driven offers. Pair with `meta-pricing-strategy` for the pricing side of the same frameworks.**
 - **Magnetic marketing system design**: See `../book-extractions/kennedy-magnetic-marketing-extraction.md` for the Message-Market-Media triangle, lead generation magnet discipline, attraction-conversion-retention architecture, micro-agreement sequencing, and systematic referral logic. **Read when a plan has channels but lacks a commercial system.**
 - **Niche-first startup positioning**: See `../book-extractions/godin-startup-school-extraction.md` for narrow-market focus, remarkability, tribe logic, and anti-generic positioning. **Read when the offering sounds broad, undifferentiated, or aimed at "everyone".**
+- **Growth, profit, disruption, and deeper-thinking systems**: See `../../book-extractions/growth-profit-disruption-systems-extraction.md` for growth engineering, remarkable growth systems, profit levers, transformation, creativity, AI/product growth loops, experimentation, and dashboard discipline. **Read when a plan needs a repeatable growth engine, product-led growth, AI-enabled growth, profit improvement, or disruption strategy rather than isolated marketing tactics.**

@@ -170,6 +170,19 @@ Apply the three-question test (Blank & Dorf, 2012):
 
 If any answer is no, pivot (change one or more Business Model Canvas boxes) and return to Step 4. See `references/customer-development-process.md` for pivot methodology.
 
+### Growth Engineering Validation Add-On
+
+For SaaS, AI-enabled products, marketplaces, platforms, and digital products, validate the growth system, not only initial interest:
+
+- What is the activation event that proves the customer reached first value?
+- What behaviour predicts retention?
+- What event data must be captured from day one?
+- Which acquisition source produces retained users, not just signups?
+- What experiment will test the highest-risk growth assumption?
+- What decision rule determines whether to scale, iterate, or stop?
+
+Treat a growth claim as unvalidated until it names a behaviour, a metric, a cohort or segment, and a decision threshold.
+
 ### Quick Validation Checklist
 
 Before writing the business plan, the entrepreneur should have validated:
@@ -184,6 +197,7 @@ Before writing the business plan, the entrepreneur should have validated:
 - [ ] Risk Score is below 100 (or declining)
 - [ ] MVP has been tested with real users
 - [ ] Product-market fit evidence exists (Ellis 40% or equivalent)
+- [ ] For digital/product-led businesses, activation, retention, referral, and revenue loops have measurable event data and at least one experiment plan
 
 ---
 
@@ -301,3 +315,4 @@ Action: [What to do  cite source, conduct research, revise claim]
 - `references/empathy-validation-tools.md`  Alam's Transform3+1, stakeholder mapping, empathy research, persona template, journey mapping, BFCE framework, user testing methodology, Assumptions Tracking, Risk Score formula, elevator pitch templates
 - `references/mckinsey-problem-solving.md`  McKinsey's MECE principle (Mutually Exclusive, Collectively Exhaustive) with worked examples; issue tree construction and branching rules; hypothesis-driven analysis (Initial Hypothesis method, three-step generation, insurance leakage anecdote); 80/20 rule as diagnostic jump-start; key drivers framework; fact-based analysis; Forces at Work four-category environmental scan (suppliers/customers/competitors/substitutes); elevator test; presentation structure (one message per chart, prewiring); 10 common analysis mistakes  Source: Rasiel (McGraw-Hill). **Read when structuring any analytical section (market analysis, competitive analysis, risk), when building issue trees, or when auditing claims for MECE compliance and fact-based support.**
 - **72-tool business analysis toolkit**: See `references/business-analysis-techniques-cadle.md` for all 72 BA tools grouped by stage (strategy, investigation, stakeholder analysis, process modelling, options evaluation, change management), a business plan application table mapping each category to plan sections, and Uganda/EA contextualisation notes  Source: Cadle, Paul & Turner (BCS, 2010). **Read when structuring a market investigation, designing stakeholder analysis, building process models for the operations plan, evaluating options with CBA/NPV, or auditing a plan's analytical rigour against a structured toolkit.**
+- **Growth-system validation**: See `../../book-extractions/growth-profit-disruption-systems-extraction.md` for growth engineering, activation/retention metrics, experiment cadence, remarkable growth systems, profit levers, and disruption tests. **Read when validating SaaS, AI-enabled, marketplace, platform, or product-led growth claims.**

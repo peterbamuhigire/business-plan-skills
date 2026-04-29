@@ -80,11 +80,12 @@ Every executive summary follows this structure (Jewinski):
 5. **Target market**  Who buys and market size (TAM/SAM/SOM)
 6. **Business model**  How revenue is generated
 7. **Competitive advantage**  Defensible moat, not generic claims
-8. **Traction & milestones**  Evidence of market validation
+8. **Traction & milestones**  Evidence of market validation, product usage, retention, or repeatable sales motion
 9. **Financial highlights**  Revenue projections, margins, break-even
 10. **Team snapshot**  Key leaders and relevant track record
 11. **Funding request**  Amount, use of funds, expected ROI/exit
 12. **Call to action**  Clear next step for the reader
+13. **Growth engine**  The repeatable mechanism that turns customer signal into revenue: channel, conversion path, retention loop, referral/expansion trigger, and operating owner
 
 ## Writing Standards
 
@@ -165,9 +166,10 @@ If any question cannot be answered clearly from the summary alone, revise.
 - Are all financial claims specific and traceable to projectionsSection 
 - Is the funding ask clear with defined use of fundsSection 
 - Does it create urgency without being pushySection 
-- Would an investor want to read the rest of the planSection 
-- Is every sentence in active voice with concrete languageSection 
-- Has the summary been revised at least once for clarity and brevitySection 
+- Would an investor want to read the rest of the planSection
+- Is every sentence in active voice with concrete languageSection
+- Has the summary been revised at least once for clarity and brevitySection
+- Does it state the growth engine and primary profit lever, not only the market opportunitySection
 
 ### Elevator Pitch Integration
 
@@ -261,3 +263,4 @@ Frame the executive summary appropriately for the venture type (Blank & Dorf, 20
 - **Proposal summarisation patterns**: See `references/proposal-patterns.md` for examples and templates of effective executive summaries for funding proposals
 - **Brand story and Hero Narrative framework**: See `../07-marketing-sales-strategy/references/social-business-brand-strategy.md` for Brito's nine-input content narrative framework, Hero Narrative simplification test, converged media model (paid/earned/owned), and content governance principles  applicable when writing the business concept paragraph and brand positioning statement
 - **Pyramid Principle  structure and logic**: See `references/pyramid-principle.md` for Minto's full framework: SCQA opening formula, pyramid rules (MECE groupings, three logical orders, deductive vs. inductive), the 30-second test, intellectually blank assertion errors, and the problem-definition framework (R1/R2  Q  A)  the structural backbone for executive summaries, proposals, and any document where the purpose is to present thinking clearly
+- **Growth, profit, disruption, and transformation logic**: See `../../book-extractions/growth-profit-disruption-systems-extraction.md` when the executive summary must explain a repeatable growth engine, product-led growth, AI-enabled growth, disruption strategy, or profit improvement thesis.

@@ -44,6 +44,7 @@ Audit and upgrade the pricing strategy inside any business plan section — spec
 8. **Surface hidden costs of cheaper/free alternatives** — red tape, wait time, quality variance, privacy loss, etc. This is essential where the plan competes with free or subsidised services.
 9. **Stress-test the price against recession/depreciation** — in most categories, the right recession move is to raise prices and upgrade service, not cut.
 10. **Reconcile with financial projections** — updated price flows through to Section 10 (projections) and must match the marketing mix in Section 07.
+11. **Test packaging experiments** — for digital, service, and subscription businesses, test monthly versus annual, bundle versus single, premium tier versus entry tier, and onboarding/support inclusions before treating the price architecture as final.
 
 ## Framework Applied — The 9 Price Failures (audit checklist)
 
@@ -159,6 +160,7 @@ When the plan faces free or heavily subsidised alternatives (government healthca
 - Hidden-cost-of-free messaging block (where applicable)
 - Updated Section 07 pricing narrative and Section 10 projections
 - Pricing risk block for Section 12
+- Pricing experiment plan covering hypothesis, segment, test period, decision metric, and expected margin effect
 
 ## References
 
@@ -167,6 +169,7 @@ When the plan faces free or heavily subsidised alternatives (government healthca
 - **Ultimate Sales Letter**: See `../book-extractions/kennedy-ultimate-sales-letter-extraction.md` Step 7 "Beat the Price Bugaboo" for specific price-handling copy techniques.
 - **Brunson funnel economics**: See `../book-extractions/brunson-dotcomsecrets-ignite-extraction.md` for the Value Ladder, SLO-sustained continuity, and reverse-engineered revenue planning — all of which support premium pricing.
 - **Related skills in this repo**: `07-marketing-sales-strategy`, `10-financial-projections`, `06-competitive-analysis`, `03-products-services`, `meta-bankability-scoring`, `meta-valuation`.
+- **Profit and growth-system companion**: See `../../book-extractions/growth-profit-disruption-systems-extraction.md` for offer-mix improvement, 15 percent compounding levers, retention economics, package testing, and profit-led growth logic.
 
 ## Uganda / East Africa Notes
 
