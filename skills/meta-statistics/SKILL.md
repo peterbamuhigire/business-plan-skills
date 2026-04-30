@@ -216,6 +216,7 @@ Every statistic in the plan must pass this three-question test:
 
 ## References
 
+- `../../book-extractions/data-analytics-business-planning-extraction.md`  Analytics ladder, data-quality gate, method selection, market/financial/demand analytics, AI analytics controls, and KPI dashboard standards
 - `references/statistics-for-business-plans.md`  Full decision tables, formulas, worked Uganda/EA examples, chart selection guide, data type definitions
 - Anderson, D.R., Sweeney, D.J., Williams, T.A., Camm, J.D. & Cochran, J.J. (2013). *Essentials of Statistics for Business and Economics* (7th ed.). Cengage Learning.
 - Keller, G. (2011). *Statistics for Management and Economics, Abbreviated* (9th ed.). Cengage Learning.
