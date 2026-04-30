@@ -96,6 +96,7 @@ Every projection must state its assumption:
 - Hiring timeline and salary costs
 - Capital expenditure schedule
 - Working capital requirements
+- Accounting basis, bookkeeping cadence, source-document discipline, reconciliation routines, and financial-control assumptions where these affect lender or investor trust
 - Inventory buildup by raw materials, work in process, finished goods, packaging, and spares where applicable
 - Production yield, scrap, rework, setup/changeover, and practical capacity assumptions for manufacturing or processing businesses
 - Tax rates and obligations
@@ -172,6 +173,7 @@ If a projected sales volume exceeds practical production or warehouse capacity, 
 9. Flag areas requiring sensitivity analysis
 10. For material initiatives, compare base case, preferred option, and do-nothing or low-investment alternative
 11. For industrial businesses, reconcile production volume, material purchases, inventory buildup, capacity, yield, and working capital before calculating DSCR or funding need.
+12. For businesses that will rely on ERP, POS, Excel, mobile money, school fees, patient billing, inventory, payroll, or project accounting, state how source transactions become reliable books: chart of accounts, subledgers, control accounts, accruals/prepayments, depreciation, tax, reconciliations, period close, and management reporting.
 
 ## Quality Criteria (Rogoff's Bankability Standards)
 
@@ -183,6 +185,7 @@ If a projected sales volume exceeds practical production or warehouse capacity, 
 - No hockey-stick growth without clear justification
 - Assumptions are conservative-to-moderate, not optimistic
 - Working-capital assumptions are explicit, not buried in balancing figures
+- Bookkeeping, reconciliation, tax, inventory, payroll, and source-document assumptions are credible enough that projected results could be produced after launch
 - When equity is involved, the model is ready for `meta-valuation` rather than forcing valuation to be guessed later
 - Major capex, systems, or digitisation bets show incremental economics rather than being buried in a lump-sum use-of-funds line
 
@@ -213,3 +216,4 @@ When projections don't work, adjust the **Six Revenue Dials**: average order val
 - **Uganda IP framework**: See `references/uganda-ip-framework.md` for the IP protection process relevant to financial planning  IP as a balance sheet asset and loan collateral, trademark registration (URSB, 7+10yr, Nice Classification, UGX 175,000 total fee), patent (20yr), utility model (10yr), industrial design (15yr), copyright (automatic, life+50yr), ARIPO regional protection (19 African countries), trade secret via NDA. **Read when assessing whether IP should appear on the balance sheet or be disclosed as a business asset to lenders.**
 - **Statistical rigour for financial projections**: Use `meta-statistics` skill when computing or presenting growth rates, revenue forecasts, or comparative financial metrics. Key rules: use geometric mean (CAGR formula) for all multi-year growth rates; use coefficient of variation to compare revenue-line volatility; use regression if  3 years historical data exist; report adjusted R2 and significance (p-value) for any regression-based forecast. See `meta-statistics/references/statistics-for-business-plans.md Regression` and `Growth Rates` for worked Uganda examples and citation templates.
 - **Industrial production and inventory model link**: See `../../book-extractions/industrial-production-inventory-planning-extraction.md` when modelling manufacturing, food processing, warehousing, logistics, wholesale, or any business with material stock risk. Use it to structure raw-material consumption, MRP-style purchasing, safety stock, WIP, yield/scrap, capacity, warehousing, and resource-efficiency assumptions.
+- **Accounting, bookkeeping, ERP finance controls, cost accounting, and finance workbook discipline**: See `../../book-extractions/accounting-bookkeeping-finance-controls-extraction.md` when the plan involves ERP/POS, school fees, patient billing, inventory, payroll, tax, mobile money, credit sales, supplier credit, cost centres, management accounts, Excel models, or weak/informal records. Use it to strengthen accounting basis, reconciliations, source documents, control accounts, close cadence, cost accounting, variance analysis, and model checks.
