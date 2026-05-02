@@ -14,6 +14,7 @@ description: Final assembly skill that converts completed business-plan sections
 ## Do Not Use When
 
 - Do not use before synthesis, financial stress testing, and due-diligence review are complete.
+- Do not use before critical thinking and business-logic gaps have been resolved or explicitly waived.
 - Do not use as a substitute for fixing weak sections.
 - Do not assemble a final package while major numerical contradictions remain unresolved.
 
@@ -23,6 +24,7 @@ description: Final assembly skill that converts completed business-plan sections
 - Funder type and submission mode
 - Final funding ask, financials, and appendix evidence set
 - Results from synthesis, bankability, DD, stress-test, and valuation workflows where relevant
+- Results from `meta-critical-thinking-business-logic` where relevant
 
 ## Workflow
 
@@ -63,6 +65,7 @@ Convert a completed set of business-plan sections into a submission-ready docume
 
 Invoke AFTER:
 - all 16 sections are drafted
+- `meta-critical-thinking-business-logic` has been run and fatal logic, achievability, evidence, or assumption gaps are fixed
 - `meta-consulting-synthesis` has been run and the plan has one governing thesis
 - `meta-sustainability` Mode C audit has been run
 - `meta-bankability-scoring` has been run and passes the required threshold
@@ -145,6 +148,7 @@ Before handover, verify:
 ## References
 
 - `meta-consulting-synthesis/SKILL.md` - run before assembly to force one thesis and resolve contradictions
+- `meta-critical-thinking-business-logic/SKILL.md` - run before synthesis and assembly to test claims, assumptions, countercases, business logic, feasibility, and achievability
 - `meta-valuation/SKILL.md` - required where valuation or investor-term logic appears
 - `meta-sustainability/SKILL.md` - sustainability audit before assembly
 - `meta-due-diligence/SKILL.md` - due-diligence readiness and data-room structure

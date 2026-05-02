@@ -2,7 +2,7 @@
 
 A modular collection of Claude Code skills for generating, validating, and delivering bankable business plans. Each section of a professional business plan is a standalone skill — invoke individually or chain to produce a complete investor-ready document.
 
-**48 skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
+**49 skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
 
 ---
 
@@ -12,6 +12,7 @@ A modular collection of Claude Code skills for generating, validating, and deliv
 |---|---|
 | Write a complete business plan | `01` through `15` (in order) |
 | Write a specific section | Invoke the numbered skill directly |
+| Test whether a plan makes logical and business sense | `meta-critical-thinking-business-logic` |
 | Validate an existing plan | `meta-bankability-scoring` |
 | Upgrade pricing / defend premium positioning | `meta-pricing-strategy` |
 | Stress-test the financials | `meta-financial-stress-test` |
@@ -70,6 +71,12 @@ Built on 30+ primary sources across strategy, finance, marketing, and management
 - Haines (2022) — business-case discipline for major investments, options, incremental economics, and benefits audit
 - Kennedy and Walsh-Phillips (2018) — attraction, conversion, retention, lead magnets, and referral systems
 
+**Critical thinking, reasoning, and achievability:**
+- Critical-thinking and logic references — claim-evidence-warrant mapping, assumptions, countercases, fallacy checks, and structured problem-solving
+- Essential-question and Socratic-questioning references — purpose, concepts, evidence, implications, ethical questions, and writing discipline
+- Mental-model references — first principles, map versus territory, base rates, incentives, second-order effects, inversion, margin of safety, and circle of competence
+- Design-thinking and strategic-thinking references — user-centred problem definition, prototyping, pattern recognition, systems analysis, mental agility, structured problem-solving, visioning, and political savvy
+
 **Uganda / East Africa context:**
 - IFC/World Bank: CPSD Uganda (2022), Human Capital Review (2025)
 - UBOS: CPI, KEI, NPHC data
@@ -119,6 +126,7 @@ Invoke in order (02 → 15, then 01 last) to produce a complete plan.
 
 | Skill Directory | What It Does |
 |---|---|
+| `meta-critical-thinking-business-logic` | Tests claims, assumptions, evidence, business logic, feasibility, mental models, strategic fit, and achievability before synthesis or final review |
 | `meta-sustainability` | Mandatory sustainability pre-screen (Mode A) and audit (Mode C); Sustainability Readiness Score (5 dimensions); sector materialities; SDG alignment; IFC Performance Standards compliance for DFI applications |
 | `meta-bankability-scoring` | CAMPARI 28-item checklist; bank loan readiness scoring; 12-point cross-section consistency audit |
 | `meta-financial-stress-test` | 4-scenario stress model, Uganda historical shocks, DSCR stress test, Early Warning Dashboard |

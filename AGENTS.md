@@ -55,6 +55,7 @@ For serious business-plan work, start from these skills:
 
 - `00-client-intake`
 - `country-context/{country}` where available, otherwise Uganda defaults
+- `meta-critical-thinking-business-logic`
 - `meta-consulting-synthesis`
 - `meta-bankability-scoring`
 - `meta-due-diligence`
@@ -79,7 +80,7 @@ When preparing decks or presentations, also load:
 
 ## Task Routing
 
-- Full bankable plan: `00-client-intake` -> sections `02` to `16` -> `01-executive-summary` -> `meta-consulting-synthesis` -> `meta-financial-stress-test` -> `meta-bankability-scoring` -> `meta-due-diligence` -> `15-appendices` -> `00-plan-assembly`
+- Full bankable plan: `00-client-intake` -> `meta-critical-thinking-business-logic` -> sections `02` to `16` -> `01-executive-summary` -> `meta-critical-thinking-business-logic` review -> `meta-consulting-synthesis` -> `meta-financial-stress-test` -> `meta-bankability-scoring` -> `meta-due-diligence` -> `15-appendices` -> `00-plan-assembly`
 - Equity or investor plan: baseline plan flow + `meta-valuation`
 - Grant application: `11b-grant-proposal` instead of standard funding-request workflow
 - Proposal work: `proposal-architect` plus any relevant sector or funding skills
@@ -90,6 +91,8 @@ When preparing decks or presentations, also load:
 ## Core Rules
 
 - Do not call output bankable, investor-grade, or submission-ready unless assumptions, risks, evidence, and financing logic are explicit.
+- Do not call output achievable, convincing, or commercially sound unless customer, market, revenue, cost, operating, implementation, and funding logic reconcile.
+- For load-bearing claims, make claim, evidence, warrant, assumption, countercase, and implication visible in notes or prose.
 - Do not duplicate repo-wide standards across many skills when a baseline skill, shared reference, or this file is the right home.
 - Prefer updating an existing overlapping skill over creating a near-duplicate skill.
 - Keep `SKILL.md` concise. Move frameworks, examples, and long teaching content into `references/`.
@@ -104,6 +107,7 @@ A high-stakes output is not complete unless:
 
 - the governing thesis is clear
 - assumptions are explicit
+- load-bearing claims have evidence, warrants, countercases, and implications
 - financials reconcile with the narrative
 - the funding ask matches the implementation plan
 - risks are decision-relevant

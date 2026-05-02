@@ -30,6 +30,7 @@ The repository root should contain project documentation plus `docs/`, `skills/`
 - Sales and go-to-market copy apply Kennedy + Brunson direct-response frameworks — see `book-extractions/kennedy-no-bs-sales-success-extraction.md`, `kennedy-ultimate-sales-letter-extraction.md`, and `brunson-dotcomsecrets-ignite-extraction.md`.
 - Attraction, conversion, retention, and referral logic should be explicit in serious go-to-market sections; use `book-extractions/kennedy-magnetic-marketing-extraction.md` when the plan has channels but no commercial system.
 - Major systems, digitisation, expansion, or automation recommendations should survive a business-case test — problem, options, do-nothing case, incremental economics, timing, and sensitivity. Use `book-extractions/haines-how-to-create-a-business-case-extraction.md`.
+- Serious plan logic must pass `skills/meta-critical-thinking-business-logic/SKILL.md`: essential questions, claim-evidence-warrant mapping, mental-model checks, design-thinking validation, strategic logic, and achievability review.
 
 ### When Generating Plan Content
 
@@ -37,6 +38,8 @@ The repository root should contain project documentation plus `docs/`, `skills/`
 - Financial projections need explicit assumptions — never fabricate numbers
 - Market data must be sourced or clearly flagged as estimates
 - Each section should cross-reference related sections for consistency
+- Load-bearing claims must show evidence, warrant, assumptions, countercase, and implication before they are promoted into polished prose
+- Do not call a plan convincing, bankable, investor-ready, or achievable unless market, operations, financials, risk, funding ask, and implementation timing reconcile
 
 ### Currency and Localisation
 

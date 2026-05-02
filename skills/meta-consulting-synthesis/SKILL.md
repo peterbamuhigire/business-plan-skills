@@ -10,6 +10,7 @@ description: Meta-skill for converting completed business-plan sections into a c
 - Use after the analytical sections exist but before final assembly or presentation.
 - Use when a plan feels sectionally strong but not yet thesis-driven.
 - Use when the work needs McKinsey-style governing logic, issue trees, and decision framing.
+- Use after `meta-critical-thinking-business-logic` has exposed assumptions, countercases, achievability gaps, and cross-section contradictions.
 
 ## Do Not Use When
 
@@ -23,15 +24,17 @@ description: Meta-skill for converting completed business-plan sections into a c
 - Target audience and decision type
 - Key numbers, risks, and ask
 - Any known contradictions, objections, or weak evidence areas
+- Findings from `meta-critical-thinking-business-logic` where available
 
 ## Workflow
 
 1. Define the decision the document must help the reader make.
 2. Write the top-line governing thesis.
 3. Break the case into MECE branches and hypotheses.
-4. Rebuild the storyline around evidence, implications, and remaining proof burdens.
-5. Surface contradictions and gaps across sections.
-6. Produce the rewrite priorities and audience-specific close.
+4. Check that claim, evidence, warrant, assumption, countercase, and implication are explicit for the load-bearing branches.
+5. Rebuild the storyline around evidence, implications, and remaining proof burdens.
+6. Surface contradictions and gaps across sections.
+7. Produce the rewrite priorities and audience-specific close.
 
 ## Quality Bar
 
@@ -39,6 +42,7 @@ description: Meta-skill for converting completed business-plan sections into a c
 - The top-line thesis is explicit and supportable.
 - Headings and opening lines make conclusions clear.
 - Contradictions are exposed and resolved rather than buried.
+- The final storyline is achievable under the plan's market, operating, financial, funding, and risk constraints.
 
 ## Anti-Patterns
 
@@ -46,6 +50,7 @@ description: Meta-skill for converting completed business-plan sections into a c
 - Listing topics instead of building a key line of reasons.
 - Carrying multiple competing theses through the same document.
 - Hiding the hardest objections instead of addressing them.
+- Synthesising around an attractive thesis before the business logic has survived the achievability gate.
 
 ## Outputs
 
@@ -190,5 +195,6 @@ Write the exact closing recommendation for the target reader.
 ## References
 
 - `references/consulting-synthesis-framework.md` - issue trees, hypothesis-driven problem solving, key-line logic, storyline construction, and assertion-evidence rewriting distilled from *McKinsey Mind*, *The McKinsey Edge*, and *Strategic Storytelling*
+- `../meta-critical-thinking-business-logic/references/reasoning-achievability-gate.md` - serious-analysis, mental-model, business-sense, and achievability checks that should precede synthesis
 - `../01-executive-summary/references/pyramid-principle.md` - SCQA and top-down structure
 - `../meta-presentation-design/references/data-storytelling.md` - visual and narrative rules for turning analytical output into decision-ready exhibits
