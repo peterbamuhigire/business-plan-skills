@@ -171,6 +171,10 @@ When the plan faces free or heavily subsidised alternatives (government healthca
 - **Related skills in this repo**: `07-marketing-sales-strategy`, `10-financial-projections`, `06-competitive-analysis`, `03-products-services`, `meta-bankability-scoring`, `meta-valuation`.
 - **Profit and growth-system companion**: See `../../book-extractions/growth-profit-disruption-systems-extraction.md` for offer-mix improvement, 15 percent compounding levers, retention economics, package testing, and profit-led growth logic.
 
+## Premium GTM Companion
+
+Run `../meta-premium-go-to-market/SKILL.md` when premium pricing depends on affluent, executive, enterprise, luxury, high-ticket, or premium-service positioning. Pricing power must be supported by offer design, proof, sales execution, and retention economics.
+
 ## Uganda / East Africa Notes
 
 - **UGX pricing** — the "reassuringly expensive" effect is amplified in EA where very-low prices signal counterfeit or fraud risk.

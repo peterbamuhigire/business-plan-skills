@@ -34,8 +34,9 @@ Generate Section 07 of the business plan: the marketing and sales strategy. Use 
 2. Build the positioning, channel mix, and acquisition logic for the selected segments.
 3. Define the sales process from lead generation to close, repeat purchase, and referral.
 4. Attach budgets, KPIs, and expected economics to the plan.
-5. Reconcile the strategy with capacity, pricing, and financial projections.
-6. Flag where the plan depends on untested channel or conversion assumptions.
+5. If selling premium, high-ticket, luxury/affluent, executive, or enterprise offers, run `meta-premium-go-to-market` before finalising positioning, channel mix, lead generation, sales process, pricing, or retention.
+6. Reconcile the strategy with capacity, pricing, and financial projections.
+7. Flag where the plan depends on untested channel or conversion assumptions.
 
 ## Quality Bar
 
@@ -85,6 +86,7 @@ Generate a comprehensive go-to-market strategy that shows exactly how the busine
 13. **Lead generation magnet or equivalent hand-raiser**  The first low-friction offer that earns permission to follow up
 14. **Narrow-market focus**  The sharpest viable audience or beachhead segment the business can credibly win first
 15. **Growth system and experimentation logic**  The acquisition, activation, retention, referral, revenue, and product-learning loops that turn marketing from campaigns into a repeatable growth engine.
+16. **Premium/high-ticket sales logic where relevant**  Buyer profile, value proof, authority content, referral/outreach path, consultative discovery, proposal process, objection handling, follow-up cadence, VIP retention, and pricing discipline.
 
 ## Marketing Evolution Positioning (Kotler 6.0)
 
