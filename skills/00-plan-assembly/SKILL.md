@@ -70,6 +70,7 @@ Invoke AFTER:
 - `meta-sustainability` Mode C audit has been run
 - `meta-bankability-scoring` has been run and passes the required threshold
 - financial projections have been stress-tested via `meta-financial-stress-test`
+- accounting and financial consistency has been reviewed via `meta-accounting-finance-review` where projections, funding, tax, controls, inventory, payroll, valuation, or investor/lender readiness are material
 - `meta-due-diligence` Mode C has been run
 - `meta-valuation` has been run where the plan includes equity, convertible, SAFE, acquisition, strategic-partner, or blended-finance logic
 
@@ -150,6 +151,7 @@ Before handover, verify:
 - `meta-consulting-synthesis/SKILL.md` - run before assembly to force one thesis and resolve contradictions
 - `meta-critical-thinking-business-logic/SKILL.md` - run before synthesis and assembly to test claims, assumptions, countercases, business logic, feasibility, and achievability
 - `meta-valuation/SKILL.md` - required where valuation or investor-term logic appears
+- `meta-accounting-finance-review/SKILL.md` - required where accounting consistency, finance controls, tax, inventory, payroll, valuation, or funder-ready numbers are material
 - `meta-sustainability/SKILL.md` - sustainability audit before assembly
 - `meta-due-diligence/SKILL.md` - due-diligence readiness and data-room structure
 - `15-appendices/SKILL.md` - appendix architecture and evidence-matrix requirements

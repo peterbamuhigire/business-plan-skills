@@ -169,11 +169,12 @@ If a projected sales volume exceeds practical production or warehouse capacity, 
 5. Calculate break-even point
 6. Document every assumption
 7. Compute key financial ratios and covenant-style checks
-8. Build the valuation bridge when Section 11 involves equity or blended capital
-9. Flag areas requiring sensitivity analysis
-10. For material initiatives, compare base case, preferred option, and do-nothing or low-investment alternative
-11. For industrial businesses, reconcile production volume, material purchases, inventory buildup, capacity, yield, and working capital before calculating DSCR or funding need.
-12. For businesses that will rely on ERP, POS, Excel, mobile money, school fees, patient billing, inventory, payroll, or project accounting, state how source transactions become reliable books: chart of accounts, subledgers, control accounts, accruals/prepayments, depreciation, tax, reconciliations, period close, and management reporting.
+8. Run `meta-accounting-finance-review` when the plan has material accounting, controls, tax, inventory, payroll, POS, ERP, grant, debt, valuation, or investor-readiness implications.
+9. Build the valuation bridge when Section 11 involves equity or blended capital
+10. Flag areas requiring sensitivity analysis
+11. For material initiatives, compare base case, preferred option, and do-nothing or low-investment alternative
+12. For industrial businesses, reconcile production volume, material purchases, inventory buildup, capacity, yield, and working capital before calculating DSCR or funding need.
+13. For businesses that will rely on ERP, POS, Excel, mobile money, school fees, patient billing, inventory, payroll, or project accounting, state how source transactions become reliable books: chart of accounts, subledgers, control accounts, accruals/prepayments, depreciation, tax, reconciliations, period close, and management reporting.
 
 ## Quality Criteria (Rogoff's Bankability Standards)
 
@@ -218,3 +219,4 @@ When projections don't work, adjust the **Six Revenue Dials**: average order val
 - **Data analytics for planning and management dashboards**: See `../../book-extractions/data-analytics-business-planning-extraction.md` when projections depend on historical sales, operational datasets, forecasts, AI analytics, scenario analysis, KPI dashboards, or variance logic. Use the descriptive/diagnostic/predictive/prescriptive ladder to keep forecasts, targets, and recommendations properly separated.
 - **Industrial production and inventory model link**: See `../../book-extractions/industrial-production-inventory-planning-extraction.md` when modelling manufacturing, food processing, warehousing, logistics, wholesale, or any business with material stock risk. Use it to structure raw-material consumption, MRP-style purchasing, safety stock, WIP, yield/scrap, capacity, warehousing, and resource-efficiency assumptions.
 - **Accounting, bookkeeping, ERP finance controls, cost accounting, and finance workbook discipline**: See `../../book-extractions/accounting-bookkeeping-finance-controls-extraction.md` when the plan involves ERP/POS, school fees, patient billing, inventory, payroll, tax, mobile money, credit sales, supplier credit, cost centres, management accounts, Excel models, or weak/informal records. Use it to strengthen accounting basis, reconciliations, source documents, control accounts, close cadence, cost accounting, variance analysis, and model checks.
+- **Accounting and finance review gate**: Run `../meta-accounting-finance-review/SKILL.md` and read `../meta-accounting-finance-review/references/accounting-finance-quality-gate.md` before bankability scoring, stress testing, valuation, due diligence, or final assembly whenever the numbers must withstand accountant, investor, lender, CEO, or board scrutiny.
