@@ -34,9 +34,10 @@ Generate Section 03 of the business plan: the products and services section. Use
 2. Map features to benefits, customer pain points, and commercial value.
 3. Explain delivery, production, suppliers, and compliance requirements where relevant.
 4. If the offer is premium, high-ticket, luxury/affluent, enterprise, or executive-facing, run `meta-premium-go-to-market` to test product design, proof, service layer, pricing power, and buyer fit.
-5. Distinguish current offers from pipeline or aspirational offers.
-6. Reconcile the section with pricing, operations, IP, and market claims elsewhere in the plan.
-7. Flag any missing validation, capability, or compliance facts that weaken the offer narrative.
+5. If the offer includes a website, ecommerce, portal, web app, content/SEO engine, online booking path, or website-design service line, run `meta-website-investment-planning` so the website role, stack, service design, and cost implications are explicit.
+6. Distinguish current offers from pipeline or aspirational offers.
+7. Reconcile the section with pricing, operations, IP, and market claims elsewhere in the plan.
+8. Flag any missing validation, capability, or compliance facts that weaken the offer narrative.
 
 ## Quality Bar
 
@@ -145,3 +146,4 @@ Before committing to product development, assess three dimensions (Dennis et al.
 - **Uganda IP protection**: See `10-financial-projections/references/uganda-ip-framework.md` for Uganda's full IP registration framework  trademark registration via URSB (Nice Classification, 45 classes, UGX 175,000 total filing fee, 7-year initial term + 10-year renewals), patent filing (20-year protection), utility model (10-year), industrial design (15-year), copyright (automatic, life+50 years), ARIPO regional protection covering 19 African countries from a single application, trade secret protection via NDAs, IP as a balance sheet asset and loan collateral, fees table, and Uganda IP Policy 2019 institutional framework. **Read for any business with a brand, recipe, software, invention, or creative work to protect.**
 - **Sustainable product design and circular economy**: See `references/sustainable-product-design.md` for 4 design-stage decisions governing 7080% of lifecycle environmental impact, simplified lifecycle scan table, circular product business models (product-as-a-service, deposit-refund, by-product exchange, refurbishment), technopreneurship product categories for Uganda/EA (clean cookstoves, solar water pumps, cold chain, organic waste-to-compost), 10-question product sustainability assessment tool (scored 020), and NOGAMU organic certification premium data  Source: Kumar et al. (CRC, 2025) and Leleux & van der Kaaij (2019). **Read when designing sustainable products, evaluating lifecycle impact, or incorporating circular economy into the products and services section.**
 - **Premium product and offer design**: Run `../meta-premium-go-to-market/SKILL.md` and read `../meta-premium-go-to-market/references/premium-gtm-quality-gate.md` when the product must sell to affluent, executive, enterprise, luxury, high-ticket, or premium customers. Use it to strengthen positioning, service design, proof, pricing power, launch strategy, and sales execution.
+- **Website investment and website-design services**: Run `../meta-website-investment-planning/SKILL.md` and read `../meta-website-investment-planning/references/website-investment-costing-gate.md` when the product/service requires a website, ecommerce, portal, content/SEO engine, landing page funnel, web app, or website-design service pricing. Use it to define website role, design philosophy, stack, service scope, operating requirements, and realistic cost assumptions.

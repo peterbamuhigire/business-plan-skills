@@ -35,8 +35,9 @@ Generate Section 07 of the business plan: the marketing and sales strategy. Use 
 3. Define the sales process from lead generation to close, repeat purchase, and referral.
 4. Attach budgets, KPIs, and expected economics to the plan.
 5. If selling premium, high-ticket, luxury/affluent, executive, or enterprise offers, run `meta-premium-go-to-market` before finalising positioning, channel mix, lead generation, sales process, pricing, or retention.
-6. Reconcile the strategy with capacity, pricing, and financial projections.
-7. Flag where the plan depends on untested channel or conversion assumptions.
+6. If the strategy depends on a website, ecommerce, landing pages, SEO/content, online booking, portals, or web-based lead capture, run `meta-website-investment-planning` before finalising channel mix, website content, SEO, conversion assumptions, and budget.
+7. Reconcile the strategy with capacity, pricing, and financial projections.
+8. Flag where the plan depends on untested channel or conversion assumptions.
 
 ## Quality Bar
 
@@ -87,6 +88,7 @@ Generate a comprehensive go-to-market strategy that shows exactly how the busine
 14. **Narrow-market focus**  The sharpest viable audience or beachhead segment the business can credibly win first
 15. **Growth system and experimentation logic**  The acquisition, activation, retention, referral, revenue, and product-learning loops that turn marketing from campaigns into a repeatable growth engine.
 16. **Premium/high-ticket sales logic where relevant**  Buyer profile, value proof, authority content, referral/outreach path, consultative discovery, proposal process, objection handling, follow-up cadence, VIP retention, and pricing discipline.
+17. **Website and SEO asset logic where relevant**  Website role, target pages, search intent, content authority assets, conversion paths, analytics events, launch distribution, maintenance, and realistic cost assumptions.
 
 ## Marketing Evolution Positioning (Kotler 6.0)
 

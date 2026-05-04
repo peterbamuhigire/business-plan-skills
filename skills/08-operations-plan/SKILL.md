@@ -81,6 +81,7 @@ Generate a detailed operations plan that demonstrates the business can deliver o
 14. **Industrial production and inventory logic**  For manufacturing, processing, warehousing, wholesale, logistics, and distribution businesses, show MRP-style material planning, capacity, scheduling, storage, material handling, quality, and resource-efficiency assumptions.
 15. **Logistics network and transportation logic**  For import, export, distribution, delivery, fleet, wholesale, retail, agriculture aggregation, and physical-goods businesses, show the logistics network, inventory service level, transport mode, carrier or fleet model, route assumptions, documentation controls, reverse logistics, and exception workflows.
 16. **Digital service delivery and DevOps logic**  For SaaS, software, platform, managed IT, hosting, or app businesses, show how software moves from change request to production, how releases are controlled, how incidents are handled, and how reliability is measured.
+17. **Website operations layer**  For any material website, ecommerce, booking, content/SEO, portal, or web app component, show who owns updates, enquiries, analytics, hosting, security, backups, content quality, SEO monitoring, support, and post-launch improvement. Run `../meta-website-investment-planning/SKILL.md` where costs or operating assumptions are material.
 
 ### Process Documentation Format
 
@@ -185,6 +186,7 @@ Rate the business's operational maturity (target Level 3+ for investor confidenc
 11. For industrial businesses, test sales volume against material availability, batch size, work-centre capacity, storage capacity, lead times, and cash tied in stock before accepting the forecast.
 12. For logistics, import/export, wholesale, retail, and distribution-heavy businesses, test the revenue forecast against network design, replenishment frequency, safety stock, warehouse space, route capacity, carrier reliability, fleet downtime, customs or border lead time, reverse logistics, and transportation cost.
 13. For software or SaaS businesses, test the growth plan against release capacity, deployment risk, monitoring coverage, incident response, support load, cloud cost, backup/restore readiness, and security controls before accepting the forecast.
+14. For website-dependent businesses, test the growth plan against content production, SEO timeline, conversion rate, enquiry handling, maintenance, hosting, analytics, and website support capacity before accepting the forecast.
 
 ## Quality Criteria
 

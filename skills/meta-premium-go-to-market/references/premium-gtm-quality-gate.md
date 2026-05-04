@@ -15,6 +15,8 @@ Use this gate for high-ticket, luxury, affluent, executive, enterprise, and prem
 - Include onboarding, consultation, customisation, account ownership, aftercare, reporting, and escalation where premium buyers expect support.
 - Use scarcity or exclusivity only when operationally true: limited slots, invitation, application, qualification, waitlist, membership, or bespoke production.
 - For services, make the invisible visible: process, milestones, deliverables, proof, review cadence, and success measures.
+- Treat packaging as a value driver: name, presentation, onboarding, website, proposal, demo, environment, documentation, and customer communications must support the price premium.
+- Simplicity is part of premium quality: reduce buyer effort, make decisions clear, and avoid complex bundles that hide the value proposition.
 
 ## Pricing
 
@@ -29,6 +31,8 @@ Use this gate for high-ticket, luxury, affluent, executive, enterprise, and prem
 - For affluent/luxury consumers, build trust through brand world, aspiration, service proof, privacy, and experience.
 - Use lead magnets only if they signal expertise and attract the right buyer; avoid generic giveaways that attract low-fit leads.
 - Use nurture sequences to educate, build authority, handle risk, and invite a specific next step.
+- Use digital PR and content assets to earn authority: original data, expert commentary, buyer guides, diagnostics, benchmarks, case studies, and campaignable stories.
+- For high-value meeting generation, create a reason worth attention: relevant trigger, insight, referral, benchmark, diagnostic, or executive briefing. Do not ask for time with a generic introduction.
 
 ## Sales Execution
 

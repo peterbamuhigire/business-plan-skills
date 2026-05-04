@@ -32,10 +32,11 @@ Use this skill to design the digital marketing layer of a business plan or growt
 
 1. Identify the audience, channels, and digital objectives that matter.
 2. Select the most relevant online acquisition and retention paths.
-3. Define content, paid, social, search, and automation roles where appropriate.
-4. Reconcile the digital plan with budget, operations, and sales capacity.
-5. Integrate AI-assisted marketing only where it improves execution materially.
-6. Flag weak channel assumptions or capability gaps.
+3. Where a website, ecommerce, landing pages, content hub, SEO, or online lead capture matters, run `meta-website-investment-planning` so the plan includes website role, content/SEO architecture, stack, maintenance, analytics, and realistic costs.
+4. Define content, paid, social, search, and automation roles where appropriate.
+5. Reconcile the digital plan with budget, operations, and sales capacity.
+6. Integrate AI-assisted marketing only where it improves execution materially.
+7. Flag weak channel assumptions or capability gaps.
 
 ## Quality Bar
 
@@ -43,6 +44,7 @@ Use this skill to design the digital marketing layer of a business plan or growt
 - Channel choices match the audience and budget reality.
 - AI usage is practical, not ornamental.
 - Digital activity connects back to measurable growth outcomes.
+- Website and SEO recommendations include content, conversion, measurement, maintenance, and cost assumptions instead of treating "having a website" as a strategy.
 
 ## Anti-Patterns
 

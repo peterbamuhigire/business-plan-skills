@@ -73,6 +73,10 @@ When the plan or strategy must explain how the business should digitise, moderni
 
 - `meta-digital-transformation`
 
+When a plan includes a website, ecommerce site, content/SEO engine, portal, landing pages, web app, website-design service line, or website startup/recurring costs, also load:
+
+- `meta-website-investment-planning`
+
 When preparing decks or presentations, also load:
 
 - `meta-pitch-preparation`
@@ -87,6 +91,7 @@ When preparing decks or presentations, also load:
 - Pitch or deck work: `meta-pitch-preparation` + `meta-presentation-design`
 - Execution planning: `meta-monitoring-evaluation` + `meta-quarterly-gameplan`
 - Digital-first or technology-modernisation strategy: baseline flow + `meta-digital-transformation` + `14-ai-integration` where AI is materially relevant
+- Website, ecommerce, or website-design-service planning: relevant section flow + `meta-website-investment-planning` + `digital-marketing-strategy` + `meta-premium-go-to-market` when premium positioning applies
 
 ## Core Rules
 
