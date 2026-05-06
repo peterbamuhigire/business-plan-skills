@@ -30,8 +30,9 @@ description: Generate a compelling executive summary that serves as the investor
 2. Identify the one governing thought and strongest hook.
 3. Draft using the Context -> Approach -> Results -> Ask structure.
 4. Compress the plan into a short, high-signal summary without losing financial and decision logic.
-5. Reconcile every claim and number against the underlying sections.
-6. Revise for clarity, persuasion, and scanability.
+5. Apply `premium-commercial-writing` for investor/lender polish, proof calibration, premium credibility, and decision-ready language.
+6. Reconcile every claim and number against the underlying sections.
+7. Revise for clarity, persuasion, and scanability.
 
 ## Quality Bar
 
@@ -142,7 +143,7 @@ Structure the summary for both reading and presenting (Bradbury):
 2. Identify the single strongest selling point  this becomes the lead
 3. Draft using the four-step formula: Context  Approach  Results  Ask
 4. Weave in all 12 required elements
-5. Apply the revision process (see references/writing-quality.md)
+5. Apply the revision process (see references/writing-quality.md) and the premium investor-document gate (see `../premium-commercial-writing/references/document-investor-polish.md`)
 6. Verify financial figures match section 10 exactly
 7. Run the six-question verification test
 
@@ -259,6 +260,7 @@ Frame the executive summary appropriately for the venture type (Blank & Dorf, 20
 ## References
 
 - **Writing quality and revision process**: See `references/writing-quality.md` for detailed writing standards, revision workflow, and word-economy rules
+- **Premium investor and document polish**: See `../premium-commercial-writing/references/document-investor-polish.md` and `../premium-commercial-writing/references/premium-writing-quality-gate.md` for decision-ready summaries, claim calibration, proof, funding ask polish, and premium commercial texture
 - **Persuasion and presentation techniques**: See `references/presentation-structure.md` for audience analysis, persuasive structuring, and visual communication principles
 - **Proposal summarisation patterns**: See `references/proposal-patterns.md` for examples and templates of effective executive summaries for funding proposals
 - **Brand story and Hero Narrative framework**: See `../07-marketing-sales-strategy/references/social-business-brand-strategy.md` for Brito's nine-input content narrative framework, Hero Narrative simplification test, converged media model (paid/earned/owned), and content governance principles  applicable when writing the business concept paragraph and brand positioning statement

@@ -35,7 +35,8 @@ Use this skill as the language-quality layer for the suite. It sharpens clarity,
 3. Remove ambiguity, filler, and passive evasion.
 4. Improve flow, emphasis, and narrative sequence without distorting meaning.
 5. Reconcile language choices with the intended audience and document type.
-6. Flag where the draft is weak because the underlying thinking is weak.
+6. For premium, investor-facing, sales-oriented, SEO, or client-facing deliverables, apply `premium-commercial-writing` before final polish.
+7. Flag where the draft is weak because the underlying thinking is weak.
 
 ## Quality Bar
 
@@ -234,3 +235,4 @@ Replace passive-voice constructions. Replace hedging language. Replace abstract 
 - `references/essay-writing-shiach.md`  Argument structure, introduction/conclusion formulas, transitions master list, waffle diagnosis test (Shiach, *How to Write Essays*)
 - `references/business-english-geffner.md`  Four Cs, parallelism rules, business document conventions, positive framing, expressions to avoid, report/proposal structure (Geffner, *Business English*)
 - `references/storytelling-rubie-provost.md`  Provost Paragraph, high-concept hook, scene-writing, conflict mechanics, book proposal structure applicable to business proposals (Rubie & Provost, *How to Tell a Story*)
+- `../premium-commercial-writing/SKILL.md`  Cross-cutting premium commercial writing layer for commercial purpose, differentiation, proof, SEO/AI-search visibility, investor polish, and premium-fee quality gates.

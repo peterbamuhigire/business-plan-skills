@@ -33,9 +33,10 @@ Use this skill as the general copywriting and editing standard for websites and 
 1. Identify what the page or piece of content must achieve.
 2. Clarify the reader, promise, and next action.
 3. Draft or revise the copy for clarity, persuasion, and scanability.
-4. Reconcile tone and terminology with the brand and surrounding content.
-5. Tighten weak sections, headlines, and transitions.
-6. Flag where better inputs or stronger evidence are needed.
+4. For premium service pages, sales pages, authority content, SEO/AI-search pages, or high-stakes conversion copy, apply `premium-commercial-writing`.
+5. Reconcile tone and terminology with the brand and surrounding content.
+6. Tighten weak sections, headlines, and transitions.
+7. Flag where better inputs or stronger evidence are needed.
 
 ## Quality Bar
 
@@ -366,6 +367,7 @@ Before publishing any page or post, verify:
 This skill is cross-cutting  it applies alongside:
 
 - **language-standards**  tone, grammar, and formality per language (British English, formal French, East African Kiswahili)
+- **premium-commercial-writing**  premium commercial purpose, differentiation, proof, objection handling, CTA logic, and SEO/AI-search visibility for high-stakes copy
 - **page-builder**  implements these writing standards in Astro page content
 - **seo**  headlines and niche vocabulary directly support search visibility
 - **brand-alignment**  content voice must match brand identity

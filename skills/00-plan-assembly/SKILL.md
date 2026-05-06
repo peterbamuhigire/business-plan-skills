@@ -32,8 +32,9 @@ description: Final assembly skill that converts completed business-plan sections
 2. Identify the primary recipient and submission context.
 3. Assemble the document in the correct order for that audience.
 4. Generate the covering letter, attachment checklist, and final TOC.
-5. Reconcile the final package against the funding ask, appendices, and page references.
-6. Produce the final pre-submission issue list if anything still blocks handover.
+5. Apply `premium-commercial-writing` to the final client-facing package, especially the cover letter, executive summary, funding ask, and decision summaries.
+6. Reconcile the final package against the funding ask, appendices, and page references.
+7. Produce the final pre-submission issue list if anything still blocks handover.
 
 ## Quality Bar
 
@@ -157,3 +158,4 @@ Before handover, verify:
 - `15-appendices/SKILL.md` - appendix architecture and evidence-matrix requirements
 - `meta-presentation-design/SKILL.md` - deck design after assembly
 - `meta-pitch-preparation/SKILL.md` - live delivery preparation after assembly
+- `premium-commercial-writing/SKILL.md` - final premium commercial writing pass for cover letters, executive summaries, funding asks, proposal language, and investor/lender decision summaries
