@@ -229,6 +229,30 @@ Do not treat tool subscriptions as transformation.
 - Adoption plan includes literacy, ownership, and pilot metrics
 - ROI is measured using operational or commercial outcomes, not novelty language
 
+## AI-on-SaaS Cross-Section Integration (when AI is customer-facing in a SaaS plan)
+
+When AI is a customer-facing feature in a SaaS / ICT business plan (not just internal efficiency), this Section 14 is the cross-section integrator. The deep AI-on-SaaS skills sit in their natural homes:
+
+- **Section 03**: `skills/03-products-services/saas-ai-product-strategy-and-roadmap/` — AI product strategy (build/buy/host/orchestrate; model router; eval-driven dev; AI roadmap by ARR with cost gating)
+- **Section 04**: `skills/04-market-analysis/saas-ai-market-and-tam/` — AI-aware TAM with attribution discipline
+- **Section 06**: `skills/06-competitive-analysis/saas-ai-moat-and-defensibility/` — 7-question moat test + false-moat catalogue + Wardley placement + foundation-model platform-risk
+- **Section 07**: `skills/07-marketing-sales-strategy/saas-ai-pricing-strategy/` — AI pricing architecture (tier × model × allowance × overage × FX)
+- **Section 09**: `skills/09-management-team/saas-ai-talent-strategy/` — AI talent (roles by ARR, African talent map, retention)
+- **Section 10**: `skills/10-financial-projections/saas-ai-unit-economics-and-cogs/` — AI COGS waterfall + AI GM trajectory + AI-cost-%-of-ARR
+- **Section 10**: `skills/10-financial-projections/saas-ai-cost-of-tenant-calculator/` — per-tenant cost calculator with sensitivity matrix
+- **Section 11**: `skills/11-funding-request/saas-ai-funding-stage-playbook/` — stage ladder + investor archetype + grant + commercial blend
+- **Section 11b**: `skills/11b-grant-proposal/saas-ai-for-good-grant-proposal/` — AI-for-good grant proposal
+- **Section 12**: `skills/12-risk-analysis/saas-ai-risk-and-stress-test/` — 14-category AI risk register + 6 quantified stress scenarios
+- **Section 16**: `skills/16-sustainability-strategy/saas-ai-sustainability-and-ethics/` — AI ethics + sustainability + governance committee + AI-incident protocol
+- **Meta**: `skills/meta-ai-bankability-and-investor-readiness/` — AI bankability scorecard
+- **Meta**: `skills/meta-ai-valuation-adjustments/` — AI premium / discount logic
+- **Meta**: `skills/meta-living-plan-governance/SKILL.md` — AI cadence (eval weekly, hallucination monthly, cost-per-tenant monthly, retraining trigger, model deprecation watch)
+- **Meta**: `skills/meta-board-and-investor-reporting/references/saas-ai-board-pack-section.md` — AI section of quarterly board pack
+- **Country context**: `country-context/africa-regional/africa-ai-context-extension.md` — Africa-AI context (compute scarcity, GPU, sovereign-AI, local-language, national policies KE / NG / ZA / RW / EG / UG)
+- **Audit**: `book-extractions/ai-on-saas-business-plan-audit-2026.md` — what was added and why
+
+This section (14) remains the **operational AI integration** layer (where AI is used inside the business for efficiency / augmentation) and the **cross-section anchor** that ensures the AI-on-SaaS plan reconciles across all sections.
+
 ## References
 
 - **Process automation readiness**: See `references/process-automation-readiness.md` for automation levels spectrum, automation decision framework (6 criteria), automation readiness checklist, BPMS components and architecture, task types in process automation, decision tables, 9 steps to executable processes, build/buy/outsource decision framework, and the "redesign before automating" principle  from Dumas et al. (Springer, 2013) and Dennis, Wixom & Tegarden (Wiley, 2021)
