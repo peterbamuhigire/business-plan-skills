@@ -97,6 +97,7 @@ Every projection must state its assumption:
 - Capital expenditure schedule
 - Working capital requirements
 - Accounting basis, bookkeeping cadence, source-document discipline, reconciliation routines, and financial-control assumptions where these affect lender or investor trust
+- IFRS/IFRS for SMEs statement format, accounting-policy assumptions, and whether the operating system will use an embedded posting engine so projected and actual gross margin, contribution margin, working capital, and cash flow remain comparable
 - Inventory buildup by raw materials, work in process, finished goods, packaging, and spares where applicable
 - Production yield, scrap, rework, setup/changeover, and practical capacity assumptions for manufacturing or processing businesses
 - Tax rates and obligations
@@ -116,6 +117,21 @@ For technology investments, apply the three-dimensional feasibility framework (D
 - **Technical feasibility**  Can we build/deploy itSection  (familiarity, size, compatibility risks)
 - **Economic feasibility**  Should we investSection  (NPV, ROI, break-even analysis over 35 years)
 - **Organisational feasibility**  Will the team adopt itSection  (strategic alignment, champion, user readiness)
+
+### Accounting Upgrade References
+
+When the plan involves SaaS, ERP, POS, inventory, payroll, schools, clinics, NGOs, agribusiness, or any system that will produce its own books, use:
+
+- `references/accounting-upgrade/ifrs-statement-templates.md` for IFRS-aligned projected statements.
+- `references/accounting-upgrade/posting-model-unit-economics.md` to align projected unit economics with the live posting model.
+- `references/accounting-upgrade/cvp-working-capital.md` for CVP, break-even, AR/AP/inventory days, and cash-conversion-cycle analysis.
+
+Hard rules:
+
+- Do not default to US GAAP classifications for East/Central African markets.
+- Do not use LIFO under IFRS or IFRS for SMEs.
+- Do not double-count depreciation as both operating expense and below-EBITDA deduction.
+- Separate employee payroll deductions from employer payroll costs.
 
 ### Budgeting Fundamentals
 

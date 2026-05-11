@@ -199,3 +199,25 @@ For AI-feature-led plans, see the dedicated extension reference `africa-ai-conte
 **Plan implication**: every AI-feature-led African SaaS plan should declare (1) which AI talent pool sources it draws from, (2) which sovereign-AI / DFI / grant funding pathways it pursues, (3) its local-language coverage commitment, (4) its hosting + data-residency posture against the country's AI / data law, (5) its sustainability posture given regional grid mix, and (6) its compliance posture against EU AI Act if it serves EU customers and against the relevant African AI framework.
 
 See `africa-ai-context-extension.md` for full detail.
+
+---
+
+## Section 15 — Africa-Agent context
+
+In addition to the AI-on-SaaS context above, plans that ship an **AI agent or multi-agent product** in African markets must reflect the agent-specific realities. The full extension lives at `africa-agent-context-extension.md`. Summary:
+
+- **Public-sector agent demand (2025-2030)**: KE Huduma / eCitizen; NG NIMC / NITDA; ZA SARS / Home Affairs; RW Irembo; UG NITA-U; EG citizen-service automation; sovereign-AI residency increasingly required
+- **Vertical agents in commercial market**: agri-extension (WhatsApp / USSD / IVR; local-language); fintech-collections (PAR>30 case management; mobile-money rails); healthtech triage (CHW support); edutech tutoring (local-language); legal-aid (paralegal assistance); CX / customer service (utilities / telcos / banks); HR / payroll / accounting (URA / KRA / SARS / FIRS filing); public-sector citizen-service; climate / carbon MRV
+- **Talent realities**: Agent Architect scarce; Tool Engineer most-available; Eval Engineer extremely scarce; AI Safety Lead almost non-existent in-region (fractional / remote at seed; full-time mandatory at A); HITL Designer sourced from BPO operations; FDE from CMU-Africa pipeline. Compensation 1.5-2.5x equivalent ML Engineer for AI Safety + Eval Engineer
+- **Sovereign-AI for agents**: af-south-1, Azure SA, GCP africa-south1, Liquid, Cassava, MTN AI Factories, MainOne, Raxio, Teraco, Ethiopian AI Institute, Egypt national; in-region GPU 1.5-3x US/EU
+- **Channel realities** — multichannel-first mandatory: WhatsApp BSP, USSD, SMS, IVR, voice, mobile-money interaction; chat-only loses 60-80% of addressable user base
+- **FX**: USD agent cost + local revenue; FX corridor and pass-through clauses mandatory
+- **Regulator map**: ODPC (KE), NDPC (NG), NITA-U / PDPO (UG), Information Regulator (ZA), NCSA (RW), PDPC (TZ), NTRA (EG); sectoral regulators in finance, health, telecoms, legal
+- **DFI / grant funding for agents**: IFC, AfDB, FMO, BII, Proparco, FCDO, USAID DIV, IDRC, GIZ, Catalyst Fund, GSMA AI for Impact, Mozilla African Innovation Mradi, Lacuna Fund, Patrick J. McGovern, Gates, Google.org, Microsoft AI for Good — donor expectations include human-final on irreversibility, jobs-impact disclosure, contestability, local-language coverage, local accountability
+- **Jobs-impact**: politically consequential in ZA / KE / NG; disclosure + re-skilling commitment increasingly required
+- **Insurance**: AI E&O thin in Africa; self-insurance reserve mandatory for Class D agents
+- **Tender concentration**: avoid single-sovereign-AI tender >20-25% of ARR
+
+**Plan implication**: every agent-product African plan must declare (1) agent archetype on page one; (2) action class taxonomy A/B/C/D with HITL policy per class; (3) channel-mix coverage; (4) local-language coverage roadmap; (5) sovereign-AI / residency posture; (6) AI Safety Lead status (full-time at A+); (7) regulator engagement evidence; (8) cost-per-resolved-task as headline economic metric; (9) moat-vs-wrapper score; (10) jobs-impact disclosure where applicable.
+
+See `africa-agent-context-extension.md` for full detail.

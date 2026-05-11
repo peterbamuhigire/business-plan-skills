@@ -102,6 +102,28 @@ The AI cadence is operationalised through:
 - `skills/16-sustainability-strategy/saas-ai-sustainability-and-ethics/SKILL.md` — ethics + sustainability
 - `skills/meta-board-and-investor-reporting/references/saas-ai-board-pack-section.md` — reporting
 
+## Agent Living-Plan Cadence (mandatory when the plan ships an agent or multi-agent product)
+
+When the plan is an agent business, add the **Agent Cadence** layer on top of the AI cadence above. The agent cadence is specified in:
+
+`references/agent-cadence-table.md`
+
+It covers weekly (task success, intervention rate, cost-per-resolved, tool reliability, branch / loop breaches, eval scores, cache, token usage, provider pricing scan, prompt-injection scan), monthly (agent GM, HITL / tool / retry cost shares, agent revenue attribution, irreversibility / autonomy incidents, audit / kill-switch / red-team drills, eval coverage, model-deprecation watch, contestability, channel reliability, AI Safety Lead retention, sustainability KPIs, misuse detection), quarterly (moat reassessment, autonomy expansion review, regulator watch, stress refresh, tabletop exercise, reserves review, bankability rescore, valuation refresh, foundation-model platform risk, comparable scan, insurance review, tool registry proprietary share, AI Safety Lead succession, talent retention, customer rollout, training-data provenance audit, jobs-impact tracking), annual (full simulation, external ethics review, Wardley refresh, comp scan, sustainability annual review, multi-country expansion review).
+
+The agent cadence is operationalised through:
+- `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — cost per resolved
+- `skills/07-marketing-sales-strategy/saas-agent-pricing-strategy/SKILL.md` — pricing
+- `skills/06-competitive-analysis/saas-agent-moat-and-wrapper-risk/SKILL.md` — moat
+- `skills/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — risk + stress + drills
+- `skills/09-management-team/saas-agent-talent-strategy/SKILL.md` — talent
+- `skills/03-products-services/saas-agent-product-strategy-and-roadmap/SKILL.md` — autonomy ladder
+- `skills/13-implementation-timeline/saas-agent-implementation-timeline/SKILL.md` — rollout
+- `skills/16-sustainability-strategy/saas-agent-sustainability-and-ethics/SKILL.md` — ethics + sustainability
+- `skills/meta-agent-bankability-and-investor-readiness/SKILL.md` — scorecard
+- `skills/meta-agent-valuation-adjustments/SKILL.md` — valuation
+- `skills/meta-agent-board-and-investor-reporting/SKILL.md` — reporting
+- `skills/08-operations-plan/references/agent-operations-runbook-summary.md` — operations runbook
+
 ## The MSPOT Annual Artefact
 
 Cotton (HubSpot) MSPOT structure:

@@ -92,10 +92,36 @@ When AI is material to revenue or product, every quarterly board pack must inclu
 
 This sits alongside the financial dashboard and is treated as a first-class section, not as an appendix.
 
+## Agent Section (mandatory for agent-product companies)
+
+When the company ships an agent or multi-agent product, every quarterly board pack must include the **Agent Section** per `skills/meta-agent-board-and-investor-reporting/references/saas-agent-board-pack-section.md`. Every monthly investor update must include the **Agent block** per `skills/meta-agent-board-and-investor-reporting/references/saas-agent-investor-update-block.md`. The Agent section includes:
+
+- Full agent KPI trends (13-week): resolved tasks, cost per resolved task, intervention rate, task success, agent GM, agent ARR attribution, cache, HITL / tool / retry shares, branch / loop breaches
+- Moat-vs-wrapper reassessment (quarterly)
+- Autonomy expansion review (any new actions promoted to higher class)
+- Drill cadence audit (monthly safety drill + quarterly tabletop)
+- Audit-log review summary
+- Regulator engagement log
+- Stress-test refresh
+- Reserves balances (irreversibility / migration / regulator)
+- Talent retention signals (AI Safety Lead, Eval Engineer, Agent Architect)
+- Foundation-model platform risk
+- Bankability rescore
+- Valuation context
+- Decisions taken + decisions due
+- Next-quarter agent priorities
+
+Sev-1 incidents must be communicated to investors within 48 hours of confirmation, not at the next board meeting. The Agent section sits **on top of** the AI section, not in place of it.
+
+This is operationalised through `skills/meta-agent-board-and-investor-reporting/SKILL.md` (workflow).
+
 ## References
 
 - `references/saas-board-pack-template.md` — full template + worked example
 - `references/saas-ai-board-pack-section.md` — AI section template for AI-feature-led companies
+- `skills/meta-agent-board-and-investor-reporting/SKILL.md` — Agent reporting workflow (for agent-product companies)
+- `skills/meta-agent-board-and-investor-reporting/references/saas-agent-board-pack-section.md` — Agent section template
+- `skills/meta-agent-board-and-investor-reporting/references/saas-agent-investor-update-block.md` — Agent investor-update block
 - `book-extractions/cotton-run-a-saas-business-extraction.md` — MSPOT and cadence
 - `book-extractions/mersch-hacking-saas-extraction.md` — financial reporting standards
 - `skills/meta-living-plan-governance/SKILL.md` — sister skill (this skill operationalises the living plan via investor reporting)

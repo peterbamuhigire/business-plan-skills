@@ -1,6 +1,12 @@
-"""Verify the 5 SaaS financial-model workbooks exist, are valid OOXML zips,
+"""Verify the SaaS financial-model workbooks exist, are valid OOXML zips,
 and contain the expected sheet count."""
-import os, sys, zipfile, re
+import os, sys, zipfile, re, io
+
+# Force UTF-8 stdout on Windows consoles
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+except Exception:
+    pass
 
 WORKBOOKS = [
     ("skills/saas-unit-economics-and-cohort-model/templates/saas-unit-economics-model.xlsx", 5,
@@ -13,6 +19,10 @@ WORKBOOKS = [
         ["README","Inputs","Cost-Per-Tenant","Margin-Analysis","Sensitivity","Stress-Test","Dashboard","Africa-Notes"]),
     ("skills/meta-living-plan-governance/templates/saas-living-plan-kpi-dashboard.xlsx", 4,
         ["README","Monthly-Inputs","KPI-Dashboard","Variance-Tracker","Africa-Notes"]),
+    ("skills/10-financial-projections/saas-agent-unit-economics-and-cogs/templates/saas-agent-cost-per-task-calculator.xlsx", 7,
+        ["README","Inputs","Cost-Per-Task","Margin-Analysis","Sensitivity","Stress-Test","Dashboard","Africa-Notes"]),
+    ("skills/10-financial-projections/saas-agent-unit-economics-and-cogs/templates/saas-agent-unit-economics-model.xlsx", 8,
+        ["README","Inputs","Cohort","Unit-Economics","Wrapper-vs-Moat-Scoring","AI-vs-Agent-Comparison","Dashboard","Stress-Test","Africa-Notes"]),
 ]
 
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
@@ -35,7 +45,7 @@ for rel, _min_sheets, expected in WORKBOOKS:
         sheets = re.findall(r'<sheet[^>]+name="([^"]+)"', wb_xml)
         missing = [s for s in expected if s not in sheets]
         status = "OK" if not missing else f"PARTIAL (missing: {missing})"
-        print(f"{status}: {rel}  size={size:,}B  sheets={len(sheets)}  → {sheets}")
+        print(f"{status}: {rel}  size={size:,}B  sheets={len(sheets)}  -> {sheets}")
         if missing:
             failed += 1
     except Exception as e:

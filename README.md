@@ -127,6 +127,7 @@ Invoke in order (02 → 15, then 01 last) to produce a complete plan.
 | Skill Directory | What It Does |
 |---|---|
 | `meta-critical-thinking-business-logic` | Tests claims, assumptions, evidence, business logic, feasibility, mental models, strategic fit, and achievability before synthesis or final review |
+| `meta-accounting-finance-review` | IFRS-aware accounting, management accounting, financial-model, controls, and projection integrity review before bankability, valuation, due diligence, or final assembly |
 | `meta-sustainability` | Mandatory sustainability pre-screen (Mode A) and audit (Mode C); Sustainability Readiness Score (5 dimensions); sector materialities; SDG alignment; IFC Performance Standards compliance for DFI applications |
 | `meta-bankability-scoring` | CAMPARI 28-item checklist; bank loan readiness scoring; 12-point cross-section consistency audit |
 | `meta-financial-stress-test` | 4-scenario stress model, Uganda historical shocks, DSCR stress test, Early Warning Dashboard |
