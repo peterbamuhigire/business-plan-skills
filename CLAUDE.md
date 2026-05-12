@@ -79,3 +79,32 @@ If no country file exists, Uganda defaults apply. To create a file for a new cou
 - Cite reference books where they add credibility to the business plan: financial benchmarks, regulatory frameworks, pricing methodologies, industry statistics
 - Format: parenthetical (Author, Year) on first use; full bibliographic details in the appendices
 - Do NOT cite for generic advice, the user's own data, or derived projections
+
+
+## Finance & Accounting Trigger
+
+Load `doctrine/accounting-finance-doctrine.md` whenever the user's request, the artefact being generated, or the code being edited touches **any** of:
+
+- Money flows: sales, purchases, payments, refunds, credit notes, expenses
+- Stock and inventory
+- Payroll
+- Tax (VAT, PAYE, WHT, NSSF, income tax, customs, excise, EFRIS, eTIMS)
+- Grants, donations, donor restrictions
+- Banking, mobile money, POS, card settlement, cash drawer
+- Fixed assets
+- Financial reports, management accounts, statutory returns
+- Chart of Accounts, journals, ledger, posting services, period state, audit trail
+- Reconciliation, close, migration, opening balances
+- Internal controls, audit, evidence packs
+- Any IFRS or IFRS for SMEs section
+
+When the trigger fires:
+
+1. Read `doctrine/accounting-finance-doctrine.md`.
+2. Read the relevant doctrine reference file under `doctrine/references/`.
+3. Read the relevant skill `SKILL.md` under `skills/finance/`.
+4. Apply the **finance & accounting quality gate** from `doctrine/governance/finance-accounting-quality-gate.md`.
+5. Record the gate run in the artefact manifest.
+
+The `finance-module-audit` skill (at `skills/finance/finance-module-audit/`) auto-runs whenever the user asks to analyse, review, audit, build, propose, or replace any software system with even a slight finance element.
+
