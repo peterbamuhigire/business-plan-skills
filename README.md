@@ -6,6 +6,29 @@ A modular collection of Claude Code skills for generating, validating, and deliv
 
 ---
 
+## SaaS + AI-on-SaaS + Agent Business-Plan Stack (May 2026)
+
+Major living-plan layer added for ICT/SaaS startups across all sections plus meta-skills. Every new and enhanced skill conforms to the **living-plan governance pattern** (data feed · cadence · owner · decision-log · variance-threshold · sunset).
+
+**SaaS plans (16 skills + 15 enhancements + 29 references):** unit economics & cohort model, pricing & packaging strategy, living-plan governance meta, GTM motion design, sales org & capacity planning, customer success operating model, bankability & investor readiness, valuation & fundraising strategy, MVP-to-PMF strategy, vertical niche selection, marketing channel economics, lifecycle email & retention, board & investor reporting meta, strategic optionality meta, ICT services firm plan, ICT product company plan.
+
+**AI-on-SaaS plans (13 skills + 17 enhancements + 26 references):** AI unit economics & COGS, AI cost-of-tenant calculator, AI pricing strategy, AI market & TAM (with attribution discipline), AI moat & defensibility (7-question rubric), AI product strategy & roadmap, AI talent strategy (African map: CMU-Africa, ALU, Andela AI, Deep Learning Indaba, AIMS, Lelapa, Masakhane, Awarri), AI risk & stress test, AI bankability meta, AI valuation adjustments meta, AI funding stage playbook, AI-for-good grant proposal, AI sustainability & ethics.
+
+**Agent plans (13 skills + 17 enhancements + 25 references):** agent unit economics & COGS (cost-per-resolved-task), agent pricing strategy (per-resolution / per-outcome / per-step / per-agent / hybrid), agent product strategy & roadmap, agent moat & wrapper-risk (8-question rubric: 40–70% valuation discount when wrapper), agent risk & stress test (action taxonomy A/B/C/D + 12-category register), agent talent strategy (Agent Architect, Tool, Eval, AI Safety Lead, HITL Designer, MLOps, FDE, Agent PM, Domain Expert), agent funding stage playbook, agent implementation timeline (shadow → supervised → agentic gates), agent integration deep, agent sustainability & ethics, agent bankability meta (7-dimension 0–100 scorecard), agent valuation adjustments meta, agent board & investor reporting meta.
+
+**Agent SLA + commercial (11 skills + many enhancements + 13 references):** ASC 606 / IFRS 15 revenue recognition for agents, deferred revenue + credit reserves, refund reserve methodology, SLA-COGS treatment policy, SLA economics in projection, commercial packaging economics, outcome pricing business case, SLA risk + stress test, investor narrative on SLA, SLA financial controls meta, valuation overlay for SLA meta.
+
+**Africa context:** `country-context/africa-regional/africa-ict-saas-market-context.md` with Section 14 (Africa-AI) and Section 15 (Africa-Agent) covering compute scarcity (af-south-1, Liquid, Cassava, MTN AI Factories, MainOne, Raxio, Teraco, Ethiopian AI Institute), sovereign-AI demand, local-language model opportunity, national AI policies (KE/NG/ZA/RW/EG/UG/GH/MU/AU), African AI funding ecosystem, talent map, vertical opportunities, mobile-money realities, FX corridor, sector regulators.
+
+**Working financial models (7 Excel workbooks, 2,400+ formulas):** under `skills/.../templates/`:
+- `saas-unit-economics-model.xlsx`, `saas-cohort-and-retention-model.xlsx`, `saas-financial-projection-3yr-5yr.xlsx` (Multi-Step P&L + 60-month ARR waterfall + Bull/Base/Bear scenarios), `saas-ai-cost-of-tenant-calculator.xlsx`, `saas-living-plan-kpi-dashboard.xlsx` (auto-REPLAN flag at >10% variance), `saas-agent-cost-per-task-calculator.xlsx`, `saas-agent-unit-economics-model.xlsx` (Wrapper-vs-Moat scoring → valuation multiplier {0.6, 0.85, 1.10, 1.35}).
+- Idempotent build scripts under `scripts/build-financial-models/`.
+- Master README at `templates/README-financial-models.md`.
+
+**Book extractions** (in `book-extractions/`): 7 SaaS books distilled through the business-plan lens, plus 5 audit documents.
+
+---
+
 ## What This Suite Does
 
 | Need | Skills to Use |

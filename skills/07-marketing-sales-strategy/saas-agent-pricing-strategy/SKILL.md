@@ -110,6 +110,42 @@ The agent pricing decision is the most consequential commercial decision in an a
 - Composition with platform / tier pricing
 - Living-plan cadence assignment
 
+## SLA-Tier Pricing Economics Subsection
+
+When agent pricing includes **multi-tier SLA** (bronze / silver / gold or similar), the pricing primitive interacts with the SLA-tier choice in commercially material ways. The full discipline lives in `saas-agent-commercial-packaging-economics/SKILL.md` (packaging dimension) and `saas-agent-sla-risk/SKILL.md` (risk dimension); the pricing subsection here covers:
+
+**Tier-mix economics.**
+- Bronze tier (lowest commitment): typically priced 20-40% below blended; attracts price-sensitive customers; SLA-credit risk lower in absolute terms
+- Silver tier (standard): the anchor tier; pricing aligned to corridor analysis; SLA-credit risk moderate
+- Gold tier (premium): priced 50-150% above blended; serves regulated / enterprise; SLA-credit risk higher in absolute terms (richer credits) but lower in % (tighter operational discipline)
+
+**Cannibalisation risk.**
+- If gold tier is too premium-priced, customers downgrade to silver, eroding ARPU
+- If bronze tier is too cheap, customers downgrade from silver, eroding ARPU
+- Monitor monthly tier-mix; alert on >10% mix shift toward lower tier
+
+**Base-tier erosion risk.**
+- When agent product is bundled into a base tier ("agent included"), the base-tier price must rise to absorb agent cost; failing to raise base price = silent margin loss
+- Alternative: hold base-tier price, add agent-tier above (add-on or standalone)
+
+**SLA-credit risk per tier.**
+- Bronze SLA-credit cap: typically 10-15% of monthly fee
+- Silver SLA-credit cap: 20-30%
+- Gold SLA-credit cap: 30-50% (sometimes uncapped on response-time but capped on uptime)
+- Reserve methodology must size separately per tier (richer tiers = richer credit exposure but lower breach probability)
+
+**FX-corridor per tier.**
+- Bronze tier: often local-currency-priced; lower FX-corridor tolerance
+- Silver / Gold: USD-indexed common; better FX-corridor protection
+- Reserve currency choice per tier
+
+**Cross-reference.**
+- `saas-agent-commercial-packaging-economics/SKILL.md` — Included / Add-on / Standalone packaging interplay
+- `saas-agent-outcome-pricing-business-case/SKILL.md` — when outcome pricing wins vs loses
+- `saas-agent-sla-risk/SKILL.md` — tier-specific SLA-credit risk
+- `saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — per-tier reserve methodology
+- `saas-agent-investor-narrative-on-sla/SKILL.md` — tier mix narrative for investors
+
 ## Living-Plan Cadence Defaults
 
 | Element | Cadence | Owner | Variance threshold |

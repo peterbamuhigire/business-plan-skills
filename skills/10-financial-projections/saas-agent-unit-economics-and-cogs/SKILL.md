@@ -118,6 +118,36 @@ Together these produce **cost-per-task**, **cost-per-resolved-task** (the true u
 - Mitigation playbook with prioritised levers
 - Living-plan cadence assignment
 
+## SLA-COGS Treatment Subsection
+
+When the agent product carries SLA commitments (uptime, accuracy, response time, definition-of-done), the cost waterfall must classify SLA-related cost lines correctly. The full discipline lives in `saas-agent-sla-cogs-treatment/SKILL.md`; the summary classification:
+
+| Cost line | Classification | Rationale |
+|---|---|---|
+| HITL labour deployed to **defend SLA** (escalations from SLA-relevant cases) | COGS | Direct cost of delivering at SLA |
+| SLA-monitoring infrastructure (uptime telemetry; accuracy telemetry; alerting) | COGS | Infra required to operate at SLA |
+| Eval cost on SLA-relevant metrics | COGS | Quality cost of SLA |
+| Retraining amortisation when retraining is SLA-driven | COGS | SLA upkeep |
+| Redundancy / hot-standby compute for SLA uptime | COGS | Direct delivery cost |
+| **SLA credits issued to customers** | Contra-revenue | Concession against subscription / usage / outcome revenue |
+| **Outcome-pricing refunds** | Contra-revenue | Reversal of recognised revenue |
+| Customer-success cost related to SLA defence (account management, comms) | S&M | Customer-success function |
+| Legal cost defending SLA disputes | G&A | Indirect, dispute-driven |
+| Insurance premiums covering SLA exposure | G&A (or COGS allocation) | Risk transfer; usually G&A |
+
+Implications for agent gross margin:
+- Agent revenue (gross) = booked agent revenue
+- Less: SLA credits issued + outcome refunds (contra-revenue)
+- = Agent revenue (net of contra-revenue)
+- Less: Agent COGS including HITL-for-SLA + SLA infra + SLA evals + SLA-driven retraining amortisation + redundancy
+- = Agent gross profit / agent gross margin
+
+**Common error.** Classifying SLA credits as G&A or as a below-the-line item. This overstates gross margin and revenue; auditors will adjust.
+
+**Reserve link.** SLA-credit reserve (`saas-agent-deferred-revenue-and-credit-reserves`) lives on the balance sheet; the P&L recognises the period's SLA-credit accrual as contra-revenue.
+
+**Cross-reference.** `saas-agent-sla-cogs-treatment/SKILL.md` and `saas-agent-sla-cogs-treatment/references/saas-agent-sla-cogs-policy.md`.
+
 ## Living-Plan Agent Cadence Defaults
 
 | Element | Cadence | Owner | Variance threshold |
@@ -147,7 +177,12 @@ Together these produce **cost-per-task**, **cost-per-resolved-task** (the true u
 - `skills/meta-living-plan-governance/SKILL.md` — governance discipline
 - `book-extractions/agent-products-business-plan-audit-2026.md` — agent audit
 - `book-extractions/ai-on-saas-business-plan-audit-2026.md` — AI-on-SaaS audit
+- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — SLA + commercial audit
 - `book-extractions/mersch-hacking-saas-extraction.md` — CFO-grade SaaS discipline
+- `skills/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — SLA-COGS classification
+- `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — SLA-credit reserve, refund reserve, deferred revenue
+- `skills/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — ASC 606 / IFRS 15 per pricing primitive
+- `skills/10-financial-projections/saas-agent-sla-economics-in-projection/SKILL.md` — SLA performance as projection driver
 
 ## Africa / Uganda Application Notes
 

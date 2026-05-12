@@ -197,3 +197,5 @@ Minimum outputs required from `meta-valuation`:
 - `meta-bankability-scoring/SKILL.md` - bank readiness scoring and consistency checks
 - `meta-due-diligence/SKILL.md` - DD readiness before investor or DFI outreach
 - `meta-presentation-design/SKILL.md` - ask-slide and use-of-funds presentation standards
+- `saas-agent-funding-stage-playbook/SKILL.md` - agent-business funding playbook by stage (pre-seed → growth); agent-specialist / vertical AI / sovereign-AI / DFI investor archetypes; agent-specific use-of-proceeds shape and milestone breakpoints
+- `saas-agent-investor-narrative-on-sla/SKILL.md` - SLA narrative for fundraising (confidence-builder vs liability question); peer benchmarks; SLA-as-moat positioning; pitch-deck slide; data-room SLA section; quarterly investor-update SLA block; FAQ rebuttal library

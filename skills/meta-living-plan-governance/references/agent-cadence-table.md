@@ -24,6 +24,10 @@ The agent-specific cadence that every agent-product plan must encode, in additio
 | Token usage per query | Head of AI | +25% WoW | +50% |
 | Provider pricing scan | Head of AI / CTO | any change | major change >30% |
 | Prompt-injection scan | AI Safety Lead | new vector | active exploitation |
+| **SLA performance (uptime / response time / accuracy / DoD compliance)** | Head of Agent + Customer Success | any breach below contracted SLA | sev-1 breach |
+| **SLA-credit accrual rate** | CFO + Customer Success | >2% of agent MRR | >5% in single week |
+| **Dispute queue depth** | Customer Success | >5 open disputes >7 days old | escalation to legal |
+| **Refund rate (per-outcome agents)** | CFO + Head of Agent | +0.5pp from plan | +1pp |
 
 ## Monthly cadence
 
@@ -46,6 +50,14 @@ The agent-specific cadence that every agent-product plan must encode, in additio
 | AI Safety Lead retention signal | Head of People + CEO | flight signal | departure |
 | Sustainability KPIs (energy per resolved task) | Sustainability + CTO | regression | structural shift |
 | Misuse / abuse detection | AI Safety + Compliance | trend up | event |
+| **SLA-credit reserve adequacy** | CFO | actuals >110% of reserve drawn | >120% — board notification |
+| **Refund reserve adequacy** | CFO | >110% of reserve drawn | >120% |
+| **SLA-driven churn signal** | Customer Success + CFO | churn correlated with SLA misses | structural correlation |
+| **Deferred-revenue waterfall (prepaid credits)** | CFO | aging anomaly | concentration shift |
+| **SLA-tier mix shift** | Head of GTM + CFO | >10% mix shift toward lower tier | base-tier erosion |
+| **Customer-gaming detection (intervention / rejection variance)** | CFO + Head of CS | gaming pattern detected | systematic pattern |
+| **Provider-SLA pass-through events (sovereign-AI)** | CTO + CFO | any provider breach | repeated provider breach |
+| **FX-corridor breach on SLA-tier viability** | CFO | corridor breach | >corridor band ×1.5 |
 
 ## Quarterly cadence
 
@@ -68,6 +80,15 @@ The agent-specific cadence that every agent-product plan must encode, in additio
 | Customer-rollout phase review | Head of CS + Head of Agent | phase slip >30 days | structural |
 | Training-data provenance audit | Head of AI / Data | new data source | data-rights challenge |
 | Jobs-impact tracking | CEO + HR | shift | regulatory / political event |
+| **SLA policy review (refresh SLA terms, thresholds, credits)** | Head of GTM + CFO + General Counsel | renegotiation cycle | regulator-mandated standard |
+| **Reserve methodology true-up (SLA-credit + refund + deferred revenue)** | CFO + Auditor | methodology assumption change | actuals diverge >15% |
+| **SLA narrative for investor update** | CEO + CFO | narrative-position shift | sceptical-investor question pattern |
+| **Outcome-pricing business case revalidation** | CFO + Head of GTM | variance from base case | margin volatility |
+| **SLA bankability rescore** | CEO + CFO | -10 points QoQ | DD opens |
+| **SLA valuation overlay refresh** | CFO + CEO + Board | overlay shift | comparable transaction |
+| **Auditor concurrence on SLA reserves** | CFO + Auditor | quarterly true-up | methodology change |
+| **Insurance / self-insurance review for SLA exposure** | CFO + Legal | exclusion change | new exposure category |
+| **Sovereign-AI provider SLA review** | CTO + CFO | provider SLA change | mandated provider change |
 
 ## Annual cadence
 
@@ -95,6 +116,14 @@ In addition to standard SaaS triggers:
 - Prompt-injection mass exploitation
 - Audit-log integrity breach
 - Reserve drawdown threshold (irreversibility / migration / regulator)
+- **Catastrophic SLA breach (>5% of customers affected sev-1)**
+- **SLA-credit accrual breach reserve >120%**
+- **Foundation-model price spike making SLA-tier pricing unprofitable**
+- **Customer dispute moves to legal escalation**
+- **Regulator mandates new SLA standard**
+- **Outcome-pricing refund cascade depleting refund reserve**
+- **Insurance carrier exclusion expansion removing SLA-credit coverage**
+- **Sovereign-AI provider SLA pass-through breach (mandated jurisdiction)**
 
 ## Integration with standard living-plan cadence
 
@@ -113,3 +142,12 @@ All three layers must run in parallel for an agent business.
 - Pricing cadence: `saas-agent-pricing-strategy`
 - Reporting: `meta-agent-board-and-investor-reporting`
 - Bankability: `meta-agent-bankability-and-investor-readiness`
+- SLA risk: `12-risk-analysis/saas-agent-sla-risk`
+- SLA reserves: `10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves`
+- SLA rev-rec: `10-financial-projections/saas-agent-revenue-recognition`
+- SLA COGS: `10-financial-projections/saas-agent-sla-cogs-treatment`
+- SLA projection: `10-financial-projections/saas-agent-sla-economics-in-projection`
+- SLA financial controls: `meta-agent-sla-financial-controls`
+- SLA valuation: `meta-agent-valuation-overlay-for-sla`
+- SLA investor narrative: `11-funding-request/saas-agent-investor-narrative-on-sla`
+- SLA audit: `book-extractions/agent-sla-commercial-business-plan-audit-2026.md`

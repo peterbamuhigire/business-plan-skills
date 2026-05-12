@@ -89,6 +89,21 @@ Generic risk skills miss all of these.
 9. **Connect to insurance** — confirm AI E&O coverage scope; document any exclusions (autonomous agent action sometimes excluded); price coverage gap.
 10. **Wire to living-plan governance** — assign cadence, owners, variance thresholds per Agent Risk Cadence below.
 
+## SLA-Extended Stress Scenarios
+
+When the agent product carries SLA commitments, the stress-test set must be extended with SLA-specific scenarios (the agent-risk scenarios above remain; these add). The full discipline lives in `saas-agent-sla-risk/SKILL.md` and `meta-financial-stress-test/references/saas-agent-sla-stress-test-scenarios.md`; the extension scenarios are:
+
+- **Catastrophic SLA breach (sev-1 mass-credit)** — single incident affecting >5% of customers triggers SLA-credit accrual 5-15x trailing baseline in one month; reserve depletes 60-120%
+- **Foundation-model cost shock making SLA-tier pricing unviable** — provider 2x repricing where contracts lack vendor-cost pass-through clause; SLA-tier becomes loss-making until repricing cycle completes
+- **Customer-side SLA gaming** — staff inflate intervention reports / reject outcomes; revenue leakage 5-15% across affected cohort; refund reserve absorbs initial but gaming-detection control must fire
+- **Regulator-mandated SLA tightening** — sector regulator (FCA / OCC / SEC / SARB / CBK / CMA / CBN / FSCA / BoU / NDPC) publishes standard exceeding current commitments; cost-of-quality upgrade required; non-compliance penalty risk
+- **SLA-credit accrual exceeding reserve** — actuals >120% of reserve drawn; P&L surprise; auditor concern; methodology re-cut; investor-narrative damage
+- **Outcome-pricing refund cascade** — systematic downstream rejection of outcomes drains refund reserve; revenue restatement risk
+- **Insurance carrier exclusion expansion** — carrier removes SLA-credit / refund coverage at renewal; self-insurance reserve absorbs
+- **Sovereign-AI provider SLA pass-through breach** — mandated in-region provider outage triggers vendor SLA breach by pass-through
+
+Each scenario is sized for revenue impact, reserve impact, valuation hit, and recovery horizon in `saas-agent-sla-stress-test-scenarios.md`. Top-3 scenarios for the specific business feed into the 3yr / 5yr stress case and the investor-narrative FAQ rebuttal library.
+
 ## Quality Bar
 
 - Action taxonomy with explicit irreversibility classes A/B/C/D
@@ -155,7 +170,13 @@ Generic risk skills miss all of these.
 - `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — reserves consumer
 - `skills/meta-financial-stress-test/SKILL.md` — financial stress-test discipline
 - `skills/meta-agent-bankability-and-investor-readiness/SKILL.md` — bankability scorecard consumer
+- `skills/12-risk-analysis/saas-agent-sla-risk/SKILL.md` — SLA-specific risk register
+- `skills/12-risk-analysis/saas-agent-sla-risk/references/saas-agent-sla-risk-register.md` — populated SLA risk register
+- `skills/meta-financial-stress-test/references/saas-agent-sla-stress-test-scenarios.md` — 8 standardised SLA stress scenarios with financial impact
+- `skills/meta-agent-sla-financial-controls/SKILL.md` — controls evidence
+- `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — SLA-credit and refund reserve methodology
 - `book-extractions/agent-products-business-plan-audit-2026.md` — agent audit
+- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — SLA + commercial audit
 
 ## Africa / Uganda Application Notes
 
