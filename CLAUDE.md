@@ -2,9 +2,29 @@
 
 ## Project Structure
 
-This is a collection of Claude Code skills for generating bankable business plans. Active skills live under `skills/<skill-name>/SKILL.md`; each skill folder is self-contained with optional `references/`.
+This is a collection of Claude Code skills for generating bankable business plans. Active skills live under `skills/<category>/<skill-name>/SKILL.md`; each skill folder is self-contained with optional `references/`.
 
-The repository root should contain project documentation plus `docs/`, `skills/`, and `projects/` where relevant. Keep `docs/`, `.git`, `tools/`, and unrelated non-skill operational directories at root unless the directory itself is an actual skill with its own root `SKILL.md`.
+The repository root should contain project documentation plus `docs/`, `skills/`, and `projects/` where relevant. Keep `docs/`, `.git`, `tools/`, and unrelated non-skill operational directories at root.
+
+## Skill Categories
+
+Skills are grouped into thematic categories under `skills/`. Use `skills/<category>/<skill-name>/` when writing paths in docs; bare skill names remain valid when invoking skills by name.
+
+- `pipeline/` — numbered plan-section skills (`00-plan-assembly` through `16-sustainability-strategy`)
+- `finance/` — IFRS / IAS / accounting close, audit, reconciliation, controls
+- `ict/` — ICT-sector business-plan skills
+- `industry-guides/` — sector reference guides (agriculture, manufacturing, hospitality, retail, etc.)
+- `saas/` — SaaS GTM, unit economics, lifecycle, pricing, valuation
+- `marketing-sales/` — `demand-forecasting`, `digital-marketing-strategy`
+- `writing-content/` — `ai-prompt-writer`, `blog-idea-generator`, `blog-writer`, `content-writing`, `premium-commercial-writing`
+- `language/` — `east-african-english`, `language-standards`, `writing-quality`
+- `meta-finance/` — bankability, valuation, financial stress test, revenue recognition, SLA controls
+- `meta-pitch/` — `pitch-deck`, `meta-pitch-preparation`, `meta-presentation-design`
+- `meta-pricing-gtm/` — pricing strategy, premium GTM, website investment planning
+- `meta-reporting/` — board & investor reporting
+- `meta-strategy/` — consulting synthesis, due diligence, optionality, governance, statistics
+- `meta-sustainability/` — sustainability strategy references
+- `meta-utility/` — `skill-writing`, `skill-safety-audit`, `proposal-architect`, `update-claude-documentation`
 
 ### Naming Conventions
 
@@ -31,7 +51,7 @@ The repository root should contain project documentation plus `docs/`, `skills/`
 - Sales and go-to-market copy apply Kennedy + Brunson direct-response frameworks — see `book-extractions/kennedy-no-bs-sales-success-extraction.md`, `kennedy-ultimate-sales-letter-extraction.md`, and `brunson-dotcomsecrets-ignite-extraction.md`.
 - Attraction, conversion, retention, and referral logic should be explicit in serious go-to-market sections; use `book-extractions/kennedy-magnetic-marketing-extraction.md` when the plan has channels but no commercial system.
 - Major systems, digitisation, expansion, or automation recommendations should survive a business-case test — problem, options, do-nothing case, incremental economics, timing, and sensitivity. Use `book-extractions/haines-how-to-create-a-business-case-extraction.md`.
-- Serious plan logic must pass `skills/meta-critical-thinking-business-logic/SKILL.md`: essential questions, claim-evidence-warrant mapping, mental-model checks, design-thinking validation, strategic logic, and achievability review.
+- Serious plan logic must pass `skills/meta-strategy/meta-critical-thinking-business-logic/SKILL.md`: essential questions, claim-evidence-warrant mapping, mental-model checks, design-thinking validation, strategic logic, and achievability review.
 
 ### When Generating Plan Content
 

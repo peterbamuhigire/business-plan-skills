@@ -269,18 +269,25 @@ business-plan-skills/
 |-- CLAUDE.md                  # Claude Code project instructions
 |-- docs/                      # Project documentation and historical analysis
 |-- projects/                  # Optional project workspaces, if present
-|-- skills/                    # Active skill repository
-|   |-- 00-plan-assembly/
-|   |   |-- SKILL.md
-|   |   `-- references/
-|   |-- 01-executive-summary/
-|   |   |-- SKILL.md
-|   |   `-- references/
-|   |-- ...
-|   `-- skill-writing/
-|       |-- SKILL.md
-|       |-- references/
-|       `-- scripts/
+|-- skills/                    # Active skill repository (organised into thematic categories)
+|   |-- pipeline/              # Numbered plan-section skills (00-plan-assembly ... 16-sustainability-strategy)
+|   |   |-- 00-plan-assembly/
+|   |   |-- 01-executive-summary/
+|   |   `-- ...
+|   |-- finance/               # IFRS / IAS / accounting & finance skills
+|   |-- ict/                   # ICT-sector business-plan skills
+|   |-- industry-guides/       # Sector reference guides (agriculture, manufacturing, etc.)
+|   |-- saas/                  # SaaS-vertical skills (GTM, unit economics, lifecycle)
+|   |-- marketing-sales/       # Demand forecasting, digital marketing strategy
+|   |-- writing-content/       # Blog, content, copy & prompt-writing skills
+|   |-- language/              # East-African English, language standards, writing quality
+|   |-- meta-finance/          # Bankability, valuation, financial stress test, rev-rec
+|   |-- meta-pitch/            # Pitch-deck orchestration, presentation design
+|   |-- meta-pricing-gtm/      # Pricing strategy, premium GTM, website investment
+|   |-- meta-reporting/        # Board & investor reporting
+|   |-- meta-strategy/         # Consulting synthesis, due diligence, optionality, governance
+|   |-- meta-sustainability/   # Sustainability strategy references
+|   `-- meta-utility/          # skill-writing, skill-safety-audit, proposal-architect, update-claude-documentation
 |-- country-context/           # Country data overrides and country-specific skills
 |-- book-extractions/          # Primary-source reference material
 |-- blog-posts/                # Draft and published blog content
@@ -288,7 +295,31 @@ business-plan-skills/
 `-- tools/                     # Operational tooling, not a skill directory
 ```
 
-Root should contain project documentation plus `docs/`, `skills/`, and `projects/` where relevant. Active skills should not live at the repository root; each active skill belongs at `skills/<skill-name>/SKILL.md`.
+Root should contain project documentation plus `docs/`, `skills/`, and `projects/` where relevant. Active skills should not live at the repository root or directly under `skills/`; each active skill belongs at `skills/<category>/<skill-name>/SKILL.md`. The category directories are listed in the tree above and described in the "Skill Categories" section below.
+
+---
+
+## Skill Categories
+
+Skills are grouped into thematic categories under `skills/`. When invoking a skill by name, the AI auto-resolves the path; when referencing one in documentation, use `skills/<category>/<skill-name>/`.
+
+| Category | Purpose |
+|----------|---------|
+| `pipeline/` | Numbered plan-section skills (`00-plan-assembly` through `16-sustainability-strategy`) — the core business-plan generation flow |
+| `finance/` | IFRS / IAS / accounting close, audit, controls, reconciliation, UI patterns |
+| `ict/` | ICT-sector business-plan skills (product company, services firm) |
+| `industry-guides/` | Sector reference material (agriculture, manufacturing, hospitality, retail, etc.) |
+| `saas/` | SaaS-vertical skills (GTM, unit economics, lifecycle, pricing, valuation) |
+| `marketing-sales/` | `demand-forecasting`, `digital-marketing-strategy` |
+| `writing-content/` | `ai-prompt-writer`, `blog-idea-generator`, `blog-writer`, `content-writing`, `premium-commercial-writing` |
+| `language/` | `east-african-english`, `language-standards`, `writing-quality` |
+| `meta-finance/` | Bankability, valuation, financial stress test, revenue recognition, SLA controls |
+| `meta-pitch/` | `pitch-deck`, `meta-pitch-preparation`, `meta-presentation-design` |
+| `meta-pricing-gtm/` | Pricing strategy, premium GTM, website investment planning |
+| `meta-reporting/` | Board & investor reporting (human + agent variants) |
+| `meta-strategy/` | Consulting synthesis, due diligence, optionality, living-plan governance, statistics |
+| `meta-sustainability/` | Sustainability strategy references |
+| `meta-utility/` | `skill-writing`, `skill-safety-audit`, `proposal-architect`, `update-claude-documentation` |
 
 ---
 ## Authoring Standards
@@ -317,7 +348,7 @@ skills/skill-name/
 - Generic names — no source prefix (e.g., `beef-butchery.md`, not `kenya-beef-butchery.md`)
 - Before writing a new file, check whether an existing file covers the same source
 
-See `skills/skill-writing/SKILL.md` for full authoring guidelines.
+See `skills/meta-utility/skill-writing/SKILL.md` for full authoring guidelines.
 
 ---
 

@@ -46,8 +46,8 @@ Use this shared structure inside skills whenever possible:
 
 For the canonical template and migration rules, see:
 
-- `skills/skill-writing/references/dual-compatible-skill-template.md`
-- `skills/skill-writing/references/dual-surface-migration-rules.md`
+- `skills/meta-utility/skill-writing/references/dual-compatible-skill-template.md`
+- `skills/meta-utility/skill-writing/references/dual-surface-migration-rules.md`
 
 ## Default Baseline
 
@@ -124,7 +124,7 @@ A high-stakes output is not complete unless:
 
 Before treating significant skill changes as complete:
 
-- validate new skills with `python skills/skill-writing/scripts/quick_validate.py skills/<skill-name>`
+- validate new skills with `python skills/meta-utility/skill-writing/scripts/quick_validate.py skills/<category>/<skill-name>`
 - update references when the workflow changes materially
 - update evaluation docs if repository capability materially changes
 - prefer spot verification of modified skills and routing dependencies
