@@ -34,8 +34,9 @@ Generate Section 09 of the business plan: the management and team section. Use t
 2. Convert experience into execution-relevant evidence, not vanity credentials.
 3. Map governance, advisors, and hiring needs to the scale of the business.
 4. Surface capability gaps and show how they will be closed.
-5. Reconcile leadership claims with operations, implementation, and financial assumptions.
-6. Flag key-person risk or governance weaknesses that affect bankability.
+5. Apply `references/coaching-performance-management.md` when execution depends on training, behaviour change, coaching, mentoring, supervision, sales discipline, service standards, or AI adoption.
+6. Reconcile leadership claims with operations, implementation, and financial assumptions.
+7. Flag key-person risk or governance weaknesses that affect bankability.
 
 ## Quality Bar
 
@@ -210,6 +211,7 @@ A strong purpose statement answers:
 - [Team Development and Change Management](references/team-change-management.md)  Tuckman's stages, jelled team characteristics, stakeholder analysis for change, adopter distribution model, change adoption strategies (informational vs political), training methods comparison, and ethical considerations for technology adoption  from Dennis, Wixom & Tegarden (Wiley, 2021)
 - [HR Fundamentals](references/hr-fundamentals.md)  Comprehensive HR operations: recruitment channels for Uganda, behavioural interviewing, Employment Act 2006 compliance (leave/notice/termination/severance), NSSF/URA PAYE, compensation grades (G1G7 UGX bands), progressive discipline, employee handbook structure, 6 HR metrics with Uganda benchmarks  Smith & Mazin (2004)
 - [Active Management Tools](references/active-management-tools.md)  All 45 reproducible tools across 5 parts: leadership self-assessment (9 tools), coaching and performance management (10 tools), collaboration and teamwork (10 tools), planning and problem solving (9 tools), leading change (7 tools); Uganda priority matrix; adaptations for lower-literacy workforces and hierarchical culture  Silberman (2003)
+- [Coaching and Performance Management](references/coaching-performance-management.md)  Coaching, mentoring, managing, performance diagnosis, cadence, and business-plan uses. **Read when the plan depends on staff capability, delegation, sales discipline, service standards, training, AI adoption, or behaviour change.**
 - [Talent Management](references/talent-management.md)  LBA research-based framework: 4-tier employee hierarchy (Superkeeper/Keeper/Solid Citizen/Misfit), 9-box performancepotential grid, competency modelling, IDP structure, 360-degree feedback, 7 Cs coaching, Boyatzis 5-discovery model, succession planning (Ready Now/12yr/35yr), Bench Strength Summary, Total Rewards 4-pillar framework, EA brain-drain retention, family business succession, minimum viable talent management for Uganda SMEs  Berger & Berger (2004)
 - [Payroll and HR Accounting](references/payroll-hr.md)  Uganda PAYE tax brackets with worked examples, NSSF 10%+5% calculation, full payroll journal entries (UGX 15M gross example), allowance taxability matrix, ghost employee prevention, payroll audit checklist, software comparison (QuickBooks/Sage/Workpay), employment type tax treatment, maternity provision formula, employer cost multiplier (1.101.15) for business plan budgets  Bragg (2003)
 - [HBR Managing People](references/hbr-managing-people.md)  11 HBR articles: Feedback Fallacy (Buckingham & Goodall  idiosyncratic rater effect, neuroscience, language-shift table), Progress Principle (Amabile & Kramer  inner work life, catalysts/inhibitors), Netflix HR tenets, SPLIT framework for global teams, leading inherited teams; EA synthesis: hierarchy effects on feedback, managing across 56+ tribes, NGO salary competition  HBR (2019)
