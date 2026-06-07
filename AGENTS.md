@@ -92,6 +92,8 @@ When preparing decks or presentations, also load:
 - Execution planning: `meta-monitoring-evaluation` + `meta-quarterly-gameplan`
 - Digital-first or technology-modernisation strategy: baseline flow + `meta-digital-transformation` + `14-ai-integration` where AI is materially relevant
 - Website, ecommerce, or website-design-service planning: relevant section flow + `meta-website-investment-planning` + `digital-marketing-strategy` + `meta-premium-go-to-market` when premium positioning applies
+- Pre-ship quality gate (every generated plan, section, deck, narrative, or proposal): run `anti-ai-slop` last, after `writing-quality` and `meta-critical-thinking-business-logic`
+- Slop audit cadence: `ai-slop-audit` runs after each major iteration (each drafted section, completed deck, financial-narrative module, or significant revision), logging a verdict each time; a grade **F blocks progression** until the blocking findings are fixed. It also auto-runs on request ("audit / review / de-slop this for AI slop", "does this look AI-generated?") and returns a graded A/B/C/F report with a 0–100 genericness score
 
 ## Core Rules
 
@@ -105,6 +107,7 @@ When preparing decks or presentations, also load:
 - Use British English spelling where natural for the repo.
 - Any recommendation to digitise, automate, launch a platform, or buy major systems must show customer logic, operating logic, and investment logic - not trend language alone.
 - Prefer SMART, context-fit, realistically staged digitisation over all-at-once transformation promises.
+- No generated output ships until it passes the `anti-ai-slop` gate: a specificity floor, verify-before-emit on every stat/market size/citation, an authored strategy, the hard parts covered, and no banned-vocabulary filler. Never invent a TAM, growth rate, or benchmark to fill a section.
 
 ## Done Means
 

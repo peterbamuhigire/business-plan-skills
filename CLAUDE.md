@@ -24,7 +24,7 @@ Skills are grouped into thematic categories under `skills/`. Use `skills/<catego
 - `meta-reporting/` — board & investor reporting
 - `meta-strategy/` — consulting synthesis, due diligence, optionality, governance, statistics
 - `meta-sustainability/` — sustainability strategy references
-- `meta-utility/` — `skill-writing`, `skill-safety-audit`, `proposal-architect`, `update-claude-documentation`
+- `meta-utility/` — `skill-writing`, `skill-safety-audit`, `proposal-architect`, `update-claude-documentation`, `anti-ai-slop`, `ai-slop-audit`
 
 ### Naming Conventions
 
@@ -100,6 +100,31 @@ If no country file exists, Uganda defaults apply. To create a file for a new cou
 - Format: parenthetical (Author, Year) on first use; full bibliographic details in the appendices
 - Do NOT cite for generic advice, the user's own data, or derived projections
 
+
+## Anti-AI-Slop Quality Gate
+
+Two skills keep generated output from reading as AI slop. They live at
+`skills/meta-utility/anti-ai-slop/` and `skills/meta-utility/ai-slop-audit/`.
+
+- **`anti-ai-slop` is MANDATORY and applied in REAL TIME.** It is a live constraint applied
+  **continuously while generating** — to every section, paragraph, slide, and projection as it
+  is written, not only as a final pre-ship pass. The moment a banned word, generic placeholder,
+  unverified market size/figure, or template default appears, fix it in place. Run it on every
+  generated business plan, plan section, executive summary, pitch deck, investment case, funding
+  request, GTM/pricing narrative, financial narrative, grant proposal, or blog post before that
+  output is delivered or called bankable/investor-ready/submission-ready. Apply it after
+  `writing-quality` and the section skill, and after `meta-critical-thinking-business-logic`.
+  Financial and market claims must pass its verify-before-emit rule — never invent a market
+  size, growth rate, TAM/SAM/SOM figure, or benchmark.
+- **`ai-slop-audit` RUNS AFTER EACH MAJOR ITERATION (not only on request).** Run it after each
+  completed unit of work — each drafted plan section, each completed deck, each financial-narrative
+  module, each significant revision, each milestone — logging a verdict each time; a grade **F
+  blocks progression** to the next section or submission until the blocking findings are fixed.
+  It also auto-runs whenever the user asks to analyse, review, evaluate, critique, audit, score,
+  or de-slop a business plan, pitch deck, financial model or narrative, GTM/pricing narrative,
+  proposal, plan section, or codebase for AI slop, or asks "does this look AI-generated?", and as
+  the final gate before submission. It produces a graded A/B/C/F report with a 0–100 genericness
+  score and a concrete fix per finding.
 
 ## Finance & Accounting Trigger
 

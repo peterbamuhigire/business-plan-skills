@@ -2,7 +2,7 @@
 
 A modular collection of Claude Code skills for generating, validating, and delivering bankable business plans. Each section of a professional business plan is a standalone skill — invoke individually or chain to produce a complete investor-ready document.
 
-**49 skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
+**51 skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
 
 ---
 
@@ -36,6 +36,8 @@ Major living-plan layer added for ICT/SaaS startups across all sections plus met
 | Write a complete business plan | `01` through `15` (in order) |
 | Write a specific section | Invoke the numbered skill directly |
 | Test whether a plan makes logical and business sense | `meta-critical-thinking-business-logic` |
+| Stop a plan, deck, or narrative reading as AI slop (pre-ship gate) | `anti-ai-slop` |
+| Audit a plan, deck, model, or section for AI slop and score it | `ai-slop-audit` |
 | Validate an existing plan | `meta-bankability-scoring` |
 | Upgrade pricing / defend premium positioning | `meta-pricing-strategy` |
 | Stress-test the financials | `meta-financial-stress-test` |
@@ -52,6 +54,13 @@ Major living-plan layer added for ICT/SaaS startups across all sections plus met
 | Write a business article or blog post | `blog-writer` + `blog-idea-generator` |
 | Test a business idea before writing the plan | `idea-testing` |
 | Write a client proposal | `proposal-architect` |
+
+### Anti-AI-slop quality gate
+
+Two paired skills keep generated output from reading as AI slop:
+
+- **`anti-ai-slop` is the real-time guardrail.** It is a live constraint applied while you write — every section, paragraph, slide, and projection is checked as it is drafted, not only in a final pass. Banned-vocabulary filler, generic placeholders, and unverified figures are fixed in place. Financial and market claims must pass its verify-before-emit rule: never invent a TAM/SAM/SOM figure, growth rate, or benchmark.
+- **`ai-slop-audit` runs after each major iteration** — each drafted section, completed deck, financial-narrative module, or significant revision — and auto-runs whenever a request asks to analyse, review, or audit an artefact for slop. It returns a graded report (A/B/C/F) with a 0–100 genericness score; a grade **F blocks progression** to the next section or to submission until the blocking findings are fixed.
 
 ---
 
@@ -181,6 +190,8 @@ Invoke in order (02 → 15, then 01 last) to produce a complete plan.
 | `industry-guides` | Industry-specific reference guides for 13+ sectors (agri, retail, hospitality, health…) |
 | `skill-writing` | Guide for authoring and extending skills in this suite |
 | `skill-safety-audit` | Safety validation for new or modified skills |
+| `anti-ai-slop` | Mandatory pre-ship guardrail — every generated plan, section, deck, or narrative passes it before delivery so output cannot read as AI slop |
+| `ai-slop-audit` | Auto-runs on any request to analyse, review, audit, or score a plan, deck, model, or section for AI slop; returns a graded A/B/C/F report |
 | `update-claude-documentation` | Documentation maintenance workflow |
 
 ### Book Extractions
@@ -319,7 +330,7 @@ Skills are grouped into thematic categories under `skills/`. When invoking a ski
 | `meta-reporting/` | Board & investor reporting (human + agent variants) |
 | `meta-strategy/` | Consulting synthesis, due diligence, optionality, living-plan governance, statistics |
 | `meta-sustainability/` | Sustainability strategy references |
-| `meta-utility/` | `skill-writing`, `skill-safety-audit`, `proposal-architect`, `update-claude-documentation` |
+| `meta-utility/` | `skill-writing`, `skill-safety-audit`, `proposal-architect`, `update-claude-documentation`, `anti-ai-slop`, `ai-slop-audit` |
 
 ---
 ## Authoring Standards
