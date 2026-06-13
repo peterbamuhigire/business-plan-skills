@@ -92,6 +92,8 @@ When preparing decks or presentations, also load:
 - Execution planning: `meta-monitoring-evaluation` + `meta-quarterly-gameplan`
 - Digital-first or technology-modernisation strategy: baseline flow + `meta-digital-transformation` + `14-ai-integration` where AI is materially relevant
 - Website, ecommerce, or website-design-service planning: relevant section flow + `meta-website-investment-planning` + `digital-marketing-strategy` + `meta-premium-go-to-market` when premium positioning applies
+- EAC e-commerce BDS company diagnostics: use `skills/ict/ecommerce-business-model-diagnostic/` when assessing operating e-commerce, marketplace, D2C, B2B, social-commerce, or dropship companies for donor-funded needs assessments, cross-border readiness, and 90-day action planning
+- Cross-border e-commerce unit economics: use `skills/ict/ecommerce-unit-economics-and-cross-border-margin-model/` before recommending target markets, discounts, paid acquisition, partner channels, or export marketing budgets that depend on margin, CAC, payment, fulfilment, returns, or landed-cost assumptions
 - Pre-ship quality gate (every generated plan, section, deck, narrative, or proposal): run `anti-ai-slop` last, after `writing-quality` and `meta-critical-thinking-business-logic`
 - Slop audit cadence: `ai-slop-audit` runs after each major iteration (each drafted section, completed deck, financial-narrative module, or significant revision), logging a verdict each time; a grade **F blocks progression** until the blocking findings are fixed. It also auto-runs on request ("audit / review / de-slop this for AI slop", "does this look AI-generated?") and returns a graded A/B/C/F report with a 0–100 genericness score
 
@@ -131,6 +133,14 @@ Before treating significant skill changes as complete:
 - update references when the workflow changes materially
 - update evaluation docs if repository capability materially changes
 - prefer spot verification of modified skills and routing dependencies
+
+## Document and Spreadsheet Tooling
+
+- Before promising `.docx`, `.pdf`, `.xlsx`, financial models, application registers, scoring matrices, budgets, dashboards, or board/investor packs, verify the machine has the required document and spreadsheet tooling.
+- Prefer built-in document/spreadsheet plugins where available. Otherwise use local Python libraries such as `openpyxl`, `XlsxWriter`, `pandas`, `python-docx`, `docxtpl`, `docxcompose`, `pypandoc`, `markdown`, `PyMuPDF`, `pypdf`, `pdfplumber`, and `reportlab`.
+- Check binaries such as `pandoc`, LibreOffice/`soffice`, `wkhtmltopdf`, and `tesseract` when conversion or OCR is needed.
+- Run a minimal DOCX/XLSX smoke test on a new machine before production export.
+- Never claim a Word, PDF, Excel, or model file was generated unless it was actually written and opened or validated.
 
 ## Migration Guidance
 
