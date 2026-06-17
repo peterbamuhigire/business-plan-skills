@@ -11,6 +11,7 @@ The repository root should contain project documentation plus `docs/`, `skills/`
 Skills are grouped into thematic categories under `skills/`. Use `skills/<category>/<skill-name>/` when writing paths in docs; bare skill names remain valid when invoking skills by name.
 
 - `pipeline/` — numbered plan-section skills (`00-plan-assembly` through `16-sustainability-strategy`)
+- `advisory-deliverables/` — standalone consulting documents that are NOT business-plan sections: `finance-policy-and-manual` (Financial Management Policy & Finance/Accounting Manual) and `procurement-policy-and-manual` (Procurement Policy & Procurement/Disposal Manual). Roadmap: HR policy manual, governance/board charter, internal-controls & risk framework, M&E framework, grants-management manual. These own document architecture and East African context; finance/accounting substance defers to the finance engine and PPDA substance to proposal-skills.
 - `finance/` — IFRS / IAS / accounting close, audit, reconciliation, controls
 - `ict/` — ICT-sector business-plan skills
 - `industry-guides/` — sector reference guides (agriculture, manufacturing, hospitality, retail, etc.)
