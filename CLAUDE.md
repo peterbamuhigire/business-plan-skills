@@ -11,7 +11,14 @@ The repository root should contain project documentation plus `docs/`, `skills/`
 Skills are grouped into thematic categories under `skills/`. Use `skills/<category>/<skill-name>/` when writing paths in docs; bare skill names remain valid when invoking skills by name.
 
 - `pipeline/` — numbered plan-section skills (`00-plan-assembly` through `16-sustainability-strategy`)
-- `advisory-deliverables/` — standalone consulting documents that are NOT business-plan sections: `finance-policy-and-manual` (Financial Management Policy & Finance/Accounting Manual) and `procurement-policy-and-manual` (Procurement Policy & Procurement/Disposal Manual). Roadmap: HR policy manual, governance/board charter, internal-controls & risk framework, M&E framework, grants-management manual. These own document architecture and East African context; finance/accounting substance defers to the finance engine and PPDA substance to proposal-skills.
+- `advisory-deliverables/` — standalone organisational consulting documents that are NOT business-plan sections. Each owns its document architecture and East African context and defers substance: accounting to the finance engine, PPDA to proposal-skills, M&E methodology to the M&E skills.
+  - `finance-policy-and-manual` — Financial Management Policy & Finance/Accounting Manual
+  - `procurement-policy-and-manual` — Procurement Policy & Procurement/Disposal Manual (PPDA-aware)
+  - `internal-controls-and-risk-framework` — Internal Control & Risk Management Framework (COSO ERM / ISO 31000, SoD, surcharge overlay)
+  - `grants-management-manual` — Grants/Donor-Funds Management Manual (fund accounting, multi-currency flexing, eligibility, sub-granting)
+  - `governance-and-board-charter` — Governance Framework, Board & committee charters, Delegation-of-Authority matrix
+  - `hr-policy-manual` — Human Resources Policy Manual (Employment Act 2006 framing; pay/allowances/advances defer to the finance engine)
+  - `me-framework-document` — standalone Monitoring, Evaluation & Learning (MEL) Framework
 - `finance/` — IFRS / IAS / accounting close, audit, reconciliation, controls
 - `ict/` — ICT-sector business-plan skills
 - `industry-guides/` — sector reference guides (agriculture, manufacturing, hospitality, retail, etc.)
