@@ -1,6 +1,6 @@
 # Procurement Policy & Manual — Document Blueprint
 
-Reusable architecture for a Procurement Policy and a Procurement & Disposal Manual, grounded in the PPDA Act 2003 / LG PPDA Regulations 2006 framework and real Ugandan NGO procurement practice (UCOBAC, MCLD, IMAU). Use the chapter→source map so legal and control substance comes from existing skills, never improvised.
+Reusable architecture for a Procurement Policy and a Procurement & Disposal Manual, grounded in the PPDA Act 2003 (as amended) / PPDA Regulations 2023 framework and real Ugandan NGO procurement practice (UCOBAC, MCLD, IMAU). Use the chapter→source map so legal and control substance comes from existing skills, never improvised.
 
 Source skills:
 - PPDA legal substance → `proposal-skills` (`C:\wamp64\www\proposal-skills`) `skills/profiles-sectors/sectors/ppda-uganda/`.
@@ -10,7 +10,7 @@ Source skills:
 
 | Regime | Who | Thresholds & methods | Authority |
 |---|---|---|---|
-| **A — PPDA public** | Central government, agencies, local governments | **Statutory** (PPDA Regulations; LG PPDA Regs 2006) — put current bands in the dated Threshold Schedule | PPDA Act 2003 (as amended) + Regulations; `uganda-public-sector-pfm.md` for the finance interface |
+| **A — PPDA public** | Central government, agencies, local governments | **Statutory** (PPDA Regulations 2023 — harmonised central+local since 5 Feb 2024) — put current bands in the dated Threshold Schedule | PPDA Act 2003 (as amended) + PPDA Regulations 2023; `uganda-public-sector-pfm.md` for the finance interface |
 | **B — Non-PPDA** | NGOs/CSOs, SMEs, private | **Organisation-set** thresholds + any binding donor rules | Entity policy + donor manuals (World Bank, USAID ADS, EU/GIZ, AfDB, UN) |
 
 Most NGO/project clients are Regime B with one or more donor overlays. **Stricter rule wins** when entity policy and a donor rule differ.

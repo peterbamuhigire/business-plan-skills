@@ -1,6 +1,6 @@
 ---
 name: procurement-policy-and-manual
-description: Author a client-ready Procurement Policy and Procurement & Disposal Manual for NGOs, SMEs, SACCOs, donor-funded projects, and public/PPDA-regulated bodies in Uganda/East Africa. Owns document architecture, the methods-and-thresholds framework, committees, ethics, contract management, and donor-procurement overlays; defers PPDA legal substance to proposal-skills (sectors/ppda-uganda) and the finance engine's government-procurement and controls skills. Grounded in the PPDA Act 2003 / LG PPDA Regulations 2006 framework and real Ugandan NGO procurement practice.
+description: Author a client-ready Procurement Policy and Procurement & Disposal Manual for NGOs, SMEs, SACCOs, donor-funded projects, and public/PPDA-regulated bodies in Uganda/East Africa. Owns document architecture, the methods-and-thresholds framework, committees, ethics, contract management, and donor-procurement overlays; defers PPDA legal substance to proposal-skills (sectors/ppda-uganda) and the finance engine's government-procurement and controls skills. Grounded in the PPDA Act 2003 (as amended) / PPDA Regulations 2023 framework and real Ugandan NGO procurement practice.
 ---
 
 # Procurement Policy and Manual
@@ -25,7 +25,7 @@ Entity type and regime (PPDA-regulated public body / LG; NGO-CSO; SME; donor-fun
 
 ## Workflow
 
-1. **Intake & regime selection.** Determine the governing regime: **(A) PPDA-regulated** (PPDA Act 2003 + Regulations; LG PPDA Regulations 2006 for local governments) — thresholds and methods are statutory; or **(B) non-PPDA** (NGO/SME/private) — thresholds are organisation-set, with donor rules layered on. Most entities are B with one or more donor overlays.
+1. **Intake & regime selection.** Determine the governing regime: **(A) PPDA-regulated** (PPDA Act 2003 as amended + the PPDA Regulations 2023, which since 5 Feb 2024 cover both central and local government) — thresholds and methods are statutory; or **(B) non-PPDA** (NGO/SME/private) — thresholds are organisation-set, with donor rules layered on. Most entities are B with one or more donor overlays.
 2. **Select the blueprint.** Load `references/document-blueprint.md` for the chapter map and the methods-and-thresholds framework.
 3. **Pull substance — do not improvise.** For PPDA substance (methods, evaluation, forms, committees, complaints) read `proposal-skills/skills/profiles-sectors/sectors/ppda-uganda/SKILL.md` and its references. For commitment control, payment controls, three-way match, and segregation read the finance engine: `12-public-sector-and-ipsas/government-procurement-and-fiscal-controls` and `10-controls-governance-and-fraud/internal-controls-library`, plus `doctrine/references/uganda-public-sector-pfm.md` (public) or `uganda-ngo-financial-management-patterns.md` (NGO).
 4. **Draft section by section** using the procurement cycle: planning → requisition → sourcing/solicitation → evaluation → award → contracting → delivery/inspection → payment → records. Set every threshold and committee composition as a **named client parameter**.
