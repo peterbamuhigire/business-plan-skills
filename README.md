@@ -2,7 +2,17 @@
 
 A modular collection of Claude Code skills for generating, validating, and delivering bankable business plans. Each section of a professional business plan is a standalone skill — invoke individually or chain to produce a complete investor-ready document.
 
-**51 skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
+**120 skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
+
+---
+
+## Architecture & cross-cutting engines (updated 2026-06-21)
+
+This engine is one of several sibling skill engines on the host. None is natively discovered any more — every engine, including this one, is consulted through the global routing table by globbing `SKILL.md` directly and reading the matched file(s). Cross-cutting engines are **referenced** (path resolved per device from the global router), never mirrored into this repo.
+
+- **Design / visual layer → `design-system-skills`** (`C:\wamp64\www\design-system-skills`). The single home for all design, typography, UI/UX, and visual-formatting skills plus the anti-AI-slop visual doctrine. Consult it **in addition** for the visual design and typography of decks and business-plan documents (pitch-deck slides, plan layout, the look of compiled output). The plan *content*, financial modelling, and narrative stay here.
+- **Finance accounting standards → `chwezi-accounting-doctrine`** (referenced, not mirrored). Accounting-standards/IFRS/IAS/bookkeeping doctrine routes to the finance engine source via its `README.md` router. The old finance mirror was never populated — the empty `skills/finance/` shells were removed on 2026-06-21.
+- **NOTE — the native `meta-finance/` group (11 skills) STAYS.** It is business-plan *financial-modelling content* (bankability, valuation, financial stress test, revenue recognition, SLA controls), not a finance-doctrine mirror. Do not confuse it with the removed `skills/finance/` shell.
 
 ---
 
@@ -285,7 +295,6 @@ business-plan-skills/
 |   |   |-- 00-plan-assembly/
 |   |   |-- 01-executive-summary/
 |   |   `-- ...
-|   |-- finance/               # IFRS / IAS / accounting & finance skills
 |   |-- ict/                   # ICT-sector business-plan skills
 |   |-- industry-guides/       # Sector reference guides (agriculture, manufacturing, etc.)
 |   |-- saas/                  # SaaS-vertical skills (GTM, unit economics, lifecycle)
@@ -317,7 +326,7 @@ Skills are grouped into thematic categories under `skills/`. When invoking a ski
 | Category | Purpose |
 |----------|---------|
 | `pipeline/` | Numbered plan-section skills (`00-plan-assembly` through `16-sustainability-strategy`) — the core business-plan generation flow |
-| `finance/` | IFRS / IAS / accounting close, audit, controls, reconciliation, UI patterns |
+| `advisory-deliverables/` | Advisory engagement deliverables |
 | `ict/` | ICT-sector business-plan skills (product company, services firm) |
 | `industry-guides/` | Sector reference material (agriculture, manufacturing, hospitality, retail, etc.) |
 | `saas/` | SaaS-vertical skills (GTM, unit economics, lifecycle, pricing, valuation) |
