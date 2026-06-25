@@ -57,6 +57,13 @@ Use this skill as the sector-context layer for plan writing. It routes the agent
 - Explicit benchmark assumptions and caveats
 - Pointers to the most relevant guide and reference files
 
+## References
+
+- Load the selected industry `guide.md` before applying section skills.
+- For retail, also load `retail/references/retail-operating-model-and-engine-plan.md`
+  when the plan includes omnichannel operations, POS, merchandising, pricing,
+  promotions, markdowns, loyalty, fulfilment, returns, shrink, vendor terms,
+  private label, planograms, dashboards, or engine-readiness requirements.
 
 
 Provide industry-specific context, benchmarks, and best practices to tailor business plan generation to the target sector.

@@ -197,7 +197,7 @@ Invoke in order (02 → 15, then 01 last) to produce a complete plan.
 | `east-african-english` | Language and tone standard — British spelling, East African idiom, plain English |
 | `language-standards` | Cross-language writing quality standards |
 | `idea-testing` | Rapid validation of a business idea before writing the full plan |
-| `industry-guides` | Industry-specific reference guides for 13+ sectors (agri, retail, hospitality, health…) |
+| `industry-guides` | Industry-specific reference guides for 13+ sectors (agri, retail, hospitality, health...), including the retail operating-model completeness gate |
 | `skill-writing` | Guide for authoring and extending skills in this suite |
 | `skill-safety-audit` | Safety validation for new or modified skills |
 | `anti-ai-slop` | Mandatory pre-ship guardrail — every generated plan, section, deck, or narrative passes it before delivery so output cannot read as AI slop |

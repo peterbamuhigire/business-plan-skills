@@ -126,6 +126,21 @@ A complete retail business plan contains three parts:
 - CVs of principals
 - Legal documents and licences
 
+## Retail Operating-Model Completeness Gate
+
+For modern retail, multi-branch retail, e-commerce, POS-enabled shops, omnichannel commerce, supermarkets, specialty chains, and retail turnarounds, also load `references/retail-operating-model-and-engine-plan.md`.
+
+The plan should explicitly cover:
+
+- assortment and SKU discipline;
+- merchandising calendar and line reviews;
+- pricing architecture, promotions, and markdown controls;
+- loyalty, CRM, product discovery, search/navigation, and checkout conversion where digital channels exist;
+- fulfilment, returns, store labour, SOPs, audits, shrink, vendor funding, private label, planogram/space productivity, and KPI/WBR cadence where relevant;
+- finance/accounting controls for inventory, POS, refunds, markdowns, vendor funding, shrink, and management reporting.
+
+If these topics materially affect the business model but are absent, flag the plan as operationally incomplete rather than filling the gap with generic prose.
+
 ## Common Mistakes and Failure Factors
 
 1. **Undercapitalisation** -- insufficient working capital for initial inventory and the slow-sales start-up period
@@ -165,3 +180,4 @@ A complete retail business plan contains three parts:
 - **Retail analytics and metrics**: See `references/retail-analytics-metrics.md` for retail math, financial ratios, markup/markdown calculations, statistical methods, hypothesis testing, email campaign analysis, and forecasting techniques from Okunev
 - **Retail marketing and promotion**: See `references/retail-marketing-promotion.md` for retail image, promotional strategy, pricing strategy, advertising, in-store marketing, customer relationship management, and organisation design from Berman & Evans and Tiwari
 - **Retail break-even and benchmarks**: See `references/retail-breakeven-benchmarks.md` for break-even analysis with worked examples, financial benchmarks by retail format, stock turnover rates, and a quick-reference formula sheet from all sources
+- **Retail operating model and engine-ready plan**: See `references/retail-operating-model-and-engine-plan.md` for assortment, pricing, promotions, markdowns, fulfilment, returns, store operations, shrink, vendor funding, private label, dashboards, and finance-control assumptions derived from the Umbrex retail playbook corpus
