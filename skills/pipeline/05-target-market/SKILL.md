@@ -1,6 +1,11 @@
 ---
-name: target-market
-description: Generate the target market section with customer personas, market segmentation, buyer behaviour analysis, customer acquisition cost estimates, and lifetime value projections. Defines exactly who the customer is and how they buy. Use when building or reviewing target market sections, creating customer personas, calculating CLV/CAC ratios, or validating customer segment choices. Incorporates Farris's customer profitability metrics, Kotler's generational analysis, and growth marketing acquisition frameworks.
+name: 05-target-market
+description: Use when producing or reviewing the 05 target market component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Target Market & Customer Analysis Skill
@@ -80,7 +85,7 @@ Generate detailed customer profiles that prove the business understands exactly 
 
 For each persona:
 
-```
+```text
 Name: [Representative name]
 Demographics: [Age, gender, income, location, education]
 Generation: [Baby Boomer / Gen X / Millennial / Gen Z / Gen Alpha]
@@ -119,7 +124,7 @@ If target market includes Gen Z (born 1997-2012) or Gen Alpha (born 2013+), the 
 
 ### CLV Calculation
 
-```
+```text
 Simple CLV = Average purchase value x Purchase frequency x Customer lifespan
 
 Full CLV = (Average revenue per customer per period x Gross margin %)
@@ -131,7 +136,7 @@ CLV with discount rate = Sum of [Margin x Retention rate^t / (1 + Discount rate)
 
 ### CAC Calculation
 
-```
+```text
 CAC = Total sales and marketing spend / Number of new customers acquired
 
 Channel-specific CAC:
@@ -153,7 +158,7 @@ Channel-specific CAC:
 
 Rank customer segments by profitability:
 
-```
+```text
 Customer Profit = Revenue from customer - Cost to serve customer
 
 Customer Profitability % = Customer Profit / Revenue from customer x 100
@@ -209,3 +214,84 @@ In business-to-business contexts, map all six types within the buying organisati
 - **ICP, segmentation, and retention economics (Umbrex, 2025)**: See `../07-marketing-sales-strategy/references/customer-retention-playbook.md` for the 5-tier retention segmentation framework (structural/economic/behavioural/relationship/strategic), Ideal Customer Profile (ICP) 5-pillar validation checklist, High-Value Account (HVA) scoring template, 22 prioritisation matrix, and retention economics metrics (GRR, NRR, LTV/CAC, CAC payback). **Read when segmenting customers beyond firmographics, scoring ICP fit, or calculating CLV/CAC with investor-grade metric definitions.**
 - **Advanced TAM/SAM/SOM methodology (Umbrex, 2025)**: See `../04-market-analysis/references/market-sizing-methodology.md` for precise TAM/SAM/SOM definitions and funnel logic, 8 market boundary principles, bottom-up penetration modelling, SOM reasonableness rules, Rogers' diffusion model for adoption S-curves, and a Uganda TAM/SAM/SOM template in UGX. **Read when building customer market size estimates or cross-checking SOM figures from a customer-base perspective.**
 - **Uganda consumer demographics (World Bank, 2025)**: See `references/uganda-consumer-demographics-2025.md` for Uganda-specific consumer market data  population 46M (>50% under-18, growing >3%/year, 104M projected by 2060); generational segments (Gen Z ~1012M, Millennials ~810M); NEET youth 5.25M (the "aspiring but income-constrained" segment); income quintile profiles (Q1Q5) with access patterns for health, education, financial services, and FMCG; urban/rural split (Kampala 1.797M; rural pop +54% by 2030); education literacy gap (57% of P6 pupils below literacy minimum  design for low-literacy consumers); NCD-driven health product demand (NCDs rising to 37.3% of DALYs); social protection transfer recipients (2.43M) as emerging consumers; aspiration-versus-reality gap (youth want professional careers but 88% lack qualifications  "affordable aspiration" brand positioning); regional market characteristics (Central/Western/Eastern/Northern/Karamoja); key market sizing numbers (working for pay 10M; annual new labour force 1.11.2M; multidimensional poverty 41.2%). Sources: World Bank UHCDGR 2025, UNPHC 2024, UBOS UNHS 2019/20, NAPE 2023. **Read when building consumer personas, sizing the Uganda consumer market, determining price-point strategy, or selecting customer channels for any Uganda-based consumer or B2B business plan.**
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Segment evidence, buyer roles, customer economics, discovery records, and serviceability constraints for 05 target market | Customer interviews, sales records, market analysis, and operating model | Yes | If absent, customer evidence is unavailable for a proposed segment, label it a hypothesis and return a discovery plan instead of a finished ICP. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Prioritised target segments, ICPs, personas, and segment economics | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| 05 target market exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| 05 target market release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Segment scorecard, interview trace, CAC/CLV assumption log, and exclusion rationale | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| 05 target market decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| 05 target market review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For 05 target market, the controlling focus is segment urgency, reachable buyer, willingness to pay, serviceability, acquisition economics, and beachhead choice. This skill may segment and prioritise supplied customer evidence; it may not infer protected traits, invent personas, or approve targeting that breaches consent or data-use limits. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For 05 target market, loss of evidence about segment urgency, reachable buyer, willingness to pay, serviceability, acquisition economics, and beachhead choice activates degraded mode. If the controlling 05 target market evidence is unavailable, the same boundary applies. When customer evidence is unavailable for a proposed segment, label it a hypothesis and return a discovery plan instead of a finished ICP. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For 05 target market, a large segment has weak urgency, access, margin, or product fit| deprioritise it and document the smaller segment whose buying trigger and serviceability are evidenced | Broad targeting wastes acquisition spend and obscures the real buyer |
+| For 05 target market, A current legal, regulatory, tax, accounting, market, or platform claim controls the 05 target market decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For 05 target market, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete prioritised target segments, icps, personas, and segment economics, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact 05 target market decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect segment evidence, buyer roles, customer economics, discovery records, and serviceability constraints and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce prioritised target segments, icps, personas, and segment economics with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Prioritised target segments, ICPs, personas, and segment economics must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Segment scorecard, interview trace, CAC/CLV assumption log, and exclusion rationale must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to 05 target market, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In 05 target market, treating an unavailable segment evidence, buyer roles, customer economics, discovery records, and serviceability constraints as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing prioritised target segments, icps, personas, and segment economics that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+Small retailers appear numerous, but interviews show pharmacies have the urgent stock-out problem and a named buyer. Select pharmacies as the beachhead.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for 05 target market; no local deep-dive reference is declared.
+- For 05 target market claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

@@ -42,10 +42,12 @@ Skills are grouped into thematic categories under `skills/`. Use `skills/<catego
 
 ### Skill Authoring Rules
 
-- Every skill MUST have a `SKILL.md` with YAML frontmatter (`name`, `description`)
-- Keep SKILL.md concise — reference files go in `references/` subfolder
-- Skills are self-contained and can be invoked independently
-- Use British English spelling (organisation, programme, colour) per east-african-english skill
+- Every active skill follows the July 2026 contract in `skills/meta-utility/skill-writing/SKILL.md` and its dual-compatible template.
+- Frontmatter names the directory, uses a one-line `Use when` description of at most 350 characters, and declares portable Claude Code/Codex metadata.
+- Skills declare positive and negative triggers, inputs, outputs, evidence, ordered workflow, decisions, quality, five corrected anti-patterns, permissions, degraded mode, and references.
+- Audit and review skills default to read-only; mutation, publishing, spending, destructive action, and certification require explicit authority.
+- Keep `SKILL.md` at or below 500 lines and use British English.
+- Run the zero-debt validator and routing smoke test before release; see `CONTRIBUTING.md`.
 
 ### Key Methodologies
 
@@ -73,8 +75,8 @@ Skills are grouped into thematic categories under `skills/`. Use `skills/<catego
 
 ### Currency and Localisation
 
-- **Default context: Uganda (UGX)**. All examples, costs, and financial projections should use Ugandan Shillings (UGX) unless the user specifies a different country
-- When reference materials quote USD figures, convert to UGX at a realistic rate. **Current official rate: approx. UGX 3,550 per $1 (Q1 2025/26, UBOS KEI)**. Use **UGX 3,700** as a conservative planning rate in projections (to account for exchange-rate depreciation risk). Adjust for local economic realities — do not simply multiply by the exchange rate. Account for differences in:
+- **Default context: Uganda (UGX)**. All examples, costs, and financial projections should use Ugandan Shillings (UGX) unless the user specifies a different country.
+- When reference materials quote foreign currency, use a dated, named source-register rate or an explicitly labelled planning assumption with sensitivity analysis. Never present a cached rate as current. Adjust for local economic realities rather than applying a bare conversion. Account for differences in:
   - Labour costs (significantly lower in Uganda)
   - Land/rent costs (varies by location — Kampala vs rural)
   - Input costs (some imported inputs may be more expensive)

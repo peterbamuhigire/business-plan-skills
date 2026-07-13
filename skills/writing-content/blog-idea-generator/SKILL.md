@@ -1,8 +1,14 @@
 ---
 name: blog-idea-generator
-description: Generate 15-25 targeted blog post ideas with 200-word summaries for any client website. Reads website content, assesses available information, adaptively selects from 20 ideation methods, and conducts a guided interview. Each idea includes a narrative brief + structured specs. Use when the user says "generate blog ideas", "what should I blog about", "blog topic ideas", "content ideas", or wants to populate topic-ideas.md.
+description: Use when the user wants blog topic ideas, editorial angles, or a content pipeline. Use content-writing for general copy and blog-writer for a complete article.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Blog Idea Generator
 
 ## Overview
@@ -21,8 +27,16 @@ Use this skill to generate a strong blog-topic pipeline grounded in the client's
 - Do not generate topics without checking for duplication against existing content.
 - Do not produce generic SEO clichés unrelated to the client's expertise.
 
+
+- Route to `content-writing` instead for general copy, or `blog-writer` for a complete article.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Blog Idea Generator brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Client website, services, audience, and positioning context
 - Existing blog or content inventory
 - Any language, SEO, or campaign priorities
@@ -37,6 +51,13 @@ Use this skill to generate a strong blog-topic pipeline grounded in the client's
 5. Package the ideas with enough structure to support article drafting.
 6. Flag gaps in source context that limit topic quality.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the ranked article idea register and that the decision concerns which ideas deserve a brief rather than duplicate current content.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (site audience, commercial goals, existing coverage, and credible source areas) or if the work could lead to this identified risk: producing search-shaped titles with no reader or evidence value.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - Topics are specific, relevant, and commercially useful.
@@ -50,13 +71,24 @@ Use this skill to generate a strong blog-topic pipeline grounded in the client's
 - Repeating existing articles under slightly different titles.
 - Generating topics disconnected from the client's services or credibility.
 - Prioritising volume over quality and relevance.
+- Treating a generic blog idea generator template as a conclusion. **Correction:** tie each choice to the named audience, evidence, and operating constraint.
 
+
+- Applying the wrong neighbouring route to blog idea generator. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Blog Idea Generator deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - A ranked or grouped list of blog ideas with usable briefs
 - Notes on content gaps, duplicates, or strategic opportunities
 - Any assumptions needing confirmation before writing begins
-
 
 
 Generate 15-25 targeted blog post ideas, each presented as a 200-word hybrid summary with narrative brief + structured specs. The system adapts its ideation methods to the specific client and available information.
@@ -97,13 +129,13 @@ After reading docs, ask targeted questions to fill gaps. Ask one at a time. Skip
 
 **Core questions (ask what's missing):**
 
-1. **Audience specifics**  "Who is your ideal readerSection  (Job title, company size, industry, location)"
-2. **Top pain points**  "What are the top 3 problems your customers face that your business solvesSection "
-3. **Content goals**  "What should readers DO after readingSection  (Contact you, book a demo, understand a conceptSection )"
-4. **Competitor landscape**  "Name 2-3 competitors. What topics do they coverSection "
-5. **Unique knowledge**  "What do you know that competitors don'tSection  What's your unfair advantageSection "
-6. **Customer questions**  "What questions do customers ask most before buyingSection "
-7. **Content gaps**  "Topics you've wanted to write about but haven'tSection "
+1. **Audience specifics**  "Who is your ideal reader? (Job title, company size, industry, location)"
+2. **Top pain points**  "What are the top 3 problems your customers face that your business solves?"
+3. **Content goals**  "What should readers DO after reading? (Contact you, book a demo, understand a concept?)"
+4. **Competitor landscape**  "Name 2-3 competitors. What topics do they cover?"
+5. **Unique knowledge**  "What do you know that competitors don't? What's your unfair advantage?"
+6. **Customer questions**  "What questions do customers ask most before buying?"
+7. **Content gaps**  "Topics you've wanted to write about but haven't?"
 8. **Context/audience**  any additional context the user provides (specific themes, campaigns, seasonal needs)
 
 If the user provides additional context (audience details, campaign goals, seasonal focus), incorporate it into the assessment.
@@ -170,12 +202,12 @@ Remove any idea that fails:
 
 | Filter | Test |
 |--------|------|
-| **High-value goal** | Does this help the reader make/save money, reduce risk, save time, or gain advantageSection  |
-| **Unique angle** | Does this require knowledge that isn't commonly availableSection  |
-| **So-what test** | Would the target reader care enough to clickSection  |
-| **Longevity** | Will this still be relevant in 12 monthsSection  |
-| **No overlap** | Not already published or in existing topic-ideas.mdSection  |
-| **Searchable** | Would someone type this into a search engineSection  |
+| **High-value goal** | Does this help the reader make/save money, reduce risk, save time, or gain advantage? |
+| **Unique angle** | Does this require knowledge that isn't commonly available? |
+| **So-what test** | Would the target reader care enough to click? |
+| **Longevity** | Will this still be relevant in 12 months? |
+| **No overlap** | Not already published or in existing topic-ideas.md? |
+| **Searchable** | Would someone type this into a search engine? |
 
 ### Tier Classification
 
@@ -191,7 +223,7 @@ Remove any idea that fails:
 
 For each approved idea, produce a summary in this exact format:
 
-```markdown
+~~~markdown
 ### [Number]. [Working Title]
 
 [3-4 sentence narrative brief: What this article is about, who it serves,
@@ -213,7 +245,7 @@ captures the creative direction and emotional tone.]
 - **SEO Keywords:** [primary keyword], [secondary keyword]
 - **Tier:** [1: SEO driver / 2: Authority builder / 3: Thought leadership]
 - **Est. Words:** [1,500-2,500]
-```
+~~~
 
 ### Summary Quality Rules
 
@@ -230,10 +262,10 @@ captures the creative direction and emotional tone.]
 ### Present to the User
 
 Show ideas grouped by tier with full summaries. After presenting, ask:
-- Which ideas excite you mostSection 
-- Any ideas to remove or modifySection 
-- Any topics you expected but don't seeSection 
-- Any specific campaigns or seasonal needs to addressSection 
+- Which ideas excite you most?
+- Any ideas to remove or modify?
+- Any topics you expected but don't see?
+- Any specific campaigns or seasonal needs to address?
 
 Refine based on feedback. The user's input overrides the assessment.
 
@@ -243,7 +275,7 @@ Refine based on feedback. The user's input overrides the assessment.
 
 Save the final approved list to `blog-writer/references/topic-ideas.md`:
 
-```markdown
+~~~markdown
 # Blog Topic Ideas  [Client Name]
 
 Generated: YYYY-MM-DD
@@ -268,7 +300,7 @@ Content categories: [list]
 |-------|-------------------|-------------------|
 | Month 1 | [title] (T1) | [title] (T2) |
 ...
-```
+~~~
 
 If the file already exists, merge new ideas  don't overwrite existing topics. Mark previously written topics as `[PUBLISHED]`.
 
@@ -309,3 +341,48 @@ When generating blog posts about **business planning, entrepreneurship, manageme
 - Audience is entrepreneurs, SME owners, or plan writers
 
 **Each idea in the bank maps directly to a reference file**  so the blog writer can draw on deep, sourced content rather than generic advice. Reference the specific file listed in the "Draw from" field of each idea when writing the article.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Ranked article idea register decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to producing search-shaped titles with no reader or evidence value. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the ranked article idea register; writing idea briefs without publishing or scraping restricted sources is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If site audience, commercial goals, existing coverage, and credible source areas cannot be obtained, return a qualified ranked article idea register covering only the checks that remain supportable. Leave this decision unresolved: which ideas deserve a brief rather than duplicate current content. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: which ideas deserve a brief rather than duplicate current content | Record the conclusion, source trail, owner, and review trigger in the ranked article idea register. | Risk of producing search-shaped titles with no reader or evidence value |
+| Material evidence conflicts or remains uncertain | Check the tied ideas against existing coverage, reader questions, credible source depth, and commercial relevance before commissioning a brief. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: site audience, commercial goals, existing coverage, and credible source areas | Mark the decision on which ideas deserve a brief rather than duplicate current content `not assessed` in the ranked article idea register, and send it to the content strategist and site owner. | Otherwise, the work risks producing search-shaped titles with no reader or evidence value |
+
+## Quality Standards
+
+
+Accept the ranked article idea register only when evidence is sufficient for this decision: which ideas deserve a brief rather than duplicate current content. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of producing search-shaped titles with no reader or evidence value.
+
+## Worked Example
+
+
+A site already has three generic pricing articles. The idea register rejects near-duplicates and prioritises a sourced comparison that answers the target buyer's unresolved implementation question.
+
+## References
+
+- [`AGENTS.md`](../../../AGENTS.md) - repository routing, evidence, finance, and release rules.
+
+<!-- dual-compat-end -->

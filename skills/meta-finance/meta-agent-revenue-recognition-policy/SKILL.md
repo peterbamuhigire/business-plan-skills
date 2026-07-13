@@ -1,8 +1,14 @@
 ---
 name: meta-agent-revenue-recognition-policy
-description: Meta policy-declaration discipline for agent revenue recognition — auditor-ready policy memo template per pricing primitive (per-resolution, per-outcome, hybrid, prepaid credits, SLA tier). Per-primitive: performance obligation, transaction-price allocation, recognition trigger, variable-consideration treatment, principal-vs-agent, breakage, refund, contract modification. Use when the plan must declare its rev-rec policy at audit-ready standard.
+description: Use when a plan is being prepared for audit, DFI / institutional DD, or institutional fundraising. Use financial projections for model construction.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Meta — Agent Revenue Recognition Policy Skill
 
 ## Overview
@@ -27,6 +33,13 @@ Why a separate meta-skill: audit firms (Big-4 and regional) expect an explicit p
 
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Revenue Recognition Policy brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
+| Current accounting, tax, valuation, or pricing basis | Finance owner, accounting records, signed contracts, and current authoritative sources | Conditional | Mark the treatment unresolved and require qualified professional review. |
 - Pricing primitives in scope (from `saas-agent-pricing-strategy`)
 - Contract templates (from proposal session)
 - Standalone selling price evidence (where available)
@@ -37,6 +50,12 @@ Why a separate meta-skill: audit firms (Big-4 and regional) expect an explicit p
 - Reporting framework (ASC 606 / IFRS 15 / both)
 
 ## Workflow
+
+1. Inventory contract types, pricing primitives, performance obligations, and source evidence.
+2. Draft the policy analysis under the current reporting framework and obtain auditor or qualified professional review where material.
+3. Reconcile the approved policy to contracts, billing, ledger treatment, disclosures, and the financial model.
+
+Follow the ordered policy analysis below; unresolved recognition questions stop release pending current-source and professional review.
 
 ### 1. Inventory pricing primitives + contract types
 
@@ -116,6 +135,13 @@ Draft the disclosure for the audited financial statements:
 
 Per cadence below.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the agent revenue-recognition memo and that the decision concerns the recognition trigger for each performance obligation.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (executed contracts and pricing primitives) or if the work could lead to this identified risk: recognising outcome, credit, or SLA revenue before the obligation is satisfied.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - Policy memo exists as a named, dated, owned artefact
@@ -142,8 +168,19 @@ Per cadence below.
 - Principal-vs-agent not analysed for orchestration revenue
 - Breakage method not stated
 
+
+- Applying the wrong neighbouring route to meta agent revenue recognition policy. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Revenue Recognition Policy deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Auditor-ready revenue recognition policy memo
 - Per-primitive 5-step analysis
 - Variable-consideration estimation methodology
@@ -187,3 +224,49 @@ Per cadence below.
 - **DFI / multilateral DD review** — IFC / AfDB / FMO will request the memo specifically
 - **Sovereign-AI procurement** — local-currency pricing with USD index; treat USD adjustment as variable consideration; constrain
 - **FX revaluation** — IAS 21 / ASC 830; non-operating; not part of revenue recognition itself
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Agent revenue-recognition memo decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to recognising outcome, credit, or SLA revenue before the obligation is satisfied. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the agent revenue-recognition memo; drafting a policy memo for controller and auditor review is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If executed contracts and pricing primitives cannot be obtained, return a qualified agent revenue-recognition memo covering only the checks that remain supportable. Leave this decision unresolved: the recognition trigger for each performance obligation. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: the recognition trigger for each performance obligation | Record the conclusion, source trail, owner, and review trigger in the agent revenue-recognition memo. | Risk of recognising outcome, credit, or SLA revenue before the obligation is satisfied |
+| Material evidence conflicts or remains uncertain | Compare the contract wording against each plausible recognition treatment and send the unresolved conclusion to the controller or auditor. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: executed contracts and pricing primitives | Mark the decision on the recognition trigger for each performance obligation `not assessed` in the agent revenue-recognition memo, and send it to the controller and appointed auditor. | Otherwise, the work risks recognising outcome, credit, or SLA revenue before the obligation is satisfied |
+
+## Quality Standards
+
+
+Accept the agent revenue-recognition memo only when evidence is sufficient for this decision: the recognition trigger for each performance obligation. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of recognising outcome, credit, or SLA revenue before the obligation is satisfied.
+
+## Worked Example
+
+
+A contract bills prepaid credits that expire and also promises outcome refunds. Map the obligations and variable consideration separately; do not approve the memo until contract wording, billing events, and ledger entries agree.
+
+## Finance Doctrine Gate
+
+
+Apply the Chwezi doctrine to the agent revenue-recognition memo, using the reporting basis and effective date supported by executed contracts and pricing primitives. Reconcile the treatment to the model and narrative, and have the controller and appointed auditor review the treatment, reconciliation, and exposure to this risk: recognising outcome, credit, or SLA revenue before the obligation is satisfied.
+
+<!-- dual-compat-end -->

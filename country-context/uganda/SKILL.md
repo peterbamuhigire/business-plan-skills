@@ -1,6 +1,11 @@
 ---
-name: country-context-uganda
-description: Uganda country context for business plan generation. Default country for all skills. Covers currency (UGX), tax rates (URA/EFRIS), regulatory bodies (KCCA, UNBS, NEMA, MAAIF), banking (CBU, UDB, Centenary, Stanbic), labour market, macro data (UBOS 2025), and key risks. All business plan skills use this as the default unless another country context is loaded.
+name: uganda
+description: Use when a business plan, proposal, or investment case needs Uganda-specific currency, tax, regulatory, labour, banking, market, or risk context; this is the repository default, while `kenya` and `tanzania` own their jurisdictions and current facts still require verification.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Uganda Country Context
@@ -17,6 +22,7 @@ Use this skill as the default country layer for the suite. It provides the regul
 
 ## Do Not Use When
 
+- Use `country-context/kenya` or `country-context/tanzania` instead when that jurisdiction governs the decision.
 - Do not use when a different country context file should govern the work.
 - Do not mix Uganda assumptions into a non-Uganda plan unless comparing markets explicitly.
 - Do not treat country context as a substitute for section-specific analysis.
@@ -286,7 +292,83 @@ Run `python tools/scrape_metrics.py uganda` to refresh (updates both files).
 
 ## 13. Plan Author Notes
 
-```
+<!-- dual-compat-start -->
+## Inputs
+
+| Artefact | Source or provider | Required? | If absent |
+|---|---|---|---|
+| Business activity, entity, district or city, scale, audience, and decision | Client intake and owning business-plan skill | Required | Ask for the missing classifier and avoid sector-specific conclusions |
+| Current macroeconomic, tax, labour, licensing, regulatory, and market facts | Uganda authorities and verified primary sources | Required for factual claims | Mark the fact unverified and omit it from load-bearing logic |
+| Accounting and finance treatment | Chwezi Accounting Doctrine and qualified Ugandan professionals | Conditional | Keep the treatment provisional pending doctrine and professional review |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Uganda context brief | Business-plan, proposal, valuation, risk, operations, and finance workflows | Relevant jurisdiction facts, dates, sources, assumptions, countercases, and implications are explicit |
+| Current-source and assumption register | Researcher and reviewer | Every load-bearing figure or rule has source, publication or effective date, verification date, and owner |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Uganda claim traceability | Claim, evidence, warrant, assumption, countercase, and implication table | No material context claim relies only on this stored snapshot |
+| Finance quality-gate result | Doctrine mapping and professional-review status | Tax, payroll, EFRIS, revenue, inventory, banking, and reporting implications pass current Chwezi review |
+
+## Capability Contract
+
+Read or search access is required; editing or mutation is allowed only with authorised permission.
+
+Context work defaults to read-only research. Do not register entities, file returns, change accounts, submit licences, contact authorities, spend funds, or certify compliance. Such action requires explicit authority and the appropriate Ugandan legal, tax, regulatory, and accounting professional.
+
+## Degraded Mode
+
+If network access, current authority sources, or professional review is unavailable, use only durable institutional context and label time-sensitive facts `not assessed`. Do not treat a stored tax rate, exchange rate, threshold, minimum wage note, or regulator process as current.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Fact changes by Finance Act, notice, market, or local authority | Verify from the competent current source | Stale compliance or economics |
+| National and district or city requirements both apply | State both layers and their authorities | Missing local licence or cost |
+| Evidence sources conflict | Prefer the competent primary source and explain the conflict | Cherry-picked context |
+| Context affects accounting, tax, payroll, EFRIS, banking, or reporting | Apply Chwezi doctrine and Ugandan professional review | Incorrect financial treatment |
+
+## Workflow
+
+1. Confirm entity, activity, district or city, audience, decision, period, and material context questions.
+2. Select relevant durable content from this default context and list time-sensitive claims needing verification.
+3. Verify current facts with competent Ugandan primary sources; stop if a load-bearing rule cannot be confirmed.
+4. Distinguish national, local, sector, donor, and contractual requirements.
+5. Translate each fact into an assumption, risk, cost, timing, operating, or funding implication.
+6. Reconcile finance implications with Chwezi doctrine and qualified professional review.
+7. Challenge the base case with source conflicts and downside conditions; recover by narrowing unsupported claims.
+8. Release with verification dates and unassessed items visible.
+
+## Quality Standards
+
+Current facts must be sourced at the point of use and dated. Default routing to Uganda does not permit invented locality or sector detail. Legal, tax, regulatory, and accounting conclusions remain qualified until professionally reviewed.
+
+## Anti-Patterns
+
+- Treating repository defaults as client facts. Fix: confirm district, activity, entity, and audience.
+- Reusing a stored tax, FX, or EFRIS rule as current. Fix: verify the competent source and effective date.
+- Treating Kampala practice as national. Fix: distinguish national and local authority.
+- Listing regulators without a licence trigger. Fix: confirm the actual activity and implication.
+- Filling the plan with generic country praise. Fix: connect context to customer, operations, risk, finance, or funding.
+- Finalising finance treatment from context notes. Fix: apply Chwezi doctrine and Ugandan professional review.
+
+## Worked Example
+
+For a food processor outside Kampala, verify national standards and tax rules separately from district permits, date each source, and carry licence timing and cost into implementation and cash flow instead of listing agencies without consequence.
+<!-- dual-compat-end -->
+
+## References
+
+- Use the Ugandan authority, live-metric, and source lists above; verify every time-sensitive item before use.
+- Use `country-context/kenya/SKILL.md` or `country-context/tanzania/SKILL.md` instead when those jurisdictions govern the decision.
+
+```text
 Default country: Uganda
 Maintained by: Business Plan Skills project
 Last updated: 12 March 2026

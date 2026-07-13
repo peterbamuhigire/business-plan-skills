@@ -1,6 +1,11 @@
 ---
-name: company-overview
-description: Generate the company overview section covering mission, vision, values, legal structure, company history, key milestones, and location. Establishes the identity and credibility of the business.
+name: 02-company-overview
+description: Use when producing or reviewing the 02 company overview component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Company Overview Skill
@@ -96,7 +101,7 @@ Use the Golden Circle framework (Sinek, 2009) to write compelling, authentic mis
 - Generic virtue lists ("quality, innovation, integrity")  not actionable, not differentiating
 - Profit as the WHY ("to become the leading provider by 2030")  results are not purpose
 
-**Discovering the WHY (for startups):** Ask the founder: *Why did you start thisSection  What problem could you not ignoreSection  What would be lost in your community if this business did not existSection * The WHY comes from looking backwards at formative experience, not forwards at market opportunity.
+**Discovering the WHY (for startups):** Ask the founder: *Why did you start this? What problem could you not ignore? What would be lost in your community if this business did not exist?* The WHY comes from looking backwards at formative experience, not forwards at market opportunity.
 
 **The Celery Test:** Every product, partnership, hire, or strategic decision should prove the WHY. If a decision cannot be connected to the stated WHY, it is either a short-term exception or the WHY is not yet clear.
 
@@ -122,12 +127,12 @@ Identify which of the four entrepreneurial dimensions dominates the founding tea
 ### Dream  Vision  Purpose  Mission Test
 
 Before writing the overview narrative, confirm the founder can answer each level:
-- **Dream:** What does the world look like when this business works exactly as envisionedSection 
-- **Vision:** What specific kind of company will create that worldSection 
-- **Purpose:** Why does this matter beyond profit  who is servedSection 
-- **Mission:** What specific steps, by when, with what resourcesSection 
+- **Dream:** What does the world look like when this business works exactly as envisioned?
+- **Vision:** What specific kind of company will create that world?
+- **Purpose:** Why does this matter beyond profit  who is served?
+- **Mission:** What specific steps, by when, with what resources?
 
-**Personal vs Impersonal Dream diagnostic:** Ask  *"If the business hits its financial targets, and then whatSection "* A personal-dream founder answers with consumption (house, travel, retirement). An impersonal-dream founder answers with expansion (more people served, a bigger problem tackled). Impersonal dreams sustain investor confidence in growth ventures; personal dreams are legitimate for lifestyle businesses but should be framed accordingly.
+**Personal vs Impersonal Dream diagnostic:** Ask  *"If the business hits its financial targets, and then what?"* A personal-dream founder answers with consumption (house, travel, retirement). An impersonal-dream founder answers with expansion (more people served, a bigger problem tackled). Impersonal dreams sustain investor confidence in growth ventures; personal dreams are legitimate for lifestyle businesses but should be framed accordingly.
 
 ### Business Stage Assessment
 
@@ -145,8 +150,8 @@ Before writing the company overview narrative, confirm the business has its core
 ### Business Name Test
 
 The business name is the first marketing tool. Apply the two-question test:
-1. Can 10 people who don't know the founder guess what the business does from the name aloneSection 
-2. Does it work as a domain name, social media handle, and signSection 
+1. Can 10 people who don't know the founder guess what the business does from the name alone?
+2. Does it work as a domain name, social media handle, and sign?
 
 For businesses with limited marketing budgets, a **descriptive name** (tells exactly what you do) outperforms an **evocative name** (creates an image but requires explanation). If the name is already fixed and fails the test, the company overview must open with a strong positioning statement that compensates.
 
@@ -170,7 +175,7 @@ Uganda examples:
 
 **Vision:** "By [year], [company name] will be [measurable position] in [market] recognised for [core quality]."
 
-**Pinskey's test:** Read both aloud to a stranger. If they ask "what does that meanSection ", rewrite them.
+**Pinskey's test:** Read both aloud to a stranger. If they ask "what does that mean?", rewrite them.
 
 ## Generation Process
 
@@ -219,3 +224,84 @@ State in the Company Overview: legal structure, URSB registration number, TIN, t
 - Ownership structure is transparent  no ambiguity for investors
 - History demonstrates learning and adaptability
 - Legal structure is explicitly stated and consistent with the tax regime used in financial projections
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Legal, ownership, location, history, mission, and licence evidence for 02 company overview | Client corporate records and verified registries | Yes | If absent, legal identity or ownership evidence is unavailable, mark the entity status unverified and stop claims that depend on it. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Company overview and compliance-status matrix | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| 02 company overview exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| 02 company overview release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Entity fact sheet with registry or client-document provenance | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| 02 company overview decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| 02 company overview review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For 02 company overview, the controlling focus is legal identity, ownership, history, mission, operating scope, location, licences, and evidence-backed compliance status. This skill may analyse supplied corporate records and draft the overview; it may not certify incorporation, ownership, licences, or regulatory compliance without current documentary evidence. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For 02 company overview, loss of evidence about 02 company overview evidence, decisions, failure thresholds, ownership, and downstream handoffs activates degraded mode. If the controlling 02 company overview evidence is unavailable, the same boundary applies. When legal identity or ownership evidence is unavailable, mark the entity status unverified and stop claims that depend on it. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For 02 company overview, the aspirational mission conflicts with the operating model or legal scope| retain verified operating facts and return the mission statement for revision | Misstated corporate status or purpose creates diligence and compliance exposure |
+| For 02 company overview, A current legal, regulatory, tax, accounting, market, or platform claim controls the 02 company overview decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For 02 company overview, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete company overview and compliance-status matrix, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact 02 company overview decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect legal, ownership, location, history, mission, and licence evidence and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce company overview and compliance-status matrix with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Company overview and compliance-status matrix must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Entity fact sheet with registry or client-document provenance must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to 02 company overview, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In 02 company overview, treating an unavailable legal, ownership, location, history, mission, and licence evidence as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing company overview and compliance-status matrix that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+The client calls the business a limited company but supplies only a trading-name certificate. Describe the operating business without asserting limited liability and request incorporation evidence.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for 02 company overview; no local deep-dive reference is declared.
+- For 02 company overview claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

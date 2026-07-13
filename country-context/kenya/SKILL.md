@@ -1,6 +1,11 @@
 ---
-name: country-context-kenya
-description: Kenya country context for business plan generation. Covers currency (KES), tax rates (KRA), regulatory bodies (CAK, KEBS, NEMA Kenya, KenInvest), banking (CBK, 39 commercial banks, M-Pesa), labour market, macro data (KNBS 2025, Swiss Economic Report 2025, US Investment Climate Statement 2025), and key business risks. Load this file when generating a Kenya business plan.
+name: kenya
+description: Use when a business plan, proposal, or investment case needs Kenya-specific currency, tax, regulatory, labour, banking, market, or risk context; use `uganda` or `tanzania` for those jurisdictions and verify time-sensitive facts before relying on them.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Kenya Country Context
@@ -323,7 +328,83 @@ Run `python tools/scrape_metrics.py kenya` to refresh.
 
 ## 11. Plan Author Notes
 
-```
+<!-- dual-compat-start -->
+## Inputs
+
+| Artefact | Source or provider | Required? | If absent |
+|---|---|---|---|
+| Business activity, entity, county, scale, audience, and decision | Client intake and owning business-plan skill | Required | Ask for the missing classifier and avoid sector-specific conclusions |
+| Current macroeconomic, tax, labour, licensing, regulatory, and market facts | Kenya authorities and current verified primary sources | Required for factual claims | Mark the fact unverified and omit it from load-bearing logic |
+| Accounting and finance treatment | Chwezi Accounting Doctrine and qualified Kenyan professionals | Conditional | Keep the treatment provisional pending doctrine and professional review |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Kenya context brief | Business-plan, proposal, valuation, risk, operations, and finance workflows | Relevant jurisdiction facts, dates, sources, assumptions, countercases, and implications are explicit |
+| Current-source and assumption register | Researcher and reviewer | Every load-bearing figure or rule has source, publication or effective date, verification date, and owner |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Kenya claim traceability | Claim, evidence, warrant, assumption, countercase, and implication table | No material context claim relies only on this stored snapshot |
+| Finance quality-gate result | Doctrine mapping and professional-review status | Tax, payroll, revenue, inventory, banking, and reporting implications pass current Chwezi review |
+
+## Capability Contract
+
+Read or search access is required; editing or mutation is allowed only with authorised permission.
+
+Context work defaults to read-only research. Do not register entities, file returns, change accounts, submit licences, contact authorities, spend funds, or certify compliance. Such action requires explicit authority and the appropriate Kenyan legal, tax, regulatory, and accounting professional.
+
+## Degraded Mode
+
+If network access, current authority sources, or professional review is unavailable, use the durable institutional context only and label time-sensitive facts `not assessed`. Do not treat a stored tax rate, exchange rate, threshold, or regulator process as current.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Fact changes by Finance Act, notice, market, or county | Verify from the competent current source | Stale compliance or economics |
+| National rule and county practice both apply | State both layers and their authorities | Missing local licence or cost |
+| Evidence sources conflict | Prefer the competent primary source and explain the conflict | Cherry-picked context |
+| Context affects accounting, tax, payroll, banking, or reporting | Apply Chwezi doctrine and Kenyan professional review | Incorrect financial treatment |
+
+## Workflow
+
+1. Confirm the entity, activity, county, audience, decision, period, and material context questions.
+2. Select only the relevant durable content from this skill and list time-sensitive claims needing verification.
+3. Verify current facts with competent Kenyan primary sources; stop if a load-bearing rule cannot be confirmed.
+4. Distinguish national, county, sector, and contractual requirements.
+5. Translate each fact into an assumption, risk, cost, timing, operating, or funding implication.
+6. Reconcile finance implications with Chwezi doctrine and qualified professional review.
+7. Challenge the base case with source conflicts and downside conditions; recover by narrowing or removing unsupported claims.
+8. Release the brief with verification dates and unassessed items visible.
+
+## Quality Standards
+
+Current facts must be sourced at the point of use and dated. Context must change a decision or assumption, not pad a plan. Legal, regulatory, tax, and accounting conclusions remain qualified until professionally reviewed.
+
+## Anti-Patterns
+
+- Reusing a stored tax rate as current. Fix: verify the applicable Finance Act and effective date.
+- Treating Nairobi practice as national. Fix: distinguish national and county authority.
+- Quoting a macro figure without period or source. Fix: add the competent source, date, measure, and implication.
+- Applying a regulator because the sector label sounds close. Fix: confirm the actual activity and licence trigger.
+- Turning context into generic country praise. Fix: connect each point to customer, operating, risk, finance, or funding logic.
+- Finalising a finance conclusion from country notes. Fix: apply Chwezi doctrine and Kenyan professional review.
+
+## Worked Example
+
+For a food processor in Kisumu County, verify national standards and tax rules separately from county permits, date each source, and carry the resulting licence time and cost into implementation and cash flow rather than listing regulators without consequence.
+<!-- dual-compat-end -->
+
+## References
+
+- Use the Kenyan authority and source list in `## 10. Data Sources`; verify every time-sensitive item before use.
+- Read `country-context/uganda/SKILL.md` or `country-context/tanzania/SKILL.md` instead when those jurisdictions govern the decision.
+
+```text
 Country: Kenya
 Completed by: Business Plan Skills project (automated extraction)
 Date completed: 12 March 2026

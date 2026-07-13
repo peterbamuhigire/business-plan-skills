@@ -1,6 +1,11 @@
 ---
-name: management-team
-description: Generate the management team section with team biographies, organisational structure, advisory board, skills gap analysis, hiring plan, and governance structure. Proves the team can execute the plan. Incorporates Kaza's founder purpose and objective function framework (why this business, for this founder, at this stage  aligning the business model with the owner's life goals rather than abstract growth metrics), Uganda labour market salary benchmarks, women entrepreneurship constraints data, and EAC common market framework for talent sourcing.
+name: 09-management-team
+description: Use when producing or reviewing the 09 management team component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Management Team & Organisation Skill
@@ -78,7 +83,7 @@ Generate a team section that convinces investors the right people are driving th
 
 ### Team Member Bio Template
 
-```
+```text
 Name:
 Title/Role:
 Background: [2-3 sentences on relevant experience]
@@ -90,7 +95,7 @@ Role in this venture: [Specific responsibilities]
 ### What Investors Look For in Teams
 
 - **Domain expertise**  Deep knowledge of the industry
-- **Execution track record**  Have they built something beforeSection 
+- **Execution track record**  Have they built something before?
 - **Complementary skills**  Technical + commercial + operational coverage
 - **Commitment**  Full-time dedication, skin in the game
 - **Coachability**  Willingness to learn and adapt
@@ -183,9 +188,9 @@ Evaluate whether the candidate leader can:
 Every management team section should include a founder purpose statement  not a mission statement, but an honest account of *why this business, for this founder, at this time*. This matters to investors and lenders because purpose-aligned founders build more durable businesses and are more likely to navigate setbacks without abandoning the venture.
 
 A strong purpose statement answers:
-1. What problem are you solving that genuinely matters to youSection  (Not just "there is a market opportunity")
-2. What does success look like for you personally  not just financiallySection  (Work-life balance, community impact, independence, legacy)
-3. Is the business model designed to serve your life, or will it consume itSection 
+1. What problem are you solving that genuinely matters to you? (Not just "there is a market opportunity")
+2. What does success look like for you personally  not just financially? (Work-life balance, community impact, independence, legacy)
+3. Is the business model designed to serve your life, or will it consume it?
 
 **The objective function by stage** (Kaza, 2025):
 
@@ -221,3 +226,84 @@ A strong purpose statement answers:
 - **Hard Things About Hard Things**: See `references/hard-things-horowitz.md`  Horowitz's comprehensive framework for leading through crisis: The Struggle (how to survive it), CEO transparency (3 reasons to tell it like it is), layoffs done right (5-step process), firing executives (preparation + conversation), People/Products/Profits hierarchy (what a good place to work means), why CEOs must train (Grove's leverage calculation), minimising politics (right kind of ambition, formal processes), Peacetime CEO vs Wartime CEO (contrasting behaviours table), Ones and Twos (CEO types and succession), Three Leadership Attributes (Jobs/Campbell/Grove), managing CEO psychology, Accountability vs Creativity Paradox, feedback keys, hiring for strength not weakness, Uganda/EA application notes. Source: Horowitz (HarperBusiness, 2014). **Read when writing the CEO profile, assessing leadership quality, building HR processes, addressing crisis readiness, or advising on management team structure.**
 - **E-Myth, Fatal Assumption, and Four Dimensions**: See `references/awakening-entrepreneur-gerber.md`  or `../02-company-overview/references/awakening-entrepreneur-gerber.md`  for Gerber's full framework: technician vs entrepreneur distinction, Four Dimensions of the Entrepreneurial Personality (Dreamer/Thinker/Storyteller/Leader), Leader's 10 Core Beliefs, 10 Operating Standards, Three Stages of Owner Transformation, Seven Centers of Management Attention, and Golden Pyramid Strategy. **Read when assessing founder readiness, writing leader profiles, evaluating key executive hires, or describing the management development plan.**
 - **Values-based management and cultural moat**: See `references/values-based-management-berkshire.md` for Berkshire's cultural moat framework  culture as competitive advantage, BERKSHIRE values acronym (Budget-conscious/Earnest/Reputation/Kinship/Self-starters/Hands-off/Investor savvy/Rudimentary/Eternal), decentralisation model, moat typology (natural monopoly/customer relationships/brand/float), succession planning (Marmon Group template, James J. Hill test), shareholder culture and long-term orientation, float mechanics and non-insurance analogues, and Uganda/EA application (owner-as-bottleneck, key-man threshold, DFI investor orientation)  from Cunningham (Columbia University Press, 2014). **Read when articulating management culture, addressing succession readiness, or structuring the founder narrative for equity investors and DFIs.**
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Role requirements, verified biographies, workload, organisation design, compensation assumptions, and hiring evidence for 09 management team | Founders, HR records, approved payroll model, and reference evidence | Yes | If absent, a biography, role need, workload, or pay assumption is unavailable, mark it unverified and keep the role or hire conditional. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Management-team section and staged organisation and hiring plan | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| 09 management team exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| 09 management team release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Credential trace, accountability map, hiring trigger, and payroll reconciliation | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| 09 management team decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| 09 management team review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For 09 management team, the controlling focus is leadership evidence, accountability, governance, workload, succession, and staged hiring. This skill may analyse roles using authorised records; it may not verify credentials by assertion, disclose sensitive HR data, hire, discipline, or set compensation without authority. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For 09 management team, loss of evidence about leadership evidence, accountability, governance, workload, succession, and staged hiring activates degraded mode. If the controlling 09 management team evidence is unavailable, the same boundary applies. When a biography, role need, workload, or pay assumption is unavailable, mark it unverified and keep the role or hire conditional. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For 09 management team, a named leader lacks evidenced capacity for a critical accountability| state the gap, assign interim ownership, and define the hire, adviser, or development trigger | Founder-centric organisation claims hide execution and governance gaps |
+| For 09 management team, A current legal, regulatory, tax, accounting, market, or platform claim controls the 09 management team decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For 09 management team, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete management-team section and staged organisation and hiring plan, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact 09 management team decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect role requirements, verified biographies, workload, organisation design, compensation assumptions, and hiring evidence and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce management-team section and staged organisation and hiring plan with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Management-team section and staged organisation and hiring plan must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Credential trace, accountability map, hiring trigger, and payroll reconciliation must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to 09 management team, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In 09 management team, treating an unavailable role requirements, verified biographies, workload, organisation design, compensation assumptions, and hiring evidence as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing management-team section and staged organisation and hiring plan that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+The founder owns strategy, sales, finance approval, and operations review. Reassign one control role, define the first hiring trigger, and show how governance changes before growth adds volume.
+
+## References
+
+- [Load this skill's primary method or template](references/african-entrepreneurship.md) before applying the 09 management team decision rules.
+- For 09 management team claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

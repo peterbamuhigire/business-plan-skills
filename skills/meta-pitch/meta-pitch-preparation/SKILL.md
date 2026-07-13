@@ -1,8 +1,14 @@
 ---
 name: meta-pitch-preparation
-description: Dual-purpose pitch preparation meta-skill for (A) preparing yourself to pitch and (B) coaching clients to pitch. Covers investor pitches, bank/DFI loan presentations, client proposal pitches, grant presentations, and board presentations. Integrates Klaff's STRONG method and frame control (Pitch Anything), McGowan's Hook-Meat-Payoff and 7 Principles (Pitch Perfect), and the business plan skill suite's financial and market frameworks. Use before any live pitch, presentation, or proposal defence.
+description: Use when preparing for an investor, lender, donor, client, or board pitch. Use pitch-deck for end-to-end deck orchestration.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Pitch Preparation Meta-Skill
 
 ## Overview
@@ -21,8 +27,16 @@ Use this meta-skill to prepare the spoken strategy for a live pitch. It helps th
 - Do not jump straight to slide design if the spoken frame is still unclear.
 - Do not use for written-only proposals with no live presentation component.
 
+
+- Route to `pitch-deck` instead when the task requires end-to-end deck orchestration.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Pitch Preparation brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Audience type, decision context, and time available
 - Core business case, funding ask, and key supporting evidence
 - Known objections, sensitivities, and presentation constraints
@@ -37,6 +51,13 @@ Use this meta-skill to prepare the spoken strategy for a live pitch. It helps th
 5. Tighten the pitch for brevity, clarity, and psychological impact.
 6. Flag any weakness that will fail in a live setting.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the pitch delivery brief and that the decision concerns which hook, proof, and ask the speaker must own.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (audience decision, approved story, timing, and likely objections) or if the work could lead to this identified risk: coaching performance around an unsupported story.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - The presenter can state the case clearly, quickly, and convincingly.
@@ -50,13 +71,24 @@ Use this meta-skill to prepare the spoken strategy for a live pitch. It helps th
 - Memorising lines instead of understanding the argument structure.
 - Using one pitch style for investors, lenders, donors, and buyers alike.
 - Letting the live story drift away from the actual evidence.
+- Treating a generic pitch preparation template as a conclusion. **Correction:** tie each choice to the named audience, evidence, and operating constraint.
 
+
+- Applying the wrong neighbouring route to meta pitch preparation. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Pitch Preparation deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - A prepared pitch frame, message strategy, and rehearsal plan
 - Anticipated Q&A and objection-handling notes
 - Open issues to resolve before presenting
-
 
 
 ## When to Use
@@ -75,12 +107,12 @@ Before preparing any pitch, identify the type  this determines frame, structure,
 
 | Pitch Type | Primary Audience | Their Core Question | Win Condition |
 |---|---|---|---|
-| **Equity investor** (angel, VC, PE, impact) | Return on capital | Will this make me money at acceptable riskSection  | Intrigue + traction + credible exit |
-| **Bank / DFI loan** | Repayment security | Can and will they repaySection  | DSCR + collateral + character |
-| **Client proposal** | Value delivery | Will this solve my problem better than alternativesSection  | Fit + competence + price confidence |
-| **Grant / donor** | Programme objectives | Does this advance our missionSection  | Theory of Change + impact + accountability |
-| **Board / management** | Strategic fit | Is this the right use of our resourcesSection  | Logic + data + risk mitigation |
-| **Government / public tender** | Compliance + value | Do they meet our criteria at best priceSection  | Specification compliance + track record |
+| **Equity investor** (angel, VC, PE, impact) | Return on capital | Will this make me money at acceptable risk? | Intrigue + traction + credible exit |
+| **Bank / DFI loan** | Repayment security | Can and will they repay? | DSCR + collateral + character |
+| **Client proposal** | Value delivery | Will this solve my problem better than alternatives? | Fit + competence + price confidence |
+| **Grant / donor** | Programme objectives | Does this advance our mission? | Theory of Change + impact + accountability |
+| **Board / management** | Strategic fit | Is this the right use of our resources? | Logic + data + risk mitigation |
+| **Government / public tender** | Compliance + value | Do they meet our criteria at best price? | Specification compliance + track record |
 
 ---
 
@@ -98,7 +130,7 @@ Establish your frame before the audience can impose theirs. Identify which frame
 - Analyst frame counter: "I'll send the detailed model. Right now I want to show you the opportunity."
 
 **T  Tell the Story**
-Open with a story that establishes novelty and context. The crocodile brain (the oldest, most primitive decision-making layer) filters everything first: is this dangerousSection  Is this novelSection  Is this relevantSection  Only novelty and emotional relevance pass through. Facts do not.
+Open with a story that establishes novelty and context. The crocodile brain (the oldest, most primitive decision-making layer) filters everything first: is this dangerous? Is this novel? Is this relevant? Only novelty and emotional relevance pass through. Facts do not.
 
 - The story must be: brief (under 2 minutes), personal or firsthand, and lead to a "and that's when I saw the opportunity" moment.
 - Do NOT open with company history, founder credentials, or slide 1 of a deck. Open with the story.
@@ -124,7 +156,7 @@ The hookpoint is the moment of peak interest  when the audience leans forward, c
 **G  Get the Deal**
 Close while momentum is high. Never let the pitch end without a clear next step. The close should not feel like a close  it should feel like a natural next action that both parties are already leaning toward.
 
-- Time constraint close: "We're moving forward with our core partners by [date]  are you inSection "
+- Time constraint close: "We're moving forward with our core partners by [date]  are you in?"
 - The "no" close: offer the audience permission to say no. This reduces anxiety and paradoxically increases yes rates.
 
 ---
@@ -139,7 +171,7 @@ Every pitch, every answer, every section of a pitch follows this three-part stru
 
 - **Hook:** A single, compelling, counterintuitive, or visual opening statement. Not a question. Not "let me tell you about..." The hook arrests attention in the first 8 seconds.
   - Formula: [Startling fact / Vivid image / Bold assertion] + [So what it means for this audience]
-  - Test: Would someone repeat this hook at dinner tonightSection 
+  - Test: Would someone repeat this hook at dinner tonight?
 
 - **Meat:** The three most important points that support your hook. Exactly three  not two, not six. Each point must be: distinct, memorable, and independently valuable.
   - Use the "Scalpel not a Shovel" rule: cut everything that isn't essential to the three points. No tangential data. No qualifications that can go in the appendix.
@@ -162,7 +194,7 @@ Every pitch, every answer, every section of a pitch follows this three-part stru
 | Market opportunity | 3 min | TAM/SAM/SOM; bottom-up sizing; growth driver |
 | Solution and business model | 3 min | How it works; how you make money; why this model |
 | Traction and proof | 3 min | Revenue, users, pilots, LOIs, strategic partnerships |
-| Team | 2 min | Unfair advantage only  not CVs. Why are YOU the team to do thisSection  |
+| Team | 2 min | Unfair advantage only — not CVs. Why are YOU the team to do this? |
 | The ask | 2 min | Amount, use of funds (4 items max), what milestones it funds, next step |
 | Intrigue close | 2 min | Reveal the hook  the thing they don't know that changes everything |
 
@@ -170,7 +202,7 @@ Every pitch, every answer, every section of a pitch follows this three-part stru
 
 #### Bank / DFI Loan Presentation
 
-The bank pitch is fundamentally different from the investor pitch. Banks are not buying upside  they are managing downside. Their crocodile brain asks: "What could go wrongSection " Frame accordingly.
+The bank pitch is fundamentally different from the investor pitch. Banks are not buying upside  they are managing downside. Their crocodile brain asks: "What could go wrong?" Frame accordingly.
 
 | Segment | Duration | Content |
 |---|---|---|
@@ -195,7 +227,7 @@ The bank pitch is fundamentally different from the investor pitch. Banks are not
 | Solution | How your approach specifically addresses the root cause |
 | Proof | Case study, testimonial, or comparable result  social proof |
 | Investment | Price positioned as ROI, not cost |
-| Next step | Specific and low-friction: "Can we schedule a site visit for TuesdaySection " |
+| Next step | Specific and low-friction: "Can we schedule a site visit for Tuesday?" |
 
 ---
 
@@ -231,12 +263,12 @@ Adrenaline before a pitch is not a problem  it is fuel. Redirect it:
 ### Step 1  Intake Assessment
 
 Before touching content, assess:
-- What type of pitch is thisSection  (Use the Pitch Type table above)
-- What is the specific ask  exact amount, equity %, contract valueSection 
-- Who is the audience  do you know names, roles, their track record on similar dealsSection 
-- What is the client's current pitchSection  (Ask to see the deck/script)
-- What is the date and formatSection  (Room layout, time allowed, Q&ASection )
-- What is the client's biggest fear about the pitchSection 
+- What type of pitch is this? (Use the Pitch Type table above)
+- What is the specific ask  exact amount, equity %, contract value?
+- Who is the audience  do you know names, roles, their track record on similar deals?
+- What is the client's current pitch? (Ask to see the deck/script)
+- What is the date and format? (Room layout, time allowed, Q&A?)
+- What is the client's biggest fear about the pitch?
 
 ### Step 2  Materials Audit
 
@@ -276,43 +308,43 @@ Use this checklist to evaluate an existing pitch before it is delivered.
 
 ### Frame Audit
 
-- [ ] Does the pitcher enter the room as a prize or as a supplicantSection 
-- [ ] Is there a clear frame established in the first 90 secondsSection 
-- [ ] Are there beta traps in the languageSection  ("I hope you'll..." "Sorry to take your time..." "We just wanted to...")
-- [ ] Does the pitch at any point communicate needinessSection 
-- [ ] Is the close confident and specific  or apologetic and vagueSection 
+- [ ] Does the pitcher enter the room as a prize or as a supplicant?
+- [ ] Is there a clear frame established in the first 90 seconds?
+- [ ] Are there beta traps in the language? ("I hope you'll..." "Sorry to take your time..." "We just wanted to...")
+- [ ] Does the pitch at any point communicate neediness?
+- [ ] Is the close confident and specific  or apologetic and vague?
 
 ### Message Audit
 
-- [ ] Is there a single, memorable hook in the first 60 secondsSection 
-- [ ] Are there exactly three key messages (not five, not eight)Section 
-- [ ] Does the content follow Hook  Meat  Payoff structureSection 
-- [ ] Is the ask stated clearly, once, with exact amount and specific next stepSection 
-- [ ] Is the pitch free of unnecessary qualifications, disclaimers, and tangentsSection 
+- [ ] Is there a single, memorable hook in the first 60 seconds?
+- [ ] Are there exactly three key messages (not five, not eight)?
+- [ ] Does the content follow Hook  Meat  Payoff structure?
+- [ ] Is the ask stated clearly, once, with exact amount and specific next step?
+- [ ] Is the pitch free of unnecessary qualifications, disclaimers, and tangents?
 
 ### Financial Audit (for bank and investor pitches)
 
-- [ ] Revenue/income numbers stated  are they supported by the business plan projectionsSection 
-- [ ] DSCR stated for bank pitches  does it meet 1.25 minimumSection 
-- [ ] Valuation stated for equity pitches  is the methodology defensibleSection  (See `references/business-valuation-methods.md`)
-- [ ] Use of funds: is it specific (4-6 items), not vague ("working capital: 40%")Section 
-- [ ] Collateral mentioned for bank pitches  with value and coverage ratioSection 
+- [ ] Revenue/income numbers stated  are they supported by the business plan projections?
+- [ ] DSCR stated for bank pitches  does it meet 1.25 minimum?
+- [ ] Valuation stated for equity pitches  is the methodology defensible? (See `references/business-valuation-methods.md`)
+- [ ] Use of funds: is it specific (4-6 items), not vague ("working capital: 40%")?
+- [ ] Collateral mentioned for bank pitches  with value and coverage ratio?
 
 ### Delivery Audit
 
-- [ ] Is the presenter fully off the slides  or reading from themSection 
-- [ ] Is the pace under control, or does nerves compress itSection 
-- [ ] Are there filler words, upward inflections, vocal frySection 
-- [ ] Has the presenter practised bridging from the 5 hardest questionsSection 
-- [ ] Is the opening story less than 2 minutesSection 
+- [ ] Is the presenter fully off the slides  or reading from them?
+- [ ] Is the pace under control, or do nerves compress it?
+- [ ] Are there filler words, upward inflections, vocal fry?
+- [ ] Has the presenter practised bridging from the 5 hardest questions?
+- [ ] Is the opening story less than 2 minutes?
 
 ### Deck Audit
 
-- [ ] Does each slide carry one message  not threeSection 
-- [ ] Is the executive summary slide (if any) written bottom-line-up-frontSection  (See `references/pyramid-principle.md`)
-- [ ] Are financial charts titled with the conclusion ("Revenue grows 3 in 24 months"), not the description ("Revenue Chart")Section 
-- [ ] Is the deck readable at arm's lengthSection  (Font  24pt for headers,  18pt body)
-- [ ] Does the deck have a clear narrative flow  or is it a data dumpSection 
+- [ ] Does each slide carry one message  not three?
+- [ ] Is the executive summary slide (if any) written bottom-line-up-front? (See `references/pyramid-principle.md`)
+- [ ] Are financial charts titled with the conclusion ("Revenue grows 3 in 24 months"), not the description ("Revenue Chart")?
+- [ ] Is the deck readable at arm's length? (Font  24pt for headers,  18pt body)
+- [ ] Does the deck have a clear narrative flow  or is it a data dump?
 
 ---
 
@@ -344,3 +376,44 @@ Use this checklist to evaluate an existing pitch before it is delivered.
 - `11-funding-request/references/equity-term-sheets.md`  Term sheet mechanics, option pool shuffle, liquidation preference, cap table. Read when preparing for investor negotiation post-pitch.
 - `01-executive-summary/references/pyramid-principle.md`  SCQA structure for pitch decks and written summaries. Read for deck structure and written executive summary alignment.
 - `meta-bankability-scoring/SKILL.md`  CAMPARI 28-item checklist. Run this before any bank or DFI loan presentation to verify full compliance.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Pitch delivery brief decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to coaching performance around an unsupported story. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the pitch delivery brief; marking rehearsal notes in the supplied script is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If audience decision, approved story, timing, and likely objections cannot be obtained, return a qualified pitch delivery brief covering only the checks that remain supportable. Leave this decision unresolved: which hook, proof, and ask the speaker must own. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: which hook, proof, and ask the speaker must own | Record the conclusion, source trail, owner, and review trigger in the pitch delivery brief. | Risk of coaching performance around an unsupported story |
+| Material evidence conflicts or remains uncertain | Rehearse two openings against the actual audience and time limit, retaining the version that reaches the decision and proof fastest. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: audience decision, approved story, timing, and likely objections | Mark the decision on which hook, proof, and ask the speaker must own `not assessed` in the pitch delivery brief, and send it to the presentation owner and intended speaker. | Otherwise, the work risks coaching performance around an unsupported story |
+
+## Quality Standards
+
+
+Accept the pitch delivery brief only when evidence is sufficient for this decision: which hook, proof, and ask the speaker must own. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of coaching performance around an unsupported story.
+
+## Worked Example
+
+
+A founder spends four minutes on company history in a ten-minute lender pitch. Rehearsal moves the repayment case and funding ask forward, times the revised delivery, and records unanswered credit questions.
+
+<!-- dual-compat-end -->

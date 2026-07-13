@@ -1,8 +1,14 @@
 ---
 name: meta-monitoring-evaluation
-description: Operational meta-skill that converts the business plan into a living Monitoring & Evaluation (M&E) framework. Generates KPI dashboards, reporting templates, review cadences, and performance tracking systems. Ensures the plan does not gather dust after funding.
+description: Use when translating a completed or near-complete plan into execution monitoring. Use the relevant plan-section skill for section drafting.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Monitoring & Evaluation (M&E) Meta-Skill
 
 ## Overview
@@ -21,8 +27,16 @@ Use this meta-skill after the plan is built to convert it into a measurable mana
 - Do not create KPI lists with no clear strategic owner or review cadence.
 - Do not confuse monitoring with retrospective narrative reporting only.
 
+
+- For `meta-monitoring-evaluation`, route to the relevant plan-section skill instead when the request is section drafting rather than cross-section analysis.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Monitoring Evaluation brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Completed or near-complete plan sections
 - Strategic goals, operating model, and financial targets
 - Audience requirements for reporting or accountability
@@ -37,6 +51,13 @@ Use this meta-skill after the plan is built to convert it into a measurable mana
 5. Make reporting usable for managers, funders, and accountability structures.
 6. Flag metrics that are impossible to measure or easy to game.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the monitoring and evaluation framework and that the decision concerns which indicators and review cadence can govern implementation.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (theory of change, baseline, owners, and data sources) or if the work could lead to this identified risk: selecting impressive indicators that nobody can collect or act on.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - KPIs reflect strategy and operating reality.
@@ -50,13 +71,24 @@ Use this meta-skill after the plan is built to convert it into a measurable mana
 - Too many indicators and no real decision logic.
 - Measures with no owner, no cadence, or no data source.
 - Reporting frameworks that conflict with financial or operational definitions.
+- Treating a generic monitoring evaluation template as a conclusion. **Correction:** tie each choice to the named audience, evidence, and operating constraint.
 
+
+- Applying the wrong neighbouring route to meta monitoring evaluation. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Monitoring Evaluation deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - A measurable M&E framework, dashboard, and review structure
 - KPI ownership and reporting cadence
 - Any monitoring gaps or data-collection risks
-
 
 
 Convert the business plan from a static document into an active management tool with measurable KPIs, reporting cadences, and accountability structures.
@@ -108,7 +140,7 @@ Define KPIs for each business function:
 
 ### KPI Definition Template
 
-```
+~~~text
 KPI: [Name]
 Category: [Financial / Customer / Operational / Marketing]
 Definition: [Exactly what is measured]
@@ -119,7 +151,7 @@ Target: [Specific target value]
 Threshold: [Minimum acceptable value]
 Owner: [Who is responsible]
 Action if below threshold: [What to do]
-```
+~~~
 
 ### Strategy Map Requirement
 
@@ -160,11 +192,11 @@ Each KPI should have a visible causal path to the next perspective.
 
 Define triggers that signal the plan is going off track:
 
-```
+~~~text
 GREEN: All KPIs within 10% of target
 AMBER: 1-2 KPIs off by 10-25%, corrective action initiated
 RED: Any KPI off by >25% or cash runway < 3 months
-```
+~~~
 
 ### 6. Continuous Improvement Cycle
 
@@ -193,9 +225,9 @@ Integrate the Evaluate-Test-Assess-Execute cycle for ongoing process improvement
 
 Complement financial/customer/operational KPIs with process-specific metrics (Page, 2015):
 
-- **Effectiveness**  Does the process produce desired resultsSection  (quality, customer satisfaction)
-- **Efficiency**  Does it minimise resources and cycle timeSection  (cost per transaction, CTE)
-- **Adaptability**  Can it respond to changing needsSection  (time to implement changes, % non-standard cases handled)
+- **Effectiveness**  Does the process produce desired results? (quality, customer satisfaction)
+- **Efficiency**  Does it minimise resources and cycle time? (cost per transaction, CTE)
+- **Adaptability**  Can it respond to changing needs? (time to implement changes, % non-standard cases handled)
 
 Each process should have at least one metric from each perspective.
 
@@ -266,3 +298,44 @@ Identify the funder type BEFORE designing the M&E framework, and embed the relev
 - `references/funder-reporting-requirements.md` - Commercial bank covenant monitoring (DSCR, current ratio, insurance), mandatory bank reporting schedule, UDB and ACF reporting (ESMP semi-annual monitoring report template), development partner grant quarterly narrative and financial report templates, impact investor double-bottom-line KPIs by sector (agriculture, clean energy, education, health, housing, financial inclusion), Government of Uganda annual filing calendar
 - `meta-sustainability/references/sustainability-indicators-measurement.md`  Six indicator types (descriptive/performance/efficiency/policy effectiveness/welfare/sentinel), DPSIR framework with Uganda examples, composite indices, 5-step KPI-building process with common failure modes, 8-row minimum viable KPI set for Uganda SMEs, monitoring system design, and external audit requirements for DFI loans >UGX 200M  Source: Hak, Moldan & Dahl (SCOPE/Island Press, 2007). **Read when designing the sustainability KPI dashboard and embedding environmental/social indicators into the M&E framework.**
 - `16-sustainability-strategy/SKILL.md`  Sustainability KPI dashboard (7-row format with baseline, Year 1 and Year 3 targets); sustainability KPIs must be integrated into the M&E framework alongside financial KPIs
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Monitoring and evaluation framework decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to selecting impressive indicators that nobody can collect or act on. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the monitoring and evaluation framework; drafting the indicator register and reporting templates is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If theory of change, baseline, owners, and data sources cannot be obtained, return a qualified monitoring and evaluation framework covering only the checks that remain supportable. Leave this decision unresolved: which indicators and review cadence can govern implementation. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: which indicators and review cadence can govern implementation | Record the conclusion, source trail, owner, and review trigger in the monitoring and evaluation framework. | Risk of selecting impressive indicators that nobody can collect or act on |
+| Material evidence conflicts or remains uncertain | Pilot the indicator with its actual owner and source, rejecting it if collection cost or ambiguity prevents a timely management response. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: theory of change, baseline, owners, and data sources | Mark the decision on which indicators and review cadence can govern implementation `not assessed` in the monitoring and evaluation framework, and send it to the M&E lead and programme owner. | Otherwise, the work risks selecting impressive indicators that nobody can collect or act on |
+
+## Quality Standards
+
+
+Accept the monitoring and evaluation framework only when evidence is sufficient for this decision: which indicators and review cadence can govern implementation. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of selecting impressive indicators that nobody can collect or act on.
+
+## Worked Example
+
+
+A jobs programme proposes an indicator that requires records no partner collects. Replace it with a sourceable measure, assign the owner and cadence, and document what management decision it will trigger.
+
+<!-- dual-compat-end -->

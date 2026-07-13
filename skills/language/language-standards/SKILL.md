@@ -1,6 +1,9 @@
 ---
 name: language-standards
-description: Language and tone standards for all written content across 3 languages  English (British, East African), French (Francophone African), and Kiswahili (East African standard). Enforces authentic, culturally appropriate, professional communication in each language. Apply throughout all content generation steps.
+description: Use when drafting or reviewing professional English, French, or Kiswahili content for African audiences and language-specific grammar, register, terminology, or localisation controls are required; use `east-african-english` for English-only country tone and `writing-quality` for persuasion.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # Language Standards  Multi-Language Tone & Grammar
@@ -74,157 +77,26 @@ All website copy, headings, calls to action, descriptions, and microcopy must fo
 
 # ENGLISH (en)  British English, East African Professional Standard
 
-## Core Characteristics
-
-1. **British English spelling** throughout.
-2. **East African tone**  formal, respectful, professionally courteous (Uganda, Kenya, Tanzania blend).
-3. **Measured and confident** without arrogance or dramatic language.
-4. **Logical sentence structure**  no fragments or telegram-style copy.
-
-## British English Spelling
-
-Always use British spelling:
-
-| Correct (British) | Incorrect (American) |
-|-------------------|----------------------|
-| organisation | organization |
-| programme | program |
-| centre | center |
-| colour | color |
-| travelling | traveling |
-| specialise | specialize |
-| honour | honor |
-| favourite | favorite |
-| analyse | analyze |
-| defence | defense |
-| licence (noun) | license (noun) |
-| catalogue | catalog |
-| enquiry | inquiry |
-
-## Dates and Numbers
-
-- **Date format**: 17 February 2026 (or 17th February 2026)
-- **Never**: February 17, 2026 (American format)
-- **Numbers**: Use commas for thousands: 1,000; 100,000
-- **Currency**:  for GBP, $ for USD, , or regional (specify in design-tokens.md)
-
-## Tone by East African Country Context
-
-Adjust tone slightly based on client location:
-
-### Uganda  Warm and Relational
-- Very polite and appreciative
-- Frequent use of "kindly"
-- Emphasis on harmony and goodwill
-- Example: "We highly appreciate your support in this matter. Kindly be informed that the funds have been received."
-
-### Kenya  Confident and Business-Oriented
-- Efficient and practical
-- Clear timelines and expectations
-- Professional firmness
-- Example: "Please share the signed agreement by Friday, 21 February 2026. The project remains on schedule."
-
-### Tanzania  Calm and Measured
-- Formal and conservative
-- Respectful and patient rhythm
-- Influenced by Kiswahili sentence patterns
-- Example: "We kindly request your guidance on the next steps. The matter is under review, and we shall revert shortly."
-
-### Neutral East African (Default)
-Use when no specific country is indicated. Balanced blend of all three.
-
-## Courteous Phrases (English)
-
-Natural and expected in East African business English:
-
-- Kindly find attached...
-- We kindly request...
-- Please be advised that...
-- We would like to inform you...
-- Thank you for your continued support.
-- We look forward to your response.
-- We appreciate your partnership.
-- Should you require any further clarification, please do not hesitate to contact us.
-- Yours faithfully, / Yours sincerely,
-
-## Vocabulary Standards (English)
-
-### Preferred Professional Words
-- facilitate, implement, undertake, liaise, coordinate
-- engage, support, enhance, review, confirm
-- advise, revert (widely accepted in East Africa, meaning "respond")
-- significant, important, strategic, beneficial, valuable
-
-### Words to Avoid
-Never use exaggerated marketing language:
-
-| Avoid | Use Instead |
-|-------|-------------|
-| groundbreaking | significant |
-| revolutionary | innovative |
-| game-changing | strategic |
-| amazing | commendable |
-| awesome | excellent |
-| incredible | remarkable |
-| unleash | enable |
-| skyrocket | improve significantly |
-| supercharge | strengthen |
-
-Also avoid: American slang (FYI, ASAP, BTW), dramatic emotional tone, excessive exclamation marks.
-
-Instead of abbreviations, write in full: "Please respond as soon as possible."
+Load `east-african-english` for the English spelling, dates, country register, courtesy, vocabulary, and CTA rules. This multilingual skill retains only cross-language decisions and the French and Kiswahili standards so the two entrypoints do not drift.
 
 ### Assertive Language (All Languages)
 
-Hedging language communicates uncertainty. If you're not sure you're any good, how can prospects beSection  Replace weak phrasing with confident, assertive alternatives:
+Hedging language communicates uncertainty. If you're not sure you're any good, how can prospects be? Replace weak phrasing with confident, assertive alternatives:
 
 | Hedging (weak) | Assertive (strong) |
 |---------------|-------------------|
 | Feel free to reach out | Contact me / Get in touch |
-| In case you're interested | InterestedSection  Contact me |
+| In case you're interested | Interested? Contact me |
 | Perhaps we can work together | Let's work together |
-| Maybe we're a good fit | Add a "Who is this forSection " section |
+| Maybe we're a good fit | Add a "Who is this for?" section |
 | We might be able to help | We can help |
 | It could potentially improve | It improves |
 
 This applies across all three languages. In French: "N'hesitez pas a nous contacter" is acceptable (culturally standard), but avoid excessive hedging like "Il serait eventuellement possible de...". In Kiswahili: use direct invitations ("Wasiliana nasi" not "Labda unaweza kuwasiliana nasi").
 
-### Condescending Phrases Ban (All Languages)
+### Cross-language anti-slop control
 
-Never use these patterns in any language:
-- **"Research suggests that..."**  Which researchSection  What nicheSection  What size businessesSection  Too vague to be credible. Only cite research if it features your target audience and their specific problems.
-- **"If you're a business owner..."** / "Si vous etes un entrepreneur..." / "Kama wewe ni mfanyabiashara..."  If you know your audience IS business owners, address them directly. Don't do the "if" dance.
-
-### AI Language Avoidance (All Languages)
-
-AI-generated text has recognisable vocabulary and patterns. Every piece of content must pass as entirely human-written.
-
-**Tier 1  Banned words (instant AI tells):** delve, tapestry, landscape (as metaphor), multifaceted, testament, realm, harness, leverage, synergy, embark, navigate (as metaphor), foster, beacon, forge, unleash, pivotal, paramount, robust, vibrant, bolster, seamless, holistic, curate, resonate, underscore, showcase
-
-**Tier 2  Overused by AI (use sparingly, never in headlines):** compelling, captivating, cutting-edge, game-changer, revolutionary, transformative, innovative, streamline, empower, unparalleled, elevate, ignite, safeguard, enduring, seamless, holistic, curate, resonate, underscore, showcase
-
-**Tier 3  Flagged in combination (fine alone, AI-tell together):** crucial, facilitate, enhance, ensure, enable, encourage, essential, navigate, compelling, drive, embodies, emphasises. Rule: no more than one Tier 3 word per paragraph.
-
-**Banned phrases:** "In today's fast-paced world", "It's important to note", "In the realm of", "Embark on a journey", "Game-changer", "Treasure trove", "Digital landscape", "Ever-evolving", "Not only X but also Y" (overused), "X isn't just Y; it's Z", "From X to Y, [subject] has..." (listicle pattern), "Whether you're [X] or [Y]..." (false inclusivity)
-
-**Banned structural patterns:** Uniform sentence lengths (vary deliberately), "Furthermore/Moreover/Additionally" as paragraph openers, excessive em dashes (max 2 per article), three-item lists in every paragraph, present participial openers ("Leveraging our...", "Fostering an environment...")
-
-**Required human markers:** Vary sentence length (mix 4-word and 30-word sentences), take clear positions ("I recommend" not "One might consider"), use the client's own vocabulary from their docs, include strategic contractions (2-4 per 500 words in English)
-
-See `blog-writer/references/human-voice-standards.md` for the full blacklist with replacements, detailed techniques, and Voice DNA extraction process.
-
-## English CTAs and Button Text
-
-Apply respectful tone to buttons and UI text:
-
-| Generic/Aggressive | East African Style |
-|--------------------|-------------------|
-| Buy Now | Place Your Order |
-| Sign Up | Register Today |
-| Get Started | Begin Your Journey |
-| Learn More | Find Out More |
-| Contact Us | Get in Touch |
-| Download | Download the Brochure |
+Apply `anti-ai-slop` while drafting and `ai-slop-audit` before release. Translate intent and evidence rather than banned-word lists mechanically; language-specific filler and condescension still require concrete correction.
 
 ---
 
@@ -241,7 +113,7 @@ Apply respectful tone to buttons and UI text:
 ## French Spelling and Grammar
 
 Use standard French orthography:
-- Accent marks required: e, e, e, e, a, u, c, , 
+- Accent marks required: e, e, e, e, a, u, c, ,
 - Double-check diacritical marks (many African translators omit them)
 - UTF-8 encoding mandatory
 
@@ -401,7 +273,7 @@ Use formal register in all professional communication:
 ## Kiswahili Courtesy and Formality
 
 ### Standard Openings (Business)
-- Habari yakoSection   (How are youSection   formal)
+- Habari yako? (How are you? formal)
 - Tunataka kuwashukuru...  (We want to thank you...)
 - Tunakuomba... (We kindly request...)
 
@@ -522,3 +394,78 @@ Before publishing in any language, assign review:
 - **Kiswahili**: Native Kiswahili speaker from Kenya, Tanzania, or Uganda
 
 All translations reviewed by in-country professionals before publishing.
+
+<!-- dual-compat-start -->
+## Inputs
+
+| Artefact | Source or provider | Required? | If absent |
+|---|---|---|---|
+| Source text or brief, audience, purpose, language, country, and required action | Requester and owning content skill | Required | Ask for the missing language or purpose; do not guess |
+| Approved terminology, brand voice, names, facts, and previous translations | Client glossary, translation memory, country context, and verified sources | Conditional | Create a terminology query list and preserve source terms |
+| Legal, financial, medical, technical, or regulated wording | Subject-matter owner and current doctrine | Conditional | Keep it provisional until expert review |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| English, French, or Kiswahili draft or review | Intended reader and owning workflow | Meaning, register, grammar, terminology, localisation, and action are consistent |
+| Terminology and localisation record | Author, translator, in-country reviewer, and approver | Material choices, unresolved terms, country variants, and expert-review needs are visible |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Bilingual or source-target quality check | Issue table or reviewed segment list | Checks completeness, meaning, names, numbers, dates, terminology, register, and omissions |
+| Reviewer status | Named language, country, and subject-review record | Unreviewed translations are not described as native, certified, or publication-ready |
+
+## Capability Contract
+
+Review defaults to read-only. Edit only when authorised. Do not change facts, commitments, legal or financial effect, quoted speech, or approved claims in translation. Publishing, certified translation, and external messaging require explicit authority and an appropriate in-country professional reviewer.
+
+## Degraded Mode
+
+If a native reviewer, country context, terminology source, or source meaning is unavailable, return the narrowest qualified draft and query list. Mark affected segments `not assessed`; never claim native or certified quality from automated review alone.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| English-only East African tone is needed | Route to `east-african-english` | Duplicate and conflicting rules |
+| French or Kiswahili text is reader-facing | Draft under this skill and require in-country review | False localisation confidence |
+| Literal translation sounds unnatural but meaning is clear | Use an equivalent local construction and log the choice | Translationese |
+| Regulated term is uncertain | Preserve source, flag it, and obtain expert approval | Changed legal or financial effect |
+
+## Workflow
+
+1. Confirm source, target language, country, audience, purpose, channel, voice, and approval route.
+2. Extract protected facts, names, numbers, citations, terminology, and non-translatable elements.
+3. Select the appropriate register and glossary; stop where source meaning or a regulated term is unresolved.
+4. Draft for meaning and natural syntax, then check completeness segment by segment.
+5. Verify names, figures, dates, quotations, links, legal and financial meaning, and calls to action.
+6. Run language-specific, cultural, accessibility, and anti-slop checks.
+7. Recover by reverting meaning-changing edits and raising a query to the source owner or in-country reviewer.
+8. Release only with reviewer status and unresolved terminology visible.
+
+## Quality Standards
+
+The target text must preserve meaning and consequence while reading naturally for the named country and audience. French and Kiswahili publication requires competent in-country review; regulated content also requires subject review.
+
+## Anti-Patterns
+
+- Translating word for word. Fix: translate the sentence's intent and verify meaning against the source.
+- Using one Kiswahili or French register for every country. Fix: record target country and obtain local review.
+- Translating names, figures, or citations from memory. Fix: copy and verify them against the source.
+- Replacing a regulated term with a smoother synonym. Fix: preserve it and ask the subject owner.
+- Calling machine output native or certified. Fix: state review status and require a qualified human.
+- Improving style by adding unsupported claims. Fix: preserve the source claim boundary.
+
+## Worked Example
+
+If a French draft contains a tax term with two plausible translations, retain the source term in the query record, use the provisional term consistently, and block publication until the relevant country and tax reviewer confirms it.
+<!-- dual-compat-end -->
+
+## References
+
+- `../east-african-english/SKILL.md` for the English-only country register.
+- `../writing-quality/SKILL.md` for argument, persuasion, and editorial structure.
+- `../../meta-utility/anti-ai-slop/SKILL.md` and `../../meta-utility/ai-slop-audit/SKILL.md` for production and release gates.

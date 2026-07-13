@@ -1,5 +1,7 @@
 # Executive Summary
 
+> Conformance status, 2026-07-13: the structural debt measured after this capability audit is complete. See `11-conformance-upgrade-record.md` for the 0/123 to 123/123 result. The 60/100 score below remains a capability-maturity benchmark, not a skill-contract failure count.
+
 Engine: `business-plan-skills`
 Root: `C:\wamp64\www\business-plan-skills`
 Rank: 6 of 9

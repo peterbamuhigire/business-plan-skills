@@ -1,8 +1,14 @@
 ---
 name: meta-quarterly-gameplan
-description: Operational meta-skill that converts the annual business plan into 90-day action sprints using Jan B. King's "Business Plans to Game Plans" methodology. Generates quarterly objectives, weekly action items, accountability matrices, and review checkpoints.
+description: Use when converting a completed plan into quarterly execution sprints. Use the relevant plan-section skill for section drafting.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Quarterly Game Plan Meta-Skill
 
 ## Overview
@@ -21,8 +27,16 @@ Use this meta-skill to turn annual strategy into focused 90-day execution. It na
 - Do not create a quarterly plan that tries to advance every objective at once.
 - Do not treat this as a project list with no success metric or review rhythm.
 
+
+- For `meta-quarterly-gameplan`, route to the relevant plan-section skill instead when the request is section drafting rather than cross-section analysis.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Quarterly Gameplan brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Annual plan priorities and current-quarter context
 - Team capacity, resource constraints, and timing assumptions
 - Any scorecards, KPIs, or implementation milestones already defined
@@ -37,6 +51,13 @@ Use this meta-skill to turn annual strategy into focused 90-day execution. It na
 5. Define how progress and slippage will be reviewed.
 6. Flag overload, dependency, or priority-conflict risks.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the 90-day gameplan and that the decision concerns which commitments enter the quarter and which are deferred.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (annual priorities, available capacity, dependencies, and accountable owners) or if the work could lead to this identified risk: loading a quarter with work that exceeds people, cash, or sequence constraints.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - The quarter has one dominant objective and a manageable action set.
@@ -50,13 +71,24 @@ Use this meta-skill to turn annual strategy into focused 90-day execution. It na
 - Too many priorities and no forcing function.
 - Actions with no owners or no review points.
 - Game plans that ignore cash, staffing, or dependency constraints.
+- Treating a generic quarterly gameplan template as a conclusion. **Correction:** tie each choice to the named audience, evidence, and operating constraint.
 
+
+- Applying the wrong neighbouring route to meta quarterly gameplan. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Quarterly Gameplan deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - A focused 90-day game plan
 - Ownership, review cadence, and success measures
 - Any constraints or dependency risks requiring leadership attention
-
 
 
 Transform the annual business plan into focused 90-day execution sprints. Based on Jan B. King's principle that annual plans fail without quarterly translation into concrete action.
@@ -71,11 +103,11 @@ Invoke to generate the current quarter's game plan. Can be re-invoked each quart
 
 One clear objective for the quarter  the single most important outcome:
 
-```
+~~~text
 Q[X] 20XX Objective: [Clear, measurable statement]
 Success metric: [How we know we achieved it]
 Why this matters now: [Connection to annual plan]
-```
+~~~
 
 Before finalising the objective, map it to the Balanced Scorecard perspective it most directly advances:
 
@@ -105,7 +137,7 @@ Every quarter should still have one objective, but that objective must be tracea
 
 ### 3. Weekly Action Plan
 
-| Week | Key Actions | Owner | Deliverable | DoneSection  |
+| Week | Key Actions | Owner | Deliverable | Done? |
 |------|-------------|-------|-------------|-------|
 | 1 | [Actions] | [Who] | [Output] | [ ] |
 | 2 | [Actions] | [Who] | [Output] | [ ] |
@@ -120,12 +152,12 @@ Every quarter should still have one objective, but that objective must be tracea
 
 ### 5. Resource Allocation
 
-```
+~~~text
 Budget for quarter: $X (from annual allocation)
 Team capacity: X person-hours available
 Key tools/resources needed: [List]
 External dependencies: [List with expected delivery dates]
-```
+~~~
 
 ### 5A. Quarter Strategy Map
 
@@ -140,7 +172,7 @@ This prevents the quarter from collapsing into a task list with no strategic log
 
 ### 6. Quarter-End Review Template
 
-```
+~~~text
 QUARTER [X] REVIEW
 ==================
 Objective: [What we aimed for]
@@ -165,7 +197,7 @@ Carry-forward items:
 Next quarter preview:
 - Objective: [Draft Q+1 objective]
 - Key shift: [What changes based on learnings]
-```
+~~~
 
 ### 7. Process Improvement Integration
 
@@ -203,14 +235,14 @@ For larger growth or transformation quarters, review execution through these eig
 - fearlessness
 
 Turn them into practical review questions:
-- who is leading and decidingSection 
-- what behaviour change is requiredSection 
-- which skills or roles are missingSection 
-- which systems are constraining progressSection 
-- what analysis or data is neededSection 
-- what trust, morale, or stakeholder issue must be managedSection 
-- where must the plan adapt without losing focusSection 
-- what bold decision is being avoidedSection 
+- who is leading and deciding?
+- what behaviour change is required?
+- which skills or roles are missing?
+- which systems are constraining progress?
+- what analysis or data is needed?
+- what trust, morale, or stakeholder issue must be managed?
+- where must the plan adapt without losing focus?
+- what bold decision is being avoided?
 
 ## The King Method: Core Principles
 
@@ -296,3 +328,44 @@ Review both:
 ## References
 
 - `references/quarterly-strategy-map.md` - quarterly objective selection, strategy-map linkage, KPI-cascade design, and review-gate logic based on Balanced Scorecard practice
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| 90-day gameplan decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to loading a quarter with work that exceeds people, cash, or sequence constraints. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the 90-day gameplan; updating the approved action register is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If annual priorities, available capacity, dependencies, and accountable owners cannot be obtained, return a qualified 90-day gameplan covering only the checks that remain supportable. Leave this decision unresolved: which commitments enter the quarter and which are deferred. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: which commitments enter the quarter and which are deferred | Record the conclusion, source trail, owner, and review trigger in the 90-day gameplan. | Risk of loading a quarter with work that exceeds people, cash, or sequence constraints |
+| Material evidence conflicts or remains uncertain | Capacity-check competing commitments by owner, dependency, and cash week; defer the lower-value work rather than overloading the quarter. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: annual priorities, available capacity, dependencies, and accountable owners | Mark the decision on which commitments enter the quarter and which are deferred `not assessed` in the 90-day gameplan, and send it to the quarter owner and executive sponsor. | Otherwise, the work risks loading a quarter with work that exceeds people, cash, or sequence constraints |
+
+## Quality Standards
+
+
+Accept the 90-day gameplan only when evidence is sufficient for this decision: which commitments enter the quarter and which are deferred. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of loading a quarter with work that exceeds people, cash, or sequence constraints.
+
+## Worked Example
+
+
+A team proposes nine priorities for four people. Capacity and dependency checks retain the three commitments tied to the funding milestone and place the rest in a sequenced backlog.
+
+<!-- dual-compat-end -->

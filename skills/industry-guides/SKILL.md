@@ -1,6 +1,9 @@
 ---
 name: industry-guides
-description: Industry-specific reference guides that tailor business plan generation to specific sectors. Each sub-directory contains best practices, financial benchmarks, operational standards, regulatory requirements, and common pitfalls for that industry. Use when generating or reviewing a business plan for a specific industry to ensure the plan reflects real-world industry norms, cost structures, and success factors. Invoke alongside any core skill (01-15) to inject industry-specific context.
+description: Use when a business plan, proposal, or pitch needs sector-specific operating models, benchmarks, regulation, costs, or risks from the industry guide catalogue; use the owning pipeline skill for the deliverable and country context for jurisdiction-specific facts.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # Industry Guides Skill
@@ -17,6 +20,7 @@ Use this skill as the sector-context layer for plan writing. It routes the agent
 
 ## Do Not Use When
 
+- Use the owning pipeline skill instead when the task is to draft the main business-plan artefact without sector routing.
 - Do not use as a substitute for the core section skill that owns the main artifact.
 - Do not assume a sector guide is authoritative for every geography without checking the country context.
 - Do not copy raw reference material into a plan without translating it into the client's business reality.
@@ -99,7 +103,7 @@ Provide industry-specific context, benchmarks, and best practices to tailor busi
 
 Each industry sub-directory contains:
 
-```
+```text
 industry-guides/
  SKILL.md (this index file)
  [industry-name]/
@@ -148,3 +152,73 @@ Format citations as parenthetical references: (Author, Year) on first use. Inclu
 - Startup costs provide ranges by business size/format
 - Operational standards distinguish between formats (e.g., full-service vs. fast-casual)
 - Common mistakes are specific to the industry, not generic business advice
+
+<!-- dual-compat-start -->
+## Inputs
+
+| Artefact | Source or provider | Required? | If absent |
+|---|---|---|---|
+| Sector, sub-sector, business model, scale, location, and decision audience | Client intake and owning plan skill | Required | Ask for the missing classifier; do not pick a guide from a broad label |
+| Current sector, regulatory, operating, and benchmark evidence | Selected guide plus verified primary or authoritative sources | Conditional | Use guide logic only and qualify current values |
+| Money-flow and accounting definitions | Chwezi Accounting Doctrine and finance model | Required for financial benchmarks | Withhold financial conclusions until definitions reconcile |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Sector context brief | Owning plan, proposal, pitch, risk, operations, or finance skill | Names the selected guide, applicable operating model, material assumptions, caveats, and section implications |
+| Benchmark and source register | Researcher and reviewer | Every benchmark is a range or cited fact with geography, period, source, and applicability note |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Guide-selection rationale | Sector-to-business-model decision note | Explains why the chosen guide fits and where it does not |
+| Assumption traceability | Claim, source, warrant, assumption, countercase, and implication table | Load-bearing sector claims are reviewable and qualified |
+
+## Capability Contract
+
+Read or search access is required; editing or mutation is allowed only with authorised permission.
+
+Routing and analysis default to read-only. Do not edit client facts, adopt a benchmark as a target, make regulatory or accounting claims, or recommend spending or production changes without explicit authority and verified current evidence.
+
+## Degraded Mode
+
+Without a close guide, current source, country context, or finance doctrine, return a qualified partial sector brief with the mismatch and checks marked `not assessed`. Do not treat an old or foreign benchmark as current local evidence.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| One guide matches the actual operating model | Load it and only relevant references | Irrelevant context loading |
+| Business spans two material models | Combine two guides and reconcile assumptions | Missing a load-bearing revenue or operating engine |
+| No guide is a close fit | Use a bounded generic brief and request research | False sector precision |
+| Benchmark affects revenue, cost, inventory, assets, payroll, or tax | Reconcile it with Chwezi doctrine and the finance model | Narrative-financial conflict |
+
+## Workflow
+
+1. Classify the customer's activity, buyer, revenue model, delivery model, scale, geography, and decision.
+2. Select the closest guide and document neighbouring guides rejected.
+3. Load only references that change the owning section's assumptions or decisions.
+4. Separate durable operating logic from time-sensitive figures; verify current facts or mark them unassessed.
+5. Reconcile country, finance, regulation, customer, operations, and funding implications.
+6. Produce the sector brief and source register, including mismatch and countercase; recover by revising the guide choice when the evidence contradicts it.
+7. Stop release where a load-bearing claim is uncited or the benchmark conflicts with the plan model.
+
+## Quality Standards
+
+Sector context must change a real decision, assumption, or risk. Benchmarks require source, period, geography, range, and fit; they never replace client evidence or current professional review.
+
+## Anti-Patterns
+
+- Selecting retail for every business that sells something. Fix: classify the operating and revenue model first.
+- Copying a guide paragraph into the plan. Fix: translate it into a client-specific assumption and implication.
+- Using a single margin as an industry truth. Fix: cite a range and explain format, scale, geography, and period.
+- Applying Uganda regulation to another country. Fix: load the correct country context and verify current law.
+- Letting sector benchmarks override reconciled client data. Fix: investigate the variance and retain the supported figure.
+- Hiding a partial guide fit. Fix: state the mismatch and research need.
+
+## Worked Example
+
+A bakery with a shop and wholesale supply needs both food-processing and retail logic. Use food-processing for yield, quality, and production constraints, retail for merchandising and store operations, and reconcile inventory and margin definitions before setting targets.
+<!-- dual-compat-end -->

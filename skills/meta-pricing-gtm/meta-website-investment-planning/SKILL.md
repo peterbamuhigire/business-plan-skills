@@ -1,8 +1,14 @@
 ---
 name: meta-website-investment-planning
-description: Website strategy and costing layer for business plans. Use when a plan needs to explain website role, design philosophy, SEO/content strategy, technology stack, implementation, operating costs, or website-development service pricing.
+description: Use when a business plan includes a website, online store, booking site, content hub, landing pages, portal, web app, or SEO-driven customer acquisition. Use the SaaS pricing skill for recurring-revenue tier architecture.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Website Investment Planning
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
@@ -22,8 +28,16 @@ Use this skill to treat a website as a business investment, not a generic online
 - The business has no material website, digital presence, ecommerce, online marketing, or technology investment.
 - A one-line "we will have a website" statement is enough for a very small, non-digital plan.
 
+
+- Route to `saas-pricing-and-packaging-strategy` instead for recurring-revenue tier architecture.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Website Investment Planning brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Business model, target customers, channels, geography, languages, sales process, and website role.
 - Expected pages/features, content ownership, SEO goals, integrations, payment/booking needs, and support requirements.
 - Budget constraints, implementation timeline, launch priorities, and country/currency context.
@@ -38,6 +52,13 @@ Use this skill to treat a website as a business investment, not a generic online
 5. Build a website investment budget with one-time and recurring costs, including content, SEO, UX, development, QA, launch, hosting, licences, maintenance, analytics, and optimisation.
 6. Reconcile the website plan across products/services, marketing, operations, implementation, risk, and financial projections.
 7. Run the website investment and costing gate before calling the plan realistic, bankable, investor-ready, or premium.
+
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the website investment case and that the decision concerns what to build now, defer, and budget as recurring operations.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (website role, customer journey, scope, and lifecycle costs) or if the work could lead to this identified risk: buying a showcase site that cannot support the acquisition or service model.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
 
 ## Quality Bar
 
@@ -55,8 +76,19 @@ Use this skill to treat a website as a business investment, not a generic online
 - Recommending ecommerce without operations for catalogue, inventory, delivery, returns, customer support, payments, fraud, and accounting.
 - Using cheap website costs in projections while claiming premium brand positioning.
 
+
+- Applying the wrong neighbouring route to meta website investment planning. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Website Investment Planning deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Website strategy paragraph for a business plan.
 - Website operating model and stack explanation.
 - Website startup and recurring cost assumptions.
@@ -70,3 +102,44 @@ Use this skill to treat a website as a business investment, not a generic online
 - `../08-operations-plan/SKILL.md` - operating model owner.
 - `../10-financial-projections/SKILL.md` - financial model owner.
 - `../meta-premium-go-to-market/SKILL.md` - use when the website or website service is premium/high-ticket.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Website investment case decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to buying a showcase site that cannot support the acquisition or service model. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the website investment case; drafting scope and cost assumptions without purchasing services is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If website role, customer journey, scope, and lifecycle costs cannot be obtained, return a qualified website investment case covering only the checks that remain supportable. Leave this decision unresolved: what to build now, defer, and budget as recurring operations. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: what to build now, defer, and budget as recurring operations | Record the conclusion, source trail, owner, and review trigger in the website investment case. | Risk of buying a showcase site that cannot support the acquisition or service model |
+| Material evidence conflicts or remains uncertain | Cost the minimum conversion path separately from deferred features and approve only the phase tied to a named customer or operating need. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: website role, customer journey, scope, and lifecycle costs | Mark the decision on what to build now, defer, and budget as recurring operations `not assessed` in the website investment case, and send it to the plan owner and website delivery lead. | Otherwise, the work risks buying a showcase site that cannot support the acquisition or service model |
+
+## Quality Standards
+
+
+Accept the website investment case only when evidence is sufficient for this decision: what to build now, defer, and budget as recurring operations. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of buying a showcase site that cannot support the acquisition or service model.
+
+## Worked Example
+
+
+A service business budgets a complex portal before validating online enquiries. Fund the measurable lead and booking path first, state recurring content and maintenance costs, and defer the portal behind an adoption trigger.
+
+<!-- dual-compat-end -->

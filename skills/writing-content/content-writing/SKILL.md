@@ -1,8 +1,14 @@
 ---
 name: content-writing
-description: Copywriting and content creation standards for website pages, blog posts, and all written copy. Covers headlines, ledes, readability, niche vocabulary, scannable formatting, and persuasive structure. Cross-cutting skill  apply whenever generating or editing any website text.
+description: Use when drafting or editing website copy of any kind. Use content-writing for general copy and blog-writer for a complete article.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Content Writing Skill
 
 ## Overview
@@ -21,8 +27,16 @@ Use this skill as the general copywriting and editing standard for websites and 
 - Do not override a more specific skill that already owns the artifact.
 - Do not confuse polished copy with message clarity or business logic.
 
+
+- Route to `content-writing` instead for general copy, or `blog-writer` for a complete article.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Content Writing brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Draft copy or a clear content brief
 - Audience, page purpose, and conversion goal
 - Brand, language, and tone context
@@ -38,6 +52,13 @@ Use this skill as the general copywriting and editing standard for websites and 
 6. Tighten weak sections, headlines, and transitions.
 7. Flag where better inputs or stronger evidence are needed.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the reader-ready content draft and that the decision concerns which structure and language help the reader complete the task.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (page purpose, reader task, facts, voice, and conversion path) or if the work could lead to this identified risk: polishing generic copy that lacks proof or a usable next step.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - The copy is clear, useful, and conversion-aware.
@@ -51,13 +72,24 @@ Use this skill as the general copywriting and editing standard for websites and 
 - Long paragraphs that hide the main point.
 - Writing that sounds polished but says nothing new.
 - Copy choices that conflict with other live pages.
+- Treating a generic content writing template as a conclusion. **Correction:** tie each choice to the named audience, evidence, and operating constraint.
 
+
+- Applying the wrong neighbouring route to content writing. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Content Writing deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Improved or newly drafted website copy
 - Stronger headings, flow, and calls to action
 - Any messaging gaps that need strategic clarification
-
 
 
 Professional copywriting standards for website copy, blog posts, articles, and all written content. This is a cross-cutting skill  apply these principles whenever creating or editing text for any page.
@@ -65,9 +97,9 @@ Professional copywriting standards for website copy, blog posts, articles, and a
 ## The Reader-First Rule
 
 Every word exists for the reader, not the writer. Before writing anything, answer:
-- **Who** is the readerSection  What do they already knowSection 
-- **What** are they looking forSection  What problem brought them hereSection 
-- **Why** should they careSection  What benefit do they gainSection 
+- **Who** is the reader? What do they already know?
+- **What** are they looking for? What problem brought them here?
+- **Why** should they care? What benefit do they gain?
 
 Write for the reader all the time. That is what separates content that converts from content that gets ignored.
 
@@ -91,7 +123,7 @@ The headline is the most important element. Five times as many people read the h
 
 - **How to [achieve desired result]**: "How to Store Bananas for Maximum Shelf Life"
 - **[Number] Ways/Reasons/Steps**: "7 Steps to Higher-Quality Matooke Flour"
-- **Question that mirrors the reader's problem**: "Is Your Banana Crop Vulnerable to Fusarium WiltSection "
+- **Question that mirrors the reader's problem**: "Is Your Banana Crop Vulnerable to Fusarium Wilt?"
 - **News/announcement**: "New Banana Cultivar Resists Black Sigatoka Disease"
 - **Direct benefit**: "Reduce Post-Harvest Losses by Half with These Storage Methods"
 
@@ -120,7 +152,7 @@ Your first 10 words are more important than the next 10,000. The lede must sell 
 - **News lede**: State the key fact. "BIRDC has released three new banana cultivars resistant to Fusarium TR4."
 - **Problem lede**: Name the reader's pain. "Post-harvest banana losses in East Africa exceed 40%  most of it preventable."
 - **Story lede**: Brief, vivid scene (2-3 sentences max, then get to the point). "A farmer in Bushenyi watched half her harvest rot in three days. The cause was a storage mistake that costs Uganda millions annually."
-- **Question lede**: Ask what the reader is already wondering. "What makes East African highland bananas different from every other cultivar on the planetSection "
+- **Question lede**: Ask what the reader is already wondering. "What makes East African highland bananas different from every other cultivar on the planet?"
 
 ### Ledes to Avoid
 
@@ -206,18 +238,18 @@ Readers scan before they read. If scanning reveals nothing useful, they leave.
 
 ### Above the Fold
 
-The content visible without scrolling must immediately answer: "Am I in the right placeSection " and "What's in it for meSection " Place the strongest headline, the clearest value proposition, and (on landing pages) a CTA above the fold.
+The content visible without scrolling must immediately answer: "Am I in the right place?" and "What's in it for me?" Place the strongest headline, the clearest value proposition, and (on landing pages) a CTA above the fold.
 
 ---
 
 ## Unique Value Proposition
 
-Every page must answer: **Why should I read this instead of the hundred other pages on the same topicSection **
+Every page must answer: **Why should I read this instead of the hundred other pages on the same topic?**
 
 ### How to Create Unique Value
 
 1. **Original data or research.** Primary research that readers cannot find elsewhere.
-2. **Expert perspective.** Analysis, not just facts  what does this mean for the readerSection 
+2. **Expert perspective.** Analysis, not just facts  what does this mean for the reader?
 3. **Practical application.** Show how to apply the information, not just what it is.
 4. **More thorough coverage.** If competitors cover 5 points, cover 10  with more depth.
 5. **Better formatting.** A well-structured, scannable page beats a wall of text with the same information.
@@ -245,55 +277,55 @@ Always translate features into reader benefits. Features describe what something
 
 ### Blog Post / Article Structure
 
-```
+~~~text
 Headline (benefit-driven, specific)
-  
+
 Lede (1-2 short paragraphs  hook + promise)
-  
+
 Context (why this matters now  1-2 paragraphs)
-  
+
 Main content (subheaded sections, each with:
   - Subhead (tells the story on its own)
   - 2-3 short paragraphs
   - Bullet points where applicable
   - Image/visual if relevant)
-  
+
 Takeaways (bulleted summary of key points)
-  
-CTA (what should the reader do nextSection )
-```
+
+CTA (what should the reader do next?)
+~~~
 
 ### Service/Product Page Structure
 
-```
+~~~text
 Headline (what it does for the reader)
-  
+
 Problem statement (the pain the reader has)
-  
+
 Solution overview (how this solves it  2-3 sentences)
-  
+
 Key benefits (3-5, bulleted, benefit language)
-  
+
 How it works (simple steps or process)
-  
+
 Evidence (data, testimonials, credentials)
-  
+
 CTA (clear next action)
-```
+~~~
 
 ### About Page Structure
 
-```
+~~~text
 Mission statement (what you do and why it matters)
-  
+
 Story (brief origin  problem you saw, what you did)
-  
+
 What makes you different (credentials, approach, values)
-  
+
 Team / People (humanise the organisation)
-  
+
 CTA (connect, partner, learn more)
-```
+~~~
 
 ---
 
@@ -352,7 +384,7 @@ Before publishing any page or post, verify:
 - [ ] **Subheads** every 2-3 paragraphs  scannable on their own
 - [ ] **Short paragraphs** (4 lines max), short sentences (avg 15-20 words)
 - [ ] **Benefits**, not just features  "so that / which means" test
-- [ ] **Unique value**  what does this page offer that competitors don'tSection 
+- [ ] **Unique value**  what does this page offer that competitors don't?
 - [ ] **CTA** present  reader knows what to do next
 - [ ] **No jargon** without explanation  every word earnable by the reader
 - [ ] **Active voice** predominates  strong verbs, concrete nouns
@@ -372,3 +404,48 @@ This skill is cross-cutting  it applies alongside:
 - **seo**  headlines and niche vocabulary directly support search visibility
 - **brand-alignment**  content voice must match brand identity
 - **sector-strategies**  industry-specific content angles and trust signals
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Reader-ready content draft decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to polishing generic copy that lacks proof or a usable next step. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the reader-ready content draft; editing supplied copy without publishing it is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If page purpose, reader task, facts, voice, and conversion path cannot be obtained, return a qualified reader-ready content draft covering only the checks that remain supportable. Leave this decision unresolved: which structure and language help the reader complete the task. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: which structure and language help the reader complete the task | Record the conclusion, source trail, owner, and review trigger in the reader-ready content draft. | Risk of polishing generic copy that lacks proof or a usable next step |
+| Material evidence conflicts or remains uncertain | Test the competing structure against the reader's task and required next action, keeping the shorter version when both carry the same proof. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: page purpose, reader task, facts, voice, and conversion path | Mark the decision on which structure and language help the reader complete the task `not assessed` in the reader-ready content draft, and send it to the editor and page owner. | Otherwise, the work risks polishing generic copy that lacks proof or a usable next step |
+
+## Quality Standards
+
+
+Accept the reader-ready content draft only when evidence is sufficient for this decision: which structure and language help the reader complete the task. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of polishing generic copy that lacks proof or a usable next step.
+
+## Worked Example
+
+
+A landing page lists twelve features before explaining the buyer's task. Reorder it around the problem, supported outcome, objections, and next action; remove claims the source pack cannot prove.
+
+## References
+
+- [`AGENTS.md`](../../../AGENTS.md) - repository routing, evidence, finance, and release rules.
+
+<!-- dual-compat-end -->

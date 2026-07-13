@@ -1,8 +1,14 @@
 ---
 name: meta-pricing-strategy
-description: Audit and upgrade the pricing strategy in any business plan using Kennedy and Marrs' No B.S. Price Strategy framework — 9 price failures, Triangle of Preeminence, 5 Propositions, niche pricing, quid pro quo discounting, and premium positioning. Use when a business plan under-prices, relies on cost-plus/competitor-match pricing, or needs to defend premium pricing against commoditisation or free competition.
+description: Use when a business plan's projected prices match or undercut competitors without a defensible reason. Use the SaaS pricing skill for recurring-revenue tier architecture.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Premium Pricing Strategy Skill (Kennedy/Marrs + Lycka)
 
 ## Overview
@@ -26,6 +32,13 @@ Audit and upgrade the pricing strategy inside any business plan section — spec
 
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Pricing Strategy brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
+| Current accounting, tax, valuation, or pricing basis | Finance owner, accounting records, signed contracts, and current authoritative sources | Conditional | Mark the treatment unresolved and require qualified professional review. |
 - Product / service definition, target customer segments, and channel mix
 - Current or proposed price points with rationale
 - Competitor prices and the business's current differentiation
@@ -45,6 +58,13 @@ Audit and upgrade the pricing strategy inside any business plan section — spec
 9. **Stress-test the price against recession/depreciation** — in most categories, the right recession move is to raise prices and upgrade service, not cut.
 10. **Reconcile with financial projections** — updated price flows through to Section 10 (projections) and must match the marketing mix in Section 07.
 11. **Test packaging experiments** — for digital, service, and subscription businesses, test monthly versus annual, bundle versus single, premium tier versus entry tier, and onboarding/support inclusions before treating the price architecture as final.
+
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the pricing decision record and that the decision concerns the price architecture and concessions the business can defend.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (unit economics, willingness-to-pay evidence, and discount rules) or if the work could lead to this identified risk: setting price by imitation while eroding margin and positioning.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
 
 ## Framework Applied — The 9 Price Failures (audit checklist)
 
@@ -90,12 +110,12 @@ Premium pricing is sustainable only when the business is never desperate for the
 
 Audit the product's position on this ladder:
 
-```
+~~~text
 Generic (baseline price)
     → Niche (2-5× baseline)
         → Sub-niche (2× niche)
             → Subculture (price becomes almost irrelevant)
-```
+~~~
 
 For every offer, specify: which niche/sub-niche/subculture, what the customer identity-signal looks like ("for [specific role/hobby/community]"), and where in the plan this shows up (positioning, packaging, branding).
 
@@ -151,8 +171,19 @@ When the plan faces free or heavily subsidised alternatives (government healthca
 - Plans that cut prices as the recession response
 - Founder language about "not overcharging" or "being fair"
 
+
+- Applying the wrong neighbouring route to meta pricing strategy. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Pricing Strategy deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Annotated critique of the current pricing section (9 Failures scorecard)
 - Revised pricing architecture (tiers, propositions, niche placement)
 - Triangle-of-Preeminence implementation plan (expertise / visibility / community)
@@ -182,3 +213,49 @@ Run `../meta-premium-go-to-market/SKILL.md` when premium pricing depends on affl
 - **Compete-with-free maps to** — private schools vs government, private clinics vs Ministry of Health, private SACCOs/MFIs vs subsidised programmes, paid training vs NGO-funded programmes. The hidden-cost-of-free playbook applies directly.
 - **Principle of Association** — partner logos from banks (DFCU, Stanbic, Equity), listed companies (Umeme, MTN), universities (Makerere, Strathmore), hospitals (IHK, Nakasero) unlock premium perception.
 - **Recession / FX response** — shilling depreciation increases imported-input costs; the default Ugandan SME response is to absorb margin; the right Kennedy response is to raise prices and trim wrong-fit customers.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Pricing decision record decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to setting price by imitation while eroding margin and positioning. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the pricing decision record; updating a working pricing schedule, not live prices is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If unit economics, willingness-to-pay evidence, and discount rules cannot be obtained, return a qualified pricing decision record covering only the checks that remain supportable. Leave this decision unresolved: the price architecture and concessions the business can defend. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: the price architecture and concessions the business can defend | Record the conclusion, source trail, owner, and review trigger in the pricing decision record. | Risk of setting price by imitation while eroding margin and positioning |
+| Material evidence conflicts or remains uncertain | Model the competing price structures against contribution margin, willingness-to-pay evidence, and discount leakage before choosing one. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: unit economics, willingness-to-pay evidence, and discount rules | Mark the decision on the price architecture and concessions the business can defend `not assessed` in the pricing decision record, and send it to the finance owner and commercial lead. | Otherwise, the work risks setting price by imitation while eroding margin and positioning |
+
+## Quality Standards
+
+
+Accept the pricing decision record only when evidence is sufficient for this decision: the price architecture and concessions the business can defend. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of setting price by imitation while eroding margin and positioning.
+
+## Worked Example
+
+
+A manufacturer matches a competitor's discount without knowing contribution after distribution. Recalculate the floor, define the concession received in return, and reject any discount that breaches the approved margin.
+
+## Finance Doctrine Gate
+
+
+Apply the Chwezi doctrine to the pricing decision record, using the reporting basis and effective date supported by unit economics, willingness-to-pay evidence, and discount rules. Reconcile the treatment to the model and narrative, and have the finance owner and commercial lead review the treatment, reconciliation, and exposure to this risk: setting price by imitation while eroding margin and positioning.
+
+<!-- dual-compat-end -->

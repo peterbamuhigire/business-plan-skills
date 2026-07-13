@@ -1,6 +1,11 @@
 ---
-name: client-intake
-description: Use at the start of every new business planning engagement, before any section skill is invoked. Presents 10 standard questions to the client, generates a draft project brief with [TO CONFIRM] markers, then produces 57 targeted follow-up questions to close remaining gaps. Invoke whenever a new business plan, investor pitch, grant application, bank loan proposal, or feasibility study is commissioned.
+name: 00-client-intake
+description: Use when producing or reviewing the 00 client intake component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Client Intake  Two-Phase Kickstart
@@ -67,52 +72,52 @@ Present these questions exactly as written. Do not split, reorder, or merge them
 ---
 
 **Question 1  Your Business**
-Tell us about your business in your own words. What does it do, how long has it been operating (or is it a new idea), what sector is it in, where is it based, how many people are involved, and what is its legal structure  for example, a sole trader, partnership, limited company, or co-operativeSection  If the business already has a name, please include it.
+Tell us about your business in your own words. What does it do, how long has it been operating (or is it a new idea), what sector is it in, where is it based, how many people are involved, and what is its legal structure  for example, a sole trader, partnership, limited company, or co-operative? If the business already has a name, please include it.
 
 ---
 
 **Question 2  The Problem You Are Solving**
-What problem or gap in the market does your business addressSection  Who is experiencing this problem and why are they not being served well todaySection  What made you identify this opportunity  personal experience, research, a gap you observed  and why is now the right time to act on itSection 
+What problem or gap in the market does your business address? Who is experiencing this problem and why are they not being served well today? What made you identify this opportunity — personal experience, research, or a gap you observed — and why is now the right time to act on it?
 
 ---
 
 **Question 3  Your Product or Service**
-Describe what your business offers in plain language. How does it work, from the customer's point of viewSection  Is it still an idea, a prototype, an early version you are testing, or something you are already sellingSection  What are the most important features or components, and what makes it work the way it doesSection 
+Describe what your business offers in plain language. How does it work, from the customer's point of view? Is it still an idea, a prototype, an early version you are testing, or something you are already selling? What are the most important features or components, and what makes it work the way it does?
 
 ---
 
 **Question 4  Your Customers**
-Who are your customersSection  Describe the kind of person or organisation that would buy from you  their age, location, income level, or type of business if it is a business-to-business sale. How many potential customers do you believe exist, even roughlySection  Is your market local, national, or internationalSection  Have you already sold to anyone, and if so, whoSection 
+Who are your customers? Describe the kind of person or organisation that would buy from you  their age, location, income level, or type of business if it is a business-to-business sale. How many potential customers do you believe exist, even roughly? Is your market local, national, or international? Have you already sold to anyone, and if so, who?
 
 ---
 
 **Question 5  How You Make Money**
-How does your business earn revenueSection  Walk us through your pricing  what you charge, how you decided on that price, and whether customers pay once or on a recurring basis. Through what channels do you sell  for example, a physical shop, agents, online, direct salesSection  Do you have any sales already, and if so, what do those numbers look likeSection 
+How does your business earn revenue? Walk us through your pricing  what you charge, how you decided on that price, and whether customers pay once or on a recurring basis. Through what channels do you sell  for example, a physical shop, agents, online, direct sales? Do you have any sales already, and if so, what do those numbers look like?
 
 ---
 
 **Question 6  Your Competition**
-Who else is offering something similar to your target customers, whether directly or as an alternativeSection  Why would a customer choose you over themSection  Do you have anything that gives you a lasting advantage  a unique process, a relationship, intellectual property, a location, a cost advantage, or exclusive access to somethingSection  Are there any well-known brands or large players in this spaceSection 
+Who else is offering something similar to your target customers, whether directly or as an alternative? Why would a customer choose you over them? Do you have anything that gives you a lasting advantage  a unique process, a relationship, intellectual property, a location, a cost advantage, or exclusive access to something? Are there any well-known brands or large players in this space?
 
 ---
 
 **Question 7  Your Finances**
-What is the current financial position of the business  is it earning revenue, breaking even, or pre-revenueSection  Has the business received any funding, loans, or investment to date, and if so, how much and from whomSection  How much funding are you looking for now, and what specifically would you use it forSection  Do you have any existing financial projections, even rough ones, that you can shareSection 
+What is the current financial position of the business  is it earning revenue, breaking even, or pre-revenue? Has the business received any funding, loans, or investment to date, and if so, how much and from whom? How much funding are you looking for now, and what specifically would you use it for? Do you have any existing financial projections, even rough ones, that you can share?
 
 ---
 
 **Question 8  What You Need From Us**
-What document are we producing for youSection  For example: a full business plan, an investor pitch deck, a bank loan proposal, a grant application, a feasibility study, or an executive summary. Who will read it  a bank loan officer, an investor, a grant committee, a government body, a board of directorsSection  When do you need it, and are there any format requirements or word limits we should know aboutSection 
+What document are we producing for you? For example: a full business plan, an investor pitch deck, a bank loan proposal, a grant application, a feasibility study, or an executive summary. Who will read it  a bank loan officer, an investor, a grant committee, a government body, a board of directors? When do you need it, and are there any format requirements or word limits we should know about?
 
 ---
 
 **Question 9  The People Behind the Business**
-Who are the key people running this business  founders, directors, or senior managersSection  What is their relevant background, qualifications, or experienceSection  Are there any obvious skill gaps in the team right now, and if so, how do you plan to fill themSection  Do you have any advisors, board members, or mentors supporting the businessSection 
+Who are the key people running this business  founders, directors, or senior managers? What is their relevant background, qualifications, or experience? Are there any obvious skill gaps in the team right now, and if so, how do you plan to fill them? Do you have any advisors, board members, or mentors supporting the business?
 
 ---
 
 **Question 10  Anything That Affects What We Can Write**
-Is there anything we need to know before we start that affects what can be included in this document or how it is presentedSection  For example: your sector may be regulated and require specific licences; you may have applied for funding before and been turned down; there may be a partner, investor, or stakeholder who must approve the plan before it is submitted; there may be information you consider confidential; or there may be any other unusual circumstances we should be aware of.
+Is there anything we need to know before we start that affects what can be included in this document or how it is presented? For example: your sector may be regulated and require specific licences; you may have applied for funding before and been turned down; there may be a partner, investor, or stakeholder who must approve the plan before it is submitted; there may be information you consider confidential; or there may be any other unusual circumstances we should be aware of.
 
 ---
 
@@ -212,12 +217,12 @@ Analyse the draft brief and generate **57 follow-up questions**. These are not s
 
 When the business is digitally enabled, digitally exposed, operationally inefficient, omni-channel, or likely to need systems investment, ask these additional questions before handoff:
 
-1. What systems do you currently use to run the business  for sales, customer records, accounting, stock, delivery, production, reporting, or staff coordinationSection 
-2. Where are the biggest delays, manual tasks, double-entry tasks, or quality failures in the current workflowSection 
-3. Which customer interactions already happen through digital channels  website, WhatsApp, social media, email, marketplace platforms, mobile app, or POSSection 
-4. What useful data do you currently collect, and what do you wish you could measure but cannot todaySection 
-5. Are there any planned technology investments  website rebuild, CRM, ERP, e-commerce, automation, AI, mobile app, or new equipment with softwareSection 
-6. What budget, skills, or trust constraints might limit digitisation or automationSection 
+1. What systems do you currently use to run the business  for sales, customer records, accounting, stock, delivery, production, reporting, or staff coordination?
+2. Where are the biggest delays, manual tasks, double-entry tasks, or quality failures in the current workflow?
+3. Which customer interactions already happen through digital channels  website, WhatsApp, social media, email, marketplace platforms, mobile app, or POS?
+4. What useful data do you currently collect, and what do you wish you could measure but cannot today?
+5. Are there any planned technology investments  website rebuild, CRM, ERP, e-commerce, automation, AI, mobile app, or new equipment with software?
+6. What budget, skills, or trust constraints might limit digitisation or automation?
 
 If these answers reveal a material digital-transformation question, route to `meta-digital-transformation` before or alongside `14-ai-integration`.
 
@@ -227,12 +232,12 @@ If these answers reveal a material digital-transformation question, route to `me
 
 When Phase 1 answers reveal a founder at the Dream stage  where the business idea is not yet fully formed, or where the mission and vision feel vague or generic  use these supplementary questions *before* Phase 2, drawn from Gerber's Dreaming Room process (Gerber, 2008):
 
-1. *What does the world look like when your business works exactly as you envision  10 years from nowSection *
-2. *Who is the one person whose life your business most changesSection  Describe them specifically.*
-3. *What is broken in this market that your business is determined to fixSection *
-4. *If your business grew to 100 locations, what would be the same in every single oneSection *
-5. *What would be lost in the world if your business did not existSection *
-6. *Are you building this business to create a better job for yourself  or to build something that works without youSection *
+1. *What does the world look like when your business works exactly as you envision  10 years from now? *
+2. *Who is the one person whose life your business most changes? Describe them specifically.*
+3. *What is broken in this market that your business is determined to fix? *
+4. *If your business grew to 100 locations, what would be the same in every single one? *
+5. *What would be lost in the world if your business did not exist? *
+6. *Are you building this business to create a better job for yourself  or to build something that works without you? *
 
 **Diagnostic:** Founders who cannot answer Question 4 (what stays the same at scale) are Technicians with an idea, not yet Entrepreneurs with a system. The business plan will need to address this explicitly in the company overview and management sections  and the implementation timeline must include a systems-building phase.
 
@@ -268,3 +273,84 @@ A finalised brief (post Phase 2) is acceptable when:
 - Zero [TO CONFIRM] markers remain in Sections 8, 9, and 10
 - The Recommended Next Steps section names a specific ordered sequence of skills
 - A downstream skill receiving this brief can begin work without returning to the client for basic information
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Completed ten-question client response pack for 00 client intake | Client or authorised engagement lead | Yes | If absent, the ten-question response pack is absent or too incomplete to identify the business and audience, return the unanswered intake questions and do not route section drafting. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Draft project brief and targeted follow-up register | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| 00 client intake exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| 00 client intake release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Answer-to-brief trace and unresolved `[TO CONFIRM]` register | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| 00 client intake decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| 00 client intake review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For 00 client intake, the controlling focus is ten-question answer integrity, client confidentiality, contradiction detection, `[TO CONFIRM]` gaps, audience classification, and project-brief handoff. This skill may ask the authorised client questions and draft the brief; it may not contact third parties, disclose confidential answers, or decide facts for the client. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For 00 client intake, loss of evidence about 00 client intake evidence, decisions, failure thresholds, ownership, and downstream handoffs activates degraded mode. If the controlling 00 client intake evidence is unavailable, the same boundary applies. When the ten-question response pack is absent or too incomplete to identify the business and audience, return the unanswered intake questions and do not route section drafting. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For 00 client intake, an answer conflicts with another answer| quote both answers, mark the affected brief field `[TO CONFIRM]`, and ask one resolving question | A fabricated intake baseline contaminates every downstream section |
+| For 00 client intake, A current legal, regulatory, tax, accounting, market, or platform claim controls the 00 client intake decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For 00 client intake, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete draft project brief and targeted follow-up register, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact 00 client intake decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect completed ten-question client response pack and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce draft project brief and targeted follow-up register with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Draft project brief and targeted follow-up register must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Answer-to-brief trace and unresolved `[TO CONFIRM]` register must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to 00 client intake, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In 00 client intake, treating an unavailable completed ten-question client response pack as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing draft project brief and targeted follow-up register that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+A founder states that the venture is pre-revenue in Question 1 but reports monthly sales in Question 5. Preserve both statements, flag stage and revenue, and request the first invoice date and current monthly sales.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for 00 client intake; no local deep-dive reference is declared.
+- For 00 client intake claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

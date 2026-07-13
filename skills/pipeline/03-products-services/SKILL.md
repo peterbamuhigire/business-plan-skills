@@ -1,6 +1,11 @@
 ---
-name: products-services
-description: Generate the products and services section detailing the value proposition, product descriptions, pricing overview, lifecycle stage, intellectual property, and R&D pipeline. Shows what the business sells and why customers buy it. Incorporates Teece's business model and innovation framework (value creation vs value capture, appropriability mechanisms, dynamic capabilities), Mangematin's 4V business model framework, Bates's VDPD product development process, Prahalad's core competencies, and Uganda IP registration framework.
+name: 03-products-services
+description: Use when producing or reviewing the 03 products services component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Products & Services Skill
@@ -82,7 +87,7 @@ Generate a clear, compelling description of what the business offers and why it 
 
 For each product or service:
 
-```
+```text
 Name:
 Category:
 Description: [2-3 sentences]
@@ -112,9 +117,9 @@ For each technology decision, document:
 
 Before committing to product development, assess three dimensions (Dennis et al., 2021):
 
-1. **Technical feasibility**  Can we build itSection  Rate: technology familiarity, project size, system compatibility
-2. **Economic feasibility**  Should we build itSection  Calculate: development costs, operational costs, NPV, ROI, break-even timeline
-3. **Organisational feasibility**  Will users adopt itSection  Assess: strategic alignment, champion existence, stakeholder readiness
+1. **Technical feasibility** — Can we build it? Rate: technology familiarity, project size, system compatibility
+2. **Economic feasibility** — Should we build it? Calculate: development costs, operational costs, NPV, ROI, break-even timeline
+3. **Organisational feasibility** — Will users adopt it? Assess: strategic alignment, champion existence, stakeholder readiness
 
 ## Generation Process
 
@@ -147,3 +152,84 @@ Before committing to product development, assess three dimensions (Dennis et al.
 - **Sustainable product design and circular economy**: See `references/sustainable-product-design.md` for 4 design-stage decisions governing 7080% of lifecycle environmental impact, simplified lifecycle scan table, circular product business models (product-as-a-service, deposit-refund, by-product exchange, refurbishment), technopreneurship product categories for Uganda/EA (clean cookstoves, solar water pumps, cold chain, organic waste-to-compost), 10-question product sustainability assessment tool (scored 020), and NOGAMU organic certification premium data  Source: Kumar et al. (CRC, 2025) and Leleux & van der Kaaij (2019). **Read when designing sustainable products, evaluating lifecycle impact, or incorporating circular economy into the products and services section.**
 - **Premium product and offer design**: Run `../meta-premium-go-to-market/SKILL.md` and read `../meta-premium-go-to-market/references/premium-gtm-quality-gate.md` when the product must sell to affluent, executive, enterprise, luxury, high-ticket, or premium customers. Use it to strengthen positioning, service design, proof, pricing power, launch strategy, and sales execution.
 - **Website investment and website-design services**: Run `../meta-website-investment-planning/SKILL.md` and read `../meta-website-investment-planning/references/website-investment-costing-gate.md` when the product/service requires a website, ecommerce, portal, content/SEO engine, landing page funnel, web app, or website-design service pricing. Use it to define website role, design philosophy, stack, service scope, operating requirements, and realistic cost assumptions.
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Offering catalogue, customer jobs, delivery method, pricing basis, lifecycle stage, and IP evidence for 03 products services | Product owner, customer research, technical lead, and approved model | Yes | If absent, the offering or customer job is unclear, return a product-definition gap list before writing differentiation. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Products and services section with value proposition and lifecycle map | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| 03 products services exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| 03 products services release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Feature-to-customer-job trace, pricing rationale, and IP-status record | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| 03 products services decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| 03 products services review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For 03 products services, the controlling focus is offering definition, customer value, delivery method, lifecycle, price basis, IP status, and product-development gates. This skill may describe and compare verified offerings; it may not claim unregistered IP, validated demand, or technical performance without evidence. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For 03 products services, loss of evidence about offering definition, customer value, delivery method, lifecycle, price basis, IP status, and product-development gates activates degraded mode. If the controlling 03 products services evidence is unavailable, the same boundary applies. When the offering or customer job is unclear, return a product-definition gap list before writing differentiation. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For 03 products services, a feature has no evidenced customer job or willingness-to-pay link| remove it from the core proposition or label it as an experiment with a validation owner | A feature catalogue is mistaken for a commercially coherent offer |
+| For 03 products services, A current legal, regulatory, tax, accounting, market, or platform claim controls the 03 products services decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For 03 products services, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete products and services section with value proposition and lifecycle map, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact 03 products services decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect offering catalogue, customer jobs, delivery method, pricing basis, lifecycle stage, and ip evidence and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce products and services section with value proposition and lifecycle map with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Products and services section with value proposition and lifecycle map must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Feature-to-customer-job trace, pricing rationale, and IP-status record must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to 03 products services, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In 03 products services, treating an unavailable offering catalogue, customer jobs, delivery method, pricing basis, lifecycle stage, and ip evidence as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing products and services section with value proposition and lifecycle map that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+A same-day delivery add-on has no delivery-cost estimate or customer interviews. Keep it outside the launch offer and assign a price-and-fulfilment test.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for 03 products services; no local deep-dive reference is declared.
+- For 03 products services claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

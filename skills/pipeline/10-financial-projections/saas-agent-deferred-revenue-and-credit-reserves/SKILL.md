@@ -1,6 +1,11 @@
 ---
 name: saas-agent-deferred-revenue-and-credit-reserves
-description: Liability-side mechanics for agent commercial commitments — deferred revenue for prepaid task credits with breakage policy under ASC 606 BC394 / IFRS 15.B46; SLA-credit accrued liability sized from trailing SLA-credit history; refund reserve; reserve true-up cadence; balance-sheet presentation. Use whenever an agent product has prepaid credits, SLA credits, outcome refunds, or any other commercial commitment that creates a contract liability.
+description: Use when producing or reviewing the saas agent deferred revenue and credit reserves component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # SaaS Agent Deferred Revenue and Credit / Refund Reserves Skill
@@ -49,6 +54,8 @@ This skill installs the discipline.
 
 ## Workflow
 
+Apply the ordered stages below; stop and recover when a stage lacks its required evidence.
+
 ### 1. Build the prepaid-credit liability schedule
 
 Per `references/saas-agent-deferred-revenue-template.md`:
@@ -77,7 +84,7 @@ The reserve sizes the expected future SLA credits to be issued. It is an **accru
 
 **Formula:**
 
-```
+```text
 SLA-credit reserve = (Trailing 12mo SLA credits issued ÷ Trailing 12mo gross agent revenue) × Forward agent revenue × Adjustment factor
 ```
 
@@ -115,7 +122,7 @@ SLA-credit reserve at period-end = $120,000 × 1.15 = $138,000
 
 But this is the **forward 12mo** expected credits. The **balance-sheet liability** at period-end is the credits earned but not yet issued at the date of measurement — typically a smaller number, reflecting credits accrued in the most recent SLA measurement period (week / month). Use:
 
-```
+```text
 Balance-sheet SLA-credit liability = Credits earned in current SLA measurement period but not yet processed
 ```
 
@@ -129,7 +136,7 @@ Distinct from SLA credits because refunds typically apply to failed outcomes, no
 
 **Formula:**
 
-```
+```text
 Refund reserve = (Trailing 12mo refunds issued ÷ Trailing 12mo gross agent revenue) × Forward agent revenue × Adjustment factor
 ```
 
@@ -263,3 +270,84 @@ Per cadence table below.
 - **Reserve currency** — USD-denominated cost with local-currency revenue creates asymmetric reserves; if SLA credits are in local currency but the cost saved by reserve depletion is in USD, reserve adequacy in real terms is FX-sensitive. Document FX-stress scenarios on reserve adequacy.
 - **Mobile-money refund cost** — refunding via MoMo / M-Pesa carries 1-2.5% transaction fee; refund reserve methodology should include the refund-cost line.
 - **Sovereign-AI contracts** — may include indemnity / penalty clauses that effectively act like SLA credits; classify and reserve accordingly.
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Approved commercial assumptions, contracts, usage/cost evidence, accounting framework, opening position, and projection horizon for saas agent deferred revenue and credit reserves | Client records, approved operating model, finance owner, and accounting doctrine | Yes | If absent, contract terms, usage evidence, framework, or cost drivers are unavailable, isolate the affected schedule, label it unassessed, and do not force the model to balance with a plug. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Deferred-revenue, credit, and refund-reserve schedules | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| saas agent deferred revenue and credit reserves exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| saas agent deferred revenue and credit reserves release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Formula trace, source/assumption register, three-statement or schedule reconciliation, and finance-gate record | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| saas agent deferred revenue and credit reserves decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| saas agent deferred revenue and credit reserves review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For saas agent deferred revenue and credit reserves, the controlling focus is prepaid-credit contract liabilities, consumption, breakage, SLA-credit accruals, and refund reserves. This skill may inspect records and calculate planning scenarios in read-only mode; it may not post entries, change ledgers, set accounting policy, certify IFRS treatment, or release statutory values without authorised professional review. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For saas agent deferred revenue and credit reserves, loss of evidence about prepaid-credit contract liabilities, consumption, breakage, SLA-credit accruals, and refund reserves activates degraded mode. If the controlling saas agent deferred revenue and credit reserves evidence is unavailable, the same boundary applies. When contract terms, usage evidence, framework, or cost drivers are unavailable, isolate the affected schedule, label it unassessed, and do not force the model to balance with a plug. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For saas agent deferred revenue and credit reserves, commercial billing, cash receipt, service delivery, and accounting recognition occur in different periods| model each event separately, reconcile the bridge, and route judgemental treatment to the finance reviewer | Cash, revenue, liability, and margin can be conflated into a misleading forecast |
+| For saas agent deferred revenue and credit reserves, A current legal, regulatory, tax, accounting, market, or platform claim controls the saas agent deferred revenue and credit reserves decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For saas agent deferred revenue and credit reserves, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete deferred-revenue, credit, and refund-reserve schedules, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact saas agent deferred revenue and credit reserves decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect approved commercial assumptions, contracts, usage/cost evidence, accounting framework, opening position, and projection horizon and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce deferred-revenue, credit, and refund-reserve schedules with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Deferred-revenue, credit, and refund-reserve schedules must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Formula trace, source/assumption register, three-statement or schedule reconciliation, and finance-gate record must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to saas agent deferred revenue and credit reserves, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In saas agent deferred revenue and credit reserves, treating an unavailable approved commercial assumptions, contracts, usage/cost evidence, accounting framework, opening position, and projection horizon as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing deferred-revenue, credit, and refund-reserve schedules that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+A customer prepays 50,000 tasks, uses 12,000, receives SLA credits, and may request a refund. Reconcile cash, remaining obligation, earned credits, and refund exposure separately before recognising revenue.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for saas agent deferred revenue and credit reserves; no local deep-dive reference is declared.
+- For saas agent deferred revenue and credit reserves claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

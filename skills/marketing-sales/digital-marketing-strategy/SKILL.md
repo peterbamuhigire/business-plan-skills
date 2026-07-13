@@ -1,6 +1,9 @@
 ---
 name: digital-marketing-strategy
-description: Generate the digital marketing strategy and AI strategy sections for a business plan. Use this skill whenever a business plan requires a digital marketing section, online marketing plan, social media strategy, or AI-assisted marketing plan. Every business plan must include both a digital marketing strategy and an AI marketing integration section.
+description: Use when a business plan needs an evidence-based digital marketing, channel, content, campaign, measurement, budget, or justified AI-assisted marketing section; use `entrepreneurial-demand-generation` for full-funnel demand logic and social-media skills for campaign production.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # Digital Marketing Strategy Skill
@@ -91,13 +94,13 @@ This skill generates both sections. It draws on eight primary reference framewor
 
 Ask for any missing information before drafting. Minimum required:
 
-1. **Business type:** B2B, B2C, or bothSection  (determines lead gen approach and channel priority)
+1. **Business type:** B2B, B2C, or both? (determines lead gen approach and channel priority)
 2. **Location:** Country and city/town (determines platform availability and mobile money context)
 3. **Target customer:** Demographics, digital behaviour, preferred platforms
-4. **Current digital presence:** WebsiteSection  Facebook pageSection  WhatsApp BusinessSection  Google listingSection 
+4. **Current digital presence:** Website? Facebook page? WhatsApp Business? Google listing?
 5. **Monthly marketing budget:** UGX / KES / TZS / RWF amount, or estimate
-6. **Sales cycle:** How long from first contact to purchaseSection  (affects attribution and content strategy)
-7. **Primary marketing goal:** Lead generationSection  AwarenessSection  RetentionSection  eCommerce salesSection 
+6. **Sales cycle:** How long from first contact to purchase? (affects attribution and content strategy)
+7. **Primary marketing goal:** Lead generation? Awareness? Retention? eCommerce sales?
 8. **B2B-specific (if applicable):** Average sale value, average customer lifetime, COCA target
 
 If information is missing, state your assumptions clearly and flag them for verification.
@@ -144,10 +147,10 @@ Assess the current state across three dimensions:
 - Social mentions / shares
 
 **Competitor digital audit:**
-- Are competitors running Facebook AdsSection  (searchable via Meta Ad Library: facebook.com/ads/library)
-- Do competitors have a Google Business listingSection 
-- What content are competitors postingSection 
-- Where are the gaps this business can exploitSection 
+- Are competitors running Facebook Ads? (searchable via Meta Ad Library: facebook.com/ads/library)
+- Do competitors have a Google Business listing?
+- What content are competitors posting?
+- Where are the gaps this business can exploit?
 
 ---
 
@@ -301,182 +304,16 @@ Present the digital marketing budget as a table:
 
 ---
 
-### 2.9 Platform-Specific Ad Strategy
+### 2.9 Platform, campaign, measurement, and AI detail
 
-For businesses planning paid digital advertising, provide platform-specific guidance for each relevant channel. Do not include all platforms  select based on the business type, target audience, and budget.
+Load only the directly relevant reference:
 
-**Google Search Ads**  include when:
-- The business serves customers who actively search for the product/service (plumbers, lawyers, schools, cleaning services, hardware)
-- There is clear purchase-intent search volume for the category in the target city
-- Budget allows: minimum UGX 25,00050,000/day to gather meaningful data
+- `references/social-media-platforms.md`, `references/google-ads.md`, `references/facebook-marketing.md`, `references/tiktok-advertising.md`, or `references/youtube-marketing.md` for channel selection and execution.
+- `references/digital-marketing-campaigns.md` for campaign design and measurement cadence.
+- `references/marketing-60-kotler.md` for phygital and generational behaviour, after verifying present-day applicability.
+- `references/ai-marketing-playbook.md` for AI-assisted marketing decisions, human review, privacy, cost, and failure controls.
 
-Apply the buying funnel keyword framework (Geddes, 2014): classify keywords by funnel stage (awareness  consideration  purchase); weight budget toward purchase-intent keywords; assign each ad group one tight topic; match landing page to ad copy precisely.
-
-Include:
-- 35 core keyword themes with match types
-- Quality Score optimisation actions (tight ad groups, keyword in headline, relevant landing page)
-- Campaign budget allocation and CPA target
-- Conversion events to track (WhatsApp click, call, form, purchase)
-
-**TikTok Ads**  include when:
-- Primary target audience is aged 1835
-- The business has or can create short video content (any business can)
-- Budget allows: minimum UGX 75,000/day ($20) per ad group
-- The business already has a proven offer or existing funnel (TikTok amplifies; it does not validate)
-
-Apply the Why/How/What framework (Marshall and Yu, 2022): plan at least one video in each category; structure 15-second ads with Hook (05s)  Pain/Solution (510s)  CTA (1015s); repurpose existing best-performing content from Facebook or WhatsApp first.
-
-Include:
-- Content plan: 3 Why + 3 How + 3 What videos for launch
-- Ad format: In-Feed Ads for all; Spark Ads if organic posts already performing
-- Campaign objective selection (Video Views / Traffic / Conversions / Lead Gen)
-- Metrics to track: video completion rate, engagement rate, CPA, ROAS
-
-**Platform decision table  use to select which platforms to include:**
-
-| Business Type | Primary Platform | Secondary | Skip |
-|--------------|----------------|-----------|------|
-| Local services (cleaning, plumbing, events) | Google Search | Facebook | TikTok (lower intent) |
-| Food / restaurant / hospitality | Facebook + Instagram | TikTok | Google (lower search volume) |
-| Retail / fashion / beauty | TikTok + Instagram | Facebook | Google (browse-driven, not search) |
-| B2B services | LinkedIn + Google Search | Facebook | TikTok |
-| Agriculture / FMCG / rural | Facebook (WhatsApp integration) | Google | TikTok (lower rural penetration) |
-| Youth-focused / education / fitness | TikTok | Instagram | Google (awareness stage) |
-| eCommerce (online store) | Facebook + Google Shopping | TikTok |  |
-
----
-
-### 2.10 Phygital Customer Profile and Generational Context
-
-If the business serves younger customers (under 35), apply the phygital natives framework (Kotler, Kartajaya, and Setiawan, 2023):
-
-**Assess which customer cohort the business primarily serves:**
-
-| Cohort | Birth Years | Digital Behaviour | Content Preference | EA Marketing Implication |
-|--------|------------|------------------|-------------------|--------------------------|
-| Gen X | 19651980 | Internet-adopter | Email, Facebook, WhatsApp | Trust professional tone; value reliability |
-| Millennials (Gen Y) | 19811996 | Digital-confident | Facebook, Instagram, YouTube | Value sustainability + social proof |
-| Gen Z | 19972012 | Digital-native (phygital) | TikTok, Instagram, YouTube Shorts | Authenticity, short-form video, community |
-| Gen Alpha | 2013+ | AI/Metaverse native | TikTok, gaming, AI chat | Immersive, interactive, hyper-personal |
-
-**For Gen Z and Gen Alpha audiences, apply these content principles:**
-- Lead with authenticity: raw, unfiltered content > polished corporate ads
-- Short-form video first (first 3 seconds must hook; add captions  60%+ watch without sound)
-- Community-based channels (WhatsApp groups, Facebook Groups) convert better than paid feed ads
-- Show values alignment: sustainability, local employment, DEI  in proof, not slogans
-- Pragmatic messaging: show price and value clearly; avoid hype and unverifiable claims
-- Experience over product: market what the product enables (lifestyle, outcome), not just its features
-
-**Phygital loop mapping:** For businesses serving phygital native customers, map the phygital customer journey:
-Online discovery (TikTok/Facebook)  Physical visit or WhatsApp  Mobile Money payment  UGC creation (WhatsApp Status/TikTok)  Peer referral (WhatsApp group)  Repeat cycle
-
----
-
-### 2.11 Campaign Strategy
-
-For each major campaign planned in Year 1, apply the 5-point campaign framework (Keshwani, 2023):
-
-| Element | Detail |
-|---------|--------|
-| **Problem Statement** | What specific business challenge does this campaign solveSection  |
-| **Process** | Which channel, creative approach, and tactic will be usedSection  |
-| **Expected Result** | Quantified outcome (X leads, X% reach increase, X new customers) |
-| **What Should Work Most** | The primary mechanism driving the result (storytellingSection  social proofSection  offerSection ) |
-| **Success Metric** | How will success be measured and trackedSection  |
-
-**Campaign type selection guide:**
-
-| Business Goal | Recommended Campaign Type | Primary Channel |
-|--------------|--------------------------|----------------|
-| Build brand awareness | Storytelling / founder video | Facebook organic + TikTok |
-| Generate leads quickly | Lead generation offer + paid ad | Facebook Ads + WhatsApp |
-| Build social proof | UGC testimonial campaign | Google Reviews + Facebook posts |
-| Reach new audiences | Micro-influencer partnership | Instagram + WhatsApp referral |
-| Retain existing customers | Loyalty email/WhatsApp sequence | WhatsApp broadcast + Email |
-| Re-engage lost prospects | Retargeting campaign | Meta Pixel retargeting |
-| B2B lead generation | Content marketing + LinkedIn | Blog + LinkedIn + Email |
-
-**Storytelling content types (by effectiveness for EA SMEs):**
-1. **Founder story**  why you started, what problem you solve, who you serve
-2. **Customer transformation**  before/after, real client (with permission), specific numbers
-3. **Behind-the-scenes**  production process, team, quality control, sourcing
-4. **Educational how-to**  teach something useful; establishes authority
-5. **Community impact**  jobs created, local suppliers, environmental practice
-
----
-
-### 2.12 KPIs and Measurement Dashboard
-
-Define the 610 metrics that will be reviewed monthly:
-
-**Monthly marketing review dashboard:**
-
-| Metric | Channel | Measurement Tool | Month 1 Target | Month 12 Target |
-|--------|---------|-----------------|---------------|----------------|
-| Total leads generated | All | CRM/spreadsheet | [X] | [X] |
-| WhatsApp enquiries | WhatsApp | Manual count | [X] | [X] |
-| Facebook page reach | Facebook | Meta Business Suite | [X] | [X] |
-| Website sessions | Website | Google Analytics | [X] | [X] |
-| New customers acquired | All | Sales records | [X] | [X] |
-| COCA (blended) | All | Marketing budget  customers | [X] | [X] |
-| Conversion rate (lead  sale) | All | CRM | [X] | [X] |
-| Google reviews | Google | Google Business | [X] | [X] |
-| Facebook ad CPL | Facebook Ads | Meta Ads Manager | [X] | [X] |
-| TLV (current cohort) | All | Customer records | [X] | [X] |
-
-**Review cadence:**
-- Weekly: Post performance, ad spend, enquiry volume, responses pending
-- Monthly: Full dashboard review, budget vs. results, channel optimisation decisions
-- Quarterly: COCA/TLV calculation, strategy review, budget reallocation
-
----
-
-## Step 3: AI Marketing Integration Section
-
-Every business plan must include a standalone AI Marketing Integration section. Generate this after the Digital Marketing Strategy.
-
-### AI Marketing Integration
-
-**Opening statement:** Artificial intelligence is not a future technology for this business  it is available today at low or zero cost, and embedding it in marketing operations from Year 1 provides measurable competitive advantage in content velocity, customer responsiveness, and data-driven decision-making.
-
-**Section structure:**
-
-**1. AI-Assisted Content Creation**
-- Tools: Claude (claude.ai), ChatGPT, or Gemini for drafting social media captions, blog posts, email copy, product descriptions, and ad copy
-- Process: Brief the AI with brand voice, target audience, and specific goal  edit output  publish
-- Time saving: Estimated X hours/week (calculate based on content volume)
-- Critical note: AI-generated content must always be reviewed and edited. AI produces first drafts; the human adds accuracy, brand personality, and local context.
-
-**2. AI-Assisted Customer Service**
-- WhatsApp Business API (via WATI, Twilio, or similar) with automated FAQ responses, enquiry routing, and lead qualification flows
-- Applicable if the business receives more than 20+ WhatsApp enquiries per day
-- Chatbot handles: hours/location queries, price enquiries (with catalogue link), booking requests, order status
-- Human handles: complaints, complex custom orders, negotiation, relationship management
-
-**3. AI-Powered Ad Optimisation**
-- Meta Advantage+ (Facebook/Instagram): algorithmic ad delivery that automatically finds the highest-converting audience  use broad targeting and let the algorithm optimise
-- Google Performance Max: similar automatic optimisation across Google channels
-- Both require 12 weeks of data before algorithm optimises effectively; do not turn off campaigns too early
-
-**4. AI Analytics and Insights**
-- Google Analytics 4 includes AI-powered anomaly detection and predictive metrics
-- Meta Business Suite provides AI-driven audience insights and content performance summaries
-- Simple prompt-based analysis: export marketing data to Google Sheets  paste into Claude/ChatGPT with the question "What patterns do you seeSection  What should I changeSection "
-
-**5. AI for Personalisation**
-- Email platforms (Mailchimp, Brevo) with AI send-time optimisation
-- Dynamic content blocks in email (show different product recommendations based on customer purchase history)
-- WhatsApp broadcast lists segmented by customer type (new leads vs. existing customers vs. VIP clients)
-
-**AI implementation roadmap (Month 112):**
-
-| Month | AI Action |
-|-------|-----------|
-| 12 | Set up Claude/ChatGPT for content drafting; create prompt templates for your most frequent content types |
-| 23 | Enable Meta Advantage+ on all Facebook/Instagram campaigns |
-| 34 | Install Google Analytics 4; set up conversion events |
-| 6 | Evaluate WhatsApp automation (WATI or similar) if enquiry volume justifies |
-| 912 | Review AI tools across all channels; identify what to expand, automate further, or retire |
+Do not copy tool, platform, budget, demographic, or performance claims from a reference without verifying the current product, geography, date, evidence, and client fit.
 
 ---
 
@@ -527,3 +364,74 @@ Full references for the appendix:
 - Brito, M. (2013) *Your Brand, The Next Media Company: How a Social Business Strategy Enables Better Content, Smarter Marketing, and Deeper Customer Relationships*. Indianapolis, IN: Que Biz-Tech/Pearson.
 - Kane, A. (2021) *Social Media Marketing and Online Business 2021: Beyond 2020 Rise to the Top of the Main eCommerce Platforms*. Self-published.
 - Willis, T. (2024) *Social Media Marketing in 2024: Mastering Facebook, Instagram, TikTok, Make Passive Income and More*. Self-published.
+
+<!-- dual-compat-start -->
+## Inputs
+
+| Artefact | Source or provider | Required? | If absent |
+|---|---|---|---|
+| Target customer, offer, journey, proof, price, goals, capacity, and business-plan assumptions | Client intake and owning plan sections | Required | Return hypotheses and evidence requests, not channel certainty |
+| Channel, campaign, cohort, content, conversion, retention, and attribution evidence | Analytics, CRM, advertising, sales, interviews, and experiments | Conditional | Mark performance and targets unassessed |
+| Marketing cost, revenue, refund, contribution, and payback definitions | Chwezi Accounting Doctrine and finance model | Required for ROI claims | Keep budget and return conclusions conditional |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Digital marketing strategy section | Business-plan pipeline, founder, and operating team | Objectives, journey, channel roles, content, campaigns, budget, measurement, and justified AI use reconcile |
+| Channel and experiment register | Marketing, sales, finance, and reviewers | Each initiative has audience, hypothesis, owner, cost cap, metric, stop rule, and evidence status |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Channel selection and claim register | Audience behaviour, source, date, channel role, countercase, and decision | No platform is selected because it is fashionable or assumed universal |
+| Marketing economics reconciliation | CAC, contribution, refund, retention, attribution, and payback definitions | Measures reconcile to finance data and current Chwezi doctrine |
+
+## Capability Contract
+
+Read or search access is required; editing or mutation is allowed only with authorised permission.
+
+Planning defaults to read-only. Do not publish content, launch campaigns, contact audiences, install tracking, upload customer data, change prices, or spend budget without explicit authority. AI use must respect privacy, consent, brand, factual review, security, and human approval.
+
+## Degraded Mode
+
+Without research, analytics, platform access, current documentation, or finance definitions, return a hypothesis-led strategy and validation backlog. Mark channel performance, budget efficiency, and AI capability `not assessed`; never invent benchmarks or claim a tool function is current.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Customer intent is proven in search | Test intent-led search and landing paths | Paying for broad awareness when demand is active |
+| Offer or conversion is unproven | Use small owned, earned, and research tests before paid scale | Amplifying a weak proposition |
+| Channel evidence is weak or audience fit uncertain | Run a bounded experiment with a stop rule | Permanent budget allocation by assumption |
+| AI use adds measurable operating value and controls exist | Stage a human-reviewed pilot | Trend-led automation or harmful output |
+
+## Workflow
+
+1. Confirm decision, audience, offer, proof, journey, geography, capacity, budget authority, and plan dependencies.
+2. Audit current channels, content, conversion, retention, attribution, privacy, and customer evidence.
+3. Map objectives to customer behaviours and choose only channels with a supported role.
+4. Define content, campaign, landing, sales handoff, retention, and measurement as one system.
+5. Reconcile budget, CAC, contribution, refunds, retention, and payback with Chwezi doctrine and the finance model.
+6. Assess AI use case by customer value, operating value, data permission, human oversight, cost, and failure mode.
+7. Create staged experiments with owners, cost caps, metrics, stop rules, and recovery actions.
+8. Release only after claim verification, privacy, finance, feasibility, and anti-slop gates pass.
+
+## Quality Standards
+
+The strategy must tie every channel and AI use to a customer behaviour, operating owner, budget, measure, and stop decision. Current platform claims and financial returns require verified sources and reconciled definitions.
+
+## Anti-Patterns
+
+- Including every platform. Fix: select channels by customer behaviour, intent, capacity, and evidence.
+- Setting targets from uncited benchmarks. Fix: use client baselines or labelled test targets.
+- Counting reach as commercial success. Fix: connect reach to qualified action, conversion, retention, and contribution.
+- Automating customer communication without review. Fix: define data permission, escalation, factual checks, and human ownership.
+- Hiding attribution limits. Fix: state the method, blind spots, and decision tolerance.
+- Spending before economics reconcile. Fix: apply Chwezi doctrine and stage budget behind evidence gates.
+
+## Worked Example
+
+A local repair firm has verified high-intent search demand but weak enquiry handling. Prioritise a small search test and landing-to-WhatsApp response process, cap spend until conversion and contribution are observed, and defer AI chat automation until message volume and escalation controls justify it.
+<!-- dual-compat-end -->

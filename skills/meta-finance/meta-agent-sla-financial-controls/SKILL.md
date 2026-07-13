@@ -1,9 +1,30 @@
 ---
 name: meta-agent-sla-financial-controls
-description: Financial controls for SLA economics — SLA-credit approval workflow with threshold-based authority; reserve methodology governance with quarterly true-up and auditor concurrence; dispute escalation with documented escalation chain; SOC1 financial-controls cross-link; audit trail of credits issued; segregation of duties between credit issuance and reserve accounting. Use when SLA economics are material and bankability / DD expects control maturity.
+description: Use when the agent business has SLA-credit, refund, prepaid-credit, or outcome-pricing variable revenue. Use financial projections for model construction.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
+
+
 # Meta — Agent SLA Financial Controls Skill
+
+## Workflow
+
+1. Confirm the decision audience, scope, current evidence, and applicable finance doctrine.
+2. Apply the ordered domain analysis below and reconcile every calculation to its source.
+3. Record the decision, exceptions, reviewer, and next evidence action before release.
+
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the SLA financial-control matrix and that the decision concerns which credit and reserve controls are mandatory.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (SLA credit terms, reserve method, and approver roles) or if the work could lead to this identified risk: unapproved credits or an unsupported reserve reaching the ledger.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
 
 ## Overview
 
@@ -31,7 +52,15 @@ This meta-skill installs the SLA financial-control discipline as a documented, n
 - The agent business has no variable revenue (all flat subscription)
 - The plan is pre-revenue and controls are premature (use directional treatment)
 
+
+- Route to `10-financial-projections` instead when the task is to construct the underlying model.
 ## Required Inputs
+
+| Input artefact | Source / provider | Required? | If missing |
+|---|---|---:|---|
+| SLA, refund, prepaid-credit, and reserve terms | Signed contracts, billing owner, finance controller | Yes | Stop control design and request the governing terms. |
+| Approval roles and system capabilities | Approved org chart, ERP or billing administrator | Yes | Return a qualified control-gap assessment only. |
+| Dispute and credit history | Finance records and customer-success register | Conditional | Mark trend and reserve calibration not assessed. |
 
 - SLA terms and credit policy
 - Refund policy
@@ -41,8 +70,6 @@ This meta-skill installs the SLA financial-control discipline as a documented, n
 - Org chart and role inventory (CFO, Controller, Head of CS, Legal, Customer Success Managers)
 - ERP / billing-system capability (does it enforce approvals?)
 - Auditor / internal-audit appointment status
-
-## Workflow
 
 ### 1. Design the SLA-credit approval workflow
 
@@ -170,8 +197,19 @@ Per cadence below.
 - Insurance scope assumed without testing
 - "We trust each other" as the control framework — fails first DD
 
+
+- Applying the wrong neighbouring route to meta agent sla financial controls. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Sla Financial Controls deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - SLA-credit approval workflow document
 - Refund approval workflow document
 - Reserve methodology governance document
@@ -218,3 +256,49 @@ Per cadence below.
 - **Sovereign-AI compliance overlap** — sovereign-AI tenders often require local-citizen-headcount audit; SLA control system should map to local compliance discipline
 - **Insurance availability** — AI E&O thin in Africa; self-insurance reserve essential; document the gap transparently
 - **Currency-of-record** — controls must address local-currency credit issuance vs USD reporting reconciliation
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| SLA financial-control matrix decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to unapproved credits or an unsupported reserve reaching the ledger. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the SLA financial-control matrix; drafting control narratives and approval thresholds is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If SLA credit terms, reserve method, and approver roles cannot be obtained, return a qualified SLA financial-control matrix covering only the checks that remain supportable. Leave this decision unresolved: which credit and reserve controls are mandatory. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: which credit and reserve controls are mandatory | Record the conclusion, source trail, owner, and review trigger in the SLA financial-control matrix. | Risk of unapproved credits or an unsupported reserve reaching the ledger |
+| Material evidence conflicts or remains uncertain | Walk one credit, refund, and reserve true-up through the proposed approvals before accepting the control design. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: SLA credit terms, reserve method, and approver roles | Mark the decision on which credit and reserve controls are mandatory `not assessed` in the SLA financial-control matrix, and send it to the controller and SLA control owner. | Otherwise, the work risks unapproved credits or an unsupported reserve reaching the ledger |
+
+## Quality Standards
+
+
+Accept the SLA financial-control matrix only when evidence is sufficient for this decision: which credit and reserve controls are mandatory. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of unapproved credits or an unsupported reserve reaching the ledger.
+
+## Worked Example
+
+
+A customer-success manager can issue large SLA credits directly in billing. The control matrix introduces evidence, approval, and reserve true-up steps, then tests them on a sample credit before release.
+
+## Finance Doctrine Gate
+
+
+Apply the Chwezi doctrine to the SLA financial-control matrix, using the reporting basis and effective date supported by SLA credit terms, reserve method, and approver roles. Reconcile the treatment to the model and narrative, and have the controller, control owner, and appointed auditor review the treatment, reconciliation, and exposure to this risk: unapproved credits or an unsupported reserve reaching the ledger.
+
+<!-- dual-compat-end -->

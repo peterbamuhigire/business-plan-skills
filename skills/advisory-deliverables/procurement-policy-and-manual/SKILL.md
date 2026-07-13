@@ -1,6 +1,9 @@
 ---
 name: procurement-policy-and-manual
-description: Author a client-ready Procurement Policy and Procurement & Disposal Manual for NGOs, SMEs, SACCOs, donor-funded projects, and public/PPDA-regulated bodies in Uganda/East Africa. Owns document architecture, the methods-and-thresholds framework, committees, ethics, contract management, and donor-procurement overlays; defers PPDA legal substance to proposal-skills (sectors/ppda-uganda) and the finance engine's government-procurement and controls skills. Grounded in the PPDA Act 2003 (as amended) / PPDA Regulations 2023 framework and real Ugandan NGO procurement practice.
+description: Use when authoring a procurement policy or procurement and disposal manual for an East African organisation; use proposal skills for bid responses, verify current PPDA or donor rules, and defer purchasing, payables, asset, inventory, and control doctrine to Chwezi Accounting Doctrine.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # Procurement Policy and Manual
@@ -58,3 +61,72 @@ Procurement Policy; Procurement & Disposal Manual; procurement-cycle procedures;
 - `proposal-skills` (`C:\wamp64\www\proposal-skills`): `skills/profiles-sectors/sectors/ppda-uganda/` and its references; donor packs (`world-bank`, `afdb`, `undp`, `giz-eu-local-procurement-response`).
 - Finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`): `skills/12-public-sector-and-ipsas/government-procurement-and-fiscal-controls/`, `skills/10-controls-governance-and-fraud/internal-controls-library/`, and `doctrine/references/uganda-public-sector-pfm.md` / `uganda-ngo-financial-management-patterns.md`.
 - `country-context/uganda/SKILL.md`; `language/east-african-english`.
+
+<!-- dual-compat-start -->
+## Inputs
+
+| Artefact | Source or provider | Required? | If absent |
+|---|---|---|---|
+| Existing procurement rules, plans, thresholds, forms, findings, and contracts | Client and donor records | Required | Return a gap and evidence request; do not invent thresholds |
+| Entity type, funding sources, jurisdiction, delegations, categories, and systems | Client governance records and verified authorities | Required | Keep methods and approvals parameterised |
+| Purchasing, payables, asset, inventory, and control doctrine | Chwezi Accounting Doctrine | Required for money-touching chapters | Stop affected chapters pending doctrine and professional review |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Procurement Policy and Procurement and Disposal Manual | Board, management, procurement, users, finance, stores, auditors, and funders | Planning, methods, competition, evaluation, award, contracting, receipt, disposal, records, and complaints are executable |
+| Threshold, method, committee, and evidence schedules | Procurement owner and assurance reviewers | Each parameter has authority, effective date, owner, exception route, and required record |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Requirement-to-process traceability | Legal or donor clause-to-step-to-record matrix | Binding procurement obligations map to procedures and evidence |
+| Finance integration gate | Doctrine mapping and professional-review status | Commitments, payables, receipt, assets, inventory, taxes, and controls align with current Chwezi doctrine |
+
+## Capability Contract
+
+Review defaults to read-only. Edit only the authorised manual. Do not run a procurement, contact bidders, alter evaluations, approve awards, sign contracts, dispose of assets, spend funds, or certify compliance without explicit delegated authority and independent legal or professional review.
+
+## Degraded Mode
+
+If current law, donor rules, delegation, procurement evidence, or finance doctrine is unavailable, return a provisional method framework, controlled parameter schedule, and evidence request. Mark legal and compliance conclusions `not assessed`; never treat missing rules as discretion.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Public or donor rule is stricter than internal policy | Apply the stricter binding route | Ineligible or unlawful procurement |
+| Requirement can be openly specified and competed | Use the authorised competitive method | Unjustified single sourcing |
+| Emergency is genuine and documented | Use the lawful emergency route with retrospective review | Abuse of urgency |
+| Step affects commitments, payables, tax, receipt, assets, or inventory | Apply Chwezi doctrine and professional review | Broken financial records or custody |
+
+## Workflow
+
+1. Confirm entity, funding, jurisdictions, categories, systems, users, and approval route.
+2. Inventory plans, thresholds, delegations, methods, committees, contracts, disputes, forms, and findings.
+3. Build the source hierarchy and parameter schedule; stop where a binding threshold lacks current authority.
+4. Map planning through disposal, including segregation, conflicts, evaluation, complaints, receipt, and records.
+5. Draft each method with trigger, approvals, competition, evaluation, evidence, exception, and contract route.
+6. Reconcile money-touching procedures with current Chwezi doctrine and qualified professional review.
+7. Test a routine purchase, consultant selection, emergency, disposal, conflict, and complaint; recover by revising any ambiguous handoff.
+8. Release with approval status, controlled schedules, unresolved legal questions, and review dates visible.
+
+## Quality Standards
+
+The manual must support fair competition, value, accountability, documented exceptions, and complete custody and finance handoffs. Current legal, donor, and accounting rules must be sourced and professionally reviewed.
+
+## Anti-Patterns
+
+- Hard-coding thresholds without a source date. Fix: use a controlled schedule with authority and review owner.
+- Splitting purchases to avoid competition. Fix: aggregate foreseeable need and monitor related requisitions.
+- Treating three quotations as universal compliance. Fix: select the method required by value, category, donor, and law.
+- Letting a conflicted evaluator remain silent. Fix: require disclosure, recusal, quorum review, and recordkeeping.
+- Ending the process at contract signature. Fix: include receipt, inspection, invoice match, asset or inventory record, performance, and close-out.
+- Calling the manual PPDA-compliant without current legal review. Fix: state scope, verification date, and professional sign-off status.
+
+## Worked Example
+
+When urgent flood repairs are required, document the emergency basis, verify the authorised emergency method and delegation, preserve competition where practicable, record receipt and asset consequences, and schedule independent retrospective review.
+<!-- dual-compat-end -->

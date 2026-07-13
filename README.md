@@ -1,8 +1,10 @@
 # Business Plan Skills Suite
 
+Current conformance state (verified 2026-07-13): 123 active skills across `skills/` and `country-context/`, 2 template resources, zero structural findings, and 30/30 routing fixtures meeting the 100% top-three threshold. See `docs/engine-upgrade-july-2026/11-conformance-upgrade-record.md`.
+
 A modular collection of Claude Code skills for generating, validating, and delivering bankable business plans. Each section of a professional business plan is a standalone skill — invoke individually or chain to produce a complete investor-ready document.
 
-**120 skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
+**123 active skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
 
 ---
 
@@ -344,7 +346,9 @@ Skills are grouped into thematic categories under `skills/`. When invoking a ski
 ---
 ## Authoring Standards
 
-Every skill follows this structure:
+Active skills are discovered from `skills/**/SKILL.md` and `country-context/**/SKILL.md`. Templates and inactive aliases are counted separately. The machine-readable source for the release count is `docs/quality/skill-quality-baseline.json`.
+
+Every active skill follows this structure:
 
 ```
 skills/skill-name/
@@ -355,20 +359,31 @@ skills/skill-name/
 ```
 
 **SKILL.md rules:**
-- Maximum 500 lines
-- YAML frontmatter: `name`, `description` (single line, comprehensive)
-- British English throughout
-- References section at the bottom wires in all reference files with one-line summaries
-- Uganda/UGX as default; universal frameworks always apply
+- Maximum 500 lines.
+- Directory-matching `name`; one-line, neighbour-aware `description` beginning `Use when` and no longer than 350 characters.
+- Portable Claude Code and Codex metadata using only approved frontmatter keys.
+- Positive and negative triggers; input, output, and evidence tables; ordered workflow with stop and recovery behaviour; decision table; permission boundary; degraded mode; quality standards; and at least five concrete anti-patterns with fixes.
+- Audit, review, analysis, critique, and planning default to read-only. Mutation or publication requires explicit authority.
+- British English throughout; Uganda/UGX remains the default planning context, but every current financial, statutory, tax, or exchange-rate claim requires dated source verification.
+- References are linked directly from the entrypoint with one-line loading guidance.
 
 **Reference file rules:**
-- No line limit (reference files can be long)
+- Split a reference when it becomes difficult to load or maintain; long catalogues must not force the entrypoint above 500 lines.
 - YAML frontmatter: `source`, `frameworks` (array), `skill`, `cross-reference` (array)
 - Uganda/East Africa application section at the end of every file
 - Generic names — no source prefix (e.g., `beef-butchery.md`, not `kenya-beef-butchery.md`)
 - Before writing a new file, check whether an existing file covers the same source
 
 See `skills/meta-utility/skill-writing/SKILL.md` for full authoring guidelines.
+
+Run the release gates from the repository root:
+
+```powershell
+python -X utf8 scripts\validate_skill_engine.py --baseline docs\quality\skill-quality-baseline.json
+python -X utf8 scripts\routing_smoke_test.py --threshold 1.0
+```
+
+CI runs both commands on every push to `main` and every pull request. The baseline is zero debt: any new finding or routing miss fails the build.
 
 ---
 

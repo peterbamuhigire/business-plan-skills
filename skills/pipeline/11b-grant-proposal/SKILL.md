@@ -1,6 +1,11 @@
 ---
-name: grant-proposal
-description: Specialist skill for writing grant funding applications to development partners (USAID, EU, GIZ, UN Women, World Bank), government programmes (Youth Livelihood Programme, Women Enterprise Programme, Parish Development Model), and impact funds. Grant applications require completely different formats from bank loan plans  LogFrame, Theory of Change, beneficiary analysis, and budget narrative. Use instead of (or alongside) the standard funding-request skill when the target funder is a grant body.
+name: 11b-grant-proposal
+description: Use when producing or reviewing the 11b grant proposal component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Grant Proposal Skill
@@ -74,12 +79,12 @@ Invoke when the business is applying to:
 
 | Element | Bank Loan Plan | Grant Proposal |
 |---|---|---|
-| Primary question | "Can you repaySection " | "What impact will this haveSection " |
+| Primary question | "Can you repay?" | "What impact will this have?" |
 | Financial focus | DSCR, collateral, profit | Budget narrative, cost-effectiveness |
 | Beneficiary focus | Not required | Central  disaggregated by gender, age, income |
 | Theory of Change | Not required | Required  how inputs lead to outcomes and impact |
 | LogFrame | Not required | Required or strongly preferred |
-| Sustainability plan | Implicit (profitable business) | Explicit  what happens after grant endsSection  |
+| Sustainability plan | Implicit (profitable business) | Explicit  what happens after grant ends? |
 | Procurement | Not mentioned | Competitive procurement plan required |
 | Reporting | Annual accounts | Quarterly narrative + financial reports |
 | Audit | By accountant | Often by independent auditor approved by funder |
@@ -88,7 +93,7 @@ Invoke when the business is applying to:
 
 Write a concise project summary (max 1 page / 400 words):
 
-```
+```text
 PROJECT SUMMARY
 
 Project Title: [Specific, descriptive  not generic]
@@ -99,7 +104,7 @@ Total Budget Requested: UGX [X] / USD [X]
 Co-Financing (if any): UGX [X] from [source]
 
 Problem Statement:
-[23 sentences: what specific problem does this project addressSection 
+[23 sentences: what specific problem does this project address?
 Use data  e.g., "In Luwero District, 68% of youth aged 18-30 are
 unemployed (UBOS 2024), and less than 12% of smallholder farmers
 access formal markets for their produce."]
@@ -125,11 +130,11 @@ Expected Impact:
 Provide evidence-based problem diagnosis:
 
 1. **Statistical evidence:** UBOS data, sector surveys, UNDP reports, World Bank indicators
-2. **Geographic specificity:** Which districts, sub-counties, communitiesSection 
-3. **Target group analysis:** Who is affectedSection  Age, gender, income level, vulnerability characteristics
-4. **Root cause analysis:** Why does this problem persistSection  (Use 5 Whys or fishbone analysis from `12-risk-analysis`)
-5. **Gap analysis:** What existing interventions exist and why are they insufficientSection 
-6. **Opportunity framing:** Why is now the right time to address this problemSection 
+2. **Geographic specificity:** Which districts, sub-counties, communities?
+3. **Target group analysis:** Who is affected? Age, gender, income level, vulnerability characteristics
+4. **Root cause analysis:** Why does this problem persist? (Use 5 Whys or fishbone analysis from `12-risk-analysis`)
+5. **Gap analysis:** What existing interventions exist and why are they insufficient?
+6. **Opportunity framing:** Why is now the right time to address this problem?
 
 ## Step 3: Theory of Change
 
@@ -137,7 +142,7 @@ The Theory of Change (ToC) is the logical argument that connects your activities
 
 ### ToC Structure
 
-```
+```text
 IF we [do these activities]...
 THEN we will produce [these outputs]...
 WHICH WILL LEAD TO [these outcomes] for [these beneficiaries]...
@@ -147,7 +152,7 @@ WHICH WILL CONTRIBUTE TO [this long-term impact].
 
 ### ToC Template
 
-```
+```text
 THEORY OF CHANGE
 
 INPUTS  ACTIVITIES  OUTPUTS  OUTCOMES  IMPACT
@@ -215,7 +220,7 @@ The LogFrame (Logical Framework Matrix) is a mandatory tool for EU, USAID, UN, a
 
 Grant funders require detailed beneficiary analysis, disaggregated by:
 
-```
+```text
 DIRECT BENEFICIARIES (directly receive project services):
 - Total: [X] individuals
 - Women: [X] ([X]%)
@@ -230,19 +235,19 @@ INDIRECT BENEFICIARIES (benefit from project outcomes):
 - Local suppliers and service providers: [X] businesses
 
 GENDER MAINSTREAMING:
-[How does the project specifically address gender equalitySection ]
+[How does the project specifically address gender equality?]
 - Minimum 60% women in employment targets
 - Women-specific training on [skills]
 - Flexible working arrangements for mothers
 - Equal pay policy
 
 MOST VULNERABLE:
-[How does the project reach the most marginalisedSection ]
+[How does the project reach the most marginalised?]
 ```
 
 ## Step 6: Implementation Plan and Work Plan
 
-```
+```text
 WORK PLAN
 
 Phase 1: Inception (Months 13)
@@ -270,7 +275,7 @@ Every budget line must be justified. Funders look for:
 
 ### Budget Narrative Format
 
-```
+```text
 BUDGET NARRATIVE
 
 1. EQUIPMENT AND CAPITAL ITEMS: UGX [X]
@@ -309,7 +314,7 @@ Co-financing (promoter equity): UGX [X] ([X]%)
 
 Grant funders require convincing evidence the project continues after funding ends:
 
-```
+```text
 SUSTAINABILITY PLAN
 
 Financial sustainability:
@@ -324,7 +329,7 @@ facility under commercial management. Key staff will be retained
 as permanent employees funded from processing revenues.
 
 Environmental sustainability:
-[How does the project avoid negative environmental impacts long-termSection 
+[How does the project avoid negative environmental impacts long-term?
 Waste management plan, NEMA compliance, organic waste composting, etc.]
 
 Social sustainability:
@@ -383,3 +388,84 @@ Cross-reference `meta-monitoring-evaluation/SKILL.md` for the full M&E framework
 - `meta-monitoring-evaluation/references/funder-reporting-requirements.md`  Quarterly report formats
 - [`04-market-analysis/references/uganda-human-capital-2025.md`](../04-market-analysis/references/uganda-human-capital-2025.md)  World Bank (2025) human capital evidence base for grant problem statements: HCI 0.39 (Uganda harnesses only 39% of potential); NEET youth 5.25M; Vision 2040 GDP targets; education spending gaps (2.7% vs 4.2% EA average); health outcomes table (life expectancy 68.5 years, maternal mortality 189, under-5 mortality 52); social protection coverage only 3%; NUSAF 3 impact evidence (savings rate 54.6%70%, NUSAF 3 saved GoU 51% of emergency fund = UGX 19B); WASH gap (12M without basic water, 38M without safe sanitation); multidimensional poverty 41.2%. **Read when writing the problem statement and contextual evidence section of any Uganda grant proposal  especially for youth employment, education, health, agriculture, and WASH-sector applications.**
 - [`05-target-market/references/uganda-consumer-demographics-2025.md`](../05-target-market/references/uganda-consumer-demographics-2025.md)  Beneficiary profiling data: population disaggregation by age, gender, region, income quintile, education level, and urban/rural location; NEET breakdown (women 52%, men 28%); regional market characteristics (Karamoja, Northern, Eastern, Western, Central); social protection transfer recipient segments; literacy gaps (57% of P6 below minimum). **Read when disaggregating beneficiaries by gender, age, income, and vulnerability for LogFrame indicators and funder reporting.**
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Funder call, eligibility rules, problem evidence, theory of change, work plan, budget, safeguards, and applicant credentials for 11b grant proposal | Official funder documents, client evidence, implementing partners, and finance model | Yes | If absent, the official call, eligibility rule, beneficiary baseline, partner commitment, or budget basis is unavailable, mark the proposal blocked at that requirement and return the exact evidence request. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Compliant grant proposal with theory of change, logframe, work plan, budget narrative, and sustainability case | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| 11b grant proposal exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| 11b grant proposal release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Requirement matrix, claim-source register, results-chain test, budget-to-activity reconciliation, and partner proof | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| 11b grant proposal decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| 11b grant proposal review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For 11b grant proposal, the controlling focus is funder eligibility, problem evidence, results chain, beneficiary safeguards, work plan, budget, additionality, and sustainability. This skill may analyse the call and draft application material; it may not submit, sign declarations, invent beneficiaries or co-funding, contact the funder, or commit partners without explicit authority. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For 11b grant proposal, loss of evidence about funder eligibility, problem evidence, results chain, beneficiary safeguards, work plan, budget, additionality, and sustainability activates degraded mode. If the controlling 11b grant proposal evidence is unavailable, the same boundary applies. When the official call, eligibility rule, beneficiary baseline, partner commitment, or budget basis is unavailable, mark the proposal blocked at that requirement and return the exact evidence request. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For 11b grant proposal, a desirable activity does not contribute to a stated outcome or cannot be measured within the grant period| remove or redesign it and repair the results chain and budget | A fluent application can still fail eligibility, credibility, safeguarding, or value-for-money review |
+| For 11b grant proposal, A current legal, regulatory, tax, accounting, market, or platform claim controls the 11b grant proposal decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For 11b grant proposal, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete compliant grant proposal with theory of change, logframe, work plan, budget narrative, and sustainability case, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact 11b grant proposal decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect funder call, eligibility rules, problem evidence, theory of change, work plan, budget, safeguards, and applicant credentials and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce compliant grant proposal with theory of change, logframe, work plan, budget narrative, and sustainability case with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Compliant grant proposal with theory of change, logframe, work plan, budget narrative, and sustainability case must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Requirement matrix, claim-source register, results-chain test, budget-to-activity reconciliation, and partner proof must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to 11b grant proposal, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In 11b grant proposal, treating an unavailable funder call, eligibility rules, problem evidence, theory of change, work plan, budget, safeguards, and applicant credentials as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing compliant grant proposal with theory of change, logframe, work plan, budget narrative, and sustainability case that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+The proposal promises 5,000 trained beneficiaries, but venue and facilitator capacity supports 1,200. Reduce or phase the target, reconcile the work plan and budget, and preserve 5,000 only as a longer-term ambition.
+
+## References
+
+- [Load this skill's primary method or template](../04-market-analysis/references/uganda-human-capital-2025.md) before applying the 11b grant proposal decision rules.
+- For 11b grant proposal claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

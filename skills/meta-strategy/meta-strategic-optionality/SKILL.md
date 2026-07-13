@@ -1,8 +1,14 @@
 ---
 name: meta-strategic-optionality
-description: Design the exit-strategy and strategic-optionality layer of a SaaS / ICT plan — strategic acquisition, PE rollup, IPO, secondary, founder-dividend, hold-forever. Preserves multiple paths rather than locking into one. Use when a SaaS plan has external capital or when founders need to weigh trade-offs between growth speed and equity preservation.
+description: Use when a SaaS plan has external capital (the cap-table holders need an exit thesis). Use the relevant plan-section skill for section drafting.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Strategic Optionality & Exit Planning Skill
 
 ## Overview
@@ -16,8 +22,19 @@ Most SaaS plans assume a single exit path (strategic acquisition or IPO). The di
 - A strategic-buyer approach has arrived (always evaluate; preserve negotiating leverage)
 - The company is at $10M+ ARR and exit conversations become real
 
+## Do Not Use When
+
+- The request belongs to the neighbouring route. Use a section skill for drafting; use this family for testing, synthesis, governance, or cross-section decisions.
+- The available evidence cannot support a responsible strategic optionality conclusion; return the evidence gap instead of inventing one.
+
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Strategic Optionality brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Cap table + investor preferences (liquidation preferences, participation, drag-along)
 - Founder economics (preferred outcome at various exit levels)
 - Strategic-buyer universe (named potential acquirers)
@@ -55,6 +72,13 @@ Most SaaS plans assume a single exit path (strategic acquisition or IPO). The di
 6. **Design the founder-economic conversation with the board** — founders and investors don't always want the same exit; surface this explicitly before it becomes a conflict.
 7. **Cross-reference Section 11 (Funding Request)** — the exit thesis should reconcile with how the funding is being deployed.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the strategic-options map and that the decision concerns which exit and ownership paths to preserve now.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (capital structure, founder objectives, buyer logic, and milestone economics) or if the work could lead to this identified risk: locking the business into an exit story that weakens current choices.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - Multiple exit paths named and assessed (not just one)
@@ -72,8 +96,19 @@ Most SaaS plans assume a single exit path (strategic acquisition or IPO). The di
 - "Hold forever" without operational discipline to sustain profitability
 - Optionality discussion only at exit-conversation time (too late)
 
+
+- Applying the wrong neighbouring route to meta strategic optionality. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Strategic Optionality deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Exit-path map with assessment per path
 - Strategic-buyer universe (named, prioritised)
 - Optionality-preserving moves for next 12 months
@@ -99,3 +134,44 @@ Most SaaS plans assume a single exit path (strategic acquisition or IPO). The di
 - **Hold-forever** is realistic for profitable African SaaS — companies like SeamlessHR, Workpay, Yoco may opt for sustainable hold.
 - **FX in exit**: USD-priced strategic offers are typical; local-currency cost base creates an interesting hedge.
 - **Capital gains tax** by jurisdiction (Kenya, Nigeria, South Africa, Uganda each different); structure equity holding accordingly.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Strategic-options map decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to locking the business into an exit story that weakens current choices. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the strategic-options map; drafting scenarios without soliciting buyers or securities is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If capital structure, founder objectives, buyer logic, and milestone economics cannot be obtained, return a qualified strategic-options map covering only the checks that remain supportable. Leave this decision unresolved: which exit and ownership paths to preserve now. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: which exit and ownership paths to preserve now | Record the conclusion, source trail, owner, and review trigger in the strategic-options map. | Risk of locking the business into an exit story that weakens current choices |
+| Material evidence conflicts or remains uncertain | Model the competing ownership paths against the same milestones, cash needs, control preferences, and buyer assumptions without selecting an exit prematurely. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: capital structure, founder objectives, buyer logic, and milestone economics | Mark the decision on which exit and ownership paths to preserve now `not assessed` in the strategic-options map, and send it to the plan owner and executive sponsor. | Otherwise, the work risks locking the business into an exit story that weakens current choices |
+
+## Quality Standards
+
+
+Accept the strategic-options map only when evidence is sufficient for this decision: which exit and ownership paths to preserve now. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of locking the business into an exit story that weakens current choices.
+
+## Worked Example
+
+
+A founder assumes acquisition is the only credible outcome before product-market fit. Model dividend, strategic sale, and follow-on-growth paths against capital and control needs, preserving the options that current choices can support.
+
+<!-- dual-compat-end -->

@@ -1,9 +1,16 @@
 ---
 name: anti-ai-slop
-description: MANDATORY pre-ship guardrail for every generated business plan, plan section, pitch deck, investment case, GTM/pricing narrative, financial narrative, proposal, blog post, or any text output, run before it is delivered so the output cannot be recognised as "AI slop". Carries the verified definition, the seven universal slop markers each paired with an avoidance rule, the banned-vocabulary list, the business-plan domain block, and a ship-gate checklist. Load first; it overrides stylistic preferences. Invoke automatically before finalising any section, deck, model narrative, or document.
+description: Use when producing any human-facing business-plan artefact; applies live specificity, verification, authored-intent, hard-case, and language controls, while `ai-slop-audit` independently grades completed work.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Anti AI Slop
+
+<!-- dual-compat-start -->
 
 ## Overview
 
@@ -96,7 +103,7 @@ These words and constructions are statistically over-produced by LLMs (FSU/COLIN
 
 ## Drop-in guardrail block (inherit in dependent skills)
 
-```
+```text
 ANTI-SLOP GUARDRAIL (inherit in every output):
 1. SPECIFICITY FLOOR — every section carries ≥1 concrete, named, business-specific
    element. No boilerplate, no placeholder copy.
@@ -141,6 +148,69 @@ This is the primary domain for this suite. Apply every item before shipping a pl
 If any box is unticked, the output is not ready to ship.
 
 ## References
+
+- `ai-slop-audit` supplies the independent checkpoint and release grade.
+- `writing-quality` governs business-plan prose mechanics beneath this gate.
+- `meta-critical-thinking-business-logic` tests claim, evidence, warrant, countercase, and implication.
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when missing |
+| --- | --- | ---: | --- |
+| Human-facing draft and intended decision | Parent workflow or requester | Yes | Stop the release gate until the output and audience are named. |
+| Verifiable claims, citations, dependencies, and figures | Supplied evidence or authoritative sources | Conditional | Remove or qualify unsupported specificity. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+| --- | --- | --- |
+| Guarded human-facing output | Requester and decision-maker | Specificity, verification, intent, hard-case, and language checks pass without fabricated evidence. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+| --- | --- | --- |
+| Anti-slop gate record | Completed checklist with verified, qualified, and blocked items | No fabricated statistic, citation, benchmark, market size, dependency, or professional claim remains. |
+| Authored-content trace | Named decisions, countercases, examples, and risk notes | Each section earns its place through business-specific evidence or judgement. |
+
+## Capability Contract
+
+Apply within the parent task's authority. Read and search supplied evidence; execute checks or use network verification only when available and authorised. Do not publish, spend, delete, certify, or alter source records merely to satisfy this gate. Current finance, legal, tax, regulatory, and market claims require the governing source and review boundary.
+
+## Degraded Mode
+
+Fallback: if a source, network, renderer, model, font, dependency registry, or execution capability is unavailable, remove unsupported specificity or mark the check `not assessed`. Return the narrowest useful qualified artefact and the evidence needed to finish; never convert the missing check into a pass.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+| --- | --- | --- |
+| A claim, citation, number, named entity, or dependency cannot be verified | Remove it, qualify it, or stop for evidence | Confident wrongness and fabricated authority. |
+| A paragraph contains no decision, example, evidence, or necessary instruction | Cut it or add real substance | Superficial competence and review burden. |
+| A hard case, counterargument, or failure path could change the recommendation | Cover it before release | Happy-path strategy that fails under scrutiny. |
+| Content is specific, verified, concise, and purposeful | Preserve it | Mechanical rewriting that erases authored voice. |
+
+## Anti-Patterns
+
+- Adding a precise number to make a section look researched. Correction: verify and cite it or remove it.
+- Keeping a polished paragraph that makes no decision. Correction: add business-specific evidence or cut the paragraph.
+- Applying the gate only after the full draft. Correction: check each section while it is produced and audit each major iteration.
+- Replacing an intentional phrase merely because it is unusual. Correction: preserve purposeful voice unless it harms clarity or accuracy.
+- Ignoring downside, rejection, error, or empty states. Correction: add the hard case that could change the decision.
+- Claiming an unavailable verification passed. Correction: mark it `not assessed` and narrow the output.
+
+## Worked Example
+
+Draft text says "the market is rapidly growing" without a source or decision implication. Remove the claim until dated evidence exists, or state the verified market observation and explain how it changes capacity, pricing, or entry timing. A decorative adjective is not a substitute for evidence.
+
+## Workflow
+
+1. Name the reader's decision and inspect the evidence supporting each load-bearing claim.
+2. Apply the seven controls while drafting; stop when a fact, citation, dependency, or professional claim cannot be verified.
+3. Cover countercases, risks, and failure paths, then run the output-specific gate.
+4. Recover a blocked draft by removing unsupported claims or obtaining evidence, and send the completed artefact to `ai-slop-audit`.
+
+<!-- dual-compat-end -->
 
 - `../../meta-utility/ai-slop-audit/SKILL.md` — the detection, evaluation, and audit companion (grade any artefact for slop).
 - `../../language/writing-quality/SKILL.md` — the suite's language-quality layer; apply before this gate.

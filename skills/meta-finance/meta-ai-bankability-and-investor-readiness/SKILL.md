@@ -1,8 +1,14 @@
 ---
 name: meta-ai-bankability-and-investor-readiness
-description: AI-specific bankability layer on top of `saas-bankability-and-investor-readiness`. Scores AI-cost-as-%-of-ARR, AI gross margin trajectory, eval coverage, hallucination-rate trajectory, model-deprecation-watch evidence, AI-data-room contents, AI-incident history, AI-governance committee existence. Use whenever an AI-feature-led SaaS plan must pass bankability scrutiny from AI-specialist investors, AI-aware DFIs, or AI-for-good grant-makers.
+description: Use when aI-feature-led SaaS plan is preparing for fundraise, DFI submission, or AI-for-good grant. Use financial projections for model construction.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Meta — AI Bankability & Investor Readiness Skill
 
 ## Overview
@@ -26,6 +32,13 @@ This skill installs the AI bankability scorecard that sits on top of the SaaS ba
 
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Bankability And Investor Readiness brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
+| Current accounting, tax, valuation, or pricing basis | Finance owner, accounting records, signed contracts, and current authoritative sources | Conditional | Mark the treatment unresolved and require qualified professional review. |
 - Output of `saas-ai-unit-economics-and-cogs` (AI margin trajectory)
 - Output of `saas-ai-cost-of-tenant-calculator` (per-tenant cost)
 - Output of `saas-ai-risk-and-stress-test` (risk register + stress scenarios)
@@ -66,6 +79,13 @@ This skill installs the AI bankability scorecard that sits on top of the SaaS ba
 9. **Map to investor archetype** — AI-specialist VC, generalist SaaS VC, sovereign-AI fund, AI-for-good DFI / grantmaker each weight differently.
 10. **Wire to living plan** — scorecard refresh quarterly; binding-constraint review monthly; investor-update AI block monthly.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the AI bankability scorecard and that the decision concerns whether AI-specific evidence clears funder diligence.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (AI cost, evaluation, incident, and governance records) or if the work could lead to this identified risk: rating an unevaluated AI feature as investable differentiation.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - All five dimensions scored with explicit numbers, not narrative
@@ -86,8 +106,19 @@ This skill installs the AI bankability scorecard that sits on top of the SaaS ba
 - Scorecard gamed (eval coverage 95% on a 5-test eval suite)
 - Investor archetype undeclared; same pitch for all funders
 
+
+- Applying the wrong neighbouring route to meta ai bankability and investor readiness. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Bankability And Investor Readiness deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - AI bankability scorecard (table of dimensions × items × score)
 - Binding-constraint list
 - Investor-archetype map (which funders fit; which don't)
@@ -124,3 +155,49 @@ This skill installs the AI bankability scorecard that sits on top of the SaaS ba
 - **Local AI ecosystem credit** — partnerships with Lelapa AI, Masakhane, AIMS, Carnegie Mellon Africa, Deep Learning Indaba alumni are evidence of credible AI talent strategy in Africa.
 - **Sovereign-AI tender readiness** — public-sector procurement scoring in KE, NG, ZA, RW, EG, UG increasingly weights in-country data residency, local capacity-building, and local-language coverage. Tender-readiness is a bankability dimension for plans selling to African public sector.
 - **FX hedge / corridor evidence** — DFI bankability for AI plans includes FX management posture given USD AI cost vs local-currency revenue.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| AI bankability scorecard decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to rating an unevaluated AI feature as investable differentiation. |
+
+## Capability and Permission Boundaries
+
+
+Default to read-only inspection while producing the AI bankability scorecard. Read supplied records and run non-mutating checks; recording AI findings in the plan's scorecard is permitted only when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If AI cost, evaluation, incident, and governance records cannot be obtained, return a qualified AI bankability scorecard covering only the checks that remain supportable. Leave this decision unresolved: whether AI-specific evidence clears funder diligence. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: whether AI-specific evidence clears funder diligence | Record the conclusion, source trail, owner, and review trigger in the AI bankability scorecard. | Risk of rating an unevaluated AI feature as investable differentiation |
+| Material evidence conflicts or remains uncertain | Rescore AI readiness after removing any unevaluated capability, unallocated model cost, or undocumented governance claim. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: AI cost, evaluation, incident, and governance records | Mark the decision on whether AI-specific evidence clears funder diligence `not assessed` in the AI bankability scorecard, and send it to the finance owner and funder reviewer. | Otherwise, the work risks rating an unevaluated AI feature as investable differentiation |
+
+## Quality Standards
+
+
+Accept the AI bankability scorecard only when evidence is sufficient for this decision: whether AI-specific evidence clears funder diligence. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of rating an unevaluated AI feature as investable differentiation.
+
+## Worked Example
+
+
+An AI SaaS plan reports rapid ARR growth but omits inference cost and evaluation coverage. Remove the unsupported margin and quality claims from the readiness score until cost attribution and evaluation records are supplied.
+
+## Finance Doctrine Gate
+
+
+Apply the Chwezi doctrine to the AI bankability scorecard, using the reporting basis and effective date supported by AI cost, evaluation, incident, and governance records. Reconcile the treatment to the model and narrative, and have the finance owner and lender or investment reviewer review the treatment, reconciliation, and exposure to this risk: rating an unevaluated AI feature as investable differentiation.
+
+<!-- dual-compat-end -->

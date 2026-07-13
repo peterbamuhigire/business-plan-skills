@@ -1,0 +1,33 @@
+artefact: business-plan-skills July 2026 conformance upgrade
+artefact-version: july-2026-zero-debt
+ran-at: 2026-07-13T00:00:00+03:00
+ran-by: Codex primary agent
+engine-root: C:\wamp64\www\business-plan-skills
+active-roots:
+  - skills
+  - country-context
+skill-count: 123
+template-count: 2
+quality-gates:
+  local-validator: pass
+  canonical-scanner: pass
+  canonical-quick-validator: pass
+  routing-smoke: pass
+  anti-slop-audit: pass-grade-a-genericness-6
+finance-accounting-gate:
+  gate-version: 1.0.0
+  doctrine-version: 1.0.0
+  state: pass-with-caveats
+  blockers: 0
+  caveats: 1
+  finding-register: none
+  caveat-detail: Skill contracts require current-source and qualified professional review before external reliance; no human accountant signed this structural repository upgrade.
+  required-checks:
+    R-100-doctrine-version: pass
+    R-102-gate-manifest: pass
+    R-101-adoption-record: not-applicable-reference-model
+    R-103-through-R-108: not-applicable-no-operational-finance-artefact
+release:
+  commit: this-manifest-containing-commit
+  destination: origin/main
+  verification: compare-HEAD-with-origin-main-after-push

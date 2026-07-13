@@ -1,6 +1,11 @@
 ---
-name: marketing-sales-strategy
-description: Generate the marketing and sales strategy section for a bankable business plan, including segmentation, positioning, channels, pricing, funnel logic, and measurable go-to-market execution.
+name: 07-marketing-sales-strategy
+description: Use when producing or reviewing the 07 marketing sales strategy component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Marketing & Sales Strategy Skill
@@ -158,3 +163,84 @@ Build the section from the compact checklist in `references/section-07-output-ch
 - **Magnetic marketing system design**: See `../book-extractions/kennedy-magnetic-marketing-extraction.md` for the Message-Market-Media triangle, lead generation magnet discipline, attraction-conversion-retention architecture, micro-agreement sequencing, and systematic referral logic. **Read when a plan has channels but lacks a commercial system.**
 - **Niche-first startup positioning**: See `../book-extractions/godin-startup-school-extraction.md` for narrow-market focus, remarkability, tribe logic, and anti-generic positioning. **Read when the offering sounds broad, undifferentiated, or aimed at "everyone".**
 - **Growth, profit, disruption, and deeper-thinking systems**: See `../../book-extractions/growth-profit-disruption-systems-extraction.md` for growth engineering, remarkable growth systems, profit levers, transformation, creativity, AI/product growth loops, experimentation, and dashboard discipline. **Read when a plan needs a repeatable growth engine, product-led growth, AI-enabled growth, profit improvement, or disruption strategy rather than isolated marketing tactics.**
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| ICP, buying process, channel evidence, price tests, unit economics, and sales capacity for 07 marketing sales strategy | Customer research, CRM records, approved financial model, and sales owner | Yes | If absent, price, margin, conversion, or capacity evidence is unavailable, return a testable commercial hypothesis and cap the recommendation at pilot scale. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Marketing and sales strategy with channel budgets and conversion assumptions | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| 07 marketing sales strategy exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| 07 marketing sales strategy release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Funnel model, channel experiment evidence, sales-capacity reconciliation, and budget trace | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| 07 marketing sales strategy decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| 07 marketing sales strategy review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For 07 marketing sales strategy, the controlling focus is buyer journey, message, channel evidence, funnel conversion, sales capacity, retention, budget, and stop thresholds. This skill may analyse commercial options and draft tests; it may not launch prices, purchase media, contact prospects, alter contracts, or promise outcomes without explicit authority. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For 07 marketing sales strategy, loss of evidence about buyer journey, message, channel evidence, funnel conversion, sales capacity, retention, budget, and stop thresholds activates degraded mode. If the controlling 07 marketing sales strategy evidence is unavailable, the same boundary applies. When price, margin, conversion, or capacity evidence is unavailable, return a testable commercial hypothesis and cap the recommendation at pilot scale. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For 07 marketing sales strategy, a package or channel grows headline demand while weakening gross margin, trust, or delivery capacity| reject or constrain it, quantify the guardrail, and test the next credible option | Growth recommendations can consume cash or create obligations the business cannot fulfil |
+| For 07 marketing sales strategy, A current legal, regulatory, tax, accounting, market, or platform claim controls the 07 marketing sales strategy decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For 07 marketing sales strategy, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete marketing and sales strategy with channel budgets and conversion assumptions, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact 07 marketing sales strategy decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect icp, buying process, channel evidence, price tests, unit economics, and sales capacity and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce marketing and sales strategy with channel budgets and conversion assumptions with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Marketing and sales strategy with channel budgets and conversion assumptions must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Funnel model, channel experiment evidence, sales-capacity reconciliation, and budget trace must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to 07 marketing sales strategy, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In 07 marketing sales strategy, treating an unavailable icp, buying process, channel evidence, price tests, unit economics, and sales capacity as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing marketing and sales strategy with channel budgets and conversion assumptions that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+Paid social produces leads but sales records show partner referrals close faster and at lower acquisition cost. Reallocate the next test budget to the partner channel and retain explicit stop thresholds.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for 07 marketing sales strategy; no local deep-dive reference is declared.
+- For 07 marketing sales strategy claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

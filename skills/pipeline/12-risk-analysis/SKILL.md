@@ -1,6 +1,11 @@
 ---
-name: risk-analysis
-description: Generate the risk analysis section with risk identification, probability/impact matrix, mitigation strategies, contingency plans, and insurance considerations. Demonstrates awareness and preparedness  investors trust founders who acknowledge risks. Incorporates Raydugin's three-part uncertainty naming, 5 addressing strategies (Avoid/Reduce/Transfer/Accept/Exploit), and Bowtie diagrams; Murray-Webster's behavioural biases (triple strand) and risk appetite framework; Olson's COSO ERM model and enterprise risk categories; plus Uganda-specific risk context from UBOS official statistics.
+name: 12-risk-analysis
+description: Use when producing or reviewing the 12 risk analysis component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Risk Analysis & Mitigation Skill
@@ -99,11 +104,11 @@ Generate an honest risk assessment that builds investor confidence through trans
 
 ### Process Risk Identification
 
-For operational risks, walk through each core process activity asking "What can go wrongSection " (Page, 2015). Document findings in an internal controls table before developing solutions  identify all risks first, solve second.
+For operational risks, walk through each core process activity asking "What can go wrong?" (Page, 2015). Document findings in an internal controls table before developing solutions  identify all risks first, solve second.
 
 Use root cause analysis to move beyond symptoms to underlying causes:
 - **Ishikawa (Fishbone) diagram**  Brainstorm causes across the 6 Ms: Man (people/skills), Method (process design), Machine (equipment/systems), Material (inputs/data), Measurement (metrics/feedback), Milieu (environment/culture) (Dumas et al., 2013)
-- **5 Whys**  For each identified cause, ask "WhySection " repeatedly until reaching a root cause that, if eliminated, would prevent recurrence
+- **5 Whys**  For each identified cause, ask "Why?" repeatedly until reaching a root cause that, if eliminated, would prevent recurrence
 - **Pareto analysis**  Focus on the vital 20% of causes responsible for 80% of issues
 
 ### Issue Register
@@ -174,7 +179,7 @@ For import-dependent businesses, also model the exchange rate depreciation scena
 
 - **Global trade risks 2025**: See `references/global-trade-risks-2025.md` for 2025 US tariff policy and AGOA uncertainty, Suez Canal/Red Sea shipping disruptions (+23 weeks transit, +1525% freight cost), EU Deforestation Regulation (EUDR) compliance requirements, DRC instability and western Uganda trade corridor disruptions, global commodity price risks (coffee, gold, petroleum), and East African inflation context by country
 - **Strategic risk and scenario planning**: See `references/strategic-risk-scenarios.md` for Suns & Clouds risk chart, risk containment strategies (avoid/transfer/reduce/accept), scenario planning methodology, hypothesis testing for strategy, risk-reward evaluation, risk mitigation plan template, and sensitivity analysis from Evans, Harris & Lenox, and Fahey & Randall
-- **Process risk and root cause analysis**: See `references/process-risk-root-cause.md` for Ishikawa (fishbone) diagram methodology, 5 Whys technique, Pareto analysis (80/20 rule), internal controls framework ("what can go wrongSection " walkthrough), issue register template, and process-related risk categories mapped to Devil's Quadrangle  from Dumas et al. (Springer, 2013) and Page (AMACOM, 2015)
+- **Process risk and root cause analysis**: See `references/process-risk-root-cause.md` for Ishikawa (fishbone) diagram methodology, 5 Whys technique, Pareto analysis (80/20 rule), internal controls framework ("what can go wrong?" walkthrough), issue register template, and process-related risk categories mapped to Devil's Quadrangle  from Dumas et al. (Springer, 2013) and Page (AMACOM, 2015)
 - **Startup risk frameworks**: See `references/startup-risk-frameworks.md` for 9 Deadly Sins of New Product Introduction, premature scaling risk assessment, Assumptions Tracking Template with Risk Score formula, reversible vs. irreversible decisions framework, and technology vs. market risk distinction  from Blank & Dorf (2012) and Alam
 - **Uganda-specific risk context (202526)**: See `references/uganda-risk-context.md` for current Uganda macroeconomic risk data (inflation by category, exchange rate, interest rates), structural risks (informal economy competition, credit access), poverty/demand constraints by region, sector-specific risks (agriculture, manufacturing, services), regulatory compliance risks (URA, UNBS, NEMA, KCCA), political/security context, infrastructure risks, climate risks, a Uganda risk register template, and validated African business risk patterns from 25 years of pan-African operations (currency remittance delays, government payment risk, import competition, over-expansion, delegation/barony risk)  from UBOS (CPI Feb 2026, UNHS 2023/24, NLFS 2021, KEI Q1 2025/26), World Bank (2023), and Sardanis (2007). **Read this file for every Uganda business plan risk analysis.**
 - **Enterprise Risk Management (ERM) frameworks**: See `references/enterprise-risk-management.md` for the COSO ERM framework (mission  risks  appetite  likelihood  impact  mitigation  residual), five enterprise risk categories with identification checklists (strategic/operations/legal/credit/market), risk appetite and tolerance definitions with business-stage guidance, Balanced Scorecard risk KPIs, natural disaster risk framework (Mitroff's three crisis categories), ERM in projects, and risk maturity levels (15)  from Olson & Wu (Springer, 2017) and Murray-Webster & Pullan
@@ -184,3 +189,84 @@ For import-dependent businesses, also model the exchange rate depreciation scena
 - **Competitive threat assessment methods  war gaming, I&W, country risk, linchpin analysis**: See `../06-competitive-analysis/references/competitive-analysis-methods-fleisher.md` for War Gaming (6-step simulation of competitor responses to major strategic decisions), Indications and Warning Analysis (early warning indicator system with threshold levels and response protocols  feeds directly into monitoring dashboards), Country Risk Analysis (six risk dimensions: economic, transfer, exchange, location, sovereign, political), Analysis of Competing Hypotheses (structured hypothesis testing for high-stakes ambiguous situations), and Linchpin Analysis (identifying the single critical assumption that, if wrong, invalidates the plan)  Source: Fleisher & Bensoussan (FT Press, 2007). **Read when building a competitive risk register, designing an early warning dashboard, assessing country-level risk for regional expansion, or stress-testing the plan's critical assumptions.**
 - **Climate and environmental risk in Uganda**: See `references/climate-environment-risk-uganda.md`
 - **Leadership under crisis  The Struggle and wartime management**: See `../09-management-team/references/hard-things-horowitz.md`  Horowitz's frameworks for crisis leadership: The Struggle (psychological and operational survival toolkit), CEO transparency as risk culture (bad news travels fast in healthy cultures), layoffs done right, Peacetime vs Wartime CEO (when to switch leadership mode), and the Accountability vs Creativity Paradox. **Read when the risk section must address key-man risk, management resilience, or leadership continuity in a business plan for a growth-stage venture seeking equity or DFI funding.** for Uganda climate trends (IPCC AR6/NEMA data), 8-row environmental regulatory compliance table (NEMA Act, Water Act, Land Act, Employment Act), climate risk classification by 9 Uganda business types with financial exposure estimates, ready-to-use 10-row environmental risk matrix template, NEMA Category A/B/C quick reference, climate adaptation vs mitigation distinction (Uganda contributes <0.1% of global GHG emissions; adaptation is the priority frame), and circular economy environmental opportunity data  Sources: Dietz (Cambridge, 2023); IFC/World Bank CPSD Uganda (2022); NEMA Act Cap 153. **Read for every Uganda business plan risk analysis. Environmental and social risks must appear in the risk matrix.**
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Business model, assumptions, contracts, operating controls, risk evidence, scenario variables, and risk appetite for 12 risk analysis | All pipeline sections, client records, current research, and governance owners | Yes | If absent, probability, impact, control effectiveness, or scenario data is unavailable, mark the risk unassessed and use a bounded sensitivity rather than a false score. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Decision-ranked risk register, stress tests, mitigations, triggers, and contingency actions | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| 12 risk analysis exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| 12 risk analysis release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Risk-source trace, scenario calculation, control-owner confirmation, and residual-risk decision | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| 12 risk analysis decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| 12 risk analysis review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For 12 risk analysis, the controlling focus is enterprise risk prioritisation, control evidence, residual exposure, triggers, and contingency ownership. This skill may inspect evidence and challenge assumptions in read-only mode; it may not change controls, accept risk for management, trigger contingency spending, or certify compliance. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For 12 risk analysis, loss of evidence about enterprise risk prioritisation, control evidence, residual exposure, triggers, and contingency ownership activates degraded mode. If the controlling 12 risk analysis evidence is unavailable, the same boundary applies. When probability, impact, control effectiveness, or scenario data is unavailable, mark the risk unassessed and use a bounded sensitivity rather than a false score. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For 12 risk analysis, a mitigation has no owner, trigger, budget, or evidence of effectiveness| treat it as planned rather than operating, raise residual risk, and define the test or owner needed | Decorative risk registers understate exposure and create false assurance |
+| For 12 risk analysis, A current legal, regulatory, tax, accounting, market, or platform claim controls the 12 risk analysis decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For 12 risk analysis, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete decision-ranked risk register, stress tests, mitigations, triggers, and contingency actions, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact 12 risk analysis decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect business model, assumptions, contracts, operating controls, risk evidence, scenario variables, and risk appetite and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce decision-ranked risk register, stress tests, mitigations, triggers, and contingency actions with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Decision-ranked risk register, stress tests, mitigations, triggers, and contingency actions must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Risk-source trace, scenario calculation, control-owner confirmation, and residual-risk decision must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to 12 risk analysis, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In 12 risk analysis, treating an unavailable business model, assumptions, contracts, operating controls, risk evidence, scenario variables, and risk appetite as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing decision-ranked risk register, stress tests, mitigations, triggers, and contingency actions that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+A key supplier failure is rated low because a backup is named, but the backup has never fulfilled an order. Treat the control as planned, test it, and raise residual risk until evidence exists.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for 12 risk analysis; no local deep-dive reference is declared.
+- For 12 risk analysis claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

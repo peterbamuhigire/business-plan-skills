@@ -1,8 +1,14 @@
 ---
 name: meta-presentation-design
-description: Three-mode presentation skill for (A) designing the business plan slide deck  narrative structure, visual design, and slide-by-slide construction, (B) coaching the client to deliver it  voice, body language, rehearsal protocol, and Q&A preparation, and (C) auditing an existing deck for presentation quality before a pitch. Integrates Gallo's Jobs framework, Duarte's Sparkline and visual grammar, Anthony's innovation techniques, Edwards's delivery fundamentals, and HBR executive standards. Every business plan produced by this suite should be accompanied by a deck built with this skill.
+description: Use when designing or auditing a presentation deck tied to a business plan or proposal. Use pitch-deck for end-to-end deck orchestration.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Business Plan Presentation Design Skill
 
 ## Overview
@@ -21,8 +27,16 @@ Use this meta-skill to turn a business case into an effective presentation artif
 - Do not use visual polish to hide weak strategic thinking.
 - Do not treat deck design as independent from the presenter's delivery.
 
+
+- Route to `pitch-deck` instead when the task requires end-to-end deck orchestration.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Presentation Design brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Presentation objective, audience, and time limit
 - Core business case, pitch frame, and final ask
 - Any existing deck, brand constraints, or design preferences
@@ -37,6 +51,13 @@ Use this meta-skill to turn a business case into an effective presentation artif
 5. Reconcile visuals, spoken cues, and numbers with the underlying plan.
 6. Flag slides or delivery habits that weaken persuasion.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the deck design and audit record and that the decision concerns which slide sequence and visual treatment support the decision.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (approved narrative, audience, brand assets, and display constraints) or if the work could lead to this identified risk: using visual polish to conceal missing evidence.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - Slides make the argument easier to understand, not harder.
@@ -50,13 +71,24 @@ Use this meta-skill to turn a business case into an effective presentation artif
 - Decorative design with weak message hierarchy.
 - Mismatched deck tone for the audience type.
 - Slide claims that do not match the plan or pitch script.
+- Treating a generic presentation design template as a conclusion. **Correction:** tie each choice to the named audience, evidence, and operating constraint.
 
+
+- Applying the wrong neighbouring route to meta presentation design. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Presentation Design deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - A presentation deck structure, design direction, or audit result
 - Delivery and rehearsal guidance tied to the deck
 - Any unresolved presentation weaknesses to fix
-
 
 
 ## Relationship to Other Skills
@@ -99,7 +131,7 @@ Articulate it as a complete sentence (not a topic):
 - Weak: "Market opportunity"
 - Strong: "Uganda's UGX 4.2 trillion poultry market is structurally undersupplied, and [Business Name] is the only vertically integrated producer within 80 km of the largest deficit zone."
 
-Test: Can it be said in one breathSection  Would someone repeat it to a colleagueSection  If not, refine it.
+Test: Can it be said in one breath? Would someone repeat it to a colleague? If not, refine it.
 
 #### Step 2: Build the Sparkline (Duarte)
 
@@ -112,21 +144,21 @@ The contrast between these states creates the emotional tension that drives acti
 
 **Sparkline for a business plan presentation:**
 
-```
+~~~text
 OPENING:    What Is (the problem/gap the audience already knows)
-            
+
 SECTION 1:  What Could Be (the opportunity  if someone solves it)
-            
+
 SECTION 2:  What Is (why existing solutions fail)
-            
+
 SECTION 3:  What Could Be (your solution  specifically)
-            
+
 SECTION 4:  What Is (the current market evidence for your claims)
-            
+
 SECTION 5:  What Could Be (the financial outcome  projections)
-            
+
 CLOSE:      New Bliss (the future state after the audience acts  i.e., funds you)
-```
+~~~
 
 **The STAR moment** (Something They'll Always Remember): Plan one moment in the deck  typically at the midpoint  that is so striking it becomes the anchor memory of the entire presentation. For a bank pitch: the DSCR and collateral ratio stated with absolute confidence, followed by a pause. For an investor: the market sizing insight that reframes the opportunity.
 
@@ -220,7 +252,7 @@ Before building slides, map the resistance for your specific audience:
 **Slide 11: The Team**
 - Photos + 2-line bios of the top 23 people only
 - Lead with the unfair advantage: "Former Head of Agriculture at [Bank], 12 years"
-- Not a CV  every word must answer "why are YOU the team to do thisSection "
+- Not a CV — every word must answer "why are YOU the team to do this?"
 - Cross-reference: `09-management-team/SKILL.md`
 
 **Slide 12: The Ask**
@@ -320,141 +352,44 @@ The human brain clusters information in threes. More than three items and retent
 
 ## Mode B: Client Coaching Protocol
 
-### The Training Objective
+Prepare the client's delivery through message ownership, rehearsal, voice and body-language practice, timed runs, and hostile-question drills. Coaching must use the actual deck and record unresolved weaknesses.
 
-The goal is not for the client to memorise slides  it is for the client to know their business so deeply that the slides become prompts, not scripts.
-
-A founder who knows their business and can speak about it naturally, with conviction and specific detail, is more persuasive than a polished performer reading from bullet points.
-
-### Six-Session Coaching Programme
-
-**Session 1: Story and Frame (90 minutes)**
-- Work through the One Thing and Sparkline  does the client believe itSection  Can they articulate itSection 
-- Practice the opening 60 seconds: the problem statement that makes the audience lean in
-- Assign: watch three TED talks; identify the hook, the narrative arc, and the STAR moment in each
-
-**Session 2: Content Mastery (90 minutes)**
-- Slide-by-slide: the client explains each slide without looking at it
-- For every number on every slide: "Where does this come fromSection  Can you defend itSection "
-- Identify the 5 numbers the client must know cold: TAM, revenue Year 3, DSCR, collateral coverage, use-of-funds total
-- Flag any slides where the client is uncertain  these are due diligence risks (see `meta-due-diligence/SKILL.md`)
-
-**Session 3: Delivery Fundamentals (60 minutes)**
-- Record a full run-through on phone/camera
-- Review together: voice pace, filler words, eye contact, posture
-- Assign specific fixes from Edwards's delivery framework
-- Practise the STAR moment  it must land with a deliberate pause
-
-**Session 4: Q&A Simulation (90 minutes)**
-- Ask the 10 hardest questions without warning (use the Resistance Map for this audience)
-- Coach the bridging technique from McGowan for each destabilising question
-- Practise: acknowledge  reframe  answer from strength
-- Role-play the bank credit committee: sceptical, number-focused, looking for reasons to decline
-
-**Session 5: Dress Rehearsal (Full run)**
-- Full deck, full timing, full room setup if possible
-- No interruptions  client presents start to finish
-- Debrief: frame control check (Klaff), delivery check (McGowan/Edwards), slide quality check (Gallo/Duarte)
-- Final slide adjustments only  no content changes after this session
-
-**Session 6: Day-of Briefing (30 minutes, morning of pitch)**
-- The three things to convey (not more than three)
-- The one frame to hold
-- The STAR moment  confirm timing and phrasing
-- The ask  exact words for the closing request
-- Physical warm-up: voice, posture, breathing
-
-### The 24 Minute Attention Cycle (Edwards)
-
-Audiences do not sustain attention continuously  they reset approximately every 24 minutes. A presenter who delivers content linearly, without engineering re-engagement, will lose the room regardless of content quality.
-
-**The technique:** After completing the first draft of any presentation, go back through it and insert an attention-gaining device at every 24 minute interval. A device can be:
-- A shift in voice inflection or volume
-- A rhetorical question directed at the audience
-- A new visual or prop introduced
-- A deliberate movement (stepping forward, moving to a different position)
-- A pause of 34 seconds followed by a restatement of the key point
-- Inviting a brief audience response
-
-This is a **designed, repeatable technique**  not a personality trait. Clients who feel they "lack presence" usually lack engineered re-engagement points, not charisma. Coach it explicitly: mark the intervals in the speaker notes.
-
-### The Confirm Findings Opening (Anthony)
-
-Begin the pitch by demonstrating you understand the funder's specific criteria  before making any claims about your business:
-
-> "We understand that Centenary Bank's SME lending criteria require a DSCR of at least 1.25 and collateral coverage of 125%. This presentation shows how this business meets both thresholds."
-
-In a context where almost every pitch presents a generic plan with no evidence of having studied the lender's actual requirements, this technique signals serious preparation and immediately repositions the presenter as a peer, not a supplicant. It is free, requires no production, and works for any funder type. Coach clients to research the funder's stated criteria before every meeting.
-
-### The Co-Creation Principle (HBR / Elsbach Research)
-
-Research on investor and executive pitches shows that decision-makers respond best when they believe they are co-developing the idea  not receiving a completed argument. The implication: **do not pre-answer everything**. Leave deliberate space for the audience to contribute.
-
-Practical application in client coaching:
-- On the market slide: state the opportunity, then pause  "What are you seeing in your portfolio on thisSection " This invites co-ownership.
-- On the solution slide: present the mechanism, then ask: "Does this match how you've seen similar problems solvedSection "  the investor now co-validates rather than evaluates.
-- Do NOT pre-empt every objection in the deck. Leave 23 genuine open questions for Q&A so the audience feels they are shaping the final outcome.
-- The closing ask should feel like a logical step the audience has already been moving toward  not a surprise request.
-
-Counterintuitive coaching note: an over-prepared client who has pre-answered everything can come across as closed to input. Train clients to leave space, not fill every silence.
-
-### The Rehearsal Standard
-Minimum 6 full run-throughs before any high-stakes presentation:
-1. Silent (reading to self)
-2. Out loud, alone
-3. With coach  no interruption
-4. Q&A simulation (Session 4)
-5. Full dress rehearsal (Session 5)
-6. Day-of warm-up run (partial  opening + close + Q&A responses)
-
-### Vocal Delivery Coaching Notes (Edwards / McGowan)
-
-| Issue | Diagnosis | Fix |
-|---|---|---|
-| Speaking too fast | Nerves compressing pace | Mark pause points on speaker notes; breathe before key slides |
-| Filler words (um, like, basically) | Thinking out loud | Practise silence instead  pause rather than fill |
-| Upward inflection on statements | Uncertainty in claims | Record and replay; make every statement land downward |
-| Monotone delivery | Under-rehearsed or script-dependent | Vary pace and volume; slow down on key numbers |
-| Reading from slides | Content not internalised | Session 2  know every slide without looking |
-| Losing eye contact during data | Looking at screen/notes | Practise with printed notes only; look up for every number |
-| Weak close | Uncertain of the ask | Practise the close 20 times  it must be word-perfect and confident |
-
----
+See [`references/client-coaching-protocol.md`](references/client-coaching-protocol.md) for the detailed procedure.
 
 ## Mode C: Deck Audit
 
 Use before any presentation. Score each dimension 15.
 
 ### Narrative Audit
-- [ ] Is there a single governing idea (the One Thing)Section 
-- [ ] Does the deck follow a Sparkline structure  contrast between What Is and What Could BeSection 
-- [ ] Is there a STAR moment  one memorable, striking elementSection 
-- [ ] Does the opening create urgency in the first 60 secondsSection 
-- [ ] Does the close make the ask feel inevitableSection 
+- [ ] Is there a single governing idea (the One Thing)?
+- [ ] Does the deck follow a Sparkline structure  contrast between What Is and What Could Be?
+- [ ] Is there a STAR moment  one memorable, striking element?
+- [ ] Does the opening create urgency in the first 60 seconds?
+- [ ] Does the close make the ask feel inevitable?
 
 ### Slide Design Audit
-- [ ] Every slide has an assertion headline (complete sentence stating a conclusion)Section 
-- [ ] No slide has more than one key messageSection 
-- [ ] No bullet-point lists of more than 3 itemsSection 
-- [ ] Every chart is titled with its conclusion, not its descriptionSection 
-- [ ] The "glanceable test" passes  key message clear in 3 secondsSection 
-- [ ] Font sizes: minimum 24pt body, 36pt titlesSection 
-- [ ] No 3D charts, excessive animation, or decorative clutterSection 
+- [ ] Every slide has an assertion headline (complete sentence stating a conclusion)?
+- [ ] No slide has more than one key message?
+- [ ] No bullet-point lists of more than 3 items?
+- [ ] Every chart is titled with its conclusion, not its description?
+- [ ] The "glanceable test" passes  key message clear in 3 seconds?
+- [ ] Font sizes: minimum 24pt body, 36pt titles?
+- [ ] No 3D charts, excessive animation, or decorative clutter?
 
 ### Financial Slides Audit
-- [ ] DSCR stated prominently (for bank pitches)Section 
-- [ ] Revenue chart headlined with conclusion ("Revenue grows 3 in 24 months")Section 
-- [ ] Use-of-funds visual (not table) with 45 line itemsSection 
-- [ ] Every data point sourced or traceable to business plan projectionsSection 
-- [ ] Numbers consistent with the business plan document (see `meta-due-diligence/SKILL.md` Mode C)Section 
+- [ ] DSCR stated prominently (for bank pitches)?
+- [ ] Revenue chart headlined with conclusion ("Revenue grows 3 in 24 months")?
+- [ ] Use-of-funds visual (not table) with 45 line items?
+- [ ] Every data point sourced or traceable to business plan projections?
+- [ ] Numbers consistent with the business plan document (see `meta-due-diligence/SKILL.md` Mode C)?
 
 ### Delivery Readiness Audit
-- [ ] Client can speak to every slide without reading itSection 
-- [ ] Client knows 5 key numbers coldSection 
-- [ ] Q&A responses prepared for 10 hardest questionsSection 
-- [ ] STAR moment rehearsed and timedSection 
-- [ ] Opening and close are word-perfectSection 
-- [ ] Full dress rehearsal completedSection 
+- [ ] Client can speak to every slide without reading it?
+- [ ] Client knows 5 key numbers cold?
+- [ ] Q&A responses prepared for 10 hardest questions?
+- [ ] STAR moment rehearsed and timed?
+- [ ] Opening and close are word-perfect?
+- [ ] Full dress rehearsal completed?
 
 ---
 
@@ -495,3 +430,44 @@ Use before any presentation. Score each dimension 15.
 - `meta-pitch-preparation/SKILL.md`  Pitch strategy and frame control (Klaff STRONG method, McGowan 7 Principles). Run before this skill to establish the psychological frame the deck must embody.
 - `01-executive-summary/references/pyramid-principle.md`  SCQA structure. The deck narrative should mirror the executive summary SCQA logic.
 - `meta-due-diligence/SKILL.md`  Mode C: every claim on every slide must pass the DD audit. Run alongside the deck audit.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Deck design and audit record decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to using visual polish to conceal missing evidence. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the deck design and audit record; editing the supplied deck when design authority is explicit is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If approved narrative, audience, brand assets, and display constraints cannot be obtained, return a qualified deck design and audit record covering only the checks that remain supportable. Leave this decision unresolved: which slide sequence and visual treatment support the decision. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: which slide sequence and visual treatment support the decision | Record the conclusion, source trail, owner, and review trigger in the deck design and audit record. | Risk of using visual polish to conceal missing evidence |
+| Material evidence conflicts or remains uncertain | Prototype the disputed slide as a visual and as a concise evidence slide, then test legibility and comprehension in the real display context. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: approved narrative, audience, brand assets, and display constraints | Mark the decision on which slide sequence and visual treatment support the decision `not assessed` in the deck design and audit record, and send it to the presentation owner and intended speaker. | Otherwise, the work risks using visual polish to conceal missing evidence |
+
+## Quality Standards
+
+
+Accept the deck design and audit record only when evidence is sufficient for this decision: which slide sequence and visual treatment support the decision. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of using visual polish to conceal missing evidence.
+
+## Worked Example
+
+
+A dense market slide is legible on a laptop but not in the meeting room. Replace the table with one sourced comparison and move supporting detail to the appendix after a projected-size check.
+
+<!-- dual-compat-end -->

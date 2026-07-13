@@ -1,5 +1,7 @@
 # Concrete Build Backlog
 
+Conformance debt was cleared on 2026-07-13. The items below are capability expansion and evidence enrichment; they are not exceptions to the zero-debt skill baseline.
+
 | # | Filename/path | Purpose | Acceptance criteria | Effort |
 | --- | --- | --- | --- | --- |
 | 1 | docs/source-registers/country-market-data.md | Dated market and country evidence register. | Every country-context skill links to sources, checked date, and refresh owner. | M |

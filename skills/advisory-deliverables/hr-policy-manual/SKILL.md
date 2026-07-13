@@ -1,6 +1,9 @@
 ---
 name: hr-policy-manual
-description: Author a client-ready Human Resources Policy Manual (and related people-management documents) for NGOs, SMEs, SACCOs, donor-funded projects, and public-adjacent bodies in Uganda/East Africa. Owns document architecture, the consulting workflow, parameterisation, and the East African labour-law framing; defers the compensation, payroll, allowances, and staff-advances chapters to the Chwezi finance engine. Grounded in the Employment Act 2006 framework and real Ugandan NGO HR manuals. Not legal advice — employment-law minimums must be verified against current Uganda law.
+description: Use when authoring an HR policy manual for an East African NGO, SME, SACCO, project, or public-adjacent body; use `governance-and-board-charter` for board authority, verify current employment law, and defer payroll, allowances, advances, and staff costs to Chwezi Accounting Doctrine.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # HR Policy Manual
@@ -60,3 +63,72 @@ HR Policy Manual / staff handbook; job-grading and salary-band structure (parame
 - `references/document-blueprint.md` — chapter map (HR-owned vs finance-deferred), the chapter→doctrine-skill mapping for the money-touching chapters, the Statutory Schedule concept, the parameterisation rule, and the standard forms list.
 - Finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`): `skills/04-subledgers-and-operations/payroll-and-statutory-postings-east-africa`, `skills/04-subledgers-and-operations/expense-management-and-staff-claims`, `skills/10-controls-governance-and-fraud/whistleblowing-and-finance-ethics`, `skills/15-security-privacy-and-continuity/finance-data-privacy-and-retention`, and `doctrine/references/uganda-compliance-caveats.md` / `uganda-ngo-financial-management-patterns.md`.
 - `country-context/uganda/SKILL.md` for institutions, regulatory bodies, and labour market; `language/east-african-english` for style.
+
+<!-- dual-compat-start -->
+## Inputs
+
+| Artefact | Source or provider | Required? | If absent |
+|---|---|---|---|
+| Existing HR policies, contracts, organogram, grading, benefits, cases, and staff feedback | Client HR and governance records | Required | Produce a gap and evidence request; do not invent current terms |
+| Entity type, workforce categories, locations, collective terms, and funding restrictions | Client and verified authorities | Required | Keep affected clauses parameterised and provisional |
+| Current labour, payroll, benefits, tax, and privacy requirements | Verified legal sources and Chwezi Accounting Doctrine | Required for affected chapters | Stop those chapters pending current-source and professional review |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| HR Policy Manual | Board, management, HR, supervisors, staff, and assurance reviewers | Employment lifecycle, authority, fair process, records, exceptions, and appeal routes are explicit |
+| Statutory and policy parameter schedule | HR and finance owners | Every changing rate, entitlement, threshold, or form has a source, effective date, owner, and review date |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Clause traceability register | Clause-to-source-to-owner matrix | Legal, contractual, donor, and finance-dependent clauses are sourced and reviewable |
+| Finance and professional-review record | Chapter gate log | Payroll, allowances, advances, benefits, deductions, and staff costs pass current Chwezi doctrine and qualified review |
+
+## Capability Contract
+
+Default to read-only inspection of confidential HR records and minimise personal data. Edit only the authorised manual. Do not decide an individual case, change employment terms, run payroll, access unnecessary personnel data, or certify legal compliance without explicit authority and qualified review.
+
+## Degraded Mode
+
+If current law, client evidence, confidential-case access, or finance doctrine is unavailable, return a core policy architecture, parameter schedule, and evidence request. Mark legal and payroll conclusions `not assessed`; never infer entitlement or misconduct.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Law or contract grants a higher minimum than draft policy | Apply the higher binding requirement | Unlawful under-provision |
+| A rule depends on worker category or location | Separate the applicable schedules | Applying the wrong terms |
+| A case needs investigation or hearing | Preserve due process and impartial authority | Predetermined discipline |
+| Clause affects payroll, allowance, advance, benefit, or deduction | Apply Chwezi doctrine and professional review | Payroll or tax misstatement |
+
+## Workflow
+
+1. Confirm entity, workforce, locations, audience, confidentiality boundary, and approval route.
+2. Inventory existing terms, cases, systems, roles, benefits, findings, and staff concerns.
+3. Map the employment lifecycle and binding legal, contractual, donor, privacy, and finance sources; stop where a load-bearing rule cannot be verified.
+4. Agree the manual architecture and controlled parameter schedule before drafting changing values.
+5. Draft fair procedures with roles, notice, evidence, decision, appeal, records, and exceptions.
+6. Reconcile payroll and money-touching chapters against current Chwezi doctrine and qualified professional review.
+7. Test recruitment, leave, grievance, discipline, exit, and payroll-change cases; repair gaps before release.
+8. Issue only with approval status, review dates, privacy controls, and unresolved legal questions visible.
+
+## Quality Standards
+
+The manual must be lawful, fair, usable by supervisors, respectful of privacy, and consistent across contracts, payroll, and governance. Time-sensitive legal and finance content must be sourced, dated, and professionally reviewed.
+
+## Anti-Patterns
+
+- Copying a generic leave table. Fix: verify jurisdiction, worker category, contract, and effective date.
+- Treating discipline as an automatic penalty list. Fix: require allegation, evidence, response, impartial decision, and appeal.
+- Mixing policy rules with changing rates. Fix: keep rates and thresholds in a controlled schedule.
+- Collecting more personal data than the process needs. Fix: state purpose, access, retention, and deletion controls.
+- Drafting payroll clauses without finance review. Fix: route pay, deductions, benefits, advances, and postings to Chwezi doctrine.
+- Calling the manual legal advice or approved before sign-off. Fix: state status and required professional and competent-body review.
+
+## Worked Example
+
+For an employee working across two countries, do not apply the default Uganda leave schedule automatically. Identify the governing contract and work location, verify mandatory minima, record the applicable schedule, and seek legal and payroll review before issue.
+<!-- dual-compat-end -->

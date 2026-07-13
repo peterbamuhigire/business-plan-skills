@@ -1,6 +1,9 @@
 ---
 name: governance-and-board-charter
-description: Author a client-ready Governance Framework with Board & Committee Charters and a Delegation-of-Authority matrix for NGOs/CSOs, companies, SACCOs, donor-funded projects, and public/local-government bodies in Uganda/East Africa. Owns document architecture, the consulting workflow, parameterisation, and East African context; defers all finance-control and oversight substance to the Chwezi finance engine. Grounded in real Ugandan NGO governance manuals (General Assembly → Board → Secretariat) and the LG (Financial & Accounting) Regulations 2007 accounting-officer / surcharge framework.
+description: Use when authoring a governance framework, board or committee charter, or delegation-of-authority matrix for an East African organisation; use `internal-controls-and-risk-framework` for control design and defer finance oversight rules to Chwezi Accounting Doctrine.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # Governance and Board Charter
@@ -60,3 +63,72 @@ Governance Framework; Board Charter; per-committee charters (Finance, Audit, Pro
 - Finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`): `skills/10-controls-governance-and-fraud/internal-controls-library/`, `engagement-quality-and-plain-language-output/`, `whistleblowing-and-finance-ethics/`; `skills/06-close-consolidation-and-reporting/audit-ready-reporting-pack/`, `audit-pbc-and-evidence-management/`; `doctrine/references/uganda-public-sector-pfm.md`, `uganda-ngo-financial-management-patterns.md`.
 - `business-plan-skills`: `skills/meta-strategy/meta-living-plan-governance/`; `meta-reporting` (board & investor reporting).
 - `country-context/uganda/SKILL.md` for institutions/regulatory bodies; `language/east-african-english` for style.
+
+<!-- dual-compat-start -->
+## Inputs
+
+| Artefact | Source or provider | Required? | If absent |
+|---|---|---|---|
+| Constitution, articles, bylaws, existing charters, organogram, and resolutions | Client and registry records | Required | Produce a governance evidence request, not assumed authority |
+| Entity type, ownership or membership, committees, conflicts, and regulatory duties | Client interviews and verified authorities | Required | Mark unresolved mandates and stop before allocating reserved powers |
+| Finance oversight and delegation requirements | Chwezi Accounting Doctrine and current legal sources | Conditional | Keep finance clauses draft-only and seek professional review |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Governance framework and board or committee charters | Members, board, committees, secretariat, regulator, and funders | Mandates, reserved matters, composition, meetings, conflicts, decisions, records, and evaluation are explicit |
+| Delegation-of-authority matrix | Board, executive management, finance, procurement, and assurance roles | Every authority has a delegator, delegate, limit, condition, evidence, and escalation path |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Authority traceability register | Clause-to-source and approval matrix | Reserved and delegated powers trace to governing documents or verified law |
+| Governance consistency review | Cross-document exception log | Charter, organogram, delegation matrix, finance oversight, and committee terms do not conflict |
+
+## Capability Contract
+
+Default to read-only inspection of governance records. Edit only the authorised draft. Do not appoint officers, approve delegations, amend governing instruments, certify legal compliance, or exercise board authority; those actions require the competent organ and professional review.
+
+## Degraded Mode
+
+If governing documents or current legal and finance sources are unavailable, return a provisional structure, authority questions, and a clause-level evidence request. Mark unverified powers `not assessed` and do not infer authority from job titles.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Power is reserved by law or governing instrument | Keep it with the named organ | Ultra vires delegation |
+| Power may be delegated with conditions | State limit, duration, reporting, and revocation | Unbounded executive authority |
+| Board and management documents conflict | Stop and reconcile the source hierarchy | Competing chains of command |
+| Finance oversight clause touches controls or reporting | Apply Chwezi doctrine and professional review | Weak or misstated fiduciary oversight |
+
+## Workflow
+
+1. Establish entity type, authority hierarchy, audience, and approval route.
+2. Inventory governing instruments, resolutions, current bodies, delegations, conflicts, and known failures.
+3. Build an authority map; stop where a reserved power or statutory duty lacks a verified source.
+4. Design the framework, charter set, committee interfaces, and delegation matrix as one system.
+5. Draft meeting, decision, conflict, reporting, evaluation, records, and escalation rules with named evidence.
+6. Reconcile finance and audit oversight against Chwezi doctrine and current professional advice.
+7. Test realistic decisions and exceptions; recover by revising the authority map rather than adding vague discretion.
+8. Release with approval status, unresolved legal questions, and scheduled review dates visible.
+
+## Quality Standards
+
+Every power must have a lawful source, accountable owner, decision record, and review route. The framework must distinguish governance from management and must not claim legal or finance compliance without current-source and professional-review evidence.
+
+## Anti-Patterns
+
+- Giving the board every operational decision. Fix: reserve governing matters and delegate managed operations with limits.
+- Assigning authority by job title alone. Fix: trace each power to the delegating source and conditions.
+- Copying committee terms that overlap. Fix: map remit, information flow, and escalation between committees.
+- Omitting conflict-of-interest handling from decisions. Fix: specify disclosure, recusal, quorum impact, and recordkeeping.
+- Treating finance oversight as a generic board duty. Fix: map budgets, reporting, audit, controls, and exceptions to Chwezi doctrine.
+- Calling a charter effective before approval. Fix: state draft, approval body, resolution reference, and effective date.
+
+## Worked Example
+
+Where the board wants the executive director to approve contracts, first confirm the governing instrument permits delegation, set the monetary and term limits, require conflict disclosure and reporting, and reserve related-party or above-limit contracts for the board.
+<!-- dual-compat-end -->

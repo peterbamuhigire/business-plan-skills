@@ -1,6 +1,9 @@
 ---
 name: demand-forecasting
-description: Use for demand forecasts, stockout timing, reorder logic, branch/product sales aggregation, duplicate rows from SQL joins, or demand-driven planning from operational data.
+description: Use when producing demand forecasts, stockout timing, reorder logic, or branch and product sales aggregation from operational data; use `entrepreneurial-demand-generation` for customer acquisition logic and financial-projection skills for the integrated plan model.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # Demand Forecasting
@@ -76,3 +79,71 @@ Use this skill to turn sales, inventory, branch, and operational signals into de
 ## References
 
 Load `references/demand_forecasting.md` for SQL templates, stockout formulas, and demand-driven planning notes.
+
+<!-- dual-compat-start -->
+## Inputs
+
+| Artefact | Source or provider | Required? | If absent |
+|---|---|---|---|
+| Time-stamped demand, sales, stock, price, promotion, stockout, branch, and product data | POS, ERP, inventory, ecommerce, or approved extracts | Required | Return a data-gap assessment and scenario range, not a point forecast |
+| Business calendar, lead times, service levels, and known events | Operations, procurement, and commercial owners | Required for replenishment | Keep reorder outputs conditional |
+| Revenue, return, inventory, and unit definitions | Chwezi Accounting Doctrine and data owners | Required | Stop until measures and duplicate-row risks reconcile |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Forecast dataset and method note | Operations, procurement, sales, and finance | Grain, horizon, method, features, exclusions, uncertainty, and backtest are explicit |
+| Reorder or capacity decision table | Stock and operating owners | Each action links to forecast range, lead time, service level, constraint, and override owner |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Data-quality and join audit | Row-count, uniqueness, missingness, stockout, and reconciliation checks | Aggregation has not multiplied sales or confused zero demand with no stock |
+| Forecast evaluation | Backtest by horizon and segment | Error is compared with a simple baseline and weak segments are visible |
+
+## Capability Contract
+
+Analysis defaults to read-only. Do not alter source data, purchase orders, prices, promotions, or stock. Execution may run authorised queries and models against safe copies; production writes, spending, and accounting conclusions require explicit authority and review.
+
+## Degraded Mode
+
+Without adequate history, execution, or reliable stockout and return data, return a qualified bounded scenario, data requirements, and a backtest marked `not assessed`. Do not call missing sales zero demand or present an untested model as accurate.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Sparse or short history | Use a transparent baseline and wide range | Model overfit |
+| Stable repeated pattern with enough history | Compare seasonal and statistical methods by backtest | Unnecessary complexity |
+| Stockouts censor observed sales | Estimate lost-demand range and flag confidence | Under-forecasting constrained items |
+| SQL join changes row counts at the target grain | Stop and repair aggregation before modelling | Duplicated demand |
+
+## Workflow
+
+1. Define forecast target, grain, horizon, decision, cost of error, and override authority.
+2. Extract and reconcile demand, stock, price, returns, promotions, calendar, and lead-time data.
+3. Run uniqueness, join, missingness, stockout, outlier, and accounting-definition checks; stop on unresolved multiplication.
+4. Establish naive baselines and time-respecting backtests.
+5. Fit only methods justified by history and compare error by segment and horizon.
+6. Translate forecast ranges into reorder, staffing, or capacity actions with constraints.
+7. Monitor actuals, overrides, drift, and error; recover by reverting to the best validated baseline.
+
+## Quality Standards
+
+Forecasts must be reproducible, time-safe, reconciled to defined demand, compared with a baseline, and expressed with uncertainty. Decision usefulness matters more than model sophistication.
+
+## Anti-Patterns
+
+- Randomly splitting time-series rows. Fix: backtest forward in time.
+- Joining sales to multiple stock rows. Fix: aggregate each source to the target grain before joining.
+- Treating stockout days as zero demand. Fix: flag censored observations and estimate a range.
+- Optimising one overall error metric. Fix: inspect horizon, branch, SKU, and business cost of error.
+- Reordering from a point forecast alone. Fix: include lead time, service level, pack size, stock, and uncertainty.
+- Claiming accuracy without a naive baseline. Fix: show whether the method beats the simple alternative.
+
+## Worked Example
+
+If a branch-SKU join doubles rows after adding promotions, stop before forecasting, aggregate promotions to one row per branch-SKU-date, reconcile totals, then backtest the repaired dataset against a seasonal naive forecast.
+<!-- dual-compat-end -->

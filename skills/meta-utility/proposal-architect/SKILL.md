@@ -1,529 +1,111 @@
 ---
 name: proposal-architect
-description: >
-  Full-lifecycle proposal development workflow. Invoke when starting or continuing
-  work on any proposal, bid, tender, or RFP response. Handles workspace initialisation,
-  proposal scaffolding, opportunity analysis, brainstorming, section drafting, and
-  final DOCX compilation using Pandoc. Both technical and financial outputs are .docx.
+description: Use when coordinating a proposal, bid, tender, EOI, or RFP response from intake through compliant draft and document handoff; route specialised procurement methodology to the external proposal-skills engine.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Proposal Architect
 
-## Overview
+Coordinate the local business-plan suite's proposal workflow without replacing the canonical proposal-skills engine. Keep opportunity evidence, compliance, technical response, budget logic, review, and compilation traceable from source to final document.
 
-Use this skill as the orchestration layer for proposal, bid, tender, and RFP-response work. It owns the end-to-end proposal workflow from qualification and structure through drafting and final document assembly.
-
+<!-- dual-compat-start -->
 ## Use When
 
-- Use when starting or continuing a proposal, tender, bid, or RFP response.
-- Use when multiple proposal sections, compliance requirements, and final assembly must be coordinated.
-- Use when the output is a client-facing proposal rather than a standard business plan.
+- Starting or resuming a proposal, bid, tender, EOI, grant-like response, or RFP submission.
+- Converting solicitation documents into a compliance matrix, section plan, drafting workflow, and evidence register.
+- Coordinating technical narrative, financial proposal, annexes, review, and DOCX/PDF handoff.
 
 ## Do Not Use When
 
-- Do not use for standalone plan sections or live pitch prep unless they are part of proposal work.
-- Do not treat proposal drafting as a generic writing exercise detached from evaluation criteria.
-- Do not proceed to drafting before clarifying the opportunity, buyer, and win logic.
+- Use the external `proposal-skills` engine for specialised tender strategy, procurement response doctrine, evaluator simulation, or bid review.
+- Use `11b-grant-proposal` when the task is a business-plan grant section rather than a full procurement response.
+- Do not draft from an unread or incomplete solicitation when a missing instruction could create a knockout failure.
 
 ## Required Inputs
 
-- RFP, tender, or proposal brief where available
-- Client, buyer, sector, and decision context
-- Core solution, delivery model, pricing logic, and evidence base
-- Any format, compliance, or compilation requirements
+| Input artefact | Source/provider | Required | Behaviour when missing |
+| --- | --- | ---: | --- |
+| Solicitation, TOR, RFP, tender, or EOI documents | Issuing authority or client workspace | Yes | Stop compliance claims and request the controlling document. |
+| Submission instructions, deadlines, and evaluation criteria | Solicitation and clarifications | Yes | Mark the bid blocked where the omission could cause disqualification. |
+| Bidder credentials and evidence | Client evidence register | Yes | Leave unsupported claims out and assign an evidence owner. |
+| Technical approach and price inputs | Subject-matter and finance owners | Conditional | Produce a gap register; do not invent methodology, rates, costs, or staffing. |
 
 ## Workflow
 
-1. Confirm the opportunity, buyer, and proposal win condition.
-2. Break down the requirements into proposal sections and evidence needs.
-3. Draft the response around buyer priorities, differentiation, and compliance.
-4. Reconcile pricing, delivery, staffing, and risk claims across sections.
-5. Assemble the final package in the required format.
-6. Flag unresolved compliance, evidence, or packaging risks before submission.
+1. Confirm authority, proposal type, issuer, deadline, submission channel, and whether the workspace is new or continuing.
+2. Inventory every source file, clarification, form, template, eligibility condition, and mandatory signature; stop on unreadable or contradictory controlling documents.
+3. Produce an opportunity analysis covering deliverables, evaluation criteria, compliance requirements, budget rules, dates, themes, risks, and a section plan.
+4. Build the compliance matrix, evidence register, responsibility map, and outline before drafting. Recover missing evidence by assigning an owner and due date, not by inserting an unsupported claim.
+5. Draft section by section against the evaluation criteria. Apply the external proposal engine, relevant sector skills, finance doctrine, and research evidence as triggered.
+6. Run compliance, red-team, finance, consistency, anti-slop, document-tooling, and rendering checks. Stop release on a knockout, unresolved contradiction, unverified price, missing form, or failed render.
+7. Compile the authorised technical and financial outputs, preserve version history, and hand off the evidence pack with caveats and submission responsibility.
 
-## Quality Bar
+## Quality Standards
 
-- The proposal is responsive to the buyer's evaluation logic.
-- Compliance, solution design, and commercial terms align.
-- The narrative distinguishes the bidder clearly.
-- Final assembly preserves consistency and submission-readiness.
+- Every requirement maps to an owner, response location, evidence item, and completion state.
+- The response makes an evaluator-visible claim, evidence, warrant, and implication rather than generic capability statements.
+- The technical method, workplan, team, budget, assumptions, and deliverables reconcile.
+- Current procurement, tax, statutory, exchange-rate, or issuer facts are dated and verified.
+- Document files are not claimed complete until written, opened, rendered, and checked.
 
 ## Anti-Patterns
 
-- Writing a polished document that does not answer the brief.
-- Burying differentiators or win themes under generic capability language.
-- Letting pricing, methodology, and staffing contradict each other.
-- Treating final compilation as an afterthought.
+- Drafting before extracting mandatory requirements. Correction: build the compliance matrix and knockout register first.
+- Repeating the TOR as a methodology. Correction: state the bidder's sequence, roles, tools, evidence, decisions, and quality controls.
+- Claiming experience without a supporting reference. Correction: link each credential to a named contract, certificate, CV, or approved evidence gap.
+- Hiding an unpriced activity in technical prose. Correction: reconcile every resource and deliverable with the financial proposal.
+- Treating a missing annex as a formatting issue. Correction: classify its compliance impact and block submission when mandatory.
+- Compiling DOCX or PDF without rendering. Correction: open and visually verify pagination, tables, headings, signatures, and annex order.
 
 ## Outputs
 
-- A managed proposal workflow and finished proposal artefact
-- Section ownership, evidence needs, and compliance notes
-- Final assembly risks and open questions
+| Artefact | Consumer | Acceptance condition |
+| --- | --- | --- |
+| Opportunity analysis and compliance matrix | Bid lead and section owners | Every mandatory instruction, criterion, deliverable, date, and form has a traceable response state. |
+| Technical and financial proposal drafts | Evaluator and submission owner | Claims are evidenced; approach, staffing, workplan, and budget reconcile. |
+| Submission evidence pack | Reviewer and authorised submitter | Includes source register, review results, render evidence, open caveats, and final responsibility. |
 
+## Evidence Produced
 
+| Evidence | Format | Acceptance condition |
+| --- | --- | --- |
+| Requirement trace | Matrix row with source location, owner, response, evidence, and status | No mandatory item is silently omitted. |
+| Review record | Compliance, red-team, finance, anti-slop, and render results | Blocking findings are closed or the proposal remains blocked. |
+| Compilation manifest | File list, versions, checksums or timestamps, and output checks | The handed-off files match the reviewed content. |
 
-## When to Invoke
+<!-- dual-compat-end -->
+## Capability Contract
 
-Invoke this skill whenever a consultant says any of the following (or similar):
-- "Start a new proposal"
-- "I have an RFP to respond to"
-- "Help me write a bid"
-- "I want to work on a tender"
-- "Let's build a proposal for [client]"
-- "Continue working on [proposal name]"
+Read and search proposal sources and authorised evidence. Edit only the proposal workspace when drafting authority is explicit. Execute document conversion and validation only with approved local tooling. Network research must follow the digital-research engine. Sending, portal submission, external messaging, accepting terms, spending, signing, and certification require explicit human authority.
 
-Do NOT wait for an explicit skill invocation  if the intent is clearly proposal work,
-invoke this skill automatically before doing anything else.
+## Degraded Mode
 
----
+Fallback: if a solicitation file, evidence source, finance input, converter, renderer, font, or network source is unavailable, return the narrowest qualified artefact and mark affected checks `not assessed`. Preserve the blocker, owner, and recovery action; never declare a proposal compliant, priced, compiled, or submission-ready without evidence.
 
-## Prerequisites
+## Decision Rules
 
-Pandoc must be installed on the consultant's machine to compile final DOCX outputs.
+| Condition | Action | Failure or risk avoided |
+| --- | --- | --- |
+| A mandatory requirement is absent or contradicted | Stop the affected draft and seek clarification or evidence | Knockout or non-responsive bid. |
+| Evaluation weighting is explicit | Allocate effort and proof in proportion to scored criteria | Polished low-value sections crowding out decisive content. |
+| The proposal touches money, tax, grants, payroll, or price | Apply finance doctrine and qualified review | Unreconciled or non-compliant financial proposal. |
+| Rendering or submission tooling is unavailable | Hand off source plus a blocked compilation manifest | Claiming a deliverable exists when it was not generated or checked. |
 
-```bash
-# Windows
-winget install JohnMacFarlane.Pandoc
+## Worked Example
 
-# macOS
-brew install pandoc
+An RFP requires three signed reference forms and scores methodology at 40%. Two references are evidenced and one is missing. Mark the third form as a knockout risk with an owner and deadline; do not invent a client. Draft the method against the weighted criteria, reconcile staffing days to price, render the final files, and retain the compliance and compilation records.
 
-# Ubuntu / Debian
-sudo apt install pandoc
-```
+## References
 
-Verify: `pandoc --version`
+- [Full lifecycle workflow](references/full-lifecycle-workflow.md) - load for workspace phases, folder conventions, analysis structure, drafting, review, and compilation detail.
+- [High-value proposal strategy](references/high-value-proposal-strategy.md) - load for win themes, evaluator logic, evidence, and commercial differentiation.
 
-If Pandoc is not installed, proceed with all drafting phases. Flag the missing dependency
-before the compilation phase. Pandoc is only needed at the very end.
+## Read Next
 
----
-
-## Phase 1: Workspace Initialisation
-
-**Check** whether the `/proposals` directory exists in the repo root.
-
-If it does NOT exist:
-1. Create the `/proposals/` directory.
-2. Create `/proposals/index.md` using the template below.
-3. Announce: "Proposals workspace created. Ready to start your first proposal."
-
-If it already exists:
-- Proceed silently to Phase 2.
-
-### proposals/index.md template
-
-```markdown
-# Proposals Index
-
-| # | Proposal Name | Client | Sector | Deadline | Type | Status | Directory |
-|---|--------------|--------|--------|----------|------|--------|-----------|
-```
-
----
-
-## Phase 2: New Proposal vs. Continue Existing
-
-Ask the consultant:
-
-> "Are you starting a **new proposal**, or continuing work on an **existing one**Section "
-
-**If continuing:** List all subdirectories in `/proposals/` (excluding `index.md`).
-Ask which one to open. Load its `research/opportunity-analysis.md` and `sections/` for
-context, then ask what to work on next. Skip to the relevant phase.
-
-**If new:** Proceed to Phase 3.
-
----
-
-## Phase 3: New Proposal Intake
-
-Ask each question in sequence. Wait for the answer before asking the next.
-
-1. **Proposal name**  e.g. "Solar Mini-Grid Feasibility Study for MEMD"
-   Convert to a directory slug: lowercase, hyphens, no special characters.
-   Example: `solar-mini-grid-feasibility-memd`
-
-2. **Client / organisation**  who is issuing the opportunitySection 
-
-3. **Sector**  e.g. Energy, Health, Agriculture, Education, Infrastructure, Finance
-
-4. **Submission deadline**  date and time if known
-
-5. **Output type**  does the client require:
-   - (A) A **single combined** proposal document (technical + financial together), or
-   - (B) **Separate** technical and financial envelopes/documentsSection 
-
-Once all answers are collected:
-
-### Create the proposal directory structure
-
-```
-proposals/{slug}/
-  sections/
-  terms/
-  sheets/
-  research/
-  assets/
-  drafts/
-  submissions/
-```
-
-Create a `README.md` inside the proposal root:
-
-```markdown
-# {Proposal Name}
-
-**Client:** {client}
-**Sector:** {sector}
-**Deadline:** {deadline}
-**Output type:** {Combined | Split}
-**Created:** {date}
-**Status:** Drafting
-
-## Quick Reference
-- Source materials: `terms/`
-- Narrative sections: `sections/`
-- Tables and spreadsheets: `sheets/`
-- Research and analysis: `research/`
-- Charts and diagrams: `assets/`
-- Scratch work: `drafts/`
-- Final deliverables: `submissions/`
-```
-
-### Update proposals/index.md
-
-Add a new row to the index table:
-
-```
-| {n} | {Proposal Name} | {client} | {sector} | {deadline} | {Combined|Split} | Drafting | proposals/{slug}/ |
-```
-
----
-
-## Phase 4: Source Materials Intake
-
-Tell the consultant:
-
-> "Please copy all client documents into:
->
-> `proposals/{slug}/terms/`
->
-> This includes:
-> - The RFP, ITT, EOI, or advertisement
-> - Terms of Reference (TOR) if provided
-> - Any submission template or formatting guide provided by the client
-> - Evaluation criteria or scoring matrix
-> - Any reference documents or previous reports the client attached
->
-> Let me know when they are in place."
-
-Wait for the consultant to confirm. Then read every file in `terms/` thoroughly.
-
-If the consultant pastes text directly into the chat instead of saving files,
-save it as `terms/rfp-pasted.md` before proceeding.
-
----
-
-## Phase 5: Opportunity Analysis
-
-Analyse all materials in `terms/` and extract the following. Write findings to
-`research/opportunity-analysis.md`.
-
-### research/opportunity-analysis.md structure
-
-```markdown
-# Opportunity Analysis: {Proposal Name}
-
-## 1. Summary
-One paragraph: what the client wants and why.
-
-## 2. Required Deliverables
-List every deliverable explicitly mentioned.
-
-## 3. Mandatory Proposal Sections
-List sections in the order the client specifies. Note any page/word limits.
-
-## 4. Evaluation Criteria
-| Criterion | Weight | Notes |
-|-----------|--------|-------|
-
-## 5. Budget and Financial Requirements
-- Budget ceiling (if stated):
-- Currency:
-- Financial format required:
-- VAT / tax treatment:
-- Payment terms:
-
-## 6. Submission Format
-- File format(s):
-- Submission method (portal / email / physical):
-- Copies required:
-- Naming conventions:
-
-## 7. Eligibility Requirements
-List any mandatory qualifications, registrations, certifications, or exclusions.
-
-## 8. Key Dates
-| Milestone | Date |
-|-----------|------|
-
-## 9. Key Themes and Priorities
-What the client cares most about, inferred from language and emphasis in the RFP.
-
-## 10. Risks and Red Flags
-Any ambiguities, tight constraints, or requirements that need clarification.
-
-## 11. Recommended Section Plan
-Based on the above, list the sections this proposal should contain, in order.
-Override the default section list if the client specifies a different structure.
-```
-
-After writing the file, summarise the top 5 findings for the consultant verbally.
-
----
-
-## Phase 6: Brainstorm and Draft
-
-This is the creative engine of the skill. Invoke superpowers fully.
-
-### 6a. Positioning brainstorm
-
-Before drafting, think through:
-- What is the client's real problem, beneath the stated requirementsSection 
-- What differentiates this team / organisation from likely competitorsSection 
-- What is the single strongest theme to run through the proposalSection 
-- What methodology or approach will score highest on evaluation criteriaSection 
-- What risks must the proposal address proactivelySection 
-- What commercial or strategic value should the client expect if this proposal is acceptedSection 
-
-Share this thinking with the consultant. Agree on the positioning before drafting.
-
-### 6a.1 High-value proposal framing
-
-For strategic, advisory, transformation, operational improvement, or other large-value bids, build a clear transformation thesis before drafting:
-
-1. **Why now**  what makes change urgent for the clientSection 
-2. **What changes**  what measurable improvement will the client seeSection 
-3. **Why this team**  what proof makes the proposal credibleSection 
-4. **How risk is controlled**  what reduces delivery risk from day oneSection 
-
-Where relevant, show capability across these transformation pillars:
-- leadership
-- culture
-- people
-- systems
-- IQ
-- EQ
-- flexibility
-- fearlessness
-
-If the assignment is tied to growth, match the proposal to the client's lifecycle stage:
-- launch / early traction
-- scaling / repeatability
-- mature / optimisation and defence
-
-For high-value bids, include a visible first-90-days mobilisation logic.
-
-### 6b. Section drafting
-
-Draft each section as a separate `.md` file in `sections/`.
-
-Use the section plan from `research/opportunity-analysis.md`.
-If the client did not specify sections, use the default plan below.
-
-For each section:
-- Open with a strong, client-focused statement (not a generic introduction)
-- Address evaluation criteria directly  name the criterion if helpful
-- Use concrete language: numbers, timelines, named methodologies, specific outputs
-- Avoid filler phrases: "we are pleased to submit", "we have extensive experience"
-- Make commercial value legible: revenue upside, efficiency gain, risk reduction, cycle-time improvement, or retention impact
-
-**Do not pad.** A tight, confident proposal beats a long, vague one.
-
-### Default section plan (override if client specifies otherwise)
-
-| File | Section | Notes |
-|------|---------|-------|
-| `sections/01-executive-summary.md` | Executive Summary | Write last; max 1 page |
-| `sections/02-background.md` | Background and Context | Demonstrate you understand the client's world |
-| `sections/03-problem-statement.md` | Problem Statement | Restate the problem in your own words; show insight |
-| `sections/04-objectives.md` | Objectives | Mirror the client's language; add measurability |
-| `sections/05-methodology.md` | Methodology and Approach | The most-read section; be specific |
-| `sections/06-implementation-plan.md` | Implementation Plan | Phases, activities, milestones; reference the timeline sheet |
-| `sections/07-team.md` | Team and Qualifications | CVs in appendix; highlight relevance here |
-| `sections/08-budget.md` | Budget Narrative | Financial proposals only; link to sheets/budget.xlsx |
-| `sections/09-risk-analysis.md` | Risk Analysis | Risk register format; mitigation for each |
-| `sections/10-monitoring-evaluation.md` | Monitoring and Evaluation | KPIs, reporting cadence, accountability |
-| `sections/11-appendices-list.md` | Appendices | List what is attached; do not repeat content |
-
-### 6c. Sheets generation
-
-For every tabular element, generate a structured file in `sheets/`.
-
-| File | Contents |
-|------|---------|
-| `sheets/budget.xlsx` | Line-item budget: activity, unit, quantity, unit cost, total, notes |
-| `sheets/timeline.xlsx` | Gantt-style: activities vs. weeks/months |
-| `sheets/staffing.csv` | Role, person, days, rate, total cost |
-| `sheets/assumptions.xlsx` | All financial and operational assumptions |
-
-Generate the content in Markdown tables first (so the consultant can review),
-then instruct the consultant to paste them into Excel/CSV files in `sheets/`.
-
-For Uganda-context proposals:
-- Use UGX as default currency unless the RFP specifies otherwise
-- Apply UGX 3,700/$1 as the conservative planning rate
-- Include VAT at 18% where applicable
-- Note WHT rates for consultancy fees (6% for residents, 15% for non-residents)
-- Flag EFRIS e-invoicing requirement for VAT-registered suppliers
-
----
-
-## Phase 7: Review and Refinement
-
-Before compiling, run through this checklist with the consultant:
-
-- [ ] Every evaluation criterion is addressed explicitly in at least one section
-- [ ] All mandatory sections from the RFP are present
-- [ ] Page / word limits are respected
-- [ ] Budget in sections/08-budget.md matches sheets/budget.xlsx totals exactly
-- [ ] Team CVs and supporting documents are ready for appendices
-- [ ] No section contradicts another (check timelines vs implementation plan)
-- [ ] Executive summary written last and reflects the final proposal accurately
-- [ ] All client terminology and naming conventions used correctly
-
----
-
-## Phase 8: Compilation
-
-### Prerequisites check
-
-```bash
-pandoc --version
-```
-
-If this fails, ask the consultant to install Pandoc before proceeding.
-
-### Technical proposal
-
-If a client DOCX template exists in `terms/`:
-
-```bash
-pandoc sections/01-executive-summary.md \
-       sections/02-background.md \
-       sections/03-problem-statement.md \
-       sections/04-objectives.md \
-       sections/05-methodology.md \
-       sections/06-implementation-plan.md \
-       sections/07-team.md \
-       sections/09-risk-analysis.md \
-       sections/10-monitoring-evaluation.md \
-       sections/11-appendices-list.md \
-  --reference-doc=terms/client-template.docx \
-  -o submissions/technical-proposal.docx
-```
-
-If no client template exists:
-
-```bash
-pandoc sections/01-executive-summary.md \
-       sections/02-background.md \
-       sections/03-problem-statement.md \
-       sections/04-objectives.md \
-       sections/05-methodology.md \
-       sections/06-implementation-plan.md \
-       sections/07-team.md \
-       sections/09-risk-analysis.md \
-       sections/10-monitoring-evaluation.md \
-       sections/11-appendices-list.md \
-  -o submissions/technical-proposal.docx
-```
-
-### Financial proposal (Split output type only)
-
-```bash
-pandoc sections/08-budget.md \
-  --reference-doc=terms/client-template.docx \
-  -o submissions/financial-proposal.docx
-```
-
-If no client template:
-
-```bash
-pandoc sections/08-budget.md \
-  -o submissions/financial-proposal.docx
-```
-
-### Combined output (Combined output type)
-
-Include all sections in one command, with `08-budget.md` after the team section:
-
-```bash
-pandoc sections/01-executive-summary.md \
-       sections/02-background.md \
-       sections/03-problem-statement.md \
-       sections/04-objectives.md \
-       sections/05-methodology.md \
-       sections/06-implementation-plan.md \
-       sections/07-team.md \
-       sections/08-budget.md \
-       sections/09-risk-analysis.md \
-       sections/10-monitoring-evaluation.md \
-       sections/11-appendices-list.md \
-  --reference-doc=terms/client-template.docx \
-  -o submissions/proposal.docx
-```
-
-### After compilation
-
-1. Ask the consultant to open the DOCX and verify formatting.
-2. Remind them to manually paste in tables from `sheets/` if not embedded.
-3. Ask them to update `proposals/index.md` status to `Under Review`.
-
----
-
-## Guiding Principles
-
-1. **Compliance first**  a non-compliant proposal is disqualified regardless of quality.
-   Always check mandatory requirements before being creative.
-
-2. **Evaluate-criteria-driven writing**  every paragraph should earn marks.
-   If it does not address a criterion, question whether it belongs.
-
-3. **Specificity wins**  "we will conduct 12 community consultations across 4 districts
-   between weeks 3 and 6" beats "we will engage stakeholders comprehensively".
-
-4. **Client language**  mirror the client's terminology. If they call it a "workplan",
-   do not call it an "implementation schedule".
-
-5. **Financialnarrative alignment**  the budget must match what the methodology
-   describes. Reviewers cross-check this. Discrepancies cost marks and credibility.
-
-6. **Confidentiality**  proposals are in `/proposals/` which is gitignored.
-   Never commit proposal content to the shared repo.
-
-7. **Value visibility**  high-value proposals should show the business case, not only the workplan.
-
-8. **First-90-days control**  serious buyers want to know how delivery starts; show mobilisation, governance, and early wins where relevant.
-
----
-
-## Quick Reference: Folder Purposes
-
-| Folder | Contents |
-|--------|---------|
-| `sections/` | Narrative .md files  one per proposal section |
-| `terms/` | All client-issued materials: RFP, TOR, template, advert |
-| `sheets/` | Structured/tabular work: budgets, timelines, staffing |
-| `research/` | Opportunity analysis, sector notes, competitor intelligence |
-| `assets/` | Charts, diagrams, logos, photos |
-| `drafts/` | Scratch writing, brainstorm dumps, iteration versions |
-| `submissions/` | Final compiled DOCX files ready for client delivery |
-
----
-
-## Reference Files
-
-- `references/high-value-proposal-strategy.md`  use for transformation, growth, advisory, or operational-improvement proposals that need a clear change thesis, measurable client value, and a credible first-90-days mobilisation plan
+- External `proposal-skills` for procurement-specific response strategy and red-team review.
+- `meta-accounting-finance-review` for financial proposal reconciliation.
+- `ai-slop-audit` for the independent final content gate.

@@ -1,8 +1,14 @@
 ---
 name: meta-digital-transformation
-description: Cross-cutting meta-skill for designing practical digital transformation, digitisation, and business model modernisation strategies inside a business plan or growth strategy. Use when the work needs a credible roadmap for smarter use of technology, customer-network strategy, data assets, platform or marketplace choices, process digitisation, demand-driven redesign, or business-case-tested technology investment.
+description: Use when the client wants a digitally enabled growth strategy, operating model, or business-model redesign. Use the relevant plan-section skill for section drafting.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Digital Transformation Meta-Skill
 
 ## Overview
@@ -24,6 +30,12 @@ Use this meta-skill when a business plan or strategy needs a serious answer to t
 
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Digital Transformation brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Current business model, offer, target customers, and growth objective
 - Existing workflows, systems, channels, data, and digital tools
 - Commercial pain points: acquisition, conversion, fulfilment, retention, leakage, reporting, or coordination
@@ -40,6 +52,13 @@ Use this meta-skill when a business plan or strategy needs a serious answer to t
 6. For software, SaaS, platform, or cloud-dependent businesses, assess DevOps maturity: release path, pipeline discipline, observability, incident response, security checks, backup/restore, and cloud cost control.
 7. Produce a phased roadmap with owners, KPIs, dependencies, and handoffs to `14-ai-integration`, `10-financial-projections`, `11-funding-request`, and `13-implementation-timeline` as needed.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the staged digital-transformation roadmap and that the decision concerns which capability to digitise first and what to defer.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (customer problem, process baseline, data readiness, and investment case) or if the work could lead to this identified risk: funding technology that has no customer or operating mechanism.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - Recommendations solve real customer or operating problems rather than decorating the plan with tech language.
@@ -54,9 +73,21 @@ Use this meta-skill when a business plan or strategy needs a serious answer to t
 - Recommending AI before fixing process, data, or ownership.
 - Assuming platform economics where network effects are absent.
 - Treating digital transformation as capex with no adoption, governance, or KPI logic.
+- Treating a generic digital transformation template as a conclusion. **Correction:** tie each choice to the named audience, evidence, and operating constraint.
 
+
+- Applying the wrong neighbouring route to meta digital transformation. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Digital Transformation deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Digital maturity and opportunity diagnosis
 - Prioritised digitisation and business-model options
 - Business-case-tested roadmap for technology investment
@@ -70,3 +101,44 @@ Use this meta-skill when a business plan or strategy needs a serious answer to t
 - `../../book-extractions/haines-how-to-create-a-business-case-extraction.md` - options, do-nothing case, incremental economics, and sensitivity logic for major digital investments
 - `../../book-extractions/devops-operating-model-extraction.md` - DevOps, CI/CD, release, observability, incident response, PHP/LAMP, cloud-native, and digital service reliability patterns for technology businesses
 - `../14-ai-integration/SKILL.md` - use after the broader digital strategy is clear and the AI layer must be specified
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Staged digital-transformation roadmap decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to funding technology that has no customer or operating mechanism. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the staged digital-transformation roadmap; drafting the authorised roadmap without buying or deploying systems is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If customer problem, process baseline, data readiness, and investment case cannot be obtained, return a qualified staged digital-transformation roadmap covering only the checks that remain supportable. Leave this decision unresolved: which capability to digitise first and what to defer. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: which capability to digitise first and what to defer | Record the conclusion, source trail, owner, and review trigger in the staged digital-transformation roadmap. | Risk of funding technology that has no customer or operating mechanism |
+| Material evidence conflicts or remains uncertain | Compare the first-stage capability against the current manual process on customer outcome, control burden, adoption, and payback before sequencing it. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: customer problem, process baseline, data readiness, and investment case | Mark the decision on which capability to digitise first and what to defer `not assessed` in the staged digital-transformation roadmap, and send it to the process owner and investment sponsor. | Otherwise, the work risks funding technology that has no customer or operating mechanism |
+
+## Quality Standards
+
+
+Accept the staged digital-transformation roadmap only when evidence is sufficient for this decision: which capability to digitise first and what to defer. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of funding technology that has no customer or operating mechanism.
+
+## Worked Example
+
+
+A distributor requests an AI platform while orders still arrive through unstructured messages. Sequence order capture and clean product data first; approve later automation only after adoption and error-rate evidence.
+
+<!-- dual-compat-end -->

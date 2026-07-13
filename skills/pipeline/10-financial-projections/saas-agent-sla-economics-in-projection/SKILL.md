@@ -1,6 +1,11 @@
 ---
 name: saas-agent-sla-economics-in-projection
-description: Wire SLA performance into the 3yr / 5yr financial projection — SLA-breach scenarios feed revenue (credit cost), risk register (reputational), churn (SLA performance as leading indicator of churn), and funding need (reserve drawdown). Model SLA-tier mix evolution, cost-of-quality assumptions, and SLA performance as an integrated projection driver, not a one-time risk event.
+description: Use when producing or reviewing the saas agent sla economics in projection component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # SaaS Agent SLA Economics in Projection Skill
@@ -46,6 +51,8 @@ A plan that does not model these lines is operationally blind to a material risk
 - Reserve balances and methodology
 
 ## Workflow
+
+Apply the ordered stages below; stop and recover when a stage lacks its required evidence.
 
 ### 1. Build the SLA-line projection in the P&L
 
@@ -227,3 +234,84 @@ Per cadence below.
 - **African insurer / regulated-sector adoption** — SLA discipline is a buying criterion; project SLA-quality flywheel as enabling regulated-sector expansion
 - **Local-talent reliability engineering** — Tool Engineer + Eval Engineer roles in Uganda / Kenya / Nigeria fully loaded USD 2,500-9,500 / month; cost-of-quality investment scales differently from US benchmarks
 - **Regulator-mandated SLA risk** — emerging in KE / NG / ZA financial-services AI; project regulatory-SLA-imposition scenario
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Approved commercial assumptions, contracts, usage/cost evidence, accounting framework, opening position, and projection horizon for saas agent sla economics in projection | Client records, approved operating model, finance owner, and accounting doctrine | Yes | If absent, contract terms, usage evidence, framework, or cost drivers are unavailable, isolate the affected schedule, label it unassessed, and do not force the model to balance with a plug. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Integrated projections with SLA and scenario effects | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| saas agent sla economics in projection exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| saas agent sla economics in projection release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Formula trace, source/assumption register, three-statement or schedule reconciliation, and finance-gate record | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| saas agent sla economics in projection decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| saas agent sla economics in projection review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For saas agent sla economics in projection, the controlling focus is SLA credit frequency, downtime exposure, margin sensitivity, cash timing, and downside projections. This skill may inspect records and calculate planning scenarios in read-only mode; it may not post entries, change ledgers, set accounting policy, certify IFRS treatment, or release statutory values without authorised professional review. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For saas agent sla economics in projection, loss of evidence about SLA credit frequency, downtime exposure, margin sensitivity, cash timing, and downside projections activates degraded mode. If the controlling saas agent sla economics in projection evidence is unavailable, the same boundary applies. When contract terms, usage evidence, framework, or cost drivers are unavailable, isolate the affected schedule, label it unassessed, and do not force the model to balance with a plug. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For saas agent sla economics in projection, commercial billing, cash receipt, service delivery, and accounting recognition occur in different periods| model each event separately, reconcile the bridge, and route judgemental treatment to the finance reviewer | Cash, revenue, liability, and margin can be conflated into a misleading forecast |
+| For saas agent sla economics in projection, A current legal, regulatory, tax, accounting, market, or platform claim controls the saas agent sla economics in projection decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For saas agent sla economics in projection, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete integrated projections with sla and scenario effects, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact saas agent sla economics in projection decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect approved commercial assumptions, contracts, usage/cost evidence, accounting framework, opening position, and projection horizon and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce integrated projections with sla and scenario effects with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Integrated projections with SLA and scenario effects must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Formula trace, source/assumption register, three-statement or schedule reconciliation, and finance-gate record must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to saas agent sla economics in projection, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In saas agent sla economics in projection, treating an unavailable approved commercial assumptions, contracts, usage/cost evidence, accounting framework, opening position, and projection horizon as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing integrated projections with sla and scenario effects that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+A 99.9% SLA looks affordable in the base case, but one regional outage triggers credits across the largest cohort. Add frequency and concentration scenarios and show the effect on margin, cash, and funding runway.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for saas agent sla economics in projection; no local deep-dive reference is declared.
+- For saas agent sla economics in projection claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

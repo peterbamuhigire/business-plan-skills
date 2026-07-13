@@ -1,6 +1,11 @@
 ---
 name: saas-agent-pricing-strategy
-description: Design agent-product pricing using the agent-specific pricing primitives — per-resolution / per-outcome / per-step / per-agent / hybrid — with intervention-credit reduction, success-conditional pricing, SLA-tied pricing, vendor-cost pass-through, and FX-corridor protection. Sits on top of `saas-ai-pricing-strategy`. Use whenever a SaaS plan ships an agent or multi-agent product whose value is measured in actions, outcomes, or resolutions rather than in seats or queries.
+description: Use when producing or reviewing the saas agent pricing strategy component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # SaaS Agent Pricing Strategy Skill
@@ -182,3 +187,84 @@ When agent pricing includes **multi-tier SLA** (bronze / silver / gold or simila
 - **Public-sector agent contracts** (KE Huduma automation, NG NIMC, RW Irembo, UG NITA-U e-Gov) frequently demand fixed-fee or capped per-citizen-interaction pricing; demand cost-floor protection language and a maximum-volume clause.
 - **Subscription + usage hybrid** works in African SMB / mid-market: low-platform fee (UGX 200k-1M / month) plus per-resolved-task variable; reduces SMB churn vs pure-usage.
 - **Sovereign-AI procurement** may require pricing in local currency with USD index — design the contract clause.
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| ICP, buying process, channel evidence, price tests, unit economics, and sales capacity for saas agent pricing strategy | Customer research, CRM records, approved financial model, and sales owner | Yes | If absent, price, margin, conversion, or capacity evidence is unavailable, return a testable commercial hypothesis and cap the recommendation at pilot scale. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Pricing or packaging decision with margin and adoption guardrails | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| saas agent pricing strategy exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| saas agent pricing strategy release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Price metric rationale, willingness-to-pay evidence, margin bridge, and failure thresholds | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| saas agent pricing strategy decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| saas agent pricing strategy review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For saas agent pricing strategy, the controlling focus is agent task metric selection, included usage, overage, SLA credits, and willingness-to-pay evidence. This skill may analyse commercial options and draft tests; it may not launch prices, purchase media, contact prospects, alter contracts, or promise outcomes without explicit authority. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For saas agent pricing strategy, loss of evidence about agent task metric selection, included usage, overage, SLA credits, and willingness-to-pay evidence activates degraded mode. If the controlling saas agent pricing strategy evidence is unavailable, the same boundary applies. When price, margin, conversion, or capacity evidence is unavailable, return a testable commercial hypothesis and cap the recommendation at pilot scale. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For saas agent pricing strategy, a package or channel grows headline demand while weakening gross margin, trust, or delivery capacity| reject or constrain it, quantify the guardrail, and test the next credible option | Growth recommendations can consume cash or create obligations the business cannot fulfil |
+| For saas agent pricing strategy, A current legal, regulatory, tax, accounting, market, or platform claim controls the saas agent pricing strategy decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For saas agent pricing strategy, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete pricing or packaging decision with margin and adoption guardrails, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact saas agent pricing strategy decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect icp, buying process, channel evidence, price tests, unit economics, and sales capacity and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce pricing or packaging decision with margin and adoption guardrails with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Pricing or packaging decision with margin and adoption guardrails must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Price metric rationale, willingness-to-pay evidence, margin bridge, and failure thresholds must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to saas agent pricing strategy, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In saas agent pricing strategy, treating an unavailable icp, buying process, channel evidence, price tests, unit economics, and sales capacity as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing pricing or packaging decision with margin and adoption guardrails that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+A per-seat plan allows a small team to run millions of agent actions. Replace seat-only pricing with an evidenced included task allowance and overage, while retaining a predictable customer bill.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for saas agent pricing strategy; no local deep-dive reference is declared.
+- For saas agent pricing strategy claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

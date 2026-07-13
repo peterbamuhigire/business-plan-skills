@@ -1,112 +1,36 @@
-# Dual-Surface Migration Rules
+# Dual-surface migration rules
 
-Use this guide when converting the repository to work cleanly for both Codex and Claude Code.
+Parent: [Skill Writing](../SKILL.md)
 
-## Objective
+Use one canonical portable `SKILL.md` per reusable procedure and keep repository-wide orchestration in `AGENTS.md` or `CLAUDE.md`.
 
-Use a dual-surface model:
+## Ownership boundary
 
-- `SKILL.md` as the portable, shared skill unit
-- `AGENTS.md` as the repo-wide orchestration and policy layer
+| Content | Owner | Reason |
+| --- | --- | --- |
+| Trigger, inputs, decisions, workflow, safety, degraded mode, outputs, evidence | `SKILL.md` | Travels with the procedure. |
+| Deep examples, schemas, checklists, case material | Directly linked `references/*.md` | Preserves progressive disclosure. |
+| Repository routing, active roots, shared gates, release commands | `AGENTS.md` and maintainer documentation | Applies across skills. |
+| Runner commands, model selection, UI settings | Thin runner adapter | Must not contaminate portable skill bodies. |
 
-## What Goes In `SKILL.md`
+## Migration sequence
 
-Put into `SKILL.md` anything that should travel with the skill regardless of agent:
+1. Inventory active skills from the filesystem and separate templates or inactive aliases.
+2. Preserve the existing scope and useful domain content unless collision evidence supports a split or consolidation.
+3. Replace invalid metadata and weak descriptions with the approved portable frontmatter.
+4. Declare inputs, outputs, evidence, permission boundary, degraded mode, decisions, stop conditions, recovery, and acceptance before rearranging explanatory prose.
+5. Extract long material only when the entrypoint would exceed 500 lines or routing-critical instructions are obscured.
+6. Add positive, negative, collision, limited-capability, and failure-path fixtures.
+7. Run the local validator, routing smoke test, canonical scanner, and canonical per-skill validator.
+8. Record before and after measurements; a baseline with failures is not a waiver.
 
-- when the skill should activate
-- required inputs
-- workflow and checklist
-- decision rules
-- anti-patterns
-- output standards
-- pointers to deeper reference files
+## Stop conditions
 
-## What Goes In `AGENTS.md`
+- Stop if a pre-existing user change overlaps the intended edit and ownership cannot be reconciled.
+- Stop if remote `main` has diverged and safe integration cannot be proved.
+- Stop if a proposed split, rename, deletion, or deactivation lacks routing evidence.
+- Stop if missing evidence would force invented domain decisions, thresholds, examples, or finance facts.
 
-Put into `AGENTS.md` anything that is repo-wide, cross-skill, or operationally global:
+## Release rule
 
-- repo purpose
-- routing by task type
-- baseline skill load order
-- hard constraints
-- verification expectations
-- migration rules
-- done-means criteria
-
-## Migration Process
-
-### 1. Preserve the skill as the canonical unit
-
-Do not replace skills with one giant `AGENTS.md`.
-
-### 2. Remove provider-specific assumptions
-
-Delete or rewrite:
-
-- provider-specific command syntax
-- slash-command assumptions
-- chat UI instructions
-- instructions that depend on hidden platform behaviour
-
-### 3. Shorten `SKILL.md`
-
-Keep only:
-
-- scope
-- workflow
-- decision rules
-- outputs
-
-Move:
-
-- long frameworks
-- examples
-- checklists
-- teaching material
-
-into `references/`.
-
-### 4. Normalise structure
-
-Where practical, add these sections:
-
-1. Overview
-2. Use When
-3. Do Not Use When
-4. Required Inputs
-5. Workflow
-6. Quality Bar
-7. Anti-Patterns
-8. Outputs
-9. References
-
-### 5. Centralise repeated standards
-
-If the same rules appear in many skills, move them into:
-
-- a shared baseline skill
-- a shared reference
-- or `AGENTS.md` if they are truly repo-wide
-
-## Decision Rule: `SKILL.md` vs `AGENTS.md`
-
-Ask:
-
-- Is this rule portable with the skill? Put it in `SKILL.md`.
-- Is this rule about the whole repository or multi-skill workflow? Put it in `AGENTS.md`.
-
-## Anti-Patterns
-
-- giant `SKILL.md` files that duplicate reference content
-- repo-wide rules copied into dozens of skills
-- platform-specific instructions embedded in portable skills
-- overlapping skills that solve the same problem with different wording
-- creating a `/skills` directory migration before the logical standards are settled
-
-## Recommended Rollout
-
-1. Add top-level `AGENTS.md`
-2. Add universal authoring template
-3. Upgrade touched skills to the shared structure
-4. Consolidate repeated standards
-5. Consider physical directory reorganisation only after content convergence
+Release only when the machine-readable baseline has empty failure counts, every routing fixture meets the documented top-three threshold, canonical validation passes, and the final diff contains no cache, secret, or unrelated edit.

@@ -1,8 +1,14 @@
 ---
 name: meta-board-and-investor-reporting
-description: Design the monthly investor-update + quarterly board-pack rhythm for a SaaS / ICT company. Specifies the KPI dashboard, narrative structure, decision-asks discipline, governance artefacts, and the cadence by which the board becomes a force-multiplier rather than an audit. Use when a SaaS company has external investors or is preparing to take them on.
+description: Use when a SaaS company has external investors (priced round, SAFE notes outstanding, DFI partners). Use monitoring and evaluation for internal operating KPI systems.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Board & Investor Reporting Skill
 
 ## Overview
@@ -16,8 +22,19 @@ Funded SaaS companies that fail to maintain investor confidence often had great 
 - An existing board pack is ad hoc, late, or causing surprise
 - Investors are asking for more transparent reporting
 
+## Do Not Use When
+
+- The request belongs to the neighbouring route. Use monitoring and evaluation for operating KPI systems; use this family for board and investor reporting.
+- The available evidence cannot support a responsible board and investor reporting conclusion; return the evidence gap instead of inventing one.
+
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Board And Investor Reporting brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Plan and operating metrics (from `saas-unit-economics-and-cohort-model`)
 - MSPOT for the year (from `meta-living-plan-governance`)
 - Decision log
@@ -53,6 +70,13 @@ Funded SaaS companies that fail to maintain investor confidence often had great 
 7. **Set up the data room** in parallel — keeps DD-readiness continuous, not just at fundraise time.
 8. **Train the team** on board-pack content production — Finance produces financials, Heads produce operating dashboards, CEO writes the narrative.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the board and investor reporting pack and that the decision concerns which performance changes require a board decision.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (reconciled KPI definitions, board calendar, and decision log) or if the work could lead to this identified risk: turning governance reporting into unactionable metric theatre.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - Monthly update delivered within 7 days every month — no exceptions
@@ -71,8 +95,19 @@ Funded SaaS companies that fail to maintain investor confidence often had great 
 - Missing month-close discipline (Day 5 close discipline matters)
 - Asks vague ("we'd appreciate any advice")
 
+
+- Applying the wrong neighbouring route to meta board and investor reporting. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Board And Investor Reporting deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Monthly investor-update template (filled or fillable)
 - Quarterly board-pack template
 - KPI dashboard standard
@@ -135,3 +170,44 @@ This is operationalised through `skills/meta-agent-board-and-investor-reporting/
 - FX volatility: include USD and local-currency views; explain FX impact separately from operational performance.
 - Public-sector / NGO customer reporting: when these are >20% of ARR, include separate customer-concentration analysis.
 - Board governance compliance: Ugandan Companies Act, Kenya Companies Act, South Africa Companies Act 2008 have specific board-resolution and minute-keeping requirements; embed in the cadence.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Board and investor reporting pack decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to turning governance reporting into unactionable metric theatre. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the board and investor reporting pack; drafting the monthly update or quarterly pack is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If reconciled KPI definitions, board calendar, and decision log cannot be obtained, return a qualified board and investor reporting pack covering only the checks that remain supportable. Leave this decision unresolved: which performance changes require a board decision. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: which performance changes require a board decision | Record the conclusion, source trail, owner, and review trigger in the board and investor reporting pack. | Risk of turning governance reporting into unactionable metric theatre |
+| Material evidence conflicts or remains uncertain | Present the metric under both definitions with the resulting board decision, then standardise the approved definition from the next period. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: reconciled KPI definitions, board calendar, and decision log | Mark the decision on which performance changes require a board decision `not assessed` in the board and investor reporting pack, and send it to the CFO and board chair. | Otherwise, the work risks turning governance reporting into unactionable metric theatre |
+
+## Quality Standards
+
+
+Accept the board and investor reporting pack only when evidence is sufficient for this decision: which performance changes require a board decision. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of turning governance reporting into unactionable metric theatre.
+
+## Worked Example
+
+
+ARR grows, but finance and sales use different churn definitions. Show the reconciliation, adopt one board definition, restate the comparison period, and ask the board to decide the corrective retention action.
+
+<!-- dual-compat-end -->

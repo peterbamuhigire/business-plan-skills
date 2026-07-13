@@ -1,8 +1,14 @@
 ---
 name: saas-pricing-and-packaging-strategy
-description: Design or audit the pricing and packaging architecture for a SaaS / ICT plan — tiering (good/better/best), pricing dimension (per seat / per usage / per outcome / hybrid), freemium, annual prepayment incentive, enterprise pricing, expansion mechanics, and pricing-experiment cadence. Complements meta-pricing-strategy (Kennedy/Marrs premium positioning) with the SaaS-architecture pricing layer.
+description: Use when a SaaS plan has a single flat price (no tiering, no expansion mechanic). Use the corresponding meta skill for a non-SaaS case.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # SaaS Pricing & Packaging Strategy Skill
 
 ## Overview
@@ -25,8 +31,17 @@ Apply SaaS-specific pricing-architecture discipline on top of Kennedy/Marrs prem
 - The product is being given away pre-launch as a deliberate acquisition strategy with explicit time-bound exit
 - A regulatory ceiling caps the price (regulated utilities, government contracts)
 
+
+- For `saas-pricing-and-packaging-strategy`, route to the corresponding cross-sector meta skill instead when recurring-revenue SaaS logic is not material.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Pricing And Packaging Strategy brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
+| Current accounting, tax, valuation, or pricing basis | Finance owner, accounting records, signed contracts, and current authoritative sources | Conditional | Mark the treatment unresolved and require qualified professional review. |
 - Current pricing structure (tiers, prices, dimension)
 - Customer segmentation (SMB / Mid / Enterprise / B2C)
 - Top-3 competitor prices and packages
@@ -52,6 +67,13 @@ Apply SaaS-specific pricing-architecture discipline on top of Kennedy/Marrs prem
 9. **Install pricing experiment cadence** — quarterly small experiments (subject lines, tier names, anchor positioning), annual large experiments (price increase, packaging change). Decision log every experiment.
 10. **Cross-reference**: pricing must reconcile with Section 04 (market), Section 06 (competitive), Section 07 (sales process — discount discipline), Section 10 (financial projections), and `meta-pricing-strategy` for the premium positioning layer.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the SaaS packaging architecture and that the decision concerns tier boundaries, price metric, limits, and expansion path.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (value metric, segment needs, entitlement costs, usage, and churn evidence) or if the work could lead to this identified risk: creating packages customers can game or that detach price from value.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - Pricing dimension explicitly chosen and justified by customer value-scaling logic
@@ -75,8 +97,19 @@ Apply SaaS-specific pricing-architecture discipline on top of Kennedy/Marrs prem
 - Pricing page hasn't changed in 18+ months (decay)
 - No expansion mechanic but plan assumes NRR > 100%
 
+
+- Applying the wrong neighbouring route to saas pricing and packaging strategy. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Pricing And Packaging Strategy deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Pricing audit (current state vs target state)
 - Tier table with ICP, feature set, price, target % of revenue
 - Pricing-dimension decision document
@@ -114,3 +147,49 @@ Apply SaaS-specific pricing-architecture discipline on top of Kennedy/Marrs prem
 - Mobile-money fees (1–2%) materially affect tier economics for low-ARPU tiers; design the lowest tier ARPU to absorb the fee with margin.
 - Pricing pages should be in local language for the lowest tiers — code-switching (English + local-language emphasis) often improves conversion.
 - Public-sector and NGO buyers in Africa often require quotation in local currency with VAT, withholding-tax handling, and specific tax-clearance documentation. Build this into the contracting flow.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| SaaS packaging architecture decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to creating packages customers can game or that detach price from value. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the SaaS packaging architecture; drafting package tests without changing production billing is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If value metric, segment needs, entitlement costs, usage, and churn evidence cannot be obtained, return a qualified SaaS packaging architecture covering only the checks that remain supportable. Leave this decision unresolved: tier boundaries, price metric, limits, and expansion path. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: tier boundaries, price metric, limits, and expansion path | Record the conclusion, source trail, owner, and review trigger in the SaaS packaging architecture. | Risk of creating packages customers can game or that detach price from value |
+| Material evidence conflicts or remains uncertain | Prototype the competing package boundaries with the target segment and model entitlement cost, expansion, and downgrade behaviour. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: value metric, segment needs, entitlement costs, usage, and churn evidence | Mark the decision on tier boundaries, price metric, limits, and expansion path `not assessed` in the SaaS packaging architecture, and send it to the product, commercial, and finance owners. | Otherwise, the work risks creating packages customers can game or that detach price from value |
+
+## Quality Standards
+
+
+Accept the SaaS packaging architecture only when evidence is sufficient for this decision: tier boundaries, price metric, limits, and expansion path. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of creating packages customers can game or that detach price from value.
+
+## Worked Example
+
+
+Heavy users remain on the entry tier because limits do not track value. Redesign the value metric and entitlements, model gross margin and downgrade behaviour, then test the packages with the affected segment.
+
+## Finance Doctrine Gate
+
+
+Apply the Chwezi doctrine to the SaaS packaging architecture, using the reporting basis and effective date supported by value metric, segment needs, entitlement costs, usage, and churn evidence. Reconcile the treatment to the model and narrative, and have the finance owner and commercial lead review the treatment, reconciliation, and exposure to this risk: creating packages customers can game or that detach price from value.
+
+<!-- dual-compat-end -->

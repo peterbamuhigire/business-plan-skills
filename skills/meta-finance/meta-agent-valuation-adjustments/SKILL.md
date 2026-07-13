@@ -1,8 +1,14 @@
 ---
 name: meta-agent-valuation-adjustments
-description: Agent premium (when defensible) vs wrapper discount (when not), layered on top of SaaS and AI valuation logic. Models per-resolution-economics premium, intervention-rate-tied valuation, comparable transactions in agent space, foundation-model-platform-risk overlay, multi-agent governance discount. Use whenever an agent business is being valued or pricing-implied multiples set.
+description: Use when an agent-product plan is being valued. Use financial projections for model construction.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Meta — Agent Valuation Adjustments Skill
 
 ## Overview
@@ -25,8 +31,17 @@ The dispersion of agent-business multiples in 2025-2026 is wider than any other 
 - The product is not an agent — use SaaS / AI valuation alone
 - The business is too early for valuation discipline (pre-revenue with no operating evidence) — use directional range only
 
+
+- Route to `10-financial-projections` instead when the task is to construct the underlying model.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Valuation Adjustments brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
+| Current accounting, tax, valuation, or pricing basis | Finance owner, accounting records, signed contracts, and current authoritative sources | Conditional | Mark the treatment unresolved and require qualified professional review. |
 - SaaS valuation base (from `meta-valuation` and `saas-valuation-and-fundraising-strategy`)
 - AI valuation adjustment (from `meta-ai-valuation-adjustments`)
 - Agent moat-vs-wrapper score (from `saas-agent-moat-and-wrapper-risk`)
@@ -62,6 +77,13 @@ The dispersion of agent-business multiples in 2025-2026 is wider than any other 
 9. **State the investor-archetype-specific multiple** — agent-specialist fund / vertical AI fund / generalist SaaS fund / sovereign-AI / DFI all anchor differently.
 10. **Wire to the funding ask** (`11-funding-request`) and exit thesis (`saas-valuation-and-fundraising-strategy`).
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the agent valuation overlay and that the decision concerns premium, neutral, or wrapper discount.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (intervention rate, resolved-task margin, and moat evidence) or if the work could lead to this identified risk: capitalising automation claims that customers or margins do not support.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - All three layers (SaaS / AI / Agent) adjustments visible and computed transparently
@@ -84,8 +106,19 @@ The dispersion of agent-business multiples in 2025-2026 is wider than any other 
 - Ignoring geographic discount in emerging markets
 - Pricing on TAM rather than on operating evidence
 
+
+- Applying the wrong neighbouring route to meta agent valuation adjustments. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Valuation Adjustments deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Adjusted multiple range (low / base / high)
 - Adjustment trail (SaaS base -> AI adjustment -> Agent adjustment with each component)
 - Comparable transactions table
@@ -125,3 +158,49 @@ The dispersion of agent-business multiples in 2025-2026 is wider than any other 
 - **Currency-of-record** matters — institutional rounds price in USD; report multiples in USD; report local-currency-equivalent for DFI / strategic
 - **Sovereign-AI envelopes** (RW innovation envelope; KE Talanta; NG NITDA implementation; ZA Presidential 4IR; EG infrastructure) can be valuation-supportive if executed; document trajectory
 - **Liquidity discount** — African secondary markets thin; expect 10-15% liquidity discount in pre-money compared to US comparables; reduces at growth-round and trade-sale-eligible stages
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Agent valuation overlay decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to capitalising automation claims that customers or margins do not support. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the agent valuation overlay; adding a documented overlay to the valuation workbook is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If intervention rate, resolved-task margin, and moat evidence cannot be obtained, return a qualified agent valuation overlay covering only the checks that remain supportable. Leave this decision unresolved: premium, neutral, or wrapper discount. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: premium, neutral, or wrapper discount | Record the conclusion, source trail, owner, and review trigger in the agent valuation overlay. | Risk of capitalising automation claims that customers or margins do not support |
+| Material evidence conflicts or remains uncertain | Show the valuation with no agent premium and with the evidenced adjustment; use the unsupported case only as sensitivity. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: intervention rate, resolved-task margin, and moat evidence | Mark the decision on premium, neutral, or wrapper discount `not assessed` in the agent valuation overlay, and send it to the valuation lead and transaction adviser. | Otherwise, the work risks capitalising automation claims that customers or margins do not support |
+
+## Quality Standards
+
+
+Accept the agent valuation overlay only when evidence is sufficient for this decision: premium, neutral, or wrapper discount. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of capitalising automation claims that customers or margins do not support.
+
+## Worked Example
+
+
+Two agent products use the same foundation model, but only one has proprietary workflow data and falling intervention rates. Value the second case with evidenced adjustments and leave the first at the wrapper case.
+
+## Finance Doctrine Gate
+
+
+Apply the Chwezi doctrine to the agent valuation overlay, using the reporting basis and effective date supported by intervention rate, resolved-task margin, and moat evidence. Reconcile the treatment to the model and narrative, and have the valuation lead and transaction adviser review the treatment, reconciliation, and exposure to this risk: capitalising automation claims that customers or margins do not support.
+
+<!-- dual-compat-end -->

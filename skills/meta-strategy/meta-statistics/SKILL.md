@@ -1,8 +1,14 @@
 ---
 name: meta-statistics
-description: Apply statistical rigour to business-plan numbers, forecasts, charts, survey results, market sizing, and comparative analysis.
+description: Use when market sizing, survey results, forecasts, or comparative metrics need statistical rigour. Use the relevant plan-section skill for section drafting.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Meta Statistics
 
 ## Overview
@@ -21,8 +27,16 @@ Use this meta-skill to apply statistical discipline to business-plan evidence. I
 - Do not apply advanced methods when the data does not support them.
 - Do not use statistics to decorate claims that remain strategically weak.
 
+
+- For `meta-statistics`, route to the relevant plan-section skill instead when the request is section drafting rather than cross-section analysis.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Statistics brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - The dataset, figures, or claim being analysed
 - The decision or message the numbers need to support
 - Data quality, sample size, and sourcing context
@@ -37,6 +51,13 @@ Use this meta-skill to apply statistical discipline to business-plan evidence. I
 5. Reconcile the statistic with the surrounding commercial narrative.
 6. Flag weak data, weak sampling, or over-interpretation risks.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the statistical review record and that the decision concerns which inference, comparison, or chart the evidence supports.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (dataset, sampling method, metric definitions, and calculation files) or if the work could lead to this identified risk: turning a biased sample or unstable average into a business claim.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - The chosen method fits the data and question.
@@ -50,9 +71,21 @@ Use this meta-skill to apply statistical discipline to business-plan evidence. I
 - Plotting charts that make the wrong comparison easy.
 - Presenting regression or inference without adequate data.
 - Treating estimated data as measured fact.
+- Treating a generic statistics template as a conclusion. **Correction:** tie each choice to the named audience, evidence, and operating constraint.
 
+
+- Applying the wrong neighbouring route to meta statistics. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Statistics deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Statistically sound summaries, methods, or visualisation guidance
 - Corrected metrics or interpretation notes
 - Any data-quality caveats affecting confidence
@@ -93,10 +126,10 @@ Source books: Anderson et al. *Essentials of Statistics for Business and Economi
 - Geometric mean = 0% (correct: $100  $200  $100)
 
 **Formula:**
-```
+~~~text
 CAGR = (End Value / Start Value)^(1/n)  1
 Geometric Mean = n(x1  x2  ...  xn)
-```
+~~~
 
 **When to cite:** "Revenue grew at a CAGR of 18.4% over 5 years (geometric mean of annual growth rates, 20192024)."
 
@@ -201,9 +234,9 @@ Every statistic in the plan must pass this three-question test:
 
 | Question | Standard |
 |---|---|
-| **SourceSection ** | Named source (UBOS, World Bank, primary survey) with date |
-| **MethodSection ** | State if geometric mean, CV, regression, or raw secondary data |
-| **ReproducibleSection ** | A reader with the same data could arrive at the same figure |
+| **Source?** | Named source (UBOS, World Bank, primary survey) with date |
+| **Method?** | State if geometric mean, CV, regression, or raw secondary data |
+| **Reproducible?** | A reader with the same data could arrive at the same figure |
 
 **Flagging estimates:**
 - Sourced fact: "(UBOS, 2024)"
@@ -220,3 +253,44 @@ Every statistic in the plan must pass this three-question test:
 - `references/statistics-for-business-plans.md`  Full decision tables, formulas, worked Uganda/EA examples, chart selection guide, data type definitions
 - Anderson, D.R., Sweeney, D.J., Williams, T.A., Camm, J.D. & Cochran, J.J. (2013). *Essentials of Statistics for Business and Economics* (7th ed.). Cengage Learning.
 - Keller, G. (2011). *Statistics for Management and Economics, Abbreviated* (9th ed.). Cengage Learning.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Statistical review record decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to turning a biased sample or unstable average into a business claim. |
+
+## Capability and Permission Boundaries
+
+
+Default to read-only inspection while producing the statistical review record. Read supplied records and run non-mutating checks; running reproducible analysis without altering source data is permitted only when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If dataset, sampling method, metric definitions, and calculation files cannot be obtained, return a qualified statistical review record covering only the checks that remain supportable. Leave this decision unresolved: which inference, comparison, or chart the evidence supports. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: which inference, comparison, or chart the evidence supports | Record the conclusion, source trail, owner, and review trigger in the statistical review record. | Risk of turning a biased sample or unstable average into a business claim |
+| Material evidence conflicts or remains uncertain | Run the appropriate sensitivity, robustness, or alternative specification and report how the business conclusion changes. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: dataset, sampling method, metric definitions, and calculation files | Mark the decision on which inference, comparison, or chart the evidence supports `not assessed` in the statistical review record, and send it to the analyst and decision owner. | Otherwise, the work risks turning a biased sample or unstable average into a business claim |
+
+## Quality Standards
+
+
+Accept the statistical review record only when evidence is sufficient for this decision: which inference, comparison, or chart the evidence supports. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of turning a biased sample or unstable average into a business claim.
+
+## Worked Example
+
+
+A survey average hides opposite results between new and repeat customers. Report the segment estimates and uncertainty, then revise the recommendation instead of relying on the blended mean.
+
+<!-- dual-compat-end -->

@@ -1,6 +1,11 @@
 ---
 name: saas-ai-cost-of-tenant-calculator
-description: Build a tenant-level AI cost calculator for a SaaS business plan — per-tenant tokens × rate × model-mix × cache-hit × FX, plus embeddings, fine-tuning amortisation, eval share, retraining contribution, and hallucination-liability reserve. Produces tier-by-tier AI cost, sensitivity matrix, and worked example. Use whenever a SaaS plan has customer-facing AI features and the engine must defend per-tier tier-design and packaging against cost reality.
+description: Use when producing or reviewing the saas ai cost of tenant calculator component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # SaaS AI Cost-of-Tenant Calculator Skill
@@ -47,11 +52,11 @@ The calculator answers four questions an AI-aware investor will ask within the f
 
 1. **Capture the architecture stack** — one paragraph + component list (model, embedding, vector DB, router, eval, observability, cache).
 2. **Build the per-query cost formula** per `references/saas-ai-cost-of-tenant-calculator.md`:
-   ```
+   ```text
    per-query cost = (prompt tokens × input rate + completion tokens × output rate) × (1 − cache-hit) × model-mix-weighted-rate
    ```
 3. **Build the per-tenant monthly cost formula**:
-   ```
+   ```text
    per-tenant monthly AI cost =
        queries × per-query cost (after cache + model mix)
      + embeddings × embedding rate
@@ -159,3 +164,84 @@ The calculator answers four questions an AI-aware investor will ask within the f
 - If hosting in af-south-1, africa-south1, or local providers (Liquid, Cassava, Raxio, MainOne), GPU pricing is typically 1.5-3× US/EU.
 - Public-sector / NGO tenants are typically high-touch / high-doc-volume → top-decile AI cost; separately analyse.
 - Mobile-first customers using WhatsApp interfaces produce different token profiles (shorter prompts, more turns) than browser-using customers; model both.
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Approved commercial assumptions, contracts, usage/cost evidence, accounting framework, opening position, and projection horizon for saas ai cost of tenant calculator | Client records, approved operating model, finance owner, and accounting doctrine | Yes | If absent, contract terms, usage evidence, framework, or cost drivers are unavailable, isolate the affected schedule, label it unassessed, and do not force the model to balance with a plug. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Unit-economics model with task or tenant cost bridge | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| saas ai cost of tenant calculator exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| saas ai cost of tenant calculator release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Formula trace, source/assumption register, three-statement or schedule reconciliation, and finance-gate record | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| saas ai cost of tenant calculator decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| saas ai cost of tenant calculator review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For saas ai cost of tenant calculator, the controlling focus is tenant-level token, model, vector, tool, storage, and support cost allocation. This skill may inspect records and calculate planning scenarios in read-only mode; it may not post entries, change ledgers, set accounting policy, certify IFRS treatment, or release statutory values without authorised professional review. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For saas ai cost of tenant calculator, loss of evidence about tenant-level token, model, vector, tool, storage, and support cost allocation activates degraded mode. If the controlling saas ai cost of tenant calculator evidence is unavailable, the same boundary applies. When contract terms, usage evidence, framework, or cost drivers are unavailable, isolate the affected schedule, label it unassessed, and do not force the model to balance with a plug. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For saas ai cost of tenant calculator, commercial billing, cash receipt, service delivery, and accounting recognition occur in different periods| model each event separately, reconcile the bridge, and route judgemental treatment to the finance reviewer | Cash, revenue, liability, and margin can be conflated into a misleading forecast |
+| For saas ai cost of tenant calculator, A current legal, regulatory, tax, accounting, market, or platform claim controls the saas ai cost of tenant calculator decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For saas ai cost of tenant calculator, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete unit-economics model with task or tenant cost bridge, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact saas ai cost of tenant calculator decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect approved commercial assumptions, contracts, usage/cost evidence, accounting framework, opening position, and projection horizon and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce unit-economics model with task or tenant cost bridge with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Unit-economics model with task or tenant cost bridge must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Formula trace, source/assumption register, three-statement or schedule reconciliation, and finance-gate record must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to saas ai cost of tenant calculator, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In saas ai cost of tenant calculator, treating an unavailable approved commercial assumptions, contracts, usage/cost evidence, accounting framework, opening position, and projection horizon as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing unit-economics model with task or tenant cost bridge that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+One tenant uses long documents, premium models, and high vector retrieval while another uses short prompts. Allocate observed drivers per tenant instead of spreading cloud invoices evenly.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for saas ai cost of tenant calculator; no local deep-dive reference is declared.
+- For saas ai cost of tenant calculator claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

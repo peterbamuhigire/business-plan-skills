@@ -1,8 +1,14 @@
 ---
 name: saas-sales-org-design-and-capacity-planning
-description: Design the SaaS sales organisation and produce the sales capacity model — quota, ramp, attainment, OTE, SDR:AE:CSM ratios, pod structure, hiring sequence by ARR milestone. Forces the financial-projection bookings line to reconcile with the headcount plan. Mandatory when ARR projection exceeds $1M.
+description: Use when Section 09 or Section 10 is being built for a SaaS plan with target ARR above $1M. Use the corresponding meta skill for a non-SaaS case.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # SaaS Sales Org Design & Capacity Planning Skill
 
 ## Overview
@@ -16,8 +22,19 @@ Convert ARR ambition into a reconcilable sales-org plan. Most SaaS plans project
 - The team is hiring its first VP of Sales / Head of Revenue
 - An ARR milestone is approaching and the org needs to evolve
 
+## Do Not Use When
+
+- The request belongs to the neighbouring route. Use the cross-sector meta skill when the decision is not specific to recurring-revenue SaaS economics or operations.
+- The available evidence cannot support a responsible sales org design and capacity planning conclusion; return the evidence gap instead of inventing one.
+
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Sales Org Design And Capacity Planning brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Target ARR by year (Year 1, 2, 3, 5)
 - Average ACV
 - Sales-cycle length
@@ -36,6 +53,13 @@ Convert ARR ambition into a reconcilable sales-org plan. Most SaaS plans project
 8. **Sequence the hiring** by ARR milestone (not calendar). Use the milestone table in references.
 9. **Compute fully-loaded cost** including OTE, benefits, payroll tax, tools, allocated overhead.
 10. **Reconcile with Section 10 financials** — sales-cost line must match.
+
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the sales capacity model and that the decision concerns the hiring sequence and productive capacity that can support bookings.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (ARR target, quota, ramp, attainment, OTE, sales cycle, and hiring lead time) or if the work could lead to this identified risk: forecasting ARR that the planned sales team cannot produce.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
 
 ## Quality Bar
 
@@ -56,8 +80,19 @@ Convert ARR ambition into a reconcilable sales-org plan. Most SaaS plans project
 - Enterprise AE selling SMB volume
 - Single AE — Cotton's rule: never build a sales team with one rep
 
+
+- Applying the wrong neighbouring route to saas sales org design and capacity planning. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Sales Org Design And Capacity Planning deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Capacity model spreadsheet (or table for early plans)
 - Org chart by ARR milestone
 - Hiring sequence with triggers
@@ -78,3 +113,44 @@ Convert ARR ambition into a reconcilable sales-org plan. Most SaaS plans project
 - SDR cost is 50–70% lower than US, making outbound prospecting more economically attractive.
 - CSM in Africa often doubles as field-implementation; budget for travel within country and across borders.
 - Sales-cycle inflation (1.5–2× US benchmarks) means lower #deals/AE; offset by lower OTE.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Sales capacity model decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to forecasting ARR that the planned sales team cannot produce. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the sales capacity model; modelling headcount without opening requisitions is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If ARR target, quota, ramp, attainment, OTE, sales cycle, and hiring lead time cannot be obtained, return a qualified sales capacity model covering only the checks that remain supportable. Leave this decision unresolved: the hiring sequence and productive capacity that can support bookings. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: the hiring sequence and productive capacity that can support bookings | Record the conclusion, source trail, owner, and review trigger in the sales capacity model. | Risk of forecasting ARR that the planned sales team cannot produce |
+| Material evidence conflicts or remains uncertain | Rebuild bookings from productive representatives, ramp, attainment, and sales cycle under each hiring sequence before approving headcount. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: ARR target, quota, ramp, attainment, OTE, sales cycle, and hiring lead time | Mark the decision on the hiring sequence and productive capacity that can support bookings `not assessed` in the sales capacity model, and send it to the sales leader and finance owner. | Otherwise, the work risks forecasting ARR that the planned sales team cannot produce |
+
+## Quality Standards
+
+
+Accept the sales capacity model only when evidence is sufficient for this decision: the hiring sequence and productive capacity that can support bookings. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of forecasting ARR that the planned sales team cannot produce.
+
+## Worked Example
+
+
+The bookings forecast assumes four fully productive representatives from their first month. Apply hiring lead time, ramp, attainment, and sales cycle; either stage the hires or revise ARR.
+
+<!-- dual-compat-end -->

@@ -1,8 +1,14 @@
 ---
 name: saas-mvp-and-product-market-fit-strategy
-description: Design the MVP-to-PMF (product-market-fit) strategy for an early-stage SaaS plan — Sean Ellis 40% rule, retention-curve flattening test, organic-referral signal, customer-conversation cadence, feature triage (Crackpots / No-Brainers / In-Betweens), and the gates between MVP, PMF, and Escape Velocity (Walling). Use for pre-revenue or pre-PMF SaaS / ICT plans.
+description: Use when a SaaS or ICT plan is pre-PMF, with no clear retention signal, repeatable channel, or ARR above $200k. Use the corresponding meta skill for a non-SaaS case.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # SaaS MVP & Product-Market-Fit Strategy Skill
 
 ## Overview
@@ -21,8 +27,16 @@ Pre-PMF SaaS plans need a different discipline than scale-stage plans. The produ
 - ARR > $500k with sustained retention — the plan is past PMF; use scale-stage skills
 - The company is in a paid pilot with one customer — that's pre-MVP
 
+
+- For `saas-mvp-and-product-market-fit-strategy`, route to the corresponding cross-sector meta skill instead when recurring-revenue SaaS logic is not material.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Mvp And Product Market Fit Strategy brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Current customer count, ARR, MRR
 - Retention data (if any cohort visibility exists)
 - Customer-interview log
@@ -56,6 +70,13 @@ Pre-PMF SaaS plans need a different discipline than scale-stage plans. The produ
 8. **Cross-reference**: Section 03 (Products), Section 04 (Market), Section 13 (Implementation Timeline) — milestones in this skill drive milestones there.
 9. **Living-plan cadence** — weekly customer-conversation digest; monthly PMF-signal review; quarterly pivot-vs-persevere decision.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the MVP-to-PMF learning plan and that the decision concerns whether the product remains at MVP, reaches PMF, pivots, or stops.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (target user, retention cohorts, interviews, and referral evidence) or if the work could lead to this identified risk: declaring PMF from acquisition or founder enthusiasm.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - Explicit PMF definition for this plan (not generic)
@@ -75,8 +96,19 @@ Pre-PMF SaaS plans need a different discipline than scale-stage plans. The produ
 - Hiring sales before PMF (founder must be the seller pre-PMF)
 - Optimising before validating
 
+
+- Applying the wrong neighbouring route to saas mvp and product market fit strategy. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Mvp And Product Market Fit Strategy deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Defined PMF signal (specific metric and target)
 - MVP scope document (in/out features)
 - Customer-conversation cadence with owner / log location
@@ -100,3 +132,44 @@ Pre-PMF SaaS plans need a different discipline than scale-stage plans. The produ
 - "PMF" in African SaaS is often reached at lower MRR ($5-10k) because TAM is smaller; adjust Walling's $10-20k benchmark.
 - In-person customer visits remain disproportionately powerful in African business culture — budget for travel during the MVP stage.
 - Founder must be multi-lingual in the buyer's language for high-touch customer interviews — pre-PMF research can't be outsourced.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| MVP-to-PMF learning plan decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to declaring PMF from acquisition or founder enthusiasm. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the MVP-to-PMF learning plan; updating the approved experiment backlog is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If target user, retention cohorts, interviews, and referral evidence cannot be obtained, return a qualified MVP-to-PMF learning plan covering only the checks that remain supportable. Leave this decision unresolved: whether the product remains at MVP, reaches PMF, pivots, or stops. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: whether the product remains at MVP, reaches PMF, pivots, or stops | Record the conclusion, source trail, owner, and review trigger in the MVP-to-PMF learning plan. | Risk of declaring PMF from acquisition or founder enthusiasm |
+| Material evidence conflicts or remains uncertain | Run the next retention or behaviour experiment with a predeclared PMF signal and preserve the pivot option until cohorts repeat it. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: target user, retention cohorts, interviews, and referral evidence | Mark the decision on whether the product remains at MVP, reaches PMF, pivots, or stops `not assessed` in the MVP-to-PMF learning plan, and send it to the product lead and founder. | Otherwise, the work risks declaring PMF from acquisition or founder enthusiasm |
+
+## Quality Standards
+
+
+Accept the MVP-to-PMF learning plan only when evidence is sufficient for this decision: whether the product remains at MVP, reaches PMF, pivots, or stops. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of declaring PMF from acquisition or founder enthusiasm.
+
+## Worked Example
+
+
+Sign-ups rise after a promotion, but successive cohorts do not retain. Keep the product pre-PMF, interview the retained minority, and test the next behaviour change against a predeclared retention signal.
+
+<!-- dual-compat-end -->

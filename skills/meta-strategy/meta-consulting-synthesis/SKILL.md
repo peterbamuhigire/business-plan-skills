@@ -1,8 +1,14 @@
 ---
 name: meta-consulting-synthesis
-description: Meta-skill for converting completed business-plan sections into a consulting-grade, hypothesis-driven investment case. Use when a plan, proposal, executive summary, or deck needs sharper governing thesis, MECE structure, issue trees, storyline discipline, and decision-ready messaging.
+description: Use when use after the analytical sections exist but before final assembly or presentation. Use the relevant plan-section skill for section drafting.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Consulting Synthesis Meta-Skill
 
 ## Use When
@@ -18,8 +24,16 @@ description: Meta-skill for converting completed business-plan sections into a c
 - Do not use as a substitute for fixing factual weaknesses in the underlying analysis.
 - Do not use to polish prose before the governing argument is clear.
 
+
+- For `meta-consulting-synthesis`, route to the relevant plan-section skill instead when the request is section drafting rather than cross-section analysis.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Consulting Synthesis brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Draft or final core plan sections
 - Target audience and decision type
 - Key numbers, risks, and ask
@@ -35,6 +49,13 @@ description: Meta-skill for converting completed business-plan sections into a c
 5. Rebuild the storyline around evidence, implications, and remaining proof burdens.
 6. Surface contradictions and gaps across sections.
 7. Produce the rewrite priorities and audience-specific close.
+
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the decision-grade investment storyline and that the decision concerns the governing thesis and evidence sequence.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (completed sections, governing question, and contradiction list) or if the work could lead to this identified risk: creating a polished narrative that leaves cross-section contradictions intact.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
 
 ## Quality Bar
 
@@ -52,14 +73,24 @@ description: Meta-skill for converting completed business-plan sections into a c
 - Hiding the hardest objections instead of addressing them.
 - Synthesising around an attractive thesis before the business logic has survived the achievability gate.
 
+
+- Applying the wrong neighbouring route to meta consulting synthesis. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Consulting Synthesis deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Governing thesis
 - Key line or investment case
 - Issue tree and contradiction list
 - Rewrite priorities
 - Audience-specific closing recommendation
-
 
 
 Use this skill after the analytical sections are drafted and before final assembly, presentation design, or final executive-summary polishing.
@@ -198,3 +229,44 @@ Write the exact closing recommendation for the target reader.
 - `../meta-critical-thinking-business-logic/references/reasoning-achievability-gate.md` - serious-analysis, mental-model, business-sense, and achievability checks that should precede synthesis
 - `../01-executive-summary/references/pyramid-principle.md` - SCQA and top-down structure
 - `../meta-presentation-design/references/data-storytelling.md` - visual and narrative rules for turning analytical output into decision-ready exhibits
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Decision-grade investment storyline decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to creating a polished narrative that leaves cross-section contradictions intact. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the decision-grade investment storyline; restructuring the supplied narrative without changing source facts is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If completed sections, governing question, and contradiction list cannot be obtained, return a qualified decision-grade investment storyline covering only the checks that remain supportable. Leave this decision unresolved: the governing thesis and evidence sequence. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: the governing thesis and evidence sequence | Record the conclusion, source trail, owner, and review trigger in the decision-grade investment storyline. | Risk of creating a polished narrative that leaves cross-section contradictions intact |
+| Material evidence conflicts or remains uncertain | Draft competing theses against the same evidence and retain the one that explains the countercase and cross-section economics with fewer exceptions. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: completed sections, governing question, and contradiction list | Mark the decision on the governing thesis and evidence sequence `not assessed` in the decision-grade investment storyline, and send it to the plan owner and executive sponsor. | Otherwise, the work risks creating a polished narrative that leaves cross-section contradictions intact |
+
+## Quality Standards
+
+
+Accept the decision-grade investment storyline only when evidence is sufficient for this decision: the governing thesis and evidence sequence. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of creating a polished narrative that leaves cross-section contradictions intact.
+
+## Worked Example
+
+
+Market demand appears attractive, but capacity and working capital cap first-year sales. Build the thesis around the staged, financeable entry rather than repeating the market-size claim.
+
+<!-- dual-compat-end -->

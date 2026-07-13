@@ -1,8 +1,14 @@
 ---
 name: meta-market-validation
-description: Dual-mode meta-skill for (A) pre-plan field validation of business ideas through Customer Development and (B) post-plan auditing of market claims against evidence. Integrates Customer Development methodology (Blank/Dorf), rapid validation (Kagan), customer discovery steps (Cooper/Vlaskovits), and empathy-based research (Alam).
+description: Use when use before writing when market assumptions still need field validation. Use the relevant plan-section skill for section drafting.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Market Validation Meta-Skill
 
 ## Overview
@@ -21,8 +27,16 @@ Use this meta-skill to validate or audit market claims. It supports both pre-pla
 - Do not treat desk research alone as customer validation.
 - Do not keep validating forever when a clear decision can already be made.
 
+
+- For `meta-market-validation`, route to the relevant plan-section skill instead when the request is section drafting rather than cross-section analysis.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Market Validation brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Business idea, offer, and target-customer assumptions
 - Existing market evidence, customer conversations, or draft claims
 - Country, sector, and channel context where behaviour matters
@@ -37,6 +51,13 @@ Use this meta-skill to validate or audit market claims. It supports both pre-pla
 5. Reconcile the results with the plan's narrative and numbers.
 6. Flag unsupported claims that should be revised or removed.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the market-validation evidence pack and that the decision concerns whether demand evidence supports proceed, revise, or stop.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (customer interviews, observed behaviour, and claim thresholds) or if the work could lead to this identified risk: substituting market size and polite interest for purchase behaviour.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - The output clearly separates evidence from assumption.
@@ -50,13 +71,24 @@ Use this meta-skill to validate or audit market claims. It supports both pre-pla
 - Auditing market claims without checking their financial implications.
 - Equating interest with purchasing behaviour.
 - Leaving unsupported claims in place because they “sound strategic”.
+- Treating a generic market validation template as a conclusion. **Correction:** tie each choice to the named audience, evidence, and operating constraint.
 
+
+- Applying the wrong neighbouring route to meta market validation. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Market Validation deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - A validation plan, evidence audit, or market-claim review
 - Clear distinction between validated facts and open assumptions
 - Recommended revisions or next tests
-
 
 
 ## When to Use
@@ -107,7 +139,7 @@ Use three concentric rings (Alam):
 Follow the 8-category interview guide (Alam): Introduction  Jobs to Be Done  Customers  Challenges  Aspirations  Stories  Emotions  Conclusion.
 
 Key engagement rules:
-- Ask "whySection " repeatedly
+- Ask "why?" repeatedly
 - Encourage stories ("Tell me about the last time...")
 - Look for inconsistencies between words and actions
 - Embrace silence  don't fill pauses
@@ -127,7 +159,7 @@ Three validation methods:
 Structure offers using the Price + Benefit + Time formula:
 > "For [price], I will [benefit] in [time]."
 
-When rejected, use the 4-question script: Why notSection   Who elseSection   What would make it a no-brainerSection   What would you paySection 
+When rejected, use the 4-question script: Why not? Who else? What would make it a no-brainer? What would you pay?
 
 See `references/rapid-validation-methods.md`.
 
@@ -150,7 +182,7 @@ Follow the MVP Evolution Model (Cooper & Vlaskovits, 2010):
 | MVP 2 | Demo / prototype | Test solution approach | Commitment |
 | MVP 3 | Working product | Test willingness to pay | Money |
 
-Evaluate each capability using the BFCE framework (Alam): Better (quality)Section  Faster (efficiency)Section  Cheaper (cost)Section  Easier (experience)Section 
+Evaluate each capability using the BFCE framework (Alam): Better (quality)? Faster (efficiency)? Cheaper (cost)? Easier (experience)?
 
 ### Step 8: Measure Product-Market Fit
 
@@ -164,9 +196,9 @@ Three-criteria test (Cooper & Vlaskovits, 2010):
 ### Step 9: Pivot or Proceed
 
 Apply the three-question test (Blank & Dorf, 2012):
-1. **Can it scaleSection **  $1 in acquisition produces > $1 in revenueSection 
-2. **Is there a repeatable sales roadmapSection **  Can others replicate the sales processSection 
-3. **Is the funnel predictableSection **  Can you forecast conversion at each stageSection 
+1. **Can it scale?**  $1 in acquisition produces > $1 in revenue?
+2. **Is there a repeatable sales roadmap?**  Can others replicate the sales process?
+3. **Is the funnel predictable?**  Can you forecast conversion at each stage?
 
 If any answer is no, pivot (change one or more Business Model Canvas boxes) and return to Step 4. See `references/customer-development-process.md` for pivot methodology.
 
@@ -208,60 +240,60 @@ Audit the market-facing sections of the business plan (sections 04-07) to ensure
 ### What to Validate
 
 #### 1. Market Size Validation
-- Is TAM calculated using credible methodology (bottom-up preferred)Section 
-- Is SAM a logical subset of TAM with clear narrowing criteriaSection 
-- Is SOM realistic (typically 1-5% of SAM for startups)Section 
-- Are market size sources cited and current (within 2 years)Section 
-- Does bottom-up calculation align with top-downSection 
-- What is the market type: existing, new, re-segmented, or cloneSection  (Blank & Dorf, 2012)
+- Is TAM calculated using credible methodology (bottom-up preferred)?
+- Is SAM a logical subset of TAM with clear narrowing criteria?
+- Is SOM realistic (typically 1-5% of SAM for startups)?
+- Are market size sources cited and current (within 2 years)?
+- Does bottom-up calculation align with top-down?
+- What is the market type: existing, new, re-segmented, or clone? (Blank & Dorf, 2012)
 
 #### 2. Growth Rate Validation
-- Are growth projections supported by historical dataSection 
-- Is the cited CAGR from a reputable sourceSection 
-- Are growth assumptions consistent with the market typeSection  (New markets take 3-7 years; existing markets grow incrementally)
-- Is the business growing faster than the marketSection  If so, whySection 
+- Are growth projections supported by historical data?
+- Is the cited CAGR from a reputable source?
+- Are growth assumptions consistent with the market type? (New markets take 3-7 years; existing markets grow incrementally)
+- Is the business growing faster than the market? If so, why?
 
 #### 3. Customer Assumption Validation
-- Are customer personas based on research or assumptionsSection 
-- Were earlyvangelists identified and interviewedSection 
-- Is the CAC estimate grounded in comparable dataSection 
-- Is the CLV calculation realistic given churn assumptionsSection 
-- Is the CLV:CAC ratio defensible (>3:1)Section 
-- Has the Problem Recognition Scale been assessedSection 
+- Are customer personas based on research or assumptions?
+- Were earlyvangelists identified and interviewed?
+- Is the CAC estimate grounded in comparable data?
+- Is the CLV calculation realistic given churn assumptions?
+- Is the CLV:CAC ratio defensible (>3:1)?
+- Has the Problem Recognition Scale been assessed?
 
 #### 4. Competitive Positioning Validation
-- Are all relevant competitors identified (direct, indirect, substitutes)Section 
-- Is the market type acknowledged, and does competitive strategy matchSection 
-- Are competitive advantages genuinely sustainableSection 
-- Are competitor weaknesses based on evidence, not wishful thinkingSection 
-- Has cost-of-entry been assessedSection  (74%+ = monopoly, 41%+ = leader, 26%+ = unstable, <26% = open; Blank & Dorf, 2012)
+- Are all relevant competitors identified (direct, indirect, substitutes)?
+- Is the market type acknowledged, and does competitive strategy match?
+- Are competitive advantages genuinely sustainable?
+- Are competitor weaknesses based on evidence, not wishful thinking?
+- Has cost-of-entry been assessed? (74%+ = monopoly, 41%+ = leader, 26%+ = unstable, <26% = open; Blank & Dorf, 2012)
 
 #### 5. Pricing Validation
-- Is pricing consistent with the value propositionSection 
-- Was pricing tested with real customers (value-based approach)Section 
-- How does pricing compare to competitors and workaroundsSection 
-- Does the pricing model support the revenue projectionsSection 
-- Have the Six Revenue Dials been consideredSection  (Kagan, 2024)
+- Is pricing consistent with the value proposition?
+- Was pricing tested with real customers (value-based approach)?
+- How does pricing compare to competitors and workarounds?
+- Does the pricing model support the revenue projections?
+- Have the Six Revenue Dials been considered? (Kagan, 2024)
 
 #### 6. Validation Evidence Check (new)
-- Did the plan authors conduct Customer Development activitiesSection 
-- Is there evidence of customer interviews, surveys, or presellingSection 
-- Are assumptions documented with validation statusSection 
-- Is the Risk Score reported and acceptableSection 
-- Has product-market fit been measuredSection 
+- Did the plan authors conduct Customer Development activities?
+- Is there evidence of customer interviews, surveys, or preselling?
+- Are assumptions documented with validation status?
+- Is the Risk Score reported and acceptable?
+- Has product-market fit been measured?
 
 ### Claim-by-Claim Output Format
 
 For each claim reviewed:
 
-```
+~~~text
 Claim: [The specific assertion]
 Source: [Where it appears in the plan]
 Evidence: [Supporting data found]
 Validation Method Used: [Interview / Preselling / Survey / Secondary research / None]
 Status: VALIDATED / NEEDS EVIDENCE / UNSUPPORTED / CONTRADICTED
 Action: [What to do  cite source, conduct research, revise claim]
-```
+~~~
 
 ### Validation Summary Dashboard
 
@@ -316,3 +348,44 @@ Action: [What to do  cite source, conduct research, revise claim]
 - `references/mckinsey-problem-solving.md`  McKinsey's MECE principle (Mutually Exclusive, Collectively Exhaustive) with worked examples; issue tree construction and branching rules; hypothesis-driven analysis (Initial Hypothesis method, three-step generation, insurance leakage anecdote); 80/20 rule as diagnostic jump-start; key drivers framework; fact-based analysis; Forces at Work four-category environmental scan (suppliers/customers/competitors/substitutes); elevator test; presentation structure (one message per chart, prewiring); 10 common analysis mistakes  Source: Rasiel (McGraw-Hill). **Read when structuring any analytical section (market analysis, competitive analysis, risk), when building issue trees, or when auditing claims for MECE compliance and fact-based support.**
 - **72-tool business analysis toolkit**: See `references/business-analysis-techniques-cadle.md` for all 72 BA tools grouped by stage (strategy, investigation, stakeholder analysis, process modelling, options evaluation, change management), a business plan application table mapping each category to plan sections, and Uganda/EA contextualisation notes  Source: Cadle, Paul & Turner (BCS, 2010). **Read when structuring a market investigation, designing stakeholder analysis, building process models for the operations plan, evaluating options with CBA/NPV, or auditing a plan's analytical rigour against a structured toolkit.**
 - **Growth-system validation**: See `../../book-extractions/growth-profit-disruption-systems-extraction.md` for growth engineering, activation/retention metrics, experiment cadence, remarkable growth systems, profit levers, and disruption tests. **Read when validating SaaS, AI-enabled, marketplace, platform, or product-led growth claims.**
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Market-validation evidence pack decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to substituting market size and polite interest for purchase behaviour. |
+
+## Capability and Permission Boundaries
+
+
+Default to read-only inspection while producing the market-validation evidence pack. Read supplied records and run non-mutating checks; recording research evidence; customer outreach needs authority is permitted only when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If customer interviews, observed behaviour, and claim thresholds cannot be obtained, return a qualified market-validation evidence pack covering only the checks that remain supportable. Leave this decision unresolved: whether demand evidence supports proceed, revise, or stop. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: whether demand evidence supports proceed, revise, or stop | Record the conclusion, source trail, owner, and review trigger in the market-validation evidence pack. | Risk of substituting market size and polite interest for purchase behaviour |
+| Material evidence conflicts or remains uncertain | Set the behaviour threshold first, test the disputed demand claim with the named segment, and keep market size outside the pass criterion. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: customer interviews, observed behaviour, and claim thresholds | Mark the decision on whether demand evidence supports proceed, revise, or stop `not assessed` in the market-validation evidence pack, and send it to the research lead and plan owner. | Otherwise, the work risks substituting market size and polite interest for purchase behaviour |
+
+## Quality Standards
+
+
+Accept the market-validation evidence pack only when evidence is sufficient for this decision: whether demand evidence supports proceed, revise, or stop. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of substituting market size and polite interest for purchase behaviour.
+
+## Worked Example
+
+
+Interviewees praise an agritech concept but will not commit to a paid pilot. Record interest separately from purchase behaviour and keep the demand claim unvalidated until the agreed commitment threshold is met.
+
+<!-- dual-compat-end -->

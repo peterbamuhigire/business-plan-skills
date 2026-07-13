@@ -1,6 +1,9 @@
 ---
 name: writing-quality
-description: Raises the quality of all text output in the business plan suite  making plans, proposals, pitches, and reports sound professional, original, non-AI, enjoyable to read, actionable, and convincing. Applies plain English principles (Hood), persuasive argument structure (Shiach), business writing style (Geffner), and narrative storytelling techniques (Rubie & Provost). Invoke whenever generating or reviewing business plan sections, executive summaries, founder narratives, proposals, or any document that must persuade a lender, investor, or client. Also invoke when the user asks to "improve the writing", "make it sound less AI", "make it more convincing", or "edit for clarity".
+description: Use when drafting or editing plans, proposals, pitches, reports, summaries, or founder narratives for clarity, argument, persuasion, originality, and human voice; use `language-standards` for multilingual correctness and `anti-ai-slop` for the mandatory release gate.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # Writing Quality
@@ -109,7 +112,7 @@ Apply these principles to all business plan text. The goal: the reader forgets t
 
 Every paragraph in a business plan should follow this formula:
 
-```
+```text
 1. Key sentence     state the point directly (topic sentence)
 2. Development      24 sentences of evidence, examples, or data
 3. Link             one sentence drawing the conclusion or bridging to the next point
@@ -206,10 +209,10 @@ Uganda examples:
 -  "During our pilot, 47 traders in Owino Market placed repeat orders within two weeks  without being asked."
 
 **The origin story**  the founder narrative should answer:
-1. What problem did you personally encounterSection 
-2. What did you try first (and why did it not work)Section 
-3. What did you learn that nobody else knowsSection 
-4. What does success look like  for you and your communitySection 
+1. What problem did you personally encounter?
+2. What did you try first (and why did it not work)?
+3. What did you learn that nobody else knows?
+4. What does success look like  for you and your community?
 
 ---
 
@@ -236,3 +239,74 @@ Replace passive-voice constructions. Replace hedging language. Replace abstract 
 - `references/business-english-geffner.md`  Four Cs, parallelism rules, business document conventions, positive framing, expressions to avoid, report/proposal structure (Geffner, *Business English*)
 - `references/storytelling-rubie-provost.md`  Provost Paragraph, high-concept hook, scene-writing, conflict mechanics, book proposal structure applicable to business proposals (Rubie & Provost, *How to Tell a Story*)
 - `../premium-commercial-writing/SKILL.md`  Cross-cutting premium commercial writing layer for commercial purpose, differentiation, proof, SEO/AI-search visibility, investor polish, and premium-fee quality gates.
+
+<!-- dual-compat-start -->
+## Inputs
+
+| Artefact | Source or provider | Required? | If absent |
+|---|---|---|---|
+| Draft or content brief, audience, decision, purpose, and required action | Requester and owning plan or proposal skill | Required | Return an outline or request the missing decision; do not invent substance |
+| Claims, evidence, assumptions, countercases, and citations | Research, client records, and subject owners | Required for persuasive claims | Cut or qualify unsupported claims |
+| Voice, language, terminology, and approval constraints | Client guide and language skills | Conditional | Preserve existing voice and flag review needs |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Revised persuasive draft | Lender, investor, funder, client, board, or public reader | Governing thesis, argument, evidence, warrants, assumptions, risks, and action are clear without inflated language |
+| Editorial decision log | Author and reviewer | Material cuts, unresolved evidence, substantive edits, and preserved voice are visible |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Claim-evidence-warrant check | Annotated draft or issue table | Every load-bearing claim is evidenced, qualified, or removed |
+| Anti-slop release result | A/B/C/F audit with concrete findings | No grade F ships; fixes preserve specific and authored material |
+
+## Capability Contract
+
+Read or search access is required; editing or mutation is allowed only with authorised permission.
+
+Critique defaults to read-only. Edit only when requested. Do not invent evidence, change approved numbers, alter legal or financial meaning, manufacture testimonials, or publish externally. Substantive claims remain owned by the relevant domain expert.
+
+## Degraded Mode
+
+If sources, audience context, language review, or editing access is unavailable, return the narrowest useful critique, proposed wording, and unassessed checks. Do not polish an unsupported assertion into apparent fact.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Paragraph has no claim, decision, evidence, or necessary transition | Cut or replace it | Polished filler |
+| Claim is important but evidence is incomplete | Qualify it and state the evidence need | Confident wrongness |
+| Technical detail changes the reader's decision | Keep and explain it plainly | Oversimplification |
+| Unusual wording carries authentic voice | Preserve it unless clarity suffers | Mechanical homogenisation |
+
+## Workflow
+
+1. Confirm audience, decision, purpose, genre, voice, source authority, and editing scope.
+2. Identify the governing thesis and the action or conclusion the reader must reach.
+3. Map each load-bearing claim to evidence, warrant, assumption, countercase, and implication; stop on fabricated or unverifiable support.
+4. Reorder content around reader questions and decision logic before sentence editing.
+5. Rewrite for plain English, precision, varied rhythm, concrete examples, and honest trade-offs.
+6. Verify names, figures, quotations, citations, legal and financial meaning against source material.
+7. Run language and anti-slop checks; recover by restoring useful authored detail or qualifying unresolved claims.
+8. Release with material limitations and unresolved evidence visible.
+
+## Quality Standards
+
+Every section must earn its place. The writing must help a named reader decide, retain the author's real point of view, and distinguish evidence from assumption without hype or filler.
+
+## Anti-Patterns
+
+- Opening with generic economic importance. Fix: start with the decision, tension, evidence, or consequence.
+- Adding a market number to sound specific. Fix: verify and cite it or remove it.
+- Using long words where short ones are precise. Fix: choose the clearest accurate term.
+- Making every paragraph the same length and shape. Fix: vary rhythm according to the argument.
+- Removing all risk to sound convincing. Fix: state the material countercase and mitigation.
+- Replacing a founder's specific phrasing with generic corporate prose. Fix: preserve authentic voice and edit only for clarity.
+
+## Worked Example
+
+Replace `The company is well positioned to capture this market` with the supported logic: `Three wholesalers have signed trial letters covering 1,200 units, but the plan still depends on the proposed line reaching the tested reject-rate ceiling. Commercial launch therefore follows the commissioning test, not the calendar date.`
+<!-- dual-compat-end -->

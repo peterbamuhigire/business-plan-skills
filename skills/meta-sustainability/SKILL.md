@@ -1,8 +1,14 @@
 ---
 name: meta-sustainability
-description: Run sustainability pre-screening and audit workflows so plans meet environmental, social, governance, and funder-readiness standards.
+description: Use when use at the start of an engagement to identify sustainability design requirements. Use a sector specialist for a detailed impact study.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # meta-sustainability
 
 ## Overview
@@ -21,8 +27,16 @@ Use this meta-skill to pre-screen, integrate, and audit sustainability across th
 - Do not replace the dedicated sustainability section when that artifact is required.
 - Do not assume all sectors face the same sustainability issues.
 
+
+- Route to the relevant sector specialist instead when a detailed impact study or certification is required.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Sustainability brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Business model, sector, geography, and operating footprint
 - Funder, lender, or compliance context affecting sustainability requirements
 - Available information on environmental, labour, community, and governance issues
@@ -37,6 +51,13 @@ Use this meta-skill to pre-screen, integrate, and audit sustainability across th
 5. Reconcile sustainability logic with risk, operations, finance, and implementation.
 6. Flag any missing controls, evidence, or funder-readiness gaps.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the ESG screening and action register and that the decision concerns which impacts need mitigation, specialist study, or escalation.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (site, sector, labour, community, governance, and funder requirements) or if the work could lead to this identified risk: calling a plan sustainable before material impacts are assessed.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - Sustainability work is materiality-led, not boilerplate-led.
@@ -50,13 +71,24 @@ Use this meta-skill to pre-screen, integrate, and audit sustainability across th
 - Writing ESG language with no operational consequence.
 - Ignoring labour, community, or adaptation issues while focusing only on optics.
 - Letting sustainability commitments drift away from budget and ownership.
+- Treating a generic sustainability template as a conclusion. **Correction:** tie each choice to the named audience, evidence, and operating constraint.
 
+
+- Applying the wrong neighbouring route to meta sustainability. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Sustainability deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - A sustainability pre-screen, integration map, or audit result
 - Materiality-driven findings and section-level implications
 - Any unresolved funder-readiness or control gaps
-
 
 
 Mandatory sustainability pre-screen, integration guide, and audit tool for all business plans in this suite. Run this skill at the start of every engagement (Mode A), reference it during drafting (Mode B), and use it as a final gate before submission (Mode C).
@@ -175,23 +207,23 @@ Run this 12-item checklist **before drafting begins**. Record answers in the pla
 
 3. **NEMA category**: Confirm whether the business falls under NEMA Category A (full EIA required), Category B (environmental audit required), or Category C (self-certification sufficient). See the National Environment Act 2019 thresholds.
 
-4. **EIA certificate requirement**: Does this business require an Environmental Impact Assessment certificate before construction or commencement of operationsSection  If yes, build EIA timeline and cost into Section 13 (Implementation) and Section 10 (Financial Projections).
+4. **EIA certificate requirement**: Does this business require an Environmental Impact Assessment certificate before construction or commencement of operations? If yes, build EIA timeline and cost into Section 13 (Implementation) and Section 10 (Financial Projections).
 
-5. **Water and effluent**: Does the business abstract surface or groundwater, or discharge any effluentSection  If yes, a National Water and Sewerage Corporation or NES permit is required. Note abstraction volumes and discharge standards.
+5. **Water and effluent**: Does the business abstract surface or groundwater, or discharge any effluent? If yes, a National Water and Sewerage Corporation or NES permit is required. Note abstraction volumes and discharge standards.
 
-6. **Land acquisition or resettlement**: Does the business require land acquisition, lease of community land, or displacement of current occupants or usersSection  If yes, a Resettlement Action Plan is mandatory for any DFI application.
+6. **Land acquisition or resettlement**: Does the business require land acquisition, lease of community land, or displacement of current occupants or users? If yes, a Resettlement Action Plan is mandatory for any DFI application.
 
-7. **Employment**: Will the business employ workers, including casual, seasonal, or contracted staffSection  If yes, Employment Act 2006 compliance (contracts, leave, grievance procedures) and NSSF registration are mandatory from Day 1.
+7. **Employment**: Will the business employ workers, including casual, seasonal, or contracted staff? If yes, Employment Act 2006 compliance (contracts, leave, grievance procedures) and NSSF registration are mandatory from Day 1.
 
-8. **Food, health, and product safety**: Does the business handle food, medicines, cosmetics, or any consumer product subject to standards regulationSection  If yes, UNBS certification (food) or NDA registration (pharmaceuticals/medical devices) must be built into the pre-opening compliance plan.
+8. **Food, health, and product safety**: Does the business handle food, medicines, cosmetics, or any consumer product subject to standards regulation? If yes, UNBS certification (food) or NDA registration (pharmaceuticals/medical devices) must be built into the pre-opening compliance plan.
 
-9. **Vulnerable groups**: Does the product or service disproportionately affect women, youth, children, persons with disabilities, or refugee communitiesSection  If yes, positive targeting (SDG 5, 10) or safeguarding obligations apply.
+9. **Vulnerable groups**: Does the product or service disproportionately affect women, youth, children, persons with disabilities, or refugee communities? If yes, positive targeting (SDG 5, 10) or safeguarding obligations apply.
 
-10. **SDG alignment**: Which 23 SDGs are most directly relevant to this businessSection  Be specific: not merely "SDG 8 Decent Work" but "SDG 8.3  promote decent job creation and support micro and small enterprises."
+10. **SDG alignment**: Which 23 SDGs are most directly relevant to this business? Be specific: not merely "SDG 8 Decent Work" but "SDG 8.3  promote decent job creation and support micro and small enterprises."
 
-11. **Climate adaptation priority**: What is the single most important climate adaptation measure for this businessSection  Examples: drought-resistant input sourcing, flood-proof storage design, diversified crop or product mix, rainwater harvesting.
+11. **Climate adaptation priority**: What is the single most important climate adaptation measure for this business? Examples: drought-resistant input sourcing, flood-proof storage design, diversified crop or product mix, rainwater harvesting.
 
-12. **ESMP requirement**: Is an Environmental and Social Management Plan (ESMP) requiredSection  Required for all UDB and DFI applications. Strongly recommended for any commercial bank loan above UGX 200M. If yes, use the template at `11-funding-request/references/esmp-template.md`.
+12. **ESMP requirement**: Is an Environmental and Social Management Plan (ESMP) required? Required for all UDB and DFI applications. Strongly recommended for any commercial bank loan above UGX 200M. If yes, use the template at `11-funding-request/references/esmp-template.md`.
 
 ---
 
@@ -201,16 +233,16 @@ Run this section-by-section verification table after all sections are drafted.
 
 | Plan Section | Sustainability Check | Pass / Fail |
 |---|---|---|
-| 02 Company Overview | Sustainability embedded in mission or vision  not bolted on as a footnoteSection  | |
-| 03 Products & Services | Sustainable design principles applied to product or serviceSection  Circular economy opportunities consideredSection  | |
-| 07 Marketing & Sales | Any green marketing claims substantiated with evidenceSection  No greenwashingSection  | |
-| 08 Operations | Waste, water, and energy efficiency measures documented with targetsSection  | |
-| 09 Management Team | Named sustainability champion identified with clear accountabilitySection  | |
-| 10 Financial Projections | Sustainability capex and opex budgeted (NEMA fees, ESMP costs, eco-efficiency investment)Section  | |
-| 12 Risk Analysis | Environmental and social risks included in the risk matrix with mitigation measuresSection  | |
-| 13 Implementation | Sustainability milestones (NEMA, EIA, ESMP, NSSF) included in Gantt chartSection  | |
-| 14 AI Integration | AI energy use and data privacy considerations addressedSection  | |
-| 16 Sustainability Strategy | Dedicated sustainability section present in the planSection  | |
+| 02 Company Overview | Sustainability embedded in mission or vision  not bolted on as a footnote? | |
+| 03 Products & Services | Sustainable design principles applied to product or service? Circular economy opportunities considered? | |
+| 07 Marketing & Sales | Any green marketing claims substantiated with evidence? No greenwashing? | |
+| 08 Operations | Waste, water, and energy efficiency measures documented with targets? | |
+| 09 Management Team | Named sustainability champion identified with clear accountability? | |
+| 10 Financial Projections | Sustainability capex and opex budgeted (NEMA fees, ESMP costs, eco-efficiency investment)? | |
+| 12 Risk Analysis | Environmental and social risks included in the risk matrix with mitigation measures? | |
+| 13 Implementation | Sustainability milestones (NEMA, EIA, ESMP, NSSF) included in Gantt chart? | |
+| 14 AI Integration | AI energy use and data privacy considerations addressed? | |
+| 16 Sustainability Strategy | Dedicated sustainability section present in the plan? | |
 
 After completing the table, calculate the SRS using the scoring framework above. If any Pass/Fail item scores Fail, it must be corrected before submission.
 
@@ -246,3 +278,44 @@ The following reference files support this skill:
 - **`16-sustainability-strategy/SKILL.md`**  Full sustainability strategy section generation (Section 16 of the business plan).
 
 - **`meta-bankability-scoring/SKILL.md`**  CAMPARI compliance framework, which includes social licence to operate as a scoring dimension.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| ESG screening and action register decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to calling a plan sustainable before material impacts are assessed. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the ESG screening and action register; recording screening actions without certifying compliance is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If site, sector, labour, community, governance, and funder requirements cannot be obtained, return a qualified ESG screening and action register covering only the checks that remain supportable. Leave this decision unresolved: which impacts need mitigation, specialist study, or escalation. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: which impacts need mitigation, specialist study, or escalation | Record the conclusion, source trail, owner, and review trigger in the ESG screening and action register. | Risk of calling a plan sustainable before material impacts are assessed |
+| Material evidence conflicts or remains uncertain | Screen the disputed impact against the relevant site, workforce, community, and funder evidence, escalating material uncertainty to a specialist. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: site, sector, labour, community, governance, and funder requirements | Mark the decision on which impacts need mitigation, specialist study, or escalation `not assessed` in the ESG screening and action register, and send it to the ESG owner and relevant impact specialist. | Otherwise, the work risks calling a plan sustainable before material impacts are assessed |
+
+## Quality Standards
+
+
+Accept the ESG screening and action register only when evidence is sufficient for this decision: which impacts need mitigation, specialist study, or escalation. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of calling a plan sustainable before material impacts are assessed.
+
+## Worked Example
+
+
+A processing plant claims community benefit but has not assessed effluent or seasonal labour. Keep the positive claim unverified, screen both risks, and commission specialist work for any material gap.
+
+<!-- dual-compat-end -->

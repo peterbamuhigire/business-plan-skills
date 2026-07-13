@@ -1,6 +1,11 @@
 ---
-name: plan-assembly
-description: Final assembly skill that converts completed business-plan sections into a submission-ready package. Generates the covering letter, table of contents, required attachments checklist, and submission format guidance calibrated to the specific funder type.
+name: 00-plan-assembly
+description: Use when producing or reviewing the 00 plan assembly component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Plan Assembly and Submission Skill
@@ -81,7 +86,7 @@ After plan assembly, also prepare:
 
 ## Step 1: Identify the Funder Type
 
-Ask: who is the primary recipient of this business planSection 
+Ask: who is the primary recipient of this business plan?
 
 | Funder Type | Orientation | Key Difference |
 |---|---|---|
@@ -159,3 +164,84 @@ Before handover, verify:
 - `meta-presentation-design/SKILL.md` - deck design after assembly
 - `meta-pitch-preparation/SKILL.md` - live delivery preparation after assembly
 - `premium-commercial-writing/SKILL.md` - final premium commercial writing pass for cover letters, executive summaries, funding asks, proposal language, and investor/lender decision summaries
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Approved section set, model outputs, evidence register, and audience brief for 00 plan assembly | Pipeline section owners and release reviewer | Yes | If absent, any mandatory section, model output, or approval is unavailable, produce an assembly gap map and stop release rather than inserting filler. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Assembled business plan with cross-reference and release manifest | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| 00 plan assembly exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| 00 plan assembly release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Section-version register, reconciliation log, and unresolved-release finding list | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| 00 plan assembly decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| 00 plan assembly review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For 00 plan assembly, the controlling focus is approved section versions, narrative-model reconciliation, cross-references, evidence completeness, audience requirements, and release gates. This skill may read and assemble approved sections and correct assembly defects; it may not rewrite an owner's financial assumption, suppress a failed gate, or publish the plan without release authority. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For 00 plan assembly, loss of evidence about 00 plan assembly evidence, decisions, failure thresholds, ownership, and downstream handoffs activates degraded mode. If the controlling 00 plan assembly evidence is unavailable, the same boundary applies. When any mandatory section, model output, or approval is unavailable, produce an assembly gap map and stop release rather than inserting filler. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For 00 plan assembly, two sections state different figures or strategic positions| identify the owning skill, return the conflict for reconciliation, and retain only the approved value supported by evidence | A polished document can conceal internal contradictions and an unsupported funding ask |
+| For 00 plan assembly, A current legal, regulatory, tax, accounting, market, or platform claim controls the 00 plan assembly decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For 00 plan assembly, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete assembled business plan with cross-reference and release manifest, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact 00 plan assembly decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect approved section set, model outputs, evidence register, and audience brief and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce assembled business plan with cross-reference and release manifest with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Assembled business plan with cross-reference and release manifest must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Section-version register, reconciliation log, and unresolved-release finding list must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to 00 plan assembly, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In 00 plan assembly, treating an unavailable approved section set, model outputs, evidence register, and audience brief as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing assembled business plan with cross-reference and release manifest that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+The funding request asks for UGX 800 million while the implementation schedule allocates UGX 650 million. Block assembly and resume only after the use-of-funds schedule reconciles.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for 00 plan assembly; no local deep-dive reference is declared.
+- For 00 plan assembly claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

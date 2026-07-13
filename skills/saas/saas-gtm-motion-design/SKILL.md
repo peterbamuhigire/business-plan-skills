@@ -1,8 +1,14 @@
 ---
 name: saas-gtm-motion-design
-description: Design the go-to-market motion for a SaaS / ICT plan — PLG (product-led growth), sales-led, hybrid, marketplace, channel-partner. Maps motion to ACV, sales-cycle, customer state, methodology (transactional / solution / consultative / provocative), and team composition. The master decision that determines marketing budget, sales hiring, pricing architecture, and unit economics.
+description: Use when a new SaaS plan is being built — run this before Section 07 detailing. Use the corresponding meta skill for a non-SaaS case.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # SaaS GTM Motion Design Skill
 
 ## Overview
@@ -20,8 +26,16 @@ The GTM motion is the master upstream decision in any SaaS plan. It determines p
 
 - The plan has already secured PMF and a working channel, and the motion is established and producing healthy economics
 
+
+- For `saas-gtm-motion-design`, route to the corresponding cross-sector meta skill instead when recurring-revenue SaaS logic is not material.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Gtm Motion Design brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Target ICP and ACV range
 - Customer state (do they know they have the problem? do they know solutions exist?)
 - Product self-serve capability (can a customer use it without onboarding help?)
@@ -46,6 +60,13 @@ The GTM motion is the master upstream decision in any SaaS plan. It determines p
 8. **Reconcile with pricing** — PLG needs simple, transparent pricing; enterprise needs custom pricing.
 9. **Africa-test** — does the motion work given African sales-cycle / channel realities?
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the SaaS go-to-market motion and that the decision concerns PLG, sales-led, channel, marketplace, or hybrid motion.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (ACV, buyer process, sales cycle, channel evidence, and team capacity) or if the work could lead to this identified risk: choosing a fashionable motion that cannot recover CAC or close the buyer.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - Single GTM motion declared (or hybrid with explicit boundaries)
@@ -63,8 +84,19 @@ The GTM motion is the master upstream decision in any SaaS plan. It determines p
 - PLG without a product that delivers value in <10 minutes
 - Channel-partner motion without channel-partner economics modelled
 
+
+- Applying the wrong neighbouring route to saas gtm motion design. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Gtm Motion Design deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Declared GTM motion with justification
 - Funnel design (Educate / Prospect / Win / Grow stages with conversion benchmarks)
 - Named sales plays
@@ -87,3 +119,44 @@ The GTM motion is the master upstream decision in any SaaS plan. It determines p
 - Channel-partner motion via local resellers, SI partners (TechnoBrain, IPMC, Computech), or industry consortia is underused in African B2B SaaS; consider seriously for vertical plays.
 - PLG works for products with global appeal and English-language UX; harder for vertically focused African plays where in-language onboarding matters.
 - WhatsApp Business is a primary B2B sales channel; design the motion with WhatsApp at every stage.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| SaaS go-to-market motion decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to choosing a fashionable motion that cannot recover CAC or close the buyer. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the SaaS go-to-market motion; drafting the motion and capacity assumptions is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If ACV, buyer process, sales cycle, channel evidence, and team capacity cannot be obtained, return a qualified SaaS go-to-market motion covering only the checks that remain supportable. Leave this decision unresolved: PLG, sales-led, channel, marketplace, or hybrid motion. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: PLG, sales-led, channel, marketplace, or hybrid motion | Record the conclusion, source trail, owner, and review trigger in the SaaS go-to-market motion. | Risk of choosing a fashionable motion that cannot recover CAC or close the buyer |
+| Material evidence conflicts or remains uncertain | Model each viable motion against ACV, buying process, sales cycle, CAC recovery, and team capacity before selecting the primary route. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: ACV, buyer process, sales cycle, channel evidence, and team capacity | Mark the decision on PLG, sales-led, channel, marketplace, or hybrid motion `not assessed` in the SaaS go-to-market motion, and send it to the growth lead and finance owner. | Otherwise, the work risks choosing a fashionable motion that cannot recover CAC or close the buyer |
+
+## Quality Standards
+
+
+Accept the SaaS go-to-market motion only when evidence is sufficient for this decision: PLG, sales-led, channel, marketplace, or hybrid motion. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of choosing a fashionable motion that cannot recover CAC or close the buyer.
+
+## Worked Example
+
+
+A low-ACV product proposes field sales across three countries. Compare sales-led payback with product-led and partner routes, then select the motion that matches buyer behaviour and CAC recovery.
+
+<!-- dual-compat-end -->

@@ -1,9 +1,16 @@
 ---
 name: update-claude-documentation
-description: "Update project documentation files such as README.md, PROJECT_BRIEF.md, TECH_STACK.md, ARCHITECTURE.md, docs/API.md, docs/DATABASE.md, CLAUDE.md, and AGENTS.md when significant changes occur. Use for feature additions, architecture changes, dependency updates, API or database modifications, and repo-instruction updates."
+description: Use when synchronising README, AGENTS, CLAUDE, architecture, API, database, or status documentation after an authorised repository change; use the neighbouring domain skill to decide the implementation itself.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Update Claude Documentation
+
+<!-- dual-compat-start -->
 
 ## Overview
 
@@ -221,19 +228,19 @@ Check across all files:
 
 **Update Order:**
 
-```
+```text
 API/DB Specs  Architecture  CLAUDE  README  BRIEF
 ```
 
 **Consistency Checks:**
 
-```
+```text
 Terminology, Versions, Paths, Names, Features
 ```
 
 **Time Budget:**
 
-```
+```text
 Small change: 5-10 min
 Medium change: 15-30 min
 Major refactor: 45-60 min
@@ -253,3 +260,70 @@ Major refactor: 45-60 min
 6. One reality, multiple perspectives
 
 **Remember:** Documentation debt compounds fast. Update immediately when making changes.
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when missing |
+| --- | --- | ---: | --- |
+| Authorised repository change and diff | Implementation owner and version control | Yes | Stop factual updates and return an impact map only. |
+| Existing owning documents | Repository | Yes | Mark the document gap and create a file only when the task authorises it. |
+| Validation evidence and current counts | Repository commands or authoritative source | Conditional | Label the status `not assessed`; do not infer it. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+| --- | --- | --- |
+| Updated documentation set | Maintainers, users, and agents | Behaviour, commands, paths, counts, and gates match inspected repository evidence. |
+| Documentation change map | Reviewer | Every material change is mapped to an updated file or a justified not-applicable decision. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+| --- | --- | --- |
+| Documentation change map | Changed behaviour -> affected files -> updated statements | Every material repository change has an owner document or an explicit not-applicable rationale. |
+| Consistency check | Link, command, count, and stale-claim results | Commands run, file paths resolve, counts match machine output, and superseded claims are removed or labelled. |
+
+## Capability Contract
+
+Read and search are required. Edit only documentation within the authorised repository change; do not modify application behaviour, publish externally, send messages, or certify accuracy outside the available evidence. Execution is limited to safe link, syntax, count, and repository validation. Network verification is optional and required only for current external facts.
+
+## Degraded Mode
+
+Fallback: without access to the changed implementation or its validation evidence, return a narrow documentation impact map and mark factual updates `not assessed`. Without execution, list the commands and links still unverified. Do not update a version, count, status, or current fact from memory.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+| --- | --- | --- |
+| A behaviour, interface, dependency, route, or release gate changed | Update its owning document and cross-references | Documentation that contradicts the repository. |
+| A historical document remains useful but contains stale status | Add a dated supersession note rather than rewriting history | Loss of audit context. |
+| Machine output conflicts with a hand-maintained count | Use machine output and identify the active-root rule | Cached catalogue claims becoming authoritative. |
+| Evidence for a current external fact is unavailable | Remove, qualify, or defer the claim | Stale legal, financial, platform, or market guidance. |
+
+## Anti-Patterns
+
+- Updating only README after an authoring-gate change. Correction: also check AGENTS, CLAUDE, CONTRIBUTING, CI, and quality records.
+- Copying a cached active-skill count. Correction: discover active `SKILL.md` files from declared roots and record the command.
+- Rewriting an old audit to make it appear current. Correction: preserve history and add a dated final-state record or supersession note.
+- Describing a validator that was not run. Correction: quote the actual command and measured result or mark it pending.
+- Adding a live exchange rate or statutory threshold from memory. Correction: use the governing source register and dated verification.
+- Fixing implementation code while assigned documentation only. Correction: stop at the documentation boundary and route the code change to its owner.
+
+## Worked Example
+
+After adding `scripts/validate_skill_engine.py`, update README with the command, AGENTS and CLAUDE with the mandatory gate, CONTRIBUTING with the release sequence, CI with the executable check, and the upgrade record with measured results. Do not claim zero debt until the baseline run exits successfully.
+
+## Workflow
+
+1. Inspect the authorised change, its diff, validation evidence, and owning documentation.
+2. Map behaviour, interfaces, commands, routes, and counts to specific files; stop if missing evidence would force a factual guess.
+3. Update the most specific documents before summaries and repository instructions.
+4. Recover a stale or conflicting statement by using machine output or the governing source, then rerun links, commands, and consistency checks.
+
+## References
+
+- `AGENTS.md` owns repository-wide routing and release rules.
+- `skills/meta-utility/skill-writing/SKILL.md` owns the portable skill contract.
+- `CONTRIBUTING.md` owns the maintainer procedure.
+
+<!-- dual-compat-end -->

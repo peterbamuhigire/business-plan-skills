@@ -1,8 +1,14 @@
 ---
 name: meta-due-diligence
-description: Three-mode due diligence meta-skill for (A) preparing a business to survive investor/lender due diligence, (B) conducting outbound due diligence on partners, suppliers, customers, and acquisition targets, and (C) auditing a business plan for DD-readiness before submission. Integrates Howson's M&A DD framework, Scharfman's PE operational DD standards, Berkman's transaction DD checklists, and Hetherington's OSINT methodology. Ensures every business plan is backed by verified evidence and every claim can withstand professional scrutiny.
+description: Use when running commercial, operational, legal, or financial due diligence; preparing an evidence room; or reporting red flags and evidence gaps. Use the relevant plan-section skill for section drafting.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Due Diligence Meta-Skill
 
 ## Use When
@@ -17,8 +23,16 @@ description: Three-mode due diligence meta-skill for (A) preparing a business to
 - Do not assume DD is complete because the plan sounds polished.
 - Do not certify claims that have not been checked against documents or verifiable evidence.
 
+
+- For `meta-due-diligence`, route to the relevant plan-section skill instead when the request is section drafting rather than cross-section analysis.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Due Diligence brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Completed or near-complete plan sections
 - All available supporting documents and source files
 - Audience type and DD intensity expected
@@ -33,6 +47,13 @@ description: Three-mode due diligence meta-skill for (A) preparing a business to
 5. Build the DD action list or counterparty findings pack.
 6. Hand unresolved items back to the relevant skills for correction.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the due-diligence findings register and that the decision concerns which red flags block, condition, or permit the transaction.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (data room, scope, source provenance, and materiality threshold) or if the work could lead to this identified risk: treating a missing document as satisfactory evidence.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - Every major claim is either verified, caveated, or flagged.
@@ -46,14 +67,25 @@ description: Three-mode due diligence meta-skill for (A) preparing a business to
 - Leaving unsupported claims in place because they are strategically useful.
 - Mixing minor admin gaps with deal-breaking issues.
 - Treating DD as formatting rather than verification.
+- Treating a generic due diligence template as a conclusion. **Correction:** tie each choice to the named audience, evidence, and operating constraint.
 
+
+- Applying the wrong neighbouring route to meta due diligence. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Due Diligence deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - DD readiness assessment or counterparty DD findings
 - Verified and unsupported claim list
 - Severity-ranked issue log
 - Recommended remediation actions before submission or deal progression
-
 
 
 ## Core Principle
@@ -87,11 +119,11 @@ When a professional investor, bank credit officer, or DFI analyst receives a bus
 #### 1. Commercial Due Diligence
 
 **What they verify:**
-- Market size: Is the TAM/SAM/SOM calculation methodology credibleSection  Are the data sources reputable and currentSection 
-- Growth claims: Is the cited CAGR from a verifiable sourceSection  Does historical data support the forward projectionsSection 
-- Customer claims: Do named customers existSection  Are contracts signed or verbalSection  What is the concentration  does one customer represent >20% of revenueSection 
-- Competitive position: Is the stated competitive advantage real and durable, or asserted without evidenceSection 
-- Revenue quality: Is revenue recurring/contracted, or one-offSection  Is the pipeline realSection 
+- Market size: Is the TAM/SAM/SOM calculation methodology credible? Are the data sources reputable and current?
+- Growth claims: Is the cited CAGR from a verifiable source? Does historical data support the forward projections?
+- Customer claims: Do named customers exist? Are contracts signed or verbal? What is the concentration  does one customer represent >20% of revenue?
+- Competitive position: Is the stated competitive advantage real and durable, or asserted without evidence?
+- Revenue quality: Is revenue recurring/contracted, or one-off? Is the pipeline real?
 
 **Preparation actions:**
 - [ ] All market size figures cite named sources with date and URL
@@ -103,12 +135,12 @@ When a professional investor, bank credit officer, or DFI analyst receives a bus
 #### 2. Financial Due Diligence
 
 **What they verify:**
-- Financial statements: Are the last 2-3 years of financials available and internally consistentSection 
-- Quality of earnings (QoE): Have one-off items been excluded from normalised EBITDASection 
-- Working capital: What is the normal working capital requirementSection  Is it stable or deterioratingSection 
-- Cash flow: Does cash flow match reported profitSection  Large divergences indicate accounting issues.
-- Tax compliance: Are all tax returns filed and paidSection  Are there outstanding assessmentsSection 
-- Revenue recognition: Is revenue booked when earned or when receivedSection  Are policies consistentSection 
+- Financial statements: Are the last 2-3 years of financials available and internally consistent?
+- Quality of earnings (QoE): Have one-off items been excluded from normalised EBITDA?
+- Working capital: What is the normal working capital requirement? Is it stable or deteriorating?
+- Cash flow: Does cash flow match reported profit? Large divergences indicate accounting issues.
+- Tax compliance: Are all tax returns filed and paid? Are there outstanding assessments?
+- Revenue recognition: Is revenue booked when earned or when received? Are policies consistent?
 
 **Preparation actions:**
 - [ ] 3 years of audited or reviewed financial statements prepared (or management accounts if pre-audit stage)
@@ -121,12 +153,12 @@ When a professional investor, bank credit officer, or DFI analyst receives a bus
 #### 3. Legal and Compliance Due Diligence
 
 **What they verify:**
-- Business registration: Is the entity properly registered and in good standingSection 
-- Licences and permits: Are all operating licences current and applicableSection 
-- Contracts: Are key commercial contracts in writing, signed, and favourableSection 
-- IP: Is intellectual property owned by the business (not the founder personally)Section 
-- Litigation: Are there pending or threatened legal claimsSection 
-- Land/property: If land is an asset or is used operationally, is title clear and registeredSection 
+- Business registration: Is the entity properly registered and in good standing?
+- Licences and permits: Are all operating licences current and applicable?
+- Contracts: Are key commercial contracts in writing, signed, and favourable?
+- IP: Is intellectual property owned by the business (not the founder personally)?
+- Litigation: Are there pending or threatened legal claims?
+- Land/property: If land is an asset or is used operationally, is title clear and registered?
 
 **Preparation actions:**
 - [ ] Certificate of Incorporation / Business Registration Certificate available
@@ -139,11 +171,11 @@ When a professional investor, bank credit officer, or DFI analyst receives a bus
 #### 4. Operational Due Diligence
 
 **What they verify:**
-- Processes: Are core business processes documented or entirely in the founder's headSection 
-- Systems: What accounting, ERP, or management information systems are in useSection 
-- Key person dependency: Would the business survive if the founder was unavailable for 3 monthsSection 
-- Scalability: Can operations scale to meet the projected growth in the planSection 
-- Supply chain: How many suppliers for critical inputsSection  What is the switching costSection 
+- Processes: Are core business processes documented or entirely in the founder's head?
+- Systems: What accounting, ERP, or management information systems are in use?
+- Key person dependency: Would the business survive if the founder was unavailable for 3 months?
+- Scalability: Can operations scale to meet the projected growth in the plan?
+- Supply chain: How many suppliers for critical inputs? What is the switching cost?
 
 **Preparation actions:**
 - [ ] SOPs (Standard Operating Procedures) exist for core processes
@@ -155,11 +187,11 @@ When a professional investor, bank credit officer, or DFI analyst receives a bus
 #### 5. Management and People Due Diligence
 
 **What they verify:**
-- Founder background: Are the credentials stated in the plan accurate and verifiableSection 
-- Track record: Do prior business successes check outSection 
-- References: What do former employers, clients, and associates saySection 
-- Character: Any adverse history  fraud, criminal records, regulatory sanctionsSection 
-- Team completeness: Are the skill gaps in the leadership team addressedSection 
+- Founder background: Are the credentials stated in the plan accurate and verifiable?
+- Track record: Do prior business successes check out?
+- References: What do former employers, clients, and associates say?
+- Character: Any adverse history  fraud, criminal records, regulatory sanctions?
+- Team completeness: Are the skill gaps in the leadership team addressed?
 
 **Preparation actions:**
 - [ ] All CVs in the plan are accurate (dates, qualifications, titles)
@@ -173,7 +205,7 @@ For any equity investment or major DFI financing, build a data room  an organise
 
 **Minimum data room structure:**
 
-```
+~~~text
 /data-room/
  1-corporate/
     certificate-of-incorporation.pdf
@@ -203,7 +235,7 @@ For any equity investment or major DFI financing, build a data room  an organise
  6-people/
      management-cvs.pdf
      key-employment-contracts.pdf
-```
+~~~
 
 ---
 
@@ -232,14 +264,14 @@ Open-source intelligence (OSINT) is the systematic collection and analysis of pu
 - Credit bureau checks (Uganda: CRB Africa, Compuscan)  payment history, defaults, judgements
 - Court records: civil judgements, winding-up petitions, bankruptcy records
 - Regulatory enforcement actions: check sector regulator databases (Bank of Uganda, URA, NEMA)
-- Annual returns: filed on timeSection  Financials filedSection  Gaps in filing history are signals
+- Annual returns: filed on time? Financials filed? Gaps in filing history are signals
 
 **Layer 3  Digital Footprint Assessment**
-- Website: domain registration date, hosting country, HTTPS, contact details verifiableSection 
+- Website: domain registration date, hosting country, HTTPS, contact details verifiable?
 - Social media: account age, follower quality, engagement consistency  new accounts with no history are high-risk for new suppliers
 - Adverse media search: [company name] + fraud, scam, dispute, lawsuit, complaint  across Google, local news, social media
-- LinkedIn: do stated employees actually exist and have credible historiesSection 
-- Google Maps / satellite: does the stated physical address match a real business locationSection 
+- LinkedIn: do stated employees actually exist and have credible histories?
+- Google Maps / satellite: does the stated physical address match a real business location?
 
 **Layer 4  People Verification (Key Principals)**
 - Director background: search [name] + company names + past roles
@@ -276,7 +308,7 @@ Use this section after all plan sections (0115) are drafted, before submission t
 
 ### Audit by Plan Section
 
-For each section, the audit asks: **Is every material claim in this section verified, sourced, and defensibleSection **
+For each section, the audit asks: **Is every material claim in this section verified, sourced, and defensible?**
 
 | Plan Section | Key Claims to Verify | Evidence Required | Common DD Finding |
 |---|---|---|---|
@@ -333,7 +365,7 @@ Due diligence also tests whether a plan can actually be executed. A well-written
 
 ## Generation Process
 
-1. Identify the mode (A, B, or C) and the purpose (what funderSection  what counterpartySection )
+1. Identify the mode (A, B, or C) and the purpose (what funder? what counterparty?)
 2. **Mode A:** Work through the 5 DD categories; produce a gaps list with priority actions and data room requirements
 3. **Mode B:** Apply the 5-layer OSINT framework; produce a red flag report with recommendations
 4. **Mode C:** Audit each of the 15 plan sections against the verification table; produce a DD Readiness Score with a priority action list
@@ -358,3 +390,44 @@ Due diligence also tests whether a plan can actually be executed. A well-written
 - `11-funding-request/references/business-valuation-methods.md`  Valuation methodology defence (cross-reference with Scharfman's valuation scrutiny section).
 - `12-risk-analysis/SKILL.md`  Risk register. Every DD finding that cannot be resolved before submission must appear in the risk register with a mitigation.
 - `references/esmp-template.md`  Environmental and Social Management Plan (ESMP) template and reference guide for DFI-funded projects. Contains: full 14-section document structure; AfDB 14 Material Actions with KPIs and deadlines; impact/mitigation matrix template; representative mitigation measures by impact type (dust, noise, waste, OHS, community safety, asbestos); environmental monitoring plan; 5-step GRM procedure with SEAH protocols; stakeholder engagement timeline; ESMP budget structure; Uganda NEMA/KCCA/DOSH regulatory requirements; 20-term glossary. Sources: AfDB, FAO/WB, UNDP, World Bank (2025). **Read when any section of the plan involves construction, land use, natural resources, or DFI/development bank financing  any funder following AfDB OS or IFC Performance Standards will require an ESMP.**
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Due-diligence findings register decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to treating a missing document as satisfactory evidence. |
+
+## Capability and Permission Boundaries
+
+
+Default to read-only inspection while producing the due-diligence findings register. Read supplied records and run non-mutating checks; writing findings only; remediation needs separate authority is permitted only when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If data room, scope, source provenance, and materiality threshold cannot be obtained, return a qualified due-diligence findings register covering only the checks that remain supportable. Leave this decision unresolved: which red flags block, condition, or permit the transaction. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: which red flags block, condition, or permit the transaction | Record the conclusion, source trail, owner, and review trigger in the due-diligence findings register. | Risk of treating a missing document as satisfactory evidence |
+| Material evidence conflicts or remains uncertain | Test the red flag against an independent source or primary record and keep it open, with materiality stated, until the contradiction is resolved. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: data room, scope, source provenance, and materiality threshold | Mark the decision on which red flags block, condition, or permit the transaction `not assessed` in the due-diligence findings register, and send it to the diligence lead and transaction sponsor. | Otherwise, the work risks treating a missing document as satisfactory evidence |
+
+## Quality Standards
+
+
+Accept the due-diligence findings register only when evidence is sufficient for this decision: which red flags block, condition, or permit the transaction. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of treating a missing document as satisfactory evidence.
+
+## Worked Example
+
+
+A target reports a major customer as recurring revenue but supplies only unsigned purchase orders. Flag revenue quality, quantify materiality, and keep the finding open until contracts, invoices, and collections reconcile.
+
+<!-- dual-compat-end -->

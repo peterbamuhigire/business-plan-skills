@@ -1,8 +1,14 @@
 ---
 name: saas-marketing-channel-economics
-description: Design and audit the SaaS marketing channel mix on per-channel economics — CAC, payback, scale ceiling, channel concentration risk. Per-channel: SEO/content, paid (Google/Meta/LinkedIn), community, partnerships, events, WhatsApp/messaging, ABM, referrals. Forces the marketing budget to be a defended portfolio of measured channels, not a single line item.
+description: Use when section 07 of any SaaS plan. Use the corresponding meta skill for a non-SaaS case.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # SaaS Marketing Channel Economics Skill
 
 ## Overview
@@ -16,8 +22,19 @@ Most SaaS plans treat marketing as a single budget line. The discipline is chann
 - A new channel is being considered
 - CAC has been creeping up (likely channel saturation)
 
+## Do Not Use When
+
+- The request belongs to the neighbouring route. Use the cross-sector meta skill when the decision is not specific to recurring-revenue SaaS economics or operations.
+- The available evidence cannot support a responsible marketing channel economics conclusion; return the evidence gap instead of inventing one.
+
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Marketing Channel Economics brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - Current marketing channels with spend and outcomes
 - Funnel data per channel (visits, signups, paid customers)
 - Customer LTV (from unit economics model)
@@ -48,6 +65,13 @@ Most SaaS plans treat marketing as a single budget line. The discipline is chann
 7. **Specify channel-by-channel KPIs and review cadence.**
 8. **Cross-reference** Section 07 with the channel mix; Section 10 with the marketing budget.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the channel economics portfolio and that the decision concerns which channels to scale, test, cap, or stop.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (spend, attributed pipeline, conversion, CAC, payback, and scale ceiling) or if the work could lead to this identified risk: hiding channel concentration and bad payback inside blended CAC.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - Each channel has CAC + payback computed (not estimated)
@@ -66,8 +90,19 @@ Most SaaS plans treat marketing as a single budget line. The discipline is chann
 - "Brand" as a separate channel without metrics (brand is a moat lever; not a CAC channel)
 - Influencer marketing without measurement
 
+
+- Applying the wrong neighbouring route to saas marketing channel economics. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Marketing Channel Economics deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Per-channel economics table (channel / spend / customers / CAC / payback / ceiling)
 - Channel portfolio (primary / secondary / experimental)
 - Marketing arbitrage identified
@@ -94,3 +129,44 @@ Most SaaS plans treat marketing as a single budget line. The discipline is chann
 - **SEO** for African keywords is often less competitive — opportunity for content moats.
 - **Paid social** (LinkedIn) works for enterprise / SA / NG / KE; less effective for SMB / rural.
 - **Influencer / KOL** in Africa: established sector experts, journalists, broadcasters often more effective than social-media influencers for B2B.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Channel economics portfolio decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to hiding channel concentration and bad payback inside blended CAC. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the channel economics portfolio; modelling channel allocations without changing live spend is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If spend, attributed pipeline, conversion, CAC, payback, and scale ceiling cannot be obtained, return a qualified channel economics portfolio covering only the checks that remain supportable. Leave this decision unresolved: which channels to scale, test, cap, or stop. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: which channels to scale, test, cap, or stop | Record the conclusion, source trail, owner, and review trigger in the channel economics portfolio. | Risk of hiding channel concentration and bad payback inside blended CAC |
+| Material evidence conflicts or remains uncertain | Separate attributed pipeline and spend by channel, then cap or pause the channel whose payback remains outside the approved limit. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: spend, attributed pipeline, conversion, CAC, payback, and scale ceiling | Mark the decision on which channels to scale, test, cap, or stop `not assessed` in the channel economics portfolio, and send it to the growth lead and finance owner. | Otherwise, the work risks hiding channel concentration and bad payback inside blended CAC |
+
+## Quality Standards
+
+
+Accept the channel economics portfolio only when evidence is sufficient for this decision: which channels to scale, test, cap, or stop. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of hiding channel concentration and bad payback inside blended CAC.
+
+## Worked Example
+
+
+Blended CAC looks acceptable, but one paid channel has long payback and no scale headroom. Separate attribution, cap the weak channel, and move only tested budget to the stronger route.
+
+<!-- dual-compat-end -->

@@ -1,8 +1,14 @@
 ---
 name: meta-agent-bankability-and-investor-readiness
-description: Agent-specific bankability scorecard layered on top of SaaS bankability and AI bankability. Tests unit-economic discipline (cost per resolved task), moat-vs-wrapper, governance maturity (kill-switch, audit, drill cadence), safety / red-team practice, regulatory readiness, talent depth (AI Safety Lead in seat?), KPI maturity (intervention rate measured?). Use as the final gate before declaring an agent plan investor-ready.
+description: Use when an agent-product plan is being finalised. Use financial projections for model construction.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Meta — Agent Bankability & Investor Readiness Skill
 
 ## Overview
@@ -33,8 +39,17 @@ The agent bankability scorecard sits **on top** of the prior two and adds the di
 - The plan does not include an agent product — use SaaS / AI bankability only
 - The plan is pre-PMF and the agent is aspirational — use as forward-looking gap analysis, not a pass / fail
 
+
+- Route to `10-financial-projections` instead when the task is to construct the underlying model.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Bankability And Investor Readiness brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
+| Current accounting, tax, valuation, or pricing basis | Finance owner, accounting records, signed contracts, and current authoritative sources | Conditional | Mark the treatment unresolved and require qualified professional review. |
 - Completed agent unit economics (`saas-agent-unit-economics-and-cogs`)
 - Completed moat-vs-wrapper analysis (`saas-agent-moat-and-wrapper-risk`)
 - Completed agent risk register (`saas-agent-risk-and-stress-test`)
@@ -66,6 +81,13 @@ The agent bankability scorecard sits **on top** of the prior two and adds the di
 6. **Wire to the investor deck / data room** — what evidence supports each scorecard item; cross-reference to data room.
 7. **Schedule the next review** — agent bankability is not static; refresh quarterly.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the agent investor-readiness scorecard and that the decision concerns whether agent-specific risks justify an investor-ready rating.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (resolved-task economics and intervention evidence) or if the work could lead to this identified risk: giving a wrapper business an agent premium.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - All three layers (SaaS / AI / Agent) scored separately and aggregated honestly
@@ -84,8 +106,19 @@ The agent bankability scorecard sits **on top** of the prior two and adds the di
 - No remediation plan for gaps
 - Treating the AI Safety Lead in-seat check as optional
 
+
+- Applying the wrong neighbouring route to meta agent bankability and investor readiness. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Bankability And Investor Readiness deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Agent bankability score (0-100) with subscores
 - Evidence inventory per scorecard item
 - 2-3 binding gaps and remediation plan
@@ -125,3 +158,49 @@ The agent bankability scorecard sits **on top** of the prior two and adds the di
 - **Sovereign-AI procurement readiness** — for plans targeting public sector (KE Huduma, NG NIMC, RW Irembo, UG NITA-U, ZA Home Affairs / SARS), pre-clearance with regulator and local-entity / local-citizen-headcount evidence are bankability items
 - **Local-language coverage** as a bankability evidence point in vertical agents serving African end-users
 - **Insurance / indemnity** — AI E&O cover thin in Africa; document insurance approach and self-insurance reserve transparently in DD pack
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Agent investor-readiness scorecard decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to giving a wrapper business an agent premium. |
+
+## Capability and Permission Boundaries
+
+
+Default to read-only inspection while producing the agent investor-readiness scorecard. Read supplied records and run non-mutating checks; writing findings into the supplied scorecard is permitted only when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If resolved-task economics and intervention evidence cannot be obtained, return a qualified agent investor-readiness scorecard covering only the checks that remain supportable. Leave this decision unresolved: whether agent-specific risks justify an investor-ready rating. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: whether agent-specific risks justify an investor-ready rating | Record the conclusion, source trail, owner, and review trigger in the agent investor-readiness scorecard. | Risk of giving a wrapper business an agent premium |
+| Material evidence conflicts or remains uncertain | Rescore the disputed dimension with and without the claimed agent advantage; retain the lower score until evidence supports the uplift. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: resolved-task economics and intervention evidence | Mark the decision on whether agent-specific risks justify an investor-ready rating `not assessed` in the agent investor-readiness scorecard, and send it to the finance owner and funder reviewer. | Otherwise, the work risks giving a wrapper business an agent premium |
+
+## Quality Standards
+
+
+Accept the agent investor-readiness scorecard only when evidence is sufficient for this decision: whether agent-specific risks justify an investor-ready rating. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of giving a wrapper business an agent premium.
+
+## Worked Example
+
+
+An agent startup reports high task completion but cannot separate autonomous resolutions from human rescues. Score intervention maturity as unverified and withhold the agent premium until replay data supports the claimed rate.
+
+## Finance Doctrine Gate
+
+
+Apply the Chwezi doctrine to the agent investor-readiness scorecard, using the reporting basis and effective date supported by resolved-task economics and intervention evidence. Reconcile the treatment to the model and narrative, and have the finance owner and lender or investment reviewer review the treatment, reconciliation, and exposure to this risk: giving a wrapper business an agent premium.
+
+<!-- dual-compat-end -->

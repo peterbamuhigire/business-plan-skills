@@ -1,6 +1,11 @@
 ---
-name: competitive-analysis
-description: Generate the competitive analysis section with competitor profiles, SWOT analysis, competitive matrix, differentiation strategy, market share positioning, and sustainable competitive advantage (moat). Proves the business can win against alternatives. Use when building or reviewing competitive analysis sections, benchmarking against competitors, or defining market positioning. Incorporates Farris's competitive metrics, guerrilla positioning strategy, value-based differentiation frameworks, Teece's business model vs strategy distinction (business model = architecture of value creation and capture; strategy = how the model is made difficult to imitate), Kaza's four differentiation types (aesthetic experience, social experience, boundary interactions, purposeful experiences), Ohmae's 3C Strategic Triangle and Key Factors for Success, and the Portable MBA onstage/backstage model with Value Net complementors framework.
+name: 06-competitive-analysis
+description: Use when producing or reviewing the 06 competitive analysis component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Competitive Analysis Skill
@@ -77,7 +82,7 @@ Generate a rigorous competitive landscape analysis that honestly assesses the co
 
 ## Competitor Profile Template
 
-```
+```text
 Company:
 Website:
 Founded / Years in market:
@@ -125,7 +130,7 @@ Define the relevant share metric for this industry:
 
 ### Industry Concentration
 
-```
+```text
 CR4 = Combined market share of top 4 firms
 HHI = Sum of (each firm's share)^2
 ```
@@ -200,11 +205,11 @@ Apply Porter's Five Forces to establish the **structural attractiveness** of the
 
 | Force | Key Questions | Assessment |
 |-------|--------------|------------|
-| **Competitive Rivalry** | How many competitorsSection  How intense is price competitionSection  How differentiated is the industrySection  Is growth slow (zero-sum) or fastSection  | High / Medium / Low |
-| **Threat of New Entrants** | Are barriers to entry highSection  Capital requirementsSection  Regulatory licencesSection  Economies of scaleSection  Brand loyalty requirementsSection  | High / Medium / Low |
-| **Supplier Power** | How many suppliersSection  Are inputs commoditised or specialisedSection  How easy to switch suppliersSection  Do suppliers pose a forward-integration threatSection  | High / Medium / Low |
-| **Buyer Power** | How concentrated are buyersSection  Are they price-sensitiveSection  Can they backward-integrateSection  Do they have full information on alternativesSection  | High / Medium / Low |
-| **Threat of Substitutes** | Can customers meet the same need a different waySection  Are substitutes improving in price-performanceSection  What is the switching costSection  | High / Medium / Low |
+| **Competitive Rivalry** | How many competitors? How intense is price competition? How differentiated is the industry? Is growth slow (zero-sum) or fast? | High / Medium / Low |
+| **Threat of New Entrants** | Are barriers to entry high? Capital requirements? Regulatory licences? Economies of scale? Brand loyalty requirements? | High / Medium / Low |
+| **Supplier Power** | How many suppliers? Are inputs commoditised or specialised? How easy to switch suppliers? Do suppliers pose a forward-integration threat? | High / Medium / Low |
+| **Buyer Power** | How concentrated are buyers? Are they price-sensitive? Can they backward-integrate? Do they have full information on alternatives? | High / Medium / Low |
+| **Threat of Substitutes** | Can customers meet the same need a different way? Are substitutes improving in price-performance? What is the switching cost? | High / Medium / Low |
 
 **Five Forces summary:** State whether the industry is **structurally attractive** (most forces Low = favourable; above-average returns sustainable) or **structurally unattractive** (most forces High = unfavourable; competition erodes returns to minimum). Then explain how this business's competitive strategy addresses the most unfavourable forces.
 
@@ -220,14 +225,14 @@ When assessing competitive position, distinguish between the business model and 
 
 | Dimension | Business Model | Competitive Strategy |
 |---|---|---|
-| **What it answers** | How does the business create and capture valueSection  | How does the business win against rivalsSection  |
+| **What it answers** | How does the business create and capture value? | How does the business win against rivals? |
 | **Replicability** | Can be copied  the model alone is not an advantage | Explicitly about making the model hard to imitate |
-| **Investor question** | "Is this business viableSection " | "Can this business stay aheadSection " |
+| **Investor question** | "Is this business viable?" | "Can this business stay ahead?" |
 
 **Application:** For each competitor in the analysis, assess:
-1. Do they share the same business model as usSection  (If yes, strategy must differentiate us)
-2. What makes our version of the model harder to replicateSection  (IP, relationships, data, speed, community)
-3. Can a competitor adopt our model quickly, or do we have complementary assets (brand, supplier relationships, regulatory approvals, distribution) that they cannot easily acquireSection 
+1. Do they share the same business model as us? (If yes, strategy must differentiate us)
+2. What makes our version of the model harder to replicate? (IP, relationships, data, speed, community)
+3. Can a competitor adopt our model quickly, or do we have complementary assets (brand, supplier relationships, regulatory approvals, distribution) that they cannot easily acquire?
 
 **Value capture mechanisms** that create durable competitive advantage (Teece, 2010):
 - Intellectual property (patents, trademarks, trade secrets)
@@ -242,10 +247,10 @@ Beyond standard competitive dimensions, assess differentiation across four exper
 
 | Layer | What It Covers | Competitive Question |
 |---|---|---|
-| **Aesthetic experience** | How the product/service looks, feels, smells, sounds | Does our delivery experience itself differentiate usSection  |
-| **Social experience** | How customers feel being associated with our brand | Does buying from us signal something about who they areSection  |
-| **Boundary interactions** | Packaging, delivery, follow-up, receipts, after-sale service  the edges | Are we better at the *edges* of the offering, not just the coreSection  |
-| **Purposeful experiences** | Every touchpoint designed to serve a specific customer feeling | Is there a consistent emotional through-line across all interactionsSection  |
+| **Aesthetic experience** | How the product/service looks, feels, smells, sounds | Does our delivery experience itself differentiate us? |
+| **Social experience** | How customers feel being associated with our brand | Does buying from us signal something about who they are? |
+| **Boundary interactions** | Packaging, delivery, follow-up, receipts, after-sale service  the edges | Are we better at the *edges* of the offering, not just the core? |
+| **Purposeful experiences** | Every touchpoint designed to serve a specific customer feeling | Is there a consistent emotional through-line across all interactions? |
 
 **The signature touch principle:** Small businesses can outcompete on the boundary interactions that large competitors standardise out of existence. Identify 2-3 signature touches specific to this business (e.g., personalised follow-up, handwritten note, proactive update before the customer asks).
 
@@ -266,3 +271,84 @@ Beyond standard competitive dimensions, assess differentiation across four exper
 - **Layered competitive advantage, Value Net, and purchase cycle (Portable MBA)**: See `references/competitive-dynamics-portable-mba.md` for the onstage/backstage competitive advantage model (Coke/Pepsi case), 13-step purchase and consumption cycle as differentiation audit, value chain architecture disruption (Nucor/IKEA/Dell cases), outsourcing risk taxonomy (non-performance/value expropriation/elimination), complementors as sixth competitive force (Brandenburger & Nalebuff Value Net), five determinants of complementor power, and Uganda/EA application  from Fahey & Randall, eds. (Wiley, 2000). **Read when assessing whether competitive advantages have backstage support, identifying non-obvious differentiation points across the purchase cycle, or evaluating outsourcing risks.**
 - **24 competitive and business analysis methods (Fleisher & Bensoussan)**: See `references/competitive-analysis-methods-fleisher.md` for the complete toolkit of 24 methods across six categories (strategic/industry, competitor intelligence, financial, environmental, futures, analytical process)  including Nine Forces, competitive positioning, business model analysis, SERVO, McKinsey 7S, shadowing, win/loss analysis, benchmarking, war gaming, country risk, driving forces, technology forecasting, ACH, and linchpin analysis. Includes FAROUT evaluation framework, Business Plan Application Table, Method Selector, and Uganda/EA adaptations for low-data markets, informal competition, and relationship-based intelligence. Source: Fleisher & Bensoussan (FT Press, 2007). **Read when selecting the right analysis method for a specific competitive question, explaining method choice to investors, or stress-testing analytical assumptions.**
 - **SWOT/TOWS, PESTLE, Porter's Five Forces, value chain  structured descriptions**: See `../meta-market-validation/references/business-analysis-techniques-cadle.md` (Chapter 1 and Chapter 4 tools) for precise, step-by-step descriptions of PESTLE (Tool 1), Porter's Five Forces (Tool 2), SWOT/TOWS (Tool 6), Value Proposition Analysis (Tool 33), and Value Chain Analysis (Tool 34) with guidance on correct application and common mistakes  Source: Cadle, Paul & Turner (BCS, 2010). **Read when setting up the competitive analysis framework or when the client needs the analytical approach explained clearly.**
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Named competitors and substitutes, customer decision criteria, observed offers, and defensibility evidence for 06 competitive analysis | Customer research, competitor primary sources, product data, and technical records | Yes | If absent, competitor evidence is unavailable, state the untested claim and design a verification step rather than inventing a score. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Competitive analysis, positioning choice, and response scenarios | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| 06 competitive analysis exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| 06 competitive analysis release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Competitor fact cards, source dates, positioning map, and scenario triggers | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| 06 competitive analysis decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| 06 competitive analysis review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For 06 competitive analysis, the controlling focus is named rivals and substitutes, customer choice criteria, relative position, likely response, concentration, and defensible advantage. This skill may inspect public and supplied competitive evidence in read-only mode; it may not misrepresent a competitor, scrape outside authorised terms, or assert proprietary advantage without proof. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For 06 competitive analysis, loss of evidence about named rivals and substitutes, customer choice criteria, relative position, likely response, concentration, and defensible advantage activates degraded mode. If the controlling 06 competitive analysis evidence is unavailable, the same boundary applies. When competitor evidence is unavailable, state the untested claim and design a verification step rather than inventing a score. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For 06 competitive analysis, the claimed advantage is readily copied or unsupported by customer evidence| downgrade the claim and reposition around evidenced assets, service, access, or distribution | Promotional differentiation collapses under customer or investor diligence |
+| For 06 competitive analysis, A current legal, regulatory, tax, accounting, market, or platform claim controls the 06 competitive analysis decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For 06 competitive analysis, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete competitive analysis, positioning choice, and response scenarios, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact 06 competitive analysis decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect named competitors and substitutes, customer decision criteria, observed offers, and defensibility evidence and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce competitive analysis, positioning choice, and response scenarios with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Competitive analysis, positioning choice, and response scenarios must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Competitor fact cards, source dates, positioning map, and scenario triggers must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to 06 competitive analysis, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In 06 competitive analysis, treating an unavailable named competitors and substitutes, customer decision criteria, observed offers, and defensibility evidence as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing competitive analysis, positioning choice, and response scenarios that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+A founder claims superior service but cannot provide response-time evidence. Remove the superiority claim and compare verified service levels and trade-offs.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for 06 competitive analysis; no local deep-dive reference is declared.
+- For 06 competitive analysis claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

@@ -1,101 +1,108 @@
-# Dual-Compatible SKILL Template
+# July 2026 dual-compatible skill template
 
-Use this template when creating or refactoring a skill so it works cleanly for both Codex and Claude Code.
+Parent: [Skill Writing](../SKILL.md)
 
-## Frontmatter
-
-```yaml
----
-name: skill-name
-description: One to two sentences stating what the skill does and when to use it.
----
-```
-
-Use only:
-
-- `name`
-- `description`
-
-Keep the description trigger-oriented, not promotional.
-
-## Body Template
+Use this template for every active skill. Replace every bracketed field with domain content; a filled heading with generic boilerplate is a contract failure.
 
 ```markdown
-# [Skill Title]
+---
+name: directory-name
+description: Use when [specific trigger]; distinguishes this skill from `[closest-neighbour]`, which [owns excluded case].
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
+---
 
-## Overview
+# Human-readable title
 
-State the core purpose in 2-3 sentences.
+[One or two sentences stating the procedure's purpose and governing judgement.]
 
+<!-- dual-compat-start -->
 ## Use When
 
-- [task or trigger]
-- [task or trigger]
-- [task or trigger]
+- [Positive trigger with a concrete task or artefact.]
+- [Second trigger that defines the breadth of the route.]
 
 ## Do Not Use When
 
-- [out-of-scope case]
-- [out-of-scope case]
+- Use `[neighbour]` instead when [specific excluded case].
+- Do not use when [stop or out-of-scope condition].
 
 ## Required Inputs
 
-- [required input]
-- [required input]
-- [required input]
+| Artefact | Source/provider | Required? | Behaviour when missing |
+| --- | --- | --- | --- |
+| [Named input] | [Upstream skill, client, file, or provider] | Yes | [Stop, qualify, gather, or use a named fallback.] |
 
 ## Workflow
 
-1. [step]
-2. [step]
-3. [step]
-4. [step]
+1. [Inspect and validate inputs.]
+2. [Make a named decision using the table below.]
+3. [Produce the artefact and its evidence.]
+4. [Stop when a blocker is present; recover by gathering, revising, or escalating.]
+5. [Run acceptance checks and hand off.]
 
-## Quality Bar
+## Quality Standards
 
-- [standard]
-- [standard]
-- [standard]
+- [Observable domain condition.]
+- [Evidence or reconciliation condition.]
+- [Release-blocking condition.]
 
 ## Anti-Patterns
 
-- [mistake]
-- [mistake]
-- [mistake]
+- [Concrete wrong action.] Fix: [specific correction.]
+- [Concrete wrong action.] Fix: [specific correction.]
+- [Concrete wrong action.] Fix: [specific correction.]
+- [Concrete wrong action.] Fix: [specific correction.]
+- [Concrete wrong action.] Fix: [specific correction.]
 
 ## Outputs
 
-- [expected artifact]
-- [expected artifact]
+| Artefact | Consumer | Acceptance condition |
+| --- | --- | --- |
+| [Named output] | [Role or downstream skill] | [Observable condition proving usability.] |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+| --- | --- | --- |
+| [Decision, check, register, or source record] | [Table, file, model, or log] | [What a reviewer can verify.] |
+
+<!-- dual-compat-end -->
+## Capability Contract
+
+[State minimum read/search/edit/execute/network capabilities and the safe permission boundary. Analysis, audit, review, critique, and planning default to read-only. Mutation, publishing, destructive action, spending, and certification require explicit authority.]
+
+## Degraded Mode
+
+[State the narrowest useful qualified result when inputs or capabilities are unavailable. Mark inaccessible checks `not assessed`; never report them as passed.]
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+| --- | --- | --- |
+| [Decision condition] | [Chosen action] | [Named consequence of the wrong branch] |
+
+## Worked Example
+
+[A short input -> decision -> output -> acceptance example. Omit only for a pure router whose routing table itself is the worked evidence.]
 
 ## References
 
-- `references/[file].md` - [what to read it for]
+- [Reference title](references/reference-file.md) - [when to load it].
+
+## Read Next
+
+- `[adjacent-skill]` - [when that route wins].
 ```
 
-## Writing Rules
+## Entry-point rules
 
-- Write in imperative or declarative procedural language
-- Keep the skill portable and provider-agnostic
-- Avoid UI-specific instructions
-- Avoid embedding large textbook content in `SKILL.md`
-- Put deeper frameworks, examples, and checklists into `references/`
-
-## What Belongs In `SKILL.md`
-
-- activation guidance
-- required inputs
-- workflow
-- decision rules
-- quality bar
-- anti-patterns
-- outputs
-- links to references
-
-## What Does Not Belong In `SKILL.md`
-
-- repo-wide orchestration rules
-- provider-specific command syntax
-- chat-interface assumptions
-- duplicated global standards repeated across many skills
-- long theory dumps that belong in `references/`
+- Keep `SKILL.md` at or below 500 lines.
+- Keep the description on one line, beginning with `Use when`, and at or below 350 characters.
+- Use only `name`, `description`, `license`, `allowed-tools`, and `metadata` in frontmatter.
+- Link every reference directly from the entrypoint; start each extracted reference with a link back to its parent skill.
+- Keep decisions, safety, degraded behaviour, workflow, outputs, evidence, and acceptance in the entrypoint.
+- Move catalogues, long schemas, case studies, and background teaching into `references/`.

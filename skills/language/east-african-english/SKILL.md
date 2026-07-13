@@ -1,6 +1,9 @@
 ---
 name: east-african-english
-description: Language and tone standard for all written content. Enforces authentic East African English as used in Uganda, Kenya, and Tanzania  formal, clear, respectful, British-influenced, and professionally courteous. Apply to every piece of text generated for the website.
+description: Use when drafting or editing professional English for Uganda, Kenya, or Tanzania and the wording must reflect East African usage, British spelling, courtesy, and country tone; use `language-standards` for French or Kiswahili and `writing-quality` for argument and persuasion.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # East African English  Language & Tone Skill
@@ -259,3 +262,77 @@ Use this as a benchmark for tone and rhythm:
 - **Any generated email templates or contact responses**
 
 This skill runs alongside every other skill. The design-system chooses how text looks; this skill governs what it says and how it sounds.
+
+<!-- dual-compat-start -->
+## Inputs
+
+| Artefact | Source or provider | Required? | If absent |
+|---|---|---|---|
+| Source text or content brief, audience, purpose, channel, and required action | Requester and owning content skill | Required | Ask for purpose and audience; do not invent the message |
+| Country, organisation voice, approved terminology, names, and facts | Client style guide, country context, and verified sources | Conditional | Use neutral East African professional English and flag localisation gaps |
+| Legal, finance, technical, or sector terminology | Relevant doctrine and subject-matter owner | Conditional | Preserve qualified wording and request expert review |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| East African English draft or edit | Intended reader and owning workflow | Meaning is preserved; British spelling, country-appropriate register, courtesy, clarity, and action are consistent |
+| Language decision note | Author, reviewer, or translator | Material terminology, localisation, uncertainty, and reviewer needs are visible |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Language quality check | Short checklist or tracked issue list | Checks country fit, meaning, spelling, tone, terminology, clarity, and factual preservation |
+| Review limitation | Qualified note | Unverified local usage or specialist terminology is marked for in-country or expert review |
+
+## Capability Contract
+
+Language review defaults to read-only diagnosis unless editing is authorised. Do not change facts, promises, legal effect, financial meaning, quoted speech, or approved brand claims merely to improve tone. Publishing, translation certification, and external messaging require explicit authority.
+
+## Degraded Mode
+
+If country, audience, source context, specialist reviewer, or verification is unavailable, use neutral East African professional English and return a qualified draft with the uncertainty and review request. Do not claim native, legal, financial, or certified accuracy for unassessed wording.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Country and audience are known | Apply the relevant Uganda, Kenya, or Tanzania register | Flat regional stereotype |
+| Regional audience spans countries | Use neutral East African professional English | Over-localising for one market |
+| Direct wording could sound abrupt but precision matters | Add courtesy without weakening the decision | Polite ambiguity |
+| Specialist meaning is load-bearing | Preserve terms and require subject review | Substantive distortion |
+
+## Workflow
+
+1. Confirm purpose, reader, country, channel, action, voice, and editing authority.
+2. Preserve facts, commitments, citations, legal and financial meaning, and intentional voice.
+3. Select country-specific or neutral register and apply British spelling and local professional usage.
+4. Edit for clarity, courtesy, sentence rhythm, terminology, and a specific call to action.
+5. Check names, numbers, dates, quotations, and claims against the source; stop if meaning cannot be resolved.
+6. Read for condescension, imported idiom, stereotype, excessive formality, and AI-like filler.
+7. Recover by reverting any edit that changes meaning and flagging it for the owner or in-country reviewer.
+
+## Quality Standards
+
+The text must sound plausible in its actual East African professional context, remain precise, and preserve substantive meaning. Local authenticity is not mimicry; uncertain usage is qualified and reviewed.
+
+## Anti-Patterns
+
+- Adding `kindly` to every instruction. Fix: use it only where courtesy needs it and keep the action direct.
+- Replacing clear wording with ceremonial formality. Fix: prefer respectful plain English.
+- Treating Uganda, Kenya, and Tanzania as one voice. Fix: select a supported country register or use neutral regional English.
+- Importing American spellings and business idioms. Fix: apply British spelling and locally intelligible wording.
+- Softening a refusal until it becomes unclear. Fix: state the decision first, then reason and next step.
+- Editing a legal or financial term for style. Fix: preserve it and request subject-matter review.
+
+## Worked Example
+
+Change `We can't process this` to `We are unable to process the payment because the tax invoice is missing. Please submit the invoice by 4.00 pm on 18 July.` The revision is courteous, specific, and actionable without hiding the decision.
+<!-- dual-compat-end -->
+
+## References
+
+- `../language-standards/SKILL.md` for French, Kiswahili, and multilingual review.
+- `../writing-quality/SKILL.md` for argument, persuasion, and editorial structure.
+- `../../meta-utility/anti-ai-slop/SKILL.md` and `../../meta-utility/ai-slop-audit/SKILL.md` for production and release gates.

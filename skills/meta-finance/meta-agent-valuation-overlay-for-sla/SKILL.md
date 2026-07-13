@@ -1,9 +1,30 @@
 ---
 name: meta-agent-valuation-overlay-for-sla
-description: Valuation overlay for SLA quality. Premium when SLA performance is strong, published, audited, disclosed; discount when SLA performance is hidden, weak, or contested. Effect on ARR multiple. Composes with `meta-agent-valuation-adjustments` (which handles moat-vs-wrapper, intervention rate, governance, regulator). Use whenever an agent business with SLA commitments is being valued.
+description: Use when an agent business with SLA commitments is being valued. Use financial projections for model construction.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
+
+
 # Meta — Agent Valuation Overlay for SLA Skill
+
+## Workflow
+
+1. Confirm the decision audience, scope, current evidence, and applicable finance doctrine.
+2. Apply the ordered domain analysis below and reconcile every calculation to its source.
+3. Record the decision, exceptions, reviewer, and next evidence action before release.
+
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the SLA valuation overlay and that the decision concerns whether SLA performance earns a multiple premium or discount.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (four-quarter SLA, credit, reserve, and dispute evidence) or if the work could lead to this identified risk: pricing hidden service volatility as durable ARR.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
 
 ## Overview
 
@@ -30,6 +51,8 @@ The dispersion can be 10-30% of the multiple. This is material.
 - The agent business has no SLA commitments — use agent valuation alone
 - The plan is too early for valuation discipline
 
+
+- Route to `10-financial-projections` instead when the task is to construct the underlying model.
 ## Required Inputs
 
 - SaaS / AI / agent valuation base (from prior valuation skills)
@@ -40,8 +63,6 @@ The dispersion can be 10-30% of the multiple. This is material.
 - Customer testimonials referencing SLA performance
 - Comparable transactions noting SLA quality
 - Regulator engagement on SLA (where sector regulator is active)
-
-## Workflow
 
 ### 1. Score the SLA quality dimension
 
@@ -117,8 +138,19 @@ Per cadence below.
 - No reconciliation with bankability
 - SLA discipline asserted without reserve evidence
 
+
+- Applying the wrong neighbouring route to meta agent valuation overlay for sla. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Valuation Overlay For Sla deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - SLA quality score with dimension breakdown
 - Valuation overlay with reasoning
 - Adjustment trail update
@@ -157,3 +189,49 @@ Per cadence below.
 - **Mobile-money settlement reliability** — for per-resolution agents, settlement reliability is part of SLA performance; document
 - **FX-corridor SLA risk** — overlay should reflect FX-corridor exposure on local-currency SLA-credit liabilities
 - **Local audit firm coverage** — where Big-4 audited financials are unavailable, audit-acceptable methodology + mid-tier auditor can still earn the overlay
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| SLA valuation overlay decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to pricing hidden service volatility as durable ARR. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the SLA valuation overlay; adding the SLA adjustment to a supplied valuation analysis is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If four-quarter SLA, credit, reserve, and dispute evidence cannot be obtained, return a qualified SLA valuation overlay covering only the checks that remain supportable. Leave this decision unresolved: whether SLA performance earns a multiple premium or discount. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: whether SLA performance earns a multiple premium or discount | Record the conclusion, source trail, owner, and review trigger in the SLA valuation overlay. | Risk of pricing hidden service volatility as durable ARR |
+| Material evidence conflicts or remains uncertain | Calculate the multiple effect under strong, weak, and unverified SLA evidence, then retain the unverified case as the base until records arrive. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: four-quarter SLA, credit, reserve, and dispute evidence | Mark the decision on whether SLA performance earns a multiple premium or discount `not assessed` in the SLA valuation overlay, and send it to the valuation lead and transaction adviser. | Otherwise, the work risks pricing hidden service volatility as durable ARR |
+
+## Quality Standards
+
+
+Accept the SLA valuation overlay only when evidence is sufficient for this decision: whether SLA performance earns a multiple premium or discount. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of pricing hidden service volatility as durable ARR.
+
+## Worked Example
+
+
+An agent company claims premium uptime while its credit ratio and dispute log are unavailable. Use the unverified SLA case in the valuation and assign the premium only after four-quarter evidence reconciles.
+
+## Finance Doctrine Gate
+
+
+Apply the Chwezi doctrine to the SLA valuation overlay, using the reporting basis and effective date supported by four-quarter SLA, credit, reserve, and dispute evidence. Reconcile the treatment to the model and narrative, and have the valuation lead and transaction adviser review the treatment, reconciliation, and exposure to this risk: pricing hidden service volatility as durable ARR.
+
+<!-- dual-compat-end -->

@@ -1,6 +1,11 @@
 ---
-name: country-context-tanzania
-description: Tanzania country context for business plan generation. Covers currency (TZS), tax rates (TRA/EFD), regulatory bodies (TIC, BRELA, NEMC, TBS, BOT, TCRA), banking (Bank of Tanzania, CRDB, NMB, mobile money 54.6M accounts), labour market, macro data (Budget Execution Report Q1 2025/26, Afrexim 2025, AfDB CSP 2025, IMF Report July 2025). Also includes FYDP III (National Five-Year Development Plan 2021/222025/26) with sector targets, flagship projects, and investment opportunities. Load this file when generating a Tanzania business plan.
+name: tanzania
+description: Use when a business plan, proposal, or investment case needs Tanzania-specific currency, tax, regulatory, labour, banking, development-plan, market, or risk context; use `uganda` or `kenya` for those jurisdictions and verify time-sensitive facts before relying on them.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Tanzania Country Context
@@ -366,7 +371,84 @@ Universal frameworks always apply: CAMPARI, DSCR  1.25, Minto Pyramid, Rasiel ME
 
 ## 11. Plan Author Notes
 
-```
+<!-- dual-compat-start -->
+## Inputs
+
+| Artefact | Source or provider | Required? | If absent |
+|---|---|---|---|
+| Business activity, entity, region, mainland or Zanzibar scope, scale, audience, and decision | Client intake and owning business-plan skill | Required | Ask for jurisdiction and activity; avoid regulatory conclusions |
+| Current macroeconomic, tax, labour, licensing, regulatory, development-plan, and market facts | Tanzania authorities and verified primary sources | Required for factual claims | Mark the fact unverified and remove it from load-bearing logic |
+| Accounting and finance treatment | Chwezi Accounting Doctrine and qualified Tanzanian professionals | Conditional | Keep the treatment provisional pending doctrine and professional review |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Tanzania context brief | Business-plan, proposal, valuation, risk, operations, and finance workflows | Relevant jurisdiction facts, dates, sources, assumptions, countercases, and implications are explicit |
+| Current-source and assumption register | Researcher and reviewer | Every load-bearing figure or rule has source, effective date, verification date, jurisdiction, and owner |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Tanzania claim traceability | Claim, evidence, warrant, assumption, countercase, and implication table | Stored snapshots are not presented as current proof |
+| Finance quality-gate result | Doctrine mapping and professional-review status | Tax, payroll, revenue, inventory, banking, FX, and reporting implications pass current Chwezi review |
+
+## Capability Contract
+
+Read or search access is required; editing or mutation is allowed only with authorised permission.
+
+Context work defaults to read-only research. Do not register entities, file returns, change accounts, submit licences, contact authorities, spend funds, or certify compliance. Such action requires explicit authority and the appropriate Tanzanian legal, tax, regulatory, and accounting professional.
+
+## Degraded Mode
+
+If network access, current authority sources, or professional review is unavailable, use only durable institutional context and label time-sensitive facts `not assessed`. Do not treat a stored rate, plan target, threshold, account count, or regulator process as current.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Mainland and Zanzibar rules may differ | Confirm the operating jurisdiction before applying rules | Wrong legal and tax context |
+| A development-plan target differs from observed evidence | Present target and actual separately | Treating aspiration as market fact |
+| Evidence sources conflict | Prefer the competent primary source and explain the conflict | Cherry-picked context |
+| Context affects accounting, tax, payroll, FX, banking, or reporting | Apply Chwezi doctrine and Tanzanian professional review | Incorrect financial treatment |
+
+## Workflow
+
+1. Confirm entity, activity, region, mainland or Zanzibar scope, audience, decision, and period.
+2. Select relevant durable content and list every time-sensitive claim requiring verification.
+3. Verify current facts with competent Tanzanian primary sources; stop if a load-bearing rule cannot be confirmed.
+4. Distinguish national, local, sector, donor, and contractual requirements and separate targets from actuals.
+5. Translate each fact into an assumption, risk, cost, timing, operating, or funding implication.
+6. Reconcile finance implications with Chwezi doctrine and qualified professional review.
+7. Challenge the base case with source conflicts and downside conditions; recover by narrowing unsupported claims.
+8. Release with verification dates, jurisdiction, and unassessed items visible.
+
+## Quality Standards
+
+Current facts must be sourced and dated, plan targets must not masquerade as actuals, and jurisdiction must be explicit. Legal, tax, regulatory, and accounting conclusions remain qualified until professionally reviewed.
+
+## Anti-Patterns
+
+- Treating mainland and Zanzibar as interchangeable. Fix: state the operating jurisdiction and verify its authorities.
+- Quoting a development-plan target as achieved. Fix: separate target, baseline, latest actual, and gap.
+- Reusing a stored tax or FX value. Fix: verify the competent current source and effective date.
+- Applying a regulator from a broad sector label. Fix: confirm the actual activity and licence trigger.
+- Filling the plan with country facts that change no decision. Fix: state the operating, risk, finance, or funding implication.
+- Finalising finance treatment from context notes. Fix: apply Chwezi doctrine and Tanzanian professional review.
+
+## Worked Example
+
+For a tourism venture in Zanzibar, do not apply a mainland registration or tax path automatically. Verify the correct authorities, separate national and local obligations, and carry timing, cost, and FX implications into the plan model.
+<!-- dual-compat-end -->
+
+## References
+
+- Use the Tanzanian authority and source list in `## 10. Data Sources`; verify every time-sensitive item before use.
+- Load `references/tanzania-fydp3-development-plan.md` only when the development-plan branch is material.
+- Read `country-context/uganda/SKILL.md` or `country-context/kenya/SKILL.md` instead when those jurisdictions govern the decision.
+
+```text
 Country: Tanzania
 Completed by: Business Plan Skills project
 Date last updated: 13 March 2026

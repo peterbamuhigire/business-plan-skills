@@ -1,6 +1,11 @@
 ---
-name: ai-integration
-description: Generate the AI integration and efficiency section  a 2026-era mandatory addition to business plans. Maps how the business uses AI to automate workflows, reduce overhead, scale operations, and maintain competitive advantage. Covers AI tool stack, cost-benefit analysis, implementation roadmap, and governance.
+name: 14-ai-integration
+description: Use when producing or reviewing the 14 ai integration component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # AI Integration & Efficiency Skill
@@ -104,7 +109,7 @@ Investors in 2026 expect businesses to articulate their AI strategy. A business 
 
 ### Cost-Benefit Analysis Format
 
-```
+```text
 AI Investment:
   - Tool subscriptions: $X/month
   - Implementation cost: $X (one-time)
@@ -264,3 +269,84 @@ This section (14) remains the **operational AI integration** layer (where AI is 
 - **Algorithmic AI transformation**: See `references/algorithmic-ai-transformation.md` for McNeill's five-step algorithm (question requirements, delete steps, simplify, accelerate, automate last), the "entire customer experience" lens, Francis Goh's CX-led AI adoption logic, AI literacy and adoption requirements, and ROI metrics that matter. **Read when a client wants AI efficiency but the real issue may be process design, service quality, or organisational adoption.**
 - **Agentic AI business plan gates**: See `references/agentic-ai-business-plan-gates.md` for autonomy levels, use-case scoring, evidence checklist, people/process transformation rule, and investor/lender red flags for agentic AI claims. **Read when the plan includes AI agents, autonomous workflows, AI-enabled staffing leverage, or automation savings that depend on human review, data quality, or governance.**
 - **AI for sustainability and circular economy**: See `references/ai-sustainability-tools.md` for 10-row AI tools table (Uganda feasibility and cost), AI-powered sustainability KPI monitoring (energy, water, cold chain, waste), circular economy AI applications (demand forecasting, predictive maintenance, by-product matching), 5-core minimum KPI set, cost-benefit template for AI sustainability investment, and highest-ROI AI sustainability tools for Uganda SMEs (solar monitoring, cold chain, EUDR traceability, GPS fleet tracking)  Source: Kumar et al. (CRC, 2025); Hak et al. (SCOPE/Island Press, 2007); Agrawal et al. (HBR Press, 2022). **Read when incorporating sustainability monitoring, circular economy optimisation, or EUDR/traceability compliance into the AI integration section.**
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Prioritised use cases, process baseline, data rights, architecture, vendor options, safety controls, capability evidence, and economics for 14 ai integration | Process owners, technical lead, legal/privacy review, vendors, and approved model | Yes | If absent, data rights, baseline performance, evaluation evidence, or human fallback is unavailable, hold the use case at discovery and return the control or test needed. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Staged AI or agent integration plan with use-case gates, controls, costs, and fallback operations | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| 14 ai integration exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| 14 ai integration release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Use-case readiness score, build/buy decision, data/control review, cost model, evaluation plan, and rollback path | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| 14 ai integration decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| 14 ai integration review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For 14 ai integration, the controlling focus is process baseline, AI use-case value, data readiness, model or vendor choice, evaluation, human control, economics, and rollback. This skill may analyse and prototype within authorised data and tools; it may not expose client data, purchase services, deploy to production, grant autonomous permissions, or claim model capability without testing. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For 14 ai integration, loss of evidence about 14 ai integration evidence, decisions, failure thresholds, ownership, and downstream handoffs activates degraded mode. If the controlling 14 ai integration evidence is unavailable, the same boundary applies. When data rights, baseline performance, evaluation evidence, or human fallback is unavailable, hold the use case at discovery and return the control or test needed. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For 14 ai integration, automation value is plausible but error cost or action authority exceeds the tested control boundary| reduce autonomy, add human approval, narrow scope, or reject the use case | AI theatre or unsafe automation adds cost and operational liability without customer value |
+| For 14 ai integration, A current legal, regulatory, tax, accounting, market, or platform claim controls the 14 ai integration decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For 14 ai integration, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete staged ai or agent integration plan with use-case gates, controls, costs, and fallback operations, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact 14 ai integration decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect prioritised use cases, process baseline, data rights, architecture, vendor options, safety controls, capability evidence, and economics and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce staged ai or agent integration plan with use-case gates, controls, costs, and fallback operations with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Staged AI or agent integration plan with use-case gates, controls, costs, and fallback operations must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Use-case readiness score, build/buy decision, data/control review, cost model, evaluation plan, and rollback path must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to 14 ai integration, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In 14 ai integration, treating an unavailable prioritised use cases, process baseline, data rights, architecture, vendor options, safety controls, capability evidence, and economics as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing staged ai or agent integration plan with use-case gates, controls, costs, and fallback operations that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+A forecasting assistant may reduce manual spreadsheet work, but source data has missing weeks and no baseline forecast. Repair the dataset, compare against the existing method, and retain manual planning until accuracy and decision-value gates pass.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for 14 ai integration; no local deep-dive reference is declared.
+- For 14 ai integration claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

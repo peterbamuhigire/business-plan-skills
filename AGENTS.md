@@ -32,17 +32,7 @@ When creating or updating a skill:
 - Prefer provider-agnostic wording inside skills
 - Avoid platform-specific UI assumptions inside `SKILL.md`
 
-Use this shared structure inside skills whenever possible:
-
-1. Overview
-2. Use when
-3. Do not use when
-4. Required inputs
-5. Workflow
-6. Quality bar
-7. Anti-patterns
-8. Outputs
-9. References
+The July 2026 contract is mandatory for every active skill. Require directory-matching identity; a one-line, neighbour-aware `Use when` description of at most 350 characters; portable metadata; positive and negative triggers; input, output, and evidence tables; an ordered workflow with stop and recovery behaviour; quality standards; five concrete anti-patterns with fixes; capability and permission boundaries; degraded mode; a domain decision table; and directly linked references. Audit and review skills default to read-only. Keep each `SKILL.md` at or below 500 lines.
 
 For the canonical template and migration rules, see:
 
@@ -130,7 +120,11 @@ A high-stakes output is not complete unless:
 
 Before treating significant skill changes as complete:
 
-- validate new skills with `python skills/meta-utility/skill-writing/scripts/quick_validate.py skills/<category>/<skill-name>`
+- run `python -X utf8 scripts/validate_skill_engine.py --baseline docs/quality/skill-quality-baseline.json`
+- run `python -X utf8 scripts/routing_smoke_test.py --threshold 1.0`
+- validate each changed skill with `python -X utf8 skills/meta-utility/skill-writing/scripts/quick_validate.py <skill-directory>`
+- on Peter's development machine, run the canonical scanner for both `skills/` and `country-context/` plus the canonical quick validator for every active skill directory
+- keep `docs/quality/skill-quality-baseline.json` at zero debt; a baseline is never a waiver
 - update references when the workflow changes materially
 - update evaluation docs if repository capability materially changes
 - prefer spot verification of modified skills and routing dependencies
@@ -150,7 +144,7 @@ When modernising older skills:
 - remove provider-specific command syntax from `SKILL.md`
 - remove chat UI assumptions from `SKILL.md`
 - move duplicated repo-wide rules into `AGENTS.md` or a shared reference
-- add `Use when`, `Do not use when`, `Required inputs`, `Workflow`, `Quality bar`, `Anti-patterns`, and `Outputs` where missing
+- add every contract named in the Canonical Authoring Standard; do not fill missing domain decisions, examples, evidence, or acceptance criteria with generic boilerplate
 
 ## Change Strategy
 

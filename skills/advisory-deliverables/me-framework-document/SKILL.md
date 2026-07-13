@@ -1,6 +1,9 @@
 ---
 name: me-framework-document
-description: Author a client-ready, standalone Monitoring, Evaluation & Learning (MEL) Framework document for NGOs, CSOs, SMEs, donor-funded projects, and public-bodies in Uganda/East Africa. Owns document architecture, the consulting workflow, parameterisation, and East African context; defers M&E methodology (theory of change, results framework, indicators, OECD-DAC evaluation) to existing M&E skills and defers financial-monitoring substance (budget-vs-actual, variance, burn rate) to the Chwezi finance engine. Distinct from the business-plan M&E section: this produces the full standalone framework deliverable.
+description: Use when authoring a standalone monitoring, evaluation and learning framework for an East African organisation or programme; use `meta-monitoring-evaluation` for a plan section, and defer budget variance, burn rate, and financial-monitoring doctrine to Chwezi Accounting Doctrine.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # M&E Framework Document
@@ -62,3 +65,72 @@ MEL Framework document; theory of change; results framework / logframe; indicato
 - M&E methodology: `business-plan-skills/skills/meta-strategy/meta-monitoring-evaluation`; `proposal-skills` (`C:\wamp64\www\proposal-skills`) `skills/domain-delivery/monitoring-and-evaluation` and `skills/domain-delivery/stakeholder-engagement`; `meta-strategy/meta-living-plan-governance`.
 - Finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`): `skills/09-budgeting-fpa-and-costing/variance-analysis-and-kpi-reporting/`, `skills/09-budgeting-fpa-and-costing/budgeting-and-rolling-forecasts/`, and `doctrine/references/uganda-ngo-financial-management-patterns.md` (donor flexed-budget variance).
 - `country-context/uganda/SKILL.md` for institutions/regulatory bodies; `language/east-african-english` for style.
+
+<!-- dual-compat-start -->
+## Inputs
+
+| Artefact | Source or provider | Required? | If absent |
+|---|---|---|---|
+| Programme design, theory of change, results commitments, budget, and stakeholder needs | Client, funder, and programme records | Required | Produce an evidence request and provisional results chain |
+| Baselines, targets, data systems, definitions, disaggregation, and reporting calendar | Programme owners and data providers | Required | Mark the affected indicator unbaselined or unassessed |
+| Financial-monitoring definitions and data | Chwezi Accounting Doctrine and finance system owners | Conditional | Keep budget, burn-rate, and variance indicators draft-only |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Standalone MEL Framework | Programme team, management, funder, partners, evaluators, and data stewards | Results chain, indicators, methods, roles, learning, reporting, ethics, and evaluation are coherent |
+| Indicator reference sheets and MEL plan | Data collectors and decision owners | Each indicator defines formula, source, frequency, disaggregation, owner, quality checks, target, and use |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Results and indicator traceability | Outcome-to-indicator-to-source-to-decision matrix | Every indicator supports a named result and management decision |
+| Financial-monitoring gate | Definition and doctrine review log | Budget, variance, and burn-rate measures reconcile to Chwezi doctrine and finance-system definitions |
+
+## Capability Contract
+
+Assessment defaults to read-only access and minimises personal or sensitive data. Edit only the authorised framework. Do not fabricate baselines, alter source records, promise impact attribution, approve budgets, or certify evaluation findings without explicit authority and appropriate methodological and finance review.
+
+## Degraded Mode
+
+If baseline data, respondent access, tools, finance definitions, or source verification is unavailable, return a qualified framework, indicator gaps, and a data-acquisition plan. Mark the affected measure `not assessed` or `baseline pending`; never convert absence of evidence into zero performance.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Result can be directly measured with reliable routine data | Use a direct indicator | Unnecessary proxy error |
+| Direct measurement is infeasible | Use a justified proxy and state its limitation | False precision |
+| Evaluation question needs causal attribution | Specify a credible design or limit claim to contribution | Unsupported impact claim |
+| Indicator is financial | Reconcile definition and source to Chwezi doctrine | Conflicting programme and finance figures |
+
+## Workflow
+
+1. Confirm purpose, audience, decisions, evaluation questions, ethics, and approval route.
+2. Review programme logic, commitments, stakeholder information needs, budgets, and existing data.
+3. Test the results chain and stop where a load-bearing causal link has no plausible warrant.
+4. Define indicators, baselines, targets, methods, disaggregation, sources, frequency, and owners.
+5. Design collection, quality assurance, safeguarding, storage, reporting, learning, and evaluation processes.
+6. Reconcile financial measures to current Chwezi doctrine and finance-system definitions.
+7. Pilot representative indicator calculations and failure paths; recover by revising definitions or data plans.
+8. Release with assumptions, missing baselines, limitations, resource needs, and review status visible.
+
+## Quality Standards
+
+The framework must connect results to decisions, use measurable definitions, protect participants, and expose data limitations. Financial indicators must reconcile with accounting definitions and pass finance review.
+
+## Anti-Patterns
+
+- Counting activities as outcomes. Fix: separate delivery, uptake, behaviour, and outcome measures.
+- Inventing a baseline to complete a logframe. Fix: label it pending and specify collection method and date.
+- Using an indicator without a decision owner. Fix: name who acts, when, and on what threshold.
+- Collecting sensitive data by default. Fix: justify necessity, consent, access, retention, and protection.
+- Mixing programme burn rate with accounting figures. Fix: define and reconcile it under Chwezi doctrine.
+- Claiming attribution from a before-and-after observation. Fix: specify a valid design or qualify the claim as contribution.
+
+## Worked Example
+
+If a programme promises improved household income but has no baseline, retain the outcome, mark the baseline pending, define the sampling and timing, add an interim leading indicator, and prohibit impact claims until comparable data exist.
+<!-- dual-compat-end -->

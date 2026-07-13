@@ -1,6 +1,11 @@
 ---
 name: saas-agent-unit-economics-and-cogs
-description: Decompose AI-agent cost-of-revenue into a multi-step COGS waterfall (LLM tokens x steps x parallel branches + tool invocations x tool cost + external API + retry overhead + supervision overhead) and produce agent gross margin, cost-per-task, and cost-per-resolved-task (the true unit) diagnostics that investors in agent businesses require. Sits on top of `saas-ai-unit-economics-and-cogs`. Use whenever an agentic / multi-agent product is a material part of the plan.
+description: Use when producing or reviewing the saas agent unit economics and cogs component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # SaaS Agent Unit Economics & COGS Skill
@@ -194,3 +199,84 @@ Implications for agent gross margin:
 - Cache-hit ratios in African vertical agents tend to be higher than US benchmarks because user task distributions are more concentrated (e.g. agri-extension agents see top 30 questions account for 60% of volume); model 40-60% cache.
 - Audit-log retention costs in Africa can become binding when regulators (KE ODPC, NG NDPC, UG NITA-U, ZA Information Regulator) require multi-year retention; cost the retention period explicitly.
 - Sovereign-AI procurement (KE Talanta, RW innovation, NG NITDA, ZA Presidential 4IR, EG infra) may require local hosting that raises per-task cost 30-80%; reflect in pricing if applicable.
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Approved commercial assumptions, contracts, usage/cost evidence, accounting framework, opening position, and projection horizon for saas agent unit economics and cogs | Client records, approved operating model, finance owner, and accounting doctrine | Yes | If absent, contract terms, usage evidence, framework, or cost drivers are unavailable, isolate the affected schedule, label it unassessed, and do not force the model to balance with a plug. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Unit-economics model with task or tenant cost bridge | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| saas agent unit economics and cogs exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| saas agent unit economics and cogs release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Formula trace, source/assumption register, three-statement or schedule reconciliation, and finance-gate record | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| saas agent unit economics and cogs decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| saas agent unit economics and cogs review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For saas agent unit economics and cogs, the controlling focus is cost per completed task, attempted-versus-completed usage, tool costs, human review, and contribution margin. This skill may inspect records and calculate planning scenarios in read-only mode; it may not post entries, change ledgers, set accounting policy, certify IFRS treatment, or release statutory values without authorised professional review. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For saas agent unit economics and cogs, loss of evidence about cost per completed task, attempted-versus-completed usage, tool costs, human review, and contribution margin activates degraded mode. If the controlling saas agent unit economics and cogs evidence is unavailable, the same boundary applies. When contract terms, usage evidence, framework, or cost drivers are unavailable, isolate the affected schedule, label it unassessed, and do not force the model to balance with a plug. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For saas agent unit economics and cogs, commercial billing, cash receipt, service delivery, and accounting recognition occur in different periods| model each event separately, reconcile the bridge, and route judgemental treatment to the finance reviewer | Cash, revenue, liability, and margin can be conflated into a misleading forecast |
+| For saas agent unit economics and cogs, A current legal, regulatory, tax, accounting, market, or platform claim controls the saas agent unit economics and cogs decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For saas agent unit economics and cogs, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete unit-economics model with task or tenant cost bridge, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact saas agent unit economics and cogs decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect approved commercial assumptions, contracts, usage/cost evidence, accounting framework, opening position, and projection horizon and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce unit-economics model with task or tenant cost bridge with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Unit-economics model with task or tenant cost bridge must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Formula trace, source/assumption register, three-statement or schedule reconciliation, and finance-gate record must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to saas agent unit economics and cogs, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In saas agent unit economics and cogs, treating an unavailable approved commercial assumptions, contracts, usage/cost evidence, accounting framework, opening position, and projection horizon as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing unit-economics model with task or tenant cost bridge that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+An agent attempts three tool calls for every completed task and sends 15% to human review. Cost attempts, completion, tool fees, and reviewer time separately before setting the contribution-margin threshold.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for saas agent unit economics and cogs; no local deep-dive reference is declared.
+- For saas agent unit economics and cogs claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

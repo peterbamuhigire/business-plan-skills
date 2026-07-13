@@ -1,6 +1,11 @@
 ---
-name: operations-plan
-description: Generate the operations plan section covering business processes, supply chain, facilities, technology infrastructure, quality control, staffing requirements, and key operational metrics. Shows how the business runs day-to-day. Incorporates Dumas et al.'s BPM lifecycle and Devil's Quadrangle trade-offs, Page's process redesign techniques, and Kaza's small business operational efficiency framework (bottleneck identification and subordination, capacity utilisation optimisation, owner-as-bottleneck diagnosis, and the asset utilisation principle  finding revenue-generating uses for underutilised capacity during off-peak periods).
+name: 08-operations-plan
+description: Use when producing or reviewing the 08 operations plan component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Operations Plan Skill
@@ -87,7 +92,7 @@ Generate a detailed operations plan that demonstrates the business can deliver o
 
 For each core process:
 
-```
+```text
 Process: [Name]
 Trigger: [What initiates this process]
 Steps: [Sequential workflow]
@@ -208,7 +213,7 @@ Rate the business's operational maturity (target Level 3+ for investor confidenc
 For SME operations plans, apply the bottleneck framework from Kaza's analysis of 20,000+ small businesses:
 
 **Step 1  Identify the bottleneck:**
-Ask: When the business is at capacity, where does work stack upSection  What one step, if faster, would allow the business to serve more customersSection  Is the *owner* the bottleneck  the person without whom nothing movesSection 
+Ask: When the business is at capacity, where does work stack up? What one step, if faster, would allow the business to serve more customers? Is the *owner* the bottleneck  the person without whom nothing moves?
 
 **Step 2  Subordinate everything else:**
 Once the bottleneck is identified, every other part of the operation should be structured to keep the bottleneck running at optimal capacity. Do not invest in non-bottleneck improvements  they will not increase overall output.
@@ -233,7 +238,7 @@ Identify assets (space, equipment, staff time) that are underutilised during off
 
 **Capacity utilisation planning template:**
 
-```
+```text
 Peak capacity: [units/clients per day at maximum]
 Target utilisation rate: [7085% for most businesses]
 Current utilisation: [actual current rate]
@@ -295,3 +300,84 @@ The most important cost drivers for Uganda/EA SMEs are typically: **scale** (rea
 - **Industrial production, inventory, warehousing, MRP, scheduling, facilities, and green manufacturing**: See `../../book-extractions/industrial-production-inventory-planning-extraction.md` for material-requirements planning, master scheduling, safety stock, lot sizing, pegging, factory capacity, setup/changeover, warehouse slotting, material handling, quality traceability, and resource-efficiency metrics. **Read when the business manufactures, processes, warehouses, distributes, exports physical goods, or carries material inventory risk.**
 - **Logistics network design, inventory service levels, transportation, carrier/fleet strategy, and trade documentation**: See `../../book-extractions/cltd-logistics-inventory-transportation-extraction.md` for CLTD-derived planning rules covering network design, inventory policy, transportation execution, 3PL/4PL/LLP models, Incoterms/customs controls, reverse logistics, and logistics KPIs. **Read when the business imports, exports, warehouses, distributes, delivers, aggregates agricultural output, operates a fleet, uses carriers, or carries meaningful stockout/backorder risk.**
 - **Business process modelling, gap analysis, value proposition, and organisation modelling toolkit**: See `../meta-market-validation/references/business-analysis-techniques-cadle.md` (Chapter 4 tools: 3340) for structured descriptions of Value Proposition Analysis (Tool 33), Value Chain Analysis (Tool 34), Organisation Diagram (Tool 35), Business Event Analysis (Tool 36), Business Process Modelling/Swimlanes (Tool 37), Business Rules Analysis (Tool 38), Decision Tables (Tool 39), and Gap Analysis (Tool 40)  including as-is/to-be methodology, swimlane notation, and Uganda application notes for documenting informal operations  Source: Cadle, Paul & Turner (BCS, 2010). **Read when designing or documenting business processes for the operations plan, especially when formalising a previously undocumented informal business.**
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Process maps, demand profile, capacity, suppliers, controls, service levels, and cost drivers for 08 operations plan | Operations owner, site observation, supplier evidence, and approved model | Yes | If absent, process, capacity, supplier, or control evidence is unavailable, mark the operating claim untested and return the observation or trial needed. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Operations plan with process, capacity, sourcing, control, and contingency design | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| 08 operations plan exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| 08 operations plan release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Critical-process map, capacity calculation, supplier decision record, and exception/recovery plan | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| 08 operations plan decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| 08 operations plan review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For 08 operations plan, the controlling focus is critical processes, capacity, location, sourcing, quality controls, service levels, contingencies, and operating cost. This skill may analyse and document operations; it may not order equipment, bind suppliers, change production, access live systems, or certify safety without explicit authority. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For 08 operations plan, loss of evidence about critical processes, capacity, location, sourcing, quality controls, service levels, contingencies, and operating cost activates degraded mode. If the controlling 08 operations plan evidence is unavailable, the same boundary applies. When process, capacity, supplier, or control evidence is unavailable, mark the operating claim untested and return the observation or trial needed. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For 08 operations plan, planned demand exceeds evidenced capacity or depends on a single unverified supplier| stage volume, add a tested contingency, and reconcile cost and timing before release | The plan promises sales that the operating system cannot deliver reliably |
+| For 08 operations plan, A current legal, regulatory, tax, accounting, market, or platform claim controls the 08 operations plan decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For 08 operations plan, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete operations plan with process, capacity, sourcing, control, and contingency design, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact 08 operations plan decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect process maps, demand profile, capacity, suppliers, controls, service levels, and cost drivers and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce operations plan with process, capacity, sourcing, control, and contingency design with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Operations plan with process, capacity, sourcing, control, and contingency design must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Critical-process map, capacity calculation, supplier decision record, and exception/recovery plan must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to 08 operations plan, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In 08 operations plan, treating an unavailable process maps, demand profile, capacity, suppliers, controls, service levels, and cost drivers as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing operations plan with process, capacity, sourcing, control, and contingency design that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+Sales assume 200 daily orders while timed packing supports 120. Stage acquisition to 120 and test a second shift before accepting the higher forecast.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for 08 operations plan; no local deep-dive reference is declared.
+- For 08 operations plan claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->

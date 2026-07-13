@@ -1,6 +1,9 @@
 ---
 name: ecommerce-unit-economics-and-cross-border-margin-model
-description: Use when modelling e-commerce unit economics, landed cost, cross-border contribution margin, CAC, LTV, payment fees, shipping, returns, platform commissions, pricing guardrails, or market go/no-go viability.
+description: Use when modelling e-commerce landed cost, contribution margin, CAC, LTV, payment, fulfilment, return, commission, pricing, or cross-border market viability; use `ecommerce-business-model-diagnostic` for the wider operating-model assessment.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # E-Commerce Unit Economics and Cross-Border Margin Model
@@ -69,3 +72,76 @@ The skill is deliberately company-data-led. EAC-specific benchmarks for CAC, AOV
 
 - [references/unit-economics-workbook-spec.md](references/unit-economics-workbook-spec.md): Workbook tabs, formulas, checks, and outputs.
 - [references/assumptions-register-and-verdict.md](references/assumptions-register-and-verdict.md): Assumption tags, confidence scoring, and go/conditional/no-go rules.
+
+<!-- dual-compat-start -->
+## Inputs
+
+| Artefact | Source or provider | Required? | If absent |
+|---|---|---|---|
+| SKU prices, costs, discounts, taxes, duties, fees, fulfilment, returns, and currency assumptions | Company records and verified service-provider or authority sources | Required | Use an explicit range, lower confidence, and block a firm verdict |
+| Orders, customers, cohorts, acquisition spend, refunds, and settlement data | Commerce, advertising, payment, logistics, and finance systems | Required for observed economics | Separate scenario economics from observed performance |
+| Revenue, inventory, refund, FX, tax, and settlement treatment | Chwezi Accounting Doctrine | Required | Stop finance conclusions pending doctrine and reconciliation |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Unit-economics workbook | Founder, finance lead, adviser, or investor | Formulae are transparent, inputs trace to sources, currencies reconcile, and error checks pass |
+| Market and pricing verdict | Commercial and operations owners | Go, conditional, or no-go follows stated contribution-margin and confidence rules |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Assumptions and source register | Input, value or range, source, date, confidence, and owner | Every load-bearing input is verified, bounded, or visibly missing |
+| Reconciliation and sensitivity evidence | Check sheet and scenario table | Order, refund, settlement, inventory, and currency totals reconcile; key sensitivities are shown |
+
+## Capability Contract
+
+Read or search access is required; editing or mutation is allowed only with authorised permission.
+
+Read and calculation access are required. Do not change live prices, discounts, ads, shipping rules, tax settings, or payments. Spending, production mutation, market launch, tax conclusions, and certification require explicit authority and relevant finance, tax, legal, and operational review.
+
+## Degraded Mode
+
+Fallback:
+
+If transaction data, provider quotes, exchange rates, or execution tools are unavailable, produce a qualified scenario-only model with ranges and checks marked `not assessed`. Do not issue a firm go verdict where a load-bearing cost or reconciliation is missing.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Contribution after variable costs is negative in the base case | No-go or redesign price, basket, sourcing, or fulfilment | Scaling negative margin |
+| Margin is positive only under weak assumptions | Conditional verdict with validation tasks | False confidence |
+| Cohort retention is unavailable | Do not annualise LTV from guesswork | Inflated acquisition budget |
+| Accounting or tax treatment changes the result | Apply Chwezi doctrine and professional review | Incorrect margin or revenue |
+
+## Workflow
+
+1. Confirm decision, market, channel, customer, fulfilment route, currency, tax basis, and model grain.
+2. Gather SKU, order, cohort, acquisition, payment, logistics, return, tax, and settlement evidence.
+3. Map revenue, inventory, refund, FX, tax, and settlement treatment to current Chwezi doctrine.
+4. Build the workbook from the linked specification and register every input with source and confidence.
+5. Reconcile orders to refunds and settlements, then calculate contribution by SKU, order, cohort, channel, and market.
+6. Stress price, basket, CAC, return rate, duty, delivery, and FX; stop if a missing load-bearing input prevents a bounded result.
+7. Apply the linked verdict rules and define validation actions for conditional cases.
+8. Release with formula checks, unassessed items, source dates, and professional-review status visible.
+
+## Quality Standards
+
+The model must avoid blended averages that hide loss-making segments, use reconciled finance definitions, and expose source, confidence, sensitivity, and downside. A verdict is only as strong as its weakest load-bearing input.
+
+## Anti-Patterns
+
+- Calling revenue less product cost gross margin while ignoring payment and fulfilment. Fix: calculate contribution after all order-variable costs.
+- Using platform GMV as company revenue. Fix: apply principal-agent doctrine and the actual take rate.
+- Annualising one repeat purchase into LTV. Fix: use observed cohorts or a bounded scenario.
+- Omitting returns because cash arrives first. Fix: model return probability, reverse logistics, refund, and write-off.
+- Mixing currencies at one spot rate. Fix: state rate source, timing, spread, settlement, and stress range.
+- Issuing a go verdict with missing duty or delivery quotes. Fix: mark it conditional and obtain verified inputs.
+
+## Worked Example
+
+A Ugandan seller appears profitable at product margin but loses money after cross-border delivery, payment fees, returns, and FX spread. The model should show the loss per order, test a higher basket threshold, and return conditional or no-go rather than recommending more acquisition spend.
+<!-- dual-compat-end -->

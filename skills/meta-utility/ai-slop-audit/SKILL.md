@@ -1,9 +1,16 @@
 ---
 name: ai-slop-audit
-description: Analyse, evaluate, audit, critique, score, or "de-slop" any business plan, plan section, pitch deck, investment case, financial model or narrative, GTM/pricing narrative, proposal/EoI, blog post, document, or codebase for AI slop. AUTO-RUNS whenever the user asks to analyse, review, evaluate, audit, critique, or score such an artefact for AI slop, or asks "does this look AI-generated?". Produces a graded slop report — per-marker findings with severity, evidence, and a concrete fix, plus a 0–100 genericness score. Pairs with anti-ai-slop, which prevents slop during production.
+description: Use when auditing a completed business-plan artefact for AI slop after a major iteration or before release; unlike `anti-ai-slop`, this read-only gate grades concrete evidence and does not produce the original content.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # AI Slop Audit
+
+<!-- dual-compat-start -->
 
 ## Overview
 
@@ -127,7 +134,7 @@ Aggregate into a grade:
 
 ## Output format (the audit report)
 
-```
+```text
 # AI Slop Audit — <artefact name> — <date>
 Verdict: <A/B/C/F>   Genericness score: <0–100>
 Artefact type(s): <...>
@@ -152,6 +159,67 @@ Artefact type(s): <...>
 - Mark inferences "(inference)"; never present a guess as a measured fact.
 
 ## References
+
+- `anti-ai-slop` supplies the production-time controls; this skill remains the independent detector.
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when missing |
+| --- | --- | ---: | --- |
+| Concrete artefact and intended audience | Requester or authorised workspace | Yes | Stop grading and request the artefact. |
+| Source, dependency, or render evidence | Artefact owner and available tools | Conditional | Mark the affected layer `not assessed` and qualify the verdict. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+| --- | --- | --- |
+| Graded AI-slop audit | Author and release owner | Every finding has evidence, severity, a correction, and a verdict consistent with blocking rules. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+| --- | --- | --- |
+| Graded audit report | A/B/C/F verdict, 0-100 genericness score, cited findings, and fixes | Every finding points to a phrase, line, value, screenshot region, dependency, or named unassessed check. |
+| Release decision | Pass, revise, or blocked note | Any fabricated claim, broken citation, security defect, or absent substance produces grade F and blocks release. |
+
+## Capability Contract
+
+Default to read-only. Read and search the supplied artefact; execute text, link, dependency, or rendering checks only within the authorised scope. Do not edit the artefact unless remediation is separately requested. Network access verifies current claims when available; publishing, deletion, spending, and certification remain outside this audit.
+
+## Degraded Mode
+
+When a file, renderer, network source, dependency registry, or visual surface is unavailable, mark that layer `not assessed` and return the narrowest qualified grade supported by inspected evidence. Never lower the risk, invent a finding, or call an inaccessible check passed.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+| --- | --- | --- |
+| A blocking factual, citation, security, accessibility, or dependency defect is evidenced | Grade F, stop release, and name the acceptance evidence for the fix | Harmful or fabricated material reaching a decision-maker. |
+| Several non-blocking markers or weak authored intent are evidenced | Grade C and require a substantive rework | Cosmetic edits masking generic or empty content. |
+| Isolated language or formatting markers remain | Grade B and list targeted corrections | Over-rewriting useful authored material. |
+| No blocker is found and the artefact has specific evidence and intent | Grade A and release | Inventing audit debt merely to fill a report. |
+
+## Anti-Patterns
+
+- Calling an artefact "AI-like" without a location. Correction: cite the exact phrase, line, value, colour, import, or missing state.
+- Editing during the default audit. Correction: preserve read-only scope and request separate remediation authority.
+- Treating an unavailable renderer or source as passed. Correction: mark the layer `not assessed` and qualify the verdict.
+- Padding a clean audit with invented weaknesses. Correction: allow grade A when evidence supports it.
+- Removing an unusual but purposeful phrase. Correction: record authored material worth preserving before recommending changes.
+- Giving grade B despite a fabricated statistic or broken citation. Correction: apply the blocking rule consistently and grade F.
+
+## Worked Example
+
+A lender plan states a market growth rate without a source. Cite the exact line, record the missing source as a blocking factual defect, grade the artefact F, and require a dated authoritative source or removal of the claim. Do not rewrite the plan during the read-only audit.
+
+## Workflow
+
+1. Classify the artefact and inspect the supplied evidence in read-only mode.
+2. Run applicable automated and human-judgement checks; stop on a blocking marker.
+3. Score genericness, grade the artefact, and cite every finding.
+4. Recover a failed artefact by handing concrete corrections to the authorised author, then audit the revised version afresh.
+
+<!-- dual-compat-end -->
 
 - `../../meta-utility/anti-ai-slop/SKILL.md` — prevention companion (write/model/design so slop never appears).
 - `../../meta-strategy/meta-critical-thinking-business-logic/SKILL.md` — commercial-logic gate; a slop-clean plan can still be a bad plan.

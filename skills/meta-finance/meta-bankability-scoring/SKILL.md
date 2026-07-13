@@ -1,8 +1,14 @@
 ---
 name: meta-bankability-scoring
-description: Analytical meta-skill that scores a complete business plan against 12 investor-readiness dimensions derived from Rogoff's bankability framework. Produces a weighted scorecard, identifies weaknesses, and recommends improvements to increase funding probability.
+description: Use when scoring debt-service capacity, lender readiness, security, repayment logic, and bankability blockers before submission to a bank, investor, or DFI. Use the accounting-finance review for model reconciliation.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Bankability Scoring Meta-Skill
 
 ## Use When
@@ -17,8 +23,17 @@ description: Analytical meta-skill that scores a complete business plan against 
 - Do not use the score as a substitute for fixing underlying weaknesses.
 - Do not treat a high score as immunity from DD, valuation, or market scrutiny.
 
+
+- Route to `10-financial-projections` instead when the task is to construct the underlying model.
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Bankability Scoring brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
+| Current accounting, tax, valuation, or pricing basis | Finance owner, accounting records, signed contracts, and current authoritative sources | Conditional | Mark the treatment unresolved and require qualified professional review. |
 - Full or near-full plan sections
 - Funder type and country context
 - Financial model and funding ask
@@ -33,6 +48,13 @@ description: Analytical meta-skill that scores a complete business plan against 
 5. Produce a practical improvement sequence.
 6. Reconcile the score with consistency, DD, and funding-mode logic.
 
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the lender bankability scorecard and that the decision concerns the weighted lender-readiness rating and blocking dimensions.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (repayment cash flow, security, funding structure, and evidence pack) or if the work could lead to this identified risk: masking a repayment or security weakness inside an aggregate score.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
+
 ## Quality Bar
 
 - Scores are justified with real evidence from the document.
@@ -46,14 +68,25 @@ description: Analytical meta-skill that scores a complete business plan against 
 - Scoring sections in isolation without cross-checking consistency.
 - Giving cosmetic recommendations instead of deal-critical fixes.
 - Treating investor and bankability standards as interchangeable.
+- Treating a generic bankability scoring template as a conclusion. **Correction:** tie each choice to the named audience, evidence, and operating constraint.
 
+
+- Applying the wrong neighbouring route to meta bankability scoring. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Bankability Scoring deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - Weighted bankability score
 - Dimension-by-dimension rationale
 - Priority weaknesses
 - Improvement actions and next gate recommendation
-
 
 
 Score the complete business plan against the criteria investors and lenders actually use to make funding decisions.
@@ -78,7 +111,7 @@ Score each dimension 1-10, with defined criteria:
 | 6 | **Financial viability** | 12% | Realistic projections, clear path to profit |
 | 7 | **Team capability** | 12% | Right people with relevant track record |
 | 8 | **Traction & validation** | 8% | Evidence of market demand  earlyvangelists, preselling, product-market fit (Sean Ellis 40% threshold) |
-| 9 | **Scalability** | 6% | Can the business grow 10x without breakingSection  |
+| 9 | **Scalability** | 6% | Can the business grow 10x without breaking? |
 | 10 | **Risk awareness** | 4% | Honest risk assessment with mitigation plans; Assumptions Tracking with Risk Score <100 (Alam) |
 | 11 | **Clarity of ask** | 4% | Specific funding need with clear use of funds |
 | 12 | **AI & operational efficiency** | 4% | Smart use of technology and automation; process maturity level (Dumas et al., 2013) |
@@ -120,7 +153,7 @@ A business cannot score highly on scalability without documented, standardised p
 
 ### Dimension Scorecard
 
-```
+~~~text
 Dimension: [Name]
 Score: [X/10]
 Weight: [X%]
@@ -129,11 +162,11 @@ Strengths: [What works well]
 Weaknesses: [What needs improvement]
 Recommendation: [Specific action to improve score]
 Section reference: [Which plan section to revise]
-```
+~~~
 
 ### Summary Dashboard
 
-```
+~~~text
 BANKABILITY SCORECARD
 =====================
 Overall Score: X.X / 10.0
@@ -151,7 +184,7 @@ Priority Actions (ranked by impact on overall score):
 1. [Action]  Expected score improvement: +X.X
 2. [Action]  Expected score improvement: +X.X
 3. [Action]  Expected score improvement: +X.X
-```
+~~~
 
 ## Generation Process
 
@@ -182,42 +215,42 @@ Invoke this mode when the user says "bank loan", "UDB", "Centenary", "dfcu", "St
 
 Score each item YES / PARTIAL / NO. A plan is not bank-ready until all critical items score YES or PARTIAL with a clear path to YES.
 
-**CHARACTER (Who is this borrowerSection )**
+**CHARACTER (Who is this borrower?)**
 - [ ] Director CVs included with full employment and business history (09, Appendix)
 - [ ] NIN confirmed for all directors (02)
 - [ ] No adverse credit history disclosed (or disclosed with explanation)
 - [ ] Character references from respected community members included (Appendix)
 - [ ] Business registered with URSB and TIN/BRN held (02)
 
-**ABILITY (Can they run this businessSection )**
+**ABILITY (Can they run this business?)**
 - [ ] Management team has direct sector experience (09)
 - [ ] If no sector experience: compensated by advisory board, hired expertise, or training plan
 - [ ] Professional qualifications listed where applicable (ICPAU, ULS, UMC, ERB) (09)
 - [ ] Operations plan demonstrates operational competence (08)
 
-**MEANS (Can they afford to service the debtSection )**
+**MEANS (Can they afford to service the debt?)**
 - [ ] DSCR  1.25x calculated from projections (10, 11)  **CRITICAL**
 - [ ] Owner equity contribution  20% of total project cost (11)
 - [ ] Personal net worth statements for all directors included (Appendix)
 - [ ] Cash flow projections show positive operating cash flow within 12 months
 
-**PURPOSE (Is the loan for a legitimate productive useSection )**
+**PURPOSE (Is the loan for a legitimate productive use?)**
 - [ ] Specific purpose stated  not vague "working capital" (11)
 - [ ] Use of funds itemised to individual line items (11)
 - [ ] Loan purpose aligns with the business's stated operations (08)
 
-**AMOUNT (Is the loan amount correctly sizedSection )**
+**AMOUNT (Is the loan amount correctly sized?)**
 - [ ] Loan amount equals sum of use-of-funds items (11)  check via `consistency-audit.md`
 - [ ] Loan is not excessive relative to business revenue (loan  3 annual revenue for SME)
 - [ ] Loan structure matches purpose (term loan for capex; overdraft for working capital)
 
-**REPAYMENT (Will they repaySection )**
+**REPAYMENT (Will they repay?)**
 - [ ] Repayment source clearly identified (specific revenue stream) (11)
 - [ ] Loan repayment schedule included (Appendix)
 - [ ] DSCR stress-tested under pessimistic scenario (meta-financial-stress-test)
 - [ ] Break-even month identified and precedes loan repayment start (10)
 
-**INSURANCE (What security is offeredSection )**
+**INSURANCE (What security is offered?)**
 - [ ] Primary collateral identified with estimated value (11)  **CRITICAL**
 - [ ] Collateral coverage  125% of loan amount (11)
 - [ ] Collateral documentation listed (Appendix  land title, logbook, etc.)
@@ -226,7 +259,7 @@ Score each item YES / PARTIAL / NO. A plan is not bank-ready until all critical 
 
 ### Bank Loan Readiness Score
 
-```
+~~~text
 BANK LOAN READINESS ASSESSMENT
 
 CAMPARI Score:
@@ -253,7 +286,7 @@ TOP 3 ACTIONS BEFORE SUBMISSION:
 1. [Most critical gap]  fix in [X]
 2. [Second gap]  fix in [X]
 3. [Third gap]  fix in [X]
-```
+~~~
 
 ### Consistency Audit (run before scoring)
 
@@ -269,3 +302,49 @@ A plan that fails  3 consistency checks should be revised before scoring  incons
 - `10-financial-projections/references/uganda-tax-framework.md`  Tax rates for financial projection verification
 - `11-funding-request/references/credit-assessment-frameworks.md`  5 Cs and CAMPARI detail
 - `meta-sustainability/SKILL.md`  Sustainability Readiness Score (SRS); for DFI/impact investor plans, run Mode C audit and confirm SRS  1.6/2.0 before CAMPARI scoring; social licence to operate (community opposition risk) is a CAMPARI Character factor; environmental non-compliance is a CAMPARI Conditions factor
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Lender bankability scorecard decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to masking a repayment or security weakness inside an aggregate score. |
+
+## Capability and Permission Boundaries
+
+
+Default to read-only inspection while producing the lender bankability scorecard. Read supplied records and run non-mutating checks; entering scores and cited findings in the approved scorecard is permitted only when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If repayment cash flow, security, funding structure, and evidence pack cannot be obtained, return a qualified lender bankability scorecard covering only the checks that remain supportable. Leave this decision unresolved: the weighted lender-readiness rating and blocking dimensions. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: the weighted lender-readiness rating and blocking dimensions | Record the conclusion, source trail, owner, and review trigger in the lender bankability scorecard. | Risk of masking a repayment or security weakness inside an aggregate score |
+| Material evidence conflicts or remains uncertain | Rescore the blocking lender dimensions separately and report the lower result rather than averaging away repayment or security weakness. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: repayment cash flow, security, funding structure, and evidence pack | Mark the decision on the weighted lender-readiness rating and blocking dimensions `not assessed` in the lender bankability scorecard, and send it to the finance owner and funder reviewer. | Otherwise, the work risks masking a repayment or security weakness inside an aggregate score |
+
+## Quality Standards
+
+
+Accept the lender bankability scorecard only when evidence is sufficient for this decision: the weighted lender-readiness rating and blocking dimensions. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of masking a repayment or security weakness inside an aggregate score.
+
+## Worked Example
+
+
+A borrower scores well overall but fails downside DSCR and has no perfected security. Report those dimensions as blockers; do not let management strength average them into a passing bankability result.
+
+## Finance Doctrine Gate
+
+
+Apply the Chwezi doctrine to the lender bankability scorecard, using the reporting basis and effective date supported by repayment cash flow, security, funding structure, and evidence pack. Reconcile the treatment to the model and narrative, and have the finance owner and lender or investment reviewer review the treatment, reconciliation, and exposure to this risk: masking a repayment or security weakness inside an aggregate score.
+
+<!-- dual-compat-end -->

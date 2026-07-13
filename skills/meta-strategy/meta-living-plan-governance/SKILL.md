@@ -1,8 +1,14 @@
 ---
 name: meta-living-plan-governance
-description: Operate the business plan as a living document over the lifetime of the business — weekly metrics, monthly business review, quarterly re-plan, annual strategy refresh, decision log, plan-vs-actual variance protocol, trigger-replan rules, and sunsetting policy. Use whenever a plan is being finalised, or when a funded company is establishing its operating cadence after the plan is approved.
+description: Use when a business plan is being finalised for submission or internal use, and the engine must specify how the plan will be maintained. Use the relevant plan-section skill for section drafting.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
+<!-- dual-compat-start -->
 # Living Plan Governance Skill
 
 ## Overview
@@ -27,6 +33,12 @@ This skill is mandatory for SaaS / ICT plans because their assumptions decay fas
 
 ## Required Inputs
 
+
+| Input | Source / provider | Required? | If absent |
+|---|---|---:|---|
+| Living Plan Governance brief and decision audience | Client, plan owner, or approved project files | Yes | Stop before making a recommendation; state the missing decision context. |
+| Claims, assumptions, and supporting evidence | Source register, model, research notes, interviews, or operating records | Yes | Separate known facts from assumptions and return a qualified gap list. |
+| Authority and delivery constraints | Requesting owner and repository instructions | Yes | Remain read-only and produce a draft or review only. |
 - The finalised or near-finalised business plan
 - The list of plan assumptions (from each section) that are material to outcomes
 - The current team and proposed roles (to assign ownership)
@@ -46,6 +58,13 @@ This skill is mandatory for SaaS / ICT plans because their assumptions decay fas
 8. **Define sunset policy** — when does a section's content get archived? Default: when the section's assumptions have been replaced by ≥2 quarterly updates, and the original content no longer reflects current strategy.
 9. **Configure the Mission/Strategy/Projects/Omissions/Tracking (MSPOT) artefact** — adopt HubSpot's MSPOT (Cotton) as the annual artefact that summarises the living plan. Mission rarely changes; Strategy changes annually; Projects are the 4–5 big initiatives; Omissions are the explicit "not this year" list; Tracking is the KPI dashboard.
 10. **Document the cadence calendar** — produce a 12-month rolling cadence calendar (weekly stand-up, monthly business review, quarterly board pack, annual strategy refresh).
+
+### Decision, stop, and recovery controls
+
+
+- **Decision point:** confirm that the requested output is the living-plan governance calendar and that the decision concerns which variance triggers correction, reforecast, or strategy review.
+- **Stop condition:** halt the affected conclusion if required evidence is missing (metric owners, plan baseline, decision rights, and review cadence) or if the work could lead to this identified risk: allowing a stale plan to govern current spending.
+- **Recovery:** obtain the missing record or reviewer, repeat the affected check, and update the exception record before release.
 
 ## Cadence Table by Section
 
@@ -188,8 +207,19 @@ When variance exceeds threshold:
 - Sections that haven't been touched in 12+ months but are still treated as canonical
 - Mission / Strategy / Vision in one document with no Omissions list
 
+
+- Applying the wrong neighbouring route to meta living plan governance. **Correction:** confirm the decision and route to the named neighbour before analysis.
+- Treating an assumption as verified evidence. **Correction:** label it, cite its source or owner, and assign a verification action.
+- Recommending action without a decision threshold. **Correction:** state the measurable acceptance condition and review trigger.
+- Recording an unavailable check as passed. **Correction:** mark it `not assessed` and state the consequence for the decision.
+- Mutating or publishing during an analysis-only task. **Correction:** remain read-only until the owner gives explicit authority.
 ## Outputs
 
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Living Plan Governance deliverable | Named decision-maker or plan author | The recommended choice, assumptions, countercase, and next action are explicit. |
+| Evidence and exception register | Reviewer, funder, board, or implementation owner | Every load-bearing claim is sourced or labelled as an assumption; missing checks are not shown as passes. |
 - A cadence calendar for the next 12 months
 - A per-section ownership and variance-threshold matrix
 - A populated decision-log template
@@ -212,3 +242,44 @@ When variance exceeds threshold:
 - Quarterly board packs are often required by DFIs (UDB, AfDB, IFC) — adopt their format early to avoid re-work.
 - Trigger-replan events in Africa include: FX shock (KES, UGX, NGN can move 10–30% in a quarter), payment-rail policy change (Central Bank circulars affecting M-Pesa, MoMo, fintech), regulatory shock (data-localisation laws, sector-specific licensing).
 - Decision log should also record political / stakeholder context — many decisions in African enterprise are co-determined by political-economy factors that pure financial logic misses; the log preserves this knowledge.
+
+## Evidence Produced
+
+
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Living-plan governance calendar decision trace | Sources, calculations, assumptions, countercase, and selected action | A reviewer can trace the selected action and rejected alternatives to the cited inputs. |
+| Exception record | Failed and not-assessed checks with owner and due action | The register exposes every unresolved exception that could lead to allowing a stale plan to govern current spending. |
+
+## Capability and Permission Boundaries
+
+
+Read supplied records and use non-mutating checks to produce the living-plan governance calendar; updating the approved governance calendar and decision log is permitted when requested. Do not publish, contact third parties, alter live systems, commit funds, or claim legal, tax, audit, valuation, ESG, or investment assurance without the owner's explicit authorisation and the appropriate reviewer.
+
+## Degraded Mode
+
+
+If metric owners, plan baseline, decision rights, and review cadence cannot be obtained, return a qualified living-plan governance calendar covering only the checks that remain supportable. Leave this decision unresolved: which variance triggers correction, reforecast, or strategy review. Record the evidence owner and next check; an inaccessible source, tool, or reviewer is never a pass.
+
+## Decision Rules
+
+
+
+| Decision condition | Action | Failure or risk avoided |
+|---|---|---|
+| Evidence is sufficient to decide: which variance triggers correction, reforecast, or strategy review | Record the conclusion, source trail, owner, and review trigger in the living-plan governance calendar. | Risk of allowing a stale plan to govern current spending |
+| Material evidence conflicts or remains uncertain | Apply both candidate variance triggers to prior periods and choose the one that prompts action without creating routine false alarms. | Selecting an option without resolving the decision-relevant uncertainty |
+| Required evidence is missing: metric owners, plan baseline, decision rights, and review cadence | Mark the decision on which variance triggers correction, reforecast, or strategy review `not assessed` in the living-plan governance calendar, and send it to the planning owner and chief executive. | Otherwise, the work risks allowing a stale plan to govern current spending |
+
+## Quality Standards
+
+
+Accept the living-plan governance calendar only when evidence is sufficient for this decision: which variance triggers correction, reforecast, or strategy review. Assumptions and countercases remain visible, calculations and cross-references reconcile, and the reviewer can see how the recommendation addresses the risk of allowing a stale plan to govern current spending.
+
+## Worked Example
+
+
+A monthly revenue miss comes from delayed permits rather than demand. The governance process records the variance, owner, recovery date, and replan trigger instead of rewriting the annual target immediately.
+
+<!-- dual-compat-end -->

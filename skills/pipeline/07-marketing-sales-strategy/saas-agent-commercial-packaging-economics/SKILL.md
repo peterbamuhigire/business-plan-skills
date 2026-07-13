@@ -1,6 +1,11 @@
 ---
 name: saas-agent-commercial-packaging-economics
-description: Economics of Agent Included vs Agent Add-on vs Agent Standalone packaging. ARPU lift, ACV expansion, attach rate, cannibalisation of base-tier, base-tier price erosion risk, free-trial discipline, packaging migration discipline, multi-product NRR composition. Sits alongside `saas-agent-pricing-strategy` which handles the pricing primitive; packaging is a distinct commercial decision with its own economics.
+description: Use when producing or reviewing the saas agent commercial packaging economics component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # SaaS Agent Commercial Packaging Economics Skill
@@ -57,6 +62,8 @@ Getting the packaging decision wrong destroys economics in ways the pricing prim
 - SLA tier strategy (will agent have separate SLA or share platform SLA?)
 
 ## Workflow
+
+Apply the ordered stages below; stop and recover when a stage lacks its required evidence.
 
 ### 1. Choose the packaging archetype
 
@@ -120,7 +127,7 @@ Stress: attach rate 50%, 25%, 10%, 5% — does the plan still work at the low en
 
 In add-on packaging, some customers may downgrade their base tier to free budget for the agent add-on. This **erodes platform ARPU** even as agent ARPU grows. Net ARPU change:
 
-```
+```text
 Net ARPU change = (Add-on attach rate × Add-on price)
                   - (Downgrade rate × Base-tier price gap)
                   - (Discount given to attach × Add-on price)
@@ -141,7 +148,7 @@ Document the defence.
 
 For an existing customer base layered with agent revenue:
 
-```
+```text
 NRR = (Starting MRR + Expansion + Upgrade + Add-on - Contraction - Churn) / Starting MRR
 ```
 
@@ -257,3 +264,84 @@ Per cadence below.
 - **Sovereign-AI bundled offers** — sovereign-AI tenders sometimes bundle agent + compute + data; effectively Included packaging at sovereign-AI level
 - **Insurance / regulated-sector packaging** — Standalone often required because compliance / audit scope is different per regulator
 - **Cannibalisation in African contexts** — SMB customers more price-sensitive than US benchmarks; cannibalisation rates 1.5-2x US benchmarks; budget shift more likely
+
+## July 2026 Portable Contract
+
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| ICP, buying process, channel evidence, price tests, unit economics, and sales capacity for saas agent commercial packaging economics | Customer research, CRM records, approved financial model, and sales owner | Yes | If absent, price, margin, conversion, or capacity evidence is unavailable, return a testable commercial hypothesis and cap the recommendation at pilot scale. |
+| Finalised business brief, target reader, country, and stage | Client intake and engagement owner | Yes | Stop section decisions and route the missing context to client intake. |
+| Reconciled upstream assumptions that this section consumes | Named pipeline owners | Conditional | Record the dependency, affected claim, owner, and recovery step; do not substitute an invented value. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Pricing or packaging decision with margin and adoption guardrails | Plan author and target decision-maker | The artefact answers the section decision and traces each material conclusion to the supplied evidence. |
+| saas agent commercial packaging economics exception and handoff note | Downstream section owners | Every blocked or conditional item names its consequence, owner, evidence request, and restart condition. |
+| saas agent commercial packaging economics release record | Reviewer or plan assembler | Records the checks completed, failures, unassessed items, professional review required, and release state. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Price metric rationale, willingness-to-pay evidence, margin bridge, and failure thresholds | Source-linked table, calculation, or annotated prose | The evidence is reproducible from named inputs and distinguishes verified fact, management assumption, and inference. |
+| saas agent commercial packaging economics decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
+| saas agent commercial packaging economics review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
+
+## Capability and Permission Boundaries
+
+For saas agent commercial packaging economics, the controlling focus is bundle boundaries, allowance design, add-on attach rate, expansion revenue, and gross-margin guardrails. This skill may analyse commercial options and draft tests; it may not launch prices, purchase media, contact prospects, alter contracts, or promise outcomes without explicit authority. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
+
+## Degraded Mode
+
+For saas agent commercial packaging economics, loss of evidence about bundle boundaries, allowance design, add-on attach rate, expansion revenue, and gross-margin guardrails activates degraded mode. If the controlling saas agent commercial packaging economics evidence is unavailable, the same boundary applies. When price, margin, conversion, or capacity evidence is unavailable, return a testable commercial hypothesis and cap the recommendation at pilot scale. Return the verified subset, label the affected decision qualified or not assessed, explain the downstream consequence, and state the smallest evidence request or authorised action that permits recovery. Do not convert the missing check into a pass.
+
+## Decision Rules
+
+| Choice or condition | Action | Failure or risk avoided |
+|---|---|---|
+| For saas agent commercial packaging economics, a package or channel grows headline demand while weakening gross margin, trust, or delivery capacity| reject or constrain it, quantify the guardrail, and test the next credible option | Growth recommendations can consume cash or create obligations the business cannot fulfil |
+| For saas agent commercial packaging economics, A current legal, regulatory, tax, accounting, market, or platform claim controls the saas agent commercial packaging economics decision| Verify the controlling source, effective date, jurisdiction, and reviewer status before release | Stale external facts become permanent plan assumptions |
+| For saas agent commercial packaging economics, The evidence reconciles with neighbouring sections and the countercase does not overturn the choice| Complete pricing or packaging decision with margin and adoption guardrails, attach the evidence and release record, and hand off named dependencies | Premature release and repeated downstream rework |
+
+## Workflow
+
+1. Define the exact saas agent commercial packaging economics decision, intended reader, jurisdiction, business stage, and permission boundary.
+2. Collect icp, buying process, channel evidence, price tests, unit economics, and sales capacity and map each material conclusion to its source; stop the affected conclusion when an input could change it.
+3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+5. Produce pricing or packaging decision with margin and adoption guardrails with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+
+## Quality Standards
+
+- Pricing or packaging decision with margin and adoption guardrails must answer a real decision for the named bank, investor, DFI, grant, board, or strategic-partner reader.
+- Price metric rationale, willingness-to-pay evidence, margin bridge, and failure thresholds must be source-linked, dated where facts can change, and sufficient for another reviewer to reproduce the conclusion.
+- The section exposes its countercase, stop condition, recovery action, and effect on neighbouring sections.
+- No unavailable source, calculation, tool, or professional review is reported as passed; finance and statutory judgements follow the governing doctrine.
+- Language remains specific to saas agent commercial packaging economics, uses British English naturally, and passes the repository anti-slop gate without promotional filler.
+
+## Anti-Patterns
+
+- In saas agent commercial packaging economics, treating an unavailable icp, buying process, channel evidence, price tests, unit economics, and sales capacity as confirmed. Correction: qualify the affected conclusion and issue the named evidence request.
+- Producing pricing or packaging decision with margin and adoption guardrails that restates the brief but makes no choice. Correction: record the choice, rejected alternative, rationale, countercase, and implication.
+- Ignoring a conflicting upstream assumption. Correction: return it to its owning section and resume only from a reconciled version.
+- Reporting an unavailable check as passed. Correction: mark it not assessed and narrow the release state.
+- Claiming compliance, assurance, bankability, or investor readiness from narrative quality. Correction: run the applicable gate and retain its evidence.
+- Copying the worked example into a client plan. Correction: use the method only and replace every fact with verified engagement evidence.
+
+## Worked Example
+
+A base plan includes 1,000 agent tasks, but attach-rate data shows customers value a compliance pack rather than more tasks. Keep the allowance stable, price the compliance add-on separately, and test attach rate and margin before rebundling.
+
+## References
+
+- Use the verified project evidence register and the owning upstream pipeline section for saas agent commercial packaging economics; no local deep-dive reference is declared.
+- For saas agent commercial packaging economics claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+
+<!-- dual-compat-end -->
