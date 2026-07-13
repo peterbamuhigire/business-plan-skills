@@ -20,6 +20,11 @@ Run from the repository root:
 python -X utf8 scripts\validate_skill_engine.py --baseline docs\quality\skill-quality-baseline.json
 python -X utf8 scripts\routing_smoke_test.py --threshold 1.0
 python -X utf8 skills\meta-utility\skill-writing\scripts\quick_validate.py <skill-directory>
+python -X utf8 tools\evidence-register\refresh_evidence_register.py --check
+python -X utf8 tools\sector-gates\validate_sector_gates.py
+python -X utf8 tools\exemplar-packs\validate_exemplar_packs.py
+python -X utf8 scripts\build-financial-models\verify_workbooks.py
+python -X utf8 -m unittest discover -s tests -p "test_*.py"
 git diff --check
 ```
 
@@ -28,6 +33,10 @@ On Peter's development machine, also run the canonical scanner for both active r
 ## Finance and evidence gates
 
 Any skill touching money, inventory, payroll, tax, grants, banking, POS, mobile money, statutory compliance, or accounting records consumes the external Chwezi Accounting and Finance Doctrine. Do not hardcode current statutory values or imply professional sign-off. Record the finance gate in the release manifest.
+
+Current-source portals identify where to verify; they do not prove a copied figure. An active country context must link to the dated evidence register. Regulated activity must pass the applicable central sector screen, and an unavailable professional or authority check remains `not assessed`.
+
+For an XLSX deliverable, run `tools/workbook-audit/formula_map.py` and retain its JSON report. Broken references, formula errors, missing required scenarios, missing reconciliation checks or external workbook links block release. Audience exemplars are validated reference packs; replace every illustrative input and re-run finance, evidence, regulatory and committee gates for client work.
 
 Run `writing-quality`, `meta-critical-thinking-business-logic`, and `anti-ai-slop` before release. Run `ai-slop-audit` after each major cohort and at the final gate. A grade F blocks progression.
 

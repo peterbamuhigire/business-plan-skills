@@ -258,10 +258,11 @@ For 13 implementation timeline, loss of evidence about 13 implementation timelin
 
 1. Define the exact 13 implementation timeline decision, intended reader, jurisdiction, business stage, and permission boundary.
 2. Collect approved initiatives, dependencies, procurement lead times, owners, costs, milestones, and funding availability and map each material conclusion to its source; stop the affected conclusion when an input could change it.
-3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
-4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
-5. Produce dependency-aware implementation schedule with gates, owners, costs, and recovery actions with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
-6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+3. Apply `../../../references/sector-regulatory-gates.md`; sequence current-source screening, professional review, applications, inspections and acceptance evidence before the activity they control.
+4. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+5. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+6. Produce a dependency-aware implementation schedule with gates, owners, costs, and recovery actions with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+7. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
 
 ## Quality Standards
 
@@ -286,6 +287,7 @@ A retail opening is scheduled before premises handover and equipment commissioni
 
 ## References
 
+- Use `../../../references/sector-regulatory-gates.md` for current-source regulatory screening and its mandatory stop conditions.
 - Use the verified project evidence register and the owning upstream pipeline section for 13 implementation timeline; no local deep-dive reference is declared.
 - For 13 implementation timeline claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 

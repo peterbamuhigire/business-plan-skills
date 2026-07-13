@@ -1,10 +1,18 @@
 # Business Plan Skills Suite
 
-Current conformance state (verified 2026-07-13): 123 active skills across `skills/` and `country-context/`, 2 template resources, zero structural findings, and 30/30 routing fixtures meeting the 100% top-three threshold. See `docs/engine-upgrade-july-2026/11-conformance-upgrade-record.md`.
+Current conformance state (verified 2026-07-13): 124 active skills across `skills/` and `country-context/`, 2 template resources, zero structural findings, and 34/34 routing fixtures meeting the 100% top-three threshold. See `docs/engine-upgrade-july-2026/11-conformance-upgrade-record.md`.
 
 A modular collection of Claude Code skills for generating, validating, and delivering bankable business plans. Each section of a professional business plan is a standalone skill — invoke individually or chain to produce a complete investor-ready document.
 
-**123 active skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
+**124 active skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
+
+## Evidence and decision gates
+
+- `docs/source-registers/country-market-data.json` records checked sources, owners and refresh dates; validate it with `python -X utf8 tools/evidence-register/refresh_evidence_register.py --check`.
+- `references/sector-regulatory-gates.json` contains 24 screening gates across 12 sector families; a sector match triggers verification, not a compliance claim.
+- `tools/workbook-audit/formula_map.py` audits XLSX formulae, assumptions, missing sheets, external links, scenarios and reconciliation checks without requiring Excel.
+- `examples/full-plan-packages/` contains complete fictional DFI, grant, VC and owner-manager reference packs with narrative, deck, model overlay, evidence, annex and committee records.
+- `meta-investment-committee-red-team` runs a blocker-first, read-only funding rehearsal. A simulated progression result is never a real approval.
 
 ---
 

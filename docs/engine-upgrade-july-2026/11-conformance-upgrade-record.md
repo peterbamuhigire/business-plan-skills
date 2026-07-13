@@ -50,6 +50,6 @@ The upgrade added portable metadata; neighbour-aware triggers; input, output, an
 
 The machine-readable baseline is `docs/quality/skill-quality-baseline.json`. Its empty failure map is a regression lock, not a waiver.
 
-## Capability work outside conformance
+## Capability expansion completed
 
-The evidence-register refresh workflow, workbook formula-map tooling, complete DFI/grant/VC/owner-manager exemplar packs, sector regulatory gates, and investment-committee simulation remain product-capability expansion. They are not conformance debt and do not reduce the zero-debt result.
+The five items previously recorded outside conformance were completed on 2026-07-13: a dated evidence-register refresh gate, standard-library workbook formula-map tooling, four complete audience exemplar packs, 24 gates across 12 sector families, and a blocker-first investment-committee simulation skill and CLI. The added skill increases the active catalogue to 124. See `14-capability-expansion-release.md` for machine evidence; the original 123-skill before/after counts above remain the historical conformance measurement.

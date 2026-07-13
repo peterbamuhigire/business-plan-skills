@@ -1,0 +1,82 @@
+{
+  "status": "pass",
+  "audience": "dfi",
+  "weighted_score_percent": 70.0,
+  "recommendation": "defer",
+  "blockers": [
+    "Sector and environmental/social screens remain not assessed"
+  ],
+  "conditions": [
+    "Verify contracts and DFI action-plan gates"
+  ],
+  "dissent": [
+    "Commercial lead requires customer-level loss baseline"
+  ],
+  "criteria": [
+    {
+      "criterion": "decision_funding",
+      "score": 3,
+      "weight": 15,
+      "contribution": 11.25,
+      "evidence": "plan.md#1-decision-and-executive-case",
+      "status": "assessed"
+    },
+    {
+      "criterion": "market_evidence",
+      "score": 2,
+      "weight": 15,
+      "contribution": 7.5,
+      "evidence": "plan.md#3-customer-and-market-evidence",
+      "status": "assessed"
+    },
+    {
+      "criterion": "commercial_economics",
+      "score": 3,
+      "weight": 15,
+      "contribution": 11.25,
+      "evidence": "model-overlay.json",
+      "status": "assessed"
+    },
+    {
+      "criterion": "model_integrity",
+      "score": 4,
+      "weight": 20,
+      "contribution": 20.0,
+      "evidence": "formula-map.json:status=pass",
+      "status": "assessed"
+    },
+    {
+      "criterion": "delivery_management",
+      "score": 3,
+      "weight": 10,
+      "contribution": 7.5,
+      "evidence": "plan.md#5-delivery-and-management",
+      "status": "assessed"
+    },
+    {
+      "criterion": "risk_regulatory",
+      "score": 1,
+      "weight": 10,
+      "contribution": 2.5,
+      "evidence": "evidence-manifest.json#DFI-03",
+      "status": "assessed"
+    },
+    {
+      "criterion": "evidence_governance",
+      "score": 3,
+      "weight": 10,
+      "contribution": 7.5,
+      "evidence": "evidence-manifest.json",
+      "status": "assessed"
+    },
+    {
+      "criterion": "audience_specific",
+      "score": 2,
+      "weight": 5,
+      "contribution": 2.5,
+      "evidence": "annex-index.md",
+      "status": "assessed"
+    }
+  ],
+  "errors": []
+}

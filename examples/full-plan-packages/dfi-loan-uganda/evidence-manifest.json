@@ -1,0 +1,9 @@
+{
+  "pack": "dfi-loan-uganda", "fictional": true, "audience": "dfi",
+  "claims": [
+    {"id": "DFI-01", "claim": "Three distributors are assumed contracted", "class": "assumption", "source": "illustrative case brief", "status": "not-client-evidence"},
+    {"id": "DFI-02", "claim": "Operating cash is the proposed repayment source", "class": "inference", "source": "model-overlay.json", "status": "requires-formula-audit"},
+    {"id": "DFI-03", "claim": "Sector gates apply to ICT/data, imports and environment", "class": "screening", "source": "references/sector-regulatory-gates.json", "status": "not-assessed"}
+  ],
+  "release_gates": {"formula_map": "required", "sector_gates": "required", "finance_quality_gate": "required", "committee_simulation": "required", "anti_slop": "required"}
+}

@@ -1,0 +1,9 @@
+{
+  "pack": "vc-east-africa", "fictional": true, "audience": "vc",
+  "claims": [
+    {"id": "VC-01", "claim": "Opening customers and revenue values are illustrative", "class": "assumption", "source": "model-overlay.json", "status": "not-traction"},
+    {"id": "VC-02", "claim": "Workflow integration may create switching cost", "class": "hypothesis", "source": "plan section 7", "status": "requires-customer-evidence"},
+    {"id": "VC-03", "claim": "Regional expansion requires country-specific gates", "class": "screening", "source": "references/sector-regulatory-gates.json", "status": "not-assessed"}
+  ],
+  "release_gates": {"formula_map": "required", "cohort_evidence": "required", "valuation_range": "required", "sector_gates": "required", "committee_simulation": "required", "anti_slop": "required"}
+}

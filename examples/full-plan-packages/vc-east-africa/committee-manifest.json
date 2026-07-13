@@ -1,0 +1,16 @@
+{
+  "audience": "vc",
+  "artefacts": {"plan": "plan.md", "funding_ask": "plan.md#9-financial-plan-round-and-dilution", "model_formula_map": "../../../docs/workbook-audits/saas-financial-projection-3yr-5yr.formula-map.json", "evidence_register": "evidence-manifest.json", "sector_gates": "evidence-manifest.json#VC-03"},
+  "criteria": {
+    "decision_funding": {"score": 3, "status": "assessed", "evidence": "plan.md#1-decision-and-executive-case"},
+    "market_evidence": {"score": 2, "status": "assessed", "evidence": "plan.md#4-reachable-market-method"},
+    "commercial_economics": {"score": 2, "status": "assessed", "evidence": "model-overlay.json"},
+    "model_integrity": {"score": 4, "status": "assessed", "evidence": "formula-map.json:status=pass"},
+    "delivery_management": {"score": 3, "status": "assessed", "evidence": "plan.md#6-go-to-market-and-expansion"},
+    "risk_regulatory": {"score": 2, "status": "assessed", "evidence": "evidence-manifest.json#VC-03"},
+    "evidence_governance": {"score": 2, "status": "assessed", "evidence": "evidence-manifest.json"},
+    "audience_specific": {"score": 1, "status": "assessed", "evidence": "plan.md#3-traction-and-cohort-evidence"}
+  },
+  "blockers": [{"severity": "remediable", "message": "Customer-level cohort retention evidence is not supplied"}],
+  "conditions": ["Replace illustrative traction and valuation assumptions"], "dissent": ["Product role disputes whether switching cost is yet evidenced"]
+}

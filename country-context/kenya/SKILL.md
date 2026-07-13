@@ -401,6 +401,7 @@ For a food processor in Kisumu County, verify national standards and tax rules s
 
 ## References
 
+- Use the refreshed source owners, check dates, and competent-source routes in `../../docs/source-registers/country-market-data.md`; an overdue register or missing claim-level citation blocks release.
 - Use the Kenyan authority and source list in `## 10. Data Sources`; verify every time-sensitive item before use.
 - Read `country-context/uganda/SKILL.md` or `country-context/tanzania/SKILL.md` instead when those jurisdictions govern the decision.
 

@@ -1,0 +1,16 @@
+{
+  "audience": "owner-board",
+  "artefacts": {"plan": "plan.md", "funding_ask": "plan.md#6-financial-choices", "model_formula_map": "../../../docs/workbook-audits/saas-financial-projection-3yr-5yr.formula-map.json", "evidence_register": "evidence-manifest.json", "sector_gates": "evidence-manifest.json#OWN-03"},
+  "criteria": {
+    "decision_funding": {"score": 4, "status": "assessed", "evidence": "plan.md#1-decision-and-executive-case"},
+    "market_evidence": {"score": 2, "status": "assessed", "evidence": "plan.md#3-customer-and-sales-priorities"},
+    "commercial_economics": {"score": 3, "status": "assessed", "evidence": "model-overlay.json"},
+    "model_integrity": {"score": 4, "status": "assessed", "evidence": "formula-map.json:status=pass"},
+    "delivery_management": {"score": 3, "status": "assessed", "evidence": "plan.md#5-operations-and-control-system"},
+    "risk_regulatory": {"score": 2, "status": "assessed", "evidence": "evidence-manifest.json#OWN-03"},
+    "evidence_governance": {"score": 1, "status": "assessed", "evidence": "plan.md#2-current-operating-position"},
+    "audience_specific": {"score": 3, "status": "assessed", "evidence": "plan.md#9-risks-and-stop-rules"}
+  },
+  "blockers": [{"severity": "remediable", "message": "Opening bank, receivable, payable and asset records are not supplied"}],
+  "conditions": ["Reconcile opening records and minimum-cash policy"], "dissent": []
+}

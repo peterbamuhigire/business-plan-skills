@@ -1,0 +1,82 @@
+{
+  "status": "pass",
+  "audience": "vc",
+  "weighted_score_percent": 65.0,
+  "recommendation": "defer",
+  "blockers": [
+    "Customer-level cohort retention evidence is not supplied"
+  ],
+  "conditions": [
+    "Replace illustrative traction and valuation assumptions"
+  ],
+  "dissent": [
+    "Product role disputes whether switching cost is yet evidenced"
+  ],
+  "criteria": [
+    {
+      "criterion": "decision_funding",
+      "score": 3,
+      "weight": 15,
+      "contribution": 11.25,
+      "evidence": "plan.md#1-decision-and-executive-case",
+      "status": "assessed"
+    },
+    {
+      "criterion": "market_evidence",
+      "score": 2,
+      "weight": 15,
+      "contribution": 7.5,
+      "evidence": "plan.md#4-reachable-market-method",
+      "status": "assessed"
+    },
+    {
+      "criterion": "commercial_economics",
+      "score": 2,
+      "weight": 15,
+      "contribution": 7.5,
+      "evidence": "model-overlay.json",
+      "status": "assessed"
+    },
+    {
+      "criterion": "model_integrity",
+      "score": 4,
+      "weight": 20,
+      "contribution": 20.0,
+      "evidence": "formula-map.json:status=pass",
+      "status": "assessed"
+    },
+    {
+      "criterion": "delivery_management",
+      "score": 3,
+      "weight": 10,
+      "contribution": 7.5,
+      "evidence": "plan.md#6-go-to-market-and-expansion",
+      "status": "assessed"
+    },
+    {
+      "criterion": "risk_regulatory",
+      "score": 2,
+      "weight": 10,
+      "contribution": 5.0,
+      "evidence": "evidence-manifest.json#VC-03",
+      "status": "assessed"
+    },
+    {
+      "criterion": "evidence_governance",
+      "score": 2,
+      "weight": 10,
+      "contribution": 5.0,
+      "evidence": "evidence-manifest.json",
+      "status": "assessed"
+    },
+    {
+      "criterion": "audience_specific",
+      "score": 1,
+      "weight": 5,
+      "contribution": 1.25,
+      "evidence": "plan.md#3-traction-and-cohort-evidence",
+      "status": "assessed"
+    }
+  ],
+  "errors": []
+}

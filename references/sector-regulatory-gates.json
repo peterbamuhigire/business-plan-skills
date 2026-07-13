@@ -1,0 +1,91 @@
+{
+  "standard": "Sector regulatory gate contract v1",
+  "checked_on": "2026-07-13",
+  "default_rule": "A sector match triggers screening, not a compliance conclusion. Verify jurisdiction, activity, scale, site and competent authority before modelling cost or timing.",
+  "sectors": [
+    {
+      "sector": "agriculture-livestock",
+      "gates": [
+        {"id": "AGR-BIOSECURITY", "question": "Does the activity move, breed, process or export plants, animals, seed, feed or biological material?", "evidence": "Product and movement map; current permits and competent-authority determination", "model_impact": "Permit, inspection, quarantine, testing, loss and lead-time assumptions", "stop_condition": "Do not model commercial launch or cross-border volume until applicability and lead time are evidenced", "sources": ["UG-UNBS-STANDARDS"]},
+        {"id": "AGR-ENVIRONMENT", "question": "Could land use, water abstraction, waste, chemicals or habitat effects trigger environmental review?", "evidence": "Site/activity screen and authority response", "model_impact": "Site preparation, mitigation, monitoring and contingency", "stop_condition": "Do not commit an affected site or implementation date before screening", "sources": ["UG-NEMA-REGULATIONS"]}
+      ]
+    },
+    {
+      "sector": "food-processing",
+      "gates": [
+        {"id": "FOOD-STANDARD", "question": "Is a product standard, hygiene control, label review, testing or certification required?", "evidence": "SKU register, process flow and current product-specific authority determination", "model_impact": "Laboratory, certification, packaging, rejects and release lead time", "stop_condition": "Do not forecast sale of an unassessed regulated SKU", "sources": ["UG-UNBS-STANDARDS"]},
+        {"id": "FOOD-WASTE", "question": "Do effluent, emissions, by-products or waste require controls or approval?", "evidence": "Waste map, site screen and current authority requirements", "model_impact": "Treatment capex, operating cost and commissioning gates", "stop_condition": "Do not approve plant design without the waste-control basis", "sources": ["UG-NEMA-REGULATIONS"]}
+      ]
+    },
+    {
+      "sector": "healthcare-life-sciences",
+      "gates": [
+        {"id": "HEALTH-LICENSING", "question": "Does the offering constitute a health facility, professional practice, medicine, device, laboratory or health-data service?", "evidence": "Service/product classification and written competent-authority route", "model_impact": "Premises, professional staffing, registration, pharmacovigilance and renewal cost", "stop_condition": "Do not claim approval, efficacy or launch readiness before classification and required approval", "sources": ["UG-URSB-BUSINESS-REGISTRATION"]},
+        {"id": "HEALTH-CLAIMS", "question": "Are health, safety, diagnostic or therapeutic claims made?", "evidence": "Claims inventory and substantiation review", "model_impact": "Testing, insurance, recall and legal review", "stop_condition": "Remove or qualify an unsupported claim", "sources": ["UG-UNBS-STANDARDS"]}
+      ]
+    },
+    {
+      "sector": "education-training",
+      "gates": [
+        {"id": "EDU-ACCREDITATION", "question": "Does the provider issue a regulated qualification, operate an institution or market accredited training?", "evidence": "Programme, award and provider classification with authority confirmation", "model_impact": "Accreditation sequence, faculty, facilities and intake timing", "stop_condition": "Do not advertise an unverified accredited award or enrolment date", "sources": ["UG-URSB-BUSINESS-REGISTRATION"]},
+        {"id": "EDU-SAFEGUARDING", "question": "Will the activity serve children or vulnerable learners?", "evidence": "Safeguarding, consent, incident and data-control design", "model_impact": "Staff checks, training, supervision and insurance", "stop_condition": "Do not start delivery without approved safeguarding controls", "sources": ["UG-URSB-BUSINESS-REGISTRATION"]}
+      ]
+    },
+    {
+      "sector": "finance-fintech-insurance",
+      "gates": [
+        {"id": "FIN-PERIMETER", "question": "Does the model receive, hold, transmit, lend, insure, exchange or advise on customer money?", "evidence": "End-to-end money flow and written regulatory-perimeter assessment", "model_impact": "Licence capital, safeguarding, compliance staff, settlement and reserves", "stop_condition": "Do not launch or describe the activity as licensed before authority confirmation", "sources": ["UG-BOU-SUPERVISION", "UG-URA-TAX-GUIDANCE"]},
+        {"id": "FIN-CONTROLS", "question": "Do customer funds, credit decisions or regulated records require reconciliations and audit trails?", "evidence": "Control matrix, ledger ownership, reconciliation and exception evidence", "model_impact": "Systems, operations staffing, losses, assurance and close", "stop_condition": "Do not release a model whose money flow does not reconcile", "sources": ["UG-BOU-SUPERVISION"]}
+      ]
+    },
+    {
+      "sector": "ict-telecom-media",
+      "gates": [
+        {"id": "ICT-LICENCE", "question": "Does the service provide communications, spectrum, broadcasting, postal or other regulated infrastructure?", "evidence": "Service architecture and current licence-class determination", "model_impact": "Licence, spectrum, equipment, security and rollout lead time", "stop_condition": "Do not model unrestricted rollout before the perimeter is confirmed", "sources": ["UG-UCC-LICENSING"]},
+        {"id": "ICT-DATA", "question": "Are personal, financial, health or cross-border data processed?", "evidence": "Data-flow map, lawful-basis review, retention and incident controls", "model_impact": "Security, hosting, consent, support and incident response", "stop_condition": "Do not release a plan that leaves a material data flow unassessed", "sources": ["UG-UCC-LICENSING"]}
+      ]
+    },
+    {
+      "sector": "hospitality-tourism",
+      "gates": [
+        {"id": "TOUR-CLASSIFICATION", "question": "Does the operation require tourism, accommodation, food, event or local trading approval?", "evidence": "Service/site classification and current national/local approval map", "model_impact": "Premises, inspection, insurance and opening sequence", "stop_condition": "Do not publish an opening date before critical approvals are sequenced", "sources": ["UG-URSB-BUSINESS-REGISTRATION", "UG-UNBS-STANDARDS"]},
+        {"id": "TOUR-ESG", "question": "Could the site affect protected areas, waste systems, water or local communities?", "evidence": "Site and stakeholder screen", "model_impact": "Mitigation, community engagement, seasonality and contingency", "stop_condition": "Do not commit the site before environmental screening", "sources": ["UG-NEMA-REGULATIONS"]}
+      ]
+    },
+    {
+      "sector": "mining-extractives-energy",
+      "gates": [
+        {"id": "EXT-RIGHTS", "question": "Are exploration, extraction, mineral trading, generation or energy infrastructure rights required?", "evidence": "Resource, land, licence and beneficial-ownership diligence", "model_impact": "Licence sequence, exploration risk, closure security and royalties/tax review", "stop_condition": "Do not value unverified rights as controlled assets", "sources": ["UG-URSB-BUSINESS-REGISTRATION", "UG-URA-TAX-GUIDANCE"]},
+        {"id": "EXT-ESIA", "question": "Does the project require environmental and social assessment, resettlement, closure or rehabilitation controls?", "evidence": "Current project classification and approved study route", "model_impact": "Studies, mitigation, community commitments, closure and schedule", "stop_condition": "Do not approve construction or production timing before the environmental route is evidenced", "sources": ["UG-NEMA-REGULATIONS"]}
+      ]
+    },
+    {
+      "sector": "construction-manufacturing",
+      "gates": [
+        {"id": "IND-SITE", "question": "Do land, planning, building, fire, occupational or environmental approvals control site use?", "evidence": "Title/lease diligence, design basis and approval matrix", "model_impact": "Design, permits, utilities, commissioning and delay contingency", "stop_condition": "Do not start procurement against an unverified site and approval path", "sources": ["UG-NEMA-REGULATIONS", "UG-URSB-BUSINESS-REGISTRATION"]},
+        {"id": "IND-PRODUCT", "question": "Are machinery, inputs or outputs subject to compulsory standards, testing or import controls?", "evidence": "Equipment/SKU register and conformity route", "model_impact": "Certification, customs, rejects, maintenance and spares", "stop_condition": "Do not forecast full output before critical equipment and product clearance", "sources": ["UG-UNBS-STANDARDS", "UG-URA-TAX-GUIDANCE"]}
+      ]
+    },
+    {
+      "sector": "retail-ecommerce-trade",
+      "gates": [
+        {"id": "TRADE-PRODUCT", "question": "Are traded goods restricted, standardised, age-controlled, imported or subject to special tax treatment?", "evidence": "SKU, origin, customs and product-control register", "model_impact": "Landed cost, tax, clearance, returns and inventory lead time", "stop_condition": "Do not price or order an unassessed controlled SKU", "sources": ["UG-UNBS-STANDARDS", "UG-URA-TAX-GUIDANCE"]},
+        {"id": "TRADE-CONSUMER", "question": "Do selling, payments, promotions, returns or customer-data practices create consumer or data obligations?", "evidence": "Customer journey, terms, returns, payment and data-flow review", "model_impact": "Refunds, chargebacks, support, security and retention", "stop_condition": "Do not release unsupported price, guarantee or delivery claims", "sources": ["UG-UCC-LICENSING"]}
+      ]
+    },
+    {
+      "sector": "transport-logistics",
+      "gates": [
+        {"id": "LOG-OPERATING", "question": "Are vehicle, operator, route, warehousing, aviation, maritime or dangerous-goods approvals required?", "evidence": "Asset, route, cargo and operator classification", "model_impact": "Fleet standard, insurance, permits, maintenance and route constraints", "stop_condition": "Do not model a route or cargo service before operating requirements are confirmed", "sources": ["UG-URSB-BUSINESS-REGISTRATION"]},
+        {"id": "LOG-CUSTOMS", "question": "Does the flow cross borders or create bonded, customs, excise or tax obligations?", "evidence": "Incoterm, tariff, origin, agent and border-process evidence", "model_impact": "Landed cost, working capital, delay and compliance staffing", "stop_condition": "Do not quote cross-border margin without a reconciled landed-cost route", "sources": ["UG-URA-TAX-GUIDANCE"]}
+      ]
+    },
+    {
+      "sector": "ngo-grant-donor",
+      "gates": [
+        {"id": "DONOR-ELIGIBILITY", "question": "Is entity, geography, activity, procurement or co-financing eligibility evidenced?", "evidence": "Call text, entity documents and signed eligibility checklist", "model_impact": "Allowable budget, indirect cost, match funding and implementation start", "stop_condition": "Do not submit or recognise restricted funding with an unresolved eligibility blocker", "sources": ["UG-URSB-BUSINESS-REGISTRATION"]},
+        {"id": "DONOR-CONTROLS", "question": "Are restricted funds, safeguarding, procurement, reporting and audit obligations designed?", "evidence": "Grant conditions, fund-accounting map, procurement and safeguarding controls", "model_impact": "Restricted cash, reporting staff, audit, disallowance and sustainability", "stop_condition": "Do not call the budget compliant before donor and finance review", "sources": ["UG-URA-TAX-GUIDANCE"]}
+      ]
+    }
+  ]
+}

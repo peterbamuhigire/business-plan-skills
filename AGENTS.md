@@ -72,6 +72,8 @@ When preparing decks or presentations, also load:
 - `meta-pitch-preparation`
 - `meta-presentation-design`
 
+Before a country or market fact is released, check `docs/source-registers/country-market-data.json`; an overdue entry or missing claim-level citation blocks the affected conclusion. Before sector assumptions enter operations, risk, implementation or finance, apply `references/sector-regulatory-gates.md`. Run `tools/workbook-audit/formula_map.py` on delivered XLSX models. Use `meta-investment-committee-red-team` only after a complete plan, model audit and evidence pack exist.
+
 ## Task Routing
 
 - Full bankable plan: `00-client-intake` -> `meta-critical-thinking-business-logic` -> sections `02` to `16` -> `01-executive-summary` -> `meta-critical-thinking-business-logic` review -> `meta-consulting-synthesis` -> `meta-financial-stress-test` -> `meta-bankability-scoring` -> `meta-due-diligence` -> `15-appendices` -> `00-plan-assembly`
@@ -128,6 +130,7 @@ Before treating significant skill changes as complete:
 - update references when the workflow changes materially
 - update evaluation docs if repository capability materially changes
 - prefer spot verification of modified skills and routing dependencies
+- run the evidence-register, sector-gate, exemplar-pack, workbook and unit-test gates documented in `CONTRIBUTING.md` when those capabilities are touched
 
 ## Document and Spreadsheet Tooling
 

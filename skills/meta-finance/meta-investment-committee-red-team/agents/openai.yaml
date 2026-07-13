@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investment Committee Red-Team"
+  short_description: "Rehearse a funding case against committee blockers"
+  default_prompt: "Run a read-only, audience-specific investment committee simulation on the supplied plan, model audit and evidence pack."

@@ -6,14 +6,20 @@ engine-root: C:\wamp64\www\business-plan-skills
 active-roots:
   - skills
   - country-context
-skill-count: 123
+skill-count: 124
 template-count: 2
 quality-gates:
   local-validator: pass
   canonical-scanner: pass
   canonical-quick-validator: pass
   routing-smoke: pass
-  anti-slop-audit: pass-grade-a-genericness-6
+  anti-slop-audit: pass-grade-a-genericness-5
+  evidence-register: pass-10-entries-3-active-jurisdictions
+  workbook-audit: pass-7-workbooks-main-report-zero-findings
+  exemplar-packs: pass-4-packs-28-artefacts
+  sector-regulatory-gates: pass-12-families-24-gates
+  investment-committee: pass-blocker-precedence-tested
+  capability-unit-tests: pass-10-tests
 finance-accounting-gate:
   gate-version: 1.0.0
   doctrine-version: 1.0.0
@@ -26,7 +32,7 @@ finance-accounting-gate:
     R-100-doctrine-version: pass
     R-102-gate-manifest: pass
     R-101-adoption-record: not-applicable-reference-model
-    R-103-through-R-108: not-applicable-no-operational-finance-artefact
+    R-103-through-R-108: not-applicable-no-client-ledger-or-production-posting
 release:
   commit: this-manifest-containing-commit
   destination: origin/main

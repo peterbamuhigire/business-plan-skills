@@ -1,0 +1,16 @@
+{
+  "audience": "dfi",
+  "artefacts": {"plan": "plan.md", "funding_ask": "plan.md#8-funding-request-and-use", "model_formula_map": "../../../docs/workbook-audits/saas-financial-projection-3yr-5yr.formula-map.json", "evidence_register": "evidence-manifest.json", "sector_gates": "evidence-manifest.json#DFI-03"},
+  "criteria": {
+    "decision_funding": {"score": 3, "status": "assessed", "evidence": "plan.md#1-decision-and-executive-case"},
+    "market_evidence": {"score": 2, "status": "assessed", "evidence": "plan.md#3-customer-and-market-evidence"},
+    "commercial_economics": {"score": 3, "status": "assessed", "evidence": "model-overlay.json"},
+    "model_integrity": {"score": 4, "status": "assessed", "evidence": "formula-map.json:status=pass"},
+    "delivery_management": {"score": 3, "status": "assessed", "evidence": "plan.md#5-delivery-and-management"},
+    "risk_regulatory": {"score": 1, "status": "assessed", "evidence": "evidence-manifest.json#DFI-03"},
+    "evidence_governance": {"score": 3, "status": "assessed", "evidence": "evidence-manifest.json"},
+    "audience_specific": {"score": 2, "status": "assessed", "evidence": "annex-index.md"}
+  },
+  "blockers": [{"severity": "remediable", "message": "Sector and environmental/social screens remain not assessed"}],
+  "conditions": ["Verify contracts and DFI action-plan gates"], "dissent": ["Commercial lead requires customer-level loss baseline"]
+}

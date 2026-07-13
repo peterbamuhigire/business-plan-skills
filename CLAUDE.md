@@ -48,6 +48,8 @@ Skills are grouped into thematic categories under `skills/`. Use `skills/<catego
 - Audit and review skills default to read-only; mutation, publishing, spending, destructive action, and certification require explicit authority.
 - Keep `SKILL.md` at or below 500 lines and use British English.
 - Run the zero-debt validator and routing smoke test before release; see `CONTRIBUTING.md`.
+- Validate the dated country/market source register before using current facts, apply the central sector regulatory gates before modelling regulated activities, and run the formula-map auditor on XLSX deliverables.
+- Use `meta-investment-committee-red-team` for blocker-first lender, DFI, VC, grant or owner-board rehearsal only after a complete pack exists; simulation is not approval.
 
 ### Key Methodologies
 

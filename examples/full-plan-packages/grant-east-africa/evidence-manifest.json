@@ -1,0 +1,9 @@
+{
+  "pack": "grant-east-africa", "fictional": true, "audience": "grant",
+  "claims": [
+    {"id": "GRT-01", "claim": "Twenty-four pilot sites are proposed", "class": "assumption", "source": "model-overlay.json", "status": "illustrative"},
+    {"id": "GRT-02", "claim": "Alert response may reduce unaddressed incidents", "class": "hypothesis", "source": "theory of change", "status": "requires-evaluation"},
+    {"id": "GRT-03", "claim": "Country-specific sector and donor controls apply", "class": "screening", "source": "references/sector-regulatory-gates.json", "status": "not-assessed"}
+  ],
+  "release_gates": {"eligibility": "required", "baseline": "required", "mel": "required", "restricted_funds": "required", "sector_gates": "required", "anti_slop": "required"}
+}

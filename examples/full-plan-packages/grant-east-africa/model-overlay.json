@@ -1,0 +1,7 @@
+{
+  "audience": "grant", "base_workbook": "skills/pipeline/10-financial-projections/templates/saas-financial-projection-3yr-5yr.xlsx", "currency": "USD", "status": "illustrative-not-donor-approved",
+  "inputs": {"pilot_sites": 24, "pilot_months": 12, "device_cost_per_site": 480, "training_cost_per_site": 180, "mel_share_percent": 8, "illustrative_grant_request": 48000},
+  "scenarios": {"base": "24 sites after baseline", "delay": "partner onboarding delayed two months", "adaptive": "smaller cohort with additional training"},
+  "required_checks": ["formula-map-pass", "restricted-cash-reconciliation", "budget-to-activity-map", "cofinance-evidence", "closeout-balance"],
+  "formula_map": "docs/workbook-audits/saas-financial-projection-3yr-5yr.formula-map.json"
+}

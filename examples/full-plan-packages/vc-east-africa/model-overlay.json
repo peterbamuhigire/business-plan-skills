@@ -1,0 +1,7 @@
+{
+  "audience": "vc", "base_workbook": "skills/pipeline/10-financial-projections/templates/saas-financial-projection-3yr-5yr.xlsx", "currency": "USD", "status": "illustrative-not-investment-data",
+  "inputs": {"opening_customers": 12, "average_sites_per_customer": 8, "monthly_recurring_revenue_per_site": 120, "illustrative_logo_churn_percent": 1.5, "illustrative_gross_margin_percent": 68, "illustrative_round": 750000, "runway_months_target": 24},
+  "scenarios": {"base": "evidenced segment conversion", "slower_sales": "sales cycle doubles", "retention_downside": "churn and contraction increase"},
+  "required_checks": ["formula-map-pass", "ARR-waterfall-tie", "cohort-retention-trace", "cash-runway", "sources-equal-uses", "dilution-range"],
+  "formula_map": "docs/workbook-audits/saas-financial-projection-3yr-5yr.formula-map.json"
+}

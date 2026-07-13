@@ -299,10 +299,11 @@ For 10 financial projections, loss of evidence about integrated income statement
 
 1. Define the exact 10 financial projections decision, intended reader, jurisdiction, business stage, and permission boundary.
 2. Collect approved commercial assumptions, contracts, usage/cost evidence, accounting framework, opening position, and projection horizon and map each material conclusion to its source; stop the affected conclusion when an input could change it.
-3. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
-4. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
-5. Produce integrated projections with sla and scenario effects with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
-6. Run the section quality checks, applicable finance or professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
+3. Apply `../../../references/sector-regulatory-gates.md`; place every evidenced licence, control, certification, mitigation and delay effect in the owning schedule, and leave unresolved gates visibly unassessed rather than using a plug.
+4. Apply the specialist methods and directly linked references already contained in this skill, retaining its domain thresholds, calculations, and Uganda or East Africa context where applicable.
+5. Compare the credible alternatives, test the countercase and failure path, and apply the decision table rather than selecting a template default.
+6. Produce integrated projections with SLA and scenario effects with the evidence, exception, and handoff records; reconcile every shared assumption with its owning section.
+7. Run the workbook formula map, section quality checks, finance gate, applicable professional review, and anti-slop gate. If a gate fails, correct the evidence or decision and return to the responsible step.
 
 ## Quality Standards
 
@@ -327,6 +328,7 @@ The base case meets profit targets only because SLA credits are omitted. Add the
 
 ## References
 
+- Audit XLSX formulae, assumptions, external links, scenarios and balance checks with `../../../tools/workbook-audit/formula_map.py`; a structural failure blocks release.
 - Use the verified project evidence register and the owning upstream pipeline section for 10 financial projections; no local deep-dive reference is declared.
 - For 10 financial projections claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 

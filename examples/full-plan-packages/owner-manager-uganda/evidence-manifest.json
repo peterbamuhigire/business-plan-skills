@@ -1,0 +1,9 @@
+{
+  "pack": "owner-manager-uganda", "fictional": true, "audience": "owner-board",
+  "claims": [
+    {"id": "OWN-01", "claim": "Opening customers and cash policy are illustrative", "class": "assumption", "source": "model-overlay.json", "status": "replace-with-records"},
+    {"id": "OWN-02", "claim": "Staged capacity may preserve cash", "class": "hypothesis", "source": "scenario comparison", "status": "requires-model-test"},
+    {"id": "OWN-03", "claim": "Current tax and regulatory treatment must be verified", "class": "screening", "source": "docs/source-registers/country-market-data.json", "status": "not-assessed"}
+  ],
+  "release_gates": {"opening_balances": "required", "formula_map": "required", "cash_scenarios": "required", "sector_gates": "required", "finance_quality_gate": "required", "anti_slop": "required"}
+}

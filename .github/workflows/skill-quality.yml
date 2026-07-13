@@ -22,5 +22,15 @@ jobs:
         run: python -X utf8 scripts/validate_skill_engine.py --baseline docs/quality/skill-quality-baseline.json
       - name: Test routing
         run: python -X utf8 scripts/routing_smoke_test.py --threshold 1.0
+      - name: Validate evidence and sector gates
+        run: |
+          python -X utf8 tools/evidence-register/refresh_evidence_register.py --check
+          python -X utf8 tools/sector-gates/validate_sector_gates.py
+      - name: Validate workbooks and audience packs
+        run: |
+          python -X utf8 scripts/build-financial-models/verify_workbooks.py
+          python -X utf8 tools/exemplar-packs/validate_exemplar_packs.py
+      - name: Run capability regression tests
+        run: python -X utf8 -m unittest discover -s tests -p 'test_*.py'
       - name: Compile Python quality tools
-        run: python -m py_compile scripts/validate_skill_engine.py scripts/routing_smoke_test.py skills/meta-utility/skill-writing/scripts/quick_validate.py
+        run: python -m compileall -q scripts tools skills/meta-utility/skill-writing/scripts

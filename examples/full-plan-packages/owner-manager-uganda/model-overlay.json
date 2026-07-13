@@ -1,0 +1,7 @@
+{
+  "audience": "owner-board", "base_workbook": "skills/pipeline/10-financial-projections/templates/saas-financial-projection-3yr-5yr.xlsx", "currency": "UGX", "status": "illustrative-not-management-accounts",
+  "inputs": {"opening_customers": 8, "new_sites_per_month": 4, "customer_deposit_percent": 30, "collection_days": 60, "illustrative_monthly_payroll": 9500000, "minimum_cash_policy": 15000000},
+  "scenarios": {"hire_now": "permanent team added before cohort", "staged_contractor": "capacity added per accepted site", "hold": "collections and backlog cleared first"},
+  "required_checks": ["formula-map-pass", "opening-balance-reconciliation", "bank-to-cash-tie", "receivables-rollforward", "minimum-cash-trigger", "sources-equal-uses"],
+  "formula_map": "docs/workbook-audits/saas-financial-projection-3yr-5yr.formula-map.json"
+}

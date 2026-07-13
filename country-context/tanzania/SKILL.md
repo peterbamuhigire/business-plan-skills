@@ -444,6 +444,7 @@ For a tourism venture in Zanzibar, do not apply a mainland registration or tax p
 
 ## References
 
+- Use the refreshed source owners, check dates, and competent-source routes in `../../docs/source-registers/country-market-data.md`; an overdue register or missing claim-level citation blocks release.
 - Use the Tanzanian authority and source list in `## 10. Data Sources`; verify every time-sensitive item before use.
 - Load `references/tanzania-fydp3-development-plan.md` only when the development-plan branch is material.
 - Read `country-context/uganda/SKILL.md` or `country-context/kenya/SKILL.md` instead when those jurisdictions govern the decision.

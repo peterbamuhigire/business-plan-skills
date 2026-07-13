@@ -365,6 +365,7 @@ For a food processor outside Kampala, verify national standards and tax rules se
 
 ## References
 
+- Use the refreshed source owners, check dates, and competent-source routes in `../../docs/source-registers/country-market-data.md`; an overdue register or missing claim-level citation blocks release.
 - Use the Ugandan authority, live-metric, and source lists above; verify every time-sensitive item before use.
 - Use `country-context/kenya/SKILL.md` or `country-context/tanzania/SKILL.md` instead when those jurisdictions govern the decision.
 

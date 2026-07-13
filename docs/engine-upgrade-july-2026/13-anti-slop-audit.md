@@ -18,6 +18,17 @@ Genericness score: **6/100**
 | Substance and authored intent | Every active skill names its domain inputs, decisions, failure risks, outputs, acceptance conditions, degraded mode, and permission boundary. | Pass |
 | Unassessed checks presented as passes | None. The finance gate records its human-sign-off caveat, and capability expansion is separated from conformance. | Pass |
 
+## Capability expansion audit — 2026-07-13
+
+Verdict: **A**. Genericness score: **5/100**. Release blocker: **none**.
+
+The changed skill, reference packs and maintainer documentation were reviewed after implementation.
+The audit corrected three risks before release: source portals are described as verification routes
+rather than proof of claims; the roadmap no longer assigns an unmeasured future maturity score; and
+committee outputs state that simulation cannot approve funding. The exemplar figures are explicitly
+fictional, audience differences change the decision logic, hard parts remain visible, and unavailable
+regulatory, finance or evidence checks are not reported as passes. No filler finding was invented.
+
 ## Corrections completed before this verdict
 
 - Replaced repeated compatibility boilerplate with domain-specific contracts.

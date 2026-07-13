@@ -1,0 +1,10 @@
+{
+  "audience": "dfi",
+  "base_workbook": "skills/pipeline/10-financial-projections/templates/saas-financial-projection-3yr-5yr.xlsx",
+  "currency": "UGX",
+  "status": "illustrative-not-client-data",
+  "inputs": {"contracted_sites": 30, "monthly_fee_per_site": 450000, "device_cost_per_site": 1800000, "customer_deposit_percent": 20, "collection_days": 45, "illustrative_debt_amount": 120000000, "illustrative_tenor_months": 60},
+  "scenarios": {"base": "contracted deployment schedule", "downside": "three-month delay, slower collections and higher replacement cost", "severe": "customer concentration loss plus delayed replacement funding"},
+  "required_checks": ["formula-map-pass", "cash-never-unexplained", "balance-sheet-tie", "debt-service-coverage-downside", "uses-equal-sources"],
+  "formula_map": "docs/workbook-audits/saas-financial-projection-3yr-5yr.formula-map.json"
+}

@@ -202,8 +202,9 @@ Without a close guide, current source, country context, or finance doctrine, ret
 3. Load only references that change the owning section's assumptions or decisions.
 4. Separate durable operating logic from time-sensitive figures; verify current facts or mark them unassessed.
 5. Reconcile country, finance, regulation, customer, operations, and funding implications.
-6. Produce the sector brief and source register, including mismatch and countercase; recover by revising the guide choice when the evidence contradicts it.
-7. Stop release where a load-bearing claim is uncited or the benchmark conflicts with the plan model.
+6. Run every applicable gate in `../../references/sector-regulatory-gates.md`, carrying its cost, timing and stop condition into the plan and marking unavailable checks `not assessed`.
+7. Produce the sector brief and source register, including mismatch and countercase; recover by revising the guide choice when the evidence contradicts it.
+8. Stop release where a load-bearing claim is uncited, a regulatory stop condition is unresolved, or the benchmark conflicts with the plan model.
 
 ## Quality Standards
 
