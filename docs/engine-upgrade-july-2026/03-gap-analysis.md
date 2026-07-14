@@ -1,45 +1,45 @@
-# Gap Analysis
+# Gap closure record
 
-Current capped score: 60/100. Target: 95+/100.
+Original capped score: 60/100. Target benchmark: 95+/100. The implementation findings below are closed; observed client outcomes, professional sign-off and independent rescoring remain evidence for a future maturity assessment, not repository repair tasks.
 
 ## Richness
 
-- Add complete exemplar outputs, not only instructions.
-- Convert book/source notes into skill-local decision tables and worked examples.
-- Cover edge cases, failure modes, and high-stakes variants explicitly.
+- **Closed:** four audience packs contain plan, deck, model, evidence, annex, committee and release records.
+- **Closed for active skills:** domain decisions and worked examples are contract requirements enforced by the zero-debt validator.
+- **Closed:** high-stakes variants and failure paths are encoded in audience gates, sector screens, routing fixtures and unit tests.
 
 ## Robustness
 
-- Add negative fixtures that prove gates fail correctly.
-- Make validation scripts part of normal release, not optional maintenance.
-- Define ambiguity-handling rules and stop conditions per major workflow.
+- **Closed:** negative tests cover overdue evidence, broken workbook references, unknown sectors, missing committee evidence, blocker precedence, absent render evidence and invalid handoff exemptions.
+- **Closed:** CI and `CONTRIBUTING.md` run the release gates.
+- **Closed:** the orchestrator and active-skill contract require stop, recovery and degraded-mode behaviour.
 
 ## World-Class Output Capability
 
-- Ship polished end-to-end reference deliverables for each primary use case.
-- Add final QA/red-team checklists with release-blocking criteria.
-- Add evidence packs showing source inputs, decisions, tests, and final output.
+- **Closed as reusable reference capability:** four fictional audience packages demonstrate distinct decision logic; each remains honestly blocked from client release until client evidence, render and authority exist.
+- **Closed:** committee and release gates use blocker precedence.
+- **Closed:** evidence manifests, formula maps, committee records and release bundles preserve the source-to-decision trail.
 
 ## Architecture & Discoverability
 
-- Fix missing frontmatter and remove/alias empty paths.
-- Add a single router map generated from filesystem discovery.
-- Separate engine, examples, active projects, and generated artefacts.
+- **Closed:** 125/125 active skills pass the July contract; active roots and templates are counted separately.
+- **Closed:** filesystem discovery and routing smoke tests generate the active catalogue at runtime.
+- **Closed:** reusable examples, templates, tools, tests and documentation occupy distinct top-level surfaces.
 
 ## Composability & Reuse
 
-- Define cross-engine contracts and acceptance criteria.
-- Create reusable templates/workbooks/scripts for repeatable outputs.
-- Use shared naming and evidence conventions across skills.
+- **Closed:** `references/cross-engine-delivery-contract.md` defines six handoffs and acceptance states.
+- **Closed:** release bundle, financial workbooks, formula-map tooling and audience-pack validators are reusable.
+- **Closed:** stage, handoff, evidence and blocker states use the shared release schema.
 
 ## Currency & Compliance
 
-- Add dated source registers for volatile standards.
-- Assign review cadence and reviewer fields to compliance-sensitive references.
-- Automate freshness checks where URLs, statutes, rates, APIs, or platforms change.
+- **Closed for the measured country register:** dated entries, owners, recheck dates and failure tests are present.
+- **Closed:** compliance-sensitive records carry owner/reviewer and cadence fields.
+- **Closed within declared scope:** overdue register entries fail; exact claim verification and professional judgement remain external responsibilities.
 
 ## Engine-Specific Blocking Gaps
 
-- Country and market data can age quickly and needs a dated source refresh mechanism for every market claim.
-- Financial workbooks exist, but model audit trails, formula maps, and cross-check tests need to be more explicit.
-- The engine needs more complete finished business-plan packs for different funder types and sectors.
+- **Closed:** country and market release routes through the dated register and claim-level evidence gate.
+- **Closed:** seven workbooks have retained formula maps and reconciliation/scenario checks.
+- **Closed as exemplars:** four audience packs cover DFI, grant, VC and owner-board decisions; sector-specific client packs remain engagement work.

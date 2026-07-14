@@ -53,3 +53,9 @@ The machine-readable baseline is `docs/quality/skill-quality-baseline.json`. Its
 ## Capability expansion completed
 
 The five items previously recorded outside conformance were completed on 2026-07-13: a dated evidence-register refresh gate, standard-library workbook formula-map tooling, four complete audience exemplar packs, 24 gates across 12 sector families, and a blocker-first investment-committee simulation skill and CLI. The added skill increases the active catalogue to 124. See `14-capability-expansion-release.md` for machine evidence; the original 123-skill before/after counts above remain the historical conformance measurement.
+
+## Full required-feature closure — 2026-07-14
+
+The audit's broader required-feature list is now implemented, not merely documented. `business-plan-orchestrator` adds eight mandatory stages from intake through finalisation; `references/cross-engine-delivery-contract.md` defines research, finance, spreadsheet, design, document and security handoffs; and the release-bundle validator enforces blocker precedence, evidence-path existence, honest non-applicability, render review, reviewer notes, audit log, checklist and release authority.
+
+Current machine state: 125/125 active skills conform, 3 template resources are counted separately, 38/38 routing fixtures meet the 100% top-three threshold, and 14 capability tests pass. The four audience packs now contain 32 required artefacts, including release bundles that correctly remain blocked because teaching artefacts are not rendered client submissions and have no client authority. The 123-skill and 124-skill figures above remain dated historical measurements rather than being rewritten.

@@ -1,10 +1,10 @@
 # Business Plan Skills Suite
 
-Current conformance state (verified 2026-07-13): 124 active skills across `skills/` and `country-context/`, 2 template resources, zero structural findings, and 34/34 routing fixtures meeting the 100% top-three threshold. See `docs/engine-upgrade-july-2026/11-conformance-upgrade-record.md`.
+Current conformance state (verified 2026-07-14): 125 active skills across `skills/` and `country-context/`, 3 template resources, zero structural findings, and 38/38 routing fixtures meeting the 100% top-three threshold. The capability regression suite has 14 tests. See `docs/engine-upgrade-july-2026/11-conformance-upgrade-record.md`.
 
 A modular collection of Claude Code skills for generating, validating, and delivering bankable business plans. Each section of a professional business plan is a standalone skill — invoke individually or chain to produce a complete investor-ready document.
 
-**124 active skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
+**125 active skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
 
 ## Evidence and decision gates
 
@@ -13,6 +13,8 @@ A modular collection of Claude Code skills for generating, validating, and deliv
 - `tools/workbook-audit/formula_map.py` audits XLSX formulae, assumptions, missing sheets, external links, scenarios and reconciliation checks without requiring Excel.
 - `examples/full-plan-packages/` contains complete fictional DFI, grant, VC and owner-manager reference packs with narrative, deck, model overlay, evidence, annex and committee records.
 - `meta-investment-committee-red-team` runs a blocker-first, read-only funding rehearsal. A simulated progression result is never a real approval.
+- `business-plan-orchestrator` governs serious engagements from intake and evidence design through model, challenge, cross-engine finalisation and authorised release; `00-plan-assembly` remains the narrower final packaging skill.
+- `tools/release-gate/validate_release_bundle.py` enforces blocker precedence across eight stages and research, finance, spreadsheet, design, document and security handoffs. The four teaching packs intentionally remain `blocked` because they are not rendered client submissions and have no release authority.
 
 ---
 
@@ -53,7 +55,8 @@ Major living-plan layer added for ICT/SaaS startups across all sections plus met
 
 | Need | Skills to Use |
 |---|---|
-| Write a complete business plan | `01` through `15` (in order) |
+| Govern a complete business plan from intake to authorised release | `business-plan-orchestrator` |
+| Draft the core plan sections inside that workflow | `02` through `16`, then `01` |
 | Write a specific section | Invoke the numbered skill directly |
 | Test whether a plan makes logical and business sense | `meta-critical-thinking-business-logic` |
 | Stop a plan, deck, or narrative reading as AI slop (pre-ship gate) | `anti-ai-slop` |
@@ -74,6 +77,16 @@ Major living-plan layer added for ICT/SaaS startups across all sections plus met
 | Write a business article or blog post | `blog-writer` + `blog-idea-generator` |
 | Test a business idea before writing the plan | `idea-testing` |
 | Write a client proposal | `proposal-architect` |
+
+### End-to-end release path
+
+Use `business-plan-orchestrator` for every serious full-plan engagement. It freezes the decision brief, creates the claim-and-evidence plan, selects audience-specific sections, reconciles the integrated model, runs challenge and committee gates, assembles approved versions, and records cross-engine handoffs. Copy `templates/release-evidence-bundle.json`, replace every placeholder, and validate it with:
+
+```powershell
+python -X utf8 tools\release-gate\validate_release_bundle.py <release-bundle.json>
+```
+
+The release gate requires reviewer notes, audit log, checklist, render evidence where applicable, and explicit release authority. A structural pass is not evidence that a source supports a claim, that a financial judgement is correct, or that a submission has been approved.
 
 ### Anti-AI-slop quality gate
 
@@ -178,6 +191,7 @@ Invoke in order (02 → 15, then 01 last) to produce a complete plan.
 
 | Skill Directory | What It Does |
 |---|---|
+| `business-plan-orchestrator` | Mandatory end-to-end controller for serious full plans: stage gates, audience routing, cross-engine handoffs, blocker precedence and release-evidence bundle |
 | `meta-critical-thinking-business-logic` | Tests claims, assumptions, evidence, business logic, feasibility, mental models, strategic fit, and achievability before synthesis or final review |
 | `meta-accounting-finance-review` | IFRS-aware accounting, management accounting, financial-model, controls, and projection integrity review before bankability, valuation, due diligence, or final assembly |
 | `meta-sustainability` | Mandatory sustainability pre-screen (Mode A) and audit (Mode C); Sustainability Readiness Score (5 dimensions); sector materialities; SDG alignment; IFC Performance Standards compliance for DFI applications |
@@ -245,10 +259,10 @@ Primary-source reference material stored in `book-extractions/`. Read these when
 
 ### Write a complete business plan
 
-Invoke skills sequentially, sections 02–15, then 01 last:
+Start with the orchestrator; it selects and gates the necessary sections, with 01 written last:
 
 ```
-Use the company-overview skill to generate section 02 for [Business Name], a [sector] business in [location]
+Use business-plan-orchestrator to govern the [audience] plan for [Business Name] from intake and evidence design through model, review, assembly and authorised release
 ```
 
 ### Write a single section
@@ -315,7 +329,7 @@ business-plan-skills/
 |   |-- meta-pitch/            # Pitch-deck orchestration, presentation design
 |   |-- meta-pricing-gtm/      # Pricing strategy, premium GTM, website investment
 |   |-- meta-reporting/        # Board & investor reporting
-|   |-- meta-strategy/         # Consulting synthesis, due diligence, optionality, governance
+|   |-- meta-strategy/         # End-to-end orchestration, synthesis, due diligence, optionality, governance
 |   |-- meta-sustainability/   # Sustainability strategy references
 |   `-- meta-utility/          # skill-writing, skill-safety-audit, proposal-architect, update-claude-documentation
 |-- country-context/           # Country data overrides and country-specific skills
@@ -347,7 +361,7 @@ Skills are grouped into thematic categories under `skills/`. When invoking a ski
 | `meta-pitch/` | `pitch-deck`, `meta-pitch-preparation`, `meta-presentation-design` |
 | `meta-pricing-gtm/` | Pricing strategy, premium GTM, website investment planning |
 | `meta-reporting/` | Board & investor reporting (human + agent variants) |
-| `meta-strategy/` | Consulting synthesis, due diligence, optionality, living-plan governance, statistics |
+| `meta-strategy/` | End-to-end business-plan orchestration, consulting synthesis, due diligence, optionality, living-plan governance, statistics |
 | `meta-sustainability/` | Sustainability strategy references |
 | `meta-utility/` | `skill-writing`, `skill-safety-audit`, `proposal-architect`, `update-claude-documentation`, `anti-ai-slop`, `ai-slop-audit` |
 

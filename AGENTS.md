@@ -41,7 +41,7 @@ For the canonical template and migration rules, see:
 
 ## Default Baseline
 
-For serious business-plan work, start from these skills:
+For serious full business-plan work, start with `business-plan-orchestrator`, which controls the stage register, cross-engine handoffs, blocker precedence and release bundle. It routes to these baseline skills:
 
 - `00-client-intake`
 - `country-context/{country}` where available, otherwise Uganda defaults
@@ -74,9 +74,11 @@ When preparing decks or presentations, also load:
 
 Before a country or market fact is released, check `docs/source-registers/country-market-data.json`; an overdue entry or missing claim-level citation blocks the affected conclusion. Before sector assumptions enter operations, risk, implementation or finance, apply `references/sector-regulatory-gates.md`. Run `tools/workbook-audit/formula_map.py` on delivered XLSX models. Use `meta-investment-committee-red-team` only after a complete plan, model audit and evidence pack exist.
 
+Before external release of a complete plan, apply `references/cross-engine-delivery-contract.md`, populate `templates/release-evidence-bundle.json`, and run `tools/release-gate/validate_release_bundle.py`. Missing mandatory research, finance, spreadsheet, design, document, security, render, reviewer or authority evidence remains blocking.
+
 ## Task Routing
 
-- Full bankable plan: `00-client-intake` -> `meta-critical-thinking-business-logic` -> sections `02` to `16` -> `01-executive-summary` -> `meta-critical-thinking-business-logic` review -> `meta-consulting-synthesis` -> `meta-financial-stress-test` -> `meta-bankability-scoring` -> `meta-due-diligence` -> `15-appendices` -> `00-plan-assembly`
+- Full bankable plan: `business-plan-orchestrator` -> `00-client-intake` -> evidence design -> `meta-critical-thinking-business-logic` -> sections `02` to `16` -> `01-executive-summary` -> synthesis/model/challenge gates -> `15-appendices` -> `00-plan-assembly` -> cross-engine finalisation -> validated release bundle
 - Equity or investor plan: baseline plan flow + `meta-valuation`
 - Grant application: `11b-grant-proposal` instead of standard funding-request workflow
 - Proposal work: `proposal-architect` plus any relevant sector or funding skills

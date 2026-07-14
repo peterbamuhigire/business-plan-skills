@@ -1,25 +1,27 @@
 artefact: business-plan-skills July 2026 conformance upgrade
-artefact-version: july-2026-zero-debt
-ran-at: 2026-07-13T00:00:00+03:00
+artefact-version: july-2026-full-required-feature-closure
+ran-at: 2026-07-14T11:09:50+03:00
 ran-by: Codex primary agent
 engine-root: C:\wamp64\www\business-plan-skills
 active-roots:
   - skills
   - country-context
-skill-count: 124
-template-count: 2
+skill-count: 125
+template-count: 3
 quality-gates:
   local-validator: pass
-  canonical-scanner: pass
-  canonical-quick-validator: pass
-  routing-smoke: pass
-  anti-slop-audit: pass-grade-a-genericness-5
+  canonical-scanner: not-assessed-external-root-path-incompatible
+  canonical-quick-validator: pass-125-of-125
+  routing-smoke: pass-38-of-38-top-three
+  anti-slop-audit: pass-grade-a-genericness-4
   evidence-register: pass-10-entries-3-active-jurisdictions
   workbook-audit: pass-7-workbooks-main-report-zero-findings
-  exemplar-packs: pass-4-packs-28-artefacts
+  exemplar-packs: pass-4-packs-32-artefacts
   sector-regulatory-gates: pass-12-families-24-gates
   investment-committee: pass-blocker-precedence-tested
-  capability-unit-tests: pass-10-tests
+  release-bundles: pass-4-honestly-blocked-exemplars
+  cross-engine-handoffs: pass-6-domains
+  capability-unit-tests: pass-14-tests
 finance-accounting-gate:
   gate-version: 1.0.0
   doctrine-version: 1.0.0

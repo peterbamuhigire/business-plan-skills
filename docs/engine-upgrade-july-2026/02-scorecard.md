@@ -1,4 +1,6 @@
-# Scorecard
+# Pre-upgrade scorecard
+
+> Historical measurement captured before the July implementation. It is retained for audit traceability. Current repository evidence closes the named implementation gaps, but a new maturity score requires an independent reassessment and is not inferred from test counts.
 
 Raw weighted total: 71/100. Capped audit total: 60/100. The cap is applied because this audit intentionally exposes the path from current state to 95+ rather than awarding production-certification scores.
 
@@ -15,7 +17,7 @@ Raw weighted total: 71/100. Capped audit total: 60/100. The cap is applied becau
 
 Raw score: 17/20.
 
-The engine has 123 SKILL.md files, 653 reference-file hits, 8 template-file hits, and 0 example-file hits. This gives it substantial domain coverage, but the richness score is held back where references are not converted into reusable examples, current-source registers, or complete model outputs.
+At discovery time the engine had 123 SKILL.md files, 653 reference-file hits, 8 template-file hits, and 0 example-file hits. The current release has 125 active skills, machine-validated audience packs, a dated source register, workbook audit evidence and a release-evidence bundle; these counts do not by themselves establish a replacement maturity score.
 
 Top deficiencies:
 

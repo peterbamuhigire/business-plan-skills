@@ -30,6 +30,9 @@ jobs:
         run: |
           python -X utf8 scripts/build-financial-models/verify_workbooks.py
           python -X utf8 tools/exemplar-packs/validate_exemplar_packs.py
+          for bundle in examples/full-plan-packages/*/release-bundle.json; do
+            python -X utf8 tools/release-gate/validate_release_bundle.py "$bundle"
+          done
       - name: Run capability regression tests
         run: python -X utf8 -m unittest discover -s tests -p 'test_*.py'
       - name: Compile Python quality tools

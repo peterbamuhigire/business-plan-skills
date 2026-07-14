@@ -12,7 +12,8 @@ PACK_ROOT = ROOT / "examples/full-plan-packages"
 EXPECTED = {"dfi-loan-uganda": "dfi", "grant-east-africa": "grant",
             "vc-east-africa": "vc", "owner-manager-uganda": "owner-board"}
 REQUIRED_FILES = {"plan.md", "deck.md", "model-overlay.json", "evidence-manifest.json",
-                  "annex-index.md", "committee-manifest.json", "committee-result.json"}
+                  "annex-index.md", "committee-manifest.json", "committee-result.json",
+                  "release-bundle.json"}
 PLAN_SECTIONS = [f"## {number}." for number in range(1, 11)]
 
 
@@ -54,6 +55,9 @@ def validate() -> list[str]:
         result = json.loads((directory / "committee-result.json").read_text(encoding="utf-8"))
         if result.get("status") != "pass" or result.get("audience") != audience:
             errors.append(f"{pack}: committee result is invalid")
+        release = json.loads((directory / "release-bundle.json").read_text(encoding="utf-8"))
+        if release.get("release_state") != "blocked" or release.get("audience") != audience:
+            errors.append(f"{pack}: exemplar release bundle must remain honestly blocked")
     return errors
 
 
@@ -62,4 +66,4 @@ if __name__ == "__main__":
     if failures:
         print("\n".join(f"FAIL: {failure}" for failure in failures))
         sys.exit(1)
-    print("PASS: 4 complete audience exemplar packs; 28 required artefacts")
+    print("PASS: 4 complete audience exemplar packs; 32 required artefacts")

@@ -30,7 +30,7 @@ Skills are grouped into thematic categories under `skills/`. Use `skills/<catego
 - `meta-pitch/` — `pitch-deck`, `meta-pitch-preparation`, `meta-presentation-design`
 - `meta-pricing-gtm/` — pricing strategy, premium GTM, website investment planning
 - `meta-reporting/` — board & investor reporting
-- `meta-strategy/` — consulting synthesis, due diligence, optionality, governance, statistics
+- `meta-strategy/` — end-to-end business-plan orchestration, consulting synthesis, due diligence, optionality, governance, statistics
 - `meta-sustainability/` — sustainability strategy references
 - `meta-utility/` — `skill-writing`, `skill-safety-audit`, `proposal-architect`, `update-claude-documentation`, `anti-ai-slop`, `ai-slop-audit`
 
@@ -48,6 +48,7 @@ Skills are grouped into thematic categories under `skills/`. Use `skills/<catego
 - Audit and review skills default to read-only; mutation, publishing, spending, destructive action, and certification require explicit authority.
 - Keep `SKILL.md` at or below 500 lines and use British English.
 - Run the zero-debt validator and routing smoke test before release; see `CONTRIBUTING.md`.
+- Route every serious full-plan engagement through `business-plan-orchestrator`; use `00-plan-assembly` only for the final packaging stage. Validate the cross-engine release bundle before external handoff.
 - Validate the dated country/market source register before using current facts, apply the central sector regulatory gates before modelling regulated activities, and run the formula-map auditor on XLSX deliverables.
 - Use `meta-investment-committee-red-team` for blocker-first lender, DFI, VC, grant or owner-board rehearsal only after a complete pack exists; simulation is not approval.
 

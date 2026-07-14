@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0", "artefact": "Grant panel exemplar", "audience": "grant", "release_state": "blocked",
+  "release_authority": {"required": true, "state": "not-assessed", "role": "Authorised applicant signatory", "evidence": []},
+  "stages": [
+    {"id": "intake", "state": "pass", "owner": "Exemplar maintainer", "evidence": ["plan.md"]},
+    {"id": "evidence", "state": "pass", "owner": "Research reviewer", "evidence": ["evidence-manifest.json"]},
+    {"id": "business-logic", "state": "pass-with-caveats", "owner": "Plan reviewer", "evidence": ["committee-result.json"]},
+    {"id": "sections", "state": "pass", "owner": "Plan author", "evidence": ["plan.md"]},
+    {"id": "model-finance", "state": "pass-with-caveats", "owner": "Finance reviewer", "evidence": ["model-overlay.json", "docs/workbook-audits/saas-financial-projection-3yr-5yr.formula-map.json"]},
+    {"id": "challenge", "state": "pass-with-caveats", "owner": "Panel simulator", "evidence": ["committee-result.json"]},
+    {"id": "assembly", "state": "pass", "owner": "Pack maintainer", "evidence": ["annex-index.md"]},
+    {"id": "finalisation", "state": "not-assessed", "owner": "Document reviewer", "evidence": []}
+  ],
+  "handoffs": {
+    "research": {"applicable": true, "input_versions": ["plan.md", "evidence-manifest.json"], "requested_decision": "Accept the claim and evidence plan", "state": "pass", "receiver": "Research reviewer", "evidence": ["evidence-manifest.json"], "caveats": ["Illustrative claims are not applicant evidence"]},
+    "finance": {"applicable": true, "input_versions": ["plan.md", "model-overlay.json"], "requested_decision": "Assess budget and restricted-fund readiness", "state": "pass-with-caveats", "receiver": "Finance reviewer", "evidence": ["model-overlay.json"], "caveats": ["Restricted-fund review remains client work"]},
+    "spreadsheet": {"applicable": true, "input_versions": ["skills/pipeline/10-financial-projections/templates/saas-financial-projection-3yr-5yr.xlsx"], "requested_decision": "Accept workbook structure and formula integrity", "state": "pass", "receiver": "Spreadsheet reviewer", "evidence": ["docs/workbook-audits/saas-financial-projection-3yr-5yr.formula-map.json"], "caveats": []},
+    "design": {"applicable": true, "input_versions": ["deck.md"], "requested_decision": "Approve the visual system and rendered deck", "state": "not-assessed", "receiver": "Design reviewer", "evidence": [], "caveats": ["Deck remains a script"]},
+    "document": {"applicable": true, "input_versions": ["plan.md", "deck.md", "annex-index.md"], "requested_decision": "Accept donor forms and rendered submission", "state": "not-assessed", "receiver": "Document reviewer", "evidence": [], "caveats": ["Donor forms and rendered submission are absent"]},
+    "security": {"applicable": true, "input_versions": ["evidence-manifest.json", "annex-index.md"], "requested_decision": "Accept safeguarding and beneficiary-data controls", "state": "not-assessed", "receiver": "Safeguarding and security reviewer", "evidence": [], "caveats": ["Beneficiary-data handling is not demonstrated"]}
+  },
+  "finalisation": {"render": {"required": true, "state": "not-assessed", "evidence": []}, "reviewer_notes": ["committee-result.json"], "audit_log": ["evidence-manifest.json"], "release_checklist": ["annex-index.md"]},
+  "blockers": [{"id": "GRANT-RENDER", "owner": "Document reviewer", "finding": "Rendered forms, visual QA, safeguarding/security review, and release authority are absent", "recovery": "Complete donor forms, handoffs, render review, and signatory approval"}]
+}

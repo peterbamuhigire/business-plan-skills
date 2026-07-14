@@ -1,11 +1,11 @@
 {
   "standard": "July 2026 skill-writing and composition contract",
-  "generated_on": "2026-07-13",
+  "generated_on": "2026-07-14",
   "active_roots": [
     "skills",
     "country-context"
   ],
-  "active_skill_count": 124,
-  "template_count": 2,
+  "active_skill_count": 125,
+  "template_count": 3,
   "failure_counts": {}
 }

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "artefact": "REPLACE",
+  "audience": "REPLACE",
+  "release_state": "blocked",
+  "release_authority": {
+    "required": true,
+    "state": "not-assessed",
+    "role": "REPLACE",
+    "evidence": []
+  },
+  "stages": [
+    {"id": "intake", "state": "not-assessed", "owner": "REPLACE", "evidence": []},
+    {"id": "evidence", "state": "not-assessed", "owner": "REPLACE", "evidence": []},
+    {"id": "business-logic", "state": "not-assessed", "owner": "REPLACE", "evidence": []},
+    {"id": "sections", "state": "not-assessed", "owner": "REPLACE", "evidence": []},
+    {"id": "model-finance", "state": "not-assessed", "owner": "REPLACE", "evidence": []},
+    {"id": "challenge", "state": "not-assessed", "owner": "REPLACE", "evidence": []},
+    {"id": "assembly", "state": "not-assessed", "owner": "REPLACE", "evidence": []},
+    {"id": "finalisation", "state": "not-assessed", "owner": "REPLACE", "evidence": []}
+  ],
+  "handoffs": {
+    "research": {"applicable": true, "input_versions": ["REPLACE"], "requested_decision": "REPLACE", "state": "not-assessed", "receiver": "Research reviewer", "evidence": [], "caveats": []},
+    "finance": {"applicable": true, "input_versions": ["REPLACE"], "requested_decision": "REPLACE", "state": "not-assessed", "receiver": "Finance reviewer", "evidence": [], "caveats": []},
+    "spreadsheet": {"applicable": false, "reason": "REPLACE", "input_versions": [], "requested_decision": "REPLACE", "state": "not-applicable", "receiver": "Spreadsheet reviewer", "evidence": [], "caveats": []},
+    "design": {"applicable": true, "input_versions": ["REPLACE"], "requested_decision": "REPLACE", "state": "not-assessed", "receiver": "Design reviewer", "evidence": [], "caveats": []},
+    "document": {"applicable": true, "input_versions": ["REPLACE"], "requested_decision": "REPLACE", "state": "not-assessed", "receiver": "Document reviewer", "evidence": [], "caveats": []},
+    "security": {"applicable": false, "reason": "REPLACE", "input_versions": [], "requested_decision": "REPLACE", "state": "not-applicable", "receiver": "Security reviewer", "evidence": [], "caveats": []}
+  },
+  "finalisation": {
+    "render": {"required": true, "state": "not-assessed", "evidence": []},
+    "reviewer_notes": [],
+    "audit_log": [],
+    "release_checklist": []
+  },
+  "blockers": [
+    {"id": "REPLACE", "owner": "REPLACE", "finding": "Complete all mandatory gates", "recovery": "Supply evidence and rerun the gate"}
+  ]
+}

@@ -1,6 +1,6 @@
 # Executive Summary
 
-> Conformance status, 2026-07-13: the structural debt measured after this capability audit is complete. See `11-conformance-upgrade-record.md` for the 0/123 to 123/123 result. The 60/100 score below remains a capability-maturity benchmark, not a skill-contract failure count.
+> Implementation status, 2026-07-14: the structural debt and every required feature in this audit now have repository implementation and regression evidence. The original 60/100 score and portfolio ranking below remain the pre-upgrade audit baseline; no unmeasured replacement score is claimed. See `11-conformance-upgrade-record.md` and `14-capability-expansion-release.md`.
 
 Engine: `business-plan-skills`
 Root: `C:\wamp64\www\business-plan-skills`
@@ -23,13 +23,15 @@ Broad, commercially useful, and unusually strong on SaaS/AI/agent financial mode
 | Currency & Compliance | 6/10 |
 | Total capped | 60/100 |
 
-## Top 5 Priorities
+## Original top 5 priorities — implementation status
 
-1. Add dated market/country evidence register and refresh workflow.
-2. Add model audit maps and automated workbook checks.
-3. Create complete plan/deck/model examples for lender, grant, VC, and owner-manager contexts.
-4. Strengthen sector-specific regulatory and operating-model gates.
-5. Add investment committee red-team simulation.
+1. **Complete:** dated market/country evidence register and refresh workflow.
+2. **Complete:** model audit maps and automated workbook checks.
+3. **Complete:** plan/deck/model/evidence examples for lender, grant, VC, and owner-manager contexts, each with an honest release state.
+4. **Complete:** sector-specific regulatory and operating-model gates.
+5. **Complete:** investment committee red-team simulation.
+
+The broader required-feature list is also implemented through `business-plan-orchestrator`, the cross-engine delivery contract, the blocker-first release gate, release-bundle template, render/reviewer/audit/checklist requirements, and positive and negative regression fixtures.
 
 ## Master Ranking
 

@@ -38,3 +38,11 @@ regulatory, finance or evidence checks are not reported as passes. No filler fin
 - Removed the stale fixed exchange-rate instruction and required current, dated sources.
 
 No further anti-slop correction is required for this release.
+
+## Full required-feature closure audit — 2026-07-14
+
+Verdict: **A — Clean**. Genericness score: **4/100**. Release blocker: **none**.
+
+The 32-file change set adds an authored end-to-end decision system rather than generic process prose: eight named stages, six domain handoffs, explicit blocker precedence, exact evidence paths, receiver decisions, render and authority controls, and executable positive and failure fixtures. The focal-word scan returned zero hits. The secret-pattern and shipped-placeholder scans returned zero hits. No current market statistic, legal rule, tax rate, package dependency or external citation was introduced.
+
+The four exemplar bundles deliberately say `blocked`; their missing render, document/design/security review and release authority are preserved as findings instead of being presented as completed work. The local validator, routing suite, workbook/evidence/sector gates, bundle validators and 14 unit tests reproduce the release claims. The external canonical scanner's path limitation is recorded as `not assessed`, while its per-skill validator passed 125/125. Finance remains `pass-with-caveats` because no accountant signed this structural engine release.

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0", "artefact": "Owner-manager board exemplar", "audience": "owner-board", "release_state": "blocked",
+  "release_authority": {"required": true, "state": "not-assessed", "role": "Business owner or board chair", "evidence": []},
+  "stages": [
+    {"id": "intake", "state": "pass", "owner": "Exemplar maintainer", "evidence": ["plan.md"]},
+    {"id": "evidence", "state": "pass", "owner": "Research reviewer", "evidence": ["evidence-manifest.json"]},
+    {"id": "business-logic", "state": "pass-with-caveats", "owner": "Plan reviewer", "evidence": ["committee-result.json"]},
+    {"id": "sections", "state": "pass", "owner": "Plan author", "evidence": ["plan.md"]},
+    {"id": "model-finance", "state": "pass-with-caveats", "owner": "Finance reviewer", "evidence": ["model-overlay.json", "docs/workbook-audits/saas-financial-projection-3yr-5yr.formula-map.json"]},
+    {"id": "challenge", "state": "pass-with-caveats", "owner": "Board simulator", "evidence": ["committee-result.json"]},
+    {"id": "assembly", "state": "pass", "owner": "Pack maintainer", "evidence": ["annex-index.md"]},
+    {"id": "finalisation", "state": "not-assessed", "owner": "Document reviewer", "evidence": []}
+  ],
+  "handoffs": {
+    "research": {"applicable": true, "input_versions": ["plan.md", "evidence-manifest.json"], "requested_decision": "Accept the claim and evidence plan", "state": "pass", "receiver": "Research reviewer", "evidence": ["evidence-manifest.json"], "caveats": ["Illustrative assumptions are not business records"]},
+    "finance": {"applicable": true, "input_versions": ["plan.md", "model-overlay.json"], "requested_decision": "Assess cash, controls and owner-funding readiness", "state": "pass-with-caveats", "receiver": "Finance reviewer", "evidence": ["model-overlay.json"], "caveats": ["No owner-approved opening balances"]},
+    "spreadsheet": {"applicable": true, "input_versions": ["skills/pipeline/10-financial-projections/templates/saas-financial-projection-3yr-5yr.xlsx"], "requested_decision": "Accept workbook structure and formula integrity", "state": "pass", "receiver": "Spreadsheet reviewer", "evidence": ["docs/workbook-audits/saas-financial-projection-3yr-5yr.formula-map.json"], "caveats": []},
+    "design": {"applicable": true, "input_versions": ["deck.md"], "requested_decision": "Approve the visual system and rendered deck", "state": "not-assessed", "receiver": "Design reviewer", "evidence": [], "caveats": ["Board deck remains a script"]},
+    "document": {"applicable": true, "input_versions": ["plan.md", "deck.md", "annex-index.md"], "requested_decision": "Accept the rendered board pack", "state": "not-assessed", "receiver": "Document reviewer", "evidence": [], "caveats": ["No rendered board pack"]},
+    "security": {"applicable": false, "reason": "The fictional pack contains no personal, confidential, hosted, portal, SaaS, or external-sharing data", "input_versions": [], "requested_decision": "Confirm that security review is not applicable to this teaching pack", "state": "not-applicable", "receiver": "Release reviewer", "evidence": [], "caveats": []}
+  },
+  "finalisation": {"render": {"required": true, "state": "not-assessed", "evidence": []}, "reviewer_notes": ["committee-result.json"], "audit_log": ["evidence-manifest.json"], "release_checklist": ["annex-index.md"]},
+  "blockers": [{"id": "OWNER-RENDER", "owner": "Document reviewer", "finding": "Rendered board pack, visual QA, and owner release authority are absent", "recovery": "Replace assumptions, render and review the pack, and record owner approval"}]
+}

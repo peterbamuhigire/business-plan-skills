@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0", "artefact": "DFI loan exemplar", "audience": "dfi", "release_state": "blocked",
+  "release_authority": {"required": true, "state": "not-assessed", "role": "Authorised client signatory", "evidence": []},
+  "stages": [
+    {"id": "intake", "state": "pass", "owner": "Exemplar maintainer", "evidence": ["plan.md"]},
+    {"id": "evidence", "state": "pass", "owner": "Research reviewer", "evidence": ["evidence-manifest.json"]},
+    {"id": "business-logic", "state": "pass-with-caveats", "owner": "Plan reviewer", "evidence": ["committee-result.json"]},
+    {"id": "sections", "state": "pass", "owner": "Plan author", "evidence": ["plan.md"]},
+    {"id": "model-finance", "state": "pass-with-caveats", "owner": "Finance reviewer", "evidence": ["model-overlay.json", "docs/workbook-audits/saas-financial-projection-3yr-5yr.formula-map.json"]},
+    {"id": "challenge", "state": "pass-with-caveats", "owner": "Committee simulator", "evidence": ["committee-result.json"]},
+    {"id": "assembly", "state": "pass", "owner": "Pack maintainer", "evidence": ["annex-index.md"]},
+    {"id": "finalisation", "state": "not-assessed", "owner": "Document reviewer", "evidence": []}
+  ],
+  "handoffs": {
+    "research": {"applicable": true, "input_versions": ["plan.md", "evidence-manifest.json"], "requested_decision": "Accept the claim and evidence plan", "state": "pass", "receiver": "Research reviewer", "evidence": ["evidence-manifest.json"], "caveats": ["Illustrative claims are not client evidence"]},
+    "finance": {"applicable": true, "input_versions": ["plan.md", "model-overlay.json"], "requested_decision": "Assess model, funding and doctrine readiness", "state": "pass-with-caveats", "receiver": "Finance reviewer", "evidence": ["model-overlay.json"], "caveats": ["No professional client sign-off"]},
+    "spreadsheet": {"applicable": true, "input_versions": ["skills/pipeline/10-financial-projections/templates/saas-financial-projection-3yr-5yr.xlsx"], "requested_decision": "Accept workbook structure and formula integrity", "state": "pass", "receiver": "Spreadsheet reviewer", "evidence": ["docs/workbook-audits/saas-financial-projection-3yr-5yr.formula-map.json"], "caveats": []},
+    "design": {"applicable": true, "input_versions": ["deck.md"], "requested_decision": "Approve the visual system and rendered deck", "state": "not-assessed", "receiver": "Design reviewer", "evidence": [], "caveats": ["Deck remains a script"]},
+    "document": {"applicable": true, "input_versions": ["plan.md", "deck.md", "annex-index.md"], "requested_decision": "Accept the rendered submission pack", "state": "not-assessed", "receiver": "Document reviewer", "evidence": [], "caveats": ["No rendered submission file"]},
+    "security": {"applicable": true, "input_versions": ["evidence-manifest.json", "annex-index.md"], "requested_decision": "Accept data-room sharing controls", "state": "not-assessed", "receiver": "Security reviewer", "evidence": [], "caveats": ["Data-room sharing controls are not demonstrated"]}
+  },
+  "finalisation": {"render": {"required": true, "state": "not-assessed", "evidence": []}, "reviewer_notes": ["committee-result.json"], "audit_log": ["evidence-manifest.json"], "release_checklist": ["annex-index.md"]},
+  "blockers": [{"id": "DFI-RENDER", "owner": "Document reviewer", "finding": "Rendered pack, visual QA, security review, and release authority are absent", "recovery": "Build the client pack, run the applicable handoffs, and record authority"}]
+}

@@ -5,8 +5,10 @@ panel, venture investor and owner-manager board. They are teaching artefacts, no
 client facts, legal advice or submission-ready documents.
 
 All packs use the repository's shared SaaS projection workbook with an audience-specific model
-overlay. Run the formula-map gate against the binary workbook; do not copy illustrative inputs into
-a live plan. Presentation specification: Source Serif 4 for headings, IBM Plex Sans for body and
+overlay. Each pack includes an honestly blocked release bundle: the teaching files are not rendered
+client submissions, have no client release authority, and retain the applicable design, document,
+security, finance or evidence caveats. Run the formula-map and release-bundle gates; do not copy
+illustrative inputs into a live plan. Presentation specification: Source Serif 4 for headings, IBM Plex Sans for body and
 tables, and IBM Plex Mono for numeric exhibits. This pairing supports institutional reading,
 distinguishes narrative from evidence, and avoids the repository's banned generic type defaults.
 
@@ -17,4 +19,5 @@ distinguishes narrative from evidence, and avoids the repository's banned generi
 | `vc-east-africa` | Equity investment based on retention, unit economics, moat and dilution |
 | `owner-manager-uganda` | Staged self-funded growth constrained by cash, control capacity and reversibility |
 
-Validate with `python -X utf8 tools/exemplar-packs/validate_exemplar_packs.py`.
+Validate the pack structure with `python -X utf8 tools/exemplar-packs/validate_exemplar_packs.py`
+and each release record with `python -X utf8 tools/release-gate/validate_release_bundle.py <path>`.
