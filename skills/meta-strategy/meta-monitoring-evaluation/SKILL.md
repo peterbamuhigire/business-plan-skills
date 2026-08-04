@@ -339,3 +339,13 @@ Accept the monitoring and evaluation framework only when evidence is sufficient 
 A jobs programme proposes an indicator that requires records no partner collects. Replace it with a sourceable measure, assign the owner and cadence, and document what management decision it will trigger.
 
 <!-- dual-compat-end -->
+
+## Nonprofit readiness, governance, M&E learning, and refresh triggers
+
+For nonprofit, grant-funded, public-interest, or mission-led plans, begin with a readiness gate before designing the scorecard. Confirm the planning mandate, mission and scope, board/sponsor, decision rights, stakeholder participation, baseline materials, data gaps, workload, confidentiality, budget connection, and approval path. If any item is unavailable, label the affected conclusion `not assessed`; do not infer organisational readiness from workshop attendance.
+
+Keep governance and management distinct. The board or governing body sets mission, strategic direction, risk appetite, resource stewardship, and approval; management owns analysis, implementation, operating decisions, and corrective action. Every indicator must name the decision it informs, its owner, source, collection burden, disaggregation need, review cadence, and response threshold.
+
+Add a learning register to the M&E pack: observation, interpretation, implication, decision, owner, due date, and evidence. Review it quarterly with implementation variance and stakeholder feedback. Refresh the plan early when a material assumption changes in funding, leadership, regulation, beneficiary need, demand, capacity, programme performance, stakeholder confidence, or financial resilience. Use two tracks where needed: immediate continuity/risk response and a separate evidence-based strategy refresh.
+
+The annual review should test whether the mission, choices, targets, resources, governance, and operating capacity still fit the environment. A refresh is not a re-write by default: retain what remains valid, change only evidence-supported priorities, and record board approval and the next reconsideration point. Read `references/nonprofit-readiness-governance-and-refresh.md` for the reusable readiness and refresh register.

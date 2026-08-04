@@ -41,6 +41,8 @@ For the canonical template and migration rules, see:
 
 ## Default Baseline
 
+Kaizen is mandatory across the engine. Load `skills/meta-strategy/kaizen-improvement-system/SKILL.md` for engine or product audits and book-driven improvement. Publish audits with a hard maximum of 65/100; every remediation plan targets 95/100 and must name evidence, owners, experiments, and re-audit dates. Route current external claims to Digital Research Skills Engine and finance doctrine to Chwezi.
+
 For serious full business-plan work, start with `business-plan-orchestrator`, which controls the stage register, cross-engine handoffs, blocker precedence and release bundle. It routes to these baseline skills:
 
 - `00-client-intake`

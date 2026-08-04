@@ -1,414 +1,256 @@
 # Business Plan Skills Suite
 
-Current conformance state (verified 2026-07-14): 125 active skills across `skills/` and `country-context/`, 3 template resources, zero structural findings, and 38/38 routing fixtures meeting the 100% top-three threshold. The capability regression suite has 14 tests. See `docs/engine-upgrade-july-2026/11-conformance-upgrade-record.md`.
+The Business Plan Skills Suite is a modular, evidence-disciplined engine for turning a business, investment, nonprofit, feasibility, or execution question into a decision-ready plan and an auditable delivery bundle.
 
-A modular collection of Claude Code skills for generating, validating, and delivering bankable business plans. Each section of a professional business plan is a standalone skill — invoke individually or chain to produce a complete investor-ready document.
+The current repository baseline records **126 active skills** across `skills/` and `country-context/`, three template resources, and a zero-failure structural baseline. The machine-readable source of truth for the count is `docs/quality/skill-quality-baseline.json`; do not maintain a second manually counted catalogue here.
 
-**125 active skills.** Default context: Uganda / East Africa (UGX). All frameworks are universally applicable; country-specific data swaps via the `country-context/` system.
+The default planning context is Uganda and East Africa, with UGX as the default currency. The methods are portable: country, sector, currency, audience, funding instrument, and regulatory context must be changed through evidence-backed project inputs rather than assumed from this default.
 
-## Evidence and decision gates
+## What this engine produces
 
-- `docs/source-registers/country-market-data.json` records checked sources, owners and refresh dates; validate it with `python -X utf8 tools/evidence-register/refresh_evidence_register.py --check`.
-- `references/sector-regulatory-gates.json` contains 24 screening gates across 12 sector families; a sector match triggers verification, not a compliance claim.
-- `tools/workbook-audit/formula_map.py` audits XLSX formulae, assumptions, missing sheets, external links, scenarios and reconciliation checks without requiring Excel.
-- `examples/full-plan-packages/` contains complete fictional DFI, grant, VC and owner-manager reference packs with narrative, deck, model overlay, evidence, annex and committee records.
-- `meta-investment-committee-red-team` runs a blocker-first, read-only funding rehearsal. A simulated progression result is never a real approval.
-- `business-plan-orchestrator` governs serious engagements from intake and evidence design through model, challenge, cross-engine finalisation and authorised release; `00-plan-assembly` remains the narrower final packaging skill.
-- `tools/release-gate/validate_release_bundle.py` enforces blocker precedence across eight stages and research, finance, spreadsheet, design, document and security handoffs. The four teaching packs intentionally remain `blocked` because they are not rendered client submissions and have no release authority.
+The suite can design, draft, test, audit, assemble, and release:
 
----
+- Full bank, DFI, investor, grant, owner-manager, board, or strategic-partner business plans.
+- Feasibility studies, business cases, investment cases, market-entry studies, and strategic options papers.
+- Market-validation evidence packs and Build-Measure-Learn experiment programmes.
+- Nonprofit strategic plans, mission and stakeholder plans, governance plans, resource plans, and monitoring and evaluation frameworks.
+- Facility moves and other complex operational-change plans, including readiness, continuity, cutover, stabilisation, and lessons learned.
+- SaaS, AI-enabled SaaS, ICT product-company, ICT services-firm, ecommerce, cross-border ecommerce, and digital-transformation plans.
+- Financial projections, unit economics, valuation overlays, bankability reviews, stress tests, revenue-recognition narratives, and investor or lender readiness packs.
+- Implementation timelines, quarterly gameplans, living-plan governance, board and investor reporting, pitch decks, appendices, policies, manuals, and selected advisory deliverables.
 
-## Architecture & cross-cutting engines (updated 2026-06-21)
+The engine produces decision support, not automatic approval. A plan is not called bankable, investor-ready, achievable, compliant, or submission-ready unless the required evidence, financial logic, professional reviews, and release authority are present.
 
-This engine is one of several sibling skill engines on the host. None is natively discovered any more — every engine, including this one, is consulted through the global routing table by globbing `SKILL.md` directly and reading the matched file(s). Cross-cutting engines are **referenced** (path resolved per device from the global router), never mirrored into this repo.
+## How to route work
 
-- **Design / visual layer → `design-system-skills`** (`C:\wamp64\www\design-system-skills`). The single home for all design, typography, UI/UX, and visual-formatting skills plus the anti-AI-slop visual doctrine. Consult it **in addition** for the visual design and typography of decks and business-plan documents (pitch-deck slides, plan layout, the look of compiled output). The plan *content*, financial modelling, and narrative stay here.
-- **Finance accounting standards → `chwezi-accounting-doctrine`** (referenced, not mirrored). Accounting-standards/IFRS/IAS/bookkeeping doctrine routes to the finance engine source via its `README.md` router. The old finance mirror was never populated — the empty `skills/finance/` shells were removed on 2026-06-21.
-- **NOTE — the native `meta-finance/` group (11 skills) STAYS.** It is business-plan *financial-modelling content* (bankability, valuation, financial stress test, revenue recognition, SLA controls), not a finance-doctrine mirror. Do not confuse it with the removed `skills/finance/` shell.
+For a serious engagement, start with `skills/meta-strategy/business-plan-orchestrator/SKILL.md`. It controls intake, evidence design, stage dependencies, handoffs, model reconciliation, challenge gates, assembly, and release. Use `skills/pipeline/00-plan-assembly/SKILL.md` only for final ordering and packaging.
 
----
-
-## SaaS + AI-on-SaaS + Agent Business-Plan Stack (May 2026)
-
-Major living-plan layer added for ICT/SaaS startups across all sections plus meta-skills. Every new and enhanced skill conforms to the **living-plan governance pattern** (data feed · cadence · owner · decision-log · variance-threshold · sunset).
-
-**SaaS plans (16 skills + 15 enhancements + 29 references):** unit economics & cohort model, pricing & packaging strategy, living-plan governance meta, GTM motion design, sales org & capacity planning, customer success operating model, bankability & investor readiness, valuation & fundraising strategy, MVP-to-PMF strategy, vertical niche selection, marketing channel economics, lifecycle email & retention, board & investor reporting meta, strategic optionality meta, ICT services firm plan, ICT product company plan.
-
-**AI-on-SaaS plans (13 skills + 17 enhancements + 26 references):** AI unit economics & COGS, AI cost-of-tenant calculator, AI pricing strategy, AI market & TAM (with attribution discipline), AI moat & defensibility (7-question rubric), AI product strategy & roadmap, AI talent strategy (African map: CMU-Africa, ALU, Andela AI, Deep Learning Indaba, AIMS, Lelapa, Masakhane, Awarri), AI risk & stress test, AI bankability meta, AI valuation adjustments meta, AI funding stage playbook, AI-for-good grant proposal, AI sustainability & ethics.
-
-**Agent plans (13 skills + 17 enhancements + 25 references):** agent unit economics & COGS (cost-per-resolved-task), agent pricing strategy (per-resolution / per-outcome / per-step / per-agent / hybrid), agent product strategy & roadmap, agent moat & wrapper-risk (8-question rubric: 40–70% valuation discount when wrapper), agent risk & stress test (action taxonomy A/B/C/D + 12-category register), agent talent strategy (Agent Architect, Tool, Eval, AI Safety Lead, HITL Designer, MLOps, FDE, Agent PM, Domain Expert), agent funding stage playbook, agent implementation timeline (shadow → supervised → agentic gates), agent integration deep, agent sustainability & ethics, agent bankability meta (7-dimension 0–100 scorecard), agent valuation adjustments meta, agent board & investor reporting meta.
-
-**Agent SLA + commercial (11 skills + many enhancements + 13 references):** ASC 606 / IFRS 15 revenue recognition for agents, deferred revenue + credit reserves, refund reserve methodology, SLA-COGS treatment policy, SLA economics in projection, commercial packaging economics, outcome pricing business case, SLA risk + stress test, investor narrative on SLA, SLA financial controls meta, valuation overlay for SLA meta.
-
-**Africa context:** `country-context/africa-regional/africa-ict-saas-market-context.md` with Section 14 (Africa-AI) and Section 15 (Africa-Agent) covering compute scarcity (af-south-1, Liquid, Cassava, MTN AI Factories, MainOne, Raxio, Teraco, Ethiopian AI Institute), sovereign-AI demand, local-language model opportunity, national AI policies (KE/NG/ZA/RW/EG/UG/GH/MU/AU), African AI funding ecosystem, talent map, vertical opportunities, mobile-money realities, FX corridor, sector regulators.
-
-**Working financial models (7 Excel workbooks, 2,400+ formulas):** under `skills/.../templates/`:
-- `saas-unit-economics-model.xlsx`, `saas-cohort-and-retention-model.xlsx`, `saas-financial-projection-3yr-5yr.xlsx` (Multi-Step P&L + 60-month ARR waterfall + Bull/Base/Bear scenarios), `saas-ai-cost-of-tenant-calculator.xlsx`, `saas-living-plan-kpi-dashboard.xlsx` (auto-REPLAN flag at >10% variance), `saas-agent-cost-per-task-calculator.xlsx`, `saas-agent-unit-economics-model.xlsx` (Wrapper-vs-Moat scoring → valuation multiplier {0.6, 0.85, 1.10, 1.35}).
-- Idempotent build scripts under `scripts/build-financial-models/`.
-- Master README at `templates/README-financial-models.md`.
-
-**Book extractions** (in `book-extractions/`): 7 SaaS books distilled through the business-plan lens, plus 5 audit documents.
-
----
-
-## What This Suite Does
-
-| Need | Skills to Use |
-|---|---|
-| Govern a complete business plan from intake to authorised release | `business-plan-orchestrator` |
-| Draft the core plan sections inside that workflow | `02` through `16`, then `01` |
-| Write a specific section | Invoke the numbered skill directly |
-| Test whether a plan makes logical and business sense | `meta-critical-thinking-business-logic` |
-| Stop a plan, deck, or narrative reading as AI slop (pre-ship gate) | `anti-ai-slop` |
-| Audit a plan, deck, model, or section for AI slop and score it | `ai-slop-audit` |
-| Validate an existing plan | `meta-bankability-scoring` |
-| Upgrade pricing / defend premium positioning | `meta-pricing-strategy` |
-| Stress-test the financials | `meta-financial-stress-test` |
-| Build a digitisation / digital-transformation roadmap | `meta-digital-transformation` |
-| Validate the market claims | `meta-market-validation` |
-| Convert the plan to action | `meta-quarterly-gameplan` |
-| Create a pitch deck | `pitch-deck` (orchestrates `meta-pitch-preparation` + `meta-presentation-design`) |
-| Prepare for live pitch / investor Q&A | `meta-pitch-preparation` |
-| Design slides and coach delivery | `meta-presentation-design` |
-| Write a grant proposal (LogFrame / Theory of Change) | `11b-grant-proposal` |
-| Prepare for investor due diligence | `meta-due-diligence` |
-| Build a monitoring and evaluation framework | `meta-monitoring-evaluation` |
-| Generate industry-specific context | `industry-guides` |
-| Write a business article or blog post | `blog-writer` + `blog-idea-generator` |
-| Test a business idea before writing the plan | `idea-testing` |
-| Write a client proposal | `proposal-architect` |
-
-### End-to-end release path
-
-Use `business-plan-orchestrator` for every serious full-plan engagement. It freezes the decision brief, creates the claim-and-evidence plan, selects audience-specific sections, reconciles the integrated model, runs challenge and committee gates, assembles approved versions, and records cross-engine handoffs. Copy `templates/release-evidence-bundle.json`, replace every placeholder, and validate it with:
-
-```powershell
-python -X utf8 tools\release-gate\validate_release_bundle.py <release-bundle.json>
-```
-
-The release gate requires reviewer notes, audit log, checklist, render evidence where applicable, and explicit release authority. A structural pass is not evidence that a source supports a claim, that a financial judgement is correct, or that a submission has been approved.
-
-### Anti-AI-slop quality gate
-
-Two paired skills keep generated output from reading as AI slop:
-
-- **`anti-ai-slop` is the real-time guardrail.** It is a live constraint applied while you write — every section, paragraph, slide, and projection is checked as it is drafted, not only in a final pass. Banned-vocabulary filler, generic placeholders, and unverified figures are fixed in place. Financial and market claims must pass its verify-before-emit rule: never invent a TAM/SAM/SOM figure, growth rate, or benchmark.
-- **`ai-slop-audit` runs after each major iteration** — each drafted section, completed deck, financial-narrative module, or significant revision — and auto-runs whenever a request asks to analyse, review, or audit an artefact for slop. It returns a graded report (A/B/C/F) with a 0–100 genericness score; a grade **F blocks progression** to the next section or to submission until the blocking findings are fixed.
-
----
-
-## Methodology
-
-Built on 30+ primary sources across strategy, finance, marketing, and management:
-
-**Foundational business planning:**
-- Rogoff — *Bankable Business Plans* (investor-readiness criteria, CAMPARI)
-- Palo Alto Software — *On Target* (marketing planning depth)
-- Jan B. King — *Business Plans to Game Plans* (strategy-to-action, M&E)
-
-**Strategy and competitive analysis:**
-- Porter (1980, 1985) — Five Forces, Value Chain, Generic Strategies
-- Ohmae (1982) — 3C Strategic Triangle, Key Factors for Success
-- Fahey & Randall (2000) — Portable MBA: onstage/backstage model, Value Net
-
-**Finance and valuation:**
-- Damodaran (2011) — DCF, WACC, CAPM, revenue multiples
-- Feld & Mendelson (2019) — Equity term sheets, cap tables, liquidation preference
-- Agrawal, Gans & Goldfarb (2022) — AI economics, prediction machines
-
-**Marketing, pricing, and pitch:**
-- Klaff (2011) — *Pitch Anything* (STRONG method, frame control)
-- McGowan (2014) — *Pitch Perfect* (Hook-Meat-Payoff, delivery)
-- Gallo (2010), Duarte (2012) — presentation design standards
-- Kennedy & Marrs (2011) — *No B.S. Price Strategy* (9 price failures, 5 Propositions, Triangle of Preeminence, niche pricing, competing with free)
-- Kennedy (2004) — *No B.S. Sales Success* (23 strategies, 6-step process, takeaway selling, positioning-not-prospecting)
-- Kennedy (2000) — *The Ultimate Sales Letter* (28-step system, Power of a Sequence, Creative P.S.)
-- Brunson (2013) — *DotComSecrets Ignite* (Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution, Perfect Webinar)
-
-**Strategy and innovation:**
-- Teece (2010) — Business model vs strategy, dynamic capabilities
-- Mangematin et al. (2017) — 4V business model framework
-- Digital Business Strategy (2024) — 6D model, Three Horizons, Doblin 10 types
-- Cunningham (2014) — *Berkshire Beyond Buffett* (culture as moat)
-- Rogers (2016) — five domains of digital transformation: customers, competition, data, innovation, value
-- Molenaar (2022) — demand-driven strategy, value networks, product-as-a-service, digital leadership
-- *Business Models for E-Commerce* — demand-side, supply-side, collaborative, and transaction-model design
-- Haines (2022) — business-case discipline for major investments, options, incremental economics, and benefits audit
-- Kennedy and Walsh-Phillips (2018) — attraction, conversion, retention, lead magnets, and referral systems
-
-**Critical thinking, reasoning, and achievability:**
-- Critical-thinking and logic references — claim-evidence-warrant mapping, assumptions, countercases, fallacy checks, and structured problem-solving
-- Essential-question and Socratic-questioning references — purpose, concepts, evidence, implications, ethical questions, and writing discipline
-- Mental-model references — first principles, map versus territory, base rates, incentives, second-order effects, inversion, margin of safety, and circle of competence
-- Design-thinking and strategic-thinking references — user-centred problem definition, prototyping, pattern recognition, systems analysis, mental agility, structured problem-solving, visioning, and political savvy
-
-**Uganda / East Africa context:**
-- IFC/World Bank: CPSD Uganda (2022), Human Capital Review (2025)
-- UBOS: CPI, KEI, NPHC data
-- RSM/Baker Tilly (2025): Uganda doing business guide
-- UDB Environmental and Social Policy; NEMA Act; Employment Act 2006
-
----
-
-## Skill Directory
-
-Skills live under `skills/<skill-name>/SKILL.md`. Tables below list skill names; the filesystem path is always `skills/<skill-name>/`.
-
-### Core Plan Sections
-
-Invoke in order (02 → 15, then 01 last) to produce a complete plan.
-
-| # | Skill Directory | What It Generates |
+| Need | Primary route | Add when triggered |
 |---|---|---|
-| 00 | `00-plan-assembly` | Cover letter, binding order, attachments checklist, funder type identification |
-| 01 | `01-executive-summary` | The investor pitch — written last, presented first |
-| 02 | `02-company-overview` | Mission, vision (Golden Circle), legal structure, NIN/BRN, milestones |
-| 03 | `03-products-services` | Value proposition, product lifecycle, IP protection, R&D pipeline |
-| 04 | `04-market-analysis` | Industry analysis, TAM/SAM/SOM, strategic groups, data sources |
-| 05 | `05-target-market` | Customer personas, segmentation, buyer behaviour |
-| 06 | `06-competitive-analysis` | SWOT, competitive matrix, Five Forces, moat and differentiation |
-| 07 | `07-marketing-sales-strategy` | 4Ps/7Ps, pricing, channels, sales funnel, digital strategy |
-| 08 | `08-operations-plan` | BPM lifecycle, supply chain, facilities, value chain, capacity |
-| 09 | `09-management-team` | Team bios, org chart, advisory board, succession, hiring plan |
-| 10 | `10-financial-projections` | P&L, cash flow, balance sheet, break-even, DSCR, assumptions |
-| 11 | `11-funding-request` | The ask, use of funds, CAMPARI, collateral, DSCR, terms |
-| 11b | `11b-grant-proposal` | LogFrame, Theory of Change, budget narrative, grant sources |
-| 12 | `12-risk-analysis` | Risk matrix, COSO ERM, Bowtie, Uganda-specific risks, mitigation |
-| 13 | `13-implementation-timeline` | Gantt, milestones, Pre-Phase 0 regulatory gate, 90-day sprints |
-| 14 | `14-ai-integration` | AI utilisation map, 6D model, Three Horizons, automation ROI |
-| 15 | `15-appendices` | Supporting documents, Uganda bank submission checklist, templates |
-| 16 | `16-sustainability-strategy` | Mandatory from 2026: sustainability vision, SDGs, climate adaptation, circular economy, social impact KPIs |
+| Full business plan | `skills/meta-strategy/business-plan-orchestrator/` | Country, sector, finance, valuation, sustainability, digital, website, execution, and audience routes |
+| Feasibility or business case | `skills/meta-strategy/meta-critical-thinking-business-logic/` and the relevant pipeline sections | `meta-market-validation`, `meta-finance`, sector gates, and investment-case evidence |
+| Market validation | `skills/meta-strategy/meta-market-validation/` | Customer research, interviews, experiments, channel evidence, and claim-level source verification |
+| Build-Measure-Learn | `skills/meta-strategy/meta-market-validation/` and `skills/meta-strategy/meta-living-plan-governance/` | Small reversible tests, innovation accounting, leading indicators, counter-metrics, and pivot/stop rules |
+| Nonprofit strategic planning | `skills/pipeline/` plus `skills/advisory-deliverables/me-framework-document/` | Governance, stakeholder, mission, resource, donor, safeguarding, and M&E requirements |
+| Facility move or major operating change | `skills/pipeline/13-implementation-timeline/` and `skills/pipeline/08-operations-plan/` | Charter, decision rights, readiness, continuity, inventory, capacity, cutover, stabilisation, and closeout evidence |
+| M&E and execution | `skills/meta-strategy/meta-monitoring-evaluation/` and `meta-quarterly-gameplan/` | Living-plan governance, KPI definitions, owners, cadence, thresholds, and decision logs |
+| Financial projections | `skills/pipeline/10-financial-projections/` | Chwezi accounting doctrine, finance review, workbook audit, stress tests, tax and regulatory verification |
+| SaaS or recurring revenue | `skills/saas/` and the relevant pipeline sections | Cohorts, CAC/LTV, retention, NRR, Rule of 40, ARR waterfall, COGS, pricing, and valuation |
+| AI-enabled business | `skills/pipeline/14-ai-integration/` and relevant SaaS skills | Problem-first AI selection, system and data risks, evaluation, AI cost, governance, drift, and human oversight |
+| Digital transformation | `skills/meta-strategy/meta-digital-transformation/` | Capability maturity, operating-model change, investment logic, sequencing, adoption, and benefits realisation |
+| Pitch or presentation | `skills/meta-pitch/` | `design-system-skills` for visual design and `digital-research-skills` for current evidence |
+| Proposal, tender, EOI, or RFP | Route to `proposal-skills` | Add this engine for the business case, commercial model, finance, or implementation content |
 
-### Pitch and Presentation Skills
+Use the smallest route that can answer the decision. Do not load every skill by default; add country, sector, funding, finance, design, document, website, accounting, or research overlays only when the engagement triggers them.
 
-| Skill Directory | What It Does |
+## The Kaizen operating contract
+
+Continuous improvement is part of the engine itself and part of every product it produces. The governing skill is `skills/meta-strategy/kaizen-improvement-system/SKILL.md`, supported by `docs/continuous-improvement/kaizen-adoption-2026-08.md` and the portfolio standard maintained by `digital-research-skills`.
+
+Every engine or product improvement follows this cycle:
+
+```text
+Observe -> Baseline -> Select -> Experiment -> Check -> Standardise -> Teach -> Re-measure
+```
+
+### Engine audits
+
+An engine audit reviews doctrine, taxonomy and routing, skill depth, applied proof, currency, output readiness, inclusion, production fidelity, hygiene, and integrity. It must identify:
+
+- The scope, date, evidence, assumptions, and unavailable checks.
+- A raw diagnostic score and the reason for each dimension result.
+- The published score as `min(raw score, 65)`. **65/100 is a reporting ceiling, not a pass mark or a waiver.**
+- Blockers, root causes, owners, experiments, measures, rollback conditions, and re-audit dates.
+- A remediation plan whose target score is **95/100**.
+
+### Product audits
+
+The same contract applies to a business plan, feasibility study, market analysis, nonprofit strategy, facility-move plan, financial model, pitch, dashboard, or implementation framework. Test the product's:
+
+- Decision thesis, audience, stakeholder or beneficiary logic, and intended use.
+- Claim-and-evidence register, source freshness, assumptions, confidence, and countercases.
+- Customer, market, revenue, cost, operating, capacity, funding, and implementation logic.
+- Financial reconciliation, scenarios, cash implications, risk controls, and professional-review state.
+- M&E indicators, owners, cadence, targets, counter-metrics, refresh triggers, and decision rules.
+- Production, rendering, accessibility, design, security, spreadsheet, document, and release evidence where applicable.
+
+An unavailable source, reviewer, tool, render, or professional check is `not assessed`; it is never silently treated as passed. Successful changes are standardised in a skill, reference, template, fixture, or operating record and then re-measured.
+
+## Business-plan workflow
+
+1. **Intake and decision framing** - define the decision, audience, jurisdiction, business stage, funding instrument, scope, authority, constraints, and deliverable family.
+2. **Evidence design** - create a claim register and evidence plan before drafting. Separate verified facts, management assumptions, estimates, inferences, unknowns, and hypotheses.
+3. **Validation and options** - test the most consequential demand, customer, channel, delivery, capability, regulatory, and financial assumptions. Compare the base case with credible alternatives and a do-nothing or downside case.
+4. **Section production** - draft only the required pipeline sections, preserving shared assumptions and returning conflicts to their owning section.
+5. **Integrated model** - reconcile narrative, drivers, operating plan, use of funds, milestones, cash flow, income statement, balance sheet, scenarios, and funding need.
+6. **Challenge and handoffs** - run business-logic, evidence, finance, regulatory, sector, risk, valuation, design, document, spreadsheet, security, and audience-specific gates as applicable.
+7. **Assembly and release** - assemble approved versions, populate the release-evidence bundle, validate it, render layout-sensitive artefacts, retain reviewer evidence, and require explicit release authority.
+8. **Learning and refresh** - record what changed, what was learned, which assumptions moved, what was standardised, and when the plan or quarterly gameplan will be revisited.
+
+## Build-Measure-Learn and living plans
+
+Market validation is not a decorative appendix. The engine converts material assumptions into testable hypotheses:
+
+| Element | Required treatment |
 |---|---|
-| `pitch-deck` | **Start here for any pitch.** Unified workflow: sequencing `meta-pitch-preparation` → `meta-presentation-design` → delivery coaching. Produces a presentation-ready deck for any audience type. |
-| `meta-pitch-preparation` | Pitch strategy, frame control (Klaff STRONG method), McGowan Hook-Meat-Payoff, Q&A preparation, rehearsal protocol. Use directly for self-prep or client coaching. |
-| `meta-presentation-design` | Slide design (Duarte Sparkline, assertion-evidence standard), 13-slide master template, delivery coaching, deck audit. |
+| Hypothesis | State the customer, problem, offer, behaviour, value, or growth assumption and the decision it controls. |
+| Small test | Use the smallest ethical, reversible experiment that can produce useful evidence. |
+| Measure | Define a leading indicator, lagging outcome, threshold, time window, sample or denominator, and counter-metric. |
+| Learning | Classify the result as supports, weakens, mixed, or does not test the hypothesis. Do not equate activity with validation. |
+| Decision | Continue, revise, pivot, pause, or stop; state the consequence for the plan and model. |
+| Standardisation | Keep only evidence-backed changes, assign an owner and cadence, and record the next review trigger. |
 
-### Analytical Meta-Skills
+Living-plan outputs retain a data feed, owner, cadence, decision log, variance threshold, refresh trigger, and sunset or stop condition. Monthly learning loops feed quarterly plan refreshes; quarterly refreshes do not replace annual strategic review.
 
-| Skill Directory | What It Does |
-|---|---|
-| `business-plan-orchestrator` | Mandatory end-to-end controller for serious full plans: stage gates, audience routing, cross-engine handoffs, blocker precedence and release-evidence bundle |
-| `meta-critical-thinking-business-logic` | Tests claims, assumptions, evidence, business logic, feasibility, mental models, strategic fit, and achievability before synthesis or final review |
-| `meta-accounting-finance-review` | IFRS-aware accounting, management accounting, financial-model, controls, and projection integrity review before bankability, valuation, due diligence, or final assembly |
-| `meta-sustainability` | Mandatory sustainability pre-screen (Mode A) and audit (Mode C); Sustainability Readiness Score (5 dimensions); sector materialities; SDG alignment; IFC Performance Standards compliance for DFI applications |
-| `meta-bankability-scoring` | CAMPARI 28-item checklist; bank loan readiness scoring; 12-point cross-section consistency audit |
-| `meta-financial-stress-test` | 4-scenario stress model, Uganda historical shocks, DSCR stress test, Early Warning Dashboard |
-| `meta-market-validation` | Validates market claims against real data; MECE issue trees; flags unsupported assumptions |
-| `meta-digital-transformation` | Diagnoses digital maturity, prioritises digitisation and business-model modernisation, and links technology choices to customer value, operations, data, and business-case logic |
-| `meta-monitoring-evaluation` | Converts plan into KPI dashboard, M&E framework, funder reporting obligations |
-| `meta-quarterly-gameplan` | Converts annual strategy into 90-day action sprints |
-| `meta-due-diligence` | DD readiness, outbound OSINT competitor intelligence, plan DD audit; data room structure |
-| `meta-pricing-strategy` | Audit and upgrade pricing strategy using Kennedy/Marrs *No B.S. Price Strategy*: 9 price failures, 5 Propositions, Triangle of Preeminence (Lycka), niche pricing lift, quid pro quo discounting, competing with free |
+## Nonprofit planning and M&E
 
-### Content and Marketing Skills
+Nonprofit routes add readiness and governance before strategy drafting. They make mission, stakeholder needs, board and management roles, beneficiary outcomes, resource constraints, donor restrictions, implementation capacity, and approval authority explicit.
 
-| Skill Directory | What It Does |
-|---|---|
-| `blog-idea-generator` | Generates business plan blog post ideas derived from the reference book library |
-| `blog-writer` | Writes structured, SEO-ready blog posts on business planning topics |
-| `content-writing` | General business content writing with East Africa voice and standards |
-| `digital-marketing-strategy` | Digital channel strategy, social media, SEO, paid acquisition |
-| `proposal-architect` | Client-facing proposals: structure, persuasion, pricing, follow-up |
+M&E work defines a results chain, baseline, indicators, disaggregation where relevant, data source, collection frequency, owner, quality check, target, counter-metric, learning question, escalation threshold, and decision use. A dashboard is not evidence of impact unless definitions, data quality, denominator, timing, and interpretation are documented.
 
-### Supporting and Utility Skills
+The strategic plan should include implementation ownership, review cadence, annual or event-triggered refresh rules, and a record of what was learned and changed. Publisher templates and illustrative nonprofit examples are methods, not proof about a particular organisation or community.
 
-| Skill Directory | What It Does |
-|---|---|
-| `east-african-english` | Language and tone standard — British spelling, East African idiom, plain English |
-| `language-standards` | Cross-language writing quality standards |
-| `idea-testing` | Rapid validation of a business idea before writing the full plan |
-| `industry-guides` | Industry-specific reference guides for 13+ sectors (agri, retail, hospitality, health...), including the retail operating-model completeness gate |
-| `skill-writing` | Guide for authoring and extending skills in this suite |
-| `skill-safety-audit` | Safety validation for new or modified skills |
-| `anti-ai-slop` | Mandatory pre-ship guardrail — every generated plan, section, deck, or narrative passes it before delivery so output cannot read as AI slop |
-| `ai-slop-audit` | Auto-runs on any request to analyse, review, audit, or score a plan, deck, model, or section for AI slop; returns a graded A/B/C/F report |
-| `update-claude-documentation` | Documentation maintenance workflow |
+## Facility moves and operational change
 
-### Book Extractions
+Facility-move logic is reusable for relocations, ERP changes, infrastructure migrations, branch openings, operating-model changes, and continuity-sensitive transitions. The plan should expose:
 
-Primary-source reference material stored in `book-extractions/`. Read these when a skill references them; they carry the detailed frameworks, scripts, and Uganda/EA adaptation notes.
+- Charter, scope, decision rights, dependencies, success criteria, and authority.
+- Current-state baseline, asset and process inventory, readiness, capacity, quality, safety, regulatory, and continuity risks.
+- Future-state operating design, integrated schedule, procurement and resource needs, communications, testing, and contingency paths.
+- Cutover entry criteria, go/no-go decision, rollback or fallback, stabilisation monitoring, issue ownership, and closeout.
+- Lessons learned, standard work, residual risks, benefits evidence, and the next improvement cycle.
 
-| File | What It Contains |
-|---|---|
-| `kennedy-no-bs-price-strategy-extraction.md` | Kennedy/Marrs 9 Failures, 5 Propositions, Triangle of Preeminence, Hawaiian Fisherman, niche pricing, association principle, discount discipline, competing with free |
-| `kennedy-no-bs-sales-success-extraction.md` | Kennedy 23 Strategies, Positioning-Not-Prospecting, 6-Step Sales Process, Takeaway Selling, Proof hierarchy |
-| `kennedy-ultimate-sales-letter-extraction.md` | 28-step long-form system, Power of a Sequence, Hidden Benefit, Damaging Admission, Creative P.S. |
-| `brunson-dotcomsecrets-ignite-extraction.md` | Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution (35 beats), OTO Bump, Perfect Webinar, Soap Opera + Seinfeld |
-| `kennedy-magnetic-marketing-extraction.md` | Message-Market-Media triangle, attraction-conversion-retention system, lead magnets, follow-up sequencing, retention and referral discipline |
-| `godin-startup-school-extraction.md` | Narrow-market focus, remarkability, tribe logic, anti-generic positioning |
-| `business-models-ecommerce-extraction.md` | Digital transaction models, supply-side and collaborative commerce, revenue and cost logic for e-commerce |
-| `rogers-digital-transformation-playbook-extraction.md` | Five domains of digital transformation, customer networks, platforms, data assets, rapid experimentation, value adaptation |
-| `molenaar-demand-driven-business-strategy-extraction.md` | Demand-driven redesign, outside-in logic, value networks, network effects, product-as-a-service |
-| `haines-how-to-create-a-business-case-extraction.md` | Business-case framing, option analysis, do-nothing case, incremental economics, sensitivity, benefits audit |
-| `practical-small-business-guides-extraction.md` | Practical SME controls, owner bottlenecks, customer experience, branding basics, proportionate digital adoption |
-| `project-management-integration-scope-extraction.md` | Objective/scope/deliverable discipline, project charter logic, WBS, change control, scope-creep prevention |
+## Financial logic and accounting routing
 
-### Country Context
+This engine handles financial modelling and business-plan financial logic; it is not a substitute for accounting doctrine or professional sign-off.
 
-| Directory | What It Contains |
-|---|---|
-| `country-context/` | Country-specific data files that override Uganda defaults. Contains `template.md` for adding new countries (currency, tax rates, regulatory bodies, salary benchmarks, risk context). |
+For financial work, route to `C:\Users\Peter\source\repos\chwezi-accounting-doctrine` whenever the engagement touches money flows, inventory, payroll, tax, grants, banking, mobile money, POS, fixed assets, statutory reporting, journals, reconciliations, period close, controls, audit evidence, IFRS/IAS, or finance-system integration. Read the relevant Chwezi doctrine, skill, and finance quality gate, and record the handoff.
 
----
+Financial outputs should reconcile:
 
-## Usage Examples
+- Commercial drivers to revenue, volume, price, timing, churn, and collection assumptions.
+- Operating drivers to headcount, capacity, productivity, procurement, inventory, quality, and delivery costs.
+- Income statement, cash flow, balance sheet, working capital, funding need, and use of funds.
+- Base, upside, downside, sensitivity, break-even, runway, DSCR, covenant, and liquidity cases where relevant.
+- Revenue recognition, deferred revenue, refunds, SLA credits, AI COGS, grants, tax, and control implications where triggered.
 
-### Write a complete business plan
+Use `tools/workbook-audit/formula_map.py` for XLSX formula and reconciliation evidence. Never plug a model to force it to balance; isolate the broken schedule, identify the owner, and mark the affected conclusion unassessed until recovered.
 
-Start with the orchestrator; it selects and gates the necessary sections, with 01 written last:
+## Evidence, research, and current claims
 
-```
-Use business-plan-orchestrator to govern the [audience] plan for [Business Name] from intake and evidence design through model, review, assembly and authorised release
-```
+All current market, country, tax, regulatory, platform, legal, safety, pricing, exchange-rate, or benchmark claims must be verified through `digital-research-skills`. The engine's source register and evidence discipline distinguish:
 
-### Write a single section
+- Source discovery from claim-level verification.
+- An official portal from proof of a copied figure.
+- A historical source from a current standard.
+- A book's method from evidence about the client or market.
+- A model assumption from an observed fact.
+- An unavailable review from a passed review.
 
-```
-Use the market-analysis skill to size the Ugandan dairy processing market
-```
+Before release, check `docs/source-registers/country-market-data.json`, apply `references/sector-regulatory-gates.json` or the linked sector gate, and retain dated claim-level evidence. Current statutory, tax, accounting, legal, and professional judgements remain subject to the relevant authority or qualified reviewer.
 
-### Validate an existing plan
+## What the 16-book study changed here
 
-```
-Use the meta-bankability-scoring skill to score this business plan against UDB's CAMPARI criteria
-```
+The book-derived upgrade is recorded in `C:\wamp64\www\digital-research-skills\docs\continuous-improvement\book-study-2026-08.md` and this engine's `docs/continuous-improvement/kaizen-adoption-2026-08.md`.
 
-### Create a pitch deck from a completed plan
+- **LEAN: Ultimate Collection** informed Build-Measure-Learn, validated learning, innovation accounting, KPI cadence, waste and value analysis, experiments, progressive implementation, and learning-organisation practices. It is a compilation with uneven source quality; original authoritative sources govern exact definitions.
+- **Applying the Kaizen in Africa** informed participatory and incremental improvement, PDCA, 5S, muda reduction, QC Story, standardisation, management commitment, on-site observation, and institutional sustainability. African cases guide adaptation; they do not guarantee results in a client setting.
+- **The Nonprofit Guide to Strategic Planning** strengthened readiness, governance, stakeholder analysis, baseline, options and trade-offs, resource implications, implementation cadence, KPI review, and refresh triggers.
+- **Facility Move Playbook** strengthened change charters, continuity, readiness, inventory, capacity, cutover, stabilisation, closeout, and lessons-learned patterns.
+- **Paid for Your Perspective** strengthened expert positioning, buyer needs, preparation, compliance screening, evidence-bounded advisory work, follow-up, and knowledge-product routes.
+- **XP 2026** contributed current Agile learning themes such as value retrospectives, experimentation, team autonomy, architecture uncertainty, UX pilots, and evidence-led adoption. Specific research findings require source-aware use.
+- **Platform Enterprise** contributed platform-as-product, user and team feedback, sociotechnical capability, ownership, maintenance, and sustainable operating-model thinking. Only the available early-release chapters were admitted.
+- **Designing for AI** contributed problem-first AI selection, system-centred business cases, human/AI/system layers, data and inference transparency, oversight, drift, and rollback thinking. Only the available early-release chapters were admitted and legal claims require independent verification.
 
-```
-Use the pitch-deck skill to build an investor pitch deck from this business plan
+The two unreadable extractions, *Kaizen and the Art of Creative Thinking* and *Anatomy for Artists*, were not used to invent business-plan guidance. Historical, partial, duplicated, or practical books are treated as method inputs, not current legal, market, technical, financial, or professional authority.
+
+## Repository architecture
+
+```text
+skills/
+|-- pipeline/                 # Numbered plan sections and final assembly
+|-- meta-strategy/            # Orchestration, validation, living plans, M&E, Kaizen
+|-- meta-finance/             # Bankability, valuation, stress tests, finance review
+|-- meta-pitch/               # Pitch and presentation routes
+|-- meta-pricing-gtm/         # Pricing, premium GTM, website investment planning
+|-- meta-reporting/           # Board and investor reporting
+|-- saas/                     # SaaS, recurring revenue, cohorts, pricing, valuation
+|-- ict/                      # ICT product, services, ecommerce, and cross-border routes
+|-- industry-guides/          # Sector operating and business-plan guidance
+|-- advisory-deliverables/    # Policies, governance, grants, controls, and M&E artefacts
+|-- marketing-sales/          # Demand, channels, and digital marketing
+|-- writing-content/          # Business writing and content production
+|-- language/                 # East African English and writing quality
+`-- meta-utility/             # Skill authoring, safety, anti-slop, and documentation
+country-context/              # Country-specific overrides and evidence-linked routes
+docs/                         # Quality, source registers, release, and improvement records
+tools/                        # Evidence, sector, workbook, exemplar, and release gates
+tests/                        # Routing and regression tests
 ```
 
-### Apply for a DFI loan — preparation checklist
+Skills are portable directories under `skills/**/SKILL.md` and `country-context/**/SKILL.md`. Each active skill must meet the repository's July 2026 contract: directory-matching identity, portable metadata, positive and negative triggers, input/output/evidence contracts, ordered workflow with stop and recovery behaviour, decision rules, permission boundaries, degraded mode, quality standards, concrete anti-patterns, and directly linked references. The baseline is a regression lock, not a waiver.
 
-1. Run `11-funding-request` → generates the funding request section with DSCR and collateral
-2. Run `meta-bankability-scoring` → confirms CAMPARI compliance
-3. Run `12-risk-analysis` → includes ESMP (use `11-funding-request/references/esmp-template.md`)
-4. Run `meta-due-diligence` Mode A → builds the data room
-5. Run `pitch-deck` → prepares the loan committee presentation
+## Validation commands
 
-### Test a new business idea
-
-```
-Use the idea-testing skill to evaluate whether this business idea is worth developing into a full plan
-```
-
-### Build a digitisation roadmap for an existing business
-
-```
-Use the meta-digital-transformation skill to identify the most practical ways this business should digitise its sales, operations, and customer experience over the next 12 months
-```
-
----
-
-## Project Structure
-
-```
-business-plan-skills/
-|-- README.md                  # Project overview and usage
-|-- AGENTS.md                  # Agent operating guide
-|-- CLAUDE.md                  # Claude Code project instructions
-|-- docs/                      # Project documentation and historical analysis
-|-- projects/                  # Optional project workspaces, if present
-|-- skills/                    # Active skill repository (organised into thematic categories)
-|   |-- pipeline/              # Numbered plan-section skills (00-plan-assembly ... 16-sustainability-strategy)
-|   |   |-- 00-plan-assembly/
-|   |   |-- 01-executive-summary/
-|   |   `-- ...
-|   |-- ict/                   # ICT-sector business-plan skills
-|   |-- industry-guides/       # Sector reference guides (agriculture, manufacturing, etc.)
-|   |-- saas/                  # SaaS-vertical skills (GTM, unit economics, lifecycle)
-|   |-- marketing-sales/       # Demand forecasting, digital marketing strategy
-|   |-- writing-content/       # Blog, content, copy & prompt-writing skills
-|   |-- language/              # East-African English, language standards, writing quality
-|   |-- meta-finance/          # Bankability, valuation, financial stress test, rev-rec
-|   |-- meta-pitch/            # Pitch-deck orchestration, presentation design
-|   |-- meta-pricing-gtm/      # Pricing strategy, premium GTM, website investment
-|   |-- meta-reporting/        # Board & investor reporting
-|   |-- meta-strategy/         # End-to-end orchestration, synthesis, due diligence, optionality, governance
-|   |-- meta-sustainability/   # Sustainability strategy references
-|   `-- meta-utility/          # skill-writing, skill-safety-audit, proposal-architect, update-claude-documentation
-|-- country-context/           # Country data overrides and country-specific skills
-|-- book-extractions/          # Primary-source reference material
-|-- blog-posts/                # Draft and published blog content
-|-- proposals/                 # Proposal outputs or working material
-`-- tools/                     # Operational tooling, not a skill directory
-```
-
-Root should contain project documentation plus `docs/`, `skills/`, and `projects/` where relevant. Active skills should not live at the repository root or directly under `skills/`; each active skill belongs at `skills/<category>/<skill-name>/SKILL.md`. The category directories are listed in the tree above and described in the "Skill Categories" section below.
-
----
-
-## Skill Categories
-
-Skills are grouped into thematic categories under `skills/`. When invoking a skill by name, the AI auto-resolves the path; when referencing one in documentation, use `skills/<category>/<skill-name>/`.
-
-| Category | Purpose |
-|----------|---------|
-| `pipeline/` | Numbered plan-section skills (`00-plan-assembly` through `16-sustainability-strategy`) — the core business-plan generation flow |
-| `advisory-deliverables/` | Advisory engagement deliverables |
-| `ict/` | ICT-sector business-plan skills (product company, services firm) |
-| `industry-guides/` | Sector reference material (agriculture, manufacturing, hospitality, retail, etc.) |
-| `saas/` | SaaS-vertical skills (GTM, unit economics, lifecycle, pricing, valuation) |
-| `marketing-sales/` | `demand-forecasting`, `digital-marketing-strategy` |
-| `writing-content/` | `ai-prompt-writer`, `blog-idea-generator`, `blog-writer`, `content-writing`, `premium-commercial-writing` |
-| `language/` | `east-african-english`, `language-standards`, `writing-quality` |
-| `meta-finance/` | Bankability, valuation, financial stress test, revenue recognition, SLA controls |
-| `meta-pitch/` | `pitch-deck`, `meta-pitch-preparation`, `meta-presentation-design` |
-| `meta-pricing-gtm/` | Pricing strategy, premium GTM, website investment planning |
-| `meta-reporting/` | Board & investor reporting (human + agent variants) |
-| `meta-strategy/` | End-to-end business-plan orchestration, consulting synthesis, due diligence, optionality, living-plan governance, statistics |
-| `meta-sustainability/` | Sustainability strategy references |
-| `meta-utility/` | `skill-writing`, `skill-safety-audit`, `proposal-architect`, `update-claude-documentation`, `anti-ai-slop`, `ai-slop-audit` |
-
----
-## Authoring Standards
-
-Active skills are discovered from `skills/**/SKILL.md` and `country-context/**/SKILL.md`. Templates and inactive aliases are counted separately. The machine-readable source for the release count is `docs/quality/skill-quality-baseline.json`.
-
-Every active skill follows this structure:
-
-```
-skills/skill-name/
-|-- SKILL.md              # Required: YAML frontmatter (name, description) + skill content
-`-- references/           # Optional: supporting methodology, data tables, templates
-    |-- framework-name.md # Each reference file covers one source or framework
-    `-- ...
-```
-
-**SKILL.md rules:**
-- Maximum 500 lines.
-- Directory-matching `name`; one-line, neighbour-aware `description` beginning `Use when` and no longer than 350 characters.
-- Portable Claude Code and Codex metadata using only approved frontmatter keys.
-- Positive and negative triggers; input, output, and evidence tables; ordered workflow with stop and recovery behaviour; decision table; permission boundary; degraded mode; quality standards; and at least five concrete anti-patterns with fixes.
-- Audit, review, analysis, critique, and planning default to read-only. Mutation or publication requires explicit authority.
-- British English throughout; Uganda/UGX remains the default planning context, but every current financial, statutory, tax, or exchange-rate claim requires dated source verification.
-- References are linked directly from the entrypoint with one-line loading guidance.
-
-**Reference file rules:**
-- Split a reference when it becomes difficult to load or maintain; long catalogues must not force the entrypoint above 500 lines.
-- YAML frontmatter: `source`, `frameworks` (array), `skill`, `cross-reference` (array)
-- Uganda/East Africa application section at the end of every file
-- Generic names — no source prefix (e.g., `beef-butchery.md`, not `kenya-beef-butchery.md`)
-- Before writing a new file, check whether an existing file covers the same source
-
-See `skills/meta-utility/skill-writing/SKILL.md` for full authoring guidelines.
-
-Run the release gates from the repository root:
+Run from the repository root in PowerShell:
 
 ```powershell
+# Structural and contract validation
 python -X utf8 scripts\validate_skill_engine.py --baseline docs\quality\skill-quality-baseline.json
+
+# Routing precision; the repository threshold is 100% top-three precision
 python -X utf8 scripts\routing_smoke_test.py --threshold 1.0
+
+# Validate one changed skill
+python -X utf8 skills\meta-utility\skill-writing\scripts\quick_validate.py <skill-directory>
+
+# Source, country, and sector evidence
+python -X utf8 scripts\source_ingestion_guardrail.py
+python -X utf8 tools\evidence-register\refresh_evidence_register.py --check
+python -X utf8 tools\sector-gates\validate_sector_gates.py
+
+# Exemplar, workbook, release, and regression checks
+python -X utf8 tools\exemplar-packs\validate_exemplar_packs.py
+Get-ChildItem examples\full-plan-packages -Directory | ForEach-Object { python -X utf8 tools\release-gate\validate_release_bundle.py "$($_.FullName)\release-bundle.json" }
+python -X utf8 -m unittest discover -s tests -p "test_*.py"
+git diff --check
 ```
 
-CI runs both commands on every push to `main` and every pull request. The baseline is zero debt: any new finding or routing miss fails the build.
+For financial workbooks, also run:
 
----
+```powershell
+python -X utf8 tools\workbook-audit\formula_map.py <workbook.xlsx> --output <formula-report.json>
+```
+
+The release gate remains blocked by missing mandatory research, finance, spreadsheet, design, document, security, render, reviewer, or authority evidence. Automated validators do not replace claim verification, professional judgement, visual review, or authorised release.
+
+## Evidence limitations and safety boundaries
+
+- The engine does not fabricate market size, growth, benchmark, customer, regulatory, tax, exchange-rate, or legal facts.
+- A source register identifies what must be checked; it does not prove the underlying claim without claim-level verification.
+- Country defaults are starting context, not current evidence.
+- Fictional exemplars are structural teaching aids; replace every fact, assumption, source, and model input before client use.
+- Book-derived methods are not automatically current standards, professional advice, or evidence about a particular enterprise.
+- The 65/100 audit ceiling does not mean an engine or product is acceptable. It forces an honest capped baseline and a visible plan toward 95/100.
+- Missing evidence, unavailable tools, unavailable reviewers, and unresolved professional judgements remain `not assessed` and narrow the conclusion.
+- Finance, tax, accounting, legal, regulatory, safeguarding, and other professional conclusions require the applicable doctrine, authority, or qualified reviewer.
+- Design and visual-formatting work routes to `C:\wamp64\www\design-system-skills`; content and business logic remain here.
+- Proposal, website, social-media, software, Linux, research, accounting, and design work routes to their canonical sibling engines when triggered. Do not copy or mirror those engines into this repository.
+
+## Contribution and release discipline
+
+Read `AGENTS.md` and `CONTRIBUTING.md` before changing the engine. Preserve existing skills, prefer improving an overlapping skill over creating a duplicate, keep long frameworks in directly linked references, and update the source register, fixtures, baseline, evaluation record, or release bundle when the capability changes.
+
+Before a release:
+
+1. Fetch and check that local `main` is not behind its remote.
+2. Run the repository, routing, canonical, evidence, syntax, workbook, release, test, and diff checks applicable to the change.
+3. Inspect the complete diff for unrelated files, secrets, generated caches, and accidental deletions.
+4. Update the active count and evidence from machine output.
+5. Stage only intended files, inspect the staged diff, commit once, and push without force.
+
+See `AGENTS.md` for the complete routing and quality contract.
 
 ## Licence
 
-See individual skill folders under `skills/` for licence information.
+See the individual skill folders for licence information.

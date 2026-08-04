@@ -389,3 +389,18 @@ Accept the market-validation evidence pack only when evidence is sufficient for 
 Interviewees praise an agritech concept but will not commit to a paid pilot. Record interest separately from purchase behaviour and keep the demand claim unvalidated until the agreed commitment threshold is met.
 
 <!-- dual-compat-end -->
+
+## Build-Measure-Learn and validated-learning controls
+
+Use the smallest reversible experiment that can change a business decision. For every material assumption, create an experiment card containing: problem, assumption, customer segment, baseline, test, expected behaviour, decision threshold, counter-metric, owner, timebox, evidence location, and stop/pivot/continue rule.
+
+Treat learning as validated only when observed behaviour or a controlled operational result changes the plan, model, offer, sequence, or risk register. Record interest, intention, usage, commitment, payment, retention, and referral as different evidence levels; never promote a weaker signal to a stronger one.
+
+Apply this loop before approving a major spend or scale-up:
+
+1. Build the smallest offer, prototype, process, or landing page that tests the highest-risk assumption.
+2. Measure behaviour against the baseline, with a guardrail for cash, quality, trust, mission, safeguarding, or staff capacity.
+3. Learn by comparing the result with the pre-registered threshold; choose continue, revise, pivot, pause, or stop.
+4. Standardise only the change that passed its guardrail and update the plan assumption register, financial model, owner, and next test.
+
+For innovation accounting, show the input, leading behaviour, outcome, and economic implication separately. A favourable vanity metric cannot justify scale if activation, retention, contribution margin, delivery capacity, or control quality deteriorates. Read `references/kaizen-experiment-and-learning.md` for the reusable experiment record and book provenance.

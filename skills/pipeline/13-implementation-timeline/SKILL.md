@@ -238,6 +238,10 @@ Choose a go-live approach based on risk tolerance (Dennis et al., 2021):
 | 13 implementation timeline decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
 | 13 implementation timeline review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
 
+## Facility-change continuity and cutover pattern
+
+For relocations, operating-site changes, ERP/data migrations, service transitions, and other complex changes, add the Facility Move gates: charter and decision rights; current-state inventory and risk baseline; future-state readiness; continuity and fallback; evidence-based go/no-go cutover; stabilisation monitoring; and closeout with reconciliation, lessons learned, standardisation, and residual-risk ownership. Do not declare readiness from completed activities alone, and do not cut over while a critical service lacks a tested fallback or rollback owner. Read `references/facility-change-continuity-and-cutover.md`.
+
 ## Capability and Permission Boundaries
 
 For 13 implementation timeline, the controlling focus is dependency order, critical path, milestone acceptance, procurement lead time, funding release, ownership, and delay recovery. This skill may plan and review delivery sequencing; it may not procure, assign people, change live operations, or declare milestones complete without owner evidence. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.

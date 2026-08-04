@@ -369,3 +369,9 @@ Accept the 90-day gameplan only when evidence is sufficient for this decision: w
 A team proposes nine priorities for four people. Capacity and dependency checks retain the three commitments tied to the funding milestone and place the rest in a sequenced backlog.
 
 <!-- dual-compat-end -->
+
+## Quarterly learning and living-plan control
+
+Every quarter must contain at least one explicit learning objective when a material assumption remains unvalidated. State the baseline, experiment or operational change, expected signal, guardrail, decision threshold, owner, and evidence location. At quarter end, record whether the result caused the team to continue, revise, pivot, pause, stop, or standardise; do not close the quarter with activity completion alone.
+
+Use the quarter-end gate to reconcile actual results with the business model, cash plan, KPI dashboard, risk register, stakeholder feedback, and capacity. If evidence invalidates a strategic assumption, update the living plan and sequence rather than forcing the old target. Trigger an early plan refresh when funding, leadership, regulation, customer/beneficiary need, capacity, performance, or stakeholder confidence changes materially. Protect continuity first, then run the strategic review.
