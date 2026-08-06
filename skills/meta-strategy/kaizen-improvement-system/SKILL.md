@@ -86,6 +86,6 @@ If a market test raises enquiries but worsens fulfilment capacity, retain the re
 ## References
 
 - [Local adoption plan](../../../docs/continuous-improvement/kaizen-adoption-2026-08.md)
-- [Portfolio standard](C:/wamp64/www/digital-research-skills/docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md)
+- [Portfolio standard](C:/wamp64/www/digital-research-engine/docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md)
 - `skills/meta-strategy/meta-market-validation/`
 - `skills/meta-strategy/meta-living-plan-governance/`

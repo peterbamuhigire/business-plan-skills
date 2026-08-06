@@ -42,14 +42,14 @@ For a serious engagement, start with `skills/meta-strategy/business-plan-orchest
 | SaaS or recurring revenue | `skills/saas/` and the relevant pipeline sections | Cohorts, CAC/LTV, retention, NRR, Rule of 40, ARR waterfall, COGS, pricing, and valuation |
 | AI-enabled business | `skills/pipeline/14-ai-integration/` and relevant SaaS skills | Problem-first AI selection, system and data risks, evaluation, AI cost, governance, drift, and human oversight |
 | Digital transformation | `skills/meta-strategy/meta-digital-transformation/` | Capability maturity, operating-model change, investment logic, sequencing, adoption, and benefits realisation |
-| Pitch or presentation | `skills/meta-pitch/` | `design-system-skills` for visual design and `digital-research-skills` for current evidence |
+| Pitch or presentation | `skills/meta-pitch/` | `design-system-skills` for visual design and `digital-research-engine` for current evidence |
 | Proposal, tender, EOI, or RFP | Route to `proposal-skills` | Add this engine for the business case, commercial model, finance, or implementation content |
 
 Use the smallest route that can answer the decision. Do not load every skill by default; add country, sector, funding, finance, design, document, website, accounting, or research overlays only when the engagement triggers them.
 
 ## The Kaizen operating contract
 
-Continuous improvement is part of the engine itself and part of every product it produces. The governing skill is `skills/meta-strategy/kaizen-improvement-system/SKILL.md`, supported by `docs/continuous-improvement/kaizen-adoption-2026-08.md` and the portfolio standard maintained by `digital-research-skills`.
+Continuous improvement is part of the engine itself and part of every product it produces. The governing skill is `skills/meta-strategy/kaizen-improvement-system/SKILL.md`, supported by `docs/continuous-improvement/kaizen-adoption-2026-08.md` and the portfolio standard maintained by `digital-research-engine`.
 
 Every engine or product improvement follows this cycle:
 
@@ -128,7 +128,7 @@ Facility-move logic is reusable for relocations, ERP changes, infrastructure mig
 
 This engine handles financial modelling and business-plan financial logic; it is not a substitute for accounting doctrine or professional sign-off.
 
-For financial work, route to `C:\Users\Peter\source\repos\chwezi-accounting-doctrine` whenever the engagement touches money flows, inventory, payroll, tax, grants, banking, mobile money, POS, fixed assets, statutory reporting, journals, reconciliations, period close, controls, audit evidence, IFRS/IAS, or finance-system integration. Read the relevant Chwezi doctrine, skill, and finance quality gate, and record the handoff.
+For financial work, route to `C:\wamp64\www\chwezi-accounting-doctrine` whenever the engagement touches money flows, inventory, payroll, tax, grants, banking, mobile money, POS, fixed assets, statutory reporting, journals, reconciliations, period close, controls, audit evidence, IFRS/IAS, or finance-system integration. Read the relevant Chwezi doctrine, skill, and finance quality gate, and record the handoff.
 
 Financial outputs should reconcile:
 
@@ -142,7 +142,7 @@ Use `tools/workbook-audit/formula_map.py` for XLSX formula and reconciliation ev
 
 ## Evidence, research, and current claims
 
-All current market, country, tax, regulatory, platform, legal, safety, pricing, exchange-rate, or benchmark claims must be verified through `digital-research-skills`. The engine's source register and evidence discipline distinguish:
+All current market, country, tax, regulatory, platform, legal, safety, pricing, exchange-rate, or benchmark claims must be verified through `digital-research-engine` at `C:\wamp64\www\digital-research-engine`. The engine's source register and evidence discipline distinguish:
 
 - Source discovery from claim-level verification.
 - An official portal from proof of a copied figure.
@@ -155,7 +155,7 @@ Before release, check `docs/source-registers/country-market-data.json`, apply `r
 
 ## What the 16-book study changed here
 
-The book-derived upgrade is recorded in `C:\wamp64\www\digital-research-skills\docs\continuous-improvement\book-study-2026-08.md` and this engine's `docs/continuous-improvement/kaizen-adoption-2026-08.md`.
+The book-derived upgrade is recorded in `C:\wamp64\www\digital-research-engine\docs\continuous-improvement\book-study-2026-08.md` and this engine's `docs/continuous-improvement/kaizen-adoption-2026-08.md`.
 
 - **LEAN: Ultimate Collection** informed Build-Measure-Learn, validated learning, innovation accounting, KPI cadence, waste and value analysis, experiments, progressive implementation, and learning-organisation practices. It is a compilation with uneven source quality; original authoritative sources govern exact definitions.
 - **Applying the Kaizen in Africa** informed participatory and incremental improvement, PDCA, 5S, muda reduction, QC Story, standardisation, management commitment, on-site observation, and institutional sustainability. African cases guide adaptation; they do not guarantee results in a client setting.
