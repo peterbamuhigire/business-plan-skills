@@ -1,5 +1,9 @@
 # Business Plan Skills Suite
 
+See [`docs/control-plane-adoption.md`](docs/control-plane-adoption.md) for the
+engine's agent roles, thin commands, lifecycle hooks, evidence contract, and
+stop/recovery behavior.
+
 The Business Plan Skills Suite is a modular, evidence-disciplined engine for turning a business, investment, nonprofit, feasibility, or execution question into a decision-ready plan and an auditable delivery bundle.
 
 The current repository baseline records **126 active skills** across `skills/` and `country-context/`, three template resources, and a zero-failure structural baseline. The machine-readable source of truth for the count is `docs/quality/skill-quality-baseline.json`; do not maintain a second manually counted catalogue here.

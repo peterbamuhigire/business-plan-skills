@@ -1,5 +1,9 @@
 # Repository Operating Guide
 
+Shared agent, command, hook, evidence, and handoff contracts are mapped for
+this engine in [`docs/control-plane-adoption.md`](docs/control-plane-adoption.md)
+and governed centrally by `C:\wamp64\www\skills-web-dev\docs\engine-control-plane.md`.
+
 ## Purpose
 
 This repository is a dual-surface skills suite for generating bankable, investor-grade business plans, proposals, pitch materials, and execution frameworks.
