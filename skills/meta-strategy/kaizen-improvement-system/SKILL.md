@@ -71,6 +71,17 @@ If evidence, model, source, reviewer, or tool is unavailable, return the narrowe
 
 Never call a plan bankable or achievable without reconciled evidence, assumptions, finance, implementation, and risks. Never turn a book example into a client fact.
 
+## Mandatory 65-to-95 gate
+
+The first pass is an initial analysis, not a certification: calculate the raw result,
+publish `min(raw_score, 65)`, and keep every unassessed dimension and blocker visible.
+Only after the capped baseline is recorded may the engine run the improvement cycle.
+The cycle must target 95/100 with a named root cause, one reversible change, owner,
+measure, guardrail, stop/rollback rule, acceptance evidence, and re-audit date. A
+polished plan or book-derived idea is not a score increase until the evidence passes.
+Run it twice when scope warrants: first for engine routing, models, references,
+validators, and handoffs; then for the individual plan, model, pitch, or strategy.
+
 ## Anti-Patterns
 
 - Adding initiatives without stopping or sequencing others. Fix: expose capacity trade-offs.
@@ -86,6 +97,6 @@ If a market test raises enquiries but worsens fulfilment capacity, retain the re
 ## References
 
 - [Local adoption plan](../../../docs/continuous-improvement/kaizen-adoption-2026-08.md)
-- [Portfolio standard](C:/wamp64/www/digital-research-engine/docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md)
+- Portfolio standard: resolve `digital-research-skills` through the global engine-routing table, then read `docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md`.
 - `skills/meta-strategy/meta-market-validation/`
 - `skills/meta-strategy/meta-living-plan-governance/`
