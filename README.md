@@ -54,6 +54,8 @@ Use the smallest route that can answer the decision. Do not load every skill by 
 
 ## The Kaizen operating contract
 
+For a ready-to-run product or project operation, use [`prompts/full-kaizen-operation.md`](prompts/full-kaizen-operation.md).
+
 Continuous improvement is part of the engine itself and part of every product it produces. The governing skill is `skills/meta-strategy/kaizen-improvement-system/SKILL.md`, supported by `docs/continuous-improvement/kaizen-adoption-2026-08.md` and the portfolio standard maintained by `digital-research-engine`.
 
 Every engine or product improvement follows this cycle:
