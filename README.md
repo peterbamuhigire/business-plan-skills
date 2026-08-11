@@ -10,20 +10,25 @@ The current repository baseline records **126 active skills** across `skills/` a
 
 The default planning context is Uganda and East Africa, with UGX as the default currency. The methods are portable: country, sector, currency, audience, funding instrument, and regulatory context must be changed through evidence-backed project inputs rather than assumed from this default.
 
-## What this engine produces
+## Output capability and evidence state
 
-The suite can design, draft, test, audit, assemble, and release:
+The suite routes and validates business-plan work. The state of an output is
+separate from the existence of a route or template; see the [Wave 1 evidence
+report](docs/continuous-improvement/kaizen-wave-1-2026-08-11.md) for the dated
+inventory and residual gaps.
 
-- Full bank, DFI, investor, grant, owner-manager, board, or strategic-partner business plans.
-- Feasibility studies, business cases, investment cases, market-entry studies, and strategic options papers.
-- Market-validation evidence packs and Build-Measure-Learn experiment programmes.
-- Nonprofit strategic plans, mission and stakeholder plans, governance plans, resource plans, and monitoring and evaluation frameworks.
-- Facility moves and other complex operational-change plans, including readiness, continuity, cutover, stabilisation, and lessons learned.
-- SaaS, AI-enabled SaaS, ICT product-company, ICT services-firm, ecommerce, cross-border ecommerce, and digital-transformation plans.
-- Financial projections, unit economics, valuation overlays, bankability reviews, stress tests, revenue-recognition narratives, and investor or lender readiness packs.
-- Implementation timelines, quarterly gameplans, living-plan governance, board and investor reporting, pitch decks, appendices, policies, manuals, and selected advisory deliverables.
+| Output family | Tracked evidence | Wave 1 state |
+|---|---|---|
+| Business-plan narratives and decision packs | Fictional Markdown plans, evidence manifests, committee records, and release bundles under [`examples/full-plan-packages/`](examples/full-plan-packages/) | Generated and structurally validated by [`validate_exemplar_packs.py`](tools/exemplar-packs/validate_exemplar_packs.py); client or authority evidence is not implied. |
+| Financial models and planning workbooks | XLSX templates under `skills/` | Generated and workbook-validated by [`verify_workbooks.py`](scripts/build-financial-models/verify_workbooks.py); production/client fitness remains not assessed. |
+| Pitch and presentation material | Markdown deck outlines in the fictional exemplar packs | Generated as source text; native PPTX generation, rendering, and visual inspection are **NOT ASSESSED**. |
+| DOCX and PDF deliverables | No tracked native DOCX or PDF artefact in this repository baseline | **NOT ASSESSED**; do not infer editability, accessibility, pagination, or print fidelity from Markdown. |
+| External release | Release-bundle schemas and blocker-first validator | **BLOCKED** until required research, finance, spreadsheet, design, document, security, render, reviewer, and authority evidence is present. |
 
-The engine produces decision support, not automatic approval. A plan is not called bankable, investor-ready, achievable, compliant, or submission-ready unless the required evidence, financial logic, professional reviews, and release authority are present.
+The engine provides decision support, not automatic approval. A plan is not
+called bankable, investor-ready, achievable, compliant, or submission-ready
+unless the required evidence, financial logic, professional reviews, and
+release authority are present.
 
 ## How to route work
 

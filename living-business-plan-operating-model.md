@@ -1,6 +1,6 @@
 # Living Business Plan Operating Model — Engine-Root Reference
 
-This document is the engine-wide canonical reference for how plans become and stay living documents. Every new and enhanced skill in the engine references this file. The full detail lives at `skills/meta-living-plan-governance/references/living-business-plan-operating-model.md` and the operating skill at `skills/meta-living-plan-governance/SKILL.md`.
+This document is the engine-wide canonical reference for how plans become and stay living documents. Every new and enhanced skill in the engine references this file. The full detail lives at `skills/meta-strategy/meta-living-plan-governance/references/living-business-plan-operating-model.md` and the operating skill at `skills/meta-strategy/meta-living-plan-governance/SKILL.md`.
 
 ## Why this matters
 
@@ -55,11 +55,11 @@ Every plan section produced through this engine — by `00-client-intake` throug
 When you write a section, ask: *"Six months from now, who refreshes this and how often?"* If the answer is "we'll figure it out later," the section isn't done.
 
 See also:
-- `skills/meta-living-plan-governance/SKILL.md` — the skill
-- `skills/meta-living-plan-governance/references/living-business-plan-operating-model.md` — full reference
-- `skills/meta-living-plan-governance/references/saas-okr-and-kpi-tree-template.md` — OKR / KPI cascade
-- `skills/meta-board-and-investor-reporting/SKILL.md` — the reporting cadence
-- `skills/meta-quarterly-gameplan/SKILL.md` — the 90-day operating rhythm
-- `skills/meta-monitoring-evaluation/SKILL.md` — KPI / M&E discipline
+- `skills/meta-strategy/meta-living-plan-governance/SKILL.md` — the skill
+- `skills/meta-strategy/meta-living-plan-governance/references/living-business-plan-operating-model.md` — full reference
+- `skills/meta-strategy/meta-living-plan-governance/references/saas-okr-and-kpi-tree-template.md` — OKR / KPI cascade
+- `skills/meta-reporting/meta-board-and-investor-reporting/SKILL.md` — the reporting cadence
+- `skills/meta-strategy/meta-quarterly-gameplan/SKILL.md` — the 90-day operating rhythm
+- `skills/meta-strategy/meta-monitoring-evaluation/SKILL.md` — KPI / M&E discipline
 - `book-extractions/cotton-run-a-saas-business-extraction.md` — MSPOT origin
 - `book-extractions/haines-how-to-create-a-business-case-extraction.md` — post-implementation audit, decision-log discipline

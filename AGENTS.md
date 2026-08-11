@@ -18,11 +18,11 @@ The portable unit is the skill directory under `skills/`:
 
 Skills live under `skills/` as skill directories such as:
 
-- `skills/00-client-intake`
-- `skills/01-executive-summary`
-- `skills/10-financial-projections`
-- `skills/meta-consulting-synthesis`
-- `skills/meta-valuation`
+- `skills/pipeline/00-client-intake`
+- `skills/pipeline/01-executive-summary`
+- `skills/pipeline/10-financial-projections`
+- `skills/meta-strategy/meta-consulting-synthesis`
+- `skills/meta-finance/meta-valuation`
 
 Root should contain project documentation plus `docs/`, `skills/`, and `projects/` where relevant. Leave `docs/`, `projects/`, `.git`, `tools/`, and other non-skill operational directories at root unless the directory itself is an actual skill with its own root `SKILL.md`.
 

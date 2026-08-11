@@ -11,6 +11,8 @@
   {"id":"positive-appendix","class":"positive","prompt":"Assemble supporting appendices, evidence schedules, licences, CVs and source documents.","expected":"15-appendices"},
   {"id":"positive-assembly","class":"positive","prompt":"Produce the 00 plan assembly component: combine completed business plan sections, reconcile cross-section figures and run acceptance tests.","expected":"00-plan-assembly"},
   {"id":"positive-bankability","class":"positive","prompt":"Score debt service capacity, lender readiness, security, repayment and bankability blockers.","expected":"meta-bankability-scoring"},
+  {"id":"positive-living-plan","class":"positive","prompt":"Install living business-plan governance with a cadence calendar, assumption owners, variance thresholds and trigger-replan events.","expected":"meta-living-plan-governance"},
+  {"id":"positive-ai-integration","class":"positive","prompt":"Draft Section 14 AI integration and efficiency with process redesign, use-case economics, human controls and rollout gates.","expected":"14-ai-integration"},
   {"id":"positive-valuation","class":"positive","prompt":"Value the company using DCF, market multiples and venture methods with sensitivity ranges.","expected":"meta-valuation"},
   {"id":"positive-stress","class":"positive","prompt":"Stress-test downside revenue, margin, working capital and debt-service assumptions.","expected":"meta-financial-stress-test"},
   {"id":"positive-due-diligence","class":"positive","prompt":"Run commercial, operational, legal and financial due diligence with evidence gaps and red flags.","expected":"meta-due-diligence"},

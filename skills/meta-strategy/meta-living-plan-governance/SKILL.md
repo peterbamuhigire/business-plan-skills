@@ -112,14 +112,14 @@ When AI is material to the plan (typically >2% of ARR or load-bearing to product
 | AI sustainability KPIs | quarterly | Sustainability lead + CTO | regression from baseline | structural shift |
 
 The AI cadence is operationalised through:
-- `skills/10-financial-projections/saas-ai-unit-economics-and-cogs/SKILL.md` — economics + cost
-- `skills/10-financial-projections/saas-ai-cost-of-tenant-calculator/SKILL.md` — per-tenant cost
-- `skills/12-risk-analysis/saas-ai-risk-and-stress-test/SKILL.md` — risk register + stress
-- `skills/06-competitive-analysis/saas-ai-moat-and-defensibility/SKILL.md` — moat reassessment
-- `skills/meta-ai-bankability-and-investor-readiness/SKILL.md` — scorecard refresh
-- `skills/08-operations-plan/references/ai-cost-and-vendor-management-ops.md` — operations
-- `skills/16-sustainability-strategy/saas-ai-sustainability-and-ethics/SKILL.md` — ethics + sustainability
-- `skills/meta-board-and-investor-reporting/references/saas-ai-board-pack-section.md` — reporting
+- `skills/pipeline/10-financial-projections/saas-ai-unit-economics-and-cogs/SKILL.md` — economics + cost
+- `skills/pipeline/10-financial-projections/saas-ai-cost-of-tenant-calculator/SKILL.md` — per-tenant cost
+- `skills/pipeline/12-risk-analysis/saas-ai-risk-and-stress-test/SKILL.md` — risk register + stress
+- `skills/pipeline/06-competitive-analysis/saas-ai-moat-and-defensibility/SKILL.md` — moat reassessment
+- `skills/meta-finance/meta-ai-bankability-and-investor-readiness/SKILL.md` — scorecard refresh
+- `skills/pipeline/08-operations-plan/references/ai-cost-and-vendor-management-ops.md` — operations
+- `skills/pipeline/16-sustainability-strategy/saas-ai-sustainability-and-ethics/SKILL.md` — ethics + sustainability
+- `skills/meta-reporting/meta-board-and-investor-reporting/references/saas-ai-board-pack-section.md` — reporting
 
 ## Agent Living-Plan Cadence (mandatory when the plan ships an agent or multi-agent product)
 
@@ -130,18 +130,18 @@ When the plan is an agent business, add the **Agent Cadence** layer on top of th
 It covers weekly (task success, intervention rate, cost-per-resolved, tool reliability, branch / loop breaches, eval scores, cache, token usage, provider pricing scan, prompt-injection scan), monthly (agent GM, HITL / tool / retry cost shares, agent revenue attribution, irreversibility / autonomy incidents, audit / kill-switch / red-team drills, eval coverage, model-deprecation watch, contestability, channel reliability, AI Safety Lead retention, sustainability KPIs, misuse detection), quarterly (moat reassessment, autonomy expansion review, regulator watch, stress refresh, tabletop exercise, reserves review, bankability rescore, valuation refresh, foundation-model platform risk, comparable scan, insurance review, tool registry proprietary share, AI Safety Lead succession, talent retention, customer rollout, training-data provenance audit, jobs-impact tracking), annual (full simulation, external ethics review, Wardley refresh, comp scan, sustainability annual review, multi-country expansion review).
 
 The agent cadence is operationalised through:
-- `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — cost per resolved
-- `skills/07-marketing-sales-strategy/saas-agent-pricing-strategy/SKILL.md` — pricing
-- `skills/06-competitive-analysis/saas-agent-moat-and-wrapper-risk/SKILL.md` — moat
-- `skills/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — risk + stress + drills
-- `skills/09-management-team/saas-agent-talent-strategy/SKILL.md` — talent
-- `skills/03-products-services/saas-agent-product-strategy-and-roadmap/SKILL.md` — autonomy ladder
-- `skills/13-implementation-timeline/saas-agent-implementation-timeline/SKILL.md` — rollout
-- `skills/16-sustainability-strategy/saas-agent-sustainability-and-ethics/SKILL.md` — ethics + sustainability
-- `skills/meta-agent-bankability-and-investor-readiness/SKILL.md` — scorecard
-- `skills/meta-agent-valuation-adjustments/SKILL.md` — valuation
-- `skills/meta-agent-board-and-investor-reporting/SKILL.md` — reporting
-- `skills/08-operations-plan/references/agent-operations-runbook-summary.md` — operations runbook
+- `skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — cost per resolved
+- `skills/pipeline/07-marketing-sales-strategy/saas-agent-pricing-strategy/SKILL.md` — pricing
+- `skills/pipeline/06-competitive-analysis/saas-agent-moat-and-wrapper-risk/SKILL.md` — moat
+- `skills/pipeline/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — risk + stress + drills
+- `skills/pipeline/09-management-team/saas-agent-talent-strategy/SKILL.md` — talent
+- `skills/pipeline/03-products-services/saas-agent-product-strategy-and-roadmap/SKILL.md` — autonomy ladder
+- `skills/pipeline/13-implementation-timeline/saas-agent-implementation-timeline/SKILL.md` — rollout
+- `skills/pipeline/16-sustainability-strategy/saas-agent-sustainability-and-ethics/SKILL.md` — ethics + sustainability
+- `skills/meta-finance/meta-agent-bankability-and-investor-readiness/SKILL.md` — scorecard
+- `skills/meta-finance/meta-agent-valuation-adjustments/SKILL.md` — valuation
+- `skills/meta-reporting/meta-agent-board-and-investor-reporting/SKILL.md` — reporting
+- `skills/pipeline/08-operations-plan/references/agent-operations-runbook-summary.md` — operations runbook
 
 ## The MSPOT Annual Artefact
 
@@ -233,8 +233,8 @@ When variance exceeds threshold:
 - `book-extractions/cotton-run-a-saas-business-extraction.md` — MSPOT discipline (section 10)
 - `book-extractions/haines-how-to-create-a-business-case-extraction.md` — post-implementation audit, decision-log discipline
 - `book-extractions/walling-saas-playbook-extraction.md` — customer-conversation cadence as living-strategy input
-- `skills/meta-quarterly-gameplan/SKILL.md` — quarterly operational rhythm (sister skill)
-- `skills/meta-monitoring-evaluation/SKILL.md` — KPI dashboard discipline (sister skill)
+- `skills/meta-strategy/meta-quarterly-gameplan/SKILL.md` — quarterly operational rhythm (sister skill)
+- `skills/meta-strategy/meta-monitoring-evaluation/SKILL.md` — KPI dashboard discipline (sister skill)
 
 ## Africa / Uganda Context
 

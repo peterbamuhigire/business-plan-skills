@@ -28,45 +28,6 @@ Use `meta-digital-transformation` first when the broader question is how the bus
 - Do not recommend automation before understanding the underlying process and economics.
 - Do not imply that AI removes the need for ownership, controls, or customer trust.
 
-## Required Inputs
-
-- Current workflows, pain points, data availability, and technology baseline
-- Budget, team capability, and implementation constraints
-- Customer, regulatory, and risk context affecting AI feasibility
-- Adjacent sections on operations, finance, implementation, and sustainability
-
-## Workflow
-
-1. Identify the processes where AI could change cost, speed, quality, or customer experience.
-2. Redesign the process first, then test whether AI is the right next lever.
-3. Select practical tools, capabilities, and rollout phases.
-4. Quantify costs, savings, and control requirements.
-5. Reconcile AI recommendations with operations, staffing, risk, and budget.
-6. If the plan uses AI agents or autonomous workflows, apply `references/agentic-ai-business-plan-gates.md` before claiming efficiency, scalability, or competitive advantage.
-7. Flag weak assumptions, missing data, or governance gaps.
-
-## Quality Bar
-
-- AI use cases are specific to the business and commercially justified.
-- Tool, data, and governance recommendations are realistic.
-- Human review boundaries are clear for high-stakes decisions.
-- The section reads as an execution plan, not AI theatre.
-
-## Anti-Patterns
-
-- Listing fashionable tools without mapping them to business processes.
-- Assuming AI savings without baseline labour or error-cost estimates.
-- Ignoring adoption, data quality, or customer-trust issues.
-- Presenting AI as a substitute for operational discipline.
-
-## Outputs
-
-- A finished or revised Section 14 AI integration strategy
-- Prioritised use cases, economics, and governance boundaries
-- Explicit assumptions and dependencies for implementation follow-up
-
-
-
 Generate a practical AI utilisation plan that demonstrates the business is AI-smart  a competitive requirement in 2026.
 
 ## Why This Section Exists
@@ -239,21 +200,21 @@ Do not treat tool subscriptions as transformation.
 
 When AI is a customer-facing feature in a SaaS / ICT business plan (not just internal efficiency), this Section 14 is the cross-section integrator. The deep AI-on-SaaS skills sit in their natural homes:
 
-- **Section 03**: `skills/03-products-services/saas-ai-product-strategy-and-roadmap/` — AI product strategy (build/buy/host/orchestrate; model router; eval-driven dev; AI roadmap by ARR with cost gating)
-- **Section 04**: `skills/04-market-analysis/saas-ai-market-and-tam/` — AI-aware TAM with attribution discipline
-- **Section 06**: `skills/06-competitive-analysis/saas-ai-moat-and-defensibility/` — 7-question moat test + false-moat catalogue + Wardley placement + foundation-model platform-risk
-- **Section 07**: `skills/07-marketing-sales-strategy/saas-ai-pricing-strategy/` — AI pricing architecture (tier × model × allowance × overage × FX)
-- **Section 09**: `skills/09-management-team/saas-ai-talent-strategy/` — AI talent (roles by ARR, African talent map, retention)
-- **Section 10**: `skills/10-financial-projections/saas-ai-unit-economics-and-cogs/` — AI COGS waterfall + AI GM trajectory + AI-cost-%-of-ARR
-- **Section 10**: `skills/10-financial-projections/saas-ai-cost-of-tenant-calculator/` — per-tenant cost calculator with sensitivity matrix
-- **Section 11**: `skills/11-funding-request/saas-ai-funding-stage-playbook/` — stage ladder + investor archetype + grant + commercial blend
-- **Section 11b**: `skills/11b-grant-proposal/saas-ai-for-good-grant-proposal/` — AI-for-good grant proposal
-- **Section 12**: `skills/12-risk-analysis/saas-ai-risk-and-stress-test/` — 14-category AI risk register + 6 quantified stress scenarios
-- **Section 16**: `skills/16-sustainability-strategy/saas-ai-sustainability-and-ethics/` — AI ethics + sustainability + governance committee + AI-incident protocol
-- **Meta**: `skills/meta-ai-bankability-and-investor-readiness/` — AI bankability scorecard
-- **Meta**: `skills/meta-ai-valuation-adjustments/` — AI premium / discount logic
-- **Meta**: `skills/meta-living-plan-governance/SKILL.md` — AI cadence (eval weekly, hallucination monthly, cost-per-tenant monthly, retraining trigger, model deprecation watch)
-- **Meta**: `skills/meta-board-and-investor-reporting/references/saas-ai-board-pack-section.md` — AI section of quarterly board pack
+- **Section 03**: `skills/pipeline/03-products-services/saas-ai-product-strategy-and-roadmap/` — AI product strategy (build/buy/host/orchestrate; model router; eval-driven dev; AI roadmap by ARR with cost gating)
+- **Section 04**: `skills/pipeline/04-market-analysis/saas-ai-market-and-tam/` — AI-aware TAM with attribution discipline
+- **Section 06**: `skills/pipeline/06-competitive-analysis/saas-ai-moat-and-defensibility/` — 7-question moat test + false-moat catalogue + Wardley placement + foundation-model platform-risk
+- **Section 07**: `skills/pipeline/07-marketing-sales-strategy/saas-ai-pricing-strategy/` — AI pricing architecture (tier × model × allowance × overage × FX)
+- **Section 09**: `skills/pipeline/09-management-team/saas-ai-talent-strategy/` — AI talent (roles by ARR, African talent map, retention)
+- **Section 10**: `skills/pipeline/10-financial-projections/saas-ai-unit-economics-and-cogs/` — AI COGS waterfall + AI GM trajectory + AI-cost-%-of-ARR
+- **Section 10**: `skills/pipeline/10-financial-projections/saas-ai-cost-of-tenant-calculator/` — per-tenant cost calculator with sensitivity matrix
+- **Section 11**: `skills/pipeline/11-funding-request/saas-ai-funding-stage-playbook/` — stage ladder + investor archetype + grant + commercial blend
+- **Section 11b**: `skills/pipeline/11b-grant-proposal/saas-ai-for-good-grant-proposal/` — AI-for-good grant proposal
+- **Section 12**: `skills/pipeline/12-risk-analysis/saas-ai-risk-and-stress-test/` — 14-category AI risk register + 6 quantified stress scenarios
+- **Section 16**: `skills/pipeline/16-sustainability-strategy/saas-ai-sustainability-and-ethics/` — AI ethics + sustainability + governance committee + AI-incident protocol
+- **Meta**: `skills/meta-finance/meta-ai-bankability-and-investor-readiness/` — AI bankability scorecard
+- **Meta**: `skills/meta-finance/meta-ai-valuation-adjustments/` — AI premium / discount logic
+- **Meta**: `skills/meta-strategy/meta-living-plan-governance/SKILL.md` — AI cadence (eval weekly, hallucination monthly, cost-per-tenant monthly, retraining trigger, model deprecation watch)
+- **Meta**: `skills/meta-reporting/meta-board-and-investor-reporting/references/saas-ai-board-pack-section.md` — AI section of quarterly board pack
 - **Country context**: `country-context/africa-regional/africa-ai-context-extension.md` — Africa-AI context (compute scarcity, GPU, sovereign-AI, local-language, national policies KE / NG / ZA / RW / EG / UG)
 - **Audit**: `book-extractions/ai-on-saas-business-plan-audit-2026.md` — what was added and why
 
@@ -265,12 +226,10 @@ This section (14) remains the **operational AI integration** layer (where AI is 
 - **AI Economics Framework**: See `references/ai-economics-framework.md` for the core economics of AI adoption  the prediction-as-cheap-input thesis, the seven-component anatomy of a decision (input data, training data, prediction, judgment, action, outcome, feedback), what becomes more valuable as prediction gets cheap (judgment, data, action capacity), the workflow redesign principle (reengineering before automating), the AI Canvas tool, tool vs. transformation modes of adoption, stakes-based risk framework (recoverable vs. catastrophic errors), the new human-machine division of labour (known knowns/unknowns taxonomy), first-mover vs. fast-follower timing strategy, Uganda/East Africa-specific AI tools table, and a full AI Strategy Checklist for business plan writers  from Agrawal, Gans & Goldfarb, *Prediction Machines* (Harvard Business Review Press, 2022, updated edition); includes worked examples for customer service, inventory, marketing, finance, and quality control in the Uganda context
 - **Uganda ICT IP Guidelines**: See `references/uganda-ict-ip-guidelines.md` for the complete IP framework for technology and digital businesses in Uganda  covering copyright duration (50 years for software), trademark registration (renewable in 10-year blocks), patent and utility model terms, trade secret protection for algorithms, data protection obligations under the Data Protection and Privacy Act 2019, open source licensing strategy, source code escrow, IP ownership in commissioned software contracts, URSB registration process, international protection via WIPO/ARIPO/Berne Convention, MoICT&NG's roles (IP guidance, incentivisation, commercialisation, monitoring, landscape analysis, capacity building), revenue sharing structure (25% to government for MoICT&NG-funded innovations), and NDA/assignment/revenue-sharing agreement templates  from MoICT&NG, Uganda ICT IP Guidelines Version 1, January 2025
 - **Digital innovation strategy**: See `references/digital-innovation-strategy.md` for the 6D cyclical strategy model (Discover/Detect/Diagnose/Direct/Deliver/Dexterity), Strategy Nucleus (five-layer purpose architecture), Three Horizons multimodalism (H1 exploitative/H2 extending/H3 exploratory  simultaneous not sequential), Doblin's 10 Types of Innovation (configuration/offering/experience domains), Blue Ocean Strategy five-step process, VRIN analysis framework, Design Thinking five steps, Transform Loop (Scan/Prioritise/Learn/Experiment/Plan/Build), Transformation Backlog priority matrix, Industry 4.0 maturity ladder (digitisation  digitalisation  digital transformation), and Uganda/EA application including East African AI ecosystem (Farmbetter, Apollo, JUMO, M-KOPA)  from Digital Business Strategy (2024) and Palfreyman (2020). **Read when designing the AI strategy section, mapping innovation types, assessing competitive uniqueness of digital assets, or building a digital transformation roadmap.**
-- **Broader digital-transformation framing**: See `../meta-digital-transformation/SKILL.md`, `../book-extractions/rogers-digital-transformation-playbook-extraction.md`, and `../book-extractions/molenaar-demand-driven-business-strategy-extraction.md` when AI recommendations need to sit inside customer-network, platform, data, or demand-driven business-model logic rather than stand alone.
+- **Broader digital-transformation framing**: See `skills/meta-strategy/meta-digital-transformation/SKILL.md`, `book-extractions/rogers-digital-transformation-playbook-extraction.md`, and `book-extractions/molenaar-demand-driven-business-strategy-extraction.md` when AI recommendations need to sit inside customer-network, platform, data, or demand-driven business-model logic rather than stand alone.
 - **Algorithmic AI transformation**: See `references/algorithmic-ai-transformation.md` for McNeill's five-step algorithm (question requirements, delete steps, simplify, accelerate, automate last), the "entire customer experience" lens, Francis Goh's CX-led AI adoption logic, AI literacy and adoption requirements, and ROI metrics that matter. **Read when a client wants AI efficiency but the real issue may be process design, service quality, or organisational adoption.**
 - **Agentic AI business plan gates**: See `references/agentic-ai-business-plan-gates.md` for autonomy levels, use-case scoring, evidence checklist, people/process transformation rule, and investor/lender red flags for agentic AI claims. **Read when the plan includes AI agents, autonomous workflows, AI-enabled staffing leverage, or automation savings that depend on human review, data quality, or governance.**
 - **AI for sustainability and circular economy**: See `references/ai-sustainability-tools.md` for 10-row AI tools table (Uganda feasibility and cost), AI-powered sustainability KPI monitoring (energy, water, cold chain, waste), circular economy AI applications (demand forecasting, predictive maintenance, by-product matching), 5-core minimum KPI set, cost-benefit template for AI sustainability investment, and highest-ROI AI sustainability tools for Uganda SMEs (solar monitoring, cold chain, EUDR traceability, GPS fleet tracking)  Source: Kumar et al. (CRC, 2025); Hak et al. (SCOPE/Island Press, 2007); Agrawal et al. (HBR Press, 2022). **Read when incorporating sustainability monitoring, circular economy optimisation, or EUDR/traceability compliance into the AI integration section.**
-
-## July 2026 Portable Contract
 
 <!-- dual-compat-start -->
 
@@ -298,7 +257,7 @@ This section (14) remains the **operational AI integration** layer (where AI is 
 | 14 ai integration decision record | Decision note | States the selected action, rejected credible alternative, countercase, rationale, and risk accepted or avoided. |
 | 14 ai integration review trace | Gate entry | Identifies the date, input versions, reviewer role, failed checks, recovery owner, and any check that remains not assessed. |
 
-## Capability and Permission Boundaries
+## Capability Contract
 
 For 14 ai integration, the controlling focus is process baseline, AI use-case value, data readiness, model or vendor choice, evaluation, human control, economics, and rollback. This skill may analyse and prototype within authorised data and tools; it may not expose client data, purchase services, deploy to production, grant autonomous permissions, or claim model capability without testing. Its normal mode is read-only analysis and drafting. Any mutation, external communication, spending, certification, or professional conclusion outside that boundary requires explicit authority and must remain traceable to the approving role.
 
@@ -343,10 +302,5 @@ For 14 ai integration, loss of evidence about 14 ai integration evidence, decisi
 ## Worked Example
 
 A forecasting assistant may reduce manual spreadsheet work, but source data has missing weeks and no baseline forecast. Repair the dataset, compare against the existing method, and retain manual planning until accuracy and decision-value gates pass.
-
-## References
-
-- Use the verified project evidence register and the owning upstream pipeline section for 14 ai integration; no local deep-dive reference is declared.
-- For 14 ai integration claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 
 <!-- dual-compat-end -->

@@ -16,6 +16,10 @@ BOOK_SOURCE_PATH_RE = re.compile(
     r"(?:^|/)(?:book-extractions?|book-dumps?|raw-books?|source-books?)(?:/|$)",
     re.IGNORECASE,
 )
+RAW_EXTRACTION_PATH_RE = re.compile(
+    r"(?:^|/)(?:_extractions?|raw[-_]?extractions?|raw[-_]?books?|book[-_]?dumps?|source[-_]?books?)(?:/|$)",
+    re.IGNORECASE,
+)
 FULL_TEXT_MARKERS = {
     "isbn": re.compile(r"\bISBN(?:-1[03])?\s*:?\s*[\dXx][\dXx\-\s]{8,}"),
     "copyright": re.compile(r"\bcopyright\s+(?:\u00a9|\(c\)|&copy;|[12]\d{3})", re.IGNORECASE),
@@ -64,6 +68,17 @@ def scan(root: Path) -> list[Finding]:
             continue
 
         in_book_source_path = BOOK_SOURCE_PATH_RE.search(relative.as_posix()) is not None
+        in_raw_extraction_path = RAW_EXTRACTION_PATH_RE.search(relative.as_posix()) is not None
+        if in_raw_extraction_path:
+            findings.append(
+                Finding(
+                    "raw-extraction-path",
+                    relative,
+                    "raw extraction paths are temporary inputs; retain a concise, attributed synthesis instead",
+                )
+            )
+            continue
+
         size = path.stat().st_size
         if suffix == ".pdf" and in_book_source_path:
             findings.append(
