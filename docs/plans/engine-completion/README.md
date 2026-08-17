@@ -20,7 +20,7 @@ The plan is based on:
 - the repository's current structure and standards in `AGENTS.md`
 - the latest repo evaluation in `docs/evaluation/2026-04-12/`
 - the March completion blueprints in `docs/march-18-analysis/`
-- the external analysis pack in `C:\Users\Peter\.claude\skills\docs\analysis`
+- the external analysis pack in the <a href="https://github.com/peterbamuhigire/chwezi-dev-engine" target="_blank" rel="noopener noreferrer">Chwezi Dev Engine</a>
 
 ## Critical Interpretation
 

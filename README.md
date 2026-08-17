@@ -1,12 +1,10 @@
 # Business Plan Skills Suite
 
-See [`docs/control-plane-adoption.md`](docs/control-plane-adoption.md) for the
-engine's agent roles, thin commands, lifecycle hooks, evidence contract, and
-stop/recovery behavior.
+The Business Plan Skills Suite is a repository of reusable skills for turning a business, investment, nonprofit, feasibility, or operating-change question into a structured plan, model, or decision pack. It covers intake, evidence design, market and business logic, operations, financial projections, implementation, monitoring, assembly, and release checks.
 
-The Business Plan Skills Suite is a modular, evidence-disciplined engine for turning a business, investment, nonprofit, feasibility, or execution question into a decision-ready plan and an auditable delivery bundle.
+Founders, management teams, advisers, analysts, nonprofit leaders, investors, lenders, grant applicants, and delivery owners use it to clarify decisions, test material assumptions, reconcile commercial and financial logic, and plan execution. The workflows organise work across `skills/`, `country-context/`, examples, templates, and validation tools without treating a generic template as evidence about a particular organisation or market.
 
-The current repository baseline records **126 active skills** across `skills/` and `country-context/`, three template resources, and a zero-failure structural baseline. The machine-readable source of truth for the count is `docs/quality/skill-quality-baseline.json`; do not maintain a second manually counted catalogue here.
+Used with project-specific evidence, the suite produces clearer choices, explicit assumptions, traceable financial and implementation logic, and a defined review and release path. It provides planning methods and validation structure, not automatic approval, professional accounting or legal sign-off, or current market facts; its agent roles, lifecycle hooks, evidence contract, and stop/recovery behaviour are documented in [`docs/control-plane-adoption.md`](docs/control-plane-adoption.md), while formal software requirements and lifecycle documentation belong with the <a href="https://github.com/peterbamuhigire/srs-skills" target="_blank" rel="noopener noreferrer">SRS Skills engine</a> when triggered.
 
 The default planning context is Uganda and East Africa, with UGX as the default currency. The methods are portable: country, sector, currency, audience, funding instrument, and regulatory context must be changed through evidence-backed project inputs rather than assumed from this default.
 
@@ -43,12 +41,12 @@ For a serious engagement, start with `skills/meta-strategy/business-plan-orchest
 | Nonprofit strategic planning | `skills/pipeline/` plus `skills/advisory-deliverables/me-framework-document/` | Governance, stakeholder, mission, resource, donor, safeguarding, and M&E requirements |
 | Facility move or major operating change | `skills/pipeline/13-implementation-timeline/` and `skills/pipeline/08-operations-plan/` | Charter, decision rights, readiness, continuity, inventory, capacity, cutover, stabilisation, and closeout evidence |
 | M&E and execution | `skills/meta-strategy/meta-monitoring-evaluation/` and `meta-quarterly-gameplan/` | Living-plan governance, KPI definitions, owners, cadence, thresholds, and decision logs |
-| Financial projections | `skills/pipeline/10-financial-projections/` | Chwezi accounting doctrine, finance review, workbook audit, stress tests, tax and regulatory verification |
+| Financial projections | `skills/pipeline/10-financial-projections/` | <a href="https://github.com/peterbamuhigire/chwezi-accounting-doctrine" target="_blank" rel="noopener noreferrer">Chwezi Accounting Doctrine</a>, finance review, workbook audit, stress tests, tax and regulatory verification |
 | SaaS or recurring revenue | `skills/saas/` and the relevant pipeline sections | Cohorts, CAC/LTV, retention, NRR, Rule of 40, ARR waterfall, COGS, pricing, and valuation |
 | AI-enabled business | `skills/pipeline/14-ai-integration/` and relevant SaaS skills | Problem-first AI selection, system and data risks, evaluation, AI cost, governance, drift, and human oversight |
 | Digital transformation | `skills/meta-strategy/meta-digital-transformation/` | Capability maturity, operating-model change, investment logic, sequencing, adoption, and benefits realisation |
-| Pitch or presentation | `skills/meta-pitch/` | `design-system-skills` for visual design and `digital-research-engine` for current evidence |
-| Proposal, tender, EOI, or RFP | Route to `proposal-skills` | Add this engine for the business case, commercial model, finance, or implementation content |
+| Pitch or presentation | `skills/meta-pitch/` | <a href="https://github.com/peterbamuhigire/design-system-skills" target="_blank" rel="noopener noreferrer">Design System Skills</a> for visual design and <a href="https://github.com/peterbamuhigire/digital-research-skills" target="_blank" rel="noopener noreferrer">Digital Research Engine</a> for current evidence |
+| Proposal, tender, EOI, or RFP | Route to <a href="https://github.com/peterbamuhigire/proposal-skills" target="_blank" rel="noopener noreferrer">Proposal Skills</a> | Add this engine for the business case, commercial model, finance, or implementation content |
 
 Use the smallest route that can answer the decision. Do not load every skill by default; add country, sector, funding, finance, design, document, website, accounting, or research overlays only when the engagement triggers them.
 
@@ -56,7 +54,7 @@ Use the smallest route that can answer the decision. Do not load every skill by 
 
 For a ready-to-run product or project operation, use [`prompts/full-kaizen-operation.md`](prompts/full-kaizen-operation.md).
 
-Continuous improvement is part of the engine itself and part of every product it produces. The governing skill is `skills/meta-strategy/kaizen-improvement-system/SKILL.md`, supported by `docs/continuous-improvement/kaizen-adoption-2026-08.md` and the portfolio standard maintained by `digital-research-engine`.
+Continuous improvement is part of the engine itself and part of every product it produces. The governing skill is `skills/meta-strategy/kaizen-improvement-system/SKILL.md`, supported by `docs/continuous-improvement/kaizen-adoption-2026-08.md` and the portfolio standard maintained by the <a href="https://github.com/peterbamuhigire/digital-research-skills" target="_blank" rel="noopener noreferrer">Digital Research Engine</a>.
 
 Every engine or product improvement follows this cycle:
 
@@ -135,7 +133,7 @@ Facility-move logic is reusable for relocations, ERP changes, infrastructure mig
 
 This engine handles financial modelling and business-plan financial logic; it is not a substitute for accounting doctrine or professional sign-off.
 
-For financial work, route to [Chwezi Accounting Doctrine](https://github.com/peterbamuhigire/chwezi-accounting-doctrine) whenever the engagement touches money flows, inventory, payroll, tax, grants, banking, mobile money, POS, fixed assets, statutory reporting, journals, reconciliations, period close, controls, audit evidence, IFRS/IAS, or finance-system integration. Read the relevant Chwezi doctrine, skill, and finance quality gate, and record the handoff.
+For financial work, route to the <a href="https://github.com/peterbamuhigire/chwezi-accounting-doctrine" target="_blank" rel="noopener noreferrer">Chwezi Accounting Doctrine</a> whenever the engagement touches money flows, inventory, payroll, tax, grants, banking, mobile money, POS, fixed assets, statutory reporting, journals, reconciliations, period close, controls, audit evidence, IFRS/IAS, or finance-system integration. Read the relevant Chwezi doctrine, skill, and finance quality gate, and record the handoff.
 
 Financial outputs should reconcile:
 
@@ -149,7 +147,7 @@ Use `tools/workbook-audit/formula_map.py` for XLSX formula and reconciliation ev
 
 ## Evidence, research, and current claims
 
-All current market, country, tax, regulatory, platform, legal, safety, pricing, exchange-rate, or benchmark claims must be verified through the [Digital Research Engine](https://github.com/peterbamuhigire/digital-research-skills). The engine's source register and evidence discipline distinguish:
+All current market, country, tax, regulatory, platform, legal, safety, pricing, exchange-rate, or benchmark claims must be verified through the <a href="https://github.com/peterbamuhigire/digital-research-skills" target="_blank" rel="noopener noreferrer">Digital Research Engine</a>. The engine's source register and evidence discipline distinguish:
 
 - Source discovery from claim-level verification.
 - An official portal from proof of a copied figure.
@@ -162,7 +160,7 @@ Before release, check `docs/source-registers/country-market-data.json`, apply `r
 
 ## What the 16-book study changed here
 
-The book-derived upgrade is recorded in the Digital Research Engine's [book study](https://github.com/peterbamuhigire/digital-research-skills/blob/main/docs/continuous-improvement/book-study-2026-08.md) and this engine's `docs/continuous-improvement/kaizen-adoption-2026-08.md`.
+The book-derived upgrade is recorded in the <a href="https://github.com/peterbamuhigire/digital-research-skills/blob/main/docs/continuous-improvement/book-study-2026-08.md" target="_blank" rel="noopener noreferrer">Digital Research Engine book study</a> and this engine's `docs/continuous-improvement/kaizen-adoption-2026-08.md`.
 
 - **LEAN: Ultimate Collection** informed Build-Measure-Learn, validated learning, innovation accounting, KPI cadence, waste and value analysis, experiments, progressive implementation, and learning-organisation practices. It is a compilation with uneven source quality; original authoritative sources govern exact definitions.
 - **Applying the Kaizen in Africa** informed participatory and incremental improvement, PDCA, 5S, muda reduction, QC Story, standardisation, management commitment, on-site observation, and institutional sustainability. African cases guide adaptation; they do not guarantee results in a client setting.
@@ -245,7 +243,7 @@ The release gate remains blocked by missing mandatory research, finance, spreads
 - The 65/100 audit ceiling does not mean an engine or product is acceptable. It forces an honest capped baseline and a visible plan toward 95/100.
 - Missing evidence, unavailable tools, unavailable reviewers, and unresolved professional judgements remain `not assessed` and narrow the conclusion.
 - Finance, tax, accounting, legal, regulatory, safeguarding, and other professional conclusions require the applicable doctrine, authority, or qualified reviewer.
-- Design and visual-formatting work routes to [Design System Skills](https://github.com/peterbamuhigire/design-system-skills); content and business logic remain here.
+- Design and visual-formatting work routes to <a href="https://github.com/peterbamuhigire/design-system-skills" target="_blank" rel="noopener noreferrer">Design System Skills</a>; content and business logic remain here.
 - Proposal, website, social-media, software, Linux, research, accounting, and design work routes to their canonical sibling engines when triggered. Do not copy or mirror those engines into this repository.
 
 ## Contribution and release discipline
