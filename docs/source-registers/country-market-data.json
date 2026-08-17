@@ -53,8 +53,8 @@
       "source_type": "competent-authority",
       "url": "https://ura.go.ug/en/dt-faqs/",
       "claim_families": ["tax registration", "returns", "payments", "customs"],
-      "checked_on": "2026-07-13",
-      "recheck_due": "2026-08-13",
+      "checked_on": "2026-08-18",
+      "recheck_due": "2026-09-18",
       "status": "verified-current",
       "owner": "finance gate owner",
       "note": "Verify the current Act, Finance Act, effective date, and taxpayer facts before using a rate or threshold."
@@ -81,8 +81,8 @@
       "source_type": "competent-authority",
       "url": "https://www.nema.go.ug/en/regulations/",
       "claim_families": ["environmental screening", "ESIA", "waste", "air", "effluent"],
-      "checked_on": "2026-07-13",
-      "recheck_due": "2026-08-13",
+      "checked_on": "2026-08-18",
+      "recheck_due": "2026-09-18",
       "status": "verified-current",
       "owner": "regulatory gate owner",
       "note": "Screen the actual project and location; do not infer an approval requirement from sector alone."
@@ -123,8 +123,8 @@
       "source_type": "competent-authority",
       "url": "https://bou.or.ug/supervision",
       "claim_families": ["financial licensing", "payments", "credit institutions", "foreign exchange"],
-      "checked_on": "2026-07-13",
-      "recheck_due": "2026-08-13",
+      "checked_on": "2026-08-18",
+      "recheck_due": "2026-09-18",
       "status": "verified-current",
       "owner": "finance gate owner",
       "note": "Regulatory perimeter and licensing status require competent legal and regulatory review."
