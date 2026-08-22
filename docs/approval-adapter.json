@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "engine": "business-plan",
+  "policy_version": "approval-policy-1.0.0",
+  "actions": [
+    {"action_type":"business-plan.draft","class":"L1","side_effect":"local-draft","owner":"plan-owner","allowed_approver_roles":["plan-owner"],"requires_dual_approval":false,"preview_required":true,"approval_ttl_seconds":null,"idempotency_required":true,"rollback":"discard-draft","verification":"structure-and-source-check","sensitive_fields":["client-data"]},
+    {"action_type":"business-plan.assumptions.approve","class":"L3","side_effect":"decision-input-approval","owner":"plan-owner","allowed_approver_roles":["management-owner","finance-reviewer"],"requires_dual_approval":true,"preview_required":true,"approval_ttl_seconds":900,"idempotency_required":true,"rollback":"restore-assumption-version","verification":"assumption-register-and-sensitivity-check","sensitive_fields":["commercial-data"]},
+    {"action_type":"business-plan.model.logic.change","class":"L3","side_effect":"financial-model-change","owner":"finance-owner","allowed_approver_roles":["finance-reviewer","management-owner"],"requires_dual_approval":true,"preview_required":true,"approval_ttl_seconds":900,"idempotency_required":true,"rollback":"restore-model-version","verification":"formula-and-reconciliation-check","sensitive_fields":["financial-data"]},
+    {"action_type":"business-plan.bankability.declare","class":"L3","side_effect":"high-impact-readiness-claim","owner":"plan-owner","allowed_approver_roles":["management-owner","finance-reviewer"],"requires_dual_approval":true,"preview_required":true,"approval_ttl_seconds":900,"idempotency_required":true,"rollback":"withdraw-or-correct-declaration","verification":"evidence-and-downside-case-check","sensitive_fields":["financial-data","investor-data"]},
+    {"action_type":"business-plan.funding.recommendation.release","class":"L3","side_effect":"funding-or-valuation-recommendation","owner":"plan-owner","allowed_approver_roles":["management-owner","finance-reviewer"],"requires_dual_approval":true,"preview_required":true,"approval_ttl_seconds":900,"idempotency_required":true,"rollback":"issue-correction-and-reassessment","verification":"scenario-and-source-check","sensitive_fields":["valuation","funding-data"]},
+    {"action_type":"business-plan.external.release","class":"L3","side_effect":"lender-investor-donor-board-release","owner":"management-owner","allowed_approver_roles":["management-owner","plan-owner"],"requires_dual_approval":true,"preview_required":true,"approval_ttl_seconds":900,"idempotency_required":true,"rollback":"recall-and-reissue-plan","verification":"final-file-and-recipient-check","sensitive_fields":["confidential-plan","financial-data"]}
+  ]
+}

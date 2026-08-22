@@ -36,3 +36,10 @@ create an untracked model.
 
 Missing evidence is `NOT ASSESSED`, never a pass. Improvements are promoted
 only with an owner, experiment, acceptance evidence, and re-audit date.
+
+## Human approval adapter
+
+Bankability, model, funding, and external-release controls are detailed in
+[`approval-enforcement.md`](approval-enforcement.md) and catalogued in
+[`approval-adapter.json`](approval-adapter.json). Final declarations and
+external releases must use the shared trusted gate after the evidence preview.
