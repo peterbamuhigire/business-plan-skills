@@ -159,4 +159,20 @@ Accept the SaaS go-to-market motion only when evidence is sufficient for this de
 
 A low-ACV product proposes field sales across three countries. Compare sales-led payback with product-led and partner routes, then select the motion that matches buyer behaviour and CAC recovery.
 
+## Product-readiness gate for the chosen motion
+
+Do not select PLG merely because it is fashionable. Require evidence that the
+target user can reach first value with a self-serve path, that onboarding can
+defer nonessential setup, and that activation, retention, support load, and
+conversion events are instrumented. If the path needs education, integration,
+trust-building, or buyer coordination, model a sales-assisted or hybrid motion
+instead and state the boundary.
+
+For a launch or scale recommendation, pair the motion with one reversible
+learning cycle: hypothesis, audience, behaviour, threshold, guardrail, owner,
+time box, and decision consequence. Keep design-system and service capacity in
+the operating and financial model.
+
+Practitioner cross-checks: [Eleken SaaS launch](https://www.eleken.co/blog-posts/how-to-launch-a-saas-business), [startup scaling](https://www.eleken.co/blog-posts/scaling-your-startup-how-it-looks-from-the-product-design-perspective), and [design-system checklist](https://www.eleken.co/blog-posts/design-system-checklist). Use for prompts only; verify current commercial claims separately.
+
 <!-- dual-compat-end -->

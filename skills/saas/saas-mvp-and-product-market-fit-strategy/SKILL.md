@@ -172,4 +172,19 @@ Accept the MVP-to-PMF learning plan only when evidence is sufficient for this de
 
 Sign-ups rise after a promotion, but successive cohorts do not retain. Keep the product pre-PMF, interview the retained minority, and test the next behaviour change against a predeclared retention signal.
 
+## Activation and scale discipline
+
+Define PMF with product-specific evidence rather than a fixed universal
+threshold. Track a named first-value event separately from signup, then inspect
+repeat behaviour, retention, referrals or renewal, support burden, and delivery
+capacity. A polished prototype, acquisition spike, or founder enthusiasm cannot
+close the PMF gate.
+
+Before recommending scale, confirm a repeatable value path, a maintainable
+design/component system, onboarding that minimises nonessential setup, and an
+operating/support capacity plan. If evidence is mixed, preserve a reversible
+experiment and explicit pivot/stop rule.
+
+Practitioner cross-checks: [Eleken SaaS launch](https://www.eleken.co/blog-posts/how-to-launch-a-saas-business), [startup scaling](https://www.eleken.co/blog-posts/scaling-your-startup-how-it-looks-from-the-product-design-perspective), and [mobile onboarding](https://www.eleken.co/blog-posts/mobile-app-onboarding-best-practices). Exclude their market statistics, time estimates, and case outcomes.
+
 <!-- dual-compat-end -->

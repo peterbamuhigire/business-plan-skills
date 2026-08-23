@@ -267,4 +267,20 @@ A founder plans six months of development for a supplier marketplace. First test
 
 - [`AGENTS.md`](../../../AGENTS.md) - repository routing, evidence, finance, and release rules.
 
+## Market-to-commitment validation ladder
+
+Before expensive build or launch, test in stages: define the target user and
+problem; inspect demand, trends, alternatives, and saturation; run interviews or
+observation; test a concept/landing page; prototype or deliver manually; then
+seek real use, payment, renewal, LOI, or another material commitment where
+appropriate. Search volume, compliments, registrations, and portfolio examples
+are signals, not validation.
+
+For every stage record the hypothesis, sample/segment, behaviour, threshold,
+guardrail, time window, decision, and remaining unknowns. Escalate evidence only
+when the next investment decision requires it. This keeps validation reversible
+and prevents a launch plan from substituting for product proof.
+
+Practitioner cross-check: [Eleken product-idea validation](https://www.eleken.co/blog-posts/how-to-validate-product-ideas) and [UX ideas](https://www.eleken.co/blog-posts/ux-design-ideas); corroborating practice: [GOV.UK plan user research](https://www.gov.uk/service-manual/user-research/plan-user-research-for-your-service).
+
 <!-- dual-compat-end -->
