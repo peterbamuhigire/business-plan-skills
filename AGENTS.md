@@ -217,3 +217,9 @@ engine; presentation comes from design-system-skills. Hard rule: never use a ban
 (Inter, Geist, Roboto, Arial, Open Sans, Lato, Space Grotesk, bare system stacks) as primary
 type — state the chosen typeface and reason before producing any artifact.
 <!-- /design-system-skills:trigger -->
+
+## Human-English editorial standard (2026-08 Kaizen)
+
+Every business plan, pitch, proposal, report, blog post, executive summary, and client-facing message must also load [`book-extractions/human-english-craft-synthesis-2026.md`](book-extractions/human-english-craft-synthesis-2026.md). Apply its five passes in real time: reader and purpose, genre and spine, meaning and evidence, sentence/paragraph craft, and proof/read-aloud. Use it alongside `skills/language/writing-quality/`, `skills/language/language-standards/`, and `skills/meta-utility/anti-ai-slop/`; it does not replace financial, market, or reasoning gates.
+
+The standard requires audience-fit British English, concrete nouns, exact verbs, controlled vocabulary, correct grammar and collocation, varied intentional rhythm, visible judgement, and a distinct register for plans, proposals, social copy, web copy, research, political writing, and app messages. Natural writing must never be simulated with errors, slang, fake anecdotes, or unsupported certainty.

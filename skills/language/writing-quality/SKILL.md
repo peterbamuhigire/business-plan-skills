@@ -61,6 +61,10 @@ Use this skill as the language-quality layer for the suite. It sharpens clarity,
 - Notes on structural or evidence issues the prose cannot solve
 - A sharper language baseline for adjacent section work
 
+## Book-derived reader-craft overlay
+
+Load [`human-english-craft-synthesis-2026.md`](../../../book-extractions/human-english-craft-synthesis-2026.md) before drafting or polishing. Apply the five passes—reader and purpose, genre and spine, meaning and evidence, sentence/paragraph craft, and proof/read-aloud. Use grammar and vocabulary references diagnostically; never replace a sound argument with ornament, and never simulate humanity with errors or slang.
+
 
 
 Apply these principles to all business plan text. The goal: the reader forgets they are reading a document and simply finds themselves persuaded.
@@ -86,7 +90,7 @@ Apply these principles to all business plan text. The goal: the reader forgets t
 4. **Active voice**  "The business generates UGX 24M/month" not "Revenue of UGX 24M/month is generated."
 5. **You and we**  address the reader directly. "You will see from the projections..." not "It can be observed..."
 6. **Jargon discipline**  use technical terms only when the reader knows them. Define on first use.
-7. **One idea per paragraph**  open with the main point, support it, close it. Max 34 sentences.
+7. **One idea per paragraph**  open with the main point, support it, close or link it. Usually keep it to five sentences or fewer, but let the thought—not a template—set the length.
 8. **Positive framing**  "Repayment begins in month 4" not "Repayment will not start before month 4."
 9. **Concrete over abstract**  "The mill processes 800kg per hour" not "The mill has significant capacity."
 10. **Cut the preamble**  delete the first sentence of any paragraph that merely announces what follows.
@@ -114,22 +118,22 @@ Every paragraph in a business plan should follow this formula:
 
 ```text
 1. Key sentence     state the point directly (topic sentence)
-2. Development      24 sentences of evidence, examples, or data
+2. Development      two to four sentences of evidence, example, or data as the thought requires
 3. Link             one sentence drawing the conclusion or bridging to the next point
 ```
 
 **Introduction structure** (executive summary, section openers):
 1. Hook  a specific, surprising, or urgent opening statement
-2. Context  12 sentences orienting the reader
+2. Context  one or two sentences orienting the reader
 3. Thesis  the main claim or argument in one sentence
 4. Signpost  briefly indicate what follows
 
 **Conclusion structure** (executive summary close, funding request close):
 1. Signal  "This plan demonstrates that..." / "The evidence shows..."
-2. Summary  23 sentences restating the strongest points
+2. Summary  two or three sentences restating the strongest points
 3. Rounding-off sentence  one final sentence the reader will not forget
 
-**Transitions by function:**
+**Transitions by function:** choose the connector that expresses the actual relationship. Do not add one merely to make the prose look organised.
 
 | Purpose | Linking devices |
 |---|---|

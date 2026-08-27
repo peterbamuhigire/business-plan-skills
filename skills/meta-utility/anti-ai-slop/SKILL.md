@@ -49,7 +49,7 @@ Apply these rules **continuously, as you write and model** — to every section,
 6. Run the ship gate. If any box is unticked, the output is not ready.
 7. When in doubt, hand the draft to `ai-slop-audit` for a graded verdict.
 
-## Quality Bar
+## Quality Standards
 
 - Every section carries a concrete, named, business-specific element a template could not produce.
 - No financial or market claim ships unverified.
@@ -152,6 +152,7 @@ If any box is unticked, the output is not ready to ship.
 - `ai-slop-audit` supplies the independent checkpoint and release grade.
 - `writing-quality` governs business-plan prose mechanics beneath this gate.
 - `meta-critical-thinking-business-logic` tests claim, evidence, warrant, countercase, and implication.
+- `../../../book-extractions/human-english-craft-synthesis-2026.md` governs reader-fit register, grammar, collocation, rhythm, and proof alongside this gate.
 
 ## Required Inputs
 
