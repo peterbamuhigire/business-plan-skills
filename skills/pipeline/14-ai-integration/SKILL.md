@@ -303,4 +303,6 @@ For 14 ai integration, loss of evidence about 14 ai integration evidence, decisi
 
 A forecasting assistant may reduce manual spreadsheet work, but source data has missing weeks and no baseline forecast. Repair the dataset, compare against the existing method, and retain manual planning until accuracy and decision-value gates pass.
 
+For a foundation investment or data-product case, load [AI data foundation investment case](references/ai-data-foundation-investment-case.md).
+
 <!-- dual-compat-end -->

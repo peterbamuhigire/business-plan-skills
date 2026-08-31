@@ -136,6 +136,10 @@ Build the section from the compact checklist in `references/section-07-output-ch
 - For service businesses: a referral system and niche positioning statement are included
 - Direct response elements (direct mail, WhatsApp broadcast, SMS) follow tested architecture: list, offer, letter, reply device
 
+## Book-derived additions
+
+For institutional or public-health communication, load [institutional health trust communication](references/institutional-health-trust-communication.md) and retain qualified review for health claims.
+
 ## References
 
 - **Marketing metrics and formulas**: See `references/marketing-metrics.md` for comprehensive marketing measurement formulas, ROI calculations, channel attribution, and performance benchmarks from Farris

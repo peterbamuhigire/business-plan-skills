@@ -133,4 +133,6 @@ Risk ratings must be reasoned, controls testable, evidence retained, and limitat
 ## Worked Example
 
 Where one staff member creates and pays suppliers, rate the segregation risk, verify whether an independent bank and supplier-master review actually operates, sample its evidence, and keep operating effectiveness unassessed if records are unavailable.
+For NGO cyber-resilience investment and control capacity, load [NGO cyber-resilience investment conditions](references/ngo-cyber-resilience-investment-conditions.md).
+
 <!-- dual-compat-end -->

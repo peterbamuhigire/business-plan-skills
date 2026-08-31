@@ -173,6 +173,10 @@ The book-derived upgrade is recorded in the <a href="https://github.com/peterbam
 
 The two unreadable extractions, *Kaizen and the Art of Creative Thinking* and *Anatomy for Artists*, were not used to invent business-plan guidance. Historical, partial, duplicated, or practical books are treated as method inputs, not current legal, market, technical, financial, or professional authority.
 
+## September 2026 book-driven Kaizen wave
+
+See [`docs/continuous-improvement/book-driven-kaizen-2026-09-01.md`](docs/continuous-improvement/book-driven-kaizen-2026-09-01.md) for the AI/data-foundation, health-trust, and NGO cyber-resilience additions.
+
 ## Repository architecture
 
 ```text
