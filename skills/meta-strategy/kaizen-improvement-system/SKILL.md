@@ -94,9 +94,19 @@ validators, and handoffs; then for the individual plan, model, pitch, or strateg
 
 If a market test raises enquiries but worsens fulfilment capacity, retain the result as mixed evidence, keep the capacity guardrail, revise the offer or process, and re-test before changing the plan.
 
+## Mandatory Digital Research currentness gate
+
+Every Kaizen cycle must begin with `digital-research-skills` source evaluation
+and source verification. Record scope, dates, freshness class, support status,
+uncertainty, and review date for current market, legal, policy, technology,
+platform, finance, and lifecycle claims; quarantine unsupported claims as
+`NOT_ASSESSED`. Apply the [portfolio Kaizen currentness gate](../../../../digital-research-skills/docs/continuous-improvement/kaizen-currentness-gate.md).
+
 ## References
 
 - [Local adoption plan](../../../docs/continuous-improvement/kaizen-adoption-2026-08.md)
 - Portfolio standard: resolve `digital-research-skills` through the global engine-routing table, then read `docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md`.
 - `skills/meta-strategy/meta-market-validation/`
 - `skills/meta-strategy/meta-living-plan-governance/`
+- [Book-driven commercial system and validation](../references/book-driven-commercial-system-and-validation.md) - whole-system trade-offs, validation, replication, GTM, cash, and currentness.
+- [Marketing Plan Handbook operating loop](../references/marketing-plan-handbook-operating-loop.md) - adaptive customer-first planning, segmentation, strategy-to-program alignment, forecasting, budgeting, metrics, and control.

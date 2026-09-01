@@ -379,5 +379,6 @@ Sales assume 200 daily orders while timed packing supports 120. Stage acquisitio
 
 - Use the verified project evidence register and the owning upstream pipeline section for 08 operations plan; no local deep-dive reference is declared.
 - For 08 operations plan claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
+- Apply the [book-driven commercial system and validation reference](../../meta-strategy/references/book-driven-commercial-system-and-validation.md) when connecting operations to demand, capacity, cash, working capital, service levels, and currentness.
 
 <!-- dual-compat-end -->
