@@ -469,3 +469,6 @@ If a French draft contains a tax term with two plausible translations, retain th
 - `../east-african-english/SKILL.md` for the English-only country register.
 - `../writing-quality/SKILL.md` for argument, persuasion, and editorial structure.
 - `../../meta-utility/anti-ai-slop/SKILL.md` and `../../meta-utility/ai-slop-audit/SKILL.md` for production and release gates.
+## English collocation and lexical-precision overlay
+
+Load [`english-collocations-and-lexical-precision-2026-09-02.md`](../writing-quality/references/english-collocations-and-lexical-precision-2026-09-02.md) alongside this skill. It adds collocation, register, synonym, idiom, spelling, calibrated-claim, and human-quality checks without replacing the business-plan evidence or locale rules.

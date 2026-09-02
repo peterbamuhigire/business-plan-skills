@@ -314,3 +314,6 @@ Every section must earn its place. The writing must help a named reader decide, 
 
 Replace `The company is well positioned to capture this market` with the supported logic: `Three wholesalers have signed trial letters covering 1,200 units, but the plan still depends on the proposed line reaching the tested reject-rate ceiling. Commercial launch therefore follows the commissioning test, not the calendar date.`
 <!-- dual-compat-end -->
+## English collocation and lexical-precision overlay
+
+Load [`english-collocations-and-lexical-precision-2026-09-02.md`](references/english-collocations-and-lexical-precision-2026-09-02.md) before final revision. Apply its reader-fit, collocation, register, grammar, idiom, calibrated-claim, and anti-slop checks.

@@ -89,3 +89,7 @@ Do not ban a word merely because a model often uses it. Ban default usage that a
 ## Evidence record
 
 When this reference is applied, record: output type; reader and purpose; source/proof status; terms checked; substantive revision completed; read-aloud/proof status; unresolved language or evidence gaps; reviewer and date. A language pass cannot certify a weak proposition, unverified fact, or missing human approval.
+
+## Collocation and lexical-precision overlay (2026-09-02)
+
+Apply [`english-collocations-and-lexical-precision-2026-09-02.md`](../skills/language/writing-quality/references/english-collocations-and-lexical-precision-2026-09-02.md) for the two newly studied books. Use collocations and advanced vocabulary selectively; check sense, register, evidence, and audience before adoption. The target is educated, natural, commercially exact prose, not thesaurus display.

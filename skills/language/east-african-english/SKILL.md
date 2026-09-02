@@ -336,3 +336,6 @@ Change `We can't process this` to `We are unable to process the payment because 
 - `../language-standards/SKILL.md` for French, Kiswahili, and multilingual review.
 - `../writing-quality/SKILL.md` for argument, persuasion, and editorial structure.
 - `../../meta-utility/anti-ai-slop/SKILL.md` and `../../meta-utility/ai-slop-audit/SKILL.md` for production and release gates.
+## English collocation and lexical-precision overlay
+
+Load [`english-collocations-and-lexical-precision-2026-09-02.md`](../writing-quality/references/english-collocations-and-lexical-precision-2026-09-02.md). Use it to strengthen natural word partnerships, register, spelling, idiom restraint, and precise rather than showy vocabulary. Keep genuine East African warmth; do not use stock regional phrases, inflated formality, or errors to simulate humanity.
