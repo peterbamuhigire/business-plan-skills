@@ -110,3 +110,4 @@ platform, finance, and lifecycle claims; quarantine unsupported claims as
 - `skills/meta-strategy/meta-living-plan-governance/`
 - [Book-driven commercial system and validation](../references/book-driven-commercial-system-and-validation.md) - whole-system trade-offs, validation, replication, GTM, cash, and currentness.
 - [Marketing Plan Handbook operating loop](../references/marketing-plan-handbook-operating-loop.md) - adaptive customer-first planning, segmentation, strategy-to-program alignment, forecasting, budgeting, metrics, and control.
+- [Book-driven Kaizen Wave 3](../references/book-driven-kaizen-wave-3-2026-09-02.md) - hypotheses, capacity/cash guardrails, experiments, dashboards, and responsible AI economics.
