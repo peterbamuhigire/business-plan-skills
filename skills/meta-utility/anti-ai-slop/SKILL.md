@@ -231,6 +231,25 @@ Before keeping a sentence, paragraph, slide, or model note, check:
 Cut or merge units with no delta. Preserve repeated figures where they reconcile the model, but label
 derived values and do not invent specificity.
 
+### Impeccable-derived AS overlay
+
+Apply AS1-AS7 when the plan contains a website, dashboard, pitch deck, rendered document, or visual
+system. In ordinary plan prose use AS1, AS3, AS5, and AS6; mark other visual checks `not_applicable`.
+
+| ID | Business-plan overlay test |
+|---|---|
+| AS1 | Is the market-story template, palette, type, or layout justified by this company and audience? |
+| AS2 | Do labels, badges, hero metrics, or section numbers clarify the investment decision or merely stage it? |
+| AS3 | Do repeated sections/cards distinguish market, economics, and risk, or only clone a pitch template? |
+| AS4 | Does motion, glow, gradient, or effect communicate a real state or decision? |
+| AS5 | Is each customer, market, competitor, image, or example traceable rather than generic placeholder material? |
+| AS6 | Do buzzwords, em-dash cadence, aphoristic contrasts, or theatrical framing replace an evidenced business claim? |
+| AS7 | Does the rendered plan remain readable, accessible, complete, and free of overflow or hidden content? |
+
+For visual plans and presentations, purple gradients, glassmorphism, neon glow, AI-beige defaults,
+decorative editorial scaffolding, and decorative motion are no-ship choices. Preserve repeated
+figures and reconciliation fields when they carry model integrity; record the reason.
+
 - `../../meta-utility/ai-slop-audit/SKILL.md` — the detection, evaluation, and audit companion (grade any artefact for slop).
 - `../../language/writing-quality/SKILL.md` — the suite's language-quality layer; apply before this gate.
 - `../../language/language-standards/SKILL.md` — multilingual tone and grammar standard; apply on top.

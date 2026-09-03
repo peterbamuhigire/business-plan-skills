@@ -227,6 +227,14 @@ Report ME1-ME7 with the affected paragraph, slide, table, or model row and the m
 delta. A repeated number is not automatically a finding when it reconciles the model. A semantic
 finding requires human comparison of meaning; otherwise mark it `NOT_ASSESSED`.
 
+### Impeccable-derived overlay audit
+
+For dashboards, websites, decks, and rendered plans, audit AS1-AS7 with `cli`, `browser`,
+`llm_only`, or `human_review` evidence. Purple gradients, glassmorphism, neon glow, AI-beige
+defaults, decorative editorial scaffolding, and decorative motion are blocking visual findings
+unless a task, state, accessibility, data, or approved design-system reason is recorded. Mark
+visual checks `not_applicable` for text-only plans and unavailable render checks `NOT_ASSESSED`.
+
 - `../../meta-utility/anti-ai-slop/SKILL.md` — prevention companion (write/model/design so slop never appears).
 - `../../meta-strategy/meta-critical-thinking-business-logic/SKILL.md` — commercial-logic gate; a slop-clean plan can still be a bad plan.
 - `../../language/writing-quality/SKILL.md` — the suite's language-quality layer; apply domain tone on top.
