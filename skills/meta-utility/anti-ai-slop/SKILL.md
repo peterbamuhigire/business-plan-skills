@@ -213,6 +213,24 @@ Draft text says "the market is rapidly growing" without a source or decision imp
 
 <!-- dual-compat-end -->
 
+## Machine-error editorial gate (cross-engine Kaizen)
+
+Apply Digital Research's `docs/continuous-improvement/machine-errors-editorial-gate-2026-09-03.md`.
+Before keeping a sentence, paragraph, slide, or model note, check:
+
+| ID | Business-plan adaptation |
+|---|---|
+| ME1 | Does it add a different market fact, driver, decision, or implication rather than restating one? |
+| ME2 | Is the balanced strategy language showing a real trade-off or only decorative symmetry? |
+| ME3 | Can the investor act on the existing explanation without another recap? |
+| ME4 | Is the significance of the opportunity no larger than the evidence and forecast? |
+| ME5 | Is the customer, competitor, price, or example sourced and assignment-specific? |
+| ME6 | Has the same rhetorical device become a repeated pitch mannerism? |
+| ME7 | Does the paragraph change the decision, method, forecast, or risk view? |
+
+Cut or merge units with no delta. Preserve repeated figures where they reconcile the model, but label
+derived values and do not invent specificity.
+
 - `../../meta-utility/ai-slop-audit/SKILL.md` — the detection, evaluation, and audit companion (grade any artefact for slop).
 - `../../language/writing-quality/SKILL.md` — the suite's language-quality layer; apply before this gate.
 - `../../language/language-standards/SKILL.md` — multilingual tone and grammar standard; apply on top.

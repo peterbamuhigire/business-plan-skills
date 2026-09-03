@@ -221,6 +221,12 @@ A lender plan states a market growth rate without a source. Cite the exact line,
 
 <!-- dual-compat-end -->
 
+## Machine-error audit extension
+
+Report ME1-ME7 with the affected paragraph, slide, table, or model row and the missing information
+delta. A repeated number is not automatically a finding when it reconciles the model. A semantic
+finding requires human comparison of meaning; otherwise mark it `NOT_ASSESSED`.
+
 - `../../meta-utility/anti-ai-slop/SKILL.md` — prevention companion (write/model/design so slop never appears).
 - `../../meta-strategy/meta-critical-thinking-business-logic/SKILL.md` — commercial-logic gate; a slop-clean plan can still be a bad plan.
 - `../../language/writing-quality/SKILL.md` — the suite's language-quality layer; apply domain tone on top.
