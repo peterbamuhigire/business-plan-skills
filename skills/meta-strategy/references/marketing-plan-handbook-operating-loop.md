@@ -162,5 +162,5 @@ signal, not a reason to rewrite the baseline.
 
 ## References
 
-- [Portfolio Kaizen currentness gate](../../../../digital-research-skills/docs/continuous-improvement/kaizen-currentness-gate.md)
+- [Portfolio Kaizen currentness gate](../../../../digital-research-engine/docs/continuous-improvement/kaizen-currentness-gate.md)
 - [Book-driven commercial system and validation](book-driven-commercial-system-and-validation.md)

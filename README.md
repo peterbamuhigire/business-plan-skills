@@ -1,6 +1,6 @@
 # Business Plan Skills Suite
 
-The Business Plan Skills Suite is a repository of reusable skills for turning a business, investment, nonprofit, feasibility, or operating-change question into a structured plan, model, or decision pack. It covers intake, evidence design, market and business logic, operations, financial projections, implementation, monitoring, assembly, and release checks.
+The Business Plan Skills Suite turns a defined business, investment, nonprofit, feasibility, or operating-change question into a decision-ready plan, model, or pack through evidence, explicit assumptions, reconciled financial logic, and staged execution choices. It develops the work section by section and decision by decision, preserving the detail a founder, lender, investor, grant-maker, or delivery owner needs to challenge, fund, and operate the plan.
 
 Founders, management teams, advisers, analysts, nonprofit leaders, investors, lenders, grant applicants, and delivery owners use it to clarify decisions, test material assumptions, reconcile commercial and financial logic, and plan execution. The workflows organise work across `skills/`, `country-context/`, examples, templates, and validation tools without treating a generic template as evidence about a particular organisation or market.
 

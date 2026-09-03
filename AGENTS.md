@@ -10,7 +10,7 @@ The package may read the router, discover skills, inspect Git, and run only decl
 
 Every Kaizen audit, skill edit, reference update, validator change, and
 standardisation decision MUST begin with the Digital Research Engine at
-`C:\wamp64\www\digital-research-skills`. Read its `source-evaluation` and
+`C:\wamp64\www\digital-research-engine`. Read its `source-evaluation` and
 `source-verification` skills and the currentness gate reference
 `docs/continuous-improvement/kaizen-currentness-gate.md`.
 
@@ -238,3 +238,7 @@ type — state the chosen typeface and reason before producing any artifact.
 Every business plan, pitch, proposal, report, blog post, executive summary, and client-facing message must also load [`book-extractions/human-english-craft-synthesis-2026.md`](book-extractions/human-english-craft-synthesis-2026.md). Apply its five passes in real time: reader and purpose, genre and spine, meaning and evidence, sentence/paragraph craft, and proof/read-aloud. Use it alongside `skills/language/writing-quality/`, `skills/language/language-standards/`, and `skills/meta-utility/anti-ai-slop/`; it does not replace financial, market, or reasoning gates.
 
 The standard requires audience-fit British English, concrete nouns, exact verbs, controlled vocabulary, correct grammar and collocation, varied intentional rhythm, visible judgement, and a distinct register for plans, proposals, social copy, web copy, research, political writing, and app messages. Natural writing must never be simulated with errors, slang, fake anecdotes, or unsupported certainty.
+
+## PORTFOLIO CRAFT CONTRACT
+
+Load `C:\wamp64\www\chwezi-engine-agents\docs\operations\portfolio-craft-standard-2026-09-04.md` when available. Build plans one decision-bearing section at a time: frame the reader and decision, inspect the evidence and model, draft the smallest useful section, test its assumptions and downside case, revise the argument, and then assemble. Every plan must make its thesis, customer logic, operating logic, financial reconciliation, funding use, counter-case, and next action concrete; delete sections that carry no decision or evidence. Do not produce a full plan as an opaque batch. Apply `Observe -> Baseline -> Select -> Experiment -> Check -> Standardise -> Teach -> Re-measure` to kaizen itself. Missing source, model, spreadsheet, render, reviewer, or stakeholder evidence is `NOT ASSESSED`, never a pass.
