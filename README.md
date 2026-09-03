@@ -8,7 +8,7 @@ Used with project-specific evidence, the suite produces clearer choices, explici
 
 The default planning context is Uganda and East Africa, with UGX as the default currency. The methods are portable: country, sector, currency, audience, funding instrument, and regulatory context must be changed through evidence-backed project inputs rather than assumed from this default.
 
-## Output capability and evidence state
+## Capability map
 
 The suite routes and validates business-plan work. The state of an output is
 separate from the existence of a route or template; see the [Wave 1 evidence
