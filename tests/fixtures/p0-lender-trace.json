@@ -1,0 +1,13 @@
+{
+  "fixture_label": "FICTIONAL TEST DATA",
+  "claims": [
+    {"id": "CLAIM-REV-01", "source_or_assumption": "ASSUMP-REV-01", "cell_ids": ["CELL-REV-01"]}
+  ],
+  "cells": [
+    {"id": "CELL-REV-01", "output_ids": ["OUT-REV-01"]}
+  ],
+  "outputs": [
+    {"id": "OUT-REV-01", "value": 1200}
+  ],
+  "recalculation": {"status": "recalculated", "scenario": "base", "units": 12, "price": 100, "revenue": 1200}
+}

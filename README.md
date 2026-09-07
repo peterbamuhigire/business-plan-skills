@@ -266,6 +266,17 @@ Before a release:
 
 See `AGENTS.md` for the complete routing and quality contract.
 
+## September 2026 Kaizen execution update
+
+The bounded first wave adds a synthetic lender trace fixture and
+`tools/evidence-register/validate_plan_trace.py`. It checks that source IDs,
+assumptions, model cells, decision outputs and reviewer fields remain linked;
+the new tests cover valid, missing-source and broken-link cases. The full
+repository test suite passes 33 tests. This proves fixture and validator
+mechanics only. No lender decision, client workbook, funding outcome or
+professional finance review is implied. The next step is an independently
+recalculated disposable workbook before rendering or widening the audience.
+
 ## Licence
 
 See the individual skill folders for licence information.
