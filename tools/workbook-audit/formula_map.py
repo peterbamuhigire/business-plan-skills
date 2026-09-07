@@ -173,7 +173,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("workbooks", nargs="+", type=Path)
     parser.add_argument("--require-scenarios", action="store_true")
     parser.add_argument("--require-balance-checks", action="store_true")
-    parser.add_argument("--json-out", type=Path)
+    parser.add_argument("--json-out", "--output", dest="json_out", type=Path)
     parser.add_argument("--markdown-out", type=Path)
     args = parser.parse_args(argv)
     reports = []

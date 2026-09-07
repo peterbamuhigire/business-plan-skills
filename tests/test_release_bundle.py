@@ -48,6 +48,47 @@ class ReleaseBundleTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             self.assertEqual([], MODULE.validate(self._bundle(Path(temp))))
 
+    def test_non_object_payloads_are_findings(self):
+        with tempfile.TemporaryDirectory() as temp:
+            path = self._bundle(Path(temp))
+            for value in (None, [], "release", 1, True):
+                with self.subTest(value=value):
+                    path.write_text(json.dumps(value), encoding="utf-8")
+                    self.assertEqual(["bundle must be an object"], MODULE.validate(path))
+
+    def test_malformed_nested_fields_reject_without_crashing(self):
+        fields = [
+            ("stages", 0, "id"), ("stages", 0, "state"),
+            ("stages", 0, "owner"), ("handoffs", "research", "state"),
+            ("handoffs", "research", "receiver"),
+            ("finalisation", "render", "state"),
+            ("finalisation", "render", "required"),
+            ("release_authority", "state"), ("release_authority", "required"),
+            ("release_authority", "role"), ("release_state",),
+        ]
+        with tempfile.TemporaryDirectory() as temp:
+            for fields_path in fields:
+                for invalid in ([], {}, None):
+                    with self.subTest(path=fields_path, invalid=invalid):
+                        path = self._bundle(Path(temp))
+                        data = json.loads(path.read_text(encoding="utf-8"))
+                        target = data
+                        for key in fields_path[:-1]:
+                            target = target[key]
+                        target[fields_path[-1]] = invalid
+                        path.write_text(json.dumps(data), encoding="utf-8")
+                        self.assertTrue(MODULE.validate(path))
+
+    def test_required_flags_cannot_be_omitted(self):
+        with tempfile.TemporaryDirectory() as temp:
+            path = self._bundle(Path(temp))
+            data = json.loads(path.read_text(encoding="utf-8"))
+            del data["finalisation"]["render"]["required"]
+            del data["release_authority"]["required"]
+            path.write_text(json.dumps(data), encoding="utf-8")
+            errors = MODULE.validate(path)
+            self.assertEqual(2, sum("required must be boolean" in e for e in errors))
+
     def test_missing_render_blocks_release(self):
         with tempfile.TemporaryDirectory() as temp:
             path = self._bundle(Path(temp))

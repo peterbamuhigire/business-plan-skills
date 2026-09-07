@@ -16,6 +16,14 @@ HANDOFFS = {"research", "finance", "spreadsheet", "design", "document", "securit
 STATES = {"pass", "pass-with-caveats", "fail", "not-assessed", "not-applicable"}
 
 
+def _state(value: object, allowed: set[str] = STATES) -> bool:
+    return isinstance(value, str) and value in allowed
+
+
+def _text(value: object) -> bool:
+    return isinstance(value, str) and bool(value.strip())
+
+
 def _resolve(bundle_path: Path, value: str) -> Path:
     candidate = Path(value)
     if candidate.is_absolute():
@@ -39,8 +47,10 @@ def validate(bundle_path: Path) -> list[str]:
     errors: list[str] = []
     try:
         data = json.loads(bundle_path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError) as exc:
+    except (OSError, UnicodeError, json.JSONDecodeError) as exc:
         return [f"bundle cannot be read: {exc}"]
+    if not isinstance(data, dict):
+        return ["bundle must be an object"]
     if data.get("schema_version") != "1.0.0":
         errors.append("schema_version must be 1.0.0")
     for key in ("artefact", "audience"):
@@ -51,7 +61,8 @@ def validate(bundle_path: Path) -> list[str]:
     if not isinstance(stages, list):
         errors.append("stages must be a list")
         stages = []
-    stage_ids = {item.get("id") for item in stages if isinstance(item, dict)}
+    stage_ids = {item.get("id") for item in stages
+                 if isinstance(item, dict) and isinstance(item.get("id"), str)}
     if stage_ids != STAGES or len(stages) != len(STAGES):
         errors.append(f"stages must contain exactly {sorted(STAGES)}")
     for item in stages:
@@ -59,12 +70,12 @@ def validate(bundle_path: Path) -> list[str]:
             errors.append("stage entries must be objects")
             continue
         state = item.get("state")
-        if state not in STATES - {"not-applicable"}:
+        if not _state(state, STATES - {"not-applicable"}):
             errors.append(f"stage {item.get('id')}: invalid state {state}")
-        if not item.get("owner"):
+        if not _text(item.get("owner")):
             errors.append(f"stage {item.get('id')}: owner is required")
         _check_paths(bundle_path, item.get("evidence"), f"stage {item.get('id')}", errors)
-        if state in {"pass", "pass-with-caveats"} and not item.get("evidence"):
+        if state in ("pass", "pass-with-caveats") and not item.get("evidence"):
             errors.append(f"stage {item.get('id')}: passing state requires evidence")
 
     handoffs = data.get("handoffs")
@@ -77,13 +88,13 @@ def validate(bundle_path: Path) -> list[str]:
             continue
         applicable = item.get("applicable")
         state = item.get("state")
-        if not isinstance(applicable, bool) or state not in STATES:
+        if not isinstance(applicable, bool) or not _state(state):
             errors.append(f"handoff {name}: applicability and state are invalid")
         if applicable and state == "not-applicable":
             errors.append(f"handoff {name}: applicable handoff cannot be not-applicable")
-        if not applicable and (state != "not-applicable" or not item.get("reason")):
+        if not applicable and (state != "not-applicable" or not _text(item.get("reason"))):
             errors.append(f"handoff {name}: non-applicable handoff needs reason and not-applicable state")
-        if not item.get("receiver"):
+        if not _text(item.get("receiver")):
             errors.append(f"handoff {name}: receiver is required")
         if not isinstance(item.get("requested_decision"), str) or not item["requested_decision"].strip():
             errors.append(f"handoff {name}: requested_decision is required")
@@ -91,7 +102,7 @@ def validate(bundle_path: Path) -> list[str]:
         if applicable and not item.get("input_versions"):
             errors.append(f"handoff {name}: applicable handoff requires input_versions")
         _check_paths(bundle_path, item.get("evidence"), f"handoff {name}", errors)
-        if applicable and state in {"pass", "pass-with-caveats"} and not item.get("evidence"):
+        if applicable and state in ("pass", "pass-with-caveats") and not item.get("evidence"):
             errors.append(f"handoff {name}: passing state requires evidence")
         if state == "pass-with-caveats" and not item.get("caveats"):
             errors.append(f"handoff {name}: pass-with-caveats requires a named caveat")
@@ -101,31 +112,37 @@ def validate(bundle_path: Path) -> list[str]:
         errors.append("finalisation must be an object")
         finalisation = {}
     render = finalisation.get("render")
-    if not isinstance(render, dict) or render.get("state") not in STATES:
+    if not isinstance(render, dict) or not _state(render.get("state")):
         errors.append("finalisation render record is invalid")
         render = {}
+    if not isinstance(render.get("required"), bool):
+        errors.append("finalisation render: required must be boolean")
     _check_paths(bundle_path, render.get("evidence"), "finalisation render", errors)
     for name in ("reviewer_notes", "audit_log", "release_checklist"):
         _check_paths(bundle_path, finalisation.get(name), f"finalisation {name}", errors)
 
     authority = data.get("release_authority")
-    if not isinstance(authority, dict) or authority.get("state") not in STATES:
+    if not isinstance(authority, dict) or not _state(authority.get("state")):
         errors.append("release_authority is invalid")
         authority = {}
+    if not isinstance(authority.get("required"), bool):
+        errors.append("release_authority: required must be boolean")
+    if not _text(authority.get("role")):
+        errors.append("release_authority: role is required")
     _check_paths(bundle_path, authority.get("evidence"), "release_authority", errors)
     if authority.get("state") == "pass" and not authority.get("evidence"):
         errors.append("release_authority: passing state requires evidence")
     if render.get("state") == "pass" and not render.get("evidence"):
         errors.append("finalisation render: passing state requires evidence")
 
-    blocked = any(item.get("state") in {"fail", "not-assessed"} for item in stages if isinstance(item, dict))
-    blocked |= any(item.get("applicable") and item.get("state") in {"fail", "not-assessed"}
+    blocked = any(item.get("state") in ("fail", "not-assessed") for item in stages if isinstance(item, dict))
+    blocked |= any(item.get("applicable") and item.get("state") in ("fail", "not-assessed")
                    for item in handoffs.values() if isinstance(item, dict))
     blocked |= bool(render.get("required") and render.get("state") != "pass")
     blocked |= any(not finalisation.get(name) for name in ("reviewer_notes", "audit_log", "release_checklist"))
     blocked |= bool(authority.get("required") and authority.get("state") != "pass")
     declared = data.get("release_state")
-    if declared not in {"release", "blocked"}:
+    if declared not in ("release", "blocked"):
         errors.append("release_state must be release or blocked")
     if blocked and declared != "blocked":
         errors.append("blocker precedence requires release_state=blocked")
