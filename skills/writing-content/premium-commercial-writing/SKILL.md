@@ -54,6 +54,7 @@ Use this skill as the premium writing layer above section-specific business-plan
    - Use `references/commercial-persuasion-patterns.md` for positioning, offer, proof, objections, CTAs, and premium sales copy.
    - Use `references/seo-ai-search-visibility.md` for blogs, website pages, thought leadership, and explainers.
    - Use `references/document-investor-polish.md` for business plans, executive summaries, proposals, funder packs, and investor-facing copy.
+   - Use `references/buyer-psychology-and-growth-systems.md` when the plan needs customer decision logic, ethical persuasion, choice architecture, sensory/ritual cues, or testable growth loops.
 4. Rewrite the structure before polishing sentences if the argument, offer, or evidence sequence is weak.
 5. Upgrade language for clarity, authority, specificity, reader relevance, and scanability.
 6. Add proof, qualification, risk handling, and next-step logic where supported by the facts.

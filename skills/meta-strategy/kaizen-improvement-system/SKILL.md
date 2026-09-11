@@ -96,16 +96,16 @@ If a market test raises enquiries but worsens fulfilment capacity, retain the re
 
 ## Mandatory Digital Research currentness gate
 
-Every Kaizen cycle must begin with `digital-research-skills` source evaluation
+Every Kaizen cycle must begin with `digital-research-engine` source evaluation
 and source verification. Record scope, dates, freshness class, support status,
 uncertainty, and review date for current market, legal, policy, technology,
 platform, finance, and lifecycle claims; quarantine unsupported claims as
-`NOT_ASSESSED`. Apply the [portfolio Kaizen currentness gate](../../../../digital-research-skills/docs/continuous-improvement/kaizen-currentness-gate.md).
+`NOT_ASSESSED`. Apply the [portfolio Kaizen currentness gate](../../../../digital-research-engine/docs/continuous-improvement/kaizen-currentness-gate.md).
 
 ## References
 
 - [Local adoption plan](../../../docs/continuous-improvement/kaizen-adoption-2026-08.md)
-- Portfolio standard: resolve `digital-research-skills` through the global engine-routing table, then read `docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md`.
+- Portfolio standard: resolve `digital-research-engine` through the global engine-routing table, then read `docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md`.
 - `skills/meta-strategy/meta-market-validation/`
 - `skills/meta-strategy/meta-living-plan-governance/`
 - [Book-driven commercial system and validation](../references/book-driven-commercial-system-and-validation.md) - whole-system trade-offs, validation, replication, GTM, cash, and currentness.
