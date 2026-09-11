@@ -31,10 +31,10 @@ metadata:
 
 ## Workflow
 
-1. Run the 10 standard intake questions exactly as defined.
+1. Use the ten-question intake as an initial coverage map, accepting partial answers and existing documents instead of forcing a synchronous questionnaire.
 2. Convert the answers into a draft project brief with clear `[TO CONFIRM]` markers.
 3. Identify what is still missing for strategy, market, operations, team, finance, and funding logic.
-4. Generate targeted follow-up questions specific to the current gaps.
+4. Build dependencies among unresolved decisions and ask only the current frontier; resolve available facts from evidence rather than asking the client to retrieve them.
 5. Classify the engagement by audience and likely workflow path.
 6. Hand off a clean intake baseline to the section and meta skills.
 
@@ -187,7 +187,9 @@ State which downstream skills are ready to engage and in what order, based on th
 
 ## Phase 2  Targeted Follow-Up Questions
 
-Analyse the draft brief and generate **57 follow-up questions**. These are not standard questions  write them specifically for this client's answers. Do not use generic or templated language.
+Analyse the draft brief and generate only the follow-up questions on the current decision frontier.
+Do not use a fixed count. Batch independent questions, delay dependent questions until prerequisites
+are answered, and accept partial responses without repeating fields already supplied.
 
 **Prioritise follow-up on:**
 1. Anything that would change the document type, scope, or angle if answered differently
@@ -200,9 +202,10 @@ Analyse the draft brief and generate **57 follow-up questions**. These are not s
 
 **Format each follow-up question as:**
 
->  **[Domain]  Question [N] of [total]**
+>  **[Decision ID] [Domain]**
 >  [The question, written directly to the client in plain language.]
 >  *Why we are asking: [One sentence explaining what this unlocks.]*
+>  *Depends on / affects: [Prerequisite and downstream section or decision.]*
 
 ---
 
@@ -266,7 +269,7 @@ A completed Phase 1 brief is acceptable when:
 A completed Phase 2 is acceptable when:
 - Each follow-up question is specific to this client's answers, not generic
 - Each question states clearly why it is being asked
-- The set of 57 questions, if answered, would resolve all remaining [TO CONFIRM] markers in Sections 4, 7, 8, and 9 as a minimum
+- The frontier questions, if answered, would resolve all blocking [TO CONFIRM] markers in Sections 4, 7, 8, and 9; dependent questions remain visibly blocked until ready
 - No follow-up question duplicates information already provided in the 10 answers
 
 A finalised brief (post Phase 2) is acceptable when:
@@ -350,6 +353,7 @@ A founder states that the venture is pre-revenue in Question 1 but reports month
 
 ## References
 
+- Use the SRS engine's `decision-frontier-elicitation` reference as the canonical dependency and shared-understanding method; this skill supplies business-plan decision fields only.
 - Use the verified project evidence register and the owning upstream pipeline section for 00 client intake; no local deep-dive reference is declared.
 - For 00 client intake claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 
