@@ -158,6 +158,16 @@ Artefact type(s): <...>
 - Do not invent a flaw to pad the report. "This artefact is clean" is a valid, wanted verdict.
 - Mark inferences "(inference)"; never present a guess as a measured fact.
 
+## Responsibility audit
+
+Do not grade a plan as AI-written from punctuation, bullet counts, headings, names, or formulaic
+phrases. Grade the publishing failure: unsupported claims, unlabeled examples, missing periods or
+definitions, absent assumptions, generic strategy, and paragraphs with no decision value. Require
+exact evidence for style findings and keep them separate from factual blockers. Missing source,
+model, or render evidence is `NOT_ASSESSED`.
+
+- Shared standard: [`AI-slop responsible publishing`](../../../../skills-web-dev/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
+
 ## References
 
 - `anti-ai-slop` supplies the production-time controls; this skill remains the independent detector.

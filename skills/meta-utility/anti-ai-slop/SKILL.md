@@ -147,6 +147,16 @@ This is the primary domain for this suite. Apply every item before shipping a pl
 
 If any box is unticked, the output is not ready to ship.
 
+## Responsibility overlay
+
+Treat the 25 writing signs as revision prompts, not authorship evidence. For every market,
+customer, competitor, financial, or operational claim, record scope, date, source fit,
+transformation, limitation, and the decision it changes. Label hypothetical cases and distinguish
+internal navigation from external evidence. Keep style concerns separate from fabricated claims;
+run ME1-ME7 with exact evidence and mark missing verification `NOT_ASSESSED`.
+
+- Shared standard: [`AI-slop responsible publishing`](../../../../skills-web-dev/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
+
 ## References
 
 - `ai-slop-audit` supplies the independent checkpoint and release grade.
