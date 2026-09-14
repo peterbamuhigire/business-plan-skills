@@ -49,6 +49,7 @@ For a serious engagement, start with `skills/meta-strategy/business-plan-orchest
 | Digital transformation | `skills/meta-strategy/meta-digital-transformation/` | Capability maturity, operating-model change, investment logic, sequencing, adoption, and benefits realisation |
 | Pitch or presentation | `skills/meta-pitch/` | <a href="https://github.com/peterbamuhigire/design-system-skills" target="_blank" rel="noopener noreferrer">Design System Skills</a> for visual design and <a href="https://github.com/peterbamuhigire/digital-research-skills" target="_blank" rel="noopener noreferrer">Digital Research Engine</a> for current evidence |
 | Proposal, tender, EOI, or RFP | Route to <a href="https://github.com/peterbamuhigire/proposal-skills" target="_blank" rel="noopener noreferrer">Proposal Skills</a> | Add this engine for the business case, commercial model, finance, or implementation content |
+| Hotel, resort, lodge, inn, guest house, restaurant, bar, catering, or venue plan | `skills/industry-guides/hospitality-hotel-restaurant/SKILL.md` plus `skills/industry-guides/hospitality-tourism/` and `skills/industry-guides/restaurant/` | Add Chwezi finance, current country/regulatory research, and requirements/engineering routes where systems or statutory claims appear |
 
 Use the smallest route that can answer the decision. Do not load every skill by default; add country, sector, funding, finance, design, document, website, accounting, or research overlays only when the engagement triggers them.
 

@@ -1,5 +1,15 @@
 # Hospitality & Tourism Industry Guide
 
+## Evidence and currentness guard
+
+This guide is a planning orientation, not current market, tax, licensing,
+regulatory, pricing, wage, occupancy or margin evidence. The investment ranges,
+seasonality statements and benchmarks below are provisional/context-bound and
+must be replaced or qualified with dated, geography- and format-matched sources
+before they enter a lender, investor or statutory deliverable. Use the
+`hospitality-hotel-restaurant` overlay for the bankable-plan workflow and route
+finance/regulatory claims through the companion engines.
+
 Industry-specific context for generating bankable hospitality and tourism business plans in East Africa. Covers food service, bars and entertainment, accommodation (budget to luxury), and events.
 
 ## Industry Overview

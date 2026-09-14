@@ -2,6 +2,15 @@
 
 > Figures adapted to Ugandan context (UGX). Percentages and ratios from the source are universal.
 
+## Evidence and currentness guard
+
+The figures and failure statements in this orientation are historical or
+context-bound planning inputs, not verified current Uganda benchmarks. Before
+using a number in a bankable plan, replace or qualify it with a dated,
+format-, geography- and source-matched observation and reconcile it to the
+finance engine. Use the `hospitality-hotel-restaurant` overlay for the complete
+hotel/restaurant plan workflow; missing evidence is `NOT_ASSESSED`.
+
 Industry-specific context for generating bankable restaurant business plans. Covers all food-service formats from full-service restaurants to coffeehouses, bakeries, and catering operations.
 
 ## Industry Overview
