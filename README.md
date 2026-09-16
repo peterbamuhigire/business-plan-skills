@@ -30,6 +30,14 @@ release authority are present.
 
 ## How to route work
 
+## Prompt-generation capability — September 2026
+
+The engine now generates decision-ready prompts that bind objective, evidence
+boundary, assumptions, financial/implementation constraints, output format,
+acceptance checks, and safe refinement through the local [domain prompt
+contract](docs/ai-prompting/domain-prompt-compilation-contract.md). A forked
+engine retains this capability without the portfolio checkout.
+
 For execution across phases, use the runtime-neutral [orchestration contract](docs/operations/runtime-agnostic-orchestration-2026-09-07.md), dated 2026-09-07. It defines scoped work packages, evidence checkpoints, context hygiene, least agency, and sanitized handling of external content while preserving Claude and Codex runtime capabilities.
 
 For a serious engagement, start with `skills/meta-strategy/business-plan-orchestrator/SKILL.md`. It controls intake, evidence design, stage dependencies, handoffs, model reconciliation, challenge gates, assembly, and release. Use `skills/pipeline/00-plan-assembly/SKILL.md` only for final ordering and packaging.

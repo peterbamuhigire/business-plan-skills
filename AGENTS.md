@@ -264,6 +264,10 @@ Every business plan, pitch, proposal, report, blog post, executive summary, and 
 
 The standard requires audience-fit British English, concrete nouns, exact verbs, controlled vocabulary, correct grammar and collocation, varied intentional rhythm, visible judgement, and a distinct register for plans, proposals, social copy, web copy, research, political writing, and app messages. Natural writing must never be simulated with errors, slang, fake anecdotes, or unsupported certainty.
 
+## DOMAIN PROMPT GENERATION CONTRACT
+
+For a prompt handoff, read the local [domain prompt contract](docs/ai-prompting/domain-prompt-compilation-contract.md). Generate a ready-to-paste prompt using decision, audience, evidence, assumptions, economics, downside case, constraints, output, and acceptance checks. Never prompt around missing market, finance, tax, or legal evidence. **Ready-to-paste prompt:** include mode, requirements, assumptions, risks, and next action. **Failure action:** repair the unsupported or unreconciled field, then re-test.
+
 ## PORTFOLIO CRAFT CONTRACT
 
 Load `C:\wamp64\www\chwezi-engine-agents\docs\operations\portfolio-craft-standard-2026-09-04.md` when available. Build plans one decision-bearing section at a time: frame the reader and decision, inspect the evidence and model, draft the smallest useful section, test its assumptions and downside case, revise the argument, and then assemble. Every plan must make its thesis, customer logic, operating logic, financial reconciliation, funding use, counter-case, and next action concrete; delete sections that carry no decision or evidence. Do not produce a full plan as an opaque batch. Apply `Observe -> Baseline -> Select -> Experiment -> Check -> Standardise -> Teach -> Re-measure` to kaizen itself. Missing source, model, spreadsheet, render, reviewer, or stakeholder evidence is `NOT ASSESSED`, never a pass.
