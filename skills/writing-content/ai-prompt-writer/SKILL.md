@@ -123,10 +123,14 @@ Use the selector table below. Then build using the appropriate formula.
 | Business documents (plans, reports, proposals) | Instructional + context block | Section A |
 | Image generation | Subject-Setting-Style-Composition-Mood | Section B |
 | Video generation | Camera-Subject-Action-Setting-Style | Section C |
-| Data analysis, strategy, reasoning | Chain-of-thought | Section A |
-| Brand voice matching | Few-shot (examples-first) | Section A |
+| Data analysis, strategy, reasoning | Structured criteria, assumptions, checks, and concise rationale | Section A |
+| Brand voice matching | Small, relevant examples plus explicit style constraints | Section A |
 
 For advanced techniques (self-consistency, knowledge generation, NER, clustering, etc.) read `references/prompt-techniques-john.md`.
+
+### Evidence-first technique selection
+
+Treat every mnemonic, framework, example count, reasoning pattern, and provider parameter as a candidate rather than a guarantee. Start with the task outcome, trusted context and source boundary, hard constraints, output schema, acceptance checks, and fallback for missing evidence. Use a framework only when it makes a material requirement easier to inspect. For a proposed change, compare a baseline against a small representative fixture set, inspect failure slices, and record the prompt version, target adapter/model, evaluator, result, cost/latency effect, and rollback path. Never add a current platform, model, pricing, legal, market, or performance claim without a current verified source; label unavailable checks `NOT_ASSESSED`.
 
 ---
 
