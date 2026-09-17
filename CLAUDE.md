@@ -4,6 +4,8 @@
 
 This is a collection of Claude Code skills for generating bankable business plans. Active skills live under `skills/<category>/<skill-name>/SKILL.md`; each skill folder is self-contained with optional `references/`.
 
+Also read `AGENTS.md` and `README.md` for the current runner-agnostic doctrine this file does not duplicate — the Task Routing table, orchestrator-first flow, verification/release-gate commands, Portfolio Craft Contract, Domain Prompt Contract, and the human-English editorial standard. Skip only the explicitly Codex-only sections (e.g. "Codex-only model setup").
+
 The repository root should contain project documentation plus `docs/`, `skills/`, and `projects/` where relevant. Keep `docs/`, `.git`, `tools/`, and unrelated non-skill operational directories at root.
 
 ## Skill Categories
@@ -19,7 +21,7 @@ Skills are grouped into thematic categories under `skills/`. Use `skills/<catego
   - `governance-and-board-charter` — Governance Framework, Board & committee charters, Delegation-of-Authority matrix
   - `hr-policy-manual` — Human Resources Policy Manual (Employment Act 2006 framing; pay/allowances/advances defer to the finance engine)
   - `me-framework-document` — standalone Monitoring, Evaluation & Learning (MEL) Framework
-- `finance/` — IFRS / IAS / accounting close, audit, reconciliation, controls
+- `meta-finance/` — in-repo finance skills (bankability scoring, workbook audit); IFRS / IAS / accounting close, audit, reconciliation, and controls route to the external Chwezi Accounting Doctrine engine (`C:\wamp64\www\chwezi-accounting-doctrine`) per the Finance & Accounting Trigger below
 - `ict/` — ICT-sector business-plan skills
 - `industry-guides/` — sector reference guides (agriculture, manufacturing, hospitality, retail, etc.)
 - `saas/` — SaaS GTM, unit economics, lifecycle, pricing, valuation
