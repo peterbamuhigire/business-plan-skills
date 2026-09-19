@@ -95,6 +95,7 @@ Use this meta-skill when a business plan or strategy needs a serious answer to t
 
 ## References
 
+- `references/business-agility-readiness-map.md` - B18-A01 people, process, tools, evidence, reversible slice, and rollback readiness contract.
 - `../../book-extractions/rogers-digital-transformation-playbook-extraction.md` - five-domain strategy lens: customers, competition, data, innovation, value
 - `../../book-extractions/molenaar-demand-driven-business-strategy-extraction.md` - demand-driven redesign, outside-in thinking, value networks, platform logic, and product-as-a-service options
 - `../../book-extractions/business-models-ecommerce-extraction.md` - digital transaction models, revenue logic, and supply-side/collaborative digitisation

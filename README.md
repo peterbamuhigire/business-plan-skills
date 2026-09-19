@@ -290,6 +290,18 @@ mechanics only. No lender decision, client workbook, funding outcome or
 professional finance review is implied. The next step is an independently
 recalculated disposable workbook before rendering or widening the audience.
 
+## September 2026 Kaizen Phase 1 references
+
+The bounded Phase 1 contract set adds source-status-aware references for FP&A
+assumption tracing and manager financial intelligence, business-agility
+readiness, strategy-map scorecards, healthcare payer volume-to-cash
+reconciliation, and healthcare workforce learning and cost/capacity scenarios.
+The examples use synthetic values only. Deterministic checks live in
+`tests/test_phase1_kaizen_contracts.py` with
+`tests/fixtures/phase1-kaizen-contracts.json`. Current payer, statutory,
+clinical, salary, market, and benchmark evidence remains a separate
+currentness-gated review; missing evidence is `not_assessed`.
+
 ## Licence
 
 See the individual skill folders for licence information.

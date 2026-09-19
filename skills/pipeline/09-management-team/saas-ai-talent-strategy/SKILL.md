@@ -207,6 +207,8 @@ A startup plans three data scientists before it has usable training data. Stage 
 
 ## References
 
+- `../../../../references/healthcare-workforce-and-learning-loop.md` - B25-A02 evidence-based staffing, retention, and competency re-check loop for health-sector planning.
+- `../../../../references/healthcare-workforce-cost-and-capacity-scenarios.md` - B25-A04 sourced compensation and capacity scenario contract.
 - Use the verified project evidence register and the owning upstream pipeline section for saas ai talent strategy; no local deep-dive reference is declared.
 - For saas ai talent strategy claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 

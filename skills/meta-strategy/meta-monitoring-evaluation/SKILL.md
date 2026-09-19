@@ -293,6 +293,7 @@ Identify the funder type BEFORE designing the M&E framework, and embed the relev
 
 ## References
 
+- `references/strategy-map-scorecard-trace.md` - B18-A02 causal strategy-map and source/owner/threshold scorecard trace.
 - `../../book-extractions/data-analytics-business-planning-extraction.md`  Use when KPI dashboards, AI analytics, forecasts, scenario analysis, or data-quality controls are part of the execution monitoring system.
 - `references/balanced-scorecard-kpi.md` - Balanced Scorecard perspectives, strategy mapping, KPI-cascade logic, and leading/lagging-indicator design from Kaplan, Krause, and Arora
 - `references/funder-reporting-requirements.md` - Commercial bank covenant monitoring (DSCR, current ratio, insurance), mandatory bank reporting schedule, UDB and ACF reporting (ESMP semi-annual monitoring report template), development partner grant quarterly narrative and financial report templates, impact investor double-bottom-line KPIs by sector (agriculture, clean energy, education, health, housing, financial inclusion), Government of Uganda annual filing calendar

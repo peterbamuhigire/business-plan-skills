@@ -1,0 +1,64 @@
+{
+  "financial_intelligence": {
+    "revenue": 120000,
+    "direct_costs": 60000,
+    "operating_costs": 30000,
+    "opening_cash": 50000,
+    "collected_receipts": 80000,
+    "paid_outflows": 60000,
+    "closing_cash": 70000,
+    "period": "synthetic-2026-Q1",
+    "currency": "SYN",
+    "basis": "cash-planning",
+    "scenario": "base",
+    "source_id": "FIXTURE-FI-001",
+    "reviewer_role": "synthetic-finance-reviewer"
+  },
+  "payer": {
+    "completed_units": 100,
+    "eligible_units": 90,
+    "claims_submitted": 90,
+    "claims_accepted": 80,
+    "claims_rejected": 10,
+    "accepted_claim_value": 80000,
+    "payer_remittances": 72000,
+    "opening_ar": 10000,
+    "ending_ar": 18000,
+    "ledger_control_ar": 18000,
+    "rate_status": "synthetic-assumption",
+    "source_id": "FIXTURE-PAYER-001",
+    "period": "synthetic-2026-Q1",
+    "currency": "SYN",
+    "basis": "synthetic-planning",
+    "reviewer_role": "synthetic-payer-reviewer"
+  },
+  "workforce": {
+    "fte": 2,
+    "available_hours": 160,
+    "absence_training_allowance": 0.10,
+    "utilisation": 0.75,
+    "competency_factor": 0.80,
+    "monthly_pay": 1000,
+    "benefits": 200,
+    "source_id": "FIXTURE-WORKFORCE-001",
+    "statutory_status": "not-assessed",
+    "period": "synthetic-2026-Q1",
+    "currency": "SYN",
+    "basis": "synthetic-planning",
+    "reviewer_role": "synthetic-workforce-reviewer"
+  },
+  "readiness": {
+    "baseline_present": true,
+    "owner_present": true,
+    "oracle_present": true,
+    "rollback_present": true
+  },
+  "scorecard": {
+    "kpi": "accepted-claim-rate",
+    "formula": "claims_accepted / claims_submitted",
+    "source_id": "FIXTURE-PAYER-001",
+    "owner": "synthetic-operations-owner",
+    "threshold": 0.8,
+    "decision": "review-rejections"
+  }
+}

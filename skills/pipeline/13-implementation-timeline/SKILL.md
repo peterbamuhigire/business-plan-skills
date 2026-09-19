@@ -291,6 +291,8 @@ A retail opening is scheduled before premises handover and equipment commissioni
 
 ## References
 
+- `../../../references/healthcare-workforce-and-learning-loop.md` - B25-A02 learning intervention, review, and competency re-check handoff.
+- `../../../references/healthcare-workforce-cost-and-capacity-scenarios.md` - B25-A04 workforce capacity and cost scenario handoff.
 - Use `../../../references/sector-regulatory-gates.md` for current-source regulatory screening and its mandatory stop conditions.
 - Use the verified project evidence register and the owning upstream pipeline section for 13 implementation timeline; no local deep-dive reference is declared.
 - For 13 implementation timeline claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
