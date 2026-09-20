@@ -20,6 +20,17 @@ cd business-plan-skills
 
 This engine names its own sister engines directly in `AGENTS.md`'s Kaizen and finance-trigger rules — each is an independent, optional install, never a hard dependency. **`chwezi-accounting-doctrine`** is triggered whenever money flows, tax, payroll, grants, reconciliation, or any IFRS/IFRS-for-SMEs section arises in a plan; this repository's own `meta-finance/` skills explicitly defer accounting close, audit, and controls to it. **`digital-research-skills`** (local checkout `digital-research-engine`) is where `AGENTS.md` routes "current external claims" — the source-register verification a bankable plan's market and benchmark figures need. **`design-system-skills`** is routed to for all font/typeface, layout, colour, and visual-formatting decisions on decks, DOCX, PPTX, and XLSX deliverables, per the engine's own design-trigger block in `CLAUDE.md`.
 
+## Content integrity
+
+This repository contains no client names, client data, or project-specific
+work product; client, project, and proposal-workspace directories are
+excluded from version control by design (see `.gitignore`). Users
+installing this engine should still exercise their own due diligence — you
+can ask Claude Code or Codex to run a security scan of this engine, its
+skills, and its reference files before relying on it in a sensitive
+environment (for example: "scan this repository for hardcoded secrets,
+personal paths, or unexpected network calls").
+
 ## Capabilities
 
 | Category | Skills | What it covers |
