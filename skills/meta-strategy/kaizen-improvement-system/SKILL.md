@@ -33,10 +33,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com.
 1. Read the local adoption plan and the portfolio standard.
 2. Inventory routes, plan types, references, templates, models, examples, source registers, and release gates.
 3. Score doctrine, taxonomy, skill depth, applied proof, currency, output readiness, inclusivity, production fidelity, hygiene, routing, and integrity. Publish `min(raw score, 65)` and record blockers.
-4. For a product, test the thesis, customer or beneficiary logic, market evidence, operating model, financial reconciliation, implementation capacity, risks, governance, and audience fit.
+4. For a product, test the thesis, customer or beneficiary logic, market evidence, operating model, ten-point local operational readiness, financial reconciliation, implementation capacity, risks, governance, and audience fit.
 5. Create a P0/P1/P2 improvement backlog targeting 95/100; each action needs owner, experiment, measure, evidence, and rollback.
 6. Run a small Build-Measure-Learn or PDCA experiment. If evidence fails, stop, recover the safe baseline, and revise the hypothesis.
-7. Re-run model, source, anti-slop, workbook, and release gates as applicable; standardise successful learning and schedule the next review.
+7. Re-run model, source, anti-slop, workbook, operational-readiness, and release gates as applicable; standardise successful learning and schedule the next review.
 
 ## Outputs
 

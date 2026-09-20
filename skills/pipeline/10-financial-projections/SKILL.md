@@ -10,6 +10,8 @@ metadata:
 
 # Financial Projections Skill
 
+When local operating conditions affect cash, margin, launch timing, or delivery cost, load `skills/meta-strategy/meta-operational-readiness-due-diligence/SKILL.md`. Carry its banking, tax, payroll, FX, compliance, logistics, and licensing dependencies into assumptions, sensitivities, and downside cases; current statutory values remain Chwezi/source-register controlled.
+
 ## Use When
 
 - Use when building or reviewing the core financial model for a plan or proposal.

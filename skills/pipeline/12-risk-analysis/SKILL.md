@@ -10,6 +10,8 @@ metadata:
 
 # Risk Analysis & Mitigation Skill
 
+When the plan crosses a country, regulated sector, or local delivery dependency, load `skills/meta-strategy/meta-operational-readiness-due-diligence/SKILL.md` and promote material readiness gaps into the risk register with owners, hold points, fallbacks, and re-test dates.
+
 ## Overview
 
 Generate Section 12 of the business plan: the risk analysis. Use this skill to surface the risks that actually matter, assess their implications honestly, and show that management has credible mitigation logic.

@@ -10,6 +10,8 @@ metadata:
 
 # Operations Plan Skill
 
+When the plan depends on a named country or market, load `skills/meta-strategy/meta-operational-readiness-due-diligence/SKILL.md` before finalising operations. Reconcile its banking, licensing, payroll, compliance-calendar, logistics, data, government-interface, and partnership findings with this section; generic local-compliance language is not evidence.
+
 ## Overview
 
 Generate Section 08 of the business plan: the operations plan. Use this skill to show how the business delivers its offer reliably, economically, and at a scale that matches the strategy.

@@ -101,6 +101,7 @@ For serious full business-plan work, start with `business-plan-orchestrator`, wh
 - `meta-consulting-synthesis`
 - `meta-bankability-scoring`
 - `meta-due-diligence`
+- `meta-operational-readiness-due-diligence` when the plan depends on local banking, tax, licensing, payroll, FX, compliance, logistics, privacy, government interface, or local partnerships
 
 When funding includes equity, convertibles, strategic investors, or blended finance, also load:
 

@@ -12,6 +12,7 @@ Bankable and investor plans, nonprofit strategies, business cases, market analys
 - Strengthen `meta-market-validation` with Build–Measure–Learn, validated learning, innovation accounting, small reversible experiments, and explicit pivot/stop rules.
 - Strengthen `meta-living-plan-governance`, `meta-monitoring-evaluation`, and `meta-quarterly-gameplan` with monthly learning loops, leading/lagging metrics, counter-metrics, owners, and assumption refresh triggers.
 - Add nonprofit and facility-move variants to planning and implementation references.
+- Add a ten-point local operational-readiness route that reconciles banking, tax, licensing, payroll, FX, compliance calendar, logistics, privacy, government interface, and local partnerships across operations, financial projections, risk, and implementation.
 
 ## P1 changes
 
