@@ -216,6 +216,61 @@ are answered, and accept partial responses without repeating fields already supp
 3. Update Section 12 (Recommended Next Steps) with a confirmed sequence of downstream skills.
 4. State explicitly: **"This brief is finalised. It is ready to hand off to the following skills:"**  then list the specific skills by name.
 
+## Source-of-Truth Register (establish before drafting begins)
+
+*Origin: adapted from the "Golden Rule" in ECC's `investor-materials` skill
+(`skills/investor-materials/SKILL.md`)  "All investor materials must agree
+with each other... If conflicting numbers appear, stop and resolve them
+before drafting."*
+
+This is a **process gate**, distinct from the engine's existing
+`never-fabricate-a-number` rule (`rules/common/core.md`). That rule is a
+*content* prohibition  it stops an invented number from entering a
+document. This gate is a *timing* discipline  it stops drafting from
+starting at all until the client's own real numbers agree with each other
+across every artefact the engagement will produce (plan, pitch deck,
+one-pager, memo, grant application). A number can be entirely genuine and
+non-fabricated and still contradict another genuine number the client gave
+in a different answer  that contradiction is what this gate catches, before
+either version gets baked into a section.
+
+**Before any section skill starts drafting**, extract these figures from the
+finalised Phase 1/2 brief into a single register and lock them as the
+canonical values every downstream section must match:
+
+```
+SOURCE-OF-TRUTH REGISTER
+
+Traction (revenue to date, customers/units sold, pilots): ___________
+Pricing (unit price, pricing model, terms):                ___________
+Funding/raise size requested:                                ___________
+Use of funds (top-line allocation):                          ___________
+Key team bios and titles (named, as they will appear):       ___________
+Milestones and dates (already achieved + committed):         ___________
+```
+
+**Rule:** If any two of the client's own answers imply different values for
+the same figure (e.g., Q5 states monthly sales, Q7 states "pre-revenue"; or
+Q1 gives one team title and Q9 gives another), **stop and resolve it with the
+client before any section is drafted**  do not silently pick one, and do not
+carry both forward as parallel truths for later sections to inherit
+independently. Record the resolution in the register, not just in the
+transcript.
+
+**Handoff:** Pass the locked register to every downstream skill alongside
+the finalised brief. `06-competitive-analysis`, `10-financial-projections`,
+`11-funding-request`, and `meta-pitch/pitch-deck` all draw from it directly
+rather than re-deriving figures independently.
+
+**Relationship to the existing post-draft audit:** `meta-bankability-scoring`'s
+`references/consistency-audit.md` checks a *finished* plan's sections against
+each other and flags mismatches for correction before submission. This
+register is what that audit should find nothing wrong with  if the register
+is populated and honoured during drafting, the post-draft audit becomes a
+confirmation pass rather than a discovery-and-rework pass. Both stay in
+place: this gate prevents the drift, that audit catches anything that still
+slips through.
+
 ## Digital Readiness Supplement
 
 When the business is digitally enabled, digitally exposed, operationally inefficient, omni-channel, or likely to need systems investment, ask these additional questions before handoff:
@@ -241,6 +296,19 @@ When Phase 1 answers reveal a founder at the Dream stage  where the business ide
 4. *If your business grew to 100 locations, what would be the same in every single one? *
 5. *What would be lost in the world if your business did not exist? *
 6. *Are you building this business to create a better job for yourself  or to build something that works without you? *
+7. *What is your anti-goal  what are you explicitly NOT building? Name the adjacent product, customer segment, or business model you are deliberately turning down, and why.*
+
+**Diagnostic (Question 7):** Adapted from ECC's `product-lens` skill
+(`skills/product-lens/SKILL.md`, Mode 1 diagnostic  "What's the anti-goal?
+(what are you explicitly NOT building?)"). Most business plans skip this
+question, and most serious investors and credit committees ask it, because a
+founder who cannot name what they are turning down usually has not yet
+chosen a real position  they are keeping every option open, which reads as
+strategic indecision rather than focus. A vague or evasive answer here is a
+flag for Section 11 of this brief (Consultant Assessment) and should be
+carried into `02-company-overview` and `04-market-analysis`, where scope
+creep in market sizing or product description often traces back to an
+unresolved anti-goal.
 
 **Diagnostic:** Founders who cannot answer Question 4 (what stays the same at scale) are Technicians with an idea, not yet Entrepreneurs with a system. The business plan will need to address this explicitly in the company overview and management sections  and the implementation timeline must include a systems-building phase.
 

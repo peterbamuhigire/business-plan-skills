@@ -1,12 +1,58 @@
 # Business Plan Skills Suite
 
-The Business Plan Skills Suite turns a defined business, investment, nonprofit, feasibility, or operating-change question into a decision-ready plan, model, or pack through evidence, explicit assumptions, reconciled financial logic, and staged execution choices. It develops the work section by section and decision by decision, preserving the detail a founder, lender, investor, grant-maker, or delivery owner needs to challenge, fund, and operate the plan.
+**Business Plan Skills** (repository `business-plan-skills`) is a 128-skill engine that turns a defined business, investment, nonprofit, feasibility, or operating-change question into a decision-ready plan, model, or pack, through evidence, explicit assumptions, reconciled financial logic, and staged execution choices. It runs a 49-skill numbered pipeline (`00-client-intake` through `16-sustainability-strategy`) under a `business-plan-orchestrator`, supported by meta-finance (bankability scoring against Rogoff's criteria, valuation, financial stress testing), meta-strategy (critical-thinking/logic checks, competitive analysis, due diligence), meta-pitch, meta-pricing-gtm, standalone advisory deliverables (finance/procurement/HR policy manuals, governance charters, M&E frameworks), SaaS, ICT, and sector industry-guides, with Uganda/East Africa as the default country context and a `country-context/` mechanism for other markets. Founders, management teams, advisers, analysts, nonprofit leaders, investors, lenders, grant applicants, and delivery owners use it to clarify decisions, test material assumptions, reconcile commercial and financial logic, and plan execution. Concrete use cases: producing a full bankable plan for a lender or DFI with a validated release bundle; building an equity/investor plan with a valuation section; assembling a grant application via `11b-grant-proposal`; generating a standalone procurement or governance policy manual for an NGO; and running a Kaizen audit or the mandatory anti-AI-slop gate against a drafted plan, deck, or financial narrative before it is called bankable or investor-ready. Financial projections and market data are never fabricated — assumptions are explicit and sourced or flagged as estimates, and the engine withholds "bankable," "investor-ready," or "achievable" language until market, operations, financials, risk, funding ask, and implementation timing reconcile.
 
-Founders, management teams, advisers, analysts, nonprofit leaders, investors, lenders, grant applicants, and delivery owners use it to clarify decisions, test material assumptions, reconcile commercial and financial logic, and plan execution. The workflows organise work across `skills/`, `country-context/`, examples, templates, and validation tools without treating a generic template as evidence about a particular organisation or market.
+## Installation
 
-Used with project-specific evidence, the suite produces clearer choices, explicit assumptions, traceable financial and implementation logic, and a defined review and release path. It provides planning methods and validation structure, not automatic approval, professional accounting or legal sign-off, or current market facts; its agent roles, lifecycle hooks, evidence contract, and stop/recovery behaviour are documented in [`docs/control-plane-adoption.md`](docs/control-plane-adoption.md), while formal software requirements and lifecycle documentation belong with the <a href="https://github.com/peterbamuhigire/srs-skills" target="_blank" rel="noopener noreferrer">SRS Skills engine</a> when triggered.
+```
+# Native Claude Code plugin
+/plugin marketplace add https://github.com/peterbamuhigire/business-plan-skills
+/plugin install business-plan@chwezi-business-plan
 
-The default planning context is Uganda and East Africa, with UGX as the default currency. The methods are portable: country, sector, currency, audience, funding instrument, and regulatory context must be changed through evidence-backed project inputs rather than assumed from this default.
+# npm-free, from a clone
+git clone https://github.com/peterbamuhigire/business-plan-skills
+cd business-plan-skills
+./install.sh --scope project      # macOS/Linux/Git Bash
+.\install.ps1 -scope project      # Windows PowerShell
+```
+
+`install.sh`/`install.ps1` delegate to the vendored `scripts/install-engine.js` (Node ≥18), which also supports `--dry-run` (prints the plan, writes nothing), `--json`, and `--scope user` (default, `~/.claude`) as an alternative to `--scope project` (`.claude` under the current directory).
+
+This engine names its own sister engines directly in `AGENTS.md`'s Kaizen and finance-trigger rules — each is an independent, optional install, never a hard dependency. **`chwezi-accounting-doctrine`** is triggered whenever money flows, tax, payroll, grants, reconciliation, or any IFRS/IFRS-for-SMEs section arises in a plan; this repository's own `meta-finance/` skills explicitly defer accounting close, audit, and controls to it. **`digital-research-skills`** (local checkout `digital-research-engine`) is where `AGENTS.md` routes "current external claims" — the source-register verification a bankable plan's market and benchmark figures need. **`design-system-skills`** is routed to for all font/typeface, layout, colour, and visual-formatting decisions on decks, DOCX, PPTX, and XLSX deliverables, per the engine's own design-trigger block in `CLAUDE.md`.
+
+## Capabilities
+
+| Category | Skills | What it covers |
+|---|---|---|
+| `pipeline` | 49 | Numbered plan sections, `00-client-intake` through `16-sustainability-strategy`, run under `business-plan-orchestrator` |
+| `meta-finance` | 12 | Bankability scoring (Rogoff criteria), valuation, financial stress testing, workbook audit, revenue recognition, SLA controls |
+| `meta-strategy` | 17 | End-to-end plan orchestration, consulting synthesis, due diligence, critical-thinking/logic checks, benchmark methodology, competitive analysis |
+| `advisory-deliverables` | 7 | Standalone finance/procurement/HR policy manuals, internal controls & risk framework, governance/board charter, grants-management manual, M&E framework |
+| `saas` | 11 | SaaS go-to-market, unit economics, lifecycle, pricing, valuation |
+| `writing-content` | 5 | AI prompt writer, blog idea generator, blog writer, content writing, premium commercial writing |
+| `ict` | 4 | ICT-sector business-plan skills |
+| `meta-utility` | 6 | Skill-writing, skill-safety-audit, proposal-architect, update-claude-documentation, anti-ai-slop, ai-slop-audit |
+| `meta-pitch` | 3 | Pitch deck, meta-pitch preparation, meta-presentation design |
+| `meta-pricing-gtm` | 3 | Pricing strategy, premium GTM, website investment planning |
+| `language` | 3 | East African English, language standards, writing quality |
+| `marketing-sales` | 3 | Demand forecasting, digital marketing strategy |
+| `meta-reporting` | 2 | Board and investor reporting |
+| `industry-guides` | 2 | Sector reference guides (agriculture, manufacturing, hospitality, retail, and others as `guide.md` reference files, not all separately packaged as `SKILL.md`) |
+| `meta-sustainability` | 1 | Sustainability strategy references |
+
+Total: 128 `SKILL.md` files under `skills/`.
+
+## References
+
+- Mustafa, A. et al. *Everything Claude Code* (ECC). GitHub: affaan-m/ECC, 2026. This engine adapts several ECC skills directly: `skills/pipeline/00-client-intake/SKILL.md` states its Question 7 diagnostic and a "Golden Rule" section are "adapted from" ECC's `investor-materials` and `product-lens` skills; `skills/meta-strategy/benchmark-methodology/SKILL.md`, `skills/meta-strategy/competitive-platform-analysis/SKILL.md`, and `skills/meta-strategy/competitive-report-structure/SKILL.md` each declare `origin: ECC (skills/<name>/SKILL.md), adapted for` business-plan use in their frontmatter.
+- Kennedy, Dan S. and Marrs, Jason. *No B.S. Price Strategy: The Ultimate No Holds Barred, Kick Butt, Take No Prisoners Guide to Profits, Power, and Prosperity* (Entrepreneur Press, 2011). Cited in `CLAUDE.md` as the basis for `meta-pricing-strategy` and the 9 Failures/5 Propositions pricing audit; extraction at `book-extractions/kennedy-no-bs-price-strategy-extraction.md`.
+- Kennedy, Dan. *No B.S. Sales Success: The Ultimate No Holds Barred, Kick Butt, Take No Prisoners, Tough and Spirited Guide* (Entrepreneur Press, 3rd ed. 2004; original 1994). Extraction at `book-extractions/kennedy-no-bs-sales-success-extraction.md`.
+- Kennedy, Daniel S. *The Ultimate Sales Letter: Boost Your Sales with Powerful Sales Letters, Based on Madison Avenue Techniques* (Adams Media, 1st ed. 1991; 2nd ed. 2000; 4th ed. 2011). Extraction at `book-extractions/kennedy-ultimate-sales-letter-extraction.md`.
+- Kennedy, Dan S. and Walsh-Phillips, Kim. *Magnetic Marketing: How to Attract a Flood of New Customers That Pay, Stay, and Refer* (ForbesBooks, 2018). Cited in `CLAUDE.md` for attraction/conversion/retention/referral go-to-market logic; extraction at `book-extractions/kennedy-magnetic-marketing-extraction.md`.
+- Brunson, Russell. *Proven Secrets to Double Your Traffic, Conversion & Sales for Any Product or Service Online* (SuccessEtc LLC / DotComSecrets Ignite). Extraction at `book-extractions/brunson-dotcomsecrets-ignite-extraction.md`.
+- Haines, Steven. *How to Create a Business Case* (2022). Cited in `CLAUDE.md` as the basis for the business-case test (problem, options, do-nothing case, incremental economics, timing, sensitivity) applied to major systems, digitisation, expansion, or automation recommendations; extraction at `book-extractions/haines-how-to-create-a-business-case-extraction.md`.
+
+`book-extractions/` holds 32 files in total, including further sources not cited above by name in `CLAUDE.md` (e.g. Rogers on digital transformation, Godin, Molenaar on demand-driven strategy, Tod on multi-tenant SaaS architecture, van der Kooij on SaaS sales methodology) — consult the directory directly for the full set; only the sources this suite's own doctrine names in `CLAUDE.md`/`AGENTS.md` are cited above to avoid padding.
 
 ## Capability map
 

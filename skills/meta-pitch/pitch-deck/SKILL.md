@@ -259,6 +259,13 @@ Minimum preparation standard before any live pitch:
 
 ## Consistency Check Before Submission
 
+This is the post-draft check. The pre-draft gate  the Source-of-Truth
+Register that traction, pricing, raise size, use of funds, bios, and
+milestones should already have been locked against during intake  lives in
+`00-client-intake/SKILL.md`. If that register was skipped, expect this
+checklist to surface conflicts that now require rework rather than
+confirmation.
+
 Before the pitch deck is declared final, verify:
 
 - [ ] Every financial figure on slides matches the business plan exactly

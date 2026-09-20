@@ -1,0 +1,21 @@
+{
+  "name": "chwezi-business-plan",
+  "owner": { "name": "Peter Bamuhigire", "email": "peter.bamuhigire@gmail.com" },
+  "metadata": { "description": "Chwezi business plan engine — business plans, bankable plans, investor materials, financial models, market strategy, and country/market context for East & Central Africa" },
+  "plugins": [
+    {
+      "name": "business-plan",
+      "source": "./",
+      "description": "94 skills for business plans, bankable plans for lenders/DFIs, investor decks and memos, financial models, and country/market context",
+      "version": "1.0.0",
+      "author": { "name": "Peter Bamuhigire" },
+      "homepage": "https://github.com/chwezi/business-plan-skills",
+      "repository": "https://github.com/chwezi/business-plan-skills",
+      "license": "MIT",
+      "keywords": ["business-plan", "investor", "finance", "market-research"],
+      "category": "business",
+      "tags": ["business-plan", "investor", "finance"],
+      "strict": false
+    }
+  ]
+}
