@@ -1,6 +1,51 @@
 # Premium GTM Quality Gate
 
+Parent: [Premium Go-To-Market](../SKILL.md).
+
 Use this gate for high-ticket, luxury, affluent, executive, enterprise, and premium-service business plans.
+
+## Choose the value model
+
+Distinguish premium professional value (expertise, precision, reduced effort,
+reliability, discretion or accountable service) from luxury value that may also
+depend on aesthetic authorship, provenance, cultural meaning and symbolic
+experience. Use customer evidence to determine the mix. Do not assume affluent
+buyers share one motivation or that professional buyers require manufactured
+exclusivity. Transparent scope and accessible service remain quality conditions.
+
+McKinsey and The Business of Fashion's [2025 luxury report](https://www.mckinsey.com/industries/retail/our-insights/state-of-luxury-2025)
+(published 2025-01-13; opened 2026-09-22) argues for restoring product excellence,
+client engagement and delivery capabilities when price and value diverge. This
+is a sector-specific analysis, not causal evidence for consulting fees. Transfer
+the question—what operational quality supports the price?—and test it locally;
+do not import market forecasts or luxury-goods pricing rules into services.
+
+## Promise, capacity and willingness-to-pay evidence
+
+For each premium promise, record: buyer need, specific difference, alternative,
+proof, delivery owner, capacity, service cost, failure remedy and review date.
+Compare a credible internal, standardised or AI-assisted option. Explain why the
+buyer should pay for this additional judgement or responsibility.
+
+Use a proof progression: inspectable sample, observed pilot, permissioned case,
+repeat purchase/renewal and price acceptance. Keep each evidence level labelled.
+Stated enthusiasm, a waiting list or social engagement does not prove willingness
+to pay the proposed price. Test the offer and terms without fake scarcity,
+undisclosed discounts or an invented reference price.
+
+Tie quality claims to observable evidence:
+
+| Promise | Evidence required | Failure consequence |
+|---|---|---|
+| Specialist judgement | Relevant work, reasoning, limits and qualified reviewer | Narrow the claim or commission discovery |
+| Bespoke craft | Authored choices tied to the buyer; inspected representative output | Revise generic treatment before scaling |
+| Senior service | Actual availability, decision rights and response/recovery process | Revise staffing or commitment |
+| Superior economics | Reconciled contribution/cash scenario and limitations | Withhold ROI and scale claims |
+| Discretion and trust | Authorised information handling and truthful proof | Hold release and correct handling |
+
+Do not assign a higher quality score because this workpaper exists. Validate it
+on a real engagement, retain disconfirming evidence and review actual service
+cost, client effort, renewal, complaints and margin before increasing scope.
 
 ## Positioning
 

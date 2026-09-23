@@ -138,6 +138,7 @@ Before external release of a complete plan, apply `references/cross-engine-deliv
 
 ## Task Routing
 
+- Standalone marketing plan: `skills/marketing-sales/marketing-plan-orchestrator/SKILL.md` owns market choices, offer, price, distribution, promotion, economics and execution. Section 07 remains the business-plan component; social-media-skills owns detailed digital/channel execution briefs.
 - Full bankable plan: `business-plan-orchestrator` -> `00-client-intake` -> evidence design -> `meta-critical-thinking-business-logic` -> sections `02` to `16` -> `01-executive-summary` -> synthesis/model/challenge gates -> `15-appendices` -> `00-plan-assembly` -> cross-engine finalisation -> validated release bundle
 - Equity or investor plan: baseline plan flow + `meta-valuation`
 - Grant application: `11b-grant-proposal` instead of standard funding-request workflow

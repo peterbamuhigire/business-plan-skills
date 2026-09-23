@@ -238,7 +238,7 @@ either version gets baked into a section.
 finalised Phase 1/2 brief into a single register and lock them as the
 canonical values every downstream section must match:
 
-```
+```text
 SOURCE-OF-TRUTH REGISTER
 
 Traction (revenue to date, customers/units sold, pilots): ___________

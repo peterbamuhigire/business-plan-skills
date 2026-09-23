@@ -1,13 +1,10 @@
 ---
 name: competitive-report-structure
 description: >-
-  Use after benchmark-methodology has produced scored competitor profile
-  cards. Assembles findings into a decision-grade report: landscape map,
-  competitor tiers, benchmarking matrix (heatmap, no blended total),
-  deep dives chosen for instruction not ranking, white-space analysis,
-  strategic recommendations checked against the client's brand balance, and
-  team-alignment trigger questions. Final step in the three-skill
-  competitive-intelligence pipeline.
+  Use when benchmark-methodology has produced scored competitor profile
+  cards. Assemble a sourced report with maps, tiers, a no-blended-total
+  matrix, instructive deep dives, white-space, threats, and recommendations
+  checked against the client's brand balance.
 metadata:
   portable: true
   origin: ECC (skills/competitive-report-structure/SKILL.md), adapted for
@@ -38,6 +35,7 @@ that doesn't.
 
 ## Do Not Use When
 
+- For incomplete cards, use `benchmark-methodology` before assembly.
 - Profile cards from `benchmark-methodology` are incomplete — finish scoring
   first; partial data undermines the heatmap and white-space sections.
 - The output is a plan section, not a standalone report — use
@@ -173,7 +171,82 @@ End with questions that force decisions, not admiration of the analysis:
 - What's the one move that most widens distinctiveness *without* costing
   bankability / credibility?
 
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Completed competitor profile cards and tension plot | `benchmark-methodology` output | Yes | Stop assembly and return incomplete cards for scoring or evidence repair. |
+| Client positioning brief, target quadrant, differentiator, and brand balance | Client or authorised engagement lead | Yes | Qualify the executive summary and recommendations; request the missing decision frame. |
+| Source and verification notes for the scoped set | Benchmark working papers and approved research evidence | Yes | Keep affected findings `NOT_ASSESSED` and retain the evidence gap in the appendix. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Decision-grade competitive report | Founder, leadership team, board, or investor | Answers who to compete with, how to compete, and where the defensible white-space lies, with sourced maps and matrix. |
+| Recommendation and team-alignment register | Client decision-maker | Each move names the dimension, impact-effort order, brand-balance effect, owner, and unresolved assumption. |
+| Sources and methodology appendix | Reviewer and future plan author | Carries the scoped set, weights, rubrics, source links or named contacts, dates, and asserted/proven status. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Benchmark matrix and heatmap | Competitor-by-dimension table | All competitors and the client appear with separate tension poles and no blended total. |
+| White-space and threat trace | Map annotations plus cited narrative | Each conclusion points to matrix or source evidence and states uncertainty where the evidence is partial. |
+| Recommendation decision trace | Prioritised action table | The recommendation resolves the three decision questions and records the countercase and brand-balance check. |
+
+## Capability and Permission Boundaries
+
+Read and search are required. The requested report authorises public-source verification, local drafting, source-register maintenance and visual production within scope. Preserve source provenance and distinguish inference from fact. Contacting competitors, external circulation/publication, spending and binding client commitments require engagement-owner authority; honour authority already supplied without asking again.
+
+## Degraded Mode
+
+If profile cards, the positioning brief, source notes, or verification evidence are unavailable, stop the affected section, mark it `NOT_ASSESSED` or qualified, and state the smallest evidence request that permits recovery. A partial report may show a provisional map or finding only when the missing coverage is visible, the client accepts the limitation, and no recommendation depends on an unsupported comparison. Do not fill a missing score or source with a template default.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| Profile cards are incomplete | Return to `benchmark-methodology` before building the heatmap or deep dives | A polished report amplifying partial scoring |
+| The target quadrant is occupied or evidence is inconclusive | Name the occupant or uncertainty and frame the strategic choice; do not call the space open | An unsupported white-space claim |
+| A recommendation shifts the stated brand balance | Flag the shift, test the countercase, and obtain the client's decision | Strategy drifting away from the agreed position |
+| A source or score cannot be verified | Qualify the finding in the appendix and narrow the recommendation | Citation laundering or false precision |
+
+## Workflow
+
+1. Confirm the profile cards, client frame, source boundary, and intended decision-maker; stop assembly if a required input is missing.
+2. Build the landscape map, tiers, heatmap matrix, and client comparison with separate tension poles before drafting recommendations.
+3. Select deep dives for instruction, test white-space and threat claims against the matrix, and record the countercase and uncertainty.
+4. Draft prioritised recommendations against impact and effort, check each against brand balance, and route any unresolved choice to the client decision-maker.
+5. Complete the appendix and team-alignment questions, then run the evidence and anti-slop checks; revise or issue a qualified handoff when a gate fails.
+
+## Quality Standards
+
+- The executive summary is decision-first and states where the client is strong, exposed, and challenged, with a trace to the report evidence.
+- The matrix includes all scored competitors and the client, preserves the two tension poles, and contains no blended total column.
+- White-space, threats, deep dives, and recommendations are argued from the map and matrix, with sources and uncertainty visible.
+- Every recommendation names its impact-effort position, brand-balance effect, countercase, and next decision owner.
+- The appendix is sufficient for another reviewer to reproduce the set, scoring basis, sources, and verification status without relying on the author’s memory.
+
+## References
+
+- [Business-plan core rules](../../../rules/common/core.md)
+- [Competitive platform analysis](../competitive-platform-analysis/SKILL.md)
+- [Benchmark methodology](../benchmark-methodology/SKILL.md)
+- [Client intake](../../pipeline/00-client-intake/SKILL.md)
+- [Competitive-analysis plan section](../../pipeline/06-competitive-analysis/SKILL.md)
+
+<!-- dual-compat-end -->
+
 ## Anti-Patterns
+
+- Leading with methodology instead of the decision. Correction: put the strongest finding and action in the executive summary.
+- Presenting scores without a tension plot. Correction: map both poles and show the client's target quadrant.
+- Calling white-space open without checking the matrix and sources. Correction: name occupants, uncertainty, and the evidence gap.
+- Recommending a move without checking brand balance. Correction: state the intended shift and obtain the client's decision.
+- Starting assembly before profile cards are complete. Correction: return to benchmarking and retain a qualified report state.
 
 - **Leading with methodology.** The executive summary opens with the most
   important finding, not an explanation of how the benchmark was run.

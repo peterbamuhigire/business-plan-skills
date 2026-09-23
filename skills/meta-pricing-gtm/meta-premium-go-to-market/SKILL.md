@@ -39,7 +39,7 @@ metadata:
 
 ## Workflow
 
-1. Define the premium segment narrowly: buyer profile, buying context, status/risk drivers, channels, proof expectations, and alternatives.
+1. Define the premium segment narrowly: buyer profile, buying context, status/risk drivers, channels, proof expectations, and alternatives. Apply [the premium GTM evidence gate](references/premium-gtm-quality-gate.md) to distinguish professional value from luxury value and test promise, capacity and willingness to pay.
 2. Position the offer around expensive outcomes: revenue, profit, time, status, confidence, risk reduction, access, transformation, or strategic control.
 3. Build the premium offer: tiers, inclusions, exclusions, guarantees/assurances, onboarding, service cadence, evidence, and delivery quality.
 4. Price for value: anchor to outcomes and consequences, show trade-offs, avoid reflex discounts, and connect pricing to financial projections.

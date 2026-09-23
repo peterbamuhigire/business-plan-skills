@@ -25,7 +25,7 @@ Skills are grouped into thematic categories under `skills/`. Use `skills/<catego
 - `ict/` — ICT-sector business-plan skills
 - `industry-guides/` — sector reference guides (agriculture, manufacturing, hospitality, retail, etc.)
 - `saas/` — SaaS GTM, unit economics, lifecycle, pricing, valuation
-- `marketing-sales/` — `demand-forecasting`, `digital-marketing-strategy`
+- `marketing-sales/` — `marketing-plan-orchestrator` for complete standalone marketing plans; `entrepreneurial-demand-generation`, `demand-forecasting`, and `digital-marketing-strategy` for their specialist layers.
 - `writing-content/` — `ai-prompt-writer`, `blog-idea-generator`, `blog-writer`, `content-writing`, `premium-commercial-writing`
 - `language/` — `east-african-english`, `language-standards`, `writing-quality`
 - `meta-finance/` — bankability, valuation, financial stress test, revenue recognition, SLA controls

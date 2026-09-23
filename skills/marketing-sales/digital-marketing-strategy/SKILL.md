@@ -20,6 +20,7 @@ Use this skill to design the digital marketing layer of a business plan or growt
 
 ## Do Not Use When
 
+- For the complete marketing mix and standalone plan, use [marketing-plan-orchestrator](../marketing-plan-orchestrator/SKILL.md); this skill owns its digital layer.
 - Do not use without a defined offer, audience, and commercial objective.
 - Do not confuse a channel list with a strategy.
 - Do not force digital channels into a model where they are not economically relevant.
@@ -66,15 +67,16 @@ Use this skill to design the digital marketing layer of a business plan or growt
 
 ## Purpose
 
-Every business plan produced by this skills suite must include:
-1. A **Digital Marketing Strategy**  how the business will use digital channels to reach customers, generate leads, and convert sales
-2. An **AI Marketing Integration** section  how AI tools will be embedded in the marketing and sales process
+Assess whether digital channels materially serve the buyer and business model.
+Include a digital strategy when justified by that evidence. Include AI-assisted
+marketing only when a defined task, evaluation, data boundary, human owner and
+fallback justify it; a plan does not require AI for its own sake.
 
 This skill generates both sections. It draws on eight primary reference frameworks:
 
 **Strategy and cross-channel frameworks:**
 - **McDonald, Wilson, Chaffey** (Marketing Plans, 9th ed)  POEM model, RACE framework, 6 digital channels, IMC, omnichannel, measurement  `references/marketing-plans-chaffey.md`
-- **Bodnar and Cohen** (B2B Social Media Book)  ROI formula, COCA/TLV, 5-step lead generation, 10-4-1 rule  `references/b2b-social-media.md`
+- **Bodnar and Cohen** (B2B Social Media Book): historical lead-generation context in `references/b2b-social-media.md`. Its ratios, legacy metrics and platform instructions are not current execution rules; use Section 2.7 economics and current primary-source verification.
 - **Robinson** (Digital Marketing Playbook 2023)  7 channel tactics, SMART goals, analytics  `references/digital-marketing-playbook.md`
 - **Kotler, Kartajaya, Setiawan** (Marketing 6.0)  metamarketing, phygital natives, 5 micro-trends, immersive CX, Gen Z/Alpha characteristics  `references/marketing-60-kotler.md`
 - **Lamplugh** (AI Marketing Playbook, 2nd ed)  AI tools by function: chatbots, personalisation, email automation, SEO, content, lead scoring  `references/ai-marketing-playbook.md`
@@ -101,7 +103,7 @@ Ask for any missing information before drafting. Minimum required:
 5. **Monthly marketing budget:** UGX / KES / TZS / RWF amount, or estimate
 6. **Sales cycle:** How long from first contact to purchase? (affects attribution and content strategy)
 7. **Primary marketing goal:** Lead generation? Awareness? Retention? eCommerce sales?
-8. **B2B-specific (if applicable):** Average sale value, average customer lifetime, COCA target
+8. **B2B-specific (if applicable):** Average sale value, observed retention, fully loaded CAC, contribution and payback assumptions
 
 If information is missing, state your assumptions clearly and flag them for verification.
 
@@ -115,7 +117,7 @@ Generate the following subsections in order. Adjust depth based on plan length r
 
 ### 2.1 Digital Marketing Overview
 
-Write 23 paragraphs covering:
+Write a concise explanation covering:
 - The digital landscape in the business's market (EA-specific platform penetration, mobile-first context)
 - Why digital marketing is specifically suited to this business type
 - The overall digital marketing objective (what the strategy will achieve)
@@ -139,7 +141,7 @@ Assess the current state across three dimensions:
 
 **Paid media assessment:**
 - Current ad spend (if any) and results achieved
-- Platforms used and COCA estimate
+- Platforms used, acquisition cohort and media-only versus fully loaded CAC estimate
 
 **Earned media assessment:**
 - Existing reviews (Google, Facebook)
@@ -158,7 +160,7 @@ Assess the current state across three dimensions:
 
 Structure the digital marketing strategy across the three media types (McDonald, Wilson, and Chaffey, 2024):
 
-**Owned media (build first, lowest cost, permanent):**
+**Owned and managed destinations (test readiness, cost and control):**
 List the owned assets the business will build/maintain and what each contributes:
 - Website: [specific pages, content focus, conversion goals]
 - WhatsApp Business: [catalogue, broadcast list, automation, response SLA]
@@ -167,18 +169,18 @@ List the owned assets the business will build/maintain and what each contributes
 - Email list: [opt-in mechanism, nurture sequence]
 - Google Business Profile: [photos, posts, review response]
 
-**Paid media (amplify what works; COCA-disciplined):**
-- Primary paid channel (usually Facebook/Meta Ads for EA consumer; Google Ads for high-intent search)
-- Monthly budget allocation
-- Target audience parameters
-- Campaign objective (awareness, traffic, leads, conversions)
-- COCA target: state what maximum acquisition cost is acceptable given TLV
+**Paid media (conditional investment):**
+- Compare candidate channels using buyer/account evidence and the intended decision.
+- Record spend ceiling, production cost, labour, tools and measurement cost.
+- Define permitted audience parameters and verify current account/region eligibility.
+- Choose an objective linked to a tested destination and accountable follow-up.
+- Set a provisional acquisition ceiling from cohort contribution, cash, payback and downside scenarios with the finance owner; lifetime revenue alone is insufficient.
 
 **Earned media (accelerate through excellence):**
-- Review generation strategy (ask every satisfied customer; platform-specific)
+- Neutral review invitation strategy consistent with current platform rules; do not selectively solicit only satisfied customers.
 - Referral programme (if applicable)
 - PR: any local media, industry associations, community groups that will amplify content
-- WhatsApp group seeding: identify relevant WhatsApp groups where target customers gather
+- Relevant community participation only with administrator rules, member expectations and permission respected; no unsolicited group seeding.
 
 ---
 
@@ -199,12 +201,12 @@ Apply the RACE framework (Chaffey, SmartInsights.com, in McDonald et al., 2024) 
 **CONVERT** (turn engaged prospects into paying customers):
 - Channels: [e.g. WhatsApp DM follow-up, Google Ads call-to-action, in-person visit]
 - Content: [e.g. testimonials, pricing transparency, offer/discount for first purchase]
-- KPI: Conversion rate (enquiry to sale), COCA per channel, revenue from digital leads
+- KPI: Qualified enquiry-to-sale conversion, cohort CAC with cost boundary, collected revenue and contribution
 
 **ENGAGE** (retain customers and build advocacy):
 - Channels: [e.g. WhatsApp broadcast tips, loyalty offer, post-sale check-in]
 - Content: [e.g. how-to-use tips, new product alerts, exclusive customer offers]
-- KPI: Repeat purchase rate, TLV, referral rate, Google/Facebook review count
+- KPI: Repeat purchase, lifetime contribution with cohort/horizon limits, qualified referrals and service experience
 
 ---
 
@@ -212,19 +214,17 @@ Apply the RACE framework (Chaffey, SmartInsights.com, in McDonald et al., 2024) 
 
 Prioritise channels based on the business's target audience, budget, and goals. For each selected channel, specify:
 
-**Recommended channel priority template (adapt to business):**
+**Channel investment workpaper (complete one row per candidate):**
 
-| Channel | Priority | Monthly Budget | Content Frequency | KPI |
-|---------|----------|---------------|-------------------|-----|
-| WhatsApp Business | Primary | Staff time only | Daily response; weekly broadcast | Enquiry  sale conversion rate |
-| Facebook (organic) | Primary | Staff time only | 45 posts/week | Enquiries from posts, engagement rate |
-| Facebook Ads | Secondary | [Budget] | Campaign-based | CPL, COCA |
-| Google Business Profile | Primary | Free (staff time) | Weekly post + review responses | Local search impressions, directions requests |
-| YouTube/TikTok (video) | Secondary | Staff time | 2 video/week | Views, WhatsApp leads from video |
-| Website / SEO | Medium-term | Content + basic hosting | 2 blog posts/month | Organic sessions, enquiry form submissions |
-| Email marketing | B2B only | Low (tool cost) | 2 per month | Open rate, leads from email |
-| LinkedIn | B2B only | Staff time | 3 per week | Connection growth, InMail responses |
-| Influencer | Optional | [Budget] | Campaign-based | Attributable leads per influencer |
+| Decision field | Evidence required |
+|---|---|
+| Channel and role | Buying situation, observed audience/account evidence and alternative routes |
+| Invest, test, maintain or defer | Specific reason, uncertainty and condition for reconsideration |
+| Total resource envelope | Media, fees, labour, production, tools, destination and follow-up cost |
+| Production and response cadence | Available owner hours, sample effort and service commitment; label proposed cadence as a pilot |
+| Readiness | Rights, account/region eligibility, tested destination, CRM and response owner |
+| Evaluation | Qualified outcome, observation window, comparison, cost boundary and attribution limits |
+| Decision rule | Spend cap, evidence minimum, stop/revise rule and review owner/date |
 
 **Channel selection rationale:** For each channel, state why it is or is not appropriate for this specific business. Not every channel is right for every business.
 
@@ -236,52 +236,46 @@ Define what content will be produced, who will produce it, and at what cadence.
 
 **Content pillar framework (adapt to business):**
 
-| Pillar | Description | % of Content | Formats |
-|--------|-------------|-------------|---------|
-| Education | Teach customers something useful (how-to, tips, FAQs) | 40% | Video, WhatsApp tip, blog post |
-| Social proof | Show customers that others trust and use the business | 30% | Testimonials, case studies, before/after |
-| Brand/culture | Show the people, process, and values behind the business | 20% | Behind-the-scenes, team photos, production |
-| Promotion | Direct offer, product launch, call-to-action | 10% | Offer post, product showcase with price |
+| Candidate role | Buyer question and proof | Possible format |
+|---|---|---|
+| Education | Which consequential decision does the buyer need help making? | Demonstration, explanation or decision tool |
+| Service/product proof | What authorised sample or result supports the promise? | Annotated work, permissioned case or labelled demonstration |
+| People and process | Which delivery responsibility or craft decision matters? | Practitioner explanation or process walkthrough |
+| Offer | Who is this for, what is included, and what happens next? | Service explanation or relevant invitation |
 
-**Apply 10-4-1 rule** (Bodnar and Cohen, 2012): For every 15 posts, 10 share/curate others' content, 4 are original insights, 1 is a direct promotional post.
+Allocate effort from buyer questions, funnel gaps, proof availability and team
+capacity. No universal content percentages or 10-4-1 quota applies. Test the
+proposed mix and retain only formats that serve a defined job.
 
 **Content calendar:** Create a monthly content calendar (4-week plan) specifying:
 - Platform  content type  topic  who creates it  publish date  CTA
 
 **Content production resources:**
-- Smartphone camera: sufficient for all social video
-- Canva (free): graphic design for posts and stories
-- CapCut (free): video editing for Reels/TikTok/YouTube Shorts
+- Choose capture equipment from the creative brief, audio/lighting needs and acceptance standard; test a representative sample.
+- Route graphic production to the design engine; verify tool suitability, licence and current cost.
+- Choose video editing from format, caption, rights and workflow requirements; verify current tool cost.
 - ChatGPT/Claude: first drafts of captions, blog posts, email copy (always edit for brand voice)
 
 ---
 
-### 2.7 ROI Framework: COCA and TLV
+### 2.7 Acquisition economics and contribution
 
-This section makes the financial case for the digital marketing investment (Bodnar and Cohen, 2012).
+Agree cost, cohort, time period and contribution definitions with the finance
+owner. CAC divides matching acquisition costs by new customers; distinguish
+media-only from fully loaded cost. Lifetime contribution requires evidence for
+retention, fulfilment/service cost, returns and the time horizon. Revenue-based
+lifetime value is not profit and does not establish a safe acquisition ceiling.
 
-**Step 1: Calculate TLV (Total Lifetime Value)**
-- Average sale value: [amount in local currency]
-- Average number of purchases per customer per year: [number]
-- Average customer retention period: [years]
-- TLV = Average sale  Annual purchases  Retention years = [TLV]
+ROAS is attributed revenue divided by media spend; report its attribution window
+and limitations. Incremental marketing ROI uses incremental contribution before
+marketing less incremental marketing cost, divided by incremental marketing cost.
+Without credible causal evidence, report attributed contribution and withhold
+incremental ROI. Never subtract marketing cost twice.
 
-**Step 2: Set COCA target**
-- A healthy COCA:TLV ratio for most businesses is 1030%
-- Maximum acceptable COCA = TLV  20% = [target COCA]
-- This is the budget ceiling per new customer acquired
-
-**Step 3: Track COCA by channel**
-- Facebook Ads spend  customers from Facebook = Facebook COCA
-- Staff time on WhatsApp  rate  customers from WhatsApp = WhatsApp COCA
-- Total marketing costs  total new customers = blended COCA
-
-**Step 4: Calculate ROI quarterly**
-- ROI % = (TLV  COCA)  COCA  100
-
-**Attribution approach:** Use first-action attribution (record how the customer first heard about the business). Track in a simple Google Sheet: date | customer name | how they heard of us | sale value | referral given (Y/N).
-
-**Note for business plan:** Include a table projecting COCA and TLV for Year 1 through Year 3, showing how increasing brand awareness and customer retention reduce COCA over time and increase TLV through repeat purchases.
+Reconcile cash payback, sales lag, capacity and downside scenarios. Use neither
+a universal CAC/LTV percentage nor an automatic forecast of declining CAC.
+Keep self-reported discovery alongside tracking/CRM evidence and reconcile
+duplicates. See [marketing decision workpapers](../marketing-plan-orchestrator/references/marketing-decision-workpapers.md).
 
 ---
 
@@ -289,7 +283,7 @@ This section makes the financial case for the digital marketing investment (Bodn
 
 Present the digital marketing budget as a table:
 
-| Category | Month 13 | Month 46 | Month 712 | Annual Total |
+| Category | Months 1–3 | Months 4–6 | Months 7–12 | Annual Total |
 |----------|-----------|-----------|------------|-------------|
 | Owned media (staff time, tools) | | | | |
 | Paid advertising (Facebook, Google) | | | | |
@@ -298,9 +292,9 @@ Present the digital marketing budget as a table:
 | Analytics tools / CRM | | | | |
 | **Total** | | | | |
 
-**As % of projected revenue:** Digital marketing budget should be 515% of projected monthly revenue for growth-stage businesses. Established businesses may invest 38%.
+**Budget decision:** Build the budget from objectives, evidence, production and sales capacity, cash constraints and bounded tests. A percentage of revenue may be a comparison, not a universal spending rule.
 
-**Startup allocation principle:** Begin with owned and earned media (low cost). Move to paid media only once COCA tracking is in place and at least one converting content format has been identified.
+**Startup allocation decision:** Compare total costs, learning value and capacity across viable routes. Authorise a bounded paid test only with a working destination, response owner, measurement plan and affordable loss ceiling. Owned and earned media also consume resources; an organic conversion history is useful evidence, not a universal prerequisite.
 
 ---
 
@@ -324,7 +318,7 @@ After generating this section, note that:
 - Marketing and sales strategy (Section 07) should reference this section for digital channel tactics
 - Financial projections (Section 10) should include the digital marketing budget as a line item
 - AI integration (Section 14) should reference this section for marketing AI use cases
-- Implementation timeline (Section 13) should schedule the digital marketing setup activities in Month 13
+- Implementation timeline (Section 13) should schedule the digital marketing setup activities in Months 1–3
 
 ---
 
@@ -339,7 +333,7 @@ After generating this section, note that:
 For business plan use, cite as follows (first use):
 
 - McDonald, Wilson, and Chaffey's (2024) POEM framework
-- Bodnar and Cohen's (2012) ROI formula: (TLV  COCA)  COCA
+- Historical B2B acquisition frameworks require the contribution and cohort corrections in Section 2.7 before financial use.
 - Robinson's (2023) seven-channel digital marketing model
 - Kotler, Kartajaya, and Setiawan's (2023) phygital natives framework
 - Lamplugh's (2024) AI marketing implementation roadmap

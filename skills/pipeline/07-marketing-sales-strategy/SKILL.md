@@ -22,6 +22,7 @@ Generate Section 07 of the business plan: the marketing and sales strategy. Use 
 
 ## Do Not Use When
 
+- For a complete standalone marketing plan, use [marketing-plan-orchestrator](../../marketing-sales/marketing-plan-orchestrator/SKILL.md); this skill owns the business-plan section.
 - Do not use without a clear offer and target customer baseline.
 - Do not present a list of channels without conversion logic, budget discipline, or metrics.
 - Do not rely on awareness tactics alone as a substitute for sales process design.

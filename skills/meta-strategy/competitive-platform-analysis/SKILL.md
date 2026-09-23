@@ -1,16 +1,6 @@
 ---
 name: competitive-platform-analysis
-description: >-
-  Use when scoping a standalone competitive-intelligence engagement —
-  identifying, tiering, and score-filtering a competitor set before any
-  benchmarking begins. Decides who counts as a competitor, which tier
-  (Direct/Adjacent/Aspirational) they belong to, and which sources to mine.
-  First step in the three-skill competitive-intelligence pipeline; precedes
-  `benchmark-methodology`. Distinct from `06-competitive-analysis`, which
-  drafts the competitive-analysis section of a business plan document — use
-  this pipeline instead when the deliverable is a standalone competitive
-  intelligence report (e.g. for a board, an investor, or a positioning
-  decision) that needs a defensible, tiered, and scored competitor set.
+description: Use when scoping a sourced, tiered competitor set for a standalone competitive-intelligence report before benchmark-methodology.
 metadata:
   portable: true
   origin: ECC (skills/competitive-platform-analysis/SKILL.md), adapted for
@@ -208,7 +198,82 @@ A scoped, tiered competitor set (typically 8–15 candidates → 5–10 profiled
 given data availability in EA markets), each tagged with its axis positions,
 tier, and source links, ready to hand to `benchmark-methodology`.
 
+<!-- dual-compat-start -->
+
+## Required Inputs
+
+| Input artefact | Source/provider | Required | Behaviour when absent |
+|---|---|---:|---|
+| Client positioning brief with offer, target customers, differentiator, and strategic tension | Client or authorised engagement lead | Yes | Stop scoping and elicit the missing brief; do not invent a competitive lens. |
+| Engagement context: business, industry, country, size band, and target market | `00-client-intake` and client evidence | Yes | Return the missing context to intake and mark tier decisions `NOT_ASSESSED`. |
+| Candidate evidence and source trail | Approved research notes, registries, site observations, and named contacts | Conditional | Keep the candidate qualified or exclude it pending evidence; do not infer market share or revenue. |
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Scoped candidate register | Benchmark-methodology author | Each candidate has inclusion rationale, source trail, axis positions, and an explicit Direct, Adjacent, Aspirational, or substitute treatment. |
+| Tiered competitor set | Client decision-maker and benchmark author | The set is pruned, decision-relevant, and explains who is excluded and why. |
+| Scoping handoff note | Downstream competitive-intelligence skills | States the positioning brief, evidence gaps, verification status, and the next scoring action. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Candidate inclusion record | Register row with source and rationale | Another reviewer can reproduce why the candidate contests the client's position. |
+| Tier and axis assessment | Annotated matrix or decision note | Direct, Adjacent, Aspirational, and substitute distinctions are visible and tied to evidence. |
+| Verification and uncertainty log | Source notes with dates and limitations | Two-source corroboration, asserted claims, and estimated values are clearly labelled. |
+
+## Capability and Permission Boundaries
+
+Read and search are required. The skill may analyse authorised public and engagement evidence and draft a scoped register; it may not contact competitors, represent itself as the client, purchase data, disclose confidential client information, or publish intelligence. Site visits, interviews, registry fees, or any external communication require explicit engagement-owner authority.
+
+## Degraded Mode
+
+If the positioning brief, country context, candidate source, or corroboration is unavailable, stop the affected inclusion or tier decision, mark it `NOT_ASSESSED` or qualified, and issue the smallest evidence request for recovery. A thin digital footprint may support a clearly labelled candidate hypothesis, but it cannot establish a verified attribute or market-share figure. Continue only with the verified subset and state the downstream consequence.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| The client lens is missing or generic | Return to positioning discovery and do not build a flat competitor list | Scoping noise that cannot inform strategy |
+| A candidate overlaps only on product but not customers, size, or market | Classify it as Adjacent or exclude it, with the rationale recorded | Treating every similar offer as a head-to-head rival |
+| A candidate is a maturity reference outside the current market | Classify it Aspirational and keep the commercial distance visible | Comparing unlike operators as if they share the same fight |
+| A market-share or revenue figure is estimated | Label it an estimate with method and uncertainty, or remove it | An unsupported number becoming plan fact |
+
+## Workflow
+
+1. Confirm the client positioning brief, business context, country, permission boundary, and decision the competitor set must support; stop if a required input is missing.
+2. Gather candidates across the source types already specified, then record size, niche, geography, engagement model, presentation, operational depth, brand strength, and evidence model.
+3. Plot each candidate against the generic axes and apply Direct, Adjacent, Aspirational, or substitute treatment using the client's scoping consequence.
+4. Apply the pre-filter, test the countercase and exclusion rationale, and verify material attributes across at least two sources where feasible.
+5. Hand off the pruned set, source links, uncertainty, and recovery requests to `benchmark-methodology`; if the set is not defensible, return to step 1 rather than scoring it.
+
+## Quality Standards
+
+- Every included candidate has a named reason for inclusion, a tier, axis positions, and a source trail; exclusions are explainable.
+- The positioning brief remains the frame for inclusion, and the business-plan core rule on country and engagement context is honoured.
+- Direct, Adjacent, Aspirational, and substitute categories remain distinct, with the client's realistic head-to-head set clearly identified.
+- Self-reported claims, estimates, and single-source observations retain their uncertainty until corroborated; no market figure is silently promoted to fact.
+- The handoff exposes the strongest countercase, the evidence gaps, and the condition required before benchmarking can begin.
+
+## References
+
+- [Business-plan core rules](../../../rules/common/core.md)
+- [Client intake](../../pipeline/00-client-intake/SKILL.md)
+- [Benchmark methodology](../benchmark-methodology/SKILL.md)
+- [OSINT business-intelligence reference](../meta-due-diligence/references/osint-business-intelligence.md)
+- [Competitive report structure](../competitive-report-structure/SKILL.md)
+
+<!-- dual-compat-end -->
+
 ## Anti-Patterns
+
+- Scoping without a positioning brief. Correction: stop and elicit the client's offer, audience, differentiator, and tension first.
+- Listing every similar business as a competitor. Correction: retain only candidates with a decision-relevant inclusion rationale.
+- Blurring Direct, Adjacent, and Aspirational tiers. Correction: state the customer, size, geography, and maturity distinction for each tier.
+- Treating a single site visit or self-reported claim as verification. Correction: label the observation and seek a second source.
+- Presenting estimated market share or revenue as fact. Correction: label the estimate with its method and uncertainty or remove it.
 
 - **Scoping without a positioning brief.** A competitor list built without
   the client's lens is noise. The brief determines what counts as a real
