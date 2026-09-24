@@ -1,13 +1,15 @@
 # PVC Electrical Cable Assembly
 
 **Sub-sector:** Electrical Products
-**Sources:** Thankaraju, P. (Startup Manufacturing Business Ideas 200, NestFame 2018)
+**Basis:** Planning reference written for this engine from general light-manufacturing practice; see the Sources consulted line at the end.
 
 > Uganda's rural electrification programme (REA) and urban construction boom create large and growing demand for electrical wiring cable. Full cable manufacturing (copper rod drawing + PVC compound production) is capital-intensive heavy industry. PVC cable **assembly** — buying pre-drawn copper conductor and extruding PVC insulation — is a viable light manufacturing operation with significantly lower capital entry.
 
 ---
 
-## Financial Indicators (EA Estimates, 2026)
+## Financial Indicators (planning assumptions - verify)
+
+All figures below are planning assumptions for scoping only. Re-verify current prices, wages and capital costs with dated supplier quotes, and reconcile tax treatment with the Chwezi finance engine.
 
 ### Cable Assembly Plant (single extruder line)
 
@@ -141,3 +143,7 @@ After step 9, feed two insulated cores through bunching machine → second sheat
 | Competition from Kenyan imports (Eland, Nexans Kenya) | Compete on price (lower import duty advantage), delivery, and BUBU policy |
 | Insulation pinholes (spark test failures) | Rigorous incoming PVC compound testing; monitor extrusion temperature closely |
 | Die wear affecting OD tolerance | Regular die inspection; stock spare die sets per conductor size |
+
+---
+
+Sources consulted: general small-scale manufacturing practice, East African supplier and regulator guidance, and the UNDP compendium profile family where noted; all numeric ranges are planning assumptions to verify with current quotes.

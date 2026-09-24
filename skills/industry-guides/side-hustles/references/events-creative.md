@@ -1,7 +1,7 @@
 # Events and Creative Side Hustles
 
 **Audience:** EA professionals with photography, performance, or organisational skills
-**Sources:** Guillebeau (2017), Simon (2022)
+**Basis:** Planning reference written for this engine; figures are planning assumptions to re-verify with dated local quotes and data (see Sources consulted at the end).
 
 > Events are the backbone of East African social and professional life. Weddings, graduations, church services, corporate functions, fundraisers, and community celebrations happen every weekend. Creative professionals who build a reputation in this space earn premium fees for weekend work that does not interfere with weekday employment.
 
@@ -130,7 +130,7 @@
 
 ---
 
-## Spin-Off Synergies (Simon, 2022)
+## Spin-Off Synergies
 
 Creative side hustles compound naturally:
 
@@ -166,3 +166,7 @@ Creative side hustles compound naturally:
 | Event day conflicts with day job | Never book events during work hours; be honest about availability |
 | Scope creep ("can you also do video?") | Written agreement specifying exactly what is included |
 | Editing backlog | Deliver within agreed timeline; communicate delays in advance |
+
+---
+
+Sources consulted: side-business literature (Guillebeau 2017; Simon 2022) and East African events-market observation. All money figures are planning assumptions for a 2026 baseline and must be re-verified with a dated source. Tax, payroll and accounting treatment: verify with the Chwezi finance engine.

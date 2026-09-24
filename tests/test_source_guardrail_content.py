@@ -42,14 +42,14 @@ class ContentAwareGuardrailTests(unittest.TestCase):
             make(temporary, "skills/industry-guides/x/references/profile.md", DIGEST)
             self.assertEqual([], MODULE.scan_content(root))
 
-    def test_content_warnings_are_report_only_until_strict(self):
-        self.assertFalse(MODULE.CONTENT_CHECK_BLOCKING)
+    def test_content_warnings_are_blocking(self):
+        self.assertTrue(MODULE.CONTENT_CHECK_BLOCKING)
         with tempfile.TemporaryDirectory() as temporary:
             make(temporary, "skills/demo/references/digest.md", DIGEST)
             original = sys.argv
             try:
                 sys.argv = ["guardrail", "--root", temporary]
-                self.assertEqual(0, MODULE.main())
+                self.assertEqual(1, MODULE.main())
                 sys.argv = ["guardrail", "--root", temporary, "--strict-content"]
                 self.assertEqual(1, MODULE.main())
             finally:

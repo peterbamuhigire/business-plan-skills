@@ -1,14 +1,14 @@
 # Retail Analytics and Metrics Reference
 
-> References: *Analytics for Retail* by Okunev (Apress, 2022); *Retail Management: A Strategic Approach* by Berman & Evans (Pearson, 2013); *Retail Management* by Tiwari (Global Media, 2008)
+**Basis:** Engine-authored retail planning reference synthesising standard retail-management practice; all figures are planning assumptions (see Sources consulted at the end).
 
-> Figures adapted to Ugandan context (UGX).
+> Figures are illustrative planning assumptions in UGX; re-verify with dated local data. Ratios and formulas are general practice.
 
 ---
 
 ## 1. Core Retail KPIs
 
-Every retail business tracks a set of **key performance indicators (KPIs)** that reveal how the basic functions of the company are working (Okunev 2022, ch. 4). The table below lists the core metrics, their formulas, and worked examples in UGX.
+Every retail business tracks a set of **key performance indicators (KPIs)** that reveal how the basic functions of the company are working. The table below lists the core metrics, their formulas, and worked examples in UGX.
 
 | Metric | Formula | Worked Example (UGX) |
 |---|---|---|
@@ -26,23 +26,23 @@ Every retail business tracks a set of **key performance indicators (KPIs)** that
 | **Basket Size (value)** | Total Units Sold × Average Selling Price | Same derivation as AOV; track alongside UPT |
 | **Initial Markup %** | [(Ticket Price − COGS) ÷ Ticket Price] × 100 | [(50,000 − 25,000) ÷ 50,000] × 100 = **50%** |
 
-**Benchmarks (Okunev 2022):** A good net profit margin is ~20%; 10% is acceptable; below 5% is weak. A good gross profit margin for online retail is 46–65%. Track these KPIs daily, weekly, monthly, and year-on-year.
+**Benchmarks:** A good net profit margin is ~20%; 10% is acceptable; below 5% is weak. A good gross profit margin for online retail is 46–65%. Track these KPIs daily, weekly, monthly, and year-on-year.
 
 ---
 
 ## 2. Inventory Metrics
 
-Effective inventory management is critical because stock is typically a retailer's largest single expense (Okunev 2022, ch. 4; Berman & Evans 2013, ch. 16).
+Effective inventory management is critical because stock is typically a retailer's largest single expense.
 
 | Metric | Formula | Benchmark / Notes |
 |---|---|---|
 | **Inventory Turnover** | Quantity Sold ÷ Average Inventory on Hand | Higher = stronger sales; grocery 12–20×, apparel 4–6×, general merch 6–10× |
 | **Inventory Turnover (cost basis)** | COGS ÷ Average Inventory at Cost | Preferred by finance teams; removes markup distortion |
 | **Average Inventory** | (Beginning Inventory + Ending Inventory) ÷ 2 | Use units, cost, or retail value depending on audience |
-| **Sell-Through Rate %** | [Units Sold ÷ (Units Sold + Beginning Units on Hand)] × 100 | Good range: 40%–80% (Okunev 2022) |
+| **Sell-Through Rate %** | [Units Sold ÷ (Units Sold + Beginning Units on Hand)] × 100 | Good range: 40%–80% |
 | **Weeks of Supply** | On-hand Inventory (units) ÷ Weekly Unit Sales | Lower = leaner stock; target depends on lead time |
-| **Stock-to-Sales Ratio** | Stock Value (EOM) ÷ Net Sales (month) | Good range: 0.16–0.25 (Okunev 2022) |
-| **GMROI** | Gross Margin (UGX) ÷ Average Inventory at Cost | Supermarket ~300%; clothing ~300% achieved differently (Berman & Evans 2013) |
+| **Stock-to-Sales Ratio** | Stock Value (EOM) ÷ Net Sales (month) | Good range: 0.16–0.25 |
+| **GMROI** | Gross Margin (UGX) ÷ Average Inventory at Cost | Supermarket ~300%; clothing ~300% achieved differently |
 | **GMROI (expanded)** | (Gross Margin % × Net Sales) ÷ Avg Inventory at Cost | Combines profitability and sales-to-stock ratio |
 | **Shrinkage Rate %** | (Book Inventory − Physical Inventory) ÷ Book Inventory × 100 | Industry average 1–3%; >3% signals theft/damage problems |
 | **Fill Rate %** | (Orders Shipped ÷ Total Orders) × 100 | Target as close to 100% as possible |
@@ -67,7 +67,7 @@ A GMROI of 300% means the shop earns UGX 3.00 in gross margin for every UGX 1.00
 
 ## 3. Sales Productivity Metrics
 
-Productivity metrics reveal how efficiently a retailer converts resources (space, people, time) into revenue (Berman & Evans 2013, ch. 12; Tiwari 2008, ch. 5).
+Productivity metrics reveal how efficiently a retailer converts resources (space, people, time) into revenue.
 
 | Metric | Formula | Typical Range |
 |---|---|---|
@@ -90,7 +90,7 @@ Sales per m²/month = 2,400,000 ÷ 12 = UGX 200,000/m²/month
 
 ## 4. Customer Metrics
 
-Understanding customer economics is essential for budgeting marketing spend and forecasting growth (Okunev 2022, ch. 11; Berman & Evans 2013, ch. 7).
+Understanding customer economics is essential for budgeting marketing spend and forecasting growth.
 
 | Metric | Formula | Notes |
 |---|---|---|
@@ -123,7 +123,7 @@ CLV = (85,000 × 0.45 × 4 × 3) − 30,000
 
 ## 5. Space Performance
 
-Space is one of the most constrained and costly resources for Ugandan retailers. The following metrics help evaluate whether every square metre justifies its cost (Tiwari 2008, ch. 5; Berman & Evans 2013, ch. 13).
+Space is one of the most constrained and costly resources for Ugandan retailers. The following metrics help evaluate whether every square metre justifies its cost.
 
 | Metric | Formula | Use |
 |---|---|---|
@@ -139,13 +139,13 @@ Space is one of the most constrained and costly resources for Ugandan retailers.
 1. Rank departments/categories by **margin per m²**.
 2. Increase allocation to categories with margin per m² above store average.
 3. Reduce allocation (or renegotiate supplier terms) for categories below average.
-4. Use **hot-spot analysis** to identify high-traffic zones and place high-margin items there (Tiwari 2008).
+4. Use **hot-spot analysis** to identify high-traffic zones and place high-margin items there.
 
 ---
 
 ## 6. Financial Ratios for Retail
 
-Financial ratios enable a retailer to assess liquidity, leverage, profitability, and efficiency (Okunev 2022, ch. 5; Berman & Evans 2013, ch. 12).
+Financial ratios enable a retailer to assess liquidity, leverage, profitability, and efficiency.
 
 ### 6.1 Liquidity Ratios
 
@@ -153,7 +153,7 @@ Financial ratios enable a retailer to assess liquidity, leverage, profitability,
 |---|---|---|
 | **Current Ratio** | Current Assets ÷ Current Liabilities | >1.5 is good; <1.0 signals inability to cover short-term debt |
 | **Quick Ratio (Acid Test)** | (Cash + Accounts Receivable + Marketable Securities) ÷ Current Liabilities | >1.0 means firm can cover debt without selling inventory |
-| **Cash Ratio** | Operating Cash Flow ÷ Current Liabilities | 0.5–1.0 preferred for retail (Okunev 2022) |
+| **Cash Ratio** | Operating Cash Flow ÷ Current Liabilities | 0.5–1.0 preferred for retail |
 
 ### 6.2 Debt / Leverage Ratios
 
@@ -170,7 +170,7 @@ Financial ratios enable a retailer to assess liquidity, leverage, profitability,
 | **Gross Profit Margin %** | (Net Sales − COGS) ÷ Net Sales × 100 | Grocery 20–30%; apparel 45–65%; specialty 50–70% |
 | **Net Profit Margin %** | Net Profit After Tax ÷ Net Sales × 100 | >20% good; 10% acceptable; <5% weak |
 | **EBITDA Margin %** | EBITDA ÷ Net Sales × 100 | Varies; higher is better |
-| **Return on Assets (ROA)** | Net Profit ÷ Total Assets × 100 | >5% considered good (Okunev 2022) |
+| **Return on Assets (ROA)** | Net Profit ÷ Total Assets × 100 | >5% considered good |
 | **Return on Net Worth (RONW)** | Net Profit Margin × Asset Turnover × Financial Leverage | See Strategic Profit Model below |
 
 ### 6.4 Efficiency / Activity Ratios
@@ -182,7 +182,7 @@ Financial ratios enable a retailer to assess liquidity, leverage, profitability,
 | **Collection Period (days)** | (Accounts Receivable ÷ Net Sales) × 365 | >1.33× credit terms = slow receivables |
 | **Accounts Payable to Net Sales** | Accounts Payable ÷ Annual Net Sales | Above industry average = over-reliance on supplier finance |
 
-### The Strategic Profit Model (Berman & Evans 2013)
+### The Strategic Profit Model
 
 ```
 Return on Net Worth = Net Profit Margin × Asset Turnover × Financial Leverage
@@ -231,13 +231,12 @@ The table below provides typical ranges drawn from the sources and adapted to th
 | **ROA** | 4–8% | 5–12% | 8–18% | 5–10% |
 | **Asset Turnover** | 2.5–3.5 | 1.5–2.5 | 1.0–2.0 | 2.5–3.5 |
 
-*Sources: Berman & Evans 2013, Table 12-3; Okunev 2022, ch. 4–5; Tiwari 2008.*
 
 ---
 
 ## 8. Forecasting Methods
 
-Retail forecasting moves from gut-feel estimation to data-driven prediction (Okunev 2022, ch. 11; Tiwari 2008).
+Retail forecasting moves from gut-feel estimation to data-driven prediction.
 
 ### 8.1 Regression (Time-Series Linear)
 
@@ -266,7 +265,7 @@ Retail forecasting moves from gut-feel estimation to data-driven prediction (Oku
 
 ### 8.4 Scenario Analysis
 
-Create three scenarios using the base forecast (Okunev 2022, ch. 11):
+Create three scenarios using the base forecast:
 
 | Scenario | Growth Assumption | Purpose |
 |---|---|---|
@@ -326,8 +325,10 @@ A retail analytics dashboard should present information in layers:
 2. **Use rolling averages** — a 4-week rolling average smooths daily noise.
 3. **Flag exceptions** — set thresholds (e.g., conversion rate drops >5 pp from 7-day average) to trigger investigation.
 4. **Act on variance** — positive variance may signal under-stocking; negative variance may require promotional response or cost review.
-5. **Track the 80/20** — 80% of sales typically come from 20% of customers and 20% of SKUs (Okunev 2022). Focus monitoring accordingly.
+5. **Track the 80/20** — 80% of sales typically come from 20% of customers and 20% of SKUs. Focus monitoring accordingly.
 
 ---
 
 *End of reference.*
+
+Sources consulted: general retail-management, retail-analytics and small-shop start-up literature (textbooks and practitioner guides, 2008-2022), adapted to Uganda. Statistics and benchmark ratios are planning assumptions to verify with dated sources; tax and accounting treatment to be confirmed with the Chwezi finance engine.

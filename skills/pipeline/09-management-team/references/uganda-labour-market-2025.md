@@ -1,5 +1,5 @@
 # Uganda Labour Market 2025
-**Source:** World Bank / Government of Uganda — *Uganda Human Capital Development and Growth Review* (UHCDGR), Chapter 6: Maximising Human Capital Utilisation in the Labour Market, 2025
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 **Relevance:** Hiring plans, wage benchmarks, skills gap analysis, HR planning, management team context, talent acquisition strategy
 
 ---
@@ -297,3 +297,8 @@ World Bank / Government of Uganda. (2025). *Uganda Human Capital Development and
 Uganda Bureau of Statistics (UBOS). (2023). *National Labour Force Survey 2021 — Thematic Reports* (disseminated 1 June 2023). Kampala: UBOS.
 
 Supporting data: Uganda Household Panel Survey (UHPS) 2019; Uganda National Population and Housing Census (UNPHC) 2024; Kampala Informal Sector Survey 2016; Global Entrepreneurship Monitor (GEM) 2014.
+
+
+---
+
+Sources consulted: World Bank / Government of Uganda — *Uganda Human Capital Development and Growth Review* (UHCDGR), Chapter 6: Maximising Human Capital Utilisation in the Labour Market, 2025.

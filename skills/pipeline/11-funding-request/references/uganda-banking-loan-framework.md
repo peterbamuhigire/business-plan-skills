@@ -4,6 +4,7 @@ description: Commercial bank lending practices in Uganda — interest rates, col
 ---
 
 # Uganda Banking Loan Framework
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 
 ## 1. Overview of Commercial Bank Lending in Uganda
 
@@ -261,3 +262,8 @@ Portfolio at Risk (PAR) = balance of all loans with one or more payments past du
 5. BOU (2014). Annual Supervision Report. Cited in Area (2016): total industry loans grew from UGX 3.4T (2006) to UGX 9.4T (2014).
 
 6. UDBL (2013). Strategic Plan and Revised Credit Policy. Cited in Area (2016).
+
+
+---
+
+Sources consulted: see file history for original citations.

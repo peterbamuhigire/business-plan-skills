@@ -173,7 +173,15 @@ If these topics materially affect the business model but are absent, flag the pl
 
 ## References
 
-- **Retail startup guide**: See `references/retail-startup-guide.md` for practical guidance on opening a shop, choosing premises, buying stock, employing staff, pricing, security, and marketing from Penrith
+- **Retail startup guide**: See `references/retail-startup-guide.md` for practical guidance on opening a shop, choosing premises, buying stock, employing staff, pricing, security, marketing, and buying an existing shop
+- **Bookshop and stationery**: See `references/bookshop.md` for a small bookshop and stationery outlet.
+- **Cake packaging retail**: See `references/cake-packaging.md` for a cake-packaging supplies shop.
+- **Cosmetics retail**: See `references/cosmetics-retail.md` for a cosmetics shop.
+- **Innerwear retail**: See `references/innerwear-retail.md` for an innerwear shop.
+- **Mitumba (second-hand clothing) retail**: See `references/mitumba-retail.md` for second-hand clothing trade.
+- **Plumbing hardware**: See `references/plumbing-hardware.md` for a specialist plumbing and fittings shop.
+- **Second-hand books**: See `references/second-hand-books.md` for street-stand and semi-formal used-book retail, with bulk import economics.
+- **Supermarket shelf space**: See `references/supermarket-shelf-space.md` for suppliers seeking supermarket listings, conditions, credit terms and consignment.
 - **Retail financial management**: See `references/retail-financial-management.md` for profit planning, the Strategic Profit Model, budgeting, resource allocation, financial merchandise management, and key business ratios from Berman & Evans
 - **Retail operations and merchandising**: See `references/retail-operations-merchandising.md` for store operations, space allocation, inventory management, merchandise planning, buying, category management, and supply chain logistics from Berman & Evans
 - **Retail strategy and location**: See `references/retail-strategy-location.md` for strategic planning, trading-area analysis, site selection, retail institutions by ownership and format, consumer behaviour, and multi-channel retailing from Berman & Evans and Tiwari

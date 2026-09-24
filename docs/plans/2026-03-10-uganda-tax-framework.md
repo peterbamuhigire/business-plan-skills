@@ -6,7 +6,7 @@
 
 **Architecture:** Four targeted edits — three in `docs/march-9-analysis/01-critical-gaps.md` (patch C4, rewrite C5, append C8) and one new file `10-financial-projections/references/uganda-tax-framework.md`.
 
-**Sources:** Income Tax Act Cap.340 (Okuja, Onyango & Co. Advocates); Value Added Tax Act Cap.349; KPMG, *Tax (Amendment) Bills, 2025 — A KPMG Analysis*, April 2025 (East Africa).
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 
 ---
 
@@ -587,3 +587,8 @@ git status
 git add -A
 git commit -m "docs(gaps): complete Uganda tax framework — C4 patch, C5 rewrite, C8 new gap, tax reference file"
 ```
+
+
+---
+
+Sources consulted: Income Tax Act Cap.340 (Okuja, Onyango & Co. Advocates); Value Added Tax Act Cap.349; KPMG, *Tax (Amendment) Bills, 2025 — A KPMG Analysis*, April 2025 (East Africa).. Tax rates, bands and amendments must be verified with the Chwezi finance engine and URA before use.

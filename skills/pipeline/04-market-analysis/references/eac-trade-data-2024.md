@@ -2,10 +2,7 @@
 
 *Reference for §04 Market Analysis — companion to `afcfta-ea-trade-framework.md`*
 
-Sources:
-- UN Economic Commission for Africa (UNECA), *Eastern Africa's Trade Performance in 2024–2025: Resilience Amid Global Uncertainty and Regional Integration Gains*, ICSOE Background Document, 23 September 2025.
-- de Melo, J. & Twum, A., *Supply Chain Trade in East Africa: Prospects and Challenges*, FERDI Development Policies Working Paper 263, February 2020.
-- Majune, S.K., *Export Trade Potential of the East African Community under the Africa Continental Free Trade Area (AfCFTA)*, EAC / TradeMark Africa (USAID-ERRA), April 2024.
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 
 ---
 
@@ -571,3 +568,8 @@ Tanzania has set ambitious trade targets as part of its final Vision 2025 plan. 
 - 1,000+ TVET centres planned for skills — training equipment, curriculum materials
 
 **Tanzania SEZ locations (new EPZs planned):** Singida/Manyoni, Pwani, Kigoma, Tanga, Manyara, Mara, Ruvuma. Business plans targeting Tanzania should note proximity to relevant SEZ when identifying location advantages.
+
+
+---
+
+Sources consulted: UN Economic Commission for Africa (UNECA), *Eastern Africa's Trade Performance in 2024–2025: Resilience Amid Global Uncertainty and Regional Integration Gains*, ICSOE Background Document, 23 September 2025.; de Melo, J. & Twum, A., *Supply Chain Trade in East Africa: Prospects and Challenges*, FERDI Development Policies Working Paper 263, February 2020.; Majune, S.K., *Export Trade Potential of the East African Community under the Africa Continental Free Trade Area (AfCFTA)*, EAC / TradeMark Africa (USAID-ERRA), April 2024..

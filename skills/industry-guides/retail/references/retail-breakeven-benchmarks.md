@@ -1,14 +1,14 @@
 # Retail Break-Even Analysis and Financial Benchmarks
 
-> References: *Retail Management: A Strategic Approach* by Berman & Evans (Pearson, 2013); *Analytics for Retail* by Okunev (Apress, 2022); *Retail Management* by Tiwari (Global Media, 2008); *Start and Run a Shop* by Penrith (How To Books, 2009)
+**Basis:** Engine-authored retail planning reference synthesising standard retail-management practice; all figures are planning assumptions (see Sources consulted at the end).
 
-> Figures adapted to Ugandan context (UGX). Percentages and ratios from the sources are universal.
+> Figures are illustrative planning assumptions in UGX; re-verify with dated local data. Ratios and formulas are general practice.
 
 ---
 
 ## 1. Break-Even Analysis
 
-Break-even tells a retailer the sales volume needed to cover all fixed costs (Penrith 2009).
+Break-even tells a retailer the sales volume needed to cover all fixed costs.
 
 ### Formula
 
@@ -58,7 +58,7 @@ Example:
 
 ### Sensitivity
 
-If gross margin drops to 25%, break-even sales must be four times fixed costs (Penrith 2009):
+If gross margin drops to 25%, break-even sales must be four times fixed costs:
 ```
 Break-Even = 13,000,000 / 0.25 = UGX 52,000,000 per month
 ```
@@ -68,7 +68,7 @@ A 15-percentage-point drop in margin increases the required sales by 60%.
 
 ## 2. Financial Benchmarks by Retail Format
 
-The table below synthesises benchmark data from multiple sources (Berman & Evans 2013; Okunev 2022; Tiwari 2008), adapted for Ugandan retail formats.
+The table belowconsolidates benchmark ranges, adapted for Ugandan retail formats.
 
 | Retail Format | Gross Margin % | Net Profit Margin % | Inventory Turnover (times/yr) | Asset Turnover | Typical GMROI |
 |---|---|---|---|---|---|
@@ -89,7 +89,7 @@ The table below synthesises benchmark data from multiple sources (Berman & Evans
 - Both can achieve comparable GMROI and ROA when well managed.
 - Market stalls and kiosks often show high net margins because of minimal fixed costs (no rent, low wages).
 
-**Median stock turnover rates** (Berman & Evans 2013, US data — directionally relevant):
+**Median stock turnover rates**:
 
 | Format | Annual Turnover |
 |---|---|
@@ -151,3 +151,5 @@ BUDGETING
 ## Related References
 
 - **Strategic Profit Model, P&L, ratios, retail maths, inventory valuation, cash flow, budgeting**: See `retail-financial-management.md`
+
+Sources consulted: general retail-management, retail-analytics and small-shop start-up literature (textbooks and practitioner guides, 2008-2022), adapted to Uganda. Statistics and benchmark ratios are planning assumptions to verify with dated sources; tax and accounting treatment to be confirmed with the Chwezi finance engine.

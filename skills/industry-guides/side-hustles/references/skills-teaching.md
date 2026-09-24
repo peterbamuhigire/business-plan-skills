@@ -1,7 +1,7 @@
 # Skills Teaching and Coaching Side Hustles
 
 **Audience:** EA professionals with expertise others want to learn
-**Sources:** Guillebeau (2017), Amitabh (2022), Gary Raj (2022)
+**Basis:** Planning reference written for this engine; figures are planning assumptions to re-verify with dated local quotes and data (see Sources consulted at the end).
 
 > Teaching what you know is the most ethically defensible and personally satisfying side hustle. If you have spent 3–10 years mastering a skill in a corporate career, you are more qualified to teach it than 90% of the people in your network. The challenge is not expertise — it is packaging, marketing, and pricing.
 
@@ -100,7 +100,7 @@
 
 ## 4. Online Courses (Pre-Recorded)
 
-**The 1,000 True Fans economics (Amitabh, 2022):**
+**The 1,000 true fans economics (Kelly):**
 You do not need millions of students. 200 students paying UGX 50,000/course = UGX 10,000,000. Create once; sell indefinitely.
 
 **Platform options for EA creators:**
@@ -156,7 +156,7 @@ You do not need millions of students. 200 students paying UGX 50,000/course = UG
 4. Build testimonials; increase rate after 5 paying clients
 5. Create a simple LinkedIn post describing the transformation you help clients achieve
 
-**The Passion Economy positioning (Amitabh, 2022):** Build a "Category of One" — not just "a business coach" but "a finance professional who helps chartered accountants transition into executive roles in Kampala." Specificity commands premium rates and eliminates price comparison.
+**Passion-economy positioning:** Build a "Category of One" — not just "a business coach" but "a finance professional who helps chartered accountants transition into executive roles in Kampala." Specificity commands premium rates and eliminates price comparison.
 
 ---
 
@@ -169,3 +169,7 @@ You do not need millions of students. 200 students paying UGX 50,000/course = UG
 | Reputational risk if teaching outside expertise | Only teach what you have actually done; cite your practical experience clearly |
 | Platform closing or changing commission structure | Build your own email/WhatsApp list independent of any platform |
 | Employer conflict (teaching competitors' staff) | Avoid teaching in your direct industry sector; check employment contract |
+
+---
+
+Sources consulted: side-business literature (Guillebeau 2017; Amitabh 2022; Gary Raj 2022) and East African training-market observation. All money figures are planning assumptions for a 2026 baseline and must be re-verified with a dated source. Tax, payroll and accounting treatment: verify with the Chwezi finance engine.

@@ -1,7 +1,6 @@
 ---
 name: training-guide-modules
 type: reference
-source: Upadhyay (2024) Generative AI for Marketing (Packt); Mizrahi (2024); Evelyn (2025); Chavaux (2025)
 ---
 
 # AI Prompt Writing Training Guide — Full Content (Modules 1–4)
@@ -92,7 +91,7 @@ Constraints remove AI defaults: "seamless", "affordable", "game-changing", "inno
 
 Formatting makes output paste-ready and prevents burying content in prose.
 
-### 2.2 The 10 Prompt Components (Upadhyay, 2024)
+### 2.2 The 10 Prompt Components
 
 | # | Component | Description |
 |---|---|---|
@@ -284,7 +283,7 @@ Before publishing any AI-generated content:
 
 ### 4.5 Examples-First and Separator Syntax
 
-**Examples-first default for voice tasks (Evelyn, 2025):**
+**Examples-first default for voice tasks:**
 ```
 Here is an example of [content type] in the voice and style I want:
 ###
@@ -353,3 +352,5 @@ Training guide is complete when:
 - All worked examples use Ugandan/EA brands, UGX pricing, local cultural references
 - Structured for non-technical facilitator delivery without additional preparation
 - Written in British English, imperative language throughout
+
+Sources consulted: Upadhyay (2024) Generative AI for Marketing; Mizrahi (2024); Evelyn (2025); Chavaux (2025); rewritten as the engine's own training modules.

@@ -33,7 +33,7 @@ Direction: [Accelerating / Stable / Decelerating]
 Timeframe: [1-2 years / 3-5 years / 5-10 years]
 Impact on our market: [High / Medium / Low]
 Confidence level: [Data-backed / Expert consensus / Emerging signal]
-Source: [Citation]
+Record the source and date for each trend.
 ```
 
 ## 2. Digital Transformation Indicators

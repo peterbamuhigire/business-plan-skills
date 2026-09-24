@@ -1,5 +1,5 @@
 ---
-source: Walling pp. 67–106; Mersch ch. 10; Cotton essay 6; Kennedy / Marrs anti-cost-plus discipline; 2024-2026 AI-SaaS pricing practice
+source: engine synthesis of AI-SaaS pricing practice (2024-2026); see Sources consulted at the end
 frameworks: [Tier × Model × Allowance × Overage × FX; Pricing-model decision; Margin-protection mechanics; African pricing realities]
 skill: saas-ai-pricing-strategy
 cross-reference: [saas-pricing-and-packaging-strategy, saas-ai-cost-of-tenant-calculator, saas-ai-unit-economics-and-cogs, meta-pricing-strategy]
@@ -117,7 +117,7 @@ Set re-pricing trigger at FX move >7% or quarterly, whichever comes first. Commu
 
 ## 6. Competitive pricing — the three failure modes
 
-### Failure mode 1: Cost-plus AI pricing (Kennedy Failure #1)
+### Failure mode 1: Cost-plus AI pricing (the most common failure)
 
 "Our AI costs $0.02 per query so we charge $0.05 per query." This is the cheapest way to capture none of the value AI creates and to be undercut by anyone with cheaper cost.
 
@@ -200,3 +200,5 @@ Every plan should propose 3-5 pricing experiments to run within 12 months:
 - Overage rate set below or near cost — overage events become losses
 - Hiding model-mix from customers — eroded trust
 - Pricing decided by Sales alone or Finance alone (must reconcile both)
+
+Sources consulted: SaaS and AI pricing literature (Walling; Mersch; Cotton; Kennedy; Marrs) for general concepts such as cost-plus failure and value-based fences, plus 2024-2026 AI-SaaS pricing practice. Structure and wording are the engine's own; verify prices and usage-cost assumptions with current vendor data.

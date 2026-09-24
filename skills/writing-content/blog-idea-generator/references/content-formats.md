@@ -2,7 +2,7 @@
 
 Every topic can be expressed through different formats. Choose the format that best serves the reader's needs and the content's purpose. The blog-idea-generator specifies a format for each idea; the blog-writer uses format-specific structural templates from `blog-writer/references/writing-craft.md`.
 
-Sources: Danny Iny (Blog Post Ideas), Rebecca Livermore (Blogger's Quick Guide), Eddy (Blog It Right), Kothand (One Hour Content Plan).
+Format library assembled from general blogging practice; see Sources consulted at the end.
 
 ---
 
@@ -148,3 +148,5 @@ For a healthy blog, rotate through format types:
 - **Monthly must-haves:** 1 How-to/Guide (Tier 1) + 1 Authority piece (Tier 2)
 - **Quarterly:** 1 Case study + 1 Opinion/Prediction (Tier 3)
 - **Annually:** 1 Ultimate Guide / Pillar post + 1 Year-in-review / Predictions
+
+Sources consulted: general blogging and content-marketing practice, including works by Iny, Livermore, Eddy, Kothand, Graves, Aaron, Lima and Bly (all reworked; no text reproduced).

@@ -1,8 +1,7 @@
 # Competitive Strategy Tools Reference
 
-Frameworks for competitor analysis, competitive positioning, strategy selection, and strategy evaluation drawn from Evans, Harris & Lenox, and the Portable MBA.
+Frameworks for competitor analysis, competitive positioning, strategy selection, and strategy evaluation for the competitive-analysis section of a business plan.
 
-> References: *Strategy Plain and Simple* by Evans (Pearson, 2018); *The Strategist's Toolkit* by Harris & Lenox (Darden, 2013); *The Portable MBA in Strategy* ed. Fahey & Randall (Wiley, 2000)
 
 ## Table of Contents
 
@@ -19,8 +18,6 @@ Frameworks for competitor analysis, competitive positioning, strategy selection,
 ---
 
 ## 1. Competitor Analysis Framework
-
-*Source: Harris & Lenox, Ch 2*
 
 Competitor analysis is a framework for understanding and evaluating current or potential competitors. It assesses the durability of any competitive advantage and predicts how rivals will respond to strategic actions.
 
@@ -63,8 +60,6 @@ These combine into a **competitor response profile** predicting how each rival w
 ---
 
 ## 2. Competitive Position Rating
-
-*Source: Evans, Ch 2*
 
 A quantitative method for rating your firm and each competitor against weighted success factors on a 0–5 scale.
 
@@ -111,8 +106,6 @@ A specialty coffee roaster competing against two main rivals in the Ugandan prem
 ---
 
 ## 3. Strategy Maps / Perceptual Maps
-
-*Source: Harris & Lenox, Ch 8*
 
 A strategy map (or perceptual map) is a visual tool for plotting competitors on two or three key dimensions that define competition in the industry.
 
@@ -168,8 +161,6 @@ Low                                              High
 ---
 
 ## 4. Strategic Gap Analysis
-
-*Source: Evans, Ch 2*
 
 The strategic gap is the distance between your firm's current capabilities and where the ideal player stands. It has two components:
 
@@ -244,8 +235,6 @@ Combined with competitive position ratings:
 
 ## 5. Generic Strategies
 
-*Source: Evans, Ch 2; Harris & Lenox, Ch 8 (Porter framework)*
-
 Three generic strategies can yield sustainable competitive advantage. Pursuing two simultaneously in the same business risks being "stuck in the middle."
 
 ### The Three Strategies
@@ -282,8 +271,6 @@ For price-against-perceived-benefit positions over time (the strategy clock) and
 ---
 
 ## 6. Value Chain Analysis
-
-*Source: Portable MBA, Ch 3 (Gupta)*
 
 The value chain is the set of interrelated activities from upstream to downstream that a business carries out — by itself and with suppliers, customers, and partners — to create and deliver value.
 
@@ -330,8 +317,6 @@ Without clarity on value chain design, other statements about strategy are "litt
 ---
 
 ## 7. Strategy Evaluation Tests
-
-*Source: Portable MBA, Ch 13 (Day)*
 
 Before committing resources to a strategy, subject it to four rigorous tests. Poor strategic choices dissipate scarce resources, consume time, and cause management to neglect other opportunities.
 
@@ -391,8 +376,6 @@ Four biases to watch for: **anchoring** (fixating on one outcome — counter wit
 
 ## 8. Competitive Life Cycle
 
-*Source: Harris & Lenox, Ch 5*
-
 Technologies and product markets progress along S-curves through three phases, each with distinct competitive dynamics and strategic imperatives.
 
 ### The Three Phases and Transition Points
@@ -427,8 +410,6 @@ Life cycles can be nested: the Ugandan telecoms industry is mature, but mobile m
 ---
 
 ## 9. Blue Ocean Strategy
-
-*Source: Evans, Ch 2 (summarising Kim & Mauborgne)*
 
 Blue ocean strategy challenges the conventional approach of competing within existing industry boundaries ("red oceans") and instead advocates creating uncontested market space.
 
@@ -483,7 +464,7 @@ Traditional funerals cost UGX 5M–15M with multiple intermediaries and no price
 
 ### Caution for SMEs
 
-Evans notes: "Nine times out of ten, strategy development will be about improving strategic position in red ocean markets." For every iTunes or Cirque du Soleil, scores of blue ocean attempts have foundered. Use blue ocean thinking to generate creative options, then evaluate with the four tests (Section 7) before committing resources.
+Most strategy work is about improving position in existing (red ocean) markets, and many blue ocean attempts fail. Use blue ocean thinking to generate creative options, then evaluate with the four tests (Section 7) before committing resources.
 
 ---
 
@@ -501,3 +482,5 @@ Evans notes: "Nine times out of ten, strategy development will be about improvin
 | "Is this strategy actually any good?" | Section 7: Strategy Evaluation Tests |
 | "How is our market evolving and when should we enter?" | Section 8: Competitive Life Cycle |
 | "Can we create an entirely new market?" | Section 9: Blue Ocean Strategy |
+
+Sources consulted: Harris and Lenox, The Strategist's Toolkit (2013); Evans, Strategy Plain and Simple (2018); Fahey and Randall (eds), The Portable MBA in Strategy (2000); Kim and Mauborgne, Blue Ocean Strategy (2005); Porter, Competitive Strategy (1980). Worked examples are hypothetical.

@@ -1,13 +1,15 @@
 # Incense Sticks (Agarbatti) Manufacturing
 
 **Sub-sector:** Natural Products / Aromatic Products
-**Sources:** Thankaraju, P. (Startup Manufacturing Business Ideas 200, NestFame 2018)
+**Basis:** Planning reference written for this engine from general light-manufacturing practice; see the Sources consulted line at the end.
 
 > Incense sticks are used across East Africa for religious practice (Hindu temples, mosques, churches), aromatherapy and wellness businesses, and as a natural mosquito deterrent. A small-scale production unit can supply local temples, wellness shops, supermarkets, and export to South Asian diaspora communities. Low entry capital and simple production process make this accessible as a first manufacturing enterprise.
 
 ---
 
-## Financial Indicators (EA Estimates, 2026)
+## Financial Indicators (planning assumptions - verify)
+
+All figures below are planning assumptions for scoping only. Re-verify current prices, wages and capital costs with dated supplier quotes, and reconcile tax treatment with the Chwezi finance engine.
 
 ### Manual / Semi-Automatic Unit (1–3 machines)
 
@@ -136,3 +138,7 @@ Citronella and neem-based incense sticks position as a natural, low-smoke mosqui
 | Poor burning (uneven, extinguishing mid-stick) | Correct drying time; test burn every batch before packing |
 | Competing imports from India/China | Compete on freshness, local fragrance variants, and custom religious formulations |
 | Essential oil cost volatility | Source alternatives from local botanicals where possible |
+
+---
+
+Sources consulted: general small-scale manufacturing practice, East African supplier and regulator guidance, and the UNDP compendium profile family where noted; all numeric ranges are planning assumptions to verify with current quotes.

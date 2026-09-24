@@ -4,7 +4,7 @@ description: AfDB African Economic Outlook 2025 — Africa-wide and East Africa 
 ---
 
 # Africa Economic Outlook 2025
-**Source:** African Development Bank (AfDB). (2025). *African Economic Outlook 2025*. Abidjan: AfDB Group.
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 **Relevance:** Africa-wide and East Africa GDP projections, inflation trajectories, fiscal/debt dynamics, capital mobilisation, risk factors, and country-level data for Uganda, Kenya, Tanzania, Rwanda, Ethiopia
 
 ---
@@ -207,3 +207,8 @@ Africa could mobilize **USD 1.43 trillion in additional domestic resources** —
 African Development Bank (AfDB). (2025). *African Economic Outlook 2025*. Abidjan: African Development Bank Group.
 
 Supporting: IMF World Economic Outlook (April 2025); World Bank WDI; EAC Secretariat trade data; OECD DAC data.
+
+
+---
+
+Sources consulted: African Development Bank (AfDB). (2025). *African Economic Outlook 2025*. Abidjan: AfDB Group..

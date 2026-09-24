@@ -1,14 +1,14 @@
 # Retail Financial Management
 
-> References: *Retail Management: A Strategic Approach* by Berman & Evans (Pearson, 2013); *Analytics for Retail* by Okunev (Apress, 2022); *Retail Management* by Tiwari (Global Media, 2008); *Start and Run a Shop* by Penrith (How To Books, 2009)
+**Basis:** Engine-authored retail planning reference synthesising standard retail-management practice; all figures are planning assumptions (see Sources consulted at the end).
 
-> Figures adapted to Ugandan context (UGX). Percentages and ratios from the sources are universal.
+> Figures are illustrative planning assumptions in UGX; re-verify with dated local data. Ratios and formulas are general practice.
 
 ---
 
 ## 1. Strategic Profit Model (DuPont Model for Retail)
 
-The Strategic Profit Model combines three performance levers that together determine a retailer's return on net worth (Berman & Evans 2013; Tiwari 2008).
+The Strategic Profit Model combines three performance levers that together determine a retailer's return on net worth.
 
 ### The Three Paths
 
@@ -55,7 +55,7 @@ RONW = 6.0% x 1.017 x 1.903 = 11.6%
 
 ### Improvement Levers
 
-A retailer can raise RONW by (Berman & Evans 2013):
+A retailer can raise RONW by:
 - **Raising net profit margin** — better buying, exclusive products, private-label lines, cost control.
 - **Raising asset turnover** — longer hours, lower inventory, leasing rather than owning fixtures.
 - **Increasing financial leverage** — using trade credit, short-term loans (with caution).
@@ -64,7 +64,7 @@ A retailer can raise RONW by (Berman & Evans 2013):
 
 ## 2. Retail Profit-and-Loss Statement Structure
 
-Below is a sample annual P&L for a small Ugandan retail shop, following the standard structure described by Berman & Evans (2013).
+Below is a sample annual P&L for a small Ugandan retail shop, following a standard structure.
 
 ```
 NAMUSOKE'S GENERAL STORE
@@ -116,7 +116,7 @@ NET PROFIT AFTER TAX                      36,400,000
 
 ## 3. Key Financial Ratios
 
-Financial ratios fall into four families (Okunev 2022; Berman & Evans 2013; Tiwari 2008).
+Financial ratios fall into four families.
 
 ### 3.1 Liquidity Ratios
 
@@ -126,7 +126,7 @@ Financial ratios fall into four families (Okunev 2022; Berman & Evans 2013; Tiwa
 | **Quick Ratio** (Acid Test) | (Cash + Receivables) / Current Liabilities | > 1.0 |
 | **Cash Ratio** | Cash & Equivalents / Current Liabilities | 0.5 – 1.0 |
 
-- A current ratio below 1.0 signals inability to meet short-term obligations (Okunev 2022).
+- A current ratio below 1.0 signals inability to meet short-term obligations.
 - The quick ratio strips out inventory, which may not be quickly convertible to cash.
 
 ### 3.2 Profitability Ratios
@@ -139,7 +139,7 @@ Financial ratios fall into four families (Okunev 2022; Berman & Evans 2013; Tiwa
 | **Return on Equity (ROE/RONW)** | Net Profit / Net Worth x 100 | 10–20% desirable |
 | **Profit Margin %** | (Revenue – Total Expenses incl. COGS) / Revenue x 100 | > 20% is good; < 5% is poor |
 
-A net profit margin of around 20% is considered good; 10% is acceptable; 5% is low (Okunev 2022).
+A net profit margin of around 20% is considered good; 10% is acceptable; 5% is low.
 
 ### 3.3 Efficiency Ratios
 
@@ -151,7 +151,7 @@ A net profit margin of around 20% is considered good; 10% is acceptable; 5% is l
 | **Stock-to-Sales** | Inventory at Retail / Net Sales (monthly) | Good range: 0.16 – 0.25 |
 | **Sell-Through %** | Units Sold / (Units Sold + Beginning Units) x 100 | 40–80% is healthy |
 
-**GMROI explained** (Berman & Evans 2013):
+**GMROI explained**:
 ```
 GMROI = (Gross Margin % / 100) x (Net Sales / Average Inventory at Cost)
 
@@ -170,7 +170,7 @@ Both achieve the same GMROI through different strategies — high volume vs. hig
 | **Interest Coverage** | EBITDA / Interest Expense | > 2.0 comfortable |
 | **Debt Service Coverage** | Net Operating Income / Total Debt Service | > 1.0 required; > 2.0 strong |
 
-A debt ratio below 0.4 is preferred; above 0.6 the firm may have difficulty borrowing (Okunev 2022).
+A debt ratio below 0.4 is preferred; above 0.6 the firm may have difficulty borrowing.
 
 ---
 
@@ -178,7 +178,7 @@ A debt ratio below 0.4 is preferred; above 0.6 the firm may have difficulty borr
 
 ### 4.1 Markup
 
-Markup is the amount added to cost to arrive at a selling price (Okunev 2022; Penrith 2009).
+Markup is the amount added to cost to arrive at a selling price.
 
 **Markup on cost:**
 ```
@@ -201,7 +201,7 @@ Markup % on cost   = (40,000 / 60,000) x 100 = 66.7%
 Markup % on retail = (40,000 / 100,000) x 100 = 40.0%
 ```
 
-**Markup-to-margin conversion table** (adapted from Penrith 2009):
+**Markup-to-margin conversion table**:
 
 | Markup % on Cost | Selling Price (item costing UGX 50,000) | Gross Margin | Gross Margin % |
 |---|---|---|---|
@@ -210,11 +210,11 @@ Markup % on retail = (40,000 / 100,000) x 100 = 40.0%
 | 30% | UGX 65,000 | UGX 15,000 | 23.1% |
 | 25% | UGX 62,500 | UGX 12,500 | 20.0% |
 
-> Retail markup typically runs between 30% and 40% on cost for general merchandise (Penrith 2009). Luxury and hand-crafted items allow higher markups; essential goods carry smaller margins.
+> Retail markup typically runs between 30% and 40% on cost for general merchandise. Luxury and hand-crafted items allow higher markups; essential goods carry smaller margins.
 
 ### 4.2 Required Initial Markup (Merchandise Budget)
 
-The initial markup must cover all expenses, reductions, and profit target (Berman & Evans 2013):
+The initial markup must cover all expenses, reductions, and profit target:
 
 ```
 Required Initial Markup % = (Planned Expenses + Planned Profit + Planned Reductions)
@@ -236,7 +236,7 @@ Required Initial Markup % = (290M + 60M + 44M) / (880M + 44M)
 
 ### 4.3 Markdown
 
-Markdowns reduce the original selling price (Okunev 2022).
+Markdowns reduce the original selling price.
 
 ```
 Markdown Amount = Original Price – Sale Price
@@ -276,7 +276,7 @@ Contribution Margin % = (Contribution Margin / Selling Price) x 100
 
 The contribution margin shows how much each sale contributes towards covering fixed costs and generating profit.
 
-**Effect of discounting on required sales volume** (Penrith 2009):
+**Effect of discounting on required sales volume**:
 
 | Trade Margin | Discount Given | Sales Increase Needed for Same Profit |
 |---|---|---|
@@ -288,7 +288,7 @@ The contribution margin shows how much each sale contributes towards covering fi
 
 ## 5. Inventory Valuation Methods
 
-Retailers use two broad accounting systems (Berman & Evans 2013).
+Retailers use two broad accounting systems.
 
 ### 5.1 Cost Method
 
@@ -341,7 +341,7 @@ COGS = 220 x 298,661 = UGX 65,705,357
 
 ### 5.4 Retail Method
 
-The retail method calculates a cost complement (the average cost-to-retail ratio) and applies it to ending inventory at retail to derive ending inventory at cost (Berman & Evans 2013).
+The retail method calculates a cost complement (the average cost-to-retail ratio) and applies it to ending inventory at retail to derive ending inventory at cost.
 
 **Steps:**
 1. **Calculate the cost complement:**
@@ -366,7 +366,7 @@ The retail method calculates a cost complement (the average cost-to-retail ratio
 
 ## 6. Cash Flow Management
 
-Cash flow is critical to business survival and must be monitored daily (Penrith 2009).
+Cash flow is critical to business survival and must be monitored daily.
 
 ### 6.1 Five Components of Cash Flow
 
@@ -413,7 +413,7 @@ Ugandan retail shops typically experience peaks during:
 - School-term openings (February, May, September)
 - Festival periods (Eid, Easter)
 
-**Practical tips** (Penrith 2009):
+**Practical tips**:
 - Prepare monthly (or weekly) cash flow forecasts for the next 12 months and update monthly.
 - Set a target stock-turn for each product category and monitor it.
 - Identify seasonal peaks and troughs; build stock ahead of peaks, reduce before troughs.
@@ -427,7 +427,7 @@ Ugandan retail shops typically experience peaks during:
 
 ### 7.1 Sales Forecasting
 
-Use a **monthly sales index** to distribute annual forecasts (Berman & Evans 2013):
+Use a **monthly sales index** to distribute annual forecasts:
 
 ```
 Monthly Sales Index = (Actual Monthly Sales / Average Monthly Sales) x 100
@@ -450,16 +450,16 @@ December      94,792,000        135     75M x 1.35 = 101,250,000
 
 ### 7.2 Expense Budgeting
 
-Include (Penrith 2009):
+Include:
 - **Fixed costs:** rent, rates, insurance, base wages, interest charges — these do not vary with sales volume.
 - **Variable costs:** packaging, distribution, raw materials — these fluctuate with sales.
 - **Semi-variable costs:** utilities, telephone — contain both fixed and variable elements.
 
-On average, wages represent nearly 29% of outgoings, stock and materials 17.5%, tax 16%, and fuel/transport 10% (Penrith 2009).
+On average, wages represent nearly 29% of outgoings, stock and materials 17.5%, tax 16%, and fuel/transport 10%.
 
 ### 7.3 Open-to-Buy (OTB) Planning
 
-Open-to-buy is the amount a buyer has left to spend in a given period after accounting for commitments already made (Berman & Evans 2013).
+Open-to-buy is the amount a buyer has left to spend in a given period after accounting for commitments already made.
 
 ```
 Planned Purchases (retail) = Planned Sales + Planned Reductions
@@ -493,3 +493,5 @@ OTB (cost)   = 50,400,000 x 0.60 = UGX 30,240,000
 ## Related References
 
 - **Break-even analysis, financial benchmarks by format, formula quick-reference**: See `retail-breakeven-benchmarks.md`
+
+Sources consulted: general retail-management, retail-analytics and small-shop start-up literature (textbooks and practitioner guides, 2008-2022), adapted to Uganda. Statistics and benchmark ratios are planning assumptions to verify with dated sources; tax and accounting treatment to be confirmed with the Chwezi finance engine.

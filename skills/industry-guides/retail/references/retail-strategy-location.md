@@ -1,8 +1,8 @@
 # Retail Strategy and Location Analysis
 
-> References: *Retail Management: A Strategic Approach* by Berman & Evans (Pearson, 2013); *Retail Management* by Tiwari (Global Media, 2008); *Start and Run a Shop* by Penrith (How To Books, 2009)
+**Basis:** Engine-authored retail planning reference synthesising standard retail-management practice; all figures are planning assumptions (see Sources consulted at the end).
 
-> Figures adapted to Ugandan context (UGX).
+> Figures are illustrative planning assumptions in UGX; re-verify with dated local data. Ratios and formulas are general practice.
 
 ---
 
@@ -488,3 +488,5 @@ Extending a physical retail business online offers:
 10. Plan for the retail life cycle — build flexibility for adaptation and growth
 11. Develop competitive positioning and differentiation strategy
 12. Plan growth pathway (multi-store, franchise, online, product extension)
+
+Sources consulted: general retail-management, retail-analytics and small-shop start-up literature (textbooks and practitioner guides, 2008-2022), adapted to Uganda. Statistics and benchmark ratios are planning assumptions to verify with dated sources; tax and accounting treatment to be confirmed with the Chwezi finance engine.

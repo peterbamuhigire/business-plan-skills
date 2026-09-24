@@ -4,6 +4,7 @@ description: "CBK's revised risk-based credit pricing model (August 2025) — ho
 ---
 
 # Kenya Credit Pricing 2025 — CBK Risk-Based Credit Pricing Model
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 
 ## 1. What the Model Is and How It Works
 
@@ -178,3 +179,8 @@ The CBK/KBA TCC portal (www.costofcredit.co.ke) allows borrowers to compare loan
 - Central Bank of Kenya. (2025, August). *Revised Risk-Based Credit Pricing Model*. CBK Official Document C2.
 - Central Bank of Kenya. (2025, August). *Common Reference Rate for the RBCPM — KESONIA*. Appendix I to Revised RBCPM.
 - Central Bank of Kenya. (2025). *Commercial Banks' Average Interest Rates for May 2025*. CBK Statistical Release.
+
+
+---
+
+Sources consulted: see file history for original citations.

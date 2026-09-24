@@ -1,6 +1,6 @@
 # Africa's Infrastructure Financing & Development Dynamics
 
-**Source:** AUC/OECD (2025), *Africa's Development Dynamics 2025: Infrastructure, Growth and Transformation*
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 
 **Purpose:** Evidence base for infrastructure-dependent business plans (agriculture, energy, transport, digital), cost of capital benchmarking, and investment climate risk assessment for African countries.
 
@@ -984,3 +984,8 @@ Key citations within:
 ### For Section 09 (Management Team)
 
 - **Skills gap:** Emphasise infrastructure planning, maintenance budgeting, PPP negotiation capabilities in team; <1% of ODA for training means external capacity critical
+
+
+---
+
+Sources consulted: AUC/OECD (2025), *Africa's Development Dynamics 2025: Infrastructure, Growth and Transformation*.

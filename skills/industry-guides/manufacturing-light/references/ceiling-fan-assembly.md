@@ -1,13 +1,15 @@
 # Ceiling Fan Assembly (Semi-Knockdown)
 
 **Sub-sector:** Electrical and Consumer Products Assembly
-**Sources:** Thankaraju, P. (Startup Manufacturing Business Ideas 200, NestFame 2018)
+**Basis:** Planning reference written for this engine from general light-manufacturing practice; see the Sources consulted line at the end.
 
 > Full ceiling fan manufacturing (motor winding, blade stamping, die casting) requires heavy industrial capital. Ceiling fan **assembly** from imported semi-knockdown (SKD) components is a viable light manufacturing operation — buying motor units, blade sets, and canopy parts and assembling into finished, branded fans. Local assembly competes against fully imported fans on price, delivery time, and custom specifications.
 
 ---
 
-## Financial Indicators (EA Estimates, 2026)
+## Financial Indicators (planning assumptions - verify)
+
+All figures below are planning assumptions for scoping only. Re-verify current prices, wages and capital costs with dated supplier quotes, and reconcile tax treatment with the Chwezi finance engine.
 
 ### Fan Assembly Workshop (3–6 workers)
 
@@ -133,3 +135,7 @@
 | UNBS certification delays | Apply for certification before first commercial sale; budget 3–6 months |
 | Slow consumer adoption (fans vs. air conditioning) | Target mid-market segment where AC is unaffordable; market as energy-efficient |
 | Blade wobble / noise complaints | Test all fans before packing; maintain warranty response capability |
+
+---
+
+Sources consulted: general small-scale manufacturing practice, East African supplier and regulator guidance, and the UNDP compendium profile family where noted; all numeric ranges are planning assumptions to verify with current quotes.

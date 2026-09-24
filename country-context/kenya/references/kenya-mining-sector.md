@@ -1,6 +1,6 @@
 # Kenya Mining Sector Investment Guide
 
-**Source:** Kenya Mining Investment Handbook, Ministry of Mining, Blue Economy and Maritime Affairs (2024–25)
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 
 **Currency Context:** KES 135/$1 (2025); Current tax regime: 30% corporate income tax, 16% VAT, 10%+ withholding taxes on dividends/interest
 
@@ -1012,3 +1012,8 @@ Mining projects stimulate infrastructure development in underserved regions:
 **End of Document**
 
 This reference file synthesises the Kenya Mining Investment Handbook into a comprehensive business planning guide for investors in Kenya's mining sector, aligned with the country-context system used in the business plan skills suite.
+
+
+---
+
+Sources consulted: Kenya Mining Investment Handbook, Ministry of Mining, Blue Economy and Maritime Affairs (2024–25).

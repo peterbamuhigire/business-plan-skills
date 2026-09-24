@@ -1,14 +1,14 @@
 # Retail Marketing and Promotion
 
-> References: *Retail Management: A Strategic Approach* by Berman & Evans (Pearson, 2013); *Start and Run a Shop* by Penrith (How To Books, 2009); *Analytics for Retail* by Okunev (Apress, 2022)
+**Basis:** Engine-authored retail planning reference synthesising standard retail-management practice; all figures are planning assumptions (see Sources consulted at the end).
 
-> Figures adapted to Ugandan context (UGX).
+> Figures are illustrative planning assumptions in UGX; re-verify with dated local data. Ratios and formulas are general practice.
 
 ---
 
 ## 1. Retail Image and Atmosphere
 
-A shop's **atmosphere** (or atmospherics) is the sum of its physical characteristics used to develop an image in customers' minds. It comprises four elements: the **exterior**, the **general interior**, the **store layout**, and **displays** (Berman & Evans, ch. 18).
+A shop's **atmosphere** (or atmospherics) is the sum of its physical characteristics used to develop an image in customers' minds. It comprises four elements: the **exterior**, the **general interior**, the **store layout**, and **displays**.
 
 ### 1.1 Store Exterior
 
@@ -18,7 +18,7 @@ The storefront is the first thing a potential customer sees; it sets the mood be
 |---|---|
 | **Signage / marquee** | Commission a bold, clearly legible sign in your brand colours. A painted signboard by a local artist may cost UGX 300,000--800,000. Ensure it is visible from the main road or arcade corridor. |
 | **Entrances** | Keep the entrance wide, uncluttered and wheelchair-accessible. An open-door policy (no heavy glass) works well in Kampala's warm climate and invites foot traffic. |
-| **Display windows** | Use window displays to show representative merchandise, seasonal themes, or sale items. Change displays at least fortnightly. A well-lit window continues to advertise when the shop is closed (Penrith, ch. 7). |
+| **Display windows** | Use window displays to show representative merchandise, seasonal themes, or sale items. Change displays at least fortnightly. A well-lit window continues to advertise when the shop is closed. |
 | **Exterior cleanliness** | Sweep the frontage, keep drainage clear, and repaint regularly. Nearby litter or poor drainage deters customers. |
 | **Parking / access** | If located near a main road, consider a boda-boda waiting area or a small motorbike parking zone to ease access for customers. |
 
@@ -27,12 +27,12 @@ The storefront is the first thing a potential customer sees; it sets the mood be
 Once customers enter, interior elements shape their perception and buying mood:
 
 - **Flooring.** Ceramic tiles are affordable, easy to clean, and project a professional image. Concrete floors suit hardware or building-supply shops; carpeting suits high-end boutiques.
-- **Colour psychology.** Bright, warm colours (reds, oranges, yellows) create energy and urgency--good for fast-moving consumer goods. Cool pastels (blues, greens) create calm and trust--suitable for pharmacies, baby shops, and electronics. Choose a colour scheme that reflects your brand personality (Penrith, ch. 7).
+- **Colour psychology.** Bright, warm colours (reds, oranges, yellows) create energy and urgency--good for fast-moving consumer goods. Cool pastels (blues, greens) create calm and trust--suitable for pharmacies, baby shops, and electronics. Choose a colour scheme that reflects your brand personality.
 - **Lighting.** Well-lit shops sell more. Use LED tube lighting for general illumination and spot lighting to highlight key merchandise. Ensure all areas, including corners, are adequately lit. A dimly lit shop feels unsafe and uninviting.
-- **Music.** Background music sets the pace of shopping. Slow-tempo music encourages browsing; upbeat music suits fast-food outlets. If you play recorded music publicly, check local licensing requirements (Penrith, ch. 7). In Uganda, many shops play local radio, which keeps the atmosphere lively and costs nothing beyond the radio set.
+- **Music.** Background music sets the pace of shopping. Slow-tempo music encourages browsing; upbeat music suits fast-food outlets. If you play recorded music publicly, check local licensing requirements. In Uganda, many shops play local radio, which keeps the atmosphere lively and costs nothing beyond the radio set.
 - **Scent.** Food aromas draw customers in restaurants and bakeries. Fresh, clean scents (lemon, lavender) create a pleasant environment in general retail. Avoid overwhelming perfume in enclosed spaces.
 - **Temperature and ventilation.** Kampala's tropical climate means good ventilation is essential. Ceiling fans (UGX 80,000--150,000 each) or air conditioning (for high-end shops) keep customers comfortable and shopping longer.
-- **Cleanliness.** 99 per cent of shoppers say poor cleanliness negatively affects their perception of a store (Berman & Evans, ch. 18). Schedule daily cleaning routines: sweep floors, wipe counters, clean restrooms.
+- **Cleanliness.** Most shoppers say poor cleanliness negatively affects their perception of a store. Schedule daily cleaning routines: sweep floors, wipe counters, clean restrooms.
 
 ### 1.3 Store Layout
 
@@ -42,7 +42,7 @@ Choose a layout that suits your shop type:
 - **Curving (free-flowing) layout** -- displays arranged in a flowing pattern. Best for clothing boutiques, gift shops, and lifestyle stores. Encourages browsing and impulse purchases.
 - **Diagonal layout** -- angled aisles for self-service shops; improves sight lines for both customers and staff.
 
-Allocate floor space across four uses: **selling space** (displays, customer interaction), **merchandise space** (backroom stock), **personnel space** (staff room, changing), and **customer space** (seating, fitting rooms, aisles). Place impulse items near the entrance and checkout counter. Position high-demand products at the back to draw customers through the entire shop (Berman & Evans, ch. 18).
+Allocate floor space across four uses: **selling space** (displays, customer interaction), **merchandise space** (backroom stock), **personnel space** (staff room, changing), and **customer space** (seating, fitting rooms, aisles). Place impulse items near the entrance and checkout counter. Position high-demand products at the back to draw customers through the entire shop.
 
 ### 1.4 Displays
 
@@ -55,11 +55,11 @@ Allocate floor space across four uses: **selling space** (displays, customer int
 
 ## 2. Promotional Strategy
 
-Retail promotion is any communication that **informs**, **persuades**, or **reminds** customers about the shop and its offerings. The four pillars of the retail promotion mix are advertising, public relations, personal selling, and sales promotion (Berman & Evans, ch. 19).
+Retail promotion is any communication that **informs**, **persuades**, or **reminds** customers about the shop and its offerings. The four pillars of the retail promotion mix are advertising, public relations, personal selling, and sales promotion.
 
 ### 2.1 Advertising
 
-Paid, non-personal communication through mass media by an identified sponsor. Objectives include increasing short-term sales, driving customer traffic, reinforcing the shop's image, and informing customers about products (Berman & Evans, ch. 19).
+Paid, non-personal communication through mass media by an identified sponsor. Objectives include increasing short-term sales, driving customer traffic, reinforcing the shop's image, and informing customers about products.
 
 **Key advantages:** reaches a large audience at low cost per person; retailer controls the message, timing, and format.
 
@@ -67,13 +67,13 @@ Paid, non-personal communication through mass media by an identified sponsor. Ob
 
 ### 2.2 Public Relations and Publicity
 
-Public relations fosters a favourable image among customers, community, staff, and suppliers. **Publicity** -- unpaid media coverage -- is often more credible than advertising. A well-timed press release about a shop opening, a charity partnership, or a local sponsorship can generate free media attention (Penrith, ch. 9).
+Public relations fosters a favourable image among customers, community, staff, and suppliers. **Publicity** -- unpaid media coverage -- is often more credible than advertising. A well-timed press release about a shop opening, a charity partnership, or a local sponsorship can generate free media attention.
 
 Social media now plays a major role in public relations. Customer reviews, blog posts, and shared social media content can rapidly amplify positive (or negative) perceptions of a business.
 
 ### 2.3 Personal Selling
 
-Oral communication with customers for the purpose of making a sale. The level of personal selling depends on the shop's image, products, and service model (Berman & Evans, ch. 19).
+Oral communication with customers for the purpose of making a sale. The level of personal selling depends on the shop's image, products, and service model.
 
 **Practical tips for Ugandan retail staff:**
 
@@ -86,7 +86,7 @@ Oral communication with customers for the purpose of making a sale. The level of
 
 ### 2.4 Sales Promotion
 
-Paid activities beyond advertising, PR, and personal selling that stimulate purchases. These are easy to set up and well-suited to small and medium businesses (Berman & Evans, ch. 19). Common types:
+Paid activities beyond advertising, PR, and personal selling that stimulate purchases. These are easy to set up and well-suited to small and medium businesses. Common types:
 
 | Type | Example (Uganda) |
 |---|---|
@@ -104,7 +104,7 @@ Paid activities beyond advertising, PR, and personal selling that stimulate purc
 
 ### 3.1 Typical Advertising-to-Sales Ratios
 
-Advertising spending as a percentage of sales varies by retail category (Berman & Evans, ch. 19):
+Advertising spending as a percentage of sales varies by retail category:
 
 | Retail Category | Advertising as % of Sales |
 |---|---|
@@ -120,7 +120,7 @@ A typical department store spends up to 4--5 per cent of sales on advertising an
 
 ### 3.2 Budgeting Methods
 
-Five approaches to setting a promotional budget (Berman & Evans, ch. 19):
+Five approaches to setting a promotional budget:
 
 1. **All-you-can-afford** -- allocate funds to everything else first; whatever remains goes to promotion. Simple but weak; promotion is treated as a leftover.
 2. **Incremental** -- add or subtract a percentage from last year's budget. Provides a reference point but may not link to goals.
@@ -188,7 +188,7 @@ Bulk SMS via platforms like Yo! Uganda, AfricasTalking, or Infobip. Rates: appro
 
 ## 5. Customer Loyalty Programmes
 
-Loyalty programmes encourage repeat purchases and build long-term relationships. The Oxford Institute of Retail Management identifies five types of customer loyalty (Penrith, ch. 8):
+Loyalty programmes encourage repeat purchases and build long-term relationships. Retail loyalty practice identifies five types of customer loyalty:
 
 1. **Monopoly loyalty** -- no alternative available (e.g., the only shop in a village).
 2. **Inertia loyalty** -- customers do not actively seek alternatives.
@@ -211,9 +211,9 @@ The goal is to move customers from inertia or price loyalty towards **emotional 
 ### 5.2 Principles for Success
 
 - Collect customer data at every visit (name, phone number, purchase history).
-- Make rewards **readily obtainable** and graduate them to move customers from low to high value (Berman & Evans, ch. 19).
+- Make rewards **readily obtainable** and graduate them to move customers from low to high value.
 - Communicate regularly -- send follow-up messages after purchases and announce new perks.
-- Keep it simple. Complex programmes cause "loyalty fatigue" (Penrith, ch. 8).
+- Keep it simple. Complex programmes cause "loyalty fatigue".
 
 ### 5.3 Cost-Benefit
 
@@ -247,9 +247,9 @@ Post consistently (at least 3--5 times per week). Content ideas:
 
 ### 6.3 Email and SMS Campaigns
 
-Email works for customers with regular internet access; SMS reaches everyone with a mobile phone. Use A/B testing to optimise subject lines and offers: test two versions of a message on small groups before sending to the full list (Okunev, ch. 10). Track open rates, click-through rates, and conversion rates.
+Email works for customers with regular internet access; SMS reaches everyone with a mobile phone. Use A/B testing to optimise subject lines and offers: test two versions of a message on small groups before sending to the full list. Track open rates, click-through rates, and conversion rates.
 
-Key metrics from an email campaign (Okunev, ch. 10):
+Key metrics from an email campaign:
 
 - **Deliverability rate** -- aim for 90%+.
 - **Open rate** -- 13--15% is typical for retail.
@@ -316,7 +316,7 @@ Plan a **promotional calendar** tied to the Ugandan market's key shopping period
 
 ## 9. Measuring Marketing Effectiveness
 
-"Without measurement, marketing is just spending" (adapted from Okunev, 2022). Track these metrics to understand which activities deliver returns.
+Without measurement, marketing is just spending. Track these metrics to understand which activities deliver returns.
 
 ### 9.1 Return on Investment (ROI)
 
@@ -328,13 +328,13 @@ $$\text{ROI} = \frac{\text{Net profit from campaign}}{\text{Total cost of campai
 
 $$\text{ROAS} = \frac{\text{Revenue from ad campaign}}{\text{Cost of ad campaign}}$$
 
-A ROAS of 4:1 means for every UGX 1 spent on advertising, UGX 4 in revenue is generated. For retail, aim for ROAS of 3:1 or higher (Okunev, ch. 10).
+A ROAS of 4:1 means for every UGX 1 spent on advertising, UGX 4 in revenue is generated. For retail, aim for ROAS of 3:1 or higher.
 
 ### 9.3 Conversion Rate
 
 $$\text{Conversion Rate} = \frac{\text{Number of purchases}}{\text{Number of visitors (or message recipients)}} \times 100$$
 
-Track in-store conversion by counting foot traffic (manual tally or a simple counter at the door) versus till transactions. For digital campaigns, use platform analytics (Okunev, ch. 10).
+Track in-store conversion by counting foot traffic (manual tally or a simple counter at the door) versus till transactions. For digital campaigns, use platform analytics.
 
 ### 9.4 Customer Acquisition Cost (CAC)
 
@@ -351,7 +351,7 @@ $$\text{CAC} = \frac{\text{Total marketing spend in period}}{\text{Number of new
 | WhatsApp broadcast analytics (delivered, read) | Message reach and engagement |
 | Facebook Insights / Instagram Insights | Post reach, engagement, follower growth |
 | Daily sales log compared with promotion calendar | Correlation between promotions and sales spikes |
-| A/B testing (two versions of an SMS or social media ad) | Which message or image drives more action (Okunev, ch. 10) |
+| A/B testing (two versions of an SMS or social media ad) | Which message or image drives more action |
 
 ### 9.6 Review Cycle
 
@@ -367,7 +367,7 @@ Review marketing performance **monthly**. At each review:
 
 ## 10. Community Relations
 
-Retailers that engage with their communities build trust, goodwill, and a positive image that translates into customer loyalty (Berman & Evans, ch. 18).
+Retailers that engage with their communities build trust, goodwill, and a positive image that translates into customer loyalty.
 
 ### 10.1 Local Engagement Activities
 
@@ -388,13 +388,13 @@ Even a small retailer can practise CSR:
 
 - **Environment:** use reusable carrier bags with the shop's branding; install a waste-sorting bin.
 - **Community giving:** donate a percentage of sales on a designated day to a local charity.
-- **Ethical sourcing:** avoid counterfeit goods; ensure products meet safety standards (Penrith, ch. 8).
+- **Ethical sourcing:** avoid counterfeit goods; ensure products meet safety standards.
 
 Communicate CSR activities via social media and in-store signage. Customers increasingly reward businesses that demonstrate social responsibility.
 
 ### 10.4 Word of Mouth
 
-The most cost-effective promotion is **word of mouth** (Penrith, ch. 9). Sixty-two per cent of small business owners surveyed rated word of mouth as their most effective marketing strategy, far ahead of online advertising (15%), direct mail (12%), or newspaper ads (2%).
+The most cost-effective promotion is **word of mouth**. Small business owners commonly rate word of mouth as their most effective marketing strategy, well ahead of online advertising (15%), direct mail (12%), or newspaper ads (2%).
 
 To encourage positive word of mouth:
 
@@ -404,8 +404,9 @@ To encourage positive word of mouth:
 - Ask satisfied customers to leave reviews on Google or Facebook.
 - Address customers by name; personal service builds loyalty.
 
-> "Once a customer, always a customer." -- Penrith (2009)
 
 ---
 
 *End of reference.*
+
+Sources consulted: general retail-management, retail-analytics and small-shop start-up literature (textbooks and practitioner guides, 2008-2022), adapted to Uganda. Statistics and benchmark ratios are planning assumptions to verify with dated sources; tax and accounting treatment to be confirmed with the Chwezi finance engine.

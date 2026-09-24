@@ -1,73 +1,64 @@
-# Bookshop & Stationery Retail
+# Bookshop and Stationery Retail
 
-**Source:** Crack A Business Kenya (CAB) | **Sub-sector:** Educational Retail — Books & Stationery
-**Conversion:** Original KES figures at KES 106/USD (2020 base), adjusted ×1.27 for USD inflation → March 2026 USD
+Use this reference to plan a shop selling textbooks, supplementary readers, exercise books and stationery to parents, pupils, teachers and schools. All figures are planning assumptions: re-verify each against a dated, current source before it enters a plan.
 
-> A physical retail shop stocking educational textbooks, supplementary readers, stationery, and exercise books — primarily serving school-going populations, parents, and institutions through direct retail and school tendering.
+## 1. Market and customer
 
-## Financial Summary
+- Demand follows the school calendar and the national curriculum. Identify the approved booklist issued by the education ministry or curriculum body in the target country; schools and parents buy from it almost exclusively.
+- Segments: walk-in parents, pupils and teachers (high margin, low basket); schools buying by tender or request for quotation (volume, delayed payment); private schools (buy beyond the approved list, value range and quality).
+- Peaks: the start of each school term. Plan stock build-up and cash before each peak.
+- Size the market from the drivers: pupils enrolled in the catchment x books per pupil per year x average price, then apply a realistic capture share. Government-funded programmes drive a large share of textbook purchasing; confirm the current share and procurement route.
+- Digital threat: e-learning is growing, yet physical books are expected to stay dominant at primary and secondary level for the medium term. State this as an assumption and test it with local school interviews.
 
-| Metric | Amount |
-|--------|--------|
-| Capital Investment — Basic (physical address + starter stock) | $1,200 |
-| Capital Investment — Recommended (wide variety) | $6,000 |
-| Gross Margin on Textbooks | 15–25% |
-| Gross Margin on Stationery (exercise books, pencils) | 20–35% |
-| County Trade Licence | $36–$120 |
-| Breakeven Period | up to 12 months |
+## 2. Operating model and revenue channels
 
-## Capital Breakdown
+| Channel | Characteristics | Watch-points |
+|---|---|---|
+| Retail walk-in | Highest margin, low volume per customer | Location, stock depth, term-start peaks |
+| School tender | Bulk awards; requires being on the approved supplier or booksellers' association list; non-refundable tender fees | Receivables of several months from government-funded schools; budget the cash gap |
+| Request for quotation | Below tender thresholds; the school invites about three quotes | Faster and lighter than tenders; relationship with the procurement officer matters |
 
-| Item | 2026 USD |
-|------|----------|
-| Opening stock (textbooks + stationery) | $3,600–$5,200 |
-| Book shelves (small shop) | $72–$180 |
-| Display fittings | $60–$120 |
-| County trade licence | $36–$120 |
-| Rent — 2–3 months advance | $300–$720 |
-| Point-of-sale system (optional) | $120–$360 |
-| Miscellaneous (branding, stationery, transport) | $120 |
-| **Total (recommended)** | **$4,300–$6,800** |
+- Stock from the approved booklist first, then stationery, then general readers.
+- Differentiate against low-overhead "briefcase" competitors on stock depth, delivery speed and relationships with school procurement staff, not on price alone.
 
-## Sample Wholesale vs. Retail Prices (Kenya, indicative)
+## 3. Inputs and suppliers
 
-| Title / Item | Wholesale (KES) | Retail (KES) | Margin |
-|-------------|----------------|--------------|--------|
-| Primary Social Studies textbook | 300 | 350 | 17% |
-| Secondary set book (typical) | 280–400 | 350–500 | 20–25% |
-| Exercise book (80-page) | 25–35 | 40–55 | 40–60% |
-| Pencil | 8–12 | 15–20 | 50–67% |
-| Mathematical set | 80–120 | 150–200 | 50–67% |
+- Wholesalers and distributors let you buy from about 5-10 copies; publishers direct need higher minimums but give better margins (roughly up to 10 points of advantage; verify).
+- Join the national booksellers' association if targeting schools; membership opens the approved supplier list.
+- Regional supplier examples: Kenya (Text Book Centre, Longhorn), Uganda (Fountain Publishers, Longhorn Uganda), Tanzania (Mkuki na Nyota; TPUB members), Rwanda (curriculum books from the education board). Confirm each is still trading.
 
-> Stationery carries significantly better margins than textbooks. A shop that can secure school supply contracts gains volume; retail walk-in is the margin generator.
+## 4. Equipment and capex (planning template)
 
-## Revenue Channels
+Shelving, display fittings, signboard, optional point-of-sale system, branding and transport. Build the budget line by line: opening stock (the largest item), fittings, licence, rent deposit (typically 2-3 months), point of sale, contingency. A basic start (address plus starter stock) is far cheaper than a wide-variety start; model both and state the stock level that makes the shop credible to parents.
 
-**1. Retail walk-in:** Individual parents, students, and teachers. High margin, low volume per customer. Peaks in January–February (back-to-school) and September (second term).
+## 5. Unit economics drivers
 
-**2. School tendering:** Schools issue tenders for bulk textbook and stationery supply. Values can reach KES 500,000+ ($6,000+) per award. Requires KSBA (Kenya Booksellers and Stationers Association) membership to appear in the "Orange Book" approved list. Non-refundable tender fees: KES 3,000 ($36) per tender. Payment delays from government-funded schools common — sometimes 3–6 months after delivery.
+- Gross margin by category: textbooks are lower (approved retail prices are often controlled or published), stationery higher. Planning assumption: textbooks in the mid-teens to mid-twenties per cent, stationery in the twenties to sixties; verify with current wholesale lists.
+- Compute blended margin = sum(category sales share x category margin). Show the shop is more profitable when walk-in stationery share rises.
+- Break-even = fixed costs (rent, wages, licences, utilities) / blended gross margin. Model a break-even period of up to about a year as a starting assumption.
+- Cash conversion: stock bought before term peaks and school receivables of 3-6 months are the main working-capital strain.
 
-**3. School request for quotation (RFQ):** For orders below KES 500,000 — schools directly invite 3 quotations from reliable suppliers. Faster and less bureaucratic than formal tenders.
+## 6. Pricing
 
-## Operations
+Textbooks: follow the published maximum retail price. Stationery: market-driven; bundle "back-to-school" packs; price tender bids from landed cost plus margin plus financing cost of delayed payment.
 
-- **Stocking:** Use Kenya Ministry of Education "Orange Book" (KCD approved list) as the master stocking guide — schools and parents reference it exclusively
-- **Key suppliers:** Wholesalers (Text Book Center, Laxmi Booksellers, Longhorn Publishers) allow purchases from as few as 5–10 books; buying direct from publishers requires higher minimums but gives better margins (up to 10% advantage)
-- **KSBA membership:** Strongly recommended if targeting school supply; cost of membership + Orange Book registration is modest and opens institutional market
-- **Tendering risk:** Budget for the possibility of 6+ months receivables when supplying government schools
-- **Margin protection:** Avoid "briefcase" competitors who have no overheads and undercut on price — differentiate on depth of stock, speed of delivery, and relationship with school procurement officers
+## 7. Regulation and licensing checks
 
-## Market
+- Local government trade licence; tax registration in the country of operation.
+- Tender fees and association membership costs.
+- Uganda: revenue authority registration; check whether educational books are VAT-exempt today. Tanzania, Rwanda: business registration and tax number.
+- Tax treatment: verify with the Chwezi finance engine.
 
-Education retail is driven by government school enrolment and free education programmes. Kenya's free primary and secondary education programmes generate billions of shillings annually in book and stationery demand. Government accounts for 80% of textbook purchases under the FPE programme. Private school growth (across all EA) represents an additional premium segment — private schools buy beyond the approved list and value quality and variety. The Kenyan publishing industry was estimated at KES 12 billion ($144M at 2020 rates), with textbooks representing 95%.
+## 8. Risks
 
-## East Africa Notes
+Late government payments; curriculum or booklist changes leaving dead stock; price undercutting; theft; digital substitution; seasonality of cash flow.
 
-- **Uganda:** Education retail is similarly driven by government curriculum (NCDC approved booklist). Key book wholesalers in Kampala: African Books Collective, Fountain Publishers, Longhorn Uganda. School Term 1 (February) and Term 2 (June) are peak purchasing periods. URA trading licence required; no special book dealer licence. VAT exemption on educational books (confirm current status with URA).
-- **Tanzania:** MoEST approved book lists govern school purchases. TPUB (Tanzania Publishers Association) and Mkuki na Nyota active in wholesale supply. Dar es Salaam has a dense secondary school market.
-- **Rwanda:** REB (Rwanda Education Board) curriculum books dominate. English-medium instruction since 2009 has created demand for English-language textbooks across subjects. Growing private school sector in Kigali.
-- **Digital threat:** E-learning platforms are growing but physical textbooks remain dominant for primary and secondary levels across East Africa through at least 2030 — physical bookshops remain viable with right location and school relationships.
+## 9. KPIs
 
-## Data Quality Notes
+Stock turn by category; gross margin by channel; sell-through per term; receivable days on school accounts; tender win rate; footfall and conversion at term start.
 
-Book prices are controlled at maximum retail prices published in the Orange Book (Kenya). Wholesale margins are negotiated and vary by publisher and volume. Stationery margins are more flexible and market-driven.
+## 10. Plan-section prompts
+
+State the booklist source and term calendar; show channel mix and receivable days; give the stock budget by category; show break-even and cash low-point; explain how relationships with schools are won.
+
+Sources consulted: Crack A Business Kenya, sector opportunity guide (educational retail); general retail practice. Figures require re-verification.

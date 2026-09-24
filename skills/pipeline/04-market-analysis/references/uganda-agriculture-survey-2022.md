@@ -1,5 +1,5 @@
 # Uganda Agriculture Survey 2021/22
-**Source:** Uganda Bureau of Statistics (UBOS). (2023). *Annual Agricultural Survey 2021/22*. Kampala: UBOS.
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 **Relevance:** Crop production benchmarks, livestock data, input adoption rates, farm size planning, agricultural market sizing, agribusiness business plans
 
 ---
@@ -202,3 +202,8 @@ Tea, tobacco, cotton data present in survey but yields/area not detailed in revi
 ## Citation
 Uganda Bureau of Statistics (UBOS). (2023). *Annual Agricultural Survey 2021/22*. Kampala: Uganda Bureau of Statistics.
 World Bank. (2025). *Uganda Economic Update, December 2025: Cultivating Prosperity through Agro-Industrialisation*. Washington, DC: World Bank Group.
+
+
+---
+
+Sources consulted: Uganda Bureau of Statistics (UBOS). (2023). *Annual Agricultural Survey 2021/22*. Kampala: UBOS..

@@ -1,92 +1,82 @@
-# Getting Products onto Supermarket Shelves
+# Getting Products onto Supermarket Shelves: Supplier Reference
 
-**Source:** Crack A Business Kenya (CAB) — Supermarket Shelf Space in Kenya: Quick Tips (2015) | **Sub-sector:** Retail — Distribution / Supplier Strategy
-**Conversion:** KES ÷ 106 × 1.27 → March 2026 USD
+Use this reference when a producer or small manufacturer plans to sell through supermarkets and the plan needs a distribution and working-capital section. It is advisory: it has no startup capital schedule. Market statistics and fees are dated planning assumptions; re-verify them and the standing of each named chain before use.
 
-> A qualitative guide for producers and small-scale manufacturers seeking to place products in Kenyan supermarkets. No capital breakdown — this is an advisory guide covering the psychology, process, conditions, and practical tactics of getting and maintaining shelf space. Relevant to any food, FMCG, or household product seeking formal retail distribution.
+## 1. How supermarkets decide
 
-## Market Overview (Kenya, 2015–2016 Data)
+- Supermarkets are profit-driven. They owe no preference to local, youth-owned or women-owned suppliers; decisions rest on expected profitability and customer satisfaction.
+- Shelf space is a contest: the buyer asks whether the product is the most profitable use of that space. A trusted brand with a lower margin can beat an unknown brand with a higher margin, because it brings customers into the store.
+- Space allocation follows category (which section), sales velocity (how much space), weight (heavy items low), adjacency to high-traffic categories (staples such as flour, rice, cooking oil), and proximity to checkouts for impulse lines.
+- Fast-moving, good-margin products earn more space automatically.
+- Basic-need categories (cooking oil, salt, detergent, soap) list most easily if quality standards are met; hardware, gym and novelty items meet more resistance. A product neither too similar to existing stock nor too radical has the best chance.
 
-| Metric | Figure |
-|--------|--------|
-| Total supermarkets in Kenya | 1,500+ |
-| Supermarkets in Nairobi alone | 500+ |
-| Market share — top 5 chains | ~30% combined |
-| Credit period (typical) | 45–270 days |
-| Credit period (large chains) | 90–270 days |
+## 2. Mandatory conditions before approaching medium or large chains
 
-**Top 5 chains (2015 data):** Nakumatt, Tuskys, Naivas, Ukwala/Choppies, Uchumi
-**Medium chains (Nairobi):** Home Depot, Ebrahims, Chandarana, Eastmatt, Cleanshelf
+| Requirement | Note |
+|---|---|
+| Business registration | Registered company or partnership; informal traders are rejected |
+| Tax identification number | Required for formal relationships |
+| VAT registration | Needed to invoice formal retailers |
+| National standards-body certification | Legally required for food and many other products; budget the fee and test time by product category |
+| Barcode (GS1) | Not always demanded, but absence is a ground for rejection |
+| Compliant labelling | Manufacturer, expiry date, ingredients, quantity, storage instructions as the product category requires |
 
-> Note: Nakumatt and Uchumi experienced serious financial difficulties from 2016; the landscape has shifted. In 2026, Naivas is the dominant player; Carrefour (Majid Al Futtaim), Quickmart, and Eastmatt have grown significantly. Verify current chain standings before targeting specific retailers.
+Country equivalents: Kenya KEBS, Uganda UNBS, Tanzania TBS, Rwanda RBS (strictly enforced; budget testing fees). Verify current fees with the standards body and tax treatment with the Chwezi finance engine.
 
-## Mandatory Conditions for Medium and Large Supermarkets
+## 3. Listing process
 
-Before approaching any medium or large supermarket, ensure the following are in place. These are non-negotiable:
+1. Segment the target: know your customer and each supermarket's customer. A small-size pack suits a neighbourhood store; a bulk-buying, upper-income store needs different pack sizes. Mismatches damage credibility for later pitches.
+2. Start with smaller supermarkets: bureaucracy grows with size, and owners or managers can be met directly; a meeting with a large chain can take months to arrange.
+3. Approval happens at head office: supply agreement, return and expiry terms, goods return notes. Then branch managers are notified and you supply branches directly.
+4. Appoint a merchandiser to take orders, arrange products, handle returns notes and keep shelves full, tidy and dust-free. The supermarket does not replenish for you.
+5. Build evidence at small stores (delivery notes, receipts, volumes) and use it with larger chains.
+6. Run other distribution channels in parallel; do not depend on one chain.
 
-| Requirement | Detail | Cost (KES) |
-|-------------|--------|------------|
-| Business registration | Registered company or partnership; supermarkets will not deal with informal traders | 5,000–20,000 |
-| KRA PIN number | Free; required for all formal business relationships | — |
-| VAT number | Free from KRA; required for invoicing formal retailers | — |
-| KEBS certification | Kenya Bureau of Standards mark of quality; legally required for food products | 6,000–35,000 |
-| Barcode | GS1 Kenya (gs1kenya.org); not all supermarkets insist, but absence gives grounds for rejection | — |
-| Proper labelling | Manufacturer name, expiry date, ingredients, quantity, storage instructions (per product category) | — |
+## 4. Three tactics that raise approval chances
 
-## 14 Practical Tips
+- Prove consumer demand with sales evidence elsewhere.
+- Present a written marketing plan showing how you will drive demand, not just deliver stock.
+- Demonstrate supply capacity: production capacity, logistics, and the finance to extend credit, since failure to replenish a popular line is a serious risk to the buyer.
 
-**1. Supermarkets are profit-driven, not patriotic.** There is no obligation to stock local products because they are Kenyan-made, or because the supplier is a youth or woman-owned business. Decisions are based on expected profitability and customer satisfaction.
+## 5. Packaging and product
 
-**2. Shelf space is a competition between products.** The question a supermarket buyer asks is: "Is this the most profitable product to occupy this space?" Profitability includes margins AND customer satisfaction. A higher-margin unknown brand loses to a lower-margin trusted brand because the trusted brand drives more customers into the store.
+Quality and packaging must both be right: excellent product in poor packaging is rejected; attractive packaging on a mediocre product may win a trial but not retention.
 
-**3. Shelf allocation follows multiple factors.** Product category determines the section; demand and sales velocity determine the space allocated; product weight determines shelf height (heaviest items on lowest shelves); proximity to high-traffic categories (flour, rice, cooking oil) increases sales; placement near the cashier queue generates impulse purchases.
+## 6. Consignment model
 
-**4. Don't ignore smaller supermarkets.** The larger the supermarket, the greater the bureaucracy. Smaller supermarkets are easier to pitch — you can meet owners or managers directly; for large supermarkets, a face-to-face meeting can take 6+ months to arrange.
+Unsold stock returns to you after an agreed period. It lowers the supermarket's risk and opens small stores, but you receive no payment until sale, so it needs strong cash flow. Works best with smaller local supermarkets, with a regular visit cycle.
 
-**5. Know your target customer AND the supermarket's target customer.** A 20ml shoe polish tin is a hard sell in an upper-middle-class supermarket whose customers buy monthly in bulk — but an easy sell in a Kangemi neighbourhood supermarket. Matching product to supermarket demographic is essential; mismatches undermine your credibility for future pitches.
+## 7. Credit terms and cash-flow test
 
-**6. The process starts at headquarters, not the branch.** Approval happens at head office — fill agreements, accept return/expiry terms (Goods Return Notes / GRN). Once approved, branch managers are notified; then you supply branches directly. You will typically need a **merchandiser** to manage orders, arrange products on-shelf, and handle GRNs.
+| Supermarket type | Planning assumption for credit period (verify locally) |
+|---|---|
+| Small | About 30 to 45 days |
+| Medium chains | About 45 to 90 days |
+| Large national chains | Up to several months; historically as long as 270 days |
 
-**7. The five mandatory conditions are KEBS, KRA PIN, VAT, business registration, and barcode.** All are required; having them removes early-stage objections and signals professionalism.
+Cash test: working capital needed = daily cost of goods and distribution x credit days. If the business cannot fund that period, begin with small stores and build capital first.
 
-**8. Packaging and product appeal matter.** Supermarkets want products that will appeal to their target customers. An excellent product in poor packaging will be rejected. An attractive package for a mediocre product is more likely to get a trial. Both product quality and packaging must be right.
+## 8. Ethical and governance risk
 
-**9. Bribery and profit-sharing exist.** Some managers extract informal fees or profit-sharing arrangements to accept or maintain shelf listings. Evaluate whether the economics justify it. Have a plan for the risk when that manager leaves or is dismissed.
+Some buyers seek informal fees or profit-sharing for listings. Do not budget for it: it breaches anti-corruption law and creates concentration risk when the manager leaves. Escalate through head-office channels and consider a written policy.
 
-**10. Three tactics to increase approval chances:**
-- **Prove consumer demand** — delivery notes, sales receipts, volume evidence. Demonstrated sales elsewhere make you a lower-risk proposition
-- **Show a marketing plan** — supermarkets want suppliers who will drive consumer demand for their product, not just dump stock and wait. A written marketing plan or evidence of current promotional activity helps
-- **Demonstrate supply capacity** — inability to replenish stock reliably after a product goes popular is a serious risk to the supermarket. Show production capacity, logistics capability, and financial ability to extend credit
+## 9. Country notes (East Africa)
 
-**11. Merchandising is essential.** Supermarkets do not replenish your product — that is your job or your merchandiser's. Keep shelves stocked, well-arranged, and dust-free at all times.
+- Uganda: formal chains include international and regional brands; standards certification from the national bureau; tax registration and municipal licence; credit periods generally shorter than in Kenya.
+- Tanzania: growing chains in the main cities; standards bureau certification; medium-sized regional chains are more accessible to new suppliers.
+- Rwanda: business registry and revenue-authority registration; certification strictly enforced; a strong preference for certified, well-packaged products; a smaller but growing sector.
+- General: consolidation toward regional and international chains with stricter supplier vetting; build food-safety and labelling documentation before approaching them. The chain landscape changes quickly; verify current standings before signing any supply agreement.
 
-**12. Category affects difficulty.** Basic need products (cooking oil, salt, detergent, soap) are easiest to get listed if meeting quality standards. Hardware, gym equipment, and novelty items face higher resistance. A product neither too similar to existing stock nor too radically different has the best chance.
+## 10. KPIs
 
-**13. Sales velocity earns more shelf space.** Fast-moving products with good margins automatically get more space — the supermarket's own incentive is to expand profitable lines.
+Listings won and stores served; sell-through and shelf velocity per store; days sales outstanding; return and expiry rate; merchandiser cost per store; fill rate; share of revenue from top chain.
 
-**14. Persistence is the key differentiator.** Millions of products seek shelf space. Do not rely on promises ("leave a sample, we'll call") — follow up persistently. Carry samples. Request face-to-face meetings with the responsible buyer or manager. Start with smaller supermarkets to build evidence; use that evidence with larger chains. Explore other distribution channels simultaneously — do not bet everything on one supermarket relationship.
+## 11. Plan-section prompts
 
-## Consignment Model (Small Supermarkets)
+- Market: target supermarket tier, customer match, competing brands.
+- Compliance: certification, barcode and labelling timeline and cost.
+- Operations: merchandiser model, delivery capacity, replenishment lead time.
+- Financials: working capital for credit terms, consignment exposure, margin after supermarket mark-up.
+- Risks: buyer concentration, payment delay, chain failure, informal-fee pressure.
 
-A consignment arrangement — where unsold stock is returned to you after an agreed period — reduces the supermarket's risk and can open doors that normal supply terms cannot. Suitable for smaller, less bureaucratic supermarkets. Requires strong cash flow from you (no payment until sales). One bedding manufacturer profitably operates this way across dozens of small supermarkets, visiting every two months.
-
-## Credit Terms Reality
-
-| Supermarket type | Typical credit period |
-|-----------------|----------------------|
-| Small supermarkets | 30–45 days |
-| Medium chains | 45–90 days |
-| Large/national chains | 90–270 days |
-
-> Before supplying a large chain with 270-day credit terms, calculate whether your business can operate for 9 months without that cash. If not, start with smaller supermarkets and build capital before approaching large chains.
-
-## East Africa Notes
-
-- **Uganda:** Uganda's formal supermarket sector includes Nakumatt Uganda (now largely closed), Capital Shoppers, Carrefour (Garden City and Oasis Mall), and Quality Supermarkets. KEBS is a Kenya-specific standard; Uganda National Bureau of Standards (UNBS) certification is the equivalent requirement. URA TIN and KCCA business licence required. Credit periods in Kampala chains are typically 30–60 days — shorter and more manageable than Kenya. URSB company registration required for formal supplier agreements.
-- **Tanzania:** Supermarkets are growing in Dar es Salaam (Game/Walmart successor Massmart Stores/Shoprite, Carrefour at Mlimani City Mall, Nakumatt Tanzania). BRELA registration and TRA TIN required. Tanzania Bureau of Standards (TBS) certification is the KEBS equivalent. Credit periods 45–90 days. The smaller supermarket tier (Shoppers Plaza, Imalaseko, and regional chains) operates similarly to Kenya's medium supermarket tier — more accessible for new suppliers.
-- **Rwanda:** Rwanda Development Board (RDB) registration and RRA TIN required. Rwanda Bureau of Standards (RBS) product certification is strictly enforced — budget for RBS testing fees before approaching supermarkets. Key supermarkets: Simba (major national chain), Nakumatt Rwanda (successor operations), and several smaller chains in Kigali. Rwanda's supermarket sector is smaller than Kenya's but growing with urbanisation. Credit terms in Rwanda are typically 30–60 days. Rwanda's formal retail sector has a strong preference for certified, well-packaged products — informal presentation will not pass Simba's vendor requirements.
-- **EA general:** Across all EA markets, the trend is consolidation toward regional and international chains (Carrefour, Shoprite/Game, Simba) who have increasingly rigorous supplier vetting. Start with local and regional chains; build compliance documentation (food safety, quality certification, labelling standards) before targeting international chains. The consignment model works best in EA for smaller local supermarkets regardless of country.
-
-## Data Quality Notes
-
-Market statistics (1,500+ supermarkets, 5-chain dominance) are from 2015 Kenya data. The retail landscape has changed substantially since — Nakumatt has collapsed, Uchumi severely contracted, and new entrants (Carrefour, Quickmart) have grown. The tactical advice (credit terms structure, mandatory conditions, negotiation tactics) remains structurally valid across the current market. Verify the current standing of any specific supermarket chain before entering a supply agreement. KEBS certification costs (KES 6,000–35,000) should be verified with KEBS directly as they vary by product category and test complexity.
+Sources consulted: Crack A Business Kenya, Supermarket Shelf Space in Kenya: Quick Tips (2015), used as a field-survey input only. Statistics, chain names and fees are dated; re-verify.

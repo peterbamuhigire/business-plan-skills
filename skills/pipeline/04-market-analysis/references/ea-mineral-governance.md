@@ -4,7 +4,7 @@ description: East Africa mineral resource governance data — mineral production
 ---
 
 # East Africa Mineral Resource Governance
-**Source:** AFRODAD. (2021). *Mineral Resource Governance in East Africa: Implications of Policy, Institutions, International Instruments & Political-Economy Context*. Harare: AFRODAD.
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 **Relevance:** Country-by-country mining sector data, royalty regimes, governance risk assessment, IFF risk, ASM sector sizing, and local content compliance for multi-country extractive plans
 
 ---
@@ -210,3 +210,8 @@ description: East Africa mineral resource governance data — mineral production
 AFRODAD. (2021). *Mineral Resource Governance in East Africa: Implications of Policy, Institutions, International Instruments & Political-Economy Context*. Harare: African Forum and Network on Debt and Development.
 
 Supporting: World Bank Governance Indicators (2019); World Bank Doing Business 2020; UNCTAD Economic Development in Africa Report (2020); UNECA High-Level Panel on Illicit Financial Flows (2015); EITI reports (Tanzania, Uganda); various EAC revenue authority annual reports.
+
+
+---
+
+Sources consulted: AFRODAD. (2021). *Mineral Resource Governance in East Africa: Implications of Policy, Institutions, International Instruments & Political-Economy Context*. Harare: AFRODAD..

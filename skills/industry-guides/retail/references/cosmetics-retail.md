@@ -1,103 +1,65 @@
-# Cosmetics & Beauty Products Retail
+# Cosmetics and Beauty Products Retail
 
-**Source:** Crack A Business Kenya (CAB), 2017 | **Sub-sector:** Health & Beauty Retail
-**Conversion:** Original KES figures at KES 106/USD (2020 base), adjusted ×1.27 for USD inflation → March 2026 USD
+Use this reference to plan a specialist shop selling hair care, skin care, weaves and braids, nail care and make-up. All figures are planning assumptions to re-verify with a dated source.
 
-> A specialist retail shop selling cosmetics — weaves/braids, body lotions, hair foods, shampoos, relaxers, skin care, nail care, and make-up — serving urban and peri-urban consumers across all income levels, with stocking strategy differentiated by location and target customer.
+## 1. Market and customer
 
-## Financial Summary
+- Urban and peri-urban consumers of all income levels buy hair and skin products regularly, which makes the category relatively resilient in downturns.
+- Supermarkets are entering lotions and basic hair care; specialist shops keep an edge through variety, niche products and personal service.
+- Segment the catchment and stock accordingly:
 
-| Metric | Amount |
-|--------|--------|
-| Capital Investment (standard estate shop) | $5,633 |
-| — Licences | $192 |
-| — Equipment (shelving, signboard, display) | $527 |
-| — Opening stock (standard range) | $3,715 |
-| — Premises (rent + renovation, 3 months) | $659 |
-| — Working capital (salary, misc — 3 months) | $539 |
-| Minimum viable stock (small shop) | $599 (KES 50,000) |
-| Kenya cosmetics retail industry size (~2017) | ~$1.2B/year (KES 100B) |
+| Customer | Stock emphasis | Price level |
+|---|---|---|
+| Low income, urban or peri-urban | Mass-market brands, affordability first | Budget |
+| Middle income, estate | Mixed mid-tier plus premium basics | Mid |
+| High income and salons | Premium international brands, professional range | Premium |
+| Near salons | Hair products (relaxers, treatments, weaves) | Volume |
 
-## Capital Breakdown
+- Size the market from catchment women x monthly spend x share bought from specialist shops.
 
-| Item | KES | 2026 USD |
-|------|-----|----------|
-| Single User Business Permit | 10,000 | $120 |
-| Signboard Licence | 3,000 | $36 |
-| Fire Inspectorate | 1,500 | $18 |
-| Waste Management | 1,500 | $18 |
-| **Licences sub-total** | **16,000** | **$192** |
-| Shelves and display | 25,000 | $300 |
-| Fire extinguisher | 4,000 | $48 |
-| Signboard | 10,000 | $120 |
-| Other equipment (mirrors, hooks, etc.) | 5,000 | $60 |
-| **Equipment sub-total** | **44,000** | **$527** |
-| Stock | 300,000 | $3,594 |
-| Stock transport and related | 10,000 | $120 |
-| **Stock sub-total** | **310,000** | **$3,715** |
-| Rent (2 months deposit + 1 month at KES 15,000/month) | 45,000 | $539 |
-| Renovation and remodelling | 10,000 | $120 |
-| **Premises sub-total** | **55,000** | **$659** |
-| Salary — 3 months (1 employee at KES 10,000/month) | 30,000 | $360 |
-| Other miscellaneous — 3 months | 15,000 | $180 |
-| **Working capital sub-total** | **45,000** | **$539** |
-| **Grand Total** | **470,100** | **$5,633** |
+## 2. Operating model and stock
 
-## Product Categories and Popular Brands
+- Core categories: body lotions, hair foods, relaxers, shampoo and conditioner, gels, dyes, foundations, nail polish, weaves and braids. Weaves and braids are usually the highest-margin line; origin labelling and quality (human hair versus synthetic) drive mid- and high-income purchase decisions.
+- Cover the must-have basics of the area. Customers judge shop quality by core brand coverage; missing common brands signals an under-stocked shop. Verify current brand popularity with wholesalers and salon operators, as it shifts with marketing cycles and by neighbourhood.
+- Depth before breadth early on: thin spread across many lines creates dead stock and ties up cash.
+- Seasonality: demand rises around public holidays, festive periods and back-to-school.
 
-| Category | Popular Brands (Kenya) |
-|----------|----------------------|
-| Body Lotions | Amara, Versman, Nivea, Nice & Lovely, Revlon, Eden |
-| Hair Foods | Miadi, Venus, Baby Love, Blac Chic, Nice & Lovely |
-| Hair Relaxers | Miadi, TCB, Venus |
-| Hair Conditioners/Shampoo | Beula, Zoe |
-| Hair Gels | Movit Curl Activator |
-| Hair Dye | Dark & Lovely, Beautiful Beginning |
-| Foundations | Mac, Sleek |
-| Nail Polish | Luron |
-| Weaves and Braids | Various (Chinese, Indian, and local) |
+## 3. Sourcing and authenticity
 
-> Must-have basics: Vaseline, Miadi, Nice and Lovely, Nivea, Rexona, TCB, Movit. Customers judge a shop's quality by its core brand coverage — missing common brands signals an under-stocked shop.
+Build relationships with two or three reliable wholesalers before opening; ask which brands move fastest locally. Product-type risk:
 
-## Stocking Strategy by Market Segment
+| Type | Margin | Risk |
+|---|---|---|
+| Original via official channel | Standard | Lowest; consumer trust |
+| Original diverted from the manufacturer | Same | Legal risk; quality usually the same |
+| Original grey import | Higher | Warranty and returns issues |
+| Counterfeit | High | Reputation destruction and legal exposure |
+| Generic | Moderate | Lower trust; niche buyers |
 
-| Customer Type | Stock Emphasis | Price Level |
-|--------------|---------------|-------------|
-| Low income, urban/peri-urban | Mass market brands, affordability-first (Vaseline, Nice & Lovely, cheap weaves) | Budget (KES 50–500/$0.60–$6/item) |
-| Middle income, estate | Mixed portfolio — mid-tier + premium basics (Nivea, Movit) | Mid ($0.60–$24/item) |
-| High income / salons | Premium international brands, specialist treatments, professional range | Premium ($6–$120+/item) |
-| Near salons | Bias toward hair products (relaxers, treatments, weaves) | Volume |
+Counterfeits are pervasive for aspirational brands (prestige make-up, perfumes, high-end skin care); even reputable wholesalers may stock them unknowingly. Buy from appointed representatives and authorised distributors and keep purchase records.
 
-## Product Types — Risk Profile
+## 4. Capex template
 
-| Type | Margin Opportunity | Risk |
-|------|-------------------|------|
-| Original (official channel) | Standard | Lowest — consumer trust |
-| 'Backdoor' original (diverted from manufacturer) | Same as official | Legal risk; quality usually same |
-| Original but grey import | Higher | Possible warranty/returns issues |
-| Fakes/counterfeits | High (same price as original) | Reputation destruction if discovered; legal risk |
-| Generics | Moderate | Lower consumer trust; niche buyers |
+Licences (business permit, signboard, fire inspection, waste management); equipment (shelves, display, fire extinguisher, signboard, mirrors and hooks); opening stock (largest line) plus stock transport; premises (rent deposit and first month, renovation); three months of wages and miscellaneous. A minimum viable kiosk stocking only fast-moving basics needs far less stock; a standard estate shop needs several multiples of it. Model both.
 
-> Fakes are pervasive, especially for aspirational brands (MAC, perfumes, high-end skin care). Some reputable wholesalers unknowingly stock fakes. Source from appointed local representatives and authorised distributors to reduce risk.
+## 5. Unit economics
 
-## Operations
+Gross margin varies by category and authenticity; build blended margin from category mix. Break-even = monthly fixed costs / blended margin. Track stock days by category; cash tied in slow lines is the main failure mode.
 
-- **Wholesalers:** Bestlady and similar cosmetics supermarkets in Nairobi's CBD/Eastleigh are the primary wholesale sources. Build relationships with 2–3 reliable wholesalers before opening.
-- **Stock velocity:** Ask wholesaler and salon contacts which brands are fast-moving in your specific area — popularity varies by neighbourhood and changes with marketing cycles
-- **Avoid dead stock:** Wide variety sounds appealing but under-capitalised shops that spread stock thinly end up with slow-moving units and cash tied up. Prioritise depth over breadth in early months
-- **Seasonal demand:** Weaves, braids, and hair care have higher demand around public holidays, festive seasons, and back-to-school periods
+## 6. Regulation checks
 
-## Market
+Local trade licence and fire clearance; standards-body requirements for cosmetics (UNBS in Uganda, TBS in Tanzania, food and drugs authority in Rwanda); restrictions on skin-lightening ingredients across the region; import licensing where applicable. Tax: verify with the Chwezi finance engine.
 
-Kenya's cosmetics market was estimated at KES 100 billion ($1.2B) at the time of the guide, reflecting deep consumer engagement with hair and skin care across all income levels. Urban women spend regularly on hair and beauty regardless of income bracket — the category is relatively recession-resistant. Supermarkets are entering the category aggressively (particularly for lotions and basic hair products), but specialist shops retain an advantage in variety, niche products, and personal service.
+## 7. East Africa notes
 
-## East Africa Notes
+Uganda: wholesale hubs in Kikuubo and Owino, premium malls, strong local hair brands. Tanzania: coastal demand for henna and fragrance. Rwanda: growing Kigali middle class, mostly imports, duty-free intra-EAC.
 
-- **Uganda:** Strong cosmetics retail market driven by similar consumer patterns. Kampala's Kikuubo and Owino Market are wholesale hubs; Garden City and Acacia Mall for premium retail. Popular Ugandan brands include Movit (local manufacturer with strong market share in hair care — dominant in Uganda and growing regionally). Check with UNBS on any import/quality requirements for cosmetics.
-- **Tanzania:** Active cosmetics retail market across Dar es Salaam, Arusha, and Zanzibar. Swahili coastal beauty traditions include specific henna and fragrance product demand not common in inland EA markets. TBS certification required for any manufactured cosmetics sold in Tanzania; retail import licensing applies.
-- **Rwanda:** Rwanda's cosmetics retail is growing with the Kigali middle class. RFDA enforces cosmetics quality standards. Duty-free access under EAC makes Kenyan products cheap to import. Local Rwandan cosmetics manufacturing is minimal — primarily retail of imports. High consumer sensitivity to skin lightening products (a regulatory watch area across all EA).
-- **Weaves and braids:** The highest-margin category in most urban EA cosmetics shops. Quality differentiation (Brazilian, Peruvian, Indian hair vs. synthetic) and origin labelling are the key buyer decision points for mid and high-income customers.
+## 8. Risks and KPIs
 
-## Data Quality Notes
+Risks: counterfeit stock, dead stock, brand shifts, supermarket price competition, regulatory action on restricted ingredients. KPIs: sales per square metre, stock turn, gross margin by category, share of core brands in stock, repeat customers.
 
-Opening stock of KES 300,000 ($3,594) gives a reasonable variety for a standard estate shop; KES 50,000 ($599) minimum is viable for a kiosk focusing on fast-moving basics only. Brand popularity shifts quickly — verify current bestsellers with wholesalers and salon operators before finalising initial stock list.
+## 9. Plan-section prompts
+
+Target segment and stocking rule; supplier list and authenticity controls; capex and working capital; category margin table; regulatory checklist.
+
+Sources consulted: Crack A Business Kenya, cosmetics retail guide (2017); general retail practice. Brand and price figures require re-verification.

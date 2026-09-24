@@ -2,13 +2,13 @@
 
 Adaptive ideation system. The blog-idea-generator selects 5-7 methods based on available client information. Methods 1-2 always run. Methods 3-20 activate based on assessment scores.
 
-Sources: Kothand (One Hour Content Plan), Graves (Writing for Profit), Aaron (Profitable Blog Topics), Lima (Fundamentals of Writing), Bly (How to Write Simple Information), Danny Iny (Blog Post Ideas: 21 Proven Ways), Rebecca Livermore (Blogger's Quick Guide), Eddy (Blog It Right).
+Method library assembled from general content-marketing practice; see Sources consulted at the end.
 
 ---
 
-## Foundation Methods (Always Run)
+## Foundation Methods
 
-### Method 1: Category Drilldown (Kothand)
+### Method 1: Category Drilldown
 
 The most systematic technique. Define 4-7 content categories from the business's services. For each, ask "What does the reader need to become proficient here?" Break into sub-categories, then into 3-7 specific topics.
 
@@ -17,7 +17,7 @@ The most systematic technique. Define 4-7 content categories from the business's
   - Sub: Stock counting → "5 stock-counting methods ranked by accuracy", "Why your stock count is always wrong"
   - Sub: Reorder points → "How to calculate reorder points without a spreadsheet"
 
-### Method 2: Buyer Awareness Stages (Kothand)
+### Method 2: Buyer Awareness Stages
 
 Generate ideas for each stage:
 
@@ -32,9 +32,9 @@ Generate at least 2 ideas per stage.
 
 ---
 
-## Client-Data Methods (Require Client Docs)
+## Client-Data Methods
 
-### Method 3: Pain Point Mining (Graves/Aaron)
+### Method 3: Pain Point Mining
 
 For each customer pain point, generate ideas from three angles:
 - Mistake angle: "5 mistakes that cause [pain]"
@@ -43,7 +43,7 @@ For each customer pain point, generate ideas from three angles:
 
 Sources for pain points: sales emails, support tickets, FAQ pages, Google "People Also Ask", competitor blog comments.
 
-### Method 4: Competitor Gap Analysis — Spin Technique (Graves)
+### Method 4: Competitor Gap Analysis — Spin Technique
 
 Search target keywords, read top 10 results. Find:
 - **Missing angle** — perspective nobody has taken
@@ -52,15 +52,15 @@ Search target keywords, read top 10 results. Find:
 - **Freshness gap** — top results are 2+ years old
 - **Resource gap** — a resource everyone links to but nobody has created
 
-### Method 5: Customer Question Mapping (Aaron/Graves)
+### Method 5: Customer Question Mapping
 
 Turn real customer questions into blog posts. The title echoes the question; the article is the definitive answer. Mine from: customer service logs, sales call objections, social media DMs, industry forums, Google "People Also Ask", AnswerThePublic.
 
-### Method 6: They Ask, You Answer (Marcus Sheridan / Livermore)
+### Method 6: They Ask, You Answer
 
 Every question a customer has ever asked becomes a blog post. Make it a habit: when someone emails a question, write a blog post answering it, then send them the link. For teams: have everyone write down customer questions — typically generates 10+ ideas per session.
 
-### Method 7: Amazon/Review Mining (Livermore)
+### Method 7: Amazon/Review Mining
 
 For product-based businesses:
 1. Find bestsellers in the niche on Amazon
@@ -73,9 +73,9 @@ Can generate 25 ideas in 10 minutes.
 
 ---
 
-## Content-Based Methods (Require Existing Content)
+## Content-Based Methods
 
-### Method 8: Spin-Off Posts (Livermore)
+### Method 8: Spin-Off Posts
 
 1. List the last 5 published articles
 2. For each, generate spin-offs: answer a reader question, write the practical implementation, write the opposite viewpoint
@@ -86,9 +86,9 @@ For new blogs with no content: use blog categories instead.
 
 ---
 
-## Industry-Driven Methods (Require Industry Knowledge)
+## Industry-Driven Methods
 
-### Method 9: Media Mashup (Iny)
+### Method 9: Media Mashup
 
 Take a familiar media property + a topic in your niche:
 - Nostalgia: "[Classic Character]'s Guide to [Your Topic]"
@@ -97,23 +97,23 @@ Take a familiar media property + a topic in your niche:
 
 Rules: the connection must be genuine (don't force it), do keyword research on trending shows first. Best for brands with informal/creative voice.
 
-### Method 10: Highlight the Good / Feature the Bad (Iny)
+### Method 10: Highlight the Good / Feature the Bad
 
 **Good:** Case study of something excellent — favourite product, company, approach. Formula: praise + analysis + lessons others can learn.
 
 **Bad:** Case study of something frustrating. Three-step formula: your frustration + WHY it makes you angry + offer a solution + step back for bigger picture.
 
-### Method 11: How-To/Tutorial Mining (Iny)
+### Method 11: How-To/Tutorial Mining
 
 Don't just advise — teach the process. Formula: question people ask + step-by-step breakdown + screenshots/photos + show the outcome/results. Over-deliver: share the methodology, show the actual numbers. Evergreen potential: how-to posts rank for years.
 
-### Method 12: Success/Failure Stories (Iny/Livermore)
+### Method 12: Success/Failure Stories
 
 **Success:** Write about a time something went right. Not bragging — draw out lessons. Formula: what happened + what worked + what went wrong + lessons.
 
 **Failure:** Failure stories build trust. Formula: tell honestly + analyse what went wrong + what you learned + what you'd do differently. Focus on analysis, not dwelling.
 
-### Method 13: Holiday/Event Mapping (Livermore/Eddy)
+### Method 13: Holiday/Event Mapping
 
 Map holidays and events to your niche:
 1. Identify what the holiday represents (Easter = renewal, MLK Day = perseverance)
@@ -122,7 +122,7 @@ Map holidays and events to your niche:
 
 Also: industry events, conferences, product launches, fiscal year dates.
 
-### Method 14: Newsjacking/Trends (Iny)
+### Method 14: Newsjacking/Trends
 
 Ride piggyback on trending stories. Five sources:
 1. Google Trends — search interest over time
@@ -135,9 +135,9 @@ Write about emerging trends early to make readers feel like insiders.
 
 ---
 
-## Creative Methods (Fallbacks for When Other Methods Dry Up)
+## Creative Methods
 
-### Method 15: Use Any Object (Livermore)
+### Method 15: Use Any Object
 
 Lateral thinking framework:
 1. Pick any random object (e.g., a car)
@@ -148,7 +148,7 @@ Lateral thinking framework:
 
 Example: Steering wheel → "How to know it's time to change direction in your business"; Brakes → "Things you need to stop doing for your business to succeed."
 
-### Method 16: Curated Roundups (Iny/Livermore)
+### Method 16: Curated Roundups
 
 List top resources in your niche. Always add your own commentary (1-3 sentences per item):
 - **Problems and Products:** "12 Best Tools for [Task]"
@@ -156,19 +156,19 @@ List top resources in your niche. Always add your own commentary (1-3 sentences 
 - **Resources:** master list of everything needed to accomplish a goal
 - **Media:** best TED talks, podcasts, videos in the niche
 
-### Method 17: Prediction Posts (Iny)
+### Method 17: Prediction Posts
 
 Write educated predictions about the future of your niche. Rules: predictions must be researched, not guesses. Support with data. Follow-up opportunity: revisit predictions later for a second post.
 
-### Method 18: Jargon/Glossary Posts (Livermore)
+### Method 18: Jargon/Glossary Posts
 
 List industry-specific terms. Write one master glossary post OR individual explainer posts per term. Excellent for SEO — beginners search for definitions.
 
-### Method 19: Contrarian/Negative Posts (Livermore)
+### Method 19: Contrarian/Negative Posts
 
 Address criticisms head-on. Write about problems with your industry. People research negatives before purchasing — be the trusted source that addresses objections honestly.
 
-### Method 20: Topic-Category Matrix (Eddy)
+### Method 20: Topic-Category Matrix
 
 For high-volume idea generation. Take any topic category, apply two angles:
 - Angle 1: "The Complete Guide to [Topic]" (comprehensive)
@@ -180,22 +180,22 @@ For high-volume idea generation. Take any topic category, apply two angles:
 
 ## Ideation Filters and Validators
 
-### High-Value Goal Filter (Graves)
+### High-Value Goal Filter
 Prioritise topics that help readers: make/save money, build a business, reduce risk, save time, gain advantage, learn a high-value skill.
 
-### Unique Expertise Filter (Graves)
+### Unique Expertise Filter
 Best topics: high-value for the reader AND hard to find elsewhere.
 
-### The 90/10 Content Originality Rule (Bly)
+### The 90/10 Content Originality Rule
 90% familiar content (proves you know your stuff) + 10% new insight (creates value). The 10% can be: a new framework, contrarian data, unreported case study, or novel connection.
 
-### Content Hierarchy (Bly)
+### Content Hierarchy
 Lean toward higher levels:
 - **Information** (facts): "The average SME loses 15% to stock-outs"
 - **Knowledge** (understanding): "Why stock-outs happen more in seasonal businesses"
 - **Wisdom** (guidance): "How to set reorder points that prevent stock-outs"
 
-### Nine Value-Adding Angles (Bly/Davidson)
+### Nine Value-Adding Angles
 
 | Angle | Meaning |
 |-------|---------|
@@ -209,7 +209,7 @@ Lean toward higher levels:
 | Findability | Compile resources others must hunt for |
 | New ideas | Share something the reader hasn't heard elsewhere |
 
-### The Content Tilt (Kothand)
+### The Content Tilt
 Find your distinctive angle:
 - What questions are asked but not addressed in your niche?
 - What widely held views do you oppose?
@@ -218,7 +218,7 @@ Find your distinctive angle:
 
 ---
 
-## Headline Patterns (Enhanced)
+## Headline Patterns
 
 In addition to the 10 templates in `sales-copywriting/references/headline-mastery.md`, these blog-specific patterns work well:
 
@@ -235,15 +235,15 @@ In addition to the 10 templates in `sales-copywriting/references/headline-master
 | Day in the life | "A Day in the Life of a [Role]: What Really Happens" |
 | Comparison | "[Option A] vs [Option B]: Which Is Right for [Audience]?" |
 
-### Three-Headline Method (Graves)
+### Three-Headline Method
 Always generate 3 headline options per article. Each incorporates: the topic, the unique angle, the audience appeal.
 
-### 4 U's Test (AWAI)
+### 4 U's Test
 Score each headline on Useful, Unique, Urgent, Ultra-specific (1-4 each). Publish only if 3+ dimensions score 3+. See `sales-copywriting/references/headline-mastery.md`.
 
 ---
 
-## Client Questionnaire (Graves)
+## Client Questionnaire
 
 When minimal context is available:
 1. What is the #1 thing you want blog readers to do?
@@ -261,11 +261,11 @@ When minimal context is available:
 
 ---
 
-## Clustering for Idea Expansion (Lima)
+## Clustering for Idea Expansion
 
 Place a keyword in the centre of a mental map. Branch outward with every association. Work fast. When one branch dries up, start another. Richest branches become article ideas. Run multiple clusters: business name, ideal customer problem, product category, competitor weakness.
 
-## W5 Topic Discovery (Lima)
+## W5 Topic Discovery
 
 For any topic, ask six questions — each surfaces a distinct angle:
 
@@ -277,3 +277,5 @@ For any topic, ask six questions — each surfaces a distinct angle:
 | When is it happening? | Timeliness / trend |
 | Why is it happening? | Analysis / opinion |
 | How is it happening? | How-to / process |
+
+Sources consulted: general blogging and content-marketing practice, including works by Iny, Livermore, Eddy, Kothand, Graves, Aaron, Lima and Bly (all reworked; no text reproduced).

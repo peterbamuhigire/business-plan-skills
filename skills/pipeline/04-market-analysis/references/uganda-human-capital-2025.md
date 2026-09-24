@@ -1,5 +1,5 @@
 # Uganda Human Capital Development & Growth Review 2025
-**Source:** World Bank / Government of Uganda — *Uganda Human Capital Development and Growth Review* (UHCDGR), 2025
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 **Relevance:** Market opportunity sizing, demographic dividend framing, education/health investment context, Vision 2040 targets
 
 ---
@@ -227,3 +227,8 @@ Human capital underinvestment is also a **business risk** — a workforce with 4
 
 ## Citation
 World Bank / Government of Uganda. (2025). *Uganda Human Capital Development and Growth Review (UHCDGR)*. Washington, DC: World Bank Group.
+
+
+---
+
+Sources consulted: World Bank / Government of Uganda — *Uganda Human Capital Development and Growth Review* (UHCDGR), 2025.

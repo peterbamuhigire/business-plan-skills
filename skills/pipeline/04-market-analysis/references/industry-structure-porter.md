@@ -49,7 +49,7 @@ Illustration of contrasting groups (appliance-type industry): broad-line, heavil
 
 Mobility barriers stop firms moving between groups. They resemble entry barriers but operate inside the industry, and they explain why performance differences persist.
 
-Sources:
+Typical sources of mobility barriers:
 - Economies of scale that need years of investment.
 - Differentiation: established brands, loyalties and reputations.
 - Capital requirements (facilities, research, advertising, distribution).

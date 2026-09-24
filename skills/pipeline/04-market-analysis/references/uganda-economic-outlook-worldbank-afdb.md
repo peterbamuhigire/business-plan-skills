@@ -1,9 +1,6 @@
 # Uganda Economic Outlook: World Bank & AfDB Reference Data
 
-**Sources:**
-- World Bank, *Uganda Economic Update*, 26th Edition, December 2025 (UEU-26)
-- World Bank, *Uganda Economic Update*, 21st Edition, June 2023 (UEU-21)
-- African Development Bank, *African Economic Outlook 2025* (AfDB AEO 2025)
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 
 **Complementary file:** `uganda-macro-context-2025.md` (UBOS KEI data, CPI, population, exchange rates)
 
@@ -516,3 +513,8 @@ By the 2040s, under current trajectories:
 ---
 
 *Full bibliographic details: World Bank (2023). Uganda Economic Update, 21st Edition: Leveraging Tourism for Post-Pandemic Recovery. World Bank Group; World Bank (2025). Uganda Economic Update, 26th Edition. World Bank Group; African Development Bank (2025). African Economic Outlook 2025. AfDB.*
+
+
+---
+
+Sources consulted: World Bank, *Uganda Economic Update*, 26th Edition, December 2025 (UEU-26); World Bank, *Uganda Economic Update*, 21st Edition, June 2023 (UEU-21); African Development Bank, *African Economic Outlook 2025* (AfDB AEO 2025).

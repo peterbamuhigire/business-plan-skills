@@ -1,12 +1,13 @@
 # Market Strategy Frameworks
 
-> References: *Strategy Plain and Simple* by Evans (Pearson, 2018); *The Strategist's Toolkit* by Harris & Lenox (Darden, 2013); *The Portable MBA in Strategy* ed. Fahey & Randall (Wiley, 2000)
+
+---
+
+**How to use this file.** Work in this order for the market-analysis section: (1) size the market (section 1); (2) forecast demand (2); (3) assess industry structure and macro forces (3-6); (4) define customer buying criteria and key success factors (7-8). All numbers in worked examples are hypothetical planning assumptions; replace them with dated, sourced data.
 
 ---
 
 ## 1. Market Sizing Methods
-
-*Source: Evans, Ch 2–3*
 
 There are **six main methods** for sizing a market. Use several in combination and triangulate.
 
@@ -43,7 +44,7 @@ There are **six main methods** for sizing a market. Use several in combination a
 - Established businesses entering new markets: 5–15% of SAM.
 - If SOM exceeds 20% of SAM, provide extraordinary justification.
 
-### 1.4 Marketcrafting — Evans's Competitor-Based Sizing Method
+### 1.4 Competitor-index sizing ("marketcrafting")
 
 Marketcrafting is particularly useful for niche markets where published data does not exist. It yields market size, market share, and share change in one exercise.
 
@@ -57,7 +58,7 @@ Marketcrafting is particularly useful for niche markets where published data doe
 6. **Calculate:** Total all index numbers. Market size = (Total index / 100) x your sales.
 7. **Cross-check with colleagues** — sales director, operations director, anyone with competitor intelligence. Discuss, refine, converge.
 
-**Worked example (adapted from Evans):**
+**Illustrative example (hypothetical figures):**
 
 | Competitor | Index (latest year) | Implied market share |
 |------------|-------------------|---------------------|
@@ -80,9 +81,7 @@ If your turnover in this segment is UGX 110 billion, the estimated market size i
 
 ---
 
-## 2. Market Demand Forecasting — The HOOF Approach
-
-*Source: Evans, Ch 3*
+## 2. Market Demand Forecasting from History and Drivers (HOOF-style)
 
 HOOF is a four-step method for translating market demand trends and drivers into forecasts. Apply it **per business segment**.
 
@@ -119,8 +118,6 @@ HOOF is a four-step method for translating market demand trends and drivers into
 ---
 
 ## 3. Porter's Five Forces Analysis
-
-*Sources: Harris Ch 4; Portable MBA Ch 8 (Collis & Ghemawat)*
 
 Five Forces analysis determines the **attractiveness of an industry** — its profit potential and the ease of mobility between strategic positions. Use it when assessing entry/exit decisions, identifying threats and opportunities, or understanding why an industry is (un)profitable.
 
@@ -199,15 +196,13 @@ Entry is **less likely** when:
 3. **Overall industry attractiveness:** No simple formula — the analyst must weigh the totality of forces. One overwhelmingly strong force (e.g. substitutes) can render an industry unattractive regardless of other forces.
 4. **Identify actionable levers:** Which forces can the firm influence? (e.g. raising switching costs to reduce buyer power, investing in differentiation to reduce rivalry).
 
-**Attractive industry profile (Harris):** Few firms, high growth, unequal size, differentiated offerings, many alternative buyers, scale economies, few substitutes, significant complements.
+**Attractive industry profile:** Few firms, high growth, unequal size, differentiated offerings, many alternative buyers, scale economies, few substitutes, significant complements.
 
 **Unattractive industry profile:** Many firms, low growth, equal size, commodity products, few alternative buyers, low barriers to entry, many substitutes.
 
 ---
 
 ## 4. The Value Net Framework
-
-*Source: Portable MBA Ch 8 (Brandenburger & Nalebuff)*
 
 The Value Net **extends** the Five Forces by adding **complementors** and highlighting **cooperative** as well as competitive dynamics.
 
@@ -235,7 +230,7 @@ The Value Net **extends** the Five Forces by adding **complementors** and highli
 | **Supplier value** | Rivals bid up input costs | Complements reduce input prices |
 | **Strategic focus** | Capture value from others | Create new value jointly |
 
-**"Thinking complements is about finding ways to make the pie bigger rather than fighting with competitors over a fixed pie."** — Brandenburger & Nalebuff
+Look for complements that grow the total market rather than only fighting for share of a fixed one.
 
 ### 4.3 Determinants of Complementor Power
 
@@ -261,8 +256,6 @@ When assessing whether complementors will capture value at your expense, conside
 ---
 
 ## 5. Environmental / Macro Analysis — PESTEL Framework
-
-*Source: Harris Ch 3*
 
 Environmental analysis (or "environmental scanning") examines **broader societal forces** that currently affect, or may in future influence, the nature of competition within an industry. It complements firm-level and industry-level tools (competitor analysis, Five Forces).
 
@@ -313,8 +306,6 @@ Environmental factors can overwhelm competitive advantage. A firm with a superio
 
 ## 6. Industry Life Cycle
 
-*Source: Harris Ch 5*
-
 Technologies and product markets progress along well-defined **sigmoid (S) curves**. The Competitive Life Cycle (CLC) has three phases, separated by transitory inflection points.
 
 ### 6.1 The S-Curve and Three Phases
@@ -346,7 +337,7 @@ Revenue
 
 ### 6.3 Characterising Your Life Cycle
 
-Use the CLC worksheet (Harris):
+Use a competitive life-cycle worksheet:
 
 | Inflection point | Timing question | Severity question |
 |-----------------|-----------------|-------------------|
@@ -369,11 +360,9 @@ The purpose of strategy is to **create new S-curves**. Not all initiatives succe
 
 ---
 
-## 7. Customer Buying Criteria — Evans's E2-P2-R2 Framework
+## 7. Customer Buying Criteria (six categories)
 
-*Source: Evans, Ch 5*
-
-Customer buying criteria are **what customers need from their suppliers**. They can be grouped into six categories, remembered as **E2-P2-R2**.
+Customer buying criteria are **what customers need from their suppliers**. They can be grouped into six categories, remembered as effectiveness, efficiency, premises, price, relationship, range.
 
 ### 7.1 The Six Criteria
 
@@ -409,8 +398,6 @@ For a food processing business selling to Kampala supermarkets:
 ---
 
 ## 8. Deriving Key Success Factors
-
-*Source: Evans, Ch 5–6*
 
 Key success factors (KSFs) are **what firms must do** to satisfy customer buying criteria and run a sound business. They are derived directly from customer buying criteria.
 
@@ -473,7 +460,7 @@ This is the crucial final step. A **must-have** factor is one so critical that i
 - Could you lose all your business if you fail on this single factor, regardless of strength on others?
 - Is there a regulatory, legal, or certification requirement that is an absolute prerequisite?
 
-**The Ashley Madison test (Evans):** A dating agency built rapid growth on controversy and low marketing costs, but failed on the one must-have — **confidentiality**. Its IT security was breached, the customer database was hacked, and the business was devastated. Confidentiality was not a ranking factor but a screening factor.
+**Screening-factor test:** a must-have that is not a ranking factor (for example confidentiality for a discreet consumer service) can destroy the business if it fails, however strong the other factors. Identify such must-haves explicitly.
 
 ### 8.2 Summary — KSF Derivation Flow
 
@@ -500,3 +487,5 @@ Final list of ~10 Key Success Factors
 ```
 
 Use this final list to **rate your firm and each competitor** against every factor. This produces a competitive position assessment that feeds directly into strategy formulation.
+
+Sources consulted: Evans, Strategy Plain and Simple (2018); Harris and Lenox, The Strategist's Toolkit (2013); Fahey and Randall (eds), The Portable MBA in Strategy (2000); Porter, Competitive Strategy (1980); Brandenburger and Nalebuff, Co-opetition (1996). Frameworks are applied in the engine's own structure; verify any tax or accounting inputs with the Chwezi finance engine.

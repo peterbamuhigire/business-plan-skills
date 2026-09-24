@@ -2,7 +2,7 @@
 
 *Reference for §12 Risk Analysis — Uganda context*
 
-Source: Uganda World Business Journal 2025 (WBJAC International); UBOS Kenya Economic Indicators Q1 2025/26; AfDB Africa Economic Outlook 2025; WTO Global Trade Report 2025; EU Deforestation Regulation 2023/1115; Houthi Red Sea shipping data 2024–25.
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 
 ---
 
@@ -186,3 +186,8 @@ Business plan authors should include a trade risk register in §12 covering whic
 | EAC standards rejection | Medium | Medium | Pre-export UNBS/KEBS dual certification |
 
 *Probability and impact ratings should be adjusted to the specific business context. Use the Suns and Clouds framework (Evans) or scenario planning (Harris/Lenox) for structured analysis.*
+
+
+---
+
+Sources consulted: Uganda World Business Journal 2025 (WBJAC International); UBOS Kenya Economic Indicators Q1 2025/26; AfDB Africa Economic Outlook 2025; WTO Global Trade Report 2025; EU Deforestation Regulation 2023/1115; Houthi Red Sea shipping data 2024–25..

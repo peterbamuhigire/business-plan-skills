@@ -1,6 +1,6 @@
 # Editorial Standards Reference — Blog Writer Skill
 
-Rules distilled from *The Chicago Manual of Style* (17th edition) and *Developing Quality Technical Information* (Hargis/Carey). Apply these during the proofing pass (Step 7 of the writing process).
+Editorial rules written for this engine from common house-style and technical-writing practice. Apply these during the proofing pass (Step 7 of the writing process).
 
 ---
 
@@ -199,7 +199,7 @@ Hyphenate when two or more words jointly modify a noun:
 
 ## Words to Avoid in Professional Writing
 
-### Condescending Words (Hargis/Carey)
+### Condescending Words
 Never use: "simply", "just", "easy", "obviously", "of course", "as everyone knows". These belittle readers who are struggling with the topic.
 
 ### Hyperbolic Marketing Words
@@ -260,3 +260,5 @@ Always one space, never two.
 
 ### Smart Quotation Marks
 Use directional ("curly") quotes, not straight quotes. Astro handles this automatically in rendered HTML.
+
+Sources consulted: The Chicago Manual of Style (17th ed.) and Hargis et al., Developing Quality Technical Information, used as general style background; rules restated in the engine's own words.

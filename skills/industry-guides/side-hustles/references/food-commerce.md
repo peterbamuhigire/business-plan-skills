@@ -1,7 +1,7 @@
 # Food Commerce Side Hustles
 
 **Audience:** EA professionals with cooking skills or food sourcing connections
-**Sources:** Guillebeau (2017), Simon (2022)
+**Basis:** Planning reference written for this engine; figures are planning assumptions to re-verify with dated local quotes and data (see Sources consulted at the end).
 
 > Food is the most universal side hustle in East Africa. Every office has someone selling cakes, samosas, or homemade meals to colleagues. Done with consistency and quality, a food side hustle can scale from a UGX 200,000/month colleague trade to a UGX 5,000,000+/month WhatsApp business in 12–18 months.
 
@@ -149,7 +149,7 @@
 
 ## Food Business Foundations
 
-**The key metrics to track (Guillebeau, 2017):**
+**The key metrics to track:**
 1. **Cost of goods** per unit — ingredient cost only, not your time yet
 2. **Gross margin** — should be 50–70% for food products
 3. **Orders per week** — track growth month-on-month
@@ -173,3 +173,7 @@
 | Seasonal ingredient price increases | Build 10% price buffer into your pricing; communicate price adjustments in advance |
 | Running out of capacity (orders exceed your time) | Hire a part-time helper; increase minimum order size; raise prices strategically |
 | Employer policy conflict | Food businesses are generally not a conflict of interest; confirm in your employment contract |
+
+---
+
+Sources consulted: side-business literature (Guillebeau 2017; Simon 2022), UNBS and local health-authority requirements, and East African food-market observation. All money figures are planning assumptions for a 2026 baseline and must be re-verified with a dated source. Tax, payroll and accounting treatment: verify with the Chwezi finance engine.

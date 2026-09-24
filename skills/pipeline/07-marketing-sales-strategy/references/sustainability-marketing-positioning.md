@@ -1,5 +1,5 @@
 ---
-source: "Multiple: Leleux, Benoit & van der Kaaij, Jan (2019). Winning Sustainability Strategies. Palgrave Macmillan; Sustainability Today (Summer 2022). AI & Environment Special Issue; Kotler, Philip et al. (2021). Marketing 6.0 (referenced from 07-marketing-sales-strategy)."
+basis: "Engine synthesis for business-plan use; sources consulted are listed at the end of the file."
 frameworks: [Sustainability Marketing, Green Positioning, ESG Brand Strategy, Purpose-Driven Marketing, Anti-Greenwashing]
 skill: 07-marketing-sales-strategy
 cross-reference: [16-sustainability-strategy, meta-sustainability, 03-products-services, 06-competitive-analysis]
@@ -7,13 +7,13 @@ cross-reference: [16-sustainability-strategy, meta-sustainability, 03-products-s
 
 # Sustainability Marketing and Positioning
 
-## 1. Sustainability as Marketing Competitive Advantage (Leleux 2019)
+## 1. Sustainability as Marketing Competitive Advantage 
 
 **Tony's Chocolonely example**: purpose-driven brand (eliminate slavery from chocolate supply chain) grew 50% year-on-year in a market dominated by Nestlé, Mondelez, and Lindt — achieving €45M revenue in 12 years.
 
 **Key insight**: sustainability focus delivers brand differentiation that larger competitors struggle to replicate authentically.
 
-**Three sustainability marketing archetypes (Leleux vectoring framework):**
+**Three sustainability marketing archetypes (vectoring approach):**
 
 | Archetype | Marketing Approach | Risk |
 |---|---|---|
@@ -25,9 +25,9 @@ cross-reference: [16-sustainability-strategy, meta-sustainability, 03-products-s
 
 ---
 
-## 2. Purpose-Driven Marketing Framework (Leleux + Sinek)
+## 2. Purpose-Driven Marketing Framework 
 
-- Leleux: sustainability purpose must come from genuine company values, not marketing strategy.
+- Sustainability purpose must come from genuine company values, not marketing strategy.
 - "Companies with a clear sustainability purpose outperform their peers on brand equity and customer loyalty" (DJSI data, 2015–2017).
 
 **Three-layer purpose test:**
@@ -134,3 +134,5 @@ Commercial banks and DFIs will increasingly require EUDR-ready status for agricu
 - **For DFI/impact investor audiences**: sustainability claims must be quantified and reported. Use the KPI dashboard format from `16-sustainability-strategy/SKILL.md`.
 
 - **Cross-reference**: `03-products-services/references/sustainable-product-design.md` for product-level sustainability claims that underpin marketing messages.
+
+Sources consulted: Leleux and van der Kaaij, Winning Sustainability Strategies (2019); Kotler et al., Marketing 6.0 (2021); Sustainability Today (2022); EU Regulation 2023/1115; UCDA guidance. Verify regulatory deadlines and figures with current sources.

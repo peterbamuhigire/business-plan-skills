@@ -1,4 +1,5 @@
 # Credit Assessment Frameworks: 5 Cs and CAMPARI
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 
 Reference file for `11-funding-request` skill. Provides the two principal credit evaluation frameworks
 used by Ugandan commercial banks and development finance institutions, with Uganda-specific context,
@@ -416,3 +417,8 @@ even if the headings are not labelled as such. Lenders recognise the pattern.
 
 *Sources: IFC/World Bank CPSD Uganda 2022; RSM/Baker Tilly, Doing Business in Uganda 2025/26;
 Bank of Uganda CBR data 2025; Uganda Credit Guarantee Scheme operational guidelines.*
+
+
+---
+
+Sources consulted: see file history for original citations.

@@ -1,7 +1,7 @@
 # Wooden Furniture Manufacturing
 
 **Sub-sector:** Furniture and Interior Products
-**Sources:** Thankaraju, P. (Startup Manufacturing Business Ideas 200, NestFame 2018)
+**Basis:** Planning reference written for this engine from general light-manufacturing practice; see the Sources consulted line at the end.
 
 > Uganda's growing residential construction sector, expanding middle class, and institutional procurement (schools, hospitals, offices) create sustained demand for locally made furniture. Skilled woodworkers can compete against Kenyan and Chinese imports on price, customisation, and delivery time.
 
@@ -18,7 +18,9 @@
 
 ---
 
-## Financial Indicators (EA Estimates, 2026)
+## Financial Indicators (planning assumptions - verify)
+
+All figures below are planning assumptions for scoping only. Re-verify current prices, wages and capital costs with dated supplier quotes, and reconcile tax treatment with the Chwezi finance engine.
 
 ### Small Furniture Workshop (4–6 workers)
 
@@ -156,3 +158,7 @@ All basic tools plus:
 | Copy of designs by competitors | Build brand reputation and customer relationships; offer after-sale service |
 | Wood dust health hazard | Dust extraction system; PPE (dust masks, goggles) mandatory |
 | Fire risk (sawdust, finishing chemicals) | Proper dust collection; no open flames in finishing room |
+
+---
+
+Sources consulted: general small-scale manufacturing practice, East African supplier and regulator guidance, and the UNDP compendium profile family where noted; all numeric ranges are planning assumptions to verify with current quotes.

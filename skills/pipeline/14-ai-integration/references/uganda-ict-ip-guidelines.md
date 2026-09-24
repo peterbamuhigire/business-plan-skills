@@ -1,6 +1,6 @@
 # Uganda ICT Intellectual Property Guidelines (January 2025)
 
-**Source:** Ministry of ICT and National Guidance (MoICT&NG), *Uganda ICT IP Guidelines: Guidelines for Managing Intellectual Property Rights of Locally Developed IT Systems, Applications, and Innovations*, Version 1, January 2025. Funded in partnership with JICA.
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 
 ---
 
@@ -523,3 +523,8 @@ Template for use between the Trust (government), the Organisation (innovator/con
 | Industrial Design | 5 years (+ two 5-year renewals) | Required | UI/UX visual design, hardware aesthetics |
 
 *Source: MoICT&NG, Uganda ICT IP Guidelines, Version 1, January 2025. Published by the Ministry of ICT and National Guidance, ICT House, Plot 10/12, Parliamentary Avenue, P.O. Box 7817, Kampala. www.ict.go.ug*
+
+
+---
+
+Sources consulted: Ministry of ICT and National Guidance (MoICT&NG), *Uganda ICT IP Guidelines: Guidelines for Managing Intellectual Property Rights of Locally Developed IT Systems, Applications, and Innovations*, Version 1, January 2025. Funded in partnership with JICA..

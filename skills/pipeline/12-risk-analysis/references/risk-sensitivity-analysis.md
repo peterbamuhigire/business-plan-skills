@@ -1,8 +1,6 @@
 # Risk Sensitivity Analysis
 
-> References: *Strategy Plain and Simple* by Evans (Pearson, 2018); *The Strategist's Toolkit* by Harris & Lenox (Darden, 2013); *The Portable MBA in Strategy* ed. Fahey & Randall (Wiley, 2000)
-
-> Figures adapted to Ugandan context (UGX). Percentages and ratios from the sources are universal.
+> Worked example uses illustrative planning assumptions in UGX, not market data. Replace every figure with the plan's own model outputs and re-verify prices and exchange rates with dated sources.
 
 ---
 
@@ -16,7 +14,7 @@
 
 Change one assumption at a time while holding others constant.
 
-**Example: Kampala Solar Installer — Sensitivity of Year 3 Net Profit**
+**Illustrative example (hypothetical business): Kampala Solar Installer — Sensitivity of Year 3 Net Profit**
 
 | Variable | -20% | -10% | Base Case | +10% | +20% |
 |---|---|---|---|---|---|
@@ -79,3 +77,5 @@ For each high-sensitivity variable, the business plan should include:
 ## Related References
 
 - **Full risk analysis toolkit**: See `strategic-risk-scenarios.md` for Suns & Clouds risk chart, risk categories, containment strategies, scenario planning, hypothesis testing, risk-reward evaluation, and risk mitigation plan template
+
+Sources consulted: general strategy and financial-modelling practice (one-variable sensitivity, tornado ranking, break-even margin of safety); Evans, Strategy Plain and Simple (2018); Harris and Lenox, The Strategist's Toolkit (2013). Verify tax and accounting treatment with the Chwezi finance engine.

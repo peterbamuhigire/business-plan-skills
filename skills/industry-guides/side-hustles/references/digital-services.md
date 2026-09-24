@@ -1,7 +1,7 @@
 # Digital Services Side Hustles
 
 **Audience:** Urban EA professionals with computer/phone skills
-**Sources:** Guillebeau (2017), Simon (2022), Gary Raj (2022)
+**Basis:** Planning reference written for this engine; figures are planning assumptions to re-verify with dated local quotes and data (see Sources consulted at the end).
 
 > Digital services are the fastest-starting, lowest-cost side hustles available to corporate professionals. If you can do it at work, you can sell it on the side. The key asset is skills you already possess — repurposed for paying clients outside your employment.
 
@@ -51,7 +51,7 @@
 
 **Income benchmark:** 3 clients at UGX 400,000/month = UGX 1,200,000/month (~20–30 hours)
 
-**Pricing framework (Guillebeau):** Never undervalue. A business paying UGX 300,000/month for social media management is saving 8–15 hours of an employee's time — the ROI is clear.
+**Pricing framework:** Never undervalue. A business paying UGX 300,000/month for social media management is saving 8–15 hours of an employee's time — the ROI is clear.
 
 ---
 
@@ -167,3 +167,7 @@
 | International platform scam | Only use established platforms; never work outside platform for new clients |
 | Day job conflict | Never use employer equipment; work only during personal time; avoid clients in your employer's direct industry |
 | Income tax | Record all income; file annual returns with URA |
+
+---
+
+Sources consulted: side-business literature (Guillebeau 2017; Simon 2022; Gary Raj 2022) and East African freelance market observation. All money figures are planning assumptions for a 2026 baseline and must be re-verified with a dated source. Tax, payroll and accounting treatment: verify with the Chwezi finance engine.

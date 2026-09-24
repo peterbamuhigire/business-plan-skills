@@ -1,6 +1,6 @@
 # Uganda Regulatory Compliance Matrix
 
-**Source:** Self-Employment and Small Business Guide for Uganda (NRC / CR. Amanya Advocates / Thomson Reuters Foundation, May 2025); Trade Licensing Act Cap 101; Uganda Companies Act 2012.
+**Basis:** Sector compliance lookup compiled for this engine from Ugandan statutes (Trade Licensing Act Cap 101; Companies Act 2012) and general licensing practice. Fees, thresholds and authorities change: verify each item against the current statute or the issuing authority, and confirm tax items with the Chwezi finance engine.
 
 ---
 
@@ -245,3 +245,5 @@ Fees are issued under the **Trade Licensing Act Cap 101**. All amounts in Uganda
 | **NGO Bureau** | NGO registration and annual permits | [https://www.ngobureau.go.ug/](https://www.ngobureau.go.ug/) |
 | **Uganda Police — Fire Prevention** | Fire safety certificates for business premises | Via Uganda Police headquarters |
 | **ERA** — Electricity Regulatory Authority | Electricity generation and distribution licences | [https://www.era.or.ug/](https://www.era.or.ug/) |
+
+Sources consulted: Trade Licensing Act Cap 101; Companies Act 2012; NRC / CR. Amanya Advocates / Thomson Reuters Foundation, Self-Employment and Small Business Guide for Uganda (2025), as background only.

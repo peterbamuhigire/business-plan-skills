@@ -1,13 +1,15 @@
 # Polyurethane Foam Manufacturing
 
 **Sub-sector:** Industrial Materials / Furniture Components
-**Sources:** Thankaraju, P. (Startup Manufacturing Business Ideas 200, NestFame 2018)
+**Basis:** Planning reference written for this engine from general light-manufacturing practice; see the Sources consulted line at the end.
 
 > Uganda imports most polyurethane foam from Kenya and beyond. A local foam manufacturer supplying furniture workshops, mattress assemblers, and upholstery businesses competes on delivery time, custom density, and price. Foam is a volume business — success requires consistent chemical supply, large production area, and reliable cutting equipment.
 
 ---
 
-## Financial Indicators (EA Estimates, 2026)
+## Financial Indicators (planning assumptions - verify)
+
+All figures below are planning assumptions for scoping only. Re-verify current prices, wages and capital costs with dated supplier quotes, and reconcile tax treatment with the Chwezi finance engine.
 
 ### Small Foam Manufacturing Plant
 
@@ -131,3 +133,7 @@ Polyurethane foam is produced by reacting two liquid chemical components. Both a
 | Fire risk (foam + isocyanates highly flammable) | No open flames; explosion-proof electrics in pour area; CO₂ fire suppression |
 | Large capital commitment | Start with pilot scale (batch moulding) before continuous pour line |
 | Foam market price pressure from Kenya imports | Compete on delivery time and custom density; build loyalty with furniture manufacturers |
+
+---
+
+Sources consulted: general small-scale manufacturing practice, East African supplier and regulator guidance, and the UNDP compendium profile family where noted; all numeric ranges are planning assumptions to verify with current quotes.

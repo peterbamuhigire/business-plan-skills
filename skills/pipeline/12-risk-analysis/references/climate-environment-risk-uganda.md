@@ -1,5 +1,5 @@
 ---
-source: "Multiple: Dietz, Thomas (2023). Decisions for Sustainability. Cambridge University Press; Sustainability Today (Summer 2022). AI & Environment Special Issue; IFC/World Bank CPSD Uganda (2022); NEMA Act Cap 153; Uganda Green Growth Development Strategy."
+basis: "Engine synthesis for business-plan use; sources consulted are listed at the end of the file."
 frameworks: [Climate Risk Assessment, Environmental Risk Matrix, NEMA Compliance, Climate Adaptation, Uganda Environmental Law]
 skill: 12-risk-analysis
 cross-reference: [16-sustainability-strategy, meta-sustainability, 11-funding-request, 08-operations-plan]
@@ -193,3 +193,5 @@ Sources: Uganda Green Growth Development Strategy; NEMA Environmental Sensitivit
 - Ensure grievance mechanism is operational at time of disbursement request
 
 **Regional note for East Africa:** Kenya's NEMA (National Environment Management Authority) operates a similar category system. Tanzania's NEMC (National Environment Management Council) and Rwanda's REMA (Rwanda Environment Management Authority) follow analogous EIA frameworks. Cross-border businesses operating in multiple EA countries should obtain legal advice on which jurisdiction's EIA requirements apply to which site.
+
+Sources consulted: Dietz, Decisions for Sustainability (2023); IFC/World Bank CPSD Uganda (2022); NEMA Act Cap 153 (verify current citation); Uganda Green Growth Development Strategy. Statistics are dated planning assumptions; verify before use.

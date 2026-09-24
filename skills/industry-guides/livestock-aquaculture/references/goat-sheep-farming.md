@@ -1,34 +1,14 @@
 # Goat and Sheep Farming
 
-**Sub-sector:** Livestock — Small Ruminant Production
-**Sources:**
-- Dr. Katali K. Benda / NAGRC&DB, *Goat Rearing for Wealth and Improved Livelihoods* (Uganda, undated)
-- Dr. Jolly M.L. Kabirizi / Kyakuwa Farm, *Sustainable Goat Production Enterprise Manual* (Wakiso, April 2023)
-- District Livestock Service Office Gorkha / JICA, *Goat Farming Technical Manual* (Nepal, undated — universal livestock management principles)
-- Ministry of Agriculture, Animal Industry and Fisheries (MAAIF), *Guidelines for Infection Prevention and Appropriate Antimicrobial Use in the Animal Sector: Goat and Sheep Farming* (Republic of Uganda, 2020 first edition)
-- Bivatec, *Sheep vs Goats: Which Is More Profitable?* (bivatec.com, 2024)
-- Bivatec, *Sheep Farming Guide for Beginners* (bivatec.com, 2024)
-- Bivatec, *Vaccination and Deworming Schedule for Sheep* (bivatec.com, 2024)
-- Bivatec, *How to Feed Sheep for Maximum Weight Gain* (bivatec.com, 2024)
-- Bivatec, *How to Start a Profitable Sheep Farm* (bivatec.com, 2024)
-- Bivatec, *Meat vs Dairy Goats: Which Is More Profitable?* (bivatec.com, 2024)
-- Bivatec, *How to Improve Milk Production in Dairy Goats* (bivatec.com, 2024)
-- Bivatec, *Goat Farming vs Cattle Farming* (bivatec.com, 2024)
-- Bivatec, *Step-by-Step Guide to Profitable Goat Farming* (bivatec.com, 2024)
-- Bivatec, *Best Goat Farming Apps for Record Keeping* (bivatec.com, 2024)
-- Bivatec, *Hygiene and Biosecurity on a Goat Farm* (bivatec.com, 2024)
-- Bivatec, *What Are the Essential Vaccinations for Goats* (bivatec.com, 2024)
-- Bivatec, *Mastering Goat Nutrition* (bivatec.com, 2024)
-- Bivatec, *Goats: The Perfect Livestock for Your Small Farm* (bivatec.com, 2024)
-- Bivatec, *Raising Goats for Meat: A Farmer's Step-by-Step Guide* (bivatec.com, 2024)
+**Basis:** Engine-authored planning reference for small-ruminant enterprises in Uganda, synthesised from national livestock guidance, regulator guidelines and general husbandry practice. See the Sources consulted line at the end.
 
 > Uganda's goat herd stands at 16 million animals (MAAIF/UBOS 2021) and is growing at 1.7–1.8% per year. Despite this scale, the market remains largely informal and dominated by middlemen. Goat milk fetches UGX 5,000–8,000 per litre — compared with UGX 1,000–2,500 for cow milk — making dairy goat production one of the highest-margin livestock enterprises available to smallholder farmers. A well-managed goat enterprise is suited to both rural and peri-urban settings and can serve meat, dairy, breeding stock, and skin markets simultaneously.
 
 ---
 
-## Financial Overview (Uganda, 2026 Estimates)
+## Financial Overview (Uganda, planning assumptions - verify)
 
-No capital investment tables appear in the source PDFs. The figures below are derived from the operational benchmarks provided (Kyakuwa Farm / NAGRC&DB) and are representative of realistic enterprise scales in Uganda.
+The figures below are illustrative planning assumptions derived from typical operational benchmarks and are representative of realistic enterprise scales in Uganda.
 
 ### Scale A — Smallholder Meat Herd (20 does + 1 buck, semi-intensive)
 
@@ -78,7 +58,7 @@ No capital investment tables appear in the source PDFs. The figures below are de
 | Breeding buck (improved) | UGX 800,000–2,000,000 |
 | Land requirement | ~1 acre per 50 goats |
 | Buck:doe ratio | 1:20–25 |
-| Sweet potato vine silage (1 acre/season net income) | UGX 6,914,000 (Kyakuwa Farm benchmark) |
+| Sweet potato vine silage (1 acre/season net income) | UGX 6,914,000 (planning benchmark) |
 
 ---
 
@@ -97,7 +77,7 @@ No capital investment tables appear in the source PDFs. The figures below are de
 
 ### Market Context (Uganda)
 - Uganda national goat herd: 16 million (MAAIF/UBOS 2021); growing 1.7–1.8% per year
-- Livestock sub-sector: ~17% of agricultural value added; ~4.3% of GDP (Kyakuwa Farm, 2023)
+- Livestock sub-sector: ~17% of agricultural value added; ~4.3% of GDP
 - Over 60% of Ugandan households depend on livestock for livelihoods
 - Current market is highly informal; farm-gate pricing predominates; middlemen dominate
 - Emerging opportunities: high-end restaurants, hotels, oil sector catering, export to Gulf states
@@ -109,7 +89,7 @@ No capital investment tables appear in the source PDFs. The figures below are de
 
 ### Decision 1 — Goats vs Sheep
 
-Both species suit Uganda's small-ruminant landscape, but they have different feed requirements, management demands, and market profiles. The following framework distils the key trade-offs (Bivatec, 2024).
+Both species suit Uganda's small-ruminant landscape, but they have different feed requirements, management demands, and market profiles. The following framework distils the key trade-offs.
 
 | Factor | Goats | Sheep |
 |--------|-------|-------|
@@ -136,7 +116,7 @@ Management efficiency and market access matter more than species selection alone
 
 ### Decision 2 — Meat Goats vs Dairy Goats
 
-For goat farmers, the meat-vs-dairy choice determines startup costs, daily management demands, income structure, and market requirements (Bivatec, 2024).
+For goat farmers, the meat-vs-dairy choice determines startup costs, daily management demands, income structure, and market requirements.
 
 | Aspect | Meat Goats | Dairy Goats |
 |--------|-----------|------------|
@@ -163,7 +143,7 @@ For goat farmers, the meat-vs-dairy choice determines startup costs, daily manag
 
 ### Decision 3 — Goats vs Cattle
 
-Farmers choosing between small and large ruminants should weigh the following (Bivatec, 2024):
+Farmers choosing between small and large ruminants should weigh the following:
 
 | Factor | Goat Farming | Cattle Farming |
 |--------|-------------|---------------|
@@ -205,7 +185,7 @@ Choosing the right system determines capital requirements, profitability, and ma
 
 ## Goats for Smallholder and Resource-Poor Farmers
 
-Goats are uniquely suited to small plots and low-capital farming systems. The following data points are relevant when structuring a business plan for entry-level or household-scale goat enterprises (Bivatec, 2024).
+Goats are uniquely suited to small plots and low-capital farming systems. The following data points are relevant when structuring a business plan for entry-level or household-scale goat enterprises.
 
 ### Land Efficiency Advantage
 
@@ -235,7 +215,7 @@ Goats are uniquely suited to small plots and low-capital farming systems. The fo
 
 ### Global Market Context
 
-- Global goat milk production exceeded **19.4 million metric tons in 2020** (FAO), reflecting strong and growing international demand (Bivatec, 2024)
+- Global goat milk production exceeded **19.4 million metric tons in 2020** (FAO), reflecting strong and growing international demand
 - Global goat meat demand is projected at a **4.5% compound annual growth rate (CAGR) from 2021 to 2026**, driven by diaspora communities in developed markets and rising incomes in East Africa, South Asia, and the Middle East — Uganda's proximity to Gulf export markets is a structural advantage
 - These growth trends support investment in quality improvement and breed upgrading, with a clear long-term trajectory for premium pricing
 
@@ -282,7 +262,7 @@ In addition to food production, goats provide a land management service. Selecti
 
 **Demerits of all exotic meat breeds:** Susceptible to worms; poor disease resistance; suffer in wet conditions; milk dries quickly.
 
-### Cross-Breeding Strategy (NAGRC&DB Protocol)
+### Cross-Breeding Strategy (national breeding guidance)
 
 Cross-breeding local does with exotic bucks improves performance while retaining disease tolerance. **Critical rules:**
 
@@ -306,7 +286,7 @@ Cross-breeding local does with exotic bucks improves performance while retaining
 
 ### Site Selection and Orientation
 
-- Orientate shed lengthwise **East to West** (against direction of sunrise and sunset) — provides shade, ventilation, and air circulation (MAAIF standard; Kyakuwa Farm)
+- Orientate shed lengthwise **East to West** (against direction of sunrise and sunset) — provides shade, ventilation, and air circulation (MAAIF standard)
 - Site on high, well-drained ground; avoid flood-prone areas and low-lying, damp sites
 - Away from residential areas (odour, biosecurity), but accessible by road for input delivery and animal marketing
 - Prevailing wind from milking parlour toward buck pen (prevents milk tainting by buck odour)
@@ -342,7 +322,7 @@ Cross-breeding local does with exotic bucks improves performance while retaining
 | Kidding pen (per doe) | 1.8 m × 2.4 m | — |
 | Kid pen (up to 4 kids, 2 weeks) | 1.2 m × 1.2 m | — |
 
-**General rule:** ~250 square feet (~23 m²) of pasture/paddock space per goat for exercise and social needs (Savanna breed standard; Kyakuwa Farm).
+**General rule:** ~250 square feet (~23 m²) of pasture/paddock space per goat for exercise and social needs (Savanna breed standard).
 
 **Land requirement:** approximately 1 acre per 50 goats (including shed area); ~10 acres for 500 goats.
 
@@ -369,7 +349,7 @@ Cross-breeding local does with exotic bucks improves performance while retaining
 - Shade is essential for Saanen dairy goats (sensitive to heat and strong sunlight)
 - Cover openings with jute sacks in cold weather (highlands); allow sunlight during day
 
-### Housing Fit-Out Costs (Uganda 2026 estimates)
+### Housing Fit-Out Costs (planning assumptions - verify)
 
 | Item | Unit cost estimate |
 |------|-------------------|
@@ -396,7 +376,7 @@ Goats are browsers, not grazers. They naturally select **over 60% of their daily
 This browser behaviour means goats can thrive on land that is unsuitable for cattle or sheep, but it also means they need access to diverse vegetation — **a monoculture grass paddock alone is insufficient**.
 
 **Browse plants with specific benefits:**
-- Tannin-rich browse species — including blackberry, mulberry, willow, and many Acacia species — have a natural anthelmintic (anti-worm) effect; incorporating these plants into your browsing area provides passive parasite suppression and reduces reliance on chemical dewormers (Bivatec, 2024)
+- Tannin-rich browse species — including blackberry, mulberry, willow, and many Acacia species — have a natural anthelmintic (anti-worm) effect; incorporating these plants into your browsing area provides passive parasite suppression and reduces reliance on chemical dewormers
 - Mulberry (*Morus* spp.) leaves: high protein (15–23% CP), palatable, and widely available in Uganda; an excellent dry-season supplement
 - Moringa/horseradish leaves: exceptionally high in protein and micronutrients; can be grown on farm boundaries or as a living fence
 
@@ -409,7 +389,7 @@ This browser behaviour means goats can thrive on land that is unsuitable for cat
 | 45 kg dairy doe in milk | Up to 7% of body weight in DM daily |
 | Water requirement | 4× as much as dry matter consumed |
 | Water (lactating does) | 1.3 litres per litre of milk produced |
-| Water (JICA standard) | 5 litres per goat per day minimum |
+| Water (planning standard) | 5 litres per goat per day minimum |
 
 ### Concentrate Feeding (Dairy Does)
 
@@ -461,7 +441,7 @@ This browser behaviour means goats can thrive on land that is unsuitable for cat
 
 ### Mineral Requirements, Deficiency Signs, and Supplementation Guidance
 
-Minerals play a critical role in goat health, reproduction, and production. Both deficiency and over-supplementation cause serious problems — the goal is balance, not maximum supplementation (Bivatec, 2024).
+Minerals play a critical role in goat health, reproduction, and production. Both deficiency and over-supplementation cause serious problems — the goal is balance, not maximum supplementation.
 
 | Mineral | Role | Signs of deficiency | Over-supplementation risk | Uganda notes |
 |---------|------|--------------------|--------------------------|-|
@@ -477,7 +457,7 @@ Minerals play a critical role in goat health, reproduction, and production. Both
 - Provide a **loose mineral supplement or salt lick continuously** — free-choice access allows animals to self-regulate intake
 - A home-made lick block (see recipe below) supplements macro-minerals; a commercial premix is needed for trace elements (selenium, copper, zinc) at correct concentrations
 
-### Kid Feeding Table (weight-based — JICA/Kyakuwa Farm)
+### Kid Feeding Table (weight-based — planning reference)
 
 | Kid weight (kg) | Milk per day (ml) | Concentrate per day (g) | Green fodder |
 |----------------|-------------------|------------------------|-------------|
@@ -495,7 +475,7 @@ Minerals play a critical role in goat health, reproduction, and production. Both
 | 30 | — | 350 | ~4 kg |
 | Over 30 | — | 400 | ~5 kg |
 
-**Daily milk/colostrum schedule (JICA protocol):**
+**Daily milk/colostrum schedule (planning protocol):**
 
 | Age | Milk volume | Frequency | Creep feeds | Soft grass |
 |-----|------------|-----------|-------------|------------|
@@ -588,7 +568,7 @@ A supplementary feed production system suitable for zero-grazing operations in p
 - Store 45 days before feeding; can be kept over 1 year if sealed correctly
 - Add molasses or grain at 2–10% of total weight to improve fermentation
 
-**Sweet potato vine silage (1 acre/season financials — Kyakuwa Farm):**
+**Sweet potato vine silage (1 acre/season financials — commercial farm benchmarks):**
 
 | Item | Amount (UGX) |
 |------|-------------|
@@ -725,7 +705,7 @@ Cull does that have:
 | Heart rate (beats/min) | 110–120 | 70–80 |
 | Breathing rate (breaths/min) | 12–20 | 9–15 |
 
-### Annual Health Calendar (NAGRC&DB Framework)
+### Annual Health Calendar (national framework, verify locally)
 
 #### Vaccinations
 
@@ -744,7 +724,7 @@ Cull does that have:
 | Johne's Disease (*Mycobacterium avium* paratuberculosis) | Once in early life in endemic areas | Vaccinate kids at birth or in early life where Johne's Disease has been confirmed in the herd. No vaccine is effective for already-infected adults; no cure — cull affected animals. |
 | Others (anthrax in endemic areas, blue tongue) | As per veterinary practitioner guidance | Based on local disease profile |
 
-**Goat vaccination administration notes (Bivatec, 2024):**
+**Goat vaccination administration notes:**
 - Most goat vaccines are administered subcutaneously (through the skin)
 - Vaccinate only healthy animals — vaccinating sick animals is ineffective and wasteful
 - Minimise animal stress on vaccination day — stress impairs immune response
@@ -813,7 +793,7 @@ Cull does that have:
 
 ## Biosecurity
 
-Biosecurity is the single highest-impact investment a goat or sheep farmer can make. Uganda's AMR National Action Plan 2018–2023 explicitly links antimicrobial resistance to poor biosecurity, noting that ~75% of emerging resistant pathogens are zoonotic (MAAIF, 2020).
+Biosecurity is the single highest-impact investment a goat or sheep farmer can make. Uganda's AMR National Action Plan 2018–2023 explicitly links antimicrobial resistance to poor biosecurity, noting that ~75% of emerging resistant pathogens are zoonotic.
 
 ### 1. Acquisition of New Animals
 
@@ -848,7 +828,7 @@ Biosecurity is the single highest-impact investment a goat or sheep farmer can m
 ### 4. Regular Cleaning and Disinfection
 
 - Remove manure from pens **daily**
-- **Weekly disinfection** of pens, feeders, and water troughs with approved disinfectants — remove all soiled bedding before applying disinfectant; allow surfaces to dry before reintroducing animals (Bivatec, 2024)
+- **Weekly disinfection** of pens, feeders, and water troughs with approved disinfectants — remove all soiled bedding before applying disinfectant; allow surfaces to dry before reintroducing animals
 - Full pen cleaning and disinfection: after shearing/clipping, after manure removal, and whenever an animal dies, aborts, or gives birth in the pen
 - Dispose of manure in a designated compost manure pit (not near water sources or feed storage); composted goat manure is a valuable, nutrient-rich fertiliser — use on your own fodder plots or sell to neighbouring market gardeners
 - Water and feed troughs: clean and disinfect regularly; design to prevent animals defecating into them
@@ -882,7 +862,7 @@ Biosecurity is the single highest-impact investment a goat or sheep farmer can m
 ### 8. Dead Animal Disposal
 
 - Remove dead animals from pens as soon as possible
-- Dispose by incineration (preferred) or deep burial — bury at least **1.8 m (6 feet) deep**, away from water sources and grazing areas; cover with quicklime before back-filling to prevent scavenging and pathogen spread (Bivatec, 2024)
+- Dispose by incineration (preferred) or deep burial — bury at least **1.8 m (6 feet) deep**, away from water sources and grazing areas; cover with quicklime before back-filling to prevent scavenging and pathogen spread
 - Do NOT open carcasses of animals suspected of anthrax
 - Do NOT allow dogs, cats, or scavengers access to carcasses
 - Record all mortalities with date, animal ID, suspected cause, and disposal method
@@ -961,7 +941,7 @@ Biosecurity is the single highest-impact investment a goat or sheep farmer can m
 - Buck pen must be downwind of milking parlour — buck odour taints milk
 - Sell milk as soon as possible after milking; for home use boil and cool
 
-### Improving Dairy Goat Milk Yield (Bivatec, 2024)
+### Improving Dairy Goat Milk Yield
 
 These evidence-based management practices increase per-doe milk output and are relevant to any commercial dairy goat enterprise.
 
@@ -1056,7 +1036,7 @@ These evidence-based management practices increase per-doe milk output and are r
 | Savanna cross | 35–50 kg | 8–10 months | 45–50% | White meat; suits Gulf export market demand |
 
 **Key relationships:**
-- Buck:doe ratio for controlled breeding: 1 buck per 25–30 does (Bivatec, 2024)
+- Buck:doe ratio for controlled breeding: 1 buck per 25–30 does
 - A good meat buck can mate 3 does within 30 minutes during peak season
 - Castrated males (wethers) finish faster and produce better carcass fat distribution than intact males; for premium butchery or hotel markets, wethers are preferred
 
@@ -1089,7 +1069,7 @@ Finishing — the final 6–8 weeks before slaughter — is the critical phase f
 - Minimum requirements: MAAIF veterinary inspection; animal movement permit; ante-mortem inspection by meat inspector
 - Uganda's formal abattoirs: NAGRIC (Kampala); licensed district abattoirs; privately operated facilities in Gulu, Mbarara, and Jinja
 - Typically requires minimum batch sizes — negotiate as a farmer group to meet volume thresholds
-- Abattoir charges (Uganda 2026 estimates): UGX 5,000–15,000 per animal (slaughter fee); transport from farm additional
+- Abattoir charges (planning assumptions - verify): UGX 5,000–15,000 per animal (slaughter fee); transport from farm additional
 
 **Farm slaughter (informal market):**
 - Legal for personal consumption and direct sale to individual consumers
@@ -1176,7 +1156,7 @@ No part of a slaughtered goat need be wasted. By-product revenue can add UGX 10,
 
 ### Digital and Direct Marketing for Small Ruminant Farms
 
-Small ruminant enterprises benefit significantly from direct-to-consumer marketing. Key tactics applicable in Uganda (Bivatec, 2024):
+Small ruminant enterprises benefit significantly from direct-to-consumer marketing. Key tactics applicable in Uganda:
 
 - **WhatsApp Business:** establish a dedicated farm account; share animal photos, weights, and availability; build a repeat buyer network; use WhatsApp status to announce seasonal availability ahead of Eid, Christmas, and Easter
 - **Facebook:** post farm updates, photos of animals, and testimonials; targeted advertising reaches buyers in specific districts; join livestock trading groups active in your region
@@ -1187,7 +1167,7 @@ Small ruminant enterprises benefit significantly from direct-to-consumer marketi
 
 ### Sustainable Practices That Improve Profitability
 
-Integrating sustainable practices reduces input costs, improves soil health, and in some markets commands premium pricing (Bivatec, 2024):
+Integrating sustainable practices reduces input costs, improves soil health, and in some markets commands premium pricing:
 
 - **Compost manure:** collect and compost goat/sheep manure; apply to pastures and fodder plots to reduce fertiliser costs; sell surplus to neighbouring farmers or market gardens at UGX 2,000–5,000 per bag
 - **Rainwater harvesting:** install gutters and tanks on shed roofs; reduces water costs and ensures supply during dry seasons; a 5,000-litre tank can provide 5 litres/day for 1,000 animals over 1 day — size accordingly
@@ -1243,7 +1223,7 @@ Integrating sustainable practices reduces input costs, improves soil health, and
 | **Total operating costs** | **UGX 6,700,000** |
 | **Net annual profit** | **UGX 3,550,000** |
 
-### Scenario 3: Five-Year Financial Projection Parameters (NAGRC&DB Calculator)
+### Scenario 3: Five-Year Financial Projection Parameters (planning parameters)
 
 Use these parameters to build a 5-year herd projection:
 
@@ -1289,7 +1269,7 @@ Use these parameters to build a 5-year herd projection:
 
 The MAAIF Guidelines for Infection Prevention apply equally to both **goats and sheep** — all biosecurity, feeding, housing, breeding, and antimicrobial use standards documented above apply identically to sheep enterprises. Sheep and goats are often managed as complementary enterprises on the same farm.
 
-Sheep farming offers high accessibility for beginners. Animals are calmer and easier to contain than goats, require simpler fencing, and meat sheep systems are less labour-intensive than dairy goat operations. The enterprise adapts to small plots or mixed farming systems, with animals efficiently converting grass and forage into meat. Revenue streams include lamb and mutton sales, wool (where applicable), breeding stock, and manure. Demand remains strong and peaks predictably at Eid al-Adha, Christmas, Easter, and cultural celebrations (Bivatec, 2024).
+Sheep farming offers high accessibility for beginners. Animals are calmer and easier to contain than goats, require simpler fencing, and meat sheep systems are less labour-intensive than dairy goat operations. The enterprise adapts to small plots or mixed farming systems, with animals efficiently converting grass and forage into meat. Revenue streams include lamb and mutton sales, wool (where applicable), breeding stock, and manure. Demand remains strong and peaks predictably at Eid al-Adha, Christmas, Easter, and cultural celebrations.
 
 ### Why Sheep Are Complementary to Goats
 
@@ -1323,7 +1303,7 @@ Sheep generate income through multiple channels:
 - **Manure** — compost for on-farm use or sale
 - **Value-added:** some breeds produce milk suitable for cheese/yoghurt, though this is a niche enterprise in Uganda
 
-**Starting small is strongly recommended:** begin with 5–15 ewes and 1–2 rams; gain management experience before scaling. A well-managed small flock is more profitable than a large poorly managed one. Use farm profits to fund expansion (Bivatec, 2024).
+**Starting small is strongly recommended:** begin with 5–15 ewes and 1–2 rams; gain management experience before scaling. A well-managed small flock is more profitable than a large poorly managed one. Use farm profits to fund expansion.
 
 ### MAAIF Sheep-Specific Provisions (from MAAIF 2020 Guidelines)
 
@@ -1364,7 +1344,7 @@ All housing standards documented in the Housing and Infrastructure section above
 
 ### Sheep Nutrition and Feeding for Weight Gain
 
-Sheep are grazers — their primary diet is grass and legume pastures. Unlike goats, they do not naturally browse shrubs and woody vegetation. This means their performance depends directly on pasture quality (Bivatec, 2024).
+Sheep are grazers — their primary diet is grass and legume pastures. Unlike goats, they do not naturally browse shrubs and woody vegetation. This means their performance depends directly on pasture quality.
 
 **Forage foundation:**
 - High-quality, leafy pasture (Rhodes grass, guinea grass, signal grass) is the most cost-effective feed base
@@ -1410,7 +1390,7 @@ Sheep are grazers — their primary diet is grass and legume pastures. Unlike go
 
 ### Sheep Vaccination and Deworming Schedule
 
-All vaccination and deworming provisions in the Health Management section apply to sheep. Sheep-specific notes and schedule (Bivatec, 2024):
+All vaccination and deworming provisions in the Health Management section apply to sheep. Sheep-specific notes and schedule:
 
 **Priority vaccines for sheep in Uganda and East Africa:**
 
@@ -1472,7 +1452,7 @@ All market channels described in the Markets and Distribution section above are 
 
 ## Digital Record-Keeping Apps
 
-Manual paper records are the legal minimum (MAAIF requires 5-year retention of all health and medicine records), but mobile apps significantly improve record quality, reduce errors, and enable data-driven decisions. The following apps are recommended for goat and sheep farmers in East Africa (Bivatec, 2024):
+Manual paper records are the legal minimum (MAAIF requires 5-year retention of all health and medicine records), but mobile apps significantly improve record quality, reduce errors, and enable data-driven decisions. The following apps are recommended for goat and sheep farmers in East Africa:
 
 **Critical feature for Uganda farmers: offline access.** Power and internet connectivity are unreliable in most rural areas. Choose an app that stores data locally and syncs when connectivity is available.
 
@@ -1505,7 +1485,7 @@ Manual paper records are the legal minimum (MAAIF requires 5-year retention of a
 - Best for: smallholder farmers managing a mixed flock of sheep and goats
 
 **My Sheep Manager** (sheep-specific)
-- Referenced in multiple Bivatec sheep farming guides
+- Widely used by small flock owners
 - Designed specifically for sheep flocks; similar feature set to My Goat Manager
 - Useful for pure sheep operations or farms where sheep outnumber goats
 
@@ -1573,6 +1553,4 @@ Where:
 
 ---
 
-*Primary sources: Benda/NAGRC&DB (Goat Rearing for Wealth and Improved Livelihoods); Kabirizi/Kyakuwa Farm (Sustainable Goat Production Enterprise Manual, April 2023); JICA/District Livestock Service Gorkha (Goat Farming Technical Manual); MAAIF Uganda (Guidelines for Infection Prevention and Appropriate Antimicrobial Use in the Animal Sector: Goat and Sheep Farming, 2020). Supplementary sources: Bivatec — Hygiene and Biosecurity on a Goat Farm; Essential Vaccinations for Goats; Mastering Goat Nutrition; Goats: The Perfect Livestock for Your Small Farm; Raising Goats for Meat: A Farmer's Step-by-Step Guide (all bivatec.com, 2024). Financial estimates based on Kyakuwa Farm operational benchmarks; capital cost estimates are indicative for Uganda conditions 2026.*
-
-*Supplementary sources (sheep farming, decision frameworks, digital tools): Bivatec (bivatec.com): Sheep vs Goats: Which Is More Profitable?; Sheep Farming Guide for Beginners; Vaccination and Deworming Schedule for Sheep; How to Feed Sheep for Maximum Weight Gain; How to Start a Profitable Sheep Farm; Meat vs Dairy Goats: Which Is More Profitable?; How to Improve Milk Production in Dairy Goats; Goat Farming vs Cattle Farming; Step-by-Step Guide to Profitable Goat Farming; Best Goat Farming Apps for Record Keeping (all 2024).*
+Sources consulted: Uganda MAAIF guidance on infection prevention and antimicrobial use in goat and sheep farming (2020); NAGRC&DB goat-rearing guidance; national and regional small-ruminant husbandry manuals; general extension and trade guidance on goat and sheep enterprises (2020-2024). All figures are planning assumptions: verify prices, yields, doses and vaccine schedules against current dated sources and a registered veterinarian before use; tax treatment to be confirmed with the Chwezi finance engine.

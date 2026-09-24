@@ -1,14 +1,12 @@
 # Startup Sales Playbook and Scaling
 
-> References: *Founding Sales: The Startup Handbook* by Kazanjy (2020); *The Zero to 100 Million Sales Blueprint* by Goliger (2023)
-
-> Adapted to Ugandan business plan context. Frameworks are universal.
+> Task-oriented guide to sales staging, targeting, models, narrative, metrics, hiring and scaling for a startup plan. Structure, tables and local adaptation are the engine's own; currency ranges are illustrative planning assumptions to verify.
 
 ---
 
 ## 1. Founder-Led Selling Stages
 
-Every startup passes through predictable sales stages. Trying to skip stages causes failure (Kazanjy):
+Every startup passes through predictable sales stages. Skipping stages is a common cause of failure:
 
 | Stage | Team | Focus | Exit Criteria |
 |---|---|---|---|
@@ -32,7 +30,7 @@ Every startup passes through predictable sales stages. Trying to skip stages cau
 
 ## 2. Ideal Customer Profile (ICP)
 
-### ICP Definition Framework (Goliger)
+### ICP Definition Framework
 
 | Dimension | What to Define | Example (Ugandan SaaS) |
 |---|---|---|
@@ -44,7 +42,7 @@ Every startup passes through predictable sales stages. Trying to skip stages cau
 | **Decision maker** | Who buys | Owner-operator or general manager |
 | **Budget range** | What they can spend | UGX 200,000-500,000/month for SaaS subscription |
 
-### Buyer Persona Psychographics (Goliger)
+### Buyer Persona Psychographics
 
 Beyond demographics, understand what drives each buyer:
 
@@ -60,7 +58,7 @@ Beyond demographics, understand what drives each buyer:
 
 ## 3. Sales Models
 
-### One-to-One vs. One-to-Many (Goliger)
+### One-to-One vs. One-to-Many
 
 | Model | Description | Best For | CAC | Scalability |
 |---|---|---|---|---|
@@ -84,7 +82,7 @@ Beyond demographics, understand what drives each buyer:
 
 ## 4. Sales Narrative and Materials
 
-### Sales Narrative Structure (Kazanjy)
+### Sales Narrative Structure
 
 Build a compelling story that follows this arc:
 
@@ -130,7 +128,7 @@ Build a compelling story that follows this arc:
 
 ## 5. Prospecting for Startups
 
-### Outbound Prospecting Sequence (Goliger)
+### Outbound Prospecting Sequence
 
 A multi-touch sequence combining channels:
 
@@ -156,7 +154,7 @@ A multi-touch sequence combining channels:
 | **Church/community group presentations** | Medium | Consumer, community-based | Free |
 | **Market visits (door-to-door)** | High | Retail, traders | Transport + time cost |
 
-### Inbound Lead Response Protocol (Kazanjy)
+### Inbound Lead Response Protocol
 
 | Response Time | Impact on Conversion |
 |---|---|
@@ -172,7 +170,7 @@ A multi-touch sequence combining channels:
 
 ## 6. Demo and Presentation Best Practices
 
-### Demo Structure (Kazanjy)
+### Demo Structure
 
 ```
 1. RECAP DISCOVERY (2 min)
@@ -207,7 +205,7 @@ A multi-touch sequence combining channels:
 
 ## 7. Sales Metrics for Business Plans
 
-### Core Sales KPIs (Goliger)
+### Core Sales KPIs
 
 | Metric | Formula | Benchmark |
 |---|---|---|
@@ -239,7 +237,7 @@ Example:
 
 ## 8. Building the First Sales Team
 
-### Hiring Sequence (Kazanjy)
+### Hiring Sequence
 
 | Hire # | Role | When to Hire | What They Do |
 |---|---|---|---|
@@ -248,7 +246,7 @@ Example:
 | 4 | **Customer Success** | After 30+ active customers | Onboarding, retention, expansion |
 | 5 | **Sales Manager** | After 3+ AEs are consistently hitting quota | Coaching, pipeline management, hiring |
 
-### Sales Compensation Structure (Goliger)
+### Sales Compensation Structure
 
 | Role | Base : Variable Split | OTE (Uganda Context) |
 |---|---|---|
@@ -273,7 +271,7 @@ Example:
 
 ## 9. Sales Scaling Framework
 
-### The 100M Blueprint Scaling Stages (Goliger)
+### Scaling stages by revenue
 
 | Revenue Stage | Focus | Key Activities |
 |---|---|---|
@@ -314,7 +312,7 @@ Before hiring beyond the founder, document:
 
 ## 10. Customer Success and Retention
 
-### Customer Success as a Sales Function (Kazanjy)
+### Customer Success as a Sales Function
 
 Customer success is not just support — it is the foundation of expansion revenue:
 
@@ -338,7 +336,7 @@ Customer success is not just support — it is the foundation of expansion reven
 
 ---
 
-## 11. Sales Outsourcing Decision (Goliger)
+## 11. Sales Outsourcing Decision
 
 ### When to Outsource vs. Build In-House
 
@@ -368,3 +366,5 @@ Customer success is not just support — it is the foundation of expansion reven
 - **Sales strategy and methodology**: See `sales-strategy-schiffman.md` for the four-step process and pipeline ratios
 - **Persuasion and sales process**: See `persuasion-sales-process.md` for the 10-step persuasion framework
 - **Small business marketing tactics**: See `small-business-marketing-tactics.md` for low-cost sales approaches
+
+Sources consulted: Kazanjy, Founding Sales (2020) and Goliger, The Zero to 100 Million Sales Blueprint (2023) for general staging and metrics concepts, plus general startup sales practice; tables, thresholds and local examples are the engine's own and must be re-verified.

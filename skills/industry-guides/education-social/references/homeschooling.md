@@ -1,7 +1,7 @@
 # Homeschooling Services
 
 **Sub-sector:** Private Education / Tutoring & Educational Support Services
-**Sources:** Garfias (2021), Holt and Farenga (2003), Beames, Higgins, Nicol and Smith (2024)
+**Basis:** Planning reference written for this engine; figures are planning assumptions to re-verify with dated local quotes and data (see Sources consulted at the end).
 
 > A homeschooling services provider teaches other people's children — or supports self-educating families — outside conventional school enrolment. Clients include primary-age children whose parents have chosen home education, secondary-age students sitting UNEB or Cambridge exams as private candidates, and adults studying professional qualifications by distance who need a structured tutor or coach.
 
@@ -103,27 +103,27 @@ The largest driver globally. Parents want religious instruction embedded in dail
 
 ### Dissatisfaction with School Quality
 
-Holt and Farenga (2003) spent decades documenting how conventional schooling fails children: rigid tracking from kindergarten, teachers unable to help struggling learners, corporal punishment that damaged rather than built motivation, and social environments that extinguished curiosity. Parents who witnessed this — or experienced it themselves — choose home education as a protective measure. In Uganda, legitimate complaints include: rote-memorisation cultures focused on passing exams rather than understanding, crowded classrooms (40–80 pupils per teacher is not unusual in government schools), frequent teacher absenteeism, and erratic term calendars.
+Home-education writers have long documented how conventional schooling fails children: rigid tracking from kindergarten, teachers unable to help struggling learners, corporal punishment that damaged rather than built motivation, and social environments that extinguished curiosity. Parents who witnessed this — or experienced it themselves — choose home education as a protective measure. In Uganda, legitimate complaints include: rote-memorisation cultures focused on passing exams rather than understanding, crowded classrooms (40–80 pupils per teacher is not unusual in government schools), frequent teacher absenteeism, and erratic term calendars.
 
 ### Special Learning Needs and Giftedness
 
-Twenty per cent of American homeschoolers made the decision at least in part because of a child's special needs (Garfias, 2021). Home education allows complete curriculum personalisation — a child who is three years behind in reading but two years ahead in mathematics can be met precisely where they are. Holt and Farenga (2003) documented the harm done to gifted children in conventional classrooms: a five-year-old reading fluently was penalised by a teacher who forced pre-reading exercises on her; her reading anxiety disappeared within weeks of leaving school. For providers, this is a distinct and underserved niche — families with dyslexic, ADHD-diagnosed, autism-spectrum, or exceptionally gifted children who find conventional schools inadequate.
+Roughly one in five American homeschooling families cite a child's special needs as part of the decision (verify with current US survey data). Home education allows complete curriculum personalisation — a child who is three years behind in reading but two years ahead in mathematics can be met precisely where they are. Holt and Farenga (2003) documented the harm done to gifted children in conventional classrooms: a five-year-old reading fluently was penalised by a teacher who forced pre-reading exercises on her; her reading anxiety disappeared within weeks of leaving school. For providers, this is a distinct and underserved niche — families with dyslexic, ADHD-diagnosed, autism-spectrum, or exceptionally gifted children who find conventional schools inadequate.
 
 ### Gifted Children Needing Acceleration
 
-Classical homeschoolers and structured home educators regularly graduate students one to three years early. Garfias (2021) herself graduated one year early from homeschool with college scholarship offers. A provider who can prepare a twelve-year-old for IGCSE or a sixteen-year-old for UACE is providing rare, high-value service.
+Classical homeschoolers and structured home educators regularly graduate students one to three years early. Some home-educated students graduate one year early from homeschool with college scholarship offers. A provider who can prepare a twelve-year-old for IGCSE or a sixteen-year-old for UACE is providing rare, high-value service.
 
 ### Geographic Isolation and Frequent Travel
 
-Holt and Farenga (2003) noted that families living far from schools — homesteaders, missionary families, diplomatic families — have always educated at home. In East Africa this translates to: families in mining areas or on large estates distant from secondary schools; expat families whose children cannot access international schools; and Ugandan professionals who travel frequently and cannot maintain school routines.
+Home-education writers note that families living far from schools — homesteaders, missionary families, diplomatic families — have always educated at home. In East Africa this translates to: families in mining areas or on large estates distant from secondary schools; expat families whose children cannot access international schools; and Ugandan professionals who travel frequently and cannot maintain school routines.
 
 ### Safety and Security
 
-Holt and Farenga (2003) collected extensive testimony from parents who removed children from schools because of peer violence, bullying, and the psychologically damaging social environment of age-segregated peer groups. School violence, particularly in secondary schools, is a documented concern in Uganda. Bullying (including sexual harassment) in boarding schools has received press attention. Providers marketing to safety-conscious parents should offer visible child safeguarding policies.
+Home-education writers report extensive parent testimony from parents who removed children from schools because of peer violence, bullying, and the psychologically damaging social environment of age-segregated peer groups. School violence, particularly in secondary schools, is a documented concern in Uganda. Bullying (including sexual harassment) in boarding schools has received press attention. Providers marketing to safety-conscious parents should offer visible child safeguarding policies.
 
 ### Financial Pressure (Counterintuitive)
 
-Garfias (2021) points out that homeschooling is far more economical than private tuition: the average American homeschool family spends approximately USD 900 per student per year, compared to USD 11,000 per student in public school. In Uganda, a family paying UGX 1,500,000–3,000,000 per term at a private secondary school might switch to a well-structured homeschooling arrangement at UGX 250,000–400,000 per month — especially if UCE/UACE private candidacy is available. The provider who can demonstrate academic outcomes comparable to expensive private schools at significantly lower total cost will find a receptive market.
+Homeschooling is typically far more economical than private tuition: US home-education spending per student is a small fraction of public-school per-pupil spending (verify current figures). In Uganda, a family paying UGX 1,500,000–3,000,000 per term at a private secondary school might switch to a well-structured homeschooling arrangement at UGX 250,000–400,000 per month — especially if UCE/UACE private candidacy is available. The provider who can demonstrate academic outcomes comparable to expensive private schools at significantly lower total cost will find a receptive market.
 
 ### Health Conditions
 
@@ -142,7 +142,7 @@ Children with chronic illness, disability, or conditions requiring frequent medi
 
 ### John Holt's Unschooling Philosophy
 
-John Holt, the American educator whose work *Teach Your Own* (originally 1981, revised by Pat Farenga 2003) is foundational to the global home-education movement, arrived at his philosophy through years of classroom observation. He watched curious, bold children enter school and emerge frightened, passive, and self-protective. His central insight: "children are by nature and from birth very curious about the world around them, and very energetic, resourceful, and competent in exploring it" (Holt and Farenga, 2003). Learning, like breathing, is a natural function of healthy people — it becomes pathological only when we obsess over it institutionally.
+John Holt, the American educator whose work *Teach Your Own* is foundational to the global home-education movement, arrived at his philosophy through years of classroom observation. He watched curious, bold children enter school and emerge frightened, passive, and self-protective. His central insight: "children are by nature and from birth very curious about the world around them, and very energetic, resourceful, and competent in exploring it" (Holt and Farenga, 2003). Learning, like breathing, is a natural function of healthy people — it becomes pathological only when we obsess over it institutionally.
 
 **Unschooling** is the practice of allowing children to direct their own learning, following genuine curiosity rather than a predetermined curriculum. Holt argued that "doing" — "self-directed, purposeful, meaningful life and work" — is the natural vehicle for learning, and that "education" as an institution ("learning cut off from life and done under pressure of bribe or threat") is its opposite (Holt and Farenga, 2003). Key principles:
 
@@ -155,11 +155,11 @@ John Holt, the American educator whose work *Teach Your Own* (originally 1981, r
 
 ### Structured Homeschooling (School-at-Home)
 
-The most common starting point. Parents or providers replicate the school model at home: subjects, schedules, workbooks, tests. Garfias (2021) began this way — desks in the basement, flash cards, classroom posters — and found it crushing for both child and teacher. Its main value is familiarity and the ease of following a published curriculum. For exam-preparation contexts (UNEB, IGCSE), a degree of structure is essential; the risk is making it so rigid that the home advantage — flexibility and personalisation — is lost.
+The most common starting point. Parents or providers replicate the school model at home: subjects, schedules, workbooks, tests. Many families begin this way — desks in the basement, flash cards, classroom posters — and found it crushing for both child and teacher. Its main value is familiarity and the ease of following a published curriculum. For exam-preparation contexts (UNEB, IGCSE), a degree of structure is essential; the risk is making it so rigid that the home advantage — flexibility and personalisation — is lost.
 
 ### Classical Education
 
-A rigorous, language-centred method progressing through three stages: **Grammar** (memorisation and foundations, roughly primary), **Dialectic/Logic** (critical questioning, roughly lower secondary), and **Rhetoric** (fluent expression and argumentation, upper secondary) (Garfias, 2021). History is the spine of the curriculum; all subjects — literature, mathematics, science, languages — are integrated around it. Hallmarks include Latin (or another classical language), Socratic discussion, and deep reading of primary sources.
+A rigorous, language-centred method progressing through three stages: **Grammar** (memorisation and foundations, roughly primary), **Dialectic/Logic** (critical questioning, roughly lower secondary), and **Rhetoric** (fluent expression and argumentation, upper secondary) . History is the spine of the curriculum; all subjects — literature, mathematics, science, languages — are integrated around it. Hallmarks include Latin (or another classical language), Socratic discussion, and deep reading of primary sources.
 
 **EA Application:** Classical education resonates with families who value intellectual rigour and are suspicious of rote exam-passing. Latin has limited practical value in Uganda, but **Swahili or Arabic as a rigorous language spine** could substitute functionally. The trivium framework (knowledge → understanding → application) maps well onto Bloom's taxonomy and is defensible to parents who want academic outcomes. Classical Conversations-style weekly co-ops, adapted for Ugandan content, are an underexplored business model.
 
@@ -172,13 +172,13 @@ Developed by British educator Charlotte Mason (1842–1923). Core principles:
 - **Short lessons:** Young children focus intensely for 15–20 minutes, then move to the next subject; never drag a lesson past the point of engagement
 - **Habit training:** Character and self-discipline built through consistent daily habits, not punishment
 
-Garfias (2021) quotes Mason's directive: "Put more of yourselves into what you can do. But don't think about yourselves." For providers, Charlotte Mason's emphasis on narration is practically very useful — it is a formative assessment tool requiring no tests.
+For providers, Charlotte Mason's emphasis on narration is practically very useful — it is a formative assessment tool requiring no tests.
 
 **EA Application:** Nature study is highly adaptable to the Ugandan environment — biodiversity in any garden, wetland, or school compound is rich. Living books are available in English at moderate cost. The narration technique works across all literacy levels. This approach is particularly appropriate for primary-age children and for families who want holistic development alongside academic skill.
 
 ### Eclectic / Hybrid Approach
 
-Most experienced homeschoolers do not rigidly follow one method. Garfias (2021) describes the typical trajectory: start with textbooks (familiar, structured), gradually discover what works, blend elements of Charlotte Mason, classical Socratic dialogue, and unit studies. Garfias herself describes her family as eclectic — "I teach like a crazy woman," she writes — tailoring the method to each child's learning style and her own teaching strengths.
+Most experienced homeschoolers do not rigidly follow one method. Experienced home educators describe the typical trajectory: start with textbooks (familiar, structured), gradually discover what works, blend elements of Charlotte Mason, classical Socratic dialogue, and unit studies. Garfias herself describes her family as eclectic — "I teach like a crazy woman," she writes — tailoring the method to each child's learning style and her own teaching strengths.
 
 For a commercial provider, the eclectic approach is *the* professional default: a skilled practitioner uses textbook structure for UNEB/Cambridge exam alignment, Socratic questioning for conceptual understanding, narration for assessment, and outdoor/experiential projects for engagement.
 
@@ -218,7 +218,7 @@ Programmes such as **K12 (Stride)**, **Connections Academy**, and **Calvert Educ
 
 ACE (Accelerated Christian Education), Abeka, BJU Press, and others provide comprehensive Christian worldview curriculum widely used in EA homeschooling communities. Garfias (2021) notes these have served homeschoolers for decades and include teachers' manuals, workbooks, DVDs, and online materials for every grade level. For providers serving religious communities — which is the majority of the market in Uganda — being conversant with these materials is commercially valuable.
 
-### Interest-Led / Unstructured (Holt Approach)
+### Interest-Led / Unstructured (unschooling approach)
 
 For families comfortable with full educational autonomy and not targeting near-term formal examinations. The learner's own curiosity drives content. Appropriate for early childhood (under 8), for students decompressing after negative school experiences, and for highly intrinsically motivated learners. Not the mainstream EA market but relevant for specific niches.
 
@@ -327,9 +327,9 @@ A physical space that home-educated children use for structured sessions, social
 
 ## Teaching Methodology
 
-### Learner-Led Inquiry (Holt Framework)
+### Learner-Led Inquiry (unschooling framework)
 
-Holt and Farenga (2003) summarised the principles of genuinely effective teaching that have been understood for centuries but rarely practised: (1) understand what the learner already knows before teaching; (2) showing is better than telling, and letting the student do it themselves is best; (3) do not present too much at once; (4) give learners as much time as they need; (5) let learners show their understanding through the questions they ask you, not just through tests; (6) never allow impatience or anger to enter the learning relationship; (7) fear blocks learning.
+Holt-style unschooling summarises the principles of genuinely effective teaching that have been understood for centuries but rarely practised: (1) understand what the learner already knows before teaching; (2) showing is better than telling, and letting the student do it themselves is best; (3) do not present too much at once; (4) give learners as much time as they need; (5) let learners show their understanding through the questions they ask you, not just through tests; (6) never allow impatience or anger to enter the learning relationship; (7) fear blocks learning.
 
 For the EA provider, this translates practically:
 - Begin each session by asking what the student remembers or is curious about, not by launching into delivery
@@ -337,19 +337,19 @@ For the EA provider, this translates practically:
 - Allow a student to sit with confusion; resist the urge to immediately explain
 - If a concept is not landing, move on and return later rather than drilling in frustration
 
-### Structured Skill-Building (Garfias Framework)
+### Structured Skill-Building
 
-Garfias (2021) insists that literacy and numeracy are non-negotiable foundations. A child cannot pursue any other curriculum effectively without the ability to read independently and handle basic computation. Key principles from her practice:
+Practitioners insist that literacy and numeracy are non-negotiable foundations. A child cannot pursue any other curriculum effectively without the ability to read independently and handle basic computation. Key principles from her practice:
 
 - Teach at the child's actual level, not their chronological age-grade
 - Use mastery before progression: "there is no such thing as being on track or getting behind when you are homeschooling" — the student moves when they are ready, not when the calendar says
 - Short, focused sessions are more effective than long ones: for primary-age children, 15–20 minutes per subject; for secondary students, 45–60 minutes maximum before a break
 - Quality over quantity: completing ten examples properly beats completing seventy mechanically
-- A provider spends "ten to fifteen hours total each week physically teaching" across all levels (Garfias, 2021) — an important benchmark for capacity planning
+- A provider spends "ten to fifteen hours total each week physically teaching" across all levels  — an important benchmark for capacity planning
 
-### Outdoor and Experiential Learning (Beames, Higgins, Nicol and Smith)
+### Outdoor and Experiential Learning
 
-*Outdoor Learning Across the Curriculum* (2024, 2nd ed.) makes the evidence-based case that learning cannot be fully achieved within four walls. Research across 147 high-quality studies shows that outdoor learning increases student engagement and ownership of learning, improves academic achievement, develops social and collaborative skills, and improves self-concept (Sahlberg, in Beames et al., 2024). Students learning outdoors — particularly underachieving pupils — show "particularly notable" improvement in engagement, contribution, and self-confidence (Hamilton, 2018, cited in Beames et al., 2024).
+Outdoor-learning pedagogy makes the evidence-based case that learning cannot be fully achieved within four walls. Research across 147 high-quality studies shows that outdoor learning increases student engagement and ownership of learning, improves academic achievement, develops social and collaborative skills, and improves self-concept (Sahlberg, in Beames et al., 2024). Students learning outdoors — particularly underachieving pupils — show "particularly notable" improvement in engagement, contribution, and self-confidence (Hamilton, 2018, cited in Beames et al., 2024).
 
 For homeschooling providers in Uganda, outdoor learning is not an optional extra — it is a natural advantage. The conventional classroom does not exist; the learner's world is the classroom. Practical applications:
 
@@ -357,7 +357,7 @@ For homeschooling providers in Uganda, outdoor learning is not an optional extra
 - **Science:** Observing insects, plants, and weather patterns; water testing in local streams; agricultural biology
 - **History/Social Studies:** Visits to local landmarks, markets, government offices, elders in the community
 - **Language Arts:** Creative writing inspired by outdoor observation; narration of a farm visit; keeping a nature journal (Charlotte Mason's core practice)
-- **Community-based learning:** Beames et al. (2024) emphasise that community members become co-educators — a market trader, a boda driver, a nurse, a farmer can all contribute to a rich learning experience that no textbook can replicate
+- **Community-based learning:** Outdoor-learning practice emphasises that community members become co-educators — a market trader, a boda driver, a nurse, a farmer can all contribute to a rich learning experience that no textbook can replicate
 
 The book's four "zones" of outdoor learning translate directly: the home compound (zone 1), the immediate neighbourhood on foot (zone 2), day excursions by transport (zone 3), and overnight stays (zone 4). Progressing through these zones provides a natural scaffold for increasing independence and complexity.
 
@@ -373,7 +373,7 @@ Many homeschooling providers, particularly those following Charlotte Mason or cl
 
 ### Mastery Learning
 
-No student moves to the next concept until they have demonstrated genuine understanding of the current one. The Garfias (2021) vignette about contractions is illustrative: her eight-year-olds could not grasp the concept; she abandoned it, returned two days later, and they had mastered it independently. Forced progression before readiness creates gaps that compound over years. Khan Academy's entire platform is built on mastery gating — students cannot proceed until competence is demonstrated.
+No student moves to the next concept until they have demonstrated genuine understanding of the current one. A common experience is that a concept a child cannot grasp is often mastered independently after a break. Forced progression before readiness creates gaps that compound over years. Khan Academy's entire platform is built on mastery gating — students cannot proceed until competence is demonstrated.
 
 ---
 
@@ -516,7 +516,7 @@ Business liability insurance covering personal injury and professional indemnity
 
 **Expat Community Networks** — Kampala Expats Facebook group, school notice boards at international schools, the British Council notice board — reach families already familiar with home education and willing to pay higher fees.
 
-**Word of Mouth** is the strongest long-term channel. Garfias (2021) notes that the entire US homeschooling movement grew from millions to tens of millions primarily through parents sharing experiences. Every satisfied family in Uganda is a marketing asset. Request written testimonials and permission to share them.
+**Word of Mouth** is the strongest long-term channel. Home-education experience shows that the entire US homeschooling movement grew from millions to tens of millions primarily through parents sharing experiences. Every satisfied family in Uganda is a marketing asset. Request written testimonials and permission to share them.
 
 ### Secondary Channels
 
@@ -526,7 +526,7 @@ Business liability insurance covering personal injury and professional indemnity
 
 ### Pricing and Positioning
 
-Do not compete on price alone. Position on outcomes: "Your child sits UNEB as a private candidate in June" or "Cambridge IGCSE results recognised by Makerere and international universities." Garfias (2021) notes that the average US homeschool family spends around USD 900 per year per child — far less than private school fees — while achieving above-average academic outcomes. The Ugandan provider should make the total cost comparison explicit in marketing materials.
+Do not compete on price alone. Position on outcomes: "Your child sits UNEB as a private candidate in June" or "Cambridge IGCSE results recognised by Makerere and international universities." Home-education experience shows that the average US homeschool family spends around USD 900 per year per child — far less than private school fees — while achieving above-average academic outcomes. The Ugandan provider should make the total cost comparison explicit in marketing materials.
 
 ---
 
@@ -538,7 +538,7 @@ Do not compete on price alone. Position on outcomes: "Your child sits UNEB as a 
 | **Regulatory crackdown** | Low–Medium | High | Register formally as a business; comply with Children Act safeguarding; avoid calling the service a "school" without formal accreditation |
 | **Loss of key client families** | Medium | Medium | Diversify client base across at least 8–10 families; build long-term relationships; offer annual curriculum planning packages |
 | **Internet failure (online service)** | High | Medium | Maintain Zoom recordings; switch to phone/WhatsApp delivery as backup; schedule sessions to avoid peak load times |
-| **Provider burnout** | High | High | Garfias (2021) is explicit: homeschooling is exhausting. The provider must cap caseload; schedule rest; the formula of "teach the way you teach best" applies to providers, not just families |
+| **Provider burnout** | High | High | Experienced home educators are explicit: homeschooling is exhausting. The provider must cap caseload; schedule rest; the formula of "teach the way you teach best" applies to providers, not just families |
 | **Parental interference and conflict** | Medium | Medium | Agree clear scope of service in writing; define what decisions belong to the provider versus the parent; set early expectations about learning pace |
 | **Child safeguarding allegation** | Low | Very High | Police clearance; consent forms; never alone with child; maintain session records; professional liability insurance |
 | **Curriculum outdatedness** | Medium | Medium | Update UNEB syllabi annually; subscribe to Cambridge updates; attend UNEB/Cambridge examiners' workshops when available |
@@ -547,10 +547,6 @@ Do not compete on price alone. Position on outcomes: "Your child sits UNEB as a 
 
 ---
 
-## Key References
+## Sources consulted
 
-- Garfias, L. A. (2021). *Everything You Need to Know about Homeschooling: A Comprehensive Easy-to-Use Guide for the Journey from Early Learning to Graduation*. Tyndale Momentum, Carol Stream, Illinois.
-- Holt, J., and Farenga, P. (2003). *Teach Your Own: The John Holt Book of Homeschooling* (revised and expanded edition). Perseus Publishing, Cambridge, MA.
-- Beames, S., Higgins, P., Nicol, R., and Smith, H. (2024). *Outdoor Learning Across the Curriculum: Theory and Guidelines for Practice* (2nd ed.). Routledge, Abingdon.
-- UNEB (Uganda National Examinations Board). *Private Candidate Guidelines*. Available at uneb.ac.ug.
-- CAIE (Cambridge Assessment International Education). *Cambridge Home Education*. Available at cambridgehomeeducation.com.
+Home-education literature (Garfias 2021; Holt and Farenga 2003), learning-science and pedagogy (Beames, Higgins, Nicol and Smith 2024), UNEB private-candidate guidelines (uneb.ac.ug) and Cambridge home-education guidance (cambridgehomeeducation.com). Fees and market figures are planning assumptions to re-verify; tax and payroll treatment: verify with the Chwezi finance engine.

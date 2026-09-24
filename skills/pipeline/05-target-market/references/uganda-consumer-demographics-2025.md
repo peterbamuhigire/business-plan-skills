@@ -1,5 +1,5 @@
 # Uganda Consumer Demographics & Social Context 2025
-**Source:** World Bank / Government of Uganda — *Uganda Human Capital Development and Growth Review* (UHCDGR), 2025; Uganda National Population and Housing Census (UNPHC) 2024; UBOS National Household Survey (UNHS) 2019/20
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 **Relevance:** Market sizing, customer segmentation, consumer persona development, purchasing power analysis, product-market fit validation
 
 ---
@@ -291,3 +291,8 @@ World Bank / Government of Uganda. (2025). *Uganda Human Capital Development and
 Uganda Bureau of Statistics (UBOS). (2025). *Uganda National Household Survey 2023/24*. Kampala: UBOS.
 
 Supporting data: Uganda National Population and Housing Census (UNPHC 2024); Uganda Bureau of Statistics Labour Force Survey (NLFS 2021); Uganda National Examinations Board — National Assessment of Progress in Education (NAPE 2023); Demographic and Health Surveys (UDHS); World Bank World Development Indicators (WDI).
+
+
+---
+
+Sources consulted: World Bank / Government of Uganda — *Uganda Human Capital Development and Growth Review* (UHCDGR), 2025; Uganda National Population and Housing Census (UNPHC) 2024; UBOS National Household Survey (UNHS) 2019/20.

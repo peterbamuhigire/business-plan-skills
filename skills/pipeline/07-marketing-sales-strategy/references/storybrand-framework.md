@@ -9,37 +9,37 @@ Use this reference when writing messaging, positioning statements, the one-line 
 
 Noise (long backstories, internal goals, irrelevant detail) is the enemy. Story is a sense-making structure: a clear hero with a want, a problem, a guide, a plan, a call to action, stakes and a resolution. Build one message script for the overall brand and sub-scripts for each product line or division.
 
-## 2. The seven parts (customer-story script)
+## 2. The seven elements (customer-story script)
 
-### Part 1: a character who wants something
+### Element 1: the customer and what they want
 The customer, not the brand, is the hero and is looking for a guide, not another hero. Name one clear desire tied to survival or thriving (saving money, saving time, belonging, status, income growth, generosity or meaning, self-realisation). Naming the desire opens a gap between where they are and where they could be; that gap creates attention. One primary desire per script; further desires belong in sub-scripts. Script line: "The customer wants ____."
 
-### Part 2: who has a problem (three levels plus a villain)
+### Element 2: the problem (villain plus three levels)
 Companies sell solutions to external problems, but customers buy solutions to internal ones.
 - Villain: the root cause of the conflict; a single, relatable, real source, not a symptom or manufactured fear (debt, distraction, bureaucracy, poor information).
 - External problem: the tangible obstacle (leaking pipe, poor website, market gap).
 - Internal problem: the frustration, doubt or inadequacy it causes ("I feel embarrassed by my lawn", "I fear I will not retire comfortably"). This is the real reason customers buy; speaking to it creates deeper connection.
 - Philosophical problem: why it matters morally ("it is wrong that small businesses cannot get a fair loan"), which turns customers into advocates.
 
-### Part 3: who meets a guide
+### Element 3: the brand as guide
 The brand is the guide who has already solved the hero's problem. A guide shows two things:
 - Empathy: "We understand how it feels to...", "Nobody should have to...".
 - Authority, without bragging: a few focused testimonials (about three, not twenty), a quantified track record, small award marks, recognised client logos (business-to-business).
 Customers silently ask "Can I trust this person?" (empathy) and "Can I respect this person?" (authority); answer both quickly.
 
-### Part 4: who gives them a plan
+### Element 4: the plan
 Trust needs a clear path that lowers perceived risk. Two kinds:
 - Process plan: three to four steps, before purchase (book a call, we assess, you receive a proposal) or after (download, enter details, start using).
 - Agreement plan: commitments that ease fear (price match on verified quotes, refund if unhappy, no high-pressure tactics, honest disclosure).
 
-### Part 5: and calls them to action
+### Element 5: the call to action
 People act when challenged. Use a confident direct call ("Buy now", "Get a quote", "Enrol today"), placed prominently and repeated; and a transitional call for those not ready (free guide, short demonstration, free report) that captures contact details and keeps them in the story. Place the direct button top right and above the fold in a contrasting colour, with the transitional offer next to it.
 
-### Part 6: that helps them avoid failure
+### Element 6: the stakes (failure avoided)
 Stories need stakes. Loss aversion (Kahneman and Tversky) means losses motivate more than equivalent gains. Define what the customer risks by not acting (health, money, relationships, career, opportunity), over one year and five. Use a few well-chosen consequences; too many create despair or distrust.
 Local illustrations: crops fail and debt accumulates because planting had no plan; a competitor opens next door while you hesitate; a standards regulator closes a food business and its reputation does not recover; lose the bank's confidence before entering the room.
 
-### Part 7: and ends in success
+### Element 7: the success picture
 Tell customers plainly how life improves, with specific, positive images. Three resolutions to choose from: winning power and position (status, access, loyalty tiers); union that makes the hero whole (community, belonging, peace of mind); self-realisation (becoming a better version of oneself).
 Before-and-after grid (Deiss): what they have, how they feel, what an average day looks like, what their status is, each before and after.
 

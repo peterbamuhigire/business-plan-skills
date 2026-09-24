@@ -1,7 +1,7 @@
 # Honey Processing and Bottling
 
 **Sub-sector:** Natural Products / Food Processing (Light Manufacturing)
-**Sources:** Thankaraju, P. (Startup Manufacturing Business Ideas 200, NestFame 2018) | UNDP Uganda Compendium context
+**Basis:** Planning reference written for this engine from general light-manufacturing practice; see the Sources consulted line at the end.
 
 > Uganda is among Africa's top honey producers. Raw honey from smallholder beekeepers is typically sold in bulk at low farm-gate prices. A processing and bottling enterprise adds value by filtering, grading, branding, and packaging honey for urban retail, institutional, and export markets — capturing a significantly higher share of the retail price.
 
@@ -9,7 +9,9 @@
 
 ---
 
-## Financial Indicators (EA Estimates, 2026)
+## Financial Indicators (planning assumptions - verify)
+
+All figures below are planning assumptions for scoping only. Re-verify current prices, wages and capital costs with dated supplier quotes, and reconcile tax treatment with the Chwezi finance engine.
 
 ### Small-Scale Processing Unit (50–100 kg/day)
 
@@ -153,3 +155,7 @@ Only purchase Grade A and B honey for consumer bottling. Reject fermented honey 
 | Moisture-driven fermentation | Strict incoming moisture testing; reject high-moisture batches |
 | Adulteration (sugar syrup addition by suppliers) | Brix + refractometer tests + periodic lab analysis |
 | UNBS certification cost and delays | Budget UGX 2,000,000–4,000,000 for initial certification; start process before launch |
+
+---
+
+Sources consulted: general small-scale manufacturing practice, East African supplier and regulator guidance, and the UNDP compendium profile family where noted; all numeric ranges are planning assumptions to verify with current quotes.

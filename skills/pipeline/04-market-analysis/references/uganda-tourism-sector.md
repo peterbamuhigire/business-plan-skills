@@ -1,5 +1,5 @@
 # Uganda Tourism Sector
-**Source:** World Bank. (2023). *Uganda Economic Update, June 2023: Leveraging Tourism for Inclusive Growth*. Washington, DC: World Bank Group.
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 **Relevance:** Tourism business plans (lodges, tour operators, hospitality, wildlife, ecotourism, cultural tourism), investment proposals, market sizing, competitive positioning
 
 ---
@@ -193,3 +193,8 @@
 World Bank. (2023). *Uganda Economic Update, June 2023: Leveraging Tourism for Inclusive Growth*. Washington, DC: World Bank Group.
 
 Supporting data: Uganda Bureau of Statistics (UBOS) — Tourism Satellite Account; Uganda Wildlife Authority (UWA); Uganda Tourism Board (UTB); Ministry of Tourism, Wildlife and Antiquities (MoTWA); WEF Travel and Tourism Competitiveness Report 2019; UNWTO; ILO.
+
+
+---
+
+Sources consulted: World Bank. (2023). *Uganda Economic Update, June 2023: Leveraging Tourism for Inclusive Growth*. Washington, DC: World Bank Group..

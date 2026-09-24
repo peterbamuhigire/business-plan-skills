@@ -1,5 +1,5 @@
 ---
-source: "Multiple: Waite, Marilyn (2023). Sustainability at Work: Careers That Make a Difference, 2nd ed. Routledge; Kumar, Rajender et al. (2025). Technopreneurship and Sustainability. CRC Press/Taylor & Francis; Dumas, Marlon et al. (2013). Fundamentals of Business Process Management. Springer (for redesign before automating principle)."
+basis: "Engine synthesis for business-plan use; sources consulted are listed at the end of the file."
 frameworks: [Quadruple Bottom Line, SURF Framework, Lean Green Operations, Industry 4.0 Sustainability, Circular Operations]
 skill: 08-operations-plan
 cross-reference: [16-sustainability-strategy, meta-sustainability, 14-ai-integration, 12-risk-analysis]
@@ -7,13 +7,11 @@ cross-reference: [16-sustainability-strategy, meta-sustainability, 14-ai-integra
 
 # Sustainable Operations Framework
 
-This reference file provides the frameworks and Uganda-specific tools for embedding sustainability into Section 8 (Operations Plan) of business plans. It draws on three complementary sources: Waite (2023) for the human and institutional dimensions of sustainable work; Kumar et al. (2025) for technology-enabled sustainability; and Dumas et al. (2013) for the principle of redesigning processes before automating them.
+This reference file provides the frameworks and Uganda-specific tools for embedding sustainability into Section 8 (Operations Plan) of business plans. It combines three complementary strands of practice: Waite (2023) for the human and institutional dimensions of sustainable work; Kumar et al. (2025) for technology-enabled sustainability; and Dumas et al. (2013) for the principle of redesigning processes before automating them.
 
 ---
 
 ## 1. The Quadruple Bottom Line in Operations
-
-(Waite, 2023)
 
 The traditional Triple Bottom Line — People, Planet, Profit — has been extended to four pillars that represent a more complete picture of what sustainable operations must achieve:
 
@@ -22,7 +20,7 @@ The traditional Triple Bottom Line — People, Planet, Profit — has been exten
 3. **Environmental sustainability**: operating within ecological carrying capacity; protecting biodiversity; preventing pollution; managing waste and emissions
 4. **Intergenerational equity**: making decisions that do not compromise future generations' ability to meet their own needs
 
-Waite's definition: "Meeting the needs of all generations, present and future, while improving their well-being through social, economic, environmental, and intergenerational efforts" (2023, p. 12).
+Sustainability here means meeting present needs while protecting the wellbeing of future generations through social, economic and environmental action.
 
 **For operations planning:** every major operational decision — location, equipment, suppliers, staffing model, waste management — should be tested against all four pillars, not just financial return. Decisions that score well on all four are more resilient and more attractive to DFI and impact investors.
 
@@ -37,8 +35,6 @@ Intergenerational: Will future managers thank us for this decision in 10 years?
 ---
 
 ## 2. SURF Framework — Sustainability Integration in Operations
-
-(Waite, 2023)
 
 SURF is a practical four-step lens for embedding sustainability into day-to-day operational processes, rather than treating it as a separate sustainability programme.
 
@@ -63,8 +59,6 @@ Result: 50% water cost reduction; lower effluent volume; NEMA compliance easier 
 ---
 
 ## 3. Lean Green Operations Principles
-
-(Kumar et al., 2025)
 
 Lean manufacturing (eliminate operational waste) and green manufacturing (eliminate environmental harm) are complementary — most lean waste types also cause environmental harm. Addressing them together delivers both cost savings and sustainability improvement.
 
@@ -92,11 +86,9 @@ Lean manufacturing (eliminate operational waste) and green manufacturing (elimin
 
 ## 4. Industry 4.0 Sustainability — Uganda Context
 
-(Kumar et al., 2025)
-
 Industry 4.0 technologies (IoT, mobile data, cloud platforms, AI) enable sustainability improvements that were previously only accessible to large companies. Many are now affordable for Uganda SMEs.
 
-**Technopreneurship principle** (Kumar, 2025): technology innovation applied to real-world sustainability problems simultaneously creates business value and social value. This is the strategic logic for digital sustainability investment.
+**Technopreneurship principle:** technology innovation applied to real-world sustainability problems simultaneously creates business value and social value. This is the strategic logic for digital sustainability investment.
 
 **Technology options assessed for Uganda SME feasibility:**
 
@@ -216,9 +208,7 @@ Food, agriculture, and hospitality businesses typically generate 60–70% organi
 
 ## 8. Worker Wellbeing as Operational Performance
 
-(Waite, 2023)
-
-"Our careers may be in peril if we do not understand sustainability and how our particular professional role applies to sustainability." (Waite, 2023, p. 4)
+Professionals in every role need to understand how sustainability applies to their work.
 
 This applies equally to Uganda business owners, managers, and frontline workers. Sustainable operations require a workforce that understands and participates in sustainability — not just a policy document.
 
@@ -271,3 +261,5 @@ NEMA enforcement has intensified since 2020. Non-compliant businesses have faced
 - Environmental and social risks from operations must appear in `12-risk-analysis/SKILL.md` — use the rows in `12-risk-analysis/references/climate-environment-risk-uganda.md`
 - Sustainability KPIs from operations feed into `meta-monitoring-evaluation/SKILL.md` — M&E dashboard
 - The overall sustainability narrative for this business appears in `16-sustainability-strategy/SKILL.md` — this reference file provides the operational evidence base for that section
+
+Sources consulted: Waite, Sustainability at Work, 2nd ed. (2023); Kumar et al., Technopreneurship and Sustainability (2025); Dumas et al., Fundamentals of Business Process Management (2013). Verify tax, accounting and legal references with the Chwezi finance engine and current law.

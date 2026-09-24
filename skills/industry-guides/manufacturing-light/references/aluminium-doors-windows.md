@@ -1,13 +1,15 @@
 # Aluminium Doors and Window Frames Manufacturing
 
 **Sub-sector:** Construction Components
-**Sources:** Thankaraju, P. (Startup Manufacturing Business Ideas 200, NestFame 2018)
+**Basis:** Planning reference written for this engine from general light-manufacturing practice; see the Sources consulted line at the end.
 
 > Uganda's construction boom — apartments, shopping malls, schools, and offices — creates strong demand for aluminium doors, windows, and shopfronts. Most fabrication shops in Uganda are small workshops competing on price; quality finishing, accurate measurement, and on-time installation are significant differentiators.
 
 ---
 
-## Financial Indicators (EA Estimates, 2026)
+## Financial Indicators (planning assumptions - verify)
+
+All figures below are planning assumptions for scoping only. Re-verify current prices, wages and capital costs with dated supplier quotes, and reconcile tax treatment with the Chwezi finance engine.
 
 ### Aluminium Fabrication Workshop (3–6 workers)
 
@@ -39,7 +41,7 @@
 | Material | Source | Notes |
 |---------|--------|-------|
 | Aluminium extrusion profiles (standard sections) | Importers (Kampala: Ndeeba industrial area, Nakivubo) | Buy from established importers; verify profile grade (6063 alloy standard) |
-| Float glass (4mm, 5mm, 6mm, tempered) | Local glass distributors (Uganda Glass Supplies, etc.) | Tempered/safety glass required for doors; standard float for windows |
+| Float glass (4mm, 5mm, 6mm, tempered) | Local glass distributors (obtain at least three quotes) | Tempered/safety glass required for doors; standard float for windows |
 | Rubber glazing seal / EPDM gaskets | Hardware importers | Seal between glass and frame; prevents water ingress |
 | Corner brackets and connectors | Profile system accessories | Must match profile system brand/series |
 | Screws, rivets (4mm blind rivets) | Hardware shops | |
@@ -127,3 +129,7 @@
 | Cash flow (large orders, slow payment) | Require 50–70% deposit before cutting; balance on delivery |
 | Competition from Chinese pre-made units | Compete on custom sizing and installation speed |
 | Glass injury | PPE (leather gloves, safety boots) mandatory when handling glass |
+
+---
+
+Sources consulted: general small-scale manufacturing practice, East African supplier and regulator guidance, and the UNDP compendium profile family where noted; all numeric ranges are planning assumptions to verify with current quotes.

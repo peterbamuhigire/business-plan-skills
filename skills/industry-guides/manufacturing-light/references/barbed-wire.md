@@ -1,13 +1,15 @@
 # Barbed Wire Manufacturing
 
 **Sub-sector:** Wire and Metal Products
-**Sources:** Thankaraju, P. (Startup Manufacturing Business Ideas 200, NestFame 2018)
+**Basis:** Planning reference written for this engine from general light-manufacturing practice; see the Sources consulted line at the end.
 
 > Barbed wire demand in Uganda is driven by rapid land titling, farmland enclosure, urban security fencing, and construction site perimeter security. Most barbed wire is currently imported from Kenya, China, and India — a local manufacturer serves the same market at lower transport cost and faster delivery.
 
 ---
 
-## Financial Indicators (EA Estimates, 2026)
+## Financial Indicators (planning assumptions - verify)
+
+All figures below are planning assumptions for scoping only. Re-verify current prices, wages and capital costs with dated supplier quotes, and reconcile tax treatment with the Chwezi finance engine.
 
 ### Small Barbed Wire Plant (1–2 tonne/day)
 
@@ -36,7 +38,7 @@
 
 | Material | Specification | Source |
 |---------|--------------|--------|
-| Mild steel wire rod (coiled) | 6mm or 8mm diameter, SAE 1006/1008 grade | Uganda Rolling Mill (Tian Tang), Roofings Group, or Kenya imports |
+| Mild steel wire rod (coiled) | 6mm or 8mm diameter, SAE 1006/1008 grade | Local rolling mills or regional imports (compare delivered cost) |
 | Zinc (for galvanising) | High-grade zinc ingots or zinc chloride bath | Import via chemical distributors |
 | Lubricating oil (wire drawing) | Dry soap / emulsion lubricant | Local industrial suppliers |
 | Barb wire (pre-cut or cut from rod) | Cut from same wire stock | In-house |
@@ -125,3 +127,7 @@
 | Galvanising effluent contamination | NEMA-compliant effluent treatment; zinc recovery from bath |
 | Import competition (cheap Chinese product) | Compete on local availability, credit terms to distributors, and reliable spec |
 | Wire breaking during drawing | Maintain correct die lubrication; anneal at correct intervals |
+
+---
+
+Sources consulted: general small-scale manufacturing practice, East African supplier and regulator guidance, and the UNDP compendium profile family where noted; all numeric ranges are planning assumptions to verify with current quotes.

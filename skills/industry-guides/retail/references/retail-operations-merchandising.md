@@ -1,8 +1,8 @@
 # Retail Operations and Merchandising Reference Guide
 
-> References: *Retail Management: A Strategic Approach* by Berman & Evans (Pearson, 2013); *Retail Management* by Tiwari (Global Media, 2008); *Start and Run a Shop* by Penrith (How To Books, 2009)
+**Basis:** Engine-authored retail planning reference synthesising standard retail-management practice; all figures are planning assumptions (see Sources consulted at the end).
 
-> Figures adapted to Ugandan context (UGX).
+> Figures are illustrative planning assumptions in UGX; re-verify with dated local data. Ratios and formulas are general practice.
 
 ---
 
@@ -479,3 +479,5 @@ When selling across multiple channels, inventory should not be attributed to a s
 ---
 
 *This guide provides operational frameworks for Ugandan retail businesses. Specific figures (taxes, wage rates, costs) should be verified against current local conditions.*
+
+Sources consulted: general retail-management, retail-analytics and small-shop start-up literature (textbooks and practitioner guides, 2008-2022), adapted to Uganda. Statistics and benchmark ratios are planning assumptions to verify with dated sources; tax and accounting treatment to be confirmed with the Chwezi finance engine.

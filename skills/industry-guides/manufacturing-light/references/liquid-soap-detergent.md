@@ -1,7 +1,7 @@
 # Liquid Soap and Detergent Powder Manufacturing
 
 **Sub-sector:** Household Cleaning Products
-**Sources:** Thankaraju, P. (Startup Manufacturing Business Ideas 200, NestFame 2018) | UNDP Uganda Compendium Vol. 2
+**Basis:** Planning reference written for this engine from general light-manufacturing practice; see the Sources consulted line at the end.
 
 > Liquid soap is rapidly replacing bar soap and block detergent in urban East African households, vehicle wash facilities, hotels, and commercial laundries. A locally manufactured brand competes on price, availability, and custom formulations against Kenyan and Asian imports.
 
@@ -18,7 +18,9 @@
 
 ---
 
-## Financial Indicators (EA Estimates, 2026)
+## Financial Indicators (planning assumptions - verify)
+
+All figures below are planning assumptions for scoping only. Re-verify current prices, wages and capital costs with dated supplier quotes, and reconcile tax treatment with the Chwezi finance engine.
 
 ### Liquid Soap (Small Workshop — 500 litres/day)
 
@@ -153,3 +155,7 @@ Key ingredients: LABSA, Sodium carbonate (soda ash), Sodium sulphate, Sodium sil
 | UNBS non-compliance | Budget for testing; hire consultant for initial certification |
 | Caustic soda burns / chemical injury | PPE mandatory; staff training; first aid kit on-site |
 | Water quality affecting product | Use filtered/deionised water; test batches before filling |
+
+---
+
+Sources consulted: general small-scale manufacturing practice, East African supplier and regulator guidance, and the UNDP compendium profile family where noted; all numeric ranges are planning assumptions to verify with current quotes.

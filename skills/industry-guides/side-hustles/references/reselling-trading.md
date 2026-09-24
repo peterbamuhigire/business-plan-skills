@@ -1,7 +1,7 @@
 # Reselling and Trading Side Hustles
 
 **Audience:** EA professionals with sourcing, market, or logistics connections
-**Sources:** Guillebeau (2017), Simon (2022)
+**Basis:** Planning reference written for this engine; figures are planning assumptions to re-verify with dated local quotes and data (see Sources consulted at the end).
 
 > Reselling is the oldest trade in Africa. The modern version uses WhatsApp, Facebook Marketplace, and Jumia to reach buyers, while sourcing from China (Alibaba/DHgate), local wholesalers, or farm-gate producers. A professional who understands supply chains from their day job is better positioned than most to identify gaps and arbitrage opportunities.
 
@@ -159,7 +159,7 @@
 
 ## Building a Trading Brand on WhatsApp
 
-**The platform (Amitabh, 2022 / Guillebeau, 2017):**
+**The platform:**
 
 1. **WhatsApp Business account** — Use instead of personal WhatsApp; allows business hours, catalogue, quick replies, labels
 2. **Product catalogue** — Upload photos, descriptions, and prices in WhatsApp Business catalogue (free)
@@ -185,3 +185,7 @@
 | Currency exchange risk (USD buying power fluctuates) | Factor in ±10% exchange rate buffer in your pricing |
 | Competition (others copy your product/price) | Build brand loyalty; compete on service and consistency, not just price |
 | WhatsApp banning your number | Maintain a backup number; never spam; keep a separate Excel/Sheets customer list |
+
+---
+
+Sources consulted: side-business literature (Guillebeau 2017; Simon 2022), marketplace terms, and East African import and trading practice. All money figures are planning assumptions for a 2026 baseline and must be re-verified with a dated source. Tax, payroll and accounting treatment: verify with the Chwezi finance engine.

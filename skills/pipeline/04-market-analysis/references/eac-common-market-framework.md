@@ -1,9 +1,6 @@
 # EAC Common Market Framework — Business Reference
 
-Sources:
-- *Protocol on the Establishment of the East African Community Common Market* (EAC, signed Arusha, 20 November 2009)
-- *Regional Value Chains in East Africa: Summary Report* (Daly, Abdulsam & Gereffi / International Growth Centre, October 2016)
-- *Roles of the EAC Common Market Protocol and IGAD's Free Movement Protocol in Facilitating Labour Mobility in the East and Horn of Africa Region* (IOM / BRMM Programme, May 2022)
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 
 ---
 
@@ -325,3 +322,8 @@ Full references for appendix:
 > Daly, J., Abdulsam, A. & Gereffi, G. *Regional Value Chains in East Africa: Summary Report*. London: International Growth Centre / Duke CGGC, October 2016. Reference F-38202-R WA-1.
 >
 > Oucho, L.A., Kandilige, L. & Kazmierkiewicz, P. *Roles of the EAC Common Market Protocol and IGAD's Free Movement Protocol in Facilitating Labour Mobility in the East and Horn of Africa Region*. Nairobi: International Organization for Migration (IOM) / Better Regional Migration Management Programme, May 2022.
+
+
+---
+
+Sources consulted: *Protocol on the Establishment of the East African Community Common Market* (EAC, signed Arusha, 20 November 2009); *Regional Value Chains in East Africa: Summary Report* (Daly, Abdulsam & Gereffi / International Growth Centre, October 2016); *Roles of the EAC Common Market Protocol and IGAD's Free Movement Protocol in Facilitating Labour Mobility in the East and Horn of Africa Region* (IOM / BRMM Programme, May 2022).

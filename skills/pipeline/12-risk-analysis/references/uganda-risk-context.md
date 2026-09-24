@@ -1,6 +1,6 @@
 # Uganda-Specific Risk Context 2025–26
 
-*Sources: UBOS CPI February 2026, UBOS UNHS 2023/24, UBOS National Labour Force Survey 2021, UBOS KEI Q1 2025/26, World Bank Uganda Economic Update December 2023, NPHC 2024. Cite UBOS or World Bank when referencing specific statistics.*
+*Data basis: UBOS and World Bank publications listed in section 12; figures are dated planning assumptions, so cite and re-verify the current release before use.*
 
 ---
 
@@ -190,22 +190,20 @@
 
 ---
 
-## 10. Validated African Business Risk Patterns (Sardanis)
+## 10. Recurring African Business Risk Patterns
 
-Andrew Sardanis operated businesses across 20+ African countries for 25 years (ITM group, Meridien BIAO bank). His practical experience validates several risk patterns directly relevant to Uganda:
+Practitioner experience across African markets points to recurring patterns that a Uganda plan should test for. Treat each as a hypothesis to validate with local evidence.
 
-| Risk Pattern | What Happened | Uganda Implication |
+| Risk Pattern | Typical Cause | Uganda Implication |
 |---|---|---|
-| **Currency remittance delays** | African businesses paid in local currency; central banks held hard currency but lacked FX to remit — payments delayed months or years | Build FX buffer in projections; for import-dependent businesses, secure forward-payment terms |
-| **Government/parastatal payment risk** | Governments and parastatals consistently slow to pay suppliers; MTN-scale patience required | Charge premium for government contracts; require deposits; restrict credit limits |
-| **Import competition destroying local enterprise** | Free market policies allowed cheap imports to undercut local manufacturers unable to compete on scale | Assess the competitive threat from regional/Chinese imports before launching manufacturing; focus on fresh/perishable goods or services that cannot be cheaply imported |
-| **Over-expansion failure** | ITM acquired a troubled banking network (BIAO) spread across multiple countries; "impossible to resuscitate an African group that has been in trouble over several years and is spread over several borders" | Avoid acquiring distressed businesses; test each new location before committing capital; organic growth < acquisition |
-| **Delegation/barony risk** | Delegated managers built personal empires, allied with local power brokers, became unremovable | Rotate managers across locations; maintain financial oversight independent of local manager; set clear performance metrics visible to headquarters |
-| **Colonial banking exclusion** | Major banks focused on multinationals; local SMEs and mass market ignored | Uganda's mass market remains underserved by formal financial services — opportunity for businesses that serve it, but also means customers may lack credit history or banking access |
+| **Currency remittance delays** | Local-currency receipts with scarce hard currency for remittance | Build an FX buffer in projections; for import-dependent businesses, secure forward-payment terms |
+| **Government/parastatal payment risk** | Public buyers are often slow to pay suppliers | Price a premium for government contracts; require deposits; restrict credit limits |
+| **Import competition against local production** | Open trade policy lets cheap imports undercut small local manufacturers | Assess regional and Asian import threat before launching manufacturing; favour perishable goods or services that cannot be cheaply imported |
+| **Over-expansion and distressed acquisitions** | Acquiring troubled multi-country operations | Avoid acquiring distressed businesses; test each new location before committing capital; prefer organic growth |
+| **Delegation and local-power risk** | Delegated managers build personal fiefdoms | Rotate managers; keep financial oversight independent of the local manager; set performance metrics visible to head office |
+| **Exclusion of the mass market by formal finance** | Banks focus on large and multinational clients | The mass market remains underserved, which is an opportunity, but customers may lack credit history or banking access |
 
-**Key Sardanis insight:** The mass African market "was crying for service but was deliberately ignored." Businesses that serve it with local staff and appropriate products can build loyal customers and government goodwill. Those that ignore it in favour of only formal/large clients miss the dominant segment.
-
-> Source: (Sardanis, *A Venture in Africa*, I.B. Tauris, 2007)
+Businesses that serve the mass market with local staff and appropriate products can build loyalty and goodwill; those that chase only large formal clients may miss the dominant segment.
 
 ---
 
@@ -270,3 +268,5 @@ These risks are structural investment climate risks validated by IFC diagnostic 
 - Population/sector data: (UBOS, *National Population and Housing Census 2024*)
 - Economic outlook: (World Bank, *Uganda Economic Update*, December 2023)
 - Private sector investment climate: (IFC/World Bank, *Creating Markets in Uganda: Growth through the Private Sector and Trade*, February 2022)
+
+Sources consulted: UBOS releases, World Bank and IFC country diagnostics (section 12), and Sardanis, A Venture in Africa (2007) for the practitioner risk patterns in section 10.

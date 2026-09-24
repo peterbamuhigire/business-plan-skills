@@ -1,7 +1,7 @@
 # Content Creation Side Hustles
 
 **Audience:** EA professionals willing to build a public online presence
-**Sources:** Guillebeau (2017), Amitabh (2022), Gary Raj (2022)
+**Basis:** Planning reference written for this engine; figures are planning assumptions to re-verify with dated local quotes and data (see Sources consulted at the end).
 
 > Content creation is the highest-upside side hustle available to an educated urban African — and the most patient. Income is near-zero for the first 6–12 months. After that, a well-positioned creator with 10,000+ engaged followers can earn more from content than from their day job. The critical decision: pick one platform, one niche, stay consistent for 12 months.
 
@@ -9,7 +9,7 @@
 
 ## The Economics of Content Creation
 
-**The Power Law Warning (Amitabh, 2022):** On Spotify, 0.09% of 8 million creators earn over $100,000/year. Most creators earn nothing. This is not a reason to avoid content — it is a reason to be strategic.
+**The power-law warning:** On Spotify, 0.09% of 8 million creators earn over $100,000/year. Most creators earn nothing. This is not a reason to avoid content — it is a reason to be strategic.
 
 **The 1,000 True Fans Model (Kevin Kelly):** You do not need millions of viewers. 1,000 people who consistently engage with, buy from, or support you generates a viable income. In Uganda terms: 1,000 followers who each spend UGX 50,000/year = UGX 50,000,000/year.
 
@@ -20,7 +20,7 @@
 
 ---
 
-## Financial Overview (EA Content Creator, 2026)
+## Financial Overview (EA content creator, planning assumptions)
 
 | Stage | Followers | Monthly Revenue | Revenue Sources |
 |-------|-----------|----------------|----------------|
@@ -157,7 +157,7 @@ Podcasting is underserved in East Africa. A professional audio show requires min
 
 ---
 
-## The Platform Optionality Rule (Amitabh, 2022)
+## The Platform Optionality Rule
 
 When India banned TikTok in 2020, 200 million Indian creators lost their audiences overnight. Never rely on a single platform you do not own.
 
@@ -180,3 +180,7 @@ When India banned TikTok in 2020, 200 million Indian creators lost their audienc
 | Platform account banned | Keep content copies; never violate platform community guidelines; build backup account |
 | Employer objects to your public content | Keep content separate from employer; do not comment on your employer publicly |
 | No income after 12 months of effort | Reassess niche; add a direct product/service offer to your audience without waiting for ad revenue |
+
+---
+
+Sources consulted: creator-economy and side-business literature (Guillebeau 2017; Amitabh 2022; Gary Raj 2022), platform monetisation policies, and East African market observation. All money figures are planning assumptions for a 2026 baseline and must be re-verified with a dated source. Tax, payroll and accounting treatment: verify with the Chwezi finance engine.

@@ -1,13 +1,15 @@
 # Steel Furniture Manufacturing
 
 **Sub-sector:** Furniture and Interior Products
-**Sources:** Thankaraju, P. (Startup Manufacturing Business Ideas 200, NestFame 2018)
+**Basis:** Planning reference written for this engine from general light-manufacturing practice; see the Sources consulted line at the end.
 
 > Steel furniture — almirahs, filing cabinets, lockers, security doors, shelving — commands consistent institutional demand from schools, hospitals, offices, and banks. Local fabrication competes against Kenyan and Chinese imports on delivery speed, customisation, and price.
 
 ---
 
-## Financial Indicators (EA Estimates, 2026)
+## Financial Indicators (planning assumptions - verify)
+
+All figures below are planning assumptions for scoping only. Re-verify current prices, wages and capital costs with dated supplier quotes, and reconcile tax treatment with the Chwezi finance engine.
 
 ### Steel Fabrication Workshop (4–8 workers)
 
@@ -128,3 +130,7 @@
 | Welding injury (burns, eye damage) | PPE mandatory (welding mask, gloves, apron); safety training |
 | Paint fumes (fire and health hazard) | Dedicated spray booth with extraction fan; fire extinguisher |
 | Competition from cheap imports | Differentiate on customisation, delivery speed, and after-sale service |
+
+---
+
+Sources consulted: general small-scale manufacturing practice, East African supplier and regulator guidance, and the UNDP compendium profile family where noted; all numeric ranges are planning assumptions to verify with current quotes.

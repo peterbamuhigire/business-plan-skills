@@ -88,3 +88,5 @@ See `references/undp-business-profiles.md` for detailed investment and revenue d
 
 
 - Daycare centre: see `references/daycare-centre.md` for enrolment economics, staffing, safeguarding and licensing checks.
+- Tutoring: see `references/tutoring.md` for models, pricing, scaling and compliance.
+- Homeschooling services: see `references/homeschooling.md` for methods, curricula, pricing and safeguarding.

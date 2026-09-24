@@ -1,5 +1,5 @@
 ---
-source: IFC Performance Standards on Environmental and Social Sustainability (2012); UDB Environmental and Social Policy (2021); NEMA (Uganda) Act Cap.153; Uganda Employment Act 2006
+sources_consulted: IFC Performance Standards (2012); UDB E&S policy (2021); NEMA Act; Employment Act 2006
 frameworks: ["IFC Performance Standards", "ESMP Structure", "Environmental Screening", "Social Risk Assessment", "Mitigation Hierarchy", "ESMS Lite"]
 skill: 11-funding-request
 cross-reference: ["12-risk-analysis", "08-operations-plan", "13-implementation-timeline"]
@@ -9,7 +9,7 @@ cross-reference: ["12-risk-analysis", "08-operations-plan", "13-implementation-t
 
 An ESMP is required by Development Finance Institutions (DFIs) including Uganda Development Bank (UDB), IFC, AFDB, and most impact investors for any business seeking funding above a risk-based threshold. It demonstrates that the business has identified environmental and social risks, committed to mitigation measures, and has a monitoring system to track compliance.
 
-**When an ESMP is required:**
+**When an ESMP is required (planning assumptions: thresholds change; confirm each funder's current policy in writing before submission):**
 
 | Funder | Threshold | Trigger |
 |---|---|---|
@@ -28,7 +28,7 @@ Most Uganda SME business plans seeking DFI funding fall into **Category B** or *
 
 ---
 
-## Part 1 — Project Description
+## Step: Describe the project and set its category
 
 **Business name:** _______________________________________________
 
@@ -53,7 +53,7 @@ _______________________________________________
 
 ---
 
-## Part 2 — Environmental Screening
+## Step: Screen environmental risk
 
 ### 2.1 Physical Environment
 
@@ -94,7 +94,7 @@ Answer each question Yes / No / Not Applicable. Explain "Yes" answers.
 
 ---
 
-## Part 3 — Social Screening
+## Step: Screen social risk
 
 ### 3.1 Labour and Working Conditions
 
@@ -121,7 +121,7 @@ Answer each question Yes / No / Not Applicable. Explain "Yes" answers.
 | 6 | Will the project affect the livelihoods of neighbouring households or businesses? | | |
 | 7 | Does the project involve interactions with vulnerable groups (women, children, elderly, persons with disabilities, refugees)? | | |
 
-**Note on land tenure:** Uganda has four main tenure types — freehold, leasehold, Mailo, and customary. Approximately 84% of rural land is held under unregistered customary tenure (World Bank, 2022). Any project on customary land must document community consent and the tenure arrangement. For DFI loans, a formal lease or agreement is strongly preferred over informal occupation.
+**Note on land tenure:** Uganda has four main tenure types — freehold, leasehold, Mailo, and customary. A large majority of rural land is held under unregistered customary tenure (share is a planning assumption; re-verify with a dated source). Any project on customary land must document community consent and the tenure arrangement. For DFI loans, a formal lease or agreement is strongly preferred over informal occupation.
 
 ### 3.3 Gender and Inclusion
 
@@ -136,9 +136,9 @@ Answer each question Yes / No / Not Applicable. Explain "Yes" answers.
 
 ---
 
-## Part 4 — Mitigation Plan
+## Step: Plan mitigation
 
-For each environmental or social risk identified in Parts 2–3 with a "Yes" answer, complete a mitigation entry:
+For each environmental or social risk identified in the environmental and social screening steps with a "Yes" answer, complete a mitigation entry:
 
 ### Mitigation Template (repeat for each identified risk)
 
@@ -177,7 +177,7 @@ For each environmental or social risk identified in Parts 2–3 with a "Yes" ans
 
 ---
 
-## Part 5 — Monitoring and Reporting
+## Step: Set monitoring, reporting and grievance handling
 
 ### 5.1 Internal Monitoring
 
@@ -219,7 +219,7 @@ Name: _______________  Role: _______________  Contact: _______________
 
 ---
 
-## Part 6 — ESMP Summary Table
+## Step: Consolidate into the ESMP summary table
 
 | # | Impact | Mitigation Measure | Responsible | Timeline | Budget (UGX) | Monitoring Indicator |
 |---|---|---|---|---|---|---|
@@ -233,7 +233,7 @@ Name: _______________  Role: _______________  Contact: _______________
 
 ---
 
-## Part 7 — Declaration
+## Step: Sign the declaration
 
 We confirm that:
 1. This ESMP has been prepared honestly and completely to the best of our knowledge
@@ -274,9 +274,11 @@ For software, consulting, trading, and professional services businesses, a full 
 | NEMA Act Cap.153 | Environmental protection, EIA, pollution control | NEMA |
 | Water Act Cap.152 | Water use permits, effluent discharge | DWRM, NWSC |
 | Employment Act 2006 | Labour standards, contracts, termination, leave | MGLSD |
-| NSSF Act | Employer contributions (10% employer + 5% employee) | NSSF |
+| NSSF Act | Employer contributions (contribution rates are assumptions; verify with the Chwezi finance engine and current NSSF notices) | NSSF |
 | Occupational Safety and Health Act 2006 | Workplace safety standards | MGLSD / Labour Inspectorate |
 | Land Act Cap.227 | Land tenure types, leases, compulsory acquisition | Ministry of Lands |
 | National Environment (EIA) Regs SI 13/1998 | EIA procedures and Schedule 3 triggers | NEMA |
 | Data Protection and Privacy Act 2019 | Personal data processing obligations | PDPO Office |
 | IFC Performance Standards (2012) | International E&S standards for DFI lending | IFC / World Bank Group |
+
+Sources consulted: IFC, Performance Standards on Environmental and Social Sustainability (2012); Uganda Development Bank, Environmental and Social Policy (2021); Uganda statutes named in Appendix B. Statutory section numbers and thresholds are to be re-checked against current text.

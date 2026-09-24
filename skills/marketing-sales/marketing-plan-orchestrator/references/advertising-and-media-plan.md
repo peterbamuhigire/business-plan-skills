@@ -12,7 +12,7 @@ engine (`social-media-skills`) owns detailed media plans, creative briefs and
 production, build specifications, optimisation and attribution; see the
 handoff boundary in the marketing-plan document architecture.
 
-Sources: Kelley, L. D. and Sheehan, K. B. (c. 2021) *Advertising Management in
+Sources consulted: Kelley, L. D. and Sheehan, K. B. (c. 2021) *Advertising Management in
 a Digital Environment*, Routledge; Stockwell, J. and Shaw, H. M. (1994)
 *Direct Marketing Checklists*, NTC Business Books; Stutts, P. (2021) *The
 Undefeated Marketing System*. Reach, frequency, flighting and GRP
@@ -38,7 +38,7 @@ methods side by side and explain the chosen figure:
 |---|---|---|
 | Percentage of forecast sales | Forecast revenue × category advertising-to-sales ratio (local ratio if available; otherwise a labelled assumption) | Treats advertising as a result of sales, not a cause |
 | Objective-and-task | Target outcome → reach and frequency or enquiries needed → cost via CPM or cost-per-enquiry assumptions → add production, research, contingency | Only as good as the conversion assumptions |
-| Competitive share of voice | Estimated category spend × intended share of voice; to gain share, share of voice above share of market is usually needed (Kelley and Sheehan cite "2 × SOV ≈ 1 × SOM" as a case heuristic — treat it as a hypothesis) | Local competitor spend is hard to observe; build estimates from ad libraries, media monitoring and observation |
+| Competitive share of voice | Estimated category spend × intended share of voice; to gain share, share of voice above share of market is usually needed (a published case heuristic of "2 × SOV ≈ 1 × SOM" exists; treat it as a hypothesis) | Local competitor spend is hard to observe; build estimates from ad libraries, media monitoring and observation |
 
 Then set:
 
@@ -53,7 +53,7 @@ Then set:
 
 **Phase 1, by activity:** paid media, production, research and testing,
 contingency (with a named purpose: overrun, opportunistic buy or channel
-trial). Kelley and Sheehan's illustrative split is media 75%, production 15%,
+trial). A commonly cited illustrative split is media 75%, production 15%,
 research 5%, contingency 5%; set the client's own split. Decide separately
 whether agency fees, staff time and tools sit inside the campaign budget.
 

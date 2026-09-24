@@ -2,7 +2,7 @@
 
 *Reference for §04 Market Analysis — Uganda context*
 
-Source: EAC Treaty and Common External Tariff; AfCFTA ratification records; Uganda World Business Journal 2025 (WBJAC International); UNCTAD AfCFTA assessment 2023; NRC Self-Employment Guide Uganda 2025.
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 
 **See also:** `eac-trade-data-2024.md` — companion file with 2024–2025 trade performance data, Uganda export potential by sector (AfCFTA), EAC supply chain integration benchmarks, and One-Stop Border Post impact data.
 
@@ -169,3 +169,8 @@ Exporters of garments, horticulture, fish, and processed coffee can access US an
 ### AfCFTA Services (§03 and §07)
 
 Professional services firms (legal, accounting, IT, engineering, health) should note that AfCFTA's Annex on Trade in Services, once operational, removes many barriers to cross-border service delivery. This is particularly relevant for digital services that can be delivered remotely across borders.
+
+
+---
+
+Sources consulted: EAC Treaty and Common External Tariff; AfCFTA ratification records; Uganda World Business Journal 2025 (WBJAC International); UNCTAD AfCFTA assessment 2023; NRC Self-Employment Guide Uganda 2025..

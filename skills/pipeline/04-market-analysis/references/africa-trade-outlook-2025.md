@@ -4,7 +4,7 @@ description: Africa-wide and East Africa macroeconomic context for 2025 business
 ---
 
 # African Trade and Economic Outlook 2025
-**Source:** Afreximbank. (2025). *African Trade and Economic Outlook 2025*. Cairo: African Export-Import Bank.
+**Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 **Relevance:** Continental macro framing, East Africa GDP and trade benchmarks, AfCFTA impact, commodity price trends, credit ratings, intra-African trade data
 
 ---
@@ -215,3 +215,8 @@ China to Africa: US$132B in imports; US$86B in exports — China is a net suppli
 Afreximbank. (2025). *African Trade and Economic Outlook 2025*. Cairo: African Export-Import Bank (Afreximbank).
 
 Supporting data: International Monetary Fund, World Economic Outlook (October 2024); IMF Direction of Trade Statistics (DOTS), December 2024; World Bank; OECD, 2025; Investing.com, 2025.
+
+
+---
+
+Sources consulted: Afreximbank. (2025). *African Trade and Economic Outlook 2025*. Cairo: African Export-Import Bank..

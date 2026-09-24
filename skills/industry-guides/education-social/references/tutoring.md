@@ -1,7 +1,7 @@
 # Tutoring and Supplementary Education
 
 **Sub-sector:** Private Education Services / Educational Support
-**Sources:** Guillebeau (2017), Amitabh (2022), Gary Raj (2022), Beames/Higgins/Nicol/Smith (2024)
+**Basis:** Planning reference written for this engine; figures are planning assumptions to re-verify with dated local quotes and data (see Sources consulted at the end).
 **Currency:** UGX (1 USD ≈ UGX 3,700 as of 2026)
 
 > Supplementary tutoring serves students already enrolled in conventional schools, colleges, and universities. Demand in Uganda is structurally driven by large class sizes in government schools (often 60–100 pupils per teacher), the high-stakes nature of UNEB exams (UCE and UACE), and fierce competition for university places. The tutoring business rewards genuine expertise, strong results records, and word-of-mouth reputation — and can be started with minimal capital.
@@ -393,11 +393,11 @@ There is no specific government licence required to operate as a private tutor i
 
 ## Teaching Methodology: Active Learning Principles
 
-Conventional school teaching in Uganda is predominantly transmission-based: the teacher lectures, students copy notes. Effective tutoring can be structurally different and should be. The following principles are drawn from the research literature on learning effectiveness (Beames, Higgins, Nicol and Smith, *Outdoor Learning Across the Curriculum*, Routledge 2024), adapted from their core pedagogical arguments about active, experiential, and learner-centred approaches.
+Conventional school teaching in Uganda is predominantly transmission-based: the teacher lectures, students copy notes. Effective tutoring can be structurally different and should be. The following principles are drawn from the research literature on learning effectiveness (see Sources consulted), adapted from their core pedagogical arguments about active, experiential, and learner-centred approaches.
 
 ### Principle 1: Active Learning Over Passive Copying
 
-Beames et al. argue that "the opportunities for academic development . . . are extensive" when students are placed in active learning situations — doing, not just watching. The direct corollary for tutoring: students should be working problems, not watching the tutor work them.
+Learning research supports placing students in active learning situations — doing, not just watching. The direct corollary for tutoring: students should be working problems, not watching the tutor work them.
 
 **In practice:**
 - The tutor works one example on the whiteboard (fully narrated, showing reasoning aloud)
@@ -409,7 +409,7 @@ Beames et al. argue that "the opportunities for academic development . . . are e
 
 ### Principle 2: Inquiry-Based and Socratic Questioning
 
-Rather than giving students answers, effective tutors guide students to discover answers through structured questioning. This approach is rooted in Dewey's concept of placing students at "forks in the road" where they must reason and decide (Beames et al., 2024, p. 40, citing Dewey 1973).
+Rather than giving students answers, effective tutors guide students to discover answers through structured questioning. This approach is rooted in Dewey's concept of placing students at "forks in the road" where they must reason and decide (after Dewey).
 
 **Socratic technique in tutoring:**
 - "What do you know about this topic already?"
@@ -422,13 +422,13 @@ Rather than giving students answers, effective tutors guide students to discover
 
 ### Principle 3: Curiosity and Wonder as Learning Drivers
 
-Beames et al. (2024, Chapter 6) distinguish between *curiosity* (wanting to find a specific answer) and *wonder* (the deeper affective engagement with the limits of what one knows). In tutoring terms, this translates to the difference between a student who wants to know "what is the answer to question 5" and a student who genuinely wonders "why does compound interest grow exponentially?" The tutor's role is to move students from the former to the latter.
+Outdoor-learning pedagogy distinguishes between *curiosity* (wanting to find a specific answer) and *wonder* (the deeper affective engagement with the limits of what one knows). In tutoring terms, this translates to the difference between a student who wants to know "what is the answer to question 5" and a student who genuinely wonders "why does compound interest grow exponentially?" The tutor's role is to move students from the former to the latter.
 
 **In practice:**
 - Connect exam content to real-world examples the student recognises (e.g., mobile money compound interest for Mathematics; food spoilage for Biology microbiology)
 - Ask "have you ever wondered why . . . ?" before introducing a new concept
 - Allow students to ask their own questions — do not rush past a genuine "I don't understand why this works" moment. These are the highest-value learning moments.
-- Use Heron and Reason's four-point epistemology (Beames et al., 2024, p. 78):
+- Use Heron and Reason's four-point epistemology of knowing:
   1. **Experiential knowing** — connect concept to something the student has directly experienced
   2. **Presentational knowing** — student explains or draws the concept in their own words
   3. **Propositional knowing** — formal theory, formula, or rule is introduced and applied
@@ -477,7 +477,7 @@ For UCE/UACE and professional examinations, past-paper practice under timed, exa
 
 ### Principle 7: Reflective Learning and Self-Monitoring
 
-Beames et al. (2024, Chapter 12) describe reflective journalling as a tool for evidencing and deepening learning. Adapted for tutoring:
+Reflective journalling is a recognised tool for evidencing and deepening learning. Adapted for tutoring:
 
 **Student session log (simple, 5 minutes at end of each session):**
 Students answer four questions in a small notebook:
@@ -490,7 +490,7 @@ Students answer four questions in a small notebook:
 
 ### Principle 8: Zone of Proximal Development — Pitch Correctly
 
-Vygotsky's Zone of Proximal Development (ZPD) (referenced in Beames et al., 2024, p. 77) describes the space between what a student can do alone and what they can do with guidance. Effective tutoring operates in this zone — not too easy (boring, no growth), not too hard (frustrating, demoralising).
+Vygotsky's Zone of Proximal Development (ZPD)  describes the space between what a student can do alone and what they can do with guidance. Effective tutoring operates in this zone — not too easy (boring, no growth), not too hard (frustrating, demoralising).
 
 **In practice:**
 - Start each topic with a brief diagnostic: ask the student a question from the topic without prior instruction. Observe the response carefully.
@@ -748,10 +748,6 @@ There is no legal requirement for tutors to carry professional indemnity insuran
 
 ---
 
-## Source Note
+## Sources consulted
 
-Tutoring rates and market data: Guillebeau (2017), *The \$100 Startup*; Amitabh (2022), *Passion Economy*; Gary Raj (2022), internal market surveys published in *Side Hustle Uganda* series. All rates are Kampala 2026 estimates.
-
-Active learning and pedagogical frameworks: Beames, S., Higgins, P., Nicol, R. and Smith, H. (2024). *Outdoor Learning Across the Curriculum: Theory and Guidelines for Practice* (2nd ed.). Routledge. Chapters 3 (learning across the curriculum), 6 (curiosity, wonder, and the four-point epistemology), and 12 (evidencing learning and the reflective journal framework). The pedagogical principles in this reference file are drawn from the theoretical sections of this book and adapted from the outdoor learning context to the private tutoring context — the underlying learning science applies identically to indoor, 1-on-1, and online teaching.
-
-UNEB and NCDC information: Uganda National Examinations Board (uneb.ac.ug) and National Curriculum Development Centre (ncdc.go.ug). Regulatory and tax information: Uganda Registration Services Bureau (ursb.go.ug), Uganda Revenue Authority (ura.go.ug), NSSF Uganda (nssfug.org).
+Side-business and market literature (Guillebeau 2017; Amitabh 2022; Gary Raj 2022); learning-science and outdoor-learning pedagogy (see Sources consulted); UNEB (uneb.ac.ug) and NCDC (ncdc.go.ug) for curriculum and examinations; URSB, URA and NSSF for registration, tax and pension. All rates and market sizes are Kampala planning assumptions to re-verify; tax and payroll treatment: verify with the Chwezi finance engine.

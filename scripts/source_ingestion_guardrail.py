@@ -35,12 +35,12 @@ FULL_TEXT_MARKERS = {
 }
 EXCLUDED_PARTS = {".git", ".venv", "__pycache__", "node_modules"}
 
-# Content-aware check (report-only). A reference file that carries a single-source
+# Content-aware check (blocking). A reference file that carries a single-source
 # header plus book-like structure (chapter or part sections, or a "Key Quotes"
 # section) is probably a digest of one book, which must not be stored here.
-# TO MAKE THIS BLOCKING: set CONTENT_CHECK_BLOCKING = True (or run with --strict-content);
+# Blocking since the repository was cleaned (also available as --strict-content);
 # main() then exits 1 when any content warning is found.
-CONTENT_CHECK_BLOCKING = False
+CONTENT_CHECK_BLOCKING = True
 # The UNDP compendium business profiles live under the sector guides and are exempt.
 CONTENT_CHECK_EXCLUDED_PREFIXES = ("skills/industry-guides/",)
 SINGLE_SOURCE_HEADER = re.compile(r"(sources?|author|publisher|isbn|books?)\s*[:*|]", re.IGNORECASE)
@@ -160,7 +160,7 @@ def main() -> int:
     print(f"findings: {len(findings)}")
     for finding in findings:
         print(finding.format())
-    print(f"content-warnings: {len(warnings)} (report-only unless --strict-content or CONTENT_CHECK_BLOCKING)")
+    print(f"content-warnings: {len(warnings)} (blocking: CONTENT_CHECK_BLOCKING is True)")
     for warning in warnings:
         print(f"[WARNING] {warning.code}: {warning.path} {warning.message}")
     blocking = args.strict_content or CONTENT_CHECK_BLOCKING
