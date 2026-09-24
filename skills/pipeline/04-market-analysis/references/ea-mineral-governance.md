@@ -6,210 +6,225 @@ description: East Africa mineral resource governance data — mineral production
 # East Africa Mineral Resource Governance
 **Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 **Relevance:** Country-by-country mining sector data, royalty regimes, governance risk assessment, IFF risk, ASM sector sizing, and local content compliance for multi-country extractive plans
+**Access date for all data points:** 2026-09-25. Data points are dated to the year they describe and are in most cases 2015-2020 vintage: refresh before relying on them.
 
 ---
 
-## 1. Sector Overview by Country
+## 1. How to Use This Brief (Plan-Section Map)
 
-| Country | Mining GDP % | Top Commodities | Sector Trend |
-|---|---|---|---|
-| **Tanzania** | 5.1% (2018) | Gold, Diamonds, Coal, Gemstones | Most mature EA mining economy |
-| **Kenya** | ~4% (2016) | Soda Ash (3rd global), Titanium, Fluorspar | Early-stage oil added 2019 |
-| **Uganda** | 0.6% (2017) | Limestone, Pozzolana; Oil (pipeline) | Vastly underutilised; oil transformative |
-| **Rwanda** | 0.06% (2015–18 avg) | Tantalum (~50% global supply), Tin, Tungsten | Processes offshore; high forex value |
-| **Burundi** | 0.4% (2015–18 avg) | Tin, Tantalum, Tungsten, Gold | ASM dominant; conflict-affected |
-
-**Regional context:** Mining contributes <10% to EAC GDP despite hosting >30% of Africa's mineral reserves. All five economies are heavily agricultural; mineral sectors significantly underutilised.
-
----
-
-## 2. Mineral Production Data
-
-### Tanzania (2015–2018)
-| Mineral | Production | Trend |
+| Plan decision | Use these parts | Main caution |
 |---|---|---|
-| Gold | 35,864–45,155 kg/year | Declining |
-| Diamonds | 216,491–383,391 carats/year | Growing |
-| Gemstones | 284,321–1,872,915 kg/year | Sharp decline (2018 export ban) |
-| Coal | 257,321–725,911 tonnes/year | Growing |
+| Choose the jurisdiction | Part 2 (governance tiers), Part 3 (country baseline) | Governance scores are 2019 percentile ranks and Doing Business rankings are discontinued: treat as directional |
+| Size the market and revenue base | Part 3 (production, mining share of GDP) | Production series end 2018-2019; refresh from ministry or geological survey data |
+| Model fiscal terms | Part 4 (royalties, fees, revenue patterns) | Rates change with Finance Acts; verify each rate against current law |
+| Budget compliance and timelines | Part 5 (local content, legislation), Part 6 (IFF mitigation) | Cost adders are planning ranges, not statutory figures |
+| Assess risk and stakeholders | Part 7 (IFF, EITI, ASM) | ASM headcounts are estimates |
+| Write financing and DFI sections | Part 8 (implications per section) | Confirm political-risk cover terms with insurers |
 
-### Kenya (2015–2019)
-| Mineral | Production | Status |
+---
+
+## 2. Jurisdiction Ranking for Business Planning
+
+Governance tier used by this engine when choosing where to plan an extractive venture. Indicator figures are in Part 3.
+
+| Tier | Country | Rationale (data points in Part 3) |
 |---|---|---|
-| Soda Ash | 230,355–339,025 tonnes/year | Declining; 3rd global producer |
-| Titanium Ore | 486,000–643,494 tonnes/year | Steady (Base Titanium) |
-| Fluorspar | 7,000–70,096 tonnes/year | Halted 2018–19 |
-| Crude Oil | Commenced Aug 2019 | Expected 100,000 barrels/day by 2022 |
+| **Tier 1** | Rwanda | Highest government effectiveness and corruption-control percentiles in the peer group; best Doing Business rank |
+| **Tier 2** | Kenya | Mid-range effectiveness; improving tax administration |
+| **Tier 3A** | Tanzania | Strongest and most mature mining legal framework; weak government effectiveness score |
+| **Tier 3B** | Uganda | Moderate institutions; EITI joined; oil pipeline potentially transformative; corruption-control concern |
+| **Avoid** | Burundi | Conflict-affected; institutional capacity insufficient; suitable only for impact or humanitarian models |
 
-### Uganda (2017–2019)
-| Mineral | Production |
-|---|---|
-| Limestone | 203,073–1,231,925 tonnes/year |
-| Pozzolana | 686,563–1,103,198 tonnes/year |
-| Gold | Negligible (trace ASM) |
-
-### Government Revenue from Mining
-| Country | Period | Revenue | Shortfall |
-|---|---|---|---|
-| Uganda | FY18/19 | UGX 142.3B | UGX 3,592B missed target FY19/20 |
-| Tanzania | FY18/19 | TZS 16.2T | TZS 2.3T shortfall (12.6%) |
-| Kenya | FY18/19 | KES 1.58T | KES 25B shortfall |
-
-**Pattern:** All EAC states chronically miss revenue targets. Structural issue — not cyclical.
+**Jurisdiction-fit heuristic:** Rwanda for 3Ts (tin, tantalum, tungsten) and processing; Kenya for oil-adjacent services; Tanzania for gold and gemstone large-scale operations; Uganda for limestone, ASM aggregation and oil services.
 
 ---
 
-## 3. Royalty Rates by Country
+## 3. Baseline Data Points
 
-### Tanzania (most detailed; Mining Act 2010 + 2017 amendments)
+### 3.1 Sector weight by country
 
-| Mineral Type | Royalty Rate |
-|---|---|
-| Uranium, Diamonds, Gemstones | **5%** of gross mineral value |
-| Metallic minerals (Gold, Copper, Silver, Platinum group) | **4%** |
-| Gemstones (other) | **1%** |
-| Other minerals | **3%** (recently reduced to 1.5% for base metals) |
-| Additional: Export clearing fee (Finance Act 2017) | **+1%** on all mineral exports |
+| Country | Mining share of GDP | Top commodities | Sector trend | Source |
+|---|---|---|---|---|
+| Tanzania | 5.1% (2018) | Gold, diamonds, coal, gemstones | Most mature EA mining economy | AFRODAD, Mineral Resource Governance in East Africa, 2021 |
+| Kenya | ~4% (2016) | Soda ash (3rd largest global producer), titanium, fluorspar | Early-stage oil added 2019 | same |
+| Uganda | 0.6% (2017) | Limestone, pozzolana; oil (pipeline) | Vastly underutilised; oil transformative | same |
+| Rwanda | 0.06% (2015-18 average) | Tantalum (~50% of global supply), tin, tungsten | Processes offshore; high forex value | same |
+| Burundi | 0.4% (2015-18 average) | Tin, tantalum, tungsten, gold | ASM dominant; conflict-affected | same |
 
-### Kenya (Mining Royalties Regulations 2017)
-- Export minerals: calculated on FOB value at port of exit
-- Locally consumed minerals: calculated on selling-point price
-- Payment schedule: quarterly (31 Mar, 30 Jun, 30 Sep, 31 Dec)
-- **Petroleum revenue sharing (Petroleum Act 2019):** 75% national / 25% county / 5% local communities
+Regional context: mining contributes under 10% of EAC GDP although the region hosts over 30% of Africa's mineral reserves; all five economies are heavily agricultural. (Source: AFRODAD, 2021.)
 
-### Uganda, Rwanda, Burundi
-- Rates not published in AFRODAD study; estimated at 3–5% (comparable to regional peers)
-- Uganda mining revenue: UGX 109.5B–142.3B/year (FY17/18 to FY18/19) — suggest reasonable collection
-- Rwanda: predominantly ASM; processing offshore limits domestic royalty base
+### 3.2 Production ranges
 
----
+| Country | Mineral | Production range (period) | Trend | Source |
+|---|---|---|---|---|
+| Tanzania | Gold | 35,864-45,155 kg/year (2015-2018) | Declining | AFRODAD, 2021 |
+| Tanzania | Diamonds | 216,491-383,391 carats/year | Growing | same |
+| Tanzania | Gemstones | 284,321-1,872,915 kg/year | Sharp decline after 2018 export ban | same |
+| Tanzania | Coal | 257,321-725,911 tonnes/year | Growing | same |
+| Kenya | Soda ash | 230,355-339,025 tonnes/year (2015-2019) | Declining | same |
+| Kenya | Titanium ore | 486,000-643,494 tonnes/year | Steady (single major producer) | same |
+| Kenya | Fluorspar | 7,000-70,096 tonnes/year | Halted 2018-19 | same |
+| Kenya | Crude oil | Commenced Aug 2019; 100,000 barrels/day expected by 2022 (projection, verify actual) | Early stage | same |
+| Uganda | Limestone | 203,073-1,231,925 tonnes/year (2017-2019) | n/a | same |
+| Uganda | Pozzolana | 686,563-1,103,198 tonnes/year | n/a | same |
+| Uganda | Gold | Negligible (trace ASM) | n/a | same |
 
-## 4. Governance Indicators (World Bank 2019)
+### 3.3 Government revenue from mining
+
+| Country | Period | Revenue | Shortfall against target | Source |
+|---|---|---|---|---|
+| Uganda | FY18/19 | UGX 142.3B | UGX 3,592B missed target FY19/20 (as reported; verify) | AFRODAD, 2021 |
+| Tanzania | FY18/19 | TZS 16.2T | TZS 2.3T shortfall (12.6%) | same |
+| Kenya | FY18/19 | KES 1.58T | KES 25B shortfall | same |
+
+Pattern: all EAC states chronically miss revenue targets; the source treats this as structural, not cyclical.
+
+### 3.4 Governance indicators (percentile ranks, 2019; Doing Business rank, 2020 edition)
 
 | Indicator | Kenya | Tanzania | Uganda | Rwanda | Burundi |
 |---|---|---|---|---|---|
-| **Voice & Accountability** | 36.5% | 32.0% | 30.0% | 18.7% | 4.9% |
-| **Political Stability** | 12.4% | **32.9%** | 22.9% | **52.4%** | 7.1% |
-| **Government Effectiveness** | 38.5% | 17.3% | 31.3% | **60.6%** | 10.1% |
-| **Quality of Regulation** | 41.3% | 27.9% | 38.0% | **58.2%** | 14.9% |
-| **Rule of Law** | 35.6% | 29.3% | 43.8% | **56.3%** | 5.8% |
-| **Control of Corruption** | 24.5% | 40.9% | 11.5% | **70.7%** | 4.8% |
-| **Ease of Doing Business** | 80th | 137th | 122nd | **41st** | 164th |
+| Voice and accountability | 36.5% | 32.0% | 30.0% | 18.7% | 4.9% |
+| Political stability | 12.4% | 32.9% | 22.9% | 52.4% | 7.1% |
+| Government effectiveness | 38.5% | 17.3% | 31.3% | 60.6% | 10.1% |
+| Quality of regulation | 41.3% | 27.9% | 38.0% | 58.2% | 14.9% |
+| Rule of law | 35.6% | 29.3% | 43.8% | 56.3% | 5.8% |
+| Control of corruption | 24.5% | 40.9% | 11.5% | 70.7% | 4.8% |
+| Ease of doing business rank | 80th | 137th | 122nd | 41st | 164th |
 
-**Key patterns:**
-- **Rwanda** dominates on institutional quality (government effectiveness 60.6%, corruption control 70.7%) despite smallest mineral endowment
-- **Tanzania** has strongest political stability (32.9%) and corruption control (40.9%) but weakest government effectiveness (17.3%)
-- **Uganda** stands out on Rule of Law (43.8%) but has lowest corruption control after Burundi (11.5%)
-- **Kenya** has lowest political stability (12.4%) — election cycle volatility
-- **Burundi** critically weak across all indicators — unsuitable for formal commercial investment
+Source: World Bank, Worldwide Governance Indicators (2019) and Doing Business (2020), as reproduced in AFRODAD, 2021. Verify against the current WGI release (the Doing Business series has been discontinued).
 
----
-
-## 5. Illicit Financial Flows (IFF) Risk
-
-**Continental:** Africa loses **USD 30–52 billion per year** to trade mispricing (UNCTAD 2020). **>50% of trade-related IFFs** come from the extractive sector (UNECA 2015).
-
-**Tanzania case (Acacia Mining, 2017):** Accused of multi-year tax evasion and under-declaring mineral exports. Government tax bill: **TZS 190 billion** (later disputed/settled). EITI discrepancy (2009): ~USD 37M between company-reported and government-received payments.
-
-**IFF mechanisms:**
-1. Transfer mispricing (profit shifting via related-party transactions)
-2. Trade mispricing (under-invoicing mineral exports / over-invoicing imports)
-3. Double Taxation Agreement (DTA) exploitation — DTAs often asymmetrically favour developed-country counterparties
-4. Thin capitalisation (excessive debt from parent companies)
-
-**Mitigation for business plans:**
-- Commission transfer pricing study (2–3% of capex; required by Kenya/Tanzania/Uganda tax authorities)
-- Budget 5–10% contingency for potential tax audits/disputes
-- Engage local tax counsel with mining specialisation
-- Consider Advance Pricing Agreements (APAs) with revenue authority for 3–5 year certainty
+Reading the pattern:
+- Rwanda leads on institutional quality (effectiveness 60.6%, corruption control 70.7%) despite the smallest mineral endowment.
+- Tanzania has the best political stability (32.9%) and corruption control (40.9%) among the three larger economies but the weakest government effectiveness (17.3%).
+- Uganda is strongest on rule of law (43.8%) but has the lowest corruption control after Burundi (11.5%).
+- Kenya has the lowest political stability (12.4%), consistent with election-cycle volatility.
+- Burundi is critically weak on every indicator.
 
 ---
 
-## 6. EITI Participation & Transparency
+## 4. Fiscal Terms
 
-| Country | EITI Status | Notes |
-|---|---|---|
-| **Uganda** | Joined 2020 (54th member) | Expected initial disclosures within 18 months; viewed as investment climate signal |
-| **Tanzania** | Implementing member (~2015) | Improved revenue transparency; helped identify $37M discrepancy |
-| **Kenya** | Working toward membership | Not yet full member |
-| **Rwanda** | Not member | Governance strength compensates |
-| **Burundi** | Not member | Institutional capacity insufficient |
+### 4.1 Royalty and fee rates (all rates: verify against current law)
 
----
-
-## 7. Artisanal & Small-Scale Mining (ASM)
-
-| Country | Direct Employment | Economic Significance | Status |
+| Country | Item | Rate or rule | Source |
 |---|---|---|---|
-| **Uganda** | ~300,000 | ~5,000,000 economically dependent | Informal; excluded from official statistics |
-| **Rwanda** | Predominantly ASM | Majority of sector | Formalisation attempted; licensing halted 2018 (reformed) |
-| **Burundi** | ~34,000 | Rural livelihood base | ~80% of sector; low formal taxation |
-| **Kenya** | Unknown | Soda Ash ASM minimal; Gold/Gemstone ASM growing | Licensing framework developing (2019 regs) |
-| **Tanzania** | Unknown | Alluvial gold; gemstone ASM | Export ban forcing beneficiation |
+| Tanzania | Uranium, diamonds, gemstones (higher class) | 5% of gross mineral value | AFRODAD, 2021 (Mining Act 2010 and 2017 amendments) |
+| Tanzania | Metallic minerals (gold, copper, silver, platinum group) | 4% | same |
+| Tanzania | Gemstones (other) | 1% | same |
+| Tanzania | Other minerals | 3% (source notes a reduction to 1.5% for base metals) | same |
+| Tanzania | Export clearing fee (Finance Act 2017) | +1% on all mineral exports | same |
+| Kenya | Export minerals | Royalty on FOB value at port of exit | AFRODAD, 2021 (Mining Royalties Regulations 2017) |
+| Kenya | Locally consumed minerals | Royalty on selling-point price | same |
+| Kenya | Payment schedule | Quarterly: 31 Mar, 30 Jun, 30 Sep, 31 Dec | same |
+| Kenya | Petroleum revenue sharing (Petroleum Act 2019) | 75% national / 25% county / 5% local communities as stated in source (does not sum to 100%: verify the split) | same |
+| Uganda, Rwanda, Burundi | Royalty rates | Not published in the source; planning placeholder 3-5% in line with regional peers (assumption, verify) | same |
 
-**Africa-wide:** >20 million directly employed in ASM (Fritz et al. 2018). Formalisation potential: 2–5× productivity gain with access to equipment, finance, skills.
+Additional data points: Uganda mining revenue UGX 109.5B-142.3B per year (FY17/18 to FY18/19), suggesting reasonable collection; Rwanda's processing is offshore, which limits the domestic royalty base.
 
----
-
-## 8. Local Content Requirements
-
-| Country | LCP Maturity | Key Requirements |
-|---|---|---|
-| **Tanzania** | ⭐⭐⭐⭐⭐ Most developed | Foreign ownership controls; procurement restrictions; employment mandates; regulatory sanctions (Mining Act 2017 + LCP Regs 2018/2019) |
-| **Uganda** | ⭐⭐⭐ Developing | National Local Content Act (2020); Petroleum Regulations (2017) |
-| **Kenya** | ⭐⭐⭐ Developing | Mining Act (2016) + Petroleum Act (2019) employment/skills mandates; Local Content Bill (2018) pending |
-| **Rwanda** | ⭐⭐ Limited | ASM-focused; 3Ts traceability; licensing reforms |
-| **Burundi** | ⭐ Minimal enforcement | Conceptual only; institutional capacity gap |
-
-**Compliance cost estimate:**
-- Tanzania: 15–25% cost adder on project budget
-- Kenya/Uganda: 10–15% cost adder
-- Enforcement lead time: Budget 12–18 months for approvals and negotiations
+### 4.2 Modelling implications
+- Model the royalty base explicitly (gross value, FOB or selling-point) per country; the base matters as much as the rate.
+- Include the Tanzania contract-renegotiation law (2017) as a live scenario in the DCF.
+- Model transfer-pricing and audit exposure as a contingency (Part 6).
 
 ---
 
-## 9. Key Legislation by Country
+## 5. Local Content and Legislation
 
-| Country | Primary Laws |
+### 5.1 Local content maturity and cost adders
+
+| Country | Maturity (planning judgement) | Key requirements | Source |
+|---|---|---|---|
+| Tanzania | Most developed (5 of 5) | Foreign ownership controls; procurement restrictions; employment mandates; regulatory sanctions (Mining Act 2017 and LCP Regulations 2018/2019) | AFRODAD, 2021 |
+| Uganda | Developing (3 of 5) | National Local Content Act (2020); Petroleum Regulations (2017) | same |
+| Kenya | Developing (3 of 5) | Mining Act (2016) and Petroleum Act (2019) employment and skills mandates; Local Content Bill (2018) pending at source date | same |
+| Rwanda | Limited (2 of 5) | ASM-focused; 3Ts traceability; licensing reforms | same |
+| Burundi | Minimal enforcement (1 of 5) | Conceptual only; institutional capacity gap | same |
+
+Compliance cost adders (planning ranges, verify): Tanzania 15-25% on project budget; Kenya and Uganda 10-15%. Budget local content as a permanent operating cost, and allow 12-18 months for approvals and negotiations. Engage local supply-chain partners 2-3 years before operations.
+
+### 5.2 Key legislation
+
+| Country | Primary laws (as listed at source date; verify for amendments) |
 |---|---|
-| **Tanzania** | Mining Act (2010) + amendments (2017); EITI Act (2015); Natural Wealth & Resources Acts (2017); LCP Regulations (2018/2019) |
-| **Kenya** | Mining Act (2016); Petroleum Act (2019); Royalties Regulations (2017); additional regs 2019 |
-| **Uganda** | Mining & Mineral Policy (2018); Mining Bill (2019 — replaces 2003 Act); National Local Content Act (2020); Petroleum Regulations (2017) |
-| **Rwanda** | Mining Code (2018) — includes ASM licensing reform |
-| **Burundi** | Mining legislation framework (weak implementation) |
+| Tanzania | Mining Act (2010) and amendments (2017); EITI Act (2015); Natural Wealth and Resources Acts (2017); LCP Regulations (2018/2019) |
+| Kenya | Mining Act (2016); Petroleum Act (2019); Royalties Regulations (2017); additional regulations 2019 |
+| Uganda | Mining and Mineral Policy (2018); Mining Bill (2019, to replace the 2003 Act; check whether enacted); National Local Content Act (2020); Petroleum Regulations (2017) |
+| Rwanda | Mining Code (2018), including ASM licensing reform |
+| Burundi | Mining legislation framework (weak implementation) |
 
 ---
 
-## 10. Governance Maturity Scorecard — Business Planning Tier
+## 6. Risk: Illicit Financial Flows and Tax Exposure
 
-| Tier | Country | Rationale |
-|---|---|---|
-| **Tier 1** | Rwanda | Government effectiveness 60.6%; corruption control 70.7%; Ease of Doing Business 41st |
-| **Tier 2** | Kenya | Government effectiveness 38.5%; EoDB 80th; improving tax administration |
-| **Tier 3A** | Tanzania | Strongest legal framework; most mature mining market; but weak government effectiveness (17.3%) |
-| **Tier 3B** | Uganda | Moderate institutions; EITI joined; oil pipeline transformative potential; corruption concern (11.5%) |
-| **Avoid** | Burundi | Conflict-affected; institutional collapse; suitable only for impact/humanitarian models |
+**Data points**
+- Africa loses an estimated USD 30-52 billion per year to trade mispricing (Source: UNCTAD, Economic Development in Africa Report, 2020); over 50% of trade-related illicit flows come from the extractive sector (Source: UNECA High-Level Panel on Illicit Financial Flows, 2015).
+- Tanzania case (2017): a large gold producer was accused of multi-year tax evasion and under-declared exports; a government tax bill of TZS 190 billion was later disputed or settled. An EITI reconciliation (2009) found a discrepancy of about USD 37M between company-reported and government-received payments. (Source: AFRODAD, 2021.)
 
----
+**Mechanisms to test in the plan**
+1. Transfer mispricing through related-party transactions.
+2. Trade mispricing (under-invoiced exports, over-invoiced imports).
+3. Double taxation agreement exploitation, where treaties favour the counterparty state.
+4. Thin capitalisation through excessive parent debt.
 
-## 11. Business Plan Application Notes
-
-**Jurisdiction selection:** Rwanda for 3Ts/processing (institutional strength); Kenya for oil-adjacent services; Tanzania for gold/gemstone large-scale operations; Uganda for limestone/ASM aggregation and oil services.
-
-**Financial modelling:** Model transfer pricing/IFF risk explicitly (5–10% contingency). Tanzania contract renegotiation law (2017) is live — include risk in DCF scenarios.
-
-**Local content:** Budget as permanent operating cost (not one-time). Tanzania: 15–25% premium. Uganda/Kenya: 10–15%. Engage local supply-chain partners 2–3 years before operations.
-
-**Regulatory timeline:** Add 12–18 months for approvals, EIA, LCP negotiations vs. stable jurisdictions.
-
-**DFI financing:** Preferred route — political risk insurance (MIGA/ATIA), covenants protect project timelines. EITI membership (Uganda) is a positive signal for DFI due diligence.
+**Mitigation to budget**
+- Transfer-pricing study, planning range 2-3% of capex (revenue authorities in Kenya, Tanzania and Uganda expect it; verify).
+- Contingency of 5-10% for tax audits and disputes (assumption).
+- Local tax counsel with mining specialisation.
+- Consider Advance Pricing Agreements with the revenue authority for 3-5 years of certainty.
 
 ---
 
-## Citation
-AFRODAD. (2021). *Mineral Resource Governance in East Africa: Implications of Policy, Institutions, International Instruments & Political-Economy Context*. Harare: African Forum and Network on Debt and Development.
+## 7. Risk: Transparency and Artisanal Mining
 
-Supporting: World Bank Governance Indicators (2019); World Bank Doing Business 2020; UNCTAD Economic Development in Africa Report (2020); UNECA High-Level Panel on Illicit Financial Flows (2015); EITI reports (Tanzania, Uganda); various EAC revenue authority annual reports.
+### 7.1 EITI participation (status at source date; verify)
+
+| Country | EITI status | Planning meaning | Source |
+|---|---|---|---|
+| Uganda | Joined 2020 (54th member) | Initial disclosures expected within 18 months; positive investment-climate signal | AFRODAD, 2021 |
+| Tanzania | Implementing member (about 2015) | Improved revenue transparency; helped identify the USD 37M discrepancy | same |
+| Kenya | Working toward membership | Not yet a full member | same |
+| Rwanda | Not a member | Governance strength compensates | same |
+| Burundi | Not a member | Institutional capacity insufficient | same |
+
+### 7.2 Artisanal and small-scale mining (ASM)
+
+| Country | Direct employment | Significance | Status | Source |
+|---|---|---|---|---|
+| Uganda | ~300,000 | ~5,000,000 economically dependent | Informal; excluded from official statistics | AFRODAD, 2021 |
+| Rwanda | Predominantly ASM | Majority of sector | Formalisation attempted; licensing halted 2018 (reformed) | same |
+| Burundi | ~34,000 | Rural livelihood base; ~80% of sector | Low formal taxation | same |
+| Kenya | Unknown | Soda ash ASM minimal; gold and gemstone ASM growing | Licensing framework developing (2019 regulations) | same |
+| Tanzania | Unknown | Alluvial gold; gemstone ASM | Export ban forcing beneficiation | same |
+
+Africa-wide: over 20 million people are directly employed in ASM (Source: Fritz et al., 2018, as cited by AFRODAD, 2021). Formalisation potential: 2-5 times productivity gain with access to equipment, finance and skills (source estimate; verify).
+
+---
+
+## 8. Implications for Plan Sections
+
+- **Market analysis:** anchor mining share of GDP and production series to Part 3, and state the data vintage; note that Uganda's non-oil mining is small and Rwanda's value is realised offshore.
+- **Regulatory and legal:** list the laws in 5.2 and state which have been amended since the source date.
+- **Financial modelling:** use the royalty rules in Part 4; add local-content adder, a 5-10% tax-dispute contingency and a 12-18 month approvals delay against stable jurisdictions.
+- **Risk section:** include IFF and audit exposure, contract-renegotiation risk (Tanzania), election-cycle volatility (Kenya) and ASM conflict or supply risk.
+- **Financing:** the preferred route is political-risk insurance (for example MIGA or ATI) with covenants that protect project timelines; EITI membership (Uganda) is a positive signal in DFI due diligence.
+- **Operations and supply chain:** start local-partner engagement 2-3 years pre-operation.
+
+---
+
+## 9. Verification Checklist (before use in a plan)
+- [ ] Royalty rates and export fees re-checked against current Finance Acts and mining regulations.
+- [ ] Governance percentiles refreshed from the current WGI release; Doing Business ranks replaced with a current business-climate measure.
+- [ ] Production series updated beyond 2018-2019 from national ministry or survey data.
+- [ ] EITI status and Uganda's mining law status confirmed.
+- [ ] Local-content cost adders confirmed with local counsel.
+- [ ] Kenyan petroleum revenue-sharing split confirmed (source figures do not sum to 100%).
+
+---
+
+## Citation and Attribution
+Source: AFRODAD, *Mineral Resource Governance in East Africa: Implications of Policy, Institutions, International Instruments & Political-Economy Context*, 2021 (cite only; licence terms not yet confirmed; do not reproduce text). Accessed 2026-09-25.
+
+Supporting data cited within it: World Bank Worldwide Governance Indicators (2019) and Doing Business 2020; UNCTAD Economic Development in Africa Report (2020); UNECA High-Level Panel on Illicit Financial Flows (2015); EITI reports (Tanzania, Uganda); EAC revenue authority annual reports.
 
 
 ---

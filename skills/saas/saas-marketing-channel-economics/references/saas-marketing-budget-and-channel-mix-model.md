@@ -38,7 +38,7 @@ Scale Ceiling (monthly spend)   $___           $___           $___
 | **Facebook / Meta (paid)** | Strong for B2C / SMB | Strong African reach; good for SMB / consumer SaaS |
 | **Content marketing (blog / podcast / video)** | Multi-year foundational | Powerful as moat; few competitors creating local-language content |
 | **Community (Slack / Discord / Telegram)** | Strong for product-led growth | WhatsApp / Telegram dominant; Slack rare outside startup-tech |
-| **WhatsApp Business** | Niche in US | DOMINANT in Africa B2B/B2C — primary channel |
+| **WhatsApp Business** | Niche in US | Dominant messaging channel in Africa B2B/B2C (no verified percentage; check client audience data) — primary channel |
 | **In-person events** | Conferences, owned events | Disproportionately effective in African business culture |
 | **Webinars** | Strong for B2B | Works; combine with WhatsApp for follow-up |
 | **Email outbound** | Mid-effectiveness; spam-filtered | Mid-effectiveness; combine with LinkedIn / WhatsApp |

@@ -88,7 +88,7 @@ Strategic posture: hybrid — train in US/EU; serve inference in-region for resi
 
 A chat-only agent design loses 60-80% of the addressable African user base. Plan for multichannel from day one:
 
-- **WhatsApp Business API** — dominant (KE, NG, ZA, UG, GH, TZ, RW); BSP layer (e.g. Twilio, 360dialog, Infobip, Africa's Talking, Hellio); per-conversation pricing
+- **WhatsApp Business API** — widely used, treat as dominant channel to verify with client audience data (KE, NG, ZA, UG, GH, TZ, RW); BSP layer (e.g. Twilio, 360dialog, Infobip, Africa's Talking, Hellio); per-conversation pricing
 - **USSD** — still huge for unbanked / non-smartphone; aggregator-mediated (Africa's Talking, Smartsupp, Hellio, Sasa USSD, MTN USSD, Safaricom USSD)
 - **SMS** — broad reach; per-message tariff; aggregator-mediated
 - **IVR / voice** — for low-literacy or hands-free use cases; per-minute tariff; speech-to-text for African languages still imperfect but improving

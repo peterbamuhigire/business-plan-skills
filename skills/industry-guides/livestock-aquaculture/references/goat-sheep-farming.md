@@ -705,59 +705,45 @@ Cull does that have:
 | Heart rate (beats/min) | 110–120 | 70–80 |
 | Breathing rate (breaths/min) | 12–20 | 9–15 |
 
-### Annual Health Calendar (national framework, verify locally)
+### Health Programme Structure and Planning Ranges (veterinary schedule required)
 
-#### Vaccinations
+> **Veterinary rule.** This guide does not give vaccination schedules, ages, booster intervals or doses. Every vaccination, deworming, dipping and prophylactic schedule must be set by a licensed veterinarian (or the District Veterinary Officer) from the current national guidance, the disease profile of the district and the product label of the registered product in use. Use the tables below only to structure the health programme and to budget for it.
 
-| Disease | Frequency | Notes |
-|---------|-----------|-------|
-| Clostridium perfringens / CD&T (Pulpy Kidney, Enterotoxaemia, Tetanus) | Twice per year | Primary course: first dose at 6–8 weeks of age; booster 3–4 weeks later. Pregnant does: vaccinate 4–6 weeks before kidding to transfer immunity via colostrum. Annual booster for all adults. |
-| PPR (Peste des Petits Ruminants) | Once per year (some protocols: once every 3 years after first dose) | After 3 months of age; no effective treatment if contracted |
-| FMD (Foot and Mouth Disease) | Once per year | After 4 months of age |
-| CCPP (Contagious Caprine Pleuropneumonia) | Once every 3 years | Death rate up to 100% if unvaccinated |
-| Haemorrhagic Septicaemia (Pasteurellosis / Pneumonia) | 1–2 months before hot/wet season; annual | Primary course: first dose at 3–4 weeks of age; booster 3–4 weeks later. Part of annual cocktail vaccine. Particularly important for intensively managed flocks and young kids. |
-| Brucella melitensis | Once; all does and bucks before first mating | Prevents abortion; boil milk before use |
-| Caseous Lymphadenitis (CL / Abscess — *Corynebacterium pseudotuberculosis*) | Annual in at-risk herds | Primary course: kids in infected herds at 3 months of age; booster 3–4 weeks later. Adults: annual vaccination in herds with confirmed CL history. Note: not all CL vaccines are specifically labelled for goats — confirm with your veterinary practitioner. Uganda availability: consult DVO; may require special order. Abscesses are highly contagious — burn or bury all pus material. |
-| Rabies | Annual | Initial dose: 3–6 months of age; annual boosters thereafter. Prioritise in areas with known rabies in dogs or wildlife. Uganda: rabies is endemic — vaccination is advisable for valuable breeding stock near settlements. |
-| Chlamydia / Campylobacter (Abortion vaccines) | Annual; before breeding season | Vaccinate breeding does before mating to prevent infectious abortions. Uganda availability: limited; consult MAAIF or DVO regarding availability of locally registered products. |
-| Foot Rot (*Dichelobacter nodosus*) | Annual in high-risk environments | Recommended in herds with persistent foot rot problems or wet/muddy grazing conditions. Combine with foot trimming, footbaths, and dry housing. |
-| Johne's Disease (*Mycobacterium avium* paratuberculosis) | Once in early life in endemic areas | Vaccinate kids at birth or in early life where Johne's Disease has been confirmed in the herd. No vaccine is effective for already-infected adults; no cure — cull affected animals. |
-| Others (anthrax in endemic areas, blue tongue) | As per veterinary practitioner guidance | Based on local disease profile |
+#### Health programme components (what the plan must cost and schedule)
 
-**Goat vaccination administration notes:**
-- Most goat vaccines are administered subcutaneously (through the skin)
-- Vaccinate only healthy animals — vaccinating sick animals is ineffective and wasteful
-- Minimise animal stress on vaccination day — stress impairs immune response
-- Store vaccines according to manufacturer instructions; most require refrigeration at 2°C–8°C
-- Record every vaccination in the medicine record (date, animal ID, product name, batch number, dose, next due date)
-- Consider using a farm management app to set automated reminders for booster and annual vaccination dates
+| Component | What the programme must contain | Planning driver for the budget | Who decides |
+|-----------|---------------------------------|--------------------------------|-------------|
+| Core vaccination | A written vaccination plan covering the diseases the vet lists as relevant for the district (clostridial diseases, PPR, CCPP, FMD, pasteurellosis, anthrax and brucellosis where applicable, others by local risk); a plan for breeding females before kidding and for young stock | Doses per animal per year x animals eligible x product price + vet visit fees + cold-chain cost. Treat the count of doses per year as a vet-supplied input (verify) | Licensed veterinarian; DVO; product label |
+| Risk-based vaccination | Conditional vaccines (rabies, foot rot, caseous lymphadenitis, abortion vaccines, Johne's disease, others) only where the vet has confirmed the herd or area risk | Include as a contingency line, not a fixed cost; availability of locally registered products must be confirmed with the DVO or MAAIF | Licensed veterinarian |
+| Internal-parasite control | A faecal-egg-count-led programme with FAMACHA scoring, rotation of drug classes and clean-pasture management | Testing cost per sampling round + treatments only for animals that need them; use a range of treatments per animal per year set with the vet (verify) | Licensed veterinarian |
+| Young-stock prophylaxis | Coccidiosis control for kids and lambs, selenium and vitamin E cover where deficiency is diagnosed | Cost per young animal; set by vet advice | Licensed veterinarian |
+| External-parasite and hoof care | Tick, mite and lice control with rotation of acaricide types, dip-wash strength checks, hoof trimming and footbaths | Dipping or spraying rounds x cost per round; frequency set by vet and tick pressure (verify) | Licensed veterinarian; product label |
+| Diagnostics and post-mortems | Fixed annual allowance for laboratory work and post-mortems of unexplained deaths | Percentage of herd value or fixed annual sum (verify) | Licensed veterinarian |
 
-#### Drenching and Prophylactic Treatments
+**Vaccination administration and handling (general practice, not a schedule):**
+- Vaccinate only healthy animals; sick animals respond poorly and waste product.
+- Minimise stress on vaccination day.
+- Store and transport vaccines exactly as the manufacturer states, keeping the cold chain intact.
+- Record every vaccination in the medicine record: date, animal ID, product name, batch number, dose as given by the vet, and next due date.
+- Use a farm-records tool or calendar to raise reminders for the dates the vet has set.
 
-| Treatment | Frequency | Notes |
-|-----------|-----------|-------|
-| Deworming (anthelmintic drench) | Every 3 months; adjust based on faecal egg counts | Faecal egg counts determine dewormer type and resistance status |
-| Coccidiostats | All goats 1–6 months of age | 7-day course; prevents Coccidiosis in kids |
-| Hoof trimming | Every 3 months or as needed | Immerse in copper sulphate or formalin solution after trimming |
-| Ecto-parasite control (dipping/spraying) | Weekly dipping | Rotate acaricide type to prevent acaricide resistance; regular analysis of dip wash |
-| Vitamin E and selenium injection | 3–4 weeks before kidding (does); newborn kids at 1–2 days | Prevents White Muscle Disease |
 
 ### Disease Reference Table (26 Diseases/Conditions)
 
 | Disease | Cause | Key Symptoms | Prevention | Treatment |
 |---------|-------|-------------|------------|-----------|
-| **PPR** (Peste des Petits Ruminants) | Virus | 4–5 day incubation; high fever (106–108°F); oral lesions; nasal discharge; severe diarrhoea; high death rate within 1 week; mainly young animals | Annual vaccination; limit movement of sick animals | No effective treatment; culling often necessary; antibiotics for secondary lung infection |
-| **CCPP** (Contagious Caprine Pleuropneumonia) | *Mycoplasma mycoides* | Rapid breathing; coughing; groaning on exhalation; heavy nasal discharge; high fever; death rate up to 100% | Well-ventilated shed; vaccination every 3 years | Arsenic preparations and antibiotics |
-| **Haemorrhagic Septicaemia** | *Pasteurella* bacteria | 2-day incubation; high fever; no appetite; rapid breathing; profuse saliva; bloody diarrhoea; death rate 80–90% | Vaccination 1–2 months before hot/wet season | Sulphonamides and/or antibiotics |
-| **FMD** (Foot and Mouth Disease) | Virus | 3–8 day incubation; excessive salivation/frothing; blisters in mouth and on legs; difficulty walking; production drops | Annual vaccination; quarantine; footbaths; prohibit transport | Keep animal eating by offering soft palatable feeds; cleanse mouth sores with salt solution; cleanse leg wounds with zinc/copper sulphate; apply hymex ointment |
-| **Anthrax** | *Bacillus anthracis* | 1–3 day incubation; sudden death; high fever; blood from all body openings after death | Annual vaccination in endemic areas; burn or bury carcasses 2 m underground with quicklime; do NOT open carcass | Antibiotics (often too late); notifiable disease |
+| **PPR** (Peste des Petits Ruminants) | Virus | 4–5 day incubation; high fever (106–108°F); oral lesions; nasal discharge; severe diarrhoea; high death rate within 1 week; mainly young animals | Vaccination per vet schedule; limit movement of sick animals | No effective treatment; culling often necessary; antibiotics for secondary lung infection |
+| **CCPP** (Contagious Caprine Pleuropneumonia) | *Mycoplasma mycoides* | Rapid breathing; coughing; groaning on exhalation; heavy nasal discharge; high fever; death rate up to 100% | Well-ventilated shed; vaccination per vet schedule | Arsenic preparations and antibiotics |
+| **Haemorrhagic Septicaemia** | *Pasteurella* bacteria | 2-day incubation; high fever; no appetite; rapid breathing; profuse saliva; bloody diarrhoea; death rate 80–90% | Vaccination timed by the vet before the hot or wet season | Sulphonamides and/or antibiotics |
+| **FMD** (Foot and Mouth Disease) | Virus | 3–8 day incubation; excessive salivation/frothing; blisters in mouth and on legs; difficulty walking; production drops | Vaccination per vet schedule; quarantine; footbaths; prohibit transport | Keep animal eating by offering soft palatable feeds; cleanse mouth sores with salt solution; cleanse leg wounds with zinc/copper sulphate; apply hymex ointment |
+| **Anthrax** | *Bacillus anthracis* | 1–3 day incubation; sudden death; high fever; blood from all body openings after death | Vaccination in endemic areas per vet schedule; burn or bury carcasses 2 m underground with quicklime; do NOT open carcass | Antibiotics (often too late); notifiable disease |
 | **Brucellosis** | *Brucella melitensis* | Abortion; carrier doe fails to conceive again | Vaccination; boil all milk before human consumption | Cull infected animals; no cure in livestock |
 | **Ecthyma/Orf** (Sore Mouth) | Virus | Pimples then scabs/blisters at corners of mouth, lips, gums; prevents eating; severe wasting | Adequate housing; vaccination for kids in infected pens; do NOT allow children to cuddle infected goats — ZOONOTIC | Isolation; frequent disinfection of sores with iodine; offer soft palatable feeds; wash hands after handling |
 | **Blue Tongue** | Virus (midge-borne) | Fever; tongue and gum ulcers; blue tongue; notifiable disease | Midge repellents; vaccination | Oxytetracyclines only if indicated by veterinarian |
 | **Heartwater** | *Ehrlichia ruminantium* (transmitted by Bont ticks) | High temperature; high-stepping jerky gait; shivering; walking in circles; paddling movements; death within 24 hours | Maintain some tick exposure to build natural immunity; monthly dipping when ticks visibly high | Early treatment with oxytetracyclines |
 | **Mastitis** | Bacteria | Swollen udder; lumpy, foul-smelling milk; doe rejects kid; yield drops ≥10% | Hygiene during milking; correct technique; strip cup before each milking | Milk infected udder empty at least 4× per day; massage; antibiotic infusion into udder via teat after milking |
 | **Pneumonia** | Virus, bacteria, lungworms, or fungus | Loss of appetite; cough; dullness; nasal discharge; difficulty breathing; fever | Good housing ventilation; proper management; deworming; adequate nutrition | Keep warm; isolate; antibiotics per veterinary practitioner |
-| **Bloat** | Physical obstruction or excessive fermentation (wet legumes, concentrates, rapid feed change) | Sudden rapid swelling of left flank; loss of appetite; frightened expression; rapid breathing; dazed; wobble; collapse; quick death possible | Gradually introduce new feeds; feed dry roughage before wet pasture; graze later in day when dew has dried | Elevate front legs; massage left flank vigorously; insert firm hose via gullet to release gas; drench 0.5 litres vegetable oil; severe cases: trocar into left flank — call veterinarian |
+| **Bloat** | Physical obstruction or excessive fermentation (wet legumes, concentrates, rapid feed change) | Sudden rapid swelling of left flank; loss of appetite; frightened expression; rapid breathing; dazed; wobble; collapse; quick death possible | Gradually introduce new feeds; feed dry roughage before wet pasture; graze later in day when dew has dried | Elevate front legs; massage left flank vigorously; insert firm hose via gullet to release gas; drench with vegetable oil at the volume the vet advises; severe cases: trocar into left flank — call veterinarian |
 | **Ketosis** (Pregnancy Toxaemia) | Insufficient energy in late pregnancy | Depression; weakness; disinterested in food; poor muscle control; urine positive for ketone bodies | Correct feeding throughout pregnancy (steaming up); body condition score ≥3.0 at parturition | Consult veterinarian; glucose drench; glycerine |
 | **CAE** (Caprine Arthritis Encephalitis) | Virus transmitted via colostrum/milk | Kids: paralysis; Adults: swollen joints; paralysis; breathing difficulty; hard udders | Feed kids pasteurised or heat-treated colostrum; test does for CAE; purchase only CAE-free animals | Consult veterinary officer; no cure |
 | **Diarrhoea** | Feed change; worms; liver fluke; Coccidiosis; viral or bacterial infection | Liquid faeces; listlessness; excessive drinking; possible fever; dehydration | Good hygiene; prevent overcrowding; feed in rack/net (not on ground); rotate pasture | Fast for 1 day; keep warm and dry; oral rehydration (1 tbsp salt + handful sugar per litre clean water); 1 tsp activated carbon 2× daily; Coccidiosis: sulphonamides per vet |
@@ -773,19 +759,18 @@ Cull does that have:
 | **Hoof Rot** | Bacterial infection (*Dichelobacter nodosus*) | Painful hoof; lameness; inflammation between hooves; wound inside hoof; inability to stand; bucks cannot mate | Maintain hygiene; avoid muddy areas; trim hooves regularly; zinc sulphate footbath | Isolate; clean with soap or iodine; antibiotic per veterinarian; zinc sulphate footbath |
 | **Toxicity** (plant or chemical) | Ingestion of toxic plants or incorrect chemical use | Variable; sudden illness; neurological signs; digestive disturbance | Know toxic plants in area; secure chemical storage; use acaricides/anthelmintics at prescribed doses only | Remove source; consult veterinarian immediately |
 
-### Internal Parasite Treatment Dosages (Reference)
+### Internal Parasite Treatment (planning drivers only; no dosage table)
 
-| Drug | Dose | Target parasites | Notes |
-|------|------|-----------------|-------|
-| Albendazole | 15 mg/kg body weight | Roundworms; liver fluke | NOT for pregnant does |
-| Fenbendazole | 5 mg/kg body weight | Roundworms; tapeworms | Broad spectrum |
-| Levamisole | 8 mg/kg body weight | Roundworms | |
-| Oxyclozanide | 15 mg/kg body weight | Liver fluke | |
-| Ivermectin | 0.2 mg/kg body weight | Roundworms; external parasites | Subcutaneous injection |
-| Praziquantel | 5 mg/kg body weight | Tapeworms | |
-| Pyrantal | 10 mg/kg body weight | Tapeworms | |
-| Avermectin (dip) | 0.2 mg/kg body weight | External parasites | Deep subcutaneous injection |
-| Dipping solution | 3–5 parts Malathion per 1,000 parts water | Ticks, lice, mites | Protect eyes, nose, mouth during dipping |
+Doses depend on the active ingredient, the formulation, the animal's live weight, pregnancy status and the current product label, and unsafe or under-dosing causes toxicity or drug resistance. **Do not take doses from this guide.** The plan should carry the following inputs, each supplied by the veterinarian and the product label:
+
+| Input | How the planning model uses it | Source of the value |
+|-------|--------------------------------|---------------------|
+| Products in the rotation (drug classes to be rotated) | Number of classes and cost per treatment | Licensed veterinarian; faecal egg count and resistance status |
+| Treatment rounds per animal per year | Multiplied by animals treated (not the whole flock when FAMACHA or egg counts guide treatment) | Licensed veterinarian |
+| Dose per kilogram and pack size | Cost per animal treated at average weight (weigh or use a weight tape) | Product label |
+| Restrictions (pregnancy, milk and meat withdrawal periods) | Withdrawal days recorded per treatment; lost milk or delayed sales costed | Product label; regulator guidance |
+| External-parasite dip or spray strength | Cost per dipping round; safety kit for handlers | Product label; vet or extension officer |
+
 
 **Resistance management:** faecal egg counts should be done regularly to determine which dewormer is effective. Rotate drug classes. Do NOT underdose (promotes resistance).
 
@@ -1388,29 +1373,29 @@ Sheep are grazers — their primary diet is grass and legume pastures. Unlike go
 | Finishing lamb (12 weeks–sale) | Ad libitum forage | 0.3–0.5 kg/day of energy concentrate |
 | Ram (pre-mating, 8 weeks before) | Ad libitum | 0.3–0.5 kg/day |
 
-### Sheep Vaccination and Deworming Schedule
+### Sheep Vaccination and Deworming Planning
 
-All vaccination and deworming provisions in the Health Management section apply to sheep. Sheep-specific notes and schedule:
+All vaccination and deworming provisions in the Health Management section apply to sheep. Sheep-specific notes (schedules come from the veterinarian):
 
-**Priority vaccines for sheep in Uganda and East Africa:**
+**Vaccines the sheep health plan usually has to consider (the veterinarian sets which ones, ages and intervals):**
 
-| Vaccine | Disease protected against | Schedule | Notes |
-|---------|--------------------------|----------|-------|
-| **CDT / Clostridial (5-in-1 or 6-in-1)** | Pulpy kidney (enterotoxaemia), tetanus, black disease, blackleg | Lambs: first dose at 6–8 weeks; booster 4 weeks later. Adults: annual booster, especially before lambing | Most important routine vaccine; vaccinate ewes 3 weeks before parturition to transfer immunity to lambs via colostrum |
-| **PPR (Peste des Petits Ruminants)** | Fever, mouth sores, diarrhoea, pneumonia — can be fatal | Once; protects for 3+ years after initial dose | No effective treatment if contracted; annual or triennial depending on veterinary protocol |
-| **FMD (Foot and Mouth Disease)** | Mouth blisters, leg lesions, production loss | Annual | After 4 months of age |
-| **Brucellosis** | Abortion, infertility | Once before first mating | Boil milk before human consumption; zoonotic risk |
-| **Sheep Pox** | Skin lesions; high mortality in lambs | Annual single dose | Important in areas with confirmed sheep pox presence |
-| **Foot Rot vaccine** | Severe lameness from hoof bacterial infection (*Dichelobacter nodosus*) | As per veterinary advice in affected areas | Most effective when combined with foot trimming and clean, dry housing |
-| **Pasteurellosis (Pneumonia)** | Bacterial pneumonia (*Pasteurella multocida*) | Annual; especially for intensively managed flocks | Particularly important for lambs |
-| **Bluetongue** | Midge-borne virus; tongue and gum ulcers | Before midge season; where locally relevant | — |
+| Vaccine or disease | Disease protected against | Planning note |
+|--------------------|--------------------------|---------------|
+| Clostridial (multi-component) | Pulpy kidney (enterotoxaemia), tetanus, black disease, blackleg | Usually the most important routine vaccine; ask the vet how to time cover for lambing ewes so lambs are protected through colostrum |
+| PPR | Fever, mouth sores, diarrhoea, pneumonia, can be fatal | No effective treatment; the vet sets the programme against national PPR control guidance |
+| FMD | Mouth blisters, leg lesions, production loss | Follow the national FMD control programme and vet guidance |
+| Brucellosis | Abortion, infertility | Zoonotic risk; boil milk before human consumption; vet sets timing |
+| Sheep pox | Skin lesions; high mortality in lambs | Relevant where sheep pox is confirmed; vet advice |
+| Foot rot | Severe lameness (*Dichelobacter nodosus*) | Most effective with foot trimming and clean, dry housing; vet advice |
+| Pasteurellosis | Bacterial pneumonia (*Pasteurella multocida*) | Particularly relevant for lambs and intensive flocks; vet advice |
+| Bluetongue | Midge-borne virus; tongue and gum ulcers | Where locally relevant; vet advice |
 
 **Deworming programme for sheep:**
 
 Sheep are more susceptible to internal parasites (gastrointestinal roundworms, tapeworms, liver fluke) than goats in Uganda's climate. A structured deworming programme is essential:
 
-- Start deworming at **4–6 weeks of age** for lambs
-- Adults: deworm every **3 months as a baseline**; adjust frequency based on faecal egg count (FEC) results — the most accurate approach
+- Begin lamb deworming at the age the vet sets, guided by faecal egg counts
+- Adults: the vet sets the baseline frequency; adjust it using faecal egg count (FEC) results, the most accurate approach
 - **FAMACHA scoring** (eye mucus membrane colour — see table in Health Management section) identifies which individual animals need deworming and avoids unnecessary whole-flock treatment, which accelerates resistance
 - **Rotate dewormer classes** — do not use the same drug class consecutively; resistance develops rapidly if rotation is neglected
 - **Pasture management:** rotational grazing significantly reduces larval burden on pastures; avoid grazing on previously contaminated pastures immediately after lambing (highest risk period)
@@ -1510,7 +1495,7 @@ Even without an app, maintain the seven record types listed in the Animal Identi
 
 | Risk | Likelihood | Severity | Mitigation |
 |------|-----------|---------|------------|
-| PPR outbreak | High (endemic in Uganda) | Very high — can kill entire unvaccinated herd | Annual vaccination non-negotiable; strict movement controls |
+| PPR outbreak | High (endemic in Uganda) | Very high — can kill entire unvaccinated herd | Vet-scheduled vaccination non-negotiable; strict movement controls |
 | Internal parasite burden (worms) | Very high | High — causes production losses even without visible signs | Faecal egg counts; strategic deworming; rotational grazing; FAMACHA monitoring |
 | Predation (dogs, jackals, hyenas) | High (rural areas) | Moderate — individual animal losses | Perimeter fencing; night housing; guardian animals |
 | Theft | High (high-value animals) | High | Physical security; animal identification; community relationships |

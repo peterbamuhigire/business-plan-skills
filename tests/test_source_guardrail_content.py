@@ -39,8 +39,26 @@ class ContentAwareGuardrailTests(unittest.TestCase):
     def test_task_reference_and_exempt_guides_are_not_warned(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = make(temporary, "skills/demo/references/task.md", "# Task\n\n## Step 1\ntext\n")
-            make(temporary, "skills/industry-guides/x/references/profile.md", DIGEST)
             self.assertEqual([], MODULE.scan_content(root))
+
+    def test_undp_marked_profile_is_exempt(self):
+        undp = "# Profile\n\n**UNDP Ref:** #1\n**Source:** UNDP Uganda Compendium Vol. 2\n\n" + "".join(
+            f"## Chapter {n} - Topic\ntext\n\n" for n in range(1, 5))
+        with tempfile.TemporaryDirectory() as temporary:
+            root = make(temporary, "skills/industry-guides/x/references/profile.md", undp)
+            self.assertEqual([], MODULE.scan_content(root))
+
+    def test_allowlisted_profile_is_exempt(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = make(temporary, "skills/industry-guides/x/references/listed.md", DIGEST)
+            make(temporary, "docs/quality/undp-compendium-allowlist.txt",
+                 "skills/industry-guides/x/references/listed.md\n")
+            self.assertEqual([], MODULE.scan_content(root))
+
+    def test_non_undp_industry_guide_digest_is_flagged(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = make(temporary, "skills/industry-guides/x/references/digest.md", DIGEST)
+            self.assertEqual(["single-source-chapter-structure"], [w.code for w in MODULE.scan_content(root)])
 
     def test_content_warnings_are_blocking(self):
         self.assertTrue(MODULE.CONTENT_CHECK_BLOCKING)

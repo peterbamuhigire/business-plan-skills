@@ -41,8 +41,12 @@ EXCLUDED_PARTS = {".git", ".venv", "__pycache__", "node_modules"}
 # Blocking since the repository was cleaned (also available as --strict-content);
 # main() then exits 1 when any content warning is found.
 CONTENT_CHECK_BLOCKING = True
-# The UNDP compendium business profiles live under the sector guides and are exempt.
-CONTENT_CHECK_EXCLUDED_PREFIXES = ("skills/industry-guides/",)
+# Only the UNDP compendium business profiles under the sector guides are exempt.
+# A file is exempt when (a) its header carries a UNDP marker ("UNDP Ref:" or a
+# Source line naming UNDP), or (b) it is listed in the generated allowlist.
+# All other industry-guides files are scanned like any other reference.
+UNDP_ALLOWLIST = Path("docs/quality/undp-compendium-allowlist.txt")
+UNDP_HEADER_MARKER = re.compile(r"\*\*UNDP Ref:\*\*|^\*\*Source:?\*\*:?[^\n]*UNDP", re.IGNORECASE | re.MULTILINE)
 SINGLE_SOURCE_HEADER = re.compile(r"(sources?|author|publisher|isbn|books?)\s*[:*|]", re.IGNORECASE)
 CHAPTER_HEADING = re.compile(r"^#{1,4}\s*(chapter|part)\s+[0-9ivx]+", re.IGNORECASE | re.MULTILINE)
 KEY_QUOTES_HEADING = re.compile(r"^#{1,4}\s*(key quotes?|notable quotes?|memorable quotes?)", re.IGNORECASE | re.MULTILINE)
@@ -123,19 +127,36 @@ def scan(root: Path) -> list[Finding]:
     return findings
 
 
+def load_undp_allowlist(root: Path) -> set[str]:
+    path = root / UNDP_ALLOWLIST
+    if not path.is_file():
+        return set()
+    lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
+    return {line.strip() for line in lines if line.strip() and not line.startswith("#")}
+
+
+def is_undp_profile(relative: str, header: str, allowlist: set[str]) -> bool:
+    if not relative.startswith("skills/industry-guides/"):
+        return False
+    return relative in allowlist or UNDP_HEADER_MARKER.search(header) is not None
+
+
 def scan_content(root: Path) -> list[Finding]:
     """Report-only heuristic for book digests kept as skill references."""
     root = root.resolve()
     warnings: list[Finding] = []
+    allowlist = load_undp_allowlist(root)
     for path in (root / "skills").rglob("*.md") if (root / "skills").is_dir() else []:
         relative = path.relative_to(root).as_posix()
-        if "/references/" not in relative or relative.startswith(CONTENT_CHECK_EXCLUDED_PREFIXES):
+        if "/references/" not in relative:
             continue
         try:
             text = path.read_text(encoding="utf-8", errors="ignore")
         except OSError:
             continue
         header = text[:1500]
+        if is_undp_profile(relative, header, allowlist):
+            continue
         chapters = len(CHAPTER_HEADING.findall(text))
         has_source = SINGLE_SOURCE_HEADER.search(header) is not None
         if has_source and chapters >= 3:

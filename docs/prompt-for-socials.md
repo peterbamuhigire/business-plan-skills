@@ -31,7 +31,7 @@ Enables a solo consultant or small agency to produce every deliverable in the so
 **Presentation decks:** Skills prefixed deck- generate complete slide-by-slide content outlines in markdown format. Each slide entry includes: slide number, headline/key message, bullet points, speaker notes, and visual direction. The output is paste-ready into PowerPoint, Canva, or Google Slides — the skill does not generate the actual .pptx file but makes building it trivial.
 
 **Default country context:** Uganda/East Africa. All examples, platform penetration data, pricing, and cultural references should reflect the Ugandan market unless the user specifies otherwise. Platform defaults for Uganda/EA:
-- WhatsApp: dominant messaging platform, 90%+ smartphone users
+- WhatsApp: dominant messaging channel (no verified share-of-smartphone-users figure exists; cite a dated, attributed figure or the client's own audience data)
 - Facebook: largest social platform, all demographics
 - Instagram: urban, 18–35, aspirational content
 - TikTok: fast-growing, 16–30, entertainment-first

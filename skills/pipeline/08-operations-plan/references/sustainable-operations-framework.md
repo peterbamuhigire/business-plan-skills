@@ -100,7 +100,7 @@ Industry 4.0 technologies (IoT, mobile data, cloud platforms, AI) enable sustain
 | Cloud-based inventory management | Reduce overstock and waste; optimise ordering; track supplier performance | High — affordable SaaS (Odoo, Wave, QuickBooks); basic smartphone required | UGX 50K–200K/month SaaS |
 | Digital quality control (photo + checklist apps) | Reduce defects; standardise inspection; reduce rework waste | Medium — requires basic digital literacy; training investment needed | UGX 0–100K (app); training cost |
 | Cold chain monitoring (temperature loggers) | Reduce post-harvest losses (currently 30–40% in Uganda for perishables) | High — major ROI opportunity; affordable loggers now available | UGX 150K–500K per logger |
-| WhatsApp-based grievance channels | Stakeholder feedback; community grievance mechanism (IFC PS1 requirement) | Very high — WhatsApp penetration in Uganda is ubiquitous | Minimal (existing infrastructure) |
+| WhatsApp-based grievance channels | Stakeholder feedback; community grievance mechanism (IFC PS1 requirement) | High — WhatsApp is widely used in Uganda (no verified penetration figure; check the community's own usage) | Minimal (existing infrastructure) |
 
 **Note on Dumas et al. (2013) redesign principle:** Do not automate a broken process. Before investing in any Industry 4.0 technology, apply the SURF framework (Section 2 above) to redesign the process first. Automating a wasteful process makes waste faster, not better.
 

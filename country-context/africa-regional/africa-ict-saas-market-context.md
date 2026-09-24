@@ -11,7 +11,7 @@ The canonical Africa-context reference for any SaaS / ICT plan in this engine. C
 
 ## 1. The African SaaS / ICT Opportunity (2025/26 baseline)
 
-- ~700M smartphone users across Africa (GSMA Mobile Economy 2024)
+- Smartphone-user scale across Africa: cite the figure directly from the current GSMA Mobile Economy report with title, year and URL; do not restate or paraphrase GSMA text (GSMA Intelligence content is verbatim-only; free Mobile Economy terms not checked, register LIC-09). Prior figure retained as an unverified planning note: ~700M (GSMA Mobile Economy 2024)
 - Internet penetration averaging 40-65% by country; rapidly rising
 - Mobile-money users ~700M+ (Sub-Saharan Africa is the global leader by user count)
 - Software industry growing 15-25% annually; SaaS adoption accelerating in financial services, telecom, agriculture, healthcare, logistics, education
@@ -138,7 +138,7 @@ Per country plus regional bodies:
 
 - **Internet quality varies** — design offline-first, low-bandwidth-friendly UX
 - **Mobile-first** — most B2B users are on Android phones, often with intermittent 3G
-- **WhatsApp ubiquity** — design WhatsApp Business as a primary channel for sales, support, CS, notifications
+- **WhatsApp reach** — widely used, but no verified share-of-users figure (check the client's audience data); design WhatsApp Business as a primary channel for sales, support, CS, notifications
 - **Code-switching** — UI in English + local-language is a competitive edge
 - **Cash culture** — even with mobile money, cash conversion features are valued (M-Pesa-to-cash, MoMo-to-cash)
 - **Public-sector ≠ private-sector** — completely different sales motion, contracting, payment terms

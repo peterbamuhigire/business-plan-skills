@@ -1,191 +1,154 @@
-# Uganda Tourism Sector
+# Uganda Tourism Sector (decision brief)
 **Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
-**Relevance:** Tourism business plans (lodges, tour operators, hospitality, wildlife, ecotourism, cultural tourism), investment proposals, market sizing, competitive positioning
+**Access date:** 2026-09-25 (data mostly 2019–2023; check for newer arrivals and receipts).
+**Attribution:** Source: World Bank, Uganda Economic Update, June 2023: Leveraging Tourism for Inclusive Growth, 2023 (World Bank publication licence is per item: CC BY 4.0 or IGO variants, and NC-ND items may only be cited; this is an adaptation by the engine, views are ours and not endorsed by the World Bank Group; check the item licence). Supporting: UBOS Tourism Satellite Account; UWA; UTB; MoTWA; WEF Travel and Tourism Competitiveness Report 2019; UNWTO; ILO.
+**Relevance:** Tourism business plans (lodges, tour operators, hospitality, wildlife, ecotourism, cultural tourism), investment proposals, market sizing, competitive positioning.
 
 ---
 
-## 1. Sector Size and Economic Contribution
+## 1. How to use this brief (plan-section map)
 
+| Plan section | Use |
+|---|---|
+| Market sizing | Section 2 (size, arrivals, jobs) |
+| Product and segment choice | Section 3 |
+| Competitive analysis | Section 4 |
+| Operations and site choice | Section 5 (infrastructure) |
+| Risk and financing | Sections 6 and 7 |
+| Funding request and opportunity framing | Section 8 |
+
+---
+
+## 2. Baseline indicators (dated data points)
+
+Source: World Bank, Uganda Economic Update, June 2023, 2023 unless a row names another origin. Verify before use.
+
+### Size and contribution
 | Indicator | Value | Period |
 |---|---|---|
-| Tourism share of GDP | **6%** | 2019 (pre-COVID peak) |
-| Tourism share of GDP (pandemic) | 2.7% | 2020 |
-| Tourism recovery | 4.2% of GDP | 2021 |
-| **NDP III target** | 8.5% of GDP, USD 1.86 billion | Aspirational — not on track |
-| Tourism receipts | **USD 1.4 billion** | 2019 |
-| Personal travel component | USD 800 million (60% of receipts) | 2019 |
-| Tourism as % of service exports | **25%** of total export receipts | 2019 |
+| Tourism share of GDP | 6% (pre-COVID peak); 2.7% (pandemic); 4.2% (recovery) | 2019; 2020; 2021 |
+| NDP III target | 8.5% of GDP, USD 1.86 billion (aspirational, not on track) | Plan target |
+| Tourism receipts | USD 1.4 billion; personal travel USD 800 million (60%) | 2019 |
+| Share of export receipts | 25% of total export receipts (service-export framing in the source) | 2019 |
+| Regional comparison (% GDP, pre-COVID) | Rwanda 11%; Tanzania 10%; Kenya 8%; Uganda 6% | pre-COVID |
 
-**Regional comparison (% of GDP, pre-COVID):**
-- Rwanda: **11%** | Tanzania: **10%** | Kenya: **8%** | Uganda: **6%**
-
----
-
-## 2. Tourist Arrivals
-
+### Arrivals
 | Year | Arrivals |
 |---|---|
 | 2017 | 1,026,942 |
 | 2018 | 870,465 |
-| **2019 (peak)** | **1,500,000** |
+| 2019 (peak) | 1,500,000 |
 | 2020 (COVID) | 510,833 |
 | 2021 | 512,945 |
-| **2022 (recovery)** | **513,000** (one-third of 2019) / 814,508 (alt. figure, 59% of 2021) |
+| 2022 | about 513,000 (one-third of 2019); alternative figure 814,508 (59% of 2021 as stated); reconcile before use |
 
-**Recovery context:** Uganda's recovery was slower than Kenya, Tanzania, Rwanda. September 2022 Ebola outbreak disrupted momentum.
+Recovery was slower than in Kenya, Tanzania and Rwanda; the September 2022 Ebola outbreak disrupted momentum.
 
----
-
-## 3. Employment
-
-| Measure | Value | Source |
+### Employment
+| Measure | Value | Origin |
 |---|---|---|
-| **Direct employment (2019)** | **670,000 workers** | World Bank calculation |
-| Direct employment as % of labour force | **7.4%** | 2019 |
-| Indirect/ecosystem employment | **1.56 million** | UBOS estimate |
-| As % of total employment | **14.7%** | UBOS |
-| ILO jobs multiplier | 1.5 jobs per 1 tourism job | ILO 2013 |
+| Direct employment (2019) | 670,000 workers; 7.4% of the labour force | World Bank calculation |
+| Indirect and ecosystem employment | 1.56 million; 14.7% of total employment | UBOS estimate |
+| Jobs multiplier | 1.5 jobs per tourism job | ILO 2013 |
 
 ---
 
-## 4. Wildlife and Nature Assets
+## 3. Product and segment data
 
-| Asset | Data |
+**Assets**
+- Mountain gorillas: Uganda hosts 54% of the world population (Bwindi Impenetrable and Mgahinga Gorilla national parks).
+- Birds: the largest species count in Africa (1,000+).
+- Big Five: lions, elephants, leopards, buffaloes present; chimpanzees at Kibale and Ngamba Island; rhinos at Ziwa Rhino Sanctuary.
+- Protected estate: 10 national parks plus wildlife and forest reserves.
+- Online sentiment (2018–2022): Bwindi 25 mentions (34% positive); Kazinga Channel 12 (25%); Murchison Falls 9 (32%); together 46% of nature-based mentions.
+
+**Segments**
+| Segment | Status |
 |---|---|
-| Mountain gorillas | Uganda hosts **54% of world's mountain gorilla population** |
-| Gorilla locations | Bwindi Impenetrable NP; Mgahinga Gorilla NP |
-| Bird species | **Largest number in Africa** (1,000+) |
-| Big Five presence | Lions, elephants, leopards, buffaloes — all present |
-| Chimpanzees | Kibale NP; Ngamba Island Chimpanzee Sanctuary |
-| Rhinos | Ziwa Rhino Sanctuary |
-| National parks | 10 national parks + wildlife reserves + forest reserves |
+| Nature and wildlife safaris | Dominant; only 3 parks have significant 3+ star hotels |
+| Gorilla trekking | Premium; Bwindi and Mgahinga |
+| Arts and cultural tourism | Growing; post-COVID sentiment increase; Fort Portal named the first "Tourism City" in 2022 |
+| Nautical and lake tourism | Growing (Lake Victoria, Nile, crater lakes) |
+| Business and MICE | Mentioned, not quantified |
+| Diaspora | Significant part of personal travel |
+| Adventure | Rwenzori hiking, Nile rafting, camping |
 
-**Top destinations by online sentiment mentions (2018–2022):**
-1. Bwindi Impenetrable Forest — 25 mentions (34% positive)
-2. Kazinga Channel (Queen Elizabeth NP) — 12 mentions (25% positive)
-3. Murchison Falls — 9 mentions (32% positive)
-*These three attractions account for 46% of all nature-based mentions.*
+Under-leveraged: crater lakes near Fort Portal; Sipi Falls; Source of the Nile (Jinja); Sesse Islands; Kasese (Rwenzori gateway).
 
 ---
 
-## 5. Tourism Sub-Segments
+## 4. Competitive position
 
-| Type | Status |
+WEF Travel and Tourism Competitiveness Index 2019 (Uganda): nature-based tourism 58th (3.7/7); business environment 81st (1.5/7); health and hygiene 136th (2.5/7); road infrastructure 113th.
+
+- Second to Kenya in online mentions for nature-based tourism in East Africa; second to Rwanda for lifestyle and cultural mentions.
+- Airfares (2022): intra-regional fares to Uganda KES 122–159 (lowest in the region); long-haul from the US, France and UK USD 785 against Kenya USD 585.
+- Entry mode: 81% by road (Rwanda 95% by air; Kenya 75% by air), reflecting a different tourist profile.
+- Hotel satisfaction (2022): Uganda surpassed Kenya and Tanzania on 3- and 4-star satisfaction among UK and US tourists.
+- Core advantages: gorillas, biodiversity, Nile access. Weaknesses: road access, accommodation quality outside major parks, marketing reach.
+
+---
+
+## 5. Infrastructure data
+
+| Item | Data |
 |---|---|
-| **Nature-based / wildlife safaris** | Dominant product; 3 parks with significant 3+ star hotels |
-| **Gorilla trekking** | Premium product; Bwindi and Mgahinga |
-| **Arts and cultural tourism** | Growing — significant post-COVID increase in sentiment; Fort Portal designated Uganda's first "Tourism City" 2022 |
-| **Nautical / lake tourism** | Growing despite no coastline (Lake Victoria, Nile, crater lakes) |
-| **Business/MICE tourism** | Mentioned but not quantified |
-| **Diaspora tourism** | Significant component of personal travel |
-| **Adventure tourism** | Hiking (Rwenzori), white-water rafting (Nile), camping |
-
-**Under-leveraged attractions:** Crater lakes near Fort Portal; Sipi Falls; Source of the Nile (Jinja); Sesse Islands; Kasese (gateway to Rwenzori)
+| Paved roads | 8% (1986) to 21.1% = 4,551 km (2018); 70% in good condition |
+| Road safety | 29 deaths per 100,000 (global average 17) |
+| Critical gaps | Mbale–Sironko–Budadiri road degraded; Murchison Falls and Kidepo roads unpaved or poor (4x4 needed) |
+| Air | Entebbe hub; airstrips at Pakuba, Kasese, Kidepo; nonstop routes from Kenya, Rwanda, Tanzania |
+| Accommodation | Only Bwindi, Murchison Falls, Queen Elizabeth have significant 3+ star hotels; Fort Portal limited quality despite potential |
+| Digital | Data cost USD 1.32/GB (Rwanda 1.10; Kenya 0.85; Tanzania 0.84); 66 mobile subscriptions per 100 people (2022) |
 
 ---
 
-## 6. Competitive Position
-
-**WEF Travel & Tourism Competitiveness Index 2019:**
-| Pillar | Uganda Score/Rank |
-|---|---|
-| Nature-based tourism | 58th worldwide, 3.7/7 |
-| Business environment | 81st, 1.5/7 |
-| Health & hygiene | 136th, 2.5/7 |
-| Road infrastructure | 113th |
-
-- Uganda ranks **2nd to Kenya** in online mentions for nature-based tourism in East Africa
-- Uganda ranks **2nd to Rwanda** in lifestyle/cultural activity mentions
-
-**Airfare comparison (2022):**
-- Intra-regional fares to Uganda: KES 122–159 (lowest in East Africa)
-- Long-haul fares (US/France/UK to Uganda): USD 785 (most expensive — vs Kenya USD 585)
-- Mode of entry: **81% by road** (vs Rwanda 95% by air, Kenya 75% by air) — reflects different tourist profile
-
----
-
-## 7. Infrastructure
-
-**Roads:**
-- Paved road network: 8% (1986) → **21.1%** = 4,551 km (2018)
-- 70% of paved roads in good condition
-- Road death rate: **29 per 100,000** (vs global average 17)
-- **Critical gaps:** Mbale–Sironko–Budadiri road (degraded); roads to Murchison Falls and Kidepo Valley unpaved/poor — require 4×4
-
-**Air:**
-- Entebbe International Airport — main hub
-- Secondary airstrips: Pakuba (Murchison Falls), Kasese, Kidepo
-- Nonstop routes from Kenya, Rwanda, Tanzania (key inbound markets)
-
-**Accommodation:**
-- Only **3 national parks** have significant 3+ star hotels: Bwindi, Murchison Falls, Queen Elizabeth
-- Fort Portal: Limited quality accommodation despite high tourism potential
-- **Hotel satisfaction (2022):** Uganda surpassed Kenya and Tanzania on 3- and 4-star satisfaction per UK/US tourists
-
-**Digital/Connectivity:**
-- Internet data cost: USD 1.32/GB (vs Rwanda USD 1.10, Kenya USD 0.85, Tanzania USD 0.84)
-- Mobile subscriptions: 66 per 100 people (2022)
-
----
-
-## 8. Tourism Business and Finance Constraints
+## 6. Risks and constraints
 
 | Constraint | Detail |
 |---|---|
-| **Licensing burden** | 25 licenses and taxes apply to tourism firms |
-| **Regulatory fragmentation** | MoTWA, UWA, UTB, UHTTI — poor inter-agency coordination |
-| **Access to credit** | Sector classified high-risk; high collateral requirements; only 21% of land titled |
-| **Skills gaps** | Training overly theoretical; foreign managers hired (raises costs) |
-| **Budget allocation** | FY23/24–26/27 proposed budget: UGX 89.3 billion (cut from UGX 194 billion) |
-| **Marketing underfunded** | Exhibition-focused approach; limited digital strategy |
-| **FDI impact** | Tourism FDI fell 70% between 2019–2020 (COVID); overall FDI –35% |
+| Licensing burden | 25 licences and taxes apply to tourism firms |
+| Fragmented regulation | MoTWA, UWA, UTB, UHTTI with poor coordination |
+| Credit access | Sector seen as high risk; high collateral; only 21% of land titled |
+| Skills | Training too theoretical; foreign managers hired (higher costs) |
+| Budget | FY23/24–26/27 proposed UGX 89.3 billion (cut from UGX 194 billion) |
+| Marketing | Exhibition-focused; limited digital strategy |
+| FDI | Tourism FDI fell 70% in 2019–2020 (COVID); overall FDI -35% |
+
+Plan-level risks: seasonality (peak June–September and December–February; plan off-peak cash); Ebola recurrence (September 2022 precedent) and road safety; policy risk from budget cuts, licensing instability and concession uncertainty.
 
 ---
 
-## 9. Investment Opportunities
+## 7. Implications by plan section
 
-- **Concession agreements (2022):** Uganda Wildlife Authority signed concessions with investors for high-end accommodations in national parks
-- **Accommodation gaps:** 3+ star hotels in parks and secondary destinations (Fort Portal, Kasese, Kidepo Valley)
-- **Product diversification:** Heritage trails, crater lake camps, adventure/sports tourism, eco-lodges
-- **Community enterprise:** Bwindi and Bigodi models (handicrafts + cultural tours) replicable elsewhere
-- **MICE facilities:** Meetings, incentives, conferences — infrastructure gap in secondary cities
-- **Digital tourism:** Online booking platforms, tourism apps, local guide certification systems
+**Market sizing:** pre-pandemic anchor of 1.5 million arrivals times average spend gives about USD 1.4 billion; recovery from about 513,000 arrivals (2022) toward pre-pandemic levels; 1.56 million supported jobs signal cross-sector demand for accommodation, food, transport and crafts.
 
----
+**Competitive analysis:** lead with gorillas, birds and Nile access; address road, accommodation and marketing weaknesses explicitly.
 
-## 10. World Bank Policy Recommendations
+**Financials:** model seasonality and treat the collateral and credit constraints as cost-of-capital drivers.
 
-**Immediate (0–12 months):**
-1. Integrated policy framework clarifying sectoral roles; streamline licensing (reduce from 25+)
-2. Establish public-private dialogue platform
-3. Digital marketing strategy — leverage social media, OTAs, niche platforms
-
-**Medium-term (12–24 months):**
-4. Partial credit guarantees for tourism SMEs
-5. Product diversification — crater lakes, cultural tourism, adventure routes
-
-**Long-term (24–48 months):**
-6. Human capital investment — formal training programmes linked to industry demand; partnerships between large/small hotels for staff training
-
-**Uganda Tourism Information Management System (TIMS):** recommended to close data gaps on visitor profiles and spending patterns
+**Policy reading (World Bank recommendations, paraphrased)**
+- 0–12 months: integrated policy framework and licence streamlining (from 25+); a public-private dialogue platform; digital marketing.
+- 12–24 months: partial credit guarantees for tourism SMEs; product diversification (crater lakes, cultural, adventure).
+- 24–48 months: formal, industry-linked training with big-and-small hotel partnerships.
+- Data gap: Tourism Information Management System (TIMS) proposed for visitor profile and spend data.
 
 ---
 
-## 11. Business Plan Application
+## 8. Opportunity areas
+- UWA concession agreements (2022) for high-end park accommodation.
+- 3+ star gaps in parks and secondary destinations (Fort Portal, Kasese, Kidepo).
+- Product diversification: heritage trails, crater lake camps, adventure and sports, eco-lodges.
+- Community enterprise (Bwindi and Bigodi models: handicrafts and cultural tours).
+- MICE facilities in secondary cities.
+- Digital tourism: booking platforms, apps, guide certification.
 
-**For market sizing:**
-- Pre-pandemic TAM: 1.5 million arrivals × avg. spend → USD 1.4 billion total
-- Post-pandemic recovery trajectory: ~513,000 arrivals (2022) growing toward pre-pandemic levels
-- Tourism supports 1.56 million jobs — cross-sector demand for accommodation, food, transport, crafts
+---
 
-**For competitive analysis:**
-- Uganda's core competitive advantage: **mountain gorillas** (54% of world population), **biodiversity** (most bird species in Africa), **Nile access**
-- Key differentiation weakness: road access, accommodation quality outside major parks, marketing reach
-
-**For risk section:**
-- Seasonality: High revenue volatility; plan for peak (dry season: June–September, December–February) and off-peak
-- Security/health risk: Ebola recurrence (Sept 2022 precedent), road safety (29 per 100,000 death rate)
-- Policy risk: Tourism budget cuts, licensing instability, concession uncertainty
+## 9. Verification checklist
+- [ ] Reconcile the two 2022 arrivals figures with UBOS or UTB.
+- [ ] Update arrivals and receipts with post-2023 statistics.
+- [ ] Confirm current licensing count, budget lines and concession status.
+- [ ] Record the access date beside each figure used.
 
 ---
 

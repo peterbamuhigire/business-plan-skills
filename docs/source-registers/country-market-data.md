@@ -1,6 +1,6 @@
 # Country and market evidence register
 
-Checked 13 July 2026; URA, NEMA and Bank of Uganda portals re-checked and three marketing entries added on 24 September 2026. The machine-readable source is
+Checked 13 July 2026; ten dated claim sources (data protection, influencer and advertising law, mobile speed, WhatsApp, GSMA licence) added on 25 September 2026 from the Kaizen currentness register 2026-09-24; URA, NEMA and Bank of Uganda portals re-checked and three marketing entries added on 24 September 2026. The machine-readable source is
 [`country-market-data.json`](country-market-data.json). This register identifies competent
 starting sources; it does not validate any statistic copied from them. Every released claim still
 needs its table or page, period, geography, definition, retrieval date, and applicability note.
@@ -20,6 +20,16 @@ needs its table or page, period, geography, definition, retrieval date, and appl
 | `UG-DPPA-2019-AND-REGULATIONS-2021` | Uganda | Parliament of Uganda; Minister of ICT | Data-protection registration, consent, direct-marketing objection right | 2027-03-23 | verified-with-caveat | marketing-plan maintainer |
 | `KE-ODPC-DATA-PROTECTION-REGULATIONS-2021` | Kenya | Office of the Data Protection Commissioner | Direct-marketing conditions, objection right, opt-out, registration | 2027-03-23 | verified-current | marketing-plan maintainer |
 | `UG-DATAREPORTAL-DIGITAL-2026` | Uganda | Kepios (DataReportal) | Internet users, social ad reach (floor only), cellular connections | 2026-11-30 | verified-with-caveat | marketing-plan maintainer |
+| `KE-DPA-2019-S37-AND-GENERAL-REGS-2021` | Kenya | Parliament of Kenya; Cabinet Secretary ICT | commercial use of personal data consent, direct marketing opt-out, objection right | 2027-03-25 | verified-current | marketing-plan maintainer |
+| `KE-MEDIA-COUNCIL-CODE-2025` | Kenya | Media Council of Kenya (Legal Notice 88 of 2025) | sponsored content labelling, endorsement compensation disclosure | 2027-03-25 | verified-with-caveat | marketing-plan maintainer |
+| `KE-CONSUMER-PROTECTION-ACT-2012-S12` | Kenya | Parliament of Kenya | misleading representation, false sponsorship or approval | 2027-03-25 | verified-with-caveat | marketing-plan maintainer |
+| `TZ-ONLINE-CONTENT-REGULATIONS-2020-2022` | Tanzania | Tanzania Communications Regulatory Authority | online media licence, blogger definition, user accountability | 2026-12-25 | verified-with-caveat | marketing-plan maintainer |
+| `TZ-FAIR-COMPETITION-ACT-2003` | Tanzania | Parliament of Tanzania | misleading or deceptive conduct | 2027-03-25 | verified-with-caveat | marketing-plan maintainer |
+| `UG-UCC-QOS-2024` | Uganda | Uganda Communications Commission | mobile data download speed, latency, drive-test QoS | 2027-01-25 | verified-with-caveat | marketing-plan maintainer |
+| `KE-MOBILE-SPEED-SECONDARY-2025` | Kenya | StatRanker (secondary; Ookla page inaccessible) | mobile median download speed | 2026-12-25 | verified-with-caveat | marketing-plan maintainer |
+| `KE-PEW-WHATSAPP-2024` | Kenya | Pew Research Center | WhatsApp use among adults | 2027-03-25 | verified-with-caveat | marketing-plan maintainer |
+| `EA-WHATSAPP-SHARE-CLAIM` | Regional/Global | Digital Research wave (synthesis) | WhatsApp share of smartphone or internet users | 2027-03-25 | no-source-found | marketing-plan maintainer |
+| `GLOBAL-GSMA-INTELLIGENCE-TERMS` | Regional/Global | GSMA Intelligence | GSMA data licence, citation rules | 2027-03-25 | verified-with-caveat | marketing-plan maintainer |
 
 ## Refresh rule
 

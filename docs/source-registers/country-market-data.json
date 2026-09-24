@@ -1,7 +1,7 @@
 {
   "standard": "Evidence register v1",
   "register_owner": "Business Plan Skills maintainers",
-  "checked_on": "2026-07-13",
+  "checked_on": "2026-09-25",
   "entries": [
     {
       "id": "UG-UBOS-STATISTICAL-PUBLICATIONS",
@@ -250,6 +250,175 @@
       "status": "verified-with-caveat",
       "owner": "marketing-plan maintainer",
       "note": "Kaizen currentness register MK-02. Meta ad reach was measured while Facebook was blocked in Uganda; use it as a floor, never as the social-media population. Ad reach is not users. Replace when Digital 2027 is published."
+    },
+    {
+      "id": "KE-DPA-2019-S37-AND-GENERAL-REGS-2021",
+      "jurisdiction": "Kenya",
+      "publisher": "Parliament of Kenya; Cabinet Secretary ICT",
+      "title": "Data Protection Act 2019 s.37 and General Regulations 2021 reg.8, 14-17",
+      "source_type": "primary-legislation",
+      "url": "https://new.kenyalaw.org/akn/ke/act/2019/24/eng@2022-12-31",
+      "claim_families": [
+        "commercial use of personal data consent",
+        "direct marketing opt-out",
+        "objection right"
+      ],
+      "checked_on": "2026-09-25",
+      "recheck_due": "2027-03-25",
+      "status": "verified-current",
+      "owner": "marketing-plan maintainer",
+      "note": "Kaizen currentness register 2026-09-24 KE-06. s.37 needs express consent or written-law authority with notice; reg.15 direct-marketing offence (fine up to KES 20,000 or 6 months). s.37(3) guidelines not found published."
+    },
+    {
+      "id": "KE-MEDIA-COUNCIL-CODE-2025",
+      "jurisdiction": "Kenya",
+      "publisher": "Media Council of Kenya (Legal Notice 88 of 2025)",
+      "title": "Code of Conduct for Media Practice 2025 cl.14",
+      "source_type": "primary-legislation",
+      "url": "https://new.kenyalaw.org/akn/ke/act/ln/2025/88/eng@2025-08-01",
+      "claim_families": [
+        "sponsored content labelling",
+        "endorsement compensation disclosure"
+      ],
+      "checked_on": "2026-09-25",
+      "recheck_due": "2027-03-25",
+      "status": "verified-with-caveat",
+      "owner": "marketing-plan maintainer",
+      "note": "Kaizen register KE-02 (KE-01 for the absence claim). Binds media practitioners; whether an influencer is one under the Media Council Act 2013 was not read. No dedicated Kenyan influencer statute found."
+    },
+    {
+      "id": "KE-CONSUMER-PROTECTION-ACT-2012-S12",
+      "jurisdiction": "Kenya",
+      "publisher": "Parliament of Kenya",
+      "title": "Consumer Protection Act 2012 s.12 (false, misleading or deceptive representation)",
+      "source_type": "primary-legislation",
+      "url": "https://www.parliament.go.ke/sites/default/files/2017-05/ConsumerProtectionActNo46of2012.pdf",
+      "claim_families": [
+        "misleading representation",
+        "false sponsorship or approval"
+      ],
+      "checked_on": "2026-09-25",
+      "recheck_due": "2027-03-25",
+      "status": "verified-with-caveat",
+      "owner": "marketing-plan maintainer",
+      "note": "Kaizen register KE-03. Original 2012 text; no express endorsement clause. Competition Act (KE-04) and ASBK Code (KE-05) are secondary checks; Kenya Information and Communications Act and CA instruments were not read."
+    },
+    {
+      "id": "TZ-ONLINE-CONTENT-REGULATIONS-2020-2022",
+      "jurisdiction": "Tanzania",
+      "publisher": "Tanzania Communications Regulatory Authority",
+      "title": "Electronic and Postal Communications (Online Content) Regulations 2020, amended 2022 (GN 136)",
+      "source_type": "primary-legislation",
+      "url": "https://www.tcra-ccc.go.tz/uploads/documents/en-1637908806-The%20Electronic%20and%20Postal%20Communications%20(Online%20Content)%20Regulations,%202020.pdf",
+      "claim_families": [
+        "online media licence",
+        "blogger definition",
+        "user accountability"
+      ],
+      "checked_on": "2026-09-25",
+      "recheck_due": "2026-12-25",
+      "status": "verified-with-caveat",
+      "owner": "marketing-plan maintainer",
+      "note": "Kaizen register TZ-01. No sponsored-content disclosure clause. 2025 amendment (GN 57) reported only by a secondary source; whether influencers need a licence is unconfirmed."
+    },
+    {
+      "id": "TZ-FAIR-COMPETITION-ACT-2003",
+      "jurisdiction": "Tanzania",
+      "publisher": "Parliament of Tanzania",
+      "title": "Fair Competition Act 2003 s.15-16 (misleading conduct, false sponsorship)",
+      "source_type": "primary-legislation",
+      "url": "https://www.viwanda.go.tz/uploads/documents/sw-1618818548-fca_no_8-2003.pdf",
+      "claim_families": [
+        "misleading or deceptive conduct"
+      ],
+      "checked_on": "2026-09-25",
+      "recheck_due": "2027-03-25",
+      "status": "verified-with-caveat",
+      "owner": "marketing-plan maintainer",
+      "note": "Kaizen register TZ-02. Original text; check numbering against the consolidation (Cap. 285 R.E. 2023)."
+    },
+    {
+      "id": "UG-UCC-QOS-2024",
+      "jurisdiction": "Uganda",
+      "publisher": "Uganda Communications Commission",
+      "title": "Quality of Service report, August to September 2024",
+      "source_type": "regulator-report",
+      "url": "https://www.ucc.co.ug/wp-content/uploads/2024/12/QOS-August-to-September-2024.pdf",
+      "claim_families": [
+        "mobile data download speed",
+        "latency",
+        "drive-test QoS"
+      ],
+      "checked_on": "2026-09-25",
+      "recheck_due": "2027-01-25",
+      "status": "verified-with-caveat",
+      "owner": "marketing-plan maintainer",
+      "note": "Kaizen register NET-01. Operator mean download about 5-16 Mbps in 30 towns, taken from an Ecofin summary (2025-01-20); the UCC table is an image and was not verified. Town-based operator averages, not a user median. Ookla and Opensignal Uganda figures NOT_ASSESSED (NET-03)."
+    },
+    {
+      "id": "KE-MOBILE-SPEED-SECONDARY-2025",
+      "jurisdiction": "Kenya",
+      "publisher": "StatRanker (secondary; Ookla page inaccessible)",
+      "title": "Kenya mobile median download snapshots, about October 2025",
+      "source_type": "secondary-aggregator",
+      "url": "https://statranker.org/digital-innovation/top-100-countries-by-mobile-internet-download-speed-median-2025/",
+      "claim_families": [
+        "mobile median download speed"
+      ],
+      "checked_on": "2026-09-25",
+      "recheck_due": "2026-12-25",
+      "status": "verified-with-caveat",
+      "owner": "marketing-plan maintainer",
+      "note": "Kaizen register NET-04. Roughly 45-50 Mbps median mobile in 2025 snapshots (secondary); the 28 ms latency baseline has no source and is dropped. Tanzania and Rwanda: no source found."
+    },
+    {
+      "id": "KE-PEW-WHATSAPP-2024",
+      "jurisdiction": "Kenya",
+      "publisher": "Pew Research Center",
+      "title": "WhatsApp and Facebook dominate the social media landscape in middle-income nations (2024-03-22)",
+      "source_type": "originating-survey",
+      "url": "https://www.pewresearch.org/short-reads/2024/03/22/whatsapp-and-facebook-dominate-the-social-media-landscape-in-middle-income-nations/",
+      "claim_families": [
+        "WhatsApp use among adults"
+      ],
+      "checked_on": "2026-09-25",
+      "recheck_due": "2027-03-25",
+      "status": "verified-with-caveat",
+      "owner": "marketing-plan maintainer",
+      "note": "Kaizen register WA-02. Fieldwork Feb-May 2023, adults not smartphone users; median 73% across 8 countries, range 50% to 90%; Kenya below 90% (inference), exact value in an unread chart."
+    },
+    {
+      "id": "EA-WHATSAPP-SHARE-CLAIM",
+      "jurisdiction": "Regional/Global",
+      "publisher": "Digital Research wave (synthesis)",
+      "title": "'WhatsApp used by 90%+ of smartphone users in East Africa' claim check",
+      "source_type": "claim-check",
+      "url": "https://datareportal.com/reports/digital-2026-uganda",
+      "claim_families": [
+        "WhatsApp share of smartphone or internet users"
+      ],
+      "checked_on": "2026-09-25",
+      "recheck_due": "2027-03-25",
+      "status": "no-source-found",
+      "owner": "marketing-plan maintainer",
+      "note": "Kaizen register WA-01: refuted as worded; the 90%+ figures trace to unattributed estimates on an internet-user base (WA-04, not citable). Country WhatsApp figures (Statista) are paywalled (WA-05, NOT_ASSESSED). Say dominant messaging channel; state source, base and date of any percentage."
+    },
+    {
+      "id": "GLOBAL-GSMA-INTELLIGENCE-TERMS",
+      "jurisdiction": "Regional/Global",
+      "publisher": "GSMA Intelligence",
+      "title": "GSMA Intelligence terms of use (2025-02-19)",
+      "source_type": "licence-terms",
+      "url": "https://www.gsmaintelligence.com/gsma-intelligence-terms-of-use/",
+      "claim_families": [
+        "GSMA data licence",
+        "citation rules"
+      ],
+      "checked_on": "2026-09-25",
+      "recheck_due": "2027-03-25",
+      "status": "verified-with-caveat",
+      "owner": "marketing-plan maintainer",
+      "note": "Kaizen register LIC-09. Citations must be accurate and verbatim, not adapted, paraphrased or summarised. Free gsma.com Mobile Economy PDF terms not checked (404). Cite title, year, URL; do not paraphrase."
     }
   ]
 }

@@ -37,8 +37,13 @@ Use these as prompts for the evidence plan, not as findings.
   sharply by segment; check with the client's own receipts.
 - **Messaging.** WhatsApp is widely used for enquiries, catalogues and
   after-sales contact, but **no credible country-level WhatsApp user figure
-  for Uganda or Kenya was found** (MK-03). Do not state one unless it is cited
-  from a named survey with its date and method.
+  for Uganda or Kenya was found** (MK-03), and "90%+ of smartphone users" is
+  unsupported (register WA-01, 2026-09-24). Describe WhatsApp as a dominant
+  messaging channel to verify, not a percentage. Best-attributed dated figure:
+  Pew (fieldwork 2023, adults, not smartphone users) found WhatsApp use among at
+  least half of adults in every surveyed country, including Kenya (WA-02). Check
+  the client's own audience data; state the source, base and date of any
+  percentage used.
 - **Social-media reach.** DataReportal *Digital 2026* (published 8 November
   2025) reports Uganda's Meta ad reach at 2.40 million, measured while
   Facebook was blocked in Uganda; treat it as a floor, not the audience size
@@ -59,8 +64,12 @@ Use these as prompts for the evidence plan, not as findings.
 - **Seasonality.** School terms and fees, harvests, festive seasons, month-end
   pay, Ramadan and Christmas, rainy seasons affecting roads, and election
   periods all shift demand and media cost.
-- **Connectivity.** Median mobile speeds are published for Kenya but not for
-  Uganda (MK-04). Design landing pages and digital journeys for low-end
+- **Connectivity.** Median mobile speeds are published for Kenya (roughly
+  45-50 Mbps in 2025 Ookla snapshots, secondary; NET-04) but not verified for
+  Uganda. UCC's Aug-Sep 2024 drive tests in 30 towns reported roughly 5-16 Mbps
+  mean mobile download by operator (Ecofin summary, not checked against the UCC
+  table; NET-01), a town-based operator average, not a user median. Ookla and
+  Opensignal Uganda figures are NOT_ASSESSED (NET-03). Design landing pages and digital journeys for low-end
   devices and weak connections; route website performance work to the
   website engine.
 - **Tax on advertising spend.** Budgets for foreign ad platforms may attract
@@ -77,16 +86,26 @@ include a data-protection line in its compliance note.
 | Jurisdiction | What the register confirms (checked 2026-09-23) | What the plan must do |
 |---|---|---|
 | Uganda (PL-01) | Data collectors, processors and controllers must register with the Personal Data Protection Office (PDPO); registration is valid for 12 months. Processing personal data without prior consent is an offence. Section 26 of the Data Protection and Privacy Act gives data subjects a right to object: by written notice they can require the controller to stop processing their data for direct marketing, and the controller must respond within 14 days. | Budget and schedule PDPO registration or renewal; obtain consent when collecting data; build an objection (opt-out) route and a 14-day response procedure. Do not claim the Act "requires opt-in for marketing"; it provides an objection right, while consent governs collection. |
-| Kenya (PL-02) | The Data Protection (General) Regulations 2021 allow direct marketing with non-sensitive data under conditions including a simplified, free opt-out; the right to object to direct marketing is absolute; direct-marketing email must identify the sender and give a valid opt-out address. Registration is required; small entities are exempt unless listed, and businesses "wholly or mainly in direct marketing" must register regardless of size. | Provide a free, simple opt-out on every message; honour objections without exception; register with the ODPC where required. |
+| Kenya (PL-02; KE-06) | Data Protection Act 2019 s.37 requires express consent (or written-law authority with notice) for commercial use of personal data. The Data Protection (General) Regulations 2021 allow direct marketing with non-sensitive data under conditions including a simplified, free opt-out; the right to object to direct marketing is absolute; direct-marketing email must identify the sender and give a valid opt-out address. Registration is required; small entities are exempt unless listed, and businesses "wholly or mainly in direct marketing" must register regardless of size. Regs 14-17 treat online ads to logged-in users using personal data as direct marketing; a sender-concealing message or one without opt-out breaches reg.15 (offence, fine up to KES 20,000 or 6 months). | Provide a free, simple opt-out on every message; honour objections without exception; register with the ODPC where required. |
 | Rwanda (PL-03) | Controllers and processors must register with the National Cyber Security Authority. Direct-marketing provisions were not assessed. | Register; treat direct-marketing rules as NOT_ASSESSED until checked. |
-| Tanzania (PL-04) | The Personal Data Protection Act 2022 is in force and collectors must register with the PDPC; enforcement dates and direct-marketing rules are partial or not assessed. | Register; check direct-marketing rules before launch. |
+| Tanzania (PL-04; TZ-01) | The Personal Data Protection Act 2022 is in force and collectors must register with the PDPC; enforcement dates and direct-marketing rules are partial or not assessed. The Online Content Regulations 2020 (amended 2022) require a TCRA licence for "online media services", define "blogger" and hold users accountable for posts; they contain no sponsored-content disclosure rule. A 2025 amendment is reported only by a secondary source. | Register; check direct-marketing rules and the current TCRA licensing position for the creator before launch. |
 | EU-facing campaigns (CW-10) | Google tags for EEA, UK and Swiss users need Consent Mode v2 signals. | Hand implementation to the website engine; note it in the compliance line. |
 
 Also check: sector advertising rules (health, financial products, alcohol,
 betting, education claims), comparative-claim rules, and influencer
-disclosure. No Uganda- or Kenya-specific influencer disclosure law was found
-as of 2026-09-23; apply clear "#ad"-style disclosure as practice and check
-UCC, CA and sector regulators before a campaign (AD-10). Renting or buying
+disclosure. No dedicated influencer statute or express influencer disclosure
+duty was found in Kenya (KE-01, 2026-09-25) or Uganda (UG-01; a consumer
+protection Act is not confirmed, and the Competition Act 2024 needs checking).
+In Kenya, disclosure duties arise indirectly: Consumer Protection Act 2012 s.12
+(false, misleading or deceptive representation, KE-03), the Competition Act
+misleading-representation offences (KE-04), the ASBK Code (KE-05) and, for
+media practitioners, the Media Council Code 2025 cl.14 (sponsorship and
+compensation disclosure; whether it reaches a given creator depends on the
+Media Council Act definition, KE-02). Tanzania's Fair Competition Act bars
+misleading conduct (TZ-02; check numbering against Cap. 285 R.E. 2023). Uganda:
+no AAU influencer code found (UG-04); UCC and Electronic Transactions
+instruments are NOT_ASSESSED (UG-03). Apply clear "#ad"-style disclosure as
+practice and check UCC, CA and sector regulators before a campaign (AD-10). Renting or buying
 contact lists is constrained by these laws; prefer the firm's own opted-in
 contacts and partner co-marketing to the partner's own consented list.
 

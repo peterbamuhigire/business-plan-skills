@@ -1,990 +1,334 @@
-# Africa's Infrastructure Financing & Development Dynamics
+# Africa's Infrastructure Financing: Decision Brief for Plan Authors
 
 **Basis:** Planning data brief compiled for this engine from public institutional publications and general practice; it is not a copy or digest of any single report. All figures are dated planning assumptions: verify against the current official publication before use. See Sources consulted at the end.
 
-**Purpose:** Evidence base for infrastructure-dependent business plans (agriculture, energy, transport, digital), cost of capital benchmarking, and investment climate risk assessment for African countries.
+**Access date for every data point below:** 2026-09-25. Institution and report: AUC/OECD, *Africa's Development Dynamics 2025: Infrastructure, Growth and Transformation*, 2025 (AUC content is all rights reserved: paraphrased facts only, no verbatim text or logos; OECD content from July 2024 is generally CC BY 4.0 as an adaptation not endorsed by the OECD, terms page unverified), plus the secondary studies named in the attribution block.
+
+**Purpose:** Evidence base for infrastructure-dependent business plans (agriculture, energy, transport, digital): cost-of-capital benchmarking, concessional-finance positioning, and infrastructure and climate risk assessment.
 
 ---
 
-## Section 1: Overall Infrastructure Investment Gap
+## 1. How to Use This Brief (plan-section map)
 
-### Annual Infrastructure Need vs Current Spending
-
-| Metric | Value |
-|--------|-------|
-| **Annual infrastructure need (to 2040)** | USD 155 billion |
-| **Current average annual spending (2016-2020)** | USD 83 billion |
-| **Annual funding gap** | USD 72 billion |
-| **Gap as % of need** | 46% shortfall |
-
-### Funding Sources Breakdown (2016-2020 Actual)
-
-| Source | Amount | % of Total | Notes |
-|--------|--------|-----------|-------|
-| African governments | USD 34 billion | 41% | Averaged 1.3% of GDP; far below China (6.7%), Vietnam (5.1%) |
-| Development partners/DFIs | USD 40 billion | 48% | World Bank, AfDB, China, bilateral donors |
-| Private sector | USD 9 billion | 11% | Limited due to high cost of capital (13% WACC) |
-
-### Government Infrastructure Spending as % of GDP
-
-- **Africa average:** 1.3% of GDP
-- **Comparative benchmarks:**
-  - China: 6.7% of GDP
-  - Vietnam: 5.1% of GDP
-  - Four African governments (as of 2019-20): >5% of GDP
-  - Most African countries: Below 1.3%, indicating significant potential for scaling
-
-### Fiscal Constraints on Infrastructure Investment
-
-| Constraint | Data | Impact |
-|-----------|------|--------|
-| **Debt repayment burden** | Time to repay public debt increased from 2.8 years (2009-13) to 4.8 years (2019-23) | Faster rise than developing Asia (+1.3 yrs) or LAC (+1.2 yrs) |
-| **Debt service vs infrastructure spending** | Governments spend 7× more on debt service than infrastructure (2019-23) | Infrastructure budgets squeezed |
-| **Interest payment burden** | 15 African countries spend more on interest than infrastructure | Structural fiscal constraint |
-| **Interest rate spread** | Sovereign debt rates range 0.2–7.7% depending on country/lender | High variation; risky countries face 7.7% vs developed nations at <1% |
-
-**Key implication:** Low-income African countries face tightest conditions; those with low UNDP HDI scores need 5+ years to repay debt from tax revenue alone.
+| Plan section | Decision the author must make | Go to |
+|---|---|---|
+| 04 Market analysis | Segment markets by infrastructure access; size corridor opportunities | Sections 3, 7, 8 |
+| 09 Management team | Which infrastructure, maintenance and PPP skills the team must add | Section 9 |
+| 10 Financial projections | Hurdle rate, debt cost, maintenance budget, ROI narrative | Sections 4, 5, 9 |
+| 11 Funding request | Which concessional or DFI windows to target as ODA falls | Sections 6, 10 |
+| 12 Risk analysis | Infrastructure dependency, climate, macro and governance risks | Sections 7, 9 |
 
 ---
 
-## Section 2: East Africa Specific Context
+## 2. Decision Rules (read first)
 
-### Productive Transformation GDP Impact (If Investment Need Met)
-
-East Africa projected to experience **+6.0 percentage point increase in annual GDP growth by 2040** (second-highest regional impact):
-
-| Region | GDP Growth Impact |
-|--------|-------------------|
-| Central Africa | +6.2 percentage points |
-| **East Africa** | **+6.0 percentage points** |
-| West Africa | +5.4 percentage points |
-| Southern Africa | +4.2 percentage points |
-| North Africa | +3.5 percentage points |
-
-### Infrastructure Type & Returns in East Africa
-
-**Transport + Energy Synergy Effect:**
-- Combining transport corridors with energy infrastructure has **increased shift from agriculture to manufacturing/services by factor of 2.5×** compared to road investments alone (Dappe & Lebrand, 2021)
-- Demonstrates importance of **complementary infrastructure investment**, not siloed sectoral approaches
-
-### East Africa Infrastructure Cost-Effectiveness Table
-
-| Country | Infrastructure Type | Density Level | Marginal Effect | Cost-Effectiveness Ratio |
-|---------|-------------------|----------------|-----------------|------------------------|
-| Uganda | Roads & Railways | Medium | +1.24 | 110 |
-| Kenya | Roads & Railways | High | +1.81 | 142 |
-| Tanzania | Roads & Railways | High | +1.81 | 142 |
-| Ethiopia | Roads & Railways | Medium–High | +1.81 | 137 |
-
-**Interpretation:**
-- **Kenya & Tanzania:** Higher-density road/rail networks (more mature infrastructure); marginal returns lower on additional roads but still strong (+1.81); railways and complementary services offer better incremental returns
-- **Uganda:** Medium-density network offers good cost-effectiveness for road expansion (ratio 110 vs Kenya's 142)
-- **Ethiopia:** Medium-high density, strong returns similar to Algeria, Côte d'Ivoire, Mozambique, Zambia
-
-### Dar Es Salaam–Nairobi–Addis Ababa–Berbera/Djibouti Corridor
-
-**Strategic Purpose:**
-- Connects East African manufacturing hubs to port facilities and reduces landlocked country transport costs
-
-**Impacts on Productive Transformation:**
-- Reducing transport costs for landlocked countries (transport costs can represent **up to 75% of export value** without corridor)
-- Lowering trade costs and boosting agri-food value chains in region
-- Creating ties with Southern Africa value chains (minerals, agriculture)
-
-**Implementation Lessons & Recommendations:**
-1. Include maintenance funding in planning (not afterthought)
-2. Improve political stability (cross-border corridor vulnerability to geopolitical risk)
-3. Harmonise transportation standards (critical for landlocked countries)
-
-### Regional Development Corridor Ecosystem (EAC Context)
-
-**Total Development Corridors in Africa (as of 2025):** 80+ planned, under construction, or operational
-
-**PIDA Priority Action Plan 2 (2021–2030):** 69 priority projects across Africa, including East African segments
-
-**Financing Mechanisms:**
-- PIDA Quality Label (PQL): 15 projects awarded as of 2025; signals quality to investors
-- Potential expansion across 69 projects in PAP 2 pipeline
+1. Use a 13% WACC and 18.6% commercial debt as the base case for African infrastructure-dependent projects, then test a concessional case. Projects with a 10-12% IRR that work in OECD markets are not bankable at the African benchmark.
+2. Budget maintenance explicitly: 31% of capex (transport), 37% (water), 23% (energy). Government allocations run at about 14%, so do not rely on public maintenance.
+3. Match the infrastructure emphasis to the country's network density (Section 8.3).
+4. Assume falling ODA (16-28% decline projected 2023-2025) and lead with climate-resilience, corridor, digital or gender-inclusion framing for concessional windows.
+5. Landlocked businesses must model transport as a major unit-cost line (up to 75% of export value without corridor infrastructure).
 
 ---
 
-## Section 3: Cost of Capital for Infrastructure
+## 3. Indicators: Investment Gap and Funding Sources
 
-### Weighted Average Cost of Capital (WACC) by Region
+Source for this section: AUC/OECD, *Africa's Development Dynamics 2025*, 2025 (AUC content is all rights reserved: paraphrased facts only, no verbatim text or logos; OECD content from July 2024 is generally CC BY 4.0 as an adaptation not endorsed by the OECD, terms page unverified). Accessed 2026-09-25. Verify against the current publication.
 
-| Region | WACC | Cost of Equity (vs OECD) | Cost of Debt (vs OECD) | Commercial Lending Rate |
-|--------|------|-------------------------|------------------------|------------------------|
-| **Africa** | **13%** | 1.6× higher | 2.5× higher | 18.6% |
-| Developing Asia | 10% | — | — | 11.4% |
-| OECD | 8% | 1.0× (benchmark) | 1.0× (benchmark) | 7.2% |
+| Indicator | Value | Period | Use in plan |
+|---|---|---|---|
+| Annual infrastructure need (to 2040) | USD 155 billion | Target | Market and policy context |
+| Average annual spending | USD 83 billion | 2016-2020 | Baseline |
+| Annual funding gap | USD 72 billion (46% of need) | 2016-2020 | Opportunity and risk framing |
+| African governments' contribution | USD 34 billion (41%), about 1.3% of GDP | 2016-2020 | Public counterpart funding |
+| Development partners and DFIs | USD 40 billion (48%): World Bank, AfDB, China, bilateral donors | 2016-2020 | Funding request targeting |
+| Private sector | USD 9 billion (11%), limited by 13% WACC | 2016-2020 | Private co-financing realism |
+| Government infrastructure spend benchmarks | China 6.7% of GDP; Vietnam 5.1%; four African governments above 5% (2019-20); most African countries below 1.3% | 2019-20 | Scale-up potential |
+| Time to repay public debt | 2.8 years (2009-13) to 4.8 years (2019-23); faster rise than developing Asia (+1.3 yrs) or Latin America and Caribbean (+1.2 yrs) | 2009-2023 | Sovereign risk |
+| Debt service vs infrastructure spend | Governments spend 7 times more on debt service than infrastructure | 2019-23 | Budget squeeze |
+| Countries paying more interest than infrastructure spend | 15 | 2019-23 | Fiscal constraint |
+| Sovereign debt interest rate spread | 0.2-7.7% by country and lender; risky countries 7.7% vs developed below 1% | Latest | Cost of sovereign funding |
 
-### Cost of Capital Implications for African Infrastructure Projects
-
-- **Project IRR threshold:** Must exceed 13% WACC in Africa to attract private capital (vs 10% in Asia, 8% in OECD)
-- **Financing gap:** Marginal projects that would work at 8% WACC become unviable in Africa at 13% WACC
-- **PPP participation:** Only countries with strong fiscal backing or revenue guarantees can bridge gap
-
-### Return on Investment vs Cost Premium
-
-**Positive ROI Evidence:**
-- Expected returns on African infrastructure projects: up to **20%** (some of highest globally)
-- Project costs/timelines: up to **60% higher** in Africa than developed countries
-- Net opportunity: High returns offset execution premium, but **only for risk-tolerant investors** or public-backed projects
-
-**Default Risk Assessment:**
-- Infrastructure in energy, water, communications: **4–5% default rates** (lowest of all sectors)
-- **However:** Average default rates higher in sub-Saharan Africa (excluding North Africa) than other world regions (2013–23), suggesting country-risk premium justified
+Implication: low-income countries face the tightest conditions; those with low UNDP HDI scores need 5+ years to repay debt from tax revenue alone.
 
 ---
 
-## Section 4: Infrastructure Types, Cost-Effectiveness & ROI
+## 4. Indicators: Cost of Capital and Returns
 
-### Investment Needs Breakdown by Type
+Source: AUC/OECD, *Africa's Development Dynamics 2025*, 2025 (AUC content is all rights reserved: paraphrased facts only, no verbatim text or logos; OECD content from July 2024 is generally CC BY 4.0 as an adaptation not endorsed by the OECD, terms page unverified). Accessed 2026-09-25.
 
-| Infrastructure Type | % of Total Need | USD Amount (of USD 155B) |
-|-------------------|-----------------|------------------------|
-| Roads | 32% | USD 49.6B |
-| Railways | 24% | USD 37.2B |
-| Fibre-optic cables | 23% | USD 35.7B |
-| Solar panels | 17% | USD 26.4B |
-| **Total** | **96%** | **~USD 149B** |
+| Region | WACC | Cost of equity vs OECD | Cost of debt vs OECD | Commercial lending rate |
+|---|---|---|---|---|
+| Africa | 13% | 1.6 times higher | 2.5 times higher | 18.6% |
+| Developing Asia | 10% | n/a | n/a | 11.4% |
+| OECD | 8% | 1.0 (benchmark) | 1.0 (benchmark) | 7.2% |
 
-*Note: 4% unaccounted for (likely water/sanitation, ports, urban infrastructure)*
+| Return and risk indicator | Value | Plan implication |
+|---|---|---|
+| Expected returns on African infrastructure | Up to 20% | Upside case, only for risk-tolerant or publicly backed projects |
+| Cost and timeline premium in Africa | Up to 60% higher than developed countries | Add contingency and schedule buffers |
+| Default rate, energy, water and communications infrastructure | 4-5% (lowest of all sectors) | Supports bankability of these sectors |
+| Regional default caveat | Sub-Saharan Africa (excl. North Africa) had higher average defaults than other regions, 2013-23 | Country-risk premium is justified |
+| WACC hurdle gap | 13% vs 8% = 5 percentage point gap | Marginal projects fail at African WACC |
 
-### Complete Cost-Effectiveness Table
-
-**Cost-effectiveness ratio:** Cost per unit (km or MW) to achieve +1 unit of productive transformation index
-
-| Infrastructure Type | Density Level | Example Countries | Marginal Effect on Transformation | Cost-Effectiveness Ratio | Comments |
-|-------------------|----------------|-------------------|----------------------------------|------------------------|----------|
-| **Roads & Railways** | Low | Angola, Chad, DRC, Niger, Sudan | +1.37 | 98 | Excellent—least-developed regions see strong infrastructure returns |
-| **Roads & Railways** | Low–Medium | Burundi, Equatorial Guinea, Mauritius, Rwanda | +1.83 | 135 | Best returns in emerging-density regions |
-| **Roads & Railways** | Medium | Benin, Djibouti, Ghana, Mauritania, South Africa, Uganda | +1.24 | 110 | Uganda in this category—good expansion opportunity |
-| **Roads & Railways** | Medium–High | Algeria, Côte d'Ivoire, Ethiopia, Mozambique, Zambia | +1.81 | 137 | High returns despite higher base infrastructure |
-| **Roads & Railways** | High | Gambia, Mauritius, Morocco, Rwanda, Seychelles, Tunisia | +0.24 | >300 | Diminishing marginal returns; more expensive |
-| **Roads & Railways** | High | Egypt, Eswatini, Kenya, Nigeria, Tanzania, Zimbabwe | +1.81 | 142 | Kenya, Tanzania here—railways more cost-effective than further roads |
-| **Fibre-optic Cables** | All densities | All African countries | +0.13 | 153 | Uniform effect; cheaper per km than roads; supports all sectors |
-| **Solar Panels** | All densities | All African countries | +1.52 | 210 | Highest unit cost but strong transformation return; especially valuable in high-density regions |
-
-### Key Insights by Infrastructure Type
-
-#### **Roads (32% of investment need)**
-- **Most cost-effective in low-transport-density countries** (ratio 98–135)
-- Marginal benefits decline as density increases (ratio >300 in saturated markets)
-- Critical for: rural–urban linkages, agricultural export corridors, market integration
-
-#### **Railways (24% of investment need)**
-- **Highest unit costs** but deliver substantial marginal effects (+1.81 in medium–high density regions)
-- **Lower pollution** than road transport (critical for climate goals)
-- Best ROI in medium–high density regions (Ethiopia, Mozambique, Zambia level)
-- Strategic for: mineral exports, bulk goods, intra-regional trade
-
-#### **Fibre-Optic Cables (23% of investment need)**
-- **Uniform effect across all density levels** (+0.13 marginal effect)
-- **Least expensive per unit** (cost-effectiveness ratio 153)
-- Critical enabler for: digital financial services, e-commerce, remote work, distance education
-- Complements all other infrastructure types
-
-#### **Solar Panels (17% of investment need)**
-- **Highest unit cost** (cost-effectiveness ratio 210) but **strong transformation return** (+1.52)
-- Especially valuable in **high-transport-density regions** (already served by roads/railways)
-- Decentralised generation reduces transmission infrastructure needs in rural areas
-- Strategic for: manufacturing competitiveness (energy-intensive sectors), rural electrification
+Financing-structure implications:
+- Project IRR must exceed 13% to attract private capital (10% in Asia, 8% in OECD).
+- PPP participation works only where fiscal backing or revenue guarantees bridge the gap.
+- Concessional financing (ODA, DFI) is critical to bridge the hurdle gap.
+- Standard assumption set: WACC 13% (AUC/OECD 2025 benchmark), equity premium about 5 pp above OECD, commercial debt 18.6% if available.
 
 ---
 
-## Section 5: Private Investment Constraints & Barriers
+## 5. Indicators: Infrastructure Type, Cost-Effectiveness and Returns
 
-### Why Private Investment Remains Limited (6–8% of Global Flow)
+Source: AUC/OECD, *Africa's Development Dynamics 2025*, 2025 (AUC content is all rights reserved: paraphrased facts only, no verbatim text or logos; OECD content from July 2024 is generally CC BY 4.0 as an adaptation not endorsed by the OECD, terms page unverified). Accessed 2026-09-25. The cost-effectiveness ratio is cost per unit (km or MW) to gain one unit of the productive transformation index; lower is better.
 
-**Africa's share of global private infrastructure investment:** Only 6–8% annually (2013–2022), despite global tripling of private infra investment.
+### 5.1 Investment need by type (of USD 155 billion)
 
-### Barrier 1: Risk Perception & Information Asymmetry
+| Type | Share | Amount |
+|---|---|---|
+| Roads | 32% | USD 49.6 billion |
+| Railways | 24% | USD 37.2 billion |
+| Fibre-optic cables | 23% | USD 35.7 billion |
+| Solar panels | 17% | USD 26.4 billion |
+| Total shown | 96% | about USD 149 billion (remaining 4% unallocated, likely water, ports, urban) |
 
-| Challenge | Evidence | Policy Response |
-|-----------|----------|-----------------|
-| **Credit rating coverage** | Only 33 African countries have ever received credit ratings (as of 2024) | Establish AU credit rating agency; cost of capital commission (proposed by South African G20 Presidency) |
-| **Sectoral risk data** | Information at country/sectoral level "too limited" for investor decision-making | African Virtual Investment Platform (launched AU/OECD 2025) to fill gaps |
-| **Risk data quality** | Data quality and methodologies raise investor concerns even when available | Standardised risk metrics; transparent WACC benchmarking |
+### 5.2 Cost-effectiveness by density
 
-### Barrier 2: High Cost of Capital
+| Type | Density | Example countries | Marginal effect | Ratio | Comment |
+|---|---|---|---|---|---|
+| Roads and railways | Low | Angola, Chad, DRC, Niger, Sudan | +1.37 | 98 | Strong returns in least-developed networks |
+| Roads and railways | Low-medium | Burundi, Equatorial Guinea, Mauritius, Rwanda | +1.83 | 135 | Best returns in emerging density |
+| Roads and railways | Medium | Benin, Djibouti, Ghana, Mauritania, South Africa, Uganda | +1.24 | 110 | Uganda: good expansion opportunity |
+| Roads and railways | Medium-high | Algeria, Cote d'Ivoire, Ethiopia, Mozambique, Zambia | +1.81 | 137 | High returns despite higher base |
+| Roads and railways | High | Gambia, Mauritius, Morocco, Rwanda, Seychelles, Tunisia | +0.24 | above 300 | Diminishing returns |
+| Roads and railways | High | Egypt, Eswatini, Kenya, Nigeria, Tanzania, Zimbabwe | +1.81 | 142 | Railways more cost-effective than further roads |
+| Fibre-optic cables | All | All African countries | +0.13 | 153 | Uniform effect; cheaper per km than roads |
+| Solar panels | All | All African countries | +1.52 | 210 | Highest unit cost, strong return, especially in high-density regions |
 
-- **WACC differential:** 13% in Africa vs 8% OECD = 5 percentage point hurdle rate gap
-- **Impact:** Projects returning 10–12% viable in OECD but not in Africa
-- **Equity premium:** 1.6× higher in Africa
-- **Debt premium:** 2.5× higher; commercial lending at 18.6% vs 7.2% OECD
+East Africa (roads and railways): Uganda +1.24 / ratio 110 (medium); Kenya +1.81 / 142 (high); Tanzania +1.81 / 142 (high); Ethiopia +1.81 / 137 (medium-high).
 
-### Barrier 3: Macroeconomic Volatility
+### 5.3 What each type means for a plan
 
-- Sovereign debt burden (4.8-year debt repayment horizon)
-- Currency depreciation risk (particularly for USD-denominated loans)
-- Inflation volatility affecting project cash flows
+- Roads: most cost-effective in low-density countries (ratio 98-135); saturated markets exceed 300. Critical for rural-urban linkages, agricultural export corridors, market integration.
+- Railways: highest unit cost, substantial effect (+1.81 in medium-high density), lower pollution than road transport, best ROI in medium-high density regions; strategic for minerals, bulk goods, intra-regional trade.
+- Fibre: uniform effect at every density; enables digital financial services, e-commerce, remote work, distance education; complements all other infrastructure. Broadband has low marginal cost per user and network effects; useful for financial inclusion, agricultural extension, health services. Kenya's mobile money reached about 80% financial inclusion, and fibre extends that ecosystem into e-commerce, fintech and educational content.
+- Solar: highest unit cost (210) but strong return (+1.52); decentralised generation reduces transmission needs in rural areas; strategic for energy-intensive manufacturing and rural electrification.
 
-### Barrier 4: Project Concentration in South Africa & Egypt
+### 5.4 Socio-economic return indicators
 
-**Private infrastructure investment highly concentrated:**
-- South Africa: 21% of Africa's total private infra investment (2013–23)
-- Egypt: 15% of Africa's total
-- Combined: 36% of continent's private infra investment
-
-**Success factors in these countries:**
-- Robust regulatory frameworks
-- South Africa: Renewable Energy Independent Power Producer Procurement Programme (REIPPP)
-- Egypt: Sovereign green bond issuance (Africa's first)
-- Established institutional capacity
-
-**Implication:** Other African countries face "lack of track record" disadvantage in accessing private capital.
-
-### Default Risk: Positive Signal
-
-**Infrastructure sector default rates (energy, water, communications):**
-- Africa: 4–5% (lowest of all sectors)
-- Reflects: Investor caution and **highly selective project approach**
-- **However:** Sub-Saharan Africa (excl. North Africa) shows higher average defaults than other world regions (2013–23)
-
-**Interpretation:** Infrastructure is low-default sector, but country-risk premium justified for lower-HDI nations.
+| Indicator | Value | Source study (via AUC/OECD 2025) | Plan use |
+|---|---|---|---|
+| Return on climate-resilient water and sanitation | At least USD 7 per USD 1 invested (review of 110 studies): health, education, food security, SDG progress | Systematic review cited in AUC/OECD 2025 | Conservative ROI narrative for bankability scoring |
+| Manufacturing firms affected by unreliable energy | 68% (29 African countries); lower non-agricultural and skilled employment | Mensah (2024) | Energy-risk costing for processing, textiles, agribusiness |
+| Global value chain (GVC) participation | One standard deviation more infrastructure lending gives 0.11 standard deviation more GVC participation after 4 years, strongest downstream (processing, distribution, retail) | Amendolagine, Presbitero and Rabellotti (2024) | Case for processing and export logistics |
+| Transport plus energy synergy | Shift from agriculture to manufacturing and services 2.5 times that of roads alone | Dappe and Lebrand (2021) | Complementary rather than siloed investment |
+| PIDA operationalisation | Exports up 11.5%; GDP growth up to 2% | Fontagne et al. (2022) | Corridor business case |
+| East Africa GDP-growth uplift if the investment need is met by 2040 | East Africa +6.0 pp (Central +6.2, West +5.4, Southern +4.2, North +3.5) | AUC/OECD 2025 | Market growth upside |
 
 ---
 
-## Section 6: Three-Scenario Model for Meeting USD 155B Annual Target
+## 6. Financing Scenarios and Levers (USD 155 billion annual target)
 
-### Scenario 1: Business as Usual (Current Trends)
+Source: AUC/OECD, *Africa's Development Dynamics 2025*, 2025 (AUC content is all rights reserved: paraphrased facts only, no verbatim text or logos; OECD content from July 2024 is generally CC BY 4.0 as an adaptation not endorsed by the OECD, terms page unverified). Accessed 2026-09-25. Scenarios are modelled projections (GDP from IMF WEO to 2029 with linear extrapolation to 2040): treat as scenario inputs, not forecasts.
 
-**Total mobilised by 2040:** USD 90 billion annually
+| Item | Scenario 1: business as usual | Scenario 2: 1.3% of GDP, tax and debt reform | Scenario 3: 2.0% of GDP, full reform |
+|---|---|---|---|
+| Total mobilised by 2040 | USD 90 billion (gap USD 65 billion; only USD 7 billion up over 23 years) | USD 133 billion (gap USD 22 billion) | USD 159 billion (USD 4 billion surplus, usable for climate resilience or maintenance buffers) |
+| African governments | USD 58 billion (1.3% of GDP) | USD 83 billion (+25) | USD 109 billion (+26 vs Scenario 2) |
+| Private sector | USD 13 billion (0.3% of GDP) | USD 21 billion (+8) | USD 21 billion |
+| Development finance | USD 19 billion | USD 29 billion (+10) | USD 29 billion |
 
-| Source | 2040 Amount | Change from 2016–2020 |
-|--------|-----------|----------------------|
-| African governments | USD 58B | No change (1.3% of GDP) |
-| Private sector | USD 13B | No change (0.3% of GDP) |
-| Development finance | USD 19B | No change |
-| **Total** | **USD 90B** | **USD 7B increase over 23-year period** |
+Scenario 2 levers:
+- Tax-to-GDP from 16% (2022) to 21.5% (Latin America and Caribbean average); in 2022 only 6 of 36 African countries were above 21.5% and 19 below 15%; FfD4 recommendation to double capacity support by 2030 for countries aiming for 15%+.
+- Debt service from 25% of tax revenue (2023) to 9% (2010s level) through relief, refinancing or higher revenue.
+- Private infrastructure investment from 0.3% to 0.6% of GDP by 2040, enabled by lower cost of capital and REIPPP-type regulatory frameworks.
+- ODA to the 0.7% of GNI commitment by 2040 (USD 4 billion or more a year for infrastructure).
 
-**Outcome:** Leaves USD 65 billion annual gap; fails to meet USD 155B target.
+Scenario 3 additional lever: infrastructure allocation from 1.3% to 2.0% of GDP (reallocation or tax and debt reform space).
 
-### Scenario 2: Government Spending Stable at 1.3%, Tax & Debt Reform
+Recommended sequencing for Scenario 3:
+1. Years 1-5: tax administration capacity; debt restructuring talks.
+2. Years 5-10: tax-to-GDP 18-19%; debt service 15-18% of revenue.
+3. Years 10-15: tax-to-GDP 20%+; debt service 12%; infrastructure allocation 1.7% of GDP.
+4. Years 15-25: full Scenario 3 parameters, sustained at 2.0%.
 
-**Total mobilised by 2040:** USD 133 billion annually (USD 22B gap to target)
+### Policy priorities as plan levers (estimated annual unlock)
 
-| Source | 2040 Amount | Incremental Funding | Policy Mechanism |
-|--------|-----------|-------------------|------------------|
-| African governments | USD 83B | +USD 25B | Higher tax revenue (16% → 21.5% of GDP) + debt reduction + no change to % allocated to infrastructure |
-| Private sector | USD 21B | +USD 8B | Doubling private investment share of GDP (0.3% → 0.6%) by 2040 |
-| Development finance | USD 29B | +USD 10B | Higher bilateral ODA (reach 0.7% of GNI by 2040) + double multilateral finance |
-| **Total** | **USD 133B** | **+USD 43B** | **—** |
-
-**Tax Revenue Path (Key Lever):**
-- Current baseline: 16% of GDP (2022)
-- Target: 21.5% of GDP (Latin America & Caribbean average)
-- As of 2022: Only 6 of 36 African countries above 21.5%; 19 below 15%
-- FfD4 recommendation: Double capacity support by 2030 for countries aiming for 15%+
-
-**Debt Service Reduction Path:**
-- Current: 25% of tax revenue (2023)
-- Target: 9% of tax revenue (2010s historical level)
-- Mechanism: Debt relief, refinancing, or higher revenue collection
-
-**Private Investment Doubling:**
-- Current: 0.3% of GDP
-- Target: 0.6% of GDP by 2040
-- Enabling conditions: Lower cost of capital (via risk transparency) + regulatory frameworks (REIPPP model)
-
-**ODA Path:**
-- Current: Below 0.7% of GNI for OECD DAC members
-- Target: Reach existing UN commitment of 0.7% by 2040
-- Estimated unlock: USD 4B+ annually for infrastructure
-
-### Scenario 3: Government Spending Increases to 2% of GDP (Full Reform)
-
-**Total mobilised by 2040:** USD 159 billion annually (USD 4B surplus)
-
-| Source | 2040 Amount | Incremental Funding vs Scenario 2 | Policy Mechanism |
-|--------|-----------|-----------------------------------|------------------|
-| African governments | USD 109B | +USD 26B | As in Scenario 2, **plus** shift infrastructure allocation from 1.3% to 2.0% of GDP |
-| Private sector | USD 21B | No change | Same as Scenario 2 |
-| Development finance | USD 29B | No change | Same as Scenario 2 |
-| **Total** | **USD 159B** | **+USD 26B** | **—** |
-
-**Infrastructure Spending Shift (Key Additional Lever):**
-- Current: 1.3% of GDP
-- Target: 2.0% of GDP
-- Assumption: Governments reallocate existing budget or increase fiscal space via tax/debt reforms
-
-**Outcome:** Meets or exceeds USD 155B target; allows for USD 4B annually for climate resilience or maintenance buffers.
-
-### Policy Sequencing for Scenario 3 (Recommended Path)
-
-1. **Year 1–5:** Capacity building for tax administration; debt restructuring negotiations
-2. **Year 5–10:** Tax-to-GDP ratio reaches 18–19%; debt service at 15–18% of revenue
-3. **Year 10–15:** Tax-to-GDP at 20%+; debt service at 12% of revenue; infrastructure allocation at 1.7% of GDP
-4. **Year 15–25:** Full Scenario 3 parameters achieved; sustained at 2.0% of GDP for infrastructure
+| Priority | Unlock | Actions and East Africa relevance |
+|---|---|---|
+| 1. Sovereign debt and tax mobilisation | USD 51 billion | Tax-to-GDP 16% to 21.5%; debt service 25% to 9% of tax revenue; infrastructure allocation +0.7 pp of GDP; doubled capacity support by 2030. Uganda, Tanzania and Kenya must prioritise collection (for example EFRIS, revenue agency capacity) while protecting essential services; 19 of 36 countries are below 15% |
+| 2. Lower cost of capital via transparency | USD 8 billion private | AU credit rating agency (only 33 of 54 countries ever rated); cost-of-capital commission proposed by the South African G20 Presidency; African Virtual Investment Platform (AU/OECD, 2025); sector risk registers; promote South Africa's REIPPP and Egypt's sovereign green bond. Kenya: REIPPP-type solar; Tanzania and Uganda: transparent PPP pipeline and risk ratings |
+| 3. Reverse ODA decline | USD 4-10 billion | DAC members reach 0.7% of GNI by 2040; double Aid for Trade to LDCs by 2031 (at least 50% to trade infrastructure); development bank capital increases; SDR reallocation through DFIs |
+| 4. Multilateral development banks | USD 6 billion | MDB disbursements USD 8.2 billion (2023) vs USD 4.2 billion (2010); target 1.1% of GDP by 2040; blended finance and guarantees; EU Global Gateway and G7 Partnership for Global Infrastructure and Investment; standard due diligence templates. AfDB, IFC and World Bank partner with EAC and national DFIs |
+| 5. Strategic prioritisation by density | n/a | See Section 8.3 |
+| 6. Governance and maintenance | n/a | See Section 9 |
+| 7. Regional corridors (PIDA) | n/a | See Section 7 |
 
 ---
 
-## Section 7: Policy Recommendations for Scaling Infrastructure Financing
+## 7. Regional Corridors and Landlocked Economics
 
-### Priority 1: Improve Sovereign Debt Conditions & Tax Mobilisation
-**Target unlock: USD 51 billion annually**
+Source: AUC/OECD, *Africa's Development Dynamics 2025*, 2025 (AUC content is all rights reserved: paraphrased facts only, no verbatim text or logos; OECD content from July 2024 is generally CC BY 4.0 as an adaptation not endorsed by the OECD, terms page unverified). Accessed 2026-09-25.
 
-**Actions:**
-- Raise tax-to-GDP from 16% to 21.5% (Latin America & Caribbean benchmark)
-- Reduce debt service from 25% to 9% of tax revenue (restore to 2010s levels)
-- Increase average infrastructure allocation by 0.7 percentage points of GDP
-- Double capacity support by 2030 (technical assistance for tax administration, debt management)
+| Indicator | Value |
+|---|---|
+| Development corridors in Africa (planned, under construction or operating, 2025) | 80+ |
+| PIDA Priority Action Plan 2 (2021-2030) | 69 priority projects |
+| PIDA Quality Label (PQL) | 15 projects awarded (2025); expansion possible across the 69 |
+| Landlocked transport cost | Up to 75% of export value without corridor infrastructure |
+| Corridor transport cost reduction for landlocked exporters | 25-75% |
 
-**Evidence base:** Current 19/36 African countries below 15% tax-to-GDP; significant room for improvement without rate changes (efficiency gains).
+Dar es Salaam-Nairobi-Addis Ababa-Berbera/Djibouti corridor: connects East African manufacturing hubs to ports, lowers trade costs, boosts agri-food value chains and links to Southern Africa (minerals, agriculture). Lessons: fund maintenance from the start; improve political stability (cross-border geopolitical exposure); harmonise transport standards. Terminals: Dar es Salaam, Mombasa, Berbera (port efficiency is not quantified in the source).
 
-**Uganda/Tanzania/Kenya context:** Must prioritise tax collection (EFRIS, revenue agency capacity) while protecting essential services.
-
----
-
-### Priority 2: Reduce Cost of Capital Through Transparency & Risk Information
-
-**Target unlock: USD 8 billion annually from private investment**
-
-**Actions:**
-1. **Credit rating expansion:** Establish AU credit rating agency (only 33/54 countries rated)
-2. **Cost of capital commission:** South African G20 Presidency proposal to standardise WACC benchmarking
-3. **Risk data platforms:**
-   - Expand African Virtual Investment Platform (launched AU/OECD 2025)
-   - Sector-level risk registers (energy, transport, water defaults, permit timelines)
-4. **Regulatory framework models:** Promote South Africa's REIPPP and Egypt's green bond model
-
-**Target impact:** Double private investment in infrastructure from 0.3% to 0.6% of GDP by 2040.
-
-**East Africa implementation:** Kenya (REIPPP-equivalent for solar); Tanzania/Uganda (transparent PPP pipeline + risk ratings).
+Plan implications:
+- Landlocked entrepreneurs (Uganda, Rwanda, Burundi, Ethiopia) must budget heavily for transport; road, rail and port improvements directly change unit economics.
+- Corridor development gives first-mover advantage to exporters who invest early; target Uganda-Tanzania-Kenya border zones, processing and logistics with port links, and export agribusiness eligible for regional trade finance (maize, rice, livestock, coffee).
+- Rail context: standard-gauge railways in Kenya and Tanzania are ongoing and Uganda is planning a Central Corridor extension; maintenance (Kenya SGR running costs) and PPP debt sustainability are risks.
+- Blue Dot Network (April 2024, G20 Principles on Quality Infrastructure) and PQL improve credibility and funding potential.
 
 ---
 
-### Priority 3: Reverse ODA Decline & Scale Development Finance
+## 8. Country and Segment Positioning
 
-**Target unlock: USD 4–10 billion annually**
+### 8.1 Country profiles (planning use)
 
-**Current ODA Crisis:**
-- Bilateral development finance for infrastructure: USD 16.6B (2022) → USD 14.8B (2023) [−USD 1.8B in 1 year]
-- Projected 16–28% ODA decline 2023–2025 if trends continue
-- Disproportionately affects low-HDI countries
+Source: AUC/OECD, *Africa's Development Dynamics 2025*, 2025 (AUC content is all rights reserved: paraphrased facts only, no verbatim text or logos; OECD content from July 2024 is generally CC BY 4.0 as an adaptation not endorsed by the OECD, terms page unverified), with engine analysis where marked. Accessed 2026-09-25.
 
-**Actions (FfD4 Commitments):**
-1. **OECD DAC members reach 0.7% of GNI ODA target** by 2040 (currently unmet)
-2. **Double Aid for Trade to LDCs** by 2031 (minimum 50% to trade-related infrastructure)
-3. **Development bank capital increase:** World Bank, AfDB capitalisation; leverage capital markets
-4. **SDR reallocation:** South African G20 proposal to reallocate special drawing rights through DFIs
+| Country | Density | Cost-effectiveness | Infrastructure priorities | Financing context | Plan considerations |
+|---|---|---|---|---|---|
+| Uganda | Medium | +1.24, ratio 110 | Central Corridor SGR extension (Dar-Nairobi-Kampala) and road maintenance; solar mini-grids, grid reinforcement, Nile hydro; fibre backbone and mobile money | Tax-to-GDP estimated 12-14% (engine estimate, verify), below the 15% threshold; private investment limited; relies on World Bank, AfDB, China; ODA decline 16-28% risk | 13% WACC limits large PPPs; government spends 1.3% of GDP on infrastructure (national scaling potential); corridor agro-processing and export agriculture benefit |
+| Kenya | High | +1.81, ratio 142 | SGR optimisation, Mombasa port efficiency, feeder roads; solar, geothermal, wind, grid stability; fibre metro rings (Nairobi, Mombasa, Kisumu), 5G | Highest private infrastructure investment in East Africa; among 10 countries capturing 59% of infrastructure ODA | Lower cost of capital than the region; more developed PPP oversight; deeper PE, DFI and corporate finance |
+| Tanzania | High | +1.81, ratio 142 | Dar port efficiency, SGR (Dar-Morogoro-Iringa), LAPSSET link; gas-to-power and renewables; fibre and undersea cable links | Gateway for Uganda, Rwanda, Burundi; ODA significant but volatile; Chinese finance active (SGR debt sustainability question); private investment below Kenya | Transport and logistics benefit from corridor; port efficiency critical; mining and agribusiness depend on road, rail and port quality |
+| Ethiopia | Medium-high | +1.81, ratio 137 | Industrial-zone connectivity (roads, power, digital) | n/a | n/a |
 
-**Estimated unlock:** Reversing ODA to 0.7% of GNI = USD 4B+/year for infrastructure.
+### 8.2 Infrastructure risk by density (Section 12 input)
 
----
+- Low density (Angola, DRC, Chad): high infrastructure risk, long access timelines; plan storage, backup power, supply-chain redundancy.
+- Medium (Uganda, Zambia): moderate risk, improving roads and railways, early-mover window.
+- High (Kenya, Tanzania): lower risk, mature networks, higher competition.
+- Screening questions: does the business depend on roads, electricity, digital connectivity or ports; what is current access quality; what is the planned 5- and 10-year infrastructure timeline; is the market in a corridor area.
 
-### Priority 4: Expand Multilateral Development Bank Role
+### 8.3 Infrastructure emphasis by density (Priority 5)
 
-**Target unlock: USD 6 billion annually**
+| Density | Primary focus | Secondary focus | Rationale |
+|---|---|---|---|
+| Low (Angola, Chad, DRC, Niger, Sudan) | Roads (ratio 98-137) | Solar for rural electrification | Basic connectivity unlocks rural productivity |
+| Medium (Uganda, Benin, Ghana, South Africa) | Railways (ratio 135-137) | Fibre (153) | Bulk transport plus digital layer |
+| High (Kenya, Tanzania, Egypt, Nigeria) | Railways and fibre (142-153) | Solar (210) and urban infrastructure | Efficiency, congestion, clean energy |
 
-**Current status:**
-- Multilateral development banks: USD 8.2B disbursements (2023), up from USD 4.2B (2010)
-- Target: Double to 1.1% of GDP by 2040
+East Africa emphasis: Uganda: standard-gauge railway, fibre backbone, solar mini-grids. Kenya and Tanzania: SGR optimisation, logistics hubs, fibre metro rings, rooftop solar. Ethiopia: industrial-zone connectivity.
 
-**Actions:**
-1. **Leverage capital markets:** DFIs to use blended finance, risk guarantees, de-risking instruments
-2. **Private sector mobilisation:** EU Global Gateway, G7 Partnership for Global Infrastructure and Investment
-3. **Sustainable operations:** Reforms to ensure environmental/social sustainability without delaying disbursements
-4. **Knowledge products:** Standardised due diligence, environmental/social management plans, project templates
+### 8.4 Value-chain and business-model opportunities
 
-**East Africa relevance:** AfDB, IFC, World Bank partnerships with regional development banks (EAC Development Bank, national DFIs).
-
----
-
-### Priority 5: Strategic Prioritisation of Infrastructure Types
-
-**Principle:** Tailor investment mix to country infrastructure density and sectoral priorities.
-
-| Density Level | Primary Focus | Secondary Focus | Rationale |
-|---------------|---------------|-----------------|-----------|
-| **Low** (Angola, Chad, DRC, Niger, Sudan) | Roads (ratio 98–137) | Solar for rural electrification | Establish basic connectivity; roads unlock rural productivity |
-| **Medium** (Uganda, Benin, Ghana, South Africa) | Railways (ratio 135–137) | Fibre-optic (ratio 153) | Improve bulk transport; add digital layer |
-| **High** (Kenya, Tanzania, Egypt, Nigeria) | Railways + Fibre (ratio 142–153) | Solar (ratio 210) + urban infrastructure | Specialise in efficiency; reduce congestion; transition to clean energy |
-
-**Application for East Africa:**
-- **Uganda (medium density):** Prioritise standard-gauge railway (Central Corridor expansion), fibre backbone, solar mini-grids
-- **Kenya/Tanzania (high density):** SGR optimisation, logistics hubs, fibre metro rings, rooftop solar
-- **Ethiopia (medium–high density):** Industrial zone connectivity (roads + power + digital)
+- Agricultural producers: build processing when corridor infrastructure comes online.
+- Logistics: road, rail and port upgrades enable consolidation, cold chain and cross-border trade.
+- Digital platforms: fibre enables fintech, e-commerce and supply-chain visibility.
+- Water and sanitation: 7:1 ROI narrative for impact investors. Energy: REIPPP-style procurement (Kenya, Tanzania models). Agriculture: climate-smart irrigation and storage for green finance.
 
 ---
 
-### Priority 6: Improve Infrastructure Governance & Maintenance Planning
+## 9. Risks: Governance, Maintenance, Climate and Energy Access
 
-**Current gaps:**
-- Up to 53% of investment wasted in low-income countries (inefficient management)
-- Only 14% of road capital expenditure allocated to maintenance vs 31–37% needed
-- Retrofitting after unplanned growth costs 99× more than early investment
+Source: AUC/OECD, *Africa's Development Dynamics 2025*, 2025 (AUC content is all rights reserved: paraphrased facts only, no verbatim text or logos; OECD content from July 2024 is generally CC BY 4.0 as an adaptation not endorsed by the OECD, terms page unverified), with secondary studies as named. Accessed 2026-09-25.
 
-**Actions:**
-1. **Maintenance-first budgeting:** Mandate 31% (transport), 37% (water), 23% (energy) of capex for maintenance
-2. **Strategic early investment:** Serviced plots, basic road grids before unplanned settlement (save 99% retrofit costs)
-3. **Cross-sectoral coordination:** Master plans at national/subnational level (reduce silos)
-4. **Capacity building:** Only 0.4 urban planners per 1,000 people in Africa (vs 8 India, 36 high-income); train 1,000s by 2030
+### 9.1 Governance and capacity
 
-**Subnational revenue collection:** Only 7/36 African countries collecting subnational revenues (2022)—critical for maintenance sustainability.
+| Indicator | Value | Plan implication |
+|---|---|---|
+| Investment wasted through poor governance (37 low-income countries) | Up to 53%; causes: weak monitoring, inadequate maintenance funding, weak project selection, no multi-year budgeting | Diligence on public-partner quality |
+| Urban planners per 1,000 people | Africa 0.4; India 8; high-income 36 (90 times gap) | Capacity risk; external expertise needed |
+| African countries collecting subnational revenues (2022) | 7 of 36 | Weak local maintenance funding |
+| Project Preparation Facilities | Africa hosts 44% of global PPFs but supports fewer, lower-value projects | Preparation funding is available but limited |
+| PPP units conducting fiscal risk reviews | 13% of 36 | PPP counterparty risk |
+| PPP units conducting post-project audits | 9%; none consult affected communities | Social-licence risk |
+| PPP revenue model | Africa: 15% of PPP projects rely on user fees, 40% on public payments; Latin America and Caribbean: 29% and 24% | Fiscal-transfer dependence; favour user-fee or contribution models |
+| ODA for infrastructure allocated to education and training (2023) | Below 1%; skills gaps most acute in design and appraisal | Add planning and PPP skills to the team (Section 09) |
+| Private infrastructure concentration (2013-23) | South Africa 21%, Egypt 15% (combined 36%); other countries lack track record | Expect a track-record discount |
+| Credit ratings | Only 33 African countries ever rated (2024) | Information asymmetry premium |
 
----
+### 9.2 Maintenance and early investment
 
-### Priority 7: Regional Integration Through Development Corridors
+| Sector | Maintenance needed (% of capex) | Typical allocation | Gap |
+|---|---|---|---|
+| Transport | 31% | 14% (developing-country average; roads 14% vs 31-37% needed) | 17 pp |
+| Water and sanitation | 37% | 14% | 23 pp |
+| Energy | 23% | 14% | 9 pp |
 
-**Framework:** PIDA (Programme for Infrastructure Development in Africa)
+Source studies: Rozenberg and Fay (2019). Early investment (basic road grids, serviced plots before unplanned settlement) saves up to 99% of retrofitting cost (Collier et al., 2019). Plan implications: include maintenance recovery in pricing; hold a sinking fund for refurbishment; avoid reliance on government maintenance; budget 31-37% of capex depending on sector for 15+ year asset life; planned industrial parks and agribusiness estates outperform unplanned areas on cost and bankability.
 
-**Scale:**
-- 80+ corridors planned/under construction/operational (as of 2025)
-- PIDA Phase 2 (2021–30): 69 priority projects
-- PIDA Quality Label: 15 projects awarded; expansion potential across 69
+### 9.3 Climate risk
 
-**East African Corridor (Dar–Nairobi–Addis Ababa–Berbera/Djibouti):**
-- Reduces transport costs for landlocked countries (75% of export value without corridor)
-- Boosts agri-food value chains
-- Key lessons: maintenance funding, political stability, harmonised standards
+| Indicator | Value |
+|---|---|
+| Climate risk to African infrastructure vs Latin America and Europe | 2 times and 5 times |
+| Annual asset loss from climate damage | USD 10.2-11.4 billion (CRDI, 2023) |
+| Damage share by sector | Energy 36% (USD 3.7-4.1 billion); transport 25% (USD 2.6-2.9 billion); water and other 39% (USD 3.9-4.4 billion) |
+| Uninsured share of natural-catastrophe damage (2022) | 80% |
+| Green and nature-based infrastructure (2012-2023) | 297 projects in 48 countries, USD 21 billion or more; coordinating body AGIA (Collins et al., 2025) |
+| Resilience cost premium | About 10-20% over standard design (engine planning assumption, verify), offset by concessional finance |
+| Gender-integrated projects, OECD DAC-financed | 18% (2010) to 25% (2023) |
 
-**Economic returns (PIDA operationalisation):**
-- **Exports augmented by 11.5%**
-- **GDP growth increased by up to 2%**
-- **Global value chain participation:** Countries with larger infra loans show increased downstream GVC participation
+Plan use: add 36% energy and 25% transport damage exposure to the risk register; budget the resilience premium and backup systems; women-led enterprises can use infrastructure-for-inclusion framing (safe washing facilities, lighting, inclusive land use).
 
----
+### 9.4 Energy access and urbanisation
 
-## Section 8: Infrastructure Returns & Socio-Economic Benefits
+| Indicator | Value (2021 unless stated) |
+|---|---|
+| Electricity access, cities above 1 million | 80% (about 500 million urban Africans) |
+| Electricity access, rural | Below 20% (about 700 million rural Africans); 60 pp gap |
+| Urbanisation effect | +10% urbanisation gives +4% electricity consumption |
+| 2050 outlook | Two-thirds of Africans in urban agglomerations; urban land area more than doubles; Africa is the only continent with a still-growing rural population |
 
-### Water & Sanitation: The USD 7 Return
-
-**Evidence (Systematic review of 110 studies):**
-- Every USD 1 invested in **climate-resilient water and sanitation infrastructure** returns **at least USD 7** in socio-economic gains
-
-**Gains breakdown:**
-- Health improvements (reduced disease burden)
-- Education outcomes (better attendance, cognitive development)
-- Food security (irrigation, reduced crop loss)
-- SDG progress (water, sanitation, health targets)
-
-**Business plan implication:** Water/sanitation businesses can model 7:1 ROI as conservative baseline; use for bankability scoring.
-
-### Energy Access & Manufacturing Employment
-
-**Evidence (29 African countries):**
-- Lack of reliable energy access affects **68% of African manufacturing firms**
-- Results in:
-  - Significant reduction in non-agricultural employment
-  - Reduced skilled job creation
-  - Manufacturing competitiveness loss vs energy-secure regions
-
-**Business plan implication:** Energy-intensive businesses (processing, textiles, agribusiness) must factor in energy infrastructure risk; electrification as competitive advantage.
-
-### Infrastructure Financing Impact on Value Chain Integration
-
-**Evidence (Chinese infrastructure lending study):**
-- One standard deviation increase in infrastructure lending = **0.11 standard deviation increase in global value chain (GVC) participation** after 4 years
-- Especially strong for **downstream segments** (processing, distribution, retail)
-
-**Business plan implication:** Infrastructure investment in transport/digital correlates with upstream-to-downstream value chain shift; opportunities for agricultural processing, export logistics.
+Plan use: segment rural and urban markets; power infrastructure must outpace urbanisation.
 
 ---
 
-## Section 9: Energy Access & Electrification Metrics
+## 10. ODA Trends and Concessional-Finance Positioning
 
-### Rural–Urban Electricity Access Gap (2021)
+Source: AUC/OECD, *Africa's Development Dynamics 2025*, 2025 (AUC content is all rights reserved: paraphrased facts only, no verbatim text or logos; OECD content from July 2024 is generally CC BY 4.0 as an adaptation not endorsed by the OECD, terms page unverified). Accessed 2026-09-25.
 
-| Setting | Electricity Access Rate | Population Affected |
-|---------|------------------------|-------------------|
-| Urban (cities >1M inhabitants) | 80% | ~500M urban Africans |
-| Rural areas | <20% | ~700M rural Africans |
-| **Gap** | **60 percentage points** | **—** |
+| Indicator | Value |
+|---|---|
+| Bilateral infrastructure development finance | USD 16.6 billion (2022) to USD 14.8 billion (2023), down USD 1.8 billion (10.8%) |
+| Projected ODA decline 2023-2025 | 16-28%; hits low-HDI countries hardest |
+| Concentration | 10 African countries capture 59% of infrastructure ODA (2023): 4 medium/high-HDI and 6 others (composition not named in the source) |
+| Drivers | Geopolitical tension, OECD fiscal consolidation, competing humanitarian and climate priorities |
 
-**Trend:** Rural population continues growing (Africa only continent where this occurs); electrification demand compounds.
+FfD4 (Seville, June-July 2025) four-part roadmap: DAC members reach 0.7% of GNI ODA (USD 4 billion or more a year, by 2040); double Aid for Trade to LDCs by 2031 with at least half for trade infrastructure; expand MDBs (World Bank capital, AfDB funding security, regional DFIs such as the EAC Development Bank); SDR reallocation through DFIs (South African G20 proposal).
 
-### Electricity Consumption & Urbanisation
-
-- 10% increase in urbanisation → 4% increase in electricity consumption
-- By 2050: 2/3 of Africans in urban agglomerations; urban land area more than doubles
-- Implication: Electricity infrastructure must grow faster than urbanisation rate
-
-### Energy Infrastructure Maintenance Needs
-
-| Sector | Maintenance as % of Capital Expenditure |
-|--------|----------------------------------------|
-| Energy & electricity (Africa ex-North Africa) | 23% |
-| Transport | 31% |
-| Water & sanitation | 37% |
-| **Current allocation (developing countries avg)** | **14% (far below needs)** |
-
-**Maintenance funding gap:** African countries under-allocating for maintenance; infrastructure deteriorates, requiring costlier rehabilitation.
-
-### Climate Risk to Energy Infrastructure
-
-- African infrastructure climate risk: **2× Latin America, 5× Europe**
-- Annual energy asset losses due to climate events: **36% of total African infrastructure climate damage** (USD 10.2–11.4B/year)
-- Transport: 25%; water/other: 39%
-- Uninsured losses (2022): 80% of natural catastrophe damage
-
-**Business plan implication:** Energy projects require climate-resilience costing (backup systems, flood protection); green insurance mechanisms emerging (AGIA projects: 297 in 48 countries, USD 21B+ 2012–23).
+Plan implications for the funding request (Section 11): concessional infrastructure finance is shrinking; benchmark against the 13% WACC; expect more reliance on PPPs and bonds; governments need higher tax-to-GDP to offset ODA loss. Grant and concessional windows still open: climate-resilient infrastructure (green finance), digital and broadband projects (SDG 9), PIDA-backed regional corridors, and women and youth employment in infrastructure.
 
 ---
 
-## Section 10: Digital Infrastructure & Fibre-Optic Rollout
+## 11. Financial Projection and Risk Application (plan sections)
 
-### Fibre-Optic Cable Investment Needs
-
-- **23% of total infrastructure investment need** (USD 35.7B of USD 155B)
-- **Marginal effect on productive transformation:** +0.13 (uniform across all density levels)
-- **Cost-effectiveness ratio:** 153 (least expensive per km)
-
-### Strategic Value of Digital Infrastructure
-
-1. **Value chain integration:** Countries with larger infrastructure loans towards **digital infrastructure** show **increased global value chain participation**
-2. **Rural–urban linkage:** Digital backbone enables remote work, e-commerce, distance education
-3. **Complementary effect:** Multiplies returns on roads, railways (supply chain visibility, just-in-time logistics)
-
-### Broadband as Public Good
-
-**Unlike roads (congestion) or energy (demand-responsive), broadband:**
-- Has low marginal cost of additional user
-- Creates network effects (each additional user benefits all users)
-- Critical for financial inclusion, agricultural extension, health services
-
-**East African context:** Mobile money (M-Pesa) already achieved 80% financial inclusion in Kenya; fibre expands digital ecosystem beyond mobile into e-commerce, fintech, educational content.
+- Section 10 Financial projections: 13% WACC and 18.6% commercial debt as base; ROI: water and sanitation 7:1 minimum, energy and water and communications default risk 4-5% as bankability signal, transport "2-3% GDP growth multiplier" (engine planning assumption, verify against a primary source).
+- Section 11 Funding request: emphasise green infrastructure or corridor-based projects for concessional eligibility; Scenario 2 and 3 unlock USD 4-10 billion a year; position for climate resilience, gender inclusion and regional integration.
+- Section 12 Risk analysis: infrastructure dependency rated medium (Uganda, regional corridors), lower (Kenya urban), high (landlocked exporters without corridor access); add climate exposure.
+- Section 04 Market analysis: 60 pp electricity access gap; digital infrastructure concentrated in high-density areas; two-thirds of the population in urban agglomerations by 2050; corridor cuts landlocked export costs 25-75%.
+- Section 09 Management team: add infrastructure planning, maintenance budgeting and PPP negotiation; below 1% of ODA funds training.
 
 ---
 
-## Section 11: Transport Infrastructure & Corridor Economics
+## 12. Methodology Notes and Caveats
 
-### Road Infrastructure (32% of Investment Need)
+- Investment needs benchmark peer countries that reach the infrastructure levels of good productive-transformation performers by 2040. Cost-effectiveness uses compiled unit cost data (USD per km or MW) regressed on a productive transformation index.
+- Cost data are 2022-2024: inflation and exchange rates shift absolute values. ODA projections span a wide range. The 4-5% default rate covers energy, water and communications only. The 80% uninsured figure is from 2022. The brief covers Africa-wide trends; East Africa detail comes from corridor examples, not full sub-regional analysis.
 
-| Metric | Value |
-|--------|-------|
-| % of total infrastructure need | 32% |
-| Current maintenance allocation (developing countries) | 14% of capex |
-| Needed maintenance allocation (Africa ex-North Africa) | 31% of capex |
-| Retrofitting cost (early planning saves) | 99% cost reduction |
+## 13. Verification Checklist
 
-**Cost-effectiveness (density-dependent):**
-- **Low-density countries (Angola, DRC):** Ratio 98–135 (excellent returns)
-- **Medium-density (Uganda):** Ratio 110 (good returns; expansion opportunity)
-- **High-density (Kenya, Tanzania):** Ratio 142 (diminishing; railways more efficient next priority)
-
-### Railway Infrastructure (24% of Investment Need)
-
-| Metric | Value |
-|--------|-------|
-| % of total infrastructure need | 24% |
-| Unit cost | Highest among transport types |
-| Marginal transformation effect (medium–high density) | +1.81 |
-| Cost-effectiveness ratio | 135–142 (in productive regions) |
-| Carbon advantage vs roads | Lower pollution; aligns with climate commitments |
-
-**Strategic value:**
-- Bulk goods transport (minerals, agricultural products, containers)
-- Reduced operating cost per ton-km vs trucks
-- Regional integration (corridors like Dar–Nairobi–Addis Ababa)
-
-**East Africa context:**
-- Standard-gauge railways (SGR) in Kenya, Tanzania ongoing; Uganda planning Central Corridor extension
-- Maintenance critical (Kenya SGR running costs); PPP risk (debt sustainability)
-
-### Port & Coastal Logistics Infrastructure
-
-**Mentioned but not quantified in document:**
-- Dar Es Salaam (Tanzania), Mombasa (Kenya), Berbera (Djibouti) as corridor terminals
-- Landlocked transport cost impact: up to **75% of export value** (critical in East Africa—Uganda, Ethiopia, Rwanda)
-- Regional trade dependent on port efficiency
-
-### Landlocked Country Transport Cost Premium
-
-**Evidence:**
-- Transport costs for landlocked countries can represent up to **75% of export value** (before corridor infrastructure)
-- Dar–Nairobi–Addis Ababa–Berbera Corridor designed specifically to reduce this
-
-**Business plan implication:**
-- Landlocked entrepreneurs (Uganda, Rwanda, Burundi) must budget heavily for transport costs
-- Infrastructure investment (roads, railways, port efficiency) directly improves business unit economics
-- Corridor development creates first-mover advantages for exporters willing to invest early
+- [ ] Re-check each headline figure (USD 155 billion need, 13% WACC, 18.6% commercial rate, ODA figures) against the current AUC/OECD publication and cite the edition used.
+- [ ] Confirm the tax-to-GDP estimate for Uganda from a national source.
+- [ ] Confirm the licence and attribution wording for AUC/OECD material before external circulation.
+- [ ] Label every figure used in a plan with its source and access date, and mark projections as scenarios.
 
 ---
 
-## Section 12: Climate Resilience, Sustainability & Risk Management
+## Attribution
 
-### Climate Risk to African Infrastructure
+Primary: AUC/OECD, *Africa's Development Dynamics 2025: Infrastructure, Growth and Transformation*, OECD Publishing, Paris, 2025 (AUC content is all rights reserved: paraphrased facts only, no verbatim text or logos; OECD content from July 2024 is generally CC BY 4.0 as an adaptation not endorsed by the OECD, terms page unverified).
 
-| Risk Dimension | Magnitude |
-|----------------|-----------|
-| Africa's climate risk vs Latin America | 2× higher |
-| Africa's climate risk vs Europe | 5× higher |
-| Annual asset loss (climate damage) | USD 10.2–11.4 billion |
-| Uninsured losses (2022) | 80% of natural catastrophe damage |
-
-### Infrastructure Damage by Sector
-
-| Sector | % of Annual Climate Damage Cost |
-|--------|--------------------------------|
-| Energy | 36% (USD 3.7–4.1B) |
-| Transport | 25% (USD 2.6–2.9B) |
-| Water/other | 39% (USD 3.9–4.4B) |
-
-### Green Infrastructure & Climate Adaptation Financing
-
-**Evidence (2012–2023):**
-- 297 green infrastructure/nature-based solutions projects launched in 48 African countries
-- Total financing: USD 21 billion+
-- Alliance for Green Infrastructure in Africa (AGIA) as coordinating mechanism
-
-**Business plan implication:** Climate-resilient infrastructure (flood-resistant roads, drought-tolerant solar, storm-proof ports) attracts DFI funding; cost premium (typically 10–20%) offset by concessional financing.
-
-### Gender-Responsive Infrastructure (Emerging Priority)
-
-**Metrics:**
-- Projects integrating gender equality objectives: 18% (2010) → 25% (2023) of OECD DAC-financed projects
-- Affordable measures: Safe washing facilities along transport, inclusive land-use planning, lighting/security
-
-**Business plan implication:** Women-led enterprises can leverage infrastructure-for-inclusion narratives in grant proposals (DFI, impact investor criteria).
-
----
-
-## Section 13: Sub-Saharan Infrastructure Financing Landscape (Uganda, Kenya, Tanzania)
-
-### Uganda Infrastructure Profile
-
-**Infrastructure Density:** Medium
-- Roads & Railways cost-effectiveness: +1.24 marginal effect, ratio 110
-- Maintenance need: 31% (transport), 37% (water), 23% (energy)
-- Current status: Growing network; room for cost-effective expansion
-
-**Infrastructure Priorities (Strategic):**
-1. **Transport:** Central Corridor SGR extension (Dar–Nairobi–Kampala); road maintenance
-2. **Energy:** Solar mini-grids (rural), grid reinforcement (urban); hydro (Nile)
-3. **Digital:** Fibre backbone backbone expansion; mobile money ecosystem enhancement
-
-**Financing ecosystem:**
-- Tax-to-GDP: Estimated 12–14% (below 15% threshold for capacity building support)
-- Private investment: Limited; relies heavily on World Bank, AfDB, China
-- ODA: Facing 16–28% decline risk (2023–2025)
-
-**Business plan considerations:**
-- High cost of capital (13% WACC) limits large PPPs
-- Government spending on infrastructure at 1.3% of GDP nationally; significant scaling potential
-- Corridor-based businesses (export agriculture, agro-processing) benefit from Dar–Nairobi–Addis–Kampala integration
-
-### Kenya Infrastructure Profile
-
-**Infrastructure Density:** High
-- Roads & Railways cost-effectiveness: +1.81 marginal effect, ratio 142
-- Mature road/rail network; further road investment shows diminishing returns
-- Railways and digital infrastructure offer better incremental returns
-
-**Infrastructure Priorities (Strategic):**
-1. **Transport:** SGR optimisation; port efficiency (Mombasa); feeder roads
-2. **Energy:** Renewable energy (solar, geothermal, wind); grid stability
-3. **Digital:** Fibre metro rings (Nairobi, Mombasa, Kisumu); 5G rollout
-
-**Financing ecosystem:**
-- Private infrastructure investment: Highest in East Africa (due to credit rating, REIPPP-equivalent programs)
-- South Africa model: Renewable Energy PP Programme (IPPs)
-- ODA concentration: As one of 10 African countries capturing 59% of development finance
-
-**Business plan considerations:**
-- Lower cost of capital than region (investor confidence)
-- Regulatory framework more developed (PPP units, oversight)
-- Ecosystem depth: Private equity, DFI, corporate finance availability
-
-### Tanzania Infrastructure Profile
-
-**Infrastructure Density:** High
-- Roads & Railways cost-effectiveness: +1.81 marginal effect, ratio 142
-- Similar to Kenya; mature networks, railways more strategic than roads
-
-**Infrastructure Priorities (Strategic):**
-1. **Transport:** Dar port efficiency; SGR completion (Dar–Morogoro–Iringa); LAPSSET corridor (Lamu port)
-2. **Energy:** Gas-to-power (natural gas reserves); renewable energy portfolio
-3. **Digital:** Fibre rollout (undersea cables from Dar); broadband expansion
-
-**Financing ecosystem:**
-- Landlocked country importance: Dar Es Salaam is gateway for Uganda, Rwanda, Burundi
-- ODA significant but volatile; Chinese financing active (SGR debt sustainability question)
-- Private investment: Lower than Kenya; relies on concessional DFI financing
-
-**Business plan considerations:**
-- Gateway economy: Transport/logistics businesses benefit from corridor infrastructure
-- Port efficiency critical (Dar–Nairobi–Addis transit point)
-- Mining/agribusiness export-dependent on road/rail/port quality
-
----
-
-## Section 14: ODA Trends & Development Finance Outlook
-
-### Recent ODA Decline (Crisis)
-
-| Period | Bilateral Infra Development Finance | Change |
-|--------|--------------------------------------|--------|
-| 2022 | USD 16.6 billion | — |
-| 2023 | USD 14.8 billion | −USD 1.8B (−10.8%) |
-| Projected 2023–2025 | Potential 16–28% decline | —[need to reverse] |
-
-**Drivers of decline:**
-- Geopolitical tensions (competition among donors)
-- Macroeconomic pressures (inflation, fiscal consolidation in OECD)
-- Competing priorities (humanitarian, climate adaptation in other regions)
-
-### Concentration of Development Finance
-
-**10 African countries capture 59% of ODA for infrastructure (2023):**
-- 4 medium/high-HDI countries (likely Kenya, South Africa, Egypt, Namibia, etc.)
-- 6 others (likely strategic partners, resource-rich, or regional hubs)
-- **Implication:** Lower-HDI countries face scarcity of concessional finance
-
-### FfD4 (Financing for Development 4) Commitments to Reverse Decline
-
-**Seville Conference, June–July 2025:** Four-part roadmap
-
-1. **Reach 0.7% of GNI ODA target** (OECD DAC members)
-   - Current: Below target for most donors
-   - Unlock: USD 4B+ annually for infrastructure
-   - Timeline: By 2040 (Scenario 3)
-
-2. **Double Aid for Trade to LDCs by 2031**
-   - Minimum 50% allocated to trade-related infrastructure
-   - Rationale: Infrastructure (ports, roads, digital) enables trade competitiveness
-
-3. **Expand multilateral development banks**
-   - World Bank capitalisation increases
-   - AfDB funding security (protect from political cuts)
-   - Regional DFIs (EAC Dev Bank) strengthened
-
-4. **SDR reallocation through DFIs** (South African G20 Presidency)
-   - IMF special drawing rights reallocated to DFIs for concessional lending
-   - Complements bilateral ODA
-
-### Business Plan Implication: ODA Risk in Infrastructure Financing
-
-**For African entrepreneurs:**
-- Concessional infrastructure financing (ODA-backed) is declining
-- Expect higher cost of capital: move toward 13% WACC benchmarking
-- Private investment (PPPs, bonds) increasingly necessary
-- Policy recommendation: Governments must increase tax-to-GDP (Scenario 2) to offset ODA loss
-
-**Grant opportunities (still available):**
-- Climate-resilient infrastructure (green finance)
-- Digital/broadband projects (SDG 9)
-- Regional corridors (PIDA-backed)
-- Women/youth employment in infrastructure
-
----
-
-## Section 15: Governance, Implementation & Sustainability Issues
-
-### Infrastructure Governance Gaps
-
-**Evidence (37 low-income countries globally):**
-- Up to **53% of investment resources wasted** due to poor governance
-- Main causes:
-  - Insufficient monitoring systems
-  - Inadequate maintenance funding allocation
-  - Weak project selection/appraisal processes
-  - Lack of multi-year budgeting frameworks
-
-### Capacity Constraints
-
-| Metric | Africa | India | High-Income | Gap |
-|--------|--------|-------|-------------|-----|
-| Urban planners per 1,000 people | 0.4 | 8 | 36 | 90× (high-income) |
-| African countries collecting subnational revenues (2022) | 7/36 (19%) | — | — | 81% have no subnational budget authority |
-
-**Impact:** Maintenance underfunded, infrastructure deteriorates, retrofitting costs soar.
-
-### Public–Private Partnership Challenges
-
-**Resource constraints:**
-- Africa hosts 44% of global Project Preparation Facilities (PPFs) but supports fewer, lower-value projects
-- Only 13% of 36 African PPP units conduct fiscal risk reviews
-- Only 9% conduct post-project appraisals/audits
-- **Zero** consult affected communities on PPP impacts
-
-**User fee financing model (underdeveloped):**
-- Africa: 15% of PPP infra projects rely on user fees; 40% depend on public payments
-- Latin America & Caribbean: 29% user fees; 24% public payments
-- Lower user fee model → reliance on fiscal transfers (unsustainable if government budgets constrained)
-
-### Maintenance Under-Prioritisation
-
-| Sector | Needed Maintenance (% of capex) | Typical Allocation | Gap |
-|--------|--------------------------------|------------------|-----|
-| Transport | 31% | 14% | −17 pp |
-| Water & sanitation | 37% | 14% | −23 pp |
-| Energy | 23% | 14% | −9 pp |
-
-**Business plan implication:** Water, energy, transport businesses must include 31–37% opex budget for maintenance to ensure 15+ year asset life; under-maintenance leads to early failure and asset write-downs.
-
-### Early Investment vs Retrofitting (Sunk Cost Paradox)
-
-**Evidence (Collier et al., 2019):**
-- Strategic early investments (basic road grids, serviced plots before unplanned settlement) save **up to 99% of retrofitting costs**
-- Lesson: Master-plan-based development lands cheaper than reactive infrastructure
-
-**Business plan implication:** Agribusiness, industrial parks, real estate projects with planned infrastructure (roads, power, digital) outcompete unplanned growth areas in cost competitiveness and bankability.
-
-### PIDA Quality Label & Standardisation
-
-**Status (as of 2025):**
-- PIDA Quality Label (PQL): 15 projects awarded
-- Potential expansion: Across 69 PIDA Priority Action Plan 2 projects
-- Purpose: Signal quality to investors; communicate implementation standards
-
-**Complementary initiatives:**
-- Blue Dot Network (launched April 2024): G20 Principles on Quality Infrastructure
-- Standards cover preparation to implementation phases
-- Enhance credibility and funding potential
-
-**Skills Development Gap:**
-- Less than 1% of ODA for infrastructure allocated to education/training (2023)
-- Skill shortages most acute in **early project lifecycle phases** (design, appraisal)
-- Impact: Reduces bankability, increases project costs
-- Opportunity: Communities of practice; peer learning networks
-
----
-
-## Section 16: Implications for Business Planning
-
-### 1. Infrastructure Risk Assessment for Business Viability
-
-**Key questions:**
-- Is your business dependent on roads, electricity, digital connectivity, or ports?
-- What is current access quality in your target market?
-- What is planned infrastructure timeline (5-year, 10-year)?
-- Is your market in corridor-development area (higher likelihood of investment)?
-
-**Application:**
-- Low-density areas (Angola, DRC, Chad): High infrastructure risk; expect prolonged timelines for access; consider storage, backup power, supply chain redundancy
-- Medium-density areas (Uganda, Zambia): Moderate risk; roads/railways improving; window for early-mover advantage
-- High-density areas (Kenya, Tanzania): Lower risk; infrastructure mature; competition higher
-
-### 2. Cost of Capital Benchmarking
-
-**Standard assumption for East African infrastructure-dependent businesses:**
-- WACC = 13% (Africa benchmark from AUC/OECD 2025)
-- Cost of equity premium: +5 pp vs OECD
-- Cost of debt: 18.6% commercial lending (if available)
-
-**Financing implications:**
-- Project IRR must exceed 13% to attract private capital
-- 10–12% IRR projects (viable in OECD) not bankable in Africa
-- Concessional financing (ODA, DFI) critical to bridge gap
-
-### 3. Value Chain Integration & Downstream Opportunities
-
-**Evidence:**
-- Infrastructure investment correlates with value chain shift from upstream (production) to downstream (processing, distribution, retail)
-- 0.11 standard deviation increase in GVC participation per standard deviation increase in infrastructure lending
-
-**Business implication:**
-- Agricultural commodity producers: Invest in processing facilities when corridor infrastructure comes online
-- Logistics entrepreneurs: Road/rail/port upgrades enable consolidation, cold-chain, cross-border trade
-- Digital platforms: Fibre rollout enables fintech, e-commerce, supply chain visibility
-
-### 4. Green Infrastructure Premium & Impact Financing
-
-**Climate-resilient infrastructure cost premium:** 10–20% vs standard design
-- Flood-resistant roads, drought-tolerant solar, wind-proof structures
-
-**Financing available:**
-- AGIA (Alliance for Green Infrastructure in Africa): 297 projects, USD 21B+ (2012–2023)
-- DFI concessional finance for climate adaptation
-- Impact investor appetite for green infrastructure
-
-**Business opportunity:**
-- Water/sanitation businesses: 7:1 ROI narrative attractive to impact investors
-- Energy businesses: REIPPP-style procurement programs (Kenya, Tanzania models)
-- Agricultural businesses: Climate-smart infrastructure (irrigation, storage) eligible for green finance
-
-### 5. Maintenance Sustainability & Long-Term Viability
-
-**Critical for all infrastructure-dependent businesses:**
-- Budget 31–37% of capex for maintenance (depending on sector)
-- Plan for government underfunding (likely 14% allocation vs 31–37% need)
-- User fee model or community contribution model needed
-
-**Business model adjustment:**
-- Include maintenance cost recovery in pricing
-- Build reserves/sinking fund for major refurbishment
-- Avoid reliance on government maintenance (unsustainable)
-
-### 6. Regional Corridor Positioning (East Africa)
-
-**Dar–Nairobi–Addis Ababa–Berbera/Djibouti Corridor:**
-- Major investment corridor through 2030+
-- Transport cost reduction: 25–75% for landlocked exporters
-- Agri-food value chains priority (maize, rice, livestock, coffee)
-
-**Business positioning:**
-- Early entry into corridor areas (Uganda-Tanzania-Kenya border zones)
-- Processing/logistics businesses with port-linkage potential
-- Export-oriented agribusiness eligible for regional trade financing
-
----
-
-## Section 17: Key Data Sources & Caveats
-
-### Methodology Notes
-
-- **Investment needs modelling:** Based on peer-country benchmarking (achieving infrastructure levels of countries performing well in productive transformation by 2040)
-- **Cost-effectiveness:** Unique infrastructure cost data compiled (USD per km or MW) with regression analysis against productive transformation index
-- **Scenario modelling:** GDP projections from IMF WEO (until 2029) with linear extrapolation through 2040
-
-### Source Limitations
-
-1. **Cost data currency:** Based on 2022–2024 data; inflation and exchange rates may shift absolute figures
-2. **ODA projections:** 16–28% decline range wide; depends on geopolitical resolution
-3. **Default rates:** 4–5% based on energy/water/comms; other sectors may vary significantly
-4. **Climate risk data:** CRDI estimates; 80% uninsured loss figure from 2022 (pre-insurance expansion)
-
-### Regional Variations Not Detailed
-
-- Document focuses on Africa-wide trends; country-specific variations within regions not quantified
-- East Africa data derived from regional corridor examples, not comprehensive sub-regional analysis
-
----
-
-## References
-
-AUC/OECD (2025). *Africa's Development Dynamics 2025: Infrastructure, Growth and Transformation*. OECD Publishing, Paris.
-
-Key citations within:
-- Dappe & Lebrand (2021). Infrastructure and structural transformation in East Africa.
-- Rozenberg & Fay (2019). Infrastructure maintenance needs across African countries.
-- Fontagné et al. (2022). PIDA regional transport networks impact on exports.
-- Collier et al. (2019). Strategic early infrastructure investment vs retrofitting.
-- CRDI (2023). Climate resilience and infrastructure asset damage in Africa.
-- Collins et al. (2025). Green infrastructure projects in Africa (AGIA).
-- Mensah (2024). Energy access and manufacturing employment (29-country study).
-- Amendolagine, Presbitero & Rabellotti (2024). Chinese infrastructure lending and GVC participation.
-
----
-
-## How to Use This Reference File in Business Planning
-
-### For Section 10 (Financial Projections)
-
-- **Cost of capital benchmarking:** Use 13% WACC for African infrastructure-dependent projects; 18.6% cost of debt for commercial financing scenarios
-- **ROI expectations:** Water/sanitation = 7:1 minimum; energy = 4–5% default risk indicates bankability; transport = 2–3% GDP growth multiplier
-
-### For Section 11 (Funding Request — Concessional Finance)
-
-- **ODA availability:** Note 16–28% decline risk 2023–2025; emphasise green infrastructure or corridor-based projects for concessional eligibility
-- **DFI engagement:** Scenario 2/3 unlocks USD 4–10B annually; position businesses for climate-resilience, gender inclusion, regional integration
-
-### For Section 12 (Risk Analysis)
-
-- **Infrastructure dependency risk:** Rate medium (Uganda, regional corridors) to low (Kenya urban); high (landlocked exporters without corridor access)
-- **Climate risk:** Add 36% energy, 25% transport climate damage exposure to risk register; budget for resilience premium
-
-### For Section 04 (Market Analysis)
-
-- **Rural–urban market segmentation:** 60 pp electricity access gap; digital infrastructure concentration in high-density areas; 2/3 of population moving to urban agglomerations by 2050
-- **Regional integration opportunity:** Dar–Nairobi–Addis–Berbera corridor reduces landlocked export costs 25–75%; agri-food priority sectors
-
-### For Section 09 (Management Team)
-
-- **Skills gap:** Emphasise infrastructure planning, maintenance budgeting, PPP negotiation capabilities in team; <1% of ODA for training means external capacity critical
-
+Secondary studies referenced through it: Dappe and Lebrand (2021), infrastructure and structural transformation in East Africa; Rozenberg and Fay (2019), infrastructure maintenance needs; Fontagne et al. (2022), PIDA regional transport networks and exports; Collier et al. (2019), early infrastructure investment versus retrofitting; CRDI (2023), climate resilience and asset damage; Collins et al. (2025), green infrastructure projects (AGIA); Mensah (2024), energy access and manufacturing employment; Amendolagine, Presbitero and Rabellotti (2024), Chinese infrastructure lending and GVC participation.
 
 ---
 
