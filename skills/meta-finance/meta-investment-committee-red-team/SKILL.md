@@ -112,6 +112,7 @@ score does not change that result.
 
 ## References
 
+- Five-minute reader test (Abrams, R. M. (1993) *The Successful Business Plan*, The Oasis Press): before role rounds, have one reviewer read only the executive summary, financials, management and exit or repayment sections for five minutes and answer: is the idea sound, is the market sufficient, are projections realistic, is management capable, and how does the funder get its money back? Any unclear answer, and the weakest-looking section, becomes the first line of challenge.
 - [Committee review framework](references/committee-review-framework.md) - load roles, rounds and audience-specific questions.
 - [Committee scorecard](references/committee-scorecard.md) - load criteria, blocker precedence and recommendation bands.
 - [Worked simulations](references/worked-simulations.md) - use to calibrate evidence-linked challenges, not copy conclusions.

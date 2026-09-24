@@ -102,9 +102,9 @@ Convert ARR ambition into a reconcilable sales-org plan. Most SaaS plans project
 ## References
 
 - `references/saas-sales-capacity-and-ramp-model.md` — full capacity formulas and worked examples
-- `book-extractions/vanderkooij-saas-sales-method-ae-extraction.md` — methodology to ACV mapping
-- `book-extractions/cotton-run-a-saas-business-extraction.md` — Rule of 3 and 10
-- `book-extractions/mersch-hacking-saas-extraction.md` — S&M as % of revenue benchmarks
+- `skills/saas/saas-sales-org-design-and-capacity-planning/references/saas-sales-methodology-and-conversation-craft.md` — methodology to ACV mapping
+- `skills/saas/saas-gtm-motion-design/references/saas-scaling-rules-and-discount-governance.md` — Rule of 3 and 10
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — S&M as % of revenue benchmarks
 
 ## Africa / Uganda Application Notes
 

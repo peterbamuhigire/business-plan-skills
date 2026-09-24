@@ -99,3 +99,31 @@ Service businesses can scale through several approaches:
 ## UNDP Business Profiles
 
 See `references/undp-business-profiles.md` for detailed investment and revenue data on 10 service business ideas sourced from the UNDP Uganda Compendium, with figures adjusted to March 2026 US dollars.
+
+## Service Business Reference Guides
+
+Task-oriented planning references for individual service businesses:
+
+- `references/advertiser-magazine.md`
+- `references/bank-agency.md`
+- `references/boda-boda.md`
+- `references/car-wash.md`
+- `references/chemist-retail.md`
+- `references/cooking-oil-filtering.md`
+- `references/courier-service.md`
+- `references/cyber-cafe.md`
+- `references/fmcg-distribution.md`
+- `references/gift-services.md`
+- `references/gym-fitness-centre.md`
+- `references/handbag-rental.md`
+- `references/laundry.md`
+- `references/lpg-retail.md`
+- `references/mobile-money-agency.md`
+- `references/money-lending.md`
+- `references/motorcycle-spare-parts.md`
+- `references/movie-shop.md`
+- `references/petrol-station.md`
+- `references/printing-business.md`
+- `references/sacco-chama.md`
+- `references/slot-machines.md`
+- `references/tents-chair-hire.md`

@@ -81,7 +81,7 @@ kept as the single canonical surface.
 |---|---|
 | Gap | The source guardrail returned 0 findings while tracked raw material existed below `skills/industry-guides/_extraction/`; its path pattern did not cover `_extraction`. |
 | Root cause | Detection depended on file size and a narrow set of directory names. A raw extraction path with a smaller Markdown file could pass unnoticed. |
-| Exact change | Added `RAW_EXTRACTION_PATH_RE` and a `raw-extraction-path` finding to [`scripts/source_ingestion_guardrail.py`](../../scripts/source_ingestion_guardrail.py). Added temporary, test-labelled fixtures for `_extraction`, a concise `book-extractions` synthesis path, and a raw ebook extension in [`tests/test_source_ingestion_guardrail.py`](../../tests/test_source_ingestion_guardrail.py). |
+| Exact change | Added `RAW_EXTRACTION_PATH_RE` and a `raw-extraction-path` finding to [`scripts/source_ingestion_guardrail.py`](../../scripts/source_ingestion_guardrail.py). Added temporary, test-labelled fixtures for `_extraction`, a concise `book-extractions` synthesis path (superseded: the folder removed 2026-09-23 and the guardrail now blocks that path; see `tests/test_source_ingestion_guardrail.py`), and a raw ebook extension in [`tests/test_source_ingestion_guardrail.py`](../../tests/test_source_ingestion_guardrail.py). |
 | Hypothesis | If raw extraction directories are rejected by path before size or marker heuristics, the guardrail will fail closed for the known raw route and will not confuse a small test fixture with an approved synthesis. |
 | Owner | Repository maintainer, with source-rights review by the domain owner. |
 | Measure | Temporary-fixture detection and root scan findings; the root scan must be treated as a release blocker while findings remain. |

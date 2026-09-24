@@ -1,75 +1,61 @@
-# Car Wash (Standard)
+# Car Wash
 
-**Source:** Crack A Business Kenya (CAB), ~2014 | **Sub-sector:** Vehicle Services
-**Conversion:** Original KES figures at KES 106/USD (2020 base), adjusted ×1.27 for USD inflation → March 2026 USD
+Use this reference when a plan proposes a vehicle wash business, from a basic kiosk to an automated site.
 
-> A stand-alone urban car wash offering exterior body wash, interior vacuum, upholstery, and engine cleaning — a high-volume, labour-intensive service business directly tied to urban vehicle density and growth.
+## 1. Market and customer
 
-## Financial Summary
+Demand follows urban vehicle density and growth. A visible, reliable site in a busy residential or commercial zone typically builds repeat customers over several months. Competitive factors: location and access, service quality, service variety, waiting facilities (seating, drinks, Wi-Fi). Stand-alone sites are exposed to loss of space (road-reserve reclamation, landlord rent rises): secure a lease of about three years before major investment.
 
-| Metric | Amount |
-|--------|--------|
-| Capital Investment — Basic | $960–$2,400 |
-| Capital Investment — Standard urban | $3,600–$18,000 |
-| Monthly Revenue (case study, 20 cars/day) | $2,305 |
-| Monthly Operating Costs | $908 |
-| Monthly Net Profit | $1,397 |
-| Annual Revenue (estimated) | $27,660 |
-| Annual Net Profit (estimated) | $16,760 |
-| Net Profit Margin | ~61% |
-| Payback Period | ~7 months |
+## 2. Business model variants
 
-## Service Pricing (2026 USD, converted from Nairobi 2014)
+| Variant | Positioning |
+|---|---|
+| Basic kiosk | Volume, low price, residential area |
+| Standard urban | Full service, neighbourhood anchor |
+| Car salon or spa | Premium detailing, higher-income zone |
+| Automated | Speed-led, corporate or central business district; heavy capital |
+| Mobile (car park, office blocks) | Convenience; low capital |
 
-| Service | Price |
-|---------|-------|
-| Saloon car — exterior wash | $2.40 |
-| Interior vacuum | $1.80 |
-| Upholstery cleaning | $1.20 |
-| Engine cleaning | $2.40 |
-| Carpet cleaning | $1.20 |
-| Bus / lorry wash | $6.00 |
-| Motorcycle wash | $0.84 |
+Add-ons: a motorcycle wash lane near boda boda stages; a seating and drinks area to raise dwell time and spend.
 
-## Monthly Cost Breakdown (Case Study — Kariobangi, Nairobi)
+## 3. Services and pricing
 
-| Cost Item | 2026 USD/Month |
-|-----------|----------------|
-| 3 cleaners (daily wage basis) | $94 |
-| Electricity | $59 |
-| Water | $168 |
-| Manager salary | $216 |
-| Rent | $180 |
-| Detergents | $84 |
-| Miscellaneous | $108 |
-| **Total** | **$908** |
+Services: exterior wash, interior vacuum, upholstery, engine, carpet, bus or lorry, motorcycle. Set prices by benchmarking three local competitors and date the survey; price by vehicle class.
 
-## Operations
+## 4. Equipment and inputs
 
-- **Core equipment:** High-pressure washing machine ($360–$3,600), vacuum cleaner ($60–$360), water storage tank ($120–$600), hoses, buckets, chamois cloths
-- **Water usage:** ~76 litres per saloon car; recycling reduces this significantly
-- **Operating hours:** 7 AM–9 PM, 7 days/week typical
-- **Staff:** 2–4 cleaners for 20 cars/day; 1 supervisor for busier operations
-- **Water source:** Mains connection most cost-effective; rainwater harvesting strongly recommended to buffer supply gaps
-- **Automated systems:** $60,000+ capital; 15-minute turnaround per car; suited to high-income/corporate areas only
+High-pressure washer; vacuum; water storage tank; hoses, buckets, chamois cloths; detergents. Water is the major input: estimate litres per vehicle (planning assumption of roughly 75 litres per saloon car) and reduce with recycling and rainwater harvesting. A mains connection is cheapest; a borehole becomes worthwhile above a volume threshold you compute from tariff against drilling and pumping cost.
 
-## Business Model Variants
+## 5. Operating model and capital
 
-| Variant | Capital | Positioning |
-|---------|---------|-------------|
-| Basic kiosk | $960–$2,400 | Volume, low price, residential estate |
-| Standard urban | $3,600–$18,000 | Full service, neighbourhood anchor |
-| Car salon / spa | $12,000–$30,000 | Premium detailing, higher-income zone |
-| Automated | $60,000+ | Speed-led, corporate / CBD |
-| Mobile (car park) | $600–$1,200 | Convenience, office blocks |
+Long hours, seven days. Staff: cleaners scaled to daily volume plus a supervisor at higher volumes. Queue management, quality check before handover, wage basis (daily or per-car commission).
 
-## Market
+Capital checklist: site preparation and drainage; equipment; tank or borehole; signage; licence; deposit and rent advance; working capital. Obtain current quotes; cost scales steeply from kiosk to automated.
 
-Urban vehicle growth drives demand. A reliable, visible car wash in a well-trafficked residential or commercial zone builds loyal repeat customers within 3–6 months. Key competitive factors: location and access, service quality, variety, associated waiting facilities (Wi-Fi, drinks). Stand-alone car washes are most vulnerable to space loss through road reserve reclamation or landlord rent increases — secure lease terms of at least 3 years before investing.
+## 6. Unit economics drivers
 
-## East Africa Notes
+- Revenue = cars per day x average ticket (base wash plus add-on take-up) x operating days.
+- Costs: labour, water, electricity, rent, detergents, miscellaneous, licences.
+- Contribution per car = ticket - variable cost per car (water, detergent, per-car labour).
+- Break-even cars per day = fixed monthly costs / (contribution per car x operating days).
+- Test utilisation realistically: published case-study margins are high and must be re-verified against local rent, water tariff and wages.
 
-- **Uganda:** Growing vehicle fleet across Kampala, Jinja, and Mbarara makes car washing viable in all city zones. KCCA trading licence required. Water tariff from NWSC: budget UGX 120,000–300,000/month. Borehole drilling ($3,000–$8,000) becomes economical at 30+ cars/day.
-- **Tanzania / Rwanda:** Premium car salons gaining traction in Kigali (high NGO/expat vehicle density). Dar es Salaam has established car wash culture in Masaki, Mikocheni, and Mbagala estates.
-- **Motorcycle wash opportunity:** In boda boda-heavy markets (Uganda, Kenya, Tanzania), a motorcycle wash lane at $0.50–$1.00 per bike can add 50+ units/day in staging area locations.
-- **Bar/social combo:** Adding a seating area with drinks significantly increases dwell time and per-customer revenue — common and successful model across East Africa.
+## 7. Regulation and licensing checks
+
+Local authority trading licence; water-use and effluent or drainage rules (environmental authority such as NEMA in Kenya and Uganda); zoning; lease terms. Verify tax treatment with the Chwezi finance engine.
+
+## 8. Risks
+
+Lease loss; water supply gaps and tariff rises; seasonal or weather effects; staff theft and vehicle-damage claims (insurance and procedures); competition; equipment failure.
+
+## 9. KPIs and localisation
+
+KPIs: cars per day; average ticket; add-on take-up; water cost per car; repeat-customer share; waiting time; complaints and damage claims.
+
+Localisation: Uganda needs a KCCA or local trading licence and a budget for the utility water tariff; Kigali has demand for premium salons owing to NGO and expatriate fleets; Dar es Salaam has an established car-wash culture in its residential estates.
+
+## 10. Plan-section prompts
+
+Site choice and lease security; variant chosen; daily volume ramp; water strategy; break-even cars per day; downside case.
+
+Sources consulted: Crack A Business Kenya (CAB), car wash business profile, about 2014; general vehicle-services practice.

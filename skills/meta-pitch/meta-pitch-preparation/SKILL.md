@@ -369,8 +369,8 @@ Use this checklist to evaluate an existing pitch before it is delivered.
 
 ## References
 
-- `references/pitch-anything-klaff.md`  STRONG method; frame control and frame types; neurofinance (three-part brain, hot cognition); prizing and prize frame; status dynamics; hookpoint mechanics; beta traps; the "no" close; deal momentum; full worked pitch narrative  Source: Klaff (McGraw-Hill, 2011). **Read for any pitch where frame control, investor psychology, or deal dynamics are relevant.**
-- `references/pitch-perfect-mcgowan.md`  7 Principles of Persuasion; Hook-Meat-Payoff structure; brevity and clarity rules; vocal delivery (pace, pause, inflection); adrenaline management; bridging and flagging techniques; Q&A mastery; common communication mistakes with diagnosis and fixes  Source: McGowan (HarperBusiness, 2014). **Read for any pitch where delivery quality, message clarity, or high-stakes communication is the focus.**
+- `references/pitch-anything-klaff.md` - read for investor-pitch dynamics: who controls the frame, how to keep status without arrogance, how to create a genuine reason for the investor to pursue the deal, how to open with a hook, how to avoid low-value approaches, and how to close and keep momentum. Names Klaff's "frame" and "prize" ideas where used.
+- `references/pitch-perfect-mcgowan.md` - read for message and delivery quality in high-stakes pitches: a hook, substance and payoff structure, brevity and clarity rules, pace, pause and tone of voice, managing adrenaline, bridging back to the message, and diagnosing common communication mistakes.
 - `11-funding-request/SKILL.md`  DSCR calculation, collateral statement, use-of-funds table, CAMPARI compliance. Cross-reference all financial claims in investor and bank pitches.
 - `11-funding-request/references/business-valuation-methods.md`  DCF, multiples, pre-revenue valuation methods; Uganda CRP and illiquidity discounts. Read for any equity pitch where valuation must be defended.
 - `11-funding-request/references/equity-term-sheets.md`  Term sheet mechanics, option pool shuffle, liquidation preference, cap table. Read when preparing for investor negotiation post-pitch.

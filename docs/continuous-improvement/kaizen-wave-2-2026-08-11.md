@@ -123,11 +123,11 @@ reset, or publish operation was performed.
 | --- | --- |
 | Gap | The known `_extraction` path was blocked, but the Wave 1 test did not exercise the plural or case-variant `_EXTRACTIONS` form, and a renamed large full-text file needed an independent negative control. |
 | Root cause | The path matcher encoded the observed singular directory but its variant coverage and content-marker fallback were not tested adversarially. |
-| Change | Extended `RAW_EXTRACTION_PATH_RE` to cover `_extraction` and `_extractions` case-insensitively. Added tests for the variant path, a large full-text file moved to an apparently approved path, and concise synthesis allowance under `book-extractions`. |
+| Change | Extended `RAW_EXTRACTION_PATH_RE` to cover `_extraction` and `_extractions` case-insensitively. Added tests for the variant path, a large full-text file moved to an apparently approved path, and concise synthesis allowance under `book-extractions` (superseded: folder removed 2026-09-23; any file under that path is now a `book-extraction-path` finding). |
 | Hypothesis | If both path variants and the content-marker fallback are exercised, simple renaming and case changes will not turn reconstructive source material into a false green result, while concise synthesis remains usable. |
 | Owner | Business-plan engine maintainer. |
 | Measure | Targeted guardrail tests pass; the full repository guardrail remains zero; expected negative cases remain blocking assertions rather than skipped tests. |
-| Risk | A broad path pattern could reject a legitimate concise reference. The `book-extractions` concise-synthesis test is retained as the false-positive control. |
+| Risk | A broad path pattern could reject a legitimate concise reference. The `book-extractions` concise-synthesis test was retained as the false-positive control until 2026-09-23, when the folder was removed and the test was inverted to assert blocking. |
 | Rollback | Revert only the regex widening if a demonstrated legitimate path is rejected, then add the smallest reviewed pattern and a regression fixture. Never remove the raw-content fallback. |
 | Acceptance evidence | `python -X utf8 -m unittest tests.test_source_ingestion_guardrail tests.test_routing_links` exits 0; the test suite records raw-path and full-text rejection; final guardrail scan exits 0. |
 | Standardisation | Keep path, extension, size, and marker checks as separate layers. Every future bypass report must become a deterministic fixture with an explicit expected block or allow outcome. |

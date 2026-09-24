@@ -179,8 +179,8 @@ The table quotes the discovered `name` and `description` frontmatter values. `[M
 | AGENTS.md | 209 | b236de6f903a | Repository Operating Guide |
 | CLAUDE.md | 182 | d017b975a576 | Business Plan Skills Suite |
 | README.md | 378 | e616b3a7485c | Business Plan Skills Suite |
-| book-extractions/practical-small-business-guides-extraction.md | 99 | a94208eb64fa | Book Extraction: Practical Small-Business Guides Synthesis |
-| book-extractions/tod-building-multi-tenant-saas-architectures-extraction.md | 146 | 8438aa4c9a8a | Book Extraction: Tod Golding — Building Multi-Tenant SaaS Architectures |
+| book-extractions/practical-small-business-guides-extraction.md (folder removed 2026-09-23; knowledge now in `skills/pipeline/08-operations-plan/references/sme-operating-discipline-checklist.md`) | 99 | a94208eb64fa | Book Extraction: Practical Small-Business Guides Synthesis |
+| book-extractions/tod-building-multi-tenant-saas-architectures-extraction.md (folder removed 2026-09-23; knowledge now in `skills/pipeline/08-operations-plan/references/saas-tenancy-model-and-msp-trap-test.md`) | 146 | 8438aa4c9a8a | Book Extraction: Tod Golding — Building Multi-Tenant SaaS Architectures |
 | country-context/INDEX.md | 70 | 330ff496768d | Country Context Index |
 | country-context/kenya/references/kenya-bank-loan-standards.md | 272 | f19828aee244 | Kenya Bank Loan Standards — Application Requirements |
 | docs/implementation/review-12-Mar-2026/02-industry-guide-gaps.md | 152 | 85bd0e1a8af6 | Industry Guide Coverage Audit |

@@ -1,73 +1,51 @@
----
-source: "The Algorithm (Jon McNeill, 2026)"
-frameworks: ["Question-Delete-Simplify-Accelerate-Automate", "Whole-Customer-Experience Operations", "Urgency and Accountability", "Dogfooding"]
-skill: 08-operations-plan
-cross-reference: ["14-ai-integration", "09-management-team", "meta-quarterly-gameplan"]
----
+# Process Redesign Sequence for the Operations Plan
 
-# Hypergrowth Operations Algorithm Reference
+**Use for:** redesigning any operating process before it is documented, funded or automated. The five-step sequence (Question, Delete, Simplify, Accelerate, Automate) is attributed to Jon McNeill and is consistent with lean and BPM practice. Its main contribution is sequencing: do not pay to automate bureaucracy.
 
-Source: *The Algorithm: The Hypergrowth Formula That Transformed Tesla, Lululemon, General Motors, and SpaceX* (Jon McNeill, 2026)
+## 1. Sequence
 
-## Core operating sequence
+1. Question every requirement.
+2. Delete every step that can go.
+3. Simplify and standardise what remains.
+4. Accelerate cycle time.
+5. Automate last.
 
-Use this order when redesigning any operating process:
+## 2. Questions to ask of each step
 
-1. **Question every requirement**
-2. **Delete every possible step**
-3. **Simplify and optimise**
-4. **Accelerate cycle time**
-5. **Automate last**
-
-This fits naturally with BPM and lean methods. The main contribution is sequencing discipline: do not spend money automating bureaucracy.
-
-## What to question
-
-Before documenting a process improvement, ask:
-
-- Who required this step?
-- Is that requirement still valid?
-- Does this approval reduce real risk or just add delay?
-- Can one person or system make this decision faster?
+- Who required it, and is the requirement still valid?
+- Does the approval reduce real risk or only add delay?
+- Can one person or system decide faster?
 - Is the handoff necessary?
 
-## Whole-customer-experience operations
+## 3. Whole-customer-experience operations
 
-Operational design should not stop at production or fulfilment. The "product" includes the full experience around:
+Include in operating design: enquiry response, buying process, delivery or onboarding, issue resolution, renewal or repeat purchase. Show where speed, clarity and reliability are built into each moment.
 
-- enquiry response
-- buying process
-- delivery or onboarding
-- issue resolution
-- renewal or repeat purchase
+## 4. Cycle-time metrics
 
-Operational plans should show where speed, clarity, and reliability are built into those customer moments.
+Track quote turnaround, order processing time, time to first value, issue resolution time and rework time.
 
-## Cycle-time discipline
+## 5. Urgency and accountability
 
-The fastest useful operation usually wins. Track:
+- One owner per critical process.
+- A fixed review rhythm.
+- Visible bottlenecks.
+- Fast escalation when a metric slips.
 
-- quote turnaround time
-- order processing time
-- time to first value
-- issue resolution time
-- rework time
+## 6. Internal use before launch
 
-## Urgency and accountability
+Where the business supplies a service, software, workflow or platform, leaders use it themselves before declaring it ready; this exposes friction early and makes redesign credible.
 
-High-growth operations need:
+## 7. Uganda and East Africa application
 
-- one owner per critical process
-- explicit review rhythm
-- bottleneck visibility
-- fast escalation when a metric slips
+- Where infrastructure is weak, speed and reliability differentiate more than added features.
+- Many SME bottlenecks are approvals, owner dependence and manual follow-up, not equipment.
+- Before requesting funds for systems, show how unnecessary approvals, duplicate data entry and owner-centred decisions will first be removed.
 
-## Dogfooding
+## 8. Plan prompts
 
-Where the business provides a service, software, workflow, or platform, leaders should use the system themselves before declaring it ready. Internal use exposes friction earlier and makes process redesign more credible.
+- List the five most delay-prone steps; classify each as deleted, simplified or retained with reason.
+- State the target cycle times and the owner of each.
+- Show the review cadence and escalation trigger.
 
-## Uganda / East Africa application
-
-- In lower-infrastructure settings, speed and reliability are major differentiators; operational delay often matters more to customers than incremental feature additions.
-- Many SME bottlenecks sit in approvals, owner dependence, and manual follow-up rather than in equipment alone.
-- Before funding new systems, show how the business will first remove unnecessary approvals, duplicate data entry, and owner-centred decisions.
+Sources consulted: McNeill, J. (2026), *The Algorithm*.

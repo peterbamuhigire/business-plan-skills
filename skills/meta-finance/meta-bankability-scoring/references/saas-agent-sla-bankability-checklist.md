@@ -139,7 +139,7 @@ When the plan is an agent business with SLA commitments, **all four layers** are
 - `skills/meta-due-diligence/references/saas-agent-sla-data-room-contents.md` — data room
 - `skills/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
 - `skills/meta-agent-valuation-overlay-for-sla/SKILL.md` — valuation overlay
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes
 

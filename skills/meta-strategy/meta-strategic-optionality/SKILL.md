@@ -1,6 +1,6 @@
 ---
 name: meta-strategic-optionality
-description: Use when a SaaS plan has external capital (the cap-table holders need an exit thesis). Use the relevant plan-section skill for section drafting.
+description: Use when a plan needs an exit thesis, a SaaS cap table needs exit optionality, or an owner is preparing a business for sale, buy-out or succession (exit readiness, sales memorandum, earn-out safeguards); route valuation to `meta-valuation` and tax to the finance doctrine.
 metadata:
   portable: true
   compatible_with:
@@ -21,8 +21,13 @@ Most SaaS plans assume a single exit path (strategic acquisition or IPO). The di
 - Founders are weighing fundraise vs profitability vs distribution
 - A strategic-buyer approach has arrived (always evaluate; preserve negotiating leverage)
 - The company is at $10M+ ARR and exit conversations become real
+- An owner-managed business, family firm or growth company intends to sell, hand over or bring in a buyer within one to five years and needs an exit-readiness programme (clean three-year trend, books, auditor, management depth, buyer universe, sale route, sales memorandum, negotiation and earn-out safeguards)
+- An equity plan must state a credible exit route and named acquirer types for investors
 
 ## Do Not Use When
+
+- Use `meta-valuation` instead to compute a valuation range, multiples or DCF; this skill only prepares the business and the sale process around it.
+- Use `meta-due-diligence` instead when acting for a buyer or investor examining a target.
 
 - The request belongs to the neighbouring route. Use a section skill for drafting; use this family for testing, synthesis, governance, or cross-section decisions.
 - The available evidence cannot support a responsible strategic optionality conclusion; return the evidence gap instead of inventing one.
@@ -71,6 +76,7 @@ Most SaaS plans assume a single exit path (strategic acquisition or IPO). The di
 5. **Plan the timing** — when does optionality compound? Usually $10-30M ARR is the sweet spot for strategic-acquisition optionality.
 6. **Design the founder-economic conversation with the board** — founders and investors don't always want the same exit; surface this explicitly before it becomes a conflict.
 7. **Cross-reference Section 11 (Funding Request)** — the exit thesis should reconcile with how the funding is being deployed.
+8. **Exit-readiness branch (owner sale, buy-out or succession, any sector):** score readiness on the scorecard in [the exit-readiness reference](references/exit-readiness-and-sale-preparation.md); set a one-to-five-year preparation programme (three-year clean trend, book clean-up, auditor, management depth, customer concentration); build the buyer universe from the value chain; choose the sale route; prepare the sales memorandum checklist, negotiation-variable list and earn-out safeguards. Stop before any valuation figure or tax statement: route valuation to `meta-valuation` and disposal tax, earn-out tax and statutory treatment to the Chwezi finance doctrine and a qualified adviser, and record them `not assessed` until returned.
 
 ### Decision, stop, and recovery controls
 
@@ -115,12 +121,14 @@ Most SaaS plans assume a single exit path (strategic acquisition or IPO). The di
 - Exit-economics waterfall at multiple exit values
 - Founder-economic conversation framework
 - Section 11 reconciliation notes
+- Exit-readiness scorecard, preparation programme, buyer universe, sale-route choice, sales-memorandum checklist and earn-out safeguard list (owner-sale branch)
 
 ## References
 
 - `references/saas-exit-strategy-and-strategic-optionality.md` — full reference with worked examples
-- `book-extractions/walling-saas-playbook-extraction.md` — bootstrapper exit philosophy
-- `book-extractions/haines-how-to-create-a-business-case-extraction.md` — options analysis discipline
+- [Exit readiness and sale preparation](references/exit-readiness-and-sale-preparation.md) — read for any owner sale, buy-out, family succession or investor exit route outside the SaaS cap-table case: readiness scorecard, preparation programme, sale routes, sales memorandum, negotiation variables and earn-out safeguards
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — bootstrapper exit philosophy
+- `skills/meta-strategy/meta-critical-thinking-business-logic/references/business-case-test.md` — options analysis discipline
 - `skills/saas-valuation-and-fundraising-strategy/SKILL.md` — sister skill for valuation
 - `skills/meta-valuation/SKILL.md` — DCF / WACC
 
@@ -163,6 +171,8 @@ If capital structure, founder objectives, buyer logic, and milestone economics c
 | Evidence is sufficient to decide: which exit and ownership paths to preserve now | Record the conclusion, source trail, owner, and review trigger in the strategic-options map. | Risk of locking the business into an exit story that weakens current choices |
 | Material evidence conflicts or remains uncertain | Model the competing ownership paths against the same milestones, cash needs, control preferences, and buyer assumptions without selecting an exit prematurely. | Selecting an option without resolving the decision-relevant uncertainty |
 | Required evidence is missing: capital structure, founder objectives, buyer logic, and milestone economics | Mark the decision on which exit and ownership paths to preserve now `not assessed` in the strategic-options map, and send it to the plan owner and executive sponsor. | Otherwise, the work risks locking the business into an exit story that weakens current choices |
+| An owner wants to sell within three years but results are volatile, books mix personal costs, or the founder makes every decision | Start the exit-readiness programme before approaching buyers; record the sale timing as conditional on the scorecard | Buyers discounting the price for one-off spikes, clean-up risk and key-person dependence |
+| A sale discussion reaches price, earn-out or tax structure | Hand valuation to `meta-valuation` and tax to the finance doctrine and an adviser; keep this skill to process, readiness and negotiation variables | Stating valuation or tax treatment as fact without competent review |
 
 ## Quality Standards
 
@@ -173,5 +183,7 @@ Accept the strategic-options map only when evidence is sufficient for this decis
 
 
 A founder assumes acquisition is the only credible outcome before product-market fit. Model dividend, strategic sale, and follow-on-growth paths against capital and control needs, preserving the options that current choices can support.
+
+Owner-sale branch (illustrative): a Kampala logistics owner wants to sell in two years. The readiness scorecard shows two of three recent years with volatile profit, personal vehicles on the company books and no deputy manager. The programme fixes the books this year, appoints an operations manager, moves the audit to a firm buyers recognise, and lists regional distributors and a management buy-out as candidate routes. Valuation and disposal-tax questions are recorded `not assessed` and routed to `meta-valuation` and the finance doctrine.
 
 <!-- dual-compat-end -->

@@ -55,6 +55,7 @@ Use this skill as the premium writing layer above section-specific business-plan
    - Use `references/seo-ai-search-visibility.md` for blogs, website pages, thought leadership, and explainers.
    - Use `references/document-investor-polish.md` for business plans, executive summaries, proposals, funder packs, and investor-facing copy.
    - Use `references/buyer-psychology-and-growth-systems.md` when the plan needs customer decision logic, ethical persuasion, choice architecture, sensory/ritual cues, or testable growth loops.
+   - Use the business-plan phrase bank (`../../language/writing-quality/references/business-plan-phrase-bank.md` and its section files) for section-by-section keywords, slot-templates, tone by reader, strategy-type emphasis and before-and-after rewrites; the marketing-plan phrase bank for standalone marketing plans; the article guidance for blogs and thought leadership.
 4. Rewrite the structure before polishing sentences if the argument, offer, or evidence sequence is weak.
 5. Upgrade language for clarity, authority, specificity, reader relevance, and scanability.
 6. Add proof, qualification, risk handling, and next-step logic where supported by the facts.
@@ -108,6 +109,7 @@ Use this skill as the premium writing layer above section-specific business-plan
 - `references/commercial-persuasion-patterns.md` - reader-first persuasion, differentiation, proof, objections, offer framing, CTAs, and premium tone.
 - `references/seo-ai-search-visibility.md` - SEO and AI-search standards for answerable, entity-rich, useful, search-ready content.
 - `references/document-investor-polish.md` - business-plan, proposal, executive-summary, and investor-document writing standards.
+- [Business-plan phrase bank](../../language/writing-quality/references/business-plan-phrase-bank.md), [sections 01–08](../../language/writing-quality/references/business-plan-phrase-bank-sections-01-08.md), [sections 09–16](../../language/writing-quality/references/business-plan-phrase-bank-sections-09-16.md), [marketing plan](../../language/writing-quality/references/marketing-plan-phrase-bank.md) and [articles and blogs](../../language/writing-quality/references/article-and-blog-phrase-guidance.md) - read while drafting the matching artefact.
 
 ## Evidence Produced
 

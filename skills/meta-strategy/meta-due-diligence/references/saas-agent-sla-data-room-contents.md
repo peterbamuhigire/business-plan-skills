@@ -225,7 +225,7 @@ Slow response signals immaturity; data-room completeness is read as discipline e
 - `skills/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
 - `skills/meta-agent-sla-financial-controls/SKILL.md` — controls evidence
 - `skills/meta-financial-stress-test/references/saas-agent-sla-stress-test-scenarios.md` — stress scenarios
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes
 

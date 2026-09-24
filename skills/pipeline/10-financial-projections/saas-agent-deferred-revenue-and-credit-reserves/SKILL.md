@@ -256,8 +256,8 @@ Per cadence table below.
 - `skills/meta-agent-revenue-recognition-policy/SKILL.md` — policy discipline
 - `skills/meta-agent-sla-financial-controls/SKILL.md` — controls
 - `skills/meta-living-plan-governance/SKILL.md` — governance parent
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — audit
-- `book-extractions/accounting-bookkeeping-finance-controls-extraction.md` — controls reference
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
+- `skills/pipeline/10-financial-projections/references/finance-operating-system-and-controls-checklist.md` — controls reference
 
 ## Africa / Uganda Application Notes
 

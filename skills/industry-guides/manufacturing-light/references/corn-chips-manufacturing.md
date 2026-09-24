@@ -1,99 +1,62 @@
-# Corn Chips / Extruded Snacks Manufacturing
+# Corn Chips and Extruded Snacks Manufacturing
 
-**Source:** Crack A Business Kenya (CAB), 2017 | **Sub-sector:** Snack Food Manufacturing — Extruded Corn Products
-**Conversion:** Original KES figures at KES 106/USD (2020 base), adjusted ×1.27 for USD inflation → March 2026 USD
+Reference for the business-plan sections of a small or medium extruded-snack plant (corn chips, curls, fryums) making branded low-unit-price pouches for wholesalers and neighbourhood shops. All figures are planning assumptions to re-verify with a dated source; they are not current prices.
 
-> Small-to-medium manufacturing of corn chips, corn curls, and fryums using extrusion processing technology — sourcing maize grits as the primary raw material, packing in branded 20g retail pouches, and distributing through wholesalers and neighbourhood retail shops.
+## 1. Market and customer
+- Product: low-price single-serve pouches (about 20 g) bought by children and low-income shoppers; purchase is impulse-led, so shelf availability matters more than advertising.
+- Market tiers by monthly turnover: small (informal producers), medium (regional brands), large (multinational and national brands with a lead brand plus supporting lines). Map named competitors in the target country and record price point, flavours and distribution reach.
+- Compute market size from outlets reached x packets per outlet per week x price; do not rely on a national headline figure.
 
-## Financial Summary
+## 2. Operating model and process flow
+Maize grits are conditioned (hydrated), extruded and shaped, dried or fried, flavour-tumbled, weighed and sealed into pouches, then cased and dispatched. Include a process-flow diagram and a wastage allowance in the plan.
 
-| Metric | Amount |
-|--------|--------|
-| Gross margin range | 15–20% of retail price |
-| Retail price (standard 20g packet) | KES 10 ($0.12) |
-| Manufacturer's price to wholesaler | KES 6/packet ($0.072) |
-| Manufacturer's price direct to retailer | KES 7–8/packet ($0.084–$0.096) |
-| Margin per 20g packet | KES 1.50–2.50 ($0.018–$0.030) |
-| Maize grits (April 2017) | KES 100/kg ($1.20/kg) |
-| Yield: 1 kg grits → output | ~50 packets of 20g |
-| Ingredient cost per packet | ~KES 2.40 ($0.029) |
-| Making cost per packet (labour, electricity, rent) | ~KES 0.70 ($0.008) |
-| Packaging cost per packet | ~KES 0.30 ($0.004) |
-| Distribution/marketing cost per packet | ~KES 0.50 ($0.006) |
-| Total cost per packet | ~KES 3.90–4.00 ($0.047–$0.048) |
-| Breakeven period | ~10 months |
-| County licence (manufacturing) | $599/year (KES 50,000) |
-| KEBS standards licence | $959 (KES 80,000) |
+## 3. Inputs and suppliers
+| Input | Sourcing rule |
+|---|---|
+| Maize grits (main raw material) | Contract at least two millers or importers; price follows maize price, so stockpile when prices fall; check moisture content |
+| Powder flavours (cheese, barbecue, onion, chilli) | Mostly imported; agree minimum quantities and shelf life |
+| Vegetable oil | Local supply, needed for fried variants |
+| Laminated printed film | Imported film, locally printed; minimum orders are typically thousands of units, so tie the first print run to cash |
 
-## Licensing Requirements (Kenya)
+Maize price volatility (drought, export restrictions) is the largest cost risk; model a price-shock scenario.
 
-| Licence | Fee (KES) | 2026 USD | Issuing Body |
-|---------|-----------|----------|-------------|
-| County Government Business Licence | 50,000/year | $599/year | County government |
-| Public Health Licence | 5,000 | $60 | Ministry of Health |
-| KEBS Standards Mark | 80,000 | $959 | Kenya Bureau of Standards |
-| KEBS Inspection Guidelines | 2,000 | $24 | Kenya Bureau of Standards |
+## 4. Equipment and capex
+- Extruder (single screw: cheaper, simpler; twin screw: more shape flexibility), flavour tumbler, fryer (fryums), pouch-packing machine, dry storage premises.
+- Automation choice: semi-automatic is the usual entry level; automatic suits medium and large players.
+- Suppliers: China (lowest cost, variable quality), India, local fabricators. Obtain at least three quotes from Chinese suppliers and one from India; specify capacity, screw type, spares and support terms. Landed cost = FOB + freight + duty + clearing.
+- Planning assumption: basic semi-automatic extruders were quoted in the low tens of thousands of USD or less; European or high-capacity machines cost several times more. Re-verify.
 
-> KEBS inspects production premises, equipment, moisture content of grits, flavour and food colour compliance, and packaging before issuing the standards mark. Purchase KEBS guidelines (KES 2,000) before applying — they specify exactly what inspectors check.
+## 5. Unit economics drivers
+Cost per packet = ingredients + conversion (labour, power, rent) + packaging + distribution and marketing. Drivers: grits price, yield (packets per kg of grits), wastage, film cost, and the wholesale versus retailer price split.
+Planning assumptions from a 2017 Kenyan reference (re-verify): retail KES 10 per 20 g packet; ex-factory KES 6 to wholesalers and KES 7 to 8 to retailers; grits about KES 100/kg giving roughly 50 packets per kg; total cost about KES 4 per packet; gross margin 15 to 20% of retail price; payback about 10 months. Margins are thin, so wastage control decides viability.
 
-## Equipment Overview
+## 6. Pricing
+Hold the price point fixed and vary pack weight or count instead of price. Set separate ex-factory prices for wholesalers and direct retail, and state trade margins in the plan.
 
-| Equipment | Function | Notes |
-|-----------|----------|-------|
-| Extruder (single or twin screw) | Core processing machine; converts hydrated grits into shaped snacks | Twin screw gives more shape flexibility; single screw lower cost and simpler |
-| Flavour tumbler | Applies flavour coating to extruded snacks | |
-| Fryer (for fryums) | Some extruded products are fried rather than baked | |
-| Packaging machine | Weighs and seals pouches | Semi-automatic viable for small-scale |
-| Potato peeler | Not applicable for corn chips — grits are the raw material | |
+## 7. Regulation and licensing checklist
+Kenya (planning reference): county business licence, public health licence, KEBS standards mark (inspection covers premises, equipment, grits moisture, flavour and colour compliance, packaging) and the KEBS inspection guidelines, which should be bought before applying. Fees are assumptions; verify.
+Uganda: UNBS certification, trade licence, URA registration. Tanzania: TBS. Rwanda: RBS. Confirm the current list with each regulator.
 
-**Equipment Automation Levels:**
-- **Automatic:** Higher output, higher cost — suited to medium/large players (KES 500,000–2,000,000+)
-- **Semi-automatic:** Dominant entry-level choice — reduces labour while remaining affordable
+## 8. Distribution
+Supermarkets (need volume, formal invoicing, 60 to 90 day credit); neighbourhood shops (accessible, cash); repackers (bulk buyers, informal); private-label production (needs strong distribution or very high minimums). A lower-capital entry route is to buy from a manufacturer and repack before buying equipment.
 
-> Suppliers of extruders: China (most common, lowest cost, variable quality), India, and a small number of local fabricators. Chinese equipment requires careful specification of capacity, screw type, and support terms before purchasing. Factor in shipping and customs duties.
+## 9. Competitive strategy for a new entrant
+1. Win distribution first; availability precedes brand spend.
+2. Keep cost discipline; thin margins cannot absorb waste.
+3. Differentiate on new flavours or shapes to trigger trial.
+4. Use repacking to learn the market before committing capex.
 
-## Raw Materials
+## 10. East Africa localisation
+- Uganda: smaller sector, heavy imports from Kenyan brands; maize widely available and often cheaper; DRC export corridor is an opportunity.
+- Tanzania: imported brands dominate; distribution outside Dar es Salaam is limited by roads and cold chain.
+- Rwanda: compact and easy to distribute; institutional buyers (schools, health centres) underserved; grits may need importing, so add import cost.
+- In every market, hold relationships with at least two grits suppliers.
 
-| Input | Source | Notes |
-|-------|--------|-------|
-| Maize grits | Kenya — millers (East Africa Breweries by-product, local millers) | Price tied to maize price; stockpile when price drops |
-| Flavours (powder) | Imported mostly | Cheese, barbecue, onion, chilli most common |
-| Oil | Local vegetable oil | For fried variants |
-| Packaging film (laminated) | Imported; local printers for branding | Minimum order typically 5,000+ units |
+## 11. Risks and KPIs
+Risks: maize price and supply, aflatoxin or moisture failure, machine breakdown and spares, credit exposure to supermarkets, imported-brand price pressure, regulator rejection.
+KPIs: packets per kg of grits, wastage percentage, cost per packet, gross margin per packet, outlets served, debtor days, days of grits stock.
 
-## Market Structure
+## 12. Plan-section prompts
+Market (competitor map, outlet count); Operations (process flow, capacity); Capex (three quotes, landed cost); Financials (per-packet cost model, maize-price sensitivity); Regulation (licence list with dates); Risks (top five with mitigation).
 
-| Tier | Companies | Monthly Turnover |
-|------|-----------|-----------------|
-| Small | Various | <KES 500,000 ($5,990) |
-| Medium | Lizkeny, Barikiwa, Mjengo | KES 500,000–5,000,000 ($5,990–$59,906) |
-| Large | Norda (Bitez, Tamu Tamu), Propack (Krack Kurks), Supa Snacks (Amigos), Promasidor, Tropical Heat | KES 5,000,000+ ($59,906+) |
-
-> 26+ companies in the market as of 2017. No single player specialises 100% in one snack — most have a lead brand plus smaller supporting lines.
-
-## Distribution Channels
-
-| Channel | Notes |
-|---------|-------|
-| Supermarkets | Requires consistent volume, formal invoicing, credit terms (60–90 days) |
-| Neighbourhood retail shops | Most accessible for small producers; cash sales common |
-| Repackers | Buy in bulk, repack to unbranded small sachets — informal but significant for fryums |
-| Private label | Large producers offer processing under entrepreneur's brand; require established distribution or very high minimums (KES 10M+) |
-
-## Competitive Strategy for New Entrants
-
-1. **Distribution first:** Product availability is more important than brand in the early months — focus on getting product onto as many shelves as possible before investing in advertising
-2. **Cost discipline:** 15–20% margins are thin; any production inefficiency or wastage directly destroys the business case
-3. **Innovation:** Consumers respond positively to new flavours/shapes — a differentiated product can trigger trial purchasing and referrals even against established brands
-4. **Repackaging route:** Lower-capital entry — purchase from a manufacturer and repack in smaller sachets for local markets. Grows market knowledge before committing to equipment
-
-## East Africa Notes
-
-- **Uganda:** Snack manufacturing sector smaller than Kenya but growing. UNBS certification required for food manufacturers. Kampala snack market supplied significantly by Kenyan imports (Amigos, Pringles, Supa Snacks). Local opportunity: produce at lower cost for Ugandan market and export to DRC (large informal trade corridor). Raw materials: Ugandan maize widely available and generally cheaper than Kenya.
-- **Tanzania:** TBS certification required. Tanzanian snack market heavily supplied by imported Kenyan brands. Local manufacturing opportunity exists but distribution infrastructure (cold chain, roads) limits reach outside Dar es Salaam.
-- **Rwanda:** RBS certification required. Rwanda's small land area and dense road network make distribution more manageable than other EA markets. NGO/institutional snacking market in Kigali (schools, health centres) is underserved by local producers. Maize grits availability is lower than Kenya — factor in import costs.
-- **Grits sourcing:** In all EA markets, establish a relationship with at least two maize millers or importers. Maize price volatility (drought, export bans) is the single largest cost risk in this business.
-
-## Data Quality Notes
-
-Equipment prices were not comprehensively priced in the source guide — the cost range for an extruder varies from $6,000 (basic Chinese semi-automatic) to $60,000+ (European or high-capacity). Obtain three quotes from Chinese equipment suppliers and one from an Indian supplier before committing. Factor shipping (FOB price + freight + customs) into the total landed cost.
+Sources consulted: Crack A Business Kenya, corn chips business guide (2017), used as a starting reference only. Verify tax and accounting treatment with the Chwezi finance engine.

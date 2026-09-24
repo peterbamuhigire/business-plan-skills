@@ -1,6 +1,6 @@
 ---
 name: 07-marketing-sales-strategy
-description: Use when producing or reviewing the 07 marketing sales strategy component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+description: Use when writing or reviewing the 07 marketing sales strategy component of a business plan, with SMART location-calibrated objectives, channels, sales process, budget reconciled to the P&L and KPIs; route a standalone marketing plan to `marketing-plan-orchestrator` instead.
 metadata:
   portable: true
   compatible_with:
@@ -36,16 +36,20 @@ Generate Section 07 of the business plan: the marketing and sales strategy. Use 
 
 ## Workflow
 
-1. Confirm the customer, offer, and commercial objective this strategy must serve.
-2. Build the positioning, channel mix, and acquisition logic for the selected segments.
-3. Define the sales process from lead generation to close, repeat purchase, and referral.
-4. Attach budgets, KPIs, and expected economics to the plan.
+1. Load `references/business-plan-marketing-section-standard.md` first. Decide whether Section 07 stands alone or summarises a standalone marketing plan, and set the depth from the plan type (micro-loan, SME bank or DFI, equity, grant, board).
+2. Confirm the customer, offer, strategy type (from intake) and the business objective this strategy must serve; carry segments and sizes from sections 04 and 05 and competitive proof from Section 06 without changing them.
+3. Write two to five marketing objectives that pass the SMART quality test and the location and scope calibration in the marketing-plan orchestrator's references; each carries a baseline, target, date and the source of its line in the sand.
+4. Build the positioning statement (checkable reason to believe), two or three message themes, the strategic choice with its rejected alternative, and a decision per P.
+5. Choose channels after considering the full channel set (Bullseye) and name the first capped tests; add the advertising and media table when paid media is material.
+6. Define the sales plan from lead generation to close, repeat purchase and referral, with ratios from records or tests and a capacity check; for B2B add account grading and contact economics.
+7. Attach the budget (equal to the P&L marketing line), the CLV and affordable acquisition cost, the demand-to-cash bridge feeding Section 10, and the KPIs (OMTM, guard-rails, owners, review dates).
 5. Apply `references/entrepreneurial-demand-and-brand-metrics.md` when the plan needs a sharper demand-creation path, journey metrics, owned-audience logic, or first experiments.
 6. If selling premium, high-ticket, luxury/affluent, executive, or enterprise offers, run `meta-premium-go-to-market` before finalising positioning, channel mix, lead generation, sales process, pricing, or retention.
 7. If the strategy depends on a website, ecommerce, landing pages, SEO/content, online booking, portals, or web-based lead capture, run `meta-website-investment-planning` before finalising channel mix, website content, SEO, conversion assumptions, and budget.
 8. When defining positioning copy, lead magnets, authority content, sales pages, outreach narratives, CTAs, or SEO/AI-search content, apply `premium-commercial-writing`.
-9. Reconcile the strategy with capacity, pricing, and financial projections.
-10. Flag where the plan depends on untested channel or conversion assumptions.
+9. Reconcile the strategy with capacity, pricing, and financial projections using the reconciliation table in the section standard; return conflicts to the owning section.
+10. Flag where the plan depends on untested channel or conversion assumptions, with the test and stop rule for each; label every number by evidence class.
+11. Draft with the Section 07 entry of the business-plan phrase bank, then run `writing-quality` and `anti-ai-slop`.
 
 ## Quality Bar
 
@@ -69,7 +73,19 @@ Generate Section 07 of the business plan: the marketing and sales strategy. Use 
 
 ## Required Elements
 
-Build the section from the compact checklist in `references/section-07-output-checklist.md`. Load deeper references only for the parts the plan actually needs:
+Build the section from `references/business-plan-marketing-section-standard.md` (what the section must contain, depth by plan type, reconciliation with sections 03–06, 10, 12 and 13) and the compact checklist in `references/section-07-output-checklist.md`. The methods are canonical in the marketing-plan orchestrator and are loaded from there, not duplicated here:
+
+- SMART objectives and cascade: `../../marketing-sales/marketing-plan-orchestrator/references/smart-objectives-builder.md`
+- Location, scope and data-protection calibration: `../../marketing-sales/marketing-plan-orchestrator/references/location-and-scope-calibration.md`
+- Positioning, Five F's and message themes: `../../marketing-sales/marketing-plan-orchestrator/references/situation-and-market-toolkit.md`
+- Channel choice and critical path: `../../marketing-sales/marketing-plan-orchestrator/references/traction-channel-bullseye.md`
+- Advertising budget and media: `../../marketing-sales/marketing-plan-orchestrator/references/advertising-and-media-plan.md`
+- Sales plan and B2B contact economics: `../../marketing-sales/marketing-plan-orchestrator/references/sales-plan-and-account-coverage.md`
+- CLV, acquisition ceilings, break-even response and budget reconciliation: `../../marketing-sales/marketing-plan-orchestrator/references/marketing-economics-and-budget.md`
+- KPIs and control: `../../marketing-sales/marketing-plan-orchestrator/references/kpi-dashboard-and-control-plan.md`
+- Evidence classes: `../../marketing-sales/marketing-plan-orchestrator/references/evidence-discipline-for-marketing-claims.md`
+
+Load deeper local references only for the parts the plan actually needs:
 
 - Use `references/channel-budget-and-growth-frameworks.md` for marketing evolution, pricing options, AARRR, channel selection, guerrilla tactics, small-business tactics, budget allocation, and growth-system discipline.
 - Use `references/sales-process-and-messaging-frameworks.md` for gap selling, B2B/B2C sales process, founder-led sales stages, sales velocity, core dashboard metrics, and StoryBrand messaging checks.
@@ -143,6 +159,7 @@ For institutional or public-health communication, load [institutional health tru
 
 ## References
 
+- **Business-plan marketing section standard**: See `references/business-plan-marketing-section-standard.md`. **Read first, every time**: section versus standalone plan, required content, depth by plan type, reconciliation table and acceptance checks.
 - **Marketing metrics and formulas**: See `references/marketing-metrics.md` for comprehensive marketing measurement formulas, ROI calculations, channel attribution, and performance benchmarks from Farris
 - **Growth and digital strategy**: See `references/growth-strategy.md` for AARRR funnel deep-dive, growth loops, digital channel playbooks, content strategy frameworks, and social media marketing approaches
 - **Guerrilla and small business tactics**: See `references/guerrilla-tactics.md` for Levinson's guerrilla marketing weapons, fusion marketing, education-based marketing, guarantee strategies, and low-budget high-impact approaches
@@ -164,10 +181,10 @@ For institutional or public-health communication, load [institutional health tru
 - **Entrepreneurial demand and brand metrics**: See `references/entrepreneurial-demand-and-brand-metrics.md` for demand creation, customer-journey brand metrics, owned-audience logic, and channel anti-pattern corrections. **Read when the plan lists marketing channels but does not yet prove how customers become aware, interested, converted, retained, and referred.**
 - **Competitive intelligence for marketing  win/loss, shadowing, CSF, corporate reputation**: See `../06-competitive-analysis/references/competitive-analysis-methods-fleisher.md` for Win/Loss Analysis (structured post-sales debriefs to diagnose why deals are won or lost  adapted for Uganda's relationship-based sales culture), Shadowing (competitor shadow market plan methodology), Critical Success Factors Analysis (8 identification techniques for CSFs that drive customer decision-making), Corporate Reputation Analysis (Reputation Quotient, media monitoring, stakeholder perception mapping), and Competitive Positioning Analysis  Source: Fleisher & Bensoussan (FT Press, 2007). **Read when diagnosing a declining win rate, building a competitive marketing intelligence programme, or establishing what customers actually value in this industry.**
 - **Inbound marketing, PR, and self-promotion**: See `references/inbound-pr-self-promotion.md` for Edwards & Douglas's Marketing Pyramid (pull model  invest from word-of-mouth down), Referral Machine (4-step system), Networking Follow-Up System (card sorting, 90-day calendar), Article Marketing Loop (7-step write-publish-speak cycle), speaking as a marketing strategy (free-to-fee sequence with Uganda venues), press release inverted pyramid structure (5 paragraphs + newsworthiness criteria), feature story pitch (100-word letter rule, media kit contents), niche specialist positioning (generalist trap + positioning statement formula), special reports (5 "how-to" headline triggers), newsletter system (60/20/20 content formula), joint ventures and strategic alliances, relationship maintenance tactics, self-promotion identity tools (USP, naming, picture business card), daily marketing rhythm ("marketing hour"), Uganda/EA synthesis table, and combined 90-day low-budget promotion plan  Edwards, Edwards & Douglas (1991); Pinskey (1997). **Read when building an inbound marketing strategy, planning a PR or media campaign, designing a referral system, or creating a self-promotion plan for a service business.**
-- **Kennedy/Brunson direct-response frameworks**: See `../book-extractions/kennedy-no-bs-sales-success-extraction.md` (23 Strategies, 6-Step Sales Process, Takeaway Selling, Positioning-Not-Prospecting, Lead Generation via "Welcome Guest Process"), `../book-extractions/kennedy-ultimate-sales-letter-extraction.md` (28-step long-form, Power of a Sequence, Creative P.S., Hidden Benefit), and `../book-extractions/brunson-dotcomsecrets-ignite-extraction.md` (Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution 35-beat script, Perfect Webinar, Soap Opera + Seinfeld email sequences). **Read when building the sales section for a direct-response-driven business — info-products, coaching, masterminds, high-ticket services, info-marketing, e-commerce funnels, webinar-driven offers. Pair with `meta-pricing-strategy` for the pricing side of the same frameworks.**
-- **Magnetic marketing system design**: See `../book-extractions/kennedy-magnetic-marketing-extraction.md` for the Message-Market-Media triangle, lead generation magnet discipline, attraction-conversion-retention architecture, micro-agreement sequencing, and systematic referral logic. **Read when a plan has channels but lacks a commercial system.**
-- **Niche-first startup positioning**: See `../book-extractions/godin-startup-school-extraction.md` for narrow-market focus, remarkability, tribe logic, and anti-generic positioning. **Read when the offering sounds broad, undifferentiated, or aimed at "everyone".**
-- **Growth, profit, disruption, and deeper-thinking systems**: See `../../book-extractions/growth-profit-disruption-systems-extraction.md` for growth engineering, remarkable growth systems, profit levers, transformation, creativity, AI/product growth loops, experimentation, and dashboard discipline. **Read when a plan needs a repeatable growth engine, product-led growth, AI-enabled growth, profit improvement, or disruption strategy rather than isolated marketing tactics.**
+- **Kennedy/Brunson direct-response frameworks**: See `references/direct-response-selling-playbook.md` (23 Strategies, 6-Step Sales Process, Takeaway Selling, Positioning-Not-Prospecting, Lead Generation via "Welcome Guest Process"), `references/long-form-sales-letter-build.md` (28-step long-form, Power of a Sequence, Creative P.S., Hidden Benefit), and `references/funnel-and-value-ladder-design.md` (Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution 35-beat script, Perfect Webinar, Soap Opera + Seinfeld email sequences). **Read when building the sales section for a direct-response-driven business — info-products, coaching, masterminds, high-ticket services, info-marketing, e-commerce funnels, webinar-driven offers. Pair with `meta-pricing-strategy` for the pricing side of the same frameworks.**
+- **Magnetic marketing system design**: See `references/direct-response-commercial-system.md` for the Message-Market-Media triangle, lead generation magnet discipline, attraction-conversion-retention architecture, micro-agreement sequencing, and systematic referral logic. **Read when a plan has channels but lacks a commercial system.**
+- **Niche-first startup positioning**: See `references/niche-first-positioning-test.md` for narrow-market focus, remarkability, tribe logic, and anti-generic positioning. **Read when the offering sounds broad, undifferentiated, or aimed at "everyone".**
+- **Growth, profit, disruption, and deeper-thinking systems**: See `references/growth-profit-and-disruption-system-tests.md` for growth engineering, remarkable growth systems, profit levers, transformation, creativity, AI/product growth loops, experimentation, and dashboard discipline. **Read when a plan needs a repeatable growth engine, product-led growth, AI-enabled growth, profit improvement, or disruption strategy rather than isolated marketing tactics.**
 
 ## July 2026 Portable Contract
 
@@ -245,7 +262,10 @@ Paid social produces leads but sales records show partner referrals close faster
 
 ## References
 
-- Use the verified project evidence register and the owning upstream pipeline section for 07 marketing sales strategy; no local deep-dive reference is declared.
+- [Phrase bank, entry 07](../../language/writing-quality/references/business-plan-phrase-bank-sections-01-08.md) — read while drafting: purpose, keywords, slot-templates, tone rules, before-and-after rewrites and red-flag phrases for this section; apply the strategy-type emphasis from the [phrase-bank index](../../language/writing-quality/references/business-plan-phrase-bank.md).
+- [Business-plan marketing section standard](references/business-plan-marketing-section-standard.md) — read first: required content, depth, reconciliation and acceptance checks.
+- [Marketing-plan orchestrator references](../../marketing-sales/marketing-plan-orchestrator/SKILL.md) — canonical methods for objectives, channels, media, sales, economics and control.
+- Use the verified project evidence register and the owning upstream pipeline section for 07 marketing sales strategy.
 - For 07 marketing sales strategy claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 
 <!-- dual-compat-end -->

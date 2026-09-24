@@ -447,5 +447,7 @@ A landing page lists twelve features before explaining the buyer's task. Reorder
 ## References
 
 - [`AGENTS.md`](../../../AGENTS.md) - repository routing, evidence, finance, and release rules.
+- [Article and blog phrase guidance](../../language/writing-quality/references/article-and-blog-phrase-guidance.md) - read while drafting web pages, articles and posts: headline, lede, evidence phrasing, transitions and before-and-after rewrites.
+- [Business-plan phrase bank](../../language/writing-quality/references/business-plan-phrase-bank.md) - read for the verb bank, precision words and evidence-class phrasing when content makes commercial or market claims.
 
 <!-- dual-compat-end -->

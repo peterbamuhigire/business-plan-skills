@@ -126,7 +126,7 @@ AI ethics (handled by `saas-ai-sustainability-and-ethics`) covers fairness, tran
 - `skills/16-sustainability-strategy/SKILL.md` — generic
 - `skills/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — risk
 - `skills/meta-agent-bankability-and-investor-readiness/SKILL.md` — bankability
-- `book-extractions/agent-products-business-plan-audit-2026.md` — audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes
 

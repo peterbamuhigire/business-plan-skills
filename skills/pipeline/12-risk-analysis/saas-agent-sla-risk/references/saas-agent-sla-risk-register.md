@@ -253,7 +253,7 @@ Scoring: **Likelihood** (1=rare, 5=near-certain); **Impact** (1=immaterial, 5=ex
 - `skills/meta-financial-stress-test/references/saas-agent-sla-stress-test-scenarios.md` — financial scenarios
 - `skills/meta-agent-sla-financial-controls/references/saas-agent-sla-financial-controls-policy.md` — controls
 - `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserves
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes
 

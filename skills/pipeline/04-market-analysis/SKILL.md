@@ -33,10 +33,11 @@ metadata:
 
 1. Define the market question the section must prove.
 2. Build the industry overview, growth logic, and regulatory frame.
-3. Size TAM, SAM, and SOM using both top-down and bottom-up logic where possible.
-4. Identify the key demand drivers, barriers, and industry structure.
-5. Reconcile the market section with pricing, volume, and growth assumptions in the financial model.
-6. Flag weak evidence, estimated figures, and further validation needs.
+3. Size TAM, SAM, and SOM using both top-down and bottom-up logic where possible; name the denominator on the market ladder (potential, available, qualified available, served, penetrated), show the driver tree step by step, explain any gap between methods, sanity-check against a known reference, and plan on the better-evidenced figure.
+4. Reduce PESTEL to three to six key drivers with direction, evidence and implication, and rate the five forces from driver evidence (use `meta-strategic-factor-analysis` when weighted EFAS tables are needed); identify barriers and industry structure.
+5. For market entry across borders, route entry-mode and country selection to `meta-international-market-entry`; this section still sizes the chosen market.
+6. Reconcile the market section with pricing, volume, and growth assumptions in the financial model, and with segment counts in Section 05.
+7. Flag weak evidence, estimated figures, and further validation needs; label every figure as verified fact, estimate or assumption with source and date.
 
 ## Quality Bar
 
@@ -212,8 +213,12 @@ Cluster competitors into **strategic groups**  firms following similar strategie
 - **Advanced market sizing methodology (Umbrex, 2025)**: See `references/market-sizing-methodology.md` for the complete Umbrex Market Sizing Playbook  TAM/SAM/SOM definitions and funnel logic; 8 market boundary principles; 12 failure modes with mitigations; top-down step-by-step build; bottom-up penetration modelling; supply-side/value-chain sizing; Three-Lens Triangulation Framework (top-down + bottom-up + expert); order-of-magnitude sanity checks with universal constants; driver trees and Monte Carlo sensitivity stress-testing; adoption S-curve and Rogers diffusion model; communicating market sizing to investors (Pyramid Principle, three investor questions); and a Uganda/East Africa application section with reference numbers, common sizing approaches by market type, and a TAM/SAM/SOM template in UGX. **Read when building or stress-testing any TAM/SAM/SOM model, preparing for investor scrutiny, or working with limited data in East African markets.**
 - **Industry analysis methods  Nine Forces, Driving Forces, and Country Risk**: See `../06-competitive-analysis/references/competitive-analysis-methods-fleisher.md` for the Nine Forces industry analysis model (extends Porter's Five Forces with government, social, technology, and international forces), Driving Forces Analysis (identifying macro tailwinds and headwinds over a 35 year plan horizon), Country Risk Analysis (six-dimension framework for export/regional expansion), Technology Forecasting (eight methods including Delphi and S-curves), and Statistical Interpretation guidelines  Source: Fleisher & Bensoussan (FT Press, 2007). **Read when conducting industry attractiveness assessment, identifying macro driving forces, or assessing country-level risk for regional market expansion.**
 - **Statistical rigour for market analysis**: Use `meta-statistics` skill when computing or presenting any market sizing figures, growth rates, survey results, or comparative statistics. Key rules: use geometric mean (not arithmetic) for CAGR; use confidence intervals on all primary survey claims; use coefficient of variation to compare volatility across segments; follow Section 2.5 data visualisation standards (no 3D charts; axis from zero; label units). See `meta-statistics/references/statistics-for-business-plans.md Market Sizing` for TAM/SAM/SOM statistical methodology and citation templates.
-- **Data analytics for market evidence**: See `../../book-extractions/data-analytics-business-planning-extraction.md` when the market section uses dashboards, survey datasets, forecasts, AI analytics, customer segmentation, or large secondary datasets. Classify each claim as descriptive, diagnostic, predictive, or prescriptive so the evidence does not overclaim.
+- **Data analytics for market evidence**: See `../../meta-strategy/meta-statistics/references/analytics-ladder-and-kpi-standard.md` when the market section uses dashboards, survey datasets, forecasts, AI analytics, customer segmentation, or large secondary datasets. Classify each claim as descriptive, diagnostic, predictive, or prescriptive so the evidence does not overclaim.
 - **Strategic analysis toolkit (PESTLE, Porter's Five Forces, SWOT, MOST, CSFs/KPIs)**: See `../meta-market-validation/references/business-analysis-techniques-cadle.md` for the full descriptions of all 12 strategy tools (Tools 112), their correct use in external environment and internal capability analysis, and Uganda/EA adaptation notes for low-data markets  Source: Cadle, Paul & Turner (BCS, 2010). **Read when building or reviewing the industry overview, external environment scan, or internal capability sections of market analysis.**
+
+- **Estimation driver trees and sanity checks**: See `references/estimation-trees-and-sanity-checks.md` for the estimation protocol, six driver-tree patterns, count-then-discount, the adoption check for first-year volumes and the market ladder. **Read when data is thin or a first-year volume must be defended.**
+- **Stage and business-model metrics**: See `../../meta-strategy/meta-market-validation/references/lean-analytics-stage-and-model-metrics.md` when the section must show traction evidence by business model and stage.
+- **Section wording**: See `../../language/writing-quality/references/business-plan-phrase-bank-sections-01-08.md` (entry 04). **Read while drafting.**
 
 ## July 2026 Portable Contract
 
@@ -291,6 +296,7 @@ A report covers all East African logistics while the venture serves Kampala cold
 
 ## References
 
+- [Phrase bank, entry 04](../../language/writing-quality/references/business-plan-phrase-bank-sections-01-08.md) — read while drafting: purpose, keywords, slot-templates, tone rules, before-and-after rewrites and red-flag phrases for this section; apply the strategy-type emphasis from the [phrase-bank index](../../language/writing-quality/references/business-plan-phrase-bank.md).
 - Use the verified project evidence register and the owning upstream pipeline section for 04 market analysis; no local deep-dive reference is declared.
 - For 04 market analysis claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 

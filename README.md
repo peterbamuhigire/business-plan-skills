@@ -1,6 +1,32 @@
 # Business Plan Skills Suite
 
-**Business Plan Skills** (repository `business-plan-skills`) is a 129-skill engine that turns a defined business, investment, nonprofit, feasibility, or operating-change question into a decision-ready plan, model, or pack, through evidence, explicit assumptions, reconciled financial logic, and staged execution choices. It runs a 49-skill numbered pipeline (`00-client-intake` through `16-sustainability-strategy`) under a `business-plan-orchestrator`, supported by meta-finance (bankability scoring against Rogoff's criteria, valuation, financial stress testing), meta-strategy (critical-thinking/logic checks, competitive analysis, due diligence), meta-pitch, meta-pricing-gtm, standalone advisory deliverables (finance/procurement/HR policy manuals, governance charters, M&E frameworks), SaaS, ICT, and sector industry-guides, with Uganda/East Africa as the default country context and a `country-context/` mechanism for other markets. Founders, management teams, advisers, analysts, nonprofit leaders, investors, lenders, grant applicants, and delivery owners use it to clarify decisions, test material assumptions, reconcile commercial and financial logic, and plan execution. Concrete use cases: producing a full bankable plan for a lender or DFI with a validated release bundle; building an equity/investor plan with a valuation section; assembling a grant application via `11b-grant-proposal`; generating a standalone procurement or governance policy manual for an NGO; and running a Kaizen audit or the mandatory anti-AI-slop gate against a drafted plan, deck, or financial narrative before it is called bankable or investor-ready. Financial projections and market data are never fabricated — assumptions are explicit and sourced or flagged as estimates, and the engine withholds "bankable," "investor-ready," or "achievable" language until market, operations, financials, risk, funding ask, and implementation timing reconcile.
+**Business Plan Skills** (repository `business-plan-skills`) is a skills engine for writing and reviewing business plans, standalone marketing plans, strategy analyses and the policy documents that support them. It gives Claude Code and Codex a routed set of 137 active skills (134 under `skills/` and 3 country contexts) that turn a business question into a decision-ready document: a bankable or investor plan, a 12-month marketing plan, a strategic audit, a market-entry assessment, an exit-readiness programme, or a grant application. Uganda and East Africa are the default context (UGX, mobile money, local media, regulators and data-protection law), and a `country-context/` mechanism adapts the work to other markets.
+
+The engine works the way a disciplined consulting team works. It starts with intake (including the client's strategy type and the places the business actually serves), scores the business model before drafting, builds evidence before prose, and separates verified facts from assumptions, estimates, projections and targets. Every objective must be specific, measurable, accurate, realistic, time-bound and applicable to the business, its location and its scope. Numbers must reconcile: the marketing budget equals the P&L marketing line, volumes match the financial model, and the funding ask matches the implementation plan. Plans are written with a section-by-section phrase bank and an anti-AI-slop gate so they read as specific, human, professional British English. The engine never invents market sizes, benchmarks or results, and it withholds words such as "bankable", "viable" or "investor-ready" until its evidence gates pass.
+
+It helps founders and owner-managers who need a plan a lender or investor will take seriously; consultants and agencies who sell plans, marketing plans and strategy work and need a repeatable, premium method; NGO and programme leaders preparing grant cases and strategic plans; and lenders, investors and boards who want a structured way to test a plan. It helps by supplying the method (procedures, checklists, templates, decision rules and worked Ugandan examples), the routing between sections and sister engines (finance, research, design, social media, website, proposals), and the validators that stop a plan with unreconciled numbers, stale facts or vague objectives from being released.
+
+## Capabilities
+
+| Category | Skills | What it covers |
+|---|---|---|
+| `pipeline` | 49 | Numbered plan sections, `00-client-intake` through `16-sustainability-strategy` (with SaaS and AI sub-skills), run under `business-plan-orchestrator`; Section 07 follows the business-plan marketing section standard |
+| `meta-strategy` | 22 | Plan orchestration, consulting synthesis, due diligence, critical-thinking checks, market validation (stage and model metrics), competitive analysis, governance, statistics, and the strategy-rigour set: strategic factor analysis (EFAS/IFAS/SFAS, TOWS), strategic audit, strategic options evaluation, business-model design and GEL scoring, international market entry, exit readiness |
+| `meta-finance` | 12 | Bankability scoring (Rogoff criteria), valuation, financial stress testing, investment-committee red team, revenue recognition, SLA controls |
+| `saas` | 11 | SaaS go-to-market, unit economics, lifecycle, pricing, valuation |
+| `advisory-deliverables` | 7 | Standalone finance, procurement and HR policy manuals, internal controls and risk framework, governance charter, grants-management manual, M&E framework |
+| `meta-utility` | 6 | Skill writing, skill safety audit, proposal architect, documentation updates, anti-ai-slop, ai-slop-audit |
+| `writing-content` | 5 | AI prompt writer, blog idea generator, blog writer, content writing, premium commercial writing |
+| `ict` | 4 | ICT-sector business plans and e-commerce diagnostics |
+| `marketing-sales` | 4 | Standalone marketing plans (20-section architecture, SMART objective builder, location and scope calibration, Bullseye channel selection, advertising and media plan, sales and account coverage, marketing economics, KPI and control plan, quality gate), demand generation, demand forecasting, digital marketing strategy |
+| `language` | 3 | East African English, language standards, writing quality with the business-plan, marketing-plan and article phrase banks |
+| `meta-pitch` | 3 | Pitch deck, pitch preparation, presentation design |
+| `meta-pricing-gtm` | 3 | Pricing strategy, premium go-to-market, website investment planning |
+| `meta-reporting` | 2 | Board and investor reporting |
+| `industry-guides` | 2 | Sector reference guides (agriculture, manufacturing, hospitality, retail and others as `guide.md` files, not all packaged as `SKILL.md`) |
+| `meta-sustainability` | 1 | Sustainability strategy references |
+
+Total: 134 `SKILL.md` files under `skills/` plus 3 under `country-context/` (137 active skills, as counted by `scripts/validate_skill_engine.py`).
 
 ## Installation
 
@@ -31,39 +57,36 @@ skills, and its reference files before relying on it in a sensitive
 environment (for example: "scan this repository for hardcoded secrets,
 personal paths, or unexpected network calls").
 
-## Capabilities
-
-| Category | Skills | What it covers |
-|---|---|---|
-| `pipeline` | 49 | Numbered plan sections, `00-client-intake` through `16-sustainability-strategy`, run under `business-plan-orchestrator` |
-| `meta-finance` | 12 | Bankability scoring (Rogoff criteria), valuation, financial stress testing, workbook audit, revenue recognition, SLA controls |
-| `meta-strategy` | 17 | End-to-end plan orchestration, consulting synthesis, due diligence, critical-thinking/logic checks, benchmark methodology, competitive analysis |
-| `advisory-deliverables` | 7 | Standalone finance/procurement/HR policy manuals, internal controls & risk framework, governance/board charter, grants-management manual, M&E framework |
-| `saas` | 11 | SaaS go-to-market, unit economics, lifecycle, pricing, valuation |
-| `writing-content` | 5 | AI prompt writer, blog idea generator, blog writer, content writing, premium commercial writing |
-| `ict` | 4 | ICT-sector business-plan skills |
-| `meta-utility` | 6 | Skill-writing, skill-safety-audit, proposal-architect, update-claude-documentation, anti-ai-slop, ai-slop-audit |
-| `meta-pitch` | 3 | Pitch deck, meta-pitch preparation, meta-presentation design |
-| `meta-pricing-gtm` | 3 | Pricing strategy, premium GTM, website investment planning |
-| `language` | 3 | East African English, language standards, writing quality |
-| `marketing-sales` | 4 | Standalone marketing plans, demand generation, demand forecasting and digital marketing strategy |
-| `meta-reporting` | 2 | Board and investor reporting |
-| `industry-guides` | 2 | Sector reference guides (agriculture, manufacturing, hospitality, retail, and others as `guide.md` reference files, not all separately packaged as `SKILL.md`) |
-| `meta-sustainability` | 1 | Sustainability strategy references |
-
-Total: 129 `SKILL.md` files under `skills/`.
-
 ## References
 
 - Mustafa, A. et al. *Everything Claude Code* (ECC). GitHub: affaan-m/ECC, 2026. This engine adapts several ECC skills directly: `skills/pipeline/00-client-intake/SKILL.md` states its Question 7 diagnostic and a "Golden Rule" section are "adapted from" ECC's `investor-materials` and `product-lens` skills; `skills/meta-strategy/benchmark-methodology/SKILL.md`, `skills/meta-strategy/competitive-platform-analysis/SKILL.md`, and `skills/meta-strategy/competitive-report-structure/SKILL.md` each declare `origin: ECC (skills/<name>/SKILL.md), adapted for` business-plan use in their frontmatter.
-- Kennedy, Dan S. and Marrs, Jason. *No B.S. Price Strategy: The Ultimate No Holds Barred, Kick Butt, Take No Prisoners Guide to Profits, Power, and Prosperity* (Entrepreneur Press, 2011). Cited in `CLAUDE.md` as the basis for `meta-pricing-strategy` and the 9 Failures/5 Propositions pricing audit; extraction at `book-extractions/kennedy-no-bs-price-strategy-extraction.md`.
-- Kennedy, Dan. *No B.S. Sales Success: The Ultimate No Holds Barred, Kick Butt, Take No Prisoners, Tough and Spirited Guide* (Entrepreneur Press, 3rd ed. 2004; original 1994). Extraction at `book-extractions/kennedy-no-bs-sales-success-extraction.md`.
-- Kennedy, Daniel S. *The Ultimate Sales Letter: Boost Your Sales with Powerful Sales Letters, Based on Madison Avenue Techniques* (Adams Media, 1st ed. 1991; 2nd ed. 2000; 4th ed. 2011). Extraction at `book-extractions/kennedy-ultimate-sales-letter-extraction.md`.
-- Kennedy, Dan S. and Walsh-Phillips, Kim. *Magnetic Marketing: How to Attract a Flood of New Customers That Pay, Stay, and Refer* (ForbesBooks, 2018). Cited in `CLAUDE.md` for attraction/conversion/retention/referral go-to-market logic; extraction at `book-extractions/kennedy-magnetic-marketing-extraction.md`.
-- Brunson, Russell. *Proven Secrets to Double Your Traffic, Conversion & Sales for Any Product or Service Online* (SuccessEtc LLC / DotComSecrets Ignite). Extraction at `book-extractions/brunson-dotcomsecrets-ignite-extraction.md`.
-- Haines, Steven. *How to Create a Business Case* (2022). Cited in `CLAUDE.md` as the basis for the business-case test (problem, options, do-nothing case, incremental economics, timing, sensitivity) applied to major systems, digitisation, expansion, or automation recommendations; extraction at `book-extractions/haines-how-to-create-a-business-case-extraction.md`.
+- Kennedy, Dan S. and Marrs, Jason. *No B.S. Price Strategy: The Ultimate No Holds Barred, Kick Butt, Take No Prisoners Guide to Profits, Power, and Prosperity* (Entrepreneur Press, 2011). Cited in `CLAUDE.md` as the basis for `meta-pricing-strategy` and the 9 Failures/5 Propositions pricing audit; method now at `skills/meta-pricing-gtm/meta-pricing-strategy/references/price-strategy-audit-and-proposition-stack.md`.
+- Kennedy, Dan. *No B.S. Sales Success: The Ultimate No Holds Barred, Kick Butt, Take No Prisoners, Tough and Spirited Guide* (Entrepreneur Press, 3rd ed. 2004; original 1994). Method now at `skills/pipeline/07-marketing-sales-strategy/references/direct-response-selling-playbook.md`.
+- Kennedy, Daniel S. *The Ultimate Sales Letter: Boost Your Sales with Powerful Sales Letters, Based on Madison Avenue Techniques* (Adams Media, 1st ed. 1991; 2nd ed. 2000; 4th ed. 2011). Method now at `skills/pipeline/07-marketing-sales-strategy/references/long-form-sales-letter-build.md`.
+- Kennedy, Dan S. and Walsh-Phillips, Kim. *Magnetic Marketing: How to Attract a Flood of New Customers That Pay, Stay, and Refer* (ForbesBooks, 2018). Cited in `CLAUDE.md` for attraction/conversion/retention/referral go-to-market logic; method now at `skills/pipeline/07-marketing-sales-strategy/references/direct-response-commercial-system.md`.
+- Brunson, Russell. *Proven Secrets to Double Your Traffic, Conversion & Sales for Any Product or Service Online* (SuccessEtc LLC / DotComSecrets Ignite). Method now at `skills/pipeline/07-marketing-sales-strategy/references/funnel-and-value-ladder-design.md`.
+- Haines, Steven. *How to Create a Business Case* (2022). Cited in `CLAUDE.md` as the basis for the business-case test (problem, options, do-nothing case, incremental economics, timing, sensitivity) applied to major systems, digitisation, expansion, or automation recommendations; method now at `skills/meta-strategy/meta-critical-thinking-business-logic/references/business-case-test.md`.
 
-`book-extractions/` holds 32 files in total, including further sources not cited above by name in `CLAUDE.md` (e.g. Rogers on digital transformation, Godin, Molenaar on demand-driven strategy, Tod on multi-tenant SaaS architecture, van der Kooij on SaaS sales methodology) — consult the directory directly for the full set; only the sources this suite's own doctrine names in `CLAUDE.md`/`AGENTS.md` are cited above to avoid padding.
+Books added in the September 2026 marketing and strategy Kaizen (methods paraphrased into task-oriented references; no book text is stored):
+
+- Abrams, Rhonda M. *The Successful Business Plan: Secrets & Strategies*, 2nd edn (The Oasis Press, 1993). Target-market tests and lenses, weighted competitor grids, Five F's, sales worksheets and flow-through reconciliation in `skills/marketing-sales/marketing-plan-orchestrator/references/`; executive-summary form choice in `01-executive-summary`; five-minute reader test in `meta-investment-committee-red-team`.
+- Barrow, Colin. *Get Backed, Get Big, Get Bought* (Capstone, 2009). Exit readiness and sale preparation in `skills/meta-strategy/meta-strategic-optionality/references/exit-readiness-and-sale-preparation.md`; adoption and commission checks in the marketing references.
+- Croll, Alistair and Yoskovitz, Benjamin. *Lean Analytics* (O'Reilly Media, 2013). One metric that matters, lines in the sand, stage and business-model metrics in `skills/meta-strategy/meta-market-validation/references/lean-analytics-stage-and-model-metrics.md` and the orchestrator's KPI and control plan.
+- Debelak, Don. *Business Models Made Easy* (Entrepreneur Press, 2006). Business-model design and GEL scoring in `skills/meta-strategy/meta-business-model-design/`.
+- Debelak, Don. *Perfect Phrases for Business Proposals and Business Plans* (McGraw-Hill, 2006). Section-by-section phrase banks and the `strategy_type` field in `skills/language/writing-quality/references/business-plan-phrase-bank.md` (with its section files) and `marketing-plan-phrase-bank.md`.
+- Johnson, Gerry; Whittington, Richard; Scholes, Kevan; Angwin, Duncan and Regnér, Patrick. *Exploring Strategy*, 11th edn (Pearson, 2017). PESTEL key drivers, SAFe, strategy clock, low-cost-rival response, strategy statement gate, CAGE and institutional voids in `meta-strategic-factor-analysis`, `meta-strategic-options-evaluation` and `meta-international-market-entry`.
+- Kelley, Larry D. and Sheehan, Kim Bartel. *Advertising Management in a Digital Environment: Text and Cases* (Routledge, c. 2021). Budget triangulation, creative brief, positioning checks and measurement architecture in the orchestrator's advertising and media plan.
+- Lin, Lewis C. *Decode and Conquer*, 2nd edn (Impact Interview, 2013). Estimation driver trees in `04-market-analysis/references/estimation-trees-and-sanity-checks.md`; pricing triangle and price-change P&L in `03-products-services/references/pricing-triangle-and-price-change-pnl.md`.
+- Marcos, Javier; Guesalaga, Rodrigo; Hough, Andrew and Vincent, Richard. *The High-Performing Key Account Manager* (Kogan Page, c. 2025). Research-backed key-account typology only, in the orchestrator's sales plan and account coverage reference.
+- Hunter, Victor L. with Tietyen, David. *Business to Business Marketing: Creating a Community of Customers* (NTC Business Books, 1997). Account grading, contact matrix, allowable cost per lead and market-at-risk in the orchestrator's sales and economics references.
+- Stockwell, John and Shaw, Henry M. *Direct Marketing Checklists* (NTC Business Books, 1994). Campaign pro-forma P&L, break-even response rate, cost per interested thousand and goal hierarchy in the orchestrator's economics, media and objectives references.
+- Stutts, Phillip. *The Undefeated Marketing System* (Lioncrest/Scribe, 2021). Research → plan → creative → test → launch sequencing gate, customer insights report, message themes and war-room cadence in the orchestrator.
+- Weinberg, Gabriel and Mares, Justin. *Traction: A Startup Guide to Getting Customers* (S-curves Publishing, 2014). Bullseye across 19 channels and the critical path in `traction-channel-bullseye.md`.
+- Wheelen, Thomas L.; Hunger, J. David; Hoffman, Alan N. and Bamford, Charles E. *Concepts in Strategic Management and Business Policy*, 15th edn (Pearson, 2018). EFAS/IFAS/SFAS on a 1–5 scale, the strategic audit and the control-plan table in `meta-strategic-factor-analysis`, `meta-strategic-audit` and the orchestrator's KPI and control plan.
+- Skimmed for business-plan relevance only: Wiebe, Joanna. *Copy Hackers: 6 Persuasion Strategies* (Copy Hackers, 2011); Maltz, Maxwell et al. *Zero-Resistance Selling* (Prentice Hall Press, 1998); Kupsh, Joyce and Graves, Pat R. *How to Create High-Impact Business Presentations* (NTC Business Books, 1993); Serling, Bob (ed.) *How to Write Million Dollar Ads, Sales Letters & Web Marketing Pieces* (The Internet Marketing Center, 2002; the source file was mislabelled as a Peng Joon title).
+
+
+The former `book-extractions/` folder was removed on 2026-09-23 because storing book extractions in the repository infringes copyright. Its durable methods now live as task-oriented, paraphrased references inside the owning skills (for example Rogers, Molenaar, and e-commerce models in `skills/meta-strategy/meta-digital-transformation/references/digital-business-model-redesign-tests.md`; Godin in `skills/pipeline/07-marketing-sales-strategy/references/niche-first-positioning-test.md`; Golding on multi-tenant SaaS in `skills/pipeline/08-operations-plan/references/saas-tenancy-model-and-msp-trap-test.md`; van der Kooij on SaaS sales in `skills/saas/saas-sales-org-design-and-capacity-planning/references/saas-sales-methodology-and-conversation-craft.md`), each with a brief source citation.
 
 ## Capability map
 
@@ -105,6 +128,9 @@ For a serious engagement, start with `skills/meta-strategy/business-plan-orchest
 |---|---|---|
 | Full business plan | `skills/meta-strategy/business-plan-orchestrator/` | Country, sector, finance, valuation, sustainability, digital, website, execution, and audience routes |
 | Feasibility or business case | `skills/meta-strategy/meta-critical-thinking-business-logic/` and the relevant pipeline sections | `meta-market-validation`, `meta-finance`, sector gates, and investment-case evidence |
+| Standalone marketing plan | `skills/marketing-sales/marketing-plan-orchestrator/` | SMART objective builder, location and scope calibration, Bullseye, advertising and media plan, sales plan, economics, KPI and control plan, quality gate; digital marketing and advertising engine (social-media-skills) for detailed media plans, creative briefs, build specs and attribution; Chwezi finance for budget reconciliation |
+| Business-plan marketing section | `skills/pipeline/07-marketing-sales-strategy/` | Business-plan marketing section standard and the orchestrator's references |
+| Strategy analysis and choice | `skills/meta-strategy/meta-strategic-factor-analysis/`, `meta-strategic-options-evaluation/`, `meta-strategic-audit/` | `meta-business-model-design` before drafting; `meta-international-market-entry` for cross-border entry; `meta-strategic-optionality` for exit readiness |
 | Market validation | `skills/meta-strategy/meta-market-validation/` | Customer research, interviews, experiments, channel evidence, and claim-level source verification |
 | Build-Measure-Learn | `skills/meta-strategy/meta-market-validation/` and `skills/meta-strategy/meta-living-plan-governance/` | Small reversible tests, innovation accounting, leading indicators, counter-metrics, and pivot/stop rules |
 | Nonprofit strategic planning | `skills/pipeline/` plus `skills/advisory-deliverables/me-framework-document/` | Governance, stakeholder, mission, resource, donor, safeguarding, and M&E requirements |
@@ -295,6 +321,10 @@ python -X utf8 scripts\source_ingestion_guardrail.py
 python -X utf8 tools\evidence-register\refresh_evidence_register.py --check
 python -X utf8 tools\sector-gates\validate_sector_gates.py
 
+# Marketing objective check (vague-goal fixtures) and content-aware source guard
+python -X utf8 tools\objective-check\check_objectives.py <objectives.json>
+python -X utf8 scripts\source_ingestion_guardrail.py    # content warnings are report-only; add --strict-content to block
+
 # Exemplar, workbook, release, and regression checks
 python -X utf8 tools\exemplar-packs\validate_exemplar_packs.py
 Get-ChildItem examples\full-plan-packages -Directory | ForEach-Object { python -X utf8 tools\release-gate\validate_release_bundle.py "$($_.FullName)\release-bundle.json" }
@@ -336,6 +366,10 @@ Before a release:
 5. Stage only intended files, inspect the staged diff, commit once, and push without force.
 
 See `AGENTS.md` for the complete routing and quality contract.
+
+## September 2026 marketing and strategy Kaizen
+
+The marketing-plan orchestrator now produces a full standalone marketing plan: a 20-section document architecture, a SMART objective builder with a pass-or-fail quality test and worked UGX cascades, location and scope calibration (Uganda and East Africa defaults, data-protection registration, consent and direct-marketing objection rules from the dated currentness register), Bullseye channel selection across 19 channels, an advertising and media plan with budget triangulation, a sales and account-coverage method, marketing economics (CLV, affordable cost per lead, break-even response rate, budget reconciled to the P&L), a KPI and control plan, evidence discipline and a quality gate. Section 07 follows a business-plan marketing section standard that draws on those references. Five strategy skills were added (factor analysis, strategic audit, options evaluation, business-model design, international market entry) and exit readiness was added to `meta-strategic-optionality`. A section-by-section phrase bank and a `strategy_type` intake field support human, specific plan wording. The `book-extractions/` folder was removed with a zero-loss capability map; see the change and check ledgers for this wave.
 
 ## September 2026 Kaizen execution update
 

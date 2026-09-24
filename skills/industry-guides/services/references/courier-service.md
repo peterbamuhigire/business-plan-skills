@@ -1,117 +1,73 @@
-# Courier Service (Intercity & Intracity Motorcycle)
+# Courier Service (Intercity and Intracity)
 
-**Source:** Crack A Business Kenya (CAB) | **Sub-sector:** Logistics — Parcel & Document Delivery
-**Conversion:** Original KES figures at KES 106/USD (2020 base), adjusted ×1.27 for USD inflation → March 2026 USD
+Use this reference when a plan proposes parcel and document delivery. Two distinct models are covered: an intercity truck courier and an intracity motorcycle courier.
 
-> Two distinct courier business models: (1) Intercity courier using a 7-tonne truck for long-distance cargo between major towns, and (2) Intracity motorcycle courier for last-mile parcel and document delivery within a city or town. CA (Communication Authority) licence required for both.
+## 1. Choose the model
 
-## Financial Summary
+| Model | Capital intensity | Core economics |
+|---|---|---|
+| Intercity truck | High (truck is the main cost) | load factor, route pricing, cargo insurance |
+| Intracity motorcycle | Low (see boda-boda.md for motorcycle purchase, financing and rider controls) | deliveries per rider per day, contract volume |
 
-| Metric | Amount |
-|--------|--------|
-| **Intercity (7-tonne truck)** | |
-| Capital Investment — full setup | $67,849 |
-| — 7-tonne truck (new) | $53,962 |
-| — Licences and insurance | $2,576 |
-| — Equipment (scales, racks, office) | $2,755 |
-| — Premises (office, 3 months) | $959 |
-| — Working capital (salaries, marketing — 3 months) | $5,033 |
-| **Intracity motorcycle model** | |
-| Capital Investment (per motorcycle, including setup) | $1,620–$2,400 (see boda boda guide) |
-| Minimum statutory charge per parcel | $2.10 (KES 175 = 5× post office minimum) |
-| CA Licence (Communication Authority) | $420 (KES 35,000) |
+Starting as a subcontractor to an established courier builds skills and client relationships before investing in trucks.
 
-## Intercity Courier Capital Breakdown (7-Tonne Truck)
+## 2. Market and customer
 
-| Item | KES | 2026 USD |
-|------|-----|----------|
-| CA Licence | 35,000 | $420 |
-| County Business Licence | 15,000 | $180 |
-| Outdoor Advertising Licence | 10,000 | $120 |
-| Miscellaneous licences | 15,000 | $180 |
-| Company Registration | 20,000 | $240 |
-| Insurance and related | 120,000 | $1,438 |
-| **Licences sub-total** | **215,000** | **$2,576** |
-| 7-Tonne truck (new) | 4,500,000 | $53,962 |
-| Weighing scale (300kg+) | 30,000 | $360 |
-| Small weighing scale | 9,000 | $108 |
-| Receipt books and related | 25,000 | $300 |
-| Trolleys (3) | 21,000 | $252 |
-| Racks (10) | 25,000 | $300 |
-| Office furniture and accessories | 40,000 | $479 |
-| Computer, internet connection, ETR machine | 70,000 | $839 |
-| **Equipment sub-total** | **4,945,000** | **$59,293** |
-| Rent — office (2 months deposit + 1 month at KES 20,000) | 60,000 | $719 |
-| Renovation and remodelling | 20,000 | $240 |
-| **Premises sub-total** | **80,000** | **$959** |
-| Salaries — 3 months (KES 90,000/month payroll) | 270,000 | $3,236 |
-| Marketing — 3 months | 90,000 | $1,079 |
-| Miscellaneous — 3 months | 60,000 | $719 |
-| **Working capital sub-total** | **420,000** | **$5,033** |
-| **Grand Total** | **5,660,000** | **$67,849** |
+Growth drivers: e-commerce last-mile delivery (fastest-growing), food delivery, corporate accounts (banks, insurers, hospitals) generating daily volume, and decentralised administration creating intercity document and goods flows. Underserved: secondary cities and towns and routes beyond district capitals. Competitors: multinationals, regional and local couriers, public-service buses carrying parcels, and informal operators.
 
-## Pricing — Intercity
+Courier categories used by regulators: international, regional, inter-country, intracity, public-service-vehicle operators, and informal. Many small motorcycle operators start unlicensed; this is a risk to disclose, and growth or corporate contracts require compliance.
 
-By law, the minimum charge for a parcel is 5× the current postal rate for letters (parcels up to 350g):
-- Post office minimum: KES 35 → Minimum courier charge: **KES 175 ($2.10)**
+## 3. Regulation and licensing checks
 
-**Pricing methods:**
-- **By weight:** Standard approach — charge per kilogram. Risk: bulky low-density cargo (sofas, cotton bales) fills truck with low revenue
-- **By volume:** Charge per cubic metre of space occupied — protects margin on bulky goods
-- **Hybrid:** Weight-based with a volumetric surcharge when cargo is unusually large relative to weight
+- Kenya: Communications Authority courier licence; county business licence; outdoor advertising permit; company registration; tax invoice device requirements (verify with the Chwezi finance engine).
+- Uganda: Uganda Communications Commission.
+- Tanzania: Tanzania Communications Regulatory Authority.
+- Rwanda: Rwanda Utilities Regulatory Authority.
+- Statutory minimum charge: some regimes set the minimum courier charge as a multiple of the postal letter rate; check the current rule and rate in each country.
+- Insurance: goods-in-transit and vehicle insurance are essential.
 
-Set a minimum revenue per trip that covers: fuel (Nairobi–Mombasa = ~470 km), driver wages, insurance, and vehicle depreciation, plus margin. Price on a case-by-case basis — no industry-standard rate card exists.
+## 4. Capital checklist
 
-**Insurance:** Cargo in transit must be insured against theft. A KES 2,000,000 ($23,981) consignment cannot be covered by KES 80,000 ($959) in freight charges — liability without insurance destroys the business on a single incident.
+Intercity: truck (new, or second-hand at much lower price but higher maintenance and downtime risk; require full mechanical inspection), licences and insurance, scales, racks, trolleys, receipt books, office furniture, computer and internet, tax-compliant invoicing device, office premises (deposit, rent, renovation), working capital for about three months (payroll, marketing, miscellaneous). Intracity: motorcycles and kit (see boda-boda.md), phone or dispatch app, boxes and bags, licences, working capital.
 
-## Pricing — Intracity Motorcycle
+## 5. Pricing
 
-| Factor | Notes |
-|--------|-------|
-| Typical charge (short city run) | KES 200–500 ($2.40–$5.99) per delivery |
-| Peak hours premium | Common in Nairobi CBD — traffic adds time |
-| Fragile/high-value items | Charge 30–50% premium; requires better packaging |
-| Restaurant/food delivery | Time-sensitive; per-delivery or per-hour model |
-| E-commerce last mile | Volume contract, reduced per-delivery rate |
+Intercity methods:
+- By weight: standard; risk is bulky low-density cargo filling the truck at low revenue.
+- By volume: per cubic metre, protects margin on bulky goods.
+- Hybrid: weight-based with a volumetric surcharge.
+- Set a minimum revenue per trip covering fuel (distance x consumption x fuel price), driver wages, insurance, depreciation and margin; price case by case, since no industry rate card exists.
+- Insure cargo: freight income cannot absorb the loss of a high-value consignment; uninsured liability can end the business on one incident.
 
-## Courier Categories (CA Classification)
+Intracity: per-delivery fee by zone and distance; peak-hour premium; premium (planning assumption 30-50%) for fragile or high-value items with better packaging; per-delivery or per-hour rates for food; volume contracts with reduced rates for e-commerce.
 
-| Category | Description |
-|----------|-------------|
-| International operators | Worldwide + domestic network (DHL, FedEx, etc.) |
-| Regional operators | EA network + domestic |
-| Inter-country operators | Limited EA reach |
-| Intra-city operators | City/town boundary only |
-| PSV operators | Buses/matatus supplementing with parcel delivery |
-| Informal | Individuals without CA licence; operable but riskier |
+## 6. Unit economics drivers
 
-> By 2017, over 141 licensed courier companies existed in Kenya. Many small motorcycle operators function informally without CA licence. Small startups routinely begin without CA licensing — acceptable early-stage risk in low-visibility operations, but growth requires compliance.
+- Intercity trip margin = freight revenue (weight or volume x rate x load factor) - fuel - driver - tolls and fees - insurance - depreciation - maintenance allowance.
+- Break-even load factor = trip cost / full-load revenue.
+- Intracity rider margin = deliveries per day x fee - fuel - maintenance - rider pay - overhead.
+- Utilisation and empty backhaul are the main levers; corporate contracts convert sporadic to predictable revenue.
 
-## Revenue Drivers
+## 7. Operations
 
-- **Corporate contracts:** A single corporate account (bank, insurance company, hospital) generating regular daily deliveries transforms the business from hustle to predictable revenue
-- **E-commerce growth:** Online sellers using couriers for last-mile delivery is the fastest-growing segment
-- **Food delivery:** Restaurants and individuals using food couriers is growing across all EA cities
-- **Devolution:** County governments and new economic centres upcountry created demand for intercity document and goods transport
+Branding of vehicles and riders (trust and passive marketing); dispatch and tracking; proof of delivery; parcel handling and claims procedure; route clustering; driver vetting; maintenance schedule.
 
-## Operations
+## 8. Risks
 
-- **Truck sourcing:** Second-hand 7-tonne trucks available from KES 1,500,000–2,500,000 ($17,981–$29,962) but require full mechanical inspection and may have high maintenance costs
-- **Branding:** Branded vehicles build trust and generate passive marketing; unbranded trucks look informal and may deter corporate customers
-- **ETR machine:** Required by KRA for businesses with taxable turnover; invoice-generating machines
-- **Subcontracting:** Starting as a subcontractor for a larger courier builds skills and client relationships before investing in own trucks
+Cargo loss, theft or damage; accidents; fuel price rises; truck downtime; unlicensed operation; customer concentration; rider or driver dishonesty; price competition from public-service buses and platforms.
 
-## Market
+## 9. KPIs
 
-Kenya's courier market grew from a handful of multinationals to 141+ licensed operators over 15 years, driven by devolution, urbanisation, SME growth, and e-commerce. The intracity motorcycle segment overlaps significantly with boda boda (see boda-boda.md reference for motorcycle-specific capital and operational detail).
+Deliveries per day; on-time rate; load factor per trip; cost per km or per delivery; claims ratio; revenue per corporate account; utilisation of vehicles.
 
-## East Africa Notes
+## 10. Localisation
 
-- **Uganda:** Courier regulation under Uganda Communications Commission (UCC). Many operators (SafeBoda, Jumia Food, Glovo) have professionalised Kampala's intracity delivery market. Intercity: regular routes (Kampala–Mbarara, Kampala–Gulu, Kampala–Jinja) are well served; upcountry routes beyond district capitals are underserved. PSV buses (Pioneer, Link Bus) compete directly on document/parcel delivery.
-- **Tanzania:** TCRA (Tanzania Communications Regulatory Authority) licenses couriers. Dar es Salaam's intercity links (Arusha, Mwanza, Dodoma) have growing demand. E-commerce is accelerating — Jumia Tanzania, Kilimall, and local online sellers are major volume contributors.
-- **Rwanda:** RURA (Rwanda Utilities Regulatory Authority) oversees courier licensing. Kigali's compact geography makes intracity motorcycle delivery highly efficient. Rwanda's dense road network and strong formal business sector make corporate courier contracts relatively accessible compared to other EA markets.
-- **E-commerce opportunity:** The fastest-growing segment across all EA — last-mile delivery for online sellers (Instagram, Facebook Marketplace, Jumia, Kilimall) is underserved outside capital cities. First-mover advantage remains available in secondary cities and towns.
+- Uganda: platforms have professionalised Kampala delivery; intercity routes to major towns are well served, upcountry routes less so; buses compete on parcels.
+- Tanzania: growing intercity links from Dar es Salaam; e-commerce accelerating.
+- Rwanda: compact geography favours motorcycle delivery; corporate contracts relatively accessible.
 
-## Data Quality Notes
+## 11. Plan-section prompts
 
-The intercity capital breakdown is based on a new 7-tonne truck. Second-hand truck entry reduces capital by 65–70% but significantly increases maintenance risk and downtime. For intracity motorcycle courier, cross-reference with the `boda-boda.md` reference file for detailed motorcycle purchasing and operations data.
+Model chosen; licensing status and timeline; lane or zone map and volume evidence; pricing method; insurance cover; break-even load factor; downside case.
+
+Sources consulted: Crack A Business Kenya (CAB), courier service business profile; East African communications regulator guidance, to be re-read for current text.

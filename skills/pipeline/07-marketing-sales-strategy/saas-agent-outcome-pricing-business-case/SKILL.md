@@ -217,8 +217,8 @@ Per cadence below.
 - `skills/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — variable-consideration treatment
 - `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — refund reserve
 - `skills/meta-agent-sla-financial-controls/SKILL.md` — dispute controls
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — audit
-- `book-extractions/kennedy-no-bs-price-strategy-extraction.md` — pricing discipline
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
+- `skills/meta-pricing-gtm/meta-pricing-strategy/references/price-strategy-audit-and-proposition-stack.md` — pricing discipline
 
 ## Africa / Uganda Application Notes
 

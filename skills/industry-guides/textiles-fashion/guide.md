@@ -114,6 +114,8 @@ Based on UNDP Uganda business profiles (adjusted to March 2026 dollars):
 
 See `references/undp-business-profiles.md` for detailed profiles of 25 specific business opportunities in this sector.
 
+See `references/leather-skin-trade.md` for a planning reference on raw hides and skins trading (supply models, grading, trip economics, permits, risks and KPIs).
+
 ## Cross-References
 
 - `07-marketing-sales-strategy` — Branding, distribution channel strategy

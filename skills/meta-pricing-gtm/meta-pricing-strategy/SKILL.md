@@ -195,12 +195,12 @@ When the plan faces free or heavily subsidised alternatives (government healthca
 
 ## References
 
-- **Kennedy & Marrs primary source**: See `../book-extractions/kennedy-no-bs-price-strategy-extraction.md` for the full 248-page extraction — 9 failures, Triangle of Preeminence, Hawaiian Fisherman, 5 Propositions, niche pricing, association principle, 5 price-setting methods, staff sabotage, recession strategy, Uganda/EA application notes.
-- **Kennedy sales success companion**: See `../book-extractions/kennedy-no-bs-sales-success-extraction.md` for how pricing shows up in the selling conversation (Takeaway Selling, Beating Price, Apples-to-Oranges).
-- **Ultimate Sales Letter**: See `../book-extractions/kennedy-ultimate-sales-letter-extraction.md` Step 7 "Beat the Price Bugaboo" for specific price-handling copy techniques.
-- **Brunson funnel economics**: See `../book-extractions/brunson-dotcomsecrets-ignite-extraction.md` for the Value Ladder, SLO-sustained continuity, and reverse-engineered revenue planning — all of which support premium pricing.
+- **Kennedy & Marrs primary source**: See `references/price-strategy-audit-and-proposition-stack.md` for the task-oriented price audit (Kennedy and Marrs, 2011) — 9 failures, Triangle of Preeminence, Hawaiian Fisherman, 5 Propositions, niche pricing, association principle, 5 price-setting methods, staff sabotage, recession strategy, Uganda/EA application notes.
+- **Kennedy sales success companion**: See `../../pipeline/07-marketing-sales-strategy/references/direct-response-selling-playbook.md` for how pricing shows up in the selling conversation (Takeaway Selling, Beating Price, Apples-to-Oranges).
+- **Ultimate Sales Letter**: See `../../pipeline/07-marketing-sales-strategy/references/long-form-sales-letter-build.md` Step 7 "Beat the Price Bugaboo" for specific price-handling copy techniques.
+- **Brunson funnel economics**: See `../../pipeline/07-marketing-sales-strategy/references/funnel-and-value-ladder-design.md` for the Value Ladder, SLO-sustained continuity, and reverse-engineered revenue planning — all of which support premium pricing.
 - **Related skills in this repo**: `07-marketing-sales-strategy`, `10-financial-projections`, `06-competitive-analysis`, `03-products-services`, `meta-bankability-scoring`, `meta-valuation`.
-- **Profit and growth-system companion**: See `../../book-extractions/growth-profit-disruption-systems-extraction.md` for offer-mix improvement, 15 percent compounding levers, retention economics, package testing, and profit-led growth logic.
+- **Profit and growth-system companion**: See `../../pipeline/07-marketing-sales-strategy/references/growth-profit-and-disruption-system-tests.md` for offer-mix improvement, 15 percent compounding levers, retention economics, package testing, and profit-led growth logic.
 
 ## Premium GTM Companion
 

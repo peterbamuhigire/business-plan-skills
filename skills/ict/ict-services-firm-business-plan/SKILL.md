@@ -87,9 +87,9 @@ ICT services firms (digital agencies, systems integrators, IT consultancies, dev
 
 ## References
 
-- `book-extractions/walling-saas-playbook-extraction.md` — stair-step method (often via services to product)
-- `book-extractions/practical-small-business-guides-extraction.md` — SME services discipline
-- `book-extractions/cotton-run-a-saas-business-extraction.md` — when services revenue makes sense in SaaS
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — stair-step method (often via services to product)
+- `skills/pipeline/08-operations-plan/references/sme-operating-discipline-checklist.md` — SME services discipline
+- `skills/saas/saas-gtm-motion-design/references/saas-scaling-rules-and-discount-governance.md` — when services revenue makes sense in SaaS
 - `skills/ict-product-company-business-plan/SKILL.md` — sister skill for product (non-SaaS) firms
 - `skills/saas-mvp-and-product-market-fit-strategy/SKILL.md` — for productisation MVP
 

@@ -39,7 +39,8 @@ Use this skill as the language-quality layer for the suite. It sharpens clarity,
 4. Improve flow, emphasis, and narrative sequence without distorting meaning.
 5. Reconcile language choices with the intended audience and document type.
 6. For premium, investor-facing, sales-oriented, SEO, or client-facing deliverables, apply `premium-commercial-writing` before final polish.
-7. Flag where the draft is weak because the underlying thinking is weak.
+7. For business-plan sections, marketing plans, blogs and articles, open the matching phrase-bank entry: confirm the section's purpose and reader register, apply the client's `strategy_type` emphasis, write the power paragraph first, fill slot-templates only with verified values, compare the draft against the before-and-after rewrites, and block release on any unfilled `[slot]`.
+8. Flag where the draft is weak because the underlying thinking is weak.
 
 ## Quality Bar
 
@@ -63,7 +64,7 @@ Use this skill as the language-quality layer for the suite. It sharpens clarity,
 
 ## Book-derived reader-craft overlay
 
-Load [`human-english-craft-synthesis-2026.md`](../../../book-extractions/human-english-craft-synthesis-2026.md) before drafting or polishing. Apply the five passes—reader and purpose, genre and spine, meaning and evidence, sentence/paragraph craft, and proof/read-aloud. Use grammar and vocabulary references diagnostically; never replace a sound argument with ornament, and never simulate humanity with errors or slang.
+Load [Human-English five-pass standard](references/human-english-five-pass-standard.md) before drafting or polishing. Apply the five passes—reader and purpose, genre and spine, meaning and evidence, sentence/paragraph craft, and proof/read-aloud. Use grammar and vocabulary references diagnostically; never replace a sound argument with ornament, and never simulate humanity with errors or slang.
 
 
 
@@ -242,6 +243,11 @@ Replace passive-voice constructions. Replace hedging language. Replace abstract 
 - `references/essay-writing-shiach.md`  Argument structure, introduction/conclusion formulas, transitions master list, waffle diagnosis test (Shiach, *How to Write Essays*)
 - `references/business-english-geffner.md`  Four Cs, parallelism rules, business document conventions, positive framing, expressions to avoid, report/proposal structure (Geffner, *Business English*)
 - `references/storytelling-rubie-provost.md`  Provost Paragraph, high-concept hook, scene-writing, conflict mechanics, book proposal structure applicable to business proposals (Rubie & Provost, *How to Tell a Story*)
+- `references/business-plan-phrase-bank.md`  Read before drafting any plan section: how to use the bank, register by reader (bank, investor, grant funder, board, partner), `strategy_type` field and emphasis table, evidence and hedging phrasing, verb and precision-word banks, release checklist.
+- `references/business-plan-phrase-bank-sections-01-08.md` and `references/business-plan-phrase-bank-sections-09-16.md`  Read while drafting a numbered section: purpose, keywords, slot-templates, tone rules, before-and-after rewrites, power paragraph and red-flag phrases for sections 01 to 16 (including 11b and 14).
+- `references/marketing-plan-phrase-bank.md`  Read while drafting a standalone marketing plan, section by section, including SMART objective rewrites.
+- `references/article-and-blog-phrase-guidance.md`  Read while drafting blogs, articles and thought-leadership posts.
+- `references/human-english-five-pass-standard.md`  Read before drafting or polishing any client-facing text: five passes, language decisions, register matrix by output type, release questions, and evidence record.
 - `../premium-commercial-writing/SKILL.md`  Cross-cutting premium commercial writing layer for commercial purpose, differentiation, proof, SEO/AI-search visibility, investor polish, and premium-fee quality gates.
 
 <!-- dual-compat-start -->

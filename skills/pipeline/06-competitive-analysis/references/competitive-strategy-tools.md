@@ -68,6 +68,8 @@ These combine into a **competitor response profile** predicting how each rival w
 
 A quantitative method for rating your firm and each competitor against weighted success factors on a 0–5 scale.
 
+> **Scale note.** This 0–5 rating scores each competitor's standing on a success factor. It is a different instrument from the EFAS, IFAS and SFAS tables in [`meta-strategic-factor-analysis`](../../../meta-strategy/meta-strategic-factor-analysis/SKILL.md), which rate the firm's *response* to environmental and internal factors on the Wheelen and Hunger 1–5 scale (average 3.0). Label each table's scale; never mix the two in one exhibit. Build the section's SWOT/TOWS from that skill's SFAS rather than a free-form list.
+
 ### Rating Scale
 
 | Score | Label | Meaning |
@@ -264,6 +266,8 @@ Three generic strategies can yield sustainable competitive advantage. Pursuing t
 
 Trying to be both cheapest *and* most differentiated leads to confused positioning, conflicting priorities, and long-term underperformance.
 
+For price-against-perceived-benefit positions over time (the strategy clock) and the response tree for a low-cost entrant, use [`meta-strategic-options-evaluation`](../../../meta-strategy/meta-strategic-options-evaluation/references/strategy-clock-and-low-cost-rival-response.md).
+
 **Rule:** Choose one generic strategy per business unit. If pursuing a different strategy in another segment, operate it as a separate unit with its own brand.
 
 ### Ugandan Examples
@@ -330,6 +334,8 @@ Without clarity on value chain design, other statements about strategy are "litt
 *Source: Portable MBA, Ch 13 (Day)*
 
 Before committing resources to a strategy, subject it to four rigorous tests. Poor strategic choices dissipate scarce resources, consume time, and cause management to neglect other opportunities.
+
+> **Canonical choice procedure.** These four tests are a subset of the SAFe screen (suitability, acceptability including risk, return and stakeholder reactions, feasibility including funds, people and integration). When the plan must choose between options and record rejected ones, use [`meta-strategic-options-evaluation`](../../../meta-strategy/meta-strategic-options-evaluation/SKILL.md), which also applies the 35-word strategy-statement gate.
 
 ### The Four Tests
 

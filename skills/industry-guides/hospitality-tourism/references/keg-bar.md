@@ -1,176 +1,63 @@
-# Senator Keg Bar
+# Draught-Beer (Keg) Bar
 
-**Source:** Crack A Business Kenya (CAB) — Barrels of Cash: A Senator Keg Bar Business Guide | **Sub-sector:** Hospitality — Low-Cost Alcoholic Beverage Retail
-**Conversion:** KES ÷ 106 × 1.27 → March 2026 USD
+Use this reference when a plan covers a low-cost bar serving draught beer from barrels (kegs) to a price-sensitive market, with bottled beer and spirits as supplements. The economics are low capital, high volume and daily cash. Figures are planning assumptions from an older regional case; verify wholesale prices, licence fees and margins with a dated local source. The concept translates to any market that has a dominant low-cost draught product; identify that product (or a spirits equivalent) before adapting the model.
 
-> A bar selling Senator Keg — EABL's low-cost draught beer aimed at the low-income market, served in 300ml and 500ml cups. Capital KES 364,100 ($4,363). Margin KES 1,620/barrel at standard retail pricing (plus under-pour surplus). Average sales: 1 barrel on weekdays; 3 barrels Saturdays and Sundays. Breakeven period not stated but business is volume-driven; profitability requires consistent 2+ barrels/day.
+## 1. Market and customer
 
-## Financial Summary
+- Customers are low-income and working-class drinkers in estates, peri-urban trading centres and construction-economy towns, buying by the cup or measure.
+- Competition is on price (a bar charging even slightly more than neighbours struggles; a small premium is tolerated), service quality (warmth, speed, consistency) and football or music (dwell time and consumption).
+- Count keg and non-keg bars in the trading centre; note capacity and opening hours. Satellite towns around large cities may have less competition.
 
-| Metric | Amount |
-|--------|--------|
-| Total capital | KES 364,100 ($4,363) |
-| Wholesale price — Senator Lager (50L barrel) | KES 3,380 ($40) |
-| Retail revenue per barrel (at KES 100/L) | KES 5,000 ($60) |
-| Gross margin per barrel (Lager) | KES 1,620 ($19) |
-| Average daily barrels (weekdays) | 1 |
-| Average daily barrels (weekends) | 3 |
-| Customers per barrel (at 1.5L avg consumption) | ~34 |
+## 2. Operating model
 
-## Capital Breakdown
+- The keg is bought from a distributor by exchanging an empty barrel for a filled one (delivery or self-collection; some accept mobile-money payment).
+- Serve by the cup (for example small and large sizes), with bottled beer, spirits and soft drinks as supplements.
+- Accounting is barrel by barrel because partial consumption cannot be measured accurately.
+- Credit only to known regulars in estates; cash only in high-traffic urban areas.
+- Staff: attendant or waiter; owner presence is a major success factor (personal warmth and customer rapport). Turnover among waiting staff can be high.
 
-### Licences
+## 3. Inputs and suppliers
 
-| Item | KES | 2026 USD |
-|------|-----|----------|
-| Alcoholic Drinks Licence (General Retail) | 50,000 | $599 |
-| County Single Business Permit | 10,000 | $120 |
-| Public Health Licence | 3,000 | $36 |
-| Signboard Licence | 2,000 | $24 |
-| Medical Certificate (1 worker) | 500 | $6 |
-| MCSK (Music Copyright Society of Kenya) | 3,000 | $36 |
-| PRISK (Performers Rights Society of Kenya) | 3,000 | $36 |
-| Fire Inspectorate Certificate | 1,500 | $18 |
-| Business Registration | 1,500 | $18 |
-| Miscellaneous (informal costs) | 5,000 | $60 |
-| **Licences Sub-total** | **79,500** | **$953** |
+Barrels (filled and empty float), dispensing pump, bottled beer, spirits, soft drinks, snacks. Distributor terms and delivery reliability are key. Dark and lager products may sell at different rates; test the mix.
 
-### Equipment
+## 4. Equipment and capex (categories)
 
-| Item | Qty | KES | 2026 USD |
-|------|-----|-----|----------|
-| Plastic chairs | 20 @ KES 700 | 14,000 | $168 |
-| Tables | 5 @ KES 3,000 | 15,000 | $180 |
-| Television (minimum 25") | 1 | 15,000 | $180 |
-| DSTV decoder + subscription setup | 1 | 20,000 | $240 |
-| Music system | 1 | 20,000 | $240 |
-| Fire extinguisher | 1 | 6,000 | $72 |
-| Cups, jugs, glasses, plates | All | 10,000 | $120 |
-| Counter and shelves | 1 | 20,000 | $240 |
-| Signboard | 1 | 10,000 | $120 |
-| **Equipment Sub-total** | | **~130,000** | **~$1,558** |
+Chairs and tables, television and pay-TV decoder (football drives footfall; the subscription is a recurring fixed cost), music system, fire extinguisher, cups, jugs, glasses and plates, counter and shelves, signboard, barrels and pump, opening stock. Plan: licences; equipment; stock; premises (deposit, first rent, renovation); three months of wages, power, water and miscellaneous. A leaner bar can start by selling keg only, skipping pay-TV and paying less rent, but the minimum still includes the business permit, health licence, alcohol licence and about two months of working capital.
 
-### Stock
+## 5. Unit economics drivers
 
-| Item | KES | 2026 USD | Notes |
-|------|-----|----------|-------|
-| Empty barrels | 9,000 | $108 | 3 @ KES 3,000 |
-| Keg pump | 16,000 | $192 | 1 pump |
-| Keg (filled barrels) | 10,200 | $122 | 3 barrels × KES 3,400 |
-| Spirits and bottled beer (mixed) | 15,000 | $180 | Opening stock |
-| **Stock Sub-total** | **50,200** | **$601** | |
+- Barrel margin = retail revenue per barrel - wholesale barrel price. Retail revenue per barrel = litres per barrel x price per litre, adjusted for measure size and spillage.
+- Under-pouring: serving slightly less than the stated measure adds to effective margin but is disreputable and cannot be relied on in a projection; if staff keep the excess, model owner margin at the stated measure only.
+- Customers per barrel = barrel litres / average consumption per customer.
+- Volume benchmarks to test: weekday barrels per day, weekend barrels per day; profitability requires consistent volume above a break-even barrels-per-day figure computed from fixed costs (rent, wages, licences, pay-TV, power) divided by margin per barrel.
+- Spirits and bottled beer contribute smaller margins (percentages differ by product); model them as supplementary lines.
+- Second product lines (dark versus lager) may sell at different rates; check the local mix.
 
-### Premises
+## 6. Pricing
 
-| Item | KES | 2026 USD | Notes |
-|------|-----|----------|-------|
-| Rent | 45,000 | $539 | 2 months deposit + 1 month @ KES 15,000 |
-| Renovation and remodelling | 20,000 | $240 | Repainting, branding |
-| **Premises Sub-total** | **65,000** | **$779** | |
+Benchmark per litre or per cup against local competitors within a narrow band; do not exceed the local norm by more than a small margin. Reprice when distributor prices change.
 
-### Working Capital (3 months)
+## 7. Regulation and licensing checks
 
-| Item | KES | 2026 USD | Notes |
-|------|-----|----------|-------|
-| Salary (1 employee) | 24,000 | $288 | @ KES 8,000/month |
-| Electricity | 4,000 | $48 | @ KES ~1,333/month |
-| Water | 2,400 | $29 | @ KES 800/month |
-| Miscellaneous (police, transport, airtime) | 9,000 | $108 | @ KES 3,000/month |
-| **Working Capital Sub-total** | **39,400** | **$472** | |
+- Alcohol retail licence (fees vary by city, urban or rural classification and by county practice; many authorities charge the top rate), business permit, public health licence, signboard permit, staff medical certificates, music and performance rights licences, fire safety certificate, business registration.
+- Licensed hours are restricted; extended hours need a different licence class. Verify the exact class and its hours.
+- Physical requirements: a dedicated customer toilet (not shared), a sink for washing cups, and fire equipment. A public-health closure over a dirty shared toilet can cost days of revenue.
+- Country notes: in Uganda, a city authority trade licence and local business permit are needed, plus the performing-rights society for music; excise applies at the brewer or importer; spirits dominate the low-cost segment; verify local draught availability. In Tanzania, business registration, tax registration, local licence and the arts council's performance levy apply. In Rwanda, alcohol retail is more strictly regulated: registration, tax number and licence from the relevant authorities, and stricter hours enforcement.
 
-| **Grand Total** | **KES 364,100** | **$4,363** | |
+## 8. Risks and controls
 
-> Bars exist that started with substantially less by skipping some licences, forgoing TV, selling keg only (no beer/spirits), and paying lower rent. Minimum viable setup requires county business permit, health licence, alcoholic drinks licence, and working capital for at least 2 months.
+Price competition, distributor price changes, staff dishonesty (barrel reconciliation each day, count by measures sold versus barrels used), unreliable credit, health closures, noise and licensing enforcement, security, changing local by-laws. Do not plan on informal payments to officials; budget only for lawful fees and compliance.
 
-## Revenue
+## 9. KPIs
 
-### Prices (February 2016 data)
+Barrels per day (weekday and weekend); litres sold versus litres bought (variance); margin per barrel; customers per day; sales by product line; staff turnover; days of closure.
 
-| Product | Wholesale | Retail Recommended | Common Retail |
-|---------|-----------|-------------------|---------------|
-| Senator Lager (50L barrel) | KES 3,380 ($40) | KES 83/L | KES 100/L (KES 30 per 300ml) |
-| Senator Dark (50L barrel) | KES 4,800 ($58) | KES 100/L | KES 120/L |
-| Chrome spirits | KES 155/bottle ($1.86) | — | KES 200/bottle ($2.40) |
-| Bottled beer (avg margin) | — | — | ~KES 30/bottle ($0.36) |
+## 10. Plan-section prompts
 
-### Margin per Barrel
+- Which low-cost draught product will be sold, and what is its distributor's price and terms?
+- What is the break-even barrels per day and the evidence for achieving it?
+- Which licence class and hours apply?
+- How will stock and cash be controlled?
+- What is the social and regulatory risk, and how will it be managed?
 
-| Product | Wholesale | Retail (50L) | Margin |
-|---------|-----------|--------------|--------|
-| Senator Lager | KES 3,380 | KES 5,000 | KES 1,620 ($19) |
-| Senator Dark | KES 4,800 | KES 6,000 | KES 1,200 ($14) |
-
-> Under-pouring (serving 400–450ml as 500ml) adds KES 250–400 to effective margin per barrel. Unwritten rule: excess goes to the attendant; owner gets the stated margin. Significant under-pouring damages reputation.
-
-### Volume Benchmarks
-
-| Metric | Figure |
-|--------|--------|
-| Average weekday sales | 1 barrel |
-| Average weekend sales | 3 barrels/day |
-| Customers to empty 1 barrel | ~34 (at 1.5L average per customer) |
-| Senator Dark vs Lager (rural/peri-urban) | Dark sells at ~half the rate of Lager |
-
-### Spirits and Beer
-
-- Spirits average 25% gross margin
-- Bottled beer averages KES 30/bottle margin
-- Both are supplementary to keg as the core product
-
-## Operations
-
-- Keg purchased from distributor: bring empty barrel, pay, exchange for filled barrel
-- Distributor delivers (payment via mobile money in some cases) or you collect
-- Barrel = 50 litres; accounting done barrel by barrel as there is no accurate way to measure partial consumption
-- Credit sales acceptable in estates where customers are known; in urban CBD/high-traffic areas, cash only
-
-## Licensing Notes
-
-### Alcoholic Drinks Licence Fees
-
-| Location | Annual | 6 Months |
-|----------|--------|----------|
-| City or municipality | KES 50,000 | KES 30,000 |
-| Urban areas (non-city) | KES 30,000 | KES 18,000 |
-| Rural/other | KES 15,000 | KES 9,000 |
-
-> Most counties charge the maximum regardless of classification. Practical minimum is KES 30,000; budget KES 50,000. Extended hours (beyond 5pm–11pm) require Members Club Licence (KES 100,000/year) or Restaurant Alcoholic Licence (KES 30,000/year).
-
-### MCSK Fees
-KES 2,231 per room per unit of 25 persons seating capacity (or part thereof).
-
-### Physical Requirements
-- Dedicated customer toilet (not shared); urinal insufficient in most counties
-- Sink for washing cups
-- Fire extinguisher(s) as specified by fire department
-
-## Case Study — Kirigiti (Kiambu Road, 2016)
-
-- Location: Peri-urban centre, ~14km from Nairobi; construction-economy town
-- 11 keg bars in the centre; 7 local (non-keg) bars
-- Owner (woman, early 40s): started 2013 with 6-seat wines-and-spirits outlet; expanded to full keg bar; added second keg bar December 2015
-- Bar 1: 25-person capacity; 20" TV (no DSTV); local music/reggae system; sells 1–2 barrels/day weekdays; 2–3 weekends
-- Key success factor: owner's personal warmth and direct customer rapport
-- Staff turnover high among female waitresses (~3 changes/year); one was dismissed by customer pressure after repeated swindling complaints
-- Bar closed 11 days by public health officials due to shared/dirty toilet → significant revenue loss
-
-## Competition and Survival
-
-| Factor | Notes |
-|--------|-------|
-| Primary competition basis | Price (keg is price-sensitive), service quality, football TV access |
-| Price sensitivity | Bars selling KES 10 above competitors struggle; KES 5 above standard is acceptable |
-| Service | Friendly, fast, consistent service retains customers; staff warmth critical |
-| Music/TV | Football and music systems drive dwell time and consumption |
-| Premises | Clean toilet and sink are legal requirements and reputation factors |
-
-## East Africa Notes
-
-- **Uganda:** Senator Keg equivalent in Uganda is Club Beer and Nile Special in draught form, but the large-scale low-cost keg draught model is less developed than in Kenya. Uganda's spirits (Uganda Waragi, Bell) are the dominant low-cost alcohol category. However the economics of a draught bar concept translate directly. URBRA (Uganda Revenue Authority Excise Duty) applies to alcohol manufacturers; retailers require KCCA trade licence + DDA (for any dairy premises, not applicable here) + local council business permit. Music licensing: UPRS (Uganda Performing Rights Society) equivalent of MCSK. Kampala estates (Nansana, Bwaise, Rubaga, Makindye) have a large market for low-cost alcohol.
-- **Tanzania:** TRA alcohol excise applies at production level. Retailers require BRELA business registration, TRA TIN, and local government trade licence. BASATA (Baraza la Sanaa na Utamaduni) music performance levy applies. Tanzania Breweries (TBL) produces Kilimanjaro Lager and Castle which are the nearest equivalents in the low-cost draught market. Dar es Salaam's Kariakoo and Ilala areas have dense low-income bar markets similar to Kenyan estate keg bars.
-- **Rwanda:** Rwanda's alcohol retail environment is more strictly regulated. RDB registration and RRA TIN required. Rwanda Development Board and local sector offices issue retail alcohol licences. Rwanda Revenue Authority applies excise. Rwandan draught beer (Primus, Mützig on tap in formal bars) exists but the hyper-low-cost draught model is less established. Business opportunity exists in satellite towns around Kigali (Nyamata, Rwamagana, Musanze) where working-class market exists but competition is lower.
-- **EA general:** The core economics (low capital, high volume, cash daily) translate across EA markets. Key variable is the dominant low-cost beer product in each country; identify the equivalent of Senator Keg (or a spirits equivalent) before adapting this model.
-
-## Data Quality Notes
-
-Capital and revenue figures are from 2016 Kenya data. Senator Keg prices have changed since then — verify current wholesale barrel price with local EABL distributor before committing capital. The margin structure (wholesale → retail markup) remains structurally valid. Under-pouring practice is documented anecdotally; it exists in all markets but cannot be relied upon in a business plan projection.
+Sources consulted: Crack A Business Kenya, keg bar guide (2016), and general licensed-hospitality practice. Figures were relabelled as assumptions to re-verify.

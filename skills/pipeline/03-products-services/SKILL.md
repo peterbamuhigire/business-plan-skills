@@ -41,8 +41,9 @@ Generate Section 03 of the business plan: the products and services section. Use
 4. If the offer is premium, high-ticket, luxury/affluent, enterprise, or executive-facing, run `meta-premium-go-to-market` to test product design, proof, service layer, pricing power, and buyer fit.
 5. If the offer includes a website, ecommerce, portal, web app, content/SEO engine, online booking path, or website-design service line, run `meta-website-investment-planning` so the website role, stack, service design, and cost implications are explicit.
 6. Distinguish current offers from pipeline or aspirational offers.
-7. Reconcile the section with pricing, operations, IP, and market claims elsewhere in the plan.
-8. Flag any missing validation, capability, or compliance facts that weaken the offer narrative.
+7. Set or check price with the pricing triangle (customer's best-alternative ceiling, comparables, unit-cost floor), match the billing unit to how buyers budget, and run a price-change P&L before any cut or rise; describe the business model in its five pages (channel, selling tactic, revenue source, product, delivery) when the model itself is a choice, using `meta-business-model-design` to score alternatives before drafting.
+8. Reconcile the section with pricing, operations, IP, and market claims elsewhere in the plan.
+9. Flag any missing validation, capability, or compliance facts that weaken the offer narrative.
 
 ## Quality Bar
 
@@ -153,6 +154,9 @@ Before committing to product development, assess three dimensions (Dennis et al.
 - **Premium product and offer design**: Run `../meta-premium-go-to-market/SKILL.md` and read `../meta-premium-go-to-market/references/premium-gtm-quality-gate.md` when the product must sell to affluent, executive, enterprise, luxury, high-ticket, or premium customers. Use it to strengthen positioning, service design, proof, pricing power, launch strategy, and sales execution.
 - **Website investment and website-design services**: Run `../meta-website-investment-planning/SKILL.md` and read `../meta-website-investment-planning/references/website-investment-costing-gate.md` when the product/service requires a website, ecommerce, portal, content/SEO engine, landing page funnel, web app, or website-design service pricing. Use it to define website role, design philosophy, stack, service scope, operating requirements, and realistic cost assumptions.
 
+- **Pricing triangle, billing unit, business-model pages and price-change P&L**: See `references/pricing-triangle-and-price-change-pnl.md`. **Read when setting a price, testing a price change, or describing the business model.**
+- **Section wording**: See `../../language/writing-quality/references/business-plan-phrase-bank-sections-01-08.md` (entry 03). **Read while drafting.**
+
 ## July 2026 Portable Contract
 
 <!-- dual-compat-start -->
@@ -229,7 +233,9 @@ A same-day delivery add-on has no delivery-cost estimate or customer interviews.
 
 ## References
 
-- Use the verified project evidence register and the owning upstream pipeline section for 03 products services; no local deep-dive reference is declared.
+- [Phrase bank, entry 03](../../language/writing-quality/references/business-plan-phrase-bank-sections-01-08.md) — read while drafting: purpose, keywords, slot-templates, tone rules, before-and-after rewrites and red-flag phrases for this section; apply the strategy-type emphasis from the [phrase-bank index](../../language/writing-quality/references/business-plan-phrase-bank.md).
+- Use the verified project evidence register and the owning upstream pipeline section for 03 products services.
+- [Pricing triangle and price-change P&L](references/pricing-triangle-and-price-change-pnl.md) — price setting and price-change tests.
 - For 03 products services claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 
 <!-- dual-compat-end -->

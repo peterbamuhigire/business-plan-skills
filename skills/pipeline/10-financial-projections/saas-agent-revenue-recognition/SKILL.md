@@ -227,9 +227,9 @@ Assign cadence and owners per the cadence table below.
 - `skills/meta-agent-revenue-recognition-policy/SKILL.md` — meta policy declaration discipline
 - `skills/meta-accounting-finance-review/SKILL.md` — accounting review gate
 - `skills/meta-living-plan-governance/SKILL.md` — governance parent
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — this audit
-- `book-extractions/agent-products-business-plan-audit-2026.md` — agent product audit
-- `book-extractions/accounting-bookkeeping-finance-controls-extraction.md` — controls
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — this audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — agent product audit
+- `skills/pipeline/10-financial-projections/references/finance-operating-system-and-controls-checklist.md` — controls
 
 ## Africa / Uganda Application Notes
 

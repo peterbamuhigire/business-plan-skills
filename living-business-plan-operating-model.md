@@ -61,5 +61,5 @@ See also:
 - `skills/meta-reporting/meta-board-and-investor-reporting/SKILL.md` — the reporting cadence
 - `skills/meta-strategy/meta-quarterly-gameplan/SKILL.md` — the 90-day operating rhythm
 - `skills/meta-strategy/meta-monitoring-evaluation/SKILL.md` — KPI / M&E discipline
-- `book-extractions/cotton-run-a-saas-business-extraction.md` — MSPOT origin
-- `book-extractions/haines-how-to-create-a-business-case-extraction.md` — post-implementation audit, decision-log discipline
+- `skills/saas/saas-gtm-motion-design/references/saas-scaling-rules-and-discount-governance.md` — MSPOT origin
+- `skills/meta-strategy/meta-critical-thinking-business-logic/references/business-case-test.md` — post-implementation audit, decision-log discipline

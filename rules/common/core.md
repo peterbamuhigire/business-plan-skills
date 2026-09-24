@@ -28,3 +28,11 @@ Each section of a plan should reference the sections it depends on or affects.
 A plan whose market-sizing section and financial-projections section imply
 different growth assumptions has failed internal consistency even if each
 section is individually well-written.
+
+## Never store book extractions in the repository
+
+Book extractions, book summaries and raw source text must never be stored in
+the repository. Fold durable methods into the owning skill's `references/` as
+task-oriented, paraphrased guidance with a brief citation. The source-ingestion
+guardrail (`scripts/source_ingestion_guardrail.py`) blocks any file under a
+`book-extractions/` path.

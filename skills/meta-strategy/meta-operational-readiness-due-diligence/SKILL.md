@@ -113,6 +113,7 @@ For a proposed health-data platform in a new country, the plan may say that bank
 
 ## References
 
+- [Uganda formalisation and lender-document checklist](references/uganda-formalisation-and-lender-document-checklist.md) — read when a Ugandan plan must show registration, tax, NSSF, licensing, sector approvals, record-keeping and lender documents; all fees and thresholds are checks to verify.
 - `skills/pipeline/08-operations-plan/SKILL.md`
 - `skills/pipeline/10-financial-projections/SKILL.md`
 - `skills/pipeline/12-risk-analysis/SKILL.md`

@@ -465,6 +465,7 @@ The proposal promises 5,000 trained beneficiaries, but venue and facilitator cap
 
 ## References
 
+- [Phrase bank, entry 11b](../../language/writing-quality/references/business-plan-phrase-bank-sections-09-16.md) — read while drafting: purpose, keywords, slot-templates, tone rules, before-and-after rewrites and red-flag phrases for this section; apply the strategy-type emphasis from the [phrase-bank index](../../language/writing-quality/references/business-plan-phrase-bank.md).
 - [Load this skill's primary method or template](../04-market-analysis/references/uganda-human-capital-2025.md) before applying the 11b grant proposal decision rules.
 - For 11b grant proposal claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 

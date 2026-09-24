@@ -248,4 +248,4 @@ This Africa-context reference sits beneath:
 - `skills/meta-agent-sla-financial-controls/SKILL.md` — controls
 - `skills/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
 - `country-context/` — country-specific regulator and currency context
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit

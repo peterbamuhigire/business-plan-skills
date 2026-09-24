@@ -180,10 +180,10 @@ Implications for agent gross margin:
 - `skills/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — stress-test consumer
 - `skills/meta-agent-bankability-and-investor-readiness/SKILL.md` — bankability scorecard consumer
 - `skills/meta-living-plan-governance/SKILL.md` — governance discipline
-- `book-extractions/agent-products-business-plan-audit-2026.md` — agent audit
-- `book-extractions/ai-on-saas-business-plan-audit-2026.md` — AI-on-SaaS audit
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — SLA + commercial audit
-- `book-extractions/mersch-hacking-saas-extraction.md` — CFO-grade SaaS discipline
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — agent audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — AI-on-SaaS audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — SLA + commercial audit
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — CFO-grade SaaS discipline
 - `skills/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — SLA-COGS classification
 - `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — SLA-credit reserve, refund reserve, deferred revenue
 - `skills/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — ASC 606 / IFRS 15 per pricing primitive

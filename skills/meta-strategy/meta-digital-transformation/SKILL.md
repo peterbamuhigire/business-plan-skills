@@ -96,11 +96,11 @@ Use this meta-skill when a business plan or strategy needs a serious answer to t
 ## References
 
 - `references/business-agility-readiness-map.md` - B18-A01 people, process, tools, evidence, reversible slice, and rollback readiness contract.
-- `../../book-extractions/rogers-digital-transformation-playbook-extraction.md` - five-domain strategy lens: customers, competition, data, innovation, value
-- `../../book-extractions/molenaar-demand-driven-business-strategy-extraction.md` - demand-driven redesign, outside-in thinking, value networks, platform logic, and product-as-a-service options
-- `../../book-extractions/business-models-ecommerce-extraction.md` - digital transaction models, revenue logic, and supply-side/collaborative digitisation
-- `../../book-extractions/haines-how-to-create-a-business-case-extraction.md` - options, do-nothing case, incremental economics, and sensitivity logic for major digital investments
-- `../../book-extractions/devops-operating-model-extraction.md` - DevOps, CI/CD, release, observability, incident response, PHP/LAMP, cloud-native, and digital service reliability patterns for technology businesses
+- `references/digital-business-model-redesign-tests.md` (Test 1) - five-domain strategy lens: customers, competition, data, innovation, value
+- `references/digital-business-model-redesign-tests.md` (Test 2) - demand-driven redesign, outside-in thinking, value networks, platform logic, and product-as-a-service options
+- `references/digital-business-model-redesign-tests.md` (Test 3) - digital transaction models, revenue logic, and supply-side/collaborative digitisation
+- `../meta-critical-thinking-business-logic/references/business-case-test.md` - options, do-nothing case, incremental economics, and sensitivity logic for major digital investments
+- `../../pipeline/08-operations-plan/references/digital-delivery-operating-model.md` - DevOps, CI/CD, release, observability, incident response, PHP/LAMP, cloud-native, and digital service reliability patterns for technology businesses
 - `../14-ai-integration/SKILL.md` - use after the broader digital strategy is clear and the AI layer must be specified
 
 ## Evidence Produced

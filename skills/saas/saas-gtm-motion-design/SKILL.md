@@ -107,9 +107,9 @@ The GTM motion is the master upstream decision in any SaaS plan. It determines p
 ## References
 
 - `references/saas-gtm-motion-decision-template.md` — full decision matrix and worked examples
-- `book-extractions/vanderkooij-saas-sales-method-ae-extraction.md` — five methodologies
-- `book-extractions/walling-saas-playbook-extraction.md` — dual-funnel cheat code
-- `book-extractions/cotton-run-a-saas-business-extraction.md` — sales engine essay
+- `skills/saas/saas-sales-org-design-and-capacity-planning/references/saas-sales-methodology-and-conversation-craft.md` — five methodologies
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — dual-funnel cheat code
+- `skills/saas/saas-gtm-motion-design/references/saas-scaling-rules-and-discount-governance.md` — sales engine essay
 - `skills/saas-sales-org-design-and-capacity-planning/SKILL.md` — sister skill
 
 ## Africa / Uganda Application Notes

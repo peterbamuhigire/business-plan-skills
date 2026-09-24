@@ -106,9 +106,9 @@ Customer success is not support. CS is the revenue-protection and expansion engi
 ## References
 
 - `references/saas-customer-success-operating-model.md` — full operating-model design and worked examples
-- `book-extractions/cotton-run-a-saas-business-extraction.md` — churn discipline
-- `book-extractions/mersch-hacking-saas-extraction.md` — CS cost in financial profile
-- `book-extractions/garbugli-saas-email-marketing-playbook-extraction.md` — lifecycle email integration
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — churn discipline
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — CS cost in financial profile
+- `skills/saas/saas-lifecycle-email-and-retention/references/lifecycle-email-programme-design.md` — lifecycle email integration
 - `skills/saas-unit-economics-and-cohort-model/SKILL.md` — NRR computation
 
 ## Africa / Uganda Application Notes

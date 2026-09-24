@@ -347,6 +347,8 @@ Every article targets at least one keyword cluster. Research what the target aud
 
 | File | When to Read |
 |------|-------------|
+| [`../../language/writing-quality/references/article-and-blog-phrase-guidance.md`](../../language/writing-quality/references/article-and-blog-phrase-guidance.md) | During drafting and review: headline and lede patterns, evidence phrasing, transitions that do not sound machine-made, closings with a concrete next step, before-and-after rewrites |
+| [`../../language/writing-quality/references/business-plan-phrase-bank.md`](../../language/writing-quality/references/business-plan-phrase-bank.md) | When an article discusses plans, strategy or markets: verb and precision-word banks, evidence classes (fact, assumption, estimate, projection) |
 | `references/writing-craft.md` | During outlining and writing  7-step process, lead types (9 techniques), article arc (nut 'graph, full circle), sentence craft, headline SEO formula, clarity, conciseness |
 | `references/content-strategy.md` | During planning  audience segments, buyer journey, SEO strategy, pillar content, touchpoints |
 | `references/reader-experience.md` | During planning and review  touchpoint mapping, reader types, quality gates, tone calibration |

@@ -99,7 +99,7 @@ Section 14 (AI Integration) treats AI homogeneously by default. **Agent business
 
 - `skills/14-ai-integration/SKILL.md` — parent
 - All agent-specific skills (listed above)
-- `book-extractions/agent-products-business-plan-audit-2026.md` — audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes
 

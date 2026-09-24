@@ -85,3 +85,6 @@ Sanitary towel manufacturing addresses a genuine social need — menstrual hygie
 ## UNDP Business Profiles
 
 See `references/undp-business-profiles.md` for detailed investment and revenue data on 4 education and social enterprise business ideas sourced from the UNDP Uganda Compendium, with figures adjusted to March 2026 US dollars.
+
+
+- Daycare centre: see `references/daycare-centre.md` for enrolment economics, staffing, safeguarding and licensing checks.

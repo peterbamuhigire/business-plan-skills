@@ -127,6 +127,8 @@ This is the primary domain for this suite. Apply every item before shipping a pl
 - **Projections:** every hockey-stick line has a stated driver and assumption (customers × price × conversion, with a source for each). Projections with no basis fail U3 and U6. Reconcile the funding ask with the implementation plan.
 - **Risk:** the risks section names decision-relevant risks and the do-nothing case, not a generic list of "market, operational, and financial risks".
 - **Pitch deck:** one assertion per slide backed by one piece of evidence; no slide that could appear in any pitch unchanged.
+- **Objectives and targets:** every objective passes the SMART quality test and is applicable to the business's location and scope; "increase brand awareness", "become the leading provider" and "go viral" fail. See the marketing orchestrator's `smart-objectives-builder.md`.
+- **Wording by section:** use the business-plan phrase bank's keywords, slot-templates and before-and-after rewrites for the section and the client's strategy type; a template sentence with an unfilled `[slot]` or an unverified value blocks release.
 
 ## Adjacent domain blocks (load the relevant one when the output type applies)
 
@@ -162,7 +164,8 @@ run ME1-ME7 with exact evidence and mark missing verification `NOT_ASSESSED`.
 - `ai-slop-audit` supplies the independent checkpoint and release grade.
 - `writing-quality` governs business-plan prose mechanics beneath this gate.
 - `meta-critical-thinking-business-logic` tests claim, evidence, warrant, countercase, and implication.
-- `../../../book-extractions/human-english-craft-synthesis-2026.md` governs reader-fit register, grammar, collocation, rhythm, and proof alongside this gate.
+- `../../language/writing-quality/references/human-english-five-pass-standard.md` governs reader-fit register, grammar, collocation, rhythm, and proof alongside this gate.
+- [Business-plan phrase bank](../../language/writing-quality/references/business-plan-phrase-bank.md), [marketing-plan phrase bank](../../language/writing-quality/references/marketing-plan-phrase-bank.md) and [article guidance](../../language/writing-quality/references/article-and-blog-phrase-guidance.md) supply the human, specific replacements for flagged sentences; read them when rewriting a failed item.
 
 ## Required Inputs
 

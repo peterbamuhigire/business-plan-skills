@@ -1,152 +1,69 @@
-# Local Bar (Non-Keg)
+# Local Bar (Bottled Beer and Spirits)
 
-**Source:** Crack A Business Kenya (CAB) — Local Bar Business Guide 2016 | **Sub-sector:** Hospitality — Alcoholic Beverage Retail (Bottled Beer and Spirits)
-**Conversion:** KES ÷ 106 × 1.27 → March 2026 USD
+Use this reference when a plan covers a full-service local bar selling bottled beer, spirits and soft drinks, whether starting new or buying a going concern. Profitability is volume-driven; the main levers are location, security of tenure, staff management and controls against theft. Figures are planning assumptions from an older regional case; verify prices, fees and margins with dated local sources.
 
-> A full-service local bar selling bottled beer, spirits, and soft drinks. Capital KES 883,500 ($10,589) for a large bar (50+ seats). Average bottle margin ~30%. Profitability is volume-driven; key success factors are location, staff management, security of tenure, and strong controls to prevent staff theft. When purchasing a going-concern bar, due diligence on licence transferability, profitability, and lease terms is essential.
+## 1. Market and customer
 
-## Financial Summary
+Bar culture is strong across income levels in East African towns. Football fixtures (top European leagues, continental tournaments) are the main footfall driver for bars with pay-TV; opening before a major tournament speeds early customer acquisition. Customers vary from working-class regulars to middle-income evening groups; choose the target and size the venue accordingly (a 20 to 30-seat bar has proportionally lower rent, staff, equipment and licence costs than a 50-seat urban bar).
 
-| Metric | Amount |
-|--------|--------|
-| Total capital (large bar, 50+ seats) | KES 883,500 ($10,589) |
-| Average bottled beer margin | ~30% (~KES 30–40/bottle) |
-| Average spirits margin | ~25% |
-| Buying cost (going-concern bar) | Annual net profit × 2.5 |
+## 2. Operating model
 
-## Capital Breakdown (Large Bar, 50+ Seats)
+Full-service bar with seating, counter service or waiters, television, music and (optionally) food. Standard licensed hours are limited (typically evenings on weekdays, longer at weekends); extended hours require a different licence class such as a members' club or restaurant alcohol licence. Assign an owner or trusted supervisor to peak evenings and weekends.
 
-### Licences
+## 3. Inputs and suppliers
 
-| Item | KES | 2026 USD | Notes |
-|------|-----|----------|-------|
-| Alcoholic Drinks Licence (General Retail) | 50,000 | $599 | City/municipality rate; rural = KES 15,000 |
-| County Single Business Permit | 10,000 | $120 | |
-| Public Health Licence | 3,000 | $36 | |
-| Signboard Licence | 2,000 | $24 | |
-| Medical Certificate (per worker) | 500 | $6 | Per worker; minimum 1 |
-| MCSK (Music Copyright Society of Kenya) | 6,000 | $72 | Based on seating capacity |
-| PRISK (Performers Rights Society of Kenya) | 20,000 | $240 | Varies by capacity and music use |
-| Fire Clearance Certificate | 1,500 | $18 | |
-| NEMA (National Environment Management Authority) | 3,000 | $36 | Noise/environmental compliance |
-| Business Registration | 15,000 | $180 | Limited company recommended |
-| Miscellaneous (informal costs, approvals) | 30,000 | $360 | |
-| **Licences Sub-total** | **~226,000** | **~$2,709** | |
+Bottled beer cases (by brand: lager, dark, malt, non-alcoholic), spirits, soft drinks. Supplier: authorised distributors of the brewers and spirits companies; obtain current price lists and credit terms because wholesale prices change periodically. Stock only what your customer segment can afford.
 
-> MCSK fee: KES 2,231 per room per unit of 25 persons seating capacity. PRISK: calculated at KES 4.50/sq ft minimum. For a 50-seat bar, budget KES 6,000–20,000 for MCSK/PRISK combined.
+## 4. Equipment and capex (categories)
 
-### Equipment
+Chairs and tables sized to the seat count, television (large enough for football) and pay-TV decoder, music system (wide range of costs), glasses and trays, counter and bar, signboard. Plan: licences (alcohol licence, business permit, health licence, signboard, medical certificates, music and performing-rights licences by seat capacity or floor area, fire clearance, environmental or noise compliance, company registration); equipment; premises (deposit, rent, renovation); three months of wages (several staff), power, water, security and miscellaneous. Note that the pay-TV package is a substantial monthly fixed cost relative to per-bottle margins.
 
-| Item | KES | 2026 USD | Notes |
-|------|-----|----------|-------|
-| Chairs (plastic, 50 seats) | 35,000 | $420 | 50 @ KES 700 |
-| Tables (15) | 45,000 | $539 | 15 @ KES 3,000 |
-| Television | 35,000+ | $420+ | 40"+ for football; additional TVs optional |
-| DSTV full package | — | — | Monthly subscription ~$100; Compact ~KES 3,750 |
-| Music system | 15,000–100,000 | $180–$1,198 | Varies by bar size and ambition |
-| Glasses, trays, serving items | 25,000 | $299 | |
-| Counter and bar | 10,000–50,000 | $120–$599 | |
-| Signboard | 10,000 | $120 | |
-| **Equipment Sub-total** | **~200,000** | **~$2,398** | |
+## 5. Unit economics drivers
 
-### Premises
+- Bottle margin = retail price - case price / bottles per case. Beer margins are commonly in the region of a quarter to a third of the price; spirits somewhat lower in percentage terms. Compute per brand from live price lists.
+- Bar-level break-even = (rent + wages + utilities + security + pay-TV + licence amortisation) / average contribution per bottle equivalent, expressed in bottles per night.
+- Non-alcoholic and soft drinks carry different margins; include a food line if licensed.
+- Track spirits over-pouring against stated measures.
 
-| Item | KES | 2026 USD | Notes |
-|------|-----|----------|-------|
-| Rent | 105,000 | $1,259 | 3 months @ KES 35,000/month |
-| Renovation and remodelling | 30,000 | $360 | |
-| **Premises Sub-total** | **135,000** | **$1,618** | |
+## 6. Pricing
 
-### Working Capital (3 months)
+Benchmark against nearby bars and brand tiers; premium brands justify higher retail prices only where the customer base can pay. Keep a price list posted and consistent.
 
-| Item | KES | 2026 USD | Notes |
-|------|-----|----------|-------|
-| Salaries (5 workers) | 120,000 | $1,438 | 5 × KES 8,000 × 3 months |
-| Electricity | 12,000 | $144 | |
-| Water | 42,000 | $503 | |
-| Security | 45,000 | $539 | Guard or security arrangement |
-| Miscellaneous | 15,000 | $180 | |
-| **Working Capital Sub-total** | **234,000** | **$2,804** | |
+## 7. Regulation and licensing checks
 
-| **Grand Total** | **KES 883,500** | **$10,589** | |
+Alcohol licence fees differ by city, urban or rural classification and annual versus half-year terms; counties may apply their own schedules. Verify the class, fee, hours and transferability with the licensing office. Music licences are calculated from seating capacity or floor area; noise ordinances are enforced in some suburbs. Country notes: in Uganda, city authority trade licence, alcohol licence, performing-rights society and company registration; Tanzania needs business registration, tax number, local alcohol licence and the arts council levy; Rwanda has strict alcohol control, registration, tax number and standards permits, and consistent enforcement of age and hours rules. Verify all.
 
-> A smaller bar (20–30 seats) would have proportionally lower rent, fewer staff, smaller equipment spend, and lower licence costs. The large-bar capital above is for a full-service urban establishment.
+## 8. Buying a going-concern bar: due-diligence checklist
 
-## Revenue (December 2015 Wholesale Prices)
+| Item | Check |
+|---|---|
+| Security of tenure | Is the lease transferable and long enough? Landlord relationship? |
+| Profitability | Actual monthly gross and net profit from three to six months of records (bank and mobile-money statements, stock purchases) |
+| Expenses | Verify rent, wages, utilities, pay-TV, security |
+| Valuation | Rule of thumb: asking price near annual net profit x about 2.5; negotiate on verified profit, not the seller's claims |
+| Equipment | What is included and its condition |
+| Staff | Which key staff will stay |
+| Licences | Are they current and transferable, or does the buyer need a fresh application? |
+| Reason for sale | "Relocation" is often cover for weak returns; investigate |
 
-### Bottled Beer Prices
+## 9. Revenue protection (staff theft)
 
-| Product | Bottle Size | Case (25 bottles) | Cost/Bottle | Retail Price | Margin/Bottle |
-|---------|------------|------------------|------------|--------------|--------------|
-| Tusker Lager | 500ml | KES 3,165 | KES 127 | KES 170–200 | ~KES 43–73 |
-| Pilsner Lager | 500ml | KES 3,165 | KES 127 | KES 170–200 | ~KES 43–73 |
-| Guinness | 500ml | KES 3,615 | KES 145 | KES 200 | ~KES 55 |
-| Balozi | 500ml | KES 2,940 | KES 118 | KES 150 | ~KES 32 |
-| Allsops | 500ml | KES 2,512 | KES 100 | KES 130–150 | ~KES 30–50 |
-| Tusker Malt | 330ml | KES 3,068 (25) | KES 123 | KES 200 | ~KES 77 |
-| Alvaro (non-alc) | 330ml | KES 1,305 (25) | KES 52 | KES 80 | ~KES 28 |
+Documented methods: cashier under-records and pockets the difference; staff sell their own stock; spirits are over-poured; credit sales to friends go uncollected. Controls: stock count at the start and end of each shift (bottles in versus out); daily sales targets and revenue tracking; cash-only in high-traffic areas, credit only to known regulars; owner or trusted supervisor at peak times.
 
-**Average bottle margin: ~30% (approximately KES 30–40/bottle depending on product)**
+## 10. Risks
 
-### Spirits
+Theft, competition on price and TV rights, licence changes and closures, security incidents (budget for a guard), noise complaints, health inspections, loss of lease, tournament seasonality. Do not plan informal payments; budget lawful fees only.
 
-- Average margin: 25%
-- Example: Chrome spirits — wholesale KES 155/bottle → retail KES 200/bottle → margin KES 45
+## 11. KPIs
 
-## Licences Summary
+Bottles sold per night by category; stock variance per shift; gross margin percentage; cost of pay-TV as a percentage of sales; average spend per customer; staff turnover; days closed.
 
-### Alcoholic Drinks Licence
+## 12. Plan-section prompts
 
-| Location | Annual | 6 Months |
-|----------|--------|----------|
-| City or municipality | KES 50,000 | KES 30,000 |
-| Other urban areas | KES 30,000 | KES 18,000 |
-| Rural/elsewhere | KES 15,000 | KES 9,000 |
+- Seat count, target customer and hours; evidence of demand?
+- Bottle margin by brand and break-even bottles per night?
+- Licence class, fee and hours, and lease security?
+- Control system for stock and cash?
+- If buying, what did due diligence verify?
 
-## Buying a Going-Concern Bar
-
-If purchasing an existing bar rather than starting from scratch:
-
-| Due Diligence Item | What to Check |
-|-------------------|--------------|
-| Security of tenure | Can the lease be transferred? Is the lease long enough? Relationship with landlord? |
-| Profitability | What are actual monthly gross and net profits? Request 3–6 months records |
-| Expenses | Verify rent, salaries, utilities, DSTV subscription, security costs |
-| Valuation | Asking price should approximate annual net profit × 2.5 |
-| Equipment | What is included? Condition of chairs, tables, TV, music system, counter? |
-| Staff | Key staff who will stay? Experienced staff = business continuity |
-| Licences | Are they current and transferable to new owner? Some require fresh application |
-| Reasons for sale | "Relocation" is common cover for low returns — investigate thoroughly |
-
-## Operations
-
-### Revenue Protection (Staff Theft)
-
-Staff theft is a significant risk in bar management. Common methods documented in the guide:
-
-- Cashier under-records sales and pockets the difference
-- Staff sell personal stock alongside the bar's stock
-- Over-pouring spirits to reduce margin
-- Credit sales extended to friends that are not collected
-
-**Controls:**
-- Stocktake beginning and end of each shift (count bottles in vs. out)
-- Sales targets and daily revenue tracking
-- Cash-only policy in high-traffic areas; credit only for known regular customers
-- Owner or trusted supervisor present during peak hours (evenings, weekends)
-
-### Hours
-
-- Standard: 5pm–11pm weekdays; 2pm–11pm weekends (per Alcoholic Drinks Act)
-- Extended hours require Members Club Licence (KES 100,000/year) or Restaurant Alcoholic Licence (KES 30,000/year)
-
-## East Africa Notes
-
-- **Uganda:** Uganda's bar and drinking culture is strong across income levels. Local bars (selling Bell Lager, Nile Special, Club Beer — all EABL Uganda brands) are present in every town. Kampala bars also sell Uganda Waragi (spirits), Tusker (imported from Kenya), and Kibo Gold. KCCA trade licence and alcoholic beverages licence required in Kampala; district commercial officer licences outside Kampala. UPRS (music rights) and URSB business registration required. Security issues in Kampala bars are significant — budget for security guard. Noise ordinances are enforced in some Kampala suburbs.
-- **Tanzania:** TBL (Tanzania Breweries Ltd — SABMiller/AB InBev) products dominate: Kilimanjaro Lager, Safari Lager, Castle, and Serengeti Premium. Spirits: Konyagi (a popular locally-made gin), imported spirits. BRELA registration, TRA TIN, and local government alcohol licence required. BASATA (arts and culture board) music performance levy applies. Tanzania's bar scene is more relaxed than Kenya's in enforcement terms — but TBS and TFDA standards increasingly inspected for food/beverage safety.
-- **Rwanda:** Rwanda has strict alcohol control laws and public health enforcement. Bars in Kigali require RDB registration, RRA TIN, and a Rwanda Standards Board (RSB) food service permit. Rwanda Revenue Authority excise applies at manufacturer level. Kigali's formal bar sector is concentrated in Kimironko, Remera, Nyamirambo, and Gikondo. Secondary cities (Huye, Musanze, Rubavu) have active local bar markets. Rwanda's drinking age enforcement and operating hours regulations are more consistently enforced than in Kenya — factor this into operating hours assumptions.
-- **EA general:** Football (English Premier League, African Cup of Nations, Champions League) is the primary footfall driver for bars with DSTV/TV. Timing capital investment to open before a major tournament creates early customer acquisition. In all EA markets, managing DSTV subscription costs (monthly) as a fixed overhead is important — at $100/month for the full package, this is significant relative to margins on individual bottles.
-
-## Data Quality Notes
-
-Wholesale beer prices are from December 2015 Kenya data. EABL adjusts wholesale prices periodically — verify current prices with your local beer distributor before opening. Licence costs (KES 50,000 for city alcoholic licence) are from 2016 — county governments have discretion and costs may have increased. The going-concern valuation method (annual net profit × 2.5) is a rule of thumb applicable across EA markets but negotiate based on actual verified profitability, not seller's claims.
+Sources consulted: Crack A Business Kenya, local bar guide (2016), and general licensed-hospitality practice. Figures were relabelled as assumptions to re-verify.

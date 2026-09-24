@@ -301,6 +301,7 @@ The client calls the business a limited company but supplies only a trading-name
 
 ## References
 
+- [Phrase bank, entry 02](../../language/writing-quality/references/business-plan-phrase-bank-sections-01-08.md) — read while drafting: purpose, keywords, slot-templates, tone rules, before-and-after rewrites and red-flag phrases for this section; apply the strategy-type emphasis from the [phrase-bank index](../../language/writing-quality/references/business-plan-phrase-bank.md).
 - Use the verified project evidence register and the owning upstream pipeline section for 02 company overview; no local deep-dive reference is declared.
 - For 02 company overview claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 

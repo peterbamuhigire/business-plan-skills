@@ -1,0 +1,43 @@
+{
+  "structured_pass": [
+    {
+      "metric": "net active subscribing households",
+      "numerator": "households with at least one paid order in the last 30 days",
+      "denominator": "not applicable (count)",
+      "window": "30 days",
+      "segment": "working households in Kira Municipality and Nakawa Division",
+      "scope": "city",
+      "places": ["Kira Municipality", "Nakawa Division"],
+      "baseline": {"value": 345, "source": "CRM export", "date": "2026-09-01"},
+      "target": {"value": 505, "line_source": "model-maths"},
+      "deadline": "2027-06-30",
+      "checkpoints": ["2026-12-31", "2027-03-31"],
+      "owner": "Marketing lead",
+      "tracking_method": "CRM paid-order flag plus WhatsApp keyword per channel",
+      "reconciled": true,
+      "applicability_notes": "Mobile-money payment; WhatsApp enquiries; consent and opt-out handled per data-protection note",
+      "evidence_class": "estimate"
+    }
+  ],
+  "structured_fail": [
+    {"name": "wish", "metric": "brand awareness", "segment": "customers", "places": ["Uganda"], "scope": "city", "owner": "team"},
+    {"name": "no baseline or line source", "metric": "leads", "numerator": "qualified leads", "denominator": "all leads", "window": "month", "segment": "salon owners", "scope": "city", "places": ["Ntinda"], "baseline": {}, "target": {"value": 120}, "deadline": "2027-02-28", "checkpoints": ["2026-12-31"], "owner": "Sales lead", "tracking_method": "booking book", "reconciled": true, "applicability_notes": "x", "evidence_class": "estimate"},
+    {"name": "no deadline", "metric": "orders", "numerator": "paid orders", "denominator": "enquiries", "window": "month", "segment": "pharmacies", "scope": "city", "places": ["Gulu"], "baseline": {"value": 10, "source": "sales book", "date": "2026-08-31"}, "target": {"value": 30, "line_source": "own-trend"}, "owner": "Sales lead", "tracking_method": "sales book", "reconciled": true, "applicability_notes": "x", "evidence_class": "estimate"},
+    {"name": "arithmetic not reconciled", "metric": "orders", "numerator": "paid orders", "denominator": "enquiries", "window": "month", "segment": "pharmacies", "scope": "city", "places": ["Gulu"], "baseline": {"value": 10, "source": "sales book", "date": "2026-08-31"}, "target": {"value": 30, "line_source": "own-trend"}, "deadline": "2027-03-31", "checkpoints": ["2026-12-31"], "owner": "Sales lead", "tracking_method": "sales book", "reconciled": false, "applicability_notes": "x", "evidence_class": "estimate"},
+    {"name": "country-wide place for a city business", "metric": "orders", "numerator": "paid orders", "denominator": "enquiries", "window": "month", "segment": "pharmacies", "scope": "city", "places": ["Uganda"], "baseline": {"value": 10, "source": "sales book", "date": "2026-08-31"}, "target": {"value": 30, "line_source": "own-trend"}, "deadline": "2027-03-31", "checkpoints": ["2026-12-31"], "owner": "Sales lead", "tracking_method": "sales book", "reconciled": true, "applicability_notes": "x", "evidence_class": "estimate"}
+  ],
+  "sentence_pass": [
+    "Raise unaided recall of the brand among maize farmers with 2-10 acres in Gulu and Omoro districts from 12% (baseline survey, n = 250, August 2026) to 25% by the end of March 2027.",
+    "Sign 14 new annual payroll-software contracts with Kampala firms of 50-300 staff by 30 June 2027, from 9 signed in the last year.",
+    "Deliver 120 booked salon appointments a month from Instagram and WhatsApp in Ntinda and Kisaasi by February 2027, from a baseline of 45."
+  ],
+  "sentence_fail": [
+    "Increase brand awareness.",
+    "Grow sales significantly.",
+    "Become the leading provider in East Africa.",
+    "Go viral.",
+    "Build a strong social media presence.",
+    "Reach more customers through digital marketing.",
+    "Increase leads by 20% in Kampala."
+  ]
+}

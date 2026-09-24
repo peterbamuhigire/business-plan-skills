@@ -119,9 +119,9 @@ Pre-PMF SaaS plans need a different discipline than scale-stage plans. The produ
 
 ## References
 
-- `book-extractions/walling-saas-playbook-extraction.md` — PMF, Escape Velocity, feature triage
-- `book-extractions/garbugli-saas-email-marketing-playbook-extraction.md` — onboarding-to-activation discipline
-- `book-extractions/vanderkooij-saas-sales-method-fundamentals-extraction.md` — customer-centric questioning
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — PMF, Escape Velocity, feature triage
+- `skills/saas/saas-lifecycle-email-and-retention/references/lifecycle-email-programme-design.md` — onboarding-to-activation discipline
+- `skills/saas/saas-sales-org-design-and-capacity-planning/references/saas-sales-methodology-and-conversation-craft.md` — customer-centric questioning
 - `skills/03-products-services/SKILL.md` — sister skill for product narrative
 - `skills/idea-testing/SKILL.md` — pre-MVP idea validation
 

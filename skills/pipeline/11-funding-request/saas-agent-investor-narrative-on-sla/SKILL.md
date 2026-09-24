@@ -163,7 +163,7 @@ This skill is the **narrative discipline** — how to talk about SLA in pitch de
 - `skills/meta-agent-board-and-investor-reporting/references/saas-agent-sla-board-block.md` — board pack SLA
 - `skills/01-executive-summary/references/saas-agent-sla-executive-summary-paragraph.md` — exec summary
 - `skills/meta-agent-sla-financial-controls/SKILL.md` — controls evidence
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes
 

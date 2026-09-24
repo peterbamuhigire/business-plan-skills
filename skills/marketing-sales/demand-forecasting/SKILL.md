@@ -45,7 +45,7 @@ Use this skill to turn sales, inventory, branch, and operational signals into de
 9. Backtest against historical periods using WAPE/MAPE, bias, and missed-stockout counts.
 10. Classify the forecast as predictive analytics and document the history window,
     exclusions, method, uncertainty, and action trigger. Use
-    `../../book-extractions/data-analytics-business-planning-extraction.md` when the
+    `../../meta-strategy/meta-statistics/references/analytics-ladder-and-kpi-standard.md` when the
     forecast feeds a business plan, KPI dashboard, funding model, or management system.
 
 ## Join Guardrails
@@ -79,6 +79,8 @@ Use this skill to turn sales, inventory, branch, and operational signals into de
 ## References
 
 Load `references/demand_forecasting.md` for SQL templates, stockout formulas, and demand-driven planning notes.
+
+Load [forecast cross-checks for plans](references/forecast-cross-checks-for-plans.md) when the forecast feeds a business plan, a marketing plan's demand-to-cash bridge or a funding model: two-method rule, bias controls, adoption and stage checks, echo effect and the double-check list.
 
 <!-- dual-compat-start -->
 ## Inputs
@@ -127,7 +129,7 @@ Without adequate history, execution, or reliable stockout and return data, retur
 3. Run uniqueness, join, missingness, stockout, outlier, and accounting-definition checks; stop on unresolved multiplication.
 4. Establish naive baselines and time-respecting backtests.
 5. Fit only methods justified by history and compare error by segment and horizon.
-6. Translate forecast ranges into reorder, staffing, or capacity actions with constraints.
+6. Translate forecast ranges into reorder, staffing, or capacity actions with constraints; when the forecast feeds a plan, apply the two-method, bias, adoption and capacity cross-checks in `references/forecast-cross-checks-for-plans.md`.
 7. Monitor actuals, overrides, drift, and error; recover by reverting to the best validated baseline.
 
 ## Quality Standards

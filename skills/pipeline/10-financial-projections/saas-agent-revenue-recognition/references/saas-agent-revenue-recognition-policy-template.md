@@ -273,7 +273,7 @@ Balance sheet:
 - SLA-COGS treatment: `skills/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md`
 - Pricing primitives: `skills/07-marketing-sales-strategy/saas-agent-pricing-strategy/SKILL.md`
 - Meta policy discipline: `skills/meta-agent-revenue-recognition-policy/SKILL.md`
-- Accounting controls: `book-extractions/accounting-bookkeeping-finance-controls-extraction.md`
+- Accounting controls: `skills/pipeline/10-financial-projections/references/finance-operating-system-and-controls-checklist.md`
 
 ## 15. Africa / Uganda overlay
 

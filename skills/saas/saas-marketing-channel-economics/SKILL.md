@@ -113,10 +113,10 @@ Most SaaS plans treat marketing as a single budget line. The discipline is chann
 ## References
 
 - `references/saas-marketing-budget-and-channel-mix-model.md` — channel-by-channel formulas
-- `book-extractions/cotton-run-a-saas-business-extraction.md` — marketing arbitrage; sales-and-marketing engine
-- `book-extractions/walling-saas-playbook-extraction.md` — owned traffic moats
-- `book-extractions/garbugli-saas-email-marketing-playbook-extraction.md` — lifecycle email channel
-- `book-extractions/kennedy-magnetic-marketing-extraction.md` — attraction / conversion / retention
+- `skills/saas/saas-gtm-motion-design/references/saas-scaling-rules-and-discount-governance.md` — marketing arbitrage; sales-and-marketing engine
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — owned traffic moats
+- `skills/saas/saas-lifecycle-email-and-retention/references/lifecycle-email-programme-design.md` — lifecycle email channel
+- `skills/pipeline/07-marketing-sales-strategy/references/direct-response-commercial-system.md` — attraction / conversion / retention
 - `skills/digital-marketing-strategy/SKILL.md` — sister skill
 
 ## Africa / Uganda Application Notes

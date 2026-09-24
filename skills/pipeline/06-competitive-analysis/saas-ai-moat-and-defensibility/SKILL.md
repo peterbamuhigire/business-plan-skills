@@ -104,7 +104,7 @@ metadata:
 - `references/saas-ai-moats-and-defensibility-checklist.md` — full 7-question rubric + false-moat catalogue + Wardley placement guide
 - `references/ai-moats-vs-false-moats.md` — in `06-competitive-analysis/references/`
 - `skills/06-competitive-analysis/SKILL.md` — generic competitive analysis
-- `book-extractions/walling-saas-playbook-extraction.md` — moats chapter
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — moat test (section 7)
 - `skills/14-ai-integration/references/saas-ai-feature-roadmap-in-business-plan.md` — feature roadmap discipline
 - `skills/meta-ai-valuation-adjustments/SKILL.md` — valuation logic that consumes the moat score
 

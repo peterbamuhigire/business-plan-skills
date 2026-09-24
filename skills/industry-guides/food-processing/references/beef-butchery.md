@@ -1,87 +1,41 @@
-# Beef Butchery (Retail)
+# Beef Butchery (Retail): Plan-Section Reference
 
-**Source:** Crack A Business Kenya (CAB) | **Sub-sector:** Meat Retail
-**Conversion:** Original KES figures at KES 106/USD (2020 base), adjusted ×1.27 for USD inflation → March 2026 USD
+Use this reference when the plan covers a fixed-shop or kiosk butchery selling raw beef and secondary cuts (liver, offal) to households and food vendors.
 
-> A retail butchery selling raw beef (and secondary cuts: liver, offal) from a fixed shop or kiosk, sourcing carcasses or cut meat from wholesale markets or slaughterhouses, serving households and food vendors.
+## Market and customer
+- Beef is a staple protein across East Africa; demand follows urban population and middle-class growth. Size the local market as catchment households x share buying beef weekly x average kilograms per purchase.
+- Location drives volume. A well-sited shop in an underserved residential estate can build share within a year; a site next to an established competitor needs a stated differentiation (quality, hygiene, credit to vendors, delivery).
+- Segment: households, food kiosks and hotels, and halal-sensitive customers. In Muslim-majority areas (coastal Kenya and Tanzania, Zanzibar, parts of Kampala and Nairobi) halal slaughter certification is commercially essential.
 
-## Financial Summary
+## Operating model
+- Two sourcing routes. Route A: buy carcasses direct from an approved slaughterhouse (lower unit cost, but you carry transport, slaughter fees and veterinary inspection). Route B: buy from a second-tier wholesaler who delivers in insulated boxes (higher per-kilogram cost, no transport burden; the usual choice for small shops).
+- Carcass grade and cut mix set the wholesale cost and achievable retail margin; record yield per carcass (saleable meat, bones, trim, offal).
+- Open with conservative daily stock and scale with demonstrated sales; over-stocking before a customer base exists causes spoilage.
+- Optional value-add: cooked or grilled meat raises revenue per kilogram but needs health clearance and extra equipment.
+- All handlers need valid medical certificates.
 
-| Metric | Amount |
-|--------|--------|
-| Capital Investment — Basic kiosk | $600 |
-| Capital Investment — Standard neighbourhood | $2,835 |
-| Recommended startup budget | $3,600 |
-| Average Daily Sales (Nairobi, standard) | 17 kg |
-| Estimated Daily Revenue | $97 |
-| Estimated Annual Revenue | $29,100 |
-| Average Gross Markup | 24% (range: 15–40%) |
-| Estimated Annual Gross Profit | ~$7,000–$8,700 |
+## Equipment and capex checklist
+Knives, axes, hooks, chopping blocks, aprons, basins, display counter, weighing scale (digital preferred by customers, manual as backup). Optional: bone saw, mincer, refrigerated display, deep freezer. Also budget licences, rent deposit, renovation and branding, three months of wages and utilities, and opening stock.
 
-## Capital Breakdown (Standard Neighbourhood Butchery)
+## Unit economics drivers
+- Gross margin per kilogram = retail price minus (wholesale price + transport/slaughter fees + shrinkage). Model shrinkage (bones, trim, moisture loss, spoilage) explicitly.
+- Margins differ by cut: offal and liver often carry higher percentage markups than prime cuts.
+- Daily revenue = kilograms sold x blended price; break-even kilograms per day = fixed monthly costs / (30 x blended unit margin).
+- Prices are location- and season-sensitive; the plan must cite dated local wholesale and retail quotations. Any figure in an older source is a planning assumption only: re-verify against current market visits.
 
-| Item | 2026 USD |
-|------|----------|
-| Single User Business Permit | $120 |
-| Public Health Licence | $36 |
-| Signboard Licence | $30 |
-| Basic equipment (knives, axes, hooks, boards, aprons, basin, scale) | $300 |
-| Rent — 2 months deposit + 1 month (@ $180/month) | $540 |
-| Salary — 3 months (1 worker @ $120/month) | $360 |
-| Electricity — 3 months | $54 |
-| Miscellaneous (renovation, branding, transport) | $180 |
-| Working capital (meat stock, 3 months) | $600 |
-| **Grand Total** | **$2,835** |
+## Pricing
+Price against nearby butcheries, not a national average. Display a price board; use digital scales so customers can buy by money amount.
 
-## Equipment Prices
+## Regulation and licensing checks
+Business or trading licence, public health licence and meat inspection stamp, signboard licence, medical certificates, and scale certification by the weights-and-measures authority. Regulator examples: Uganda, local government health departments and the city authority (KCCA in Kampala); Tanzania, TFDA and municipal health; Rwanda, RBS and RDB. Confirm current fees and requirements with each authority.
 
-| Item | 2026 USD |
-|------|----------|
-| Knives, axes, hooks, chopping board, aprons (set) | $60 |
-| Digital weighing scale (preferred by customers) | $180 |
-| Manual weighing scale | $72 |
-| Jua kali display counter | $24–$48 |
-| Bone-cutting machine (optional) | $1,199–$2,878 |
-| Meat mincer (optional) | $120–$360 |
-| Refrigerated display counter (optional) | $839–$2,398 |
-| Deep freezer (optional) | $419–$599 |
+## Risks and controls
+Price volatility (drought, disease, cross-border trade policy), spoilage and cold-chain failure, theft and short-weighing, disease-related closures, competitor price cutting. Controls: daily stock reconciliation, portion-yield records, backup power or cold storage, more than one supplier.
 
-## Wholesale vs. Retail Prices (Kenya, December 2015 data)
+## KPIs
+Kilograms sold per day, gross margin per kilogram, shrinkage percentage, stock days on hand, average ticket, repeat-customer share.
 
-| Product | Wholesale/kg | Retail/kg | Markup |
-|---------|-------------|-----------|--------|
-| Beef (standard cuts) | $3.36–$4.54 (avg $4.26) | $6.09 | 43% |
-| Liver | $3.04 | $6.69 | 120% |
-| Matumbo (offal) | $1.83–$2.28 | $3.04 | 33–66% |
+## Plan-section prompts
+Which sourcing route and why? What is the catchment and the evidence of demand? What is the daily break-even in kilograms? What is the halal and inspection position? What cold-chain and power backup exist?
 
-> Prices are highly location-sensitive. Urban markets (Nairobi, Kampala, Dar) command higher retail prices than peri-urban or rural. Source year 2015 — verify current rates.
-
-## Meat Supply Chain
-
-**Route A — Direct slaughterhouse purchase:**
-Butcher transports own carcass from approved slaughterhouse. Lower cost but requires transport + slaughter fees (KES 200–300/animal) + veterinary inspection (KES 100–150/carcass).
-
-**Route B — Second-tier wholesaler delivery:**
-Wholesaler buys from slaughterhouse (Dagoretti/Burma in Nairobi) and delivers to butchery in stainless-steel insulated boxes (motorbike or pickup). Adds KES 30–50/kg markup ($0.45–$0.76) but eliminates transport burden. Preferred by most small butcheries.
-
-## Operations
-
-- **Grades of meat:** Directly affect wholesale cost and retail margin — source grade matters
-- **Daily opening stock:** A new butchery should start conservatively (5–10 kg) and build; rushing to high volumes before customers are established creates spoilage
-- **Ready meat (cooked):** Adding a small frying/grilling operation increases revenue per kg by 40–80% but requires Public Health clearance and additional equipment
-- **Medical certificates:** All meat handlers must hold a valid health certificate (test at local government clinic)
-
-## Market
-
-Beef is a deeply embedded dietary staple across East Africa. Urban Nairobi consumes ~2,000 carcasses and 70,000 sheep/goats daily. Meat spend represents 14% of Nairobi household food budgets. Middle-class growth and urbanisation drive sustained demand growth. Competition is high but location-dependent — a well-placed butchery in an underserved residential estate can establish dominant market share within 12 months.
-
-## East Africa Notes
-
-- **Uganda:** Butcheries are regulated under UWA meat inspection and local government health departments. Kampala City Authority requires a health licence and meat inspector stamp. Kampala wholesale markets: Nakasero and St Balikuddembe (Owino). Beef retail: UGX 12,000–18,000/kg in Kampala depending on cut and grade.
-- **Tanzania:** TFDA (Tanzania Food and Drugs Authority) oversees meat safety. Dar es Salaam municipalities enforce health licences. Wholesale supply from Kariakoo and Tandika abattoirs.
-- **Rwanda:** RDB (Rwanda Development Board) and RBS (Rwanda Bureau of Standards) regulate meat safety. Kigali abattoir (Remera) is the main wholesale source.
-- **Halal considerations:** In Muslim-majority urban areas (Mombasa, Zanzibar, Stone Town, coastal Tanzania, Kampala Eastleigh), halal certification is commercially essential and expands the customer base significantly.
-
-## Data Quality Notes
-
-Wholesale prices are volatile — drought cycles, disease outbreaks, and cross-border trade policies cause significant short-term swings. The December 2015 Kenya figures are indicative only.
+Sources consulted: Crack A Business Kenya, small-business guides (c. 2014-2015), used as a general starting point; all figures require current verification.

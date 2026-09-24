@@ -27,6 +27,7 @@ Use this meta-skill as the business-plan suite's thinking and achievability gate
 - Do not use as a substitute for market research, financial modelling, due diligence, or country-context verification.
 - Do not use to make weak evidence sound stronger than it is.
 - Do not call a plan bankable, investor-ready, or achievable just because this review has been run; fix the gaps it finds.
+- Use `meta-strategic-options-evaluation` instead to generate and choose between strategic options (SAFe, strategy clock, 35-word statement gate), and `meta-business-model-design` to score the business model before drafting; this skill then tests the reasoning of what they produced.
 
 
 - For `meta-critical-thinking-business-logic`, route to the relevant plan-section skill instead when the request is section drafting rather than cross-section analysis.
@@ -98,9 +99,12 @@ Use this meta-skill as the business-plan suite's thinking and achievability gate
 ## References
 
 - `references/reasoning-achievability-gate.md` - essential questions, mental-model checks, design-thinking pass, strategic reasoning, business-sense tests, and final achievability gate.
+- `references/business-case-test.md` - read when the plan recommends a major system, digitisation, automation, expansion, market-entry, or product investment: problem first, options including do nothing, incremental economics, one-variable sensitivity, and post-implementation review.
 - `../meta-consulting-synthesis/SKILL.md` - use after this skill to turn corrected analysis into one decision-grade storyline.
 - `../meta-financial-stress-test/SKILL.md` - use after financial assumptions are explicit.
 - `../meta-bankability-scoring/SKILL.md` - use after contradictions and evidence gaps have been addressed.
+- `../meta-strategic-options-evaluation/SKILL.md` - use when the review finds a single unexamined strategy, no rejected options, or no testable strategy statement.
+- `../meta-business-model-design/SKILL.md` - use when the review traces weak logic to the business model itself (customers hard to find, thin margins, heavy after-sales support).
 
 ## Evidence Produced
 

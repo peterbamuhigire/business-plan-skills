@@ -232,7 +232,7 @@ Scoring conventions: severity (1-5), recovery horizon (months), pre-money valuat
 - `skills/10-financial-projections/saas-agent-sla-economics-in-projection/SKILL.md` — projection integration
 - `skills/meta-agent-sla-financial-controls/SKILL.md` — controls
 - `skills/meta-financial-stress-test/SKILL.md` — stress-test parent
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes
 

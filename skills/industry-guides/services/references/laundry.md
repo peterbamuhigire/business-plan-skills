@@ -1,131 +1,62 @@
-# Wet Laundry Business
+# Wet Laundry Business: Business-Plan Reference
 
-**Source:** Crack A Business Kenya (CAB) — Laundry Business Guide 2016 | **Sub-sector:** Services — Laundry and Garment Care
-**Conversion:** KES ÷ 106 × 1.27 → March 2026 USD
+Use this reference to plan a wash, dry and iron service for households and small offices. All monetary figures are planning assumptions to be re-verified with dated local quotes; they are not benchmarks.
 
-> A wet laundry business (washing, drying, ironing garments for pay). Capital KES 209,300 ($2,508). Core equipment is a washer–dryer combo machine (KES 70,000–90,000). Average daily revenue KES 2,200 ($26); monthly gross profit KES 26,000–50,000. Breakeven ~5 months. Success depends on location in a dense residential area and a reputation for care and reliability.
+## 1. Market and customer
+- Target: working adults, salaried tenants, small offices, and residents of dense estates or apartment blocks with little space to wash and dry.
+- Demand test: count existing laundries within walking distance, note their turnaround times and prices, and count households without machines. Avoid saturated pockets unless you can beat competitors on speed or care.
+- Differentiators to plan for: turnaround commitment (same-day or next-day), garment care, reliability, ironing-only service, and pick-up-and-delivery add-ons.
 
-## Financial Summary
+## 2. Operating model
+- Drop-off and collection is the base model; collection and delivery is an optional premium line.
+- Tag or record every item at intake (receipt book or simple register) to prevent mix-ups; issue a receipt against each order.
+- Iron after washing for a premium finish; sell ironing-only as a separate revenue line.
+- Schedule machine loads around reliable power and water windows.
 
-| Metric | Amount |
-|--------|--------|
-| Total capital | KES 209,300 ($2,508) |
-| Average daily revenue | KES 2,200 ($26) |
-| Daily revenue range | KES 1,200–3,000 |
-| Monthly gross profit range | KES 26,000–50,000 ($312–$599) |
-| Actual monthly gross profit (case study, Feb 2016) | KES 27,300 ($327) |
-| Break-even period | ~5 months |
+## 3. Inputs and suppliers
+- Variable costs: water, electricity, detergent and softener, packaging, and labour. Water and electricity are the main variable operating expenses.
+- Quote from at least three local appliance suppliers and one detergent wholesaler.
 
-## Capital Breakdown
+## 4. Equipment and capital (checklist)
+- Washing machine: prefer front-load with a stainless-steel drum for energy efficiency, wash quality and gentleness. A washer-dryer combo suits shops without outdoor drying space; separate units cost less if line-drying is viable.
+- Iron and ironing board, tables, chairs, basins and buckets, fire extinguisher, signboard, record and receipt books, miscellaneous.
+- Machine reliability is critical: a breakdown at peak loses customers, so budget for servicing and name a repair contact.
+- Capital build-up: licences + equipment + premises (deposit, first rent, fit-out) + about three months' working capital (wages, power, water). Compute the total from local quotes.
 
-### Licences
+## 5. Unit economics and pricing
+- Price per item (shirts, trousers, suits) or per kilogram; blankets and duvets are priced by size.
+- Revenue = loads or items per day x average price x operating days. Cost per load = water + power + detergent + labour share.
+- Fixed costs: rent, wages, licences, machine depreciation.
+- Break-even months = capital / monthly gross profit. Slow and peak months differ markedly, so use the low-season figure for a new business.
+- Decide between a fixed price list and negotiation; a fixed list reduces haggling but may deter some customers.
+- Take prices from a local competitor survey; never import prices from another country.
 
-| Item | KES | 2026 USD |
-|------|-----|----------|
-| County Single Business Permit | 10,000 | $120 |
-| Signboard Licence | 2,000 | $24 |
-| Fire Clearance Certificate | 1,500 | $18 |
-| **Licences Sub-total** | **13,500** | **$162** |
+## 6. Location
+- Dense residential estate with few alternatives, close to transport routes, visible from the street for walk-in trade.
 
-### Equipment
+## 7. Regulation and licensing checks
+- Local business permit, signage licence and fire clearance; standard business and tax registration; public-health compliance for water and effluent.
+- No specialised laundry licence is normally required; confirm locally.
+- Kenya: county single business permit. Uganda: KCCA or local authority trade licence and URA TIN. Tanzania: BRELA registration and TRA TIN. Rwanda: RDB registration.
+- Tax treatment: verify with the Chwezi finance engine.
 
-| Item | KES | 2026 USD | Notes |
-|------|-----|----------|-------|
-| Washing machine / combo (washer + dryer) | 86,000 | $1,030 | 7kg capacity; KES 70,000–90,000 range |
-| Tables | 9,000 | $108 | 3 @ KES 3,000 each |
-| Chairs | 2,100 | $25 | 3 @ KES 700 each |
-| Fire extinguisher | 6,000 | $72 | |
-| Signboard | 10,000 | $120 | |
-| Record book and receipt book | 3,000 | $36 | |
-| Iron and ironing board | 3,000 | $36 | |
-| Basins and buckets | 2,000 | $24 | |
-| Miscellaneous | 5,000 | $60 | |
-| **Equipment Sub-total** | **127,100** | **$1,523** | |
+## 8. Risks and mitigations
+- Power outages (notably Uganda): schedule loads and budget an inverter or UPS.
+- Water variability (borehole estates; unreliable utility supply in parts of Dar es Salaam): storage tanks and a water-cost sensitivity in the plan.
+- Machine breakdown; garment damage or loss (tagging, care procedures, complaints and compensation policy); competitor entry.
 
-### Premises
+## 9. Regional localisation
+- Uganda: Kampala estates (Ntinda, Kyanja, Namugongo, Naalya); machine laundry is displacing hand-wash services.
+- Tanzania: formal-sector workforce in Masaki, Mikocheni, Kinondoni and Kariakoo; electricity tariffs (EWURA) affect costs.
+- Rwanda: growing apartment stock in Kacyiru, Gikondo, Kimihurura; expatriate and NGO customers can carry premium pricing; electricity costs are more stable.
 
-| Item | KES | 2026 USD | Notes |
-|------|-----|----------|-------|
-| Rent | 27,000 | $324 | 2 months deposit + 1 month @ KES 9,000/month |
-| Renovation and remodelling | 15,000 | $180 | |
-| **Premises Sub-total** | **42,000** | **$503** | |
+## 10. KPIs
+- Loads or items per day, average ticket, turnaround compliance, repeat-customer rate, utility cost per load, machine uptime, gross margin, months to break-even.
 
-### Working Capital (3 months)
+## 11. Plan-section prompts
+- Market: how many households or offices lie within the catchment and who serves them today?
+- Operations: turnaround promise, intake and tagging process, power and water contingency.
+- Financials: capital table, per-load cost, daily volume scenarios (low, base, high), break-even.
+- Risks: outage, breakdown, damage claims.
 
-| Item | KES | 2026 USD | Notes |
-|------|-----|----------|-------|
-| Salary (1 employee) | 18,000 | $216 | @ KES 6,000/month |
-| Electricity | 6,000 | $72 | @ KES 2,000/month |
-| Water | 2,700 | $32 | @ KES 900/month |
-| **Working Capital Sub-total** | **26,700** | **$320** | |
-
-| **Grand Total** | **KES 209,300** | **$2,508** | |
-
-## Equipment Notes
-
-- **Front-load vs top-load:** Front-load machines preferred — more energy efficient, better wash quality, gentler on clothes. Stainless steel drum recommended over plastic drum.
-- **Combo washer + dryer:** KES 70,000–90,000 for a 7kg capacity unit. Convenient for shops without outdoor drying space.
-- **Separate machines:** A washing machine alone can be purchased for less; add a standalone dryer or line-drying if space available and climate permits.
-- Machine reliability is critical — breakdown during peak period causes customer loss.
-
-## Revenue (South B Case Study, Nairobi, 2014–2016)
-
-### Pricing Per Item
-
-| Item | Price Range (KES) | Notes |
-|------|------------------|-------|
-| Shirt | 20–30 | |
-| Trousers | 20–60 | |
-| Suit | 250 | |
-| Blanket | 100–300 | Size-dependent |
-| Duvet | 300–600 | Size-dependent |
-
-> Pricing varies by location, competition, and negotiation. Customers often negotiate; fixed price list reduces this but may deter some customers.
-
-### Revenue Metrics
-
-| Metric | Figure |
-|--------|--------|
-| Average daily revenue | KES 2,200 ($26) |
-| Daily revenue range | KES 1,200–2,200 (South B case) |
-| Survey daily mode (cross-market) | KES 1,800 |
-| Survey daily range (cross-market) | KES 800–3,000 |
-| Monthly expenses (South B) | KES 18,100 ($217) |
-| Monthly gross profit range | KES 26,000–50,000 ($312–$599) |
-| Actual gross profit (February 2016) | KES 27,300 ($327) |
-
-## Operations
-
-- Customer drop-off and collection model is most common; some shops also offer collection and delivery
-- Receipt/tracking system essential — each item tagged or recorded to prevent mix-ups
-- Turnaround time commitment (same-day, next-day) is a key differentiator
-- Iron items after washing for premium finish; ironing-only service is an additional revenue line
-- Water and electricity costs are main variable operating expenses
-
-## Location
-
-- Ideal: dense residential area (estate) with limited laundry alternatives
-- Target customers: working adults, salaried tenants, offices
-- Proximity to transport routes and visibility from street matter for walk-in trade
-- Avoid locations already saturated with laundry services unless you can differentiate on speed or quality
-
-## Licences
-
-| Licence | KES | 2026 USD |
-|---------|-----|----------|
-| County Single Business Permit | 10,000 | $120 |
-| Signboard Licence | 2,000 | $24 |
-| Fire Clearance Certificate | 1,500 | $18 |
-
-> Three licences required. No specialised laundry licence needed beyond standard business registration and public health compliance.
-
-## East Africa Notes
-
-- **Uganda:** Laundry services are common in Kampala estates (Ntinda, Kyanja, Namugongo, Naalya). Washing machine–based laundry is growing as a business model, supplementing or replacing hand-wash services. KCCA trade licence and URA TIN required for formal operation. Water availability is variable — some estates use borehole water; include water cost sensitivity in planning. Electricity load-shedding is a practical risk — schedule machine loads around reliable power windows or budget for a small inverter/UPS.
-- **Tanzania:** Dar es Salaam's formal-sector workforce (NGO, banking, hospitality) supports laundry services in Masaki, Mikocheni, Kinondoni, and Kariakoo neighbourhoods. BRELA registration and TRA TIN required. EWURA electricity tariffs affect operating cost. Water from DAWASA can be unreliable in some areas — water storage tanks are common and advisable.
-- **Rwanda:** Kigali's growing apartment and condominium stock (Kacyiru, Gikondo, Kimihurura) creates demand from working professionals. RDB registration is fast. RURA regulates electricity; costs are more stable than Uganda or Tanzania. High-end laundry services targeting Kigali's expatriate and NGO community can command a premium.
-- **EA pricing note:** Prices in the KES table above are Kenya-specific and outdated (2014). In Uganda, a shirt wash/iron at UGX 1,000–2,000 is typical; trousers UGX 1,500–3,000. Adjust to local purchasing power — do not use Kenya shilling figures directly.
-
-## Data Quality Notes
-
-Revenue figures are from a 2014–2016 Nairobi case study (South B). Equipment prices (KES 70,000–90,000 for combo machine) are from 2016 — current prices will differ; verify with local appliance suppliers. The monthly gross profit range (KES 26,000–50,000) reflects variation between slow and peak months; plan conservatively with the lower figure for a new business.
+Sources consulted: Crack A Business Kenya, Laundry Business Guide (2016); general practice.

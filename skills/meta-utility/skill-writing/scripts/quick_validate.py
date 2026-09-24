@@ -16,6 +16,8 @@ REQUIRED = (
     "Anti-Patterns", "Outputs", "Evidence Produced", "Capability Contract", "Degraded Mode",
     "Decision Rules", "References",
 )
+# Heading aliases accepted by the engine validator (scripts/validate_skill_engine.py).
+ALIASES = {"Capability Contract": ("Capability Contract", "Capability and Permission Boundaries")}
 
 
 def validate(skill_dir: Path) -> list[str]:
@@ -48,7 +50,11 @@ def validate(skill_dir: Path) -> list[str]:
     if "<!-- dual-compat-start -->" not in body or "<!-- dual-compat-end -->" not in body:
         errors.append("portable contract markers are missing")
     for heading in REQUIRED:
-        found = re.search(rf"^##\s+{re.escape(heading)}\s*$([\s\S]*?)(?=^##\s|\Z)", body, re.MULTILINE | re.IGNORECASE)
+        found = None
+        for candidate in ALIASES.get(heading, (heading,)):
+            found = re.search(rf"^##\s+{re.escape(candidate)}\s*$([\s\S]*?)(?=^##\s|\Z)", body, re.MULTILINE | re.IGNORECASE)
+            if found and found.group(1).strip():
+                break
         if not found or not found.group(1).strip():
             errors.append(f"missing or empty `{heading}` section")
     if len(raw.splitlines()) > 500:

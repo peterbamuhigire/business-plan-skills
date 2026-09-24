@@ -58,7 +58,7 @@ def build():
                 "Quarterly: model-migration reserve, irreversibility reserve. "
                 "Variance >+15% WoW on cost-per-resolved triggers a re-plan loop per meta-living-plan-governance.",
         sources="saas-agent-cost-per-task-calculator-spec.md, saas-agent-unit-economics-template.md (this engine); "
-                "book-extractions/agent-products-business-plan-audit-2026.md COGS waterfall; "
+                "skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs agent COGS waterfall; "
                 "saas-ai-cost-of-tenant-calculator.xlsx (single-shot baseline this workbook extends to multi-step)."
     )
 

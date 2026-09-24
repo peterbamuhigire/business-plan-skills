@@ -1,116 +1,91 @@
-# Digital Marketing Strategy Frameworks
+# Digital Marketing Planning Frameworks: POEM, RACE, IMC and Accountability
 
-**Source:** McDonald, M., Wilson, H., and Chaffey, D. — Marketing Plans: Profitable Strategies in the Digital Age, 9th Edition (Wiley, 2024) | **Application:** Digital marketing planning, communications strategy, omnichannel, measurement
+Use this reference to structure the digital communications part of a marketing plan. Digital channels extend the planning process; they do not replace it. Start from "what should customers think, feel and do?", not "which platform?". Frameworks are named with attribution: POEM and RACE (Chaffey), marketing due diligence and three-level accountability (McDonald and colleagues).
 
-> A strategic marketing plan is incomplete without an integrated digital marketing communications plan. Digital channels do not replace the marketing planning process — they extend and accelerate it. The starting question is not "which platform?" but "what do we want customers to think, feel, and do?"
+## 1. POEM: paid, owned, earned media
 
-## The POEM Framework: Paid, Owned, Earned Media
+| Media | Definition | Examples |
+|---|---|---|
+| Paid | The firm pays for placement | Search and social ads, sponsored posts, display |
+| Owned | The firm controls the medium | Website, blog, messaging business account, email list, video channel, business Page |
+| Earned | Others create content unprompted | Reviews, shares, mentions, word of mouth, referrals |
 
-All digital marketing activity falls into three media categories (Chaffey and Ellis-Chadwick, 2022):
+Principle: build owned and earned media first because they compound; use paid media to amplify what they cannot yet reach. A business with no owned media rents attention permanently. Map every planned activity to one of the three.
 
-| Media Type | Definition | Examples | EA Context |
-|------------|-----------|----------|------------|
-| **Paid** | The firm pays for placement | Google Ads, Facebook Ads, sponsored posts, display ads | Meta Ads (Facebook/Instagram), Google Ads; effective for rapid reach |
-| **Owned** | The firm controls the medium | Website, blog, WhatsApp Business, email list, YouTube channel | WhatsApp Business catalogue; Facebook Business Page |
-| **Earned** | Third parties create content unprompted | Reviews, shares, mentions, word-of-mouth, referrals | WhatsApp group sharing; Facebook group mentions; Google Maps reviews |
+## 2. Six digital communication channels
 
-**Planning principle:** Build owned and earned media first — these generate compounding returns. Paid media amplifies what owned/earned media cannot yet reach. A business with no owned media is permanently dependent on renting attention.
+1. Search marketing: paid placement plus organic ranking; local keyword research.
+2. Online reputation and public relations: reviews, community mentions, group reputation, editorial coverage.
+3. Online partnerships: affiliates, co-marketing, marketplace or delivery-platform listings.
+4. Interactive display: banners, social display, video pre-roll; most efficient when retargeting warm audiences.
+5. Opt-in email (and opt-in messaging broadcast lists).
+6. Social media: content and community across platforms.
 
-## Six Digital Communications Channels
+## 3. RACE: customer lifecycle planning
 
-From Chaffey and Ellis-Chadwick (2022), six categories of digital communication tools:
+| Stage | Goal | Activities | Metrics |
+|---|---|---|---|
+| Reach | Awareness and traffic | Search, paid social, content sharing, influencers | Impressions, reach, sessions, followers |
+| Act | Interaction | Landing pages, articles, catalogues, lead magnets | Bounce rate, pages per session, time on site, leads |
+| Convert | Customers | Offers, payment links, checkout | Conversion rate, cost of customer acquisition, revenue per visit |
+| Engage | Loyalty and advocacy | Email or messaging nurture, loyalty schemes, post-sale content | Retention, lifetime value, net promoter score, referrals |
 
-1. **Search engine marketing (SEM)** — Paid placements via Google Ads (PPC) and organic rankings via SEO. For EA: Google is dominant; local keyword research matters (e.g. "salon Kampala" vs. "hair salon").
-2. **Online PR** — Managing brand mentions, reviews, and editorial coverage across digital platforms. In EA: Google Maps reviews, Facebook community mentions, and WhatsApp group reputation.
-3. **Online partnerships** — Affiliate relationships, co-marketing, and platform partnerships (e.g. Jumia seller listing, SafeBoda merchant partnership).
-4. **Interactive display advertising** — Banner ads, social media display (Meta Ads, YouTube pre-roll). Most cost-effective when retargeting warm audiences.
-5. **Opt-in email marketing** — Permission-based email lists. In EA context: WhatsApp broadcast lists function as opt-in messaging; email open rates are lower but remain relevant for B2B.
-6. **Social media marketing** — Content and community management across Facebook, Instagram, TikTok, LinkedIn, X. In EA: Facebook is the dominant organic social channel; TikTok is fastest-growing for under-35 audiences.
+Local note: "Act" and "Convert" often happen in a messaging app rather than on a website; map RACE to conversation flows as well as web funnels.
 
-## The RACE Framework for Customer Journey Planning
+## 4. Integrated marketing communications (IMC)
 
-The RACE framework (Chaffey, SmartInsights.com) structures digital marketing activity around the customer lifecycle:
+Aim: one consistent message and voice across digital and physical touchpoints.
 
-| Stage | Goal | Key Activities | Metrics |
-|-------|------|---------------|---------|
-| **Reach** | Build awareness and traffic | SEO, paid social, content sharing, influencer partnerships | Impressions, reach, website sessions, social followers |
-| **Act** | Encourage interaction | Landing pages, blog content, WhatsApp catalogues, lead magnets | Bounce rate, pages per session, time on site, leads generated |
-| **Convert** | Turn prospects into customers | Offers, mobile money payment links, checkout optimisation | Conversion rate, COCA, revenue per visit |
-| **Engage** | Build loyalty and advocacy | Email/WhatsApp nurture, loyalty programmes, post-sale content | Retention rate, TLV, NPS, referrals |
+Steps:
+1. Identify target segments and their value propositions from the market analysis.
+2. Set communication objectives by stage: awareness (recall, reach), consideration (visits, enquiries), preference (conversion and win rate), loyalty (retention, referrals).
+3. Select the channel mix (POEM).
+4. Set and allocate the budget.
+5. Create the message and content plan.
+6. Execute and measure.
 
-**EA Application:** In East Africa, "Act" and "Convert" often happen on WhatsApp rather than a website. Map the RACE stages to WhatsApp conversation flows, not just website funnels.
+## 5. Omnichannel journey mapping
 
-## Integrated Marketing Communications (IMC) Planning
+Map the actual journey per segment. Retail example: social post, messaging enquiry, shop visit, mobile-money payment, photo shared in a group. Business-services example: referral, search to verify legitimacy, messaging enquiry, meeting, transfer, account management over messaging. Identify the "moments of truth" where customers proceed or abandon, and check that the website, Page and contact number are consistent, responsive and professional at each.
 
-**Definition:** IMC ensures customers receive a single, consistent message across all touchpoints — digital and physical. A customer who sees a Facebook ad, visits a physical shop, and receives a WhatsApp follow-up should experience the same brand voice and value proposition.
+## 6. Retention and customer relationship management
 
-**IMC Planning Steps:**
-1. Identify target segments and their value propositions (from market analysis)
-2. Define communications objectives: awareness → consideration → preference → purchase → loyalty
-3. Select the communications mix (POEM channels above)
-4. Set the budget and allocate across channels
-5. Create the message and content plan
-6. Execute and measure
+Long-standing evidence (Reichheld, 1994) suggests customer profitability rises with relationship length, through lower service cost, higher purchase frequency and referrals; verify the multiple before quoting it. Every plan needs a retention strategy as well as acquisition.
 
-**Communications objectives by stage:**
-- Awareness: "Have you heard of us?" — measured by brand recall, reach
-- Consideration: "Are you thinking about us?" — measured by website visits, enquiries
-- Preference: "Do you choose us over competitors?" — measured by conversion rate, win rate
-- Loyalty: "Do you buy again and refer others?" — measured by retention rate, referral rate
+CRM ladder by scale: messaging business account with labelled contacts (micro), spreadsheet plus messaging (under about 200 customers), a free-tier CRM (above about 200 leads), an open-source ERP suite when integration with operations is needed.
 
-## Omnichannel Planning for EA Businesses
+## 7. Three-level accountability
 
-Customers move across physical and digital touchpoints in a single purchase journey. For EA businesses, typical omnichannel journeys include:
+| Level | Measures | Question | Where in the plan |
+|---|---|---|---|
+| Strategic (marketing due diligence) | Does the strategy create or destroy value? | Right segments, right proposition? | Market analysis |
+| Tactical (marketing effectiveness) | Do tactics create competitive advantage? | Do the channels win business against competitors? | Digital marketing strategy |
+| Promotional (promotional effectiveness) | Do campaigns meet communication objectives? | Do they generate awareness, engagement, leads? | KPIs and measurement |
 
-**Example — Retail:**
-1. Customer sees Facebook/TikTok post → 2. Messages business on WhatsApp → 3. Visits physical shop → 4. Pays via MTN Mobile Money → 5. Shares photo on WhatsApp group → (repeat cycle for others)
+## 8. Metrics by channel
 
-**Example — B2B Services:**
-1. Referral from colleague → 2. Google search to verify legitimacy → 3. WhatsApp enquiry → 4. Meeting → 5. Airtel Money/bank transfer → 6. Ongoing WhatsApp account management
+| Channel | Primary | Secondary |
+|---|---|---|
+| Search optimisation | Organic traffic, keyword rankings | Bounce rate, time on page |
+| Paid social | Cost per lead, return on ad spend | Click-through rate, quality ranking |
+| Messaging marketing | Response rate, enquiry-to-sale conversion | Broadcast open rate |
+| Email | Open rate, click rate | Unsubscribes, revenue per email |
+| Content | Organic traffic, time on page | Leads from content |
+| Influencer | Reach, engagement rate | Sales attributed by code |
 
-**Planning guidance:** Map the specific journey for your customer segment. Identify the "moments of truth" — where customers decide to proceed or abandon. Ensure digital touchpoints (website, Facebook page, WhatsApp number) are consistent, responsive, and professional at each moment.
+## 9. Marketing due diligence: risk checklist
 
-## CRM: Retaining Customers Pays More Than Acquiring Them
+Assess before committing to a digital strategy, and address high-risk items explicitly.
+- Market risk: category attractiveness, target-market attractiveness, size and durability of the profit pool.
+- Strategy risk: whether the segment actually exists, strength of the proposition, likely competitor reaction.
+- Implementation risk: evidence for sales volumes, accuracy of the SWOT, margin assumptions, forecast growth rate, uniqueness of the offer, sources of profit, pricing assumptions, future trends, other cost assumptions.
 
-Research (Reichheld, 1994, cited in McDonald et al.) across industries consistently shows that customer profitability increases with relationship length:
-- Year 1 customers: baseline profitability
-- Year 3+ customers: 2–3× baseline profitability (lower service costs, higher purchase frequency, referrals)
-- **Implication:** Every digital marketing plan must include a retention/engagement strategy, not just acquisition.
+## 10. Plan-section prompts
 
-**CRM tools for EA SMEs:**
-- WhatsApp Business (with saved contacts and broadcast lists) — most practical CRM for micro/small businesses
-- Google Sheets + WhatsApp (manual CRM for under 200 customers)
-- HubSpot Free / Zoho CRM (for businesses with 200+ leads)
-- Odoo Community (for businesses with ERP integration needs)
+- Which media are owned, earned and paid, and in what proportion of budget?
+- How does the RACE journey run for each segment, and where does it move to messaging?
+- Which objective and metric belong to each stage?
+- What is the retention plan and CRM tool?
+- Which due-diligence risks are highest and how are they mitigated?
 
-## Three-Level Marketing Accountability
-
-Marketing investment should be accountable at three levels (McDonald et al.):
-
-| Level | What It Measures | Key Question |
-|-------|-----------------|--------------|
-| **Level 1: Strategic** (Marketing Due Diligence) | Does the marketing strategy create or destroy value? | Are we targeting the right segments with the right proposition? |
-| **Level 2: Tactical** (Marketing Effectiveness) | Are our tactics creating competitive advantage? | Are our digital channels winning us business vs. competitors? |
-| **Level 3: Promotional** (Promotional Effectiveness) | Are our campaigns achieving communications objectives? | Is our content generating awareness, engagement, and leads? |
-
-**For business plan purposes:** Address Level 1 in the market analysis section; Level 2 in the digital marketing strategy section; Level 3 in the KPIs and measurement section.
-
-## Digital Marketing Measurement: Key Metrics by Channel
-
-| Channel | Primary Metric | Secondary Metric |
-|---------|---------------|-----------------|
-| SEO | Organic traffic, keyword rankings | Bounce rate, time on page |
-| Paid social (Facebook/Instagram) | Cost per lead (CPL), ROAS | CTR, relevance score |
-| WhatsApp marketing | Response rate, conversion from enquiry | Broadcast open rate |
-| Email | Open rate, click rate | Unsubscribe rate, revenue per email |
-| Content/blog | Organic traffic, time on page | Leads from content |
-| Influencer | Reach, engagement rate | Sales attributed (use discount codes) |
-
-**Marketing Due Diligence (15 Risk Factors):** Before committing to a digital strategy, assess: (1) product category risk, (2) target market risk, (3) profit pool risk (market risk); (4) segment existence, (5) proposition, (6) competitor impact (strategy risk); (7) sales volume evidence, (8) SWOT accuracy, (9) margin assumptions, (10) forecast growth rate, (11) uniqueness, (12) profit sources, (13) pricing assumptions, (14) future trends, (15) other cost assumptions (implementation risk). Address high-risk factors explicitly in the marketing plan.
-
-## Source Notes
-
-- McDonald, M., Wilson, H., and Chaffey, D. (2024) *Marketing Plans: Profitable Strategies in the Digital Age*, 9th Edition. Wiley.
-- RACE framework and POEM framework developed by Dave Chaffey at SmartInsights.com.
-- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*, 8th Edition. Pearson Education. (Referenced within McDonald et al.)
-- Reichheld, F.R. (1994) Loyalty and the renaissance of marketing, *Marketing Management*, 12(4), 17. (Referenced within McDonald et al.)
+Sources consulted: McDonald, M., Wilson, H. and Chaffey, D., Marketing Plans, 9th ed. (2024); Chaffey, D. and Ellis-Chadwick, F., Digital Marketing, 8th ed. (2022); Reichheld, F. (1994).

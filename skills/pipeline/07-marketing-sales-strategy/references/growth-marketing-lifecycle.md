@@ -1,187 +1,67 @@
 ---
-source: "Growth Marketing Strategy (Rose Jia, 2025)"
-frameworks: ["Business Lifecycle Growth Fit", "Customer Lifecycle Growth Fit", "Growth Organisation Design", "Growth Resource Allocation", "Economic-Condition Marketing Adaptation"]
+frameworks: ["Business lifecycle growth fit", "Customer lifecycle growth fit", "Growth organisation design", "Growth resource allocation", "Economic-condition marketing adaptation"]
 skill: 07-marketing-sales-strategy
 cross-reference: ["digital-marketing-strategy", "proposal-architect", "meta-quarterly-gameplan"]
 ---
 
-# Growth Marketing Lifecycle Reference
+# Growth Marketing Lifecycle: Stage, Customer, Organisation, Resources, Economy
 
-Source: *Growth Marketing Strategy: Drive Profits and Sustained Business Growth* (Rose Jia, 2025)
-
-## Why this matters
-
-Growth plans fail when they confuse short-term hacks with a durable growth system. The useful contribution from Jia is not another list of tactics. It is the discipline to align marketing with:
-
-- the **business lifecycle**
-- the **customer lifecycle**
-- the **organisation design** needed to execute growth
-- the **resources** required to sustain growth
-- the **economic condition** the business is operating in
-
-Use this reference when the plan needs to show how growth will continue after launch campaigns stop working.
+Use this reference when the plan must show how growth continues after launch campaigns stop working. Growth plans fail when they confuse short-term tactics with a durable growth system. Align marketing with five things: the business lifecycle, the customer lifecycle, the organisation that will execute, the resources it controls and the economic condition it operates in (an approach discussed by Jia, 2025).
 
 ## 1. Business lifecycle fit
 
-Marketing tactics must match the stage of the business. What works at launch often becomes wasteful later.
+Tactics must match the stage; what works at launch becomes wasteful later.
 
-| Business stage | Primary marketing priority | Typical mistake |
+| Stage | Marketing priority | Typical mistake |
 |---|---|---|
-| Launch / early traction | Prove demand; find repeatable acquisition; tighten message-market fit | Spending on scale before conversion is proven |
-| Growth / scaling | Build repeatable channels, improve conversion, strengthen retention | Continuing to rely on founder hustle alone |
-| Mature / centennial mode | Protect the core, deepen loyalty, expand adjacencies | Treating the mature brand as if it were still in a launch sprint |
+| Launch or early traction | Prove demand, find a repeatable acquisition route, tighten message-market fit | Spending on scale before conversion is proven |
+| Growth or scaling | Build repeatable channels, improve conversion, strengthen retention | Relying on founder hustle alone |
+| Mature | Protect the core, deepen loyalty, expand adjacencies | Behaving as though still in a launch sprint |
 
-### Planning rule
-
-Every marketing plan should state:
-
-1. the current business stage
-2. the next stage the business is trying to reach
-3. which channels are for testing, which are for scaling, and which are for defence
+Planning rule: state (1) the current stage, (2) the next stage targeted, and (3) which channels are for testing, which for scaling and which for defence.
 
 ## 2. Customer lifecycle fit
 
-Growth is stronger when marketing is mapped to the customer's actual journey, not just to channels.
-
-| Customer stage | Core question | Best response |
+| Stage | Core question | Response |
 |---|---|---|
-| Awareness | Why should I notice this? | Clear positioning, proof, relevance |
-| Consideration | Why should I trust this? | Case studies, testimonials, comparisons, demos |
-| Conversion | Why should I buy now? | Offer clarity, low-friction next step, risk reversal |
-| Onboarding | Did I make the right choice? | Strong first-use experience, fast time-to-value |
-| Retention | Why should I stay? | Results tracking, support, repeat engagement |
-| Expansion / advocacy | Why should I buy more or recommend this? | Review cycles, referrals, account growth plays |
+| Awareness | Why notice this? | Clear positioning, proof, relevance |
+| Consideration | Why trust this? | Case studies, testimonials, comparisons, demonstrations |
+| Conversion | Why buy now? | Clear offer, low-friction next step, risk reversal |
+| Onboarding | Did I choose well? | Strong first use, fast time to value |
+| Retention | Why stay? | Results tracking, support, repeat engagement |
+| Expansion and advocacy | Why buy more or recommend? | Review cycles, referrals, account growth plays |
 
-### Planning rule
-
-A strong growth strategy allocates spend and effort across the full lifecycle. Plans that overinvest in awareness but ignore onboarding and retention create churn, low LTV, and weak referrals.
+Planning rule: allocate spend and effort across the full lifecycle. Heavy awareness spend with weak onboarding and retention produces churn, low lifetime value and few referrals.
 
 ## 3. Growth organisation design
 
-Growth needs an operating model, not just a target.
+| Model | Best when | Benefits | Risks |
+|---|---|---|---|
+| Centralised | Small business; founder still shaping the offer; active channel experiments; cannot afford duplicate specialists | Speed, message consistency, easy prioritisation | Bottlenecks; weak adoption outside marketing |
+| Decentralised | Several segments, regions or product lines; local adaptation needed; enough management depth | Closeness to customer nuance, fast local response | Fragmented messaging, duplicated spend, poor learning transfer |
 
-### Centralised growth model
-
-Best when:
-
-- the business is still small
-- the founder is still shaping the offer
-- channel experimentation is active
-- the organisation cannot support duplicate specialist roles
-
-Benefits:
-
-- speed
-- message consistency
-- easier prioritisation
-
-Risks:
-
-- bottlenecks around one leader or one team
-- weak operational adoption outside marketing
-
-### Decentralised growth model
-
-Best when:
-
-- the business serves multiple segments, regions, or product lines
-- business units need local adaptation
-- there is enough management depth to coordinate execution
-
-Benefits:
-
-- proximity to customer nuance
-- faster local response
-
-Risks:
-
-- fragmented messaging
-- duplicated spend
-- poor learning transfer across teams
-
-### Planning rule
-
-State explicitly whether growth ownership is:
-
-- founder-led
-- centralised in one team
-- distributed by business unit or region
-
-Then define how learning, budget control, and KPI ownership will be coordinated.
+Planning rule: state whether growth ownership is founder-led, central, or distributed by unit or region, and how learning, budget control and KPI ownership are coordinated.
 
 ## 4. Growth resources
 
-Growth fails when the strategy assumes resources that the business does not actually control.
+Check five lenses: people (who owns acquisition, content, conversion, retention, analytics); budget (what can be tested monthly without harming cash flow); data (signals for acquisition cost, conversion, repeat purchase, churn, channel return); tools (CRM, analytics, campaign, content workflow, reporting); management attention (who reviews results and makes trade-offs).
+Principle: organisation design and resourcing must match. A distributed model with no analytics owner, reporting cadence or budget authority is drift, not a system.
 
-Minimum resource lenses:
+## 5. Economic conditions
 
-1. **People**: who owns acquisition, content, sales conversion, retention, analytics
-2. **Budget**: what can be tested monthly without harming cash flow
-3. **Data**: what signals exist to evaluate CAC, conversion, repeat purchase, churn, and channel ROI
-4. **Tools**: CRM, analytics, campaign tools, content workflow, reporting
-5. **Management attention**: who will review results and make trade-offs
+- Downturn: prioritise retention, efficiency, trust, shorter-payback channels and clear return messaging. Reduce unmeasured brand spend, long-gestation channels (unless essential) and experiments disconnected from cash flow.
+- Boom: prioritise share capture, new segments, brand building, and talent and channel expansion. Guard against loose acquisition-cost discipline, over-hiring and mistaking temporary heat for durable fit.
+- Stability: refine the system, optimise the lifecycle, balance acquisition and retention, seek operating leverage.
 
-### Resource trade-off principle
+## 6. What the plan should show
 
-Organisation design and resourcing must match each other. A distributed growth model with no analytics owner, no reporting cadence, and no budget authority is not a system. It is drift.
+Stage-appropriate growth logic; customer lifecycle design (not only promotion ideas); a clear growth operating model; realistic resource assumptions; adaptation for downturn, boom or stability.
 
-## 5. Growth under different economic conditions
+## 7. Local application
 
-Growth strategy should change with the broader environment.
+- Many small businesses in Uganda are founder-led growth organisations; do not assume specialist teams.
+- Where trust is low, proof, referrals, after-sales service and visible local presence often outweigh reach.
+- Under cash constraints prefer retention, repeat purchase, referral loops and short-payback channels to expensive awareness.
+- For regional expansion, move away from full centralisation only when local execution capability exists, not merely intent.
 
-### In an economic downturn
-
-Prioritise:
-
-- retention
-- efficiency
-- trust
-- shorter payback channels
-- clearer ROI messaging
-
-Reduce emphasis on:
-
-- speculative brand spend with no measurement
-- long-gestation channels unless strategically essential
-- expensive experimentation disconnected from cash flow
-
-### In an economic boom
-
-Prioritise:
-
-- market share capture
-- new segment entry
-- brand building
-- talent and channel expansion
-
-Guard against:
-
-- sloppy CAC discipline
-- overhiring
-- mistaking temporary market heat for durable fit
-
-### In economic stability
-
-Prioritise:
-
-- system refinement
-- lifecycle optimisation
-- balanced acquisition and retention
-- process discipline and operating leverage
-
-## 6. What belongs in a business plan
-
-A world-class marketing section should show:
-
-- stage-appropriate growth logic
-- customer lifecycle design, not just promotion ideas
-- a clear growth operating model
-- realistic resource assumptions
-- adaptation for downturn, boom, or stable conditions
-
-## Uganda / East Africa application
-
-- Many SMEs in Uganda are still effectively founder-led growth organisations. Do not pretend they already have specialist teams if they do not.
-- In lower-trust markets, proof, referrals, after-sales service, and visible local presence often matter more than pure reach.
-- In cash-constrained conditions, prioritise retention, repeat purchase, referral loops, and low-payback channels over expensive awareness campaigns.
-- For regional expansion across East Africa, shift from a fully centralised model only when the business has local execution capability, not just intent.
+Sources consulted: Jia, R., Growth Marketing Strategy (2025).

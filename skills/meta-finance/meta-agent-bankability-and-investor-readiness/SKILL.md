@@ -149,7 +149,7 @@ The agent bankability scorecard sits **on top** of the prior two and adds the di
 - `skills/09-management-team/saas-agent-talent-strategy/SKILL.md` — talent
 - `skills/07-marketing-sales-strategy/saas-agent-pricing-strategy/SKILL.md` — pricing
 - `skills/meta-due-diligence/SKILL.md` — DD readiness
-- `book-extractions/agent-products-business-plan-audit-2026.md` — agent audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — agent audit
 
 ## Africa / Uganda Application Notes
 

@@ -241,6 +241,7 @@ Customer contracts prove traction but contain personal contacts and confidential
 
 ## References
 
+- [Phrase bank, entry 15](../../language/writing-quality/references/business-plan-phrase-bank-sections-09-16.md) — read while drafting: purpose, keywords, slot-templates, tone rules, before-and-after rewrites and red-flag phrases for this section; apply the strategy-type emphasis from the [phrase-bank index](../../language/writing-quality/references/business-plan-phrase-bank.md).
 - Use the verified project evidence register and the owning upstream pipeline section for 15 appendices; no local deep-dive reference is declared.
 - For 15 appendices claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 

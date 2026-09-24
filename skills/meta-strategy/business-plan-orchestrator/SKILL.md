@@ -36,7 +36,8 @@ metadata:
 ## Workflow
 
 1. Freeze the decision brief: audience, funding instrument, jurisdiction, reporting framework, business stage, deliverable family, permissions, and release authority. Stop if the decision or audience is unresolved; recover through `00-client-intake`.
-2. Build the claim-and-evidence plan before prose. Apply the digital research engine's source evaluation, evidence discipline, verification, and synthesis controls. Block unsupported load-bearing claims and assign gaps to owners.
+2. Build the claim-and-evidence plan before prose. Apply the digital research engine's source evaluation, evidence discipline, verification, and synthesis controls. Block unsupported load-bearing claims and assign gaps to owners. Within evidence design, run `meta-strategic-factor-analysis` (PESTEL, forces, EFAS/IFAS/SFAS, TOWS) where strategy choice is load-bearing, then `meta-strategic-options-evaluation` to choose the strategy and pass the 35-word strategy-statement gate; use `meta-strategic-audit` first for an existing organisation and `meta-international-market-entry` when the plan crosses borders.
+2a. Before drafting any section, run `meta-business-model-design`: section drafting stays blocked until the GEL final evaluation passes or the owner records an exception. Its scored model feeds sections 03, 07 and 10.
 3. Select the smallest section stack using the audience route in [the stage-gate map](references/end-to-end-stage-gates.md). Add country, sector, finance, valuation, sustainability, digital, website, execution, and `meta-operational-readiness-due-diligence` overlays only when triggered by the operating model or jurisdiction.
 4. Draft and review one decision-bearing section or model assumption at a time. Inspect the existing evidence and dependency chain before changing it, exercise its base and downside case, make one deliberate refinement, then run business-logic review, writing quality, and the anti-slop audit. Return contradictions to the owning section instead of reconciling them silently.
 5. Build the integrated model and funding logic. Apply the Chwezi finance doctrine, identify the reporting basis, reconcile narrative and workbook assumptions, run formula-map and stress tests, and stop on a finance blocker.
@@ -107,5 +108,7 @@ A DFI plan has complete prose and an audited workbook, but its environmental and
 - [Cross-engine delivery contract](../../../references/cross-engine-delivery-contract.md) — load before finance, research, design, document, spreadsheet, or security handoff.
 - [Business-plan release gate](../../../docs/quality-gates/business-plan-release-gate.md) — load for blocker precedence and the final release decision.
 - [Release-evidence bundle template](../../../templates/release-evidence-bundle.json) — copy and replace every placeholder before validation.
+- [Business-model design and GEL scoring](../meta-business-model-design/SKILL.md) — load at step 2a before any section is drafted.
+- [Strategic factor analysis](../meta-strategic-factor-analysis/SKILL.md) and [strategic options evaluation](../meta-strategic-options-evaluation/SKILL.md) — load during evidence design when the plan must show a chosen strategy and rejected options.
 
 <!-- dual-compat-end -->

@@ -277,5 +277,134 @@
     "excluded": [
       "marketing-plan-orchestrator"
     ]
+  },
+  {
+    "id": "positive-strategic-factor-analysis",
+    "class": "positive",
+    "prompt": "Build weighted EFAS, IFAS and SFAS tables from the PESTEL and five-forces scan, then a TOWS matrix of candidate strategies.",
+    "expected": "meta-strategic-factor-analysis"
+  },
+  {
+    "id": "collision-factor-analysis-vs-competitive-section",
+    "class": "collision",
+    "prompt": "Weight and rate the external and internal strategic factors in an SFAS table and derive TOWS candidate strategies; do not write the competitor section.",
+    "expected": "meta-strategic-factor-analysis",
+    "excluded": [
+      "06-competitive-analysis"
+    ]
+  },
+  {
+    "id": "positive-strategic-audit",
+    "class": "positive",
+    "prompt": "Run a read-only strategic audit of this Ugandan SME covering performance, governance, strategic factors, implementation and control, and report findings with evidence and severity.",
+    "expected": "meta-strategic-audit"
+  },
+  {
+    "id": "collision-strategic-audit-vs-due-diligence",
+    "class": "collision",
+    "prompt": "Carry out a strategic audit of an NGO's governance, strategy and controls ahead of its five-year plan; this is not transaction due diligence.",
+    "expected": "meta-strategic-audit",
+    "excluded": [
+      "meta-due-diligence"
+    ]
+  },
+  {
+    "id": "positive-strategic-options-safe",
+    "class": "positive",
+    "prompt": "Evaluate three strategic options for suitability, acceptability and feasibility, place the chosen one on the strategy clock and gate the 35-word strategy statement.",
+    "expected": "meta-strategic-options-evaluation"
+  },
+  {
+    "id": "collision-options-vs-business-logic",
+    "class": "collision",
+    "prompt": "Choose between growth options using SAFe suitability, acceptability and feasibility screens and decide our response to a low-cost entrant; not a general business-logic review.",
+    "expected": "meta-strategic-options-evaluation",
+    "excluded": [
+      "meta-critical-thinking-business-logic"
+    ]
+  },
+  {
+    "id": "positive-business-model-gel",
+    "class": "positive",
+    "prompt": "Score our business model on Debelak's GEL factors, great customers, easy sales and long life, and compare alternative models before drafting the plan.",
+    "expected": "meta-business-model-design"
+  },
+  {
+    "id": "collision-business-model-vs-idea-testing",
+    "class": "collision",
+    "prompt": "Design and score alternative business models on the six elements and GEL factors before any section is written; do not design validation experiments yet.",
+    "expected": "meta-business-model-design",
+    "excluded": [
+      "idea-testing"
+    ]
+  },
+  {
+    "id": "positive-exit-readiness",
+    "class": "positive",
+    "prompt": "Prepare an owner-managed business for sale or succession within three years: exit readiness scorecard, clean books, buyer universe, sales memorandum and earn-out safeguards.",
+    "expected": "meta-strategic-optionality"
+  },
+  {
+    "id": "collision-exit-readiness-vs-valuation",
+    "class": "collision",
+    "prompt": "Plan exit readiness, the sale route and sales memorandum for a family business buy-out; the valuation will be done separately.",
+    "expected": "meta-strategic-optionality",
+    "excluded": [
+      "meta-valuation"
+    ]
+  },
+  {
+    "id": "positive-international-market-entry",
+    "class": "positive",
+    "prompt": "Choose which foreign market to enter first among Rwanda, Kenya and South Sudan using CAGE distance, institutional voids and Porter's Diamond, and pick an entry mode.",
+    "expected": "meta-international-market-entry"
+  },
+  {
+    "id": "collision-market-entry-vs-market-analysis",
+    "class": "collision",
+    "prompt": "Decide the entry mode, export, licensing, franchise, joint venture or subsidiary, and rank candidate countries by CAGE distance; do not size the market.",
+    "expected": "meta-international-market-entry",
+    "excluded": [
+      "04-market-analysis"
+    ]
+  },
+  {
+    "id": "limited-strategic-factor-analysis",
+    "class": "limited-capability",
+    "prompt": "Build the EFAS, IFAS and SFAS weighted tables from supplied interview notes only because network research is unavailable; flag unverified factors.",
+    "expected": "meta-strategic-factor-analysis"
+  },
+  {
+    "id": "positive-marketing-plan-full-architecture",
+    "class": "positive",
+    "prompt": "Create a standalone annual marketing plan for a Kampala school with situation analysis, SMART objectives, channel plan, advertising and media plan, sales plan, budget, KPI dashboard and control plan.",
+    "expected": "marketing-plan-orchestrator"
+  },
+  {
+    "id": "collision-marketing-plan-vs-digital",
+    "class": "collision",
+    "prompt": "Build the full standalone marketing plan covering market choices, objectives, media budget, sales and control, not only the digital channels layer.",
+    "expected": "marketing-plan-orchestrator",
+    "excluded": [
+      "digital-marketing-strategy"
+    ]
+  },
+  {
+    "id": "limited-marketing-plan-no-research",
+    "class": "limited-capability",
+    "prompt": "Draft a standalone marketing plan from supplied sales records only because customer research and network verification are unavailable; label hypotheses and mark current facts not assessed.",
+    "expected": "marketing-plan-orchestrator"
+  },
+  {
+    "id": "failure-marketing-plan-budget-mismatch",
+    "class": "failure-path",
+    "prompt": "Audit this standalone marketing plan and block release because the marketing budget does not reconcile with the P&L marketing line and objectives fail the SMART test.",
+    "expected": "marketing-plan-orchestrator"
+  },
+  {
+    "id": "positive-section-07-smart",
+    "class": "positive",
+    "prompt": "Write the 07 marketing sales strategy component of our bank business plan with SMART objectives, sales process and budget reconciled to the financial projections.",
+    "expected": "07-marketing-sales-strategy"
   }
 ]

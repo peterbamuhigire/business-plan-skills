@@ -268,6 +268,7 @@ A key supplier failure is rated low because a backup is named, but the backup ha
 
 ## References
 
+- [Phrase bank, entry 12](../../language/writing-quality/references/business-plan-phrase-bank-sections-09-16.md) — read while drafting: purpose, keywords, slot-templates, tone rules, before-and-after rewrites and red-flag phrases for this section; apply the strategy-type emphasis from the [phrase-bank index](../../language/writing-quality/references/business-plan-phrase-bank.md).
 - Use the verified project evidence register and the owning upstream pipeline section for 12 risk analysis; no local deep-dive reference is declared.
 - For 12 risk analysis claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 

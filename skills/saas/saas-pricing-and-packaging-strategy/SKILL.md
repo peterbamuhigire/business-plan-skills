@@ -124,9 +124,9 @@ Apply SaaS-specific pricing-architecture discipline on top of Kennedy/Marrs prem
 
 - `references/saas-pricing-and-packaging-strategy-template.md` — full architecture and worked examples
 - `skills/meta-pricing-strategy/SKILL.md` — Kennedy/Marrs premium positioning (run before this for premium plans)
-- `book-extractions/walling-saas-playbook-extraction.md` — SaaS pricing principles (chapter 9)
-- `book-extractions/mersch-hacking-saas-extraction.md` — pricing models by SaaS segment
-- `book-extractions/cotton-run-a-saas-business-extraction.md` — pricing-publication discipline
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — SaaS pricing principles
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — pricing models by SaaS segment
+- `skills/saas/saas-gtm-motion-design/references/saas-scaling-rules-and-discount-governance.md` — pricing-publication discipline
 
 ## Living-Plan Cadence
 

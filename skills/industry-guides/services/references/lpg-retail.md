@@ -1,133 +1,56 @@
-# LPG Gas Retail (Cylinder Exchange)
+# LPG Cylinder-Exchange Retail: Business-Plan Reference
 
-**Source:** Crack A Business Kenya (CAB) — Gassing the Cash: The Gas Retail Business Guide, 2017 | **Sub-sector:** Energy Retail — Liquefied Petroleum Gas
-**Conversion:** KES ÷ 106 × 1.27 → March 2026 USD
+Use this reference to plan a neighbourhood liquefied petroleum gas retail outlet on a cylinder-exchange model. Figures are planning assumptions to be re-verified with dated supplier quotes.
 
-> Neighbourhood LPG retail operating on a cylinder-exchange model: consumer brings empty cylinder, retailer exchanges for a full refilled one at a fee. Operates in a legal grey area — ERC licensing requirements widely ignored; many retailers operate on county business permit alone. Growing demand driven by urbanisation and household energy transition from charcoal and kerosene.
+## 1. Market and customer
+- Households moving from charcoal and kerosene to LPG; small eateries and commercial users for larger cylinders.
+- Cylinder sizes: about 3 kg (low income, camping), 6 kg (most popular), 13 kg (middle to higher income), and 15 to 50 kg for commercial customers. Make the stock mix follow local income and cooking patterns.
+- Loyalty is weak: consumers switch on price and delivery convenience.
+- Demand test: count retailers per estate (density varies by city), openings versus closures, and household penetration. Secondary cities and district towns with no organised exchange point offer first-mover room.
 
-## Financial Summary
+## 2. Operating model
+- The customer brings an empty cylinder; the retailer swaps it for a full one and charges refill price plus margin. Retailers can also sell complete sets (cylinder, grill, burner, hosepipe, regulator).
+- Home delivery (motorcycle, bicycle or on foot) is a strong differentiator. Start small, with limited cylinder stock and no motorcycle, where customers walk in.
+- Sales peak at month-end when salaries arrive; plan stock and cash for it.
+- Trust: display a calibrated weighing scale so customers can see the quantity is correct.
 
-| Metric | Amount |
-|--------|--------|
-| Capital Investment (standard setup, 30 × 6kg + 10 × 13kg, with motorcycle) | $5,520 (KES 460,650) |
-| — Licences | $360 (KES 30,000) |
-| — Equipment (cylinders, cage, fire, motorcycle, misc) | $3,554 (KES 296,650) |
-| — Premises (rent + branding) | $839 (KES 70,000) |
-| — Working capital (3 months) | $767 (KES 64,000) |
-| Margins per cylinder | 30–45% |
-| Breakeven period | 8 months average |
+## 3. Inputs and suppliers
+- Buy filled cylinders and accessories from licensed marketers or their distributors, brand by brand. Record the wholesale-to-retail spread per size.
+- Brand matching matters: refill a brand's cylinders only with that brand's gas.
 
-## Capital Breakdown
+## 4. Equipment and capital (checklist)
+- Empty cylinders by size (second-hand or new), grills and burners, metal storage cage or display, certified fire extinguisher, branded signboard, table and chair, receipt and record books, calibrated weighing scale, optional delivery motorcycle, miscellaneous.
+- Premises: deposit plus first rent, branding and renovation.
+- Working capital for about three months: wages, marketing, sundries.
+- Capital = licences + equipment + premises + working capital. Compute from local quotes.
 
-### Licences
+## 5. Unit economics and pricing
+- Margin per cylinder = retail price - wholesale price, computed per size; margins are generally higher on the large size. Plan on a gross margin in the low-to-mid tens of percent and verify against current supplier prices.
+- Revenue = cylinders per day by size x margin x trading days. Daily volume varies several-fold between outlets, so model low, base and high cases.
+- Break-even = capital / (monthly gross profit less running costs). Include delivery costs (fuel, rider) if offered.
+- Working-capital driver: the stock of full cylinders on hand.
 
-| Licence | KES | 2026 USD | Notes |
-|---------|-----|----------|-------|
-| County Single Business Permit | 15,000 | $180 | Minimum required; range KES 8,000–20,000 |
-| Signboard Licence | 8,000 | $96 | |
-| Fire Clearance Certificate | 2,500 | $30 | Mandatory; fire extinguisher must be certified |
-| ERC Retail Licence | 3,000 | $36 | Legally required; rarely enforced; apply at erc.go.ke |
-| Weights & Measures Certification | 1,500 | $18 | Weighing scale must be calibrated by Weights & Measures dept |
-| **Licences Sub-total** | **30,000** | **$360** | |
+## 6. Regulation and licensing checks
+- Business permit, signage licence, fire clearance (certified extinguisher), energy-regulator retail licence, and weights-and-measures calibration of the scale.
+- Kenya: the retail licence from the energy regulator is legally required although weakly enforced; do not plan on non-enforcement. Uganda: Energy Regulatory Authority. Tanzania: EWURA licenses LPG dealers. Rwanda: energy regulator and Rwanda Energy Group.
+- Cross-filling (filling one brand's cylinder with another's gas) is illegal and unsafe; do not plan it.
+- Storage: follow the regulator's rule on open, ventilated storage away from ignition sources.
+- Tax treatment: verify with the Chwezi finance engine.
 
-### Equipment
+## 7. Risks and mitigations
+- Fire and explosion (certified extinguisher, cage, no ignition sources, trained staff, insurance); tightening enforcement; cylinder piracy and cross-filling; price competition; supplier stock-outs; theft of cylinders; weights-and-measures inspections.
 
-| Item | Quantity | KES | 2026 USD |
-|------|----------|-----|----------|
-| 6 kg cylinders (empty, second-hand) | 30 @ KES 2,500 | 75,000 | $899 |
-| 13 kg cylinders (empty, second-hand) | 10 @ KES 3,800 | 38,000 | $455 |
-| Grills | 15 @ KES 250 | 3,750 | $45 |
-| Burners | 15 @ KES 300 | 4,500 | $54 |
-| Metallic cage (storage/display) | 1 | 20,000 | $240 |
-| Fire extinguisher | 1 | 8,000 | $96 |
-| Signboard (branded) | 1 | 15,000 | $180 |
-| Chair and table | 1 set | 8,000 | $96 |
-| Receipt and record books | — | 2,000 | $24 |
-| Motorcycle (Chinese, for delivery) | 1 | 80,000 | $959 |
-| Miscellaneous | — | 10,000 | $120 |
-| **Equipment Sub-total** | | **~264,250** | **~$3,168** |
+## 8. Regional localisation
+- Uganda: ERA regulation; Kampala estates such as Ntinda, Bukoto and Kansanga; power outages have driven LPG uptake; brands include Oryx, TotalEnergies, Stabex and Shell.
+- Tanzania: EWURA licensing; growth in Dar es Salaam, Arusha and Mwanza; cross-filling is a known problem.
+- Rwanda: government promotion of LPG to reduce deforestation; Kigali penetration is high.
 
-### Premises
+## 9. KPIs
+- Cylinders sold per day by size, margin per cylinder, stock turns, delivery share, repeat rate, stock shrinkage, months to break-even.
 
-| Item | KES | 2026 USD |
-|------|-----|----------|
-| Rent (2 months deposit + 1 month @ KES 15,000/month) | 45,000 | $539 |
-| Branding and renovation | 25,000 | $300 |
-| **Premises Sub-total** | **70,000** | **$839** |
+## 10. Plan-section prompts
+- Market: retailers per estate, household base, LPG adoption trend.
+- Compliance: licences held and timing, safety plan.
+- Financials: capital table by size mix, margin per size, scenarios, break-even.
 
-### Working Capital (3 months)
-
-| Item | KES | 2026 USD |
-|------|-----|----------|
-| Salaries | 24,000 | $288 |
-| Marketing | 25,000 | $300 |
-| Miscellaneous | 15,000 | $180 |
-| **Working Capital Sub-total** | **64,000** | **$767** |
-
-| **Grand Total** | **KES 460,650** | **$5,520** |
-
-> **Scale note:** Can start smaller — 10 × 6kg + 3 × 13kg cylinders, no motorcycle (bicycle/on-foot for residential coverage), reducing capital by 40–50%.
-
-## Cylinder Sources & Prices (April 2017 Reference)
-
-| Item | KES | 2026 USD |
-|------|-----|----------|
-| 6 kg empty cylinder (second-hand) | 2,500 | $30 |
-| 6 kg filled (no burner/grill) | 3,200 | $38 |
-| 6 kg with grill and burner (no gas) | 3,000 | $36 |
-| 13 kg empty cylinder | 3,800 | $46 |
-| 13 kg filled | 5,600 | $67 |
-| 13 kg with hosepipe and regulator | 6,500 | $78 |
-
-**Cylinder sizes available:** 3 kg (low-income/camping), 6 kg (most popular), 13 kg (mid-to-high income); larger sizes (15–50 kg) for commercial customers.
-
-## Revenue: Price and Margin Case Studies
-
-| Retailer | 6 kg wholesale (KES) | 6 kg retail (KES) | 13 kg wholesale (KES) | 13 kg retail (KES) | Avg cylinders/day |
-|----------|--------------------|--------------------|---------------------|--------------------|-------------------|
-| A | 700 | 1,200 | 1,800 | 2,400 | 45 |
-| B | 650 | 1,200 | 1,750 | 2,400 | 15 |
-| C | 650 | 1,100 | 1,700 | 2,400 | 9 |
-| D | 800 | 1,200 | 1,800 | 2,400 | 24 |
-
-**2026 USD equivalents:**
-- 6 kg buy: $7.79–$9.58 | sell: $13.18–$14.38 | margin: ~$4–$6/cylinder
-- 13 kg buy: $20.37–$21.57 | sell: $28.75 | margin: ~$7–$9/cylinder
-
-**Overall margin:** 30–45% per cylinder (higher on 13 kg).
-
-## Revenue Drivers
-
-- **Location:** High-density residential areas generate consistent foot traffic; even low-income areas are viable due to high population density
-- **Marketing:** Proactively approaching new tenants in the area; home delivery (via motorcycle) is a strong differentiator
-- **Trust:** Customers must trust quantity is correct — a certified weighing scale displayed publicly builds confidence
-- **Monthly timing:** Sales peak at month-end when households receive salaries and refill cylinders
-
-## Legal Context
-
-- **ERC Retail Licence:** Legally mandatory but rarely enforced; retailers primarily face county permit enforcement
-- **Cross-filling:** Illegal but widespread — refilling brand X cylinder with brand Y gas. Creates legal exposure; ERC enforcement is tightening
-- **Storage:** Cylinders must be stored in open/uncovered space per ERC regulations (fire safety)
-- **Weights & Measures:** Weighing scale must be certified; officials conduct random inspections at trading centres
-
-## Competition & Survival (Nairobi, April 2017)
-
-| Metric | Figure |
-|--------|--------|
-| Average retailers per estate (Nairobi) | 9 |
-| Average retailers per estate (other urban) | 4 |
-| Opened in last year | 40% of total |
-| Closed in last year | 2% |
-
-> Low closure rate reflects low formal capital at risk. Competition is intense but market is growing due to household energy transition (charcoal/kerosene → LPG). Loyalty in the business is weak; consumers switch on price and delivery convenience.
-
-## East Africa Notes
-
-- **Uganda:** LPG retail is regulated by the Energy Regulatory Authority (ERA). Kampala estates (Ntinda, Bukoto, Kansanga) have established neighbourhood LPG retailers. Umeme power outages have historically accelerated LPG adoption. Brands: Oryx, TotalEnergies, Stabex, Shell. Uganda cylinder exchange model mirrors Kenya.
-- **Tanzania:** EWURA (Energy and Water Utilities Regulatory Authority) licenses LPG dealers. Dar es Salaam's LPG penetration is growing; Arusha and Mwanza have active markets. TPDC and TotalEnergies are key suppliers. Cylinder piracy (cross-filling) is a known issue as in Kenya.
-- **Rwanda:** Rwanda Energy Group (REG) regulates LPG. Government has actively promoted LPG adoption to reduce deforestation (cooking on wood/charcoal). Kigali has the highest LPG penetration in EA after Kenya's main cities. Oryx and TotalEnergies dominate the branded retail market.
-- **EA opportunity:** LPG penetration is still low in secondary cities and district towns across all EA markets — first-mover advantage available where organised cylinder exchange is absent.
-
-## Data Quality Notes
-
-Cylinder and wholesale prices are from April 2017 Kenya data and will have shifted; use as relative reference only. Margin structure (30–45%) is durable as it reflects supply chain economics rather than specific prices. The motorcycle (KES 80,000 / $959) is optional for high-density locations where customers walk in.
+Sources consulted: Crack A Business Kenya, Gassing the Cash: The Gas Retail Business Guide (2017); general practice.

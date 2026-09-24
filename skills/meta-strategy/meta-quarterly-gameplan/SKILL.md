@@ -327,6 +327,7 @@ Review both:
 
 ## References
 
+- [KPI dashboard and control plan](../../marketing-sales/marketing-plan-orchestrator/references/kpi-dashboard-and-control-plan.md) — read when setting the quarter's one metric that matters, guard-rails, lines in the sand, control table and weekly war-room cadence.
 - `references/quarterly-strategy-map.md` - quarterly objective selection, strategy-map linkage, KPI-cascade design, and review-gate logic based on Balanced Scorecard practice
 
 ## Evidence Produced

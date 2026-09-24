@@ -122,6 +122,10 @@ Strategy: Target conferences and domestic events during low season
 | **Exchange rate fluctuations** | Price in USD for international guests, hedge with dual-currency accounts |
 | **Staff turnover** | Competitive wages, training programmes, clear career progression |
 
+## Micro-Business Reference Guides
+
+See `references/keg-bar.md`, `references/local-bar.md`, `references/wines-spirits.md`, `references/chips-and-chicken.md`, `references/fruit-juice-parlour.md`, `references/pork-butchery.md`, `references/chapati-wholesale.md` and `references/smokies-eggs-vending.md` for task-oriented planning references on small food, drink and street-vending businesses (market, operating model, inputs, unit economics, licensing checks, risks, KPIs and plan-section prompts).
+
 ## UNDP Business Profiles
 
 See `references/undp-business-profiles.md` for detailed investment and revenue data on 10 hospitality and tourism business ideas sourced from the UNDP Uganda Compendium, with figures adjusted to March 2026 US dollars.

@@ -50,7 +50,7 @@ The output is a valuation range with: SaaS base multiple → AI premium / discou
 ## Workflow
 
 1. **Establish the SaaS base multiple** from `saas-valuation-and-fundraising-strategy`. This is the starting point. AI premium/discount adjusts from here, not from a hypothetical "AI multiple."
-2. **Declare the archetype** per Part 1 of `book-extractions/ai-on-saas-business-plan-audit-2026.md` (AI-native vertical SaaS / SaaS-with-AI-features / AI-platform / AI-services productising). Multiples differ by archetype.
+2. **Declare the archetype** per section 2 of `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` (AI-native vertical SaaS / SaaS-with-AI-features / AI-platform / AI-services productising). Multiples differ by archetype.
 3. **Apply the AI-premium drivers** — each adjustment with reasoning and magnitude:
    - **Real data moat** (proprietary data accruing, not buyable) → +0.5x to +2x
    - **Real workflow moat** (AI embedded in workflow with switching cost) → +0.25x to +1x
@@ -153,8 +153,8 @@ The output is a valuation range with: SaaS base multiple → AI premium / discou
 - `skills/meta-ai-bankability-and-investor-readiness/SKILL.md` — feeds adjustments
 - `skills/06-competitive-analysis/saas-ai-moat-and-defensibility/SKILL.md` — moat feeds adjustments
 - `skills/10-financial-projections/saas-ai-unit-economics-and-cogs/SKILL.md`
-- `book-extractions/mersch-hacking-saas-extraction.md` — SaaS valuation discipline
-- `book-extractions/walling-saas-playbook-extraction.md` — exit discussion
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — SaaS valuation discipline
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — exit discussion
 
 ## Africa / Uganda Application Notes
 

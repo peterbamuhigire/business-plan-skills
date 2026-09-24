@@ -124,8 +124,8 @@ metadata:
 
 ## References
 
-- `book-extractions/garbugli-saas-email-marketing-playbook-extraction.md` — full source
-- `book-extractions/kennedy-magnetic-marketing-extraction.md` — attraction / conversion / retention
+- `skills/saas/saas-lifecycle-email-and-retention/references/lifecycle-email-programme-design.md` — programme design procedure
+- `skills/pipeline/07-marketing-sales-strategy/references/direct-response-commercial-system.md` — attraction / conversion / retention
 - `skills/digital-marketing-strategy/SKILL.md` — sister skill for broader digital marketing
 - `skills/saas-customer-success-operating-model/SKILL.md` — CS sister skill (CSM + email orchestration)
 

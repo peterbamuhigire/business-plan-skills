@@ -62,4 +62,4 @@ Adjusted multiple =
 - Investor narrative: `skills/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md`
 - Stress overlay: `skills/meta-financial-stress-test/references/saas-agent-sla-stress-test-scenarios.md`
 - Data-room evidence: `skills/meta-due-diligence/references/saas-agent-sla-data-room-contents.md`
-- Audit: `book-extractions/agent-sla-commercial-business-plan-audit-2026.md`
+- Audit: `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md`

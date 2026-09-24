@@ -108,7 +108,7 @@ The output is a TAM / SAM / SOM stack with explicit AI-attribution percentages, 
 - `references/ai-tam-attribution.md` — full discipline + worked example (in `04-market-analysis/references/`)
 - `skills/04-market-analysis/SKILL.md` — generic TAM/SAM/SOM
 - `country-context/africa-regional/africa-ict-saas-market-context.md` — Africa-AI Section 14
-- `book-extractions/cotton-run-a-saas-business-extraction.md` — TAM discipline
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — TAM discipline
 
 ## Africa / Uganda Application Notes
 

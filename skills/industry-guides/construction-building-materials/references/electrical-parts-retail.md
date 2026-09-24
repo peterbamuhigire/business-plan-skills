@@ -1,98 +1,39 @@
-# Electrical Parts Retail
+# Electrical Parts and Fittings Retail: Plan-Section Reference
 
-**Source:** Crack A Business Kenya (CAB), 2017 | **Sub-sector:** Electrical Hardware Retail
-**Conversion:** Original KES figures at KES 106/USD (2020 base), adjusted ×1.27 for USD inflation → March 2026 USD
+Use when the plan covers a fixed shop selling electrical goods to households and to electricians, contractors and developers.
 
-> A retail shop selling electrical parts and fittings — serving domestic consumers (bulbs, sockets, extensions) and construction developers (cables, conduit, consumer units, switchgear) — in a fixed shop location, with revenue driven by proximity to real estate development activity.
+## Market and customer
+- Domestic customers: replacement bulbs, sockets, extensions; frequent visits, small baskets, rising supermarket competition.
+- Developer and contractor customers: full electrification kits (cable, conduit, consumer units, breakers, switches, sockets, holders); large baskets, irregular visits. Contractor relationships and credit terms are the main competitive lever.
+- Demand follows grid and rural electrification programmes and real-estate activity (Uganda: connection expansion and rural electrification; Tanzania: national utility rollout; Rwanda: national energy targets). Shops near new grid extensions can see waves of early demand.
+- Barriers to entry are low, so any active town has dense competition. Decide your position on informal electrician commissions and double-receipt practices before you are asked.
 
-## Financial Summary
+## Operating model
+- Location: developer-facing shops cluster near hardware wholesale areas; household shops sit near dense residential estates.
+- Stock credibility: a thin range signals a poorly stocked shop, but never put all capital into static stock; contractor orders may need restocking within a day.
+- Supply: established wholesale hubs (Nyamakima in Nairobi; Kikuubo and Industrial Area in Kampala; Kariakoo in Dar es Salaam). Negotiate hard, especially on first purchases. Counterfeit branded goods are common; buy from known hubs and check standards marks (TBS in Tanzania applies to imports).
+- Cross-sell to lift the share of a project's spend (bundle discount on cable with conduit).
+- Visible signage matters because the category competes on visibility. Proactive site visits and contractor accounts beat waiting for walk-ins, provided receivables are managed.
 
-| Metric | Amount |
-|--------|--------|
-| Capital Investment (standard shop) | $7,300 |
-| — Licences | $293 |
-| — Equipment (signboard, furniture, fittings) | $455 |
-| — Premises (rent 3 months) | $779 |
-| — Opening stock | $4,792 |
-| — Working capital (salary, marketing, misc — 3 months) | $983 |
-| Minimum recommended opening stock | $3,594 |
-| Gross margin range | 20–80% (most items 20–40%) |
-| Breakeven period | ~9 months |
+## Equipment and capex checklist
+Licences (business permit, signboard, fire), fire extinguisher, signboard, furniture, shelving and display, receipts and stationery, renovation and branding, opening stock, first months of rent, salary, marketing.
 
-## Capital Breakdown
+## Unit economics drivers
+- Margins vary widely by item: structural items (conduit, cable, breakers) sit in a lower band; fittings, holders, bulbs and decorative items carry higher margins. Build the margin by category and weight by expected sales mix.
+- Basket margin for a house wiring job = sum of item margins on a standard bill of materials; test with a local electrician's typical order.
+- Break-even sales per month = fixed costs / blended gross margin percentage; account for credit extended to contractors.
+- Stock turns by category; slow lines (specialist switchgear) should be bought to order.
 
-| Item | KES | 2026 USD |
-|------|-----|----------|
-| Single user business permit | 4,500 | $54 |
-| Signboard licence | 15,000 | $180 |
-| Fire licence | 5,000 | $60 |
-| **Licences sub-total** | **24,500** | **$293** |
-| Fire extinguisher | 8,000 | $96 |
-| Signboard | 15,000 | $180 |
-| Furniture | 8,000 | $96 |
-| Receipts and office supplies | 2,000 | $24 |
-| Fittings (shelving, display) | 5,000 | $60 |
-| **Equipment sub-total** | **38,000** | **$455** |
-| Rent (2 months deposit + 1 month at KES 15,000/month) | 45,000 | $539 |
-| Branding and renovation | 20,000 | $240 |
-| **Premises sub-total** | **65,000** | **$779** |
-| Opening stock | 400,000 | $4,792 |
-| Salary — 3 months (1 employee at KES 14,000/month) | 42,000 | $503 |
-| Marketing | 10,000 | $120 |
-| Miscellaneous | 30,000 | $360 |
-| **Working capital sub-total** | **82,000** | **$983** |
-| **Grand Total** | **609,500** | **$7,303** |
+## Regulation and licensing checks
+Trading licence, fire clearance, signboard permit, standards compliance for imported electrical goods, tax registration. Verify with the local authority.
 
-## Sample Wholesale vs. Retail Margins
+## Risks
+Counterfeits and liability, slow stock, contractor credit default, price undercutting, supermarket competition in domestic lines, supplier price swings.
 
-| Item | Wholesale (KES) | Retail (KES) | Margin |
-|------|----------------|--------------|--------|
-| Single sockets (Carl & Gilbert, box of 10) | 1,100 | 1,700 | 55% |
-| Sub-board plastic | 70/pc | 150/pc | 114% |
-| 20A water heater switch | 130/pc | 200/pc | 54% |
-| Energy-saver bulb (CG, dozen) | 1,800 | 3,000 | 67% |
-| Fluorescent tube 4ft (box of 4) | 300 | 600 | 100% |
-| Consumer unit 4-way (Crabtree) | 650 | 1,050 | 62% |
-| MCB (Belmax) | 150 | 270 | 80% |
-| Cable 1.5mm single (90m roll) | 1,300 | 1,700 | 31% |
-| Cable 2.5mm single | 2,500 | 2,800 | 12% |
+## KPIs
+Gross margin by category, stock turn, contractor share of sales, receivable days, average basket, stock-out rate.
 
-> Margins range 20–80%; most structural items (conduit, cable, MCBs) fall in the 20–40% band. Fittings (holders, bulbs, decorative items) carry higher margins. Negotiate hard with wholesalers — prices in Nairobi's Nyamakima are negotiable, especially for first purchases.
+## Plan-section prompts
+Which segment first (domestic or developer)? Which wholesale sources and terms? What stock is bought to order? How are contractors won and credit controlled?
 
-## Case Study — One-Bedroom House Electrification Order
-
-A single fundi (electrician) wiring a small 1-bedroom house will buy conduit, consumer unit, cables, patresses, switches, sockets, holders, bulbs, and miscellaneous items.
-
-| Total margin on full order | KES 6,993 | $84 |
-|----------------------------|-----------|-----|
-
-> In practice the fundi rarely buys everything from one shop. Proactive cross-selling — offering a discount on wires when buying conduit — increases share of a single project's spend.
-
-## Target Customer Segments
-
-**Domestic consumers:** Replacement bulbs, sockets, extensions. High visit frequency, low basket size. Competition from supermarkets increasing.
-
-**Developers/contractors:** Full electrification materials. High basket size; irregular visits. Contractor relationships and credit terms are the key competitive lever. Electrician kickback arrangements (contractor inflates quote to client; retailer issues two receipts) are common — decide your position before being asked.
-
-## Operations
-
-- **Location:** Developer-facing shops succeed near hardware clusters (e.g., Nyamakima, Nairobi); household shops succeed near dense residential estates
-- **Stock minimum:** KES 300,000 ($3,594) for credible variety; less creates perception of a poorly stocked shop
-- **Working capital buffer:** Orders from developers can require restocking at 24 hours' notice — never invest all capital in static stock
-- **Counterfeits:** Chinese and Indian branded fakes common; sourcing from known Nairobi wholesale hubs reduces (not eliminates) this risk
-- **Signage:** Electrical shops compete largely on visibility — an unmissable signboard is not optional
-
-## Market
-
-Kenya's electricity connections grew rapidly post-2008 under rural electrification programmes. Real estate expansion, devolution, and public works drove 15+ years of sustained growth. KEBS and County permits are required; the business has low barriers to entry, creating a dense competitive field in any active town.
-
-## East Africa Notes
-
-- **Uganda:** UMEME connection expansion (Electricity Connection Policy) and rural electrification have driven demand for electrical retail across all district towns. REA (Rural Electrification Agency) projects create wave demand — shops near new grid extensions can achieve very high early sales. Kampala wholesale hub: Kikuubo and Industrial Area. KCCA trade licence required.
-- **Tanzania:** TANESCO electrification roll-out drives similar demand. Kariakoo market in Dar es Salaam is the main wholesale hub. TBS standards apply to imported electrical goods — counterfeits are common.
-- **Rwanda:** REG (Rwanda Energy Group) connection targets are ambitious. Kigali has active construction activity; secondary towns (Musanze, Huye, Rubavu) have fewer competitors and underserved developer markets.
-- **Developer targeting:** In all EA markets, building relationships with electrical contractors/foremen is more effective than waiting for walk-in traffic. Formal site visits and credit terms (with strong receivables management) give a significant competitive edge.
-
-## Data Quality Notes
-
-Figures are from a Nairobi case study (CAB 2017). Rent, licence fees, and wholesale prices vary significantly by county and location within city. Source prices for equipment and fittings directly with Nairobi wholesalers and compare against local suppliers before committing capital.
+Sources consulted: Crack A Business Kenya, electrical retail guide (2017); dated item prices omitted and must be re-collected.

@@ -112,9 +112,9 @@ Choosing the wrong vertical is the most common cause of SaaS plan failure (Walli
 
 ## References
 
-- `book-extractions/walling-saas-playbook-extraction.md` — niche selection, vertical discipline, expansion timing
-- `book-extractions/mersch-hacking-saas-extraction.md` — vertical vs horizontal SaaS financial profile (chapters 15-16)
-- `book-extractions/kennedy-no-bs-price-strategy-extraction.md` — niche pricing lift
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — niche selection, vertical discipline, expansion timing
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — vertical vs horizontal SaaS financial profile
+- `skills/meta-pricing-gtm/meta-pricing-strategy/references/price-strategy-audit-and-proposition-stack.md` — niche pricing lift
 - `skills/04-market-analysis/SKILL.md` — sister skill for TAM/SAM/SOM
 - `skills/05-target-market/SKILL.md` — sister skill for ICP detail
 - `country-context/africa-regional/africa-ict-saas-market-context.md` — Africa vertical opportunities

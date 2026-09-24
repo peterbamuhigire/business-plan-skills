@@ -241,6 +241,7 @@ The funding request asks for UGX 800 million while the implementation schedule a
 
 ## References
 
+- [Business-plan phrase bank](../../language/writing-quality/references/business-plan-phrase-bank.md) — read before final assembly: release checklist, register by reader, strategy-type emphasis consistency across sections, and the unfilled-slot check.
 - Use the verified project evidence register and the owning upstream pipeline section for 00 plan assembly; no local deep-dive reference is declared.
 - For 00 plan assembly claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 

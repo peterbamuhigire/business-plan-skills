@@ -119,7 +119,7 @@ AI funding (handled by `saas-ai-funding-stage-playbook`) maps AI startups to AI-
 - `skills/meta-agent-bankability-and-investor-readiness/SKILL.md` — bankability gate
 - `skills/meta-agent-valuation-adjustments/SKILL.md` — valuation
 - `skills/meta-due-diligence/SKILL.md` — DD
-- `book-extractions/agent-products-business-plan-audit-2026.md` — audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes
 

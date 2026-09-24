@@ -40,7 +40,9 @@ Generate Section 05 of the business plan: the target market section. Use this sk
 3. Build personas that capture behaviour, purchase drivers, pain points, and economics.
 4. Estimate acquisition and lifetime value logic where the data supports it.
 5. Reconcile segment choices with market size, pricing, channels, and sales strategy.
-6. Flag unsupported assumptions or validation gaps that need testing.
+6. Prove the chosen target market against the four checks (describable, relevant to buying, large enough, reachable) with an attribute-justification column; name payer, user, approver and blocker, and define the intermediary market too when an intermediary pays. Describe the segment through the six lenses and the buying-sensitivity grid, and state the geography at the scope level the business actually serves.
+7. Keep a segment only when the extra cost of tailoring to it is clearly smaller than the extra sales it brings; "SMEs", "youth" and "all parents" are not segments.
+8. Flag unsupported assumptions or validation gaps that need testing, labelling every figure as verified fact, assumption or estimate.
 
 ## Quality Bar
 
@@ -215,6 +217,10 @@ In business-to-business contexts, map all six types within the buying organisati
 - **Advanced TAM/SAM/SOM methodology (Umbrex, 2025)**: See `../04-market-analysis/references/market-sizing-methodology.md` for precise TAM/SAM/SOM definitions and funnel logic, 8 market boundary principles, bottom-up penetration modelling, SOM reasonableness rules, Rogers' diffusion model for adoption S-curves, and a Uganda TAM/SAM/SOM template in UGX. **Read when building customer market size estimates or cross-checking SOM figures from a customer-base perspective.**
 - **Uganda consumer demographics (World Bank, 2025)**: See `references/uganda-consumer-demographics-2025.md` for Uganda-specific consumer market data  population 46M (>50% under-18, growing >3%/year, 104M projected by 2060); generational segments (Gen Z ~1012M, Millennials ~810M); NEET youth 5.25M (the "aspiring but income-constrained" segment); income quintile profiles (Q1Q5) with access patterns for health, education, financial services, and FMCG; urban/rural split (Kampala 1.797M; rural pop +54% by 2030); education literacy gap (57% of P6 pupils below literacy minimum  design for low-literacy consumers); NCD-driven health product demand (NCDs rising to 37.3% of DALYs); social protection transfer recipients (2.43M) as emerging consumers; aspiration-versus-reality gap (youth want professional careers but 88% lack qualifications  "affordable aspiration" brand positioning); regional market characteristics (Central/Western/Eastern/Northern/Karamoja); key market sizing numbers (working for pay 10M; annual new labour force 1.11.2M; multidimensional poverty 41.2%). Sources: World Bank UHCDGR 2025, UNPHC 2024, UBOS UNHS 2019/20, NAPE 2023. **Read when building consumer personas, sizing the Uganda consumer market, determining price-point strategy, or selecting customer channels for any Uganda-based consumer or B2B business plan.**
 
+- **Target-market checks, description, buying situations and customer insights report**: See `../../marketing-sales/marketing-plan-orchestrator/references/situation-and-market-toolkit.md` sections 2.1–2.5. **Read before writing the segment definition; this is the canonical method shared with the standalone marketing plan.**
+- **Location and scope calibration**: See `../../marketing-sales/marketing-plan-orchestrator/references/location-and-scope-calibration.md`. **Read when naming places, payment routes, languages, media habits and data-protection constraints for the segment.**
+- **Section wording**: See `../../language/writing-quality/references/business-plan-phrase-bank-sections-01-08.md` (entry 05) and the strategy-type emphasis table in `../../language/writing-quality/references/business-plan-phrase-bank.md`. **Read while drafting.**
+
 ## July 2026 Portable Contract
 
 <!-- dual-compat-start -->
@@ -291,7 +297,9 @@ Small retailers appear numerous, but interviews show pharmacies have the urgent 
 
 ## References
 
-- Use the verified project evidence register and the owning upstream pipeline section for 05 target market; no local deep-dive reference is declared.
+- [Phrase bank, entry 05](../../language/writing-quality/references/business-plan-phrase-bank-sections-01-08.md) — read while drafting: purpose, keywords, slot-templates, tone rules, before-and-after rewrites and red-flag phrases for this section; apply the strategy-type emphasis from the [phrase-bank index](../../language/writing-quality/references/business-plan-phrase-bank.md).
+- Use the verified project evidence register and the owning upstream pipeline section for 05 target market.
+- [Situation and market toolkit](../../marketing-sales/marketing-plan-orchestrator/references/situation-and-market-toolkit.md) — target-market tests and lenses; [evidence discipline](../../marketing-sales/marketing-plan-orchestrator/references/evidence-discipline-for-marketing-claims.md) — classing every figure.
 - For 05 target market claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 
 <!-- dual-compat-end -->

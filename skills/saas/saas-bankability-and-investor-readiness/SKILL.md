@@ -158,9 +158,9 @@ Total ~50; investor-archetype weighting applied (AI-specialist VC, generalist Sa
 - `references/saas-bankability-checklist.md` — full SaaS scorecard
 - `skills/meta-bankability-scoring/references/saas-ai-bankability-checklist.md` — AI scorecard
 - `skills/meta-ai-bankability-and-investor-readiness/SKILL.md` — AI bankability skill
-- `book-extractions/mersch-hacking-saas-extraction.md` — CFO-grade metrics
-- `book-extractions/cotton-run-a-saas-business-extraction.md` — Rule of 40, LTV:CAC, churn
-- `book-extractions/ai-on-saas-business-plan-audit-2026.md` — AI-on-SaaS audit
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — CFO-grade metrics
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — Rule of 40, LTV:CAC, churn
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — AI-on-SaaS audit
 - `skills/meta-bankability-scoring/SKILL.md` — sister skill for debt / bank-loan readiness
 - `skills/saas-valuation-and-fundraising-strategy/SKILL.md` — valuation logic
 

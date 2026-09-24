@@ -198,7 +198,7 @@ Minimum outputs required from `meta-valuation`:
 - `references/uganda-financial-sector-regulatory.md` - financing-channel selection and compliance
 - `references/msme-financing-options-ea.md` - financing fit by stage and business maturity
 - `references/africa-infrastructure-financing.md` - relevant for infrastructure, PPP, and blended-finance cases
-- `../book-extractions/haines-how-to-create-a-business-case-extraction.md` - use when the ask includes a major system, automation, capacity, or market-entry investment that needs clearer option logic and incremental benefits
+- `../../meta-strategy/meta-critical-thinking-business-logic/references/business-case-test.md` - use when the ask includes a major system, automation, capacity, or market-entry investment that needs clearer option logic and incremental benefits
 - `meta-bankability-scoring/SKILL.md` - bank readiness scoring and consistency checks
 - `meta-due-diligence/SKILL.md` - DD readiness before investor or DFI outreach
 - `meta-presentation-design/SKILL.md` - ask-slide and use-of-funds presentation standards
@@ -281,6 +281,7 @@ A profitable business requests equipment debt but allocates part of the loan to 
 
 ## References
 
+- [Phrase bank, entry 11](../../language/writing-quality/references/business-plan-phrase-bank-sections-09-16.md) — read while drafting: purpose, keywords, slot-templates, tone rules, before-and-after rewrites and red-flag phrases for this section; apply the strategy-type emphasis from the [phrase-bank index](../../language/writing-quality/references/business-plan-phrase-bank.md).
 - Use the verified project evidence register and the owning upstream pipeline section for 11 funding request; no local deep-dive reference is declared.
 - For 11 funding request claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 

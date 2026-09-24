@@ -147,7 +147,7 @@ The dispersion of agent-business multiples in 2025-2026 is wider than any other 
 - `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — UE input
 - `skills/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — stress input
 - `skills/11-funding-request/saas-agent-funding-stage-playbook/SKILL.md` — funding consumer
-- `book-extractions/agent-products-business-plan-audit-2026.md` — agent audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — agent audit
 
 ## Africa / Uganda Application Notes
 

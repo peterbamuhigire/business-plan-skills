@@ -222,7 +222,7 @@ Per cadence below.
 - `skills/meta-financial-stress-test/SKILL.md` — stress-test consumer
 - `skills/meta-agent-valuation-overlay-for-sla/SKILL.md` — valuation
 - `skills/meta-agent-board-and-investor-reporting/SKILL.md` — reporting
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes
 

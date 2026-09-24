@@ -150,4 +150,4 @@ All three layers must run in parallel for an agent business.
 - SLA financial controls: `meta-agent-sla-financial-controls`
 - SLA valuation: `meta-agent-valuation-overlay-for-sla`
 - SLA investor narrative: `11-funding-request/saas-agent-investor-narrative-on-sla`
-- SLA audit: `book-extractions/agent-sla-commercial-business-plan-audit-2026.md`
+- SLA audit: `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md`

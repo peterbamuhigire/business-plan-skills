@@ -1,335 +1,148 @@
-# Google Ads: Search Intent, Campaign Structure, and Optimisation Frameworks
+# Google Search Advertising: Intent, Structure, Quality and Optimisation
 
-**Source:** Geddes, B. — Advanced Google AdWords, 3rd Edition (Wiley/Sybex, 2014) | **Application:** Google Search Ads strategy, keyword research, Quality Score, landing pages, campaign structure, bidding, ad copy
+Use this reference when a plan includes paid search. Search advertising reaches people at the moment they express intent. It assists rather than interrupts, so it must be planned searcher-first: keyword, ad and landing page continue the conversation the searcher started.
 
-> Google Search Ads are the only advertising medium in which you reach customers at the exact moment they are expressing intent to buy. A searcher typing "plumber in Kampala" is not passively watching content — they are raising their hand and saying: "Sell to me." Your job is to be the most relevant, most credible answer to that request.
+Interface names, bidding options and cost benchmarks change often; verify against current Google Ads Help documentation and a live keyword planner before quoting figures.
 
-## The Psychology of Search: Why Google Ads Are Different
+## 1. Search logic
 
-Every other advertising medium interrupts. Google Search Ads assist. This is the fundamental distinction that determines how you write ads, choose keywords, and design landing pages.
+1. A person has a question, problem or desire and types it.
+2. They scan results with expectations.
+3. The ad has seconds to signal that it answers the query.
+4. The landing page must deliver on the ad's promise.
 
-**The search process (Geddes):**
-1. A person has a question, problem, or desire
-2. They translate it into words and type it into Google
-3. They scan results with pre-set expectations about what they will find
-4. Your ad has 2–3 seconds to signal: "I have the answer to your question"
-5. If your ad matches their expectation, they click
-6. Your landing page must then deliver on the ad's promise
+Three parties share a search: the searcher wants a fast, accurate answer; the search engine wants searchers to keep finding answers; the advertiser wants a profitable customer. Because the engine's interests align with the searcher's, relevant ads earn better positions at lower cost and irrelevant ads are penalised.
 
-**Goal alignment — three parties in every search (Geddes):**
+## 2. Match keywords to buying stage
 
-| Party | Goal |
-|-------|------|
-| **Searcher** | Find the answer to their question quickly and accurately |
-| **Google** | Ensure the searcher always finds their answer on Google (drives repeat searches = ad revenue) |
-| **Advertiser** | Show a relevant ad that converts the searcher into a customer at a profitable CPA |
+| Stage | Mindset | Keyword form | Ad approach | Landing page |
+|---|---|---|---|---|
+| Awareness | "I have a problem; what are my options?" | Broad informational terms | Educational | Guide or explainer |
+| Consideration | "I am comparing" | "best", price and comparison terms | Benefits and differentiation | Comparison page |
+| Purchase | "I am ready to buy" | Action plus place ("buy", "near me", "quote") | Direct offer, price, location, urgency | Dedicated page with one call to action |
+| Loyalty | "I need support or a repeat order" | Brand plus service terms | Retention | Account or support page |
 
-**The key insight:** Google's interests align with the searcher, not the advertiser. Ads that serve the searcher (relevant, clear, helpful) are rewarded with higher positions at lower costs. Ads that ignore the searcher's intent are penalised with higher first-page bids and lower ad positions.
+Rule: weight the budget toward purchase-intent terms, which convert best; use awareness terms only if budget allows and only with content landing pages. Build a keyword table per business (for example a cleaning firm: awareness "how to clean offices professionally", consideration "office cleaning companies", purchase "office cleaning quote" plus the city).
 
-**Implication for business plan:** Google Ads strategy must be searcher-first. Write ads to answer the customer's question, not to broadcast your brand. Every element — keyword, ad copy, landing page — must continue the conversation the customer started.
+## 3. Match types and negatives
 
----
+| Type | Syntax | Triggers on |
+|---|---|---|
+| Broad | keyword | Variations, synonyms and related topics |
+| Phrase | "keyword" | The phrase in order, with extra words around it |
+| Exact | [keyword] | That query and very close variants |
+| Negative | -keyword | Blocks queries containing the word |
 
-## The Buying Funnel: Matching Keywords to Customer Intent
+Bid ladder (rule of thumb): exact at the target maximum cost per click, phrase about 15 percent lower, broad about 15 to 25 percent lower than phrase.
 
-Keywords are not just search terms — they are signals of where a customer sits in their buying journey. Matching keyword strategy to buying stage increases conversion rates and reduces wasted spend (Geddes):
+Negatives are essential. Without them, broad and phrase terms waste budget. A cleaning firm might exclude free, jobs, training, DIY and how-to. Expect to add many negatives (dozens) before a campaign turns profitable. Negatives raise conversion rate, lower cost per conversion and raise click-through rate.
 
-| Buying Stage | Customer Mindset | Example Keywords | Ad Approach | Landing Page |
-|-------------|-----------------|-----------------|-------------|-------------|
-| **Awareness** | "I have a problem — what are my options?" | "what is solar power", "types of water filters" | Educational; build awareness; broad keywords | Blog post, guide, explainer page |
-| **Consideration** | "I'm comparing specific solutions" | "best water filter Uganda", "solar vs generator comparison" | Benefits-focused; differentiation; feature comparisons | Product/service comparison page |
-| **Purchase** | "I'm ready to buy — where/from whom?" | "buy water filter Kampala", "solar installation near me" | Direct offer; price/location; urgency | Dedicated landing page with clear CTA |
-| **Loyalty** | "I'm an existing customer needing support or repurchase" | "filter replacement", "[brand] customer service" | Retention-focused | Account/support page |
+Starter rule: begin with phrase and exact only; add broad once the campaign is profitable and you want to discover terms through the search terms report.
 
-**EA keyword examples by stage:**
+## 4. Quality Score and Ad Rank
 
-| Business | Awareness Keywords | Consideration Keywords | Purchase Keywords |
-|---------|-------------------|----------------------|-----------------|
-| Restaurant | "restaurants in Kampala" | "best rooftop restaurant Kampala" | "book table Kampala restaurant" |
-| Cleaning service | "how to clean offices professionally" | "office cleaning companies Uganda" | "office cleaning service Kampala quote" |
-| Solar installer | "solar power for homes" | "solar system prices Uganda" | "solar installation Kampala" |
+Quality Score (1 to 10) estimates relevance of keyword, ad and landing page. Ad Rank is roughly Quality Score x maximum bid, so a high score lets a smaller advertiser outrank a larger bidder.
 
-**Rule:** Campaign budgets should weight heavily toward purchase-intent keywords. These have the highest conversion rates. Use awareness keywords only if budget allows, and only with content-driven landing pages.
+| Factor | Weight | Improvement |
+|---|---|---|
+| Expected click-through rate | Highest | Compelling copy relevant to the keyword |
+| Ad relevance | High | Tightly themed ad groups; keyword in headline |
+| Landing-page relevance | High | Page answers the ad's promise |
+| Landing-page experience | Medium | Fast, mobile-friendly, no pop-ups, clear navigation |
+| Account history | Medium | Well-managed account |
 
----
+Interpretation: 1 to 3 poor (fix now); 4 to 6 average (optimise); 7 to 9 good (maintain); 10 excellent.
 
-## Keyword Match Types
+Improvement workflow:
+1. Export keywords with scores into a spreadsheet.
+2. Sort ascending; the lowest scores cost most.
+3. Scores 1 to 3: split into tighter ad groups with tighter copy.
+4. Scores 4 to 6: put the exact keyword in the headline and improve the landing page.
+5. Scores 7 and above: maintain and spend effort elsewhere.
 
-Match types control which search queries trigger your ad. Getting this wrong means paying for irrelevant clicks (Geddes):
+## 5. Account and campaign structure
 
-| Match Type | Syntax | What Triggers the Ad | Example Keyword | Triggered By |
-|-----------|--------|---------------------|----------------|-------------|
-| **Broad Match** | keyword | Any variation, synonym, related topic Google considers relevant | water filter | "clean water solutions", "home purification" (broad) |
-| **Phrase Match** | "keyword" | The phrase in order, with possible additional words before or after | "water filter" | "buy water filter", "water filter Kampala", "affordable water filter" |
-| **Exact Match** | [keyword] | Precisely that query (and very close variants) | [water filter Kampala] | "water filter Kampala", "water filters Kampala" |
-| **Negative Match** | -keyword | Prevents ad from showing when this word appears | -free | Excludes searches containing "free" |
+Hierarchy: account, campaign (budget, geography, network, schedule), ad group (one topic), keywords (positive and negative), two or three ads per group for testing.
 
-**Bidding hierarchy (Geddes' guideline):**
-- Bid Exact Match at your target CPC
-- Bid Phrase Match at 15% less than Exact
-- Bid Broad Match at 15–25% less than Phrase
+The ad group is the critical unit: one topic, closely related keywords, so one ad is highly relevant to all of them. A tight group (for example "office cleaning" plus the city with a matching ad and a matching landing page) beats a loose group ("cleaning" with office, home, carpet and window terms and a generic ad).
 
-**Negative keywords are essential (Geddes):** Without negatives, broad and phrase match waste budget on irrelevant searches. A cleaning company would add negatives like: -free, -jobs, -training, -diy, -how to. Expect to add 20–50 negatives before a campaign is profitable.
+Segmentation options: by product or service; by geography when price or demand differs; by match type (controlled exact campaign versus broad discovery campaign); by funnel stage (high bids on purchase intent, low on awareness); by device (mobile with click-to-call versus desktop).
 
-**When negative keywords improve performance:**
-- Conversion rate increases (only relevant searchers see the ad)
-- Cost per conversion decreases (fewer wasted clicks)
-- Click-through rate increases (ad shown only in relevant contexts)
+Template for a services firm: one campaign per major service (exact and phrase, ad groups by theme), one branded campaign (company-name terms) with a small budget. Set budgets per campaign from the budget framework in section 9.
 
-**Match type strategy for EA SMEs starting out:** Begin with Phrase Match and Exact Match only. Add Broad Match only once the campaign is profitable and you want to discover new keyword ideas via the Search Terms report.
+## 6. Ad copy
 
----
+Elements: headline 1 carries the keyword and answers the query; headline 2 states the unique selling proposition; headline 3 gives the call to action or offer; description 1 expands the benefit for the buying stage; description 2 gives proof, a trust signal or a secondary offer. Responsive formats combine variants; supply several strong headlines and descriptions.
 
-## Quality Score: The Most Important Number in Your Account
+Rules:
+- One clear reason to choose you over every other ad ("one-hour response, many local clients, free quote" beats "quality service").
+- Features describe what the product is; benefits describe what it does for the customer. Use features for comparison-stage searchers, benefits for awareness, both at purchase.
+- Match copy tightly to the triggering keyword; include the location for local businesses; add a price or offer to reduce unqualified clicks; specific calls to action (Get Free Quote, Call Now, Book Online); avoid jargon for awareness terms; avoid capital-letter shouting (disapproved).
+- Test two or three ads per group and keep the best converter.
+- Dynamic keyword insertion places the searcher's keyword in the headline; use it only in tightly themed groups where every variation reads correctly.
 
-Quality Score (1–10) is Google's assessment of how relevant your keyword, ad copy, and landing page are to the searcher's query. It directly controls your ad cost and position.
+## 7. Landing pages
 
-**Ad Rank formula:**
-```
-Ad Rank = Quality Score × Maximum Bid
-```
+The ad is all the searcher knows before the click; the page must confirm the choice at once.
+1. Relevance: content addresses the query and headline (not the generic homepage).
+2. Transparency: every claim in the ad (free quote, same-day, certified) is substantiated.
+3. Navigation: links to home, about, contact and related pages.
+4. Speed: slow mobile pages lose score and conversions; compress images and avoid heavy scripts (a common target is under three seconds on a mobile connection).
+5. Mobile design: most local traffic is on Android phones.
+6. No intrusive pop-ups.
+7. One primary call to action (form, phone number or WhatsApp button; messaging buttons often outperform forms locally); mobile-money payment for direct purchase.
 
-A competitor with Quality Score 8 bidding UGX 1,500 outranks you bidding UGX 3,000 at Quality Score 3. **Quality Score is how you beat larger competitors without outspending them.**
+## 8. Bidding, tracking and diagnostics
 
-**Quality Score factors (Geddes):**
+### Bidding progression
 
-| Factor | Weight | How to Improve |
-|--------|--------|---------------|
-| **Click-through Rate (CTR)** | Highest | Write compelling ad copy; improve ad relevance to keyword |
-| **Ad relevance to keyword** | High | Use tightly themed ad groups; include keyword in ad headline |
-| **Landing page relevance** | High | Landing page must answer the ad's promise; topically aligned |
-| **Landing page quality** | Medium | User experience: fast load, mobile-friendly, no pop-ups, clear navigation |
-| **Historical account performance** | Medium | Well-managed accounts with good QS history are rewarded |
-
-**Quality Score scale interpretation:**
-- 1–3: Poor — your ads will rarely show, or only at very high bids; fix immediately
-- 4–6: Average — acceptable but leaving money on the table; optimise
-- 7–9: Good — competitive position; maintain and improve incrementally
-- 10: Excellent — maximum discount on CPCs; highest ad positions for lowest cost
-
-**Practical QS improvement workflow (Geddes):**
-1. Export keyword list with Quality Scores into a spreadsheet
-2. Sort by Quality Score ascending — lowest scores cost you the most
-3. For QS 1–3: split keywords into more specific ad groups with tighter ad copy
-4. For QS 4–6: rewrite ads to include exact keyword in headline; improve landing page
-5. For QS 7+: maintain; focus effort elsewhere
-
----
-
-## Campaign Structure: The Foundation of Account Performance
-
-**The Account hierarchy:**
-```
-ACCOUNT
-  └── CAMPAIGN (budget, geographic targeting, network, schedule)
-        └── AD GROUP (theme = one topic; contains related keywords)
-              ├── KEYWORDS (positive + negative)
-              └── ADS (2–3 ads per ad group for testing)
-```
-
-**The Ad Group is the critical unit (Geddes):** Each ad group should represent one specific topic or product. All keywords within the ad group should be closely related so that one ad can be highly relevant to all of them.
-
-**Tight ad group example (correct):**
-- Ad Group: "Office Cleaning Kampala"
-- Keywords: [office cleaning Kampala], "office cleaning Kampala", "commercial cleaning Kampala"
-- Ad: "Professional Office Cleaning in Kampala — Daily, Weekly, Monthly Plans. Free Quote Today."
-- Landing page: page specifically about office cleaning services in Kampala
-
-**Loose ad group (incorrect):**
-- Ad Group: "Cleaning"
-- Keywords: office cleaning, home cleaning, carpet cleaning, window cleaning, school cleaning
-- Ad: "Professional Cleaning Services — Call Us Today"
-- Problem: One ad cannot be highly relevant to all five different search intents
-
-**Campaign segmentation strategies (Geddes):**
-- By product/service type: separate campaigns per major offering
-- By geography: separate campaigns per city/region if pricing or demand differs
-- By match type: Exact Match campaign (controlled) vs Broad Match campaign (discovery)
-- By funnel stage: Purchase-intent campaign (high bid) vs Awareness campaign (low bid)
-- By device: Mobile campaign (shorter CTAs, click-to-call) vs Desktop campaign
-
-**EA campaign structure example — cleaning company:**
-```
-Campaign 1: Office Cleaning — Kampala (Exact/Phrase; budget: UGX 80,000/day)
-  Ad Group 1: Office Cleaning Kampala
-  Ad Group 2: Commercial Cleaning Kampala
-  Ad Group 3: Corporate Cleaning Services
-
-Campaign 2: Home Cleaning — Kampala (Exact/Phrase; budget: UGX 40,000/day)
-  Ad Group 1: House Cleaning Kampala
-  Ad Group 2: Domestic Cleaning Services
-
-Campaign 3: Branded (company name keywords; budget: UGX 20,000/day)
-  Ad Group 1: [Company Name] variations
-```
-
----
-
-## Writing Ad Copy That Converts
+| Strategy | Mechanism | Use when |
+|---|---|---|
+| Manual cost per click | You set bids per keyword | Start; learn what converts (first thirty to sixty days) |
+| Enhanced cost per click | Platform adjusts manual bids by conversion likelihood | Some dozens of conversions in the account |
+| Target cost per acquisition | Platform optimises to a target cost per conversion | Roughly fifty or more conversions a month |
+| Maximise conversions | Spends budget for the most conversions | Tracking is reliable |
+| Target return on ad spend | Optimises to revenue return | E-commerce with varied prices |
 
-**The ad's job:** Signal to the searcher — in 130 characters or fewer — that you have the answer to their question, and that clicking your ad will deliver it.
-
-**Ad copy elements (Google Ads expanded text / responsive search ad):**
-- **Headline 1:** Include the main keyword; answer the search query directly
-- **Headline 2:** Your unique selling proposition or key benefit
-- **Headline 3:** Call to action or offer (Free Quote, Order Online, Call Now)
-- **Description 1:** Expand on the benefit; address the buying stage (features for consideration; price/urgency for purchase)
-- **Description 2:** Social proof, trust signal, or secondary offer
-
-**USP development (Geddes):** Every ad must communicate one reason why the searcher should choose you over every other ad on the page. Generic ads ("Quality Service — Call Us") are invisible. Specific USPs ("1-Hour Response — 200+ Kampala Clients — Free Quote") win.
-
-**Features vs benefits (Geddes):**
-- Features describe what the product is: "5,000-litre storage tank", "ISO-certified cleaning products"
-- Benefits describe what it does for the customer: "Never run out of water", "Safe for your family and pets"
-- Match to buying stage: features for comparison-stage searchers; benefits for awareness-stage; both for purchase-stage
-
-**Ad writing best practices (Geddes):**
-- Match ad copy tightly to the keyword that triggered it
-- Use sentence case or Title Case (not ALL CAPS — disapproved)
-- Include the geographic location in ads for local businesses
-- Add a price or offer if competitive (reduces unqualified clicks)
-- Include a clear, specific CTA: "Get Free Quote", "Call Now", "Order Today", "Book Online"
-- Avoid jargon for awareness-stage keywords; use it for expert/purchase-stage keywords
-- Test 2–3 ads per ad group; rotate to find the highest-converting version
+Thresholds are rules of thumb; check current platform guidance.
 
----
+### Impression share
+Search impression share is the percentage of eligible impressions received. Low share (below about 60 percent) means either lost share to budget (raise budget or lower bids) or lost share to rank (improve Quality Score or raise bids).
 
-## Landing Pages: The Make-or-Break Element
+### Conversion tracking (non-negotiable)
+Without it you see only clicks and costs. Track phone-call clicks, WhatsApp button clicks, form submissions, purchases, direction requests and email clicks. Link web analytics to the ad account and import conversion events so automated bidding and full attribution work.
 
-**The landing page must continue the conversation the ad started (Geddes):**
-> "Your ad copy is the only information the searcher has about your website before clicking. Your landing page must immediately confirm that they made the right choice in clicking."
+## 9. Budget framework and cost drivers
 
-If the searcher lands on a page that does not match their expectation set by the ad, they click the Back button. You paid for the click; they leave with nothing.
+Tiers: testing (small daily spend, data collection), growth (enough data to optimise, first profitable conversions), scaling (automated bidding on proven campaigns). Size each tier as daily spend x 30 days, and stage-gate the move up on cost per conversion.
 
-**Landing page requirements (Geddes):**
-1. **Relevance:** Page content must directly address the search query and ad headline. If the ad said "Office Cleaning Kampala", the landing page must be about office cleaning in Kampala — not a generic homepage.
-2. **Transparency:** Any claim made in the ad (free quote, same-day service, certified) must be substantiated on the landing page.
-3. **Navigability:** Provide links to Home, About, Contact, and relevant product pages. Searchers who do not convert immediately should be able to explore.
-4. **Speed:** Google measures landing page load speed. Pages loading in 5+ seconds on mobile lose both Quality Score and conversions.
-5. **Mobile optimisation:** All EA traffic is predominantly mobile. Landing pages must display correctly on Android smartphones at all screen sizes.
-6. **No intrusive pop-ups:** Exit pop-ups and load pop-ups are a policy violation and reduce Quality Score.
-7. **Clear single CTA:** Every landing page must have one primary call to action (fill in form / call this number / send WhatsApp message).
+Cost per click depends on competition, Quality Score and sector: professional services and local trades usually cost more than food and retail. Obtain estimates from the keyword planner for the target city and label them as dated planning assumptions.
 
-**Landing page ≠ Homepage:** The homepage is for people who already know your business. Searchers arrive with a specific question. Send them to the page that answers that specific question directly.
+## 10. Business profile versus paid search
 
-**EA landing page considerations:**
-- WhatsApp CTA button is more effective than a contact form for many EA businesses (instant response, familiar channel)
-- Mobile money payment integration on landing pages for direct purchase journeys
-- Page must load in under 3 seconds on 3G/4G (compress images; avoid heavy JavaScript)
+| | Google Business Profile | Search ads |
+|---|---|---|
+| Cost | Free | Pay per click |
+| Placement | Maps and "near me" | Top of results |
+| Control | Limited (photos, reviews, hours, posts) | Full creative control |
+| Best for | Local discovery, credibility | Immediate targeted acquisition |
+| Priority | First | Second |
 
----
+Order of work: claim and optimise the profile; generate reviews; then launch search ads on purchase-intent keywords.
 
-## Bidding Strategy
+## 11. Weekly optimisation routine
 
-**Cost Per Click (CPC) — the default starting point:**
-- You pay only when someone clicks your ad; impressions are free
-- Set a Maximum CPC per keyword — the most you are willing to pay per click
-- Actual CPC charged is typically lower (1 cent above the next-highest bidder's Ad Rank ÷ your QS)
+1. Read the search terms report: add winning queries as exact keywords, add irrelevant ones as negatives; note how customers describe their problem.
+2. Review Quality Scores; restructure groups scoring 1 to 5.
+3. Check impression share for budget or rank problems.
+4. Pause the lowest click-through ad in each group; test a replacement.
+5. Check conversion data and adjust bids toward keywords that convert.
 
-**Bidding options progression (Geddes):**
+## 12. Plan-section prompts
 
-| Bidding Type | How It Works | When to Use |
-|-------------|-------------|-------------|
-| **Manual CPC** | You set bids per keyword | Starting out; learning which keywords convert |
-| **Enhanced CPC** | Google adjusts your manual bids up or down based on conversion likelihood | Once you have 30+ conversions in the account |
-| **Target CPA** | Google optimises all bids to achieve a target cost per conversion | Once you have 50+ conversions/month |
-| **Maximise Conversions** | Google spends your budget to maximise total conversions | Once conversion tracking is solid |
-| **Target ROAS** | Google optimises toward a revenue return target | eCommerce with variable product prices |
+- Which purchase-intent keywords will be bid on, and what is the expected cost per click and conversion rate?
+- What is the maximum affordable cost per acquisition given margin and lifetime value?
+- Which landing page serves each ad group?
+- How are conversions tracked and who reviews the search terms report weekly?
 
-**Starting recommendation for EA SMEs:** Use Manual CPC for the first 30–60 days. This teaches you which keywords, ads, and times of day actually convert. Switch to Target CPA only after accumulating sufficient conversion data.
-
-**Impression Share — diagnosing visibility problems (Geddes):**
-- **Search Impression Share** = % of eligible impressions your ads actually received
-- Below 60%: you are not showing often enough; either raise bids or improve Quality Score
-- **Lost IS (Budget)**: ads not shown because daily budget was exhausted → raise budget or lower bids
-- **Lost IS (Rank)**: ads not shown because Quality Score or bid too low → improve QS or raise bids
-
----
-
-## Conversion Tracking: Non-Negotiable
-
-**Without conversion tracking, you are flying blind (Geddes):** You cannot know which keywords, ads, or landing pages generate actual customers. You can only see clicks and costs — never enough to optimise.
-
-**Conversions to track for EA businesses:**
-- Phone call click (click-to-call button)
-- WhatsApp button click (tracked as a goal in Google Analytics 4)
-- Form submission / enquiry form
-- Product purchase (eCommerce)
-- Direction request (Google Maps)
-- Email click
-
-**GA4 + Google Ads integration:** Link Google Analytics 4 to Google Ads. Import GA4 conversion events as Google Ads conversions. This enables bidding strategies (Target CPA) and full attribution reporting.
-
----
-
-## Google Ads vs Google Business Profile: Critical Distinction
-
-Many EA businesses confuse these two Google products:
-
-| Feature | Google Business Profile (GBP) | Google Search Ads |
-|---------|-------------------------------|------------------|
-| **Cost** | Free | Pay per click |
-| **Placement** | Google Maps + "near me" searches | Top of Google Search results |
-| **Control** | Limited (photos, reviews, hours, posts) | Full creative control |
-| **When shown** | When Google determines local intent | When your keywords match |
-| **Best for** | Local discovery; building credibility | Targeted, immediate customer acquisition |
-| **Setup priority** | First — do this before running any ads | Second — complements GBP |
-
-**EA priority order:**
-1. Claim and optimise Google Business Profile (free; highest-impact for local search)
-2. Generate Google reviews (ranking signal for both Maps and Ads)
-3. Launch Google Search Ads targeting purchase-intent keywords in your city
-
----
-
-## Dynamic Keyword Insertion (Advanced)
-
-When your ad contains `{KeyWord:Default Text}`, Google automatically inserts the triggering keyword into the ad headline. This increases ad relevance to the search query, improving CTR and Quality Score.
-
-**Example:** Keyword in account = "water filter", searcher types "ceramic water filter Kampala", ad headline becomes "Ceramic Water Filter Kampala" automatically.
-
-**Use with caution:** Only in tightly themed ad groups where the inserted keyword will always make grammatical sense and is appropriate for all keyword variations in the group.
-
----
-
-## Google Ads Budget Framework for EA SMEs
-
-| Budget Tier | Daily Spend | Monthly | What to Expect |
-|------------|-----------|---------|---------------|
-| **Testing (seed)** | UGX 25,000–50,000 ($7–$14) | UGX 750,000–1.5M | Data collection; identify converting keywords; not yet optimised |
-| **Growth** | UGX 75,000–150,000 ($20–$40) | UGX 2.3M–4.5M | Enough data to optimise; expect first profitable conversions |
-| **Scaling** | UGX 200,000–500,000 ($55–$135) | UGX 6M–15M | Target CPA bidding; proven campaign; scale profitably |
-
-**EA cost-per-click benchmarks (estimates for Uganda, 2026):**
-- Local services (cleaning, plumbing, construction): UGX 1,500–5,000/click
-- Food and restaurant: UGX 500–2,000/click
-- Professional services (accounting, legal, consulting): UGX 3,000–10,000/click
-- Retail / eCommerce: UGX 800–3,000/click
-
-*Note: CPC varies by competition level and Quality Score. Higher Quality Score = lower actual CPC for the same position.*
-
----
-
-## Search Terms Report: The Most Valuable Report in Google Ads
-
-The Search Terms report shows the actual search queries that triggered your ads — not just the keywords you bid on. This reveals:
-- Winning queries to add as exact match keywords
-- Irrelevant queries to add as negatives
-- New keyword ideas you had not considered
-- Insights into how customers actually describe their problem
-
-**Weekly optimisation routine:**
-1. Check Search Terms report — add performing queries as keywords; add irrelevant terms as negatives
-2. Review Quality Scores by keyword — identify QS 1–5 keywords for ad group restructuring
-3. Check Impression Share — identify budget or rank issues
-4. Review ad performance — pause the lowest CTR ad in each ad group; test a replacement
-5. Check conversion data — adjust bids based on which keywords actually convert
-
----
-
-## Source Notes
-
-- Geddes, B. (2014) *Advanced Google AdWords*, 3rd Edition. Indianapolis, IN: Wiley/Sybex.
-- Note: Google Ads interface has evolved significantly since 2014 (Google rebranded AdWords to Google Ads in 2018; expanded text ads replaced by responsive search ads; Smart Bidding automated strategies improved). Core principles of Quality Score, buying funnel matching, keyword structure, landing page quality, and ad copy relevance remain unchanged and are confirmed by current Google Ads documentation.
-- EA-specific budget figures, UGX conversions, and local applications are this project's additions.
-- For current Google Ads interface guidance, refer to Google Ads Help Centre (support.google.com/google-ads).
+Sources consulted: Geddes, B., Advanced Google AdWords, 3rd ed. (2014), with current Google Ads documentation to be consulted for interface and policy changes.

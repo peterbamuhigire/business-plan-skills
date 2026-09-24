@@ -1,555 +1,201 @@
 ---
 name: market-sizing-methodology
-description: Advanced market sizing methodology covering TAM/SAM/SOM definitions, market boundary principles, 12 failure modes, top-down and bottom-up methodologies, data collection (secondary sources, primary research, proxy indicators), three-lens triangulation framework, driver trees, sensitivity stress-testing, OOM sanity checks, and communicating market sizing to investors. Source: Umbrex Consulting LLC Market Sizing Playbook (2025).
+description: Task reference for sizing a market in a business plan - TAM, SAM and SOM definitions, market-boundary rules, common failure modes, top-down, bottom-up and supply-side methods, data collection and proxies, three-lens triangulation, driver trees, sensitivity and scenario testing, order-of-magnitude checks, emerging-market sizing, and how to present the result to investors.
 type: reference
 ---
 
-# Market Sizing Playbook
-**Source:** Umbrex Consulting LLC, *Market Sizing Playbook* (Umbrex, 2025, ISBN 978-1-968040-37-6). 193 pages. Practitioner playbook building on hundreds of McKinsey and independent consulting engagements.
+# Market Sizing Method for Business Plans
 
----
+Use this reference to size a market defensibly and present it. Sizing translates vision into evidence: it tells investors whether the prize justifies the capital, management where to prioritise, and founders whether the business can reach meaningful scale. Three contexts demand rigour: investment or acquisition, strategic planning (allocating research, sales and marketing effort) and operational planning (revenue potential and targets). The structure below is the engine's own; concepts such as TAM, SAM, SOM, driver trees, tornado charts, Monte Carlo simulation, S-curves and the Pyramid Principle are standard practice. See also estimation-trees-and-sanity-checks.md in this folder.
 
-## Chapter 1 — Foundations of Market Sizing
+All local statistics quoted in section 12 are anchors that must be re-verified with a dated source.
 
-### Why Market Sizing Matters
-Market sizing translates vision into evidence. It tells investors whether the opportunity is worth the capital, tells management where to prioritise, and tells founders whether the business can ever achieve meaningful scale. Three contexts demand rigorous sizing:
-- **Investment/M&A:** Confirming the prize justifies capital commitment
-- **Strategic planning:** Allocating R&D, sales, and marketing resources across opportunities
-- **Operational planning:** Forecasting revenue potential and setting realistic targets
+## 1. Definitions
 
-### Essential Definitions
+A market is the set of transactions in which a defined customer group buys a defined solution for a defined need. Three guardrails: product or service scope (what is in versus adjacent), customer scope (who buys or could buy), substitutability (if buyers can weigh two offers against the same need, both belong in the market).
 
-**Market** — The set of economic transactions in which a defined customer group buys a defined solution to satisfy a defined need. Three guardrails: product/service scope (what is in vs. adjacent), customer scope (who buys or could buy), and substitutability (if buyers can weigh two offerings against the same need, both belong in the market).
+| Layer | Definition | Question | Use |
+|---|---|---|---|
+| TAM (total addressable market) | Revenue if every potential buyer adopted at today's average economics: no competition, perfect penetration | How large is the theoretical ceiling? | Benchmark ambition |
+| SAM (serviceable available market) | TAM filtered by what your model can serve: products you can make, places you can reach, segments you can credibly serve | What could we structurally compete for? | Entry priority, resource allocation |
+| SOM (serviceable obtainable market) | Realistic capture of SAM within the planning horizon given competition and capacity | What can we actually win? | Revenue targets, investor forecasts |
+| Share | Current position against TAM, SAM or SOM (always name the denominator) | Where are we today? | Benchmarking |
 
-| Layer | Definition | Key Question | Practical Use |
-|-------|-----------|-------------|---------------|
-| **TAM** (Total Addressable Market) | Revenue if every potential buyer adopted at today's average economics — perfect penetration, no competition | "How big is the theoretical ceiling?" | Benchmark ambition; size the prize |
-| **SAM** (Serviceable Available Market) | TAM filtered through your business model — products you can make, geographies you can reach, segments you can credibly serve | "What portion could we structurally compete for?" | Entry prioritisation; resource allocation |
-| **SOM** (Serviceable Obtainable Market) | Realistic share of SAM captureable within strategic planning horizon given competition and capacity | "What can we actually win?" | Revenue targets; investor forecasts |
-| **Share** | Current position in % terms against TAM, SAM, or SOM (always declare the denominator) | "Where are we today?" | Competitive benchmarking |
+Funnel: TAM, then SAM, then SOM, then share. State the hierarchy: a 20 percent share of SAM may be only 5 percent of TAM; naming the denominator prevents flattering comparisons.
+TAM tips: say whether it is value (currency spent) or volume (units, tonnes); time-stamp it (for example "TAM 2025F"); disclose exchange-rate assumptions when combining geographies.
+SAM scoping: regulatory limits (licences, tariffs), channel reach (direct sales versus distributors), technology readiness.
+SOM quantification: bottom-up capacity or sales-coverage modelling, win-loss rates applied to the SAM pipeline, sensitivity to price elasticity and competitor moves.
 
-**The funnel:** TAM (theoretical boundary) → SAM (structurally eligible territory) → SOM (realistically winnable prize) → Share (what you hold today).
+## 2. Setting the market boundary
 
-**State the hierarchy clearly:** A 20% SAM share may equal only 5% of TAM. Clarity prevents the "denominator game" where ambitions look impressive because the wrong pool is cited.
+The boundary is the largest swing factor: too wide inflates the prize, too narrow misses adjacencies. Rules:
+1. Begin with the strategic decision the sizing informs.
+2. Anchor on customer needs, not technology (define "delivery of small parcels within two hours", not "drone logistics").
+3. Apply the substitutability test from the buyer's point of view.
+4. Segment only where economics differ materially (demand drivers, price elasticity or regulation).
+5. Respect geographic detail where growth curves differ; aggregate homogeneous regions.
+6. Match the boundary to available data (trade codes, panels); probe sources early.
+7. Stress-test for scope creep and omission with a regular ring-fence review (what is explicitly in and out, plus blind spots).
+8. Keep it dynamic: list triggers (regulatory decisions, cost milestones, adoption inflections) that would force a redraw.
 
-**TAM tips:**
-- State whether TAM is revenue-based (dollars spent) or volume-based (units, tons, gigabytes)
-- Anchor to an explicit time stamp (e.g., "TAM 2025F")
-- If combining multiple geographies, disclose exchange-rate assumptions
+Diagnostic: can the market be stated in one sentence with need, customer and solution? Has substitutability been tested from the end-user's view? Does each segment move the valuation if its growth diverges? Are there two independent sources per segment? Are exclusions and reasons documented? What would make the boundary obsolete?
 
-**SAM scoping checklist:** Regulatory constraints (licences, tariffs), channel reach (inside sales vs. distributors), technology readiness (product roadmap vs. customer requirements).
+## 3. Twelve failure modes
 
-**SOM quantification:** Bottom-up capacity or sales-coverage modelling; win-loss conversion rates applied to SAM pipeline; sensitivity to price elasticity and competitive moves.
+| Failure | Description | Mitigation |
+|---|---|---|
+| Boundary bloat | Generous definitions inflate the prize | Regular ring-fence review; a devil's advocate |
+| Double counting | Overlapping datasets counted twice | Mutually exclusive hierarchy; pivot check |
+| Single-source dependence | One syndicated report | Triangulate at least three independent lenses |
+| Price-basis mismatch | Wholesale, retail or pre-rebate mixed | One price basis at ingestion |
+| Extrapolating history | Past growth projected, ignoring S-curves | Driver-based forecasts, scenarios |
+| Static elasticity | Constant price sensitivity | Elasticity curves by segment, re-estimated as penetration rises |
+| Demand-supply confusion | Capacity read as demand | Cross-check with purchase orders or surveys |
+| Adoption-friction blindness | Straight line from awareness to purchase | Build adoption lags; test with journey interviews |
+| Primary-research bias | Surveys skew to enthusiasts; experts favour incumbents | Combine usage data, surveys and diverse experts including sceptics |
+| Currency and inflation errors | Nominal and real mixed; FX frozen | Constant-currency real terms; state FX and inflation assumptions |
+| Snapshot trap | One-year TAM hides trends | Show five years of history and five forward |
+| Cannibalisation neglect | New product displaces legacy sales | Model new-category growth and legacy decline together |
 
-### Principles of Sound Market Boundary Definition (8 Principles)
-Drawing the market boundary is the single biggest swing factor in accuracy — too wide inflates the prize, too narrow overlooks adjacencies.
+## 4. Scoping the exercise
 
-1. **Begin with the strategic decision.** A boundary informs a choice. State the decision first (e.g., "whether to enter on-demand drone delivery") — this disciplines the scoping conversation.
+Kick-off questions: what decision will this inform; by when; what exposure and irreversibility attach; what size of error changes the choice (a venture screening decision tolerates a wide band, a utility infrastructure commitment a narrow one); which hypotheses carry the most uncertainty and impact; which three to five drivers anchor the model; what precision, currency and time frame satisfy stakeholders; who holds a veto and are they involved. Plot the decision on exposure versus irreversibility to set analytical depth.
 
-2. **Anchor on the customer's needs, not the technology.** Define as "last-mile delivery of sub-5-pound parcels within 2 hours" not "drone logistics sector" — futures-proofing against technology shifts.
+Success criteria: analytical rigour (audit trail), stakeholder buy-in (assumption register initialled), timeliness (before the decision date), actionability (outputs feed the valuation or capital model without reformatting).
 
-3. **Apply the substitutability test.** If a buyer can weigh two offerings against each other for the same need, both belong inside the market. Electric heat pumps and gas boilers compete for residential heating; solar panels and rooftop wind turbines rarely do.
+Granularity: use the minimum viable detail. Segment or localise only when a sub-slice changes the aggregate by about 10 percent or more, or grows at double or half the mean. Segment by how buyers choose, not how data providers classify. Cluster geographies that share regulation or culture and peel off outliers. Convert history to real terms in a common base year and apply purchasing-power adjustment where income differs greatly. Revisit granularity when a region passes about 5 percent of demand or a sub-segment's growth outpaces its parent for two years.
 
-4. **Segment where economics differ materially.** Include sub-segments only when demand drivers, price elasticity, or regulation differ enough to change the sizing math.
+Assumption register: a workshop capturing each explicit assumption with source, owner and last validation date; classify by impact and certainty (high-impact, high-uncertainty items become workstreams); assign accountability (for example finance for the discount rate, strategy for growth, legal for regulatory timing); appoint outsiders as a red team and log how each challenge was answered.
 
-5. **Respect geographic granularity when it alters growth curves.** National borders matter when regulation, infrastructure, or consumer behaviour diverge. In homogeneous regions, aggregate.
+Hypothesis and driver tree: start from a falsifiable statement, decompose into first-principle levers (for example addressable vehicles x charging events x energy per event x price), stop branching when splits stop changing the decision, and turn high-impact uncertain nodes into time-boxed workstreams with owners, checkpoints, independent go or no-go gates and exit criteria (for example an agreed error band at a stated confidence).
 
-6. **Match boundary definition to data availability.** The perfect conceptual boundary is useless if you cannot populate it with numbers. Probe data sources early (trade codes, HS codes, point-of-sale panels).
+## 5. Data collection
 
-7. **Stress-test for scope creep and omission.** Run a weekly "ring-fence review": what is explicitly in, what is explicitly out. Also search for blind spots — niches omitted because outside the team's comfort zone.
+### Secondary sources
+Three families: industry reports (scale, segmentation, growth estimates); government and multilateral data (statistical offices, trade databases, food and agriculture bodies, central-bank surveys: free and longitudinal but often 12 to 24 months behind); trade associations (shipment data, may miss disruptors).
+Four-T screen for every source: Transparency (definitions and method disclosed), Timeliness (in fast sectors, data over a year old is unreliable), Taxonomy (categories match your boundary), Triangulation (an independent source corroborates).
+Normalise to constant currency, consistent units and price levels; keep conversion factors in the workbook. Keep a source log (publication, page or table, location, transformations) linked to cells.
+Creative sources for scarce categories: satellite imagery, scraped product listings, patent databases, shipping-manifest analytics.
+Local sources to screen: national statistics office abstracts, household surveys and census; central-bank reports; revenue-authority reports; investment authority and private-sector foundation reports; regional community statistics; development-bank outlooks; international finance and development institution country studies.
 
-8. **Keep the boundary dynamic.** Build a trigger list — regulatory decisions, cost milestones, adoption-rate inflections — that would force you to redraw the boundary.
+### Primary research
+- Expert interviews: build a knowledge grid of unknowns against archetypes able to answer (former regulators, supply-chain heads, procurement leads); include incumbents, disruptors, service providers and adjacent sectors; offer ranges ("under 10 percent, 10 to 30, over 30") to draw out numbers; offer anonymity; corroborate each insight with two other views; log timestamps against the driver-tree node.
+- Surveys: define the population; size the sample from the precision needed (about 380 responses gives roughly plus or minus 5 points at 95 percent confidence in a large population); one construct per question; ask behaviour (last period's spend) rather than intent; anchored scales; pre-test on about ten respondents; weight to population proportions; remove speeders, straight-liners and improbable outliers.
+- Mystery shopping where price transparency is low: simulate buyer personas and record the full discount ladder; feed dispersion into the pricing module.
 
-**Quick diagnostic checklist:**
-- Can we state the market in one sentence using need, customer, and solution?
-- Have we tested substitutability from the end-user's perspective?
-- Does every included segment move the valuation needle if its growth diverges?
-- Do we have at least two independent data sources for each segment?
-- Have we documented explicit exclusions and the rationale?
-- What events would make this boundary obsolete?
+### Proxy indicators
 
-### Twelve Common Failure Modes and Mitigations
+| Family | Examples | Best for |
+|---|---|---|
+| Digital exhaust | Search volumes, app downloads, social mentions | Consumer interest |
+| Factor inputs | Import and export volumes, raw materials, component order books | Hardware-centred industries |
+| Regulatory artefacts | Licence applications, environmental filings, subsidy lists | Markets with a 12 to 24-month policy lead |
+| Labour signals | Job postings, employee counts | Software and frontier technology |
+| Capital flows | Funding rounds, bond issues, equipment leasing | Pre-revenue signals |
 
-| # | Failure Mode | Description | Mitigation |
-|---|--------------|-------------|-----------|
-| 1 | **Boundary bloat** | Generous definitions inflate prize | Weekly ring-fence review; standing "devil's advocate" |
-| 2 | **Double counting** | Overlapping datasets tallied twice | Map inputs to mutually exclusive hierarchy; pivot check |
-| 3 | **Single-source syndrome** | Relying on one syndicated report | Triangulate ≥3 independent lenses |
-| 4 | **Price-basis mismatch** | Wholesale vs. retail vs. pre-rebate figures mixed | Enforce common price basis at ingest stage |
-| 5 | **Extrapolation compounds error** | Past growth rates projected forward ignoring S-curves | Driver-based forecasting; scenario analysis |
-| 6 | **Static elasticity** | Price sensitivity treated as constant | Layer elasticity curves by segment; re-estimate as penetration climbs |
-| 7 | **Demand–supply confusion** | Capacity-based sizing misread as demand | Cross-check supply-side with purchase-order data or surveys |
-| 8 | **Adoption-friction blindness** | Linear path from awareness to purchase assumed | Build "time-to-adopt" lags; validate with customer journey interviews |
-| 9 | **Primary-research bias** | Surveys skew to enthusiasts; expert panels favour incumbents | Balance: telemetry + surveys + diverse expert pools including sceptics |
-| 10 | **Currency and inflation oversights** | Nominal vs. real figures mixed; FX frozen | Convert to constant-currency real terms; state forward FX and inflation assumptions |
-| 11 | **Snapshot trap** | Single-year TAM snapshot hides secular shifts | Show 5-year history + 5-year forward series |
-| 12 | **Cannibalisaton neglect** | New product displacing legacy offerings not modelled | Forecast new category growth AND corresponding legacy decline |
+Proxy procedure: define the latent variable (a driver-tree node); hypothesise candidate signals; back-test correlation (an R-squared above about 0.6 at useful lags justifies use); calibrate scaling to market units; stress-test for outliers, seasonality and structural breaks. Separate leading from lagging proxies and pair quantitative analogues with a qualitative sanity check.
+Analogue benchmarks: technology adoption S-curves, cost-performance learning curves (cost falls with cumulative production), channel evolution across categories, business-model migration.
 
----
+### Reliability and triangulation
+Score sources 1 to 5 on transparency, timeliness, taxonomy fit, triangulability and track record; inputs scoring 3 or less need triangulation or replacement. Convert reliability to weights (inverse-variance or proportional) and document the formula; do not pick a source unilaterally unless it leads by at least two points. Triangulate by orthogonality: sources differ by method (supply versus demand), data type or vantage point; if two lenses share a dataset they are not independent. Gap management: log nodes lacking data; rank by sensitivity x size share; fill high-materiality gaps first; for irreducible uncertainty use a pessimistic floor (historical precedent), reference case (expert consensus) and optimistic ceiling (technology-learning extrapolation).
 
-## Chapter 2 — Scoping and Framing
+## 6. Top-down sizing
 
-### Clarifying the Business Question
-Every sizing exercise exists to inform a choice. Distil the single decisive question whose answer unlocks action before building any model.
+Start with a macro or industry figure and apply filters. Strengths: vetted data, speed, early signal. Use when reliable high-level statistics exist, the boundary nests inside statistical categories and about plus or minus 20 percent accuracy suffices for a first gate. Cautions: fast technology change (statistics lag), fragmented or informal sectors (under-registration), more than about four sequential filters (prefer bottom-up).
+Components: base metric closely correlated with the target market; evidence-based filter ratios, each triangulated; translation to value (units x average selling price); time-series extension (growth drivers).
+Steps: (1) choose the base, verified in two sources; (2) geographic filter; (3) segment filter; (4) product specificity filter; (5) usage or penetration filter; (6) multiply by price for revenue TAM; (7) apply SAM and SOM filters; (8) order-of-magnitude check.
+Data gaps: proxies for missing ratios; make a dominant ratio a scenario variable; document assumptions, since investors scrutinise the filters, not the base.
 
-**Eight-question kickoff drill:**
-1. What exact decision will this sizing inform?
-2. By when must that decision be made?
-3. What financial exposure and irreversibility are attached?
-4. What magnitude difference changes the choice? (venture fund ±50% tolerance vs. utility committing $2B grid-scale batteries needing ±5%)
-5. What hypotheses carry the most uncertainty and impact?
-6. Which 3–5 value drivers should anchor the model?
-7. What precision, currency, and time frame satisfy stakeholders?
-8. Who holds veto power, and are they in the room?
+## 7. Bottom-up sizing
 
-**Map decision horizon and risk tolerance:** Plot the decision on a two-axis matrix — financial exposure vs. irreversibility — to calibrate depth of analysis required.
+Count buyers, multiply by revenue per buyer, adjust for adoption. More granular and defensible, needs more data. Best when the customer population can be enumerated, sales capacity constrains the market or unit economics are known from early customers.
+Formula: addressable customers x win rate x average contract or revenue value = SOM.
+Steps: (1) define the population by ideal-customer criteria; (2) estimate size from census, trade directories, research, professional networks or web scraping; (3) segment by tier with separate conversion rates; (4) estimate revenue per tier from early customers or comparable prices; (5) apply realistic conversion from pipeline data or benchmarks; (6) stress-test against capacity to serve; (7) sum tiers to SOM and gross up to SAM with a penetration assumption.
+Penetration: use a defensible first-year rate (often a small fraction of SAM to low single digits for early-stage firms), an S-curve for years two to five, tie it to sales capacity (reps x activity x conversion), and check unit economics (if payback exceeds contract length, SOM is unsustainable).
 
-**Define success criteria in four buckets:**
-- Analytical rigour — model audit trail passes internal control checks
-- Stakeholder buy-in — all signatories initial the Assumption Register
-- Timeliness — insights delivered before the investment committee date
-- Actionability — outputs feed directly into valuation or capital-allocation model without reformatting
+SOM reasonableness (rule-of-thumb, years one to three):
 
-### Setting Market Granularity and Geographic Scope
-Objective: "minimum viable granularity" — the fewest segments and regions that still move the decision needle.
+| Stage | SOM as share of SAM | Justification |
+|---|---|---|
+| Start-up, no traction | About 1 to 3 percent | Strong support if reached |
+| Early revenue, some traction | About 3 to 8 percent | Capacity proof |
+| Established brand, new market | About 8 to 15 percent | Competitive analysis |
+| Above 20 percent | Extraordinary claim | Exceptional justification |
 
-**Practical rule of thumb:** Segment or localise only when a sub-slice changes the aggregate forecast by ≥10%, or exhibits a growth rate 2× above or below the mean.
+## 8. Supply-side sizing
 
-**Customer-driven segmentation hierarchy:** Start with how buyers make choices (not how data sources classify products). If purchase criteria differ more by enterprise size than by industry, lead with firmographic tiers.
+Use when demand data is unreliable or the market is supply-constrained, or to cross-check demand. Steps: map the value chain; build a plant-level capacity roster; apply derating (construction slippage, ramp-up, downtime); forecast utilisation against demand; translate shipments to revenue with price and learning-curve adjustments; reconcile with input-output and bills of materials to find material bottlenecks (can a single input cap growth?); apply scrap and reject rates (high-tech manufacturing often runs at several percent to about ten percent; verify); produce scenario bands.
 
-**Geographic clustering approach ("cluster and peel"):** Start broad; peel off outliers whose drivers break from cluster average. Countries sharing regulatory regimes (e.g., EU CE-marked medical devices) or consumer culture can be treated as one unit.
+## 9. Hybrid triangulation and sanity checks
 
-**Exchange-rate and PPP harmonisation:** Convert historical figures to real terms in a common base year. For purchasing-power-sensitive products, apply PPP adjustments (a $299 smartphone targets separate income tertiles in Uganda vs. Germany).
+| Lens | Orientation | Strength | Bias | Output |
+|---|---|---|---|---|
+| Top-down | Aggregates, ratios | Speed, cross-geography consistency | Over-generalisation, ratio stacking | TAM range, growth, segment splits |
+| Bottom-up | Unit census, adoption | Granularity, actionability | Data gaps, false precision | SAM, SOM, account lists, targets |
+| Expert judgement | Tacit knowledge | Context, early signals | Subjectivity, recency | Modal estimates, probability ranges |
 
-**When to revisit granularity:** When a new region exceeds 5% of global demand, or when a sub-segment's CAGR outpaces the parent by 3× for two consecutive years.
+Workflow: (1) start all three in week one; (2) separate owners; (3) if any estimate sits more than about 30 percent from the median, find the root cause; (4) check driver coherence, not just totals; (5) convert each lens to P10, P50 and P90 and blend by reliability weights; (6) anchor scenarios (blended P50 base, expert P10 downside, the maximum of lenses as upside); (7) record reconciled drivers and weights in a triangulation tab. Guardrails: keep independence, take blind initial estimates before discussion (anchoring), update all lenses together.
 
-### Stakeholder Alignment on Assumptions
+Order-of-magnitude checks:
+- Constants: world population, hours per year (8,760), global output (1 percent is roughly a trillion currency units at current scale; verify), container capacity, typical battery-pack size, smartphone penetration ceilings.
+- Heuristics: consumption ratios to income per head (share of household outlays by category); penetration ceilings (vehicles per licensed driver, smartphones per adult); capacity factors below 100 percent; replacement volumes rarely above about 1 percent of the installed base absent regulation; the 80-20 pattern (if half of revenue depends on the bottom decile of products, re-examine behaviour evidence); consistent currency basis.
+- Ten-minute audit: state the claim in a sentence; rebuild it from one dominant driver; cross-check with an independent anchor (for example a scarce raw-material supply that limits the claimed volume). If the two differ by a large multiple, investigate.
 
-**Assumption Register:** Host a half-day workshop with all primary stakeholders. Capture explicit statements ("Average selling price declines 5% per year"; "Regulatory clearance by Q4 2026") in an Assumption Register with source, owner, and last validation date.
+## 10. Driver trees, sensitivity and scenarios
 
-**Classify by impact × certainty (2×2 matrix):** High-impact, high-uncertainty assumptions become dedicated workstreams. Low-impact, low-uncertainty items ride on secondary data.
+Driver tree: decision variable (TAM, SAM or revenue) at the right; decompose leftwards into mutually exclusive, collectively exhaustive drivers; stop when splits no longer change the decision (usually three to four layers). Principles: economic causality over data convenience, segment symmetry, leaf granularity matching data.
 
-**RACI for assumptions:** Finance VP accountable for discount rate; strategy lead responsible for market growth rates; legal counsel consulted on regulatory timing.
+Sensitivity in three stages:
+1. One-way deltas (tornado chart): vary each driver about 10 to 25 percent; the top three usually explain most variance.
+2. Two-way data tables for the top two drivers to reveal interactions.
+3. Monte Carlo simulation: probability distributions (triangular from expert min, mode and max; beta for ceilings; log-normal for commodity prices); at least several thousand runs; report P10, P50 and P90, not just the mean.
+Stress triggers: regulatory shifts as step changes; supply constraints capping volume; competitor shocks at price thresholds. If one driver explains most variance, the market question is really a bet on it; say so. Failure modes: too many drivers (about a dozen bars at most), uniform distributions for everything, unlinked scenario toggles that permit impossible worlds.
 
-**Red teams:** Assign 2 outsiders to challenge core assumptions, hunt blind spots, propose alternative scenarios. Document how each challenge was addressed — this bolsters credibility with investors.
+Scenario planning: use when a point forecast misleads; define three or four scenarios along two key uncertainties, internally consistent, with probabilities; present P50 as base with the range.
+Geospatial mapping: for physical presence businesses (retail, distribution, last mile), match demographic and economic data to geographic units and rank expansion sites by market density.
+Adoption curve (Rogers): innovators about 2.5 percent, early adopters about 13.5, early majority about 34, late majority about 34, laggards about 16. Confine early SOM to innovators plus early adopters (about 16 percent of SAM at most) unless there is a credible strategy for crossing to the majority. Match S-curve analogues on cost-to-income ratios and regulatory context before importing parameters.
 
-### Drafting the Initial Hypothesis and Workplan
-Start with a falsifiable statement: "The U.S. DC-fast charging market will exceed $4 billion in revenue by 2030, driven primarily by fleet electrification." — not "EV charging is a big opportunity."
+## 11. Emerging or unstructured markets
 
-**Driver tree construction:**
-- Decompose hypothesis into first-principle levers: number of addressable vehicles × annual charge events × kWh per event × price per kWh
-- Continue branching until further splits no longer change the decision
-- Only expand branches that cross the materiality threshold
+1. Define the job to be done.
+2. Map incumbent "good enough" solutions.
+3. Estimate the incumbent market (the displacement target).
+4. Model the substitution rate and pace.
+5. Add net-new demand the solution enables.
+Identify the regulatory event or technology threshold that unlocks mainstream adoption, size the market conditional on it (scenario-weighted), track trigger probability and update quarterly.
 
-**Hypothesis workplan discipline:**
-- Convert each high-impact, high-uncertainty node into a time-boxed workstream with owner and timeline
-- Structure in one-week sprints ending with a hypothesis checkpoint
-- Embed verification milestones (go/no-go gates with independent reviewers)
-- Define exit criteria: hypothesis "closed" when confidence exceeds pre-agreed threshold (e.g., ±15% at 80% certainty)
+## 12. Local sizing in East Africa
 
----
+- Data scarcity is common; use proxies extensively.
+- Mobile-money transaction data is an excellent proxy for financial-market size.
+- Household surveys give income-quintile and expenditure data for consumer markets; agricultural censuses give production volumes to convert to value with farm-gate prices; building permits plus population growth plus a housing-deficit estimate suit property.
+- Informal-sector adjustment: informal activity is a large share of the economy; adding a sizeable uplift (an older rule of thumb is roughly a quarter to two fifths) to formal-sector estimates is common; verify with current national statistics.
+- Anchors to refresh before use (national population and census, urban share, working-age population, capital-city population, mobile-money accounts, internet penetration, banked share, annual labour-force entrants): take from the latest census, regulator and financial-inclusion survey and date them.
 
-## Chapter 3 — Data Collection Playbook
+| Market | Approach | Primary data |
+|---|---|---|
+| Consumer goods | Top-down from household expenditure | Household survey, census |
+| Business services | Bottom-up from a company census | Investment authority and private-sector directories |
+| Agricultural inputs | Supply-side from crop production | Agricultural census, ministry data |
+| Financial services | Proxy from mobile-money penetration | Central-bank stability report |
+| Healthcare | Disease burden and out-of-pocket spend | Health ministry, health survey |
+| Real estate | Bottom-up from housing deficit | Housing agency, permits |
 
-### Secondary-Source Mining
+Consumer template (illustrative structure; all inputs to be sourced):
+- TAM = population x penetration x average annual spend.
+- SAM = urban or accessible-income population x share in the accessible band x spend.
+- SOM (years one to three) = reachable customers x conversion rate x average order value.
+Use a conservative, stated exchange rate for currency conversion (see the engine's planning-rate convention in its controller file) and tax treatment via the Chwezi finance engine.
 
-**Three-pillar source universe:**
-1. **Industry reports** — Gartner, IDC, Euromonitor, Wood Mackenzie, niche boutiques (scale comparisons, segmentation, CAGR estimates)
-2. **Government and multilateral data** — Statistical agencies (UBOS for Uganda, KNBS for Kenya, NBS for Tanzania), UN Comtrade, EIA, FAO, central-bank surveys (free, transparent, longitudinal — but lag 12–24 months)
-3. **Trade associations** — Sector-specific shipment figures, but may under-report disruptor segments
+## 13. Communicating the result
 
-**4T quality screen (apply to every source):**
-| Criterion | Question |
-|-----------|---------|
-| **Transparency** | Does the publisher disclose definitions and methodology? |
-| **Timeliness** | How recently was the data collected? (Fast-moving sectors: >12 months = unreliable) |
-| **Taxonomy** | Are product and customer categories aligned with your market boundary? |
-| **Triangulation** | Can at least one independent source corroborate the figure? |
+- Charts: sorted bars for segments; waterfall for the TAM to SAM to SOM funnel (show where each filter cuts); line or area charts for growth; tornado for sensitivity; stacked bars for share over time. Avoid 3D; label points; state currency, year and price basis on every chart.
+- Storyline (Pyramid Principle by Minto; situation, complication, question, answer; see 01-executive-summary/references/pyramid-principle.md): situation (the market size and growth), complication (current players under-serve a segment), question (how large is the gap and can we capture it), answer (the SOM by year three as a share of SAM).
+- Investor questions: is the market real and growing (TAM, growth, sources)? Can you credibly compete for a meaningful slice (SAM filters, SOM justification)? What must be true for it to work (sensitivity, scenarios)?
+- In the plan: TAM, SAM and SOM in the market-analysis section with method; SOM feeding the financial model's revenue assumptions; upside, base and downside visible; every figure sourced; dual method (top-down and bottom-up) reconciled.
 
-**Normalise and reconcile:** Translate all data to a common basis — constant-currency, real terms; consistent unit measures; identical price levels. Store conversion factors in the workbook.
+## 14. Readiness checklist
 
-**Source Log:** One line per unique figure — publication name, page/table reference, download location, transformations applied. Link cells to the log via comments. This audit trail speeds red-team reviews and protects you under investor scrutiny.
+Boundary with explicit in and out criteria; TAM, SAM and SOM distinguished with denominators; at least two independent methods; assumption register with owners; at least one red-team challenge logged; sources cited with four-T scores; sensitivity to the top three drivers quantified; scenarios linked to driver assumptions; output in a decision-ready form (chart, narrative, recommended action).
 
-**Creative data sourcing for scarce categories:**
-- Satellite imagery (tracking solar farm build-outs via panel counts)
-- Web-scraped product listings (estimating SKU proliferation on e-commerce sites)
-- Patent databases (proxying R&D pipeline depth by geography)
-- Shipping-manifest analytics (flagging volume shifts before official trade statistics)
-
-**Uganda/EA secondary sources (apply 4T screen):**
-- UBOS Statistical Abstract, National Household Survey, National Population Census 2024
-- Bank of Uganda Monetary Policy Reports, Quarterly Financial Stability Report
-- Uganda Revenue Authority tax compliance reports
-- Uganda Investment Authority (UIA), Private Sector Foundation Uganda (PSFU) reports
-- East African Community statistics, AfDB African Economic Outlook
-- IFC, World Bank Uganda CPSD and sector studies
-
-### Primary Research
-
-**Expert interviews:**
-- Build a knowledge grid: list critical unknowns vs. archetypes best positioned to answer each (former regulators, supply-chain heads, procurement VPs)
-- Cast a balanced net: insiders from incumbents, disruptors, service providers, and adjacent sectors
-- Use ranges ("<10%, 10–30%, >30%") to coax numbers from reluctant experts
-- Offer blind-quote reassurance; cross-check each insight with at least two other perspectives
-- Log transcript timestamps linked to the driver-tree node they inform
-
-**Surveys:**
-- Precisely define target population; calculate sample size from precision requirement (±5pp at 95% confidence in 50,000 population → ~380 responses)
-- Question design rules: one construct per question; behaviour over intent (ask for last-period spend, not future plans); anchored scales
-- Pre-test with 10 respondents; weight results back to population proportions
-- Clean data rigorously: remove speeders, straight-liners, and improbable outliers
-
-**Mystery shopping:** Use to reveal ground truth when price transparency is low (simulate buyer personas, record full price-discount ladder). Integrate price dispersion outputs into model's pricing module.
-
-### Proxy Indicators and Adjacency Benchmarks
-
-**Five proxy indicator families:**
-| Family | Examples | Best For |
-|--------|---------|---------|
-| **Digital exhaust** | Search query volumes, app-store downloads, social media mentions | Consumer interest tracking |
-| **Factor inputs** | Import/export volumes, critical raw materials, component order books | Hardware-centric industries |
-| **Regulatory artifacts** | Licence applications, environmental filings, subsidy grant lists | Markets with 12–24 month policy lead time |
-| **Labour market signals** | Job postings with specialist keywords, LinkedIn employee counts | Software platforms and frontier tech |
-| **Capital flows** | Venture funding rounds, infrastructure bond issuances, equipment leasing | Pre-revenue market signalling |
-
-**Designing a proxy framework:**
-1. Define the latent variable (specific driver-tree node)
-2. Hypothesise candidate signals (measurable phenomena plausibly correlated)
-3. Back-test correlations (R² >0.6 at meaningful lags justifies operational use)
-4. Calibrate scaling factors (translate proxy units to market units)
-5. Stress-test robustness (check sensitivity to outliers, seasonality, structural breaks)
-
-**Adjacency benchmarks (learning from analog markets):**
-- Technology adoption S-curves (smartphones inform smart-watch diffusion)
-- Cost-performance learning curves (Wright's Law: cost decline as function of cumulative production)
-- Channel evolution (e-commerce penetration in apparel foreshadowed furniture patterns)
-- Business-model migration (perpetual license → SaaS mirrors hardware firewalls → security-as-a-service)
-
-**Guardrails:** Always pair quantitative analogs with qualitative sanity checks. Distinguish leading vs. lagging proxies before deploying.
-
-### Data Reliability and Triangulation
-
-**Source Quality Matrix (5 dimensions, 1–5 scale):**
-- Transparency, Timeliness, Taxonomy fit, Triangulability, Track record
-- Inputs scoring ≤3 trigger mandatory triangulation or replacement
-
-**Weighted-average modelling:** Convert reliability scores into weights (inverse-variance or proportional weighting). Document the formula; avoid unilateral source picks unless one source scores ≥2 points above others.
-
-**Triangulation by orthogonality:** Sources must differ along at least one structural dimension — method (supply vs. demand), data type (quant vs. qual), or vantage point (geography, value-chain stage). Convergence suggests robustness; divergence flags deeper investigation.
-
-**Gap management:**
-1. Gap log: list every driver-tree node lacking data or scoring ≤3
-2. Materiality screen: multiply node's sensitivity weight by its size share; fill high-materiality gaps first
-3. Scenario ranges for irreducible uncertainty: pessimistic floor (historical precedent), reference case (expert consensus), optimistic ceiling (technology-learning extrapolation)
-
----
-
-## Chapter 4 — Top-Down Market Sizing
-
-### Conceptual Overview
-Top-down starts at 30,000 feet with a macroeconomic or industry-wide figure, then applies a sequence of filters to isolate the target opportunity.
-
-**Strengths:** Data leverage (macroeconomic databases are vetted by large statistical teams), speed and replicability, early strategic signalling.
-
-**Best used when:** Reliable high-level statistics exist; boundary nests cleanly inside existing statistical categories; decision tolerates ±20% accuracy for initial gating decisions.
-
-**Caution flags:** Rapid technology shifts (statistics lag); fragmented/informal sectors (under-registration in official data); more than four sequential filters (consider bottom-up instead).
-
-### Four Core Components
-1. **Base metric** — Choose a top-level figure tightly correlated with the target market (e.g., global smartphone sales for mobile accessories)
-2. **Filter ratios** — Apply successive percentages along relevant dimensions (geography, customer segment, product subset, usage intensity) — each ratio must be evidence-based and independently triangulated
-3. **Price or value translation** — Multiply resulting unit quantity by average selling price (ASP) or revenue yield to convert volume to dollars
-4. **Time-series extension** — Layer growth drivers (GDP forecasts, penetration curves, regulatory milestones) to project forward
-
-### Step-by-Step Top-Down Build
-1. Select macro base (verify in ≥2 independent sources)
-2. Apply geographic filter (country/region share of global)
-3. Apply segment filter (% of addressable population or spend)
-4. Apply product/service specificity filter (% of segment relevant to exact offering)
-5. Apply usage/penetration filter (% who will actually buy)
-6. Multiply by ASP to get revenue TAM
-7. Apply SAM and SOM filters
-8. Cross-check result with order-of-magnitude sanity test
-
-### Handling Data Gaps in Top-Down Models
-- Use proxy indicators for missing ratios (§3.3 above)
-- When a single ratio dominates outcome, make it a scenario variable (optimistic/base/pessimistic)
-- Document assumptions explicitly — investors focus scrutiny on the filters, not the base metric
-
----
-
-## Chapter 5 — Bottom-Up Market Sizing
-
-### Conceptual Overview
-Bottom-up builds from first principles: count potential buyers, multiply by average revenue, adjust for adoption rates. It is more granular and defensible than top-down but requires more data and analytical effort.
-
-**Best used when:** You can enumerate or estimate the customer population directly; sales-team capacity constrains the achievable market; unit economics are known from early customers.
-
-**Core formula:**
-```
-Number of addressable customers
-× Win rate (conversion assumption)
-× Average contract value / revenue per customer
-= SOM
-```
-
-### Step-by-Step Bottom-Up Build
-1. Define target customer population (who qualifies by ICP criteria)
-2. Estimate population size (census data, trade directories, market research, LinkedIn, web scraping)
-3. Segment population by tier (enterprise, mid-market, SME) with different conversion assumptions
-4. Estimate average contract value per tier (from early customer data or comparable market pricing)
-5. Apply realistic conversion rate per tier (informed by sales pipeline data or industry benchmarks)
-6. Stress-test with capacity constraint (can the team actually service this many customers?)
-7. Sum tiers to get SOM; infer SAM by grossing up with market penetration assumption
-
-### Penetration Rates and Unit Economics
-- Start with a defensible first-year penetration rate (typically 0.1–2% of SAM for early-stage businesses)
-- Model penetration S-curve for years 2–5
-- Tie penetration rate to sales capacity (number of reps × activity rate × conversion rate)
-- Unit economics sanity check: if CAC payback exceeds contract length, the SOM is unsustainable
-
-### SOM Reasonableness Rules (from SKILL.md best practice)
-| Business Stage | SOM as % of SAM (Years 1–3) | Justification Required |
-|---------------|----------------------------|------------------------|
-| Startup, no traction | 1–3% | Strong if achievable |
-| Early revenue, some traction | 3–8% | Needs capacity proof |
-| Established brand, new market | 8–15% | Needs competitive analysis |
-| SOM >20% of SAM | >20% | Extraordinary justification required |
-
----
-
-## Chapter 6 — Value-Chain and Supply-Side Approaches
-
-### When to Use Supply-Side Sizing
-Supply-side approaches size the market from the production/distribution capacity perspective rather than demand. Useful when: demand-side data is unavailable or unreliable; the market is supply-constrained; you want to cross-check demand estimates.
-
-**Method:** Map the value chain → audit production capacity → adjust for utilisation rates, yield losses, and ramp curves → translate to revenue.
-
-### Capacity-Based Sizing Steps
-1. Map the value chain (materials, components, manufacturing, distribution, final product)
-2. Build a plant-level capacity roster by region
-3. Apply derating factors (construction slippage, ramp-up curves, maintenance downtime)
-4. Forecast utilisation vs. demand
-5. Translate shipments to revenue via ASP and learning-curve adjustments
-6. Run input-output and bill-of-materials (BOM) reconciliation (identify material bottlenecks)
-7. Produce scenario and sensitivity bands
-
-**Bill of Materials (BOM) considerations:**
-- Identify critical material constraints (can a single input limit production growth?)
-- Apply scrap and reject rates (typically 8–10% for high-tech manufacturing)
-- Cross-check supply adequacy against sourcing plans
-
----
-
-## Chapter 7 — Hybrid, Triangulation, and Sanity Checks
-
-### Three-Lens Triangulation Framework
-
-| Lens | Orientation | Strengths | Primary Bias | Key Outputs |
-|------|------------|----------|-------------|-------------|
-| **Top-Down** | Macro aggregates → ratios → target | Speed; consistency across geographies | Over-generalisation; ratio stacking error | TAM range, CAGR, high-level segment splits |
-| **Bottom-Up** | Unit census → adoption → economics | Granularity; actionability | Data gaps; over-precision illusion | SAM, SOM, account lists, sales targets |
-| **Expert/Judgment** | Tacit knowledge → forward-looking insight | Context; disruptor early signals | Subjectivity; recency bias | Mode estimates, probability ranges |
-
-**Framework workflow:**
-1. **Parallel builds** — Start all three lenses in week 1 (they inform each other)
-2. **Independent ownership** — Assign separate owners to prevent unconscious convergence
-3. **First reconciliation gate** — If any estimate sits >30% from the median, trigger root-cause deep dive
-4. **Driver coherence table** — Even when totals align, verify underlying drivers converge across lenses
-5. **Weighted synthesis** — Convert each lens to probability distribution (P10/P50/P90); blend using reliability weights
-6. **Scenario anchoring** — Blended P50 = base case; expert P10 = downside; maximum of lenses = upside
-7. **Documentation** — Store reconciled driver tables and weighting logic in a "Triangulation" tab
-
-**Guardrails:**
-- Maintain orthogonality (if two lenses share the same dataset, they are not independent)
-- Schedule blind initial estimates before team discussions (combat anchoring)
-- Update all three lenses simultaneously when new data arrives
-
-### Order-of-Magnitude (OOM) Checks — Heuristics
-
-**Universal constants for quick checks:**
-- World population: 8 billion
-- Hours per year: 8,760
-- Global GDP 2024: ~$105 trillion (1% ≈ $1 trillion)
-- Standard 40-foot container: ~67 m³, ~28 pallets, 14t payload
-- Standard EV battery pack: ~60 kWh
-- Smartphone penetration ceiling: ~85–90% of adults in any large market
-
-**Core heuristics:**
-1. **GDP/consumption ratios** — Most mature B2C categories hover within predictable multiples of GDP per capita (packaged food ≈9% of household outlays in OECD; personal care ≈1%)
-2. **Penetration ceiling rules** — Physical constraints cap uptake (passenger vehicles per licensed driver rarely exceed 1.3; smartphone penetration stalls ~85–90%)
-3. **Capacity factor bounds** — Power plants cannot run above 100% capacity; electro-mechanical systems rarely average >90%
-4. **"Rule of 1% of the fleet"** — Annual replacement volumes for aftermarket opportunities rarely exceed 1% of total fleet absent regulation
-5. **Power-law / 80-20 signs** — Top 20% of SKUs typically deliver 80% of volume; if a model counts on bottom decile for half the revenue, revisit consumer behaviour evidence
-6. **Currency basis consistency** — Cross-check euro-to-dollar conversions immediately; FX errors commonly embed in models
-
-**10-minute OOM audit workflow:**
-1. State the claim in one sentence ("The 2030 EV battery market is $244 billion")
-2. Pick a dominant driver (e.g., 75 million global vehicle sales × 40% EV share × 60 kWh/vehicle × $60/kWh ≈ $108 billion — far below $244B, deeper scrutiny required)
-3. Cross-reference with an alternative anchor (e.g., cobalt supply: global mined ~200kt; at 6kg/EV, 30M EVs consume the entire supply — so 50M EVs is unrealistic without substitution)
-
-### Driver Trees and Sensitivity Stress-Testing
-
-**Building a driver tree:**
-- Decision variable (TAM/SAM/revenue) in a box at the right-hand edge
-- Work leftward, decomposing into MECE drivers
-- Stop branching when further splits no longer change the decision (typically 3–4 layers)
-- Principles: economic causality over data convenience; segment symmetry; linked granularity (leaf-node level should match available data)
-
-**Sensitivity testing — three escalating stages:**
-1. **One-way deltas (tornado chart):** Vary each driver ±10–25% while holding others constant. Sort results largest to smallest — top 3 usually explain >70% of variance. Focus refinement here.
-2. **Two-way data tables:** Pair top two drivers and step through plausible ranges to reveal non-linear interactions
-3. **Monte Carlo simulation:** Assign probability distributions to top drivers (triangular, beta, log-normal); run 5,000–10,000 iterations to generate full outcome distribution (P10/P50/P90)
-
-**Stress-test triggers:**
-- Regulatory shifts: model as step-changes, not smooth trends
-- Supply constraints: cap volume drivers when input availability limits growth
-- Competitive shocks: embed discrete market-share losses triggered at price thresholds
-
-**Reading results:** A tornado chart showing 80% of variance tied to one driver reframes the story — the market question is really a bet on that specific variable. Communicate this insight alongside the charts; numbers alone rarely persuade.
-
-**Common failure modes:**
-- Too many drivers (limit tornado charts to 12 bars max)
-- Uniform distributions for everything (use asymmetric shapes: beta for penetration ceilings; log-normal for commodity prices)
-- Unlinked scenario toggles that permit economically impossible worlds
-
----
-
-## Chapter 8 — Advanced Analytical Techniques
-
-### Scenario Planning
-- Use scenario planning when a single point forecast is misleading due to high strategic uncertainty
-- Define 3–4 scenarios along two key uncertainties (not all variables)
-- Each scenario must be internally consistent — link regulatory assumptions, technology assumptions, and competitive assumptions
-- Quantify probability of each scenario; present P50 as base and range for investment decisions
-
-### Monte Carlo Simulations
-- Input distributions for key drivers (triangular distributions: min-mode-max from expert interviews)
-- Run ≥5,000 iterations
-- Report P10/P50/P90 — not just mean
-- Use to stress-test whether investment thesis survives downside scenarios
-
-### Geospatial / Zip-Code-Level Opportunity Mapping
-Useful for businesses with physical presence constraints (retail, distribution, last-mile services). Match demographic and economic data to geographic units. Prioritise expansion locations by market density score.
-
-### Adoption-Curve and Diffusion Models
-**Rogers' Diffusion of Innovations — adoption segments:**
-| Segment | % of Market | Behaviour |
-|---------|------------|----------|
-| Innovators | 2.5% | Risk-tolerant; accept imperfect early products |
-| Early Adopters | 13.5% | Opinion leaders; need clear value story |
-| Early Majority | 34% | Pragmatic; need social proof and reduced risk |
-| Late Majority | 34% | Sceptical; price-sensitive; need mainstream adoption |
-| Laggards | 16% | Tradition-bound; adopt last |
-
-**Implication for market sizing:** SOM typically confined to Innovators + Early Adopters initially (16% of SAM maximum without crossing the "chasm"). Year-3–5 targets can include Early Majority only if clear crossing strategy exists.
-
-**Matching S-curve analogs:** Match on cost-to-income ratios and regulatory context before importing curve parameters from analogous markets.
-
----
-
-## Chapter 9 — Sizing Emerging and Unstructured Markets
-
-### Framework for Markets with Undefined Value Chains
-When traditional data is unavailable:
-1. Define the job-to-be-done (what customer problem does this market solve?)
-2. Map incumbent solutions (the "good enough" alternatives customers currently use)
-3. Estimate incumbent market size (this becomes the SOM displacement target)
-4. Model substitution rate (what fraction switches, at what pace?)
-5. Add net-new demand enabled by the new solution
-
-### Regulatory and Technology-Trigger Considerations
-- Identify the regulatory event or technology threshold that unlocks mainstream adoption
-- Size the market conditional on the trigger occurring (scenario-weighted)
-- Track trigger probability explicitly; update quarterly as leading indicators emerge
-
-**Uganda/East Africa emerging market considerations:**
-- Data scarcity is common — apply proxy indicator frameworks extensively
-- Mobile money transaction data (MTN MoMo, Airtel Money) is an excellent proxy for financial market sizing
-- UBOS household surveys (UNHS 2019/20) provide income quintile and expenditure data for consumer markets
-- Agricultural markets: use MAAIF/UBOS Agricultural Census 2022 for crop production volumes; convert to market value using farm-gate price data
-- Construction/property: KCCA building permits + population growth rate + housing deficit estimate
-- Informal sector adjustment: typically add 25–40% to formal sector estimates for Uganda economy-wide (URA estimates 60%+ of GDP in informal sector)
-
----
-
-## Chapter 11 — Communicating Market Sizing Insights
-
-### Visualisation Standards
-- **Bar charts** for segment comparisons (use sorted order; largest segment left or at top)
-- **Waterfall charts** for TAM → SAM → SOM funnel (show exactly where each filter reduces the market)
-- **Area charts or line charts** for CAGR and market growth over time
-- **Tornado charts** for sensitivity analysis
-- **Stacked bar charts** for market share comparisons across time periods
-- Avoid 3D charts (distort perceptions); always label data points; declare currency, year, and price basis on every chart
-
-### Executive-Level Storylining (Pyramid Principle)
-Lead with the conclusion (SCQA structure — see `01-executive-summary/references/pyramid-principle.md`):
-- **Situation:** "The [market] is a $X billion opportunity growing at Y% per annum"
-- **Complication:** "However, current approaches/players do not adequately serve [specific segment]"
-- **Question:** "How large is the addressable gap, and can we capture it?"
-- **Answer:** "Our analysis shows a $Z million SOM achievable by Year 3, representing Z% of SAM"
-
-**Three questions an investor will ask:**
-1. Is this a real and growing market? (TAM with CAGR, sources)
-2. Can you credibly compete for a meaningful slice? (SAM filters + SOM justification)
-3. What assumptions would have to be true for this to work? (sensitivity and scenario analysis)
-
-### Embedding Market Sizing into Business Plans and Investment Cases
-- TAM/SAM/SOM should appear in Section 04 (Market Analysis) with full methodology
-- SOM should feed directly into the financial model's revenue assumptions (Section 10)
-- Sensitivity of SOM to key assumptions should be visible (at minimum: upside, base, downside cases)
-- Every TAM/SAM figure should cite a source — uncited figures invite investor scepticism
-- Use dual methodology (top-down + bottom-up) as required by most sophisticated investors; reconcile the two estimates
-
----
-
-## Chapter 12 — Toolkits and Templates
-
-### Market Sizing Readiness Self-Assessment Checklist
-- Is the market boundary defined with explicit in/out criteria?
-- Are TAM, SAM, and SOM clearly distinguished with appropriate denominators declared?
-- Have at least two independent sizing methodologies been applied?
-- Are all key assumptions documented in an Assumption Register with owners?
-- Has at least one red-team challenge been conducted and responses logged?
-- Are data sources cited with 4T quality scores?
-- Is the model's sensitivity to top 3 drivers quantified?
-- Are scenarios (pessimistic/base/optimistic) linked to specific driver assumptions?
-- Is the output in a format decision-makers can act on (chart + narrative + action recommendation)?
-
----
-
-## Application to Uganda/East Africa Business Plans
-
-### Uganda Market Sizing Reference Numbers (Use as Anchors)
-- Total population: 45.9 million (NPHC 2024); 54% urban growth projection by 2030
-- Working-age population: 23.5 million; formal wage employment: ~2.5–3 million
-- Kampala population: 1.797 million (GKMA ~3.5 million)
-- Mobile money active accounts: ~20 million (BoU, 2024)
-- Internet penetration: ~26% (UCC, 2024)
-- Banked population: ~57% (financial inclusion definition, FinScope 2023)
-- Annual new market entrants (labour force): 1.1–1.2 million youth per year
-
-### Common Uganda Market Sizing Approaches
-| Market Type | Recommended Approach | Primary Data Source |
-|-------------|---------------------|---------------------|
-| Consumer FMCG | Top-down from household expenditure | UBOS UNHS 2019/20; UNPHC 2024 |
-| B2B services | Bottom-up from target company census | UIA business directory; PSFU database |
-| Agricultural inputs | Supply-side from crop production data | UBOS Agricultural Census 2022; MAAIF |
-| Financial services | Proxy from mobile money penetration | BoU Annual Financial Stability Report |
-| Healthcare | Top-down from disease burden + OOP spend | MOH; UBOS Health Survey |
-| Real estate | Bottom-up from housing deficit estimates | UN-Habitat Uganda; KCCA building permits |
-
-### TAM/SAM/SOM Template — Uganda Consumer Business
-```
-TAM: Total Uganda population spending on [category] = Population × Penetration rate × Average annual spend
-     Example: 45.9M × 35% penetration × UGX 120,000/year = UGX 1.93 trillion
-
-SAM: Urban Uganda + C2/C1 income bands with disposable income for [category]
-     Example: Urban population 12M × 40% in accessible income band × UGX 150,000 = UGX 720B
-
-SOM (Year 1–3): Reachable via planned distribution × realistic conversion rate × average order value
-     Example: 50,000 reachable customers × 8% conversion × UGX 85,000 ACV = UGX 340M ARR
-```
-
-*All figures should use UGX at UGX 3,700/$1 conservative planning rate (see CLAUDE.md)*
+Sources consulted: Umbrex Consulting, Market Sizing Playbook (2025); Rogers, Diffusion of Innovations; Minto, The Pyramid Principle; general consulting and statistics practice.

@@ -66,6 +66,7 @@ Use this skill to turn marketing sections into a credible demand system. It focu
 
 ## References
 
+- [Traction channel Bullseye](../marketing-plan-orchestrator/references/traction-channel-bullseye.md) and [marketing economics](../marketing-plan-orchestrator/references/marketing-economics-and-budget.md) — read when choosing demand channels, setting needle-moving thresholds, CLV-first targets and the maximum affordable cost per lead.
 - `../../pipeline/07-marketing-sales-strategy/references/entrepreneurial-demand-and-brand-metrics.md` - demand creation, brand journey metrics, owned audience, and anti-pattern corrections.
 
 <!-- dual-compat-start -->

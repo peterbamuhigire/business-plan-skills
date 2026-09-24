@@ -19,7 +19,7 @@ DEFAULT_SURFACES = (
 )
 ROOT_PREFIXES = ("skills/", "country-context/", "book-extractions/", "references/")
 PATH_TOKEN = re.compile(
-    r"(?<![A-Za-z0-9_.-])(?:skills|country-context|book-extractions|references)/[A-Za-z0-9_./-]+"
+    r"(?<![A-Za-z0-9_./-])(?:skills|country-context|book-extractions|references)/[A-Za-z0-9_./-]+"
 )
 MARKDOWN_LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 RELATIVE_TOKEN = re.compile(r"(?<![A-Za-z0-9_.-])(?:\.\.?/)+(?:skills|book-extractions|references)/[A-Za-z0-9_./-]+")

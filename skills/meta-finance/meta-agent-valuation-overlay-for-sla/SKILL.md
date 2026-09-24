@@ -177,7 +177,7 @@ Per cadence below.
 - `skills/meta-agent-valuation-adjustments/SKILL.md` — agent valuation parent
 - `skills/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
 - `skills/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — bankability
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes
 

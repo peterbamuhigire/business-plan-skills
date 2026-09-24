@@ -40,7 +40,9 @@ Generate Section 06 of the business plan: the competitive analysis. Use this ski
 3. Assess market position, barriers to entry, and the strength of the claimed advantage.
 4. Translate findings into a practical positioning argument for the business.
 5. Reconcile the analysis with target market, pricing, sales, and risk assumptions.
-6. Flag weak or unsupported moat claims that will fail under diligence.
+6. Score competitors with the weighted customer-perception and operational grids (weights from customers, category alternatives included, barriers rated for strength and duration); where the plan needs strategic factor tables, take EFAS, IFAS and SFAS from `meta-strategic-factor-analysis` on its single stated scale and convert SWOT into TOWS strategies rather than presenting a free-form SWOT.
+7. Where the response to a low-cost entrant or the choice of competitive position is contested, evaluate it with `meta-strategic-options-evaluation` (strategy clock, suitability-acceptability-feasibility).
+8. Flag weak or unsupported moat claims that will fail under diligence.
 
 ## Quality Bar
 
@@ -272,6 +274,10 @@ Beyond standard competitive dimensions, assess differentiation across four exper
 - **24 competitive and business analysis methods (Fleisher & Bensoussan)**: See `references/competitive-analysis-methods-fleisher.md` for the complete toolkit of 24 methods across six categories (strategic/industry, competitor intelligence, financial, environmental, futures, analytical process)  including Nine Forces, competitive positioning, business model analysis, SERVO, McKinsey 7S, shadowing, win/loss analysis, benchmarking, war gaming, country risk, driving forces, technology forecasting, ACH, and linchpin analysis. Includes FAROUT evaluation framework, Business Plan Application Table, Method Selector, and Uganda/EA adaptations for low-data markets, informal competition, and relationship-based intelligence. Source: Fleisher & Bensoussan (FT Press, 2007). **Read when selecting the right analysis method for a specific competitive question, explaining method choice to investors, or stress-testing analytical assumptions.**
 - **SWOT/TOWS, PESTLE, Porter's Five Forces, value chain  structured descriptions**: See `../meta-market-validation/references/business-analysis-techniques-cadle.md` (Chapter 1 and Chapter 4 tools) for precise, step-by-step descriptions of PESTLE (Tool 1), Porter's Five Forces (Tool 2), SWOT/TOWS (Tool 6), Value Proposition Analysis (Tool 33), and Value Chain Analysis (Tool 34) with guidance on correct application and common mistakes  Source: Cadle, Paul & Turner (BCS, 2010). **Read when setting up the competitive analysis framework or when the client needs the analytical approach explained clearly.**
 
+- **Weighted competitor grids, feature-set profile and positioning checks**: See `../../marketing-sales/marketing-plan-orchestrator/references/situation-and-market-toolkit.md` sections 1.4–1.5, 3 and 4. **Read when scoring competitors, finding real buying drivers, or testing the positioning statement for failure modes.**
+- **Strategic factor tables and strategic options**: Load `../../meta-strategy/meta-strategic-factor-analysis/SKILL.md` for EFAS/IFAS/SFAS and TOWS, and `../../meta-strategy/meta-strategic-options-evaluation/SKILL.md` for strategy-clock, low-cost-rival response and option evaluation.
+- **Section wording**: See `../../language/writing-quality/references/business-plan-phrase-bank-sections-01-08.md` (entry 06). **Read while drafting.**
+
 ## July 2026 Portable Contract
 
 <!-- dual-compat-start -->
@@ -348,7 +354,9 @@ A founder claims superior service but cannot provide response-time evidence. Rem
 
 ## References
 
-- Use the verified project evidence register and the owning upstream pipeline section for 06 competitive analysis; no local deep-dive reference is declared.
+- [Phrase bank, entry 06](../../language/writing-quality/references/business-plan-phrase-bank-sections-01-08.md) — read while drafting: purpose, keywords, slot-templates, tone rules, before-and-after rewrites and red-flag phrases for this section; apply the strategy-type emphasis from the [phrase-bank index](../../language/writing-quality/references/business-plan-phrase-bank.md).
+- Use the verified project evidence register and the owning upstream pipeline section for 06 competitive analysis.
+- [Situation and market toolkit](../../marketing-sales/marketing-plan-orchestrator/references/situation-and-market-toolkit.md) — weighted two-grid competitor method and positioning checks.
 - For 06 competitive analysis claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 
 <!-- dual-compat-end -->

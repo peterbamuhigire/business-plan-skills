@@ -119,3 +119,11 @@ Building materials manufacturing follows a predictable cost pattern, though prop
 - Risk analysis: `12-risk-analysis` (Ishikawa/fishbone for quality issues)
 - Implementation: `13-implementation-timeline` (phased capacity expansion)
 - UNDP business profiles: `references/undp-business-profiles.md`
+
+
+## Sub-sector references (plan-section guides)
+
+- `references/building-materials-yard.md`: sand, ballast and stone yard
+- `references/electrical-parts-retail.md`: electrical goods retail
+- `references/tiles-retail.md`: tiles retail
+- `references/timber-retail.md`: timber yard retail

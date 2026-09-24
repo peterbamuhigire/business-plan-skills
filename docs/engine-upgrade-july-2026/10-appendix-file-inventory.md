@@ -31,7 +31,7 @@ blog-posts/
   gigs-and-hustles-monetising-your-interests.md (18591 bytes)
   service-business-planning-consulting.md (12491 bytes)
   why-small-businesses-need-a-written-business-plan.md (13299 bytes)
-book-extractions/
+book-extractions/  (folder removed 2026-09-23 via `git rm`; knowledge now in task-oriented skill references — see README.md References)
   accounting-bookkeeping-finance-controls-extraction.md (5700 bytes)
   agent-products-business-plan-audit-2026.md (24439 bytes)
   agent-sla-commercial-business-plan-audit-2026.md (21679 bytes)
@@ -133,7 +133,7 @@ docs/
     2026-03-07-business-plan-skills-design.md (1541 bytes)
     2026-03-08-entrepreneurship-startup-books-design.md (6629 bytes)
     2026-03-08-undp-profile-split.md (14851 bytes)
-    2026-03-10-uganda-pdf-reference-notes.md (47943 bytes)
+    2026-03-10-uganda-pdf-reference-notes.md (47943 bytes; retired 2026-09-24 via git rm, procedures now in skills/meta-strategy/meta-operational-readiness-due-diligence/references/uganda-formalisation-and-lender-document-checklist.md)
     2026-03-10-uganda-tax-framework.md (31264 bytes)
     2026-03-11-proposal-architect-design.md (2775 bytes)
     docs/plans/engine-completion/
@@ -680,7 +680,7 @@ skills/
       SKILL.md (27990 bytes)
       skills/meta-pitch/meta-presentation-design/references/
         data-storytelling.md (1635 bytes)
-        hbr-presentations-anthology.md (38960 bytes)
+        hbr-presentations-anthology.md (38960 bytes; retired 2026-09-24, replaced by pitch-and-presentation-delivery-standard.md)
         innovative-presentations-anthony.md (45132 bytes)
         persuasive-presentations-duarte.md (52454 bytes)
         presentation-secrets-jobs-gallo.md (46847 bytes)

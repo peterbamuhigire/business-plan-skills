@@ -20,7 +20,7 @@ The SLA paragraph signals operational maturity to investors, auditors, DFIs, and
 We operate {per-resolution under uptime + accuracy SLA / per-outcome under definition-of-done SLA / subscription + success-fee hybrid / prepaid task-credit / multi-tier SLA (bronze/silver/gold)} commercial archetype.
 ```
 
-The archetype declaration is **required** because rev-rec policy, reserve methodology, COGS treatment, packaging logic, risk register and projection must align to it. The audit (`agent-sla-commercial-business-plan-audit-2026.md`) treats this as the anchor declaration.
+The archetype declaration is **required** because rev-rec policy, reserve methodology, COGS treatment, packaging logic, risk register and projection must align to it. The layer doctrine (`skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md`, section 2) treats this as the anchor declaration.
 
 ---
 
@@ -109,7 +109,7 @@ Or, when space-constrained, fold the archetype declaration into the SLA paragrap
 - `skills/meta-agent-valuation-overlay-for-sla/SKILL.md` — valuation overlay scoring
 - `skills/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — scorecard
 - `skills/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — rev-rec policy
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes
 

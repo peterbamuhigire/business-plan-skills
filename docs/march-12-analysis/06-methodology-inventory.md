@@ -59,7 +59,7 @@ This inventory exists to answer two questions: (1) Is the suite's methodology ca
 | Duarte, N. (2012) — *HBR Guide to Persuasive Presentations* | Sparkline (What Is / What Could Be); assertion-evidence slide format; audience resistance mapping; signal-to-noise reduction; glanceable test | `meta-presentation-design/references/persuasive-presentations-duarte.md` |
 | Anthony, R. (2014) — *Innovative Presentations for Dummies* | Audience engagement; innovative openings; non-linear presentations; storyboarding; sceptical audience techniques | `meta-presentation-design/references/innovative-presentations-anthony.md` |
 | Edwards (various) — Presentation Skills | Voice and delivery; managing nerves; body language; Q&A; 2–4 minute attention cycle | `meta-presentation-design/references/presentation-skills-edwards.md` |
-| Harvard Business Review (2014) — Presentations Anthology | Executive standards; data visualisation; co-creation principle (Elsbach research); virtual techniques | `meta-presentation-design/references/hbr-presentations-anthology.md` |
+| Harvard Business Review (2014) — Presentations (method now in `meta-presentation-design/references/pitch-and-presentation-delivery-standard.md`) | Executive standards; data visualisation; co-creation principle (Elsbach research); virtual techniques | `meta-presentation-design/references/hbr-presentations-anthology.md` |
 
 ### Marketing, Sales, and Branding
 

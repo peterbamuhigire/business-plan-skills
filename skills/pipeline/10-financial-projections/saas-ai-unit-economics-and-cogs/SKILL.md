@@ -127,8 +127,8 @@ Together these produce the AI Gross Margin, AI Contribution Margin per tier, ble
 - `skills/saas-unit-economics-and-cohort-model/SKILL.md` — sister skill (standard SaaS unit economics)
 - `skills/14-ai-integration/references/saas-ai-feature-roadmap-in-business-plan.md` — AI roadmap discipline
 - `skills/meta-living-plan-governance/SKILL.md` — living-plan governance
-- `book-extractions/mersch-hacking-saas-extraction.md` — CFO-grade SaaS discipline
-- `book-extractions/tod-building-multi-tenant-saas-architectures-extraction.md` — multi-tenant cost realities
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — CFO-grade SaaS discipline
+- `skills/pipeline/08-operations-plan/references/saas-tenancy-model-and-msp-trap-test.md` — multi-tenant cost realities
 
 ## Africa / Uganda Application Notes
 

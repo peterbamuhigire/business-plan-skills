@@ -153,6 +153,10 @@ State the pricing model, sales channels, transaction type (one-off or recurring)
 #### 6. Competitive Landscape and Advantage
 Name any competitors mentioned. Summarise the stated competitive advantage. Flag if the client claims no competitors or if the advantage is generic (e.g., "better quality, better service") with [TO CONFIRM  specifics required].
 
+**Strategy type.** Record `strategy_type: { primary, secondary (optional, at most one), rationale }` using one of `market_maker`, `market_enabler`, `technology_leader`, `niche_marketer`, `customer_solution`, `performance_enhancer` or `efficiency_improver`, as defined in the [business-plan phrase bank](../../language/writing-quality/references/business-plan-phrase-bank.md) section 4. Choose the primary type from the answer to "why will customers switch to us?" (Questions 2, 3 and 6); cite the evidence in the rationale. If the evidence is weak, insert [TO CONFIRM — strategy type evidence]. "Expansion" and "turnaround" are business stages, recorded in section 1, not strategy types. Section skills read this field to choose emphasis and the proof a reader expects.
+
+**Scope level.** Record where the business will sell during the plan horizon (neighbourhood, city, region, national or cross-border, with named places); objectives are later written at this level (see the marketing orchestrator's location and scope calibration).
+
 #### 7. Team and Credentials
 List key individuals, their roles, and relevant experience. Note any team gaps acknowledged by the client. If no team details were given, insert [TO CONFIRM  founder/team profiles needed].
 
@@ -247,6 +251,8 @@ Funding/raise size requested:                                ___________
 Use of funds (top-line allocation):                          ___________
 Key team bios and titles (named, as they will appear):       ___________
 Milestones and dates (already achieved + committed):         ___________
+Strategy type (primary / secondary / rationale):             ___________
+Scope level and named places served:                         ___________
 ```
 
 **Rule:** If any two of the client's own answers imply different values for
@@ -422,6 +428,8 @@ A founder states that the venture is pre-revenue in Question 1 but reports month
 ## References
 
 - Use the SRS engine's `decision-frontier-elicitation` reference as the canonical dependency and shared-understanding method; this skill supplies business-plan decision fields only.
+- [Business-plan phrase bank, section 4](../../language/writing-quality/references/business-plan-phrase-bank.md) — read when recording `strategy_type`; defines the seven values and the label mapping.
+- [Location and scope calibration](../../marketing-sales/marketing-plan-orchestrator/references/location-and-scope-calibration.md) — read when recording the scope level and named places.
 - Use the verified project evidence register and the owning upstream pipeline section for 00 client intake; no local deep-dive reference is declared.
 - For 00 client intake claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 

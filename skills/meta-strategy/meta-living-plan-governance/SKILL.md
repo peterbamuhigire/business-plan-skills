@@ -230,9 +230,9 @@ When variance exceeds threshold:
 ## References
 
 - `references/living-business-plan-operating-model.md` — full operating-model reference
-- `book-extractions/cotton-run-a-saas-business-extraction.md` — MSPOT discipline (section 10)
-- `book-extractions/haines-how-to-create-a-business-case-extraction.md` — post-implementation audit, decision-log discipline
-- `book-extractions/walling-saas-playbook-extraction.md` — customer-conversation cadence as living-strategy input
+- `skills/saas/saas-gtm-motion-design/references/saas-scaling-rules-and-discount-governance.md` — MSPOT discipline
+- `skills/meta-strategy/meta-critical-thinking-business-logic/references/business-case-test.md` — post-implementation audit, decision-log discipline
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — customer-conversation cadence as living-strategy input
 - `skills/meta-strategy/meta-quarterly-gameplan/SKILL.md` — quarterly operational rhythm (sister skill)
 - `skills/meta-strategy/meta-monitoring-evaluation/SKILL.md` — KPI dashboard discipline (sister skill)
 

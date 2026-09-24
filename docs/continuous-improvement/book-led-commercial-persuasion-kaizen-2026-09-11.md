@@ -10,7 +10,7 @@
 
 - Added `skills/writing-content/premium-commercial-writing/references/buyer-psychology-and-growth-systems.md`.
 - Linked the new reference from the premium commercial writing workflow.
-- Added `book-extractions/2026-09-11-commercial-persuasion-and-growth-synthesis.md` with provenance, admission boundary, and engine-specific learning.
+- Added a commercial persuasion and growth synthesis with provenance, admission boundary, and engine-specific learning (folder removed 2026-09-23; knowledge now in `skills/writing-content/premium-commercial-writing/references/buyer-psychology-and-growth-systems.md`).
 
 ## PDCA experiment
 

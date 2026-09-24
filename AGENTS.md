@@ -41,10 +41,12 @@ operates within.
 ## Mandatory Digital Research currentness gate for Kaizen
 
 Every Kaizen audit, skill edit, reference update, validator change, and
-standardisation decision MUST begin with the Digital Research Engine at
-`C:\wamp64\www\digital-research-engine`. Read its `source-evaluation` and
-`source-verification` skills and the currentness gate reference
-`docs/continuous-improvement/kaizen-currentness-gate.md`.
+standardisation decision MUST begin with the Digital Research Engine. Resolve its
+location on this device from the global engine-routing table (`~/.claude/CLAUDE.md`,
+or `AGENTS.md` for Codex); never assume a path. Read its `source-evaluation` and
+`source-verification` skills and its currentness gate reference
+`docs/continuous-improvement/kaizen-currentness-gate.md` (a path inside that engine,
+not inside this repository).
 
 Before admitting any standard, policy, law, technology, platform capability,
 software version, command, security control, benchmark, or lifecycle claim,
@@ -55,7 +57,7 @@ primary sources; quarantine stale/ambiguous/unsupported claims and mark them
 
 Shared agent, command, hook, evidence, and handoff contracts are mapped for
 this engine in [`docs/control-plane-adoption.md`](docs/control-plane-adoption.md)
-and governed centrally by `C:\wamp64\www\chwezi-dev-engine\docs\engine-control-plane.md`.
+and governed centrally by `docs/engine-control-plane.md` in the engineering-catalog engine (resolve it through the global engine-routing table).
 
 ## Purpose
 
@@ -138,8 +140,10 @@ Before external release of a complete plan, apply `references/cross-engine-deliv
 
 ## Task Routing
 
-- Standalone marketing plan: `skills/marketing-sales/marketing-plan-orchestrator/SKILL.md` owns market choices, offer, price, distribution, promotion, economics and execution. Section 07 remains the business-plan component; social-media-skills owns detailed digital/channel execution briefs.
-- Full bankable plan: `business-plan-orchestrator` -> `00-client-intake` -> evidence design -> `meta-critical-thinking-business-logic` -> sections `02` to `16` -> `01-executive-summary` -> synthesis/model/challenge gates -> `15-appendices` -> `00-plan-assembly` -> cross-engine finalisation -> validated release bundle
+- Standalone marketing plan: `skills/marketing-sales/marketing-plan-orchestrator/SKILL.md` owns market choices, situation analysis, SMART and location-calibrated objectives, positioning, channels (Bullseye), advertising and media, sales plan, economics, budget reconciled to the P&L, KPIs, control and the marketing-plan quality gate. Section 07 remains the business-plan component and follows `skills/pipeline/07-marketing-sales-strategy/references/business-plan-marketing-section-standard.md`, drawing on the orchestrator's references; social-media-skills is the digital marketing and advertising engine and owns detailed media plans, creative briefs, build specifications, optimisation, attribution, channel execution briefs and content calendars, while this engine owns plan-level advertising objectives, the budget envelope and the media-mix decision reconciled to the P&L (handoff table in the orchestrator's document architecture).
+- Strategy rigour: `meta-strategic-factor-analysis` (EFAS/IFAS/SFAS, TOWS), `meta-strategic-audit` (read-only audit), `meta-strategic-options-evaluation` (SAFe, strategy clock, low-cost-rival response, strategy statement gate), `meta-business-model-design` (score the model before drafting), `meta-international-market-entry` (cross-border entry), `meta-strategic-optionality` (exit readiness and sale preparation; valuation to `meta-valuation`, tax to Chwezi).
+- Plan wording: `skills/language/writing-quality/references/business-plan-phrase-bank.md` and its section, marketing-plan and article files; `strategy_type` is recorded at `00-client-intake`.
+- Full bankable plan: `business-plan-orchestrator` -> `00-client-intake` -> evidence design -> `meta-business-model-design` -> `meta-critical-thinking-business-logic` -> sections `02` to `16` -> `01-executive-summary` -> synthesis/model/challenge gates -> `15-appendices` -> `00-plan-assembly` -> cross-engine finalisation -> validated release bundle
 - Equity or investor plan: baseline plan flow + `meta-valuation`
 - Grant application: `11b-grant-proposal` instead of standard funding-request workflow
 - Proposal work: `proposal-architect` plus any relevant sector or funding skills
@@ -267,9 +271,13 @@ engine; presentation comes from design-system-skills. Hard rule: never use a ban
 type — state the chosen typeface and reason before producing any artifact.
 <!-- /design-system-skills:trigger -->
 
+## Book extractions and source text
+
+Book extractions, book summaries and raw source text must never be stored in this repository. The former `book-extractions/` folder was removed on 2026-09-23 under a zero-loss capability-preservation map. Books are durable concept inputs only: fold their methods into the owning skill's `references/` as task-oriented, paraphrased procedures, checklists, templates, phrase patterns and decision rules, cite the source briefly (Author (Year) *Title*, Publisher), keep verbatim quotation to 25 words or fewer, and route volatile claims through the currentness register or the Digital Research engine. `scripts/source_ingestion_guardrail.py` fails on any `book-extractions/` path.
+
 ## Human-English editorial standard (2026-08 Kaizen)
 
-Every business plan, pitch, proposal, report, blog post, executive summary, and client-facing message must also load [`book-extractions/human-english-craft-synthesis-2026.md`](book-extractions/human-english-craft-synthesis-2026.md). Apply its five passes in real time: reader and purpose, genre and spine, meaning and evidence, sentence/paragraph craft, and proof/read-aloud. Use it alongside `skills/language/writing-quality/`, `skills/language/language-standards/`, and `skills/meta-utility/anti-ai-slop/`; it does not replace financial, market, or reasoning gates.
+Every business plan, pitch, proposal, report, blog post, executive summary, and client-facing message must also load [`skills/language/writing-quality/references/human-english-five-pass-standard.md`](skills/language/writing-quality/references/human-english-five-pass-standard.md). Apply its five passes in real time: reader and purpose, genre and spine, meaning and evidence, sentence/paragraph craft, and proof/read-aloud. Use it alongside `skills/language/writing-quality/`, `skills/language/language-standards/`, and `skills/meta-utility/anti-ai-slop/`; it does not replace financial, market, or reasoning gates.
 
 The standard requires audience-fit British English, concrete nouns, exact verbs, controlled vocabulary, correct grammar and collocation, varied intentional rhythm, visible judgement, and a distinct register for plans, proposals, social copy, web copy, research, political writing, and app messages. Natural writing must never be simulated with errors, slang, fake anecdotes, or unsupported certainty.
 

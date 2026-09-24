@@ -124,9 +124,9 @@ The output is a pricing architecture document with: tier × included-AI-allowanc
 - `skills/meta-pricing-strategy/SKILL.md` — Kennedy/Marrs discipline (anti cost-plus, anti competitor-match)
 - `skills/10-financial-projections/saas-ai-cost-of-tenant-calculator/SKILL.md` — cost input
 - `skills/10-financial-projections/saas-ai-unit-economics-and-cogs/SKILL.md` — margin output
-- `book-extractions/walling-saas-playbook-extraction.md` — pricing chapters
-- `book-extractions/mersch-hacking-saas-extraction.md` — pricing-as-CFO-discipline
-- `book-extractions/kennedy-no-bs-price-strategy-extraction.md` — anti-cost-plus discipline
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — pricing principles (section 9)
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — pricing-as-CFO-discipline
+- `skills/meta-pricing-gtm/meta-pricing-strategy/references/price-strategy-audit-and-proposition-stack.md` — anti-cost-plus discipline
 
 ## Africa / Uganda Application Notes
 

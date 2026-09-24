@@ -93,9 +93,9 @@ Not every ICT plan is SaaS. Licensed-software, embedded-systems, hardware-plus-s
 
 ## References
 
-- `book-extractions/mersch-hacking-saas-extraction.md` — perpetual vs SaaS comparison (ch. 1)
-- `book-extractions/tod-building-multi-tenant-saas-architectures-extraction.md` — MSP vs SaaS clarity
-- `book-extractions/haines-how-to-create-a-business-case-extraction.md` — business-case discipline for product investments
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — perpetual vs SaaS comparison
+- `skills/pipeline/08-operations-plan/references/saas-tenancy-model-and-msp-trap-test.md` — MSP vs SaaS clarity
+- `skills/meta-strategy/meta-critical-thinking-business-logic/references/business-case-test.md` — business-case discipline for product investments
 - `skills/ict-services-firm-business-plan/SKILL.md` — sister skill
 - `skills/saas-unit-economics-and-cohort-model/SKILL.md` — for SaaS-transition modelling
 

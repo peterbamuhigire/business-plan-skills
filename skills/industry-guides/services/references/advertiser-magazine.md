@@ -1,92 +1,74 @@
-# Free Advertiser Magazine (Local)
+# Free Advertiser Magazine (Local Print Media)
 
-**Source:** Crack A Business Kenya (CAB), 2014 | **Sub-sector:** Media & Local Advertising
-**Conversion:** Original KES figures at KES 106/USD (2020 base), adjusted ×1.27 for USD inflation → March 2026 USD
+Use this reference when a plan proposes a free-circulation local print title funded wholly by advertising. It covers the market test, the operating model, the revenue drivers and the plan sections to write.
 
-> A free-circulation print magazine funded entirely by local advertising revenue — distributed in a defined town or neighbourhood, aggregating ads from local businesses (hotels, colleges, SACCOs, shops) and generating publisher profit from the spread between ad revenue and printing/distribution costs.
+## 1. Business model in one line
 
-## Financial Summary
+The publisher aggregates advertisements from local businesses (hotels, colleges, SACCOs, pharmacies, shops), prints a low-cost title, distributes it free, and earns the spread between advertising sales and print, design and distribution costs.
 
-| Metric | Amount |
-|--------|--------|
-| Startup Capital | $780 |
-| Printing cost per issue (1,500 copies, 16 pages, colour) | $540 |
-| Revenue if fully sold (16 pages, all sizes) | $1,533/issue |
-| Estimated profit (fully booked issue) | ~$480–$600/issue |
-| Breakeven period | ~6 months (3 issues) |
-| Recommended minimum operating capital (3 issues) | $1,620 |
+## 2. Market and location test (decide this first)
 
-## Startup Capital Breakdown (Case Study — County Town)
+Location is the most critical decision. Test each candidate town on:
 
-| Item | KES | 2026 USD |
-|------|-----|----------|
-| Business registration | 5,000 | $60 |
-| County business licence | 12,000 | $144 |
-| Shared office (1 month) | 4,000 | $48 |
-| Computer / laptop | 21,000 | $252 |
-| Digital camera | 8,000 | $96 |
-| Business cards | 1,000 | $12 |
-| Order book & office supplies | 2,000 | $24 |
-| Airtime (3 months) | 3,000 | $36 |
-| Transport (3 months) | 9,000 | $108 |
-| **Total** | **65,000** | **$780** |
+- Advertiser density: count businesses under competitive pressure with visible marketing budgets (colleges, hotels, SACCOs, pharmacies, supermarkets, restaurants).
+- Existing titles: count current local publications and their fill rates.
+- Planning rule of thumb: capital cities can sustain several titles if each is differentiated by zone or niche; secondary cities two or three; county or district towns one or two; small towns often none. Validate with a local advertiser count.
+- Substitutes: online classifieds, Facebook pages and WhatsApp Business are replacing print in small towns. Print keeps an edge in waiting rooms, hotels and places with unreliable internet.
 
-## Advertising Rate Card (16-page A4 magazine, case study)
+## 3. Operating model
 
-| Format | KES | 2026 USD |
-|--------|-----|----------|
-| Full page — front cover position | 10,000 | $120 |
-| Full page — inside | 8,000 | $96 |
-| Half page | 4,000 | $48 |
-| Quarter page | 2,000 | $24 |
-| Eighth page | 1,000 | $12 |
-| Smallest classified | 500 | $6 |
-| Designer fee per page | 500 | $6 |
+- Circulation: set a print run (planning assumption 1,000-2,000 copies); place copies free at businesses, waiting areas, bus stops, hotels and colleges.
+- Frequency: monthly by default; fortnightly only in the largest markets.
+- Design: engage a capable designer (often freelance). Poor advertisement design reduces results and renewals.
+- Printing: obtain quotes from local and out-of-town printers; weigh price against delivery reliability.
+- Sales cycle: approach advertisers two to three weeks before print date; take a deposit (planning assumption 50%) on booking and the balance on publication; enforce terms so arrears do not cascade into later issues; from issue two, show a proof copy of the previous issue.
+- Selling: personal, door-to-door selling is the core activity.
 
-## Revenue Model (16-page issue, 1,500 copies)
+## 4. Revenue drivers and unit economics
 
-| | Amount |
-|-|--------|
-| Full revenue (all 16 pages sold) | $1,533 |
-| Less: Printing (1,500 copies × $0.36/copy) | -$540 |
-| Less: Designer (16 pages × $6) | -$96 |
-| Less: Distribution | -$60 |
-| Less: Transport and miscellaneous | -$120 |
-| **Gross Profit (fully booked)** | **~$717** |
+Model each issue as follows.
 
-> In practice, a first issue rarely achieves full booking. Expect 30–50% occupancy in issues 1–2; grow to 70–90% by issue 4–6 with consistent sales effort.
+- Gross advertising capacity = sum over formats (cover-position full page, inside full page, half, quarter, eighth, classified) of units x rate-card price.
+- Realised revenue = capacity x occupancy rate.
+- Issue margin = realised revenue - printing (copies x unit print cost) - design (pages x fee) - distribution - transport and miscellaneous.
+- Break-even occupancy = issue costs / gross capacity.
+- Occupancy ramp (planning assumption): roughly a third to a half in issues 1-2, rising toward 70-90% by issues 4-6 with steady selling. Expect high rejection: only a small fraction of approached businesses buy at first.
 
-## Operations
+Source rate cards, print costs and start-up costs from current local printer and competitor quotes and date them in the plan.
 
-- **Circulation:** 1,000–2,000 copies per issue; free distribution to businesses, waiting areas, bus stops, hotels, colleges
-- **Publication frequency:** Monthly is standard; fortnightly only viable in Nairobi-scale markets
-- **Graphic designer:** Essential — poor ad design directly reduces advertiser renewal rates; invest in a capable designer (freelance is common)
-- **Printer:** Compare prices between local and Nairobi-based printers; Nairobi tends cheaper due to competition but may deliver late
-- **Sales cycle:** Approach businesses 2–3 weeks before print date; collect 50% deposit on booking, 50% on publication; manage late payers firmly or they cascade into issue 2 and 3
-- **Sales approach:** Personal selling is the core activity — door-to-door to local businesses, with proof copy of previous issue from issue 2 onwards
+## 5. Start-up capital checklist
 
-## Market Viability by Town Size
+Business registration; local authority licence; shared or small office; computer; camera; business cards; order book and stationery; airtime; transport for the sales period. Add working capital to fund several issues before break-even (planning assumption: at least three issues, with a three-to-six-month survival window). Under-capitalised launches are the main cause of failure.
 
-| Town Type | Viability | Notes |
-|-----------|-----------|-------|
-| Nairobi | High | Can sustain 10–20 publications; requires differentiation by zone or niche |
-| City (Mombasa, Kisumu, Nakuru) | Medium–High | 2–3 publications sustainable |
-| County town (Kiambu, Eldoret, Kisii) | Medium | 1–2 sustainable; competition kills a 3rd entrant |
-| Small district town | Low | Insufficient advertiser base for viability |
+## 6. Regulation and licensing checks
 
-> The Kenyan county system post-2013 spawned dozens of local advertiser magazines, most with high failure rates. Location selection is the single most critical decision.
+- Business registration and local trading licence.
+- Uganda: check whether Uganda Communications Commission registration applies to regular publications.
+- Rwanda: check Rwanda Media Authority registration for regular publications.
+- Kenya and Tanzania: check national media-registration and local advertising-permit rules.
+- Verify tax treatment with the Chwezi finance engine.
 
-## Critical Success Factors
+## 7. Risks and mitigations
 
-1. **Advertiser density** — town must have enough competitive businesses (colleges, hotels, SACCOs, pharmacies, supermarkets) with advertising budgets
-2. **Sales persistence** — 10% of approached businesses typically buy; expect 90% rejection, especially in issues 1–3
-3. **Cash discipline** — print only when sufficient deposits are collected; avoid printing on credit
-4. **Design quality** — ugly, cramped ads mean advertisers see no results and don't renew
-5. **Operating capital** — must survive 3–6 months to breakeven; under-capitalised launches are the primary failure cause
+- Weak advertiser base: run the location test; pilot with pre-sold pages.
+- Late payers: deposits, credit limits, firm follow-up.
+- Printing on credit: print only when deposits cover the run.
+- Poor design: retain a competent designer; give advertisers measurable calls to action.
+- Digital substitution: add a web or social presence; keep print where it retains reach.
+- Under-capitalisation: hold reserves for the ramp period.
 
-## East Africa Notes
+## 8. KPIs
 
-- **Uganda:** Equivalent model operates in Kampala (City Guide, Kiwi Magazine, neighbourhood flyers), Jinja, Mbarara, and Fort Portal. Uganda Communications Commission (UCC) registration may be required for regular publications. Advertiser concentration is highest in Kampala and district capitals with active commercial centres.
-- **Tanzania:** Dar es Salaam and Arusha have active local advertiser publications. Swahili-language advertiser magazines have broader reach in Tanzania than English-only formats.
-- **Rwanda:** Kigali's dense NGO, hospitality, and commercial sector makes it viable for 2–3 English/Kinyarwanda bilingual publications. RMA (Rwanda Media Authority) registration required for regular publications.
-- **Digital shift:** Online classifieds and social media business pages (Facebook, WhatsApp Business) increasingly substitute for print advertiser magazines in small towns. Print magazines retain an advantage in waiting rooms, hotels, and contexts without reliable internet access.
+Occupancy per issue; advertiser renewal rate; average revenue per advertiser; collection days; cost per copy; copies distributed versus printed; new advertisers per month.
+
+## 9. Localisation notes
+
+- Uganda: Kampala neighbourhood guides and upcountry towns (Jinja, Mbarara, Fort Portal); advertiser concentration is highest in commercial centres.
+- Tanzania: Dar es Salaam and Arusha; Swahili titles reach more readers than English-only.
+- Rwanda: Kigali's NGO, hospitality and commercial base; English and Kinyarwanda bilingual titles.
+
+## 10. Plan-section prompts
+
+Market: town advertiser count and competing titles. Operations: frequency, run, distribution plan. Financials: per-issue model with occupancy ramp, deposits and cash timing. Risks: as section 7.
+
+Sources consulted: Crack A Business Kenya (CAB), local advertiser magazine business profile, 2014; general publishing practice.

@@ -10,7 +10,13 @@
       "title": "Statistical publications",
       "source_type": "official-statistics",
       "url": "https://www.ubos.org/publications/statistical/",
-      "claim_families": ["population", "national accounts", "prices", "labour", "sector output"],
+      "claim_families": [
+        "population",
+        "national accounts",
+        "prices",
+        "labour",
+        "sector output"
+      ],
       "checked_on": "2026-07-13",
       "recheck_due": "2026-10-13",
       "status": "verified-current",
@@ -24,7 +30,13 @@
       "title": "2025 Statistical Abstract",
       "source_type": "official-statistics",
       "url": "https://www.knbs.or.ke/reports/2025-statistical-abstract/",
-      "claim_families": ["population", "national accounts", "prices", "labour", "sector output"],
+      "claim_families": [
+        "population",
+        "national accounts",
+        "prices",
+        "labour",
+        "sector output"
+      ],
       "checked_on": "2026-07-13",
       "recheck_due": "2026-10-13",
       "status": "verified-current",
@@ -38,7 +50,13 @@
       "title": "Statistical Abstract catalogue",
       "source_type": "official-statistics",
       "url": "https://www.nbs.go.tz/index.php/statistics/topic/statistical-abstract?page=1",
-      "claim_families": ["population", "national accounts", "prices", "labour", "sector output"],
+      "claim_families": [
+        "population",
+        "national accounts",
+        "prices",
+        "labour",
+        "sector output"
+      ],
       "checked_on": "2026-07-13",
       "recheck_due": "2026-10-13",
       "status": "verified-current",
@@ -52,9 +70,14 @@
       "title": "Domestic tax guidance",
       "source_type": "competent-authority",
       "url": "https://ura.go.ug/en/dt-faqs/",
-      "claim_families": ["tax registration", "returns", "payments", "customs"],
-      "checked_on": "2026-08-18",
-      "recheck_due": "2026-09-18",
+      "claim_families": [
+        "tax registration",
+        "returns",
+        "payments",
+        "customs"
+      ],
+      "checked_on": "2026-09-24",
+      "recheck_due": "2026-10-24",
       "status": "verified-current",
       "owner": "finance gate owner",
       "note": "Verify the current Act, Finance Act, effective date, and taxpayer facts before using a rate or threshold."
@@ -66,7 +89,11 @@
       "title": "Business registration services",
       "source_type": "competent-authority",
       "url": "https://ursb.go.ug/services/business-registration",
-      "claim_families": ["entity registration", "legal identity", "annual filings"],
+      "claim_families": [
+        "entity registration",
+        "legal identity",
+        "annual filings"
+      ],
       "checked_on": "2026-07-13",
       "recheck_due": "2026-10-13",
       "status": "verified-current",
@@ -80,9 +107,15 @@
       "title": "Environmental regulations",
       "source_type": "competent-authority",
       "url": "https://www.nema.go.ug/en/regulations/",
-      "claim_families": ["environmental screening", "ESIA", "waste", "air", "effluent"],
-      "checked_on": "2026-08-18",
-      "recheck_due": "2026-09-18",
+      "claim_families": [
+        "environmental screening",
+        "ESIA",
+        "waste",
+        "air",
+        "effluent"
+      ],
+      "checked_on": "2026-09-24",
+      "recheck_due": "2026-10-24",
       "status": "verified-current",
       "owner": "regulatory gate owner",
       "note": "Screen the actual project and location; do not infer an approval requirement from sector alone."
@@ -94,7 +127,12 @@
       "title": "Standards and certification portal",
       "source_type": "competent-authority",
       "url": "https://www.unbs.go.ug/content.php?pg=content&src=information-resource-center",
-      "claim_families": ["product standards", "quality marks", "testing", "metrology"],
+      "claim_families": [
+        "product standards",
+        "quality marks",
+        "testing",
+        "metrology"
+      ],
       "checked_on": "2026-07-13",
       "recheck_due": "2026-10-13",
       "status": "verified-current",
@@ -108,7 +146,12 @@
       "title": "Licensing and regulation portal",
       "source_type": "competent-authority",
       "url": "https://www.ucc.co.ug/telecommunication-licensing/",
-      "claim_families": ["communications licensing", "spectrum", "postal", "broadcasting"],
+      "claim_families": [
+        "communications licensing",
+        "spectrum",
+        "postal",
+        "broadcasting"
+      ],
       "checked_on": "2026-07-13",
       "recheck_due": "2026-10-13",
       "status": "verified-current",
@@ -122,9 +165,14 @@
       "title": "Financial-sector supervision portal",
       "source_type": "competent-authority",
       "url": "https://bou.or.ug/supervision",
-      "claim_families": ["financial licensing", "payments", "credit institutions", "foreign exchange"],
-      "checked_on": "2026-08-18",
-      "recheck_due": "2026-09-18",
+      "claim_families": [
+        "financial licensing",
+        "payments",
+        "credit institutions",
+        "foreign exchange"
+      ],
+      "checked_on": "2026-09-24",
+      "recheck_due": "2026-10-24",
       "status": "verified-current",
       "owner": "finance gate owner",
       "note": "Regulatory perimeter and licensing status require competent legal and regulatory review."
@@ -136,12 +184,72 @@
       "title": "World Development Indicators",
       "source_type": "multilateral-data",
       "url": "https://databank.worldbank.org/source/world-development-indicators",
-      "claim_families": ["cross-country macroeconomic comparison", "population", "development indicators"],
+      "claim_families": [
+        "cross-country macroeconomic comparison",
+        "population",
+        "development indicators"
+      ],
       "checked_on": "2026-07-13",
       "recheck_due": "2026-10-13",
       "status": "verified-current",
       "owner": "research lead",
       "note": "Record indicator code, edition, country, year, and retrieval date; do not substitute regional data for national evidence."
+    },
+    {
+      "id": "UG-DPPA-2019-AND-REGULATIONS-2021",
+      "jurisdiction": "Uganda",
+      "publisher": "Parliament of Uganda (Act 9 of 2019, now Cap. 97); Minister of ICT (S.I. 21 of 2021)",
+      "title": "Data Protection and Privacy Act 2019 and Data Protection and Privacy Regulations 2021",
+      "source_type": "legislation",
+      "url": "https://media.ulii.org/files/legislation/akn-ug-act-2019-9-eng-2019-05-03.pdf",
+      "claim_families": [
+        "data-protection registration",
+        "consent to collect",
+        "direct-marketing objection right",
+        "marketing data use"
+      ],
+      "checked_on": "2026-09-24",
+      "recheck_due": "2027-03-23",
+      "status": "verified-with-caveat",
+      "owner": "marketing-plan maintainer",
+      "note": "Kaizen currentness register PL-01 (2026-09-23): PDPO registration valid 12 months; consent required to collect; s.26 objection right with 14-day response. The PDPO site did not render, so current fees and exemption notices are not confirmed. No ePrivacy-style opt-in rule; do not claim one."
+    },
+    {
+      "id": "KE-ODPC-DATA-PROTECTION-REGULATIONS-2021",
+      "jurisdiction": "Kenya",
+      "publisher": "Office of the Data Protection Commissioner",
+      "title": "Data Protection (General) Regulations 2021 and Registration Regulations 2021",
+      "source_type": "legislation",
+      "url": "https://www.odpc.go.ke/wp-content/uploads/2024/03/THE-DATA-PROTECTION-GENERAL-REGULATIONS-2021-1.pdf",
+      "claim_families": [
+        "direct marketing conditions",
+        "absolute objection right",
+        "opt-out requirement",
+        "controller registration"
+      ],
+      "checked_on": "2026-09-24",
+      "recheck_due": "2027-03-23",
+      "status": "verified-current",
+      "owner": "marketing-plan maintainer",
+      "note": "Kaizen currentness register PL-02 (2026-09-23). Later amendments were not checked; no ODPC direct-marketing guidance note was found."
+    },
+    {
+      "id": "UG-DATAREPORTAL-DIGITAL-2026",
+      "jurisdiction": "Uganda",
+      "publisher": "Kepios (DataReportal)",
+      "title": "Digital 2026: Uganda",
+      "source_type": "originating-data-publisher",
+      "url": "https://datareportal.com/reports/digital-2026-uganda",
+      "claim_families": [
+        "internet users",
+        "social media ad reach",
+        "cellular connections"
+      ],
+      "checked_on": "2026-09-24",
+      "recheck_due": "2026-11-30",
+      "status": "verified-with-caveat",
+      "owner": "marketing-plan maintainer",
+      "note": "Kaizen currentness register MK-02. Meta ad reach was measured while Facebook was blocked in Uganda; use it as a floor, never as the social-media population. Ad reach is not users. Replace when Digital 2027 is published."
     }
   ]
 }

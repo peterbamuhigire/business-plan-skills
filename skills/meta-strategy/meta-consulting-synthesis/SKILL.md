@@ -229,6 +229,7 @@ Write the exact closing recommendation for the target reader.
 - `../meta-critical-thinking-business-logic/references/reasoning-achievability-gate.md` - serious-analysis, mental-model, business-sense, and achievability checks that should precede synthesis
 - `../01-executive-summary/references/pyramid-principle.md` - SCQA and top-down structure
 - `../meta-presentation-design/references/data-storytelling.md` - visual and narrative rules for turning analytical output into decision-ready exhibits
+- `../meta-strategic-factor-analysis/SKILL.md` and `../meta-strategic-options-evaluation/SKILL.md` - load when the governing thesis must trace to weighted SFAS factors, a SAFe-screened choice with rejected options, and a passing 35-word strategy statement
 
 ## Evidence Produced
 

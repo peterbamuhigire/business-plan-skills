@@ -107,8 +107,18 @@ Every serious food-processing plan should include:
 - incoming, in-process, and finished-product quality tests;
 - water, energy, effluent, and cleaning-cycle controls.
 
-For deeper operations and financial modelling, use `../../../book-extractions/industrial-production-inventory-planning-extraction.md`.
+For deeper operations and financial modelling, use `../../pipeline/08-operations-plan/references/production-capacity-mrp-and-warehouse-planning.md`.
 
 The `references/undp-business-profiles.md` file contains 50+ indicative business profiles from the UNDP Uganda Compendium with capital requirements, revenue projections, and margin estimates. These provide starting points for financial modelling but should be validated against current market conditions.
 
 Typical investment-to-revenue ratios in food processing range from 1:3 (capital-intensive operations like powder milk) to 1:30+ (high-throughput, low-capital operations like paste grinding). Payback periods of 6–18 months are common for well-managed small-scale operations.
+
+
+## Sub-sector references (plan-section guides)
+
+- `references/beef-butchery.md`, `references/chicken-butchery.md`: retail butchery economics, sourcing and licensing
+- `references/bottled-water.md`: water treatment, packaging and distribution
+- `references/cookie-bakery.md`: specialist cookie and biscuit bakery
+- `references/fish-supply-hotels.md`: B2B fresh fish supply to hotels
+- `references/ice-lollies.md`: frozen confectionery production and vendor distribution
+- `references/milk-distributorship.md`: packaged dairy distribution

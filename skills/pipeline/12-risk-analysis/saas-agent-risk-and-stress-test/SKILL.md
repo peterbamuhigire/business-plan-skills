@@ -180,8 +180,8 @@ Each scenario is sized for revenue impact, reserve impact, valuation hit, and re
 - `skills/meta-financial-stress-test/references/saas-agent-sla-stress-test-scenarios.md` — 8 standardised SLA stress scenarios with financial impact
 - `skills/meta-agent-sla-financial-controls/SKILL.md` — controls evidence
 - `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — SLA-credit and refund reserve methodology
-- `book-extractions/agent-products-business-plan-audit-2026.md` — agent audit
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — SLA + commercial audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — agent audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — SLA + commercial audit
 
 ## Africa / Uganda Application Notes
 

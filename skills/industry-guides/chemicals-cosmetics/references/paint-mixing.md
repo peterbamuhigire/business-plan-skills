@@ -1,122 +1,116 @@
-# Paint Mixing (Informal/Small-Scale)
+# Small-Scale Paint Mixing and Tinting: Business Plan Reference
 
-**Source:** Crack A Business Kenya (CAB) — Paint Mixing Quick Guide (2015) | **Sub-sector:** Chemicals & Cosmetics — Informal Paint Production
-**Conversion:** KES ÷ 106 × 1.27 → March 2026 USD
+Use this reference when a plan proposes a small workshop that mixes, tints and repackages decorative and automotive paints from primary stock bought from established manufacturers. It is organised by the plan sections it feeds. Every figure is a planning assumption to be re-verified with dated local quotes; earlier survey data for this trade came from a 2015 Kenyan market survey and is out of date. Verify tax and accounting treatment with the Chwezi finance engine. For full-scale manufacturing see `paint-manufacturing.md`; for application services see `spray-painting-services.md`.
 
-> Small-scale manual mixing of automotive and decorative paints from primary pigment stocks purchased from major manufacturers. Capital KES 215,000 ($2,576). Average monthly revenue KES 160,000 ($1,916); highest recorded KES 360,000 ($4,311). Margins 20–40%. Breakeven approximately 10 months. Business exists in a regulatory grey area — production of paint for resale is not formalised at small scale, though a county business permit is required. At least 317 paint mixers in Nairobi as of 2015.
+## 1. Business model in brief
 
-## Financial Summary
+The mixer buys primary paints and pigments from large or medium manufacturers (who treat mixers as trade wholesalers), blends colours to customer order using manufacturers' mixing charts, decants into tins and sells to garages, painters, contractors and carpenters. Related lines: undercoat, finishing paint, red oxide primer, body filler, masking tape, sandpaper. The trade sits in a regulatory grey area at small scale: a local-authority trade licence is the minimum, while product certification opens formal retail channels.
 
-| Metric | Amount |
-|--------|--------|
-| Capital (manual small scale) | KES 215,000 ($2,576) |
-| Average monthly revenue | KES 160,000 ($1,916) |
-| Highest monthly revenue recorded | KES 360,000 ($4,311) |
-| Margins | 20–40% |
-| Breakeven | ~10 months |
-| Average purchase per customer — vehicles | 3–5 litres |
-| Average purchase — real estate contractors | 12–16 litres |
-| Average purchase — carpenters | 2 litres |
+## 2. Market and customer
 
-## Capital Breakdown
+Customer groups and typical purchase pattern (measure in your own survey):
+| Segment | Typical need | Purchase pattern |
+|---|---|---|
+| Vehicle owners and mechanics | Colour-matched touch-up and respray | Small volumes, repeat, colour accuracy critical |
+| Building contractors | Decorative paint for sites | Larger volumes, price-sensitive |
+| Carpenters and furniture makers | Furniture finishes | Small volumes |
+| Households | Repaints | Occasional |
+Demand drivers: size and age of the local vehicle fleet (second-hand cars, taxis, motorcycle taxis), repair-garage clusters, construction activity, urbanisation.
+Research steps: count garages and repair clusters within reach; count existing mixers (informal clusters exist in most East African cities); interview 20 buyers on price paid, volume, colour-matching problems and loyalty; note where formal garages use computerised colour matching.
 
-| Item | KES | 2026 USD |
-|------|-----|----------|
-| Stock (~200 litres of primary paint) | 110,000 | $1,318 |
-| Equipment | 20,000 | $240 |
-| Licences | 15,000 | $180 |
-| Rent (3 months) | 30,000 | $360 |
-| Working capital | 45,000 | $539 |
-| **Total** | **215,000** | **$2,576** |
+## 3. Operating model
 
-## Equipment Required
+- Workflow: receive colour code or sample; look up or match formula; mix in a test cup; adjust; produce the batch; decant and label; record.
+- Skills: colour ratios, viscosity and timing are learned by experience; batch-to-batch variation is the sector's main weakness.
+- Location: near garages, repair areas or construction activity.
+- Labour: mixer labour is a daily wage, largely independent of volume mixed.
+- Records: colour formula book per customer and vehicle, so repeat matches are exact.
 
-All equipment is simple and low-cost:
+## 4. Inputs and suppliers
+
+Primary paints are usually 60% to 80% of production cost (planning assumption; verify). Suppliers are manufacturers and their trade counters; regional leaders and second-tier or local makers exist in each country. Ask each for: minimum order, account deposit, delivery, credit, free mixing charts and tinting guidance. Diversify across at least two suppliers to protect against stock-outs and price shifts. Packaging: recycled or new tins in various sizes; labels.
+
+## 5. Equipment and start-up capital (build from quotes)
 
 | Item | Notes |
-|------|-------|
-| Mixing containers | Tins 0.25L–20L+; from Gikomba, Kariobangi, Muthurwa jua kali |
-| Mixing sticks | KES 900/box of 100 (12-inch); from hardware shops |
-| Mixing chart | Free from major paint companies (Crown, Basco, Sadolin) |
-| Mixing cups | ~KES 20 each; for testing before batch production |
-| Funnels | Disposable or reusable; for transferring to packaging tins |
-| Overalls and gloves | Personal protection |
-| Tins | Recycled KES 10–20 each; new from Tin Can Manufacturers Ltd, Nanyuki Road |
+|---|---|
+| Mixing containers, tins from small to large capacity | Local metal-workers or industrial packaging suppliers |
+| Mixing sticks, test cups, funnels | Hardware shops |
+| Mixing charts | Free from major paint companies |
+| Protective overalls, gloves, respirators | Health and safety |
+| Optional: computerised colour-matching system | Large gap in the informal market; costed separately |
+| Stock (primary paint) | Largest single item; size to minimum-order terms |
+| Licences and registration | Local trade licence, tax registration, business registration |
+| Rent deposit and working capital | Several months of rent and operating cash |
+Capital build: stock + equipment + licences + rent + working capital + contingency. Compute the total from current quotes and show the breakdown.
 
-## Revenue and Pricing
+## 6. Unit economics and pricing
 
-| Product | Quantity | Production Cost (KES) | Selling Price (KES) |
-|---------|----------|-----------------------|---------------------|
-| House/furniture paint (mixed) | 4 litres | ~800 | ~1,000–1,200 |
-| Vehicle undercoat | 1 litre | 300–320 | 450 |
-| Vehicle finishing paint | 1 litre | 450 | 600 |
-| Red oxide | 1 kg | 1,200 | 1,500 |
-| Body filler | 1 kg | 1,250 | 1,400 |
-| Masking tape | 1 dozen (10 pcs) | 300 | ~50/piece |
-| Sand papers | 1 dozen (10 pcs) | 250 | ~40/piece |
+Drivers:
+- Unit cost = paint cost + tin and label + share of labour and overhead.
+- Selling price is set by reference to the local market; small price variation between mixers is common and negotiation skill affects margin.
+- Gross margin per product line (decorative, undercoat, finishing, primer, filler, consumables); consumables such as tape and sandpaper add margin at low effort.
+Model: monthly revenue = litres sold x average price by line; contribution = revenue - paint cost - packaging; profit = contribution - labour, rent, licences, transport, losses. Break-even litres = fixed costs / contribution per litre. Sensitivity: paint price, volume, colour-mismatch rework, credit to contractors.
+Planning assumptions to verify: a margin band in the low tens of percent has been reported for the trade; payback of about a year was reported; treat as hypotheses.
 
-> Paint cost is 60–80% of total production cost. Tin + label adds KES 30–45. Mixer labour averages KES 700 for a full day's work, independent of litres mixed. Margins are set informally by reference to the local market — price variation between mixers of KES 10–100 per item is common.
+## 7. Regulation, licensing and standards checks
 
-## Raw Materials (Primary Paints)
+- Local-authority trade licence and tax registration (revenue-authority taxpayer number) at minimum.
+- Business registration with the registrar (optional but useful for bank accounts and contracts).
+- National standards body product certification (for example the national bureau of standards) for access to hardware shops and supermarkets; verify whether a repackaged or tinted product needs its own certification.
+- Environmental regulator requirements for solvent-based products: storage, waste (empty tins, spent solvents, wash water), fire safety.
+- Occupational health: ventilation, protective equipment, flammables storage.
+- Labelling and safety data information; product liability.
+Verify each requirement with the relevant authority for the target country (Uganda, Kenya, Tanzania and Rwanda differ; Rwanda enforces standards more strictly, so a certified small-scale business is the realistic route there).
 
-Primary paints are purchased from large and medium-sized paint manufacturers. These treat mixers as trade wholesalers.
+## 8. Competition and differentiation
 
-**Key suppliers:**
-- **Crown Paints** — market leader (65% market share); Nairobi, branches Uganda and Tanzania
-- **Basco Paints (Duracoat)** — second largest; innovations include scented and antibacterial ranges
-- **Sadolin** — established 1959, Danish heritage
-- **Solai Paints** — Kariobangi Light Industries; smaller scale
-- Medium suppliers: Shivam Paint Industries, Gokul Ltd, Seweko Paints, Fastchem, Spectra Chemicals, Pinnacle Paints
+Informal mixers cluster near garage districts; none is dominant; most use manual methods; skill, customer relationships and location are the differentiators. Formal garages with computerised systems serve the premium segment. New entrant advantages to test: computer-assisted matching, consistent quality, branding, formalisation, credit terms.
 
-**Purchase terms:** Minimum 50 litres; some suppliers require a buyer account with advance deposit. Some deliver to the mixer's premises.
+## 9. Critical success factors
 
-## Licences
+1. Quality consistency (formula records, test cups, batch controls).
+2. Location near demand.
+3. Colour-matching skill.
+4. Relationships with mechanics and contractors.
+5. Pricing discipline and negotiation.
 
-| Licence | Issuer | KES |
-|---------|--------|-----|
-| Single Business Permit | County government | ~15,000 |
-| Business registration (optional but recommended) | Registrar of Companies | 20,000–30,000 |
+## 10. Opportunities
 
-> Many informal mixers operate without any licence. A county business permit is the minimum to avoid official harassment. Formal registration enables bank accounts, contracts, and potential KEBS product certification.
+1. Computerised colour matching for the mid-market vehicle owner at informal price points.
+2. Branding and marketing (vernacular radio, promotional materials, social media); most mixers rely on location reputation only.
+3. Formalisation and product certification to reach retail channels.
 
-## Competition
+## 11. Risks and mitigations
 
-- 317 small-scale paint mixers in Nairobi (2015)
-- Major cluster areas: Kariobangi, Kayole, Ziwani (Nairobi)
-- None dominant; most use manual methods; quality and customer relationships are the primary differentiators
-- Existing players have advantages in skill, consumer relationships, and location
-- New entrant advantages: computer-assisted matching (major gap), better branding, formalisation
+| Risk | Assessment | Mitigation |
+|---|---|---|
+| Formal garages with computerised mixing move down-market | Growing | Adopt matching technology; compete on price and speed |
+| Manufacturers sell direct to consumers | Cuts mixer margin | Multiple suppliers; add services and consumables |
+| Regulatory formalisation | Could tighten informal operation | Certify early; budget compliance costs |
+| Quality claims (peeling, cracking) | Liability | Test batches, records, warranty terms, insurance |
+| Fire and chemical hazards | Safety and closure | Storage design, fire equipment, training |
+| Supplier price rises or stock-outs | Margin squeeze | Buffer stock, two suppliers, price-pass-through clauses |
+| Customer credit default | Cash flow | Credit limits, deposits |
 
-## Critical Success Factors
+## 12. KPIs
 
-1. **Quality consistency** — manual mixing creates batch-to-batch variation; this is the biggest weakness of the sector
-2. **Location** — near garages, vehicle repair areas, or real estate construction sites
-3. **Skill** — colour ratios, mixing technique, viscosity, and timing are learned through experience
-4. **Customer relationships** — mechanics, contractors, and regular customers provide reliable volume
-5. **Pricing** — no fixed prices; negotiation skill directly affects margins
+Litres sold per month; gross margin by line; rework and returns rate; colour-match accuracy (first-time match rate); customers repeat rate; stock turnover; days of credit outstanding; supplier price index; complaints.
 
-## Opportunities
+## 13. Country notes (verify locally)
 
-1. **Computerised paint mixing** — technology exists to scan a vehicle's colour code and mix an exact match. Formal garages with such systems charge a premium; an independent computerised service targeting the informal vehicle repair market has significant potential. Demand exists across all vehicle categories
-2. **Branding and marketing** — virtually no mixer brands or markets their products beyond location-based reputation; vernacular radio, promotional materials, or social media offer untapped channels
-3. **Formalisation** — KEBS certification allows access to formal retail channels (hardware shops, supermarkets), significantly expanding distribution
+- Uganda: informal mixers work in the capital's garage clusters and buy from manufacturers' trade counters; a local-authority trade licence and taxpayer number are required; a large second-hand vehicle fleet sustains demand; cross-border price differences affect sourcing.
+- Tanzania: similar garage clusters in the main commercial city; company registration and taxpayer number; a growing commercial vehicle fleet; formal garages sometimes subcontract custom mixing.
+- Rwanda: smaller informal sector because of stricter standards enforcement; an opening exists for a certified small-scale tinting business serving the construction boom.
+- Kenya: the largest cluster of small mixers; several hundred were counted in the capital in a 2015 survey (out of date).
 
-## Long-Term Risks
+## 14. Plan-section prompts
 
-| Risk | Assessment |
-|------|------------|
-| Competition from formal garages with computerised mixing | Growing; currently serves premium segment only |
-| Paint company direct-to-consumer distribution | Would reduce mixer margins |
-| Regulatory formalisation | KEBS and NEMA requirements could make informal operation harder |
-| Quality lawsuits | Peeling or cracking paint creates liability risk |
+- Market: segments, vehicle and construction demand, competitor count, price points (dated).
+- Operations: workflow, formula records, quality controls, safety.
+- Capex and working capital: itemised build from quotes.
+- Unit economics: margin by line, break-even litres, sensitivity table.
+- Regulation: licences held and planned certification, with dates and costs.
+- Risks and KPIs as above.
 
-## East Africa Notes
-
-- **Uganda:** Informal paint mixing exists in Kampala's Katwe, Ndeeba, and Kiseka Market garage clusters. Crown Paints Uganda and Sadolin Uganda operate directly in Kampala; independent mixers source from their trade counters. KCCA trade licence and URA TIN required. Kampala's active second-hand car market (boda boda, taxis, private cars) creates steady demand for automotive mixed paints. Cross-border trade — the KES 50 price advantage on some items vs. UGX equivalents — affects sourcing dynamics at the border.
-- **Tanzania:** Paint mixing exists in Dar es Salaam garage clusters (Gongo la Mboto, Ukonga, Ubungo). Crown Paints Tanzania, Sadolin East Africa, and local importers supply primary paints. BRELA registration and TRA TIN required. Tanzania Automotive industry is growing (particularly commercial vehicles and buses) driving demand for vehicle finishing paints. Formal automotive garages in Dar occasionally subcontract custom mixing to informal specialists.
-- **Rwanda:** The informal paint mixing sector is smaller in Rwanda given stricter enforcement of Rwanda Standards Board (RBS) product standards. Formal paint retailers (Crown, Kansai Plascon — licensed for Rwanda) dominate. An opportunity exists for a **formalised, KEBS/RBS-certified** small-scale paint mixing or tinting business targeting Kigali's active construction sector. Rwanda's rapid urbanisation (Vision 2050 ambitions) keeps demand for decorative paint strong.
-- **EA general:** Across all EA markets, the opportunity is moving from purely manual mixing to **computerised colour matching**, particularly for the automotive segment. Premium garages in Nairobi, Kampala, and Dar already use this technology; making it accessible to mid-market vehicle owners at informal price points is an underserved niche.
-
-## Data Quality Notes
-
-Revenue (KES 160,000 avg/month) and pricing data are from 2015 Kenya surveys. Paint company wholesale prices and raw material costs will have changed — verify directly with Crown Paints, Basco, or medium-scale suppliers before investing. The 10-month breakeven is market-sensitive and location-dependent. The margin range (20–40%) is structurally durable; specific KES figures need current market verification.
+Sources consulted: Crack A Business Kenya, Paint Mixing quick guide, 2015 (figures superseded; use only as an outline of the trade); manufacturers' published mixing guidance; national regulator websites (verify).

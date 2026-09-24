@@ -26,6 +26,7 @@ Use this skill to test a business idea or major assumption before heavy executio
 - Do not use after decisive evidence already exists unless re-testing is needed.
 - Do not mistake opinion gathering for disciplined validation.
 - Do not continue testing forever when a clear decision threshold has been crossed.
+- Use `meta-business-model-design` instead to design, compare and GEL-score the business model itself; this skill then tests the chosen model's riskiest assumptions.
 
 
 - For `idea-testing`, route to the relevant plan-section skill instead when the request is section drafting rather than cross-section analysis.
@@ -266,6 +267,7 @@ A founder plans six months of development for a supplier marketplace. First test
 ## References
 
 - [`AGENTS.md`](../../../AGENTS.md) - repository routing, evidence, finance, and release rules.
+- [Business model design and GEL scoring](../meta-business-model-design/SKILL.md) - read first when the assumption under test is the business model's customer, sales or margin logic; its open-assumption list is this skill's input.
 
 ## Market-to-commitment validation ladder
 

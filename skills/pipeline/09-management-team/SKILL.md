@@ -303,6 +303,7 @@ The founder owns strategy, sales, finance approval, and operations review. Reass
 
 ## References
 
+- [Phrase bank, entry 09](../../language/writing-quality/references/business-plan-phrase-bank-sections-09-16.md) — read while drafting: purpose, keywords, slot-templates, tone rules, before-and-after rewrites and red-flag phrases for this section; apply the strategy-type emphasis from the [phrase-bank index](../../language/writing-quality/references/business-plan-phrase-bank.md).
 - [Load this skill's primary method or template](references/african-entrepreneurship.md) before applying the 09 management team decision rules.
 - For 09 management team claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 

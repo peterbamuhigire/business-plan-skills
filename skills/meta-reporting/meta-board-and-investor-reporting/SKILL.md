@@ -157,8 +157,8 @@ This is operationalised through `skills/meta-agent-board-and-investor-reporting/
 - `skills/meta-agent-board-and-investor-reporting/SKILL.md` — Agent reporting workflow (for agent-product companies)
 - `skills/meta-agent-board-and-investor-reporting/references/saas-agent-board-pack-section.md` — Agent section template
 - `skills/meta-agent-board-and-investor-reporting/references/saas-agent-investor-update-block.md` — Agent investor-update block
-- `book-extractions/cotton-run-a-saas-business-extraction.md` — MSPOT and cadence
-- `book-extractions/mersch-hacking-saas-extraction.md` — financial reporting standards
+- `skills/saas/saas-gtm-motion-design/references/saas-scaling-rules-and-discount-governance.md` — MSPOT and cadence
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — financial reporting standards
 - `skills/meta-living-plan-governance/SKILL.md` — sister skill (this skill operationalises the living plan via investor reporting)
 - `skills/meta-quarterly-gameplan/SKILL.md` — sister skill (quarterly operating rhythm)
 

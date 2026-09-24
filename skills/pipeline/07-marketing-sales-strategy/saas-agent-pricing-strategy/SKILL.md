@@ -172,9 +172,9 @@ When agent pricing includes **multi-tier SLA** (bronze / silver / gold or simila
 - `skills/07-marketing-sales-strategy/saas-ai-pricing-strategy/SKILL.md` — AI pricing parent
 - `skills/saas-pricing-and-packaging-strategy/SKILL.md` — SaaS pricing parent
 - `skills/meta-pricing-strategy/SKILL.md` — Kennedy / Marrs pricing discipline
-- `book-extractions/kennedy-no-bs-price-strategy-extraction.md` — pricing-psychology
-- `book-extractions/agent-products-business-plan-audit-2026.md` — agent audit
-- `book-extractions/walling-saas-playbook-extraction.md` — SaaS pricing
+- `skills/meta-pricing-gtm/meta-pricing-strategy/references/price-strategy-audit-and-proposition-stack.md` — pricing-psychology
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — agent audit
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — SaaS pricing
 
 ## Africa / Uganda Application Notes
 

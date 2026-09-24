@@ -154,7 +154,7 @@ The calculator answers four questions an AI-aware investor will ask within the f
 - `references/saas-ai-pricing-architecture.md` — how cost links to pricing
 - `skills/10-financial-projections/saas-ai-unit-economics-and-cogs/SKILL.md` — sister skill
 - `skills/14-ai-integration/references/saas-ai-feature-roadmap-in-business-plan.md` — roadmap discipline
-- `book-extractions/tod-building-multi-tenant-saas-architectures-extraction.md` — multi-tenant cost realities
+- `skills/pipeline/08-operations-plan/references/saas-tenancy-model-and-msp-trap-test.md` — multi-tenant cost realities
 
 ## Africa / Uganda Application Notes
 

@@ -1,100 +1,38 @@
-# Bottled Water Production & Vending
+# Bottled Water Production and Vending: Plan-Section Reference
 
-**Source:** Crack A Business Kenya (CAB), ~2014 | **Sub-sector:** Beverages — Water Packaging
-**Conversion:** Original KES figures at KES 106/USD (2020 base), adjusted ×1.27 for USD inflation → March 2026 USD
+Use when the plan covers purifying and packaging water (500 ml, 1 litre, 20-litre refills) for retail, institutional and home-delivery markets.
 
-> A small-to-medium water purification, bottling, and vending business — treating municipal or borehole water and packaging it in branded 500 ml, 1-litre, and 20-litre containers for retail, institutional, and home delivery markets.
+## Market and customer
+- Segments: retail bottles (shops, kiosks), 20-litre dispenser refills (offices, homes, schools, hotels), and institutional supply. The 20-litre returnable-bottle model with a monthly delivery contract gives small producers recurring revenue and lower distribution cost per litre than small retail bottles.
+- Large national brands hold most volume; small producers face supermarket entry barriers, consumer distrust of unknown brands and limited marketing capital. Viable entry route: direct delivery to offices, hotels, schools and neighbourhood retailers, with distributors for wider reach.
+- Size demand from catchment households and institutions x consumption per head x expected share; state market growth as a dated assumption.
 
-## Financial Summary
+## Operating model
+- Process chain: source water, test, treat, fill, seal, label, store, deliver.
+- Water source options: municipal (lowest cost, minimal treatment, usually UV), borehole (drilling capex, moderate to high treatment, low running cost), surface water (full purification, highest compliance risk). Test the source at a certified laboratory before specifying equipment and show results to suppliers.
+- Distribution mix to plan: wholesalers and distributors, direct shop supply, own shop plus delivery, and export for larger firms.
 
-| Metric | Amount |
-|--------|--------|
-| Capital Investment (sample semi-automated plant) | $16,000 |
-| — Equipment (water treatment system) | $6,000 |
-| — Shop buildout | $960 |
-| — Storage tank (5,000 L) | $899 |
-| — Goodwill (if required) | $1,199 |
-| — Security deposit (3 months rent) | $719 |
-| — Initial bottle inventory | $299 |
-| — Annual licences (KEBS, county, excise) | $1,108 |
-| — 6 months working capital | $3,739 |
-| Minimum viable startup (budget equipment) | $1,800 |
-| Common startup range (surveyed firms) | $1,800–$6,000 |
-| Minimum recommended startup | $6,000 |
-| Annual excise licence | $599 |
-| KEBS standardisation mark (annual) | $382 |
-| Minimum retail price (reference) | $0.12/litre |
-| Sector annual growth rate (Kenya 2014) | 12% |
+## Equipment and capex
+- Technology ladder: UV only (tap water), reverse osmosis plus UV (borehole or variable source), semi-automated line (typical small-firm entry), fully automated (high volume, lowest cost per litre). Choose by source quality and target litres per hour.
+- Capex checklist: treatment system, storage tank, filling and capping equipment, bottle stock and dispenser bottles, premises fit-out, delivery vehicle, deposits, licences.
+- Compare new versus second-hand and local versus imported equipment on capacity, energy use and service support; obtain at least three supplier quotations.
 
-## Equipment Options by Technology
+## Unit economics drivers
+- Cost per litre = source water + treatment energy and consumables + packaging (bottle, cap, label) + labour + delivery + licence or excise share. Packaging usually dominates for small bottles; dispenser refills avoid it.
+- Contribution per litre = net selling price minus variable cost; break-even litres per month = fixed costs / contribution per litre.
+- Working capital: cover rent, wages and commissions, electricity, source water, labels and marketing for several months before break-even.
+- Excise or sector levies may apply per litre or as a percentage of sales; verify with the Chwezi finance engine and the revenue authority.
 
-| Technology | Capital Cost | Op. Cost/Litre | Best For |
-|------------|-------------|----------------|----------|
-| UV irradiation only | $599–$4,193 | $0.005 | Tap water source, low mineral content |
-| Reverse Osmosis + UV | $4,193–$8,386 | $0.005–$0.025 | Borehole, variable or contaminated source |
-| Semi-automated (65% of small firms) | $1,800–$6,000 | moderate | Balanced cost-capacity entry point |
-| Fully automated | $6,000–$18,000 | lowest/litre | High volume (1,000 L/hr+) |
+## Regulation and licensing checks
+Standards-body certification is mandatory before commercial sale (KEBS in Kenya, UNBS in Uganda, TBS in Tanzania, RBS in Rwanda), plus business licence, public health licence, excise registration where applicable, and water abstraction permits for boreholes. Confirm current fees.
 
-> 65% of surveyed small Kenyan water bottlers use semi-automated systems; 20% fully automated; 15% manual.
+## Risks
+Contamination and recall, failed certification, brand distrust, price competition from large brands, equipment downtime, power outages, bottle loss (dispenser model), unlicensed competitors.
 
-## 6-Month Working Capital Breakdown
+## KPIs
+Litres produced and sold, cost per litre, share of recurring contract revenue, bottle return rate, complaint rate, delivery cost per drop, certification status.
 
-| Item | Monthly (KES) | Monthly (2026 USD) | 6-Month Total |
-|------|--------------|-------------------|---------------|
-| Rent | 20,000 | $240 | $1,440 |
-| Salaries and commissions | 20,000 | $240 | $1,440 |
-| Electricity | 3,500 | $42 | $252 |
-| Water (source) | 3,000 | $36 | $216 |
-| General office expenses | 2,000 | $24 | $144 |
-| Marketing and labels | 3,500 | $42 | $252 |
-| **6-Month Working Capital** | | | **$3,744** |
+## Plan-section prompts
+What is the water source and laboratory result? Which technology fits and why? Which channels win the first 12 months? What is break-even in litres? How are quality and traceability evidenced?
 
-## Annual Licensing Costs (Kenya)
-
-| Licence | 2026 USD |
-|---------|----------|
-| KEBS standardisation mark | $382 |
-| County business licence | $120 |
-| Public health licence | $12 |
-| Excise tax licence (KRA) | $599 |
-| **Total annual licences** | **$1,113** |
-
-> Excise tax is additionally KES 3 per litre sold ($0.036) OR 5% of monthly sales — whichever is higher.
-
-## Water Source Options
-
-| Source | Treatment Needed | Cost Advantage |
-|--------|-----------------|----------------|
-| Municipal/tap water | Minimal (UV usually sufficient) | Lowest cost; highest trust |
-| Borehole | Moderate–high (RO recommended) | High upfront ($3,600–$9,600 drilling) but ongoing cost is low |
-| Surface water | High (full purification) | Rarely used; highest compliance risk |
-
-> Test water source at certified laboratory before buying equipment. Testing: KES 750–5,000 ($9–$60). Show results to equipment suppliers for correct specification.
-
-## Market Dynamics
-
-- Kenya market estimated at KES 2B ($24M) annually, growing at 12%/year
-- ~600 licensed bottlers nationwide; significant unlicensed informal segment
-- Top 5 brands (Keringet, Highlands, Aquamist, Quencher, Dasani) control ~60% of volume
-- Small firms face: supermarket entry barriers, consumer distrust of unknown brands, limited capital for marketing
-- Most viable distribution for small producers: direct delivery to offices, hotels, schools, and neighbourhood retail; wholesalers/distributors handle wider reach
-
-## Distribution Channels (Survey of small firms)
-
-| Channel | % of Firms |
-|---------|-----------|
-| Wholesalers / distributors | 40% |
-| Direct retail to shops | 28% |
-| Own shop + direct delivery | 21% |
-| Export | 11% |
-
-## East Africa Notes
-
-- **Uganda:** UNBS (Uganda National Bureau of Standards) certification is mandatory for any bottled water sold commercially. Capital investment and cost structure largely equivalent to Kenya. Major brands: Rwenzori, Cool Spring, Afia. Growing demand in Kampala, Jinja, and Mbarara. 20-litre dispenser water for offices and homes is the highest-volume segment for small producers.
-- **Tanzania:** TBS (Tanzania Bureau of Standards) certification required. Dar es Salaam market is large with significant informal segment. Brands: Kilimanjaro, Dasani, Maji ya Bomba, and many small regional players.
-- **Rwanda:** RBS (Rwanda Bureau of Standards) certification required. Inyange Industries (state-linked) dominates. Market gap for small producers in peri-urban and secondary town distribution. Office water dispensers widespread in Kigali.
-- **All EA:** The 20-litre refillable dispenser water model (returnable bottle + monthly delivery contract) gives small producers a reliable recurring revenue stream with lower distribution costs than 500 ml retail.
-
-## Data Quality Notes
-
-Capital cost of treatment equipment varies widely by supplier, origin (Chinese vs. European), and second-hand availability. The KES 500,000 ($6,000) figure for water treatment is a mid-range estimate for a semi-automated system. Budget systems can be sourced locally for KES 150,000 ($1,800); full commercial systems can exceed KES 1.5M ($18,000).
+Sources consulted: Crack A Business Kenya, small-business guides (c. 2014); all figures are volatile and must be re-verified with dated quotations.

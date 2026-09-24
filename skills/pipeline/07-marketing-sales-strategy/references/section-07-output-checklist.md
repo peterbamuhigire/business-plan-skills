@@ -4,7 +4,7 @@ Use this checklist to draft or review the marketing and sales strategy section w
 
 ## Required Elements
 
-1. **Marketing objectives**: specific, measurable goals in SMART format.
+1. **Marketing objectives**: two to five objectives that pass the SMART quality test (specific, measurable, accurate and achievable, realistic, time-bound) and are applicable to the business's location and scope; each with baseline (source, date), target, date, owner and the source of its line in the sand. See `business-plan-marketing-section-standard.md` and the orchestrator's `smart-objectives-builder.md`.
 2. **Marketing evolution stage**: where the business sits on the Kotler 1.0-6.0 spectrum and where it should move over three years.
 3. **Positioning statement**: how the brand should be perceived relative to competitors.
 4. **Marketing mix**: 4Ps for products or 7Ps for services.
@@ -20,6 +20,8 @@ Use this checklist to draft or review the marketing and sales strategy section w
 14. **Narrow market focus**: the sharpest viable beachhead segment the business can credibly win first.
 15. **Growth system**: loops, tests, owners, and learning cadence rather than isolated campaigns.
 16. **Premium or high-ticket logic**: buyer profile, value proof, consultative discovery, proposal, objections, follow-up, and VIP retention where relevant.
+18. **Reconciliation**: budget equals the P&L marketing line; volumes, conversion, lags, sales headcount and commissions equal Section 10 drivers; segment sizes match sections 04 and 05.
+19. **Evidence classes**: every number labelled verified fact, assumption, estimate, projection or target, with source and date.
 17. **Website and SEO asset logic**: target pages, search intent, conversion paths, analytics events, launch distribution, maintenance, and cost assumptions where relevant.
 
 ## Generation Process

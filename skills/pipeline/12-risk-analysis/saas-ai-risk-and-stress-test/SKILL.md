@@ -105,8 +105,8 @@ Generic risk registers cover technology, market, regulatory, talent, and financi
 - `skills/12-risk-analysis/SKILL.md` — generic risk-analysis flow
 - `skills/meta-financial-stress-test/SKILL.md` — stress-test discipline; AI scenarios feed here
 - `skills/14-ai-integration/SKILL.md` — AI integration context
-- `book-extractions/mersch-hacking-saas-extraction.md` — SaaS CFO risk discipline
-- `book-extractions/tod-building-multi-tenant-saas-architectures-extraction.md` — multi-tenant architecture risks
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — SaaS CFO risk discipline
+- `skills/pipeline/08-operations-plan/references/saas-tenancy-model-and-msp-trap-test.md` — multi-tenant architecture risks
 
 ## Africa / Uganda Application Notes
 

@@ -1,17 +1,14 @@
 ---
-source: Synthesised from Tier 1 + StoryBrand + Gerber + Horowitz + Advertising/PR/Self-Promotion + Ashley + Fleisher & Bensoussan + Writing Quality book extractions (March 2026)
-books: Minto (2002), Rasiel (1999), Damodaran (2011), Feld & Mendelson (2019), Agrawal et al. (2018), Sinek (2009), Miller (2017), Gerber (2008), Horowitz (2014), Hahn & Mangun (2003), Edwards & Douglas (1991), Pinskey (1997), Ashley (2003), Fleisher & Bensoussan (2007), Cadle, Paul & Turner (2010), Hood (n.d.), Shiach (n.d.), Geffner (1998), Rubie & Provost (1997)
-purpose: Blog post ideas derived from business book content — for business planning, entrepreneurship, management, and plan-writing topics
+purpose: Blog post idea bank for business planning, entrepreneurship, management, funding and plan-writing topics
+skill: blog-idea-generator
 ---
 
-# Book-Derived Blog Post Ideas
+# Business Planning Blog Idea Bank
 
-A curated bank of original, insightful blog post ideas extracted from the Tier 1 book batch.
-Each idea includes: angle, target reader, hook, and which reference file to draw from.
+A bank of original blog post ideas organised by business-plan topic. Each idea gives an angle, target reader, hook, the engine reference file to draw from, and a suggested format. Select the topic that matches the reader's current planning task, then pick an idea and develop it from the named reference file. Verify any figure or regulatory claim with a dated source before publishing.
 
----
 
-## From Minto — *The Pyramid Principle*
+## Plan structure and analytical method
 
 ### B-MIN-01 — Why Your Business Plan Buries the Answer
 **Angle:** Most business plans make the reader work too hard — they plod through context, analysis, and data before revealing the conclusion. The Pyramid Principle flips this.
@@ -41,10 +38,6 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `pyramid-principle.md` — 30-second test; cross-reference `mckinsey-problem-solving.md` — elevator test
 **Format:** Self-diagnostic checklist + rewrite guide
 
----
-
-## From Rasiel — *The McKinsey Way*
-
 ### B-MCK-01 — MECE Thinking: The Framework That Separates Good Analysis from Great Analysis
 **Angle:** Mutually Exclusive, Collectively Exhaustive — the two words that McKinsey consultants use to pressure-test every framework. Most business plan market analyses are neither.
 **Target reader:** Business analysts, plan writers, entrepreneurs who want consulting-quality plans
@@ -73,9 +66,15 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `mckinsey-problem-solving.md` — Fact-based analysis section
 **Format:** Diagnostic exercise + rewriting guide
 
----
+### B-CROSS-01 — The Consulting-Quality Business Plan: What Bain, McKinsey, and Deloitte Would Change in Yours
+**Angle:** The structural differences between a bankable business plan and a consulting-quality deliverable — Pyramid Principle, MECE, hypothesis-driven analysis, DCF, and visual communication standards.
+**Target reader:** Entrepreneurs seeking DFI or equity funding where the bar is higher than a bank loan
+**Hook:** "Your business plan got the loan. But it would not survive a McKinsey partner review. Here is the gap — and how to close it."
+**Draw from:** `pyramid-principle.md`, `mckinsey-problem-solving.md`, `business-valuation-methods.md`
+**Format:** Comparative analysis + upgrade checklist
 
-## From Damodaran — *The Little Book of Valuation*
+
+## Valuation and deal terms
 
 ### B-DAM-01 — What Is Your Business Actually Worth? The Three Methods Every Founder Should Know
 **Angle:** DCF, multiples, and options-based valuation — plain-English introduction to the three approaches, when each applies, and which one a Uganda SME founder is most likely to encounter.
@@ -105,10 +104,6 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `business-valuation-methods.md` — Uganda/East Africa context section
 **Format:** Analysis piece with mitigation strategies
 
----
-
-## From Feld & Mendelson — *Venture Deals*
-
 ### B-VD-01 — The Option Pool Shuffle: How VCs Quietly Lower Your Valuation
 **Angle:** One of the oldest tricks in venture deals — placing the employee option pool inside the pre-money valuation to reduce what founders actually receive. Most first-time founders never see it coming.
 **Target reader:** Entrepreneurs negotiating first equity round
@@ -137,9 +132,14 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `equity-term-sheets.md` — Founder Quick Reference, Uganda investor landscape
 **Format:** Listicle with Uganda-specific commentary
 
----
+### B-CROSS-02 — Before You Sign the Term Sheet, Know Your Valuation: A Guide for East African Founders
+**Angle:** Combining Damodaran's valuation methods with Feld's term sheet mechanics — founders who know both are infinitely harder to shortchange.
+**Target reader:** Founders at any equity fundraising stage
+**Draw from:** `business-valuation-methods.md` + `equity-term-sheets.md`
+**Format:** Two-part guide: Part 1 (know your number), Part 2 (protect your number)
 
-## From Agrawal, Gans & Goldfarb — *Prediction Machines*
+
+## AI adoption
 
 ### B-PM-01 — AI Is Not Magic. It Is Cheap Prediction. Here Is What That Means for Your Business.
 **Angle:** The core thesis of Prediction Machines demystified for East African entrepreneurs — AI makes prediction cheap, and cheap prediction changes which business activities are valuable.
@@ -169,9 +169,14 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `ai-economics-framework.md` — Uganda/EA AI tools table, SME practical guidance
 **Format:** Tool guide with cost, use case, and setup notes for each
 
----
+### B-CROSS-04 — AI or Not? How to Decide What to Automate in Your Business (Using Three Frameworks)
+**Angle:** Combining Prediction Machines (what is worth predicting?), McKinsey's MECE (have you covered all automation options?), and BPM's redesign-before-automating principle.
+**Target reader:** Business owners implementing AI; entrepreneurs writing the AI section of a plan
+**Draw from:** `ai-economics-framework.md` + `mckinsey-problem-solving.md` + `../08-operations-plan/references/business-process-management.md`
+**Format:** Decision framework with scored checklist
 
-## From Sinek — *Start with Why*
+
+## Purpose, brand story and customer messaging
 
 ### B-SW-01 — Why Your Mission Statement Is Lying (And How to Write One That Isn't)
 **Angle:** Most mission statements describe what a business does or how it does it. Sinek's Golden Circle shows why this is backward — and how starting with WHY produces statements that actually motivate people.
@@ -200,10 +205,6 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Hook:** "Your business was growing. Then it started to feel like a job. That is not a motivation problem. It is a WHY problem."
 **Draw from:** `mission-vision-why.md` — The Split section, purpose drift (cross-reference Kaza's objective function)
 **Format:** Diagnostic + recovery guide
-
----
-
-## From Miller — *Building a StoryBrand*
 
 ### B-SB-01 — Why Your Ugandan Business Website Is Losing Customers (And How to Fix It This Week)
 **Angle:** Most small business websites make the customer work too hard to understand what's on offer. The StoryBrand SB7 Framework — applied in one afternoon — can transform a confusing website into a converting one.
@@ -240,9 +241,14 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `storybrand-framework.md` — internal/philosophical problem levels, guide positioning (authority proof for loan applications), CAMPARI link
 **Format:** Story + checklist
 
----
+### B-CROSS-03 — Start With Why, Then Build the Plan: A New Framework for Business Planning
+**Angle:** Most business plans start with the product or market. Using Sinek's Golden Circle as the foundation changes what goes into every section — from operations to risk to marketing.
+**Target reader:** Entrepreneurs starting a business plan from scratch
+**Draw from:** `mission-vision-why.md` + `pyramid-principle.md` (SCQA applied to WHY)
+**Format:** Framework article + business plan outline based on Golden Circle
 
-## From Horowitz — *The Hard Thing About Hard Things*
+
+## Founder and leadership
 
 ### B-HOR-01 — The Struggle: What Every Ugandan Entrepreneur Goes Through (And How to Survive It)
 **Angle:** Horowitz's concept of "the Struggle" — the period when the product has problems, the market hasn't materialised, employees are leaving, and self-doubt becomes self-hatred — is universal. But almost nobody writes about it honestly. This post names it, normalises it, and gives the five things that actually help.
@@ -279,10 +285,6 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `hard-things-horowitz.md` — Ones and Twos section; succession implications; Uganda application (most Ugandan founders are Ones deficient in Two skills)
 **Format:** Framework with self-assessment checklist; what to hire for (and what not to); how to develop your weaker dimension
 
----
-
-## From Gerber — *Awakening the Entrepreneur Within*
-
 ### B-GER-01 — Are You Running a Business or Creating the World's Worst Job?
 **Angle:** Gerber's Fatal Assumption — that technical skill equals business skill — is the root cause of most small business failure. The distinction between working *in* your business and working *on* your business is the most valuable shift an East African entrepreneur can make.
 **Target reader:** Skilled tradespeople, practitioners, and professionals who have started or are considering starting a business
@@ -318,38 +320,8 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `awakening-entrepreneur-gerber.md` — Three Stages of Owner Transformation, Seven Centers of Management Attention, systems vs people
 **Format:** Diagnostic guide with stage-identification checklist and stage-transition action plan for each stage
 
----
 
-## Cross-Book Ideas (Multi-Source)
-
-### B-CROSS-01 — The Consulting-Quality Business Plan: What Bain, McKinsey, and Deloitte Would Change in Yours
-**Angle:** The structural differences between a bankable business plan and a consulting-quality deliverable — Pyramid Principle, MECE, hypothesis-driven analysis, DCF, and visual communication standards.
-**Target reader:** Entrepreneurs seeking DFI or equity funding where the bar is higher than a bank loan
-**Hook:** "Your business plan got the loan. But it would not survive a McKinsey partner review. Here is the gap — and how to close it."
-**Draw from:** `pyramid-principle.md`, `mckinsey-problem-solving.md`, `business-valuation-methods.md`
-**Format:** Comparative analysis + upgrade checklist
-
-### B-CROSS-02 — Before You Sign the Term Sheet, Know Your Valuation: A Guide for East African Founders
-**Angle:** Combining Damodaran's valuation methods with Feld's term sheet mechanics — founders who know both are infinitely harder to shortchange.
-**Target reader:** Founders at any equity fundraising stage
-**Draw from:** `business-valuation-methods.md` + `equity-term-sheets.md`
-**Format:** Two-part guide: Part 1 (know your number), Part 2 (protect your number)
-
-### B-CROSS-03 — Start With Why, Then Build the Plan: A New Framework for Business Planning
-**Angle:** Most business plans start with the product or market. Using Sinek's Golden Circle as the foundation changes what goes into every section — from operations to risk to marketing.
-**Target reader:** Entrepreneurs starting a business plan from scratch
-**Draw from:** `mission-vision-why.md` + `pyramid-principle.md` (SCQA applied to WHY)
-**Format:** Framework article + business plan outline based on Golden Circle
-
-### B-CROSS-04 — AI or Not? How to Decide What to Automate in Your Business (Using Three Frameworks)
-**Angle:** Combining Prediction Machines (what is worth predicting?), McKinsey's MECE (have you covered all automation options?), and BPM's redesign-before-automating principle.
-**Target reader:** Business owners implementing AI; entrepreneurs writing the AI section of a plan
-**Draw from:** `ai-economics-framework.md` + `mckinsey-problem-solving.md` + `../08-operations-plan/references/business-process-management.md`
-**Format:** Decision framework with scored checklist
-
----
-
-## From Klaff — *Pitch Anything*
+## Pitching and presenting
 
 ### B-KLF-01 — Why Your Bank Pitch Is Failing (And It's Not the Numbers)
 **Angle:** Most entrepreneurs walk into a bank meeting believing the loan is decided on the numbers. Klaff's neurofinance research shows it's decided in the first 90 seconds — before a single figure is reviewed. The crocodile brain rules.
@@ -379,10 +351,6 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `pitch-anything-klaff.md` — frame types, frame collisions, counter-frame techniques, beta traps
 **Format:** Scenario-based guide with five investor move + counter-move pairs
 
----
-
-## From McGowan — *Pitch Perfect*
-
 ### B-MCG-01 — The Hook-Meat-Payoff Formula: Structure Every Business Communication in Three Parts
 **Angle:** Every presentation, investor update, client proposal, and board report should follow the same three-part structure. McGowan's formula is simpler than the Pyramid Principle and immediately teachable to non-consultants.
 **Target reader:** Entrepreneurs, managers, and consultants who communicate frequently with funders, clients, or boards
@@ -404,10 +372,6 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `pitch-perfect-mcgowan.md` — Bridging technique, Q&A mastery, Draper Principle, flagging
 **Format:** Q&A preparation guide with 10 Uganda-specific hard questions + bridge scripts
 
----
-
-## Cross-Book Pitch Ideas
-
 ### B-CROSS-05 — Before You Build the Deck, Build the Frame: Combining Klaff and McGowan
 **Angle:** Klaff tells you how to control the psychological dynamics of the room. McGowan tells you how to communicate with maximum clarity. Together they produce a pitch that is both psychologically powerful and crystal clear. Use them in sequence.
 **Target reader:** Entrepreneurs preparing high-stakes pitches (equity, DFI, major contract)
@@ -422,9 +386,29 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `pitch-anything-klaff.md` (croc brain, bank pitch template) + `pitch-perfect-mcgowan.md` (brevity, no-tailgating) + `../11-funding-request/SKILL.md` (DSCR, CAMPARI) + `../meta-bankability-scoring/SKILL.md`
 **Format:** Complete loan presentation guide with script outline and checklist
 
----
+### B-PRES-01 — Why Your Business Plan Slide Deck Is Costing You the Deal
+**Angle:** The average business plan presentation deck in Uganda is a 25-slide document dump — dense tables, bullet-point lists, and charts titled "Revenue Chart." Here is what a persuasive deck looks like instead.
+**Target reader:** Entrepreneurs preparing investor or bank presentations; business plan consultants
+**Hook:** "Your business plan was brilliant. Your slides killed it. Here is why — and what to do differently."
+**Draw from:** `persuasive-presentations-duarte.md` — assertion-evidence format, signal-to-noise, slide transformation guide; `presentation-secrets-jobs-gallo.md` — simplicity, one idea per slide
+**Format:** Before/after slide transformation guide with 5 common slide types
 
-## Due Diligence Blog Ideas
+### B-PRES-02 — The Sparkline: The Narrative Structure Behind Every Presentation That Changes Minds
+**Angle:** Nancy Duarte's analysis of the world's most persuasive presentations reveals a consistent pattern — a deliberate contrast between what is and what could be. This is the structure behind every business pitch that works.
+**Target reader:** Entrepreneurs, consultants, and managers who present to decision-makers
+**Hook:** "Martin Luther King did not say 'I have a plan.' Every great presentation oscillates between the painful present and a better future. Here is how to build yours."
+**Draw from:** `persuasive-presentations-duarte.md` — Sparkline model, What Is / What Could Be, STAR moment; applied to business plan deck
+**Format:** Framework explainer with worked Uganda business plan example
+
+### B-PRES-03 — The One Thing: How Steve Jobs Designed Every Presentation Around a Single Idea
+**Angle:** Jobs never walked into a presentation without knowing his one governing idea — the single sentence he needed the audience to walk out remembering. Most business presentations have no such sentence. Here is how to find yours.
+**Target reader:** Entrepreneurs preparing any high-stakes presentation; business owners who over-explain
+**Hook:** "What is the one thing you need your investor to remember about your business? If you cannot say it in one sentence, your presentation is not ready."
+**Draw from:** `presentation-secrets-jobs-gallo.md` — the One Thing, Twitter-friendly headlines, Rule of Three, STAR moments
+**Format:** Practical exercise + before/after examples from Uganda business contexts
+
+
+## Due diligence and red flags
 
 ### B-DD-01 — The 20 Things Investors Will Investigate Before They Fund You (And How to Prepare)
 **Angle:** Every investor, bank, or DFI that receives your business plan will conduct due diligence — a systematic investigation of every material claim. Most entrepreneurs are blindsided by this. Here is exactly what they check, in order.
@@ -461,34 +445,8 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `operational-due-diligence-pe.md` — three key red flags (no audited accounts, founder-as-sole-signatory, no written governance); Uganda/East Africa notes
 **Format:** Problem-diagnosis-solution for each of the three gaps
 
----
 
-## Presentation Design Blog Ideas
-
-### B-PRES-01 — Why Your Business Plan Slide Deck Is Costing You the Deal
-**Angle:** The average business plan presentation deck in Uganda is a 25-slide document dump — dense tables, bullet-point lists, and charts titled "Revenue Chart." Here is what a persuasive deck looks like instead.
-**Target reader:** Entrepreneurs preparing investor or bank presentations; business plan consultants
-**Hook:** "Your business plan was brilliant. Your slides killed it. Here is why — and what to do differently."
-**Draw from:** `persuasive-presentations-duarte.md` — assertion-evidence format, signal-to-noise, slide transformation guide; `presentation-secrets-jobs-gallo.md` — simplicity, one idea per slide
-**Format:** Before/after slide transformation guide with 5 common slide types
-
-### B-PRES-02 — The Sparkline: The Narrative Structure Behind Every Presentation That Changes Minds
-**Angle:** Nancy Duarte's analysis of the world's most persuasive presentations reveals a consistent pattern — a deliberate contrast between what is and what could be. This is the structure behind every business pitch that works.
-**Target reader:** Entrepreneurs, consultants, and managers who present to decision-makers
-**Hook:** "Martin Luther King did not say 'I have a plan.' Every great presentation oscillates between the painful present and a better future. Here is how to build yours."
-**Draw from:** `persuasive-presentations-duarte.md` — Sparkline model, What Is / What Could Be, STAR moment; applied to business plan deck
-**Format:** Framework explainer with worked Uganda business plan example
-
-### B-PRES-03 — The One Thing: How Steve Jobs Designed Every Presentation Around a Single Idea
-**Angle:** Jobs never walked into a presentation without knowing his one governing idea — the single sentence he needed the audience to walk out remembering. Most business presentations have no such sentence. Here is how to find yours.
-**Target reader:** Entrepreneurs preparing any high-stakes presentation; business owners who over-explain
-**Hook:** "What is the one thing you need your investor to remember about your business? If you cannot say it in one sentence, your presentation is not ready."
-**Draw from:** `presentation-secrets-jobs-gallo.md` — the One Thing, Twitter-friendly headlines, Rule of Three, STAR moments
-**Format:** Practical exercise + before/after examples from Uganda business contexts
-
----
-
-## From Hahn — *Do It Yourself Advertising and Promotion*
+## Marketing, advertising and self-promotion
 
 ### B-HAH-01 — Why Every Ugandan Business Ad Fails at the Headline (And How to Fix It in 10 Minutes)
 **Angle:** Hahn's Five-Step Message Hierarchy (AIDA + Conviction) shows that most small business ads fail at step one — a weak or feature-led headline. Numbers, the word "you", and specific promises outperform vague boasts in every split test ever run.
@@ -518,10 +476,6 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `diy-advertising-copywriting.md` — Testing Hierarchy (5 levels with response swing %), break-even formula, Uganda Facebook micro-testing note
 **Format:** Diagnostic framework + step-by-step test design guide with UGX budget examples
 
----
-
-## From Edwards & Douglas — *Getting Business to Come to You*
-
 ### B-EDW-01 — The Marketing Pyramid: Why Your Business Keeps Paying for Ads Instead of Earning Referrals
 **Angle:** Edwards & Douglas's Marketing Pyramid shows that word-of-mouth referrals convert at the highest rate for the lowest cost — yet most businesses invest their entire budget at the bottom of the pyramid (paid ads). The strategic implication: invest first in what's at the top.
 **Target reader:** Service business owners; consultants; freelancers; professional practices
@@ -549,10 +503,6 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Hook:** "There are 400 accounting firms in Kampala. One of them is 'the accountant for NGOs.' Her waiting list is three months. The other 399 are fighting for the same clients on price. Which one do you want to be?"
 **Draw from:** `inbound-pr-self-promotion.md` — Niche Specialist Positioning (generalist trap, 4 criteria, positioning statement formula), Uganda examples (NGO accountant, manufacturing lawyer)
 **Format:** Self-assessment + positioning statement builder with 8 Uganda professional service examples
-
----
-
-## From Pinskey — *101 Ways to Promote Yourself*
 
 ### B-PIN-01 — 101 Ways Is Too Many. Here Are the 12 That Work for Ugandan SMEs.
 **Angle:** Pinskey's 101 tactics span five decades and four continents. Distilled for the Uganda/East Africa context: the 12 that require no budget, work in low-digital environments, and compound over time. Month-by-month action plan included.
@@ -582,9 +532,8 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `inbound-pr-self-promotion.md` — Press Release Structure (5-paragraph template), newsworthiness criteria (6 triggers), 7 "when to send" occasions, Uganda local angle examples, calendar listing tactic
 **Format:** Template-based how-to with five complete Uganda press release examples
 
----
 
-## From Ashley — *Oxford Handbook of Commercial Correspondence*
+## Business correspondence and trade terms
 
 ### B-ASH-01 — How to Write a Covering Letter That Gets Your Loan Approved
 **Angle:** Uganda banks receive plans without covering letters, or with covering letters that begin "Please find attached…" Ashley's letter-structure principles applied to a bank loan submission: block style, correct salutation, DSCR prominent in paragraph two, collateral stated explicitly.
@@ -628,9 +577,8 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `../00-plan-assembly/references/commercial-correspondence-ashley.md` — Personnel correspondence; job offer structure; CV and application standards
 **Format:** Template offer letter + Employment Act 2006 compliance checklist
 
----
 
-## From Fleisher & Bensoussan — *Business and Competitive Analysis: Effective Application of New and Classic Methods*
+## Competitive and strategic analysis
 
 ### B-FLB-01 — Why Your Business Plan's Competitive Analysis Is Probably Wrong
 **Angle:** Most Ugandan business plans list "Direct competitors: none" or name only one or two large formal businesses. Fleisher & Bensoussan's Nine Forces model reveals the informal sector, substitute products, government policy, and technology as competitive forces most plans miss entirely.
@@ -639,16 +587,12 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `../06-competitive-analysis/references/competitive-analysis-methods-fleisher.md` — Nine Forces model; driving forces; FAROUT framework; informal competition notes; Uganda adaptation section
 **Format:** Myth-busting listicle with Nine Forces applied to a Uganda case study
 
----
-
 ### B-FLB-02 — How to Profile a Competitor When They Have No Website, No Accounts, and No LinkedIn
 **Angle:** In Uganda and East Africa, most competitors are private, informal, or deliberately opaque. This post adapts Fleisher & Bensoussan's competitor profiling methodology for a low-data environment — physical observation, job listing analysis, supplier conversations, social media scanning, and customer debrief.
 **Target reader:** Uganda entrepreneur assessing a new market; consultant conducting competitive analysis for a client
 **Hook:** "Your biggest competitor has no website, no published accounts, and no LinkedIn profile. Here is how to profile them anyway."
 **Draw from:** `../06-competitive-analysis/references/competitive-analysis-methods-fleisher.md` — Competitor profiling; win/loss analysis; shadowing; Uganda OSINT notes; informal competition framing
 **Format:** How-to guide with 7-step competitor research process for low-data markets
-
----
 
 ### B-FLB-03 — Win/Loss Analysis: The Intelligence System Most Uganda Businesses Never Build
 **Angle:** Systematic post-sales debriefs — structured conversations with both customers you won and customers you lost — produce the most actionable competitive intelligence available. Yet almost no Uganda SME does this. This post provides a simple 5-question win/loss conversation guide adapted for relationship-based East African business culture.
@@ -657,8 +601,6 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `../06-competitive-analysis/references/competitive-analysis-methods-fleisher.md` — Win/Loss Analysis methodology; 7-step interview process; Uganda relationship culture adaptation; FAROUT summary
 **Format:** System-building guide with downloadable 5-question win/loss conversation template
 
----
-
 ### B-FLB-04 — The One Assumption That Can Sink Your Business Plan (And How to Find It)
 **Angle:** Every business plan rests on a "linchpin assumption" — the single belief that, if wrong, makes everything else collapse. Most founders don't know what theirs is. Fleisher & Bensoussan's Linchpin Analysis combined with Analysis of Competing Hypotheses gives a structured method for identifying and stress-testing it.
 **Target reader:** Business plan author; entrepreneur preparing for investor or bank pitch; consultant reviewing a client plan
@@ -666,16 +608,12 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Draw from:** `../06-competitive-analysis/references/competitive-analysis-methods-fleisher.md` — Linchpin Analysis; Analysis of Competing Hypotheses; FAROUT framework; connection to meta-bankability-scoring
 **Format:** Diagnostic framework post with worked Uganda example (maize processing business whose linchpin assumption is reliable aggregation from smallholders)
 
----
-
 ### B-FLB-05 — Benchmarking for Uganda SMEs: How to Set Performance Targets Without Copying a Business You Can't Reach
 **Angle:** Benchmarking is not just for multinationals. Uganda SMEs can benchmark against regional leaders (Kenya, Rwanda), sector association standards, and development institution data (IFC, UBOS) to set meaningful targets. This post explains the four types of benchmarking and which one is right for each stage of business.
 **Target reader:** Uganda SME owner wanting to set professional performance targets; business plan author writing an operations or financials section
 **Hook:** "Your bank wants KPIs. You don't know what 'good' looks like in your industry. Benchmarking finds the standard — even when your competitor won't share it."
 **Draw from:** `../06-competitive-analysis/references/competitive-analysis-methods-fleisher.md` — Benchmarking Analysis; four benchmarking types; Uganda/EA data sources; limitations (copycat syndrome); CSF analysis connection
 **Format:** Guide with four-type benchmarking taxonomy + Uganda data source table by industry
-
----
 
 ### B-FLB-06 — War Gaming Your Business Strategy: A One-Day Exercise for Uganda Entrepreneurs
 **Angle:** War gaming — where team members role-play as competitors, customers, and regulators — is the most powerful strategic stress-test most small businesses have never heard of. This post adapts Fleisher & Bensoussan's 6-step war gaming process into a simplified one-day workshop for Uganda SMEs preparing for market entry or a major business decision.
@@ -727,118 +665,121 @@ Each idea includes: angle, target reader, hook, and which reference file to draw
 **Format:** Explainer with three worked examples using the same UGX figures + decision table (which method for which audience)
 
 
----
+## Plain-English writing and storytelling
 
-## From Hood, Shiach, Geffner, Rubie and Provost -- Writing Quality Books
-
-### B-HOD-01
+### B-HOD-01 — Why your Ugandan business plan reads like a university essay
 - **Angle:** Why your Ugandan business plan reads like a university essay
 - **Target reader:** Ugandan entrepreneur submitting to a bank
 - **Hook:** The same writing style that earned you an A is quietly killing your loan application.
 - **Draw from:** writing-quality/references/words-at-work-hood.md
 - **Format:** Before/after rewrite + Plain English checklist
 
-### B-HOD-02
+### B-HOD-02 — The reversed triangle -- give bankers the answer first, not last
 - **Angle:** The reversed triangle -- give bankers the answer first, not last
 - **Target reader:** Business owners and proposal writers across East Africa
 - **Hook:** Academic writing builds to the conclusion. Bankers are too busy.
 - **Draw from:** writing-quality/references/words-at-work-hood.md
 - **Format:** Explainer with three real-world examples
 
-### B-HOD-03
+### B-HOD-03 — Ten phrases that make business writing sound bureaucratic -- and their plain replacements
 - **Angle:** Ten phrases that make business writing sound bureaucratic -- and their plain replacements
 - **Target reader:** Anyone writing professional documents in Uganda
 - **Hook:** If you have ever written pursuant to our earlier discussion in an email, this is for you.
 - **Draw from:** writing-quality/references/words-at-work-hood.md
 - **Format:** Table with explanation of why each phrase fails
 
-### B-HOD-04
+### B-HOD-04 — The executive summary is the only part of your report anyone will read
 - **Angle:** The executive summary is the only part of your report anyone will read
 - **Target reader:** Business owners preparing reports for boards or banks
 - **Hook:** Only 10-15 percent of reports are read in full. Your executive summary is your entire argument.
 - **Draw from:** writing-quality/references/words-at-work-hood.md
 - **Format:** Step-by-step guide with annotated template
 
-### B-SHI-01
+### B-SHI-01 — Your business plan executive summary is pure waffle -- here is the test and the fix
 - **Angle:** Your business plan executive summary is pure waffle -- here is the test and the fix
 - **Target reader:** Ugandan entrepreneurs preparing bank or investor documents
 - **Hook:** If your executive summary could describe any business, it describes no business at all.
 - **Draw from:** writing-quality/references/essay-writing-shiach.md
 - **Format:** Waffle diagnosis tool + rewrite examples
 
-### B-SHI-02
+### B-SHI-02 — The paragraph formula that makes any business plan argument more convincing
 - **Angle:** The paragraph formula that makes any business plan argument more convincing
 - **Target reader:** Business plan writers and consultants across East Africa
 - **Hook:** One key sentence. Two to four sentences of evidence. One closing sentence. Every paragraph. Every time.
 - **Draw from:** writing-quality/references/essay-writing-shiach.md
 - **Format:** Step-by-step guide with before/after paragraph rewrites
 
-### B-SHI-03
+### B-SHI-03 — The 15 linking phrases that make your business writing sound logical and controlled
 - **Angle:** The 15 linking phrases that make your business writing sound logical and controlled
 - **Target reader:** Anyone writing funding proposals or business plans in English
 - **Hook:** The difference between writing that flows and writing that jumps is how you connect the ideas.
 - **Draw from:** writing-quality/references/essay-writing-shiach.md
 - **Format:** Reference table by function with business-writing examples
 
-### B-SHI-04
+### B-SHI-04 — How to write a business plan conclusion that actually closes the deal
 - **Angle:** How to write a business plan conclusion that actually closes the deal
 - **Target reader:** Entrepreneurs at the funding-request stage
 - **Hook:** Most business plans end with a whimper. A strong conclusion delivers a verdict.
 - **Draw from:** writing-quality/references/essay-writing-shiach.md
 - **Format:** Three annotated conclusion examples
 
-### B-GEF-01
+### B-GEF-01 — Why your business plan sounds like a government form -- and how to fix it
 - **Angle:** Why your business plan sounds like a government form -- and how to fix it
 - **Target reader:** Ugandan entrepreneur preparing a bank loan application
 - **Hook:** Your plan says please find enclosed herewith. The loan officer has already moved on.
 - **Draw from:** writing-quality/references/business-english-geffner.md
 - **Format:** Before/after examples + expressions-to-avoid checklist
 
-### B-GEF-02
+### B-GEF-02 — The four-point editing test every business plan must pass before going to the bank
 - **Angle:** The four-point editing test every business plan must pass before going to the bank
 - **Target reader:** Business plan consultants and SME owners
 - **Hook:** A one-page checklist that has rescued more loan applications than any financial ratio.
 - **Draw from:** writing-quality/references/business-english-geffner.md
 - **Format:** Checklist article with worked examples
 
-### B-GEF-03
+### B-GEF-03 — Positive or negative -- the framing choice that changes how lenders read your risk section
 - **Angle:** Positive or negative -- the framing choice that changes how lenders read your risk section
 - **Target reader:** Entrepreneurs and consultants writing the risk analysis section
 - **Hook:** You have to disclose the risks. Here is how to do it without killing the deal.
 - **Draw from:** writing-quality/references/business-english-geffner.md
 - **Format:** Side-by-side comparison article
 
-### B-GEF-04
+### B-GEF-04 — Bullet points are lying to your business plan -- the parallelism problem
 - **Angle:** Bullet points are lying to your business plan -- the parallelism problem
 - **Target reader:** Anyone writing or reviewing business plans
 - **Hook:** Your bullet list mixes nouns, verbs, and clauses. The reader does not know why it feels wrong, but it does.
 - **Draw from:** writing-quality/references/business-english-geffner.md
 - **Format:** Grammar tutorial with business plan examples
 
-### B-RUB-01
+### B-RUB-01 — Your business plan is missing a protagonist -- why lenders read plans and feel nothing
 - **Angle:** Your business plan is missing a protagonist -- why lenders read plans and feel nothing
 - **Target reader:** Ugandan entrepreneurs and consultants preparing bank submissions
 - **Hook:** Lenders fund the plans they remember. They remember the ones with a person at the centre.
 - **Draw from:** writing-quality/references/storytelling-rubie-provost.md
 - **Format:** Framework article with before/after executive summary comparison
 
-### B-RUB-02
+### B-RUB-02 — The high-concept hook -- how to summarise your business in one sentence
 - **Angle:** The high-concept hook -- how to summarise your business in one sentence
 - **Target reader:** SME owners preparing investor pitches and bank proposals
 - **Hook:** If you cannot say what your business does and why it matters in one sentence, you are not ready to pitch.
 - **Draw from:** writing-quality/references/storytelling-rubie-provost.md
 - **Format:** Tutorial with ten worked example hooks for Ugandan businesses
 
-### B-RUB-03
+### B-RUB-03 — Show, do not tell -- the market research principle that separates fundable plans from rejected ones
 - **Angle:** Show, do not tell -- the market research principle that separates fundable plans from rejected ones
 - **Target reader:** Business plan writers and market researchers
 - **Hook:** A statistic is forgotten in a week. A named customer story is remembered in a year.
 - **Draw from:** writing-quality/references/storytelling-rubie-provost.md
 - **Format:** Comparison article with worked examples from Ugandan sectors
 
-### B-RUB-04
+### B-RUB-04 — The origin story your business plan is hiding -- and why the bank wants to read it
 - **Angle:** The origin story your business plan is hiding -- and why the bank wants to read it
 - **Target reader:** First-generation Ugandan entrepreneurs nervous about personal background
 - **Hook:** You think your story is too ordinary to matter. The investor thinks it is the only part that cannot be fabricated.
 - **Draw from:** writing-quality/references/storytelling-rubie-provost.md
 - **Format:** Personal narrative analysis + how-to guide
+
+
+## Sources consulted
+
+Ideas draw on the engine's own reference files; the underlying works are cited in those files, including Minto (2002), Rasiel (1999), Damodaran (2011), Feld and Mendelson (2019), Agrawal, Gans and Goldfarb (2018), Sinek (2009), Miller (2017), Gerber (2008), Horowitz (2014), Hahn and Mangun (2003), Edwards and Douglas (1991), Pinskey (1997), Ashley (2003), Fleisher and Bensoussan (2007), and Cadle, Paul and Turner (2010).

@@ -25,14 +25,14 @@ Skills are grouped into thematic categories under `skills/`. Use `skills/<catego
 - `ict/` — ICT-sector business-plan skills
 - `industry-guides/` — sector reference guides (agriculture, manufacturing, hospitality, retail, etc.)
 - `saas/` — SaaS GTM, unit economics, lifecycle, pricing, valuation
-- `marketing-sales/` — `marketing-plan-orchestrator` for complete standalone marketing plans; `entrepreneurial-demand-generation`, `demand-forecasting`, and `digital-marketing-strategy` for their specialist layers.
+- `marketing-sales/` — `marketing-plan-orchestrator` for complete standalone marketing plans (20-section architecture, SMART objective builder, location and scope calibration, Bullseye channel selection, advertising and media plan, sales and account coverage, marketing economics, KPI and control plan, quality gate); `entrepreneurial-demand-generation`, `demand-forecasting`, and `digital-marketing-strategy` for their specialist layers.
 - `writing-content/` — `ai-prompt-writer`, `blog-idea-generator`, `blog-writer`, `content-writing`, `premium-commercial-writing`
 - `language/` — `east-african-english`, `language-standards`, `writing-quality`
 - `meta-finance/` — bankability, valuation, financial stress test, revenue recognition, SLA controls
 - `meta-pitch/` — `pitch-deck`, `meta-pitch-preparation`, `meta-presentation-design`
 - `meta-pricing-gtm/` — pricing strategy, premium GTM, website investment planning
 - `meta-reporting/` — board & investor reporting
-- `meta-strategy/` — end-to-end business-plan orchestration, consulting synthesis, due diligence, optionality, governance, statistics
+- `meta-strategy/` — end-to-end business-plan orchestration, consulting synthesis, due diligence, optionality (including exit readiness and sale preparation), governance, statistics, and the strategy-rigour set: `meta-strategic-factor-analysis` (PESTEL key drivers, five forces, EFAS/IFAS/SFAS on one 1–5 scale, SWOT to TOWS), `meta-strategic-audit`, `meta-strategic-options-evaluation` (SAFe, strategy clock, low-cost-rival response, 35-word strategy statement gate), `meta-business-model-design` (Debelak GEL scoring, run before drafting), `meta-international-market-entry` (CAGE, institutional voids, Diamond, entry modes)
 - `meta-sustainability/` — sustainability strategy references
 - `meta-utility/` — `skill-writing`, `skill-safety-audit`, `proposal-architect`, `update-claude-documentation`, `anti-ai-slop`, `ai-slop-audit`
 
@@ -57,17 +57,25 @@ Skills are grouped into thematic categories under `skills/`. Use `skills/<catego
 ### Key Methodologies
 
 - Financial sections follow Rogoff's bankability criteria
-- Marketing sections follow Palo Alto's On Target framework
+- Marketing sections follow Palo Alto's On Target framework, now executed through `skills/pipeline/07-marketing-sales-strategy/references/business-plan-marketing-section-standard.md` (section versus standalone plan, required content, depth by plan type, reconciliation with sections 03–06, 10, 12 and 13). Standalone marketing plans use `marketing-plan-orchestrator` and its references; Section 07 borrows those methods rather than duplicating them.
+- Every objective and target in a plan or marketing plan must pass the SMART quality test (specific, measurable, accurate and achievable, realistic, time-bound) and be applicable to the business, its location and scope — see `skills/marketing-sales/marketing-plan-orchestrator/references/smart-objectives-builder.md` and `location-and-scope-calibration.md` (Uganda/East Africa defaults, data-protection registration, consent and direct-marketing objection rules).
+- Plan wording uses the section-by-section phrase bank in `skills/language/writing-quality/references/business-plan-phrase-bank.md` (index) with its section files, `marketing-plan-phrase-bank.md` and `article-and-blog-phrase-guidance.md`; record the client's `strategy_type` at intake (`00-client-intake`) and apply its emphasis row in every section.
+- Before drafting sections, score the business model with `meta-business-model-design`; use `meta-strategic-factor-analysis` and `meta-strategic-options-evaluation` when strategic choices are contested.
+- Every number in a plan carries its evidence class (verified fact, assumption, estimate, projection or target) with source and date — see `skills/marketing-sales/marketing-plan-orchestrator/references/evidence-discipline-for-marketing-claims.md`.
 - Implementation/M&E follows Jan B. King's game plan methodology
 - AI integration section is mandatory for 2026-era plans
 - When digitisation or technology modernisation is a material part of the plan, run `meta-digital-transformation` before or alongside `14-ai-integration` so the plan covers customer networks, data, process redesign, business-model change, and investment logic rather than AI tooling alone.
 - When a plan includes a website, ecommerce site, content/SEO engine, landing pages, customer portal, web app, website-design service line, or website startup/recurring costs, run `meta-website-investment-planning` so the plan explains website role, design philosophy, stack, content/SEO, operations, realistic costs, and cross-section consistency.
 - When a plan is for retail, omnichannel commerce, supermarkets, shops, POS-enabled stores, e-commerce operations, merchandising, pricing, promotions, markdowns, loyalty, fulfilment, returns, shrink, vendor terms, private label, or retail dashboards, load `skills/industry-guides/retail/guide.md` and `skills/industry-guides/retail/references/retail-operating-model-and-engine-plan.md` before drafting operations, marketing/sales, financial projections, risk, and implementation sections.
-- Pricing discipline follows Kennedy/Marrs *No B.S. Price Strategy* — use `meta-pricing-strategy` skill + `book-extractions/kennedy-no-bs-price-strategy-extraction.md`. Never accept a plan with cost-plus or competitor-match pricing without running the 9 Failures audit and the 5 Propositions stack.
-- Sales and go-to-market copy apply Kennedy + Brunson direct-response frameworks — see `book-extractions/kennedy-no-bs-sales-success-extraction.md`, `kennedy-ultimate-sales-letter-extraction.md`, and `brunson-dotcomsecrets-ignite-extraction.md`.
-- Attraction, conversion, retention, and referral logic should be explicit in serious go-to-market sections; use `book-extractions/kennedy-magnetic-marketing-extraction.md` when the plan has channels but no commercial system.
-- Major systems, digitisation, expansion, or automation recommendations should survive a business-case test — problem, options, do-nothing case, incremental economics, timing, and sensitivity. Use `book-extractions/haines-how-to-create-a-business-case-extraction.md`.
+- Pricing discipline follows Kennedy/Marrs *No B.S. Price Strategy* — use `meta-pricing-strategy` skill + `skills/meta-pricing-gtm/meta-pricing-strategy/references/price-strategy-audit-and-proposition-stack.md`. Never accept a plan with cost-plus or competitor-match pricing without running the 9 Failures audit and the 5 Propositions stack.
+- Sales and go-to-market copy apply Kennedy + Brunson direct-response frameworks — see `skills/pipeline/07-marketing-sales-strategy/references/direct-response-selling-playbook.md`, `skills/pipeline/07-marketing-sales-strategy/references/long-form-sales-letter-build.md`, and `skills/pipeline/07-marketing-sales-strategy/references/funnel-and-value-ladder-design.md`.
+- Attraction, conversion, retention, and referral logic should be explicit in serious go-to-market sections; use `skills/pipeline/07-marketing-sales-strategy/references/direct-response-commercial-system.md` when the plan has channels but no commercial system.
+- Major systems, digitisation, expansion, or automation recommendations should survive a business-case test — problem, options, do-nothing case, incremental economics, timing, and sensitivity. Use `skills/meta-strategy/meta-critical-thinking-business-logic/references/business-case-test.md`.
 - Serious plan logic must pass `skills/meta-strategy/meta-critical-thinking-business-logic/SKILL.md`: essential questions, claim-evidence-warrant mapping, mental-model checks, design-thinking validation, strategic logic, and achievability review.
+
+### Book extractions are never stored in the repository
+
+Book extractions, book summaries and raw source text must never be stored in this repository (the former `book-extractions/` folder was removed on 2026-09-23). Books are durable concept inputs: fold their methods into the owning skill's `references/` as task-oriented, paraphrased procedures, checklists, templates and decision rules with a brief citation (Author (Year) *Title*, Publisher). `scripts/source_ingestion_guardrail.py` blocks any `book-extractions/` path.
 
 ### When Generating Plan Content
 

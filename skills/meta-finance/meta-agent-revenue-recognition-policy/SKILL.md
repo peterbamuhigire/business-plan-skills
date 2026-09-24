@@ -211,8 +211,8 @@ Per cadence below.
 - `skills/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — COGS / contra-revenue
 - `skills/meta-accounting-finance-review/SKILL.md` — accounting review gate
 - `skills/meta-agent-sla-financial-controls/SKILL.md` — financial controls
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — audit
-- `book-extractions/accounting-bookkeeping-finance-controls-extraction.md` — controls
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
+- `skills/pipeline/10-financial-projections/references/finance-operating-system-and-controls-checklist.md` — controls
 
 ## Africa / Uganda Application Notes
 

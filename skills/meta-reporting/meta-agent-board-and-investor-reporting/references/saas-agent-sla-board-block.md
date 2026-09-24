@@ -178,7 +178,7 @@ We met or exceeded all SLA commitments this quarter. Uptime {x%} (commit {y%}); 
 - `skills/12-risk-analysis/saas-agent-sla-risk/references/saas-agent-sla-risk-register.md` — risk register
 - `skills/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
 - `skills/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — scorecard
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes
 

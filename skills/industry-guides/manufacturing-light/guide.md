@@ -101,7 +101,7 @@ For light manufacturing plans, include:
 - quality checkpoints and non-conformance procedure;
 - energy, scrap, rework, and waste metrics per product family.
 
-Cross-reference `../../../book-extractions/industrial-production-inventory-planning-extraction.md` when the plan needs deeper MRP, scheduling, warehouse, or green manufacturing logic.
+Cross-reference `../../pipeline/08-operations-plan/references/production-capacity-mrp-and-warehouse-planning.md` when the plan needs deeper MRP, scheduling, warehouse, or green manufacturing logic.
 
 ## References
 
@@ -138,3 +138,5 @@ Manufacturing opportunities beyond the UNDP profiles — from Thankaraju (2018),
 
 - Financial projections: `/10-financial-projections` for manufacturing cost modelling
 - Operations planning: `/08-operations-plan` for production process design
+
+- Sector profiles: `references/corn-chips-manufacturing.md` (extruded snacks), `references/nails-manufacturing.md` (wire nails), `references/non-woven-bags.md` (non-woven bags).

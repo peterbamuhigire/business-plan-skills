@@ -1,286 +1,115 @@
-# Restaurant Cost Controls -- Pricing, Portions, Inventory, and Analysis
+# Restaurant Cost Controls (Advanced): Pricing, Portions, Inventory, Break-Even, Menu Engineering, Tracking
 
-**Source:** Dittmer, P.R. & Keefe, J.D. *Principles of Food, Beverage, and Labor Cost Controls*, 9th Edition (Wiley, 2009)
+Task reference for menu pricing, purchasing, break-even and monitoring sections of a restaurant plan. Core formulas and cost determination are in `cost-controls.md`.
 
-> Figures adapted to Ugandan context (UGX). Percentages and ratios from the source are universal.
+Any figures are planning assumptions; re-verify against dated local prices. Tax and inventory-valuation policy: verify with the Chwezi finance engine.
 
-Sections 7-12 covering menu pricing, portion control, purchasing, break-even analysis, menu engineering, and daily cost tracking.
+## 1. Menu pricing
 
----
+Three approaches:
+1. Match competitors. Quick, but ignores your own cost structure; use only as a cross-check.
+2. Cost-based:
+   - Target cost percentage: `price = portion cost / target cost %`.
+   - Menu pre-cost: set tentative prices, forecast volumes, compute projected cost %, adjust prices or portions until acceptable.
+   - Target food cost % = 100% - profit % - fixed cost % - labour cost %.
+3. Contribution margin: average contribution margin = (sales - cost of sales) / customers; `price = portion cost + average contribution margin`.
 
-## 1. Menu Pricing Formulas and Strategies
+Inflation adjustment for future bookings: apply the pro-rata share of expected annual inflation to current cost, then divide by the target cost %; round to a sensible price point.
 
-### Three Approaches to Menu Pricing
+Menu layout: place items you most want sold in the prime reading positions (top third of a one-page menu, top centre of the right-hand page of a two-page menu, centre of a three-page menu).
 
-**1. Matching Competitors' Prices**
-- Common but risky; ignores own cost structure
-- Works for homogeneous products (pizza, burgers)
-- Dangerous if costs differ from competitors'
+## 2. Portion control and standard recipes
 
-**2. Calculating Prices from Costs and Cost Percents**
-
-Variation A -- Target Cost Percent Method:
 ```
-Sales Price = Portion Cost / Desired Cost % (as decimal)
-
-Example: UGX 4,620 cost / 0.30 (30% target) = UGX 15,400 selling price
-```
-
-Variation B -- Menu Pre-Cost Method:
-- Set tentative prices, forecast volume
-- Calculate projected food cost % using Menu Pre-Cost form
-- Adjust prices/portions until satisfactory cost % achieved
-
-Determining the Target Food Cost %:
-```
-100% - Profit % - Fixed Cost % - Labour Cost % = Food Cost %
+Standard portion cost = purchase price per unit / portions per unit
+Recipe cost = sum(ingredient quantity x unit cost); portion cost = recipe cost / portions
+Selling price = portion cost / desired cost %
 ```
 
-**3. Adding Contribution Margins to Portion Costs**
-
-Steps:
-1. Determine total sales, cost of sales, and gross profit
-2. Divide gross profit by number of customers = Average Contribution Margin
-3. Add this CM to each item's portion cost = Selling Price
-
-Example (Julio's Restaurant):
+Butcher test (portioned before cooking):
 ```
-Food Sales:      UGX 206,000,000
-Cost of Sales:   UGX  82,400,000
-Gross Profit:    UGX 123,600,000
-Customers:       30,000
-Average CM:      UGX 4,120 per customer
-
-Each menu item priced at portion cost + UGX 4,120:
-  Steak (UGX 10,260 cost) = UGX 14,380 selling price
-  Pasta (UGX 3,210 cost)  = UGX 7,330 selling price
+Yield % = usable weight / purchased weight
+Usable value = total cost - value of secondary parts (trim, tips)
+Cost per usable unit weight = usable value / usable weight
+Portion cost = portion size x cost per usable unit weight
 ```
 
-### Adjusting for Inflation
+Cost factors for fast repricing when supplier prices move:
 ```
-If annual inflation = 5%, for a 6-month future booking:
-Apply half the annual rate (2.5%) to current food cost
-Current cost: UGX 5,130 --> Future cost: UGX 5,258
-At 30% food cost: UGX 5,258 / 0.30 = UGX 17,527 --> round to UGX 17,500
+Cost factor per unit weight = cost per usable unit weight / purchase price per unit weight
+Portion cost = cost factor x portion size x current supplier price
 ```
 
-### Menu Prime Space (where customers look first)
-- One-page menu: top one-third
-- Two-page menu: top centre of right-hand page
-- Three-page menu: centre of middle page
+Cooking-loss test (portioned after cooking): record raw, trimmed, cooked and salable weights; cost per salable unit weight = original cost / salable weight.
 
----
-
-## 2. Portion Control and Standardised Recipes
-
-### Standard Portion Cost
+Quantity planning:
 ```
-Standard Portion Cost = Purchase Price per Unit / Number of Portions per Unit
-
-Example: UGX 53,000 (case of eggs) / 180 (two-egg portions) = UGX 294 per portion
+Quantity to buy = (portions x portion size) / yield %
+Portions obtainable = (quantity x yield %) / portion size
 ```
 
-### Recipe Detail and Cost Card
-```
-For each ingredient: Ingredient Quantity x Unit Cost = Ingredient Cost
-Sum all ingredient costs = Total Recipe Cost
-Total Recipe Cost / Number of Portions = Standard Portion Cost
-Selling Price = Standard Portion Cost / Desired Cost % (as decimal)
-```
+Run these tests for each protein and high-loss produce item and record results on the recipe card.
 
-### Butcher Test (items portioned before cooking)
+## 3. Purchasing and inventory
 
-Key calculations:
+Valuation methods: actual purchase price (most accurate, needs marking); first-in first-out; weighted average; latest purchase price (simple, common in food service); last-in first-out (lowers reported profit; check local acceptability). Method choice can change inventory value by several per cent, so state the method in the plan.
+
 ```
-1. Ratio to Total Weight = Weight of Part / Weight of Whole (Yield %)
-2. Total Value of Usable Meat = Total Cost - Value of Secondary Parts
-3. Cost per Usable Pound = Total Value of Usable Meat / Weight of Usable Meat
-4. Cost per Usable Ounce = Cost per Usable Pound / 16
-5. Portion Cost = Portion Size (oz) x Cost per Usable Ounce
+Average inventory = (opening + closing) / 2
+Inventory turnover = cost of food sold / average inventory
+Book closing = opening + purchases - issues
+Variance % = (book value - physical value) / total issues x 100
 ```
 
-Worked example (Beef Tenderloin):
+Guide: turnover of roughly two to four times a month (24-48 a year) suggests healthy stock levels for perishables-led operations; test locally. Investigate any material variance.
+
+## 4. Break-even analysis
+
 ```
-Purchase: 9 lbs @ UGX 49,500/lb = UGX 445,500
-  Fat:           3 lb 12 oz  (41.7%)  Value: UGX 0
-  Loss cutting:  0 lb  4 oz  ( 2.8%)  Value: UGX 0
-  Tip meat:      0 lb 12 oz  ( 8.3%)  Value: UGX 15,150
-  Usable meat:   4 lb  4 oz  (47.2%)  Value: UGX 430,350
-
-Cost per usable lb: UGX 430,350 / 4.25 = UGX 101,259
-Cost per usable oz: UGX 101,259 / 16 = UGX 6,329
-Portion cost (6 oz): 6 x UGX 6,329 = UGX 37,974
-```
-
-### Cost Factors (quick recalculation when prices change)
-```
-Cost Factor per Pound = Cost per Usable Lb / Purchase Price per Lb
-Example: UGX 101,259 / UGX 49,500 = 2.05
-
-Cost Factor per Portion = Portion Cost / Purchase Price per Lb
-Example: UGX 37,974 / UGX 49,500 = 0.77
-
-Universal Formula:
-Cost Factor per Lb x Portion Size (decimal) x Dealer Price = Portion Cost
-Example: 2.05 x 0.375 (6oz) x UGX 51,600 = UGX 39,636
+Sales = variable cost + fixed cost + profit
+Variable rate = variable cost / sales
+Contribution rate = 1 - variable rate
+Item contribution margin = price - item variable cost
+Break-even sales = fixed costs / contribution rate
+Required sales = (fixed costs + desired profit) / contribution rate
+Break-even customers = fixed costs / (average sale x contribution rate)
 ```
 
-### Cooking Loss Test (items portioned after cooking)
+Present break-even for the base case and for a downside case (lower average check, higher food cost).
 
-Worked example (Pork Loin):
-```
-Original: 7 lb 8 oz @ UGX 51,400/lb = UGX 385,500
-Trimmed:  6 lb 8 oz  (86.67%)
-Cooked:   6 lb 0 oz  (80.00%)
-Salable:  5 lb 0 oz  (66.67%)
+## 5. Menu engineering (Kasavana and Smith)
 
-Cost per salable lb: UGX 385,500 / 5.0 = UGX 77,100
-Portion cost (5 oz): UGX 24,094
-```
+Classify each item by contribution margin (CM) against the menu average and by popularity (menu mix %) against a threshold of (1 / number of items) x 70%.
 
-### Yield Percentage Formulas
-```
-Yield % = Portionable Weight / Original Weight x 100
-Quantity Needed = (Number of Portions x Portion Size as decimal) / Yield %
-Number of Portions = (Quantity x Yield %) / Portion Size
-
-Example: Pork loin for 32 five-oz portions at 66.67% yield?
-= (32 x 0.3125) / 0.6667 = 15 lbs
-```
-
----
-
-## 3. Purchasing and Inventory Management
-
-### Five Inventory Valuation Methods
-
-| Method | Description | Notes |
-|--------|-------------|-------|
-| **Actual Purchase Price** | Uses marked prices on each unit | Most accurate, requires marking |
-| **FIFO** | Oldest stock used first; closing at most recent prices | Most common in computerised systems |
-| **Weighted Average** | Total value / total units | Requires detailed purchase records |
-| **Latest Purchase Price** | All closing inventory at most recent price | Simple, widely used in food/beverage |
-| **LIFO** | Closing inventory at earliest prices | Minimises profit (tax advantage) |
-
-Difference between methods can be 4%+ on total inventory value.
-
-### Inventory Turnover
-```
-Average Inventory = (Opening Inventory + Closing Inventory) / 2
-Inventory Turnover = Cost of Food Sold / Average Inventory
-
-Example: (UGX 3,714,000 + UGX 3,857,000) / 2 = UGX 3,786,000 average
-Turnover = UGX 8,901,000 / UGX 3,786,000 = 2.35 times per month
-```
-
-Guidelines: Monthly turnover of 2-4 times = healthy. Annual turnover of 24-48 times = healthy.
-
-### Book vs Actual Inventory Comparison
-```
-Opening Inventory + Purchases - Issues = Closing Book Value
-Dollar Difference = Book Value - Actual Value
-Variance % = Dollar Difference / Total Issues x 100
-```
-
----
-
-## 4. Break-Even Analysis
-
-### Cost/Volume/Profit Equation
-```
-Sales = Variable Cost + Fixed Cost + Profit (S = VC + FC + P)
-```
-
-### Key Formulas
-```
-Variable Rate (VR) = Variable Cost / Sales
-Contribution Rate (CR) = 1 - VR
-Contribution Margin (CM) = Selling Price - Variable Cost of Item
-Break-Even Sales = Fixed Costs / Contribution Rate (BE = FC / CR)
-Required Sales = (Fixed Costs + Desired Profit) / CR
-BEP in Customers = Fixed Costs / (Average Sale x CR)
-```
-
-### Worked Example (Grandview Bistro)
-```
-Variable Rate: UGX 187,174,000 / UGX 432,406,000 = 0.433 (43.3%)
-Contribution Rate: 1 - 0.433 = 0.567 (56.7%)
-Fixed Costs: UGX 192,076,000
-Break-Even: UGX 192,076,000 / 0.567 = UGX 338,758,000
-Target (UGX 53,056,000 profit): (UGX 192,076,000 + UGX 53,056,000) / 0.567 = UGX 432,411,000
-BEP in customers: UGX 192,076,000 / (UGX 13,500 x 0.567) = 25,098 customers
-```
-
----
-
-## 5. Menu Engineering and Analysis (Kasavana & Smith)
-
-### Classification Criteria
-- **CM Category:** High if Item CM > Average CM; Low if below
-- **MM Category:** High if Menu Mix % > threshold; Low if below
-- **Threshold** = (1 / Number of Items) x 0.70
-
-| Classification | CM | Volume | Action |
+| Class | CM | Popularity | Action |
 |---|---|---|---|
-| **Star** (H/H) | High | High | Leave alone; possibly raise price |
-| **Plowhorse** (L/H) | Low | High | Keep; try to increase CM |
-| **Puzzle** (H/L) | High | Low | Keep; try to increase popularity |
-| **Dog** (L/L) | Low | Low | Remove or redesign |
+| Star | high | high | Keep unchanged; consider a price rise |
+| Plowhorse | low | high | Keep; raise CM through price, portion or recipe |
+| Puzzle | high | low | Keep; promote, reposition, rename |
+| Dog | low | low | Remove or redesign |
 
-### Worked Example Results (Grandview Bistro)
+Re-run monthly. Success test: average CM and total CM rise while food cost % stays flat or falls.
+
+## 6. Daily, weekly and monthly tracking
+
 ```
-Before changes (Feb): Average CM UGX 17,550, Food cost 32.11%, Total CM UGX 46,263,000
-After changes (Mar):  Average CM UGX 17,860, Food cost 31.46%, Total CM UGX 47,764,000
-
-Strategies applied:
-- Dogs eliminated (Burrito --> Tostadas, became Plowhorse)
-- Plowhorse prices raised UGX 640
-- Puzzles repositioned/renamed (Duck, Veal became Stars)
-```
-
----
-
-## 6. Daily/Weekly/Monthly Cost Tracking Systems
-
-### Daily Food Cost Tracking
-```
-Daily Cost of Food Sold =
-  Cost of Directs (from Receiving Clerk's Daily Report)
-  + Cost of Stores (from daily requisitions)
-  + Adjustments increasing cost (bar-to-kitchen transfers)
-  - Adjustments decreasing cost (kitchen-to-bar, steward sales, promos)
-  = Cost of Food Consumed
-  - Cost of Employee Meals
-  = Daily Cost of Food Sold
-
-Daily Food Cost % = Daily Food Cost / Daily Food Sales x 100
+Daily cost of food sold = directs + stores issues
+  + adjustments that raise cost (transfers in from bar)
+  - adjustments that lower cost (transfers out, staff sales, promotions)
+  - employee meals
+Daily food cost % = daily cost / daily food sales x 100
+Cumulative % = total cost to date / total sales to date x 100
 ```
 
-### Cumulative (To-Date) Tracking
-```
-Food Cost % to Date = Total Food Cost to Date / Total Food Sales to Date x 100
-```
+Cumulative tracking smooths timing distortions from directs bought on alternate days and stores issued in advance. Report formats: a cumulative sheet (directs, stores, additions, subtractions, cost and sales for today and to date, cost % both ways) and a management view comparing today with the same day last week and week to date with last week.
 
-Smooths daily fluctuations from directs purchased every other day, stores issued in advance, bulk staple issues.
+Frequency: daily food and beverage cost %; weekly comparison with the prior week; monthly cost %, inventory turnover and comparison with last month, the same month last year and budget. Reconcile book inventory with physical counts monthly.
 
-### Daily Report Formats
-```
-Cumulative: Date | Directs | Stores | Additions | Subtractions | Cost Today |
-            Cost to Date | Sales Today | Sales to Date | Cost % Today | Cost % to Date
+## 7. Plan-section prompts
 
-Management: Today | Same Day Last Week | To Date This Week | To Date Last Week
-            For: Food Sales, Food Cost, Cost %
-```
+- State target cost percentages and how each menu price is derived.
+- State yield-test and recipe-card procedure and who owns it.
+- Show break-even sales and customers per day.
+- State inventory valuation method and stock-count frequency.
 
-### Book Inventory Tracking
-```
-Opening Balance + Stores Purchases - Stores Issues = Closing Book Balance
-Compare monthly: Book Value vs Physical Count
-Variance % = (Book - Actual) / Total Issues x 100
-Example: UGX 206,000 / UGX 3,144,000 = 6.55% (significant -- investigate)
-```
-
-### Monitoring Frequency
-- **Daily:** Food cost %, beverage cost %, cumulative to-date
-- **Weekly:** Compare same day/week-to-date vs prior week
-- **Monthly:** Food/beverage cost %, inventory turnover; compare to same month last year, prior month, and budget
+Sources consulted: Dittmer, P.R. and Keefe, J.D., *Principles of Food, Beverage, and Labor Cost Controls*, 9th ed. (2009); Kasavana, M. and Smith, D., menu engineering method.

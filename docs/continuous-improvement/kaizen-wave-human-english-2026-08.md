@@ -13,7 +13,7 @@ The engine had good safeguards, but they were distributed across writing, premiu
 
 ## Improvement implemented
 
-- Added `book-extractions/human-english-craft-synthesis-2026.md` with source provenance, limits, five passes, register matrix, grammar/lexical checks, anti-slop tests, and original examples.
+- Added a human-English craft synthesis (folder removed 2026-09-23; knowledge now in `skills/language/writing-quality/references/human-english-five-pass-standard.md`) with source provenance, limits, five passes, register matrix, grammar/lexical checks, anti-slop tests, and original examples.
 - Routed the reference through `AGENTS.md`, `writing-quality`, and `anti-ai-slop`.
 - Corrected malformed fixed sentence-count guidance and replaced it with thought-led paragraph guidance.
 - Preserved the financial, market-evidence, critical-thinking, and anti-slop gates; the language overlay cannot certify unsupported claims.

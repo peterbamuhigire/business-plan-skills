@@ -1,140 +1,76 @@
-# Hides and Skins Trading
+# Raw Hides and Skins Trading
 
-**Source:** Crack A Business Kenya (CAB) — Leather: The Skin Trade | **Sub-sector:** Textiles/Agro-Processing — Raw Hides and Skins Brokerage
-**Conversion:** KES ÷ 106 × 1.27 → March 2026 USD
+Use this reference when a plan covers a trading business that buys raw hides and skins from slaughterhouses, collectors and rural traders and sells them to tanneries at a margin. It is a working-capital, quality-grading and logistics business. Figures are planning assumptions from older regional cases; verify current buying and selling prices with traders and tanneries.
 
-> A trading business buying raw hides and skins from slaughterhouses, collectors, and rural traders, then selling to tanneries at a margin. Two primary supply models: sourcing from Tanzania (cross-border, higher volumes, higher logistics cost) or buying locally from Nairobi/Kiamaiko. Grade 1 hides sell at KES 150/skin; profit on a 10,000-skin Tanzania trip ~KES 297,500 ($3,562); profit on a 3,000-skin Nairobi buy ~KES 97,000 ($1,163). Tanneries pay cash on the spot.
+## 1. Market and value chain
 
-## Value Chain
+Value chain: animal owners, then traders and markets, then slaughterhouses, hotels and backyard slaughter, then collectors, then raw hides and skins traders (mid-level aggregators, the subject of this guide), then tanneries, then manufacturers and exporters.
+- Collectors buy directly at slaughter points and in rural areas.
+- Raw-hide traders aggregate and sell to tanneries.
+- Tanneries pay on delivery, usually cash or immediate transfer, with no extended credit; this simplifies working capital once a sale is agreed.
+Demand depends on tannery capacity and leather export trends. The regional leather chain suffers chronic raw-skin quality problems (knife cuts, tick and insect damage, branding marks). Traders who coach suppliers on field handling and secure reliable sources can command consistent top-grade premiums, and early supply relationships can grow into contracts as downstream processing expands.
 
-```
-Animal owners → Traders → Markets → Slaughterhouses/Hotels/Backyard → Collectors
-→ Rural/Urban RHS Traders → Tanneries → Manufacturers/Exporters
-```
+## 2. Supply models
 
-- **Collectors:** Small-scale buyers sourcing direct from slaughter points and rural areas
-- **RHS Traders (Raw Hides and Skins Traders):** Mid-level aggregators selling to tanneries; the business described in this guide
-- **Tanneries:** Purchase raw skins for processing into leather; pay cash (open cheque or direct payment) on delivery
+| Model | Characteristics |
+|---|---|
+| Cross-border sourcing (for example from a large neighbouring cattle country) | Higher volumes, higher logistics and border costs, relationship building over several trips (the first trip is exploratory) |
+| Local buying at a main livestock market and slaughter area | Shorter chain, lower logistics cost, less capital for a first trade |
 
-## Revenue Examples
+Sourcing regions and points: cattle-belt towns, lake-zone and highland areas, mining-area cattle markets, capital-city slaughterhouses. Skins from hotels (food service) and backyard slaughter peak around festive seasons (major religious and year-end holidays); source aggressively in those windows.
 
-### Example 1 — Tanzania Sourcing (10,000 Skins)
+## 3. Quality standards and grading
 
-| Cost Item | KES | 2026 USD |
-|-----------|-----|----------|
-| Transport (to Tanzania source) | 4,000 | $48 |
-| Accommodation (8 days) | 24,000 | $288 |
-| Meals | 8,000 | $96 |
-| Skins (10,000 pieces @ KES 70 each) | 700,000 | $8,396 |
-| Loading | 6,500 | $78 |
-| Quality control (QC) | 30,000 | $360 |
-| Lorry (Arusha → Nairobi) | 160,000 | $1,918 |
-| Cess, duty, and informal costs | 250,000 | $2,996 |
-| Miscellaneous | 20,000 | $240 |
-| **Total cost** | **1,202,500** | **$14,419** |
-| **Selling price (KES 150/skin × 10,000)** | **1,500,000** | **$17,981** |
-| **Profit** | **297,500** | **$3,562** |
+Tanneries inspect on delivery; sub-standard skins get lower prices or rejection. Top-grade requirements:
+- no holes (insects, tools, handling);
+- no knife cuts;
+- a minimum size (an older benchmark is about 3.5 square feet);
+- no infection (pox marks);
+- no brand marks;
+- no putrefaction;
+- no hair slip;
+- highland skins preferred (arid-area skins are drier and poorer).
+Price ladder: grade 1, then grade 2 at a much lower price, then grade 3 lower again, then rejects. Model a realistic grade mix, not 100 percent top grade: poor field quality cuts average revenue sharply. Train buyers to assess quality in the field and set rejection rules at purchase.
 
-### Example 2 — Nairobi/Kiamaiko Sourcing (3,000 Skins)
+## 4. Unit economics (structure)
 
-| Cost Item | KES | 2026 USD |
-|-----------|-----|----------|
-| Skins (3,000 @ KES 90 each) | 270,000 | $3,236 |
-| Transport | 20,000 | $240 |
-| Quality control | 20,000 | $240 |
-| Licence | 3,000 | $36 |
-| Cess (@ KES 10/skin) | 30,000 | $360 |
-| Miscellaneous | 10,000 | $120 |
-| **Total cost** | **353,000** | **$4,231** |
-| **Selling price (KES 150/skin × 3,000)** | **450,000** | **$5,394** |
-| **Profit** | **97,000** | **$1,163** |
+Trip cost = purchase cost (pieces x buying price) + transport and accommodation and meals + loading + quality control + lorry hire + cess, duties and border costs + miscellaneous. Revenue = pieces x average realised price given the grade mix. Profit = revenue - trip cost. Two illustrative structures to model:
+1. Cross-border trip of thousands of pieces: high purchase cost, lorry hire as the largest logistics item, and levies and border costs as a large line; profit is a modest margin on a large outlay.
+2. Local buy of a few thousand pieces: lower purchase price and logistics, per-piece cess, smaller absolute profit.
+Compute margin per piece and per trip, return on working capital and payback per trip. Share lorry loads with other traders to lower cost. Do not include informal payments in a bankable plan; budget official fees and use compliant routes.
 
-> Both examples assume all skins grade as Grade 1. In practice, mixed grading reduces realised price. Grade 2 skins (KES 60–80) and Grade 3 (KES 40) reduce average revenue significantly if quality at source is poor.
+## 5. Inputs and logistics
 
-## Quality Standards
+Storage and salting or drying where needed, sorting space, lorry hire, loading labour, quality controllers, cash for purchases. Trip logistics: allow several days for a full cross-border buying trip; travel by public transport; organise reliable sourcing partners.
 
-Tanneries apply strict grading. Hides are inspected on delivery; substandard skins receive lower prices or are rejected.
+## 6. Regulation and licensing checks
 
-### Grade 1 Requirements
+- Business permit or trade licence, a trader's buying licence specific to hides and skins, registration of premises if operating a depot, and a movement permit for transporting hides across district or national borders (the critical trade-specific document).
+- Cross-border movement needs customs import documentation and tax registration.
+- Country notes (verify): Uganda: ministry of agriculture issues movement permits; trade association for leather industries; export promotion board supplies export-grade price data; large cattle, goat and sheep populations; hubs in the capital and up-country markets; regional cross-border supply from neighbouring countries. Tanzania: one of Africa's largest cattle populations; standards-body certification applies to processed leather exports; wildlife skins need a separate wildlife-authority permit regime; business registration and tax number required. Rwanda: smaller trade, agriculture and animal resources board oversees livestock, few tanneries (much leather is exported), business registration required.
 
-- No holes (from insects, tools, or handling)
-- No knife cuts
-- Minimum 3.5 square feet in size
-- No infection (pox marks)
-- No branding marks
-- No putrefaction (rot)
-- No hair slip (detachment of hair from skin)
-- **Highland skins preferred** — arid-area skins are drier and of lower quality
+## 7. Key success factors
 
-### Grading Price Table
+1. Quality selection at source.
+2. Trusted suppliers who deliver genuine top-grade stock.
+3. Knowing which tanneries pay fairly, promptly and grade consistently.
+4. Transport management (shared loads).
+5. Timing purchases around festive slaughter peaks.
 
-| Grade | KES per Skin | 2026 USD |
-|-------|-------------|----------|
-| Grade 1 | 150 | $1.80 |
-| Grade 2 | 60–80 | $0.72–$0.96 |
-| Grade 3 | 40 | $0.48 |
-| Rejects | Lowest possible | — |
+## 8. Risks and controls
 
-## Tanzania Sourcing
+Price volatility with livestock cycles and export demand; grading disputes; spoilage in storage or transit; permit or border delays; cash-in-transit theft; over-payment for unseen stock; supplier fraud. Controls: inspect before paying, count and grade at loading, insure or limit cash, keep records of permits and receipts, diversify suppliers and tanneries.
 
-### Key Locations
+## 9. KPIs
 
-| Area | Notes |
-|------|-------|
-| Arusha | Primary sourcing hub; major dealers include Salim Ali (Kwa Edwardi) |
-| Mwanza | Significant cattle belt; skins available from Lake Zone slaughterhouses |
-| Geita | Gold-mining area with cattle trading |
-| Dar es Salaam | Large slaughter volumes; urban sourcing |
-| Singida, Morogoro, Tunduma | Cattle-belt areas; good quality highland skins |
+Pieces bought and sold per trip; grade mix percentage; average buying and selling price per piece; margin per piece and per trip; days from purchase to sale; rejection rate at the tannery; logistics cost per piece.
 
-### Tanzania Trip Logistics
+## 10. Plan-section prompts
 
-- Travel time: Nairobi → Arusha by bus/matatu; onward by local transport
-- Accommodation: Budget 8 days for a full buying trip
-- Lorry hire: Arusha to Nairobi (KES 160,000 for a full lorry)
-- Cess and border costs: KES 250,000 on a 10,000-skin consignment (includes formal cess + informal payments)
-- Relationship-building with local suppliers takes multiple trips; first trip is exploratory
+- Which supply model and sourcing points, and what is the evidence of supplier reliability?
+- What is the expected grade mix and the price ladder from current quotes?
+- What are trip economics and working-capital needs?
+- Which permits apply at each border and district?
+- Which tanneries buy, on what terms, and what is the grading history?
 
-## Nairobi Local Sourcing
-
-- **Kiamaiko:** Main livestock market and slaughterhouse area in Nairobi; principal local sourcing hub
-- Skins available from: slaughterhouses, hotels (food service), backyard slaughter (Eid, Christmas season peaks)
-- Local buying price (Kiamaiko example): KES 90/skin
-- Cess at KES 10/skin applies to local purchases
-- Shorter supply chain; lower logistics cost; less capital needed for a smaller first trade
-
-## Licences
-
-| Licence | Notes |
-|---------|-------|
-| County Single Business Permit | Standard county licence |
-| Buyers Licence | Specific to hides and skins trade |
-| Registration of Premises | If operating from a fixed depot |
-| Hides and Skins Movement Permit | Required for transporting hides across county/national borders |
-
-> The Hides and Skins Movement Permit is the critical trade-specific document. Cross-border movement (Tanzania → Kenya) requires Kenya Revenue Authority import documentation in addition.
-
-## Payment from Tanneries
-
-- Tanneries pay **cash on spot** (open cheque or direct payment) at point of delivery
-- No extended credit periods — trade is cash-based at the tannery gate
-- This makes working capital management straightforward once a sale is agreed
-
-## Key Success Factors
-
-1. **Quality selection at source** — buying poor skins at any price results in downgraded revenue; learn to assess quality in the field
-2. **Supplier relationships** — trusted Tanzania suppliers who provide genuine Grade 1 stock; multiple trips to establish trust
-3. **Tannery relationships** — knowing which tanneries pay fairly and promptly; some tanneries grade more strictly than others
-4. **Transport management** — lorry hire cost is the largest logistics item; sharing loads with other traders reduces cost
-5. **Timing** — festive seasons (Eid al-Adha, Christmas) produce peak slaughter volumes; source aggressively in these windows
-
-## East Africa Notes
-
-- **Uganda:** Uganda has significant cattle, goat, and sheep populations; raw hides and skins trade is active out of Kampala's Wandegeya area and upcountry markets (Mbarara, Gulu, Lira, Mbale). Uganda Leather and Allied Industries Association (ULAIA) represents industry interests. Key tanneries: Uganda Leather Industries, Uphold Uganda. MAAIF issues movement permits. Cross-border trade from DRC and South Sudan also feeds Ugandan collector networks. Uganda Export Promotion Board (UEPB) provides data on export-grade skin prices.
-- **Tanzania:** Tanzania has one of Africa's largest cattle populations; the Southern Highlands (Iringa, Mbeya, Njombe) and Lake Zone (Mwanza, Geita, Kagera) are primary sourcing regions. Key tanneries: Morogoro Canvas Mill, CARMATEC. TBS certification applies to processed leather exports. Tanzania Wildlife Authority (TAWA) permits required for wildlife skins (crocodile, python) — separate regulatory regime entirely. BRELA registration and TRA TIN required.
-- **Rwanda:** Rwanda's cattle herd is significant but hides and skins trade is smaller scale than Uganda/Tanzania. Rwanda Agriculture and Animal Resources Development Board (RAB) oversees livestock. Kigali's Nyabugogo slaughterhouse is the principal sourcing point. Rwanda has relatively few tanneries — most processed leather is exported to East African tanneries or further. RDB registration required.
-- **EA opportunity:** East Africa's leather value chain has chronic quality problems at the raw skin stage (knife cuts, tick damage, branding marks). Traders who invest in field-level quality coaching and reliable sourcing relationships can command consistent Grade 1 premiums. The region is also investing in downstream leather processing — early-stage tannery supply relationships can evolve into supply contracts as processing capacity expands.
-
-## Data Quality Notes
-
-Revenue figures and prices (KES 150/Grade 1 skin, KES 70 buying price in Tanzania, KES 90 at Kiamaiko) are Kenya-specific and from approximately 2013–2016. Hide prices fluctuate with livestock market conditions, tannery demand, and export trends. Verify current buying and selling prices directly with Kiamaiko traders and tanneries before committing capital. The logistics cost structure (lorry hire, cess) is structurally valid but actual amounts change; get current quotes before planning a Tanzania run.
+Sources consulted: Crack A Business Kenya, hides and skins trade guide, and general commodity-trading practice. Prices and costs were removed or relabelled as assumptions to re-verify.

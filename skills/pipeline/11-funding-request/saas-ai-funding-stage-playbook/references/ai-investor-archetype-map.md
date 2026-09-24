@@ -38,7 +38,7 @@ Norrsken22, TLcom (Stage 1 + main), Partech Africa, P1 Ventures, 4DX Ventures, R
 ## Targeting discipline
 
 For each round:
-1. Declare the AI archetype of your company (per `ai-on-saas-business-plan-audit-2026.md` Part 1)
+1. Declare the AI archetype of your company (per section 2 of `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md`)
 2. Map to 2-4 best-fit investor archetypes
 3. Build the pipeline within those archetypes
 4. Tailor the pitch to the archetype (the AI-specialist deck differs from the DFI deck)

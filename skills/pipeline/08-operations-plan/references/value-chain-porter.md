@@ -1,317 +1,166 @@
----
-source: "Porter, M.E. (1985). Competitive Advantage: Creating and Sustaining Superior Performance. Free Press, New York."
-frameworks: ["Value Chain", "Value System", "Cost Drivers", "Differentiation Drivers", "Competitive Scope"]
-skill: 08-operations-plan
-cross-reference: ["03-products-services", "06-competitive-analysis", "10-financial-projections"]
----
+# Value Chain, Cost Drivers and Differentiation Drivers
 
-# Value Chain and Competitive Advantage — Porter (1985)
+**Use for:** the operations plan (section 08), products and services (03), competitive analysis (06) and any section explaining how the business creates and sustains advantage. The framework is Michael Porter's value chain; structure and wording here are the engine's own.
 
-## Overview
+Advantage cannot be judged for the firm as a whole. It comes from discrete activities performed more cheaply or better than rivals perform them. Break the business into activities, then ask where cost and uniqueness arise.
 
-Porter's *Competitive Advantage* introduces the **value chain** as the fundamental tool for understanding *where* a firm's competitive advantage actually comes from. The central argument: "Competitive advantage cannot be understood by looking at a firm as a whole. It stems from the many discrete activities a firm performs in designing, producing, marketing, delivering, and supporting its product." (Porter, 1985)
+## 1. Value chain and value system
 
-This reference covers three extraction targets: the **Value Chain** (what it is and how to use it), **Cost Drivers** (the 10 structural factors that explain why costs differ among competitors), and **Differentiation Drivers / Uniqueness Drivers** (the parallel factors that explain why some firms can command a premium price).
+The firm's chain sits within a value system:
 
-Use this reference when developing the Operations Plan (§08), Products & Services section (§03), and any section that requires explaining *how* the business creates and sustains competitive advantage.
+Supplier chains, then the firm's chain, then channel chains, then buyer chains.
 
----
+- Supplier performance affects cost and quality.
+- Channels shape perceived quality and delivery reliability.
+- The buyer's own chain shows what the buyer truly values.
 
-## 1. The Value Chain Concept
+Advantage can come from how the firm links to suppliers and channels (for example, changing the form of a delivered input so both sides cut handling cost), not only from internal efficiency.
 
-### What It Is
+## 2. Nine generic activities
 
-A **value chain** disaggregates a firm into its strategically relevant activities in order to understand the behaviour of costs and the existing and potential sources of differentiation. A firm gains competitive advantage by performing these strategically important activities **more cheaply** or **better** than its competitors.
+**Primary**
 
-The value chain is not an accounting view of the firm. It crosses organisational boundaries, isolates activities that have distinct economics, and reveals linkages that standard management accounting conceals.
+| Activity | Covers |
+|---|---|
+| Inbound logistics | Receiving, storing, distributing inputs; inventory control; returns to suppliers |
+| Operations | Transforming inputs into the product; assembly, packaging, maintenance, testing, facility operation |
+| Outbound logistics | Storing and distributing finished goods; order processing; delivery scheduling |
+| Marketing and sales | Enabling and inducing purchase: promotion, sales force, quoting, channel choice, pricing |
+| Service | After-sale value: installation, repair, training, parts, adjustment |
 
-### The Value System
+Importance varies by industry: distributors depend on logistics; restaurants on operations; corporate banks on the sales relationship; equipment makers on service.
 
-A firm's value chain sits within a larger **value system**:
+**Support**
 
-```
-Supplier Value Chains → Firm Value Chain → Channel Value Chains → Buyer Value Chains
-```
+| Activity | Covers |
+|---|---|
+| Procurement | Buying of all inputs used across every activity (materials, machinery, services) |
+| Technology development | Know-how, procedures and technology embedded in every activity, including product and process design and software |
+| Human resource management | Recruiting, training, pay, development |
+| Firm infrastructure | Management, planning, finance, accounting, legal, government affairs, quality; includes reporting quality, which affects bankability |
 
-- **Supplier value chains** deliver purchased inputs. How suppliers perform affects a firm's cost and quality.
-- **Channel value chains** carry the product to the end buyer. Channel behaviour shapes perceived quality and delivery reliability.
-- **Buyer value chains** reveal how the buyer uses the product — and therefore what the buyer actually values.
+Support activities are not mere overhead; they can drive cost or uniqueness.
 
-**Strategic implication:** Competitive advantage can be created by optimising how the firm's chain links with suppliers and channels — not only by optimising internal activities. Delivering liquid chocolate rather than moulded bars, for example, reduces both the supplier's packaging cost and the confectioner's processing cost.
+## 3. Linkages
 
----
+Activities are interdependent. Two ways linkages create advantage:
+- **Optimisation:** spending more in one activity lowers total cost (better design cuts service cost; tighter materials specifications cut rework). Do not minimise each activity in isolation.
+- **Coordination:** on-time delivery needs operations, outbound logistics and service to work together; better scheduling reduces sales travel.
 
-## 2. The Nine Value Chain Activities
+Supplier and channel linkages: supplier delivery frequency links to raw material stock; supplier packaging to handling cost; channel warehouse location to outbound cost; channel promotion to the firm's own selling cost.
 
-Every firm performs nine generic categories of activities — five **primary** and four **support**.
+**Plan application.** In section 08, name the cross-activity linkages the business deliberately manages.
 
-### Primary Activities — the physical creation and delivery of the product
+## 4. Ten cost drivers
 
-| Activity | What It Covers |
-|----------|---------------|
-| **Inbound Logistics** | Receiving, storing, and distributing inputs — material handling, warehousing, inventory control, vehicle scheduling, returns to suppliers |
-| **Operations** | Transforming inputs into the final product — machining, packaging, assembly, equipment maintenance, testing, printing, facility operations |
-| **Outbound Logistics** | Collecting, storing, and physically distributing the product — finished goods warehousing, order processing, delivery scheduling |
-| **Marketing & Sales** | Enabling buyers to purchase and inducing them to do so — advertising, promotion, sales force, quotation, channel selection, pricing |
-| **Service** | Maintaining or enhancing product value after sale — installation, repair, training, parts supply, product adjustment |
+Structural reasons costs differ between competitors.
 
-The activity that matters most depends on the industry:
-- **Distributor:** Inbound and outbound logistics are critical
-- **Restaurant:** Operations is central; outbound logistics largely non-existent
-- **Corporate bank:** Marketing & sales (the calling officer relationship) is the key
-- **High-speed copier manufacturer:** Service is the primary source of differentiation
+| # | Driver | Meaning and plan question |
+|---|---|---|
+| 1 | Scale | Unit cost falls with volume, activity by activity. At what output is each activity efficient, and is it reached within the plan years? |
+| 2 | Learning and spillovers | Cost falls with cumulative output; advantage lasts only if learning is proprietary (not lost via hiring, copying or equipment sales). |
+| 3 | Capacity utilisation | High fixed costs make unit cost sensitive to utilisation; flexible cost structures reduce exposure. |
+| 4 | Linkages | Optimising across linked activities lowers system cost. |
+| 5 | Interrelationships | Sharing activities with sister units raises throughput and transfers learning. |
+| 6 | Integration | Vertical integration can cut transaction cost and supplier power but adds inflexibility and exit barriers; outsourcing may be cheaper where specialists have structural advantages. |
+| 7 | Timing | First movers gain brand and learning; late movers gain latest equipment and lower development cost. |
+| 8 | Discretionary policies | Management choices on features, quality, variety, service level, delivery time, channels, technology, pay and spend. |
+| 9 | Location | Wages, input access, energy, transport, buyer proximity, tax and regulation. |
+| 10 | Institutional factors | Regulation, unions, incentives, tariffs, subsidies. |
 
-### Support Activities — enabling the primary activities
+**Use in the plan.** For each major activity identify the dominant drivers: scale target, learning curve, policy choices that raise or cut cost (and whether defensible), location advantage, integration versus rivals. Feed the resulting cost assumptions into the financial projections (section 10). If the plan claims a cost advantage, name the driver that creates it.
 
-| Activity | What It Covers |
-|----------|---------------|
-| **Procurement** | Purchasing inputs used across all value activities — raw materials, machinery, office equipment, professional services. Distinct from the inputs themselves; applies to every activity, not just manufacturing |
-| **Technology Development** | Know-how, procedures, or technology embedded in every value activity — product design, process engineering, field testing, software, technology selection |
-| **Human Resource Management** | Recruiting, training, compensation, and development of personnel across all activities |
-| **Firm Infrastructure** | General management, planning, finance, accounting, legal, government affairs, quality management — the firmwide functions that support the entire chain |
+## 5. Nine uniqueness (differentiation) drivers
 
-**Important note:** Support activities are often mis-categorised as "overhead." They can be significant cost drivers and equally significant differentiation drivers. Infrastructure includes the quality of financial management and reporting — directly relevant to bankability.
+Almost any activity can be a source of uniqueness.
 
----
+1. **Policy choices** (most common): features, services provided (credit, delivery, repair, training), intensity and content of activities, technology, input quality, personnel procedures, staff skill and training.
+2. **Linkages:** for instance, delivery time depends on order processing and call frequency as well as transport; defect reduction requires changes across every activity that affects defects.
+3. **Timing:** first to adopt an image, gain approval or set a standard.
+4. **Location:** convenient presence (branches, depots, outlets); often underrated.
+5. **Interrelationships:** shared activities widening range, service or coverage.
+6. **Learning and spillovers:** proprietary know-how yielding consistent quality.
+7. **Integration:** doing in-house what rivals outsource, for control and tighter coordination.
+8. **Scale:** enables service networks or breadth not possible at small volume (but can work against bespoke or fashion positioning).
+9. **Institutional factors:** certifications, licences, approvals (for example UNBS marks) that few rivals hold.
 
-## 3. Linkages Within the Value Chain
+## 6. Cost of differentiation
 
-Value activities are not independent — they form a **system of interdependent activities**. Linkages are relationships between how one activity is performed and the cost or performance of another.
+Uniqueness usually costs money. Yet extra spend in a linked activity (better inputs, more inspection) can lower total cost while raising differentiation, provided linkage benefits are not yet exhausted. Cost minimisation in each activity is not the same as cost advantage.
 
-### How Linkages Create Competitive Advantage
+## 7. Competitive scope
 
-**Optimisation:** A more costly product design may reduce service costs. More stringent materials specifications may reduce rework. A firm that optimises across linked activities — rather than minimising cost in each activity individually — achieves a system-level advantage.
+| Dimension | Effect |
+|---|---|
+| Segment | Tailor the chain to one segment for lower cost or higher differentiation there |
+| Geographic | Coverage affects shareable activities and scale |
+| Vertical | Integration adds activities and changes cost behaviour |
+| Industry | Related industries permit shared activities, know-how and infrastructure |
 
-**Coordination:** On-time delivery often requires coordination across operations, outbound logistics, and service. Better scheduling (an indirect activity) reduces sales force travel time (a direct activity). The ability to coordinate activities often reduces cost or enhances differentiation simultaneously.
+Focus strategies work because the chain is configured for the narrow target.
 
-> "Much of the recent change in philosophy towards manufacturing and towards quality — strongly influenced by Japanese practice — is a recognition of the importance of linkages." (Porter, 1985)
-
-### Linkages with Suppliers and Channels
-
-- **Supplier linkages:** Delivery frequency and timeliness of supplier deliveries links to raw material inventory levels; supplier application engineering links to technology development costs; supplier packaging links to material handling costs.
-- **Channel linkages:** Channel warehouse location links to outbound logistics cost; channel sales and promotional activities may reduce a firm's own sales cost.
-
-**Strategic implication for operations plans:** When describing operating procedures in §08, identify where the business is deliberately optimising cross-activity linkages — not just minimising the cost of each activity in isolation.
-
----
-
-## 4. Cost Drivers — the Structural Determinants of Cost
-
-Porter identifies **ten structural cost drivers** that determine the cost behaviour of value activities. These are the underlying reasons why one firm's costs differ from another's — not short-term efficiency variations, but structural differences rooted in strategy and circumstance.
-
-### The Ten Cost Drivers
-
-| # | Cost Driver | Description |
-|---|------------|-------------|
-| 1 | **Economies of Scale** | Unit cost declines as volume increases. Applies differently to each activity — manufacturing scale differs from sales force scale. Cost sharing across business units can achieve scale in individual activities without scale in the overall business. |
-| 2 | **Learning and Spillovers** | The learning curve — unit cost declines as cumulative output increases, because workers improve methods, layout improves, specialised equipment is developed, and performance is coaxed from existing equipment. Learning must be proprietary to create an entry barrier; if it spills to competitors through hiring, copying, or equipment purchases, it does not confer lasting advantage. |
-| 3 | **Pattern of Capacity Utilisation** | High fixed costs make cost highly sensitive to capacity utilisation. A firm that must bear fixed costs regardless of volume will have high unit costs when running at low utilisation. Firms with more flexible cost structures are less exposed to utilisation risk. |
-| 4 | **Linkages** | As described above — the way one activity is performed affects the cost of another. Firms that deliberately optimise across linked activities achieve lower total system cost. |
-| 5 | **Interrelationships** | Sharing activities with sister business units raises throughput (effectively increasing scale) and allows learning to be transferred. American Hospital Supply shared an order processing and distribution system across many business units — achieving scale in each function beyond what any single unit could support. |
-| 6 | **Integration** | The level of vertical integration affects cost. Integration can reduce transaction costs and avoid supplier or buyer bargaining power, but can raise cost through inflexibility, loss of incentive for efficiency in captive relationships, and higher exit barriers. De-integration (outsourcing) may lower cost if external providers have structural advantages. |
-| 7 | **Timing** | First-mover advantages include lower cost of establishing a brand, earlier learning, and the ability to define customer standards. Late-mover advantages include purchasing the latest equipment, avoiding high development costs, and having a less senior (less costly) workforce. |
-| 8 | **Discretionary Policies** | Policy choices a firm makes independently of other cost drivers — product features and quality, mix and variety, level of service provided, marketing and R&D spending, delivery time, channels employed, process technology chosen, wages paid, and employee motivation programmes. These are largely within management control and reflect deliberate strategy. |
-| 9 | **Location** | Geographic location of activities affects cost through labour wage rates, access to raw materials, energy costs, transport distances, proximity to buyers, and tax/regulatory environments. |
-| 10 | **Institutional Factors** | Regulations, unionisation, tax incentives, tariffs, subsidies, and government policies that affect cost. These are largely outside the firm's control but must be understood and factored into cost analysis. |
-
-### How to Use Cost Drivers in a Business Plan
-
-For each major value activity, identify which cost drivers are most significant:
-1. **Scale:** At what output level does this activity achieve efficient scale? Is the business projected to reach that scale in Years 1–3?
-2. **Learning:** Is there a meaningful learning curve in this activity? Will the business move down it faster than competitors?
-3. **Policies:** Which discretionary policy choices are driving cost higher (e.g., quality standards) or lower (e.g., lean processes), and are these defensible?
-4. **Location:** Does the business have a location advantage (access to cheaper inputs, proximity to customers, lower rent)?
-5. **Integration:** Is the business more or less vertically integrated than competitors — and does this advantage or disadvantage its cost position?
-
-**Cross-reference:** Use these cost drivers to build the cost assumptions in financial projections (§10). If the business claims a cost advantage, identify which driver creates it.
-
----
-
-## 5. Differentiation Drivers (Uniqueness Drivers)
-
-Differentiation grows out of the value chain — "virtually any value activity is a potential source of uniqueness." (Porter, 1985) The **uniqueness drivers** are the structural factors that determine why one firm's activities create more buyer value than another's.
-
-Porter identifies the following principal uniqueness drivers, ordered approximately by prevalence:
-
-### Uniqueness Driver 1: Policy Choices
-
-The most prevalent uniqueness driver. Firms make choices about what activities to perform and how — and these choices are the primary source of differentiation.
-
-**Policy choices that create uniqueness:**
-- Product features and performance offered
-- Services provided (credit, delivery, repair, training)
-- Intensity of an activity (rate of advertising spend)
-- Content of an activity (information provided in order processing)
-- Technology employed (precision of equipment, computerisation)
-- Quality of inputs procured
-- Procedures governing personnel in the activity (service protocols, sales call frequency)
-- Skill and experience level of personnel; training provided
-
-### Uniqueness Driver 2: Linkages
-
-Uniqueness often stems from linkages within the value chain or with suppliers and channels. Meeting buyer needs often requires coordinating linked activities:
-- Delivery time determined not only by outbound logistics but also by order processing speed and sales call frequency
-- Japanese manufacturers achieved dramatic defect reductions by modifying *every* activity that influences defects — not relying on a single inspection point
-
-### Uniqueness Driver 3: Timing
-
-Being the first to adopt a product image, achieve regulatory approval, or establish standards can preempt others and create lasting differentiation. Gerber's early-mover advantage in baby food, and Bausch & Lomb's early FDA approval for soft contact lenses, created differentiation through timing. Late movers can differentiate through more modern technology.
-
-### Uniqueness Driver 4: Location
-
-Convenient physical presence (branch banking, retail pharmacy, service depot locations) creates uniqueness through accessibility. Location uniqueness is often underestimated by businesses that focus only on product-level differentiation.
-
-### Uniqueness Driver 5: Interrelationships
-
-Sharing a value activity with sister business units can create uniqueness — a broader product range, more comprehensive service, or greater coverage — that individual business units cannot achieve alone.
-
-### Uniqueness Driver 6: Learning and Spillovers
-
-Uniqueness can result from accumulated learning about how to perform an activity better. Consistent quality in a manufacturing process may be learning-driven. The key: proprietary learning creates sustainable differentiation; learning that competitors can copy does not.
-
-### Uniqueness Driver 7: Integration
-
-Performing activities in-house that competitors outsource can create uniqueness — better control, tighter coordination, more activities available as sources of differentiation. Integration may also enable linkages (with suppliers or channels) that are difficult without in-house capability.
-
-### Uniqueness Driver 8: Scale
-
-Large scale can allow activities to be performed in ways that are not possible at smaller volume (Hertz's extensive service network; Citicorp's breadth of financial services). However, scale can also reduce differentiation — in fashion or bespoke products, scale works against uniqueness.
-
-### Uniqueness Driver 9: Institutional Factors
-
-Labour relations, regulatory standards, government approvals, and certification requirements can all create uniqueness. A firm with ISO certification, UNBS approval, or a unique government licence occupies a differentiated position.
-
----
-
-## 6. The Cost of Differentiation
-
-Differentiation is usually costly. A firm that commits to uniqueness must "often incur costs because uniqueness requires that it perform value activities better than competitors." (Porter, 1985)
-
-**Important principle:** Minimising cost in each activity individually is *not* the same as achieving cost advantage in differentiation. Sometimes spending more on a linked activity (higher-quality inputs, more intensive inspection) reduces total cost while simultaneously raising differentiation.
-
-> "The possibility of simultaneously raising differentiation and reducing cost through linkages exists because the firm has not been fully exploiting cost reduction opportunities." (Porter, 1985)
-
-This is the principle underlying the claim that "quality is free" — but only up to the point where all linkage benefits have been exploited.
-
----
-
-## 7. Competitive Scope and the Value Chain
-
-**Competitive scope** — the breadth of the firm's target — affects the structure and advantages of the value chain:
-
-| Scope Dimension | Effect on Value Chain |
-|-----------------|----------------------|
-| **Segment scope** | Serving only a particular segment allows the value chain to be tailored to that segment's needs — lower cost and/or higher differentiation than broad competitors achieve in that segment |
-| **Geographic scope** | Widening or narrowing geographic coverage affects which activities can be shared and what scale is achievable |
-| **Vertical scope** | Integration into additional stages of production or distribution adds activities to the chain and changes cost behaviour |
-| **Industry scope** | Competing in related industries with coordinated value chains enables interrelationships — shared activities, shared know-how, shared infrastructure |
-
-**Focus strategies** (from Competitive Strategy) work by tailoring the value chain to a narrow target. A focuser achieves cost or differentiation advantage in its segment precisely because its value chain is configured specifically for that segment — not for the breadth of the market.
-
----
-
-## 8. Applying the Value Chain to the Operations Plan
-
-The value chain framework provides the structural basis for describing a business's operations in §08. Rather than describing operations generically, use the value chain to show:
-
-1. **Which primary activities create the most value** and deserve the most operational attention
-2. **Which activities are the most significant cost drivers** — and what this means for cost management
-3. **Where the differentiation is created** — which specific activities make this business unique
-4. **Where the key linkages are** — which pairs of activities must be coordinated to achieve cost or quality objectives
-5. **How supplier and channel relationships** are managed to exploit value system linkages
-
-### Value Chain Analysis Template (for Operations Plan)
-
-```
-VALUE CHAIN ANALYSIS — [Business Name]
-
-PRIMARY ACTIVITIES
-┌──────────────────┬─────────────────────────────┬───────────────────┐
-│ Activity         │ How we perform it             │ Competitive basis │
-├──────────────────┼─────────────────────────────┼───────────────────┤
-│ Inbound Logistics│ [Supplier terms, storage]     │ Cost / Quality    │
-│ Operations       │ [Production process, quality] │ Cost / Quality    │
-│ Outbound Logistics│ [Delivery, distribution]     │ Cost / Speed      │
-│ Marketing & Sales│ [Channels, selling approach]  │ Differentiation   │
-│ Service          │ [After-sale support]          │ Differentiation   │
-└──────────────────┴─────────────────────────────┴───────────────────┘
-
-SUPPORT ACTIVITIES (firmwide enablers)
-- Procurement: [Key suppliers, terms, leverage]
-- Technology: [Key processes, systems, IP]
-- HR Management: [Key roles, training, retention]
-- Infrastructure: [Management quality, financial controls]
-
-KEY LINKAGES (activities that must be coordinated)
-1. [Activity A] ↔ [Activity B]: [Why coordination matters; what it achieves]
-2. [Activity A] ↔ [Activity B]: [Why coordination matters; what it achieves]
-
-COST DRIVERS (top 3 for this business)
-1. [Driver]: [Which activities it affects; how the business manages it]
-2. [Driver]: [Which activities it affects; how the business manages it]
-3. [Driver]: [Which activities it affects; how the business manages it]
-
-DIFFERENTIATION SOURCES (top 3)
-1. [Which activity]: [Uniqueness driver; what the buyer values about it]
-2. [Which activity]: [Uniqueness driver; what the buyer values about it]
-3. [Which activity]: [Uniqueness driver; what the buyer values about it]
-```
-
----
-
-## Uganda/East Africa Application
-
-### Value Chain in the Uganda Business Context
-
-**Inbound Logistics — key Uganda challenges:**
-- Road infrastructure variability means inbound logistics cost and reliability differ sharply by location and season
-- Cross-border inputs from Kenya/Tanzania face NTBs (Non-Tariff Barriers) and customs delays at Malaba/Busia
-- Mobile money (MTN MoMo, Airtel Money) has transformed supplier payment and has reduced the cost of the payment activity
-- Uganda's electricity supply unreliability means many manufacturers carry on-site generation as an inbound energy cost
-
-**Operations — Uganda-specific cost drivers:**
-- **Labour:** Labour cost is low relative to global norms (UGX 400K–800K/month entry-level; UGX 1.5M–4M/month skilled) — labour intensity in operations is a potential cost advantage vs. imported goods
-- **Energy:** Electricity supply unreliability adds generator cost; many operations use diesel backup (UGX 4,500–5,500/litre)
-- **UNBS standards:** Mandatory compliance for food, pharmaceuticals, and some consumer goods adds inspection/certification cost but creates entry barriers for informal competitors
-- **Scale:** Most Uganda firms are micro or small — sub-optimal scale in most activities is the norm; reaching efficient scale is a key Year 2–3 objective for most plans
-
-**Outbound Logistics — Uganda opportunities:**
-- Last-mile delivery is the highest-cost link in most consumer-goods chains — firms that solve it (owned boda-boda fleet, agent distribution model) gain a structural advantage
-- Urban Kampala has improving digital logistics platforms; rural coverage remains a gap that can be exploited by focused operators
-- Cold chain is underdeveloped — dairy, poultry, fish, and pharmaceutical firms that invest in cold chain create a genuine differentiation advantage
-
-**Marketing & Sales — Uganda differentiation drivers:**
-- Personal relationships are the dominant sales channel in B2B Uganda — a strong network of buyer relationships is a hard-to-replicate differentiation asset
-- Brand building on radio (high reach, low cost) and outdoor advertising is more cost-effective per impression than in developed markets
-- Government/NGO procurement (PPDA) creates a distinct buyer segment with specific documentation and compliance requirements — see §07 (B2B/Government Tender section)
-
-**Service — often underdeveloped in Uganda SMEs:**
-- After-sale service is a significant differentiation opportunity — most SMEs provide none; those that provide formal warranty, training, or maintenance contracts stand out
-- Field service depots and trained technicians create barriers to entry for competitors
-
-### Cost Driver Priority for Uganda SMEs
-
-| Cost Driver | Typical Importance in Uganda | How to Address in Operations Plan |
-|-------------|------------------------------|----------------------------------|
-| **Scale** | High — most firms operate below efficient scale | Project the volume at which key activities reach efficient scale; show path to that volume |
-| **Learning** | High — most Uganda SMEs are relatively young | Identify learning curve in key operations; project cost per unit as volume grows |
-| **Location** | Very high — affects labour cost, transport cost, customer access | Justify location choice with explicit cost logic; compare alternatives |
-| **Policies** | High — many Uganda SMEs have not optimised operating policies | Document key operating procedures; show where policy choices reduce cost or raise quality |
-| **Integration** | Medium — backward integration (own transport, own input production) is common strategy | Assess whether integration advantage is real or assumed; calculate make-vs-buy economics |
-| **Institutional factors** | High — EFRIS compliance, UNBS certification, NIN/BRN, and URA obligations add cost | Budget explicitly for regulatory compliance; treat as a fixed operating cost line |
-
-### Value Chain Differentiation — Uganda Examples
-
-| Industry | Primary Differentiation Activity | Uniqueness Driver |
-|----------|----------------------------------|-------------------|
-| Dairy / Food processing | Operations (consistent quality, hygiene certification) | Policy choices + integration (own farm) |
-| Agribusiness export | Inbound logistics (farmer aggregation, quality sorting) + Service (extension support) | Linkages + interrelationships |
-| Construction | Service (project management, on-time delivery) | Policy choices + human resource management |
-| Professional services | Marketing & Sales (relationships) + Service (responsiveness) | Human resource management + learning |
-| Retail / Distribution | Outbound logistics (last-mile coverage) | Location + scale |
-| Manufacturing | Operations (quality consistency) + Technology development | Policy choices + learning |
-
-**Cross-reference:**
-- `03-products-services/references/business-models-innovation-teece.md` for business model design that captures the value created by the value chain
-- `06-competitive-analysis/references/competitive-strategy-porter.md` for Five Forces and Generic Strategies that determine which activities to prioritise
-- `10-financial-projections/SKILL.md` for translating value chain cost drivers into financial projections
+## 8. Applying the value chain in the operations plan
+
+Show: (1) which primary activities create most value; (2) which are the largest cost drivers; (3) where differentiation is created; (4) which linkages must be coordinated; (5) how supplier and channel relationships are managed.
+
+**Analysis template**
+- Primary activities table: activity | how we perform it | competitive basis (cost, quality, speed, differentiation).
+- Support activities: procurement (key suppliers, terms, leverage); technology (processes, systems, IP); HR (roles, training, retention); infrastructure (management quality, financial controls).
+- Key linkages: pairs of activities, why coordination matters, what it achieves.
+- Top three cost drivers: driver, activities affected, how managed.
+- Top three differentiation sources: activity, uniqueness driver, what the buyer values.
+
+## 9. Uganda and East Africa application
+
+Treat all figures below as planning assumptions to be re-verified with a dated source (for example UBOS, Bank of Uganda, supplier quotes).
+
+**Inbound logistics**
+- Road quality varies by location and season; model cost and reliability by route.
+- Cross-border inputs (Kenya, Tanzania) face non-tariff barriers and customs delay at border posts; add lead-time buffers.
+- Mobile money lowers supplier payment cost and time.
+- Unreliable power means on-site generation is an inbound energy cost line; obtain current diesel and grid tariffs.
+
+**Operations**
+- Labour: wage scale differs by skill; use current local quotes; labour intensity can be a cost advantage against imports.
+- Energy backup cost: compute generator running hours times fuel price.
+- UNBS standards: mandatory for food, pharmaceuticals and some consumer goods; adds inspection and certification cost but bars informal rivals.
+- Scale: most firms are micro or small and below efficient scale; reaching it is usually a Year 2 to 3 objective.
+
+**Outbound logistics**
+- Last-mile is the costliest link in most consumer chains; owned delivery fleets or agent models can give structural advantage.
+- Kampala digital logistics is improving; rural coverage remains a gap for focused operators.
+- Cold chain is thin; dairy, poultry, fish and pharmaceutical firms that invest gain real differentiation.
+
+**Marketing and sales**
+- Personal relationships dominate B2B; a strong buyer network is hard to copy.
+- Radio and outdoor media usually reach more per shilling than in developed markets.
+- Government and NGO procurement (PPDA) is a distinct segment with documentation and compliance needs; see the B2B and tender material in the marketing section.
+
+**Service**
+- After-sale service is underdeveloped; formal warranties, training and maintenance contracts stand out. Field depots and trained technicians create entry barriers.
+
+**Cost-driver priority for Ugandan SMEs**
+
+| Driver | Importance | Plan action |
+|---|---|---|
+| Scale | High | Show the volume at which key activities reach efficient scale and the path to it |
+| Learning | High | Project unit cost falling with volume |
+| Location | Very high | Justify with explicit cost logic and alternatives |
+| Policies | High | Document key procedures; show where policy lowers cost or raises quality |
+| Integration | Medium | Test whether integration advantage is real; calculate make-versus-buy |
+| Institutional | High | Budget compliance (EFRIS, UNBS, registration, URA) as a fixed cost line; verify current obligations with the Chwezi finance engine |
+
+**Differentiation examples by sector**
+
+| Sector | Main activity | Driver |
+|---|---|---|
+| Dairy and food processing | Operations (consistent quality, hygiene certification) | Policy choices, integration (own farm) |
+| Agribusiness export | Inbound logistics (aggregation, sorting) and service (extension) | Linkages, interrelationships |
+| Construction | Service (project management, on-time delivery) | Policy choices, HR management |
+| Professional services | Marketing and sales (relationships), service (responsiveness) | HR management, learning |
+| Retail and distribution | Outbound logistics (last-mile coverage) | Location, scale |
+| Manufacturing | Operations (consistency), technology development | Policy choices, learning |
+
+Cross-references: business model design in `03-products-services/references/business-models-innovation-teece.md`; five forces and generic strategies in `06-competitive-analysis/references/competitive-strategy-porter.md`; cost translation in `10-financial-projections/SKILL.md`.
+
+Sources consulted: Porter, M. E. (1985), *Competitive Advantage: Creating and Sustaining Superior Performance*, Free Press.

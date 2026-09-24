@@ -251,8 +251,8 @@ Per cadence below.
 - `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — cost floor
 - `skills/saas-customer-success-operating-model/SKILL.md` — CS motion
 - `skills/saas-gtm-motion-design/SKILL.md` — sales motion
-- `book-extractions/walling-saas-playbook-extraction.md` — SaaS packaging
-- `book-extractions/cotton-run-a-saas-business-extraction.md` — packaging-vs-pricing distinction
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — SaaS packaging
+- `skills/saas/saas-gtm-motion-design/references/saas-scaling-rules-and-discount-governance.md` — packaging-vs-pricing distinction
 
 ## Africa / Uganda Application Notes
 

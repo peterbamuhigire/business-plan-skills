@@ -324,6 +324,7 @@ After generating this section, note that:
 
 ## References
 
+- [Marketing-plan document architecture](../marketing-plan-orchestrator/references/marketing-plan-document-architecture.md) — read for the digital layer's place in the full plan and the handoff table to the social-media engine; objectives come from the [SMART objective builder](../marketing-plan-orchestrator/references/smart-objectives-builder.md) and consent rules from [location and scope calibration](../marketing-plan-orchestrator/references/location-and-scope-calibration.md).
 - **Brand as media company**: See `references/brand-as-media-company.md` for the three pillars of social business (People/Process/Platforms), five content narrative inputs  hero narrative, brand tone of voice, content tiers by channel (Tier 1 Hero/Tier 2 Hub/Tier 3 Hygiene), converged media execution model (Paid/Owned/Earned interdependence), employee and customer advocacy programmes, minimum viable content governance, and EA context (WhatsApp as Tier 3, Facebook as Tier 2)  from Brito (*Your Brand, The Next Media Company*, Pearson, 2013). **Read when building the brand content narrative or structuring multi-channel content operations.**
 
 ---

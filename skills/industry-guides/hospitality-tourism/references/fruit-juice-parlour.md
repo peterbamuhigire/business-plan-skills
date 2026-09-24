@@ -1,121 +1,73 @@
 # Fruit and Juice Parlour
 
-**Source:** Crack A Business Kenya (CAB) — Fruit / Juice Parlor Business Guide | **Sub-sector:** Food Service — Fresh Juice, Salads & Whole Fruits
-**Conversion:** KES ÷ 106 × 1.27 → March 2026 USD
+Use this reference when a plan covers fresh juice, fruit salad and whole-fruit sales, from a barrow or stall to a shop-based parlour with dispensers and refrigeration. Entry capital can be very low, competition is high, and demand grows with incomes. Figures are planning assumptions; verify them locally.
 
-> A parlour selling fresh-made juices, fruit salads, and whole fruits — ranging from informal wheelbarrow stalls (from KES 15,000 / $180) to formal shop-based parlours with dispensers and refrigerators (KES 202,200 / $2,423). Fruit consumption is income-elastic; business grows with economic expansion. Highly competitive but accessible at very low capital thresholds.
+## 1. Market and customer
 
-## Financial Summary
+- Fruit consumption rises with income, and dietary guidance recommends far more fruit and vegetables than most households eat, so latent demand is large. Verify the current guideline and local consumption data.
+- Supermarkets have taken a growing share of household fruit purchases, so a parlour competes on freshness, made-to-order preparation and convenience rather than on plain whole fruit.
+- Target customers: office workers, students, gym-goers, hospital visitors and health-conscious commuters; also tourists in tourist areas. University and office areas tolerate higher prices than estate or market stalls.
+- Local flavours: passion fruit is a regional staple, alongside mango, pineapple, jackfruit and sweet banana; coconut water and tamarind in coastal areas; avocado, passion fruit and tree tomato in Rwanda. Premium cold-pressed positioning can work near affluent, health-conscious districts.
 
-| Metric | Amount |
-|--------|--------|
-| Capital — minimum (wheelbarrow/mkokoteni stall) | $180 (KES 15,000) |
-| Capital — standard formal parlour (full setup) | $2,423 (KES 202,200) |
-| Initial stock (standard parlour) | $132 (KES 11,000) |
-| Breakeven | Not stated; varies widely by location and foot traffic |
+## 2. Formats and entry points
 
-> Note: Capital for a stall without juice dispenser or refrigerator is much lower — some start with just a blender, bowls, and a wheelbarrow. There is a spectrum of entry points.
+| Format | Description |
+|---|---|
+| Barrow or street stall | Cut fruit and salads; no juicer or licence at the lowest end |
+| Office-to-office vendor | Home-prepared juices delivered to offices; word-of-mouth growth; specialty and dietary juices |
+| Small informal stall | Fixed stall, blender, limited refrigeration, cups |
+| Formal street parlour | Proper premises, made-to-order juice, uniformed staff, snacks |
+| Hotel or restaurant juice section | Part of a larger menu |
 
-## Capital Breakdown (Standard Formal Parlour)
+A proven growth path: whole fruit, then salads, then blended juices as capital and customers build.
 
-### Licences
+## 3. Inputs and suppliers
 
-| Licence | KES | 2026 USD |
-|---------|-----|----------|
-| Single User Business Permit | 5,000 | $60 |
-| Public Health Licence (premises) | 3,000 | $36 |
-| Signboard Licence | 2,000 | $24 |
-| Food Handler Medical Certificate (per worker) | 500 | $6 |
-| **Licences Sub-total** | **10,500** | **$126** |
+Fruit from wholesale markets or farms (bananas have the least price variation and go into salads and many juices; oranges are stable; then mango, avocado, pawpaw, apples). Cups and bowls in standard sizes, straws, lids, sugar or honey if used, ice or chilled storage. Set supplier terms (daily delivery, credit) and a seasonal substitution plan.
 
-### Equipment
+## 4. Equipment and capex (categories)
 
-| Item | KES | 2026 USD | Notes |
-|------|-----|----------|-------|
-| Juicer (centrifugal, for oranges etc.) | 6,000 | $72 | Black & Decker, Ramtons, Philips — all in market |
-| Blender (for mango, banana, avocado cocktails) | 8,000 | $96 | |
-| Cups and bowls (300ml and 500ml plastic) | 2,800 | $34 | 25 × 500ml cups = KES 175 (~KES 7 each) |
-| Knives, basins, jugs, sieves, spoons, dustbin | 4,000 | $48 | |
-| Juice dispenser (Promex — optional but professional) | 50,000 | $599 | KES 50,000–150,000 depending on capacity/cooling |
-| Refrigerator (optional — for cold juice and bulk fruit) | 25,000 | $300 | Budget from KES 21,000 |
-| Plastic chairs (3 × KES 700) | 2,100 | $25 | Or benches (KES 500 each), metal chairs (KES 900 each) |
-| Tables | 7,000 | $84 | Plastic tables or wooden, from KES 1,500 |
-| Signboard + county signboard fee | 1,200 | $14 | |
-| Aprons (optional) | — | — | Local tailor or supermarket |
-| **Equipment Sub-total** | **~118,000** | **~$1,414** | |
+Centrifugal juicer, blender, cups and bowls in two sizes, knives, basins, jugs, sieves, dustbin, optional juice dispenser and refrigerator (cooling dispensers are becoming standard in formal parlours; imported models are often cheaper than local brands), chairs and tables, signboard, aprons. Plan for: licences; equipment; opening stock; premises (deposit, first rent, repainting); three months of salary, power and miscellaneous. A stall without a dispenser or refrigerator costs far less; state which configuration the plan assumes and obtain quotes.
 
-### Stock, Premises, Working Capital
+## 5. Unit economics drivers
 
-| Item | KES | 2026 USD |
-|------|-----|----------|
-| Opening stock (fruits) | 11,000 | $132 |
-| **Stock Sub-total** | **11,000** | **$132** |
-| Rent (2 months deposit + 1 month @ KES 6,000/month) | 18,000 | $216 |
-| Renovation and repainting | 6,000 | $72 |
-| **Premises Sub-total** | **24,000** | **$288** |
-| Salary — 3 months (1 worker @ KES 8,000/month) | 24,000 | $288 |
-| Electricity — 3 months | 2,700 | $32 |
-| Miscellaneous — 3 months | 12,000 | $144 |
-| **Working Capital Sub-total** | **38,700** | **$464** |
+- Cost per serving = fruit weight per serving x fruit price + cup and consumables + power and ice.
+- Gross margin per serving = price - cost per serving; multiply by servings per day.
+- Yield: juice per kilo varies by fruit; measure it in a trial and record waste from peel, spoilage and unsold fruit.
+- Price by cup size and by salad bowl size, benchmarked against local competitors; price so that daily purchase is affordable, not only an occasional treat.
+- Fixed costs: rent, wages, power, licences, dispenser depreciation. Break-even servings per day = fixed daily cost / contribution per serving.
+- Keep working capital for daily restocking separate from the opening stock, which is small.
 
-| **Grand Total** | **KES 202,200** | **$2,423** |
+## 6. Pricing
 
-## Parlour Types
+Benchmark against nearby parlours; tier by size; premium for specialty blends and cold-pressed lines; combination offers (juice plus salad). Check that price signals freshness and hygiene, not cheapness.
 
-| Type | Entry Capital | Description |
-|------|--------------|-------------|
-| Street/wheelbarrow (mkokoteni) | From KES 2,000 ($24) | Cart or makeshift stall; salads and cut fruit; no juicer or licence required |
-| Office-to-office vendor | KES 5,000–15,000 | Home-produced juices delivered to offices; dietary/specialty juices; word-of-mouth growth |
-| Small informal stall | KES 10,000–30,000 | Fixed stall with blender; limited refrigeration; sell juices in cups |
-| Formal street parlour | KES 50,000–120,000 | Proper premises; real-time juice making; uniform-wearing staff; snacks available |
-| Hotel/restaurant juice section | Part of larger setup | Integrated into restaurant menu — passion juice KES 15–20/glass at fast-food outlets |
+## 7. Regulation and licensing checks
 
-> **Proven startup story:** One Nairobi parlour started with 3 melons, 10 pineapples, and KES 200 worth of bananas — progressed from whole fruits → salads → blended juices over several months.
+Business permit or trading licence, premises health licence, food-handler medical certificates (displayed), signboard permit, tax registration. Country bodies vary: in Uganda, city authority trading licence and tax registration; in Tanzania, the food and drugs regulator may require handler registration; in Rwanda, food-safety standards from the standards and food regulators apply. Verify current requirements.
 
-## Stock and Pricing
+## 8. Critical success factors
 
-### Popular Fruits (Nairobi, in demand order)
+1. Location near offices, colleges, gyms, hospitals and commuter waiting points.
+2. Freshness and visible hygiene: preparation in front of customers, certificates displayed.
+3. Pricing set against the local market for daily affordability.
+4. Variety of at least four or five fruits, with seasonal additions.
+5. Consistency of hours, quality and staff.
 
-1. Bananas (least seasonal price variation; used in most salads and many juices)
-2. Oranges (juicer essential; stable price)
-3. Mangoes
-4. Avocado
-5. Pawpaw (papaya)
-6. Apples (increasing availability as imports stabilise)
+## 9. Risks and controls
 
-### Juice Cup Sizes and Prices
+Fruit price seasonality and spoilage (buy to forecast, use the fruit in salads and juices before it spoils), power cuts for refrigeration, hygiene incidents, supermarket competition, staff theft (reconcile fruit issued versus servings sold), location dependence. Diversify into snacks and packaged items where allowed.
 
-| Size | KES/cup (wholesale cups) | Common retail price |
-|------|--------------------------|---------------------|
-| 300ml | KES 5/cup | KES 30–60/serving |
-| 500ml | KES 7/cup | KES 50–100/serving |
-| Salad — small bowl | KES 5–10/bowl | KES 50–100/serving |
-| Salad — large bowl | KES 10–20/bowl | KES 100–200/serving |
+## 10. KPIs
 
-> Pricing depends heavily on estate income level and competition. University-area and office-area parlours command higher prices than estate/market stalls.
+Servings per day by product; fruit cost as a percentage of sales; wastage percentage; average ticket; repeat customers; contribution per serving; days of stock; complaint count.
 
-## Market Context
+## 11. Plan-section prompts
 
-- **Income elasticity:** Fruit consumption increases with income — market grows with economic expansion
-- **Substitution:** In 2003, 6% of Nairobi households bought fruit from supermarkets; by 2014, ~20% — indicating growing formalisation of fruit retail, but also competition from supermarkets for basic fruits
-- **WHO recommendation:** 400g fruit/vegetables per person/day — far below current consumption in most EA households; upside demand potential is large
-- **Household budget share (Nairobi):** 8% of basic food budget spent on fruits; comparable to dairy (18%) and beef (14%) — significant and consistent spend
+- Which format, and what evidence of footfall at the chosen site?
+- What are the recipes, yields and cost per serving?
+- What is the seasonal supply and price plan?
+- Which hygiene controls and licences apply?
+- What is the growth path (more sites, delivery, catering, packaged juice)?
 
-## Critical Success Factors
-
-1. **Location:** Near offices, colleges, gyms, hospitals — anywhere where health-conscious consumers commute or wait
-2. **Freshness and hygiene:** Visible cleanliness, food handler certificates displayed, fresh preparation in front of customers
-3. **Pricing:** Benchmark against local competition — affordable enough for daily purchase, not just occasional treat
-4. **Variety:** At least 4–5 fruit types available; seasonal fruits supplement core range
-5. **Consistency:** Same opening hours, same quality, same faces — trust is built through predictability
-
-## East Africa Notes
-
-- **Uganda:** Fruit juice stalls common across Kampala (Nakawa, Garden City, Kireka markets). Passion fruit juice is the regional staple — Uganda is a major passion fruit producer. Matooke (cooking banana) does not juice, but sweet bananas, mangoes, jackfruit, and pineapples are all abundant locally. URA registration and KCCA trading licence required.
-- **Tanzania:** Fresh coconut water and tamarind (ukwaju) juice are cultural staples alongside mango and passion. Dar es Salaam's Kariakoo Market is a key fruit wholesale hub. Zanzibar has a strong fresh juice culture for tourists and locals alike. TFDA food handler registration may be required.
-- **Rwanda:** Avocado, passion fruit, and tree tomato (tamarillo) are distinctive regional juices. Kigali has a growing health-conscious café culture — premium positioning for cold-pressed juices is viable near Kimihurura and Remera. RFDA food safety standards apply.
-- **EA note on juice dispensers:** Promex is the brand referenced in Kenya but dispensers are increasingly imported from China at lower prices across all EA markets. Cooling dispensers (with refrigeration integrated) are becoming standard in formal parlours.
-
-## Data Quality Notes
-
-Capital breakdown is for a Nairobi-level formal parlour with juice dispenser and refrigerator. In Kampala or Dar, rent will differ (adjust premises sub-total). A no-dispenser, no-refrigerator stall setup costs KES 30,000–50,000 ($360–$599) — a realistic starting point. Stock value of KES 11,000 ($132) is a small initial purchase; working capital for daily restocking should be maintained separately.
+Sources consulted: Crack A Business Kenya, fruit and juice parlour guide, and general food-service practice. Prices and capital sums were removed or relabelled as assumptions to re-verify.

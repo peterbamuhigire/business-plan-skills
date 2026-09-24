@@ -113,6 +113,8 @@ Based on UNDP Uganda business profiles (adjusted to March 2026 dollars):
 
 See `references/undp-business-profiles.md` for detailed profiles of 18 specific business opportunities in this sector.
 
+For small-scale paint mixing and tinting (automotive and decorative), see `references/paint-mixing.md`; for full manufacturing see `references/paint-manufacturing.md`.
+
 ## Cross-References
 
 - `07-marketing-sales-strategy` — Branding, distribution channel strategy

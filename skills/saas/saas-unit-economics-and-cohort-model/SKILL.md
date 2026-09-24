@@ -114,9 +114,9 @@ Produce the SaaS-specific unit economics and cohort exhibits that turn a generic
 
 - `references/saas-unit-economics-model-template.md` — formulas, benchmarks, worked example (lives in `10-financial-projections/references/`)
 - `references/saas-cohort-and-retention-model-template.md` — cohort matrix discipline
-- `book-extractions/mersch-hacking-saas-extraction.md` — CFO-grade discipline
-- `book-extractions/cotton-run-a-saas-business-extraction.md` — Rule of 40, churn, LTV:CAC rules
-- `book-extractions/walling-saas-playbook-extraction.md` — 80/20 metrics chapter
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — CFO-grade discipline
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — Rule of 40, churn, LTV:CAC rules
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — dashboard (section 11)
 
 ## Living-Plan Cadence Defaults
 

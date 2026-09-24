@@ -136,10 +136,10 @@ Pair with the AI archetype declaration (AI-native vertical SaaS / SaaS-with-AI-f
 - `skills/11-funding-request/saas-ai-funding-stage-playbook/SKILL.md` — AI funding stage playbook
 - `skills/meta-ai-bankability-and-investor-readiness/SKILL.md` — AI bankability scorecard
 - `skills/meta-valuation/SKILL.md` — deeper DCF / WACC / CAPM logic
-- `book-extractions/ai-on-saas-business-plan-audit-2026.md` — AI-on-SaaS audit
-- `book-extractions/cotton-run-a-saas-business-extraction.md` — recurring revenue valuation rationale
-- `book-extractions/mersch-hacking-saas-extraction.md` — financial profile by SaaS segment
-- `book-extractions/walling-saas-playbook-extraction.md` — funding taxonomy
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — AI-on-SaaS audit
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — recurring revenue valuation rationale
+- `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — financial profile by SaaS segment
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — funding taxonomy
 
 ## Africa / Uganda Application Notes
 

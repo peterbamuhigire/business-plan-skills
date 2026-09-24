@@ -42,14 +42,21 @@ class SourceIngestionGuardrailTests(unittest.TestCase):
             self.assertEqual(["raw-extraction-path"], [finding.code for finding in findings])
             self.assertEqual(path.relative_to(root), findings[0].path)
 
-    def test_book_extraction_synthesis_path_is_not_blocked_by_name_alone(self):
-        with tempfile.TemporaryDirectory() as temporary:
-            root = Path(temporary)
-            path = root / "book-extractions/fictional-test-synthesis.md"
-            path.parent.mkdir(parents=True)
-            path.write_text("TEST FIXTURE ONLY: concise synthesis.\n", encoding="utf-8")
+    def test_book_extraction_path_is_blocked_even_for_concise_synthesis(self):
+        for folder in ("book-extractions", "book-extraction", "Book-Extractions"):
+            with self.subTest(folder=folder), tempfile.TemporaryDirectory() as temporary:
+                root = Path(temporary)
+                path = root / folder / "fictional-test-synthesis.md"
+                path.parent.mkdir(parents=True)
+                path.write_text("TEST FIXTURE ONLY: concise synthesis.\n", encoding="utf-8")
 
-            self.assertEqual([], MODULE.scan(root))
+                findings = MODULE.scan(root)
+
+                self.assertEqual(["book-extraction-path"], [finding.code for finding in findings])
+                self.assertEqual(path.relative_to(root), findings[0].path)
+
+    def test_repository_has_no_book_extraction_folder(self):
+        self.assertFalse((ROOT / "book-extractions").exists())
 
     def test_raw_extractions_variant_is_blocked_case_insensitively(self):
         with tempfile.TemporaryDirectory() as temporary:

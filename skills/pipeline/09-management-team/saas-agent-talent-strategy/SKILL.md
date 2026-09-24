@@ -154,8 +154,8 @@ This skill installs the agent team composition discipline.
 - `skills/09-management-team/saas-ai-talent-strategy/SKILL.md` — AI talent parent
 - `skills/09-management-team/SKILL.md` — generic management team section
 - `skills/saas-sales-org-design-and-capacity-planning/SKILL.md` — sales org pairing
-- `book-extractions/cotton-run-a-saas-business-extraction.md` — hiring discipline
-- `book-extractions/agent-products-business-plan-audit-2026.md` — agent audit
+- `skills/saas/saas-gtm-motion-design/references/saas-scaling-rules-and-discount-governance.md` — hiring discipline
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — agent audit
 - `country-context/africa-regional/africa-ai-context-extension.md` — African AI talent context
 - `country-context/africa-regional/africa-agent-context-extension.md` — African agent context
 

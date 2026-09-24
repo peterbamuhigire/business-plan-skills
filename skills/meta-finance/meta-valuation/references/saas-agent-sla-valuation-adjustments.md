@@ -127,7 +127,7 @@ The SLA-overlay row should reference the scoring rubric and bankability checklis
 - `skills/meta-agent-valuation-overlay-for-sla/SKILL.md` — overlay skill
 - `skills/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — bankability evidence
 - `skills/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
-- `book-extractions/agent-sla-commercial-business-plan-audit-2026.md` — audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes
 

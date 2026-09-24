@@ -1,237 +1,117 @@
-# Restaurant Break-Even Analysis and Menu Engineering
+# Restaurant Break-Even, Cash Budgeting and Menu Engineering
 
-**Source:** Schmidgall, R.S., Hayes, D.K., & Ninemeier, J.D. *Restaurant Financial Basics*
+Use this reference for three plan tasks: proving the sales volume a restaurant needs, budgeting cash month by month, and deciding which dishes to keep, promote, reprice or drop. All amounts in worked examples are illustrative; replace them with the business's own costs and prices, and verify tax and accounting treatment with the Chwezi finance engine.
 
-> Figures adapted to Ugandan context (UGX). Percentages and ratios from the source are universal.
+## 1. Break-even analysis
 
----
-
-## 1. Break-Even Analysis for Restaurants
-
-### Core Formula
+### Core formulas
 
 ```
-Break-Even Point: Net Income = 0
-
-0 = (Selling Price x Units Sold) - (Variable Cost per Unit x Units Sold) - Total Fixed Costs
-
-Rearranged:
-
-Units at Break-Even = Total Fixed Costs / (Selling Price - Variable Cost per Unit)
-
-Revenue at Break-Even = Total Fixed Costs / Contribution Margin Ratio
+Contribution margin (CM) per meal = selling price - variable cost per meal
+CM ratio = CM / selling price
+Break-even meals = fixed costs / CM per meal
+Break-even revenue = fixed costs / CM ratio
+Meals for a target profit = (fixed costs + target pre-tax profit) / CM per meal
+Margin of safety = budgeted (or actual) sales - break-even sales
 ```
 
-### The Four Break-Even Variables
+Rearrange the same equation to solve for any one unknown:
+- Fixed costs supportable = (price - variable cost) x meals sold.
+- Price needed = (fixed costs / meals sold) + variable cost per meal.
+- Variable cost allowed = price - (fixed costs / meals sold).
+
+### Procedure
+
+1. Classify costs into fixed (management salaries, rent, insurance, property taxes, depreciation, interest), variable (food, beverage, hourly wages, some supplies) and mixed (utilities, telephone, leases with a turnover component); split mixed costs.
+2. Use the average selling price per meal and the average variable cost per meal.
+3. Compute break-even meals and revenue, then the volume for the target profit.
+4. Express the margin of safety in meals and in currency.
+5. Restate the break-even per day and per week for operating control.
+
+### Reading the result
+
+Beyond break-even, each extra meal adds its CM to profit; below it, each unsold meal loses its CM.
+
+### Assumptions and limits
+
+Fixed costs stay fixed over the period; variable costs move in line with volume; revenue is proportional to volume; mixed costs can be split; only quantitative factors are counted (staff morale and guest goodwill are not). State these in the plan and test alternative price and cost scenarios.
+
+Cost classes useful in the plan: discretionary fixed costs (training, donations, advertising) can be cut in the short term; capacity fixed costs (depreciation, property tax, interest) cannot.
+
+## 2. Cash flow management
+
+### What moves cash
+
+- Cash rises when receivables fall, inventories fall, borrowing rises, or payables and accruals rise.
+- Cash falls when receivables rise, inventories rise, borrowing is repaid, or payables and accruals are paid down.
+
+### Monthly cash budget (up to six months forward)
 
 ```
-1. Meals at break-even = Fixed Costs / (Selling Price - Variable Cost per Meal)
-
-2. Fixed costs at break-even = (Selling Price x Meals Sold) - (Variable Cost x Meals Sold)
-
-3. Selling price at break-even = (Fixed Costs / Meals Sold) + Variable Cost per Meal
-
-4. Variable cost at break-even = Selling Price - (Fixed Costs / Meals Sold)
+Opening cash
++ Receipts: cash sales, receivables collected, bank loans, sale of assets, other
+= Cash available
+- Disbursements: food and beverage purchases, payroll, operating expenses, taxes,
+  insurance, loan repayments, rent, other
+= Closing cash
+- Minimum cash required
+= Excess or (shortage)
 ```
 
-### Worked Example (Michael's Bistro)
+### Inputs to set explicitly
+
+- Cash versus credit sales split, and the collection pattern for credit sales.
+- Supplier payment pattern (share paid in the month bought and the month after).
+- Wages and benefits (usually paid in the month incurred).
+- Other operating expenses (share paid in the month and the month after).
+- Prepaid marketing (for example an annual contract paid at the start of the year).
+- Depreciation is non-cash: exclude it from disbursements.
+- Debt service has interest (in the income statement) and principal (not in the income statement).
+
+### Effective interest rate with a compensating balance
 
 ```
-Annual fixed costs:           UGX 44,500,000
-Average selling price/meal:   UGX 18,000
-Variable cost per meal:       UGX 7,200
-Contribution margin per meal: UGX 10,800  (UGX 18,000 - UGX 7,200)
-
-Break-even meals = UGX 44,500,000 / (UGX 18,000 - UGX 7,200) = 4,120 meals
-Break-even revenue = 4,120 x UGX 18,000 = UGX 74,160,000
-
-To earn UGX 7,400,000 pretax profit:
-Meals required = (UGX 44,500,000 + UGX 7,400,000) / (UGX 18,000 - UGX 7,200) = 4,806 meals
-Revenue required = 4,806 x UGX 18,000 = UGX 86,508,000
-Additional meals beyond break-even: 686
-Proof: 686 x UGX 10,800 CM = UGX 7,408,800 profit (rounding)
+Effective rate = annual interest / (loan - compensating balance)
 ```
 
-### Contribution Margin
+### Minimum cash cushion
 
-```
-Contribution Margin (CM) = Selling Price - Variable Costs per Unit
-```
+Set a minimum month-end balance. Invest surplus above it temporarily; if the forecast falls below it, plan short-term finance or liquidate temporary investments before the shortfall arises.
 
-- The CM represents what each meal contributes toward fixed costs and profit after variable costs are covered
-- Beyond break-even, each additional meal sold generates profit equal to its CM
-- Below break-even, each unsold meal represents a loss equal to its CM
+## 3. Menu engineering
 
-### Margin of Safety
+Menu engineering classifies each dish on two measures: contribution margin (selling price less food cost) and popularity (share of total dishes sold, the menu mix).
 
-```
-Margin of Safety = Budgeted (or Actual) Sales - Break-Even Sales
-```
+### Classification and action
 
-**Example:**
-```
-                    Break-Even      Target (UGX 7.4M profit)    Margin of Safety
-Sales (UGX)         UGX 74,160,000  UGX 86,508,000              UGX 12,348,000
-Sales (meals)       4,120           4,806                        686
-```
+| Class | CM | Popularity | Action |
+|---|---|---|---|
+| Star | High | High | Protect quality and consistency; feature prominently |
+| Plowhorse | Low | High | Raise price carefully, cut cost or portion, reposition |
+| Puzzle | High | Low | Promote, reposition on the menu, rename or better describe |
+| Dog | Low | Low | Remove, replace, or reprice sharply |
 
-### Break-Even Assumptions and Limitations
-- Fixed costs remain fixed during the period
-- Variable costs change linearly with revenues
-- Revenues are directly proportional to volume
-- Mixed costs can be separated into fixed and variable components
-- Only quantitative factors are considered (not qualitative factors like employee morale, guest goodwill)
+### Thresholds
 
----
+- Popularity: a dish is popular if its mix share is at least 70% of an equal share, that is (100% / number of dishes) x 70%.
+- CM: a dish is high if its CM is at or above the weighted average CM, where weighted average CM = total menu CM / total dishes sold.
 
-## 2. Cash Flow Management
+### Worksheet columns
 
-### Cash Increases When:
-- Accounts receivable decrease (monies owed are collected)
-- Inventories decrease (products withdrawn from inventory rather than purchased)
-- Borrowing increases (cash received from financial institutions)
-- Accounts payable and accrued expenses increase (purchases made on credit rather than cash)
+Dish; number sold; menu mix % (sold / total sold); food cost per dish; selling price; CM per dish; total cost (cost x sold); total revenue (price x sold); total menu CM (sum of revenue less cost); average food cost and average CM (divide totals by dishes sold); CM category; popularity category; classification.
 
-### Cash Decreases When:
-- Accounts receivable increase (money owed is not being paid)
-- Inventory increases (products purchased and stored)
-- Borrowing decreases (cash used to pay interest and debt)
-- Accounts payable and accrued expenses decrease (cash used to pay debts)
+### Procedure
 
-### Cash Budget Format
+1. Pull sales counts for one menu and one meal period from the POS.
+2. Cost each dish from its standard recipe.
+3. Complete the worksheet and classify every dish.
+4. Apply the action for each class, change one variable at a time, and re-run after the next period.
+5. Record the average CM before and after, since the aim is a higher overall CM per guest, not a lower food cost percentage alone.
 
-```
-Cash Budget (Monthly, up to 6 months forward)
+## Plan-section prompts
 
-Cash - Beginning of Month                       UGX
-Estimated Cash Receipts:
-  Cash Sales
-  Collection of Accounts Receivable
-  Proceeds from Bank Loans
-  Proceeds from Sale of Fixed Assets
-  Other
-  Total Estimated Cash Receipts                  UGX
-Estimated Cash Available                         UGX
+- Show the break-even meals and revenue, the target-profit volume and the margin of safety.
+- Present a six-month cash budget with stated collection and payment assumptions and a minimum cash level.
+- Show the menu-engineering classification for the opening menu and the review cycle.
 
-Estimated Cash Disbursements:
-  Inventory (Food/Beverage Purchases)
-  Payroll
-  Operating Expenses
-  Taxes
-  Insurance
-  Mortgage Payments
-  Rent
-  Other
-  Total Estimated Cash Disbursements             UGX
-
-Estimated Cash - End of Month                    UGX
-Minimum Cash Required                           UGX
-Cash Excess (Shortage)                           UGX
-```
-
-### Key Cash Budget Inputs
-- **Cash vs. credit sales split** (example: 80% cash, 20% charge)
-- **Collection patterns** for credit sales (example: 20% collected in month of sale, 80% in following month)
-- **Food purchase payment patterns** (example: 30% paid in month prior, 70% in current month)
-- **Salaries/wages/benefits** paid in month expensed
-- **Other operating expenses** (example: 50% paid in month expensed, 50% in following month)
-- **Marketing** may be prepaid (e.g. annual advertising contract paid in January)
-- **Depreciation is a non-cash expense** -- requires no cash outflow
-- **Debt payments** include both interest (on P&L) and principal reduction (not on P&L)
-
-### Effective Interest Rate (Compensating Balances)
-
-```
-Effective Interest Rate = Annual Interest on Loan / (Loan - Compensating Balance)
-```
-
-**Example:** UGX 41,200,000 loan at 10% with UGX 4,120,000 compensating balance:
-```
-Interest = UGX 41,200,000 x 10% x 1 year = UGX 4,120,000
-Effective rate = UGX 4,120,000 / (UGX 41,200,000 - UGX 4,120,000) = 11.1%
-```
-
-### Minimum Cash Cushion
-- Maintain a predetermined minimum cash balance (e.g. UGX 2,060,000) at end of each month
-- Excess above cushion should be invested temporarily
-- If projected cash falls below minimum, liquidate temporary investments or arrange short-term financing
-
----
-
-## 3. Menu Engineering and Contribution Margin Analysis
-
-### Menu Engineering Framework
-
-Menu engineering classifies each menu item based on two dimensions:
-1. **Contribution Margin (CM):** Item's selling price minus food cost
-2. **Popularity (Menu Mix %):** Percentage of total units sold
-
-### The Four Menu Item Classifications
-
-| Classification | CM Level | Popularity | Strategy |
-|---------------|----------|------------|----------|
-| **Star**      | High     | High       | Maintain quality, feature prominently |
-| **Plowhorse** | Low      | High       | Increase price carefully, reduce cost, reposition |
-| **Puzzle**    | High     | Low        | Promote more, reposition on menu, rename |
-| **Dog**       | Low      | Low        | Remove from menu, replace, or raise price significantly |
-
-### Popularity Threshold (70% Rule)
-
-An item is considered "popular" if it sells at least **70% of expected sales**:
-```
-Expected sales per item = 100% / Number of menu items
-Popularity threshold = Expected sales per item x 70%
-
-Example: 6 menu items
-Expected per item: 100% / 6 = 16.7%
-Popularity threshold: 16.7% x 70% = 11.7%
-Items with mix % >= 11.7% are "High" popularity
-```
-
-### CM Threshold
-
-An item has "High" CM if its individual CM is equal to or greater than the **weighted average CM** for all items.
-
-```
-Weighted Average CM = Total Menu CM / Total Number of Items Sold
-```
-
-### Menu Engineering Worksheet
-
-```
-Columns:
-A - Menu Item Name
-B - Number Sold
-C - Menu Mix % (B / Total B)
-D - Item Food Cost
-E - Item Selling Price
-F - Item CM (E - D)
-G - Menu Costs (D x B)
-H - Menu Revenues (E x B)
-I - Total Menu Costs (sum of G)
-J - Total Menu Revenues (sum of H)
-K - Average Food Cost (I / Total B)
-L - Menu CM (H - G)
-M - Total Menu CM (sum of L)
-N - Average CM (M / Total B)
-O - CM Category (High if F >= N, else Low)
-P - MM% Category (High if C >= threshold, else Low)
-Q - Popularity threshold = (100% / number of items) x 70%
-R - Classification (Star/Plowhorse/Puzzle/Dog)
-```
-
-### Worked Example (Midtown Plaza, Dinner)
-
-```
-Item                 Sold    Mix%    Cost        Price       CM          Classification
-Beef Stew            350     17.5%   UGX 5,260   UGX 12,830  UGX 7,570   Plowhorse
-Chow Mein            210     10.5%   UGX 5,640   UGX 14,430  UGX 8,790   Puzzle
-Ham Cheese Sandwich  100      5.0%   UGX 6,150   UGX 13,470  UGX 7,320   Dog
-BLT Sandwich         450     22.5%   UGX 6,290   UGX 16,040  UGX 9,750   Star
-Hamburger Platter    510     25.5%   UGX 5,710   UGX 14,690  UGX 8,980   Star
-Chicken Sandwich     380     19.0%   UGX 3,530   UGX 11,020  UGX 7,490   Plowhorse
-Total              2,000    100.0%
-
-Average CM = UGX 17,000,000 / 2,000 = UGX 8,500
-Popularity threshold = (100% / 6) x 70% = 11.7%
-```
+Sources consulted: Schmidgall, R.S., Hayes, D.K. and Ninemeier, J.D., *Restaurant Financial Basics*, Wiley, 2002; general cost-volume-profit and menu-engineering practice.

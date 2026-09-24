@@ -112,8 +112,8 @@ Generic product strategy can describe AI features but cannot reason about AI pro
 - `skills/saas-mvp-and-product-market-fit-strategy/SKILL.md` — pre-PMF product discipline
 - `skills/06-competitive-analysis/saas-ai-moat-and-defensibility/SKILL.md`
 - `skills/10-financial-projections/saas-ai-cost-of-tenant-calculator/SKILL.md`
-- `book-extractions/walling-saas-playbook-extraction.md` — PMF and product strategy
-- `book-extractions/tod-building-multi-tenant-saas-architectures-extraction.md` — architecture decisions
+- `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — PMF and product strategy
+- `skills/pipeline/08-operations-plan/references/saas-tenancy-model-and-msp-trap-test.md` — architecture decisions
 
 ## Africa / Uganda Application Notes
 

@@ -32,8 +32,8 @@ metadata:
 ## Workflow
 
 1. Extract the strongest claims, numbers, and reader-specific priorities from the completed plan.
-2. Identify the one governing thought and strongest hook.
-3. Draft using the Context -> Approach -> Results -> Ask structure.
+2. Identify the one governing thought and strongest hook; choose the form: a synopsis summary (one to three sentences per topic under printed headings, the safe default) or a narrative summary (for a new concept, a dominant asset such as a patent or contract, or a strong history), and lead with what this reader's institution weighs most.
+3. Draft using the Context -> Approach -> Results -> Ask structure, written last, one page ideal and never more than two or three; include dated milestones, the strategy type's key proof and how the funder is repaid or exits.
 4. Compress the plan into a short, high-signal summary without losing financial and decision logic.
 5. Apply `premium-commercial-writing` for investor/lender polish, proof calibration, premium credibility, and decision-ready language.
 6. Reconcile every claim and number against the underlying sections.
@@ -270,7 +270,7 @@ Frame the executive summary appropriately for the venture type (Blank & Dorf, 20
 - **Proposal summarisation patterns**: See `references/proposal-patterns.md` for examples and templates of effective executive summaries for funding proposals
 - **Brand story and Hero Narrative framework**: See `../07-marketing-sales-strategy/references/social-business-brand-strategy.md` for Brito's nine-input content narrative framework, Hero Narrative simplification test, converged media model (paid/earned/owned), and content governance principles  applicable when writing the business concept paragraph and brand positioning statement
 - **Pyramid Principle  structure and logic**: See `references/pyramid-principle.md` for Minto's full framework: SCQA opening formula, pyramid rules (MECE groupings, three logical orders, deductive vs. inductive), the 30-second test, intellectually blank assertion errors, and the problem-definition framework (R1/R2  Q  A)  the structural backbone for executive summaries, proposals, and any document where the purpose is to present thinking clearly
-- **Growth, profit, disruption, and transformation logic**: See `../../book-extractions/growth-profit-disruption-systems-extraction.md` when the executive summary must explain a repeatable growth engine, product-led growth, AI-enabled growth, disruption strategy, or profit improvement thesis.
+- **Growth, profit, disruption, and transformation logic**: See `../07-marketing-sales-strategy/references/growth-profit-and-disruption-system-tests.md` when the executive summary must explain a repeatable growth engine, product-led growth, AI-enabled growth, disruption strategy, or profit improvement thesis.
 
 ## July 2026 Portable Contract
 
@@ -348,6 +348,7 @@ A plan describes three pilot customers but provides no signed evidence. State th
 
 ## References
 
+- [Phrase bank, entry 01](../../language/writing-quality/references/business-plan-phrase-bank-sections-01-08.md) — read while drafting: purpose, keywords, slot-templates, tone rules, before-and-after rewrites and red-flag phrases for this section; apply the strategy-type emphasis from the [phrase-bank index](../../language/writing-quality/references/business-plan-phrase-bank.md).
 - Use the verified project evidence register and the owning upstream pipeline section for 01 executive summary; no local deep-dive reference is declared.
 - For 01 executive summary claims involving money, tax, grants, reserves, revenue, cost, valuation, or financial statements, apply the Chwezi finance doctrine and record the required professional-review state; illustrative figures never become client facts.
 

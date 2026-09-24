@@ -119,7 +119,7 @@ Generic implementation timeline (handled by `13-implementation-timeline`) covers
 - `skills/03-products-services/saas-agent-product-strategy-and-roadmap/SKILL.md` — roadmap input
 - `skills/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — risk input
 - `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — cost gate
-- `book-extractions/agent-products-business-plan-audit-2026.md` — audit
+- `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes
 
