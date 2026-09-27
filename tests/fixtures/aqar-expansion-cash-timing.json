@@ -1,0 +1,89 @@
+{
+  "fixture_label": "FICTIONAL TEST DATA - no Aqar customer or market records",
+  "business_label": "Aqar Property (named by the P13 scenario only)",
+  "scope": {
+    "customer": "NOT_ASSESSED",
+    "geography": "NOT_ASSESSED",
+    "product": "NOT_ASSESSED",
+    "market_denominator": "NOT_ASSESSED",
+    "effective_date": "2026-09-27"
+  },
+  "finance_boundary": {
+    "reporting_basis": "N/A - operational cash timing sensitivity only",
+    "currency": "SCU (synthetic cash units; not UGX, USD, or a real currency)",
+    "revenue_recognition": "NOT_ASSESSED",
+    "tax_or_statutory_treatment": "NOT_ASSESSED"
+  },
+  "model": {
+    "periods": 4,
+    "opening_cash_scu": 0,
+    "monthly_billings_scu": 100,
+    "monthly_cash_costs_scu": 60,
+    "available_liquidity_scu": 75,
+    "collection_rate_percent": 100
+  },
+  "assumptions": [
+    {
+      "id": "SYNTH-A01",
+      "name": "monthly billings held constant",
+      "value": 100,
+      "unit": "SCU/month",
+      "source_id": "SYNTH-SOURCE-01",
+      "effective_date": "2026-09-27",
+      "owner": "fixture author; no business owner supplied",
+      "classification": "synthetic test assumption"
+    },
+    {
+      "id": "SYNTH-A02",
+      "name": "monthly cash costs held constant",
+      "value": 60,
+      "unit": "SCU/month",
+      "source_id": "SYNTH-SOURCE-01",
+      "effective_date": "2026-09-27",
+      "owner": "fixture author; no business owner supplied",
+      "classification": "synthetic test assumption"
+    },
+    {
+      "id": "SYNTH-A03",
+      "name": "available liquidity held constant",
+      "value": 75,
+      "unit": "SCU",
+      "source_id": "SYNTH-SOURCE-01",
+      "effective_date": "2026-09-27",
+      "owner": "fixture author; no business owner supplied",
+      "classification": "synthetic test assumption"
+    }
+  ],
+  "synthetic_sources": [
+    {
+      "id": "SYNTH-SOURCE-01",
+      "description": "Values chosen only to exercise collection-lag arithmetic; no client or market source was supplied."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "upside",
+      "collection_lag_months": 0,
+      "source_id": "SYNTH-SOURCE-01",
+      "effective_date": "2026-09-27",
+      "owner": "fixture author; no business owner supplied",
+      "management_action": "PROCEED_SYNTHETIC_BASELINE"
+    },
+    {
+      "id": "base",
+      "collection_lag_months": 1,
+      "source_id": "SYNTH-SOURCE-01",
+      "effective_date": "2026-09-27",
+      "owner": "fixture author; no business owner supplied",
+      "management_action": "USE_BUFFER_AND_HOLD_NEXT_MILESTONE_UNTIL_COLLECTIONS_CONFIRM"
+    },
+    {
+      "id": "downside",
+      "collection_lag_months": 2,
+      "source_id": "SYNTH-SOURCE-01",
+      "effective_date": "2026-09-27",
+      "owner": "fixture author; no business owner supplied",
+      "management_action": "DEFER_ROLLOUT_UNTIL_FUNDING_OWNER_APPROVES"
+    }
+  ]
+}
