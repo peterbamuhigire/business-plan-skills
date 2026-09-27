@@ -47,6 +47,44 @@ class AqarCashTimingFixtureTests(unittest.TestCase):
         broken["scenarios"][0]["source_id"] = "UNKNOWN"
         self.assertTrue(any("source, date, and owner" in e for e in validate_fixture(broken)))
 
+    def test_invalid_assumption_date_classification_and_source_metadata_are_blocked(self) -> None:
+        data = json.loads(FIXTURE.read_text(encoding="utf-8"))
+        broken = copy.deepcopy(data)
+        broken["assumptions"][0]["effective_date"] = "2026-02-30"
+        broken["assumptions"][0]["classification"] = "verified client fact"
+        broken["synthetic_sources"][0]["description"] = "  "
+        errors = validate_fixture(broken)
+        self.assertTrue(any("ISO calendar effective_date" in error for error in errors))
+        self.assertTrue(any("synthetic test assumption" in error for error in errors))
+        self.assertTrue(any("needs a description" in error for error in errors))
+
+    def test_assumption_values_must_match_model_inputs(self) -> None:
+        data = json.loads(FIXTURE.read_text(encoding="utf-8"))
+        broken = copy.deepcopy(data)
+        broken["assumptions"][0]["value"] = 101
+        self.assertIn(
+            "assumption does not match model.monthly_billings_scu",
+            validate_fixture(broken),
+        )
+
+    def test_unhashable_assumption_references_fail_as_validation_errors(self) -> None:
+        data = json.loads(FIXTURE.read_text(encoding="utf-8"))
+        broken = copy.deepcopy(data)
+        broken["assumptions"][0]["source_id"] = ["SYNTH-SOURCE-01"]
+        broken["assumptions"][0]["model_key"] = ["monthly_billings_scu"]
+        errors = validate_fixture(broken)
+        self.assertTrue(any("has no source record" in error for error in errors))
+        self.assertTrue(any("unsupported model_key" in error for error in errors))
+
+    def test_malformed_scenario_id_and_action_fail_as_validation_errors(self) -> None:
+        data = json.loads(FIXTURE.read_text(encoding="utf-8"))
+        broken = copy.deepcopy(data)
+        broken["scenarios"][0]["id"] = ["upside"]
+        broken["scenarios"][1]["management_action"] = {"action": "hold"}
+        errors = validate_fixture(broken)
+        self.assertIn("scenario ids must be upside, base, and downside", errors)
+        self.assertTrue(any("needs a management action" in error for error in errors))
+
     def test_real_market_and_accounting_claims_remain_unassessed(self) -> None:
         data = json.loads(FIXTURE.read_text(encoding="utf-8"))
         self.assertEqual(data["scope"]["market_denominator"], "NOT_ASSESSED")

@@ -7,6 +7,7 @@ accounting model, market estimate, or funding recommendation.
 from __future__ import annotations
 
 import json
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -21,6 +22,7 @@ REQUIRED_ASSUMPTION_FIELDS = {
     "id",
     "name",
     "value",
+    "model_key",
     "unit",
     "source_id",
     "effective_date",
@@ -71,10 +73,48 @@ def validate_fixture(data: Any) -> list[str]:
         )
     ):
         errors.append("cash, billings, costs, and liquidity must be non-negative")
+    sources = data.get("synthetic_sources")
+    if not isinstance(sources, list) or not sources:
+        errors.append("synthetic_sources must be a non-empty list")
+        known_sources: set[str] = set()
+    else:
+        source_ids: list[str] = []
+        for source in sources:
+            if not isinstance(source, dict):
+                errors.append("synthetic source records must be objects")
+                continue
+            source_id = source.get("id")
+            description = source.get("description")
+            if not isinstance(source_id, str) or not source_id.strip():
+                errors.append("synthetic source id must be a non-empty string")
+            else:
+                source_ids.append(source_id)
+            if not isinstance(description, str) or not description.strip():
+                errors.append(f"synthetic source {source_id or '?'} needs a description")
+        if len(source_ids) != len(set(source_ids)):
+            errors.append("synthetic source ids must be unique")
+        known_sources = set(source_ids)
+
+    def valid_date(value: Any) -> bool:
+        if not isinstance(value, str) or not value.strip():
+            return False
+        try:
+            date.fromisoformat(value)
+        except ValueError:
+            return False
+        return True
+
     assumptions = data.get("assumptions")
     if not isinstance(assumptions, list) or not assumptions:
         errors.append("assumptions must be a non-empty list")
     else:
+        assumption_ids: list[str] = []
+        model_assumptions: dict[str, int] = {}
+        expected_units = {
+            "monthly_billings_scu": "SCU/month",
+            "monthly_cash_costs_scu": "SCU/month",
+            "available_liquidity_scu": "SCU",
+        }
         for assumption in assumptions:
             if not isinstance(assumption, dict):
                 errors.append("assumption records must be objects")
@@ -82,23 +122,53 @@ def validate_fixture(data: Any) -> list[str]:
             missing = REQUIRED_ASSUMPTION_FIELDS - assumption.keys()
             if missing:
                 errors.append(f"assumption missing fields: {', '.join(sorted(missing))}")
-            if assumption.get("source_id") not in {
-                item.get("id") for item in data.get("synthetic_sources", [])
-                if isinstance(item, dict)
-            }:
+                continue
+            assumption_id = assumption.get("id")
+            if not isinstance(assumption_id, str) or not assumption_id.strip():
+                errors.append("assumption id must be a non-empty string")
+            else:
+                assumption_ids.append(assumption_id)
+            for field in ("name", "unit", "owner", "classification"):
+                if not isinstance(assumption[field], str) or not assumption[field].strip():
+                    errors.append(f"assumption {assumption_id or '?'} needs non-empty {field}")
+            source_id = assumption.get("source_id")
+            if not isinstance(source_id, str) or source_id not in known_sources:
                 errors.append(f"assumption {assumption.get('id', '?')} has no source record")
+            if not valid_date(assumption.get("effective_date")):
+                errors.append(f"assumption {assumption_id or '?'} needs an ISO calendar effective_date")
+            if assumption.get("classification") != "synthetic test assumption":
+                errors.append(f"assumption {assumption_id or '?'} must remain a synthetic test assumption")
+            model_key = assumption.get("model_key")
+            if not isinstance(model_key, str) or model_key not in expected_units:
+                errors.append(f"assumption {assumption_id or '?'} has an unsupported model_key")
+                continue
+            if assumption.get("unit") != expected_units[model_key]:
+                errors.append(f"assumption {assumption_id or '?'} unit does not match {model_key}")
+            value = assumption.get("value")
+            if not isinstance(value, int) or isinstance(value, bool) or value < 0:
+                errors.append(f"assumption {assumption_id or '?'} value must be a non-negative integer")
+            elif model_key in model_assumptions:
+                errors.append(f"duplicate assumption for {model_key}")
+            else:
+                model_assumptions[model_key] = value
+        if len(assumption_ids) != len(set(assumption_ids)):
+            errors.append("assumption ids must be unique")
+        for model_key in expected_units:
+            if model_key not in model_assumptions:
+                errors.append(f"missing assumption for {model_key}")
+            elif model_assumptions[model_key] != model[model_key]:
+                errors.append(f"assumption does not match model.{model_key}")
     scenarios = data.get("scenarios")
     if not isinstance(scenarios, list) or len(scenarios) != 3:
         errors.append("exactly three scenarios are required")
     else:
         ids = [item.get("id") for item in scenarios if isinstance(item, dict)]
-        if set(ids) != {"upside", "base", "downside"} or len(ids) != len(scenarios):
+        if (
+            len(ids) != len(scenarios)
+            or any(not isinstance(item, str) for item in ids)
+            or set(ids) != {"upside", "base", "downside"}
+        ):
             errors.append("scenario ids must be upside, base, and downside")
-        known_sources = {
-            item.get("id")
-            for item in data.get("synthetic_sources", [])
-            if isinstance(item, dict)
-        }
         for scenario in scenarios:
             if not isinstance(scenario, dict):
                 errors.append("scenario records must be objects")
@@ -112,11 +182,13 @@ def validate_fixture(data: Any) -> list[str]:
             if (
                 not isinstance(scenario.get("source_id"), str)
                 or scenario["source_id"] not in known_sources
-                or not scenario.get("effective_date")
-                or not scenario.get("owner")
+                or not valid_date(scenario.get("effective_date"))
+                or not isinstance(scenario.get("owner"), str)
+                or not scenario["owner"].strip()
             ):
                 errors.append(f"scenario {scenario.get('id', '?')} needs source, date, and owner")
-            if not scenario.get("management_action"):
+            action = scenario.get("management_action")
+            if not isinstance(action, str) or not action.strip():
                 errors.append(f"scenario {scenario.get('id', '?')} needs a management action")
     return errors
 
