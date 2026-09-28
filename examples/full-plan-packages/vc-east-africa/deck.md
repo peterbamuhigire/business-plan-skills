@@ -1,6 +1,6 @@
 # VC committee deck script
 
-Design: Source Serif 4 headings, IBM Plex Sans body, IBM Plex Mono cohort and unit-economics exhibits.
+Design: Source Serif 4 headings, Public Sans body, JetBrains Mono cohort and unit-economics exhibits.
 
 1. **LakeLink targets a costly operating failure with a measurable workflow.**
 2. **Customer evidence—not a regional headline—defines the opportunity.**

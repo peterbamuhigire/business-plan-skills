@@ -1,6 +1,6 @@
 # Owner-manager decision deck script
 
-Design: Source Serif 4 headings, IBM Plex Sans body, IBM Plex Mono cash and control exhibits.
+Design: Source Serif 4 headings, Public Sans body, JetBrains Mono cash and control exhibits.
 
 1. **The decision is when to add capacity without exhausting cash.**
 2. **Opening records must reconcile before growth is modelled.**

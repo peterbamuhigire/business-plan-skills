@@ -1,6 +1,6 @@
 # DFI debt committee deck script
 
-Design: Source Serif 4 headings, IBM Plex Sans body, IBM Plex Mono figures. One claim and its source
+Design: Source Serif 4 headings, Public Sans body, JetBrains Mono figures. One claim and its source
 state per slide; no decorative market-size graphics.
 
 1. **The decision is staged asset finance, not unrestricted growth capital.** Show instrument, uses,

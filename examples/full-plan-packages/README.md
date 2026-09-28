@@ -8,8 +8,8 @@ All packs use the repository's shared SaaS projection workbook with an audience-
 overlay. Each pack includes an honestly blocked release bundle: the teaching files are not rendered
 client submissions, have no client release authority, and retain the applicable design, document,
 security, finance or evidence caveats. Run the formula-map and release-bundle gates; do not copy
-illustrative inputs into a live plan. Presentation specification: Source Serif 4 for headings, IBM Plex Sans for body and
-tables, and IBM Plex Mono for numeric exhibits. This pairing supports institutional reading,
+illustrative inputs into a live plan. Presentation specification: Source Serif 4 for headings, Public Sans for body and
+tables (with tabular figures), and JetBrains Mono for numeric exhibits. This pairing supports institutional reading,
 distinguishes narrative from evidence, and avoids the repository's banned generic type defaults.
 
 | Pack | Decision rehearsed |

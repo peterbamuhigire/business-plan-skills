@@ -1,6 +1,6 @@
 # Grant-panel deck script
 
-Design: Source Serif 4 headings, IBM Plex Sans body, IBM Plex Mono indicator definitions.
+Design: Source Serif 4 headings, Public Sans body, JetBrains Mono indicator definitions.
 
 1. **The grant buys a bounded test, not an assumed impact.**
 2. **Beneficiaries and selection rules are explicit.**
