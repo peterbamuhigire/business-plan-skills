@@ -170,7 +170,7 @@ Remove anything not supporting the current statement: logos on every slide, deco
 | Unity | One or two typefaces; three complementary colours plus one or two neutrals; consistent image treatment |
 
 ### 8.4 Typography and colour
-- Set type as large as the back row requires; one or two typefaces; size creates hierarchy; no script or decorative faces for body text. For typeface choice use the design engine (design-system-skills).
+- Set type as large as the back row requires; one or two typefaces; size creates hierarchy; no script or decorative faces for body text. For typeface choice use the design engine (chwezi-design-engine).
 - Colour: three complementary colours plus one or two neutrals; use it to draw attention, not to decorate; strong text-to-background contrast for room legibility.
 
 ### 8.5 Slide types

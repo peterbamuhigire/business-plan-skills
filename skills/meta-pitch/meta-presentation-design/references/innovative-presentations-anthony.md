@@ -124,7 +124,7 @@ Shift from text slides read aloud to one strong visual per idea, with the presen
 - Visual metaphors (a labyrinth for complexity, a filling suitcase for services, a growing plant for revenue).
 - Infographics for data; before-and-after comparisons that make the difference vivid.
 - Colour for emphasis; one highlighted element.
-- Typography: clear sans-serif or serif chosen deliberately, large sizes (about twenty-four points or more for slide text). For typeface selection, use the design engine (design-system-skills).
+- Typography: clear sans-serif or serif chosen deliberately, large sizes (about twenty-four points or more for slide text). For typeface selection, use the design engine (chwezi-design-engine).
 - Real-time pointing or annotation; animated builds so the audience does not read ahead.
 - Avoid: text read aloud; charts needing minutes to decode; decorative animation; generic stock images; using slides as a crutch.
 

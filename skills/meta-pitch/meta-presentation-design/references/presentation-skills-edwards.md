@@ -161,7 +161,7 @@ Plain verbal transitions are safe but dull. Better: change position, pause, intr
 - Prefer images to bullets.
 - Avoid tables with many rows and columns (balance sheets do not project).
 - Two or three colours; avoid orange and yellow text.
-- Typeface and colour decisions: use the design engine (design-system-skills) for the final choice.
+- Typeface and colour decisions: use the design engine (chwezi-design-engine) for the final choice.
 
 ### 11.2 Colour associations (heuristic; check against local and sector conventions)
 | Colour | Association |

@@ -25,7 +25,7 @@ The Policy is the apex; the Framework operationalises it. Draft the Policy first
 | 6 | Fraud risk & forensics (fraud-risk assessment, red flags, journal-entry testing, Benford, vendor-employee match) | `10-controls-governance-and-fraud/forensic-accounting-and-anti-fraud` |
 | 7 | Whistleblowing & ethics (intake, protection, conflict-of-interest, clearance-on-exit) | `10-controls-governance-and-fraud/whistleblowing-and-finance-ethics` |
 | 8 | AML/KYC & suspicious-transaction reporting (where the entity handles donor/member funds or is a reporting entity) | `10-controls-governance-and-fraud/aml-kyc-and-suspicious-transaction-reporting` |
-| 9 | Enterprise risk management (risk register, appetite, control self-assessment) to ISO 31000 / COSO ERM | `srs-skills/09-governance-compliance/04-risk-assessment`; `business-plan-skills/skills/pipeline/12-risk-analysis`; `internal-controls-library` |
+| 9 | Enterprise risk management (risk register, appetite, control self-assessment) to ISO 31000 / COSO ERM | `chwezi-sdlc-documentation/09-governance-compliance/04-risk-assessment`; `business-plan-skills/skills/pipeline/12-risk-analysis`; `internal-controls-library` |
 | 10 | Monitoring & internal audit (continuous monitoring, internal-audit plan, evidence) | `06-close-consolidation-and-reporting/audit-pbc-and-evidence-management` |
 | 11 | Public-sector overlay (pecuniary liability, surcharge, board of survey) — public/LG bodies only | `doctrine/references/uganda-public-sector-pfm.md` |
 | 12 | Appendices: forms & registers pack, dated Statutory Schedule, version control | this blueprint + `doctrine/references/uganda-compliance-caveats.md` |

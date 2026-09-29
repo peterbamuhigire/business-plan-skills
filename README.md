@@ -208,7 +208,7 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 - [`AGENTS.md`](AGENTS.md) is the runner-agnostic router; [`CLAUDE.md`](CLAUDE.md) imports it for Claude Code. Always-on principles live in [`rules/`](rules/).
 - Multi-phase work follows the [runtime-agnostic orchestration contract](docs/operations/runtime-agnostic-orchestration-2026-09-07.md): scoped work packages, evidence checkpoints, context hygiene, least agency, and sanitised handling of external content.
 - Full plans start at the [business-plan orchestrator](skills/meta-strategy/business-plan-orchestrator/SKILL.md); standalone marketing plans start at the [marketing-plan orchestrator](skills/marketing-sales/marketing-plan-orchestrator/SKILL.md).
-- Sister engines are consulted alongside, never instead: Chwezi Accounting Doctrine for IFRS/IAS, tax and controls; design-system-skills for the look of any deliverable; digital-research-engine for current facts; proposal-skills for tenders and PPDA submissions.
+- Sister engines are consulted alongside, never instead: Chwezi Accounting Doctrine for IFRS/IAS, tax and controls; chwezi-design-engine for the look of any deliverable; digital-research-engine for current facts; proposal-skills for tenders and PPDA submissions.
 
 ## References
 
@@ -420,7 +420,7 @@ Sources the repository itself cites as the basis for its skills. Books that appe
 
 ### Repositories
 
-- Archify — https://github.com/tt-a1i/archify — MIT — diagram IR and render-evidence pattern for plan figures (Gantt, process flow, pitch diagrams), paraphrased at commit `0e4949f910a8e390bd3b4933883a4dcabad571be` via the srs-skills renderer ([`plan-figures.md`](skills/pipeline/00-plan-assembly/references/plan-figures.md))
+- Archify — https://github.com/tt-a1i/archify — MIT — diagram IR and render-evidence pattern for plan figures (Gantt, process flow, pitch diagrams), paraphrased at commit `0e4949f910a8e390bd3b4933883a4dcabad571be` via the chwezi-sdlc-documentation renderer ([`plan-figures.md`](skills/pipeline/00-plan-assembly/references/plan-figures.md))
 - ECC (affaan-m) — https://github.com/affaan-m/ECC — shortform, longform and security guides behind the [runtime-agnostic orchestration contract](docs/operations/runtime-agnostic-orchestration-2026-09-07.md); the Git Bash path fix in `install.sh`
 - codex-astra-luna-orchestrator — https://github.com/donvito/codex-astra-luna-orchestrator — concept reference for the Codex model-policy helper, inspected at commit `21f4561656a1b8f2813828520357e3cd1785d50f`; independently implemented ([`.codex/README.md`](.codex/README.md))
 - chwezi-dev-engine — https://github.com/peterbamuhigire/chwezi-dev-engine — canonical `skill-writing` standard and byte-mirrored validator scripts
