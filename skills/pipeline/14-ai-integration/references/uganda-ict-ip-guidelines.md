@@ -34,7 +34,7 @@ Source: MoICT&NG, Uganda ICT IP Guidelines, 2025. They apply to individuals and 
 5. Plant Variety Protection Act 2014
 6. Geographical Indications Act 2013
 7. Data Protection and Privacy Act 2019
-8. Computer Misuse Act 2011 (amended; part 8 of this brief notes a different enactment year in the guidelines, so verify)
+8. Computer Misuse Act 2011 (the guidelines list it as amended, but the Computer Misuse (Amendment) Act 2022 was declared void in full on 17 Mar 2026 and several principal-Act sections were struck; see part 8.2 for the current position; the guidelines also give a different enactment year, so verify)
 9. TRIPS Agreement (1994); Uganda is a WTO member
 10. Berne Convention (1886)
 11. Paris Convention (1900)
@@ -210,7 +210,16 @@ Government agencies value IP they hold and IP from contractors or suppliers and 
 URSB is the primary body for registering and protecting IP. It works with law enforcement, has set up an Enforcement Unit with the Uganda Police against infringement, counterfeiting and piracy, provides dispute-resolution mechanisms, runs public awareness programmes and is a signatory to international IP agreements.
 
 ### 8.2 Computer Misuse Act (guideline section 3.6)
-Objectives listed: stronger provisions against unauthorised access; a ban on sharing information about minors without parental consent; a ban on hate speech and malicious content; addressing false information; a ten-year bar on public office for persons convicted under the Act. The right to privacy is constitutionally protected. The guidelines give the enactment year as 2001 in one place and 2011 in another; verify against the official text.
+**Legal currency (checked 29 Sep 2026; factual reporting, not legal advice).** The guidelines (January 2025) list these objectives for the Act: stronger provisions against unauthorised access; a ban on sharing information about minors without parental consent; a ban on hate speech and malicious content; addressing false information; a ten-year bar on public office for persons convicted under the Act. Apart from unauthorised access, those objectives came from the Computer Misuse (Amendment) Act 2022, and that Amendment Act is no longer law. Do not present them as current law in a plan.
+
+- On 17 Mar 2026 the Constitutional Court (five justices, unanimous; Consolidated Constitutional Petitions 34, 37 and 42 of 2022) declared the **whole Computer Misuse (Amendment) Act 2022 void**, because Parliament passed it without ascertaining quorum (Rule 24(3) of the Rules of Procedure; Articles 88 and 89 of the Constitution).
+- In the same ruling, per secondary reports, the court struck ss.11, 23, 26, 27, 28 and 29 of the principal Act (2023 revised edition numbering) and the criminal libel provisions of the Penal Code (ss.162 and 163). Verify the section list against the judgment on ULII before relying on it.
+- Section 25 (offensive communication) had already been struck on 11 Jan 2023.
+- The Attorney General halted arrests and prosecutions under the struck provisions (communication of 18 Mar 2026, as reported).
+- The rest of the principal Computer Misuse Act 2011 remains in force. For a technology plan, the provisions that matter most (unauthorised access and related cybercrime offences) are still usable in the risk and compliance sections.
+- The right to privacy remains constitutionally protected. The guidelines give the enactment year as 2001 in one place and 2011 in another; the principal Act is the Computer Misuse Act 2011.
+
+Sources (accessed 29 Sep 2026): CPJ, 19 Mar 2026, https://cpj.org/2026/03/uganda-declares-criminal-defamation-unconstitutional-strikes-down-cybercrime-law/ ; CIPESA, 18 Mar 2026, https://cipesa.org/2026/03/cipesa-welcomes-the-annulment-of-sections-of-ugandas-computer-misuse-act/ ; The Independent (Uganda), section list, https://www.independent.co.ug/court-castrates-computer-misuse-act-2022-amendment-declared-illegal/ ; Daily Monitor, 26 Mar 2026 (Attorney General), https://www.monitor.co.ug/uganda/news/national/ag-halts-arrests-based-on-nullified-computer-misuse-law-5403596 ; Daily Monitor, 11 Jan 2023 (s.25), https://www.monitor.co.ug/uganda/news/national/court-declares-section-25-of-computer-misuse-null-and-void-4081782 . Source records `UG-CMA-2022-VOID-2026`, `UG-CMA-SECTIONS-STRUCK-2026`, `UG-CMA-AG-DIRECTIVE-2026` and `UG-CMA-S25-2023` in the social-media engine register: https://github.com/peterbamuhigire/social-media-skills/blob/main/docs/source-registers/source-register.json . The judgment itself was not readable on 29 Sep 2026 (NOT_ASSESSED); re-check for any appeal or re-enactment bill before client use.
 
 ### 8.3 IP risks to place on the risk register (guideline section 2.7)
 - Contracts that do not address pre-existing IP

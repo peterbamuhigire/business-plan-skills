@@ -307,7 +307,7 @@ Examples: unique food recipes, proprietary sourcing networks, customer databases
 - Civil claim for breach of confidence in the High Court
 - Injunction (interim and permanent) to stop disclosure or use
 - Damages or account of profits
-- Computer Misuse Act prosecution if misappropriation involved digital systems
+- Computer Misuse Act 2011 prosecution if misappropriation involved digital systems (cite the unauthorised-access offences of the principal Act; see the legal-currency note in part 11.1)
 
 ---
 
@@ -416,7 +416,9 @@ Uganda acceded to PCT 9 February 1995. A single PCT application can designate mu
 **Criminal:**
 - Prosecution under Trademarks Act (counterfeiting)
 - Prosecution under Copyright and Neighbouring Rights Act 2006 (piracy)
-- Computer Misuse Act (digital IP theft)
+- Computer Misuse Act 2011 (digital IP theft, through its unauthorised-access offences)
+
+**Legal-currency note (checked 29 Sep 2026; factual reporting, not legal advice).** On 17 Mar 2026 the Constitutional Court declared the whole Computer Misuse (Amendment) Act 2022 void (quorum defect: Rule 24(3) of the Rules of Procedure; Articles 88 and 89 of the Constitution). Per secondary reports it also struck ss.11, 23 and 26 to 29 of the principal Act (2023 revised edition numbering) and criminal libel (Penal Code ss.162 and 163); s.25 was struck earlier, on 11 Jan 2023. The Attorney General halted prosecutions under the struck provisions. The rest of the principal Act remains in force. Cite the principal Act only, never the 2022 amendments, and verify any section number against the judgment on ULII before use. Sources (accessed 29 Sep 2026): CPJ, 19 Mar 2026, https://cpj.org/2026/03/uganda-declares-criminal-defamation-unconstitutional-strikes-down-cybercrime-law/ ; The Independent (Uganda), https://www.independent.co.ug/court-castrates-computer-misuse-act-2022-amendment-declared-illegal/ ; Daily Monitor, 26 Mar 2026, https://www.monitor.co.ug/uganda/news/national/ag-halts-arrests-based-on-nullified-computer-misuse-law-5403596 . Register records `UG-CMA-*`: https://github.com/peterbamuhigire/social-media-skills/blob/main/docs/source-registers/source-register.json .
 
 ### 11.2 Enforcement Agencies
 
