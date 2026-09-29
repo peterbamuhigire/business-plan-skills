@@ -70,7 +70,7 @@ The plan is not retail-ready unless it covers:
 
 ## Finance Doctrine Route
 
-When the plan includes inventory valuation, POS settlement, refunds, gift cards/store credit, loyalty points, markdowns, vendor rebates, shrink, tax, management accounts, or accounting-system implementation, route to `C:\wamp64\www\chwezi-accounting-doctrine` before drafting the financial and control sections.
+When the plan includes inventory valuation, POS settlement, refunds, gift cards/store credit, loyalty points, markdowns, vendor rebates, shrink, tax, management accounts, or accounting-system implementation, route to `chwezi-accounting-doctrine` before drafting the financial and control sections.
 
 Relevant finance doctrine skills:
 

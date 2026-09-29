@@ -2,7 +2,7 @@
 
 The reusable architecture for an internal-control and enterprise-risk deliverable, synthesised from real Ugandan financial manuals, COSO ERM (2017) / ISO 31000, the Whistleblowers Protection Act 2010, and the LG (Financial & Accounting) Regulations 2007. Use the chapter→skill map so control and fraud substance always comes from the finance engine, never improvised.
 
-Finance-engine root: `C:\wamp64\www\chwezi-accounting-doctrine` (paths below are relative to it unless otherwise marked).
+Finance-engine root: `chwezi-accounting-doctrine` (paths below are relative to it unless otherwise marked).
 
 ## Two documents, one source
 

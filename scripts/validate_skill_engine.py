@@ -14,6 +14,21 @@ from urllib.parse import unquote
 import yaml
 
 
+# Portable-link rule: CI checks out one repository, so a link that is host-absolute
+# (C:/..., /C:/..., file:) or that climbs out of the repository to a sibling engine
+# resolves only on the author's machine. Such links count as broken locally too, so a
+# local pass predicts the CI result; link to other engines by their GitHub URL instead.
+HOST_ABSOLUTE_LINK = re.compile(r"^(?:file:|/?[A-Za-z]:[\\/])", re.I)
+
+
+def portable_link_target(base: Path, root: Path, target: str) -> Path | None:
+    """Resolve a local link target, or return None when it is not portable."""
+    if HOST_ABSOLUTE_LINK.match(target):
+        return None
+    resolved = (base / target).resolve()
+    return resolved if resolved.is_relative_to(root.resolve()) else None
+
+
 ACTIVE_ROOTS = ("skills", "country-context")
 ALLOWED_FRONTMATTER = {"name", "description", "license", "allowed-tools", "metadata"}
 COMPATIBILITY = ["claude-code", "codex"]
@@ -105,8 +120,8 @@ def local_links(skill: Path, body: str, root: Path) -> list[str]:
         target = unquote(target.split("#", 1)[0].strip())
         if not target or target.startswith(("http://", "https://", "mailto:", "#")):
             continue
-        resolved = (skill.parent / target).resolve()
-        if not resolved.exists():
+        resolved = portable_link_target(skill.parent, root, target)
+        if resolved is None or not resolved.exists():
             failures.append(f"broken_link:{target}")
     return failures
 

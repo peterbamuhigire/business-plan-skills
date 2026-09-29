@@ -2,7 +2,7 @@
 
 The reusable architecture for a standalone Grants / Donor-Funds Management Manual, synthesised from real Ugandan NGO grant-management practice and the deferred-income (fund-accounting) model. The **grant lifecycle is the spine**: every chapter hangs off it. Use the chapter→skill map so accounting substance always comes from the finance engine, never improvised; layer each donor's stricter rules on top per grant.
 
-Finance-engine root: `C:\wamp64\www\chwezi-accounting-doctrine` (paths below are relative to it). Donor-rule packs live in `proposal-skills` (`C:\wamp64\www\proposal-skills`).
+Finance-engine root: `chwezi-accounting-doctrine` (paths below are relative to it). Donor-rule packs live in `proposal-skills`.
 
 ## One document, one spine
 

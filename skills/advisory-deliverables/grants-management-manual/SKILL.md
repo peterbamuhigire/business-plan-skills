@@ -8,7 +8,7 @@ metadata:
 
 # Grants Management Manual
 
-A consulting-deliverable skill: it produces a standalone Grants / Donor-Funds Management Manual, not a business-plan section and not a grant proposal. It owns the document's structure, the grant-lifecycle workflow, the parameter-setting, the multi-currency flexing logic, and the East African framing — and it pulls every accounting treatment, eligibility rule, and compliance touchpoint from the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine`.
+A consulting-deliverable skill: it produces a standalone Grants / Donor-Funds Management Manual, not a business-plan section and not a grant proposal. It owns the document's structure, the grant-lifecycle workflow, the parameter-setting, the multi-currency flexing logic, and the East African framing — and it pulls every accounting treatment, eligibility rule, and compliance touchpoint from the finance engine at `chwezi-accounting-doctrine`.
 
 ## Use When
 
@@ -61,8 +61,8 @@ Grants / Donor-Funds Management Manual; donor register and acknowledgement proce
 ## References
 
 - `references/document-blueprint.md` — grant-lifecycle spine, chapter→doctrine-skill map, multi-currency flexing logic, parameterisation rule, and standard forms list.
-- Finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`): `skills/11-sector-and-fund-accounting/ngo-and-fund-accounting`, `skills/03-ifrs-specialised-standards/ias-government-grants`, `skills/12-public-sector-and-ipsas/donor-funded-project-fiscal-compliance`, and `doctrine/references/uganda-ngo-financial-management-patterns.md`, plus the skills named in the blueprint map.
-- `proposal-skills` (`C:\wamp64\www\proposal-skills`): donor packs `sectors/world-bank`, `sectors/undp`, `sectors/afdb`, `domain-delivery/giz-eu-local-procurement-response`.
+- Finance engine (`chwezi-accounting-doctrine`): `skills/11-sector-and-fund-accounting/ngo-and-fund-accounting`, `skills/03-ifrs-specialised-standards/ias-government-grants`, `skills/12-public-sector-and-ipsas/donor-funded-project-fiscal-compliance`, and `doctrine/references/uganda-ngo-financial-management-patterns.md`, plus the skills named in the blueprint map.
+- `proposal-skills`: donor packs `sectors/world-bank`, `sectors/undp`, `sectors/afdb`, `domain-delivery/giz-eu-local-procurement-response`.
 - `country-context/uganda/SKILL.md` for institutions/regulatory bodies; `language/east-african-english` for style.
 
 <!-- dual-compat-start -->

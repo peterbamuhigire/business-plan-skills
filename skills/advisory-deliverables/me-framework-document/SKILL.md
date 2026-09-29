@@ -8,7 +8,7 @@ metadata:
 
 # M&E Framework Document
 
-A consulting-deliverable skill: it produces a standalone organisational document — a Monitoring, Evaluation & Learning (MEL) Framework — not a business-plan section. It owns the document's structure, the consulting workflow, the parameter-setting, and the East African framing — and it pulls M&E methodology from the existing M&E skills and every financial-monitoring treatment from the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine`.
+A consulting-deliverable skill: it produces a standalone organisational document — a Monitoring, Evaluation & Learning (MEL) Framework — not a business-plan section. It owns the document's structure, the consulting workflow, the parameter-setting, and the East African framing — and it pulls M&E methodology from the existing M&E skills and every financial-monitoring treatment from the finance engine at `chwezi-accounting-doctrine`.
 
 ## Use When
 
@@ -62,8 +62,8 @@ MEL Framework document; theory of change; results framework / logframe; indicato
 ## References
 
 - `references/document-blueprint.md` — MEL-framework chapter map, chapter→source mapping, indicator-matrix table template, parameterisation rule, and tools list.
-- M&E methodology: `business-plan-skills/skills/meta-strategy/meta-monitoring-evaluation`; `proposal-skills` (`C:\wamp64\www\proposal-skills`) `skills/domain-delivery/monitoring-and-evaluation` and `skills/domain-delivery/stakeholder-engagement`; `meta-strategy/meta-living-plan-governance`.
-- Finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`): `skills/09-budgeting-fpa-and-costing/variance-analysis-and-kpi-reporting/`, `skills/09-budgeting-fpa-and-costing/budgeting-and-rolling-forecasts/`, and `doctrine/references/uganda-ngo-financial-management-patterns.md` (donor flexed-budget variance).
+- M&E methodology: `business-plan-skills/skills/meta-strategy/meta-monitoring-evaluation`; `proposal-skills` `skills/domain-delivery/monitoring-and-evaluation` and `skills/domain-delivery/stakeholder-engagement`; `meta-strategy/meta-living-plan-governance`.
+- Finance engine (`chwezi-accounting-doctrine`): `skills/09-budgeting-fpa-and-costing/variance-analysis-and-kpi-reporting/`, `skills/09-budgeting-fpa-and-costing/budgeting-and-rolling-forecasts/`, and `doctrine/references/uganda-ngo-financial-management-patterns.md` (donor flexed-budget variance).
 - `country-context/uganda/SKILL.md` for institutions/regulatory bodies; `language/east-african-english` for style.
 
 <!-- dual-compat-start -->

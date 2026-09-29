@@ -3,8 +3,8 @@
 Reusable architecture for a Procurement Policy and a Procurement & Disposal Manual, grounded in the PPDA Act 2003 (as amended) / PPDA Regulations 2023 framework and real Ugandan NGO procurement practice (UCOBAC, MCLD, IMAU). Use the chapter→source map so legal and control substance comes from existing skills, never improvised.
 
 Source skills:
-- PPDA legal substance → `proposal-skills` (`C:\wamp64\www\proposal-skills`) `skills/profiles-sectors/sectors/ppda-uganda/`.
-- Finance controls → `chwezi-accounting-doctrine` (`C:\wamp64\www\chwezi-accounting-doctrine`).
+- PPDA legal substance → `proposal-skills` `skills/profiles-sectors/sectors/ppda-uganda/`.
+- Finance controls → `chwezi-accounting-doctrine`.
 
 ## Regime first — it sets the rules
 

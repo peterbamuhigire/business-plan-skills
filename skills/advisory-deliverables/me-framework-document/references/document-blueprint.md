@@ -3,7 +3,7 @@
 The reusable architecture for a standalone Monitoring, Evaluation & Learning (MEL) Framework deliverable, grounded in results-based management practice (theory of change, results framework / logframe, OECD-DAC evaluation) and real Ugandan NGO M&E and financial-monitoring practice. Use the chapter→source map so M&E methodology always comes from the existing M&E skills and financial-monitoring substance always comes from the finance engine — never improvised.
 
 M&E methodology roots: `business-plan-skills/skills/meta-strategy/meta-monitoring-evaluation`, `proposal-skills/skills/domain-delivery/monitoring-and-evaluation`.
-Finance-engine root: `C:\wamp64\www\chwezi-accounting-doctrine` (paths below are relative to it).
+Finance-engine root: `chwezi-accounting-doctrine` (paths below are relative to it).
 
 ## One document, layered logic
 

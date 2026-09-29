@@ -8,7 +8,7 @@ metadata:
 
 # Governance and Board Charter
 
-A consulting-deliverable skill: it produces a standalone Governance Framework, a set of Board and committee charters, and a Delegation-of-Authority matrix — not a business-plan section. It owns the document's structure, the consulting workflow, the parameter-setting, and the East African governance framing — and it pulls every control, fiduciary, and oversight treatment from the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine`.
+A consulting-deliverable skill: it produces a standalone Governance Framework, a set of Board and committee charters, and a Delegation-of-Authority matrix — not a business-plan section. It owns the document's structure, the consulting workflow, the parameter-setting, and the East African governance framing — and it pulls every control, fiduciary, and oversight treatment from the finance engine at `chwezi-accounting-doctrine`.
 
 ## Use When
 
@@ -60,7 +60,7 @@ Governance Framework; Board Charter; per-committee charters (Finance, Audit, Pro
 ## References
 
 - `references/document-blueprint.md` — document set, per-charter standard contents, Delegation-of-Authority matrix, parameterisation rule, NGO-vs-public-body switch, and chapter→source map.
-- Finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`): `skills/10-controls-governance-and-fraud/internal-controls-library/`, `engagement-quality-and-plain-language-output/`, `whistleblowing-and-finance-ethics/`; `skills/06-close-consolidation-and-reporting/audit-ready-reporting-pack/`, `audit-pbc-and-evidence-management/`; `doctrine/references/uganda-public-sector-pfm.md`, `uganda-ngo-financial-management-patterns.md`.
+- Finance engine (`chwezi-accounting-doctrine`): `skills/10-controls-governance-and-fraud/internal-controls-library/`, `engagement-quality-and-plain-language-output/`, `whistleblowing-and-finance-ethics/`; `skills/06-close-consolidation-and-reporting/audit-ready-reporting-pack/`, `audit-pbc-and-evidence-management/`; `doctrine/references/uganda-public-sector-pfm.md`, `uganda-ngo-financial-management-patterns.md`.
 - `business-plan-skills`: `skills/meta-strategy/meta-living-plan-governance/`; `meta-reporting` (board & investor reporting).
 - `country-context/uganda/SKILL.md` for institutions/regulatory bodies; `language/east-african-english` for style.
 

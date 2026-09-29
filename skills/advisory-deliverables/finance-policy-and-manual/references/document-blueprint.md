@@ -2,7 +2,7 @@
 
 The reusable architecture for two related deliverables, synthesised from real Ugandan manuals (UCOBAC, MCLD Uganda, IMAU) and the LG (Financial & Accounting) Regulations 2007 / MOFPED Financial Reporting Guide 2024 framework. Use the chapter→skill map so accounting substance always comes from the finance engine, never improvised.
 
-Finance-engine root: `C:\wamp64\www\chwezi-accounting-doctrine` (paths below are relative to it).
+Finance-engine root: `chwezi-accounting-doctrine` (paths below are relative to it).
 
 ## Two documents, one source
 

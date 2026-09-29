@@ -2,7 +2,7 @@
 
 The reusable architecture for a standalone governance deliverable, synthesised from real Ugandan NGO governance manuals (General Assembly → Board of Directors/Trustees → Secretariat/Management) and the LG (Financial & Accounting) Regulations 2007 accounting-officer / surcharge framework. Use the chapter→source map so oversight substance always comes from the finance engine, never improvised.
 
-Finance-engine root: `C:\wamp64\www\chwezi-accounting-doctrine` (paths below are relative to it).
+Finance-engine root: `chwezi-accounting-doctrine` (paths below are relative to it).
 
 ## The document set, one source
 

@@ -8,7 +8,7 @@ metadata:
 
 # HR Policy Manual
 
-A consulting-deliverable skill: it produces a standalone Human Resources Policy Manual, not a business-plan section. It owns the document's structure, the consulting workflow, the parameter-setting, and the East African labour-law framing — and, for the money-touching chapters (compensation, payroll, allowances, staff advances), it pulls the substance from the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine` rather than improvising. The rest is standard HR grounded in Uganda labour law.
+A consulting-deliverable skill: it produces a standalone Human Resources Policy Manual, not a business-plan section. It owns the document's structure, the consulting workflow, the parameter-setting, and the East African labour-law framing — and, for the money-touching chapters (compensation, payroll, allowances, staff advances), it pulls the substance from the finance engine at `chwezi-accounting-doctrine` rather than improvising. The rest is standard HR grounded in Uganda labour law.
 
 ## Use When
 
@@ -61,7 +61,7 @@ HR Policy Manual / staff handbook; job-grading and salary-band structure (parame
 ## References
 
 - `references/document-blueprint.md` — chapter map (HR-owned vs finance-deferred), the chapter→doctrine-skill mapping for the money-touching chapters, the Statutory Schedule concept, the parameterisation rule, and the standard forms list.
-- Finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`): `skills/04-subledgers-and-operations/payroll-and-statutory-postings-east-africa`, `skills/04-subledgers-and-operations/expense-management-and-staff-claims`, `skills/10-controls-governance-and-fraud/whistleblowing-and-finance-ethics`, `skills/15-security-privacy-and-continuity/finance-data-privacy-and-retention`, and `doctrine/references/uganda-compliance-caveats.md` / `uganda-ngo-financial-management-patterns.md`.
+- Finance engine (`chwezi-accounting-doctrine`): `skills/04-subledgers-and-operations/payroll-and-statutory-postings-east-africa`, `skills/04-subledgers-and-operations/expense-management-and-staff-claims`, `skills/10-controls-governance-and-fraud/whistleblowing-and-finance-ethics`, `skills/15-security-privacy-and-continuity/finance-data-privacy-and-retention`, and `doctrine/references/uganda-compliance-caveats.md` / `uganda-ngo-financial-management-patterns.md`.
 - `country-context/uganda/SKILL.md` for institutions, regulatory bodies, and labour market; `language/east-african-english` for style.
 
 <!-- dual-compat-start -->

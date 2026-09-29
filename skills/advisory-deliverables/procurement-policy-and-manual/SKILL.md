@@ -58,8 +58,8 @@ Procurement Policy; Procurement & Disposal Manual; procurement-cycle procedures;
 ## References
 
 - `references/document-blueprint.md` — chapter map, methods-and-thresholds framework, procurement cycle, committees, and forms list.
-- `proposal-skills` (`C:\wamp64\www\proposal-skills`): `skills/profiles-sectors/sectors/ppda-uganda/` and its references; donor packs (`world-bank`, `afdb`, `undp`, `giz-eu-local-procurement-response`).
-- Finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`): `skills/12-public-sector-and-ipsas/government-procurement-and-fiscal-controls/`, `skills/10-controls-governance-and-fraud/internal-controls-library/`, and `doctrine/references/uganda-public-sector-pfm.md` / `uganda-ngo-financial-management-patterns.md`.
+- `proposal-skills`: `skills/profiles-sectors/sectors/ppda-uganda/` and its references; donor packs (`world-bank`, `afdb`, `undp`, `giz-eu-local-procurement-response`).
+- Finance engine (`chwezi-accounting-doctrine`): `skills/12-public-sector-and-ipsas/government-procurement-and-fiscal-controls/`, `skills/10-controls-governance-and-fraud/internal-controls-library/`, and `doctrine/references/uganda-public-sector-pfm.md` / `uganda-ngo-financial-management-patterns.md`.
 - `country-context/uganda/SKILL.md`; `language/east-african-english`.
 
 <!-- dual-compat-start -->

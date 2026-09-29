@@ -157,7 +157,7 @@ transformation, limitation, and the decision it changes. Label hypothetical case
 internal navigation from external evidence. Keep style concerns separate from fabricated claims;
 run ME1-ME7 with exact evidence and mark missing verification `NOT_ASSESSED`.
 
-- Shared standard: [`AI-slop responsible publishing`](../../../../chwezi-dev-engine/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
+- Shared standard: [`AI-slop responsible publishing`](https://github.com/peterbamuhigire/chwezi-dev-engine/blob/main/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
 
 ## References
 

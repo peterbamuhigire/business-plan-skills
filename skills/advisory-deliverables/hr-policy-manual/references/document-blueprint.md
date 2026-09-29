@@ -4,7 +4,7 @@ The reusable architecture for a standalone Human Resources Policy Manual, synthe
 
 This blueprint states policy architecture, not legal advice. Every employment-law minimum (leave, notice, probation ceiling, minimum wage, maternity/paternity entitlement) must be verified against **current Uganda law** at issue and recorded in the dated Statutory Schedule.
 
-Finance-engine root: `C:\wamp64\www\chwezi-accounting-doctrine` (paths below are relative to it).
+Finance-engine root: `chwezi-accounting-doctrine` (paths below are relative to it).
 
 ## Uganda legal framework (cite in the body; keep the numbers in the Statutory Schedule)
 

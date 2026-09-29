@@ -8,7 +8,7 @@ metadata:
 
 # Internal Controls and Risk Framework
 
-A consulting-deliverable skill: it produces a standalone organisational document — an **Internal Control & Risk Management Framework** — not a business-plan section. It owns the document's structure, the consulting workflow, the control and risk parameterisation, and the East African regulatory framing — and it pulls every control design, fraud test, and risk-treatment substance from the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine`.
+A consulting-deliverable skill: it produces a standalone organisational document — an **Internal Control & Risk Management Framework** — not a business-plan section. It owns the document's structure, the consulting workflow, the control and risk parameterisation, and the East African regulatory framing — and it pulls every control design, fraud test, and risk-treatment substance from the finance engine at `chwezi-accounting-doctrine`.
 
 ## Use When
 
@@ -62,7 +62,7 @@ Internal Control & Risk Management Framework; Internal Control Policy; SoD, auth
 ## References
 
 - `references/document-blueprint.md` — chapter map, chapter→doctrine-skill mapping, control set as tables, risk-register method, parameterisation rule, and the standard forms/registers list.
-- Finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`): `skills/10-controls-governance-and-fraud/` (`internal-controls-library`, `sox-style-icfr-documentation`, `forensic-accounting-and-anti-fraud`, `whistleblowing-and-finance-ethics`, `aml-kyc-and-suspicious-transaction-reporting`, `engagement-quality-and-plain-language-output`); `skills/06-close-consolidation-and-reporting/audit-pbc-and-evidence-management`; `doctrine/references/uganda-ngo-financial-management-patterns.md`, `uganda-public-sector-pfm.md`, `uganda-compliance-caveats.md`.
+- Finance engine (`chwezi-accounting-doctrine`): `skills/10-controls-governance-and-fraud/` (`internal-controls-library`, `sox-style-icfr-documentation`, `forensic-accounting-and-anti-fraud`, `whistleblowing-and-finance-ethics`, `aml-kyc-and-suspicious-transaction-reporting`, `engagement-quality-and-plain-language-output`); `skills/06-close-consolidation-and-reporting/audit-pbc-and-evidence-management`; `doctrine/references/uganda-ngo-financial-management-patterns.md`, `uganda-public-sector-pfm.md`, `uganda-compliance-caveats.md`.
 - Cross-engine risk method: `srs-skills/09-governance-compliance/04-risk-assessment`; `business-plan-skills/skills/pipeline/12-risk-analysis`.
 - `country-context/uganda/SKILL.md` for institutions/regulatory bodies; `language/east-african-english` for style.
 

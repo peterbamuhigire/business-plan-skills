@@ -8,7 +8,7 @@ metadata:
 
 # Finance Policy and Manual
 
-A consulting-deliverable skill: it produces a standalone organisational document, not a business-plan section. It owns the document's structure, the consulting workflow, the parameter-setting, and the East African regulatory framing — and it pulls every accounting treatment, control, and statutory touchpoint from the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine`.
+A consulting-deliverable skill: it produces a standalone organisational document, not a business-plan section. It owns the document's structure, the consulting workflow, the parameter-setting, and the East African regulatory framing — and it pulls every accounting treatment, control, and statutory touchpoint from the finance engine at `chwezi-accounting-doctrine`.
 
 ## Use When
 
@@ -58,7 +58,7 @@ Financial Management Policy; Finance & Accounting Manual; SoD and authorisation 
 ## References
 
 - `references/document-blueprint.md` — chapter map, chapter→doctrine-skill mapping, control set, and standard forms list.
-- Finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`): `doctrine/references/uganda-ngo-financial-management-patterns.md`, `doctrine/references/uganda-public-sector-pfm.md`, `doctrine/references/uganda-compliance-caveats.md`, and the skills named in the blueprint map.
+- Finance engine (`chwezi-accounting-doctrine`): `doctrine/references/uganda-ngo-financial-management-patterns.md`, `doctrine/references/uganda-public-sector-pfm.md`, `doctrine/references/uganda-compliance-caveats.md`, and the skills named in the blueprint map.
 - `country-context/uganda/SKILL.md` for institutions/regulatory bodies; `language/east-african-english` for style.
 
 <!-- dual-compat-start -->

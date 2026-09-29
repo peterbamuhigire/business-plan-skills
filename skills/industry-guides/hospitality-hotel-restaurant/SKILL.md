@@ -179,4 +179,4 @@ the base, downside and stop/phase gates rather than a single optimistic return.
 
 - [Hospitality and Tourism Guide](../hospitality-tourism/guide.md)
 - [Restaurant Guide](../restaurant/guide.md)
-- [Chwezi Accounting Doctrine](C:/wamp64/www/chwezi-accounting-doctrine/README.md)
+- [Chwezi Accounting Doctrine](https://github.com/peterbamuhigire/chwezi-accounting-doctrine/blob/main/README.md)

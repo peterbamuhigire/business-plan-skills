@@ -166,7 +166,7 @@ definitions, absent assumptions, generic strategy, and paragraphs with no decisi
 exact evidence for style findings and keep them separate from factual blockers. Missing source,
 model, or render evidence is `NOT_ASSESSED`.
 
-- Shared standard: [`AI-slop responsible publishing`](../../../../chwezi-dev-engine/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
+- Shared standard: [`AI-slop responsible publishing`](https://github.com/peterbamuhigire/chwezi-dev-engine/blob/main/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
 
 ## References
 
