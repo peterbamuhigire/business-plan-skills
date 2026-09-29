@@ -298,6 +298,7 @@ Run `meta-bankability-scoring` (Bank Loan Readiness Mode) before any bank or DFI
 - **Consistency audit**: See `meta-bankability-scoring/references/consistency-audit.md` to verify pitch figures against the business plan before any live presentation
 - **DD readiness**: See `meta-due-diligence/SKILL.md` Mode C for pre-pitch data room audit  if an investor asks for due diligence materials, the data room must be ready before the pitch, not after
 - **Pyramid structure for the narrative**: See `01-executive-summary/references/pyramid-principle.md` for the SCQA framework that governs the overall pitch storyline
+- **Pitch diagrams**: See `../../pipeline/00-plan-assembly/references/plan-figures.md` to render the money-flow or solution diagram at slide size through the SRS engine hand-off
 
 ## Evidence Produced
 
