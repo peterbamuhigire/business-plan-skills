@@ -1,118 +1,68 @@
 ---
 name: skill-writing
-description: Use when creating, normalising, reviewing, or releasing a reusable business-plan skill; distinguishes skill authoring from `skill-safety-audit`, which inspects safety without redesigning the skill contract.
+description: Use when creating, normalising, reviewing, or releasing a reusable business-plan skill under the canonical chwezi-dev-engine skill-writing standard; distinguishes skill authoring from `skill-safety-audit`, which inspects safety without redesigning the skill contract.
 metadata:
   portable: true
   compatible_with:
     - claude-code
     - codex
 ---
-
 # Skill Writing
 
-Create portable, neighbour-aware skills that produce reviewable business-plan artefacts. Keep domain judgement in the skill, repository-wide routing in `AGENTS.md`, and deeper examples or schemas in directly linked references.
-
+Pointer stub. The canonical standard is `chwezi-dev-engine/skills/sdlc-meta/skill-writing` ([canonical on GitHub](https://github.com/peterbamuhigire/chwezi-dev-engine/blob/main/skills/sdlc-meta/skill-writing/SKILL.md); local path `C:\wamp64\www\chwezi-dev-engine\skills\sdlc-meta\skill-writing\SKILL.md`). Load it first; this file keeps a portable minimum and this engine's delta.
 <!-- dual-compat-start -->
 ## Use When
-
-- Creating a new skill for a repeatable business-planning, advisory, finance, pitch, or execution workflow.
-- Normalising a legacy `SKILL.md` to the July 2026 composition contract.
-- Reviewing a skill change for routing, capability, evidence, recovery, or acceptance gaps.
-- Updating the local template, validator, fixtures, or release baseline.
-
+- Creating or normalising a skill for a repeatable business-planning, advisory, finance, pitch or execution workflow.
 ## Do Not Use When
-
-- Use `skill-safety-audit` instead for a read-only inspection of unsafe permissions, hidden instructions, or exfiltration risk.
-- Use the relevant domain skill when the task is to produce a business-plan artefact rather than author its reusable procedure.
-- Do not create a new skill when an existing neighbour can own the trigger after a focused update.
-
+- Use `skill-safety-audit` instead for a read-only safety inspection; use the domain skill when the task is to produce a plan artefact.
 ## Required Inputs
-
-| Artefact | Source/provider | Required? | Behaviour when missing |
-| --- | --- | --- | --- |
-| Reusable problem and intended consumer | Requester or engine roadmap | Yes | Stop; a skill without a repeatable job has no stable contract. |
-| Positive, negative, and neighbour-collision prompts | Requester plus active catalogue | Yes | Search neighbouring descriptions; return a routing-gap note if the boundary remains ambiguous. |
-| Required inputs, outputs, evidence, and acceptance conditions | Domain owner or governing skill | Yes | Mark unresolved contracts and do not claim the skill is release-ready. |
-| Capability and permission boundary | Task authority and runner context | Yes | Default to read-only and exclude mutation until authority is explicit. |
-
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Reusable problem, trigger prompts and neighbour descriptions | Requester and live catalogue | Yes | Stop; search the catalogue before drafting. |
+| Canonical skill-writing standard | chwezi-dev-engine checkout or GitHub | Yes | Apply the portable minimum and mark canonical-only checks `NOT ASSESSED`. |
 ## Workflow
-
-1. Inventory active `SKILL.md` files from `skills/` and `country-context/`; identify the closest neighbours before choosing a new or existing directory.
-2. Define the role/procedure boundary, positive and negative triggers, required inputs, outputs, evidence, consumers, and acceptance conditions.
-3. Draft from `references/dual-compatible-skill-template.md`; keep the entrypoint below 500 lines and move deep catalogues or case material into linked references.
-4. Add a domain decision table, ordered workflow, stop conditions, recovery behaviour, permission boundary, degraded mode, five concrete anti-patterns with corrections, and a worked example when execution could otherwise be ambiguous.
-5. Test positive, negative, collision, limited-capability, and failure prompts. Stop and revise when the expected skill is not in the deterministic router's top three.
-6. Run the local engine validator, routing smoke test, and canonical quick validator. Recover from a failure by fixing the named contract rather than weakening the baseline.
-7. Inspect the diff and release only when the zero-debt baseline remains empty and no useful domain content was lost.
-
-## Quality Standards
-
-- `name` matches the directory; `description` is one line, starts with `Use when`, is at most 350 characters, and distinguishes a neighbour.
-- Frontmatter uses only approved keys and declares portable compatibility with Claude Code and Codex.
-- Inputs, outputs, evidence, decisions, capabilities, degraded behaviour, and acceptance conditions are observable rather than implied.
-- Audit and review procedures default to read-only; edits, publishing, spending, destructive actions, and certification claims require explicit authority.
-- Claims, examples, thresholds, and finance treatments are verified, qualified, or assigned to professional review.
-
-## Anti-Patterns
-
-- Creating a near-duplicate skill to improve a catalogue metric. Fix: update the existing neighbour or document a proven independent trigger and output contract.
-- Writing `description: Helps with strategy`. Fix: begin with `Use when` and name concrete scenarios plus the closest non-route.
-- Listing an input without its source or missing-input behaviour. Fix: use the four-column input table and state the stop, fallback, or qualification.
-- Giving a review skill broad edit permissions. Fix: declare read-only as the default and require separate remediation authority.
-- Treating a missing check as passed in degraded mode. Fix: mark it `not assessed`, narrow the conclusion, and name the evidence needed.
-- Adding a decision table whose third column repeats the action. Fix: name the failure or risk avoided by the chosen branch.
-- Copying provider commands into the portable body. Fix: state the required capability and keep runner syntax in an adapter or repository procedure.
-- Hiding long examples in the entrypoint. Fix: extract them to a directly linked reference that links back to this skill.
-
+1. Read the canonical standard, then this engine's delta; inspect the closest neighbours.
+2. Write the input, output, evidence, capability, degraded-mode and decision contracts before the procedure.
+3. Run `python -X utf8 scripts/validate_skill_engine.py --baseline docs/quality/skill-quality-baseline.json` and `python -X utf8 scripts/routing_smoke_test.py`, then `python -X utf8 skills/meta-utility/skill-writing/scripts/quick_validate.py <skill-dir>`.
+4. Stop on any finding or routing collision; recover by fixing the named contract and rerun, never by weakening the gate.
 ## Outputs
-
 | Artefact | Consumer | Acceptance condition |
-| --- | --- | --- |
-| Normalised skill directory | Domain practitioner and routing engine | Local and canonical validators pass; entrypoint is at most 500 lines. |
-| Routing fixture set | Maintainer and CI | Positive, negative, collision, limited-capability, and failure paths place the expected skill in the top three. |
-| Validation evidence | Reviewer and release owner | Failure counts are empty against the zero-debt baseline. |
-
+|---|---|---|
+| Skill directory and routing fixtures | Maintainer and router | Validators pass and the expected skill ranks in the top three. |
 ## Evidence Produced
-
-| Evidence | Format | Acceptance condition |
-| --- | --- | --- |
-| Skill validation result | Command output or JSON report | No structural, link, identity, duplicate-name, resource, or encoding failures. |
-| Routing result | Fixture summary | All fixtures pass the documented top-three threshold. |
-| Change evidence | Reviewed diff and line-count report | No unrelated deletion, runner-specific body instruction, cache, or secret is present. |
-
+| Evidence | Artefact and format | Consumer | Acceptance condition |
+|---|---|---|---|
+| Validation and routing record | Command output | Release owner | Zero findings; unrun checks marked `NOT ASSESSED`. |
 <!-- dual-compat-end -->
+## Quality Standards
+- Portable minimum, applied even when the canonical is unreachable: frontmatter uses only approved keys and `name` matches the folder.
+- The description starts `Use when`, stays within 350 characters and names a neighbour, with no workflow steps.
+- `SKILL.md` stays within 500 lines; deep detail sits in references one level deep, linked directly.
+- Every new or changed skill gets positive, negative and collision routing fixtures.
+- Bundled scripts run through their interpreter, for example `python -X utf8 scripts/<name>.py`.
+- No book extractions or copied third-party text; paraphrase and attribute.
+- British English, the imperative mood, and `NOT ASSESSED` for any check not run.
+## Engine-Local Delta
+- Draft from the [dual-compatible skill template](references/dual-compatible-skill-template.md) and respect the [dual-surface migration rules](references/dual-surface-migration-rules.md); inventory `skills/` and `country-context/` for neighbours.
+- Verify financial figures, thresholds and accounting treatments, or assign them to professional review under the finance engine; apply `anti-ai-slop` while writing and `ai-slop-audit` before release.
 ## Capability Contract
-
-Read and search are required to inspect the active catalogue and neighbours. Editing and execution are permitted only when the authoring task authorises repository changes. Network access is optional and used only for current external claims. Delegation is limited to non-overlapping skill cohorts; shared routers, validators, CI, baselines, and documentation stay with the primary owner.
-
+Read and search are required. Editing files and running validators need explicit permission for the authoring task; publishing, deletion and release changes need separate authorisation.
 ## Degraded Mode
-
-Without edit access, return a qualified patch plan and mark implementation `not assessed`. Without execution, provide the narrowest useful draft plus the exact validators that remain unrun. Without network access, remove or qualify current external claims; never convert an unavailable verification into a pass.
-
+If the canonical standard is unavailable, apply the portable minimum, return the narrowest qualified result, and mark each canonical-only check `NOT ASSESSED`; never report it as passed.
 ## Decision Rules
-
 | Condition | Action | Failure or risk avoided |
-| --- | --- | --- |
-| Existing neighbour has the same trigger and consumer | Normalise the existing skill | Duplicate routes and contradictory contracts. |
-| The proposed workflow has an independent trigger and artefact | Create a focused skill after collision tests | Oversized entrypoints that load irrelevant guidance. |
-| Deep material is necessary but not routing-critical | Move it to a directly linked reference | Entry points exceeding 500 lines or obscuring decisions. |
-| A requested action exceeds the declared permission boundary | Stop and request explicit authority | Unauthorised edits, publication, spending, or certification. |
-| A required capability or input is unavailable | Use degraded mode and qualify the result | An unassessed check being reported as passed. |
-
+|---|---|---|
+| An existing skill owns the trigger and output | Normalise it in place; put branch-only detail in a linked reference | Duplicate routes and oversized entrypoints |
+## Anti-Patterns
+- Copying the canonical body into this engine. Fix: link the canonical and keep only the delta here.
+- Writing only positive triggers. Fix: name the neighbour and add a collision fixture.
+- Treating an unrun validator as a pass. Fix: record `NOT ASSESSED` with the reason.
+- Granting edit rights to a review procedure. Fix: default review and audit to read-only.
+- Weakening a baseline to clear a finding. Fix: repair the named contract instead.
 ## Worked Example
-
-Prompt: "Add a skill for reviewing whether a funding ask is lender-ready." First search `meta-bankability-scoring`, `11-funding-request`, and `meta-accounting-finance-review`. If `meta-bankability-scoring` already produces blocker findings and a lender-readiness score for the same consumer, update its trigger and evidence contract; do not add a duplicate reviewer. Add fixtures that distinguish writing the funding request from scoring its bankability.
-
+Asked for a lender-readiness review skill, first search `meta-bankability-scoring`, `11-funding-request` and `meta-accounting-finance-review`; update the owner that already scores bankability instead of adding a duplicate reviewer.
 ## References
-
-- [Dual-compatible skill template](references/dual-compatible-skill-template.md) - required structure and field-level contract.
-- [Dual-surface migration rules](references/dual-surface-migration-rules.md) - boundary between portable skills and repository instructions.
-- [Output patterns](references/output-patterns.md) - use when a deliverable needs a repeatable schema.
-- [Workflow patterns](references/workflows.md) - use for branching, recovery, and stop-condition design.
-- [Skill authoring practices](references/skill-authoring-best-practices.md) - use for progressive disclosure and resource selection.
-
-## Read Next
-
-- `skill-safety-audit` for read-only permission and instruction-risk review.
-- `anti-ai-slop` while writing any human-facing skill content.
-- `ai-slop-audit` after each major cohort and before release.
+- [Canonical skill-writing standard](https://github.com/peterbamuhigire/chwezi-dev-engine/blob/main/skills/sdlc-meta/skill-writing/SKILL.md)
+- [Dual-compatible skill template](references/dual-compatible-skill-template.md)
+- [Dual-surface migration rules](references/dual-surface-migration-rules.md)
+- [Skill safety audit](../skill-safety-audit/SKILL.md)
