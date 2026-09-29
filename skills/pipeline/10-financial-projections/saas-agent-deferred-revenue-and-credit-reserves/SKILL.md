@@ -250,12 +250,12 @@ Per cadence table below.
 - `references/saas-agent-deferred-revenue-template.md` — prepaid task-credit template
 - `references/saas-agent-credit-reserve-methodology.md` — SLA-credit reserve formula and worked example
 - `references/saas-agent-refund-reserve-methodology.md` — refund reserve formula
-- `skills/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — recognition side
-- `skills/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — COGS / contra-revenue split
-- `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — cost waterfall
-- `skills/meta-agent-revenue-recognition-policy/SKILL.md` — policy discipline
-- `skills/meta-agent-sla-financial-controls/SKILL.md` — controls
-- `skills/meta-living-plan-governance/SKILL.md` — governance parent
+- `skills/pipeline/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — recognition side
+- `skills/pipeline/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — COGS / contra-revenue split
+- `skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — cost waterfall
+- `skills/meta-finance/meta-agent-revenue-recognition-policy/SKILL.md` — policy discipline
+- `skills/meta-finance/meta-agent-sla-financial-controls/SKILL.md` — controls
+- `skills/meta-strategy/meta-living-plan-governance/SKILL.md` — governance parent
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 - `skills/pipeline/10-financial-projections/references/finance-operating-system-and-controls-checklist.md` — controls reference
 

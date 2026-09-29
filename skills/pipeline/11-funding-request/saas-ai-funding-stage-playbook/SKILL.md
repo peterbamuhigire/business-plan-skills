@@ -112,10 +112,10 @@ The standard SaaS funding ladder (bootstrap → F&F → pre-seed → seed → A 
 
 - `references/saas-ai-funding-stage-playbook.md` — full stage ladder + investor-archetype detail
 - `references/ai-investor-archetype-map.md` — named funds per archetype with thesis notes
-- `skills/saas-valuation-and-fundraising-strategy/SKILL.md` — base SaaS funding skill
-- `skills/meta-ai-bankability-and-investor-readiness/SKILL.md` — bankability that supports stage
-- `skills/meta-ai-valuation-adjustments/SKILL.md` — valuation overlay
-- `skills/11b-grant-proposal/saas-ai-for-good-grant-proposal/SKILL.md` — grant pathway
+- `skills/saas/saas-valuation-and-fundraising-strategy/SKILL.md` — base SaaS funding skill
+- `skills/meta-finance/meta-ai-bankability-and-investor-readiness/SKILL.md` — bankability that supports stage
+- `skills/meta-finance/meta-ai-valuation-adjustments/SKILL.md` — valuation overlay
+- `skills/pipeline/11b-grant-proposal/saas-ai-for-good-grant-proposal/SKILL.md` — grant pathway
 - `country-context/africa-regional/africa-ict-saas-market-context.md` — Section 7 funding ecosystem
 
 ## Africa / Uganda Application Notes

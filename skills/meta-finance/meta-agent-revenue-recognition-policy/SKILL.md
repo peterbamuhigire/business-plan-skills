@@ -206,11 +206,11 @@ Per cadence below.
 ## References
 
 - `references/saas-agent-rev-rec-policy-memo-template.md` — meta template (extends operational skill template)
-- `skills/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — operational rev-rec
-- `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — liability side
-- `skills/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — COGS / contra-revenue
-- `skills/meta-accounting-finance-review/SKILL.md` — accounting review gate
-- `skills/meta-agent-sla-financial-controls/SKILL.md` — financial controls
+- `skills/pipeline/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — operational rev-rec
+- `skills/pipeline/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — liability side
+- `skills/pipeline/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — COGS / contra-revenue
+- `skills/meta-finance/meta-accounting-finance-review/SKILL.md` — accounting review gate
+- `skills/meta-finance/meta-agent-sla-financial-controls/SKILL.md` — financial controls
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 - `skills/pipeline/10-financial-projections/references/finance-operating-system-and-controls-checklist.md` — controls
 

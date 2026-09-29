@@ -127,9 +127,9 @@ This skill installs the moat-vs-wrapper discipline. Builds on `saas-ai-moat-and-
 
 - `references/saas-agent-moats-and-wrapper-risk-checklist.md` — 8-question rubric + wrapper-risk catalogue + Wardley placement
 - `references/agent-moats-vs-wrapper-risk.md` — compact rubric (lives at `06-competitive-analysis/references/`)
-- `skills/06-competitive-analysis/saas-ai-moat-and-defensibility/SKILL.md` — AI moat parent
-- `skills/06-competitive-analysis/SKILL.md` — generic competitive analysis
-- `skills/meta-agent-valuation-adjustments/SKILL.md` — consumes the moat score
+- `skills/pipeline/06-competitive-analysis/saas-ai-moat-and-defensibility/SKILL.md` — AI moat parent
+- `skills/pipeline/06-competitive-analysis/SKILL.md` — generic competitive analysis
+- `skills/meta-finance/meta-agent-valuation-adjustments/SKILL.md` — consumes the moat score
 - `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — moat discipline
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — agent audit
 

@@ -7,7 +7,7 @@ cross-reference: [saas-ai-moat-and-defensibility, saas-ai-moats-and-defensibilit
 
 # AI Moats vs False Moats — Reference
 
-Pointer reference for Section 06 competitive-analysis enhancement. The full discipline lives in `skills/06-competitive-analysis/saas-ai-moat-and-defensibility/references/saas-ai-moats-and-defensibility-checklist.md`. This file is the section-04 cross-reference + the false-moat-detection table extracted for quick use.
+Pointer reference for Section 06 competitive-analysis enhancement. The full discipline lives in `skills/pipeline/06-competitive-analysis/saas-ai-moat-and-defensibility/references/saas-ai-moats-and-defensibility-checklist.md`. This file is the section-04 cross-reference + the false-moat-detection table extracted for quick use.
 
 ## 1. Real-moat 7-question summary
 

@@ -110,7 +110,7 @@ Produce the valuation and fundraising-strategy layer of a SaaS plan using SaaS-s
 
 ## AI Premium / Discount Module (mandatory for AI-feature-led plans)
 
-When AI is material to the plan, apply the AI valuation overlay from `skills/meta-ai-valuation-adjustments/SKILL.md` and `skills/meta-valuation/references/saas-ai-valuation-adjustments.md`. The framework:
+When AI is material to the plan, apply the AI valuation overlay from `skills/meta-finance/meta-ai-valuation-adjustments/SKILL.md` and `skills/meta-finance/meta-valuation/references/saas-ai-valuation-adjustments.md`. The framework:
 
 ~~~text
 Adjusted multiple = SaaS base multiple
@@ -131,11 +131,11 @@ Pair with the AI archetype declaration (AI-native vertical SaaS / SaaS-with-AI-f
 
 - `references/saas-valuation-frameworks-for-business-plans.md` — multiples tables, formulas, comparables
 - `references/saas-funding-stage-playbook.md` — stage-by-stage capital sources and plan profile
-- `skills/meta-valuation/references/saas-ai-valuation-adjustments.md` — AI premium / discount full framework
-- `skills/meta-ai-valuation-adjustments/SKILL.md` — AI valuation overlay skill
-- `skills/11-funding-request/saas-ai-funding-stage-playbook/SKILL.md` — AI funding stage playbook
-- `skills/meta-ai-bankability-and-investor-readiness/SKILL.md` — AI bankability scorecard
-- `skills/meta-valuation/SKILL.md` — deeper DCF / WACC / CAPM logic
+- `skills/meta-finance/meta-valuation/references/saas-ai-valuation-adjustments.md` — AI premium / discount full framework
+- `skills/meta-finance/meta-ai-valuation-adjustments/SKILL.md` — AI valuation overlay skill
+- `skills/pipeline/11-funding-request/saas-ai-funding-stage-playbook/SKILL.md` — AI funding stage playbook
+- `skills/meta-finance/meta-ai-bankability-and-investor-readiness/SKILL.md` — AI bankability scorecard
+- `skills/meta-finance/meta-valuation/SKILL.md` — deeper DCF / WACC / CAPM logic
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — AI-on-SaaS audit
 - `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — recurring revenue valuation rationale
 - `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — financial profile by SaaS segment

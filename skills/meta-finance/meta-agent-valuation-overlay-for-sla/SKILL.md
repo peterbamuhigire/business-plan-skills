@@ -172,11 +172,11 @@ Per cadence below.
 ## References
 
 - `references/saas-agent-sla-valuation-adjustments.md` — overlay table and worked example
-- `skills/meta-valuation/SKILL.md` — SaaS valuation parent
-- `skills/meta-ai-valuation-adjustments/SKILL.md` — AI valuation parent
-- `skills/meta-agent-valuation-adjustments/SKILL.md` — agent valuation parent
-- `skills/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
-- `skills/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — bankability
+- `skills/meta-finance/meta-valuation/SKILL.md` — SaaS valuation parent
+- `skills/meta-finance/meta-ai-valuation-adjustments/SKILL.md` — AI valuation parent
+- `skills/meta-finance/meta-agent-valuation-adjustments/SKILL.md` — agent valuation parent
+- `skills/pipeline/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
+- `skills/meta-finance/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — bankability
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes

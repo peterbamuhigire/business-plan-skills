@@ -143,7 +143,7 @@ SaaS investors apply a different lens than commercial bank lenders. Where CAMPAR
 
 ## AI Scorecard Module (mandatory for AI-feature-led plans)
 
-When AI is material to the plan, the SaaS bankability score is necessary but not sufficient. Add the AI bankability scorecard from `skills/meta-ai-bankability-and-investor-readiness/SKILL.md` and `skills/meta-bankability-scoring/references/saas-ai-bankability-checklist.md`:
+When AI is material to the plan, the SaaS bankability score is necessary but not sufficient. Add the AI bankability scorecard from `skills/meta-finance/meta-ai-bankability-and-investor-readiness/SKILL.md` and `skills/meta-finance/meta-bankability-scoring/references/saas-ai-bankability-checklist.md`:
 
 - **AI Economics** (max 15) — AI-cost-as-%-of-ARR, AI GM trajectory, AI Contribution Margin per tier, per-tenant cost, AI-revenue attribution
 - **AI Discipline** (max 12) — eval coverage, hallucination rate, production sampling, model-deprecation watch
@@ -156,13 +156,13 @@ Total ~50; investor-archetype weighting applied (AI-specialist VC, generalist Sa
 ## References
 
 - `references/saas-bankability-checklist.md` — full SaaS scorecard
-- `skills/meta-bankability-scoring/references/saas-ai-bankability-checklist.md` — AI scorecard
-- `skills/meta-ai-bankability-and-investor-readiness/SKILL.md` — AI bankability skill
+- `skills/meta-finance/meta-bankability-scoring/references/saas-ai-bankability-checklist.md` — AI scorecard
+- `skills/meta-finance/meta-ai-bankability-and-investor-readiness/SKILL.md` — AI bankability skill
 - `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — CFO-grade metrics
 - `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — Rule of 40, LTV:CAC, churn
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — AI-on-SaaS audit
-- `skills/meta-bankability-scoring/SKILL.md` — sister skill for debt / bank-loan readiness
-- `skills/saas-valuation-and-fundraising-strategy/SKILL.md` — valuation logic
+- `skills/meta-finance/meta-bankability-scoring/SKILL.md` — sister skill for debt / bank-loan readiness
+- `skills/saas/saas-valuation-and-fundraising-strategy/SKILL.md` — valuation logic
 
 ## Africa / Uganda Application Notes
 

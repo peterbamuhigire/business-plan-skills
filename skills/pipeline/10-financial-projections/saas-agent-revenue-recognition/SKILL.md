@@ -220,13 +220,13 @@ Assign cadence and owners per the cadence table below.
 ## References
 
 - `references/saas-agent-revenue-recognition-policy-template.md` — policy memo template with worked examples per primitive
-- `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — liability side
-- `skills/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — COGS-vs-contra-revenue
-- `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — unit economics
-- `skills/07-marketing-sales-strategy/saas-agent-pricing-strategy/SKILL.md` — pricing primitives
-- `skills/meta-agent-revenue-recognition-policy/SKILL.md` — meta policy declaration discipline
-- `skills/meta-accounting-finance-review/SKILL.md` — accounting review gate
-- `skills/meta-living-plan-governance/SKILL.md` — governance parent
+- `skills/pipeline/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — liability side
+- `skills/pipeline/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — COGS-vs-contra-revenue
+- `skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — unit economics
+- `skills/pipeline/07-marketing-sales-strategy/saas-agent-pricing-strategy/SKILL.md` — pricing primitives
+- `skills/meta-finance/meta-agent-revenue-recognition-policy/SKILL.md` — meta policy declaration discipline
+- `skills/meta-finance/meta-accounting-finance-review/SKILL.md` — accounting review gate
+- `skills/meta-strategy/meta-living-plan-governance/SKILL.md` — governance parent
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — this audit
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — agent product audit
 - `skills/pipeline/10-financial-projections/references/finance-operating-system-and-controls-checklist.md` — controls

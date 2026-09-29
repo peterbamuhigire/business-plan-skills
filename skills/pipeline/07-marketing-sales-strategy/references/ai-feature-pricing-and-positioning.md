@@ -7,7 +7,7 @@ cross-reference: [saas-ai-pricing-strategy, saas-ai-pricing-architecture, meta-p
 
 # AI Feature Pricing & Positioning — Reference
 
-Pointer reference for Section 07 marketing/sales-strategy. Full pricing architecture in `skills/07-marketing-sales-strategy/saas-ai-pricing-strategy/references/saas-ai-pricing-architecture.md`. This file covers positioning discipline — the claim-language alignment with the underlying capability.
+Pointer reference for Section 07 marketing/sales-strategy. Full pricing architecture in `skills/pipeline/07-marketing-sales-strategy/saas-ai-pricing-strategy/references/saas-ai-pricing-architecture.md`. This file covers positioning discipline — the claim-language alignment with the underlying capability.
 
 ## 1. The positioning ladder
 

@@ -227,11 +227,11 @@ Scoring conventions: severity (1-5), recovery horizon (months), pre-money valuat
 
 ## Cross-References
 
-- `skills/12-risk-analysis/saas-agent-sla-risk/SKILL.md` — risk register parent
-- `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserves
-- `skills/10-financial-projections/saas-agent-sla-economics-in-projection/SKILL.md` — projection integration
-- `skills/meta-agent-sla-financial-controls/SKILL.md` — controls
-- `skills/meta-financial-stress-test/SKILL.md` — stress-test parent
+- `skills/pipeline/12-risk-analysis/saas-agent-sla-risk/SKILL.md` — risk register parent
+- `skills/pipeline/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserves
+- `skills/pipeline/10-financial-projections/saas-agent-sla-economics-in-projection/SKILL.md` — projection integration
+- `skills/meta-finance/meta-agent-sla-financial-controls/SKILL.md` — controls
+- `skills/meta-finance/meta-financial-stress-test/SKILL.md` — stress-test parent
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes

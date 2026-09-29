@@ -9,7 +9,7 @@ cross-reference: [meta-agent-bankability-and-investor-readiness, saas-agent-bank
 
 When the plan is an agent business, use the full agent bankability scorecard at:
 
-`skills/meta-agent-bankability-and-investor-readiness/references/saas-agent-bankability-checklist.md`
+`skills/meta-finance/meta-agent-bankability-and-investor-readiness/references/saas-agent-bankability-checklist.md`
 
 That scorecard covers 7 dimensions, max 100 points:
 

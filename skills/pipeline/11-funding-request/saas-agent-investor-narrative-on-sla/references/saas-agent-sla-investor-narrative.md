@@ -79,7 +79,7 @@ NARRATIVE (one sentence)
 
 ## 4. Data-Room SLA Section (Index)
 
-The investor-narrative skill produces the narrative; the data room produces the evidence. The full contents index lives at `skills/meta-due-diligence/references/saas-agent-sla-data-room-contents.md`. Summary:
+The investor-narrative skill produces the narrative; the data room produces the evidence. The full contents index lives at `skills/meta-strategy/meta-due-diligence/references/saas-agent-sla-data-room-contents.md`. Summary:
 
 1. SLA policy memo (rev-rec, reserve, controls)
 2. Trailing 12-quarter SLA performance dashboard

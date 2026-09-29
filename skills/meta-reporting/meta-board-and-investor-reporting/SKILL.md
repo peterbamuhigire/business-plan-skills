@@ -117,7 +117,7 @@ Funded SaaS companies that fail to maintain investor confidence often had great 
 
 ## AI Section (mandatory for AI-feature-led companies)
 
-When AI is material to revenue or product, every quarterly board pack must include an AI section per `references/saas-ai-board-pack-section.md`. Every monthly investor update must include the AI block per `skills/11-funding-request/references/saas-ai-investor-update-block.md`. The AI section includes:
+When AI is material to revenue or product, every quarterly board pack must include an AI section per `references/saas-ai-board-pack-section.md`. Every monthly investor update must include the AI block per `skills/pipeline/11-funding-request/references/saas-ai-investor-update-block.md`. The AI section includes:
 - AI KPI dashboard (AI-ARR, AI GM, AI-cost-%-of-ARR, eval coverage, hallucination rate, cache-hit, per-tenant cost, vendor spend, incidents)
 - AI strategic decisions for board (1-3 explicit asks)
 - AI risk register update
@@ -129,7 +129,7 @@ This sits alongside the financial dashboard and is treated as a first-class sect
 
 ## Agent Section (mandatory for agent-product companies)
 
-When the company ships an agent or multi-agent product, every quarterly board pack must include the **Agent Section** per `skills/meta-agent-board-and-investor-reporting/references/saas-agent-board-pack-section.md`. Every monthly investor update must include the **Agent block** per `skills/meta-agent-board-and-investor-reporting/references/saas-agent-investor-update-block.md`. The Agent section includes:
+When the company ships an agent or multi-agent product, every quarterly board pack must include the **Agent Section** per `skills/meta-reporting/meta-agent-board-and-investor-reporting/references/saas-agent-board-pack-section.md`. Every monthly investor update must include the **Agent block** per `skills/meta-reporting/meta-agent-board-and-investor-reporting/references/saas-agent-investor-update-block.md`. The Agent section includes:
 
 - Full agent KPI trends (13-week): resolved tasks, cost per resolved task, intervention rate, task success, agent GM, agent ARR attribution, cache, HITL / tool / retry shares, branch / loop breaches
 - Moat-vs-wrapper reassessment (quarterly)
@@ -148,19 +148,19 @@ When the company ships an agent or multi-agent product, every quarterly board pa
 
 Sev-1 incidents must be communicated to investors within 48 hours of confirmation, not at the next board meeting. The Agent section sits **on top of** the AI section, not in place of it.
 
-This is operationalised through `skills/meta-agent-board-and-investor-reporting/SKILL.md` (workflow).
+This is operationalised through `skills/meta-reporting/meta-agent-board-and-investor-reporting/SKILL.md` (workflow).
 
 ## References
 
 - `references/saas-board-pack-template.md` — full template + worked example
 - `references/saas-ai-board-pack-section.md` — AI section template for AI-feature-led companies
-- `skills/meta-agent-board-and-investor-reporting/SKILL.md` — Agent reporting workflow (for agent-product companies)
-- `skills/meta-agent-board-and-investor-reporting/references/saas-agent-board-pack-section.md` — Agent section template
-- `skills/meta-agent-board-and-investor-reporting/references/saas-agent-investor-update-block.md` — Agent investor-update block
+- `skills/meta-reporting/meta-agent-board-and-investor-reporting/SKILL.md` — Agent reporting workflow (for agent-product companies)
+- `skills/meta-reporting/meta-agent-board-and-investor-reporting/references/saas-agent-board-pack-section.md` — Agent section template
+- `skills/meta-reporting/meta-agent-board-and-investor-reporting/references/saas-agent-investor-update-block.md` — Agent investor-update block
 - `skills/saas/saas-gtm-motion-design/references/saas-scaling-rules-and-discount-governance.md` — MSPOT and cadence
 - `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — financial reporting standards
-- `skills/meta-living-plan-governance/SKILL.md` — sister skill (this skill operationalises the living plan via investor reporting)
-- `skills/meta-quarterly-gameplan/SKILL.md` — sister skill (quarterly operating rhythm)
+- `skills/meta-strategy/meta-living-plan-governance/SKILL.md` — sister skill (this skill operationalises the living plan via investor reporting)
+- `skills/meta-strategy/meta-quarterly-gameplan/SKILL.md` — sister skill (quarterly operating rhythm)
 
 ## Africa / Uganda Application Notes
 

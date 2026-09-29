@@ -140,10 +140,10 @@ The agent reporting block is mandatory in every monthly investor update and ever
 
 - `references/saas-agent-investor-update-block.md` — monthly agent block template
 - `references/saas-agent-board-pack-section.md` — quarterly board agent section template
-- `skills/meta-board-and-investor-reporting/SKILL.md` — parent
-- `skills/meta-board-and-investor-reporting/references/saas-ai-board-pack-section.md` — AI block parent
-- `skills/meta-agent-bankability-and-investor-readiness/SKILL.md` — bankability rescore
-- `skills/meta-living-plan-governance/SKILL.md` — cadence parent
+- `skills/meta-reporting/meta-board-and-investor-reporting/SKILL.md` — parent
+- `skills/meta-reporting/meta-board-and-investor-reporting/references/saas-ai-board-pack-section.md` — AI block parent
+- `skills/meta-finance/meta-agent-bankability-and-investor-readiness/SKILL.md` — bankability rescore
+- `skills/meta-strategy/meta-living-plan-governance/SKILL.md` — cadence parent
 
 ## Africa / Uganda Application Notes
 

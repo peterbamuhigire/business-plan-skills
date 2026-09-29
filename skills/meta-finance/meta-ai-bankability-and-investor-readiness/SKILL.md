@@ -141,12 +141,12 @@ This skill installs the AI bankability scorecard that sits on top of the SaaS ba
 
 - `references/saas-ai-bankability-checklist.md` — full scorecard
 - `references/saas-ai-data-room-contents.md` — what goes in AI data room (cross-listed in `meta-due-diligence`)
-- `skills/saas-bankability-and-investor-readiness/SKILL.md` — sister skill (SaaS layer)
-- `skills/meta-bankability-scoring/SKILL.md` — CAMPARI + SaaS layer
-- `skills/meta-ai-valuation-adjustments/SKILL.md` — what the scorecard supports / undermines
-- `skills/10-financial-projections/saas-ai-unit-economics-and-cogs/SKILL.md`
-- `skills/06-competitive-analysis/saas-ai-moat-and-defensibility/SKILL.md`
-- `skills/12-risk-analysis/saas-ai-risk-and-stress-test/SKILL.md`
+- `skills/saas/saas-bankability-and-investor-readiness/SKILL.md` — sister skill (SaaS layer)
+- `skills/meta-finance/meta-bankability-scoring/SKILL.md` — CAMPARI + SaaS layer
+- `skills/meta-finance/meta-ai-valuation-adjustments/SKILL.md` — what the scorecard supports / undermines
+- `skills/pipeline/10-financial-projections/saas-ai-unit-economics-and-cogs/SKILL.md`
+- `skills/pipeline/06-competitive-analysis/saas-ai-moat-and-defensibility/SKILL.md`
+- `skills/pipeline/12-risk-analysis/saas-ai-risk-and-stress-test/SKILL.md`
 
 ## Africa / Uganda Application Notes
 

@@ -218,13 +218,13 @@ Slow response signals immaturity; data-room completeness is read as discipline e
 
 ## Cross-References
 
-- `skills/meta-due-diligence/SKILL.md` — DD parent
-- `skills/meta-due-diligence/references/saas-agent-data-room-contents.md` — agent data room parent
-- `skills/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — scorecard
-- `skills/meta-valuation/references/saas-agent-sla-valuation-adjustments.md` — valuation overlay
-- `skills/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
-- `skills/meta-agent-sla-financial-controls/SKILL.md` — controls evidence
-- `skills/meta-financial-stress-test/references/saas-agent-sla-stress-test-scenarios.md` — stress scenarios
+- `skills/meta-strategy/meta-due-diligence/SKILL.md` — DD parent
+- `skills/meta-strategy/meta-due-diligence/references/saas-agent-data-room-contents.md` — agent data room parent
+- `skills/meta-finance/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — scorecard
+- `skills/meta-finance/meta-valuation/references/saas-agent-sla-valuation-adjustments.md` — valuation overlay
+- `skills/pipeline/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
+- `skills/meta-finance/meta-agent-sla-financial-controls/SKILL.md` — controls evidence
+- `skills/meta-finance/meta-financial-stress-test/references/saas-agent-sla-stress-test-scenarios.md` — stress scenarios
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes

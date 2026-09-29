@@ -11,7 +11,7 @@ This file is the working reference for the SLA-quality valuation overlay invoked
 
 The canonical version with adjustment-trail templates, comparable-transaction patterns, and stress-adjustment tables lives at:
 
-**`skills/meta-valuation/references/saas-agent-sla-valuation-adjustments.md`**
+**`skills/meta-finance/meta-valuation/references/saas-agent-sla-valuation-adjustments.md`**
 
 This local file summarises the scoring rubric and overlay mapping for skill-internal use.
 
@@ -56,10 +56,10 @@ Adjusted multiple =
 
 ## Cross-References (full content)
 
-- **Canonical valuation overlay**: `skills/meta-valuation/references/saas-agent-sla-valuation-adjustments.md`
-- Parent skill: `skills/meta-agent-valuation-overlay-for-sla/SKILL.md`
-- Bankability evidence: `skills/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md`
-- Investor narrative: `skills/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md`
-- Stress overlay: `skills/meta-financial-stress-test/references/saas-agent-sla-stress-test-scenarios.md`
-- Data-room evidence: `skills/meta-due-diligence/references/saas-agent-sla-data-room-contents.md`
+- **Canonical valuation overlay**: `skills/meta-finance/meta-valuation/references/saas-agent-sla-valuation-adjustments.md`
+- Parent skill: `skills/meta-finance/meta-agent-valuation-overlay-for-sla/SKILL.md`
+- Bankability evidence: `skills/meta-finance/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md`
+- Investor narrative: `skills/pipeline/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md`
+- Stress overlay: `skills/meta-finance/meta-financial-stress-test/references/saas-agent-sla-stress-test-scenarios.md`
+- Data-room evidence: `skills/meta-strategy/meta-due-diligence/references/saas-agent-sla-data-room-contents.md`
 - Audit: `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md`

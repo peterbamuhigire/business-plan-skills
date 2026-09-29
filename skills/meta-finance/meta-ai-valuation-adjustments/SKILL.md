@@ -148,11 +148,11 @@ The output is a valuation range with: SaaS base multiple → AI premium / discou
 ## References
 
 - `references/saas-ai-valuation-adjustments.md` — full adjustment table + worked examples
-- `skills/meta-valuation/SKILL.md` — base valuation discipline
-- `skills/saas-valuation-and-fundraising-strategy/SKILL.md` — SaaS valuation
-- `skills/meta-ai-bankability-and-investor-readiness/SKILL.md` — feeds adjustments
-- `skills/06-competitive-analysis/saas-ai-moat-and-defensibility/SKILL.md` — moat feeds adjustments
-- `skills/10-financial-projections/saas-ai-unit-economics-and-cogs/SKILL.md`
+- `skills/meta-finance/meta-valuation/SKILL.md` — base valuation discipline
+- `skills/saas/saas-valuation-and-fundraising-strategy/SKILL.md` — SaaS valuation
+- `skills/meta-finance/meta-ai-bankability-and-investor-readiness/SKILL.md` — feeds adjustments
+- `skills/pipeline/06-competitive-analysis/saas-ai-moat-and-defensibility/SKILL.md` — moat feeds adjustments
+- `skills/pipeline/10-financial-projections/saas-ai-unit-economics-and-cogs/SKILL.md`
 - `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — SaaS valuation discipline
 - `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — exit discussion
 

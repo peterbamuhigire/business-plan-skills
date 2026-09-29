@@ -269,10 +269,10 @@ Balance sheet:
 
 ## 14. Cross-references
 
-- Deferred revenue and reserve mechanics: `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md`
-- SLA-COGS treatment: `skills/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md`
-- Pricing primitives: `skills/07-marketing-sales-strategy/saas-agent-pricing-strategy/SKILL.md`
-- Meta policy discipline: `skills/meta-agent-revenue-recognition-policy/SKILL.md`
+- Deferred revenue and reserve mechanics: `skills/pipeline/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md`
+- SLA-COGS treatment: `skills/pipeline/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md`
+- Pricing primitives: `skills/pipeline/07-marketing-sales-strategy/saas-agent-pricing-strategy/SKILL.md`
+- Meta policy discipline: `skills/meta-finance/meta-agent-revenue-recognition-policy/SKILL.md`
 - Accounting controls: `skills/pipeline/10-financial-projections/references/finance-operating-system-and-controls-checklist.md`
 
 ## 15. Africa / Uganda overlay

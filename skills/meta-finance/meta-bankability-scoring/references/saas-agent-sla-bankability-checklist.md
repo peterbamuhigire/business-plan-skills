@@ -132,13 +132,13 @@ When the plan is an agent business with SLA commitments, **all four layers** are
 
 ## Cross-References
 
-- `skills/meta-bankability-scoring/SKILL.md` — bankability parent
-- `skills/meta-agent-bankability-and-investor-readiness/SKILL.md` — agent bankability parent
-- `skills/meta-agent-sla-financial-controls/SKILL.md` — controls evidence
-- `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserve methodology
-- `skills/meta-due-diligence/references/saas-agent-sla-data-room-contents.md` — data room
-- `skills/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
-- `skills/meta-agent-valuation-overlay-for-sla/SKILL.md` — valuation overlay
+- `skills/meta-finance/meta-bankability-scoring/SKILL.md` — bankability parent
+- `skills/meta-finance/meta-agent-bankability-and-investor-readiness/SKILL.md` — agent bankability parent
+- `skills/meta-finance/meta-agent-sla-financial-controls/SKILL.md` — controls evidence
+- `skills/pipeline/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserve methodology
+- `skills/meta-strategy/meta-due-diligence/references/saas-agent-sla-data-room-contents.md` — data room
+- `skills/pipeline/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
+- `skills/meta-finance/meta-agent-valuation-overlay-for-sla/SKILL.md` — valuation overlay
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes

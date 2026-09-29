@@ -156,13 +156,13 @@ This skill is the **narrative discipline** — how to talk about SLA in pitch de
 ## References
 
 - `references/saas-agent-sla-investor-narrative.md` — investor-update language + scoring rubric
-- `skills/11-funding-request/saas-agent-funding-stage-playbook/SKILL.md` — funding stage parent
-- `skills/meta-agent-valuation-overlay-for-sla/SKILL.md` — valuation overlay
-- `skills/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — bankability evidence
-- `skills/meta-due-diligence/references/saas-agent-sla-data-room-contents.md` — data-room SLA section
-- `skills/meta-agent-board-and-investor-reporting/references/saas-agent-sla-board-block.md` — board pack SLA
-- `skills/01-executive-summary/references/saas-agent-sla-executive-summary-paragraph.md` — exec summary
-- `skills/meta-agent-sla-financial-controls/SKILL.md` — controls evidence
+- `skills/pipeline/11-funding-request/saas-agent-funding-stage-playbook/SKILL.md` — funding stage parent
+- `skills/meta-finance/meta-agent-valuation-overlay-for-sla/SKILL.md` — valuation overlay
+- `skills/meta-finance/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — bankability evidence
+- `skills/meta-strategy/meta-due-diligence/references/saas-agent-sla-data-room-contents.md` — data-room SLA section
+- `skills/meta-reporting/meta-agent-board-and-investor-reporting/references/saas-agent-sla-board-block.md` — board pack SLA
+- `skills/pipeline/01-executive-summary/references/saas-agent-sla-executive-summary-paragraph.md` — exec summary
+- `skills/meta-finance/meta-agent-sla-financial-controls/SKILL.md` — controls evidence
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes

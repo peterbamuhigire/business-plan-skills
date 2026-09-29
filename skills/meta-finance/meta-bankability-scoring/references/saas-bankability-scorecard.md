@@ -24,7 +24,7 @@ The engine's `meta-bankability-scoring` skill applies the **CAMPARI** framework 
 
 ## 2. The SaaS Bankability Score (100 points total)
 
-See `skills/saas-bankability-and-investor-readiness/references/saas-bankability-checklist.md` for the full 100-point scorecard. Summary:
+See `skills/saas/saas-bankability-and-investor-readiness/references/saas-bankability-checklist.md` for the full 100-point scorecard. Summary:
 
 - SaaS Quality (unit economics) — 40 points
 - Operating Quality (discipline, cadence) — 25 points

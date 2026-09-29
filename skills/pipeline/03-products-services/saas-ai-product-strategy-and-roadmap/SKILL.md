@@ -107,11 +107,11 @@ Generic product strategy can describe AI features but cannot reason about AI pro
 ## References
 
 - `references/ai-build-buy-host-orchestrate-matrix.md` — full decision matrix
-- `skills/14-ai-integration/references/saas-ai-feature-roadmap-in-business-plan.md` — feature roadmap with ARR milestones
-- `skills/03-products-services/SKILL.md` — generic product strategy
-- `skills/saas-mvp-and-product-market-fit-strategy/SKILL.md` — pre-PMF product discipline
-- `skills/06-competitive-analysis/saas-ai-moat-and-defensibility/SKILL.md`
-- `skills/10-financial-projections/saas-ai-cost-of-tenant-calculator/SKILL.md`
+- `skills/pipeline/14-ai-integration/references/saas-ai-feature-roadmap-in-business-plan.md` — feature roadmap with ARR milestones
+- `skills/pipeline/03-products-services/SKILL.md` — generic product strategy
+- `skills/saas/saas-mvp-and-product-market-fit-strategy/SKILL.md` — pre-PMF product discipline
+- `skills/pipeline/06-competitive-analysis/saas-ai-moat-and-defensibility/SKILL.md`
+- `skills/pipeline/10-financial-projections/saas-ai-cost-of-tenant-calculator/SKILL.md`
 - `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — PMF and product strategy
 - `skills/pipeline/08-operations-plan/references/saas-tenancy-model-and-msp-trap-test.md` — architecture decisions
 

@@ -214,14 +214,14 @@ Per cadence below.
 ## References
 
 - `references/saas-agent-sla-projection-template.md` — worked 5-year projection extract
-- `skills/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — rev-rec side
-- `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserve side
-- `skills/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — COGS side
-- `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — unit economics
-- `skills/12-risk-analysis/saas-agent-sla-risk/SKILL.md` — risk register consumer
-- `skills/meta-financial-stress-test/SKILL.md` — stress-test consumer
-- `skills/meta-agent-valuation-overlay-for-sla/SKILL.md` — valuation
-- `skills/meta-agent-board-and-investor-reporting/SKILL.md` — reporting
+- `skills/pipeline/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — rev-rec side
+- `skills/pipeline/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserve side
+- `skills/pipeline/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — COGS side
+- `skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — unit economics
+- `skills/pipeline/12-risk-analysis/saas-agent-sla-risk/SKILL.md` — risk register consumer
+- `skills/meta-finance/meta-financial-stress-test/SKILL.md` — stress-test consumer
+- `skills/meta-finance/meta-agent-valuation-overlay-for-sla/SKILL.md` — valuation
+- `skills/meta-reporting/meta-agent-board-and-investor-reporting/SKILL.md` — reporting
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes

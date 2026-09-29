@@ -120,10 +120,10 @@ The output is a pricing architecture document with: tier × included-AI-allowanc
 
 - `references/saas-ai-pricing-architecture.md` — full architecture spec with worked example
 - `references/ai-feature-pricing-and-positioning.md` — positioning discipline (in `07-marketing-sales-strategy/references/`)
-- `skills/saas-pricing-and-packaging-strategy/SKILL.md` — sister skill (generic SaaS pricing)
-- `skills/meta-pricing-strategy/SKILL.md` — Kennedy/Marrs discipline (anti cost-plus, anti competitor-match)
-- `skills/10-financial-projections/saas-ai-cost-of-tenant-calculator/SKILL.md` — cost input
-- `skills/10-financial-projections/saas-ai-unit-economics-and-cogs/SKILL.md` — margin output
+- `skills/saas/saas-pricing-and-packaging-strategy/SKILL.md` — sister skill (generic SaaS pricing)
+- `skills/meta-pricing-gtm/meta-pricing-strategy/SKILL.md` — Kennedy/Marrs discipline (anti cost-plus, anti competitor-match)
+- `skills/pipeline/10-financial-projections/saas-ai-cost-of-tenant-calculator/SKILL.md` — cost input
+- `skills/pipeline/10-financial-projections/saas-ai-unit-economics-and-cogs/SKILL.md` — margin output
 - `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — pricing principles (section 9)
 - `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — pricing-as-CFO-discipline
 - `skills/meta-pricing-gtm/meta-pricing-strategy/references/price-strategy-audit-and-proposition-stack.md` — anti-cost-plus discipline

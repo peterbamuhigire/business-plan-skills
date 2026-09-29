@@ -9,7 +9,7 @@ cross-reference: [saas-agent-risk-and-stress-test, saas-agent-risk-register-temp
 
 When the plan is an agent business, use the full agent risk register template at:
 
-`skills/12-risk-analysis/saas-agent-risk-and-stress-test/references/saas-agent-risk-register-template.md`
+`skills/pipeline/12-risk-analysis/saas-agent-risk-and-stress-test/references/saas-agent-risk-register-template.md`
 
 That template covers:
 

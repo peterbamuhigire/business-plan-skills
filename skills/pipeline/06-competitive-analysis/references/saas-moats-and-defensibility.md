@@ -70,7 +70,7 @@ Where AI is part of the product:
 - AI-cost engineering (cheap inference vs API-call competitors)
 - AI-native workflow design that's hard to recreate
 
-(See `skills/14-ai-integration/references/saas-ai-feature-roadmap-in-business-plan.md` for the AI-moat test.)
+(See `skills/pipeline/14-ai-integration/references/saas-ai-feature-roadmap-in-business-plan.md` for the AI-moat test.)
 
 ## 4. The Moat Scoring Exercise
 

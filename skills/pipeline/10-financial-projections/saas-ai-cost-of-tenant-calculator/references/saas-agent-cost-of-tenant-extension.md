@@ -44,7 +44,7 @@ Full breakdown in `saas-agent-unit-economics-and-cogs/references/saas-agent-unit
 
 Use the full agent calculator spec at:
 
-`skills/10-financial-projections/saas-agent-unit-economics-and-cogs/references/saas-agent-cost-per-task-calculator-spec.md`
+`skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/references/saas-agent-cost-per-task-calculator-spec.md`
 
 That spec covers:
 - 6 worksheets (Inputs, Per-Task Computation, Sensitivity, Stress, Pricing Floor, Diagnostics)

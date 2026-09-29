@@ -175,19 +175,19 @@ Implications for agent gross margin:
 
 - `references/saas-agent-unit-economics-template.md` — formulas, worked example, COGS waterfall
 - `references/saas-agent-cost-per-task-calculator-spec.md` — calculator spec
-- `skills/10-financial-projections/saas-ai-unit-economics-and-cogs/SKILL.md` — parent AI unit economics
-- `skills/07-marketing-sales-strategy/saas-agent-pricing-strategy/SKILL.md` — pricing that protects agent margin
-- `skills/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — stress-test consumer
-- `skills/meta-agent-bankability-and-investor-readiness/SKILL.md` — bankability scorecard consumer
-- `skills/meta-living-plan-governance/SKILL.md` — governance discipline
+- `skills/pipeline/10-financial-projections/saas-ai-unit-economics-and-cogs/SKILL.md` — parent AI unit economics
+- `skills/pipeline/07-marketing-sales-strategy/saas-agent-pricing-strategy/SKILL.md` — pricing that protects agent margin
+- `skills/pipeline/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — stress-test consumer
+- `skills/meta-finance/meta-agent-bankability-and-investor-readiness/SKILL.md` — bankability scorecard consumer
+- `skills/meta-strategy/meta-living-plan-governance/SKILL.md` — governance discipline
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — agent audit
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — AI-on-SaaS audit
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — SLA + commercial audit
 - `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — CFO-grade SaaS discipline
-- `skills/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — SLA-COGS classification
-- `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — SLA-credit reserve, refund reserve, deferred revenue
-- `skills/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — ASC 606 / IFRS 15 per pricing primitive
-- `skills/10-financial-projections/saas-agent-sla-economics-in-projection/SKILL.md` — SLA performance as projection driver
+- `skills/pipeline/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — SLA-COGS classification
+- `skills/pipeline/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — SLA-credit reserve, refund reserve, deferred revenue
+- `skills/pipeline/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — ASC 606 / IFRS 15 per pricing primitive
+- `skills/pipeline/10-financial-projections/saas-agent-sla-economics-in-projection/SKILL.md` — SLA performance as projection driver
 
 ## Africa / Uganda Application Notes
 

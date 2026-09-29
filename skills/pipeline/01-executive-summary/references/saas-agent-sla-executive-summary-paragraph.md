@@ -102,13 +102,13 @@ Or, when space-constrained, fold the archetype declaration into the SLA paragrap
 
 ## Cross-References
 
-- `skills/01-executive-summary/references/saas-agent-executive-summary-block.md` — standard agent exec block
-- `skills/01-executive-summary/references/saas-ai-executive-summary-block.md` — AI-on-SaaS exec block
-- `skills/01-executive-summary/SKILL.md` — exec summary parent
-- `skills/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — investor narrative
-- `skills/meta-agent-valuation-overlay-for-sla/SKILL.md` — valuation overlay scoring
-- `skills/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — scorecard
-- `skills/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — rev-rec policy
+- `skills/pipeline/01-executive-summary/references/saas-agent-executive-summary-block.md` — standard agent exec block
+- `skills/pipeline/01-executive-summary/references/saas-ai-executive-summary-block.md` — AI-on-SaaS exec block
+- `skills/pipeline/01-executive-summary/SKILL.md` — exec summary parent
+- `skills/pipeline/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — investor narrative
+- `skills/meta-finance/meta-agent-valuation-overlay-for-sla/SKILL.md` — valuation overlay scoring
+- `skills/meta-finance/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — scorecard
+- `skills/pipeline/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — rev-rec policy
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes

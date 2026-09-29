@@ -140,15 +140,15 @@ The agent bankability scorecard sits **on top** of the prior two and adds the di
 ## References
 
 - `references/saas-agent-bankability-checklist.md` — the 7-dimension scorecard
-- `skills/meta-bankability-scoring/SKILL.md` — SaaS bankability parent
-- `skills/meta-ai-bankability-and-investor-readiness/SKILL.md` — AI bankability parent
-- `skills/saas-bankability-and-investor-readiness/SKILL.md` — SaaS readiness
-- `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — unit economics
-- `skills/06-competitive-analysis/saas-agent-moat-and-wrapper-risk/SKILL.md` — moat-vs-wrapper
-- `skills/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — risk register
-- `skills/09-management-team/saas-agent-talent-strategy/SKILL.md` — talent
-- `skills/07-marketing-sales-strategy/saas-agent-pricing-strategy/SKILL.md` — pricing
-- `skills/meta-due-diligence/SKILL.md` — DD readiness
+- `skills/meta-finance/meta-bankability-scoring/SKILL.md` — SaaS bankability parent
+- `skills/meta-finance/meta-ai-bankability-and-investor-readiness/SKILL.md` — AI bankability parent
+- `skills/saas/saas-bankability-and-investor-readiness/SKILL.md` — SaaS readiness
+- `skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — unit economics
+- `skills/pipeline/06-competitive-analysis/saas-agent-moat-and-wrapper-risk/SKILL.md` — moat-vs-wrapper
+- `skills/pipeline/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — risk register
+- `skills/pipeline/09-management-team/saas-agent-talent-strategy/SKILL.md` — talent
+- `skills/pipeline/07-marketing-sales-strategy/saas-agent-pricing-strategy/SKILL.md` — pricing
+- `skills/meta-strategy/meta-due-diligence/SKILL.md` — DD readiness
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — agent audit
 
 ## Africa / Uganda Application Notes

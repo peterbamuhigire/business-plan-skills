@@ -1,6 +1,6 @@
 # English Output Overlay - Business Plans
 
-[Owning skill](../SKILL.md) | Canonical study: `C:\wamp64\www\digital-research-skills\docs\continuous-improvement\english-collocations-and-lexical-precision-2026-09-02.md`
+[Owning skill](../SKILL.md) | Canonical study: `C:\wamp64\www\digital-research-engine\docs\continuous-improvement\english-collocations-and-lexical-precision-2026-09-02.md`
 
 Use this overlay after business-plan structure and evidence checks. Write like a
 highly educated professional: polished, exact, warm where useful, and restrained;

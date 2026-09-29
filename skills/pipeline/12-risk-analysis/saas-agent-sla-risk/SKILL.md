@@ -225,11 +225,11 @@ Per cadence below.
 
 - `references/saas-agent-sla-risk-register.md` — populated risk register
 - `references/saas-agent-sla-stress-test-scenarios.md` (lives under meta-financial-stress-test/references/) — stress scenarios
-- `skills/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — agent risk parent
-- `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserves
-- `skills/10-financial-projections/saas-agent-sla-economics-in-projection/SKILL.md` — projection
-- `skills/meta-agent-sla-financial-controls/SKILL.md` — controls
-- `skills/meta-financial-stress-test/SKILL.md` — stress-test parent
+- `skills/pipeline/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — agent risk parent
+- `skills/pipeline/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserves
+- `skills/pipeline/10-financial-projections/saas-agent-sla-economics-in-projection/SKILL.md` — projection
+- `skills/meta-finance/meta-agent-sla-financial-controls/SKILL.md` — controls
+- `skills/meta-finance/meta-financial-stress-test/SKILL.md` — stress-test parent
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes

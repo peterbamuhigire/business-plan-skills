@@ -200,11 +200,11 @@ Per cadence table below.
 ## References
 
 - `references/saas-agent-sla-cogs-policy.md` — full classification policy and disclosure language
-- `skills/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — contra-revenue side
-- `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserve side
-- `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — COGS waterfall consumer
-- `skills/meta-agent-sla-financial-controls/SKILL.md` — controls
-- `skills/meta-accounting-finance-review/SKILL.md` — accounting review gate
+- `skills/pipeline/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — contra-revenue side
+- `skills/pipeline/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserve side
+- `skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — COGS waterfall consumer
+- `skills/meta-finance/meta-agent-sla-financial-controls/SKILL.md` — controls
+- `skills/meta-finance/meta-accounting-finance-review/SKILL.md` — accounting review gate
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 - `skills/pipeline/10-financial-projections/references/finance-operating-system-and-controls-checklist.md` — controls reference
 

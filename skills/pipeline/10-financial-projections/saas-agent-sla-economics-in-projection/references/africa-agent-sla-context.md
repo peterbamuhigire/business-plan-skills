@@ -240,12 +240,12 @@ This Africa-context reference sits beneath:
 
 ## Cross-References
 
-- `skills/10-financial-projections/saas-agent-sla-economics-in-projection/SKILL.md` — projection parent
-- `skills/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — rev-rec
-- `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserves
-- `skills/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — COGS
-- `skills/12-risk-analysis/saas-agent-sla-risk/SKILL.md` — risk register
-- `skills/meta-agent-sla-financial-controls/SKILL.md` — controls
-- `skills/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
+- `skills/pipeline/10-financial-projections/saas-agent-sla-economics-in-projection/SKILL.md` — projection parent
+- `skills/pipeline/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — rev-rec
+- `skills/pipeline/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserves
+- `skills/pipeline/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — COGS
+- `skills/pipeline/12-risk-analysis/saas-agent-sla-risk/SKILL.md` — risk register
+- `skills/meta-finance/meta-agent-sla-financial-controls/SKILL.md` — controls
+- `skills/pipeline/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
 - `country-context/` — country-specific regulator and currency context
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit

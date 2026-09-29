@@ -9,7 +9,7 @@ cross-reference: [meta-agent-valuation-adjustments, saas-agent-valuation-adjustm
 
 When the plan is an agent business, use the full agent valuation adjustment module at:
 
-`skills/meta-agent-valuation-adjustments/references/saas-agent-valuation-adjustments.md`
+`skills/meta-finance/meta-agent-valuation-adjustments/references/saas-agent-valuation-adjustments.md`
 
 That module covers:
 

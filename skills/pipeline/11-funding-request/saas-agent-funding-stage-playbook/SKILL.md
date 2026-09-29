@@ -115,10 +115,10 @@ AI funding (handled by `saas-ai-funding-stage-playbook`) maps AI startups to AI-
 ## References
 
 - `references/saas-agent-funding-stage-playbook.md` — stage-by-stage detail; investor archetypes; use-of-proceeds patterns
-- `skills/11-funding-request/saas-ai-funding-stage-playbook/SKILL.md` — AI parent
-- `skills/meta-agent-bankability-and-investor-readiness/SKILL.md` — bankability gate
-- `skills/meta-agent-valuation-adjustments/SKILL.md` — valuation
-- `skills/meta-due-diligence/SKILL.md` — DD
+- `skills/pipeline/11-funding-request/saas-ai-funding-stage-playbook/SKILL.md` — AI parent
+- `skills/meta-finance/meta-agent-bankability-and-investor-readiness/SKILL.md` — bankability gate
+- `skills/meta-finance/meta-agent-valuation-adjustments/SKILL.md` — valuation
+- `skills/meta-strategy/meta-due-diligence/SKILL.md` — DD
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes

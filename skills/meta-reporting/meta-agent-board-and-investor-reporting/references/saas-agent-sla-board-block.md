@@ -172,12 +172,12 @@ We met or exceeded all SLA commitments this quarter. Uptime {x%} (commit {y%}); 
 
 ## Cross-References
 
-- `skills/meta-agent-board-and-investor-reporting/SKILL.md` — board reporting parent
-- `skills/meta-agent-sla-financial-controls/SKILL.md` — controls
-- `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserves
-- `skills/12-risk-analysis/saas-agent-sla-risk/references/saas-agent-sla-risk-register.md` — risk register
-- `skills/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
-- `skills/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — scorecard
+- `skills/meta-reporting/meta-agent-board-and-investor-reporting/SKILL.md` — board reporting parent
+- `skills/meta-finance/meta-agent-sla-financial-controls/SKILL.md` — controls
+- `skills/pipeline/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserves
+- `skills/pipeline/12-risk-analysis/saas-agent-sla-risk/references/saas-agent-sla-risk-register.md` — risk register
+- `skills/pipeline/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
+- `skills/meta-finance/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — scorecard
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes

@@ -168,10 +168,10 @@ When agent pricing includes **multi-tier SLA** (bronze / silver / gold or simila
 
 - `references/saas-agent-pricing-architecture.md` — primitives, corridor analysis, worked examples
 - `references/agent-pricing-and-positioning.md` — positioning ("we charge per resolved ticket, not per seat")
-- `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — cost floor
-- `skills/07-marketing-sales-strategy/saas-ai-pricing-strategy/SKILL.md` — AI pricing parent
-- `skills/saas-pricing-and-packaging-strategy/SKILL.md` — SaaS pricing parent
-- `skills/meta-pricing-strategy/SKILL.md` — Kennedy / Marrs pricing discipline
+- `skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — cost floor
+- `skills/pipeline/07-marketing-sales-strategy/saas-ai-pricing-strategy/SKILL.md` — AI pricing parent
+- `skills/saas/saas-pricing-and-packaging-strategy/SKILL.md` — SaaS pricing parent
+- `skills/meta-pricing-gtm/meta-pricing-strategy/SKILL.md` — Kennedy / Marrs pricing discipline
 - `skills/meta-pricing-gtm/meta-pricing-strategy/references/price-strategy-audit-and-proposition-stack.md` — pricing-psychology
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — agent audit
 - `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — SaaS pricing

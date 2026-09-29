@@ -124,9 +124,9 @@ Together these produce the AI Gross Margin, AI Contribution Margin per tier, ble
 - `references/saas-ai-cost-of-tenant-calculator.md` — calculator spec, sensitivity matrix
 - `references/saas-ai-pricing-architecture.md` — pricing levers that protect AI margin
 - `references/saas-ai-stress-test-scenarios.md` — stress scenarios with quantified impact
-- `skills/saas-unit-economics-and-cohort-model/SKILL.md` — sister skill (standard SaaS unit economics)
-- `skills/14-ai-integration/references/saas-ai-feature-roadmap-in-business-plan.md` — AI roadmap discipline
-- `skills/meta-living-plan-governance/SKILL.md` — living-plan governance
+- `skills/saas/saas-unit-economics-and-cohort-model/SKILL.md` — sister skill (standard SaaS unit economics)
+- `skills/pipeline/14-ai-integration/references/saas-ai-feature-roadmap-in-business-plan.md` — AI roadmap discipline
+- `skills/meta-strategy/meta-living-plan-governance/SKILL.md` — living-plan governance
 - `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — CFO-grade SaaS discipline
 - `skills/pipeline/08-operations-plan/references/saas-tenancy-model-and-msp-trap-test.md` — multi-tenant cost realities
 

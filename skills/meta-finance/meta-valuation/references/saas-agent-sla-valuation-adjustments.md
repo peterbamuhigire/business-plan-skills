@@ -122,11 +122,11 @@ The SLA-overlay row should reference the scoring rubric and bankability checklis
 
 ## Cross-References
 
-- `skills/meta-valuation/SKILL.md` — valuation parent
-- `skills/meta-agent-valuation-adjustments/SKILL.md` — agent valuation parent
-- `skills/meta-agent-valuation-overlay-for-sla/SKILL.md` — overlay skill
-- `skills/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — bankability evidence
-- `skills/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
+- `skills/meta-finance/meta-valuation/SKILL.md` — valuation parent
+- `skills/meta-finance/meta-agent-valuation-adjustments/SKILL.md` — agent valuation parent
+- `skills/meta-finance/meta-agent-valuation-overlay-for-sla/SKILL.md` — overlay skill
+- `skills/meta-finance/meta-bankability-scoring/references/saas-agent-sla-bankability-checklist.md` — bankability evidence
+- `skills/pipeline/11-funding-request/saas-agent-investor-narrative-on-sla/SKILL.md` — narrative
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes

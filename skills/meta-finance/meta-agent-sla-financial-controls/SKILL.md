@@ -238,11 +238,11 @@ Per cadence below.
 ## References
 
 - `references/saas-agent-sla-financial-controls-policy.md` — full controls policy
-- `skills/meta-agent-revenue-recognition-policy/SKILL.md` — policy declaration
-- `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserves
-- `skills/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — classification
-- `skills/meta-accounting-finance-review/SKILL.md` — accounting review parent
-- `skills/12-risk-analysis/saas-agent-sla-risk/SKILL.md` — risk register
+- `skills/meta-finance/meta-agent-revenue-recognition-policy/SKILL.md` — policy declaration
+- `skills/pipeline/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserves
+- `skills/pipeline/10-financial-projections/saas-agent-sla-cogs-treatment/SKILL.md` — classification
+- `skills/meta-finance/meta-accounting-finance-review/SKILL.md` — accounting review parent
+- `skills/pipeline/12-risk-analysis/saas-agent-sla-risk/SKILL.md` — risk register
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 - `skills/pipeline/10-financial-projections/references/finance-operating-system-and-controls-checklist.md` — controls reference
 

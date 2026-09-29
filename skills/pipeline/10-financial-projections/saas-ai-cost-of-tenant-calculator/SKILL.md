@@ -152,8 +152,8 @@ The calculator answers four questions an AI-aware investor will ask within the f
 
 - `references/saas-ai-cost-of-tenant-calculator.md` — full formula spec, worksheet structure, sensitivity matrix, worked example
 - `references/saas-ai-pricing-architecture.md` — how cost links to pricing
-- `skills/10-financial-projections/saas-ai-unit-economics-and-cogs/SKILL.md` — sister skill
-- `skills/14-ai-integration/references/saas-ai-feature-roadmap-in-business-plan.md` — roadmap discipline
+- `skills/pipeline/10-financial-projections/saas-ai-unit-economics-and-cogs/SKILL.md` — sister skill
+- `skills/pipeline/14-ai-integration/references/saas-ai-feature-roadmap-in-business-plan.md` — roadmap discipline
 - `skills/pipeline/08-operations-plan/references/saas-tenancy-model-and-msp-trap-test.md` — multi-tenant cost realities
 
 ## Africa / Uganda Application Notes

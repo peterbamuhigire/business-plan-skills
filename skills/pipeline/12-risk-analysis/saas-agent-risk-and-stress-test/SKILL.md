@@ -171,15 +171,15 @@ Each scenario is sized for revenue impact, reserve impact, valuation hit, and re
 - `references/saas-agent-risk-register-template.md` — populated risk register
 - `references/saas-agent-stress-test-scenarios.md` — quantified stress scenarios
 - `references/agent-operations-runbook-summary.md` — kill-switch, audit, drill summary (also lives at `08-operations-plan/references/`)
-- `skills/12-risk-analysis/saas-ai-risk-and-stress-test/SKILL.md` — AI risk parent
-- `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — reserves consumer
-- `skills/meta-financial-stress-test/SKILL.md` — financial stress-test discipline
-- `skills/meta-agent-bankability-and-investor-readiness/SKILL.md` — bankability scorecard consumer
-- `skills/12-risk-analysis/saas-agent-sla-risk/SKILL.md` — SLA-specific risk register
-- `skills/12-risk-analysis/saas-agent-sla-risk/references/saas-agent-sla-risk-register.md` — populated SLA risk register
-- `skills/meta-financial-stress-test/references/saas-agent-sla-stress-test-scenarios.md` — 8 standardised SLA stress scenarios with financial impact
-- `skills/meta-agent-sla-financial-controls/SKILL.md` — controls evidence
-- `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — SLA-credit and refund reserve methodology
+- `skills/pipeline/12-risk-analysis/saas-ai-risk-and-stress-test/SKILL.md` — AI risk parent
+- `skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — reserves consumer
+- `skills/meta-finance/meta-financial-stress-test/SKILL.md` — financial stress-test discipline
+- `skills/meta-finance/meta-agent-bankability-and-investor-readiness/SKILL.md` — bankability scorecard consumer
+- `skills/pipeline/12-risk-analysis/saas-agent-sla-risk/SKILL.md` — SLA-specific risk register
+- `skills/pipeline/12-risk-analysis/saas-agent-sla-risk/references/saas-agent-sla-risk-register.md` — populated SLA risk register
+- `skills/meta-finance/meta-financial-stress-test/references/saas-agent-sla-stress-test-scenarios.md` — 8 standardised SLA stress scenarios with financial impact
+- `skills/meta-finance/meta-agent-sla-financial-controls/SKILL.md` — controls evidence
+- `skills/pipeline/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — SLA-credit and refund reserve methodology
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — agent audit
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — SLA + commercial audit
 

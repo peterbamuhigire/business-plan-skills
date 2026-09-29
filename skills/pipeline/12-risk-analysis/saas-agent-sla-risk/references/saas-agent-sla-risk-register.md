@@ -249,10 +249,10 @@ Scoring: **Likelihood** (1=rare, 5=near-certain); **Impact** (1=immaterial, 5=ex
 
 ## Cross-References
 
-- `skills/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — agent risk register parent
-- `skills/meta-financial-stress-test/references/saas-agent-sla-stress-test-scenarios.md` — financial scenarios
-- `skills/meta-agent-sla-financial-controls/references/saas-agent-sla-financial-controls-policy.md` — controls
-- `skills/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserves
+- `skills/pipeline/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — agent risk register parent
+- `skills/meta-finance/meta-financial-stress-test/references/saas-agent-sla-stress-test-scenarios.md` — financial scenarios
+- `skills/meta-finance/meta-agent-sla-financial-controls/references/saas-agent-sla-financial-controls-policy.md` — controls
+- `skills/pipeline/10-financial-projections/saas-agent-deferred-revenue-and-credit-reserves/SKILL.md` — reserves
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes

@@ -122,10 +122,10 @@ ESG and IFC Performance Standards now include AI dimensions. AI training and inf
 ## References
 
 - `references/ai-ethics-and-sustainability-block.md` — full ethics + sustainability framework with worked examples
-- `skills/16-sustainability-strategy/SKILL.md` — generic sustainability flow
-- `skills/12-risk-analysis/saas-ai-risk-and-stress-test/SKILL.md` — risk cross-reference
+- `skills/pipeline/16-sustainability-strategy/SKILL.md` — generic sustainability flow
+- `skills/pipeline/12-risk-analysis/saas-ai-risk-and-stress-test/SKILL.md` — risk cross-reference
 - `skills/meta-sustainability/SKILL.md` — IFC PS framework
-- `skills/14-ai-integration/references/ai-sustainability-tools.md` — sustainability tools reference
+- `skills/pipeline/14-ai-integration/references/ai-sustainability-tools.md` — sustainability tools reference
 - `skills/saas/saas-unit-economics-and-cohort-model/references/saas-metric-families-and-segment-profiles.md` — SaaS sustainability angle
 
 ## Africa / Uganda Application Notes

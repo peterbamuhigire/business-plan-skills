@@ -107,10 +107,10 @@ AI product strategy covers feature-vs-platform, AI-native vs AI-augmented, build
 ## References
 
 - `references/saas-agent-product-strategy-template.md` — build / buy decisions; ladder design
-- `skills/03-products-services/saas-ai-product-strategy-and-roadmap/SKILL.md` — parent
-- `skills/06-competitive-analysis/saas-agent-moat-and-wrapper-risk/SKILL.md` — moat input
-- `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — cost gate
-- `skills/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — risk
+- `skills/pipeline/03-products-services/saas-ai-product-strategy-and-roadmap/SKILL.md` — parent
+- `skills/pipeline/06-competitive-analysis/saas-agent-moat-and-wrapper-risk/SKILL.md` — moat input
+- `skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — cost gate
+- `skills/pipeline/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — risk
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes

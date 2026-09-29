@@ -245,12 +245,12 @@ Per cadence below.
 ## References
 
 - `references/saas-agent-commercial-packaging-economics-template.md` — full worked model
-- `skills/07-marketing-sales-strategy/saas-agent-pricing-strategy/SKILL.md` — pricing primitive parent
-- `skills/saas-pricing-and-packaging-strategy/SKILL.md` — SaaS packaging parent
-- `skills/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — rev-rec on packaging migration
-- `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — cost floor
-- `skills/saas-customer-success-operating-model/SKILL.md` — CS motion
-- `skills/saas-gtm-motion-design/SKILL.md` — sales motion
+- `skills/pipeline/07-marketing-sales-strategy/saas-agent-pricing-strategy/SKILL.md` — pricing primitive parent
+- `skills/saas/saas-pricing-and-packaging-strategy/SKILL.md` — SaaS packaging parent
+- `skills/pipeline/10-financial-projections/saas-agent-revenue-recognition/SKILL.md` — rev-rec on packaging migration
+- `skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — cost floor
+- `skills/saas/saas-customer-success-operating-model/SKILL.md` — CS motion
+- `skills/saas/saas-gtm-motion-design/SKILL.md` — sales motion
 - `skills/saas/saas-valuation-and-fundraising-strategy/references/bootstrapped-saas-strategy-tests.md` — SaaS packaging
 - `skills/saas/saas-gtm-motion-design/references/saas-scaling-rules-and-discount-governance.md` — packaging-vs-pricing distinction
 

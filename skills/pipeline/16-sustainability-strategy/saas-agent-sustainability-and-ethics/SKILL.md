@@ -122,10 +122,10 @@ AI ethics (handled by `saas-ai-sustainability-and-ethics`) covers fairness, tran
 ## References
 
 - `references/agent-ethics-and-sustainability-block.md` — Section 16 block template (also lives at `16-sustainability-strategy/references/`)
-- `skills/16-sustainability-strategy/saas-ai-sustainability-and-ethics/SKILL.md` — AI parent
-- `skills/16-sustainability-strategy/SKILL.md` — generic
-- `skills/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — risk
-- `skills/meta-agent-bankability-and-investor-readiness/SKILL.md` — bankability
+- `skills/pipeline/16-sustainability-strategy/saas-ai-sustainability-and-ethics/SKILL.md` — AI parent
+- `skills/pipeline/16-sustainability-strategy/SKILL.md` — generic
+- `skills/pipeline/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — risk
+- `skills/meta-finance/meta-agent-bankability-and-investor-readiness/SKILL.md` — bankability
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — audit
 
 ## Africa / Uganda Application Notes

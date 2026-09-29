@@ -140,13 +140,13 @@ The dispersion of agent-business multiples in 2025-2026 is wider than any other 
 ## References
 
 - `references/saas-agent-valuation-adjustments.md` — adjustment table by archetype and dimension
-- `skills/meta-valuation/SKILL.md` — SaaS valuation parent
-- `skills/meta-ai-valuation-adjustments/SKILL.md` — AI valuation parent
-- `skills/saas-valuation-and-fundraising-strategy/SKILL.md` — SaaS fundraising
-- `skills/06-competitive-analysis/saas-agent-moat-and-wrapper-risk/SKILL.md` — moat score input
-- `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — UE input
-- `skills/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — stress input
-- `skills/11-funding-request/saas-agent-funding-stage-playbook/SKILL.md` — funding consumer
+- `skills/meta-finance/meta-valuation/SKILL.md` — SaaS valuation parent
+- `skills/meta-finance/meta-ai-valuation-adjustments/SKILL.md` — AI valuation parent
+- `skills/saas/saas-valuation-and-fundraising-strategy/SKILL.md` — SaaS fundraising
+- `skills/pipeline/06-competitive-analysis/saas-agent-moat-and-wrapper-risk/SKILL.md` — moat score input
+- `skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/SKILL.md` — UE input
+- `skills/pipeline/12-risk-analysis/saas-agent-risk-and-stress-test/SKILL.md` — stress input
+- `skills/pipeline/11-funding-request/saas-agent-funding-stage-playbook/SKILL.md` — funding consumer
 - `skills/pipeline/14-ai-integration/references/ai-agent-sla-layer-archetypes-and-handoffs.md` — agent audit
 
 ## Africa / Uganda Application Notes
