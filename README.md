@@ -23,7 +23,7 @@ cd business-plan-skills
 
 On Windows PowerShell, run `./install.ps1 -scope project`. The wrappers also support user scope and dry-run options; see their help before installing. This engine's optional sister-engine routes are described in `AGENTS.md`.
 
-## Skills
+## Capabilities
 
 | Category | Skill routes | Coverage |
 |---|---:|---|
@@ -47,4 +47,5 @@ Browse the [skills directory](skills/) and [country-context directory](country-c
 - [Business-plan orchestrator](skills/meta-strategy/business-plan-orchestrator/SKILL.md)
 - [Marketing-plan orchestrator](skills/marketing-sales/marketing-plan-orchestrator/SKILL.md)
 - [Country contexts](country-context/)
+- [Runtime-agnostic orchestration contract](docs/operations/runtime-agnostic-orchestration-2026-09-07.md) for multi-phase work: scoped work packages, evidence checkpoints, context hygiene, least agency, and sanitised handling of external content
 - [Installer scripts](install.sh), [Windows installer](install.ps1)
