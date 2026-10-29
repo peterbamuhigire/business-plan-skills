@@ -98,3 +98,18 @@ skill validator. Root's focused reconciliation/package suite passes 21 tests
 and 53 subtests. Broken evidence links were corrected; the original frozen
 scorecard remains distinct from the later calibrated review. Current source
 renewal remains blocked for the ten overdue records.
+
+## Independent acceptance and final native proof
+
+Independent Luna/high review accepted the narrow workbook proof, official
+indicator snapshots and explicitly stale source rows. It repaired the direct
+package-test runner order (`58817d0`) and remaining renamed-evidence links
+(`0fd8bb7`). Root's full suite passes **80 tests and 56 subtests**; the reviewed
+package/reconciliation subset passes 21 tests and 53 subtests.
+
+At clean `58817d0`, both native CLIs installed the repaired package offline.
+Codex prompt-input exposes **137/137** canonical skill paths with explicit
+Luna/high and a 10,000-token skills budget, no model call. The subsequent
+changes repair documentation links only. The installed plugin capability is
+therefore broader than the previous 134-path proof; public approval and runtime
+behaviour remain separate and unassessed.
