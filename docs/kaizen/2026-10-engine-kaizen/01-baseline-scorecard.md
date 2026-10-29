@@ -54,3 +54,31 @@ Dynamic source claims in the baseline scope are linked at the point of use in
 tax pages were not copied into this scorecard as current law or assumptions.
 The model policy remains Luna/high because official release recency and the
 local runtime list do not provide comparative task-quality evidence.
+
+
+## Post-freeze calibration supplement (2026-10-29)
+
+The original frozen values above remain unchanged: raw 60.0, Portfolio Standard
+60.0, and user-requested initial-cycle cap 45. A later reassessment by the
+same worker found the original dimension ratings over-weighted structural
+coverage as proof of practitioner performance, output readiness, and safety.
+This supplement records that judgement separately; it does not backdate it or
+replace the original pre-change record.
+
+| Dimension | Reassessed baseline raw /100 | Reason for lower calibration |
+|---|---:|---|
+| Doctrine | 50 | Written controls were read, but no independently reviewed complete real engagement was supplied. |
+| Taxonomy and routing | 55 | 61/61 top-three lexical matches; no precision@1 or live-agent result. |
+| Skill depth | 50 | Workflows inspected; skill behavior across the catalogue was not exercised. |
+| Applied proof | 30 | Synthetic mismatch false negative; no reconciled independently reviewed output. |
+| Standards currency | 25 | Ten source entries overdue; tax, FX, and jurisdiction-specific claims unresolved. |
+| Output readiness | 50 | Structural bundles only; workbook arithmetic, rendering, accessibility, and authority gaps. |
+| Accessibility and inclusion | 25 | No complete rendered plan or accessibility review. |
+| Production and handoff | 45 | Release workflow inspected; no end-to-end reviewed handoff. |
+| Hygiene | 55 | Contract validator passed but missed the C0 byte and currentness state drift. |
+| Safety and integrity | 40 | Structural workbook PASS hid the synthetic mismatch. |
+
+Reassessed baseline raw: `(50 + 55 + 50 + 30 + 25 + 50 + 25 + 45 + 55 + 40) / 10 = 42.5`.
+Portfolio Standard cap: `min(42.5, 65) = 42.5`. User-requested initial baseline
+cap: `min(42.5, 45) = 42.5`. The final report presents both original frozen and
+recalibrated baseline values alongside final raw, Standard and user-cap scores.

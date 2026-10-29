@@ -21,7 +21,7 @@ Read the repository router and the `business-plan-orchestrator` and
 `source-verification`, and portfolio currentness gate; the Portfolio Kaizen
 Standard; the September audit/readiness review; the adoption plan; the July
 upgrade index; and the current FP&A assumption-trace reference. The exact
-three practitioner outputs are preserved in [00-practitioner-tasks.md](00-practitioner-tasks.md).
+three practitioner outputs are preserved in [03-experiment-log.md](03-experiment-log.md#full-practitioner-task-outputs).
 
 | Task | Route selected | Observation |
 |---|---|---|

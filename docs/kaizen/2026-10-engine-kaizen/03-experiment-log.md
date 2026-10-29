@@ -1,4 +1,36 @@
-# Practitioner task outputs
+# Experiment log
+
+Access date: 2026-10-29. The three full practitioner task outputs are retained
+in [`00-practitioner-tasks.md`](00-practitioner-tasks.md). Company and workbook
+values in those tasks are synthetic. No client, lender or investor file was
+supplied.
+
+| ID | Experiment and inputs | Observed result | Decision / limits |
+|---|---|---|---|
+| E1 | Before change, run the original formula-map on the retained synthetic workbook with cash 100, balance-sheet cash 80, `=B1-B2`, blank cached result. | Structural PASS with zero findings. | Confirmed mismatch-detection false negative. Original report retained at [`labs/synthetic-mismatch-audit.json`](labs/synthetic-mismatch-audit.json). |
+| E2 | Run the required cell-level contract against the same mismatched workbook. | Exit 1 with `reconciliation-values-differ` and `reconciliation-cache-missing`; output retained in [`labs/synthetic-mismatch-final-audit.json`](labs/synthetic-mismatch-final-audit.json). | Demonstrates the known mismatch is detected. Not a real client financial result. |
+| E3 | Generate a passing report from an OOXML fixture with equal numeric source cells, declared subtraction, zero difference and a numeric cached value. Re-run release validation using the XLSX and contract. | Matching proof is accepted only after recomputing workbook reconciliation; wrong hashes, altered report checks, missing contract/report, and a forged PASS over a mismatched workbook are rejected by tests. | This validates the narrow criterion only. Contract cell selection still needs reviewer judgement; no arbitrary spreadsheet graph is recalculated. |
+| E4 | Test a due-date-expired entry while status is `verified-current`; run the repository register check after marking the ten overdue entries `stale`. | The negative lifecycle fixture is rejected for contradictory status; repository check still exits 1 on ten overdue rows. | No source was renewed by date/status edits. Source-level renewal remains open. |
+| E5 | Scan the repaired retail reference and run its focused C0 regression test. | The reference contains no non-whitespace C0 byte; test passes. | No repo-wide byte scan is claimed. |
+| E6 | Validate Claude manifests; install Claude plugin and Codex plugin from their local catalogues in disposable offline containers with the checkout mounted read-only. | Both native marketplace add/install/list workflows succeed; Claude validator passes with plugin-directory warnings. | No host configuration, public submission, or model call. Strict Claude validator still rejects warnings; public acceptance remains not assessed. |
+| E7 | Exercise the hard-cap helper at 5,000 and 5,001 for both counts, attempt a CLI override, then count the worktree. | Boundary exactly at cap passes; 5,001 and any unsupported override fail; observed pre-commit counts are in [`05-final-report.md`](05-final-report.md). | Count is not a built archive. Official ZIP limit source is linked in that report. |
+
+## Practitioner output summary
+
+1. **Synthetic bank plan:** route selection is appropriate; no actual entity,
+   customer, lender terms, market, accounting basis, tax, or reviewer evidence
+   was supplied. No bankability conclusion is supportable.
+2. **Investor version:** retains the same synthetic assumptions and arithmetic;
+   there is no product, cap table, terms, valuation, or independent-review
+   evidence to support investor claims.
+3. **Workbook mismatch:** the baseline false negative is reproducible and now
+   fails through the required narrow contract. This does not establish that all
+   workbook arithmetic is correct.
+
+Detailed synthetic inputs and explicit financial omissions are in the linked
+practitioner task output. Dynamic official indicators and model-release
+currentness findings are in [`00-scope-and-evidence.md`](00-scope-and-evidence.md).
+## Full practitioner task outputs
 
 All company-specific values below are explicitly synthetic test inputs, not observations about a real business or Ugandan market. The fixture is intentionally small to exercise routing and reconciliation logic. The source and rationale for each number is the synthetic input itself in this report; these figures must not be presented as externally evidenced, forecast, lender-approved, or accounting-approved facts. Currency is UGX; values shown in UGX millions unless stated. No tax rate or lending rate is assumed.
 
