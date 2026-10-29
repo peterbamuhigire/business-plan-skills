@@ -98,6 +98,7 @@ account entitlement remain **NOT_ASSESSED**. No paid call was made.
    claim about every host.
 
 The baseline code task outputs, run commands, counts, and limitations are
-recorded in `00-practitioner-tasks.md`; the frozen numeric assessment is in
-`01-baseline-scorecard.md`. Baseline measurements are from the unchanged
-checkout and prepared logs, not post-change results.
+recorded in the [full practitioner task outputs](03-experiment-log.md#full-practitioner-task-outputs);
+the frozen numeric assessment is in `01-baseline-scorecard.md`. Baseline
+measurements are from the unchanged checkout and prepared logs, not
+post-change results.

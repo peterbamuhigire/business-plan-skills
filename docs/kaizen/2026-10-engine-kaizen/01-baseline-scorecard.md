@@ -41,7 +41,7 @@ The 95/100 figure is a target, not an achieved result.
 | Sector gate | 12 families, 24 gates; exit 0 | Structural completeness, not competent-authority clearance. |
 | Exemplar packs | 4 packs, 32 artefacts; each schema-valid but decision `blocked` | Not a release pass. |
 | Workbook verification | 7/7 workbooks readable and expected sheet names present | Does not calculate or reconcile formulas. |
-| Mismatch specimen | Cash flow 100 vs balance-sheet cash 80; formula `=B1-B2`, blank cached result; formula-map exit 0, zero findings | Reproduced in `00-practitioner-tasks.md` and retained workbook/audit files. |
+| Mismatch specimen | Cash flow 100 vs balance-sheet cash 80; formula `=B1-B2`, blank cached result; formula-map exit 0, zero findings | Reproduced in the [full practitioner task outputs](03-experiment-log.md#full-practitioner-task-outputs) and retained workbook/audit files. |
 | Checkout capacity | 1,163 file entries full checkout / 1,125 package-oriented at the unchanged preparation snapshot | Count method: `os.walk`, files and symlink entries, no symlink-directory traversal; package excludes `.git`, caches, venvs and `node_modules`. This is not a built archive count. |
 | Native runtime | Root-provided offline debug summary: default 117/134 paths, configured 134/134 | Tested runtime invocation only; no account-wide guarantee. |
 | Owned negatives and coverage | Full per-skill owned-negative and 3-positive/2-negative coverage census **NOT_ASSESSED** | Do not infer from routing top-three result. |
