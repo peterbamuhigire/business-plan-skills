@@ -19,9 +19,9 @@
       ],
       "checked_on": "2026-07-13",
       "recheck_due": "2026-10-13",
-      "status": "verified-current",
+      "status": "stale",
       "owner": "country-context maintainer",
-      "note": "Use the latest dated release relevant to the claim; the portal is not itself evidence for a figure."
+      "note": "Use the latest dated release relevant to the claim; the portal is not itself evidence for a figure. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
     },
     {
       "id": "KE-KNBS-STATISTICAL-ABSTRACT",
@@ -39,9 +39,9 @@
       ],
       "checked_on": "2026-07-13",
       "recheck_due": "2026-10-13",
-      "status": "verified-current",
+      "status": "stale",
       "owner": "country-context maintainer",
-      "note": "Select the chapter and table whose period and definition match the plan claim."
+      "note": "Select the chapter and table whose period and definition match the plan claim. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
     },
     {
       "id": "TZ-NBS-STATISTICAL-ABSTRACT",
@@ -59,9 +59,9 @@
       ],
       "checked_on": "2026-07-13",
       "recheck_due": "2026-10-13",
-      "status": "verified-current",
+      "status": "stale",
       "owner": "country-context maintainer",
-      "note": "Use the latest published abstract and retain the table, period, and access date."
+      "note": "Use the latest published abstract and retain the table, period, and access date. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
     },
     {
       "id": "UG-URA-TAX-GUIDANCE",
@@ -78,9 +78,9 @@
       ],
       "checked_on": "2026-09-24",
       "recheck_due": "2026-10-24",
-      "status": "verified-current",
+      "status": "stale",
       "owner": "finance gate owner",
-      "note": "Verify the current Act, Finance Act, effective date, and taxpayer facts before using a rate or threshold."
+      "note": "Verify the current Act, Finance Act, effective date, and taxpayer facts before using a rate or threshold. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
     },
     {
       "id": "UG-URSB-BUSINESS-REGISTRATION",
@@ -96,9 +96,9 @@
       ],
       "checked_on": "2026-07-13",
       "recheck_due": "2026-10-13",
-      "status": "verified-current",
+      "status": "stale",
       "owner": "country-context maintainer",
-      "note": "Confirm entity-specific forms, fees, and filing steps at the time of use."
+      "note": "Confirm entity-specific forms, fees, and filing steps at the time of use. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
     },
     {
       "id": "UG-NEMA-REGULATIONS",
@@ -116,9 +116,9 @@
       ],
       "checked_on": "2026-09-24",
       "recheck_due": "2026-10-24",
-      "status": "verified-current",
+      "status": "stale",
       "owner": "regulatory gate owner",
-      "note": "Screen the actual project and location; do not infer an approval requirement from sector alone."
+      "note": "Screen the actual project and location; do not infer an approval requirement from sector alone. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
     },
     {
       "id": "UG-UNBS-STANDARDS",
@@ -135,9 +135,9 @@
       ],
       "checked_on": "2026-07-13",
       "recheck_due": "2026-10-13",
-      "status": "verified-current",
+      "status": "stale",
       "owner": "regulatory gate owner",
-      "note": "Identify the product-specific compulsory standard and current conformity route."
+      "note": "Identify the product-specific compulsory standard and current conformity route. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
     },
     {
       "id": "UG-UCC-LICENSING",
@@ -154,9 +154,9 @@
       ],
       "checked_on": "2026-07-13",
       "recheck_due": "2026-10-13",
-      "status": "verified-current",
+      "status": "stale",
       "owner": "regulatory gate owner",
-      "note": "Confirm whether the proposed service is regulated before modelling licence cost or lead time."
+      "note": "Confirm whether the proposed service is regulated before modelling licence cost or lead time. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
     },
     {
       "id": "UG-BOU-SUPERVISION",
@@ -173,9 +173,9 @@
       ],
       "checked_on": "2026-09-24",
       "recheck_due": "2026-10-24",
-      "status": "verified-current",
+      "status": "stale",
       "owner": "finance gate owner",
-      "note": "Regulatory perimeter and licensing status require competent legal and regulatory review."
+      "note": "Regulatory perimeter and licensing status require competent legal and regulatory review. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
     },
     {
       "id": "GLOBAL-WORLD-BANK-DATA",
@@ -191,9 +191,9 @@
       ],
       "checked_on": "2026-07-13",
       "recheck_due": "2026-10-13",
-      "status": "verified-current",
+      "status": "stale",
       "owner": "research lead",
-      "note": "Record indicator code, edition, country, year, and retrieval date; do not substitute regional data for national evidence."
+      "note": "Record indicator code, edition, country, year, and retrieval date; do not substitute regional data for national evidence. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
     },
     {
       "id": "UG-DPPA-2019-AND-REGULATIONS-2021",

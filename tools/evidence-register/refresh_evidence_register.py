@@ -43,6 +43,8 @@ def validate(path: Path, today: date | None = None) -> list[str]:
                 errors.append(f"{entry['id']}: recheck precedes check")
             if due < today:
                 errors.append(f"{entry['id']}: evidence refresh overdue since {due}")
+                if entry["status"] == "verified-current":
+                    errors.append(f"{entry['id']}: overdue evidence cannot remain verified-current")
         except ValueError:
             errors.append(f"{entry['id']}: invalid ISO date")
         if entry["status"] not in {"verified-current", "verified-with-caveat", "stale", "no-source-found"}:

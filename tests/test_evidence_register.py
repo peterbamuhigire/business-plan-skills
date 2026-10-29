@@ -26,6 +26,22 @@ class EvidenceRegisterTests(unittest.TestCase):
             errors = MODULE.validate(path, date(2026, 7, 13))
         self.assertTrue(any("overdue" in error for error in errors))
 
+    def test_overdue_entry_cannot_remain_verified_current(self):
+        source = json.loads(MODULE.DEFAULT_REGISTER.read_text(encoding="utf-8"))
+        source["entries"][0]["recheck_due"] = "2026-01-01"
+        source["entries"][0]["status"] = "verified-current"
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "register.json"
+            path.write_text(json.dumps(source), encoding="utf-8")
+            errors = MODULE.validate(path, date(2026, 7, 13))
+        self.assertTrue(any("cannot remain verified-current" in error for error in errors))
+
+    def test_retail_reference_has_no_unexpected_c0_controls(self):
+        path = ROOT / "skills/industry-guides/retail/references/retail-breakeven-benchmarks.md"
+        content = path.read_bytes()
+        controls = [byte for byte in content if byte < 32 and byte not in (9, 10, 13)]
+        self.assertEqual([], controls)
+
 
 if __name__ == "__main__":
     unittest.main()
