@@ -68,7 +68,7 @@ A 15-percentage-point drop in margin increases the required sales by 60%.
 
 ## 2. Financial Benchmarks by Retail Format
 
-The table belowconsolidates benchmark ranges, adapted for Ugandan retail formats.
+The table below consolidates benchmark ranges, adapted for Ugandan retail formats.
 
 | Retail Format | Gross Margin % | Net Profit Margin % | Inventory Turnover (times/yr) | Asset Turnover | Typical GMROI |
 |---|---|---|---|---|---|
