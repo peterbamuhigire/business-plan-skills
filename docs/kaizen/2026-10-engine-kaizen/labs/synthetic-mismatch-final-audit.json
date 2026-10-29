@@ -1,0 +1,86 @@
+{
+  "workbook": "docs/kaizen/2026-10-engine-kaizen/labs/synthetic-mismatch.xlsx",
+  "workbook_sha256": "d49e66eaa454164df6320d0ebbe1c66e3509458b499351af922621b22834e818",
+  "status": "fail",
+  "sheet_count": 1,
+  "formula_count": 1,
+  "assumption_cell_count": 0,
+  "scenario_check_count": 2,
+  "balance_check_count": 3,
+  "external_link_count": 0,
+  "formulas": [
+    {
+      "location": "Model!B3",
+      "formula": "B1-B2",
+      "cached_value": ""
+    }
+  ],
+  "assumptions": [],
+  "scenario_checks": [
+    {
+      "location": "Model!A4",
+      "value": " Scenario"
+    },
+    {
+      "location": "Model!B4",
+      "value": " base"
+    }
+  ],
+  "balance_checks": [
+    {
+      "location": "Model!A1",
+      "value": " Synthetic cash flow ending cash"
+    },
+    {
+      "location": "Model!A2",
+      "value": " Synthetic balance sheet cash"
+    },
+    {
+      "location": "Model!A3",
+      "value": " Balance Sheet Check"
+    }
+  ],
+  "external_links": [],
+  "reconciliation": {
+    "status": "fail",
+    "checks": [
+      {
+        "id": "synthetic-cash-to-balance",
+        "status": "fail",
+        "findings": [
+          {
+            "code": "reconciliation-values-differ",
+            "message": "Declared values differ by 20.0; tolerance is 0"
+          },
+          {
+            "code": "reconciliation-cache-missing",
+            "message": "The check formula must have a finite numeric cached result"
+          }
+        ],
+        "left_cell": "Model!B1",
+        "right_cell": "Model!B2",
+        "check_cell": "Model!B3",
+        "left_value": 100.0,
+        "right_value": 80.0,
+        "expected_difference": 20.0,
+        "tolerance": 0.0
+      }
+    ],
+    "findings": [],
+    "contract_sha256": "95bea45314a5aa5b0dfb9f884fe6fa0b55b16fd377937f9ef8934cd191036f1c"
+  },
+  "findings": [
+    {
+      "severity": "error",
+      "code": "reconciliation-values-differ",
+      "location": "synthetic-cash-to-balance",
+      "message": "Declared values differ by 20.0; tolerance is 0"
+    },
+    {
+      "severity": "error",
+      "code": "reconciliation-cache-missing",
+      "location": "synthetic-cash-to-balance",
+      "message": "The check formula must have a finite numeric cached result"
+    }
+  ]
+}

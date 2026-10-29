@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from runpy import run_path
 import sys
 from pathlib import Path
 
@@ -41,6 +42,69 @@ def _check_paths(bundle_path: Path, values: object, label: str, errors: list[str
             errors.append(f"{label}: evidence entries must be non-empty paths")
         elif not _resolve(bundle_path, value).is_file():
             errors.append(f"{label}: evidence path does not exist: {value}")
+
+
+def _check_workbook_reconciliation(bundle_path: Path, handoff: dict,
+                                   label: str, errors: list[str]) -> None:
+    workbook_values = handoff.get("input_versions", [])
+    if not isinstance(workbook_values, list):
+        return
+    workbook_refs = [value for value in workbook_values
+                     if isinstance(value, str) and value.lower().endswith(".xlsx")]
+    if not workbook_refs:
+        return
+    state = handoff.get("state")
+    requires_pass = state in {"pass", "pass-with-caveats"}
+    report_ref = handoff.get("reconciliation_report")
+    contract_ref = handoff.get("reconciliation_contract")
+    if (not isinstance(report_ref, str) or not report_ref.strip()
+            or not isinstance(contract_ref, str) or not contract_ref.strip()):
+        if requires_pass:
+            errors.append(f"{label}: a passing XLSX handoff requires reconciliation_report and reconciliation_contract")
+        return
+    report_path = _resolve(bundle_path, report_ref)
+    contract_path = _resolve(bundle_path, contract_ref)
+    if not report_path.is_file():
+        errors.append(f"{label}: reconciliation report does not exist: {report_ref}")
+        return
+    if not contract_path.is_file():
+        errors.append(f"{label}: reconciliation contract does not exist: {contract_ref}")
+        return
+    if len(workbook_refs) != 1:
+        errors.append(f"{label}: reconciliation report must be tied to exactly one XLSX input")
+        return
+    workbook_path = _resolve(bundle_path, workbook_refs[0])
+    try:
+        report = json.loads(report_path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeError, json.JSONDecodeError) as exc:
+        errors.append(f"{label}: reconciliation report cannot be read: {exc}")
+        return
+    if not isinstance(report, dict):
+        errors.append(f"{label}: reconciliation report must be an object")
+        return
+    try:
+        audit = run_path(str(ROOT / "tools/workbook-audit/formula_map.py"))["audit_workbook"]
+        recomputed = audit(workbook_path, reconciliation_checks=contract_path,
+                           require_reconciliation=True)
+    except Exception as exc:
+        errors.append(f"{label}: workbook reconciliation cannot be recomputed: {exc}")
+        return
+    checks = recomputed.get("reconciliation", {}).get("checks", [])
+    if (recomputed.get("status") != "pass"
+            or recomputed.get("reconciliation", {}).get("status") != "pass"
+            or not checks
+            or any(not isinstance(check, dict) or check.get("status") != "pass"
+                   for check in checks)):
+        if requires_pass:
+            errors.append(f"{label}: recomputed workbook reconciliation is missing or non-passing")
+        return
+    if report.get("status") != "pass" or report.get("workbook_sha256") != recomputed.get("workbook_sha256"):
+        if requires_pass:
+            errors.append(f"{label}: reconciliation report does not match the workbook audit")
+        return
+    if report.get("reconciliation") != recomputed.get("reconciliation"):
+        if requires_pass:
+            errors.append(f"{label}: reconciliation report does not match recomputed check results")
 
 
 def validate(bundle_path: Path) -> list[str]:
@@ -102,6 +166,8 @@ def validate(bundle_path: Path) -> list[str]:
         if applicable and not item.get("input_versions"):
             errors.append(f"handoff {name}: applicable handoff requires input_versions")
         _check_paths(bundle_path, item.get("evidence"), f"handoff {name}", errors)
+        if name == "spreadsheet":
+            _check_workbook_reconciliation(bundle_path, item, f"handoff {name}", errors)
         if applicable and state in ("pass", "pass-with-caveats") and not item.get("evidence"):
             errors.append(f"handoff {name}: passing state requires evidence")
         if state == "pass-with-caveats" and not item.get("caveats"):

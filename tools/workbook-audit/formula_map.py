@@ -4,7 +4,10 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
+import io
 import json
+import math
 import re
 import sys
 import zipfile
@@ -51,8 +54,141 @@ def _cell_text(cell: ET.Element, shared: list[str]) -> str:
     return value
 
 
+CELL_REF_RE = re.compile(r"^\$?([A-Z]{1,3})\$?(\d+)$", re.I)
+
+
+def _parse_location(value: object) -> tuple[str, str] | None:
+    if not isinstance(value, str) or value.count("!") != 1:
+        return None
+    sheet, cell = value.rsplit("!", 1)
+    if not sheet or not CELL_REF_RE.fullmatch(cell):
+        return None
+    return sheet, cell.replace("$", "").upper()
+
+
+def _number(value: object) -> float | None:
+    if not isinstance(value, str) or not value.strip():
+        return None
+    try:
+        parsed = float(value)
+    except ValueError:
+        return None
+    return parsed if math.isfinite(parsed) else None
+
+
+def _reconcile_checks(checks_path: str | Path | None, cell_values: dict[str, dict],
+                      formulas: list[dict], required: bool) -> dict:
+    result = {"status": "not-assessed", "checks": [], "findings": [],
+              "contract_sha256": None}
+    if checks_path is None:
+        if required:
+            result["status"] = "fail"
+            result["findings"].append({"code": "missing-reconciliation-contract",
+                                       "message": "A reconciliation-checks JSON file is required"})
+        return result
+
+    contract_path = Path(checks_path)
+    try:
+        contract_bytes = contract_path.read_bytes()
+        contract = json.loads(contract_bytes.decode("utf-8"))
+    except (OSError, UnicodeError, json.JSONDecodeError) as exc:
+        result["status"] = "fail"
+        result["findings"].append({"code": "invalid-reconciliation-contract",
+                                   "message": str(exc)})
+        return result
+    result["contract_sha256"] = hashlib.sha256(contract_bytes).hexdigest()
+    if not isinstance(contract, dict) or contract.get("schema_version") != "1.0.0" or not isinstance(contract.get("checks"), list) or not contract["checks"]:
+        result["status"] = "fail"
+        result["findings"].append({"code": "invalid-reconciliation-contract",
+                                   "message": "Expected schema_version 1.0.0 and a non-empty checks list"})
+        return result
+
+    formula_by_location = {item["location"]: item for item in formulas}
+    seen_ids: set[str] = set()
+    for item in contract["checks"]:
+        check_result = {"id": "", "status": "fail", "findings": []}
+        result["checks"].append(check_result)
+        if not isinstance(item, dict):
+            check_result["findings"].append({"code": "invalid-reconciliation-check",
+                                             "message": "Each check must be an object"})
+            continue
+        check_id = item.get("id")
+        check_result["id"] = check_id if isinstance(check_id, str) else ""
+        if not isinstance(check_id, str) or not check_id.strip() or check_id in seen_ids:
+            check_result["findings"].append({"code": "invalid-reconciliation-check-id",
+                                             "message": "Check IDs must be unique non-empty strings"})
+            continue
+        seen_ids.add(check_id)
+        left_loc, right_loc, check_loc = (item.get("left_cell"), item.get("right_cell"), item.get("check_cell"))
+        parsed = [_parse_location(v) for v in (left_loc, right_loc, check_loc)]
+        if any(v is None for v in parsed) or len({v[0] for v in parsed if v}) != 1:
+            check_result["findings"].append({"code": "invalid-reconciliation-location",
+                                             "message": "All cells must be valid references on the same worksheet"})
+            continue
+        tolerance = item.get("tolerance")
+        try:
+            tolerance_value = float(tolerance)
+        except (TypeError, ValueError, OverflowError):
+            tolerance_value = math.nan
+        if isinstance(tolerance, bool) or not isinstance(tolerance, (int, float)) or not math.isfinite(tolerance_value) or tolerance_value < 0:
+            check_result["findings"].append({"code": "invalid-reconciliation-tolerance",
+                                             "message": "Tolerance must be a finite non-negative number"})
+            continue
+        left, right, check_cell = (cell_values.get(left_loc), cell_values.get(right_loc),
+                                   cell_values.get(check_loc))
+        if left is None or right is None or check_cell is None:
+            check_result["findings"].append({"code": "reconciliation-cell-missing",
+                                             "message": "One or more declared reconciliation cells are missing"})
+            continue
+        if left["formula"] or right["formula"]:
+            check_result["findings"].append({"code": "reconciliation-source-not-literal",
+                                             "message": "Source cells must be literal numeric inputs; formula-source recalculation is not assessed"})
+            continue
+        left_value, right_value = _number(left["value"]), _number(right["value"])
+        if left_value is None or right_value is None:
+            check_result["findings"].append({"code": "reconciliation-source-not-numeric",
+                                             "message": "Both source cells must contain finite numeric values"})
+            continue
+        formula_item = formula_by_location.get(check_loc)
+        expected_formula = f"{parsed[0][1]}-{parsed[1][1]}"
+        actual_formula = formula_item["formula"].replace("$", "").replace(" ", "").upper() if formula_item else ""
+        if actual_formula != expected_formula.upper():
+            check_result["findings"].append({"code": "reconciliation-formula-mismatch",
+                                             "message": f"Check formula must be {expected_formula}; found {actual_formula or 'no formula'}"})
+            continue
+        expected_difference = left_value - right_value
+        if not math.isfinite(expected_difference):
+            check_result["findings"].append({"code": "reconciliation-difference-not-finite",
+                                             "message": "The independently calculated difference is not finite"})
+            continue
+        check_result.update({"left_cell": left_loc, "right_cell": right_loc,
+                             "check_cell": check_loc, "left_value": left_value,
+                             "right_value": right_value,
+                             "expected_difference": expected_difference,
+                             "tolerance": tolerance_value})
+        if abs(expected_difference) > tolerance_value:
+            check_result["findings"].append({"code": "reconciliation-values-differ",
+                                             "message": f"Declared values differ by {expected_difference}; tolerance is {tolerance_value}"})
+        cached_value = _number(check_cell["value"])
+        if cached_value is None:
+            check_result["findings"].append({"code": "reconciliation-cache-missing",
+                                             "message": "The check formula must have a finite numeric cached result"})
+            continue
+        check_result["cached_check_value"] = cached_value
+        if abs(cached_value - expected_difference) > tolerance_value:
+            check_result["findings"].append({"code": "reconciliation-cache-does-not-match-inputs",
+                                             "message": f"Cached check result {cached_value} differs from independently calculated {expected_difference}"})
+        check_result["status"] = "pass" if not check_result["findings"] else "fail"
+
+    all_pass = bool(result["checks"]) and all(item["status"] == "pass" for item in result["checks"])
+    result["status"] = "pass" if all_pass and not result["findings"] else "fail"
+    return result
+
+
 def audit_workbook(path: str | Path, require_scenarios: bool = False,
-                   require_balance_checks: bool = False) -> dict:
+                   require_balance_checks: bool = False,
+                   reconciliation_checks: str | Path | None = None,
+                   require_reconciliation: bool = False) -> dict:
     workbook = Path(path)
     findings: list[Finding] = []
     formulas: list[dict] = []
@@ -60,8 +196,11 @@ def audit_workbook(path: str | Path, require_scenarios: bool = False,
     scenario_hits: list[dict] = []
     balance_hits: list[dict] = []
     external_links: list[dict] = []
+    cell_values: dict[str, dict] = {}
+    workbook_bytes = workbook.read_bytes()
+    workbook_hash = hashlib.sha256(workbook_bytes).hexdigest()
 
-    with zipfile.ZipFile(workbook) as zf:
+    with zipfile.ZipFile(io.BytesIO(workbook_bytes)) as zf:
         shared = _shared_strings(zf)
         wb = _xml(zf, "xl/workbook.xml")
         rels = _xml(zf, "xl/_rels/workbook.xml.rels")
@@ -101,6 +240,7 @@ def audit_workbook(path: str | Path, require_scenarios: bool = False,
                 location = f"{sheet_name}!{ref}"
                 formula = cell.findtext("m:f", default="", namespaces=NS)
                 value = _cell_text(cell, shared)
+                cell_values[location] = {"formula": formula, "value": value}
                 if assumption_sheet and not formula and value:
                     assumptions.append({"location": location, "value": value})
                 combined = f"{formula} {value}"
@@ -129,9 +269,17 @@ def audit_workbook(path: str | Path, require_scenarios: bool = False,
     if require_balance_checks and not balance_hits:
         findings.append(Finding("error", "missing-balance-checks", str(workbook),
                                 "No balance, reconciliation, tie-out, or check evidence found"))
+    reconciliation = _reconcile_checks(reconciliation_checks, cell_values, formulas,
+                                       require_reconciliation)
+    for item in reconciliation["findings"]:
+        findings.append(Finding("error", item["code"], "workbook-reconciliation", item["message"]))
+    for check in reconciliation["checks"]:
+        for item in check.get("findings", []):
+            findings.append(Finding("error", item["code"], check.get("id", ""), item["message"]))
     failures = [asdict(f) for f in findings if f.severity == "error"]
     return {
         "workbook": workbook.as_posix(),
+        "workbook_sha256": workbook_hash,
         "status": "pass" if not failures else "fail",
         "sheet_count": len(sheets),
         "formula_count": len(formulas),
@@ -144,6 +292,7 @@ def audit_workbook(path: str | Path, require_scenarios: bool = False,
         "scenario_checks": scenario_hits,
         "balance_checks": balance_hits,
         "external_links": external_links,
+        "reconciliation": reconciliation,
         "findings": [asdict(f) for f in findings],
     }
 
@@ -173,6 +322,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("workbooks", nargs="+", type=Path)
     parser.add_argument("--require-scenarios", action="store_true")
     parser.add_argument("--require-balance-checks", action="store_true")
+    parser.add_argument("--reconciliation-checks", type=Path,
+                        help="JSON contract for a literal-input difference check")
+    parser.add_argument("--require-reconciliation", action="store_true",
+                        help="Fail unless numeric reconciliation checks pass")
     parser.add_argument("--json-out", "--output", dest="json_out", type=Path)
     parser.add_argument("--markdown-out", type=Path)
     args = parser.parse_args(argv)
@@ -180,7 +333,9 @@ def main(argv: list[str] | None = None) -> int:
     for workbook in args.workbooks:
         try:
             reports.append(audit_workbook(workbook, args.require_scenarios,
-                                          args.require_balance_checks))
+                                          args.require_balance_checks,
+                                          args.reconciliation_checks,
+                                          args.require_reconciliation))
         except (OSError, zipfile.BadZipFile, ET.ParseError) as exc:
             reports.append({"workbook": workbook.as_posix(), "status": "fail", "findings": [
                 asdict(Finding("error", "unreadable-workbook", str(workbook), str(exc)))

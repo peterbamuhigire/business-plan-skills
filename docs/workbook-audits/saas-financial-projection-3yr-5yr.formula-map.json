@@ -1,5 +1,6 @@
 {
   "workbook": "skills/pipeline/10-financial-projections/templates/saas-financial-projection-3yr-5yr.xlsx",
+  "workbook_sha256": "31331f04c6906b70f653e1aa74418732579b318c88c7997e79d2464ef0cd1697",
   "status": "pass",
   "sheet_count": 11,
   "formula_count": 1852,
@@ -10288,5 +10289,11 @@
     }
   ],
   "external_links": [],
+  "reconciliation": {
+    "status": "not-assessed",
+    "checks": [],
+    "findings": [],
+    "contract_sha256": null
+  },
   "findings": []
 }

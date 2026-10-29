@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "checks": [
+    {
+      "id": "synthetic-cash-to-balance",
+      "left_cell": "Model!B1",
+      "right_cell": "Model!B2",
+      "check_cell": "Model!B3",
+      "tolerance": 0
+    }
+  ]
+}
