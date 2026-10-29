@@ -1,0 +1,44 @@
+{
+  "workbook": "labs/synthetic-mismatch.xlsx",
+  "status": "pass",
+  "sheet_count": 1,
+  "formula_count": 1,
+  "assumption_cell_count": 0,
+  "scenario_check_count": 2,
+  "balance_check_count": 3,
+  "external_link_count": 0,
+  "formulas": [
+    {
+      "location": "Model!B3",
+      "formula": "B1-B2",
+      "cached_value": ""
+    }
+  ],
+  "assumptions": [],
+  "scenario_checks": [
+    {
+      "location": "Model!A4",
+      "value": " Scenario"
+    },
+    {
+      "location": "Model!B4",
+      "value": " base"
+    }
+  ],
+  "balance_checks": [
+    {
+      "location": "Model!A1",
+      "value": " Synthetic cash flow ending cash"
+    },
+    {
+      "location": "Model!A2",
+      "value": " Synthetic balance sheet cash"
+    },
+    {
+      "location": "Model!A3",
+      "value": " Balance Sheet Check"
+    }
+  ],
+  "external_links": [],
+  "findings": []
+}
