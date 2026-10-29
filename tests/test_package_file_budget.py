@@ -41,10 +41,6 @@ class PackageFileBudgetTests(unittest.TestCase):
             self.assertEqual(2, MODULE.count_entries(root, package_only=True))
 
 
-if __name__ == "__main__":
-    unittest.main()
-
-
 class PluginIntegrityTests(unittest.TestCase):
     def test_canonical_country_context_and_identity(self):
         with tempfile.TemporaryDirectory() as folder:
@@ -82,3 +78,7 @@ class PluginIntegrityTests(unittest.TestCase):
             return iter(())
         with patch.object(MODULE.os, 'walk', denied):
             self.assertTrue(MODULE.validate_package(ROOT))
+
+
+if __name__ == "__main__":
+    unittest.main()
