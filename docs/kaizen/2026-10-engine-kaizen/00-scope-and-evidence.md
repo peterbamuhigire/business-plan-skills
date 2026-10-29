@@ -33,7 +33,7 @@ The formula-map result, synthetic workbook, and JSON output are retained in
 [`labs/`](labs/). Earlier audit evidence also says workbook structure/formula
 checks did not recalculate formulas; that report did not establish four exact
 current bundle identities, and this cycle does not repeat the historical count
-as a current finding. See the [September readiness review](../../../../docs/audits/2026-09-06-kaizen-readiness.md).
+as a current finding. See the [September readiness review](../../audits/2026-09-06-kaizen-readiness.md).
 
 ## Currentness observation at baseline
 
@@ -57,7 +57,7 @@ assumptions or lending rates:
   financial case. Tax/accounting treatment remains with the accounting
   doctrine; current macro/market evidence remains with Digital Research.
 
-The local [`country-market-data.json`](../../../source-registers/country-market-data.json)
+The local [`country-market-data.json`](../../source-registers/country-market-data.json)
 register contains 23 entries and was dated 2026-09-25; the baseline command
 `python -B tools/evidence-register/refresh_evidence_register.py --check`
 reports 10 overdue rows that still display `verified-current`. The

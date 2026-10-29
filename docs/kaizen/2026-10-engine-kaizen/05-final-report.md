@@ -3,7 +3,7 @@
 Cycle: Business Plan Skills, October 2026. Assessment date: 2026-10-29.
 Prompt 9 practitioner outputs, scope, source review, and exact boundaries are
 documented in [`00-scope-and-evidence.md`](00-scope-and-evidence.md) and
-[`00-practitioner-tasks.md`](00-practitioner-tasks.md). The remediation
+[full practitioner outputs](03-experiment-log.md#full-practitioner-task-outputs). The remediation
 backlog is in [`02-improvement-backlog.md`](02-improvement-backlog.md); the
 validation evidence and limitations are in
 [`04-validation-record.md`](04-validation-record.md).

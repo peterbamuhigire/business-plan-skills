@@ -7,6 +7,9 @@
     "email": "peter.bamuhigire@gmail.com"
   },
   "skills": [
+    "./country-context/kenya/",
+    "./country-context/tanzania/",
+    "./country-context/uganda/",
     "./skills/advisory-deliverables/finance-policy-and-manual/",
     "./skills/advisory-deliverables/governance-and-board-charter/",
     "./skills/advisory-deliverables/grants-management-manual/",

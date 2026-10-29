@@ -81,3 +81,20 @@ The OpenAI changelog, model catalogue and selection guidance were checked on
 [selection guidance](https://developers.openai.com/api/docs/guides/model-selection)).
 The authorised Luna/high pin is retained. Comparative quality, cost, latency,
 and account entitlement remain **NOT_ASSESSED**.
+
+## Root packaging acceptance correction
+
+The earlier native installation result proved only a 134-path manifest, while
+137 skills were active. Root confirmed and repaired the three missing
+country-context paths. A Codex compatibility override using the repository root
+still omitted those paths, so that newly introduced override was reverted.
+The explicit shared Claude-compatible manifest now exposes **137/137** paths in
+Codex 0.165.0 offline prompt-input, with requested Luna/high and a 10,000-token
+skills budget, no model call. The successful repair run was on a dirty review
+worktree based on `9a4730a`; it is not represented as the clean original commit.
+
+The immutable cap and manifest integrity check now run inside the registered
+skill validator. Root's focused reconciliation/package suite passes 21 tests
+and 53 subtests. Broken evidence links were corrected; the original frozen
+scorecard remains distinct from the later calibrated review. Current source
+renewal remains blocked for the ten overdue records.

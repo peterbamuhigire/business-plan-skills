@@ -28,7 +28,7 @@ On Windows PowerShell: `.\install.ps1 --scope project`.
 
 **Codex.** Codex reads [`AGENTS.md`](AGENTS.md) as the router. Before substantive work, run the model-policy check described in [`.codex/README.md`](.codex/README.md): `python <engine-root>/.codex/ensure_model_policy.py --runtime codex --check`. Claude skips that section.
 
-The checked-in [Codex compatibility manifest](.codex-plugin/plugin.json) and
+The shared [compatible plugin manifest](.claude-plugin/plugin.json) and
 [repo-local marketplace](.agents/plugins/marketplace.json) expose the skills
 through Codex's local marketplace path. From a supported Codex CLI/client, add
 the repository marketplace and install the plugin with:
@@ -39,7 +39,7 @@ codex plugin add business-plan@business-plan-local
 ```
 
 These local installation checks do not establish public-directory acceptance.
-The Claude marketplace and Codex repo marketplace are distinct catalogs.
+The Claude marketplace and Codex repo marketplace are distinct catalogues.
 
 **Manual use.** Clone the repository, read [`CLAUDE.md`](CLAUDE.md) (Claude Code) or [`AGENTS.md`](AGENTS.md) (any runner), then open the `SKILL.md` that the router names. Skills are read directly from disk; no registration is required.
 
@@ -499,3 +499,11 @@ Repositories studied in the 29 September 2026 ten-repository Kaizen from which t
 - Eleken articles on product-idea validation, UX ideas, SaaS launch, startup scaling, design-system checklists and mobile onboarding — https://www.eleken.co/blog-posts/how-to-validate-product-ideas and sibling pages
 - GOV.UK Service Manual, *Plan user research for your service* — https://www.gov.uk/service-manual/user-research/plan-user-research-for-your-service
 - OpenAI image prompting and image generation guides — https://developers.openai.com/api/docs/guides/image-prompting, https://developers.openai.com/api/docs/guides/image-generation
+
+The registered skill gate checks all **137** active skill paths, including the
+three country-context skills, against plugin metadata and the fixed full-checkout
+and package cap. The isolated native Codex discovery test uses
+`-m gpt-6-luna -c model_reasoning_effort="high" -c skills.max_context_tokens=10000`;
+the larger skills budget is explicit and does not change the user configuration.
+For manifest regeneration, include both canonical roots (the generator supports
+`--root .`); a skills-only manifest fails the registered parity gate.

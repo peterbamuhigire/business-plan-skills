@@ -313,6 +313,8 @@ def main() -> int:
         "results": results if args.details else [],
     }
     baseline_problems = validate_baseline(payload, args.baseline, root) if args.baseline else []
+    from check_package_file_budget import validate_package
+    baseline_problems.extend(validate_package(root))
     if baseline_problems:
         payload["baseline_problems"] = baseline_problems
     if args.json:

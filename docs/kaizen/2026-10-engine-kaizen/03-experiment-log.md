@@ -1,7 +1,7 @@
 # Experiment log
 
 Access date: 2026-10-29. The three full practitioner task outputs are retained
-in [`00-practitioner-tasks.md`](00-practitioner-tasks.md). Company and workbook
+in [`00-practitioner-tasks.md`](#full-practitioner-task-outputs). Company and workbook
 values in those tasks are synthetic. No client, lender or investor file was
 supplied.
 
@@ -96,3 +96,19 @@ Release-gate code review shows it validates bundle declarations, evidence paths,
 | Bankable plan + model | Scenario extract generated; real evidence absent; no debt service validation. | Blocked |
 | Investor version | Same synthetic assumptions retained; arithmetic aligned; investment evidence absent. | Blocked |
 | Mismatched model detection | False negative in formula-map and no workbook inspection in release validator. | Critical blocker for relying on current structural pass as reconciliation evidence |
+
+## Root acceptance packaging repair
+
+The native catalogue initially exposed 134 skills while the registered active
+validator counted 137. The missing entries were the three country-context
+skills. Both the old Claude manifest and the newly added Codex override omitted
+them. The explicit Claude path list now includes all active paths. The new
+Codex override was reverted after a `skills: "./"` experiment still exposed
+only 134; the already supported Claude-compatible manifest exposes all 137.
+No canonical skill was moved or copied.
+
+The file cap is now part of the registered skill validator, with exact path-set,
+identity, traversal-error and symlink checks. A manually run helper alone was
+insufficient enforcement. Tests reject a manifest missing country-context,
+a name mismatch, a symlinked skill and an unreadable tree. Broken evidence
+links were corrected. No statutory source status was promoted.
