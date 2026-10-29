@@ -1,0 +1,15 @@
+{
+  "name": "business-plan",
+  "version": "1.1.0",
+  "description": "Business planning, financial projection, market strategy, investor materials, and East and Central African country-context skills.",
+  "author": {
+    "name": "Peter Bamuhigire",
+    "email": "peter.bamuhigire@gmail.com",
+    "url": "https://techguypeter.com"
+  },
+  "homepage": "https://github.com/peterbamuhigire/business-plan-skills",
+  "repository": "https://github.com/peterbamuhigire/business-plan-skills",
+  "license": "MIT",
+  "keywords": ["business-plan", "investor", "finance", "market-research"],
+  "skills": "./skills/"
+}

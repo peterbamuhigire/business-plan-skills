@@ -1,0 +1,20 @@
+{
+  "name": "business-plan-local",
+  "interface": {
+    "displayName": "Business Plan Skills"
+  },
+  "plugins": [
+    {
+      "name": "business-plan",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

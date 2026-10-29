@@ -28,6 +28,19 @@ On Windows PowerShell: `.\install.ps1 --scope project`.
 
 **Codex.** Codex reads [`AGENTS.md`](AGENTS.md) as the router. Before substantive work, run the model-policy check described in [`.codex/README.md`](.codex/README.md): `python <engine-root>/.codex/ensure_model_policy.py --runtime codex --check`. Claude skips that section.
 
+The checked-in [Codex compatibility manifest](.codex-plugin/plugin.json) and
+[repo-local marketplace](.agents/plugins/marketplace.json) expose the skills
+through Codex's local marketplace path. From a supported Codex CLI/client, add
+the repository marketplace and install the plugin with:
+
+```sh
+codex plugin marketplace add .
+codex plugin add business-plan@business-plan-local
+```
+
+These local installation checks do not establish public-directory acceptance.
+The Claude marketplace and Codex repo marketplace are distinct catalogs.
+
 **Manual use.** Clone the repository, read [`CLAUDE.md`](CLAUDE.md) (Claude Code) or [`AGENTS.md`](AGENTS.md) (any runner), then open the `SKILL.md` that the router names. Skills are read directly from disk; no registration is required.
 
 **Checks.** From the repository root:
@@ -37,7 +50,13 @@ python -X utf8 scripts/validate_skill_engine.py --baseline docs/quality/skill-qu
 python -X utf8 scripts/routing_smoke_test.py --threshold 1.0
 python -X utf8 scripts/routing_link_check.py
 python -X utf8 -m unittest discover -s tests -p "test_*.py"
+python -B scripts/check_package_file_budget.py
 ```
+
+The file-budget checker applies a fixed 5,000-entry ceiling to both the full
+checkout and a package-oriented count. This is a guard against the ZIP entry
+limit documented for OpenAI plugin submissions; counts are not a built-archive
+measurement ([submission errors](https://developers.openai.com/plugins/deploy/submission-errors)).
 
 ## Capabilities
 
