@@ -49,7 +49,7 @@ Every rule is specific and enforceable; every threshold is a named parameter wit
 - Shipping a generic template full of `[placeholders]` instead of regime-specific, client-parameterised rules.
 - Treating donor procurement rules and the entity policy as interchangeable — layer both.
 - Omitting disposal, conflict-of-interest, and complaints sections.
-- Asserting PPDA procedure without reading `proposal-skills/sectors/ppda-uganda`.
+- Asserting PPDA procedure without reading `proposal-skills/skills/profiles-sectors/sectors/ppda-uganda`.
 
 ## Outputs
 
