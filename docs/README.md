@@ -14,7 +14,7 @@ What is under `docs/`, newest evidence first. Dated records describe the reposit
 | [`quality/`](quality/) | `skill-quality-baseline.json` (the zero-debt regression lock read by `validate_skill_engine.py`) and the UNDP compendium allowlist read by `source_ingestion_guardrail.py` |
 | [`quality-gates/business-plan-release-gate.md`](quality-gates/business-plan-release-gate.md) | The blocker-first release gate and how to run it |
 
-Latest published score: 50.0 raw and 50.0 capped (`min(raw, 65)`), against a target of 95. Scores are practitioner judgements, not validator pass rates.
+Latest published score: 50.0 raw and 50.0 capped (`min(raw, 65)`), against a target of 95. Scores are practitioner judgements, not validator pass rates. The root README's section [What the October 2026 kaizen improved](../README.md#what-the-october-2026-kaizen-improved) lists the kept changes by theme, with commit hashes and before-and-after figures.
 
 ## Evidence and source registers
 
