@@ -304,7 +304,7 @@ Open-source intelligence (OSINT) is the systematic collection and analysis of pu
 
 ## Mode C: Business Plan DD Audit
 
-Use this section after all plan sections (0115) are drafted, before submission to any funder.
+Use this section after all plan sections (01–15) are drafted, before submission to any funder.
 
 ### Audit by Plan Section
 
@@ -322,7 +322,7 @@ For each section, the audit asks: **Is every material claim in this section veri
 | **08 Operations** | Capacity matches projections; suppliers identified | Supplier quotes; site visit; permits | No identified suppliers; no permits in place |
 | **09 Management Team** | Credentials accurate; team has required skills | CVs; certificates; references | Inflated credentials; critical skill gaps unaddressed |
 | **10 Financial Projections** | Revenue assumptions grounded; costs complete | Assumption page; benchmark comparisons | No assumptions page; costs understated |
-| **11 Funding Request** | Loan amount = sum of line items; DSCR  1.25 | Use-of-funds table; DSCR calculation | Funding gap unaddressed; collateral unverified |
+| **11 Funding Request** | Loan amount = sum of line items; DSCR ≥ 1.25× | Use-of-funds table; DSCR calculation | Funding gap unaddressed; collateral unverified |
 | **12 Risk Analysis** | Risks are real, not cosmetic; mitigations are actionable | Risk register with owners and dates | Risks generic; no mitigations with owners |
 | **13 Implementation** | Timeline is realistic; milestones are measurable | Dependency map; regulatory lead times included | Timeline ignores regulatory delays; no dependencies |
 | **14 AI Integration** | AI claims are real tools, not buzzwords | Tool names; cost; use case specifics | AI section is aspirational, not operational |
@@ -340,8 +340,8 @@ After auditing each section:
 | 2  Mostly asserted | Claims present but most unsupported; requires significant work |
 | 1  Not DD-ready | No supporting evidence; plan will not survive basic investor scrutiny |
 
-**Minimum for bank submission:** Average score  3.5, no section below 3.
-**Minimum for DFI / equity:** Average score  4.0, no section below 3.5.
+**Minimum for bank submission:** Average score ≥ 3.5, no section below 3.
+**Minimum for DFI / equity:** Average score ≥ 4.0, no section below 3.5.
 
 ---
 
@@ -375,7 +375,7 @@ Due diligence also tests whether a plan can actually be executed. A well-written
 
 - Every material claim in the plan has an identified evidence source
 - Data room structure is complete (Mode A) or red flags are documented (Mode B)
-- DD Readiness Score  3.5 (bank) or  4.0 (equity/DFI) before submission
+- DD Readiness Score ≥ 3.5 (bank) or ≥ 4.0 (equity/DFI) before submission
 - Execution readiness checklist passes  plan is executable, not just presentable
 - No section of the plan makes claims that contradict evidence elsewhere in the plan
 

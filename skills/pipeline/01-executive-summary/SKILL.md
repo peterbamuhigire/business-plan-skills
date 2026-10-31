@@ -247,7 +247,7 @@ Frame the executive summary appropriately for the venture type (Blank & Dorf, 20
 | Type | Focus | Investor Expectation |
 |---|---|---|
 | Small business | Lifestyle, cash flow, local market | Steady returns, loan repayment |
-| Scalable startup | Growth, market capture, exit | 10+ return, equity stake |
+| Scalable startup | Growth, market capture, exit | 10×+ return, equity stake |
 | Buyable startup | Build to sell (acquisition target) | Quick flip, modest return |
 | Large company venture | New division, innovation lab | Strategic value, internal ROI |
 | Social enterprise | Impact + sustainability | Blended return (social + financial) |

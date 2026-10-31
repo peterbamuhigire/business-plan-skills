@@ -65,7 +65,7 @@ Use this skill as the default country layer for the suite. It provides the regul
 
 
 
-Uganda is the **default country** for this skills suite. All core skills (0115) apply Uganda defaults automatically. This file provides a consolidated reference.
+Uganda is the **default country** for this skills suite. All core skills (01–15) apply Uganda defaults automatically. This file provides a consolidated reference.
 
 ---
 
@@ -88,11 +88,11 @@ Uganda is the **default country** for this skills suite. All core skills (0115) 
 
 | Indicator | Value |
 |-----------|-------|
-| GDP (nominal) | ~USD 5055 billion (FY2024/25 estimate) |
-| GDP per capita | ~USD 1,1001,200 |
+| GDP (nominal) | ~USD 50–55 billion (FY2024/25 estimate) |
+| GDP per capita | ~USD 1,100–1,200 |
 | Real GDP growth | 6.3% (FY2024/25); Q1 2025/26: 4.8% |
-| GDP growth forecast | 67% medium-term (UBOS/IMF) |
-| Inflation (headline) | 35% (2025); food inflation leads |
+| GDP growth forecast | 6–7% medium-term (UBOS/IMF) |
+| Inflation (headline) | 3–5% (2025); food inflation leads |
 | Population | 45.9 million (NPHC 2024); Kampala: 1.797 million |
 | Major economic sectors | Agriculture (22%), services (50%), industry (28%) |
 | Primary data source | UBOS (ubos.org) |
@@ -113,8 +113,8 @@ Uganda is the **default country** for this skills suite. All core skills (0115) 
 | Online registration | OBRS portal (One-Stop Business Registration Service) |
 | Primary legal structures | Private limited company (most common SME); sole proprietorship; partnership; public company; BCC (cooperative) |
 | Most common SME structure | **Private Limited Company** (Ltd) |
-| Registration cost | From UGX 90,000250,000 depending on share capital |
-| Timeline | 25 business days (online); delays possible |
+| Registration cost | From UGX 90,000–250,000 depending on share capital |
+| Timeline | 2–5 business days (online); delays possible |
 | **NIN/BRN gate (2025)** | National Identification Number (NIN) required before TIN, trading licence, and bank account. Business Registration Number (BRN) from URSB required first |
 | Foreign ownership | 100% foreign ownership generally permitted; some sectors restricted (e.g., broadcasting, fishing in specific areas) |
 | Annual compliance | Annual return to URSB; audited accounts (threshold-based) |
@@ -128,11 +128,11 @@ Uganda is the **default country** for this skills suite. All core skills (0115) 
 | Tax | Rate / Rule |
 |-----|-------------|
 | **Corporate income tax** | 30% (Income Tax Act Cap. 340) |
-| Small business turnover tax | 1% of gross turnover; threshold UGX 50M150M/year |
+| Small business turnover tax | 1% of gross turnover; threshold UGX 50M–150M/year |
 | **VAT** | **18%**; registration threshold: UGX 150 million/year |
 | VAT filing | Monthly (via EFRIS  Electronic Fiscal Receipting and Invoicing System) |
 | **EFRIS penalties** | UGX 8 million/month for non-compliance; mandatory for all VAT-registered businesses |
-| **PAYE bands** | 0% (0UGX 235,000/month); 10% (UGX 235,001335,000); 20% (UGX 335,001410,000); 30% (above UGX 410,000) |
+| **PAYE bands** | 0% (0–UGX 235,000/month); 10% (UGX 235,001–335,000); 20% (UGX 335,001–410,000); 30% (above UGX 410,000) |
 | NSSF | Employer: 10%; Employee: 5%; total 15% of gross salary |
 | WHT  dividends | 15% (resident); 15% (non-resident) |
 | WHT  consultancy fees | 6% (resident) |
@@ -176,16 +176,16 @@ Uganda is the **default country** for this skills suite. All core skills (0115) 
 | Element | Detail |
 |---------|--------|
 | Central bank | Bank of Uganda (BoU)  bou.or.ug |
-| Policy rate (CBR) | 9.7510.5% range (2025) |
-| Commercial lending rate | 1825% UGX (typical SME); USD loans 1014% |
+| Policy rate (CBR) | 9.75–10.5% range (2025) |
+| Commercial lending rate | 18–25% UGX (typical SME); USD loans 10–14% |
 | Major commercial banks | Stanbic Uganda, Equity Bank, DFCU, Centenary Bank, Absa Uganda, KCB Uganda, Co-operative Bank, Standard Chartered |
-| Development finance | Uganda Development Bank (UDB)  udb.co.ug; concessional rates 1215%; up to UGX 10B |
+| Development finance | Uganda Development Bank (UDB)  udb.co.ug; concessional rates 12–15%; up to UGX 10B |
 | Agri-financing | aBi Finance (grants + loans for agribusiness); USAID DCA facilities |
 | Microfinance / SACCOs | Pride Microfinance, Finance Trust Bank; thousands of SACCOs |
 | Mobile money | MTN MoMo (largest), Airtel Money; ~80% of transactions by volume |
 | Credit reference | CRB Africa; Compuscan |
 | SME credit access | ~6% of SMEs have formal bank credit (IFC CPSD 2022) |
-| DSCR minimum |  1.25 (standard bank requirement) |
+| DSCR minimum | ≥ 1.25× (standard bank requirement) |
 
 **Reference files:**
 - `11-funding-request/references/women-financing-uganda.md`  missing middle, UDB/aBi/WEF/UNCDF, psychometric scoring
@@ -202,12 +202,12 @@ Uganda is the **default country** for this skills suite. All core skills (0115) 
 | NEET (youth not in employment, education, training) | 5.25 million (women 52%, men 28%) |
 | Minimum wage | No national minimum wage in Uganda (sector-specific only in some gazetted industries) |
 | Typical salary bands (Kampala, 2025) | |
-|  Unskilled / casual | UGX 200,000400,000/month |
-|  Semi-skilled / clerical | UGX 400,000800,000/month |
-|  Technical / skilled | UGX 800,0002,000,000/month |
-|  Professional / management | UGX 2,000,0006,000,000/month |
-|  Senior management | UGX 6,000,00015,000,000+/month |
-| Employer cost multiplier |  1.101.15 of gross salary (NSSF 10% + miscellaneous) |
+|  Unskilled / casual | UGX 200,000–400,000/month |
+|  Semi-skilled / clerical | UGX 400,000–800,000/month |
+|  Technical / skilled | UGX 800,000–2,000,000/month |
+|  Professional / management | UGX 2,000,000–6,000,000/month |
+|  Senior management | UGX 6,000,000–15,000,000+/month |
+| Employer cost multiplier | × 1.10–1.15 of gross salary (NSSF 10% + miscellaneous) |
 | Key labour law | Employment Act 2006 (Cap. 219); NSSF Act |
 | Annual leave | 21 working days/year |
 | Notice period | 1 month (minimum) |
@@ -254,8 +254,8 @@ Uganda is the **default country** for this skills suite. All core skills (0115) 
 | Import levy exposure | EAC tariff bands change; USD-denominated inputs exposed to UGX depreciation |
 | Land tenure | Customary land (84%); disputes common in rural projects |
 | EUDR (deforestation) | EU Deforestation Regulation affects coffee, cocoa, timber, rubber exporters from 2025 |
-| Electricity reliability | Load shedding risk; backup power adds 1520% to operating costs in some areas |
-| Exchange rate | UGX historically depreciates 510%/year vs USD; plan at UGX 3,700/$1 |
+| Electricity reliability | Load shedding risk; backup power adds 15–20% to operating costs in some areas |
+| Exchange rate | UGX historically depreciates 5–10%/year vs USD; plan at UGX 3,700/$1 |
 | Uganda-specific risk table | See `12-risk-analysis/references/uganda-risk-context.md` |
 
 **Reference files:**

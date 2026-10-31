@@ -181,7 +181,7 @@ Uganda examples:
 
 1. Ask for: business name, industry, country, founding date, legal structure
 2. Discover the WHY using founder questions (see above); draft WHY statement first
-3. Draft HOW as 35 verb-based principles; draft mission combining WHY + HOW + WHAT proof
+3. Draft HOW as 3–5 verb-based principles; draft mission combining WHY + HOW + WHAT proof
 4. Draft vision as the future-state realisation of the WHY
 5. Apply the Celery Test to confirm all products/services prove the WHY
 6. Assess the founder against the Four Dimensions (Gerber); note gaps
@@ -195,7 +195,7 @@ Uganda examples:
 
 For Uganda business plans, the legal structure choice affects registration, tax regime, and bankability. See `references/doing-business-uganda.md` for full detail. Key points:
 
-- **Private Limited Company (Ltd):** Most common SME structure; registered at URSB via OBRS; 250 shareholders; separate legal personality; preferred by banks for lending. Requires TIN (BRN from URSB), trading licence (KCCA or district), NSSF registration, annual audit, annual URSB return filing, and beneficial owners register filed within 14 days of incorporation.
+- **Private Limited Company (Ltd):** Most common SME structure; registered at URSB via OBRS; 2–50 shareholders; separate legal personality; preferred by banks for lending. Requires TIN (BRN from URSB), trading licence (KCCA or district), NSSF registration, annual audit, annual URSB return filing, and beneficial owners register filed within 14 days of incorporation.
 - **Single Member Company (SMC):** One shareholder, up to 7 directors; requires Nominee and Alternate Director; no company secretary required. Good for sole owner seeking limited liability.
 - **Sole trader / partnership:** No URSB company registration required, but must register business name; taxed as individual(s) on personal income tax rates; banks require more documentation for lending.
 - **TIN = NIN/BRN (2025 requirement):** Individual directors must have a National ID (NIN) from NIRA before a company TIN can be assigned. This must be completed before any licence application.

@@ -101,7 +101,7 @@ Business plans that ignore environmental and social sustainability face three co
 
 Uganda contributes less than 0.1% of global GHG emissions. The correct climate framing for Ugandan businesses is **ADAPTATION**  building resilience to rainfall variability, prolonged drought, flooding, and temperature shifts  rather than mitigation. Businesses that embed climate adaptation into their operating model are more resilient, not merely more responsible.
 
-Sustainability is a competitive advantage, not a cost centre: eco-efficient operations carry lower resource bills; strong community relations provide a licence to operate; green credentials unlock concessional finance. Frontrunner companies that embed sustainability into core strategy outperform industry peers by 1625% on operational eco-efficiency (Leleux & van der Kaaij, 2019). Every business plan in this suite must treat sustainability as a design standard from Day 1.
+Sustainability is a competitive advantage, not a cost centre: eco-efficient operations carry lower resource bills; strong community relations provide a licence to operate; green credentials unlock concessional finance. Frontrunner companies that embed sustainability into core strategy outperform industry peers by 16–25% on operational eco-efficiency (Leleux & van der Kaaij, 2019). Every business plan in this suite must treat sustainability as a design standard from Day 1.
 
 ---
 
@@ -120,12 +120,12 @@ Run **after all sections are drafted**, before final assembly. Generates the Sus
 
 ## Sustainability Readiness Score (SRS)
 
-Five dimensions, each scored **02**:
+Five dimensions, each scored **0–2**:
 - **0** = Absent or not considered
 - **1** = Partially addressed  mentioned but lacking specifics, budget, or accountability
 - **2** = Fully integrated  substantive, budgeted, measurable, and assigned to a responsible person
 
-| Dimension | Weight | Score (02) | Weighted Score |
+| Dimension | Weight | Score (0–2) | Weighted Score |
 |---|---|---|---|
 | Environmental | 25% | | |
 | Social | 25% | | |
@@ -152,7 +152,7 @@ Five dimensions, each scored **02**:
 
 **Strategy (20%)**
 - Sustainability embedded in the mission or vision statement  not as a footnote
-- 23 SDGs identified as most relevant; specific targets articulated
+- 2–3 SDGs identified as most relevant; specific targets articulated
 - Materiality identified: the key sustainability issue for this specific sector and business model
 - Sustainability positions the business distinctively  not a generic CSR statement
 
@@ -172,8 +172,8 @@ Five dimensions, each scored **02**:
 
 | Score | Meaning | Submission Pathway |
 |---|---|---|
-|  1.6 / 2.0 (= 8.0/10) | High sustainability integration | DFI / impact investor submission ready |
-|  1.2 / 2.0 (= 6.0/10) | Adequate sustainability integration | Commercial bank submission ready |
+| ≥ 1.6 / 2.0 (= 8.0/10) | High sustainability integration | DFI / impact investor submission ready |
+| ≥ 1.2 / 2.0 (= 6.0/10) | Adequate sustainability integration | Commercial bank submission ready |
 | < 1.2 / 2.0 | Sustainability gaps too significant | Return to design  address gaps before submission |
 
 ---
@@ -219,7 +219,7 @@ Run this 12-item checklist **before drafting begins**. Record answers in the pla
 
 9. **Vulnerable groups**: Does the product or service disproportionately affect women, youth, children, persons with disabilities, or refugee communities? If yes, positive targeting (SDG 5, 10) or safeguarding obligations apply.
 
-10. **SDG alignment**: Which 23 SDGs are most directly relevant to this business? Be specific: not merely "SDG 8 Decent Work" but "SDG 8.3  promote decent job creation and support micro and small enterprises."
+10. **SDG alignment**: Which 2–3 SDGs are most directly relevant to this business? Be specific: not merely "SDG 8 Decent Work" but "SDG 8.3  promote decent job creation and support micro and small enterprises."
 
 11. **Climate adaptation priority**: What is the single most important climate adaptation measure for this business? Examples: drought-resistant input sourcing, flood-proof storage design, diversified crop or product mix, rainwater harvesting.
 

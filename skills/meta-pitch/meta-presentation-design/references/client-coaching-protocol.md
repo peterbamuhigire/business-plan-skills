@@ -46,16 +46,16 @@ A founder who knows their business and can speak about it naturally, with convic
 - The ask  exact words for the closing request
 - Physical warm-up: voice, posture, breathing
 
-### The 24 Minute Attention Cycle (Edwards)
+### The 2–4 Minute Attention Cycle (Edwards)
 
-Audiences do not sustain attention continuously  they reset approximately every 24 minutes. A presenter who delivers content linearly, without engineering re-engagement, will lose the room regardless of content quality.
+Audiences do not sustain attention continuously  they reset approximately every 2–4 minutes. A presenter who delivers content linearly, without engineering re-engagement, will lose the room regardless of content quality.
 
-**The technique:** After completing the first draft of any presentation, go back through it and insert an attention-gaining device at every 24 minute interval. A device can be:
+**The technique:** After completing the first draft of any presentation, go back through it and insert an attention-gaining device at every 2–4 minute interval. A device can be:
 - A shift in voice inflection or volume
 - A rhetorical question directed at the audience
 - A new visual or prop introduced
 - A deliberate movement (stepping forward, moving to a different position)
-- A pause of 34 seconds followed by a restatement of the key point
+- A pause of 3–4 seconds followed by a restatement of the key point
 - Inviting a brief audience response
 
 This is a **designed, repeatable technique**  not a personality trait. Clients who feel they "lack presence" usually lack engineered re-engagement points, not charisma. Coach it explicitly: mark the intervals in the speaker notes.
@@ -64,7 +64,7 @@ This is a **designed, repeatable technique**  not a personality trait. Clients w
 
 Begin the pitch by demonstrating you understand the funder's specific criteria  before making any claims about your business:
 
-> "We understand that Centenary Bank's SME lending criteria require a DSCR of at least 1.25 and collateral coverage of 125%. This presentation shows how this business meets both thresholds."
+> "We understand that Centenary Bank's SME lending criteria require a DSCR of at least 1.25× and collateral coverage of 125%. This presentation shows how this business meets both thresholds."
 
 In a context where almost every pitch presents a generic plan with no evidence of having studied the lender's actual requirements, this technique signals serious preparation and immediately repositions the presenter as a peer, not a supplicant. It is free, requires no production, and works for any funder type. Coach clients to research the funder's stated criteria before every meeting.
 
@@ -75,7 +75,7 @@ Research on investor and executive pitches shows that decision-makers respond be
 Practical application in client coaching:
 - On the market slide: state the opportunity, then pause — "What are you seeing in your portfolio on this?" This invites co-ownership.
 - On the solution slide: present the mechanism, then ask: "Does this match how you've seen similar problems solved?" — the investor now co-validates rather than evaluates.
-- Do NOT pre-empt every objection in the deck. Leave 23 genuine open questions for Q&A so the audience feels they are shaping the final outcome.
+- Do NOT pre-empt every objection in the deck. Leave 2–3 genuine open questions for Q&A so the audience feels they are shaping the final outcome.
 - The closing ask should feel like a logical step the audience has already been moving toward  not a surprise request.
 
 Counterintuitive coaching note: an over-prepared client who has pre-answered everything can come across as closed to input. Train clients to leave space, not fill every silence.

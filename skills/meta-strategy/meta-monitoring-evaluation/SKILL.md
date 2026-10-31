@@ -265,8 +265,8 @@ Use a practical default:
 The M&E framework must incorporate reporting obligations tied to the funding source. These are contractual, not optional.
 
 **For bank loans (commercial banks, UDB, ACF):** Lenders attach performance covenants to loans. Typical covenant monitoring requirements include:
-- DSCR  1.25x  monitored quarterly; report to bank annually or upon request
-- Current ratio  1.0x  monitored quarterly
+- DSCR ≥ 1.25x  monitored quarterly; report to bank annually or upon request
+- Current ratio ≥ 1.0x  monitored quarterly
 - Quarterly management accounts (unaudited) to lending institution
 - Annual audited accounts within 6 months of financial year end
 - Insurance certificates on pledged collateral  renewed annually

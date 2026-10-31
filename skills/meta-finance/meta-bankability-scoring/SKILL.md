@@ -229,8 +229,8 @@ Score each item YES / PARTIAL / NO. A plan is not bank-ready until all critical 
 - [ ] Operations plan demonstrates operational competence (08)
 
 **MEANS (Can they afford to service the debt?)**
-- [ ] DSCR  1.25x calculated from projections (10, 11)  **CRITICAL**
-- [ ] Owner equity contribution  20% of total project cost (11)
+- [ ] DSCR ≥ 1.25x calculated from projections (10, 11)  **CRITICAL**
+- [ ] Owner equity contribution ≥ 20% of total project cost (11)
 - [ ] Personal net worth statements for all directors included (Appendix)
 - [ ] Cash flow projections show positive operating cash flow within 12 months
 
@@ -241,7 +241,7 @@ Score each item YES / PARTIAL / NO. A plan is not bank-ready until all critical 
 
 **AMOUNT (Is the loan amount correctly sized?)**
 - [ ] Loan amount equals sum of use-of-funds items (11)  check via `consistency-audit.md`
-- [ ] Loan is not excessive relative to business revenue (loan  3 annual revenue for SME)
+- [ ] Loan is not excessive relative to business revenue (loan ≤ 3× annual revenue for SME)
 - [ ] Loan structure matches purpose (term loan for capex; overdraft for working capital)
 
 **REPAYMENT (Will they repay?)**
@@ -252,7 +252,7 @@ Score each item YES / PARTIAL / NO. A plan is not bank-ready until all critical 
 
 **INSURANCE (What security is offered?)**
 - [ ] Primary collateral identified with estimated value (11)  **CRITICAL**
-- [ ] Collateral coverage  125% of loan amount (11)
+- [ ] Collateral coverage ≥ 125% of loan amount (11)
 - [ ] Collateral documentation listed (Appendix  land title, logbook, etc.)
 - [ ] Insurance on collateral assets included in operating budget (08, 12)
 - [ ] If collateral is insufficient: compensating factors named (UCGS, group guarantee, character lending)
@@ -272,13 +272,13 @@ CAMPARI Score:
   Insurance:   [X/5 items]  [READY / PARTIAL / NOT READY]
 
 CRITICAL CHECKS (must be YES to submit):
-  / DSCR  1.25x: [Yes/No]  calculated as [X] / [X] = [X.Xx]
-  / Collateral  125%: [Yes/No]  [UGX X collateral / UGX X loan = X%]
+  / DSCR ≥ 1.25x: [Yes/No]  calculated as [X] / [X] = [X.Xx]
+  / Collateral ≥ 125%: [Yes/No]  [UGX X collateral / UGX X loan = X%]
   / Business registered + TIN held: [Yes/No]
   / Specific purpose stated with itemised use of funds: [Yes/No]
 
 OVERALL BANK LOAN READINESS:
-  [SUBMIT] All critical items pass; CAMPARI  75% complete
+  [SUBMIT] All critical items pass; CAMPARI ≥ 75% complete
   [REVISE] One or more critical items fail  do not submit yet
   [NOT READY] Multiple critical failures  major revision required
 
@@ -293,7 +293,7 @@ TOP 3 ACTIONS BEFORE SUBMISSION:
 Before running the Bank Loan Readiness assessment, run the consistency audit from:
 `skills/meta-finance/meta-bankability-scoring/references/consistency-audit.md`
 
-A plan that fails  3 consistency checks should be revised before scoring  inconsistencies undermine all other scoring dimensions.
+A plan that fails ≥ 3 consistency checks should be revised before scoring  inconsistencies undermine all other scoring dimensions.
 
 ## References
 
@@ -301,7 +301,7 @@ A plan that fails  3 consistency checks should be revised before scoring  incons
 - `references/lender-criteria-uganda.md`  Formal credit criteria mapped to Uganda bank standards (created when Doing Business Uganda PDF extraction is complete)
 - `skills/pipeline/10-financial-projections/references/uganda-tax-framework.md`  Tax rates for financial projection verification
 - `skills/pipeline/11-funding-request/references/credit-assessment-frameworks.md`  5 Cs and CAMPARI detail
-- `skills/meta-sustainability/SKILL.md`  Sustainability Readiness Score (SRS); for DFI/impact investor plans, run Mode C audit and confirm SRS  1.6/2.0 before CAMPARI scoring; social licence to operate (community opposition risk) is a CAMPARI Character factor; environmental non-compliance is a CAMPARI Conditions factor
+- `skills/meta-sustainability/SKILL.md`  Sustainability Readiness Score (SRS); for DFI/impact investor plans, run Mode C audit and confirm SRS ≥ 1.6/2.0 before CAMPARI scoring; social licence to operate (community opposition risk) is a CAMPARI Character factor; environmental non-compliance is a CAMPARI Conditions factor
 
 ## Evidence Produced
 

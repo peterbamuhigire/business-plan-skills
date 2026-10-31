@@ -145,7 +145,7 @@ All adjectives and past participles must agree with gender:
 - **Month names**: Lowercase (fevrier, not Fevrier)
 - **Numbers**: Use space or period for thousands: 1 000 or 1.000 (not 1,000)
 - **Decimal separator**: Comma (not period): 3,14 (not 3.14)
-- **Currency**: Franc CFA (FCFA), Euro (), or specified in design-tokens.md
+- **Currency**: Franc CFA (FCFA), Euro (€), or specified in design-tokens.md
 
 ## Formal Registers and Politeness
 
@@ -218,7 +218,7 @@ Use terms understood across francophone Africa (not Canada-specific, not France-
 All French content must be reviewed by a native francophone speaker from the target market (Cote d'Ivoire, Cameroon, Senegal, DRC, Gabon). Send for review before publishing.
 
 ### Text Expansion
-French is typically 2040% longer than English. Design for 1.3x expansion:
+French is typically 20–40% longer than English. Design for 1.3x expansion:
 - Buttons must accommodate longer labels
 - Navigation items must wrap gracefully
 - Form labels must not overlap fields
@@ -333,7 +333,7 @@ Use formal register in all professional communication:
 All Kiswahili content must be reviewed by a native Kiswahili speaker from East Africa (Kenya, Tanzania, or Uganda). Regional variants exist; ensure reviewer is from target market.
 
 ### Text Expansion
-Kiswahili is typically 1030% longer than English. Design for 1.2x expansion:
+Kiswahili is typically 10–30% longer than English. Design for 1.2x expansion:
 - Buttons must flex for longer labels
 - Navigation items must wrap gracefully
 - Form labels must have clear spacing

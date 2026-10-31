@@ -74,12 +74,12 @@ When generating any business plan section for a Tanzania-based business, substit
 - Tanzania banking institutions (Section 6) for Uganda ones
 - Tanzania salary bands (Section 7) for Uganda bands
 
-Universal frameworks always apply: CAMPARI, DSCR  1.25, Minto Pyramid, Rasiel MECE, Damodaran valuation, 4Ps/7Ps, Golden Circle.
+Universal frameworks always apply: CAMPARI, DSCR ≥ 1.25×, Minto Pyramid, Rasiel MECE, Damodaran valuation, 4Ps/7Ps, Golden Circle.
 
 **Detailed reference files:**
 - `references/tanzania-investment-climate.md`  TIC investment data, Tanzania Investment Act 2022, SEZ/EPZ, OSFC registration process, trade agreements, financial sector detail, risk summary
 - `references/tanzania-demographics-education.md`  Norad/AfDB: population (69M, 2.9% growth), age structure, fertility, labour market, education enrolment, LAYS, higher education system
-- `references/tanzania-fydp3-development-plan.md`  **FYDP III (2021/222025/26)**: national plan targets; 17 flagship projects (SGR, JNHPP, EACOP, LNG, Mchuchuma, SEZs); sector targets (agriculture, manufacturing, mining, tourism, construction, ICT, financial services); macroeconomic targets (GDP 8%, GNI $3,000, FDI $7.98B); doing business reform targets; TZS 114.8 trillion resource envelope; SWOC analysis; 15 key business opportunities
+- `references/tanzania-fydp3-development-plan.md`  **FYDP III (2021/22–2025/26)**: national plan targets; 17 flagship projects (SGR, JNHPP, EACOP, LNG, Mchuchuma, SEZs); sector targets (agriculture, manufacturing, mining, tourism, construction, ICT, financial services); macroeconomic targets (GDP 8%, GNI $3,000, FDI $7.98B); doing business reform targets; TZS 114.8 trillion resource envelope; SWOC analysis; 15 key business opportunities
 
 **Live metrics file:** `references/economic-metrics.csv`  run `python tools/scrape_metrics.py tanzania` to populate.
 
@@ -108,25 +108,25 @@ Universal frameworks always apply: CAMPARI, DSCR  1.25, Minto Pyramid, Rasiel ME
 
 | Indicator | Value |
 |-----------|-------|
-| GDP (nominal) | USD 8091 billion (Afrexim: USD 80B; AfDB: USD 90.9B, 2024) |
+| GDP (nominal) | USD 80–91 billion (Afrexim: USD 80B; AfDB: USD 90.9B, 2024) |
 | GDP per capita | USD 1,336 (AfDB 2024); *lower-middle income since July 2020* |
 | Real GDP growth 2024 | **5.6%** (Afrexim; AfDB projected) |
-| Real GDP growth Q1 2025 (AprJun) | **6.3%**  highest quarterly rate in recent years (Budget) |
-| GDP growth forecast 2025 | 6.06.1% (Afrexim; AfDB) |
+| Real GDP growth Q1 2025 (Apr–Jun) | **6.3%**  highest quarterly rate in recent years (Budget) |
+| GDP growth forecast 2025 | 6.0–6.1% (Afrexim; AfDB) |
 | GDP growth forecast 2026 | 6.0% (Afrexim) |
-| GDP growth average 20002023 | ~6% per annum (Norad) |
-| Inflation (headline, 2024) | **3.5%** (Afrexim); within 35% target |
+| GDP growth average 2000–2023 | ~6% per annum (Norad) |
+| Inflation (headline, 2024) | **3.5%** (Afrexim); within 3–5% target |
 | Inflation (September 2025) | **3.4%**  core 2.2%; food 7.0%; energy 3.7% (Budget) |
-| Inflation target | 35% national; EAC convergence 8%; SADC 37% |
+| Inflation target | 3–5% national; EAC convergence ≤8%; SADC 3–7% |
 | Fiscal deficit | 3.0% of GDP (2024); narrowing  projected 2.8% (2026) (Afrexim) |
-| Public debt | 47.652% of GDP (varies by source/year; IMF-WB DSF threshold: 55%) |
+| Public debt | 47.6–52% of GDP (varies by source/year; IMF-WB DSF threshold: 55%) |
 | External debt | USD 37.8B; 47.2% of GDP (2024) (Afrexim) |
-| Tax revenue | ~11.512% of GDP (well below SSA average of 16.3%) |
+| Tax revenue | ~11.5–12% of GDP (well below SSA average of 16.3%) |
 | Total government revenue | ~15.5% of GDP (including grants) |
 | Foreign reserves | USD 6,664 million = **5.1 months** import cover (Sept 2025) |
-| Gross capital formation | 37.739.3% of GDP (high investment rate) |
-| Private investment | 11.6% of GDP; FDI declined from 5.7% (2010) to 1.72% (2023) (IMF/AfDB) |
-| Major sectors | Services 39.543%; Agriculture 25.827%; Industry 31.2% |
+| Gross capital formation | 37.7–39.3% of GDP (high investment rate) |
+| Private investment | 11.6% of GDP; FDI declined from 5.7% (2010) to 1.7–2% (2023) (IMF/AfDB) |
+| Major sectors | Services 39.5–43%; Agriculture 25.8–27%; Industry 31.2% |
 | Agriculture employment | 65.5% of labour force (2022) |
 | Mining growth | 19.0% (Q1 2025); 10.1% of GDP (2024) |
 | Primary data source | National Bureau of Statistics (NBS)  nbs.go.tz |
@@ -167,7 +167,7 @@ Universal frameworks always apply: CAMPARI, DSCR  1.25, Minto Pyramid, Rasiel ME
 4. Business Licence  Ministry of Investment, Trade & Industry / Local Government
 5. Social security registration  NSSF / PSSSF
 6. Sector-specific licences (TBS, TFDA, TCRA, etc.)
-7. For investments  threshold: TIC Certificate of Incentives
+7. For investments ≥ threshold: TIC Certificate of Incentives
 
 ---
 
@@ -177,7 +177,7 @@ Universal frameworks always apply: CAMPARI, DSCR  1.25, Minto Pyramid, Rasiel ME
 |-----|-------------|
 | **Corporate income tax** | **30%** (standard; confirmed by budget collections pattern) |
 | **VAT** | **18%** (standard; VAT on imports + domestic sales per Budget) |
-| VAT registration threshold | [verify with TRA  estimated TZS 100200 million/year] |
+| VAT registration threshold | [verify with TRA  estimated TZS 100–200 million/year] |
 | VAT filing | Monthly via TRA online system; **EFD (Electronic Fiscal Device)** mandatory for all VAT-registered businesses |
 | **PAYE  indicative bands** | Progressive: 0% (low bracket)  top rate likely 30%  *verify current year bands with TRA; not detailed in source documents* |
 | **NSSF** | National Social Security Fund  employee + employer contributions [verify current rates] |
@@ -262,7 +262,7 @@ Universal frameworks always apply: CAMPARI, DSCR  1.25, Minto Pyramid, Rasiel ME
 | Development finance | TIB Development Bank; Tanzania Agricultural Development Bank (TADB); TPSC |
 | Foreign exchange | Fully liberalised; managed float; TZS appreciated 9.7% in Q1 2025 (USD 2,459 vs 2,696 in Q1 2024) |
 | Foreign reserves | USD 6,664 million = 5.1 months import cover (Sept 2025)  exceeds 4-month benchmark |
-| DSCR minimum |  1.25 (standard bank requirement) |
+| DSCR minimum | ≥ 1.25× (standard bank requirement) |
 
 ---
 
@@ -277,17 +277,17 @@ Universal frameworks always apply: CAMPARI, DSCR  1.25, Minto Pyramid, Rasiel ME
 | Dependency ratio | **84.4%** (high; declining slowly) |
 | Agriculture employment | **65.5%** of total employment (2022) |
 | Informal employment | **92.2%** of total (89.6% men; 95% women) |
-| New labour market entrants | ~1 million youth per year; only **50,00060,000** secure formal jobs annually |
-| NEET (1524, new ILO definition) | **23.8%** overall; females 29.5%, males 17.7% (2020, Norad) |
+| New labour market entrants | ~1 million youth per year; only **50,000–60,000** secure formal jobs annually |
+| NEET (15–24, new ILO definition) | **23.8%** overall; females 29.5%, males 17.7% (2020, Norad) |
 | Youth unemployment | 12.6% overall (ILO); female 40.6%, male 15.4% (AfDB) |
 | Minimum wage | [Verify with Ministry of Labour  sector-specific minimums exist; national minimum not confirmed in sources] |
 | **Indicative salary bands (Dar es Salaam)** | |
-|  Unskilled / casual | TZS 200,000400,000/month [ESTIMATE  verify] |
-|  Semi-skilled / clerical | TZS 400,000900,000/month [ESTIMATE  verify] |
-|  Technical / skilled | TZS 900,0002,500,000/month [ESTIMATE  verify] |
-|  Professional / management | TZS 2,500,0007,000,000/month [ESTIMATE  verify] |
-|  Senior management | TZS 7,000,00020,000,000+/month [ESTIMATE  verify] |
-| Employer cost multiplier |  1.101.15 of gross salary (NSSF + PSSSF + leave entitlement) [ESTIMATE] |
+|  Unskilled / casual | TZS 200,000–400,000/month [ESTIMATE  verify] |
+|  Semi-skilled / clerical | TZS 400,000–900,000/month [ESTIMATE  verify] |
+|  Technical / skilled | TZS 900,000–2,500,000/month [ESTIMATE  verify] |
+|  Professional / management | TZS 2,500,000–7,000,000/month [ESTIMATE  verify] |
+|  Senior management | TZS 7,000,000–20,000,000+/month [ESTIMATE  verify] |
+| Employer cost multiplier | × 1.10–1.15 of gross salary (NSSF + PSSSF + leave entitlement) [ESTIMATE] |
 | Employment law | Employment and Labour Relations Act 2004 (Cap. 366); Workers Compensation Act 2015 |
 | Annual leave | 28 working days/year minimum (Cap. 366) |
 | Notice period | 28 days minimum |
@@ -305,7 +305,7 @@ Universal frameworks always apply: CAMPARI, DSCR  1.25, Minto Pyramid, Rasiel ME
 | Population | ~69 million (2025) |
 | Population growth | **2.9%/year** |
 | Population projection 2050 | 128 million (UN medium variant; Norad) |
-| Urban population | ~3540% (rapid urbanisation) |
+| Urban population | ~35–40% (rapid urbanisation) |
 | Dar es Salaam | Largest city; commercial and financial hub |
 | Other major cities | Dodoma (capital), Mwanza, Arusha, Mbeya, Zanzibar City |
 | Mobile money accounts | **54.6 million active** (June 2024) |
@@ -334,19 +334,19 @@ Universal frameworks always apply: CAMPARI, DSCR  1.25, Minto Pyramid, Rasiel ME
 
 | Risk | Detail |
 |------|--------|
-| Fiscal / debt stress | Public debt 47.652% of GDP; external debt service 25% of exports (exceeds DSF 20% benchmark); debt service to revenue 31.3% (exceeds 18% benchmark)  *not yet in distress but watch closely* (Afrexim) |
-| Private investment crowding out | Public sector dominates capital formation (18.8% of GDP vs private 11.6%); FDI fell from 5.7% to 2% of GDP 20102023 (IMF) |
-| Productivity decline | TFP contribution to growth was -2 ppts (202023); structural transformation stalled since 2014 (IMF) |
+| Fiscal / debt stress | Public debt 47.6–52% of GDP; external debt service 25% of exports (exceeds DSF 20% benchmark); debt service to revenue 31.3% (exceeds 18% benchmark)  *not yet in distress but watch closely* (Afrexim) |
+| Private investment crowding out | Public sector dominates capital formation (18.8% of GDP vs private 11.6%); FDI fell from 5.7% to 2% of GDP 2010–2023 (IMF) |
+| Productivity decline | TFP contribution to growth was -2 ppts (2020–23); structural transformation stalled since 2014 (IMF) |
 | Low credit penetration | Domestic credit to private sector 16.4% of GDP  lowest in EAC (Kenya 31.6%, Rwanda 22.7%) (IMF) |
 | Tax revenue constraint | 12% of GDP vs SSA avg 16.3%; leaves limited fiscal space for social spending (AfDB) |
 | Skills mismatch | 59% of young workers undereducated; 61% of graduates lack job market skills (employers surveyed); LAYS 4.5 years (Norad/IMF) |
-| Youth unemployment gap | 1 million new entrants/year; only 5060K formal jobs; informal sector absorbs remainder |
+| Youth unemployment gap | 1 million new entrants/year; only 50–60K formal jobs; informal sector absorbs remainder |
 | Population growth pressure | 2.9%/year; dependency ratio 84.4%; rapid growth in school-age population requiring investment in teachers and classrooms |
 | Political / election | October 2025 general elections  short-term uncertainty; incumbent President Samia has improved business climate (corruption score +11 since 2015) |
 | Corruption | TI CPI score: 41/100 (2024; improved from 30 in 2015)  progress but still a business cost (IMF) |
 | Business regulation burden | 92% of firms report meeting with tax officials (vs 70% SSA avg); 14% of management time on regulations (vs 8% SSA avg) (IMF World Bank Enterprise Survey) |
 | Exchange rate volatility | TZS depreciated 9% in 2024; appreciated 9.7% in Q1 2025  managed float with volatility |
-| Deforestation / land | 10 percentage point decline in forest cover 20002022; new land policy (Feb 2025) opens foreign land ownership for investment |
+| Deforestation / land | 10 percentage point decline in forest cover 2000–2022; new land policy (Feb 2025) opens foreign land ownership for investment |
 | EUDR | EU Deforestation Regulation  affects coffee, cloves, cashews, cocoa exports from 2025 |
 | Infrastructure gap | Only 8.3% of road network in good condition (AfDB); road density 9.6 km per 100 km2 (IMF) |
 
@@ -354,12 +354,12 @@ Universal frameworks always apply: CAMPARI, DSCR  1.25, Minto Pyramid, Rasiel ME
 
 ## 10. Data Sources
 
-- Tanzania Budget Execution Report for the Financial Year 2025-26 (Q1: JulySeptember 2025). Ministry of Finance.
+- Tanzania Budget Execution Report for the Financial Year 2025-26 (Q1: July–September 2025). Ministry of Finance.
 - Afrexim Bank. *Tanzania Country Brief*. September 2025.
-- AfDB. *Tanzania Country Strategy Paper 20212025 Completion Report*. October 2025.
+- AfDB. *Tanzania Country Strategy Paper 2021–2025 Completion Report*. October 2025.
 - IMF. *Country Report No. 25/164  United Republic of Tanzania*. July 2025.
 - Norad. *Demography, Economy and Education in Tanzania*. May 2025.
-- Tanzania Investment Centre. *Quarterly Bulletin JanuaryMarch 2025* (Q3 FY2024/25).
+- Tanzania Investment Centre. *Quarterly Bulletin January–March 2025* (Q3 FY2024/25).
 - East Africa Market Assessments  Tanzania Report. 2025.
 
 **Detailed reference files:**
@@ -455,12 +455,12 @@ Completed by: Business Plan Skills project
 Date last updated: 13 March 2026
 Sources: 8 PDFs  Budget Execution Report Q1 FY2025/26, Afrexim Sept 2025, AfDB Oct 2025,
   IMF July 2025, Norad May 2025, TIC Q3 2024/25 Bulletin, EA Market Assessment 2025,
-  FYDP III (National 5-Year Development Plan 2021/222025/26, GoT June 2021, 352 pp.)
+  FYDP III (National 5-Year Development Plan 2021/22–2025/26, GoT June 2021, 352 pp.)
 Conservative planning rate: TZS 2,700/USD (Afrexim projects TZS 2,964 by end-2025; Q1 2025 actual TZS 2,459)
 Estimated fields (verify with TRA):
   - PAYE bands: source documents confirmed collections but did not tabulate bands
   - NSSF/PSSSF contribution rates: not detailed in sources
-  - VAT registration threshold: estimated TZS 100200M; verify with TRA
+  - VAT registration threshold: estimated TZS 100–200M; verify with TRA
   - WHT rates: not tabulated in source documents
   - Minimum wage: sector-specific; verify with Ministry of Labour
   - Salary bands: indicative estimates  no survey data in sources
@@ -470,6 +470,6 @@ Known data gaps:
   - Full WHT schedule: TRA website or Income Tax Act 2004 (Cap. 332)
 FYDP III note: The plan's 2019/20 macroeconomic baseline is now superseded by 2025 actuals.
   Use FYDP III targets as the government strategic direction; use 2025 sources (Budget, Afrexim,
-  AfDB, IMF) for current state. GDP growth has tracked 5.66.3% vs 8% target.
+  AfDB, IMF) for current state. GDP growth has tracked 5.6–6.3% vs 8% target.
   FDI target ($7.98B by 2026) is highly aspirational vs recent $1.17B baseline.
 ```

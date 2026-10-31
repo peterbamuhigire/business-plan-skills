@@ -75,13 +75,13 @@ Climate change, land degradation, water scarcity, and social inequality are mate
 ## Required Elements
 
 1. **Sustainability vision statement**  one sentence stating how the business creates value while protecting people and planet
-2. **Material sustainability issues**  23 key environmental and social issues for this specific business and sector (derived from materiality analysis)
-3. **SDG alignment**  23 UN Sustainable Development Goals the business contributes to, with specific targets and metrics
+2. **Material sustainability issues**  2–3 key environmental and social issues for this specific business and sector (derived from materiality analysis)
+3. **SDG alignment**  2–3 UN Sustainable Development Goals the business contributes to, with specific targets and metrics
 4. **Climate adaptation strategy**  how the business adapts to Uganda/EA climate risks (rainfall variability, drought, temperature shifts, flooding)
 5. **Environmental management summary**  ESMP-lite: key risks, controls, monitoring frequency (full ESMP if applying to UDB/DFI)
 6. **Social impact objectives**  jobs created, gender inclusion targets, community benefit-sharing, supplier inclusion
 7. **Circular economy initiatives**  waste reduction, by-product valorisation, resource efficiency measures
-8. **Sustainability KPIs**  58 measurable indicators with Year 1 and Year 3 targets
+8. **Sustainability KPIs**  5–8 measurable indicators with Year 1 and Year 3 targets
 9. **Sustainability investment**  budget for sustainability capex/opex (cross-reference 10 and 13)
 10. **Governance**  who is accountable for sustainability performance; reporting frequency; grievance mechanism
 
@@ -158,15 +158,15 @@ Our contribution: [Specific, quantified statement]
 - SDG 13 (Climate Action)  climate adaptation measures
 - SDG 15 (Life on Land)  land restoration, sustainable land use
 
-Choose 23 SDGs where the contribution is genuine and quantifiable. Avoid selecting every SDG  that signals greenwashing.
+Choose 2–3 SDGs where the contribution is genuine and quantifiable. Avoid selecting every SDG  that signals greenwashing.
 
 ---
 
 ## Climate Adaptation Strategy for Uganda
 
 Uganda climate context (IPCC AR6 / NEMA):
-- Bimodal rainfall seasons (MarchMay; OctoberNovember) are becoming increasingly erratic
-- Average temperature rise: +0.3C per decade; projected +1.52C by 2050 under medium scenario
+- Bimodal rainfall seasons (March–May; October–November) are becoming increasingly erratic
+- Average temperature rise: +0.3°C per decade; projected +1.5–2°C by 2050 under medium scenario
 - Northern and eastern Uganda: increased drought frequency (Karamoja, Teso subregions)
 - Central and western Uganda: increased flooding and landslide risk (Lake Victoria basin, Elgon, Kigezi highlands)
 - Energy sector: hydropower generation affected by Lake Victoria water level variability
@@ -187,7 +187,7 @@ Adaptation measures:
 | Shade trees / windbreaks       | Temperature/erosion | [X]        | Year 1       |
 | Drought-tolerant crop varieties| Drought             | [X]        | Season 1     |
 | Elevated storage facility      | Flooding            | [X]        | Q3 Year 1    |
-| Backup solar + battery         | Hydro power cuts    | [X]        | Year 12     |
+| Backup solar + battery         | Hydro power cuts    | [X]        | Year 1–2     |
 | Diversified supplier base      | Supply chain shock  | Minimal    | Ongoing      |
 ```
 
@@ -200,14 +200,14 @@ SOCIAL IMPACT SUMMARY
 
 Direct employment:      [X] permanent jobs; [Y] seasonal/casual jobs
 Gender inclusion:       [X]% of staff are women; [specific role or level, e.g. 50% of supervisors]
-Youth employment:       [X]% of staff are youth (1830 years)
-Living wage commitment: minimum wage  UGX [X]/month (above national minimum of UGX 6,000/day)
+Youth employment:       [X]% of staff are youth (18–30 years)
+Living wage commitment: minimum wage ≥ UGX [X]/month (above national minimum of UGX 6,000/day)
 Community benefit-sharing: [free/subsidised services; infrastructure; training for community]
 Local sourcing:         [X]% of inputs sourced from within [radius] km
 Supplier inclusion:     [X] smallholder farmers / MSMEs formally included in supply chain
 ```
 
-The Uganda minimum wage (UGX 6,000/day as of 2025) is very low. A credible living wage commitment should reference Uganda's actual cost of basic needs. The Uganda Poverty Line (UBOS 2023) is approximately UGX 1,296/person/day; a household of 5 requires roughly UGX 200,000300,000/month. Plan for a minimum of UGX 400,000/month for entry-level positions to signal genuine commitment.
+The Uganda minimum wage (UGX 6,000/day as of 2025) is very low. A credible living wage commitment should reference Uganda's actual cost of basic needs. The Uganda Poverty Line (UBOS 2023) is approximately UGX 1,296/person/day; a household of 5 requires roughly UGX 200,000–300,000/month. Plan for a minimum of UGX 400,000/month for entry-level positions to signal genuine commitment.
 
 ---
 
@@ -228,7 +228,7 @@ The Uganda minimum wage (UGX 6,000/day as of 2025) is very low. A credible livin
 | Wastewater/greywater | [X] litres/day    | Treated and reused for irrigation          | Water cost saving: UGX [X]    |
 | Food processing waste| [X] kg/day        | Compost sold to local farmers              | Revenue: UGX [X]              |
 
-Uganda's organic waste fraction is typically 6070% of total waste  compost and biogas are almost always viable options for food, agriculture, and hospitality businesses.
+Uganda's organic waste fraction is typically 60–70% of total waste  compost and biogas are almost always viable options for food, agriculture, and hospitality businesses.
 
 ---
 
@@ -274,11 +274,11 @@ For plans applying to UDB or international DFIs, the grievance mechanism must be
 
 1. Ask for: sector, location (specific district), water/energy/waste profile, staffing numbers, whether applying to DFI (UDB, aBi, UNCDF, IFC, etc.)
 2. Run `meta-sustainability/SKILL.md` Mode A pre-screen to identify material issues and NEMA category
-3. Map to 23 most relevant SDGs  use the SDG shortlist above, not the full 17
+3. Map to 2–3 most relevant SDGs  use the SDG shortlist above, not the full 17
 4. Draft climate adaptation strategy specific to the district/subregion in Uganda
 5. Define social impact objectives aligned with the management team section (09)
 6. Map all significant waste streams and identify circular economy options
-7. Set 58 KPIs with baseline estimates and Year 1 / Year 3 targets
+7. Set 5–8 KPIs with baseline estimates and Year 1 / Year 3 targets
 8. Specify sustainability governance (accountable person, reporting, grievance)
 9. Cross-reference sustainability capex/opex with 10 (financial projections) and 13 (implementation timeline)
 10. If applying to UDB or any DFI: complete full ESMP using `11-funding-request/references/esmp-template.md`

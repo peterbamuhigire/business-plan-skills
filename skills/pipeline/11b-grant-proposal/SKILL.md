@@ -104,13 +104,13 @@ Total Budget Requested: UGX [X] / USD [X]
 Co-Financing (if any): UGX [X] from [source]
 
 Problem Statement:
-[23 sentences: what specific problem does this project address?
+[2–3 sentences: what specific problem does this project address?
 Use data  e.g., "In Luwero District, 68% of youth aged 18-30 are
 unemployed (UBOS 2024), and less than 12% of smallholder farmers
 access formal markets for their produce."]
 
 Project Objective:
-[12 sentences: the specific, measurable change this project will
+[1–2 sentences: the specific, measurable change this project will
 achieve  e.g., "To establish a certified mango processing facility
 employing 45 youth (60% women) and connecting 200 smallholder
 farmers to formal export markets within 24 months."]
@@ -178,11 +178,11 @@ OUTPUTS (direct, measurable products of activities):
 4. UNBS certification obtained; [X] export contracts signed
 
 OUTCOMES (changes in behaviour, knowledge, or conditions):
-Short-term (012 months):
-- [X] youth employed at living wage of  UGX [X]/month
+Short-term (0–12 months):
+- [X] youth employed at living wage of ≥ UGX [X]/month
 - Farmer incomes increase by [X]% due to price premium
 
-Medium-term (1236 months):
+Medium-term (12–36 months):
 - [X] youth achieve financial independence and savings targets
 - Smallholder farmers access formal markets independently
 
@@ -214,7 +214,7 @@ The LogFrame (Logical Framework Matrix) is a mandatory tool for EU, USAID, UN, a
 | **Activities** | What the project does to produce each output | Budget and timeline | Financial reports | Resources available as planned |
 
 **Example row (Purpose level):**
-| **Purpose** | 45 youth employed in mango processing with incomes  UGX 300,000/month | By Month 18: 45 youth employed, 60% female, average wage UGX 350,000/month | Payroll records, employment contracts, spot checks | Mango processing facility operational; UNBS certification obtained |
+| **Purpose** | 45 youth employed in mango processing with incomes ≥ UGX 300,000/month | By Month 18: 45 youth employed, 60% female, average wage UGX 350,000/month | Payroll records, employment contracts, spot checks | Mango processing facility operational; UNBS certification obtained |
 
 ## Step 5: Beneficiary Analysis
 
@@ -224,7 +224,7 @@ Grant funders require detailed beneficiary analysis, disaggregated by:
 DIRECT BENEFICIARIES (directly receive project services):
 - Total: [X] individuals
 - Women: [X] ([X]%)
-- Youth (1835): [X] ([X]%)
+- Youth (18–35): [X] ([X]%)
 - Persons with disabilities: [X] ([X]%)
 - District: [Name], Sub-counties: [List]
 - Current income level: Average UGX [X]/month before project
@@ -250,26 +250,26 @@ MOST VULNERABLE:
 ```text
 WORK PLAN
 
-Phase 1: Inception (Months 13)
+Phase 1: Inception (Months 1–3)
 - Month 1: Sign contracts, open project account, hire project staff
 - Month 2: Procure equipment (competitive tender)
 - Month 3: Site preparation, baseline survey, farmer registration
 
-Phase 2: Implementation (Months 418)
-- Months 46: Equipment installation, staff training
-- Months 712: Facility operational, first processing cycle
-- Months 1318: Scale up, certification, export market entry
+Phase 2: Implementation (Months 4–18)
+- Months 4–6: Equipment installation, staff training
+- Months 7–12: Facility operational, first processing cycle
+- Months 13–18: Scale up, certification, export market entry
 
-Phase 3: Sustainability (Months 1924)
-- Month 1922: Transition to commercial operations
-- Month 2324: Final evaluation, knowledge sharing, exit plan
+Phase 3: Sustainability (Months 19–24)
+- Month 19–22: Transition to commercial operations
+- Month 23–24: Final evaluation, knowledge sharing, exit plan
 ```
 
 ## Step 7: Budget Narrative
 
 Every budget line must be justified. Funders look for:
 - **Reasonable unit costs:** Compare to market rates; justify any above-average costs
-- **Proportionality:** Personnel costs typically max 3040% of total budget for infrastructure projects
+- **Proportionality:** Personnel costs typically max 30–40% of total budget for infrastructure projects
 - **No double-funding:** Items funded by other sources must be identified
 - **Allowable costs:** Check funder guidelines  some do not fund overhead, land purchase, or contingency above 5%
 
@@ -288,13 +288,13 @@ BUDGET NARRATIVE
        daily production.
 
 2. PERSONNEL: UGX [X] ([X]% of budget)
-   2.1 Project Manager (1 FTE  24 months  UGX [X]/month): UGX [X]
+   2.1 Project Manager (1 FTE × 24 months × UGX [X]/month): UGX [X]
        Role: Overall project coordination and reporting
-   2.2 Technical Trainer (0.5 FTE  6 months  UGX [X]/month): UGX [X]
+   2.2 Technical Trainer (0.5 FTE × 6 months × UGX [X]/month): UGX [X]
        Role: Equipment operation training for 45 youth employees
 
 3. TRAINING AND CAPACITY BUILDING: UGX [X]
-   3.1 Youth operator training (45 persons  20 days  UGX [X]/day): UGX [X]
+   3.1 Youth operator training (45 persons × 20 days × UGX [X]/day): UGX [X]
        Includes: Training materials, venue hire, refreshments, trainee
        subsistence allowance
 
@@ -352,13 +352,13 @@ Cross-reference `meta-monitoring-evaluation/SKILL.md` for the full M&E framework
 - Quarterly narrative reports to funder (format per funder template)
 - Quarterly financial reports (actual vs. budget with variance explanation)
 - Mid-term review (Month 12)  often funder-led
-- Final evaluation (Month 2224)  independent evaluator recommended
+- Final evaluation (Month 22–24)  independent evaluator recommended
 - Data disaggregation by gender, age, disability for all beneficiary indicators
 
 ## Step 10: Government Grant Specifics (Uganda)
 
 ### Youth Livelihood Programme (YLP)  Ministry of Gender
-- Groups of 1530 youth applying collectively
+- Groups of 15–30 youth applying collectively
 - Revolving fund model: grant is repaid to fund new groups
 - Application through Parish/Sub-county Chief
 - Required: Business plan, group constitution, meeting minutes, NIN for all members

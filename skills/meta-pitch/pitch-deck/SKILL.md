@@ -133,7 +133,7 @@ Before any deck work, confirm three things:
 2. What is the deadline?
    [ ] Same day / urgent
    [ ] Within 1 week
-   [ ] 24 weeks (full preparation possible)
+   [ ] 2–4 weeks (full preparation possible)
 
 3. What materials exist?
    [ ] Complete business plan (all 15 sections)
@@ -176,23 +176,23 @@ Do not move to Phase 3 until the pitch strategy is clear. A deck built on an unc
 | 4  Market Size | `The [addressable market] is [UGX/USD X] and growing at [X%] per year` | 04 Market Analysis |
 | 5  Business Model | `We earn [UGX X] per [unit/customer] through [revenue mechanism]` | 03 / 07 Marketing |
 | 6  Traction | `In [period], we achieved [metric]: [customers / revenue / units / pilots]` | 02 Company Overview |
-| 7  Competition | `We win against [competitors] on [23 specific dimensions]` | 06 Competitive Analysis |
+| 7  Competition | `We win against [competitors] on [2–3 specific dimensions]` | 06 Competitive Analysis |
 | 8  Go-to-Market | `We reach [target customer] through [channel] at [CAC]  [conversion rate] close rate` | 07 Marketing & Sales |
 | 9  Team | `[Name] brings [X years] of [relevant experience]  this team has done this before` | 09 Management Team |
 | 10  Financials | `Revenue reaches [UGX X] by Year 3; EBITDA margin [X%]; break-even Month [X]` | 10 Financial Projections |
 | 11  The Ask | `We are raising [UGX X] as a [loan / equity / grant] to [specific use]` | 11 Funding Request |
-| 12  Use of Funds | `[Visual: 45 line items with % breakdown matching 11 exactly]` | 11 Funding Request |
+| 12  Use of Funds | `[Visual: 4–5 line items with % breakdown matching 11 exactly]` | 11 Funding Request |
 | 13  The Close | `[Investor/lender name] + [Business Name] = [specific shared outcome]. Here is the next step.` | 01 Executive Summary |
 
 **Slide count adjustments by pitch type:**
-- Equity investor: 1012 slides (drop Slide 12; integrate use of funds into Slide 11)
-- Bank / DFI: 1315 slides (add DSCR slide; add collateral slide)
-- Grant committee: 1214 slides (replace Traction with Theory of Change; add beneficiary slide)
-- Client proposal: 1520 slides (expand Solution and Go-to-Market; add delivery timeline)
+- Equity investor: 10–12 slides (drop Slide 12; integrate use of funds into Slide 11)
+- Bank / DFI: 13–15 slides (add DSCR slide; add collateral slide)
+- Grant committee: 12–14 slides (replace Traction with Theory of Change; add beneficiary slide)
+- Client proposal: 15–20 slides (expand Solution and Go-to-Market; add delivery timeline)
 
 #### Slide Design Rules (non-negotiable)
 
-1. **Assertion headlines**  every slide title is a complete sentence stating a conclusion, not a label ("Revenue"  "Revenue grows 3 in 24 months")
+1. **Assertion headlines**  every slide title is a complete sentence stating a conclusion, not a label ("Revenue"  "Revenue grows 3× in 24 months")
 2. **One message per slide**  if there are two messages, there are two slides
 3. **No bullet forests**  maximum 3 bullets; prefer visuals, charts, or single statements
 4. **Chart titles are conclusions**  "Monthly Revenue (UGX)"  "Revenue crosses break-even in Month 14"

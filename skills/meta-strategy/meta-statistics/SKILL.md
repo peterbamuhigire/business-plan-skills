@@ -109,7 +109,7 @@ Source books: Anderson et al. *Essentials of Statistics for Business and Economi
 | 04 Market Analysis | TAM/SAM/SOM sizing | Frequency tables + totals from sourced data | See `statistics-for-business-plans.md Market Sizing` |
 | 04 Market Analysis | Market growth trend | **Geometric mean** (not arithmetic) | `Growth Rates` |
 | 05 Target Market | Customer segment profiles | Descriptive stats + bar/stacked bar charts | `Descriptive Stats` |
-| 06 Competitive Analysis | Competitor positioning | Scatter diagram (2 axes: price  quality) | `Chart Selection` |
+| 06 Competitive Analysis | Competitor positioning | Scatter diagram (2 axes: price × quality) | `Chart Selection` |
 | 07 Marketing/Sales | Customer survey results | Confidence intervals + sample design | `Sampling & CIs` |
 | 10 Financial Projections | Revenue forecasting | Regression (if 3+ years historical data exist) | `Regression` |
 | 10 Financial Projections | Risk comparison across markets | **Coefficient of variation** | `Variability` |
@@ -122,16 +122,16 @@ Source books: Anderson et al. *Essentials of Statistics for Business and Economi
 **Rule:** Any multi-period growth rate (revenue CAGR, population growth, market expansion) must use the geometric mean  never the arithmetic mean.
 
 **Why it matters:** Arithmetic mean of annual returns *overstates* true compounded growth.
-- Year 1: +100%, Year 2: 50%  Arithmetic mean = +25% (misleading: you broke even)
+- Year 1: +100%, Year 2: −50%  Arithmetic mean = +25% (misleading: you broke even)
 - Geometric mean = 0% (correct: $100  $200  $100)
 
 **Formula:**
 ~~~text
-CAGR = (End Value / Start Value)^(1/n)  1
+CAGR = (End Value / Start Value)^(1/n) − 1
 Geometric Mean = n(x1  x2  ...  xn)
 ~~~
 
-**When to cite:** "Revenue grew at a CAGR of 18.4% over 5 years (geometric mean of annual growth rates, 20192024)."
+**When to cite:** "Revenue grew at a CAGR of 18.4% over 5 years (geometric mean of annual growth rates, 2019–2024)."
 
 ---
 
@@ -139,7 +139,7 @@ Geometric Mean = n(x1  x2  ...  xn)
 
 Use **standard deviation** to describe spread within one variable. Use **coefficient of variation (CV)** to compare variability across variables with different scales or units.
 
-**CV formula:** `CV = (s  x)  100%`
+**CV formula:** `CV = (s ÷ x) × 100%`
 
 **Business plan application:**
 - Compare revenue stability of two product lines: Line A (mean UGX 45M/month, CV = 8%) is more predictable than Line B (mean UGX 120M/month, CV = 31%)
@@ -167,7 +167,7 @@ Read `references/statistics-for-business-plans.md Chart Selection` for the full 
 - Never use 3D charts  adds visual noise, distorts magnitudes
 - Axis must start at zero when comparing absolute values
 - Label axes with units (UGX millions, % market share)
-- Maximum 56 pie slices; use "Other" for remainder
+- Maximum 5–6 pie slices; use "Other" for remainder
 - Use direct labels (percentages on slices)  not a separate legend
 
 ---
@@ -190,8 +190,8 @@ When the plan includes a primary customer survey or field research, document the
 
 | Population Type | Method | Minimum Sample |
 |---|---|---|
-| Homogeneous (single industry/area) | Simple random sampling | n  30 |
-| Heterogeneous (multiple segments) | Stratified random sampling | n  30 per stratum |
+| Homogeneous (single industry/area) | Simple random sampling | n ≥ 30 |
+| Heterogeneous (multiple segments) | Stratified random sampling | n ≥ 30 per stratum |
 | Geographically dispersed, cost-sensitive | Cluster sampling | Varies; see `Sampling` |
 
 **Sample size for confidence interval:**
@@ -203,12 +203,12 @@ When the plan includes a primary customer survey or field research, document the
 
 When the plan cites a survey finding ("70% of customers prefer X"), always attach a confidence interval.
 
-**Formula (proportion):** `p  1.96  [p(1p)/n]`
+**Formula (proportion):** `p ± 1.96 × √[p(1−p)/n]`
 
 **Example (n=150, 70% preference):**
-`CI = 0.70  1.96  (0.700.30/150) = 0.70  0.073 = [62.7%, 77.3%]`
+`CI = 0.70 ± 1.96 × √(0.70×0.30/150) = 0.70 ± 0.073 = [62.7%, 77.3%]`
 
-**Write-up:** "70% of surveyed customers (n=150) reported preference for X [95% CI: 6377%] (primary survey, March 2026)."
+**Write-up:** "70% of surveyed customers (n=150) reported preference for X [95% CI: 63–77%] (primary survey, March 2026)."
 
 ---
 
@@ -240,7 +240,7 @@ Every statistic in the plan must pass this three-question test:
 
 **Flagging estimates:**
 - Sourced fact: "(UBOS, 2024)"
-- Derived calculation: "(calculated from UBOS 2024 data; geometric mean 20192024)"
+- Derived calculation: "(calculated from UBOS 2024 data; geometric mean 2019–2024)"
 - Acknowledged estimate: "(author estimate based on industry benchmarks; see assumptions)"
 
 **Never acceptable:** Unsourced percentages, rounded numbers without basis, growth rates without stating the method.

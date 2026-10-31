@@ -173,7 +173,7 @@ Epsilon: Use headers and bullet points. British English. Max [word count].
 #### Few-Shot (Examples-First)  default for brand voice tasks
 
 ~~~text
-Here are [23] examples of [content type] in the voice and style I want:
+Here are [2–3] examples of [content type] in the voice and style I want:
 ###
 [Example 1]
 ###
@@ -294,7 +294,7 @@ Ask for: business name, industry, country/city, team size, AI experience level, 
 ## References
 
 - `references/prompt-techniques-john.md`  24 Ibrahim John prompt techniques with formulas and business plan applications (John, 2023)
-- `references/training-guide-modules.md`  Mode 2 full training content: Modules 14, all worked examples, East Africa context notes, quality criteria
+- `references/training-guide-modules.md`  Mode 2 full training content: Modules 1–4, all worked examples, East Africa context notes, quality criteria
 
 ## Evidence Produced
 

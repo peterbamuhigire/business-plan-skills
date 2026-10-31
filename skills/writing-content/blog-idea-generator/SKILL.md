@@ -167,12 +167,12 @@ Based on the assessment, select 5-7 methods from the 20-method library. **Always
 |--------|-----------|-----------|
 | 1. Category Drilldown | Always |  (always include) |
 | 2. Buyer Awareness Stages | Always |  (always include) |
-| 3. Pain Point Mining | Client docs  2 or customer interaction  2 |  |
-| 4. Competitor Gap Analysis | Competitor visibility  2 | Competitor 2+ |
-| 5. Customer Question Mapping | Customer interaction  2 | Customer 2+ |
+| 3. Pain Point Mining | Client docs ≥ 2 or customer interaction ≥ 2 |  |
+| 4. Competitor Gap Analysis | Competitor visibility ≥ 2 | Competitor 2+ |
+| 5. Customer Question Mapping | Customer interaction ≥ 2 | Customer 2+ |
 | 6. They Ask, You Answer | Customer interaction = 3 | Customer 3 |
 | 7. Amazon/Review Mining | Product-based business | Client docs 2+ |
-| 8. Spin-Off Posts | Existing content  2 | Content 2+ |
+| 8. Spin-Off Posts | Existing content ≥ 2 | Content 2+ |
 | 9. Media Mashup | Brand voice is informal/creative | Client docs 2+ |
 | 10. Highlight Good/Bad | Industry has notable examples | Industry 2+ |
 | 11. How-To/Tutorial Mining | Product/service has teachable processes | Client docs 2+ |
@@ -181,7 +181,7 @@ Based on the assessment, select 5-7 methods from the 20-method library. **Always
 | 14. Newsjacking/Trends | Industry dynamism = 3 | Industry 3 |
 | 15. Use Any Object | Need creative/lateral ideas | Any (creative fallback) |
 | 16. Curated Roundups | Industry has notable resources | Industry 2+ |
-| 17. Prediction Posts | Industry dynamism  2 | Industry 2+ |
+| 17. Prediction Posts | Industry dynamism ≥ 2 | Industry 2+ |
 | 18. Jargon/Glossary | Technical niche with newcomer audience | Audience 2+ |
 | 19. Contrarian/Negative | Audience is sophisticated | Audience 3 |
 | 20. Topic-Category Matrix | Need high volume quickly | Any (volume fallback) |

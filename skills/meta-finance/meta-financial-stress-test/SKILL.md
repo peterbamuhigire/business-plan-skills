@@ -105,12 +105,12 @@ Invoke AFTER section 10 (Financial Projections) is complete. This skill takes th
 
 | Scenario | Revenue Adjustment | Cost Adjustment |
 |---|---|---|
-| **Optimistic** | +20 to +30% vs. base | 5% (efficiency gains) |
+| **Optimistic** | +20 to +30% vs. base | −5% (efficiency gains) |
 | **Base case** | 0% (the projection as written) | 0% |
-| **Pessimistic** | 15 to 25% | +10 to +15% |
-| **Extreme / Tail risk** | 35 to 50% | +20 to +30% |
+| **Pessimistic** | −15 to −25% | +10 to +15% |
+| **Extreme / Tail risk** | −35 to −50% | +20 to +30% |
 
-**Rule:** The pessimistic scenario must be grounded in a plausible real-world event. Use calibrated shocks from Uganda's actual economic history  see `references/stress-test-methodology.md`. A 20% shock that cites "exchange rate depreciation + fuel cost increase" is credible; an unexplained 20% is not.
+**Rule:** The pessimistic scenario must be grounded in a plausible real-world event. Use calibrated shocks from Uganda's actual economic history  see `references/stress-test-methodology.md`. A −20% shock that cites "exchange rate depreciation + fuel cost increase" is credible; an unexplained −20% is not.
 
 For each scenario, document explicit assumptions (revenue growth, gross margin, fixed costs, exchange rate, fuel cost, interest rate, repayment start). See the Scenario Assumption Table format in `references/stress-test-methodology.md`.
 
@@ -192,7 +192,7 @@ Produce a stress test report with:
 
 ## References
 
-- `references/stress-test-methodology.md`  Calibrated Uganda historical shock data (COVID-19 by sector, FX depreciation 202123, fuel shock 2022, LGBTQ law 2023 economic fallout, coffee price cycle, regional security disruptions), sector-specific shock factors (agriculture/hospitality/retail/manufacturing), four-scenario framework, Scenario Assumption Table, DSCR Stress Test table, Breakeven Sensitivity Analysis table, Early Warning Dashboard (Green/Amber/Red triggers with specific UGX thresholds)
+- `references/stress-test-methodology.md`  Calibrated Uganda historical shock data (COVID-19 by sector, FX depreciation 2021–23, fuel shock 2022, LGBTQ law 2023 economic fallout, coffee price cycle, regional security disruptions), sector-specific shock factors (agriculture/hospitality/retail/manufacturing), four-scenario framework, Scenario Assumption Table, DSCR Stress Test table, Breakeven Sensitivity Analysis table, Early Warning Dashboard (Green/Amber/Red triggers with specific UGX thresholds)
 
 ## Evidence Produced
 

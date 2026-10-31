@@ -203,7 +203,7 @@ Next quarter preview:
 
 Each quarterly game plan should include at least one process improvement objective using the BPI methodology (Page, 2015):
 
-1. **Select process**  Use the process prioritisation matrix (Impact  Implementation feasibility  Current State  Value) to choose which process to improve this quarter
+1. **Select process**  Use the process prioritisation matrix (Impact × Implementation feasibility × Current State × Value) to choose which process to improve this quarter
 2. **Scope**  Define boundaries using the 8-section Scope Definition Document (process name, owner, description, scope, responsibilities, client needs, stakeholders, measurements of success)
 3. **Map and analyse**  Document as-is process, estimate time and cost, apply improvement techniques
 4. **Implement**  Use four parallel tracks: change management, testing, communication, training

@@ -108,12 +108,12 @@ Before designing any deck, confirm the audience and context  this determines eve
 
 | Context | Audience | Time | Slides | Dominant Mode |
 |---|---|---|---|---|
-| **Investor pitch** | Angel / VC / impact investor | 1520 min | 1012 | Narrative + aspiration |
-| **Bank / DFI presentation** | Credit officer / loan committee | 2030 min | 1215 | Evidence + security |
-| **Client proposal** | Procurement / decision-maker | 3045 min | 1520 | Problem-solution-ROI |
-| **Grant committee** | Programme officers | 2030 min | 1215 | Impact + accountability |
-| **Board / management** | Directors / senior management | 3060 min | 1525 | Strategy + data |
-| **Public / community** | Stakeholders / partners | 2040 min | 1015 | Story + benefit |
+| **Investor pitch** | Angel / VC / impact investor | 15–20 min | 10–12 | Narrative + aspiration |
+| **Bank / DFI presentation** | Credit officer / loan committee | 20–30 min | 12–15 | Evidence + security |
+| **Client proposal** | Procurement / decision-maker | 30–45 min | 15–20 | Problem-solution-ROI |
+| **Grant committee** | Programme officers | 20–30 min | 12–15 | Impact + accountability |
+| **Board / management** | Directors / senior management | 30–60 min | 15–25 | Strategy + data |
+| **Public / community** | Stakeholders / partners | 20–40 min | 10–15 | Story + benefit |
 
 ---
 
@@ -188,7 +188,7 @@ Before building slides, map the resistance for your specific audience:
 
 ### Phase 2  Slide Architecture
 
-#### The Business Plan Presentation Master Deck (1215 Slides)
+#### The Business Plan Presentation Master Deck (12–15 Slides)
 
 **Slide 1: Cover**
 - Business name, logo, tagline (the One Thing as a short phrase)
@@ -228,11 +228,11 @@ Before building slides, map the resistance for your specific audience:
 **Slide 7: Traction / Proof**
 - The most credible evidence that this works: revenue, customers, pilots, LOIs, partnerships
 - For pre-revenue: validation evidence  interviews, presales, deposits taken
-- Headline states the conclusion: "Revenue has grown 3 in 18 months" not "Revenue Chart"
+- Headline states the conclusion: "Revenue has grown 3× in 18 months" not "Revenue Chart"
 - Cross-reference: `meta-market-validation/SKILL.md` for validation evidence
 
 **Slide 8: Competitive Landscape**
-- 22 matrix or simple positioning map (not a competitor comparison table)
+- 2×2 matrix or simple positioning map (not a competitor comparison table)
 - Where the business sits in the upper-right quadrant and why it belongs there
 - One sentence on sustainable competitive advantage
 - Cross-reference: `06-competitive-analysis/SKILL.md`
@@ -250,7 +250,7 @@ Before building slides, map the resistance for your specific audience:
 - Cross-reference: `10-financial-projections/SKILL.md`
 
 **Slide 11: The Team**
-- Photos + 2-line bios of the top 23 people only
+- Photos + 2-line bios of the top 2–3 people only
 - Lead with the unfair advantage: "Former Head of Agriculture at [Bank], 12 years"
 - Not a CV — every word must answer "why are YOU the team to do this?"
 - Cross-reference: `09-management-team/SKILL.md`
@@ -258,7 +258,7 @@ Before building slides, map the resistance for your specific audience:
 **Slide 12: The Ask**
 - Exact amount requested
 - Equity percentage / loan terms / grant size  specific
-- Use of funds: 45 line items maximum as a simple bar or pie
+- Use of funds: 4–5 line items maximum as a simple bar or pie
 - What this funding achieves (tied to milestones)
 - Next step: explicit and low-friction
 - Cross-reference: `11-funding-request/SKILL.md`
@@ -311,7 +311,7 @@ Remove everything that doesn't directly support the headline:
 - Contrast ratio: dark text on light, or light text on dark  never grey on grey
 
 #### Colour
-- 23 colours maximum (brand colours if available; if not: one strong primary, one accent, white/black)
+- 2–3 colours maximum (brand colours if available; if not: one strong primary, one accent, white/black)
 - Consistent use: primary for headlines, accent for emphasis, white/black for body
 - Financial slides: use colour intentionally  green for positive, amber for watch, red for risk
 
@@ -358,7 +358,7 @@ See [`references/client-coaching-protocol.md`](references/client-coaching-protoc
 
 ## Mode C: Deck Audit
 
-Use before any presentation. Score each dimension 15.
+Use before any presentation. Score each dimension 1–5.
 
 ### Narrative Audit
 - [ ] Is there a single governing idea (the One Thing)?
@@ -378,8 +378,8 @@ Use before any presentation. Score each dimension 15.
 
 ### Financial Slides Audit
 - [ ] DSCR stated prominently (for bank pitches)?
-- [ ] Revenue chart headlined with conclusion ("Revenue grows 3 in 24 months")?
-- [ ] Use-of-funds visual (not table) with 45 line items?
+- [ ] Revenue chart headlined with conclusion ("Revenue grows 3× in 24 months")?
+- [ ] Use-of-funds visual (not table) with 4–5 line items?
 - [ ] Every data point sourced or traceable to business plan projections?
 - [ ] Numbers consistent with the business plan document (see `meta-due-diligence/SKILL.md` Mode C)?
 
@@ -400,7 +400,7 @@ Use before any presentation. Score each dimension 15.
    - Articulate the One Thing
    - Build the Sparkline narrative
    - Map audience resistance
-   - Design the slide architecture (1215 slides using the master deck template)
+   - Design the slide architecture (12–15 slides using the master deck template)
    - Apply design standards (assertion-evidence, signal-to-noise, rule of three)
 3. **Mode B:**
    - Schedule and run the 6-session coaching programme

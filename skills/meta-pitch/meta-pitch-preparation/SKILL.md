@@ -288,7 +288,7 @@ Minimum rehearsal schedule for a high-stakes pitch:
 1. **Full run-through (silent)**  client presents to themselves; record on phone
 2. **Full run-through (coached)**  you observe, take notes, do not interrupt
 3. **Debrief**  specific notes on frame breaks, filler words, pacing, hookpoint timing
-4. **Targeted drill**  repeat only the weak sections 3 each
+4. **Targeted drill**  repeat only the weak sections 3× each
 5. **Q&A simulation**  ask the 10 hardest questions without warning; evaluate bridging
 6. **Final full run-through**  full dress rehearsal with all materials in final form
 
@@ -325,7 +325,7 @@ Use this checklist to evaluate an existing pitch before it is delivered.
 ### Financial Audit (for bank and investor pitches)
 
 - [ ] Revenue/income numbers stated  are they supported by the business plan projections?
-- [ ] DSCR stated for bank pitches  does it meet 1.25 minimum?
+- [ ] DSCR stated for bank pitches  does it meet 1.25× minimum?
 - [ ] Valuation stated for equity pitches  is the methodology defensible? (See `references/business-valuation-methods.md`)
 - [ ] Use of funds: is it specific (4-6 items), not vague ("working capital: 40%")?
 - [ ] Collateral mentioned for bank pitches  with value and coverage ratio?
@@ -342,8 +342,8 @@ Use this checklist to evaluate an existing pitch before it is delivered.
 
 - [ ] Does each slide carry one message  not three?
 - [ ] Is the executive summary slide (if any) written bottom-line-up-front? (See `references/pyramid-principle.md`)
-- [ ] Are financial charts titled with the conclusion ("Revenue grows 3 in 24 months"), not the description ("Revenue Chart")?
-- [ ] Is the deck readable at arm's length? (Font  24pt for headers,  18pt body)
+- [ ] Are financial charts titled with the conclusion ("Revenue grows 3× in 24 months"), not the description ("Revenue Chart")?
+- [ ] Is the deck readable at arm's length? (Font ≥ 24pt for headers,  18pt body)
 - [ ] Does the deck have a clear narrative flow  or is it a data dump?
 
 ---
@@ -351,7 +351,7 @@ Use this checklist to evaluate an existing pitch before it is delivered.
 ## Generation Process
 
 1. Identify pitch type and audience
-2. **Mode A (self-prep):** Run through Phases 14 sequentially; produce the pitch script outline, Q&A prep sheet, and delivery checklist
+2. **Mode A (self-prep):** Run through Phases 1–4 sequentially; produce the pitch script outline, Q&A prep sheet, and delivery checklist
 3. **Mode B (client coaching):** Run intake  materials audit  frame rebuild  rehearsal schedule  day-of brief
 4. **Mode C (audit):** Apply the four audit checklists; produce a scored audit with priority fixes
 5. Cross-reference financial claims against the relevant business plan sections before any pitch

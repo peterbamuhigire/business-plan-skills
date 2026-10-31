@@ -97,7 +97,7 @@ Before Phase 1 can begin, all regulatory foundations must be in place. These are
 - [ ] Business bank account opened in the company name
 - [ ] Tax Compliance Certificate (TCC) from URA  required for government tenders
 
-Include these as explicit Week 14 tasks in the Phase 1 game plan. Flag which licences have processing times of 714 days and must be applied for immediately.
+Include these as explicit Week 1–4 tasks in the Phase 1 game plan. Flag which licences have processing times of 7–14 days and must be applied for immediately.
 
 ### Phase Framework
 
@@ -152,7 +152,7 @@ Decompose each phase into a hierarchical task structure (Dennis et al., 2021):
 | Field | Description |
 |---|---|
 | Task name | Descriptive action item |
-| Duration | Estimated days (use PERT: (Optimistic + 4Likely + Pessimistic)  6) |
+| Duration | Estimated days (use PERT: (Optimistic + 4×Likely + Pessimistic) ÷ 6) |
 | Dependencies | Predecessor task IDs |
 | Owner | Person assigned |
 | Deliverables | Tangible outputs |
@@ -206,7 +206,7 @@ Choose a go-live approach based on risk tolerance (Dennis et al., 2021):
 ## References
 
 - **Procurement and funding approvals as blocking gates (Uganda public-procurement and NGO/donor practice)**: See `references/procurement-and-gating-schedule.md` for treating PPDA procurement approvals (staged evaluation, Contracts Committee award, NOBEB and standstill, Attorney-General clearance, contract signature) and funding releases (commitment-control / quarterly expenditure limits for public bodies; donor disbursement tranches and conditions precedent for NGO projects) as BLOCKING predecessor milestones; NGO/donor programme cycles (6/12/24-month phases, no-cost extensions, reporting-driven tranche release); the M&E quarterly programmatic + financial (flexed-budget variance) reviews that gate the next tranche/phase; and how to render these gates in a Gantt/work plan with owners, lead times, and explicit critical-path risk flags. Cross-references the ppda-uganda sector skill and the chwezi-accounting-doctrine PFM/NGO references. **Read when the implementation timeline depends on a procured contract or on released funds — do not schedule downstream delivery before the approval gate completes. Statutory monetary thresholds must be verified against the current PPDA instrument.**
-- **PE-grade initiative portfolio design and governance (Umbrex, 2025)**: See `../11-funding-request/references/value-creation-plan-primer.md` for initiative portfolio design framework (object/population/mechanism/evidence dimensions), scope and objective-setting methodology, impact estimation (addressable base  driver change  adoption curve  leakage), sequencing constraints (data/systems/people/cash/commercial timing/operating stability), decision gates, three-layer governance model (workstream/enterprise/board), forum design principles, reporting cadence and dashboards, escalation ladder, risk scenarios (base/upside/downside) with triggers and contingencies, and first 100 days prioritisation. **Read when designing the implementation governance structure, sequencing initiatives, or building the operating cadence for any investor or lender-facing plan.**
+- **PE-grade initiative portfolio design and governance (Umbrex, 2025)**: See `../11-funding-request/references/value-creation-plan-primer.md` for initiative portfolio design framework (object/population/mechanism/evidence dimensions), scope and objective-setting methodology, impact estimation (addressable base × driver change × adoption curve − leakage), sequencing constraints (data/systems/people/cash/commercial timing/operating stability), decision gates, three-layer governance model (workstream/enterprise/board), forum design principles, reporting cadence and dashboards, escalation ladder, risk scenarios (base/upside/downside) with triggers and contingencies, and first 100 days prioritisation. **Read when designing the implementation governance structure, sequencing initiatives, or building the operating cadence for any investor or lender-facing plan.**
 - **Implementation and change management**: See `references/implementation-change-management.md` for three-phase implementation model, four parallel implementation tracks (change management/testing/communication/training), WBS structure, Gantt/PERT guidelines, PERT estimation formula, critical path analysis, conversion strategies, 4-step change management plan, adopter distribution model, 9 factors for successful change, and scope management  from Page (AMACOM, 2015) and Dennis, Wixom & Tegarden (Wiley, 2021)
 - **Project charter, scope, and change control**: See `references/scope-deliverables-and-change-control.md` for objective vs scope vs deliverable distinctions, charter discipline, WBS thinking, acceptance criteria, and scope-creep control. **Read when the implementation plan covers major buildouts, system deployments, or multi-stakeholder execution.**
 

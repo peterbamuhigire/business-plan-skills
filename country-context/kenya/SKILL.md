@@ -74,7 +74,7 @@ When generating any business plan section for a Kenya-based business, substitute
 - Kenya banking institutions (Section 6) for Uganda ones
 - Kenya salary bands (Section 7) for Uganda bands
 
-Universal frameworks always apply: CAMPARI, DSCR  1.25, Minto Pyramid, Rasiel MECE, Damodaran valuation, 4Ps/7Ps, Golden Circle.
+Universal frameworks always apply: CAMPARI, DSCR ≥ 1.25×, Minto Pyramid, Rasiel MECE, Damodaran valuation, 4Ps/7Ps, Golden Circle.
 
 Detailed reference data: `references/kenya-investment-climate.md`
 
@@ -102,7 +102,7 @@ Detailed reference data: `references/kenya-investment-climate.md`
 | GDP (nominal) | USD 120.34 billion (2024; KNBS) |
 | GDP per capita | KES 309,460 (~USD 2,297) (2024) |
 | Real GDP growth | **4.7%** (2024; down from 5.7% in 2023) |
-| GDP growth forecast | ~55.5% (2025; CBK/IMF projection) |
+| GDP growth forecast | ~5–5.5% (2025; CBK/IMF projection) |
 | Inflation | **4.5%** (2024; 5-year low; food inflation 5.6%) |
 | Public debt | USD 81 billion; ~67.5% of government revenue to debt service |
 | Employment (modern + informal) | 20.8 million (2024); 782,300 new jobs created |
@@ -130,8 +130,8 @@ Detailed reference data: `references/kenya-investment-climate.md`
 | Online registration | **eCitizen portal** (ecitizen.go.ke)  one-stop access |
 | Primary legal structures | Private limited company (Ltd); Sole proprietorship; Partnership; Public company; LLP |
 | Most common SME structure | **Private Limited Company** |
-| Registration cost | Approximately KES 10,00020,000 |
-| Timeline | 13 business days online (post-digitisation) |
+| Registration cost | Approximately KES 10,000–20,000 |
+| Timeline | 1–3 business days online (post-digitisation) |
 | Post-registration steps | 1KRA taxpayer registration; 2Social Health Authority (SHA) registration; 3NSSF registration; 4County government business permit |
 | Foreign ownership | Generally 100% permitted; exceptions: mineral dealership (60% Kenyan), private security (25% Kenyan min.), construction (local content required), insurance (two-thirds limit) |
 | Foreign investment minimum (incentives) | USD 100,000 for KenInvest investment certificate |
@@ -151,12 +151,12 @@ Detailed reference data: `references/kenya-investment-climate.md`
 | **VAT** | **16%** (standard rate) |
 | VAT registration threshold | KES 5 million/year turnover |
 | VAT filing | Monthly via iTax (itax.kra.go.ke) |
-| **Capital gains tax** | 15% (standard); 5% for NIFC Authority-certified firms (KES 3B investment, 5 years) |
+| **Capital gains tax** | 15% (standard); 5% for NIFC Authority-certified firms (≥KES 3B investment, ≥5 years) |
 | **PAYE bands (indicative 2024/25)** | |
-|  KES 024,000/month | 10% |
-|  KES 24,00132,333/month | 25% |
-|  KES 32,334500,000/month | 30% |
-|  KES 500,001800,000/month | 32.5% |
+|  KES 0–24,000/month | 10% |
+|  KES 24,001–32,333/month | 25% |
+|  KES 32,334–500,000/month | 30% |
+|  KES 500,001–800,000/month | 32.5% |
 |  Above KES 800,000/month | 35% |
 | PAYE personal relief | KES 2,400/month |
 | **NSSF** | Old scheme: KES 200/month each (employer + employee). New NSSF Act 2013 (6% each, capped)  implementation disputed; old rates remain common |
@@ -164,7 +164,7 @@ Detailed reference data: `references/kenya-investment-climate.md`
 | WHT  dividends | 5% (resident); 15% (non-resident) |
 | WHT  consultancy/professional fees | 5% (resident); 20% (non-resident) |
 | WHT  rent | 10% (commercial); 7.5% (residential) |
-| WHT  interest | 15% (non-resident); 05% (resident banks) |
+| WHT  interest | 15% (non-resident); 0–5% (resident banks) |
 | Digital services tax | Replaced by 3% **significant economic presence tax** on non-resident digital marketplace providers (Tax Laws Amendment Act, December 2024) |
 | Tax authority | **KRA** (Kenya Revenue Authority)  kra.go.ke |
 | Electronic invoicing | **iTax**  VAT returns online; ETR (Electronic Tax Register) mandatory for VAT-registered businesses |
@@ -223,7 +223,7 @@ Detailed reference data: `references/kenya-investment-climate.md`
 | Venture capital | Kenya #1 VC destination in Africa 2024; attracted USD 537M in energy/environment finance |
 | Foreign exchange | Fully liberalised; managed float; KES gained 21% vs USD in 2024 |
 | SME credit access | SME credit ~44% penetration (vs Uganda 6%)  significantly more developed (IFC) |
-| DSCR minimum |  1.25 (standard bank requirement) |
+| DSCR minimum | ≥ 1.25× (standard bank requirement) |
 
 ---
 
@@ -232,19 +232,19 @@ Detailed reference data: `references/kenya-investment-climate.md`
 | Element | Detail |
 |---------|--------|
 | Total population | 52.4 million (end 2024) |
-| Working-age population | ~31 million (1564 age band estimate) |
+| Working-age population | ~31 million (15–64 age band estimate) |
 | Formal wage employment | 3.21 million (modern sector, 2024; KNBS) |
 | Total employment (modern + informal) | 20.8 million (2024) |
 | New jobs created | 782,300 (2024); 90% in informal sector |
 | Total wage bill | KES 2,998.8 billion (2024); average formal worker ~KES 78,000/month |
-| **Minimum wage (Nairobi, 2024)** | ~KES 16,00016,500/month (unskilled general workers; revised annually by Ministry of Labour) [verify current year gazette] |
+| **Minimum wage (Nairobi, 2024)** | ~KES 16,000–16,500/month (unskilled general workers; revised annually by Ministry of Labour) [verify current year gazette] |
 | **Typical salary bands (Nairobi, 2025 indicative)** | |
-|  Unskilled / casual | KES 15,00025,000/month |
-|  Semi-skilled / clerical | KES 25,00050,000/month |
-|  Technical / skilled | KES 50,000120,000/month |
-|  Professional / management | KES 120,000350,000/month |
-|  Senior management | KES 350,0001,000,000+/month |
-| Employer cost multiplier |  1.081.12 of gross salary (NSSF + SHA contributions; leave entitlement) |
+|  Unskilled / casual | KES 15,000–25,000/month |
+|  Semi-skilled / clerical | KES 25,000–50,000/month |
+|  Technical / skilled | KES 50,000–120,000/month |
+|  Professional / management | KES 120,000–350,000/month |
+|  Senior management | KES 350,000–1,000,000+/month |
+| Employer cost multiplier | × 1.08–1.12 of gross salary (NSSF + SHA contributions; leave entitlement) |
 | Employment Act | Employment Act 2007 (Cap. 226) |
 | Annual leave | 21 working days/year (minimum) |
 | Notice period | 28 days (minimum) |
@@ -263,7 +263,7 @@ Detailed reference data: `references/kenya-investment-climate.md`
 | Population | 52.4 million (end 2024) |
 | Population growth | ~2.2%/year |
 | Urban population | ~30% (Nairobi dominant; rapid urbanisation) |
-| Nairobi | ~4.55 million (metro; exact varies by boundary definition) |
+| Nairobi | ~4.5–5 million (metro; exact varies by boundary definition) |
 | Other major cities | Mombasa, Kisumu, Nakuru, Eldoret |
 | Internet penetration | ~72% (mobile internet dominant) |
 | Mobile money penetration | ~80% (M-Pesa) |
@@ -283,7 +283,7 @@ Detailed reference data: `references/kenya-investment-climate.md`
 | Risk | Detail |
 |------|--------|
 | Public debt burden | USD 81 billion; 60% of tax revenue to debt service; constrained government spending |
-| Political risk | JuneAugust 2024 nationwide protests (Finance Bill rejection); subdued investment 2024; election cycles |
+| Political risk | June–August 2024 nationwide protests (Finance Bill rejection); subdued investment 2024; election cycles |
 | Corruption | TI CPI 2024: rank 121/180 (slight improvement vs 2023; below regional average) |
 | Banking sector NPLs | 16.4% NPL ratio (2024)  banks cautious; SME lending conditions tighter |
 | AML/FATF grey list | Added February 2024; AML law enacted June 2025  compliance obligations increasing |
@@ -309,9 +309,9 @@ Detailed reference data: `references/kenya-investment-climate.md`
 
 **Detailed reference files:**
 - `country-context/kenya/references/kenya-investment-climate.md`  FDI rules, EPZ/SEZ tax incentives, trade agreements, IP regime, labour law, detailed tax tables
-- `country-context/kenya/references/kenya-credit-pricing-2025.md`  CBK revised RBCPM (August 2025): KESONIA formula, full bank lending rate table (38 banks, Dec 2024May 2025), SME rate benchmarks, DSCR planning guidance
+- `country-context/kenya/references/kenya-credit-pricing-2025.md`  CBK revised RBCPM (August 2025): KESONIA formula, full bank lending rate table (38 banks, Dec 2024–May 2025), SME rate benchmarks, DSCR planning guidance
 - `country-context/kenya/references/kenya-bank-loan-standards.md`  Kenya bank loan application standards: all required sections, document checklist, security requirements, references (Family Bank + NCBA forms)
-- `country-context/kenya/references/kenya-mining-sector.md`  Kenya Mining Investment Handbook 2024/25: sector overview (0.7% GDP  410% target), 40+ minerals including niobium/REEs at Mrima Hills (KES 5.48.18T value), gold (1.2M+ oz JORC), titanium sands (Base Titanium USD 2B from USD 350M capex), licensing procedures (12-point requirements, 25-year duration, 70/20/10 royalty split), SEZ tax regime (10% corporate tax 10 years, 150% IDA), legal protections (FIPA, ICSID, MIGA). **Read when writing a Kenya mining or extractive sector business plan, or sizing the minerals investment opportunity.**
+- `country-context/kenya/references/kenya-mining-sector.md`  Kenya Mining Investment Handbook 2024/25: sector overview (0.7% GDP  4–10% target), 40+ minerals including niobium/REEs at Mrima Hills (KES 5.4–8.18T value), gold (1.2M+ oz JORC), titanium sands (Base Titanium USD 2B from USD 350M capex), licensing procedures (12-point requirements, 25-year duration, 70/20/10 royalty split), SEZ tax regime (10% corporate tax 10 years, 150% IDA), legal protections (FIPA, ICSID, MIGA). **Read when writing a Kenya mining or extractive sector business plan, or sizing the minerals investment opportunity.**
 
 **Live metrics files:**
 

@@ -134,7 +134,7 @@ See `references/test-learn-decide.md` for full templates, evidence strength guid
 ## Experiment Selection  Two Phases
 
 ### Phase 1: Discovery (go from uncertainty  initial direction)
-Use cheap, fast experiments to learn whether you are solving a real problem for real customers. Aim for **1520 customer conversations** before drawing conclusions. Evidence from discovery is generally weak-to-moderate  it is directional, not confirmatory.
+Use cheap, fast experiments to learn whether you are solving a real problem for real customers. Aim for **15–20 customer conversations** before drawing conclusions. Evidence from discovery is generally weak-to-moderate  it is directional, not confirmatory.
 
 **Rule:** Start with exploration (interviews, observations). Layer in interest data (ads, landing pages, surveys). Use prototypes to test concepts quickly.
 
@@ -184,7 +184,7 @@ After each experiment, decide:
 |----------|-----------|----------|---------|
 | Standup | Daily | 15 min | What did we test? What's blocked? |
 | Planning | Weekly | 60 min | Prioritise next experiments; write Test Cards |
-| Learning Review | Weekly | 3060 min | Review Learning Cards; generate insights |
+| Learning Review | Weekly | 30–60 min | Review Learning Cards; generate insights |
 | Retrospective | Biweekly | 60 min | Improve the testing process itself |
 | Stakeholder Review | Monthly | 90 min | Present evidence; investment/kill decisions |
 
@@ -192,8 +192,8 @@ After each experiment, decide:
 
 | Stage | Budget | Team | Time | Experiment mix |
 |-------|--------|------|------|----------------|
-| **Seed** | <$50,000 | 13 | 2040% | 5080% desirability experiments |
-| **Launch** | $50k$500k | 25 | 4080% | Mix: desirability + feasibility + early viability |
+| **Seed** | <$50,000 | 1–3 | 20–40% | 50–80% desirability experiments |
+| **Launch** | $50k–$500k | 2–5 | 40–80% | Mix: desirability + feasibility + early viability |
 | **Growth** | $500k+ | 5+ | 100% | Prove model: viability + scaling experiments |
 
 ## EA Context Adaptations

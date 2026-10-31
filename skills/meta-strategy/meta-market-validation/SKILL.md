@@ -170,7 +170,7 @@ Use the Assumptions Tracking Template (Alam):
 - Assign owner and due date
 - Track status: New  In Progress  Validated / Disproved
 
-Calculate Risk Score: `(Minor  1) + (Major  5) + (Critical  25)`. Target: below 100.
+Calculate Risk Score: `(Minor × 1) + (Major × 5) + (Critical × 25)`. Target: below 100.
 
 ### Step 7: Test the Solution (MVP)
 
@@ -191,7 +191,7 @@ Three-criteria test (Cooper & Vlaskovits, 2010):
 2. Cost of acquisition < revenue per customer
 3. Sufficient evidence market is large enough
 
-**Sean Ellis 40% Rule:** If 40% of users say they'd be "very disappointed" without the product, you have product-market fit.
+**Sean Ellis 40% Rule:** If ≥40% of users say they'd be "very disappointed" without the product, you have product-market fit.
 
 ### Step 9: Pivot or Proceed
 

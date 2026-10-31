@@ -493,7 +493,7 @@ pandoc sections/01-executive-summary.md \
 4. **Client language**  mirror the client's terminology. If they call it a "workplan",
    do not call it an "implementation schedule".
 
-5. **Financialnarrative alignment**  the budget must match what the methodology
+5. **Financial–narrative alignment**  the budget must match what the methodology
    describes. Reviewers cross-check this. Discrepancies cost marks and credibility.
 
 6. **Confidentiality**  proposals are in `/proposals/` which is gitignored.
