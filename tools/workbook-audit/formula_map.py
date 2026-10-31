@@ -21,6 +21,74 @@ NS = {"m": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
 ERROR_VALUES = {"#NULL!", "#DIV/0!", "#VALUE!", "#REF!", "#NAME?", "#NUM!", "#N/A"}
 SCENARIO_RE = re.compile(r"\b(base|bull|bear|downside|upside|stress|scenario)\b", re.I)
 BALANCE_RE = re.compile(r"balance|tie[- ]?out|reconcil|opening|closing|ending|dscr|check", re.I)
+CHECK_ROW_RE = re.compile(r"balance\s*(?:sheet\s*)?check|\bcheck\b|tie[- ]?out|reconcil|difference|variance", re.I)
+STRING_LITERAL_RE = re.compile(r'"[^"]*"')
+CELL_RANGE_RE = re.compile(
+    r"(?<![A-Za-z0-9_.])(?:(?:'((?:[^']|'')+)'|([A-Za-z_][A-Za-z0-9_.]*))!)?"
+    r"\$?([A-Z]{1,3})\$?(\d+)(?::\$?([A-Z]{1,3})\$?(\d+))?(?![A-Za-z0-9_(.])")
+COLUMN_RANGE_RE = re.compile(
+    r"(?<![A-Za-z0-9_.])(?:(?:'((?:[^']|'')+)'|([A-Za-z_][A-Za-z0-9_.]*))!)?"
+    r"\$?([A-Z]{1,3}):\$?([A-Z]{1,3})(?![A-Za-z0-9_(.])")
+MAX_ROW = 1048576
+
+
+def _column_number(letters: str) -> int:
+    number = 0
+    for char in letters.upper():
+        number = number * 26 + ord(char) - 64
+    return number
+
+
+def _split_location(location: str) -> tuple[str, str, int]:
+    sheet, ref = location.rsplit("!", 1)
+    match = CELL_REF_RE.fullmatch(ref)
+    return sheet, match.group(1).upper(), int(match.group(2))
+
+
+def _references(formula: str, home_sheet: str) -> list[tuple[str, int, int, int, int]]:
+    """Return (sheet, first column, first row, last column, last row) for each reference."""
+    text = STRING_LITERAL_RE.sub('""', formula)
+    found: list[tuple[str, int, int, int, int]] = []
+    for match in CELL_RANGE_RE.finditer(text):
+        sheet = (match.group(1) or match.group(2) or home_sheet).replace("''", "'")
+        c1, r1 = _column_number(match.group(3)), int(match.group(4))
+        c2 = _column_number(match.group(5)) if match.group(5) else c1
+        r2 = int(match.group(6)) if match.group(6) else r1
+        found.append((sheet, min(c1, c2), min(r1, r2), max(c1, c2), max(r1, r2)))
+    for match in COLUMN_RANGE_RE.finditer(text):
+        sheet = (match.group(1) or match.group(2) or home_sheet).replace("''", "'")
+        c1, c2 = _column_number(match.group(3)), _column_number(match.group(4))
+        found.append((sheet, min(c1, c2), 1, max(c1, c2), MAX_ROW))
+    return found
+
+
+def _unreferenced_inputs(inputs: list[dict], formulas: list[dict],
+                         defined_names: list[dict]) -> list[dict]:
+    """Input-sheet numeric literals that no formula, range or defined name reaches."""
+    name_targets: dict[str, list[tuple[str, int, int, int, int]]] = {}
+    for item in defined_names:
+        name_targets[item["name"]] = _references(item["formula"], "")
+    used: list[tuple[str, int, int, int, int]] = []
+    name_pattern = None
+    if name_targets:
+        name_pattern = re.compile(r"(?<![A-Za-z0-9_.])(" + "|".join(
+            re.escape(name) for name in sorted(name_targets, key=len, reverse=True)) + r")(?![A-Za-z0-9_.(])")
+    for item in formulas:
+        home = item["location"].rsplit("!", 1)[0]
+        used.extend(_references(item["formula"], home))
+        if name_pattern is not None:
+            text = STRING_LITERAL_RE.sub('""', item["formula"])
+            for name in set(name_pattern.findall(text)):
+                used.extend(name_targets[name])
+    result = []
+    for entry in inputs:
+        sheet, column, row = _split_location(entry["location"])
+        number = _column_number(column)
+        if not any(sheet == s and c1 <= number <= c2 and r1 <= row <= r2 for s, c1, r1, c2, r2 in used):
+            result.append(entry)
+    return result
+
+
 SHEET_REF_RE = re.compile(r"(?<![A-Za-z0-9_.])(?:'([^']+)'|([A-Za-z_][A-Za-z0-9_. ]*))!")
 
 
@@ -188,7 +256,8 @@ def _reconcile_checks(checks_path: str | Path | None, cell_values: dict[str, dic
 def audit_workbook(path: str | Path, require_scenarios: bool = False,
                    require_balance_checks: bool = False,
                    reconciliation_checks: str | Path | None = None,
-                   require_reconciliation: bool = False) -> dict:
+                   require_reconciliation: bool = False,
+                   require_wired_inputs: bool = False) -> dict:
     workbook = Path(path)
     findings: list[Finding] = []
     formulas: list[dict] = []
@@ -196,6 +265,10 @@ def audit_workbook(path: str | Path, require_scenarios: bool = False,
     scenario_hits: list[dict] = []
     balance_hits: list[dict] = []
     external_links: list[dict] = []
+    numeric_inputs: list[dict] = []
+    row_text: dict[tuple[str, int], list[str]] = {}
+    formula_rows: list[tuple[str, int, str]] = []
+    sheet_check_names: set[str] = set()
     cell_values: dict[str, dict] = {}
     workbook_bytes = workbook.read_bytes()
     workbook_hash = hashlib.sha256(workbook_bytes).hexdigest()
@@ -235,6 +308,8 @@ def audit_workbook(path: str | Path, require_scenarios: bool = False,
                 scenario_hits.append({"location": sheet_name, "value": "sheet-name"})
             if BALANCE_RE.search(sheet_name):
                 balance_hits.append({"location": sheet_name, "value": "sheet-name"})
+            if CHECK_ROW_RE.search(sheet_name):
+                sheet_check_names.add(sheet_name)
             for cell in root.findall(".//m:c", NS):
                 ref = cell.get("r", "?")
                 location = f"{sheet_name}!{ref}"
@@ -243,6 +318,13 @@ def audit_workbook(path: str | Path, require_scenarios: bool = False,
                 cell_values[location] = {"formula": formula, "value": value}
                 if assumption_sheet and not formula and value:
                     assumptions.append({"location": location, "value": value})
+                    if cell.get("t") not in ("s", "str", "inlineStr", "b", "e") and _number(value) is not None:
+                        numeric_inputs.append({"location": location, "value": value})
+                row_number = int(re.sub(r"[A-Za-z]", "", ref) or 0)
+                if not formula and value and cell.get("t") in ("s", "str", "inlineStr"):
+                    row_text.setdefault((sheet_name, row_number), []).append(value)
+                if formula:
+                    formula_rows.append((sheet_name, row_number, ref))
                 combined = f"{formula} {value}"
                 if SCENARIO_RE.search(combined):
                     scenario_hits.append({"location": location, "value": combined[:160]})
@@ -266,9 +348,21 @@ def audit_workbook(path: str | Path, require_scenarios: bool = False,
     if require_scenarios and not scenario_hits:
         findings.append(Finding("error", "missing-scenario-checks", str(workbook),
                                 "No base, downside, stress, or scenario evidence found"))
-    if require_balance_checks and not balance_hits:
+    balance_formula_hits = [
+        {"location": f"{sheet}!{ref}", "row_label": " ".join(row_text.get((sheet, row), []))[:120]}
+        for sheet, row, ref in formula_rows
+        if sheet in sheet_check_names or CHECK_ROW_RE.search(" ".join(row_text.get((sheet, row), [])))]
+    unreferenced = _unreferenced_inputs(numeric_inputs, formulas, defined_names)
+    for entry in unreferenced:
+        sheet, column, row = _split_location(entry["location"])
+        entry["label"] = " ".join(row_text.get((sheet, row), []))[:120]
+    if require_balance_checks and not balance_formula_hits:
         findings.append(Finding("error", "missing-balance-checks", str(workbook),
-                                "No balance, reconciliation, tie-out, or check evidence found"))
+                                "No formula-bearing balance, reconciliation, tie-out or check row found; labels alone do not count"))
+    if require_wired_inputs:
+        for entry in unreferenced:
+            findings.append(Finding("error", "unreferenced-input", entry["location"],
+                                    f"Input value {entry['value']} ({entry['label'] or 'no label'}) is not used by any formula, range or defined name"))
     reconciliation = _reconcile_checks(reconciliation_checks, cell_values, formulas,
                                        require_reconciliation)
     for item in reconciliation["findings"]:
@@ -286,11 +380,16 @@ def audit_workbook(path: str | Path, require_scenarios: bool = False,
         "assumption_cell_count": len(assumptions),
         "scenario_check_count": len(scenario_hits),
         "balance_check_count": len(balance_hits),
+        "balance_formula_check_count": len(balance_formula_hits),
+        "numeric_input_count": len(numeric_inputs),
+        "unreferenced_input_count": len(unreferenced),
         "external_link_count": len(external_links),
         "formulas": formulas,
         "assumptions": assumptions,
         "scenario_checks": scenario_hits,
         "balance_checks": balance_hits,
+        "balance_formula_checks": balance_formula_hits,
+        "unreferenced_inputs": unreferenced,
         "external_links": external_links,
         "reconciliation": reconciliation,
         "findings": [asdict(f) for f in findings],
@@ -303,7 +402,9 @@ def markdown_report(report: dict) -> str:
              f"- Sheets: {report['sheet_count']}", f"- Formulae: {report['formula_count']}",
              f"- Assumption cells: {report['assumption_cell_count']}",
              f"- Scenario checks: {report['scenario_check_count']}",
-             f"- Balance/reconciliation checks: {report['balance_check_count']}",
+             f"- Balance/reconciliation text hits: {report['balance_check_count']}",
+             f"- Formula-bearing check rows: {report['balance_formula_check_count']}",
+             f"- Numeric inputs: {report['numeric_input_count']}; unreferenced: {report['unreferenced_input_count']}",
              f"- External links: {report['external_link_count']}", "", "## Findings", ""]
     if report["findings"]:
         lines += [f"- `{f['severity']}` `{f['code']}` at `{f['location']}`: {f['message']}"
@@ -321,7 +422,10 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("workbooks", nargs="+", type=Path)
     parser.add_argument("--require-scenarios", action="store_true")
-    parser.add_argument("--require-balance-checks", action="store_true")
+    parser.add_argument("--require-balance-checks", action="store_true",
+                        help="Fail unless a formula-bearing check, tie-out or reconciliation row exists")
+    parser.add_argument("--require-wired-inputs", action="store_true",
+                        help="Fail for every numeric input on an input sheet that no formula uses")
     parser.add_argument("--reconciliation-checks", type=Path,
                         help="JSON contract for a literal-input difference check")
     parser.add_argument("--require-reconciliation", action="store_true",
@@ -335,7 +439,8 @@ def main(argv: list[str] | None = None) -> int:
             reports.append(audit_workbook(workbook, args.require_scenarios,
                                           args.require_balance_checks,
                                           args.reconciliation_checks,
-                                          args.require_reconciliation))
+                                          args.require_reconciliation,
+                                          args.require_wired_inputs))
         except (OSError, zipfile.BadZipFile, ET.ParseError) as exc:
             reports.append({"workbook": workbook.as_posix(), "status": "fail", "findings": [
                 asdict(Finding("error", "unreadable-workbook", str(workbook), str(exc)))
