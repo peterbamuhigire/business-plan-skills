@@ -32,7 +32,7 @@ assignment cap is not written into the repository's permanent 65-point policy.
 
 - Baseline assessment: `C:\wamp64\www\KAIZEN-INITIAL-ASSESSMENT.md`
 - Machine count and zero-debt baseline: [`docs/quality/skill-quality-baseline.json`](../quality/skill-quality-baseline.json)
-- Permanent repository cap: [`README.md`](../../README.md#the-kaizen-operating-contract)
+- Permanent repository cap: [`README.md`](../../README.md#quality-and-improvement)
 - Baseline source-ingestion result: `scripts/source_ingestion_guardrail.py`, 0 findings before this change
 
 The initial assessment records 76 of 126 skills with duplicated H2 contract

@@ -6,6 +6,7 @@ What is under `docs/`, newest evidence first. Dated records describe the reposit
 
 | Path | What it holds |
 |---|---|
+| [`kaizen/2026-10-readme-kaizen/`](kaizen/2026-10-readme-kaizen/readme-kaizen-record.md) | The 31 October 2026 rewrite of the root README: baseline and after metrics, what moved to the two pages below, the validator and preservation results, and the README conventions to follow. A scoped cycle; it publishes no score |
 | [`kaizen/2026-10-engine-kaizen-pass-2/`](kaizen/2026-10-engine-kaizen-pass-2/05-final-report.md) | Pass 2, 31 October 2026: published score 50.0 against a fresh baseline of 44.0, the kept changes with commit hashes, [open work and decisions](kaizen/2026-10-engine-kaizen-pass-2/06-next-cycle.md), and [documentation follow-ups](kaizen/2026-10-engine-kaizen-pass-2/07-docs-followups.md). `labs/` holds the built-to-fail workbooks and the one-off restoration script |
 | [`kaizen/2026-10-engine-kaizen/`](kaizen/2026-10-engine-kaizen/05-final-report.md) | The 29 October 2026 cycle (final 49.0) with its own `labs/` |
 | [`kaizen/fpa-assumption-trace.md`](kaizen/fpa-assumption-trace.md) | The planning-assumption trace contract that links a financial narrative to its evidence |
@@ -14,7 +15,14 @@ What is under `docs/`, newest evidence first. Dated records describe the reposit
 | [`quality/`](quality/) | `skill-quality-baseline.json` (the zero-debt regression lock read by `validate_skill_engine.py`) and the UNDP compendium allowlist read by `source_ingestion_guardrail.py` |
 | [`quality-gates/business-plan-release-gate.md`](quality-gates/business-plan-release-gate.md) | The blocker-first release gate and how to run it |
 
-Latest published score: 50.0 raw and 50.0 capped (`min(raw, 65)`), against a target of 95. Scores are practitioner judgements, not validator pass rates. The root README's section [What the October 2026 kaizen improved](../README.md#what-the-october-2026-kaizen-improved) lists the kept changes by theme, with commit hashes and before-and-after figures.
+Latest published score: 50.0 raw and 50.0 capped (`min(raw, 65)`), against a target of 95. Scores are practitioner judgements, not validator pass rates. The root README's section [What the October 2026 kaizen improved](../README.md#what-the-october-2026-kaizen-improved) and the four sections after it list the kept changes by theme, with commit hashes and before-and-after figures.
+
+## Reference lists moved out of the root README
+
+| Path | What it holds |
+|---|---|
+| [`skill-catalogue.md`](skill-catalogue.md) | All 137 active skills with a one-line statement of what each does. The `SKILL.md` files stay the source of truth; the root README has the category counts and a task-to-skill table |
+| [`cited-sources.md`](cited-sources.md) | The books, repositories, standards, official sources and websites that the repository cites as the basis for its skills |
 
 ## Evidence and source registers
 
@@ -47,4 +55,4 @@ Latest published score: 50.0 raw and 50.0 capped (`min(raw, 65)`), against a tar
 
 ## Running the checks
 
-The commands, what each needs (PyYAML, Node.js, LibreOffice, `xlsxwriter`) and the date-triggered evidence gate are in the root [`README.md`](../README.md) under Installation and under Quality and improvement.
+The commands and what each needs (PyYAML, Node.js, LibreOffice, `xlsxwriter`) are in the root [`README.md`](../README.md) under [Validate](../README.md#validate). The date-triggered evidence gate is under [What is still open](../README.md#what-is-still-open).

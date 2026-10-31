@@ -335,6 +335,7 @@ The counts are not a built-archive measurement.
 ## Quality and improvement
 
 Kaizen evidence is kept in dated folders. Each holds the same seven files: scope and evidence, baseline scorecard, backlog, experiment log, validation record, final report and next cycle.
+The [documentation index](docs/README.md) lists the audits, kaizen records, source registers and quality gates under `docs/`.
 
 - [`docs/kaizen/2026-10-engine-kaizen/`](docs/kaizen/2026-10-engine-kaizen/05-final-report.md): the 29 October 2026 cycle.
 - [`docs/kaizen/2026-10-engine-kaizen-pass-2/`](docs/kaizen/2026-10-engine-kaizen-pass-2/05-final-report.md): pass 2, 31 October 2026,
@@ -408,7 +409,8 @@ Everything that needs LibreOffice ran with LibreOffice 26.2.6.3. None of the re-
 - **The plugin manifest exposed 134 of 137 skills.** The three country-context skills were missing from the Claude-compatible manifest, and no registered validator checked the package-size limit.
   - Fix: `22a99c6` added the three paths and ran a fixed 5,000-entry cap inside `validate_skill_engine.py` (checker added in `eb8d462`, test runner order fixed in `58817d0`).
   - Re-measured: `plugin.json` lists 134 skill paths before `22a99c6` and 137 after. `node scripts/generate-plugin-manifest.js --engine . --root . --check` exits 0 on the current tree.
-    On 31 October 2026 the cap counted 1,669 files in the checkout and 1,169 in a package-oriented subset, not a built archive.
+    On 31 October 2026 the cap counted 1,681 files in the checkout and 1,169 in a package-oriented subset, not a built archive.
+    The checkout count includes `.git`, so it rises with every commit.
   - Isolated Claude and Codex marketplace installs in containers ran on 29 October (from the evidence) and were not repeated. Public-directory acceptance is not assessed.
 - **Paths and bytes that resolved nowhere.** The router (8 lines), one skill and the model README named Windows host paths (10 lines in Markdown, plus one in `.gitignore`). All seven workbook generators wrote to folders that no longer exist after the skills moved under `skills/pipeline/`.
   One skill pointed at a wrong sibling-engine path. One retail reference held a stray control byte.
