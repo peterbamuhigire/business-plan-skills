@@ -18,7 +18,7 @@ Run from the repository root:
 
 ```powershell
 python -X utf8 scripts\validate_skill_engine.py --baseline docs\quality\skill-quality-baseline.json
-python -X utf8 scripts\routing_smoke_test.py --threshold 1.0
+python -X utf8 scripts\routing_smoke_test.py --threshold 1.0 --report --min-precision-at-1 0.80
 python -X utf8 skills\meta-utility\skill-writing\scripts\quick_validate.py <skill-directory>
 python -X utf8 tools\evidence-register\refresh_evidence_register.py --check
 python -X utf8 tools\sector-gates\validate_sector_gates.py

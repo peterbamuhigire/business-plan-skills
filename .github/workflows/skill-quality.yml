@@ -21,7 +21,7 @@ jobs:
       - name: Validate zero-debt catalogue
         run: python -X utf8 scripts/validate_skill_engine.py --baseline docs/quality/skill-quality-baseline.json
       - name: Test routing
-        run: python -X utf8 scripts/routing_smoke_test.py --threshold 1.0
+        run: python -X utf8 scripts/routing_smoke_test.py --threshold 1.0 --report --min-precision-at-1 0.80
       - name: Validate evidence and sector gates
         run: |
           python -X utf8 tools/evidence-register/refresh_evidence_register.py --check
