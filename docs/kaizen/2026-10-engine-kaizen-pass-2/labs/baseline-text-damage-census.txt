@@ -1,0 +1,52 @@
+# Baseline: lines in HEAD (50d50f9) still carrying damage from the April 2026 non-ASCII loss
+Method: commit e1a9aa1 ('Make the skills dual boot') rewrote 52 files and removed every non-ASCII character from 47 of them (2,719 characters). A line is counted here only when the commit-time line equals the pre-commit line with its non-ASCII characters removed AND the identical damaged line still exists in HEAD.
+Exact-reversible damaged lines at the commit: 1806; still present verbatim in HEAD: 1636; of those, lines where a digit-to-digit en dash or minus sign was lost: 170.
+
+per file: damaged lines (of which numeric-range lines)
+  90 ( 30)  country-context/tanzania/SKILL.md
+  74 (  1)  skills/meta-strategy/meta-due-diligence/SKILL.md
+  69 (  0)  skills/writing-content/blog-writer/SKILL.md
+  67 ( 11)  skills/pipeline/16-sustainability-strategy/SKILL.md
+  65 ( 18)  country-context/kenya/SKILL.md
+  60 (  0)  skills/meta-finance/meta-bankability-scoring/SKILL.md
+  59 (  1)  skills/meta-pitch/meta-pitch-preparation/SKILL.md
+  56 ( 12)  skills/meta-pitch/meta-presentation-design/SKILL.md
+  51 ( 19)  country-context/uganda/SKILL.md
+  50 (  3)  skills/pipeline/08-operations-plan/SKILL.md
+  50 (  7)  skills/meta-pitch/pitch-deck/SKILL.md
+  47 ( 15)  skills/pipeline/11b-grant-proposal/SKILL.md
+  45 (  0)  skills/writing-content/blog-writer/references/article-production-workflow.md
+  44 (  0)  skills/writing-content/content-writing/SKILL.md
+  42 (  0)  skills/language/writing-quality/SKILL.md
+  41 (  0)  skills/pipeline/06-competitive-analysis/SKILL.md
+  40 (  2)  skills/pipeline/02-company-overview/SKILL.md
+  40 (  7)  skills/pipeline/09-management-team/SKILL.md
+  40 (  2)  skills/writing-content/ai-prompt-writer/SKILL.md
+  37 (  3)  skills/pipeline/12-risk-analysis/SKILL.md
+  37 (  4)  skills/meta-strategy/idea-testing/SKILL.md
+  36 (  0)  skills/pipeline/00-client-intake/SKILL.md
+  35 (  0)  skills/pipeline/01-executive-summary/SKILL.md
+  35 (  0)  skills/pipeline/14-ai-integration/SKILL.md
+  32 (  9)  skills/pipeline/04-market-analysis/SKILL.md
+  32 (  4)  skills/meta-strategy/meta-statistics/SKILL.md
+  31 (  2)  skills/pipeline/05-target-market/SKILL.md
+  29 (  0)  skills/writing-content/blog-idea-generator/SKILL.md
+  26 (  3)  skills/pipeline/10-financial-projections/SKILL.md
+  24 (  0)  skills/meta-strategy/meta-market-validation/SKILL.md
+  23 (  5)  skills/meta-pitch/meta-presentation-design/references/client-coaching-protocol.md
+  22 (  2)  skills/pipeline/07-marketing-sales-strategy/SKILL.md
+  22 (  1)  skills/pipeline/13-implementation-timeline/SKILL.md
+  22 (  2)  skills/language/language-standards/SKILL.md
+  22 (  4)  skills/meta-sustainability/SKILL.md
+  21 (  2)  skills/pipeline/03-products-services/SKILL.md
+  17 (  0)  skills/meta-utility/update-claude-documentation/SKILL.md
+  16 (  0)  skills/meta-utility/proposal-architect/references/full-lifecycle-workflow.md
+  14 (  0)  skills/marketing-sales/digital-marketing-strategy/SKILL.md
+  14 (  0)  skills/meta-strategy/meta-quarterly-gameplan/SKILL.md
+  12 (  0)  skills/language/east-african-english/SKILL.md
+  12 (  0)  skills/industry-guides/SKILL.md
+  11 (  1)  skills/meta-finance/meta-financial-stress-test/SKILL.md
+  10 (  0)  skills/meta-strategy/meta-monitoring-evaluation/SKILL.md
+   6 (  0)  blog-posts/_TEMPLATE.md
+   5 (  0)  skills/meta-utility/skill-safety-audit/SKILL.md
+   3 (  0)  skills/pipeline/07-marketing-sales-strategy/references/sales-strategy-schiffman.md

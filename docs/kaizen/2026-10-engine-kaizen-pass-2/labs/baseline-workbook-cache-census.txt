@@ -1,0 +1,15 @@
+# Baseline workbook cache census, 2026-10-31 (LibreOffice 26.2.6.3, always-recalculate profile in a scratch directory; originals untouched)
+== skills/meta-strategy/meta-living-plan-governance/templates/saas-living-plan-kpi-dashboard.xlsx
+formula cells (orig): 473 missing in recalc: 0 cached!=recalc: 228 error cells: 0
+== skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/templates/saas-agent-cost-per-task-calculator.xlsx
+formula cells (orig): 320 missing in recalc: 0 cached!=recalc: 315 error cells: 0
+== skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/templates/saas-agent-unit-economics-model.xlsx
+formula cells (orig): 270 missing in recalc: 0 cached!=recalc: 270 error cells: 0
+== skills/pipeline/10-financial-projections/templates/saas-financial-projection-3yr-5yr.xlsx
+formula cells (orig): 1852 missing in recalc: 0 cached!=recalc: 1772 error cells: 0
+== skills/pipeline/14-ai-integration/templates/saas-ai-cost-of-tenant-calculator.xlsx
+formula cells (orig): 204 missing in recalc: 0 cached!=recalc: 195 error cells: 0
+== skills/saas/saas-unit-economics-and-cohort-model/templates/saas-cohort-and-retention-model.xlsx
+formula cells (orig): 932 missing in recalc: 0 cached!=recalc: 932 error cells: 0
+== skills/saas/saas-unit-economics-and-cohort-model/templates/saas-unit-economics-model.xlsx
+formula cells (orig): 334 missing in recalc: 0 cached!=recalc: 334 error cells: 0
