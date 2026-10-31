@@ -66,7 +66,7 @@ Other Chwezi engines are consulted alongside this one, never instead of it:
 
 - the Chwezi Accounting Doctrine engine (`chwezi-accounting-doctrine`) for IFRS and IAS, tax and controls;
 - `chwezi-design-engine` for the look of any deliverable;
-- the Digital Research Engine (`digital-research-skills`, formerly checked out as `chwezi-research-engine`) for current facts;
+- the Digital Research Engine (GitHub repository `chwezi-research-engine`; catalogue id `digital-research-skills`) for current facts;
 - `proposal-skills` for tenders and PPDA submissions.
 
 Resolve each through your engine-routing table. No path to a sibling engine is stored here.
