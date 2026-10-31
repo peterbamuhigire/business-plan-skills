@@ -1,6 +1,6 @@
 ---
 name: 00-plan-assembly
-description: Use when producing or reviewing the 00 plan assembly component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+description: Use when plan assembly is needed because approved sections already exist and must be ordered into one document with an appendix map, cross-references and a final consistency check; use `business-plan-orchestrator` to govern the whole engagement from intake to release.
 metadata:
   portable: true
   compatible_with:

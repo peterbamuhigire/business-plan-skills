@@ -406,5 +406,149 @@
     "class": "positive",
     "prompt": "Write the 07 marketing sales strategy component of our bank business plan with SMART objectives, sales process and budget reconciled to the financial projections.",
     "expected": "07-marketing-sales-strategy"
+  },
+  {
+    "id": "negative-orchestrator-packaging-only",
+    "class": "negative",
+    "prompt": "Every section is already approved and signed off. Order them into one package with the appendix map and a final cross-reference check.",
+    "expected": "00-plan-assembly",
+    "excluded": [
+      "business-plan-orchestrator"
+    ]
+  },
+  {
+    "id": "negative-orchestrator-tender-response",
+    "class": "negative",
+    "prompt": "Respond to this tender for consultancy services: write the technical proposal, team and financial proposal against the evaluation criteria.",
+    "expected": "proposal-architect",
+    "excluded": [
+      "business-plan-orchestrator"
+    ]
+  },
+  {
+    "id": "positive-projections-bank-statements",
+    "class": "positive",
+    "prompt": "Build the three-year income statement, cash flow and balance sheet for the bank loan application and list every assumption behind them.",
+    "expected": "10-financial-projections"
+  },
+  {
+    "id": "positive-projections-retail-scenarios",
+    "class": "positive",
+    "prompt": "Build the five-year revenue, cost and cash projections for the retail business with base, downside and stress scenarios.",
+    "expected": "10-financial-projections"
+  },
+  {
+    "id": "negative-projections-valuation",
+    "class": "negative",
+    "prompt": "Value the company through DCF and market multiples and show dilution for the equity round.",
+    "expected": "meta-valuation",
+    "excluded": [
+      "10-financial-projections"
+    ]
+  },
+  {
+    "id": "positive-uganda-tax-regulators",
+    "class": "positive",
+    "prompt": "Which tax rules, regulators and licensing bodies apply to a company registered in Uganda?",
+    "expected": "uganda"
+  },
+  {
+    "id": "positive-uganda-banks-wages",
+    "class": "positive",
+    "prompt": "Use the Uganda country context for local banks, wage benchmarks, currency and risk factors in every plan section.",
+    "expected": "uganda"
+  },
+  {
+    "id": "negative-uganda-kenya-context",
+    "class": "negative",
+    "prompt": "Give the Kenya country context for this plan: KRA tax, CBK policy rate, Nairobi lenders and Kenyan regulators.",
+    "expected": "kenya",
+    "excluded": [
+      "uganda"
+    ]
+  },
+  {
+    "id": "negative-uganda-tanzania-context",
+    "class": "negative",
+    "prompt": "Give the Tanzania country context for this plan: TRA tax, Bank of Tanzania, Dar es Salaam lenders and Tanzanian regulators.",
+    "expected": "tanzania",
+    "excluded": [
+      "uganda"
+    ]
+  },
+  {
+    "id": "positive-bankability-lender-criteria",
+    "class": "positive",
+    "prompt": "Score this loan application against lender criteria: debt service cover, collateral, management track record and cash conversion.",
+    "expected": "meta-bankability-scoring"
+  },
+  {
+    "id": "positive-bankability-campari",
+    "class": "positive",
+    "prompt": "Score the bankability of this plan and list the blockers before we submit it to the bank.",
+    "expected": "meta-bankability-scoring"
+  },
+  {
+    "id": "negative-bankability-committee-rehearsal",
+    "class": "negative",
+    "prompt": "Rehearse the investment committee questions on our complete pack and list the blockers an approver would raise.",
+    "expected": "meta-investment-committee-red-team",
+    "excluded": [
+      "meta-bankability-scoring"
+    ]
+  },
+  {
+    "id": "negative-bankability-stress-test",
+    "class": "negative",
+    "prompt": "Run the financial stress test: revenue shock, currency devaluation and delayed collections.",
+    "expected": "meta-financial-stress-test",
+    "excluded": [
+      "meta-bankability-scoring"
+    ]
+  },
+  {
+    "id": "positive-procurement-policy-manual",
+    "class": "positive",
+    "prompt": "Draft a procurement policy and procurement manual for a Ugandan non-profit covering thresholds, evaluation committees and asset disposal.",
+    "expected": "procurement-policy-and-manual"
+  },
+  {
+    "id": "positive-procurement-ppda-methods",
+    "class": "positive",
+    "prompt": "Write the procurement and disposal manual with PPDA-aware methods, approval limits and a contracts committee.",
+    "expected": "procurement-policy-and-manual"
+  },
+  {
+    "id": "positive-procurement-supplier-selection",
+    "class": "positive",
+    "prompt": "Set out our procurement procedures for supplier selection, quotations, tender opening and contract management.",
+    "expected": "procurement-policy-and-manual"
+  },
+  {
+    "id": "negative-procurement-bid-response",
+    "class": "negative",
+    "prompt": "Prepare our bid in response to a PPDA tender: cover letter, methodology, team and financial proposal.",
+    "expected": "proposal-architect",
+    "excluded": [
+      "procurement-policy-and-manual"
+    ]
+  },
+  {
+    "id": "negative-procurement-finance-manual",
+    "class": "negative",
+    "prompt": "Write the financial management policy and accounting manual covering petty cash, approvals and period close.",
+    "expected": "finance-policy-and-manual",
+    "excluded": [
+      "procurement-policy-and-manual"
+    ]
+  },
+  {
+    "id": "negative-projections-saas-pricing",
+    "class": "negative",
+    "prompt": "Design the pricing tiers and packaging for the SaaS product and set the price points.",
+    "expected": "saas-pricing-and-packaging-strategy",
+    "excluded": [
+      "10-financial-projections"
+    ]
   }
 ]

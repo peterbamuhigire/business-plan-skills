@@ -1,6 +1,6 @@
 ---
 name: 10-financial-projections
-description: Use when producing or reviewing the 10 financial projections component of a business plan; applies its specialist evidence, decisions, and acceptance tests instead of neighbouring pipeline skills.
+description: Use when building or reviewing the multi-year income statement, cash flow, balance sheet, ratios and scenarios of a business plan, including a lender or investor model; use `meta-valuation` for valuation and `saas-unit-economics-and-cohort-model` for cohort economics.
 metadata:
   portable: true
   compatible_with:
