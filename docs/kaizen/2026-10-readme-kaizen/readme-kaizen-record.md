@@ -101,12 +101,12 @@ Run from the repository root with `python3 -B -X utf8` and `PYTHONDONTWRITEBYTEC
 
 ### Preservation check
 
-`readme-preserve-check.py <repo> main kaizen/2026-10-readme-kaizen` (the checker that resolves relative links against each file's location):
+`readme-preserve-check.py <repo> main kaizen/2026-10-readme-kaizen` (the checker that resolves relative links against each file's location). The second line of the anchors output is shortened here, because the checker reads a literal link pattern in this file as a link of its own:
 
 ```text
 links: old README 234 targets; new README 68; moved to docs 171; LOST 0
 commands: old README 36; kept in README 36; moved to docs 0; LOST 0
-anchors: 6 README.md#anchor links in tracked files; BROKEN 0
+anchors: 6 README anchor links in tracked files; BROKEN 0
 in-page links: 16 anchors used; BROKEN 0
 RESULT: OK
 ```
