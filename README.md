@@ -1,10 +1,134 @@
 # Business Plan Skills
 
+Business Plan Skills is a set of 137 skills that help Claude Code or Codex write, test and release business plans. It covers bankable plans for lenders, investor-grade plans, standalone marketing plans, pitch decks, and the strategy, finance and policy documents around them.
+
+It is for founders, consultants, boards, lenders and investors, mainly in East and Central Africa. Use it when a plan must keep assumptions apart from evidence, tie its narrative to its model, and claim no more than the evidence reviewed.
+
+## At a glance
+
+- **137 active skills** in 16 categories: 134 under `skills/` and 3 country-context skills for Uganda (the default), Kenya and Tanzania.
+- **Routing:** on 31 October 2026, 80 of 80 test prompts reached the right skill in the top three, and 64 of 80 (80.0%) reached it first.
+- **Checks:** 13 of the 14 checks listed under [Validate](#validate) exit 0. The evidence-register check exits 1 because 4 of 24 source rows are overdue.
+- **Install:** a project-scope install writes 903 files, including 137 `SKILL.md` files, and `doctor` reports 0 missing.
+- **Audit score:** 50.0 out of 100 on 31 October 2026, against a target of 95.
+- **Not a lender model:** the seven shipped Excel workbooks are starting structures. The SaaS projection workbook has no balance sheet and no debt schedule.
+
+## Start here
+
+1. Install in Claude Code:
+
+   ```text
+   /plugin marketplace add https://github.com/peterbamuhigire/business-plan-skills
+   /plugin install business-plan@chwezi-business-plan
+   ```
+
+   The installer script, Codex and manual routes are under [Install and update](#install-and-update).
+2. Check the engine from a clone. This needs Python 3.11 or later and PyYAML:
+
+   ```sh
+   git clone https://github.com/peterbamuhigire/business-plan-skills
+   cd business-plan-skills
+   python3 -X utf8 scripts/validate_skill_engine.py --baseline docs/quality/skill-quality-baseline.json
+   ```
+
+   Expect `active skills: 137` and `fully compliant: 137`, with exit 0.
+3. Ask for work in plain words, for example "Run the client intake and list the missing assumptions." The [business-plan orchestrator](skills/meta-strategy/business-plan-orchestrator/SKILL.md) runs a whole engagement, and [Find the right skill](#find-the-right-skill) lists other starting points.
+
+**Contents**
+
+- [When to use it](#when-to-use-it)
+- [Find the right skill](#find-the-right-skill)
+- [How it works](#how-it-works)
+- [What is inside](#what-is-inside)
+- [Install and update](#install-and-update)
+- [Validate](#validate)
+- [Quality and improvement](#quality-and-improvement)
+- [What the October 2026 kaizen improved](#what-the-october-2026-kaizen-improved)
+- [What is still open](#what-is-still-open)
+- [Cited sources](#cited-sources)
+- [Contributing, author and licence](#contributing-author-and-licence)
+
+
+## When to use it
+
+Use this engine when the work is a business plan, or a document that feeds or tests one:
+
+- a full plan, from client intake and evidence design to assembly and release;
+- a bankable plan for a bank or development-finance institution, or an investor memorandum and pitch deck;
+- a financial model, bankability score, stress test, valuation or investment-committee rehearsal;
+- a standalone marketing plan, a grant proposal or a quarterly execution plan;
+- a finance, procurement, HR, governance, grants, controls or monitoring-and-evaluation manual.
+
+Other Chwezi engines are consulted alongside this one, never instead of it:
+
+- the Chwezi Accounting Doctrine engine (`chwezi-accounting-doctrine`) for IFRS and IAS, tax and controls;
+- `chwezi-design-engine` for the look of any deliverable;
+- the Digital Research Engine (`digital-research-skills`, formerly checked out as `chwezi-research-engine`) for current facts;
+- `proposal-skills` for tenders and PPDA submissions.
+
+Resolve each through your engine-routing table. No path to a sibling engine is stored here.
+
+## Find the right skill
+
+Each row is a task that the routing fixtures in `tests/routing-fixtures.json` already use. The [skill catalogue](docs/skill-catalogue.md) lists all 137 skills.
+
+| If you need to | Use | What you get |
+|---|---|---|
+| Run a whole plan from intake to release | [`business-plan-orchestrator`](skills/meta-strategy/business-plan-orchestrator/SKILL.md) | Staged engagement with evidence checkpoints and a release decision |
+| Capture scope, facts and missing assumptions | [`00-client-intake`](skills/pipeline/00-client-intake/SKILL.md) | Draft project brief, evidence gaps and an assumptions register |
+| Write the financial projections section | [`10-financial-projections`](skills/pipeline/10-financial-projections/SKILL.md) | Three statements, assumptions and a workbook model |
+| Score a plan against lender criteria | [`meta-bankability-scoring`](skills/meta-finance/meta-bankability-scoring/SKILL.md) | Debt-service capacity, security, repayment logic and blockers |
+| Stress-test revenue, margin and debt service | [`meta-financial-stress-test`](skills/meta-finance/meta-financial-stress-test/SKILL.md) | Downside cases for revenue, working capital, break-even and runway |
+| Value a company | [`meta-valuation`](skills/meta-finance/meta-valuation/SKILL.md) | DCF, multiples and venture methods, with sensitivity and dilution |
+| Rehearse a lender, DFI or grant committee | [`meta-investment-committee-red-team`](skills/meta-finance/meta-investment-committee-red-team/SKILL.md) | Role rounds, a vote, dissent and conditions |
+| Build a standalone marketing plan | [`marketing-plan-orchestrator`](skills/marketing-sales/marketing-plan-orchestrator/SKILL.md) | Situation analysis through budget, KPIs and control |
+| Write a grant proposal | [`11b-grant-proposal`](skills/pipeline/11b-grant-proposal/SKILL.md) | Donor outcomes, logframe, budget narrative and sustainability case |
+| Draft a procurement policy and manual | [`procurement-policy-and-manual`](skills/advisory-deliverables/procurement-policy-and-manual/SKILL.md) | Thresholds, methods, approval limits and a contracts committee |
+| Localise a plan for one country | [`uganda`](country-context/uganda/SKILL.md), [`kenya`](country-context/kenya/SKILL.md) or [`tanzania`](country-context/tanzania/SKILL.md) | Currency, tax, regulation, labour, banking and risk context to verify |
+| Check a finished plan for filler | [`ai-slop-audit`](skills/meta-utility/ai-slop-audit/SKILL.md) | Findings on generic prose and unsupported statistics, without a rewrite |
+
+
+## How it works
+
 Business Plan Skills is a routed engine of 137 skills for writing, testing and releasing business plans, bankable and investor-grade plans, standalone marketing plans, and the strategy, finance and advisory documents that sit around them. The [business-plan orchestrator](skills/meta-strategy/business-plan-orchestrator/SKILL.md) runs an engagement from client intake and evidence design through sixteen numbered plan sections (with a grant-proposal variant), the financial model, investment-committee challenge, assembly and release; specialist skills cover business-model design, market validation, competitive intelligence, pricing, valuation, bankability scoring, stress testing, due diligence, SaaS, AI and agent-product economics, ICT and e-commerce businesses, hospitality, pitch preparation and organisational policy manuals. Country context for Uganda (the default), Kenya and Tanzania supplies currency, tax, regulatory, labour and banking facts, each of which must be verified at the time of writing. The engine keeps assumptions and evidence apart, requires the narrative and the model to reconcile, and limits every release claim to the evidence actually reviewed.
 
 The engine works to standards it cites directly: IFRS 15, IAS 20, IAS 21, IFRS 13 and IFRS for SMEs for revenue, grants, foreign currency and fair value in projections (with accounting doctrine deferred to the Chwezi Accounting Doctrine engine); COSO and ISO 31000 for internal control and risk; the IFC Performance Standards (2012) for environmental and social management in development-finance submissions; ISO/IEC 27001 and ISO/IEC 42001 for security and AI governance in SaaS due diligence; the ICC/ESOMAR International Code for market research; and the PPDA framework for public procurement in Uganda. Its products are complete business plans and plan sections, bankable plans for banks and development-finance institutions, investor memoranda and pitch decks, Excel financial models built by the scripts in [`scripts/build-financial-models/`](scripts/build-financial-models/), bankability scores, stress tests, valuations, marketing plans, competitive-intelligence reports, grant proposals, quarterly execution plans, and finance, procurement, HR, governance, grants, controls and M&E manuals. It serves founders and owner-managers, consultants and programme teams, boards, lenders, development-finance institutions and investors, principally in East and Central Africa.
 
-## Installation
+- [`AGENTS.md`](AGENTS.md) is the runner-agnostic router; [`CLAUDE.md`](CLAUDE.md) imports it for Claude Code. Always-on principles live in [`rules/`](rules/).
+- Multi-phase work follows the [runtime-agnostic orchestration contract](docs/operations/runtime-agnostic-orchestration-2026-09-07.md): scoped work packages, evidence checkpoints, context hygiene, least agency, and sanitised handling of external content.
+- Full plans start at the [business-plan orchestrator](skills/meta-strategy/business-plan-orchestrator/SKILL.md); standalone marketing plans start at the [marketing-plan orchestrator](skills/marketing-sales/marketing-plan-orchestrator/SKILL.md).
+- Sister engines are consulted alongside, never instead: Chwezi Accounting Doctrine (`chwezi-accounting-doctrine`) for IFRS/IAS, tax and controls; `chwezi-design-engine` for the look of any deliverable; the Digital Research Engine (`digital-research-skills`, formerly checked out as `chwezi-research-engine`) for current facts; `proposal-skills` for tenders and PPDA submissions. Resolve each through your engine-routing table; no path to a sibling is stored here.
+- The [documentation index](docs/README.md) lists the audits, kaizen records, source registers and quality gates under `docs/`.
+
+## What is inside
+
+137 active skills: 134 under [`skills/`](skills/) and 3 under [`country-context/`](country-context/). Templates in [`templates/`](templates/) and sector guide files that are references rather than skills are not counted.
+
+The seven shipped Excel workbooks are starting structures, not finished lender models. The SaaS projection workbook has no balance sheet and no debt schedule, and its Adjusted EBITDA adds back depreciation and share-based pay that its operating expenses never charge. [Section 0 of its reference](skills/pipeline/10-financial-projections/references/saas-financial-projection-template-3yr-5yr.md) lists each gap with cell references and the procedure for a lender case; the open fix is recorded under [Quality and improvement](#quality-and-improvement).
+
+| Category | Folder | Skills |
+|---|---|---:|
+| Plan pipeline | [`skills/pipeline/`](skills/pipeline/) | 49 |
+| Strategy and validation | [`skills/meta-strategy/`](skills/meta-strategy/) | 22 |
+| Finance and investor readiness | [`skills/meta-finance/`](skills/meta-finance/) | 12 |
+| SaaS | [`skills/saas/`](skills/saas/) | 11 |
+| ICT and e-commerce | [`skills/ict/`](skills/ict/) | 4 |
+| Marketing and sales | [`skills/marketing-sales/`](skills/marketing-sales/) | 4 |
+| Pricing and go-to-market | [`skills/meta-pricing-gtm/`](skills/meta-pricing-gtm/) | 3 |
+| Pitch | [`skills/meta-pitch/`](skills/meta-pitch/) | 3 |
+| Advisory deliverables | [`skills/advisory-deliverables/`](skills/advisory-deliverables/) | 7 |
+| Board and investor reporting | [`skills/meta-reporting/`](skills/meta-reporting/) | 2 |
+| Language | [`skills/language/`](skills/language/) | 3 |
+| Writing and content | [`skills/writing-content/`](skills/writing-content/) | 5 |
+| Utility and quality | [`skills/meta-utility/`](skills/meta-utility/) | 6 |
+| Sustainability | [`skills/meta-sustainability/`](skills/meta-sustainability/) | 1 |
+| Industry guides | [`skills/industry-guides/`](skills/industry-guides/) | 2 |
+| Country context | [`country-context/`](country-context/) | 3 |
+| **Total** | | **137** |
+
+The full list of 137 skills, with a one-line statement of what each does, is in the [skill catalogue](docs/skill-catalogue.md).
+
+## Install and update
 
 Prerequisites: [Claude Code](https://claude.com/claude-code) or Codex; Node.js 18 or later for the installer scripts and the hook tests (the installer and both hook test files were run on Node.js 22 on 31 October 2026; 18 is the minimum the installer states and was not tested); Python 3.11 or later for the validators (CI uses Python 3.12 with `PyYAML==6.0.2`; the 31 October 2026 run used Python 3.14.8 with PyYAML 6.0.3). The validators and the test suite need only PyYAML. Optional extras are LibreOffice for workbook recalculation, `xlsxwriter` for the model builders, and the packages in [`tools/requirements.txt`](tools/requirements.txt) for `tools/scrape_metrics.py`; the Checks paragraph below says which check needs which.
 
@@ -42,6 +166,8 @@ These local installation checks do not establish public-directory acceptance.
 The Claude marketplace and Codex repo marketplace are distinct catalogues.
 
 **Manual use.** Clone the repository, read [`CLAUDE.md`](CLAUDE.md) (Claude Code) or [`AGENTS.md`](AGENTS.md) (any runner), then open the `SKILL.md` that the router names. Skills are read directly from disk; no registration is required.
+
+## Validate
 
 **Checks.** From the repository root. The commands use `python3` (use `python` on Windows) and change no tracked file; Python bytecode caches are git-ignored, and `-B` avoids them.
 
@@ -115,42 +241,6 @@ checkout and a package-oriented count. This is a guard against the ZIP entry
 limit documented for OpenAI plugin submissions; counts are not a built-archive
 measurement ([submission errors](https://developers.openai.com/plugins/deploy/submission-errors)).
 
-## Capabilities
-
-137 active skills: 134 under [`skills/`](skills/) and 3 under [`country-context/`](country-context/). Templates in [`templates/`](templates/) and sector guide files that are references rather than skills are not counted.
-
-The seven shipped Excel workbooks are starting structures, not finished lender models. The SaaS projection workbook has no balance sheet and no debt schedule, and its Adjusted EBITDA adds back depreciation and share-based pay that its operating expenses never charge. [Section 0 of its reference](skills/pipeline/10-financial-projections/references/saas-financial-projection-template-3yr-5yr.md) lists each gap with cell references and the procedure for a lender case; the open fix is recorded under [Quality and improvement](#quality-and-improvement).
-
-| Category | Folder | Skills |
-|---|---|---:|
-| Plan pipeline | [`skills/pipeline/`](skills/pipeline/) | 49 |
-| Strategy and validation | [`skills/meta-strategy/`](skills/meta-strategy/) | 22 |
-| Finance and investor readiness | [`skills/meta-finance/`](skills/meta-finance/) | 12 |
-| SaaS | [`skills/saas/`](skills/saas/) | 11 |
-| ICT and e-commerce | [`skills/ict/`](skills/ict/) | 4 |
-| Marketing and sales | [`skills/marketing-sales/`](skills/marketing-sales/) | 4 |
-| Pricing and go-to-market | [`skills/meta-pricing-gtm/`](skills/meta-pricing-gtm/) | 3 |
-| Pitch | [`skills/meta-pitch/`](skills/meta-pitch/) | 3 |
-| Advisory deliverables | [`skills/advisory-deliverables/`](skills/advisory-deliverables/) | 7 |
-| Board and investor reporting | [`skills/meta-reporting/`](skills/meta-reporting/) | 2 |
-| Language | [`skills/language/`](skills/language/) | 3 |
-| Writing and content | [`skills/writing-content/`](skills/writing-content/) | 5 |
-| Utility and quality | [`skills/meta-utility/`](skills/meta-utility/) | 6 |
-| Sustainability | [`skills/meta-sustainability/`](skills/meta-sustainability/) | 1 |
-| Industry guides | [`skills/industry-guides/`](skills/industry-guides/) | 2 |
-| Country context | [`country-context/`](country-context/) | 3 |
-| **Total** | | **137** |
-
-The full list of 137 skills, with a one-line statement of what each does, is in the [skill catalogue](docs/skill-catalogue.md).
-
-## Operating contracts
-
-- [`AGENTS.md`](AGENTS.md) is the runner-agnostic router; [`CLAUDE.md`](CLAUDE.md) imports it for Claude Code. Always-on principles live in [`rules/`](rules/).
-- Multi-phase work follows the [runtime-agnostic orchestration contract](docs/operations/runtime-agnostic-orchestration-2026-09-07.md): scoped work packages, evidence checkpoints, context hygiene, least agency, and sanitised handling of external content.
-- Full plans start at the [business-plan orchestrator](skills/meta-strategy/business-plan-orchestrator/SKILL.md); standalone marketing plans start at the [marketing-plan orchestrator](skills/marketing-sales/marketing-plan-orchestrator/SKILL.md).
-- Sister engines are consulted alongside, never instead: Chwezi Accounting Doctrine (`chwezi-accounting-doctrine`) for IFRS/IAS, tax and controls; `chwezi-design-engine` for the look of any deliverable; the Digital Research Engine (`digital-research-skills`, formerly checked out as `chwezi-research-engine`) for current facts; `proposal-skills` for tenders and PPDA submissions. Resolve each through your engine-routing table; no path to a sibling is stored here.
-- The [documentation index](docs/README.md) lists the audits, kaizen records, source registers and quality gates under `docs/`.
-
 ## Quality and improvement
 
 Kaizen evidence is kept in dated folders. Each holds the same seven files: scope and evidence, baseline scorecard, backlog, experiment log, validation record, final report and next cycle.
@@ -162,7 +252,7 @@ What those cycles changed, with commit hashes and before-and-after figures, is u
 
 **Latest published score: 50.0 out of 100** (pass 2, 31 October 2026). The raw mean and the published value, `min(raw, 65)`, are both 50.0, because the cap of 65 does not bind. Pass 2 measured a fresh baseline of 44.0 before it changed anything; the 29 October final was 49.0. The target of 95 is not met and no dimension reaches 65: the lowest are accessibility and inclusion at 25 (not worked on) and standards currency at 40. The scores are practitioner judgements, not validator pass rates. The fresh baseline is lower than the 29 October final because pass 2 measured things that cycle left not assessed; engine content did not change between the two dates.
 
-### What the October 2026 kaizen improved
+## What the October 2026 kaizen improved
 
 Two cycles ran in October 2026: the 29 October cycle ([final report](docs/kaizen/2026-10-engine-kaizen/05-final-report.md), [experiment log](docs/kaizen/2026-10-engine-kaizen/03-experiment-log.md), [validation record](docs/kaizen/2026-10-engine-kaizen/04-validation-record.md)) and pass 2 on 31 October ([final report](docs/kaizen/2026-10-engine-kaizen-pass-2/05-final-report.md), [backlog](docs/kaizen/2026-10-engine-kaizen-pass-2/02-improvement-backlog.md), [experiment log](docs/kaizen/2026-10-engine-kaizen-pass-2/03-experiment-log.md), [validation record](docs/kaizen/2026-10-engine-kaizen-pass-2/04-validation-record.md)). A documentation wave followed pass 2 on the same day. This section lists only changes that were committed and kept. Each short hash was checked with `git show --stat` and is an ancestor of `main`. Real defects come first, ordered by severity.
 
@@ -203,7 +293,7 @@ The 29 October cycle first froze a baseline of 60.0, then recalibrated it to 42.
 
 **Tried and reverted.** Two attempts at the `00-plan-assembly` description were reverted before commit: the first lost the words "plan assembly" and regressed a fixture; the second broke the YAML, which exposed the silent-skip defect above. A Codex-specific plugin override added in `eb8d462` was removed in `22a99c6` because it still exposed 134 skills; the shared Claude-compatible manifest exposes all 137.
 
-### What is still open
+## What is still open
 
 **Open findings that affect use**
 
@@ -229,9 +319,15 @@ Three decisions wait on the maintainer: whether `xlsxwriter` may be installed, w
 
 The planned re-audit is 30 November 2026, the day the Bank of Uganda policy-rate row falls due. No other check in the repository reads the date (searched `scripts/`, `tools/`, `tests/` and `.github/`; `tools/scrape_metrics.py` only stamps its output).
 
-## References
+## Cited sources
 
 The sources this repository cites as the basis for its skills are listed in [`docs/cited-sources.md`](docs/cited-sources.md).
 The list holds 200 books, 11 repositories, 14 groups of standards and official sources, and 26 website and article entries.
 Books that appear only in reading or wish lists (for example [`05-reading-list.md`](docs/engine-upgrade-july-2026/05-reading-list.md)), and titles supplied without content, are not listed.
 Citations only; no book content is reproduced.
+
+## Contributing, author and licence
+
+- **Contributing:** read [`CONTRIBUTING.md`](CONTRIBUTING.md) before you add or change a skill. It covers authoring a skill and validating a change.
+- **Author:** Peter Bamuhigire.
+- **Licence:** MIT. See [`LICENSE`](LICENSE).
