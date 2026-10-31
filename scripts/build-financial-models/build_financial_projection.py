@@ -20,7 +20,7 @@ sys.path.insert(0, HERE)
 from _common import make_formats, write_readme, write_africa_notes, add_named  # noqa
 
 OUT = os.path.normpath(os.path.join(
-    HERE, "..", "..", "skills", "10-financial-projections",
+    HERE, "..", "..", "skills", "pipeline", "10-financial-projections",
     "templates", "saas-financial-projection-3yr-5yr.xlsx"
 ))
 

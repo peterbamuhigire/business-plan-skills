@@ -211,7 +211,7 @@ Specifically:
 ## Regenerating the Workbooks
 
 ```bash
-cd C:/wamp64/www/business-plan-skills
+cd <repository root>
 python scripts/build-financial-models/build_unit_economics.py
 python scripts/build-financial-models/build_cohort_retention.py
 python scripts/build-financial-models/build_financial_projection.py

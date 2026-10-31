@@ -14,7 +14,7 @@ sys.path.insert(0, HERE)
 from _common import make_formats, write_readme, write_africa_notes, add_named  # noqa
 
 OUT = os.path.normpath(os.path.join(
-    HERE, "..", "..", "skills", "14-ai-integration",
+    HERE, "..", "..", "skills", "pipeline", "14-ai-integration",
     "templates", "saas-ai-cost-of-tenant-calculator.xlsx"
 ))
 

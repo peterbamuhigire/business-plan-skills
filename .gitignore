@@ -1,7 +1,7 @@
 # Proposal workspaces are confidential — never committed to the shared repo
 /proposals/
 
-# Stale local mirror of the finance engine (canonical: C:\wamp64\www\chwezi-accounting-doctrine; never commit)
+# Stale local mirror of the finance engine (canonical copy is the Chwezi Accounting Doctrine engine; never commit)
 /doctrine/
 
 # Local Python execution caches

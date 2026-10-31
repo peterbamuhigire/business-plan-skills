@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Detect text corruption that structural validators cannot see.
 
-A skill can keep every heading and link and still carry a wrong number. In April
+A skill can keep every heading and link and still carry a wrong number, or a path
+that exists only on one author's machine (drive letters, wamp64, home directories). In April
 2026 a bulk rewrite removed every non-ASCII character from 47 files, so "3-5%"
 (with an en dash) became "35%" and "9.75-10.5%" became "9.7510.5%". This check
-looks for the signatures that kind of loss leaves behind and for control
-characters, and it rejects any line proven to be a stripped copy of an original.
+looks for the signatures that kind of loss leaves behind, for host-specific
+paths and for control characters, and it rejects any line proven to be a stripped copy of an original.
 
 Scope: Markdown outside docs/ (skills, country context, references, templates,
 rules, prompts and root documents). docs/ holds dated historical records.
@@ -24,11 +25,13 @@ SKIP_TOP_LEVEL = {"docs", ".git", "node_modules", "__pycache__", ".pytest_cache"
 HASH_FIXTURE = Path("tests") / "fixtures" / "stripped-operator-line-hashes.txt"
 MIN_HASHED_LINE = 15
 
-CONTROL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f�]")
+CONTROL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f\ufffd]")
 SIGNATURES = (
     ("glued-year-range", re.compile(r"\b20\d{2}20\d{2}\b|\(20\d{4}\)|\bFY20\d{4}\b")),
     ("glued-thousands-groups", re.compile(r"\d,\d{4,},\d{3}")),
     ("glued-decimal-range", re.compile(r"\d+\.\d+\.\d+\s?%")),
+    ("host-specific-path", re.compile(
+        r"(?<![A-Za-z0-9])[A-Za-z]:[\\/]|wamp64|/home/[a-z][a-z0-9_-]*/|/Users/[A-Za-z][A-Za-z0-9_.-]*/")),
 )
 
 

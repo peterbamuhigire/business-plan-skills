@@ -14,7 +14,7 @@ sys.path.insert(0, HERE)
 from _common import make_formats, write_readme, write_africa_notes, add_named  # noqa: E402
 
 OUT = os.path.normpath(os.path.join(
-    HERE, "..", "..", "skills", "saas-unit-economics-and-cohort-model",
+    HERE, "..", "..", "skills", "saas", "saas-unit-economics-and-cohort-model",
     "templates", "saas-unit-economics-model.xlsx"
 ))
 

@@ -97,7 +97,7 @@ Skills are grouped into thematic categories under `skills/`. Use `skills/<catego
   - `governance-and-board-charter` — Governance Framework, Board & committee charters, Delegation-of-Authority matrix
   - `hr-policy-manual` — Human Resources Policy Manual (Employment Act 2006 framing; pay/allowances/advances defer to the finance engine)
   - `me-framework-document` — standalone Monitoring, Evaluation & Learning (MEL) Framework
-- `meta-finance/` — in-repo finance skills (bankability scoring, workbook audit); IFRS / IAS / accounting close, audit, reconciliation, and controls route to the external Chwezi Accounting Doctrine engine (`C:\wamp64\www\chwezi-accounting-doctrine`) per the Finance & Accounting Trigger below
+- `meta-finance/` — in-repo finance skills (bankability scoring, workbook audit); IFRS / IAS / accounting close, audit, reconciliation, and controls route to the external Chwezi Accounting Doctrine engine (resolve its location through the global engine-routing table) per the Finance & Accounting Trigger below
 - `ict/` — ICT-sector business-plan skills
 - `industry-guides/` — sector reference guides (agriculture, manufacturing, hospitality, retail, etc.)
 - `saas/` — SaaS GTM, unit economics, lifecycle, pricing, valuation
@@ -365,7 +365,7 @@ Use incremental migration, not a repo-wide rewrite:
 
 ## Finance & Accounting Trigger
 
-For finance/accounting/IFRS/IAS work, use the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine` whenever the user's request, the artefact being generated, or the code being edited touches **any** of:
+For finance/accounting/IFRS/IAS work, use the Chwezi Accounting Doctrine engine (resolve its location through the global engine-routing table; never hard-code a path) whenever the user's request, the artefact being generated, or the code being edited touches **any** of:
 
 - Money flows: sales, purchases, payments, refunds, credit notes, expenses
 - Stock and inventory
@@ -382,13 +382,13 @@ For finance/accounting/IFRS/IAS work, use the finance engine at `C:\wamp64\www\c
 
 When the trigger fires:
 
-1. For finance/accounting/IFRS/IAS work, use the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine`.
-2. Read the relevant doctrine reference file in the finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`).
-3. Read the corresponding finance skill `SKILL.md` in the finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`).
-4. Apply the **finance & accounting quality gate** from the finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`).
+1. For finance/accounting/IFRS/IAS work, use the Chwezi Accounting Doctrine engine, resolved as above.
+2. Read the relevant doctrine reference file in the finance engine (resolved as above).
+3. Read the corresponding finance skill `SKILL.md` in the finance engine (resolved as above).
+4. Apply the **finance & accounting quality gate** from the finance engine (resolved as above).
 6. Record the gate run in the artefact manifest.
 
-The `finance-module-audit` skill (the corresponding skill in the finance engine, `C:\wamp64\www\chwezi-accounting-doctrine`) auto-runs whenever the user asks to analyse, review, audit, build, propose, or replace any software system with even a slight finance element.
+The `finance-module-audit` skill (the corresponding skill in the finance engine, resolved as above) auto-runs whenever the user asks to analyse, review, audit, build, propose, or replace any software system with even a slight finance element.
 
 
 <!-- chwezi-design-engine:trigger v4 -->
@@ -427,4 +427,4 @@ For a prompt handoff, read the local [domain prompt contract](docs/ai-prompting/
 
 ## PORTFOLIO CRAFT CONTRACT
 
-Load `C:\wamp64\www\chwezi-engine-agents\docs\operations\portfolio-craft-standard-2026-09-04.md` when available. Build plans one decision-bearing section at a time: frame the reader and decision, inspect the evidence and model, draft the smallest useful section, test its assumptions and downside case, revise the argument, and then assemble. Every plan must make its thesis, customer logic, operating logic, financial reconciliation, funding use, counter-case, and next action concrete; delete sections that carry no decision or evidence. Do not produce a full plan as an opaque batch. Apply `Observe -> Baseline -> Select -> Experiment -> Check -> Standardise -> Teach -> Re-measure` to kaizen itself. Missing source, model, spreadsheet, render, reviewer, or stakeholder evidence is `NOT ASSESSED`, never a pass.
+Resolve `chwezi-engine-agents` through the global engine-routing table and load `docs/operations/portfolio-craft-standard-2026-09-04.md` from it when available. Build plans one decision-bearing section at a time: frame the reader and decision, inspect the evidence and model, draft the smallest useful section, test its assumptions and downside case, revise the argument, and then assemble. Every plan must make its thesis, customer logic, operating logic, financial reconciliation, funding use, counter-case, and next action concrete; delete sections that carry no decision or evidence. Do not produce a full plan as an opaque batch. Apply `Observe -> Baseline -> Select -> Experiment -> Check -> Standardise -> Teach -> Re-measure` to kaizen itself. Missing source, model, spreadsheet, render, reviewer, or stakeholder evidence is `NOT ASSESSED`, never a pass.

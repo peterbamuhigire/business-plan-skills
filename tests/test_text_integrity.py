@@ -52,10 +52,27 @@ class TextIntegrityTests(unittest.TestCase):
 
     def test_control_and_replacement_characters_are_flagged(self):
         self.write("skills/a.md", "The table below\x01consolidates the rows.\n")
-        self.write("skills/b.md", "Broken � text.\n")
+        self.write("skills/b.md", "Broken \ufffd text.\n")
         found = self.problems()
         self.assertTrue(any("a.md:1" in item for item in found))
         self.assertTrue(any("b.md:1" in item for item in found))
+
+    def test_host_specific_paths_are_flagged(self):
+        for index, line in enumerate((
+                "Use the finance engine at C:\\wamp64\\www\\engine.",
+                "cd C:/projects/engine",
+                "Read /home/someone/engine/README.md first.",
+                "See /Users/someone/engine for the copy.",
+                "The wamp64 folder holds it.")):
+            with self.subTest(line=line):
+                self.write(f"skills/p{index}.md", line + "\n")
+                self.assertTrue(any("host-specific-path" in item and f"p{index}.md" in item
+                                    for item in self.problems()), line)
+
+    def test_urls_and_relative_paths_are_not_host_paths(self):
+        self.write("skills/a.md", "Read https://github.com/example/repo/blob/main/README.md and `skills/x/SKILL.md`, "
+                                  "see ../references/a.md and a:b notes at 10:30/11:00.\n")
+        self.assertEqual([], self.problems())
 
     def test_byte_order_mark_on_first_line_is_allowed(self):
         self.write("skills/a.md", "﻿# Title\n")

@@ -12,7 +12,7 @@ sys.path.insert(0, HERE)
 from _common import make_formats, write_readme, write_africa_notes, add_named  # noqa
 
 OUT = os.path.normpath(os.path.join(
-    HERE, "..", "..", "skills", "meta-living-plan-governance",
+    HERE, "..", "..", "skills", "meta-strategy", "meta-living-plan-governance",
     "templates", "saas-living-plan-kpi-dashboard.xlsx"
 ))
 
