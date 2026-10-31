@@ -37,6 +37,7 @@ It is for founders, consultants, boards, lenders and investors, mainly in East a
 **Contents**
 
 - [When to use it](#when-to-use-it)
+- [Capabilities](#capabilities)
 - [Find the right skill](#find-the-right-skill)
 - [How it works](#how-it-works)
 - [What is inside](#what-is-inside)
@@ -71,7 +72,11 @@ Other Chwezi engines are consulted alongside this one, never instead of it:
 
 Resolve each through your engine-routing table. No path to a sibling engine is stored here.
 
-## Find the right skill
+## Capabilities
+
+The engine holds 137 active skills in 16 categories, grouped under [What is inside](#what-is-inside). The [skill catalogue](docs/skill-catalogue.md) lists each one. The table under Find the right skill is the capability map: common tasks and the skill that handles each.
+
+### Find the right skill
 
 Each row is a task that the routing fixtures in `tests/routing-fixtures.json` already use. The [skill catalogue](docs/skill-catalogue.md) lists all 137 skills.
 
