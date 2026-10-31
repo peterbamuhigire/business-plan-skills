@@ -114,7 +114,7 @@ Skills are grouped into thematic categories under `skills/`. Use `skills/<catego
 
 ### Naming Conventions
 
-- Core plan sections: `01-executive-summary` through `15-appendices` (numbered for reading order)
+- Core plan sections: `01-executive-summary` through `16-sustainability-strategy` (numbered for reading order; `11b-grant-proposal` is the grant variant of `11-funding-request`)
 - Meta/analytical skills: `meta-` prefix (e.g., `meta-financial-stress-test`)
 - Utility skills: plain names (e.g., `skill-writing`)
 
@@ -144,7 +144,7 @@ Additional authoring rules:
 
 ## Default Baseline
 
-Kaizen is mandatory across the engine. Load `skills/meta-strategy/kaizen-improvement-system/SKILL.md` for engine or product audits and book-driven improvement. Publish audits with a hard maximum of 65/100; every remediation plan targets 95/100 and must name evidence, owners, experiments, and re-audit dates. Route current external claims to Digital Research Skills Engine and finance doctrine to Chwezi.
+Kaizen is mandatory across the engine. Load `skills/meta-strategy/kaizen-improvement-system/SKILL.md` for engine or product audits and book-driven improvement. Publish audits with a hard maximum of 65/100; every remediation plan targets 95/100 and must name evidence, owners, experiments, and re-audit dates. Route current external claims to the Digital Research Engine and finance doctrine to Chwezi.
 
 For serious full business-plan work, start with `business-plan-orchestrator`, which controls the stage register, cross-engine handoffs, blocker precedence and release bundle. It routes to these baseline skills:
 
@@ -324,17 +324,23 @@ Two skills keep generated output from reading as AI slop. They live at
 
 ## Verification
 
-Before treating significant skill changes as complete:
+Before treating significant skill changes as complete (commands use `python3`; on Windows use `python`):
 
-- run `python -X utf8 scripts/validate_skill_engine.py --baseline docs/quality/skill-quality-baseline.json`
-- run `python -X utf8 scripts/routing_smoke_test.py --threshold 1.0`
-- validate each changed skill with `python -X utf8 skills/meta-utility/skill-writing/scripts/quick_validate.py <skill-directory>`
-- on Peter's development machine, run the canonical scanner for both `skills/` and `country-context/` plus the canonical quick validator for every active skill directory
+- run `python3 -X utf8 scripts/validate_skill_engine.py --baseline docs/quality/skill-quality-baseline.json`; it also runs the text-integrity and file-budget checks
+- run `python3 -X utf8 scripts/routing_smoke_test.py --threshold 1.0 --report --min-precision-at-1 0.80`, the floor CI enforces
+- run `python3 -X utf8 scripts/routing_link_check.py`
+- validate each changed skill with `python3 -X utf8 skills/meta-utility/skill-writing/scripts/quick_validate.py <skill-directory>`
+- on Peter's development machine, also run the canonical quick validator for every active skill directory. The research engine's `scripts/skill_contract_validator.py` cannot yet scan this engine by path: run with `--root skills` on 31 October 2026 it exited 1, read 0 skills and reported six `missing_mandatory_resource` findings, so its result for this engine is `NOT ASSESSED`
 - keep `docs/quality/skill-quality-baseline.json` at zero debt; a baseline is never a waiver
 - update references when the workflow changes materially
 - update evaluation docs if repository capability materially changes
 - prefer spot verification of modified skills and routing dependencies
-- run the evidence-register, sector-gate, exemplar-pack, workbook and unit-test gates documented in `CONTRIBUTING.md` when those capabilities are touched
+- run the evidence-register, sector-gate, exemplar-pack, release-bundle, workbook and unit-test gates documented in `CONTRIBUTING.md` when those capabilities are touched; the README's Checks paragraph says which check needs PyYAML, LibreOffice, `xlsxwriter` or Node.js
+- do not weaken `scripts/check_text_integrity.py` or `tests/fixtures/stripped-operator-line-hashes.txt` to make an edit pass
+
+## Known limits
+
+The shipped SaaS projection workbook is not a lender model: it has no balance sheet and no debt schedule, and its Adjusted EBITDA adds back costs it never deducts (`skills/pipeline/10-financial-projections/references/saas-financial-projection-template-3yr-5yr.md`, section 0). Do not present its Adjusted EBITDA, net income or closing cash as bankable, and do not quote a DSCR from it. Four evidence-register rows are overdue, so `tools/evidence-register/refresh_evidence_register.py --check` exits 1 by design; renew a row only from a page you have read, never from a search snippet. The published score, open findings and pending decisions are in `docs/kaizen/2026-10-engine-kaizen-pass-2/05-final-report.md` and `06-next-cycle.md`.
 
 ## Document and Spreadsheet Tooling
 
