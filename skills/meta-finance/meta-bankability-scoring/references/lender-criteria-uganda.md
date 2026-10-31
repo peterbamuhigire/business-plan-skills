@@ -17,11 +17,11 @@
 
 ---
 
-## 2. Interest Rate Benchmarks (March 2026)
+## 2. Interest Rate Benchmarks (March 2026; CBR row updated 31 October 2026)
 
 | Rate | Figure | Source |
 |---|---|---|
-| Bank of Uganda Central Bank Rate (CBR) | 9.75% | BoU MPR, December 2025 |
+| Bank of Uganda Central Bank Rate (CBR) | 12.0% from 14 October 2026 (9.75% before; verify the current rate before use) | BoU Monetary Policy Statement, October 2026 (register `UG-BOU-MPS-OCT-2026`) |
 | Commercial bank prime rate (average) | 18.5–20.0% p.a. | RSM Uganda 2025 |
 | SME unsecured lending rate | 22–28% p.a. | Market practice |
 | Uganda Development Bank (UDB) | 12–17% p.a. | UDB guidelines 2025 |

@@ -78,8 +78,8 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 | Primary languages | English (official), Luganda, Swahili |
 | Currency | Uganda Shilling |
 | Currency code | **UGX** |
-| Exchange rate (current) | UGX 3,550 per USD (Q1 2025/26, UBOS KEI) |
-| **Conservative planning rate** | **UGX 3,700 per USD** (10% buffer for depreciation risk) |
+| Exchange rate (dated snapshot, not current) | UGX 3,550 per USD (Q1 2025/26, UBOS KEI); the Bank of Uganda's October 2026 statement reports depreciation pressure on the shilling but gives no level, so read a dated rate from the Bank of Uganda at writing time |
+| **Planning assumption (2025, not a current rate)** | **UGX 3,700 per USD** (10% buffer for depreciation risk); confirm against a dated Bank of Uganda rate and show a sensitivity band before using it |
 | Rate source | Bank of Uganda / UBOS Key Economic Indicators |
 
 ---
@@ -92,7 +92,7 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 | GDP per capita | ~USD 1,100–1,200 |
 | Real GDP growth | 6.3% (FY2024/25); Q1 2025/26: 4.8% |
 | GDP growth forecast | 6–7% medium-term (UBOS/IMF) |
-| Inflation (headline) | 3–5% (2025); food inflation leads |
+| Inflation (headline) | 3–5% (2025, dated); 4.6% in September 2026, with 7.0–7.5% projected over the next 12 months (Bank of Uganda Monetary Policy Statement, October 2026; register `UG-BOU-MPS-OCT-2026`) |
 | Population | 45.9 million (NPHC 2024); Kampala: 1.797 million |
 | Major economic sectors | Agriculture (22%), services (50%), industry (28%) |
 | Primary data source | UBOS (ubos.org) |
@@ -176,7 +176,7 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 | Element | Detail |
 |---------|--------|
 | Central bank | Bank of Uganda (BoU)  bou.or.ug |
-| Policy rate (CBR) | 9.75–10.5% range (2025) |
+| Policy rate (CBR) | 12.0% from 14 October 2026, raised from 9.75% (Bank of Uganda Monetary Policy Statement, October 2026; register `UG-BOU-MPS-OCT-2026`, recheck by 30 November 2026); 9.75–10.5% was the 2025 range |
 | Commercial lending rate | 18–25% UGX (typical SME); USD loans 10–14% |
 | Major commercial banks | Stanbic Uganda, Equity Bank, DFCU, Centenary Bank, Absa Uganda, KCB Uganda, Co-operative Bank, Standard Chartered |
 | Development finance | Uganda Development Bank (UDB)  udb.co.ug; concessional rates 12–15%; up to UGX 10B |
@@ -255,7 +255,7 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 | Land tenure | Customary land (84%); disputes common in rural projects |
 | EUDR (deforestation) | EU Deforestation Regulation affects coffee, cocoa, timber, rubber exporters from 2025 |
 | Electricity reliability | Load shedding risk; backup power adds 15–20% to operating costs in some areas |
-| Exchange rate | UGX historically depreciates 5–10%/year vs USD; plan at UGX 3,700/$1 |
+| Exchange rate | UGX historically depreciates 5–10%/year vs USD; the 2025 planning assumption was UGX 3,700/$1, to be confirmed against a dated Bank of Uganda rate |
 | Uganda-specific risk table | See `12-risk-analysis/references/uganda-risk-context.md` |
 
 **Reference files:**
@@ -374,5 +374,5 @@ Default country: Uganda
 Maintained by: Business Plan Skills project
 Last updated: 12 March 2026
 Data gaps: No national minimum wage (sector-specific only); PAYE bands subject to annual Finance Act changes
-Conservative rule: Always use UGX 3,700/$1 for projections (not current spot rate)
+Conservative rule: use a labelled planning rate with a sensitivity band, not the spot rate; the 2025 assumption was UGX 3,700/$1 and must be confirmed against a dated Bank of Uganda rate before use
 ```

@@ -317,7 +317,7 @@ MACROECONOMIC ASSUMPTIONS
   Exchange rate:                          UGX ___________ per $1
   [Conservative planning rate: UGX 3,700/$1 per CLAUDE.md]
   Bank lending rate:                      ___% per annum
-  [Reference: CBR 9.75% + 8–12pp = 18–22% for SMEs; RSM 2025]
+  [Reference: SME lending ran 8–12pp over the CBR in 2025 (RSM 2025); the CBR was 12.0% from 14 October 2026, so rebuild the range from the current CBR]
   Inflation assumption:                   ___% per year
 
 TAX ASSUMPTIONS
