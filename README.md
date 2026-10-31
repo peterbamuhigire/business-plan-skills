@@ -6,7 +6,7 @@ The engine works to standards it cites directly: IFRS 15, IAS 20, IAS 21, IFRS 1
 
 ## Installation
 
-Prerequisites: [Claude Code](https://claude.com/claude-code) or Codex; Node.js 18 or later for the installer scripts; Python 3.11 or later for the validators and model builders (CI uses Python 3.12 with `PyYAML==6.0.2`; the workbook builders need `xlsxwriter`, and the tools in [`tools/`](tools/) list their packages in [`tools/requirements.txt`](tools/requirements.txt)).
+Prerequisites: [Claude Code](https://claude.com/claude-code) or Codex; Node.js 18 or later for the installer scripts and the hook tests (the installer and both hook test files were run on Node.js 22 on 31 October 2026; 18 is the minimum the installer states and was not tested); Python 3.11 or later for the validators (CI uses Python 3.12 with `PyYAML==6.0.2`; the 31 October 2026 run used Python 3.14.8 with PyYAML 6.0.3). The validators and the test suite need only PyYAML. Optional extras are LibreOffice for workbook recalculation, `xlsxwriter` for the model builders, and the packages in [`tools/requirements.txt`](tools/requirements.txt) for `tools/scrape_metrics.py`; the Checks paragraph below says which check needs which.
 
 **Claude Code plugin.** The repository ships a marketplace in [`.claude-plugin/`](.claude-plugin/marketplace.json):
 
@@ -20,11 +20,11 @@ Prerequisites: [Claude Code](https://claude.com/claude-code) or Codex; Node.js 1
 ```sh
 git clone https://github.com/peterbamuhigire/business-plan-skills
 cd business-plan-skills
-./install.sh --scope project --dry-run
-./install.sh --scope project
+bash install.sh --scope project --dry-run
+bash install.sh --scope project
 ```
 
-On Windows PowerShell: `.\install.ps1 --scope project`.
+Run the script with `bash`: `install.sh` is committed without its executable bit, so `./install.sh` fails with "Permission denied" on Linux and macOS. On Windows PowerShell: `.\install.ps1 --scope project`. A project-scope install into an empty directory on 31 October 2026 wrote 903 files (137 `SKILL.md` files, the hooks and the rules), and `node scripts/install-engine.js doctor --scope project` reported 0 missing and 0 locally modified.
 
 **Codex.** Codex reads [`AGENTS.md`](AGENTS.md) as the router. Before substantive work, run the model-policy check described in [`.codex/README.md`](.codex/README.md): `python <engine-root>/.codex/ensure_model_policy.py --runtime codex --check`. Claude skips that section.
 
@@ -43,15 +43,72 @@ The Claude marketplace and Codex repo marketplace are distinct catalogues.
 
 **Manual use.** Clone the repository, read [`CLAUDE.md`](CLAUDE.md) (Claude Code) or [`AGENTS.md`](AGENTS.md) (any runner), then open the `SKILL.md` that the router names. Skills are read directly from disk; no registration is required.
 
-**Checks.** From the repository root:
+**Checks.** From the repository root. The commands use `python3` (use `python` on Windows) and change no tracked file; Python bytecode caches are git-ignored, and `-B` avoids them.
 
 ```sh
-python -X utf8 scripts/validate_skill_engine.py --baseline docs/quality/skill-quality-baseline.json
-python -X utf8 scripts/routing_smoke_test.py --threshold 1.0
-python -X utf8 scripts/routing_link_check.py
-python -X utf8 -m unittest discover -s tests -p "test_*.py"
-python -B scripts/check_package_file_budget.py
+python3 -X utf8 scripts/validate_skill_engine.py --baseline docs/quality/skill-quality-baseline.json
+python3 -X utf8 scripts/routing_smoke_test.py --threshold 1.0 --report --min-precision-at-1 0.80
+python3 -X utf8 scripts/routing_link_check.py
+python3 -X utf8 scripts/check_text_integrity.py
+python3 -X utf8 scripts/check_package_file_budget.py
+python3 -X utf8 scripts/source_ingestion_guardrail.py
+python3 -X utf8 tools/evidence-register/refresh_evidence_register.py --check
+python3 -X utf8 tools/sector-gates/validate_sector_gates.py
+python3 -X utf8 tools/exemplar-packs/validate_exemplar_packs.py
+python3 -X utf8 scripts/build-financial-models/verify_workbooks.py
+for bundle in examples/full-plan-packages/*/release-bundle.json; do
+  python3 -X utf8 tools/release-gate/validate_release_bundle.py "$bundle"
+done
+python3 -X utf8 -m unittest discover -s tests -p "test_*.py"
+python3 -X utf8 skills/meta-utility/skill-writing/scripts/quick_validate.py <skill-directory>
+node hooks/test-destructive-bash-gate.js
+node hooks/test-plugin-hook-config.js
 ```
+
+CI ([`skill-quality.yml`](.github/workflows/skill-quality.yml)) runs the catalogue, routing, evidence, sector-gate, workbook, exemplar-pack, release-bundle and unit-test checks plus a `compileall`; [`source-ingestion-guardrail.yml`](.github/workflows/source-ingestion-guardrail.yml) runs the guardrail. The text-integrity and file-budget checks also run inside `validate_skill_engine.py`. `routing_link_check.py`, `quick_validate.py` and the hook tests are not in CI.
+
+Result of each command on 31 October 2026 (Python 3.14.8, Node.js 22):
+
+| Check | Exit | Result |
+|---|---:|---|
+| `validate_skill_engine.py` | 0 | 137 active skills, 137 compliant, no failure counts |
+| `routing_smoke_test.py` | 0 | 80 of 80 top-three matches; precision@1 64 of 80 (80.0%); 46 of 137 skills have a fixture |
+| `routing_link_check.py` | 0 | 7 surfaces, 0 failures |
+| `check_text_integrity.py` | 0 | no control characters, glued numeric ranges, host paths or known stripped lines |
+| `check_package_file_budget.py` | 0 | both counts under the 5,000-entry cap |
+| `source_ingestion_guardrail.py` | 0 | 0 findings, 0 content warnings |
+| `refresh_evidence_register.py --check` | **1** | 4 of 24 register rows overdue; it fails until they are renewed, see [Quality and improvement](#quality-and-improvement) |
+| `validate_sector_gates.py` | 0 | 12 sector families, 24 gates (structure only) |
+| `validate_exemplar_packs.py` | 0 | 4 packs, 32 artefacts |
+| `verify_workbooks.py` | 0 | 7 workbooks; reads ZIP entries and sheet names only, not formulas or values |
+| `validate_release_bundle.py` on each example pack | 0 each | structurally valid; all four report `decision=blocked` |
+| unit tests | 0 | 130 tests |
+| `quick_validate.py` on every skill directory | 0 | 137 directories, 0 failures |
+| hook tests | 0 | 61 of 61 and 7 of 7 |
+
+What each check needs. The table comes from the imports in the code and from running the checks with and without each tool; the PyYAML row comes from the `import yaml` lines only, because no check was run without PyYAML:
+
+| Needs | Checks |
+|---|---|
+| Python standard library only | `routing_link_check`, `check_text_integrity`, `check_package_file_budget`, `source_ingestion_guardrail`, `refresh_evidence_register`, `validate_sector_gates`, `validate_exemplar_packs`, `validate_release_bundle`, `verify_workbooks`, `formula_map` |
+| PyYAML | `validate_skill_engine`, `routing_smoke_test`, `quick_validate`, the agent-contract test in the unit-test suite |
+| Node.js | the installer and the two hook tests; the hook tests also run `git init` in a temporary directory |
+| LibreOffice (`soffice` or `libreoffice` on the path) | `tools/workbook-audit/recalc_check.py` and 7 of the 19 tests in `tests/test_recalc_check.py`. Without it `recalc_check.py` exits 2 (`NOT_ASSESSED`) and the 7 tests are skipped, not passed |
+| `xlsxwriter` | the seven model builders in `scripts/build-financial-models/` only; on a Python without it each stops with `ModuleNotFoundError`. The checks and the unit tests do not import it |
+| `openpyxl`, `requests`, `pandas`, `beautifulsoup4`, `xlrd` | `tools/scrape_metrics.py` only (the list in `tools/requirements.txt`). No check imports `openpyxl`; it was absent from both interpreters used and every check above still passed |
+| `pytest` | optional. pytest 9.0.3 collected the same 130 tests: 130 passed, 75 subtests passed, on a copy of the repository with `python3 -m pytest -p no:cacheprovider tests` |
+| PowerShell, Pandoc, Mermaid, a browser, a container | none; no check calls them (searched `scripts/`, `tools/`, `tests/` and `.github/`) |
+
+For a delivered XLSX model, run the two workbook tools and keep both reports. `formula_map.py` reads the file's structure and stored values; `recalc_check.py` recalculates a copy in LibreOffice and tests tie-outs on the recalculated values, so two formula-driven sides can be compared.
+
+```sh
+python3 -X utf8 tools/workbook-audit/formula_map.py <workbook.xlsx> --require-scenarios --require-balance-checks --require-wired-inputs --json-out <formula-map.json>
+python3 -X utf8 tools/workbook-audit/recalc_check.py <workbook.xlsx> --checks <contract.json> --require-checks --require-fresh-cache --json-out <recalc.json>
+```
+
+The model builders overwrite the shipped `.xlsx` templates in place. Run them in a copy of the repository, never in the checkout you intend to commit. All seven ran in a copy with `xlsxwriter` 3.3.1 on 31 October 2026.
+
+**Text integrity.** `scripts/check_text_integrity.py` scans Markdown outside `docs/` for the damage a structural validator cannot see: control or replacement characters, glued numeric ranges (`35%` where the source said 3–5%, or two decimals fused into one number), glued year ranges and thousands groups, host-specific paths (drive letters, a Windows web-server folder, home directories), and any line whose hash matches one of the 298 stripped copies recorded in `tests/fixtures/stripped-operator-line-hashes.txt`. It exists because a bulk rewrite in April 2026 removed non-ASCII characters from 47 files and turned numeric ranges into wrong numbers; the Uganda inflation row read `35%` until the original 3–5% was restored on 31 October 2026. Run against the tree as it stood before the fix (commit `0d1eb51`, with the hash file supplied by `--hashes`), it reported 306 findings and exited 1; run against the current tree it exits 0. It also runs inside `validate_skill_engine.py`. Do not weaken the check or its fixture to make an edit pass; keep the dash in a numeric range.
 
 The file-budget checker applies a fixed 5,000-entry ceiling to both the full
 checkout and a package-oriented count. This is a guard against the ZIP entry
@@ -61,6 +118,8 @@ measurement ([submission errors](https://developers.openai.com/plugins/deploy/su
 ## Capabilities
 
 137 active skills: 134 under [`skills/`](skills/) and 3 under [`country-context/`](country-context/). Templates in [`templates/`](templates/) and sector guide files that are references rather than skills are not counted.
+
+The seven shipped Excel workbooks are starting structures, not finished lender models. The SaaS projection workbook has no balance sheet and no debt schedule, and its Adjusted EBITDA adds back depreciation and share-based pay that its operating expenses never charge. [Section 0 of its reference](skills/pipeline/10-financial-projections/references/saas-financial-projection-template-3yr-5yr.md) lists each gap with cell references and the procedure for a lender case; the open fix is recorded under [Quality and improvement](#quality-and-improvement).
 
 | Category | Folder | Skills |
 |---|---|---:|
@@ -227,7 +286,41 @@ measurement ([submission errors](https://developers.openai.com/plugins/deploy/su
 - [`AGENTS.md`](AGENTS.md) is the runner-agnostic router; [`CLAUDE.md`](CLAUDE.md) imports it for Claude Code. Always-on principles live in [`rules/`](rules/).
 - Multi-phase work follows the [runtime-agnostic orchestration contract](docs/operations/runtime-agnostic-orchestration-2026-09-07.md): scoped work packages, evidence checkpoints, context hygiene, least agency, and sanitised handling of external content.
 - Full plans start at the [business-plan orchestrator](skills/meta-strategy/business-plan-orchestrator/SKILL.md); standalone marketing plans start at the [marketing-plan orchestrator](skills/marketing-sales/marketing-plan-orchestrator/SKILL.md).
-- Sister engines are consulted alongside, never instead: Chwezi Accounting Doctrine for IFRS/IAS, tax and controls; chwezi-design-engine for the look of any deliverable; digital-research-engine for current facts; proposal-skills for tenders and PPDA submissions.
+- Sister engines are consulted alongside, never instead: Chwezi Accounting Doctrine (`chwezi-accounting-doctrine`) for IFRS/IAS, tax and controls; `chwezi-design-engine` for the look of any deliverable; the Digital Research Engine (`digital-research-skills`, formerly checked out as `chwezi-research-engine`) for current facts; `proposal-skills` for tenders and PPDA submissions. Resolve each through your engine-routing table; no path to a sibling is stored here.
+- The [documentation index](docs/README.md) lists the audits, kaizen records, source registers and quality gates under `docs/`.
+
+## Quality and improvement
+
+Kaizen evidence is kept in dated folders. Each holds the same seven files: scope and evidence, baseline scorecard, backlog, experiment log, validation record, final report and next cycle.
+
+- [`docs/kaizen/2026-10-engine-kaizen/`](docs/kaizen/2026-10-engine-kaizen/05-final-report.md): the 29 October 2026 cycle.
+- [`docs/kaizen/2026-10-engine-kaizen-pass-2/`](docs/kaizen/2026-10-engine-kaizen-pass-2/05-final-report.md): pass 2, 31 October 2026, with the [open work and decisions](docs/kaizen/2026-10-engine-kaizen-pass-2/06-next-cycle.md) and the [documentation follow-ups](docs/kaizen/2026-10-engine-kaizen-pass-2/07-docs-followups.md).
+
+**Latest published score: 50.0 out of 100** (pass 2, 31 October 2026). The raw mean and the published value, `min(raw, 65)`, are both 50.0, because the cap of 65 does not bind. Pass 2 measured a fresh baseline of 44.0 before it changed anything; the 29 October final was 49.0. The target of 95 is not met and no dimension reaches 65: the lowest are accessibility and inclusion at 25 (not worked on) and standards currency at 40. The scores are practitioner judgements, not validator pass rates. The fresh baseline is lower than the 29 October final because pass 2 measured things that cycle left not assessed; engine content did not change between the two dates.
+
+**Open findings that affect use**
+
+- **The shipped SaaS projection workbook is defective for lender use (P0).** It has no balance sheet and no debt schedule, and its Adjusted EBITDA adds back items that were never deducted. Measured on 31 October 2026: `formula_map.py --require-wired-inputs` reports 10 of 104 numeric inputs that no formula uses, and `recalc_check.py --require-fresh-cache` finds that 1,772 of 1,852 formula cells store a value that differs from a recalculation. The fix is to rebuild `scripts/build-financial-models/build_financial_projection.py`, with an accounting review of tax, depreciation and share-based pay. It waits on a maintainer decision to install `xlsxwriter` and on that review. Until then, quote operating income rather than Adjusted EBITDA and follow the lender-case procedure in the workbook's reference.
+- **The release gate does not yet require the recalculation report (P0).** `validate_release_bundle.py` can mark a spreadsheet handoff passing on the literal-input contract alone. The four example packs stay blocked.
+- **Four register rows are stale** (UBOS, KNBS, UNBS and the Bank of Uganda supervision page, whose issuer pages could not be read), so `refresh_evidence_register.py --check` exits 1. Kenya and Tanzania policy and exchange rates were not refreshed. No tax rate is verified: the accounting engine's register holds the Uganda and Kenya VAT, PAYE, income-tax and withholding entries as draft or skeleton entries, and has none for Tanzania. Treat every rate in `country-context/` as a dated figure to confirm before use.
+- **Routing is coarse for 46 of 137 skills.** They share one template description, so routing between them rests on the skill name. Precision@1 is 80.0% and a CI ratchet holds it there. 75 `SKILL.md` files repeat a heading.
+- **No complete plan has been rendered**, reviewed for accessibility, or reviewed by a person other than the author.
+
+Three decisions wait on the maintainer: whether `xlsxwriter` may be installed, whether the em dashes and symbols stripped in April 2026 should be restored, and whether the Uganda context keeps a fixed UGX planning rate.
+
+**Date-triggered gates.** `tools/evidence-register/refresh_evidence_register.py --check` fails when a register row's `recheck_due` date is earlier than today. It already exits 1 and fails on more rows on the dates below. The script has no `--as-of` option, so the counts were produced by calling its `validate()` function with each future date as `today`, which is the logic the command runs. A row is renewed by reading the issuer page and recording what it shows; retrieving a URL renews nothing.
+
+| First failing date | Rows that become overdue | Total overdue |
+|---|---|---:|
+| 31 October 2026 | `UG-UBOS-STATISTICAL-PUBLICATIONS`, `KE-KNBS-STATISTICAL-ABSTRACT`, `UG-UNBS-STANDARDS`, `UG-BOU-SUPERVISION` | 4 |
+| 1 December 2026 | `UG-BOU-MPS-OCT-2026` (the October 2026 policy-rate row), `UG-DATAREPORTAL-DIGITAL-2026` | 6 |
+| 26 December 2026 | `TZ-ONLINE-CONTENT-REGULATIONS-2020-2022`, `KE-MOBILE-SPEED-SECONDARY-2025` | 8 |
+| 26 January 2027 | `UG-UCC-QOS-2024` | 9 |
+| 30 January 2027 | the six rows renewed on 31 October 2026: `TZ-NBS-STATISTICAL-ABSTRACT`, `UG-URA-TAX-GUIDANCE`, `UG-URSB-BUSINESS-REGISTRATION`, `UG-NEMA-REGULATIONS`, `UG-UCC-LICENSING`, `GLOBAL-WORLD-BANK-DATA` | 15 |
+| 24 March 2027 | `UG-DPPA-2019-AND-REGULATIONS-2021`, `KE-ODPC-DATA-PROTECTION-REGULATIONS-2021` | 17 |
+| 26 March 2027 | the seven remaining rows | 24 |
+
+The planned re-audit is 30 November 2026, the day the Bank of Uganda policy-rate row falls due. No other check in the repository reads the date (searched `scripts/`, `tools/`, `tests/` and `.github/`; `tools/scrape_metrics.py` only stamps its output).
 
 ## References
 
@@ -506,4 +599,9 @@ and package cap. The isolated native Codex discovery test uses
 `-m gpt-6-luna -c model_reasoning_effort="high" -c skills.max_context_tokens=10000`;
 the larger skills budget is explicit and does not change the user configuration.
 For manifest regeneration, include both canonical roots (the generator supports
-`--root .`); a skills-only manifest fails the registered parity gate.
+`--root .`); a skills-only manifest fails the registered parity gate. To check
+the manifest without writing it, run
+`node scripts/generate-plugin-manifest.js --engine . --root . --check`. On
+31 October 2026 it exited 0 and reported that `plugin.json` is current with 137
+skills; with the default `--root skills` it exited 1 and reported 134 skills on
+disk, because the manifest also lists the three country-context skills.
