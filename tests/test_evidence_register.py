@@ -36,6 +36,33 @@ class EvidenceRegisterTests(unittest.TestCase):
             errors = MODULE.validate(path, date(2026, 7, 13))
         self.assertTrue(any("cannot remain verified-current" in error for error in errors))
 
+    def test_repository_markdown_table_matches_the_json_register(self):
+        self.assertEqual([], MODULE.check_markdown(MODULE.DEFAULT_REGISTER, MODULE.DEFAULT_MARKDOWN))
+
+    def test_markdown_table_that_contradicts_the_json_fails(self):
+        text = MODULE.DEFAULT_MARKDOWN.read_text(encoding="utf-8")
+        self.assertIn("| stale |", text)
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "register.md"
+            path.write_text(text.replace("| stale |", "| verified-current |", 1), encoding="utf-8")
+            errors = MODULE.check_markdown(MODULE.DEFAULT_REGISTER, path)
+        self.assertTrue(any("differs" in error for error in errors), errors)
+
+    def test_markdown_without_table_markers_fails(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "register.md"
+            path.write_text("# Register\n\n| ID | Status |\n| --- | --- |\n", encoding="utf-8")
+            errors = MODULE.check_markdown(MODULE.DEFAULT_REGISTER, path)
+        self.assertTrue(any("markers" in error for error in errors), errors)
+
+    def test_write_markdown_is_idempotent(self):
+        original = MODULE.DEFAULT_MARKDOWN.read_text(encoding="utf-8")
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "register.md"
+            path.write_text(original, encoding="utf-8")
+            MODULE.write_markdown(MODULE.DEFAULT_REGISTER, path)
+            self.assertEqual(original, path.read_text(encoding="utf-8"))
+
     def test_retail_reference_has_no_unexpected_c0_controls(self):
         path = ROOT / "skills/industry-guides/retail/references/retail-breakeven-benchmarks.md"
         content = path.read_bytes()

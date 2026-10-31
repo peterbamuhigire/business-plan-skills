@@ -1,7 +1,7 @@
 {
   "standard": "Evidence register v1",
   "register_owner": "Business Plan Skills maintainers",
-  "checked_on": "2026-09-25",
+  "checked_on": "2026-10-31",
   "entries": [
     {
       "id": "UG-UBOS-STATISTICAL-PUBLICATIONS",
@@ -21,7 +21,7 @@
       "recheck_due": "2026-10-13",
       "status": "stale",
       "owner": "country-context maintainer",
-      "note": "Use the latest dated release relevant to the claim; the portal is not itself evidence for a figure. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
+      "note": "Use the latest dated release relevant to the claim; the portal is not itself evidence for a figure. Retrieval attempt 2026-10-31 failed: certificate chain could not be verified (unable to verify the first certificate). Not renewed; claim support is NOT_ASSESSED and the row stays stale."
     },
     {
       "id": "KE-KNBS-STATISTICAL-ABSTRACT",
@@ -41,7 +41,7 @@
       "recheck_due": "2026-10-13",
       "status": "stale",
       "owner": "country-context maintainer",
-      "note": "Select the chapter and table whose period and definition match the plan claim. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
+      "note": "Select the chapter and table whose period and definition match the plan claim. Retrieval attempt 2026-10-31 failed: certificate chain could not be verified (unable to verify the first certificate). Not renewed; claim support is NOT_ASSESSED and the row stays stale."
     },
     {
       "id": "TZ-NBS-STATISTICAL-ABSTRACT",
@@ -51,17 +51,13 @@
       "source_type": "official-statistics",
       "url": "https://www.nbs.go.tz/index.php/statistics/topic/statistical-abstract?page=1",
       "claim_families": [
-        "population",
-        "national accounts",
-        "prices",
-        "labour",
-        "sector output"
+        "statistical abstract editions"
       ],
-      "checked_on": "2026-07-13",
-      "recheck_due": "2026-10-13",
-      "status": "stale",
+      "checked_on": "2026-10-31",
+      "recheck_due": "2027-01-29",
+      "status": "verified-with-caveat",
       "owner": "country-context maintainer",
-      "note": "Use the latest published abstract and retain the table, period, and access date. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
+      "note": "The page, titled 'NBS | Statistical Abstract Reports', lists abstracts for 2025 (dated 20 September 2026) back to 2016. It shows titles and dates only, so it does not confirm which topics (population, national accounts, prices, labour, sector output) an edition contains; open the edition before quoting a figure. Claim-level review 2026-10-31 (kaizen pass 2, run for Peter Bamuhigire; no human reviewer)."
     },
     {
       "id": "UG-URA-TAX-GUIDANCE",
@@ -73,14 +69,13 @@
       "claim_families": [
         "tax registration",
         "returns",
-        "payments",
-        "customs"
+        "payments"
       ],
-      "checked_on": "2026-09-24",
-      "recheck_due": "2026-10-24",
-      "status": "stale",
+      "checked_on": "2026-10-31",
+      "recheck_due": "2027-01-29",
+      "status": "verified-with-caveat",
       "owner": "finance gate owner",
-      "note": "Verify the current Act, Finance Act, effective date, and taxpayer facts before using a rate or threshold. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
+      "note": "The page, titled 'Domestic Taxes FAQs', covers TIN and tax-agent registration, provisional and final income-tax filing dates and payment registration. It shows no effective or last-updated date, mentions customs only in passing (customs is removed from the claim families), and still shows an interest and penalty waiver with a 31 December 2024 deadline, so treat dated items on it as possibly out of date. It was not used for any rate or threshold; verify the Act, Finance Act and effective date before using one. Claim-level review 2026-10-31 (kaizen pass 2, run for Peter Bamuhigire; no human reviewer)."
     },
     {
       "id": "UG-URSB-BUSINESS-REGISTRATION",
@@ -91,14 +86,13 @@
       "url": "https://ursb.go.ug/services/business-registration",
       "claim_families": [
         "entity registration",
-        "legal identity",
-        "annual filings"
+        "legal identity"
       ],
-      "checked_on": "2026-07-13",
-      "recheck_due": "2026-10-13",
-      "status": "stale",
+      "checked_on": "2026-10-31",
+      "recheck_due": "2027-01-29",
+      "status": "verified-with-caveat",
       "owner": "country-context maintainer",
-      "note": "Confirm entity-specific forms, fees, and filing steps at the time of use. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
+      "note": "The page, titled 'Business Registration', covers registration of public, private and foreign companies and legal documents, names legal identity as a benefit and links the online registration system (OBRS). It does not mention annual returns, so annual filings are removed from the claim families; verify filing duties from another URSB page. No page date is shown. Claim-level review 2026-10-31 (kaizen pass 2, run for Peter Bamuhigire; no human reviewer)."
     },
     {
       "id": "UG-NEMA-REGULATIONS",
@@ -114,11 +108,11 @@
         "air",
         "effluent"
       ],
-      "checked_on": "2026-09-24",
-      "recheck_due": "2026-10-24",
-      "status": "stale",
+      "checked_on": "2026-10-31",
+      "recheck_due": "2027-01-29",
+      "status": "verified-with-caveat",
       "owner": "regulatory gate owner",
-      "note": "Screen the actual project and location; do not infer an approval requirement from sector alone. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
+      "note": "The page lists, among others, the National Environment (Environmental and Social Assessment) Regulations S.I. 143 of 2020, (Waste Management) Regulations S.I. 49 of 2020, (Air Quality Standards) Regulations S.I. 22 of 2024 and (Standards for Discharge of Effluent into Water or Land) Regulations 2020. No date is shown for the page; the amendment status of each instrument was not checked, so cite the instrument and verify its current text. Claim-level review 2026-10-31 (kaizen pass 2, run for Peter Bamuhigire; no human reviewer)."
     },
     {
       "id": "UG-UNBS-STANDARDS",
@@ -137,7 +131,7 @@
       "recheck_due": "2026-10-13",
       "status": "stale",
       "owner": "regulatory gate owner",
-      "note": "Identify the product-specific compulsory standard and current conformity route. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
+      "note": "Identify the product-specific compulsory standard and current conformity route. Retrieval attempt 2026-10-31 failed: HTTP 403 Forbidden. Not renewed; claim support is NOT_ASSESSED and the row stays stale."
     },
     {
       "id": "UG-UCC-LICENSING",
@@ -148,15 +142,13 @@
       "url": "https://www.ucc.co.ug/telecommunication-licensing/",
       "claim_families": [
         "communications licensing",
-        "spectrum",
-        "postal",
-        "broadcasting"
+        "telecommunications licensing"
       ],
-      "checked_on": "2026-07-13",
-      "recheck_due": "2026-10-13",
-      "status": "stale",
+      "checked_on": "2026-10-31",
+      "recheck_due": "2027-01-29",
+      "status": "verified-with-caveat",
       "owner": "regulatory gate owner",
-      "note": "Confirm whether the proposed service is regulated before modelling licence cost or lead time. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
+      "note": "The page, titled 'Telecommunication Licensing', cites sections 5(1)(b) and 22 of the Uganda Communications Act 2013, links licence-description and application PDFs and a list of telecoms licensed as at 31 January 2026. Spectrum, postal and broadcasting appear only as navigation items and were not read, so they are removed from the claim families. Claim-level review 2026-10-31 (kaizen pass 2, run for Peter Bamuhigire; no human reviewer)."
     },
     {
       "id": "UG-BOU-SUPERVISION",
@@ -175,7 +167,7 @@
       "recheck_due": "2026-10-24",
       "status": "stale",
       "owner": "finance gate owner",
-      "note": "Regulatory perimeter and licensing status require competent legal and regulatory review. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
+      "note": "Regulatory perimeter and licensing status require competent legal and regulatory review. Retrieval attempt 2026-10-31 failed: the page returned a heading and a help-desk link but no body text, so no supervision content could be read. Not renewed; claim support is NOT_ASSESSED and the row stays stale."
     },
     {
       "id": "GLOBAL-WORLD-BANK-DATA",
@@ -183,17 +175,16 @@
       "publisher": "World Bank",
       "title": "World Development Indicators",
       "source_type": "multilateral-data",
-      "url": "https://databank.worldbank.org/source/world-development-indicators",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/",
       "claim_families": [
         "cross-country macroeconomic comparison",
-        "population",
         "development indicators"
       ],
-      "checked_on": "2026-07-13",
-      "recheck_due": "2026-10-13",
-      "status": "stale",
+      "checked_on": "2026-10-31",
+      "recheck_due": "2027-01-29",
+      "status": "verified-with-caveat",
       "owner": "research lead",
-      "note": "Record indicator code, edition, country, year, and retrieval date; do not substitute regional data for national evidence. As of 2026-10-29, marked stale because the scheduled recheck is overdue; no source renewal was performed."
+      "note": "The DataBank source page (https://databank.worldbank.org/source/world-development-indicators) returned an error page on 2026-10-31, so the entry now points to the World Development Indicators home page, which loaded (World Bank Group; no last-updated date shown; latest dated item 28 August 2025). Population is dropped from the claim families because no series was read. Use DataBank for dated series once it loads. Claim-level review 2026-10-31 (kaizen pass 2, run for Peter Bamuhigire; no human reviewer)."
     },
     {
       "id": "UG-DPPA-2019-AND-REGULATIONS-2021",
@@ -419,6 +410,24 @@
       "status": "verified-with-caveat",
       "owner": "marketing-plan maintainer",
       "note": "Kaizen register LIC-09. Citations must be accurate and verbatim, not adapted, paraphrased or summarised. Free gsma.com Mobile Economy PDF terms not checked (404). Cite title, year, URL; do not paraphrase."
+    },
+    {
+      "id": "UG-BOU-MPS-OCT-2026",
+      "jurisdiction": "Uganda",
+      "publisher": "Bank of Uganda",
+      "title": "Monetary Policy Statement for October 2026",
+      "source_type": "competent-authority",
+      "url": "https://bou.or.ug/uploads/MPS_October_2026_cdc1de720f.pdf",
+      "claim_families": [
+        "Central Bank Rate",
+        "headline inflation",
+        "inflation outlook"
+      ],
+      "checked_on": "2026-10-31",
+      "recheck_due": "2026-11-30",
+      "status": "verified-current",
+      "owner": "finance gate owner",
+      "note": "Read from the PDF on 2026-10-31: at a special meeting on 14 October 2026 the Monetary Policy Committee raised the Central Bank Rate by 225 basis points from 9.75 percent to 12.0 percent; headline inflation was 4.6 percent in September 2026 (4.1 percent in August) and core inflation 3.7 percent; the committee projects headline inflation of 7.0-7.5 percent over the next 12 months and cites exchange-rate depreciation pressure. The statement gives no exchange-rate level on the pages read. Time-sensitive: a later Monetary Policy Committee decision supersedes it, so recheck before any release. Claim-level review 2026-10-31 (kaizen pass 2, run for Peter Bamuhigire; no human reviewer)."
     }
   ]
 }
