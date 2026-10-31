@@ -1,6 +1,6 @@
 # SaaS Financial Models — Master README
 
-This engine ships **seven working Excel financial models** for ICT/SaaS startups operating in Africa (Uganda primary, Kenya/Nigeria/South Africa/Egypt/Rwanda extendable). They are usable today for investor conversations, lender presentations, grant applications, and quarterly board packs.
+This engine ships **seven working Excel financial models** for ICT/SaaS startups operating in Africa (Uganda primary, Kenya/Nigeria/South Africa/Egypt/Rwanda extendable). They are starting structures for investor conversations, grant applications, and quarterly board packs. They are not finished lender models: the Financial Projection workbook (section 3) has no balance sheet and no debt schedule, and its Adjusted EBITDA adds back items its operating expenses never charge. Read the scope table in [`saas-financial-projection-template-3yr-5yr.md`](../skills/pipeline/10-financial-projections/references/saas-financial-projection-template-3yr-5yr.md) before using it for a lender case, and recalculate any workbook with `tools/workbook-audit/recalc_check.py` before reading a stored value.
 
 The original five-workbook stack covers classic SaaS + AI-overlay economics. **Workbooks 6 and 7 add the agent-product economics layer** for AI-agent SaaS (multi-step COGS waterfall, per-resolved-task as the true unit, wrapper-vs-moat scoring).
 
@@ -13,12 +13,12 @@ All workbooks share design conventions:
 - **Africa-Notes sheet** in every workbook — FX, M-Pesa, MoMo, USD-Enterprise tier, longer collection cycles.
 - **README sheet** in every workbook — purpose, sheets, owner, cadence.
 
-Regenerate any workbook from `scripts/build-financial-models/` (xlsxwriter 3.2.9).
+Regenerate any workbook from `scripts/build-financial-models/` (needs `xlsxwriter`; all seven builders ran under xlsxwriter 3.3.1 in a copy of the repository on 31 October 2026).
 
 ---
 
 ## 1. Unit Economics Model
-**Path:** `skills/saas-unit-economics-and-cohort-model/templates/saas-unit-economics-model.xlsx`
+**Path:** `skills/saas/saas-unit-economics-and-cohort-model/templates/saas-unit-economics-model.xlsx`
 **Build script:** `scripts/build-financial-models/build_unit_economics.py`
 **Sheets (6):** README · Inputs · Calc · Cohort · Dashboard · Africa-Notes
 
@@ -34,7 +34,7 @@ The canonical 12-metric SaaS unit-economics dashboard for a single steady-state 
 ---
 
 ## 2. Cohort & Retention Model
-**Path:** `skills/saas-unit-economics-and-cohort-model/templates/saas-cohort-and-retention-model.xlsx`
+**Path:** `skills/saas/saas-unit-economics-and-cohort-model/templates/saas-cohort-and-retention-model.xlsx`
 **Build script:** `scripts/build-financial-models/build_cohort_retention.py`
 **Sheets (8):** README · Inputs · Logo-Cohort · Revenue-Cohort · NRR-GRR · Involuntary-Churn · Dashboard · Africa-Notes
 
@@ -48,7 +48,7 @@ The canonical 12-metric SaaS unit-economics dashboard for a single steady-state 
 ---
 
 ## 3. Financial Projection (3-yr / 5-yr, 60 months)
-**Path:** `skills/10-financial-projections/templates/saas-financial-projection-3yr-5yr.xlsx`
+**Path:** `skills/pipeline/10-financial-projections/templates/saas-financial-projection-3yr-5yr.xlsx`
 **Build script:** `scripts/build-financial-models/build_financial_projection.py`
 **Sheets (11):** README · Inputs · ARR-Waterfall · MRR-Detail · Headcount · PnL · Cash · Sensitivity · Scenarios · Bankability-Dashboard · Africa-Notes
 
@@ -56,7 +56,7 @@ Implements:
 - **60-month ARR Waterfall** (opening + new + expansion − contraction − churn = closing)
 - **MRR-Detail** by tier with reconciliation to ARR (Δ check row)
 - **Quarterly Headcount** by role with loaded-cost rollup
-- **Multi-Step P&L** in Mersch format (Rev → COGS → GP → S&M → R&D → G&A → Op Inc → +D&A +SBC → EBITDA → Tax → NI)
+- **Multi-Step P&L** in Mersch format (Rev → COGS → GP → S&M → R&D → G&A → Op Inc → +D&A +SBC → EBITDA → Tax → NI). The add-back is a known defect: operating expenses never charge D&A or share-based pay, so Adjusted EBITDA overstates operating income. Quote operating income until the generator is fixed
 - **Cash** with 60-month running balance and **working-capital trough** flagging
 - **2-D Sensitivity**: new-logo growth × churn → Year-3 ending ARR
 - **Scenario toggle** on Inputs cell — Base / Bull / Bear / Stress drive `Scen_Active` multipliers (logos × churn × ARPA × FX)
@@ -67,7 +67,7 @@ Implements:
 ---
 
 ## 4. AI Cost-of-Tenant Calculator
-**Path:** `skills/14-ai-integration/templates/saas-ai-cost-of-tenant-calculator.xlsx`
+**Path:** `skills/pipeline/14-ai-integration/templates/saas-ai-cost-of-tenant-calculator.xlsx`
 **Build script:** `scripts/build-financial-models/build_ai_cost_tenant.py`
 **Sheets (8):** README · Inputs · Cost-Per-Tenant · Margin-Analysis · Sensitivity · Stress-Test · Dashboard · Africa-Notes
 
@@ -88,7 +88,7 @@ Components: token cost (input + output), eval overhead, retraining (amortised), 
 ---
 
 ## 5. Living-Plan KPI Dashboard (Monthly)
-**Path:** `skills/meta-living-plan-governance/templates/saas-living-plan-kpi-dashboard.xlsx`
+**Path:** `skills/meta-strategy/meta-living-plan-governance/templates/saas-living-plan-kpi-dashboard.xlsx`
 **Build script:** `scripts/build-financial-models/build_living_plan_dashboard.py`
 **Sheets (5):** README · Monthly-Inputs · KPI-Dashboard · Variance-Tracker · Africa-Notes
 
@@ -99,14 +99,14 @@ Components: token cost (input + output), eval overhead, retraining (amortised), 
 - Magic Number (3-mo trailing), CAC Payback, LTV:CAC, Quick Ratio
 - Burn Multiple (3-mo), Rule of 40 (trailing 12-mo)
 
-**Variance-Tracker** computes plan-vs-actual % deviation across 6 metrics; any deviation > variance-threshold (default 10%) raises a **REPLAN** flag — links back to `skills/meta-living-plan-governance` variance protocol.
+**Variance-Tracker** computes plan-vs-actual % deviation across 6 metrics; any deviation > variance-threshold (default 10%) raises a **REPLAN** flag — links back to `skills/meta-strategy/meta-living-plan-governance` variance protocol.
 
 **Living-plan cadence:** Monthly close + 5 working days. Variance review same day as close.
 
 ---
 
 ## 6. Agent Cost-Per-Task Calculator
-**Path:** `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/templates/saas-agent-cost-per-task-calculator.xlsx`
+**Path:** `skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/templates/saas-agent-cost-per-task-calculator.xlsx`
 **Build script:** `scripts/build-financial-models/build_agent_cost_per_task.py`
 **Sheets (8):** README · Inputs · Cost-Per-Task · Margin-Analysis · Sensitivity · Stress-Test · Dashboard · Africa-Notes
 
@@ -127,7 +127,7 @@ The **Margin-Analysis** sheet computes agent gross margin per tier (price × res
 ---
 
 ## 7. Agent Unit Economics Model
-**Path:** `skills/10-financial-projections/saas-agent-unit-economics-and-cogs/templates/saas-agent-unit-economics-model.xlsx`
+**Path:** `skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/templates/saas-agent-unit-economics-model.xlsx`
 **Build script:** `scripts/build-financial-models/build_agent_unit_economics.py`
 **Sheets (9):** README · Inputs · Cohort · Unit-Economics · Wrapper-vs-Moat-Scoring · AI-vs-Agent-Comparison · Dashboard · Stress-Test · Africa-Notes
 
@@ -202,7 +202,7 @@ Specifically:
 | **Series A (non-agent SaaS)** | All of 1–5 | AI-cost calculator (#4) becomes mandatory if LLM-backed |
 | **Series A (agent product)** | 1 + 2 + 3 + 5 + **6 + 7** | #6 + #7 replace #4 as the COGS engine; agent-fund partners will quote cost-per-resolved-task as headline |
 | **DFI / Bank lending** | 3 + 5 with parallel local-currency view | DFIs (FMO, Norfund, IFC, Proparco) expect this |
-| **Grant proposals (Ugandan / DFI)** | 3 (M&E-augmented) + 5 | Pair with `skills/meta-monitoring-evaluation` |
+| **Grant proposals (Ugandan / DFI)** | 3 (M&E-augmented) + 5 | Pair with `skills/meta-strategy/meta-monitoring-evaluation` |
 | **Quarterly board pack (agent business)** | 5 + 7 (agent UE dashboard) + 6 (cost-per-resolved trend) | Weekly cost-per-resolved-task trend slide is mandatory |
 | **Quarterly board pack (classic SaaS)** | 5 (Living-Plan) primary; 3 secondary | Variance-Tracker REPLAN flags drive agenda |
 
@@ -211,31 +211,34 @@ Specifically:
 ## Regenerating the Workbooks
 
 ```bash
-cd <repository root>
-python scripts/build-financial-models/build_unit_economics.py
-python scripts/build-financial-models/build_cohort_retention.py
-python scripts/build-financial-models/build_financial_projection.py
-python scripts/build-financial-models/build_ai_cost_tenant.py
-python scripts/build-financial-models/build_living_plan_dashboard.py
-python scripts/build-financial-models/build_agent_cost_per_task.py
-python scripts/build-financial-models/build_agent_unit_economics.py
-python -X utf8 scripts/build-financial-models/verify_workbooks.py
+cd <root of a copy of the repository>
+python3 scripts/build-financial-models/build_unit_economics.py
+python3 scripts/build-financial-models/build_cohort_retention.py
+python3 scripts/build-financial-models/build_financial_projection.py
+python3 scripts/build-financial-models/build_ai_cost_tenant.py
+python3 scripts/build-financial-models/build_living_plan_dashboard.py
+python3 scripts/build-financial-models/build_agent_cost_per_task.py
+python3 scripts/build-financial-models/build_agent_unit_economics.py
+python3 -X utf8 scripts/build-financial-models/verify_workbooks.py
 ```
 
-Each script is self-contained and idempotent — re-running overwrites the existing `.xlsx`.
+Each script is self-contained and idempotent: re-running overwrites the existing `.xlsx` at its path inside the repository, so run the builders in a copy and carry over only the file you mean to change. On a Python without `xlsxwriter` each builder stops with `ModuleNotFoundError`; `verify_workbooks.py` needs no extra package (use `python` for `python3` on Windows).
 
 ---
 
 ## Verification
 
+`verify_workbooks.py` reads the file size, the ZIP entries and the sheet names only. It does not read a formula or a value, so it cannot show that a workbook calculates correctly; use `formula_map.py` and `recalc_check.py` for that. Output on 31 October 2026 (abridged: file sizes and the sheet-name lists are omitted):
+
 ```
-OK: skills/saas-unit-economics-and-cohort-model/templates/saas-unit-economics-model.xlsx                                   sheets=6
-OK: skills/saas-unit-economics-and-cohort-model/templates/saas-cohort-and-retention-model.xlsx                             sheets=8
-OK: skills/10-financial-projections/templates/saas-financial-projection-3yr-5yr.xlsx                                       sheets=11
-OK: skills/14-ai-integration/templates/saas-ai-cost-of-tenant-calculator.xlsx                                              sheets=8
-OK: skills/meta-living-plan-governance/templates/saas-living-plan-kpi-dashboard.xlsx                                       sheets=5
-OK: skills/10-financial-projections/saas-agent-unit-economics-and-cogs/templates/saas-agent-cost-per-task-calculator.xlsx  sheets=8
-OK: skills/10-financial-projections/saas-agent-unit-economics-and-cogs/templates/saas-agent-unit-economics-model.xlsx      sheets=9
+OK: skills/saas/saas-unit-economics-and-cohort-model/templates/saas-unit-economics-model.xlsx                                   sheets=6
+OK: skills/saas/saas-unit-economics-and-cohort-model/templates/saas-cohort-and-retention-model.xlsx                             sheets=8
+OK: skills/pipeline/10-financial-projections/templates/saas-financial-projection-3yr-5yr.xlsx                                   sheets=11
+OK: skills/pipeline/14-ai-integration/templates/saas-ai-cost-of-tenant-calculator.xlsx                                          sheets=8
+OK: skills/meta-strategy/meta-living-plan-governance/templates/saas-living-plan-kpi-dashboard.xlsx                              sheets=5
+OK: skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/templates/saas-agent-cost-per-task-calculator.xlsx  sheets=8
+OK: skills/pipeline/10-financial-projections/saas-agent-unit-economics-and-cogs/templates/saas-agent-unit-economics-model.xlsx      sheets=9
+All 7 workbooks verified.
 ```
 
-All workbooks: valid OOXML zip, expected sheet count, README + Inputs + Africa-Notes present.
+Each workbook must exist, be at least 5,000 bytes, open as a ZIP with a `workbook.xml`, carry a minimum number of sheets and contain every expected sheet name; each expected list includes README and Africa-Notes.
