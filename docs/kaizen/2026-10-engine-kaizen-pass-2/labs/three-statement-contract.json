@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "checks": [
+    {
+      "id": "balance-sheet-balances",
+      "left_cell": "Checks!B1",
+      "right_cell": "Checks!B2",
+      "check_cell": "Checks!B3",
+      "tolerance": 0
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "workbook": "docs/kaizen/2026-10-engine-kaizen-pass-2/labs/three-statement-matched.xlsx",
+  "status": "pass",
+  "engine": {
+    "name": "soffice",
+    "version": "LibreOffice 26.2.6.3 620(Build:3)"
+  },
+  "findings": [],
+  "warnings": [
+    {
+      "code": "stale-formula-cache",
+      "message": "6 of 7 formula cells store a value that differs from the recalculated value"
+    }
+  ],
+  "workbook_sha256": "359a231d6cf320a6a387dbf6a89137eed6086e130f235e6f19df2942a622fd03",
+  "formula_cells": 7,
+  "missing_after_recalculation": 0,
+  "stale_cache_count": 6,
+  "stale_cache_sample": [
+    {
+      "location": "CashFlow!B5",
+      "cached": "0",
+      "recalculated": "75"
+    },
+    {
+      "location": "BalanceSheet!B2",
+      "cached": "0",
+      "recalculated": "75"
+    },
+    {
+      "location": "BalanceSheet!B4",
+      "cached": "0",
+      "recalculated": "75"
+    },
+    {
+      "location": "BalanceSheet!B8",
+      "cached": "0",
+      "recalculated": "75"
+    },
+    {
+      "location": "Checks!B1",
+      "cached": "0",
+      "recalculated": "75"
+    },
+    {
+      "location": "Checks!B2",
+      "cached": "0",
+      "recalculated": "75"
+    }
+  ],
+  "error_count": 0,
+  "error_sample": [],
+  "reconciliation": {
+    "status": "pass",
+    "checks": [
+      {
+        "id": "balance-sheet-balances",
+        "status": "pass",
+        "findings": [],
+        "left_cell": "Checks!B1",
+        "right_cell": "Checks!B2",
+        "check_cell": "Checks!B3",
+        "left_value": 75.0,
+        "right_value": 75.0,
+        "recalculated_difference": 0.0,
+        "recalculated_check_value": 0.0,
+        "tolerance": 0.0
+      }
+    ],
+    "findings": [],
+    "contract_sha256": "2775877e28e595ae2b35f83fcea4d6f7b6ba730ace252185436ae0d0a76c9055"
+  }
+}

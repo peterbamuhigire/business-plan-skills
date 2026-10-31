@@ -1,0 +1,120 @@
+{
+  "workbook": "docs/kaizen/2026-10-engine-kaizen-pass-2/labs/three-statement-mismatch.xlsx",
+  "workbook_sha256": "3f54951afd7c68636ebf001f1c03ac86a5adfa521cfd72dae08b257d721f68a9",
+  "status": "fail",
+  "sheet_count": 3,
+  "formula_count": 7,
+  "assumption_cell_count": 0,
+  "scenario_check_count": 0,
+  "balance_check_count": 8,
+  "balance_formula_check_count": 1,
+  "numeric_input_count": 0,
+  "unreferenced_input_count": 0,
+  "external_link_count": 0,
+  "formulas": [
+    {
+      "location": "CashFlow!B5",
+      "formula": "B2+B3+B4",
+      "cached_value": "0"
+    },
+    {
+      "location": "BalanceSheet!B2",
+      "formula": "CashFlow!B5",
+      "cached_value": "0"
+    },
+    {
+      "location": "BalanceSheet!B4",
+      "formula": "B2+B3",
+      "cached_value": "0"
+    },
+    {
+      "location": "BalanceSheet!B8",
+      "formula": "B5+B6+B7",
+      "cached_value": "0"
+    },
+    {
+      "location": "Checks!B1",
+      "formula": "BalanceSheet!B4",
+      "cached_value": "0"
+    },
+    {
+      "location": "Checks!B2",
+      "formula": "BalanceSheet!B8",
+      "cached_value": "0"
+    },
+    {
+      "location": "Checks!B3",
+      "formula": "B1-B2",
+      "cached_value": "0"
+    }
+  ],
+  "assumptions": [],
+  "scenario_checks": [],
+  "balance_checks": [
+    {
+      "location": "CashFlow!A2",
+      "value": " Opening cash"
+    },
+    {
+      "location": "CashFlow!A5",
+      "value": " Closing cash"
+    },
+    {
+      "location": "BalanceSheet",
+      "value": "sheet-name"
+    },
+    {
+      "location": "BalanceSheet!A1",
+      "value": " Synthetic balance sheet, UGX million"
+    },
+    {
+      "location": "Checks",
+      "value": "sheet-name"
+    },
+    {
+      "location": "Checks!B1",
+      "value": "BalanceSheet!B4 0"
+    },
+    {
+      "location": "Checks!B2",
+      "value": "BalanceSheet!B8 0"
+    },
+    {
+      "location": "Checks!A3",
+      "value": " Balance sheet check"
+    }
+  ],
+  "balance_formula_checks": [
+    {
+      "location": "Checks!B3",
+      "row_label": "Balance sheet check"
+    }
+  ],
+  "unreferenced_inputs": [],
+  "external_links": [],
+  "reconciliation": {
+    "status": "fail",
+    "checks": [
+      {
+        "id": "balance-sheet-balances",
+        "status": "fail",
+        "findings": [
+          {
+            "code": "reconciliation-source-not-literal",
+            "message": "Source cells must be literal numeric inputs; formula-source recalculation is not assessed"
+          }
+        ]
+      }
+    ],
+    "findings": [],
+    "contract_sha256": "2775877e28e595ae2b35f83fcea4d6f7b6ba730ace252185436ae0d0a76c9055"
+  },
+  "findings": [
+    {
+      "severity": "error",
+      "code": "reconciliation-source-not-literal",
+      "location": "balance-sheet-balances",
+      "message": "Source cells must be literal numeric inputs; formula-source recalculation is not assessed"
+    }
+  ]
+}

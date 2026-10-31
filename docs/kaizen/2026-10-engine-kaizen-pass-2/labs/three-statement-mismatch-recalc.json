@@ -1,0 +1,89 @@
+{
+  "workbook": "docs/kaizen/2026-10-engine-kaizen-pass-2/labs/three-statement-mismatch.xlsx",
+  "status": "fail",
+  "engine": {
+    "name": "soffice",
+    "version": "LibreOffice 26.2.6.3 620(Build:3)"
+  },
+  "findings": [
+    {
+      "code": "recalc-values-differ",
+      "message": "Recalculated sides differ by 25.0; tolerance is 0.0",
+      "check": "balance-sheet-balances"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "stale-formula-cache",
+      "message": "7 of 7 formula cells store a value that differs from the recalculated value"
+    }
+  ],
+  "workbook_sha256": "3f54951afd7c68636ebf001f1c03ac86a5adfa521cfd72dae08b257d721f68a9",
+  "formula_cells": 7,
+  "missing_after_recalculation": 0,
+  "stale_cache_count": 7,
+  "stale_cache_sample": [
+    {
+      "location": "CashFlow!B5",
+      "cached": "0",
+      "recalculated": "75"
+    },
+    {
+      "location": "BalanceSheet!B2",
+      "cached": "0",
+      "recalculated": "75"
+    },
+    {
+      "location": "BalanceSheet!B4",
+      "cached": "0",
+      "recalculated": "100"
+    },
+    {
+      "location": "BalanceSheet!B8",
+      "cached": "0",
+      "recalculated": "75"
+    },
+    {
+      "location": "Checks!B1",
+      "cached": "0",
+      "recalculated": "100"
+    },
+    {
+      "location": "Checks!B2",
+      "cached": "0",
+      "recalculated": "75"
+    },
+    {
+      "location": "Checks!B3",
+      "cached": "0",
+      "recalculated": "25"
+    }
+  ],
+  "error_count": 0,
+  "error_sample": [],
+  "reconciliation": {
+    "status": "fail",
+    "checks": [
+      {
+        "id": "balance-sheet-balances",
+        "status": "fail",
+        "findings": [
+          {
+            "code": "recalc-values-differ",
+            "message": "Recalculated sides differ by 25.0; tolerance is 0.0"
+          }
+        ],
+        "left_cell": "Checks!B1",
+        "right_cell": "Checks!B2",
+        "check_cell": "Checks!B3",
+        "left_value": 100.0,
+        "right_value": 75.0,
+        "recalculated_difference": 25.0,
+        "recalculated_check_value": 25.0,
+        "tolerance": 0.0
+      }
+    ],
+    "findings": [],
+    "contract_sha256": "2775877e28e595ae2b35f83fcea4d6f7b6ba730ace252185436ae0d0a76c9055"
+  }
+}
