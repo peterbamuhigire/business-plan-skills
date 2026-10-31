@@ -19,5 +19,7 @@ distinguishes narrative from evidence, and avoids the repository's banned generi
 | `vc-east-africa` | Equity investment based on retention, unit economics, moat and dilution |
 | `owner-manager-uganda` | Staged self-funded growth constrained by cash, control capacity and reversibility |
 
-Validate the pack structure with `python -X utf8 tools/exemplar-packs/validate_exemplar_packs.py`
-and each release record with `python -X utf8 tools/release-gate/validate_release_bundle.py <path>`.
+Validate the pack structure with `python3 -X utf8 tools/exemplar-packs/validate_exemplar_packs.py`
+and each release record with `python3 -X utf8 tools/release-gate/validate_release_bundle.py <path>`
+(use `python` on Windows). On 31 October 2026 the first command passed for 4 packs and 32 artefacts,
+and the second exited 0 for each pack with `decision=blocked`, the correct result for these teaching packs.

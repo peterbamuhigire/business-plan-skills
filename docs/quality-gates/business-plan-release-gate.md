@@ -37,13 +37,15 @@ Use `templates/release-evidence-bundle.json`. All evidence paths must resolve in
 
 ## Gate execution
 
-Run:
+Run (use `python` on Windows):
 
-```powershell
-python -X utf8 tools\release-gate\validate_release_bundle.py <release-bundle.json>
+```sh
+python3 -X utf8 tools/release-gate/validate_release_bundle.py <release-bundle.json>
 ```
 
 The validator checks structure, path existence, state consistency, blocker precedence, and finalisation evidence. It cannot determine whether a source truly supports a claim, whether a financial judgement is correct, or whether a visual artefact is good. Those remain specialist and human review responsibilities.
+
+The validator does not yet require the spreadsheet recalculation report (`tools/workbook-audit/recalc_check.py`, see `references/cross-engine-delivery-contract.md`). A spreadsheet handoff can pass on the literal-input contract alone, so run the recalculation and record its report in the bundle evidence; exit 2 from that tool means no spreadsheet engine was available and the result is not assessed.
 
 ## Recovery
 
