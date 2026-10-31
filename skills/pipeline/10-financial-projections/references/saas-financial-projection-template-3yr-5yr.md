@@ -9,6 +9,28 @@ cross-reference: [saas-unit-economics-model-template, saas-cohort-and-retention-
 
 The canonical SaaS-specific financial model structure for any plan in this engine. Built around Mersch's Multi-Step Income Statement and the ARR-waterfall discipline. This template is mandatory; the engine's previous generic `financial-model-templates.md` is for non-SaaS businesses.
 
+## 0. What the shipped workbook does and does not model
+
+Verified on 2026-10-31 against `../templates/saas-financial-projection-3yr-5yr.xlsx` (cell references are to that file). The structure below in section 1 is the specification; the workbook implements only part of it. Treat the workbook as a starting structure and extend it before any lender or investor use. Update this table when `scripts/build-financial-models/build_financial_projection.py` is fixed.
+
+| Specified here | In the shipped workbook | Required action before relying on it |
+|---|---|---|
+| Balance Sheet tab (section 8) | Absent. The 11 sheets are README, Inputs, ARR-Waterfall, MRR-Detail, Headcount, PnL, Cash, Sensitivity, Scenarios, Bankability-Dashboard and Africa-Notes | Add a balance sheet and a cash-to-balance-sheet check row |
+| Debt drawdown, interest, repayment, DSCR | `Inputs!B91:B92` feed nothing; `Cash` has no debt line; the dashboard has no DSCR | Add a debt schedule and a DSCR row; apply the 1.25 times minimum from the router |
+| Working capital: DSO, DPO, prepayment | `Inputs!B78:B81` feed nothing; cash collected equals revenue billed | Add receivables, payables and deferred-revenue movements |
+| Cash tax | `PnL!B20` is `MAX(0, operating income) x rate`, with no loss carry-forward, and tax never reaches `Cash` | Route tax treatment to the accounting engine; do not quote net income or closing cash as bankable |
+| Adjusted EBITDA | `PnL!B18` adds depreciation (`B16`) and stock-based pay (`B17`) to operating income (`B14`), but operating expense never charged them | Quote operating income, not Adjusted EBITDA, until both are expensed; do not quote the dashboard's EBITDA margin or Rule of 40 |
+| Headcount plan tied to ARR (tab 4) | Feeds nothing; P&L operating expense is a share of revenue. With default inputs the Year 1 team costs 623,000 (`Inputs!D75`) against total operating expense of 279,224 (`PnL!B13`) | Make operating expense equal headcount cost plus non-headcount cost, or drop the plan from the narrative |
+| FX and UGX reporting (section 2) | `Inputs!B99:B100` feed nothing and every figure is in USD although `Inputs!B98` says UGX | Add a dated, sourced FX path and convert, or state the model is in USD |
+| Stored values | Formula cells store a placeholder 0 until the file is recalculated (`fullCalcOnLoad` makes Excel and LibreOffice recompute on open) | Never read stored values; recalculate with `tools/workbook-audit/recalc_check.py` |
+
+To use the workbook for a lender or investor case:
+
+1. Extend it for every row above that applies, then regenerate or save it with recalculated values.
+2. Run `tools/workbook-audit/formula_map.py <workbook> --require-scenarios --require-balance-checks --require-wired-inputs`. Both sides of every tie-out may be formulas.
+3. Write a reconciliation contract naming each tie-out (cash to balance sheet, retained earnings, debt to schedule) and run `tools/workbook-audit/recalc_check.py <workbook> --checks <contract.json> --require-checks`. Exit 2 means no spreadsheet engine was available: record the check as `not-assessed`; it is not a pass.
+4. Quote only figures that survive steps 2 and 3, and hand the result to the accounting engine for treatment of tax, depreciation and share-based pay.
+
 ## 1. Worksheet / Tab Architecture (mandatory minimum)
 
 A SaaS financial model should have these tabs (whether built in Excel, Google Sheets, or modelled in narrative form for early plans):
@@ -55,7 +77,7 @@ A SaaS financial model should have these tabs (whether built in Excel, Google Sh
 
 ### FX / Localisation Assumptions (Africa)
 - Reporting currency (e.g., UGX)
-- USD/local FX rate (e.g., UGX 3,700)
+- USD/local FX rate (record a dated, sourced rate; do not copy a figure from this reference)
 - FX depreciation expected per year
 - USD-denominated cost categories (cloud, AI, USD-priced SaaS tools)
 - Local-currency cost categories (labour, rent, local services)
@@ -261,7 +283,7 @@ One-variable-at-a-time impact on Year 3 ARR, Year 3 EBITDA, end-Y3 cash:
 | Win rate | 22% | 15% | 30% | 12% |
 | ARPU | UGX 750k | UGX 600k | UGX 900k | UGX 500k |
 | Sales capacity | full plan | -25% | +25% | -40% |
-| FX | UGX 3,700/$ | UGX 4,200/$ | UGX 3,600/$ | UGX 4,500/$ |
+| FX (illustrative scenario values, not rates) | UGX 3,700/$ | UGX 4,200/$ | UGX 3,600/$ | UGX 4,500/$ |
 | **Year 3 ARR** | ___ | ___ | ___ | ___ |
 | **Year 3 EBITDA** | ___ | ___ | ___ | ___ |
 | **Cash position** | ___ | ___ | ___ | ___ |

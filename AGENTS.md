@@ -178,7 +178,7 @@ When preparing decks or presentations, also load:
 - `meta-pitch-preparation`
 - `meta-presentation-design`
 
-Before a country or market fact is released, check `docs/source-registers/country-market-data.json`; an overdue entry or missing claim-level citation blocks the affected conclusion. Before sector assumptions enter operations, risk, implementation or finance, apply `references/sector-regulatory-gates.md`. Run `tools/workbook-audit/formula_map.py` on delivered XLSX models. Use `meta-investment-committee-red-team` only after a complete plan, model audit and evidence pack exist.
+Before a country or market fact is released, check `docs/source-registers/country-market-data.json`; an overdue entry or missing claim-level citation blocks the affected conclusion. Before sector assumptions enter operations, risk, implementation or finance, apply `references/sector-regulatory-gates.md`. Run `tools/workbook-audit/formula_map.py` and `tools/workbook-audit/recalc_check.py` on delivered XLSX models (exit 2 from the second means no spreadsheet engine, so the result is `not-assessed`). Use `meta-investment-committee-red-team` only after a complete plan, model audit and evidence pack exist.
 
 Before external release of a complete plan, apply `references/cross-engine-delivery-contract.md`, populate `templates/release-evidence-bundle.json`, and run `tools/release-gate/validate_release_bundle.py`. Missing mandatory research, finance, spreadsheet, design, document, security, render, reviewer or authority evidence remains blocking.
 

@@ -37,7 +37,7 @@ Any skill touching money, inventory, payroll, tax, grants, banking, POS, mobile 
 
 Current-source portals identify where to verify; they do not prove a copied figure. An active country context must link to the dated evidence register. Regulated activity must pass the applicable central sector screen, and an unavailable professional or authority check remains `not assessed`.
 
-For an XLSX deliverable, run `tools/workbook-audit/formula_map.py` and retain its JSON report. Broken references, formula errors, missing required scenarios, missing reconciliation checks or external workbook links block release. Audience exemplars are validated reference packs; replace every illustrative input and re-run finance, evidence, regulatory and committee gates for client work.
+For an XLSX deliverable, run `tools/workbook-audit/formula_map.py` and `tools/workbook-audit/recalc_check.py` and retain both JSON reports; the second recalculates a copy in LibreOffice, so stored placeholder values and formula-sourced tie-outs are tested, and exit 2 means `not-assessed`. Broken references, formula errors, missing required scenarios, missing reconciliation checks or external workbook links block release. Audience exemplars are validated reference packs; replace every illustrative input and re-run finance, evidence, regulatory and committee gates for client work.
 
 For a complete plan, use `business-plan-orchestrator`, apply `references/cross-engine-delivery-contract.md`, and validate a populated release bundle. A native document must be written and opened; a layout-sensitive artefact must also be rendered and visually reviewed. Automated validation does not substitute for claim verification, professional judgement, or release authority.
 
