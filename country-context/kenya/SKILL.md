@@ -143,6 +143,8 @@ Detailed reference data: `references/kenya-investment-climate.md`
 
 ## 4. Taxation
 
+> Orientation only. These rates are restated for planning; they are not resolved from the accounting engine's statutory source register. On 2026-10-31 that register held the Kenya VAT and eTIMS entries as `draft` skeletons (not for final output) and no other Kenya tax entry. Resolve each rate through the register lookup for the date of use, and keep a rate that cannot be resolved `not assessed` in the model.
+
 | Tax | Rate / Rule |
 |-----|-------------|
 | **Corporate income tax** | **30%** (standard) |

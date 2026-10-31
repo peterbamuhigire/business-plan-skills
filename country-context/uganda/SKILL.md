@@ -125,6 +125,8 @@ Uganda is the **default country** for this skills suite. All core skills (01–1
 
 ## 4. Taxation
 
+> Orientation only. These rates are restated for planning; they are not resolved from the accounting engine's statutory source register. On 2026-10-31 that register held the Uganda income tax, VAT, PAYE and withholding entries as `draft` (not for final output) and only the NSSF entry as `verified-current`. Resolve each rate through the register lookup for the date of use, and keep a rate that cannot be resolved `not assessed` in the model.
+
 | Tax | Rate / Rule |
 |-----|-------------|
 | **Corporate income tax** | 30% (Income Tax Act Cap. 340) |

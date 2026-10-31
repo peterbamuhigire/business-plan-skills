@@ -173,6 +173,8 @@ Universal frameworks always apply: CAMPARI, DSCR ≥ 1.25×, Minto Pyramid, Rasi
 
 ## 4. Taxation
 
+> Orientation only. These rates are restated for planning; they are not resolved from the accounting engine's statutory source register. On 2026-10-31 that register had no Tanzania entries (its lookup reports the jurisdiction as unknown), so every Tanzania rate below is unverified here and stays `not assessed` in a model until a dated issuer source is recorded.
+
 | Tax | Rate / Rule |
 |-----|-------------|
 | **Corporate income tax** | **30%** (standard; confirmed by budget collections pattern) |
