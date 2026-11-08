@@ -153,5 +153,10 @@
       "description": "Run this engine's enforcement hooks (e.g. destructive-command gate, banned-font gate where applicable). Disable hook enforcement while keeping skills and agents available.",
       "default": true
     }
+  },
+  "description": "Create bankable business plans, lender and DFI submissions, investor decks and memos, financial models, and country and market analysis.",
+  "author": {
+    "name": "Peter Bamuhigire",
+    "url": "https://github.com/peterbamuhigire"
   }
 }
